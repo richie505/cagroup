@@ -1,0 +1,267 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P5.F12",
+  "P5.F13",
+  "P5.F14",
+  "P5.F15",
+  "P5.F5",
+  "P5.F6",
+  "P5.F7",
+  "P5.F8",
+  "P6.F10",
+  "P6.F11",
+  "P6.F2",
+  "P6.F3",
+  "P6.F4",
+  "P6.F6",
+  "P6.F8",
+  "P6.F9",
+  "P7.F2",
+  "P7.F3",
+  "P7.F4",
+  "P7.F7",
+  "P7.F8",
+  "P7.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Upgraded partnership",
+   "question": "In which year were India–Russia relations upgraded to a Special and Privileged Strategic Partnership?",
+   "options": [
+    "2000",
+    "2010",
+    "2021",
+    "2031"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "India–Russia relations were upgraded to a Special and Privileged Strategic Partnership in 2010. The year 2000 marked the Declaration on Strategic Partnership, while 2021–2031 relates to the military-technical cooperation agreement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Military-technical cooperation period",
+   "question": "The India–Russia military-technical cooperation agreement covers which period?",
+   "options": [
+    "2010–2020",
+    "2015–2025",
+    "2021–2031",
+    "2025–2035"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "The military-technical cooperation agreement covers 2021–2031. The other periods do not correspond to the agreement mentioned in the India–Russia relationship timeline."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence dependence during the Cold War",
+   "question": "During the Cold War, approximately what share of India's defence equipment was supplied by the USSR?",
+   "options": [
+    "About 40%",
+    "About 60%",
+    "About 70%",
+    "About 80%"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F7"
+   ],
+   "explanation": "The USSR supplied approximately 70% of India's defence equipment during the Cold War. The figures of 40% and 60% are lower than the stated share, while 80% is higher."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nuclear cooperation",
+   "question": "Which project is described as a flagship of India–Russia nuclear cooperation?",
+   "options": [
+    "Sakhalin energy investment",
+    "Kudankulam Nuclear Power Plant",
+    "BrahMos co-development",
+    "INDRA exercise"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F8"
+   ],
+   "explanation": "The Kudankulam Nuclear Power Plant is the flagship of India–Russia nuclear cooperation. BrahMos concerns co-development, Sakhalin concerns energy investment, and INDRA is an exercise."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Russian-origin military platforms",
+   "question": "Approximately what share of India's military platforms are of Russian origin?",
+   "options": [
+    "About 40%",
+    "About 50%",
+    "About 60%",
+    "About 70%"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F12"
+   ],
+   "explanation": "Approximately 60% of India's military platforms are of Russian origin, including the Su-30 MKI, T-90 and S-400. The 70% figure refers to the USSR's approximate share of India's defence equipment supply during the Cold War."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Exercises, defence procurement and nuclear cooperation",
+   "question": "Consider the following statements regarding India–Russia cooperation:\n1. INDRA and Zapad-2025 are exercises associated with India–Russia cooperation.\n2. The S-400 system was co-produced in India.\n3. The “Action Plan for Prioritization and Implementation of Cooperation Areas in the Nuclear Field” was signed with Russia through Rosatom.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F13",
+    "P5.F14",
+    "P5.F15"
+   ],
+   "explanation": "Statements 1 and 3 are correct: INDRA and Zapad-2025 are exercises, and the nuclear-field Action Plan was signed with Russia through Rosatom. Statement 2 is incorrect because the S-400 was procured from Russia, not co-produced in India."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "2023 diplomatic crisis",
+   "question": "Which one of the following statements regarding the India–Canada diplomatic crisis of 2023 is incorrect?",
+   "options": [
+    "Justin Trudeau alleged an Indian role in the killing of Hardeep Nijjar.",
+    "The alleged killing was linked to British Columbia.",
+    "Diplomats were expelled and High Commissioners were withdrawn.",
+    "The alleged killing took place in Ontario."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "The incorrect statement is that the alleged killing took place in Ontario; the case was linked to British Columbia. The crisis involved Justin Trudeau's allegation, followed by the expulsion of diplomats and withdrawal of High Commissioners."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Leadership transition",
+   "question": "Consider the following statements:\nStatement A: Justin Trudeau stepped down as Canadian Prime Minister in January 2025.\nStatement B: Mark Carney became Canadian Prime Minister in March 2024.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "Statement A is true, while Statement B is false. Mark Carney became Canadian Prime Minister in March 2025, not March 2024."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Security dialogue",
+   "question": "What new dialogue framework was established in the India–Canada reset?",
+   "options": [
+    "A new NSA-level security dialogue framework",
+    "A new G7-level trade dialogue framework",
+    "A new 2+2 defence dialogue framework",
+    "A new parliamentary dialogue framework"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "The India–Canada reset included a new NSA-level security dialogue framework. The other three options are not the framework identified in the bilateral reset."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Canadian investment rank and amount",
+   "question": "What was Canada's position and investment amount in India during 2000–2025?",
+   "options": [
+    "17th-largest investor with $4.18 billion",
+    "7th-largest investor with $30.8 billion",
+    "10th-largest investor with $4.18 billion",
+    "17th-largest investor with $70 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F6"
+   ],
+   "explanation": "Canada was India's 17th-largest investor, with investment of $4.18 billion during 2000–2025. The $30.8 billion figure relates to trade, while $70 billion was the CEPA trade target for 2030."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Diaspora, counter-terrorism and G7 framework",
+   "question": "Match List-I with List-II regarding India–Canada relations and associated groupings.\n\nList-I\n a. Indian-origin population in Canada\n b. Joint Working Group on Counter-Terrorism\n c. India–Canada–Australia partnership\n d. G7\n\nList-II\n i. 1.8 million-plus\n ii. Established in 1997\n iii. Trilateral technology partnership\n iv. Seven members\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F8",
+    "P6.F9",
+    "P6.F10",
+    "P6.F11"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: Canada's Indian-origin population is 1.8 million-plus, the Joint Working Group dates to 1997, the partnership is trilateral and technological, and the G7 has seven members. The other codes interchange these associations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bilateral military plan",
+   "question": "What defence-related arrangement was exchanged between India and Greece in 2026?",
+   "options": [
+    "Bilateral Military Cooperation Plan 2026",
+    "Five-year nuclear cooperation plan",
+    "Bilateral Maritime Trade Plan 2026",
+    "Agenda 2030 Defence Charter"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "India and Greece exchanged the Bilateral Military Cooperation Plan 2026. The other options do not describe the defence arrangement exchanged between the two countries."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Liaison officer and modernisation",
+   "question": "Assertion (A): Greece appointed an International Liaison Officer at the IFC-IOR in Gurugram.\nReason (R): Greece is pursuing modernisation under Agenda 2030.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "Both the assertion and the reason are true: Greece has an International Liaison Officer at the IFC-IOR in Gurugram and is modernising under Agenda 2030. However, the modernisation agenda does not explain the specific placement of the liaison officer."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Historical and economic India–Greece links",
+   "question": "Match List-I with List-II regarding India–Greece relations.\n\nList-I\n a. Bilateral trade\n b. Alexander's advance into India\n c. Founder of the Greco-Bactrian kingdom\n d. Demetrius\n\nList-II\n i. Approximately USD 2 billion\n ii. 326 BCE\n iii. Diodotus\n iv. Expanded into north-western India\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F7",
+    "P7.F8",
+    "P7.F9"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: bilateral trade is approximately USD 2 billion, Alexander's advance is dated to 326 BCE, Diodotus founded the Greco-Bactrian kingdom, and Demetrius expanded into north-western India. Each alternative code mispairs at least one historical or economic detail."
+  }
+ ]
+}

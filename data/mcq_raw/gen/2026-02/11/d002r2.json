@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P3.F1",
+  "P3.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Guideline duration and conduct",
+   "question": "Under the Ministry of Home Affairs guidelines on “Vande Mataram” at official functions and educational institutions, which of the following is correct?",
+   "options": [
+    "All six stanzas are sung for 3 minutes 10 seconds, with people standing attentively.",
+    "All six stanzas are sung for 3 minutes 10 seconds, with people remaining seated.",
+    "Only selected stanzas are sung for 3 minutes 10 seconds, with people standing attentively.",
+    "All six stanzas are sung for 10 minutes, with people standing attentively."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "The guidelines require all six stanzas of “Vande Mataram” to be sung for 3 minutes 10 seconds, while everyone stands attentively. The most tempting alternative is the second option, but the guidelines require standing attentively, not remaining seated."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Historical anniversary",
+   "question": "The February 2026 guidelines on “Vande Mataram” marked which historical milestone?",
+   "options": [
+    "150 years since its first publication on 7 November 1875.",
+    "The centenary of its first publication on 7 November 1875.",
+    "150 years since its first publication in February.",
+    "150 years since its first publication on 7 November in a later year."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "The guidelines marked 150 years since the first publication of “Vande Mataram” on 7 November 1875. The second option is the closest trap, but the milestone was 150 years, not the centenary."
+  }
+ ]
+}

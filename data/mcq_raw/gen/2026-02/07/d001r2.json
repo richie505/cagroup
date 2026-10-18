@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F15",
+  "P2.F11"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Project scale and affected communities",
+   "question": "With reference to the scale and tribal communities associated with the Great Nicobar Island Project, consider the following statements:\n\n1. The development area is 166 sq km.\n2. Forest diversion is approximately 130 sq km.\n3. The tribes associated with the project are the Jarawa and Nicobarese.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F15"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the development area is 166 sq km and forest diversion is approximately 130 sq km. Statement 3 is incorrect because the tribes associated with the project are the Shompen and Nicobarese, not the Jarawa and Nicobarese."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Share of waste generated",
+   "question": "Under the Solid Waste Management Rules, 2026, bulk waste generators account for approximately what share of solid waste?",
+   "options": [
+    "Approximately one-fourth",
+    "Approximately 30%",
+    "Approximately one-half",
+    "Approximately two-thirds"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "Bulk waste generators produce approximately 30% of solid waste. The other proportions do not represent the share attributed to bulk waste generators under the Rules."
+  }
+ ]
+}

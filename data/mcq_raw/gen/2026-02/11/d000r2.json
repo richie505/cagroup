@@ -1,0 +1,82 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F2",
+  "P0.F4",
+  "P0.F5",
+  "P0.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Theme and background of World Wetlands Day",
+   "question": "Consider the following statements about World Wetlands Day 2026 and its background:\n1. The 2026 theme was “Wetlands and traditional knowledge: Celebrating cultural heritage”.\n2. The Ramsar Convention was adopted on 2 February 1997.\n3. World Wetlands Day has been observed since 1997.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F10"
+   ],
+   "explanation": "Statements 1 and 3 are correct. The Ramsar Convention was adopted on 2 February 1971, not 1997; 1997 is the year since which World Wetlands Day has been observed."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of World Pulses Day 2026?",
+   "options": [
+    "Pulses of the World: From Modesty to Excellence",
+    "Radio and Artificial Intelligence",
+    "Youth voices on multilingual education",
+    "Women in Science: Catalysing Viksit Bharat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The theme of World Pulses Day 2026 was “Pulses of the World: From Modesty to Excellence”. The other options were themes associated with World Radio Day, International Mother Language Day and National Science Day respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "International observance associations",
+   "question": "Match List-I with List-II in the context of February 2026 observances.\n\nList-I\n a. World Pulses Day — International Year of Pulses\n b. World Pulses Day — Declaration of the observance\n c. Global Tourism Resilience Day — Organisation associated with the day\n d. Global Tourism Resilience Day — Headquarters and year of establishment\n\nList-II\n i. UN Tourism\n ii. 2016\n iii. Madrid, established in 1975\n iv. United Nations General Assembly, December 2018\n\nSelect the correct answer using the codes given below.",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F7"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. The International Year of Pulses was 2016; World Pulses Day was declared by the United Nations General Assembly in December 2018; Global Tourism Resilience Day is associated with UN Tourism, headquartered in Madrid and established in 1975."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Theme and message",
+   "question": "Assertion (A): The theme of World Radio Day 2026 was “Radio and Artificial Intelligence”.\nReason (R): The message associated with the observance was “AI is a tool, not a voice”.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "Both Assertion and Reason are true. The stated theme and the message are separate elements of World Radio Day 2026; the message does not explain why that particular theme was selected."
+  }
+ ]
+}

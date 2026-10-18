@@ -1,0 +1,233 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P10.F3",
+  "P10.F4",
+  "P11.F3",
+  "P11.F4",
+  "P11.F5",
+  "P12.F10",
+  "P12.F11",
+  "P12.F3",
+  "P12.F5",
+  "P12.F6",
+  "P12.F7",
+  "P12.F9",
+  "P13.F11",
+  "P13.F2",
+  "P13.F3",
+  "P13.F5",
+  "P13.F6",
+  "P13.F8",
+  "P13.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Project approval and function",
+   "question": "What was the nature of the in-principle approval granted by the State Investment Promotion Board (SIPB) for Waaree Energies’ lithium-ion battery project?",
+   "options": [
+    "Approval for manufacturing cells, battery packs and BESS, with SIPB chaired by the Chief Minister",
+    "Approval for manufacturing green urea, with SIPB chaired by the Chief Minister",
+    "Approval for distributing electric cycles, with SIPB chaired by the Chief Minister",
+    "Approval for establishing a cocoa city, with SIPB chaired by the Chief Minister"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "The project received in-principle approval from the SIPB chaired by the Chief Minister for manufacturing cells, battery packs and battery energy storage systems. The other options refer to activities associated with different projects."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Company headquarters and leadership",
+   "question": "Which of the following statements about Waaree Energies is incorrect?",
+   "options": [
+    "Waaree Energies was established in 1990.",
+    "Waaree Energies is associated with Mumbai.",
+    "Hitesh Doshi is the CMD of Waaree Energies.",
+    "Waaree Energies was established in 2000."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "The incorrect statement changes the year of establishment to 2000; Waaree Energies was established in 1990. Its association with Mumbai and Hitesh Doshi’s position as CMD are correct."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Capacity and inputs",
+   "question": "With reference to the green urea plant at the Poodimadaka Green Hydrogen Hub, consider the following statements:\n1. The plant is planned to have a capacity of 1,000 tonnes of green urea per day.\n2. NTPC Green Energy will supply green ammonia, carbon dioxide and renewable-energy power.\n3. The project aims to reduce urea imports by 8–10 million tonnes.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F4"
+   ],
+   "explanation": "All three statements are correct: the planned capacity is 1,000 tonnes per day, NTPC Green Energy will supply the specified inputs, and the aim is to reduce urea imports by 8–10 million tonnes. The alternatives omit at least one of these project features."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Green products and import reduction",
+   "question": "Consider the following statements:\nStatement A: The Poodimadaka Green Hydrogen Hub is intended to produce green ammonia, green methanol, sustainable aviation fuel and green urea.\nStatement B: The green urea project aims to cut urea imports by 8–10 million tonnes.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4",
+    "P11.F5"
+   ],
+   "explanation": "Both statements are true. The hub is planned to produce the four listed green products, while the green urea project aims to reduce urea imports by 8–10 million tonnes."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Beneficiaries and emission reduction",
+   "question": "How many of the following correctly describe the e-cycle initiative under ‘Green & Healthy Kuppam’?\n1. SHG members and Anganwadi workers are among the beneficiaries.\n2. Working women are among the beneficiaries.\n3. The e-cycle causes 74.7% higher greenhouse-gas emissions than a petrol scooter.\n4. The e-cycle emits 67.9 g/km of CO₂ compared with 15.2 g/km from a petrol scooter.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F3",
+    "P12.F5"
+   ],
+   "explanation": "Only statements 1 and 2 are correct, so the answer is Only two. The e-cycle has 74.7% lower greenhouse-gas emissions, with 15.2 g/km of CO₂ compared with 67.9 g/km for a petrol scooter."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Price and financing",
+   "question": "Consider the following statements about the subsidised e-cycles distributed in Kuppam:\nStatement A: The subsidised price was ₹23,999, compared with a market price of ₹34,999.\nStatement B: EMI financing was available through AP Grameena Bank, with no down payment for women.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F6",
+    "P12.F7"
+   ],
+   "explanation": "Both statements are true. The subsidised price was ₹23,999 against a market price of ₹34,999, and AP Grameena Bank provided EMI financing with no down payment for women."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Vision framework",
+   "question": "Which long-term framework is associated with the development vision for Kuppam?",
+   "options": [
+    "Swarna Kuppam Vision 2029",
+    "Swarna Kuppam Vision 2027",
+    "Green Kuppam Vision 2030",
+    "Kuppam Development Vision 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F9"
+   ],
+   "explanation": "The framework associated with Kuppam is Swarna Kuppam Vision 2029. The other years and titles do not identify the stated framework."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Agency and technical support",
+   "question": "Consider the following statements regarding the institutional framework of the Kuppam initiative:\nStatement A: The Kuppam Area Development Authority is the agency associated with the framework.\nStatement B: IIT Kanpur provides technical support under a State–Academia–Industry model.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F10",
+    "P12.F11"
+   ],
+   "explanation": "Both statements are true. The Kuppam Area Development Authority is the associated agency, while IIT Kanpur provides technical support through the State–Academia–Industry model."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Population policy objective",
+   "question": "Assertion (A): Andhra Pradesh’s proposed Population Management Policy seeks to address the challenge of an ageing population.\nReason (R): The policy is linked with changing the mindset that people cannot work after the age of 60.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the reason explains the policy objective. Addressing an ageing population is linked with changing the mindset about work after 60."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sanjeevani Project targets",
+   "question": "Under the Sanjeevani Project in Andhra Pradesh, which health-screening target is planned by July?",
+   "options": [
+    "Screening 66 lakh high-risk individuals and 5 lakh hostel students",
+    "Screening 70 lakh high-risk individuals and 6 lakh hostel students",
+    "Screening 5 lakh high-risk individuals and 66 lakh hostel students",
+    "Screening 66 lakh students up to Class XII and 70 lakh hostel students"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "The target is to screen 66 lakh high-risk individuals and 5 lakh hostel students by July. The other options alter the groups or figures specified for the Sanjeevani Project."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Nutrition and economic targets",
+   "question": "Consider the following statements about Andhra Pradesh’s development plans:\nStatement A: A nutrition plan covers Mid-Day Meal, Anganwadi and Anna Canteen beneficiaries.\nStatement B: The State aims to double GSDP and per capita income every five years.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F5",
+    "P13.F6"
+   ],
+   "explanation": "Both statements are true. The nutrition plan covers the three listed beneficiary groups, and the economic target is to double GSDP and per capita income every five years."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Loan interest, agriculture and action plans",
+   "question": "With reference to Andhra Pradesh’s development plans, consider the following statements:\n1. The State pays 14% interest on past loans.\n2. Saffron cultivation has been taken up as a trial at Lambasingi.\n3. A 100-day action plan has been prepared for Class X results, and an action plan is also under the GRAM G scheme.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F8",
+    "P13.F9",
+    "P13.F11"
+   ],
+   "explanation": "All three statements are correct. The plans include payment of 14% interest on past loans, a saffron cultivation trial at Lambasingi, and action plans for Class X results and under the GRAM G scheme."
+  }
+ ]
+}

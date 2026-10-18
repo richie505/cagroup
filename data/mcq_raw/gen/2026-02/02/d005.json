@@ -1,0 +1,143 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  19,
+  20,
+  21,
+  22,
+  23,
+  24
+ ],
+ "only": [
+  "P19.F2",
+  "P19.F3",
+  "P19.F4",
+  "P20.F4",
+  "P21.F2",
+  "P22.F2",
+  "P22.F3",
+  "P23.F1",
+  "P23.F2",
+  "P23.F4",
+  "P23.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Helpline, constitutional basis and judicial complaints",
+   "question": "With reference to Nyaya Setu and the in-house procedure for complaints against judges, consider the following statements:\n1. Nyaya Setu can be accessed through WhatsApp number 72177 11814 by sending “Hi”, and Article 39A concerns free legal aid.\n2. A total of 8,630 complaints were recorded against sitting judges during 2016–2025.\n3. The Chief Justice of India handles complaints against Supreme Court judges, while Chief Justices of High Courts handle complaints against High Court judges; the Chief Justice of India is Justice Surya Kant.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P19.F2",
+    "P19.F3",
+    "P19.F4"
+   ],
+   "explanation": "All three statements are correct. Nyaya Setu uses WhatsApp number 72177 11814, Article 39A relates to free legal aid, 8,630 complaints were recorded during 2016–2025, and the in-house procedure assigns complaints according to the level of the judiciary. The tempting option “1 and 3 only” is incorrect because statement 2 is also correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Origin and judicial recognition of doctrine",
+   "question": "The Andhra Pradesh High Court referred to the Public Trust Doctrine in the context of tank bunds. From which legal tradition did the doctrine originate, and in which case was it recognised by the Supreme Court?",
+   "options": [
+    "Roman law; M.C. Mehta vs Kamal Nath (1997)",
+    "Roman law; Bandhua Mukti Morcha (1984)",
+    "PUDR (1982); M.C. Mehta vs Kamal Nath (1997)",
+    "Neeraja Chaudhary (1984); Kailash Chand Sharma (2002)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F4"
+   ],
+   "explanation": "The Public Trust Doctrine originated in Roman law and was recognised by the Supreme Court in M.C. Mehta vs Kamal Nath (1997). The other options incorrectly substitute cases associated with bonded labour or nativity-related issues."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inauguration and implementing organisation",
+   "question": "Who inaugurated India’s first Bharat Ratna Dr Babasaheb Ambedkar Advocate Training and Research Center, and which organisation set it up?",
+   "options": [
+    "Devendra Fadnavis and B.R. Gavai; Bar Council of Maharashtra and Goa",
+    "Justice Lisa Gill and Justice Suresh Aravind; Supreme Court collegium",
+    "Surya Kant and B.R. Gavai; Ministry of Law and Justice",
+    "Devendra Fadnavis and Surya Kant; Bar Council of India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F2"
+   ],
+   "explanation": "The centre was inaugurated by Chief Minister Devendra Fadnavis and former Chief Justice B.R. Gavai, and was set up by the Bar Council of Maharashtra and Goa under the Advocates Act, 1961. The other options wrongly replace the inaugurating persons or the organisation."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitutional safeguards and landmark cases",
+   "question": "With reference to the Bonded Labour System (Abolition) Act, 1976, consider the following statements:\n1. Article 23 prohibits forced labour, while Article 21 protects dignity.\n2. Bandhua Mukti Morcha and Neeraja Chaudhary were decided in 1984.\n3. PUDR was decided in 1982.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P22.F2",
+    "P22.F3"
+   ],
+   "explanation": "All three statements are correct. Article 23 addresses forced labour, Article 21 protects dignity, Bandhua Mukti Morcha and Neeraja Chaudhary were decided in 1984, and PUDR was decided in 1982. The options omitting statement 1 or statement 3 are therefore incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Purpose and definition of Nativity Card",
+   "question": "Consider the following statements regarding the Kerala Nativity Card Bill:\nStatement A: The Kerala Cabinet approved the Nativity Card as an official identity for state services, benefits and reservations, and it was to be introduced on 23 February 2026.\nStatement B: A native is a person born in Kerala without foreign citizenship, or a person whose ancestors were born in Kerala; the card becomes invalid on acquiring foreign citizenship.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F1",
+    "P23.F2"
+   ],
+   "explanation": "Both statements are true. The Bill provides for the Nativity Card as an official identity for state services, benefits and reservations, and defines native status through birth or ancestry in Kerala while making the card invalid upon acquiring foreign citizenship. Neither statement changes the Bill’s stated purpose or definition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Related constitutional and statutory framework",
+   "question": "Which pair of enactments was specifically associated with the Kerala Nativity Card Bill?",
+   "options": [
+    "Citizenship Act, 1955 and RBD Act, 1969",
+    "Advocates Act, 1961 and Rehabilitation Scheme, 2016",
+    "Bonded Labour System (Abolition) Act, 1976 and Article 23",
+    "Tele-Law and Article 39A"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F4"
+   ],
+   "explanation": "The Kerala Nativity Card Bill was related to the Citizenship Act, 1955 and the RBD Act, 1969, along with several constitutional provisions. The other pairs belong to legal-aid, bonded-labour or advocate-training contexts rather than the related framework specified for this Bill."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Landmark cases and years",
+   "question": "Match the cases associated with the Kerala Nativity Card Bill with the years in which they were decided.\n\nList-I\n a. Dr Pradeep Jain\n b. Kailash Chand Sharma\n c. Sunanda Reddy vs State of AP\n d. AVS Narasimha Rao vs State of AP\n\nList-II\n i. 1984\n ii. 2002\n iii. 1995\n iv. 1969",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F5"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: Dr Pradeep Jain—1984, Kailash Chand Sharma—2002, Sunanda Reddy vs State of AP—1995, and AVS Narasimha Rao vs State of AP—1969. The other codes interchange the years among these cases."
+  }
+ ]
+}

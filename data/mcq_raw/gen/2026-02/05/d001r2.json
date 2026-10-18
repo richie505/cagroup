@@ -1,0 +1,103 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P2.F11",
+  "P2.F5",
+  "P2.F6",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Key outcomes",
+   "question": "With reference to the India–France Special Global Strategic Partnership outcomes, consider the following statements:\n1. The India–France Innovation Network is an outcome in the area of artificial intelligence and technology.\n2. India and France adopted a Joint Declaration on critical minerals supply chains.\n3. TRISHNA is an ISRO–CNES satellite for optical imaging.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the India–France Innovation Network and the Joint Declaration on critical minerals supply chains were among the outcomes. Statement 3 is incorrect because TRISHNA is associated with thermal infrared, not optical imaging."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Core members",
+   "question": "Which of the following groups consists entirely of core members of the Pax Silica coalition?",
+   "options": [
+    "United States, Japan, South Korea and Australia",
+    "Canada, European Union, OECD and Taiwan",
+    "India, Canada, Japan and Taiwan",
+    "European Union, United Kingdom, OECD and Qatar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The United States, Japan, South Korea and Australia are all listed as core members of Pax Silica. Canada, the European Union, OECD and Taiwan are inaugural observers, making the other combinations incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Observers",
+   "question": "Which group comprised the inaugural observers of the Pax Silica coalition?",
+   "options": [
+    "Canada, European Union, OECD and Taiwan",
+    "United States, Japan, South Korea and Australia",
+    "United Kingdom, Israel, Singapore and Qatar",
+    "India, Japan, Australia and Taiwan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "The inaugural observers were Canada, the European Union, OECD and Taiwan. The other options either list core members or include countries not identified as inaugural observers."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Related initiatives and ministerial meeting",
+   "question": "Match the following Pax Silica-related initiatives and details:\n\nList-I\n a. Supply Chain Resilience Initiative\n b. Quad Critical Minerals Initiative\n c. Critical Minerals Ministerial\n d. Delegations at the Critical Minerals Ministerial\n\nList-II\n i. 2021\n ii. 2025\n iii. 4 February 2026\n iv. 55\n\nSelect the correct answer using the codes given below.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F9"
+   ],
+   "explanation": "The Supply Chain Resilience Initiative dates to 2021, while the Quad Critical Minerals Initiative dates to 2025. The United States hosted the Critical Minerals Ministerial on 4 February 2026, with 55 delegations."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Reported ambassador name",
+   "question": "Which of the following statements regarding the reported name of the US Ambassador associated with India’s Pax Silica accession is incorrect?",
+   "options": [
+    "The CA360 detail names the US Ambassador as Sergio Cortez.",
+    "The daily source names the US Ambassador as Sergio Gor.",
+    "The CA360 detail names the US Ambassador as Sergio Gor.",
+    "The two reported names are Sergio Cortez and Sergio Gor."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "The incorrect statement is that the CA360 detail names the Ambassador as Sergio Gor; it names Sergio Cortez. Sergio Gor is the name reported by the daily source."
+  }
+ ]
+}

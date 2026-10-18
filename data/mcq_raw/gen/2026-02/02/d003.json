@@ -1,0 +1,271 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P10.F3",
+  "P11.F2",
+  "P11.F3",
+  "P11.F4",
+  "P11.F5",
+  "P11.F6",
+  "P6.F2",
+  "P8.F10",
+  "P8.F11",
+  "P8.F2",
+  "P8.F3",
+  "P8.F5",
+  "P8.F6",
+  "P8.F7",
+  "P8.F8",
+  "P8.F9",
+  "P9.F1",
+  "P9.F2",
+  "P9.F4",
+  "P9.F5",
+  "P9.F7",
+  "P9.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment",
+   "question": "Who became the new Chief Minister of Manipur after the revocation of President’s Rule in February 2026?",
+   "options": [
+    "Yumnam Khemchand Singh",
+    "Ajay Kumar Bhalla",
+    "Droupadi Murmu",
+    "P. Wilson"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "Yumnam Khemchand Singh, the BJP legislature party leader, became the new Chief Minister of Manipur. Ajay Kumar Bhalla was the Governor, not the Chief Minister."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Representation in higher judiciary",
+   "question": "According to the private member constitutional amendment Bill on judicial diversity, which group constituted approximately 20% of higher-judiciary appointees?",
+   "options": [
+    "SC/ST/OBC",
+    "Women",
+    "Religious minorities",
+    "The Law Ministry"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "The Bill noted that SC, ST and OBC communities together constituted approximately 20% of higher-judiciary appointees. Women constituted less than 15%, while religious minorities constituted less than 5%."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Bill proposal",
+   "question": "Consider the following statements:\nStatement A: The Bill proposed representation proportional to population for SC, ST, OBC, minorities and women.\nStatement B: The Bill proposed that the Centre notify collegium recommendations within 60 days.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "Statement A is correct because the Bill proposed population-proportional representation for the specified groups. Statement B is incorrect because the proposed period was 90 days, not 60 days."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitutional provisions and Judges Cases",
+   "question": "With reference to the constitutional framework governing the higher judiciary, consider the following statements:\n1. Article 124 deals with Supreme Court judges.\n2. The First Judges case established the collegium system.\n3. The Second Judges case created the collegium system.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F5",
+    "P8.F6",
+    "P8.F7"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Article 124 deals with Supreme Court judges, and the Second Judges case created the collegium system. Statement 2 is incorrect because the First Judges case resulted in executive primacy."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Judges Cases and NJAC",
+   "question": "Match the following developments with the corresponding judicial or constitutional outcome:\n\nList-I\n(a) Third Judges case\n(b) NJAC case\n(c) Judicial members of the NJAC proposal\n(d) Non-judicial members of the NJAC proposal\n\nList-II\n(i) CJI plus four senior-most judges\n(ii) 99th Amendment, 2014 struck down for violating the basic structure\n(iii) CJI and two senior judges\n(iv) Law Minister and two eminent persons",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8",
+    "P8.F9",
+    "P8.F10"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The Third Judges case clarified the collegium as the CJI plus four senior-most judges, while the NJAC composition included the CJI, two senior judges, the Law Minister and two eminent persons."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Strength of Supreme Court",
+   "question": "How many of the following statements regarding the strength of Supreme Court judges are correct?\n1. Parliament has the power to increase the strength of Supreme Court judges.\n2. The strength was 8 in 1950.\n3. The strength was 13 in 1956.\n4. The strength was 33 in 2019, including the CJI.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F11"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: Parliament can increase the strength, and it was 8 in 1950. The strength was 10 in 1956, and the 33 judges in 2019 excluded the CJI."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Case and hearing",
+   "question": "The Supreme Court’s final arguments on review petitions concerning the Sabarimala entry dispute are being heard in which case?",
+   "options": [
+    "Indian Young Lawyers Association vs State of Kerala (2018)",
+    "Dr Jay Thakur vs Union of India",
+    "Sastri Yagnapurushadji vs Muldas Bhudardas Vaishya",
+    "Dawoodi Bohra excommunication case"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "The review petitions are in Indian Young Lawyers Association vs State of Kerala (2018). Dr Jay Thakur vs Union of India concerned menstrual health as a fundamental right."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Religious practice and exclusion",
+   "question": "Why were women aged 10–50 barred from entering the Sabarimala temple according to the case background?",
+   "options": [
+    "Lord Ayyappa was regarded as a Naishtika Brahmachari",
+    "The temple followed Rule 3(b) of the 1956 Rules",
+    "The dispute concerned Dawoodi Bohra excommunication",
+    "The temple was governed by Article 26 alone"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The stated basis for barring women aged 10–50 was the belief that Lord Ayyappa was a Naishtika Brahmachari. Rule 3(b) of the 1965 Rules was the legal provision involved, not a 1956 rule."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Dissent and essential practice",
+   "question": "Assertion (A): Justice Indu Malhotra’s dissent in the Sabarimala matter emphasised respect for essential religious practice.\nReason (R): The women aged 10–50 were barred because Lord Ayyappa was regarded as a Naishtika Brahmachari.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2",
+    "P9.F4"
+   ],
+   "explanation": "Both statements are true, and the religious belief concerning Lord Ayyappa explains the basis of the practice that Justice Indu Malhotra’s dissent sought to respect. The dissent specifically emphasised respect for essential religious practice."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Religious freedom doctrines",
+   "question": "With reference to the doctrines and related issues in the Sabarimala review proceedings, consider the following statements:\n1. The Essential Religious Practices test focuses on religious essentiality.\n2. Article 25 deals with the rights of religious denominations, while Article 26 deals with individual freedom of religion.\n3. Dawoodi Bohra excommunication and Parsi women marrying outside are related issues.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F5",
+    "P9.F7",
+    "P9.F8"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the Essential Religious Practices test focuses on religious essentiality, and both listed matters are related issues. Statement 2 reverses the Articles: Article 25 concerns individual freedom of religion, while Article 26 concerns religious denominations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Constitutional responsibility",
+   "question": "In Dr Jay Thakur vs Union of India, how was the provision of menstrual-health facilities characterised?",
+   "options": [
+    "A constitutional responsibility, not charity",
+    "A voluntary contribution, not a constitutional responsibility",
+    "A power of religious denominations",
+    "A matter primarily outside Government of India concern"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "The provision of menstrual-health facilities was characterised as a constitutional responsibility, not charity. The other descriptions relate to different governance or religious-law issues."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Lok Sabha admissibility rule",
+   "question": "Which provision of the Lok Sabha Rules was cited for holding questions on PM CARES, PMNRF and the National Defence Fund inadmissible?",
+   "options": [
+    "Rule 41(2)",
+    "Rule 41(2)(viii) and Rule 41(2)(xvii)",
+    "Article 124",
+    "Article 130"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "The cited provisions were Rule 41(2)(viii), concerning matters not primarily the concern of the Government of India, and Rule 41(2)(xvii), concerning bodies not primarily accountable to the Government of India. Article 124 and Article 130 concern the Supreme Court."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Funds and purpose",
+   "question": "Match the following funds with the corresponding fact:\n\nList-I\n(a) PM CARES\n(b) PMNRF\n(c) National Defence Fund\n(d) PM CARES under RTI\n\nList-II\n(i) For displaced persons after Partition\n(ii) Set up on 27 March 2020 as a public charitable trust\n(iii) Welfare of the armed forces; committee chaired by the Prime Minister\n(iv) Not a “public authority”",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F4",
+    "P11.F5"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv. PM CARES was set up on 27 March 2020 as a public charitable trust and was not a “public authority” under RTI; PMNRF dates to 1948 for displaced persons after Partition, while the National Defence Fund concerns armed-forces welfare."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Audit and transfer of funds",
+   "question": "Which statement correctly describes the Supreme Court’s position on PM CARES and the National Disaster Response Fund?",
+   "options": [
+    "The Court refused to transfer PM CARES money to NDRF, and CAG audit applies to NDRF, not PM CARES",
+    "The Court ordered transfer of PM CARES money to NDRF, and CAG audit applies to PM CARES",
+    "The Court refused transfer to PMNRF, and CAG audit applies to PMNRF",
+    "The Court ordered transfer to the National Defence Fund, and CAG audit applies to PM CARES"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F6"
+   ],
+   "explanation": "In 2020, the Supreme Court refused to transfer PM CARES money to NDRF. CAG audit applies to NDRF, not PM CARES."
+  }
+ ]
+}

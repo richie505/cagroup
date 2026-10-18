@@ -1,0 +1,102 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": [
+  "P7.F2",
+  "P7.F3",
+  "P7.F4",
+  "P7.F5",
+  "P7.F6",
+  "P8.F5",
+  "P8.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Festival date and theme",
+   "question": "Consider the following statements about festivals and historical events in news:\n1. The Jain Chadar Mahotsav was scheduled at Jaisalmer from 6 to 8 March 2026 and featured the 872-year-old chadar of Dada Shri Jindat Suri.\n2. The 5th Rusoma Orange Festival was held at Rusoma, Nagaland, on 31 January 2026, with the theme “Abundance of Rusoma”.\n3. The Serengsia battle took place in 1831 as part of Ho tribal resistance in West Singhbhum.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Jain Chadar Mahotsav was scheduled at Jaisalmer from 6 to 8 March 2026, and the Rusoma Orange Festival was held on 31 January 2026 with the theme “Abundance of Rusoma”. Statement 3 is incorrect because the Serengsia battle occurred in 1837, not 1831."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Historical resistance",
+   "question": "The Serengsia battle of 1837, associated with Ho tribal resistance, took place in which area?",
+   "options": [
+    "West Singhbhum, Jharkhand",
+    "Jaisalmer, Rajasthan",
+    "Rusoma, Nagaland",
+    "Begili near Hosur, Krishnagiri"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "The Serengsia battle of 1837 took place in West Singhbhum, Jharkhand, and was associated with Ho tribal resistance. Jaisalmer, Rusoma and Begili near Hosur relate to other events in the news."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "A nearly 900-year-old Chola Shiva temple was found under mango tree roots at which place?",
+   "options": [
+    "Begili, near Hosur, Krishnagiri",
+    "Raichakonda Fort, Yadadri Bhuvanagiri",
+    "Jaisalmer",
+    "West Singhbhum"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "The nearly 900-year-old Chola Shiva temple was found at Begili, near Hosur, in Krishnagiri. Raichakonda Fort is associated with the Bhairava sculpture, while Jaisalmer and West Singhbhum relate to separate events."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sculpture and fort",
+   "question": "The 9-foot Bhairava sculpture reported in February 2026 was found at which location?",
+   "options": [
+    "Raichakonda Fort, Yadadri Bhuvanagiri, Telangana",
+    "Begili near Hosur, Krishnagiri",
+    "Jaisalmer, Rajasthan",
+    "Rusoma, Nagaland"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F6"
+   ],
+   "explanation": "The 9-foot Bhairava sculpture was found at Raichakonda Fort in Yadadri Bhuvanagiri, Telangana. Begili is associated with the Chola Shiva temple, while Jaisalmer and Rusoma were venues of other events."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Book release and historical personalities",
+   "question": "Consider the following statements:\nStatement A: “Vishwaguru Srila Prabhupada”, a Gujarati book, was released by Chief Minister Bhupendra Patel on 23 February 2026.\nStatement B: Buxi Jagabandhu led the Paika Rebellion in 1817, and Srila Prabhupada founded ISKCON in 1966.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5",
+    "P8.F7"
+   ],
+   "explanation": "Both statements are true. “Vishwaguru Srila Prabhupada” was a Gujarati book released by Chief Minister Bhupendra Patel on 23 February 2026; Buxi Jagabandhu led the Paika Rebellion in 1817, and Srila Prabhupada founded ISKCON in 1966."
+  }
+ ]
+}

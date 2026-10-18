@@ -1,0 +1,369 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F19",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F24",
+  "P0.F25",
+  "P0.F26",
+  "P0.F27",
+  "P0.F28",
+  "P0.F29",
+  "P0.F3",
+  "P0.F30",
+  "P0.F31",
+  "P0.F32",
+  "P0.F33",
+  "P0.F34",
+  "P0.F6",
+  "P0.F7",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Traditional wetland practices",
+   "question": "With reference to traditional wetland practices highlighted on World Wetlands Day 2026, consider the following statements:\n1. Kulam tank cascades are associated with Tamil Nadu.\n2. Kenis are shallow wells more than 200 years old in Wayanad, Kerala.\n3. Traditional fishing in Srikakulam is associated with Kerala.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: kulam tank cascades are associated with Tamil Nadu, while kenis are shallow wells more than 200 years old in Wayanad, Kerala. Statement 3 is incorrect because the traditional fishing practice mentioned is in Srikakulam, Andhra Pradesh, not Kerala."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Wetland ecosystem service",
+   "question": "Which wetland is noted for saving ₹4,680 million per year through sewage treatment?",
+   "options": [
+    "East Kolkata Wetlands",
+    "Bhoj Wetland",
+    "Kole Wetlands",
+    "Pallikaranai Marsh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "The East Kolkata Wetlands save ₹4,680 million per year through sewage treatment. Bhoj Wetland is associated with flood buffering and drinking water, while Kole Wetlands are known for below-sea-level rice cultivation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mangrove protection",
+   "question": "Which wetland's mangroves reduced damage during Cyclone Dana in 2024?",
+   "options": [
+    "Bhitarkanika",
+    "Renuka Lake",
+    "Deepor Beel",
+    "Wular Lake"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "Bhitarkanika's mangroves reduced damage during Cyclone Dana in 2024. Renuka Lake, Deepor Beel and Wular are associated with other wetland-related facts, not this cyclone-protection event."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Wetland degradation",
+   "question": "Which wetland shrank by 90% in 30 years?",
+   "options": [
+    "Pallikaranai Marsh",
+    "Harike",
+    "Bhitarkanika",
+    "East Kolkata Wetlands"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "Pallikaranai Marsh in Chennai shrank by 90% in 30 years. Harike is associated with a decline in migratory birds, while Bhitarkanika is noted for mangrove protection during Cyclone Dana."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Wetland condition indicators",
+   "question": "Consider the following statements about Indian wetlands:\n1. Migratory birds at Harike declined by 12% between 2021 and 2023.\n2. Wular is losing its water-holding capacity because of siltation.\n3. Pallikaranai Marsh expanded by 90% in 30 years.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12",
+    "P0.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Harike recorded a 12% decline in migratory birds between 2021 and 2023, and siltation is causing Wular to lose water-holding capacity. Statement 3 is incorrect because Pallikaranai Marsh shrank by 90% in 30 years."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Place in news",
+   "question": "Consider the following statements about Deepor Beel:\nStatement A: Deepor Beel is located in Assam.\nStatement B: Deepor Beel was associated with protests in 2021.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Both statements are true. Deepor Beel is an Assam wetland, and protests concerning it took place in 2021; therefore, neither the location nor the year in the other options is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mangrove restoration target",
+   "question": "Under MISHTI, what area of mangroves is targeted for restoration, and what is its approximate carbon-sequestration potential?",
+   "options": [
+    "540 sq km and about 4.5 million tonnes",
+    "68,000 water bodies and about 4.5 million tonnes",
+    "540 sq km and about 1.4 million hectares",
+    "2 million wetlands and about 18,000 tonnes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "MISHTI aims to restore 540 sq km of mangroves, with an approximate sequestration potential of 4.5 million tonnes. The other options combine figures associated with water-body rejuvenation, Ramsar-area coverage or Wetland Mitras."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Amrit Dharohar components",
+   "question": "Match the components of Amrit Dharohar with the corresponding details:\n\nList-I\n(a) Objective\n(b) First-phase site\n(c) Training programme\n(d) First-phase wetland\n\nList-II\n(i) Livelihood and eco-tourism\n(ii) ALP\n(iii) Sultanpur\n(iv) Paryatan Navik Certificate\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "a-i, b-iii, c-ii, d-iv",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "The correct pairs are a-i, b-iii, c-ii and d-iv: Amrit Dharohar promotes livelihood and eco-tourism; Sultanpur was a first-phase site; and training included ALP and the Paryatan Navik Certificate. The other codes mismatch these objectives, sites or training components."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Wetland City Accreditation",
+   "question": "Which pair became India's first Wetland City Accreditation cities in January 2025?",
+   "options": [
+    "Indore and Udaipur",
+    "Sultanpur and Sirpur",
+    "Chilika and Bhitarkanika",
+    "Menar and Khichan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "Indore and Udaipur became India's first Wetland City Accreditation cities in January 2025. Sultanpur, Sirpur, Chilika and Bhitarkanika are associated with other wetland initiatives, while Menar and Khichan were added as Ramsar sites."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Mission Sahbhagita achievements",
+   "question": "How many of the following statements about Mission Sahbhagita and Wetland Mitras are correct?\n1. Two million people were sensitised.\n2. Eighty thousand wetlands were surveyed.\n3. Six thousand health cards were prepared.\n4. Eighteen thousand Wetland Mitras were recorded.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F17"
+   ],
+   "explanation": "Only two statements are correct: two million people were sensitised and 80,000 wetlands were surveyed. The correct figures for the other two achievements are 6,200 health cards and 18,000 Wetland Mitras."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Water-body rejuvenation",
+   "question": "As of January 2025, how many water bodies had been rejuvenated under Mission Amrit Sarovar?",
+   "options": [
+    "More than 68,000",
+    "More than 80,000",
+    "More than 1,00,000",
+    "More than 1,70,000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F18"
+   ],
+   "explanation": "Mission Amrit Sarovar had rejuvenated more than 68,000 water bodies by January 2025. The other figures relate to wetland surveys, demarcation or ground-truthing rather than the number of rejuvenated water bodies."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Green Credit Programme",
+   "question": "Assertion (A): The Green Credit Programme provides credits for mangrove restoration.\nReason (R): Mangrove restoration has been covered under the programme since 2023.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F19"
+   ],
+   "explanation": "Both A and R are true, and the reason correctly specifies the basis and timing of the mangrove-restoration credit activity. The programme has provided credits for mangrove restoration since 2023."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Wetland ground-truthing and protection",
+   "question": "Consider the following statements:\n1. Wetlands below 2.25 ha were included in the Supreme Court ground-truthing exercise.\n2. About 1,70,000 wetlands were ground-truthed.\n3. The penalty fixed in 2017 for not preparing inventories was ₹5,000.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F20"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the exercise covered wetlands below 2.25 ha and 1,70,000 wetlands were ground-truthed. Statement 3 is incorrect because the 2017 penalty for not preparing inventories was ₹50,000, not ₹5,000."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Wetland management and blue carbon",
+   "question": "Consider the following statements:\nStatement A: Revised NPCA guidelines emphasise catchment-scale management.\nStatement B: Mangroves and peatlands sequester carbon 10–50 times faster than forests.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F21",
+    "P0.F22"
+   ],
+   "explanation": "Both statements are true. Revised NPCA guidelines adopt catchment-scale management, while mangroves and peatlands have a blue-carbon sequestration rate 10–50 times faster than forests."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Wetland loss and legal framework",
+   "question": "Match the statements with the corresponding details:\n\nList-I\n(a) Wetland loss in India\n(b) Flyway used by India\n(c) Wetlands (Conservation and Management) Rules, 2010\n(d) Ramsar status\n\nList-II\n(i) Does not make protection of all wetlands mandatory\n(ii) Nearly one-third lost in three decades\n(iii) Covers catchment areas\n(iv) Central Asian Flyway\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F23",
+    "P0.F24"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i. India lost nearly one-third of its wetlands in three decades, lies on the Central Asian Flyway, the 2010 Rules cover catchment areas, and Ramsar status does not make protection of all wetlands mandatory."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation type",
+   "question": "What is the institutional status of Wetlands International?",
+   "options": [
+    "A non-governmental organisation",
+    "An intergovernmental organisation",
+    "A Ramsar site",
+    "A government wetland-accreditation programme"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F25"
+   ],
+   "explanation": "Wetlands International is a non-governmental organisation. It is not an intergovernmental organisation, a Ramsar site or a government accreditation programme."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "New Ramsar sites and locations",
+   "question": "Match the Ramsar sites with their locations in the announcements concerning India's wetland network:\n\nList-I\n(a) Patna Bird Sanctuary\n(b) Chhari-Dhand\n(c) Siliserh Lake\n(d) Kopra Reservoir\n\nList-II\n(i) Bilaspur, Chhattisgarh\n(ii) Etah, Uttar Pradesh\n(iii) Kutch, Gujarat\n(iv) Alwar, Rajasthan\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F26",
+    "P0.F27"
+   ],
+   "explanation": "The correct pairs are Patna Bird Sanctuary–Etah, Chhari-Dhand–Kutch, Siliserh Lake–Alwar and Kopra Reservoir–Bilaspur. The first two were announced as additions taking the total to 98, while Siliserh Lake and Kopra Reservoir were among the additions taking the total to 96."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ramsar additions by occasion and State",
+   "question": "Consider the following statements about Ramsar-site additions:\n1. Gogabeel, Gokul Reservoir and Udaypur Jheel were added in Bihar in 2025.\n2. Menar and Khichan were added on World Environment Day as sites in Rajasthan.\n3. Sakkarakottai, Therthangal, Khecheopalri and Udhwa Lake were added on World Environment Day.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F28",
+    "P0.F29",
+    "P0.F30"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the three Bihar sites were added in 2025, and Menar and Khichan were added on World Environment Day as Rajasthan sites. Statement 3 is incorrect because those four sites were added on World Wetlands Day, not World Environment Day."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Ramsar milestones",
+   "question": "Match the Ramsar milestones with the correct details:\n\nList-I\n(a) First Indian Ramsar sites\n(b) State with the most Ramsar sites\n(c) Largest and smallest Ramsar sites\n(d) Ramsar Convention and India's accession\n\nList-II\n(i) Tamil Nadu, 20 sites\n(ii) Chilika and Keoladeo\n(iii) 1971 at Ramsar, Iran; India joined on 1 February 1982\n(iv) Sundarbans and Renuka, respectively\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F31",
+    "P0.F32",
+    "P0.F33"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iv and d-iii. Chilika and Keoladeo were India's first Ramsar sites; Tamil Nadu has the most with 20; Sundarbans is the largest and Renuka the smallest; and the Convention dates to 1971 at Ramsar, Iran, with India joining on 1 February 1982."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global Ramsar position",
+   "question": "Which statement correctly describes India's position in the Ramsar network in 2026?",
+   "options": [
+    "First in Asia and third globally",
+    "Third in Asia and first globally",
+    "First in Asia and second globally",
+    "Second in Asia and third globally"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F34"
+   ],
+   "explanation": "India ranked first in Asia and third globally. The same fact records that 56 sites were added after 2020 and that the sites cover about 1.4 million hectares, but the other options reverse or alter India's ranking."
+  }
+ ]
+}

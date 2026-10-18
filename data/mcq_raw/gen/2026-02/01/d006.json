@@ -1,0 +1,146 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34
+ ],
+ "only": [
+  "P26.F3",
+  "P26.F4",
+  "P27.F2",
+  "P29.F3",
+  "P31.F3",
+  "P32.F1",
+  "P32.F4",
+  "P32.F5",
+  "P33.F1",
+  "P33.F2",
+  "P34.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Species group and protected area",
+   "question": "Consider the following statements about the army ants found around Sri Venkateswara Wildlife Sanctuary:\n1. Aenictus are Old World army ants.\n2. They prey on ants and termites.\n3. Sri Venkateswara National Park, established in September 1989, covers 535 sq km.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F3",
+    "P26.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Aenictus are Old World army ants that prey on ants and termites. Sri Venkateswara National Park was established in September 1989 and covers 353 sq km, not 535 sq km."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Commission secretary",
+   "question": "Who is the Secretary of the dedicated commission examining the BC quota in local bodies in Andhra Pradesh?",
+   "options": [
+    "Chandrasekhara Raju",
+    "Rajeev Ranjan Mishra",
+    "G. Saiprasad",
+    "Geetanjali Sharma"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F2"
+   ],
+   "explanation": "Chandrasekhara Raju, Additional Director of BC Welfare, is the Secretary of the commission. Rajeev Ranjan Mishra is its retired IAS chairperson, while G. Saiprasad and Geetanjali Sharma hold other Andhra Pradesh positions."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "River basin and dispute law",
+   "question": "Consider the following statements:\nStatement A: The Krishna basin covers Maharashtra, Karnataka, Telangana and Odisha.\nStatement B: Disputes concerning the Krishna basin are governed under the Inter-State River Water Disputes Act, 1956.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P29.F3"
+   ],
+   "explanation": "Statement A is false because the Krishna basin includes Andhra Pradesh, not Odisha. Statement B is true, as the disputes are under the Inter-State River Water Disputes Act, 1956."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Renaming and origin of BharatNet",
+   "question": "Which one of the following correctly describes the renaming history of the Digital Bharat Nidhi and the origin of BharatNet?",
+   "options": [
+    "Digital Bharat Nidhi was renamed in 2023 from USOF; BharatNet began in 2011 as NOFN and was renamed in 2015.",
+    "Digital Bharat Nidhi was renamed in 2015 from USOF; BharatNet began in 2023 as NOFN and was renamed in 2011.",
+    "Digital Bharat Nidhi was renamed in 2023 from NOFN; BharatNet began in 2011 as USOF and was renamed in 2015.",
+    "Digital Bharat Nidhi was renamed in 2011 from USOF; BharatNet began in 2015 as NOFN and was renamed in 2023."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P31.F3"
+   ],
+   "explanation": "Digital Bharat Nidhi was renamed in 2023 from the Universal Service Obligation Fund, or USOF. BharatNet began in 2011 as NOFN and was renamed in 2015; therefore the 2015 and 2023 sequence in the other options is incorrect."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Launch of Pillo AI",
+   "question": "Assertion (A): Pillo AI was launched by the Chief Minister at the Amaravati Secretariat.\nReason (R): Pillo AI is a text-based accounting and billing app for MSMEs in Indian languages.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P32.F1"
+   ],
+   "explanation": "The Assertion is true: Pillo AI was launched by the Chief Minister at the Amaravati Secretariat. The Reason is false because Pillo AI is voice-based, not text-based, while it is intended for accounting and billing by MSMEs in Indian languages."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Coverage and operating model of Andhra Yatri",
+   "question": "How many of the following statements about the Andhra Yatri app are correct?\n1. It was introduced first in 13 district headquarters, including Vijayawada and Tirupati.\n2. It may be linked with the central Bharat Yatri app.\n3. CA360 describes it as a cooperative ride-hailing model.\n4. It was introduced first in 13 mandal headquarters.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P32.F4",
+    "P32.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so the answer is Only two. The app was first introduced in 13 district headquarters and may be linked with Bharat Yatri; CA360 describes a PPP model, and the coverage is district headquarters rather than mandal headquarters."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Organisation headquarters and establishment; project location",
+   "question": "Adani Gangavaram Port (APSEZ) signed an MoU with NMDC and Brazil's Vale S.A. for a dedicated iron ore blending plant at Gangavaram Port. Match the entities and details associated with this MoU and APSRTC.\n\nList-I\n(a) NMDC\n(b) Vale S.A.\n(c) Dedicated iron ore blending plant\n(d) APSRTC\n\nList-II\n(i) Established in 1958\n(ii) Established in 1942\n(iii) Gangavaram Port\n(iv) Headquarters at Vijayawada",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P33.F1",
+    "P33.F2",
+    "P34.F5"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: NMDC was established in 1958, Vale in 1942, the dedicated plant is at Gangavaram Port, and APSRTC has its headquarters at Vijayawada. The alternatives interchange these establishment years, the project location or the APSRTC headquarters."
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F23",
+  "P0.F26",
+  "P0.F27",
+  "P0.F28",
+  "P0.F30"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Debt trajectory",
+   "question": "According to the 16th Finance Commission’s recommendations, how was combined debt projected to change between 2026–27 and 2030–31?",
+   "options": [
+    "From 77.3% to 73.1%",
+    "From 73.1% to 77.3%",
+    "It would remain at 77.3%",
+    "It would remain at 73.1%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F23"
+   ],
+   "explanation": "Combined debt was projected to decline from 77.3% in 2026–27 to 73.1% in 2030–31. The reverse sequence is incorrect because the recommendation envisaged a reduction in combined debt."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inactive public enterprises",
+   "question": "What action did the 16th Finance Commission recommend regarding the 308 inactive State Public Sector Enterprises (SPSEs)?",
+   "options": [
+    "Their closure",
+    "Their merger with DISCOMs",
+    "Their conversion into Finance Commissions",
+    "Their classification as active SPSEs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F26"
+   ],
+   "explanation": "The 16th Finance Commission recommended the closure of 308 inactive SPSEs. Reclassifying them as active enterprises is the closest trap, but the recommendation specifically concerned their closure."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Article 279 and report tabling",
+   "question": "With reference to the 16th Finance Commission report, consider the following statements:\nStatement A: The Union will publish CAG-certified net tax proceeds under Article 279.\nStatement B: The report was tabled on 2 February 2026 and the government accepted its key recommendations.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F27",
+    "P0.F30"
+   ],
+   "explanation": "Statement A is correct: the Union was to publish CAG-certified net tax proceeds under Article 279. Statement B is incorrect because the report was tabled on 1 February 2026, although the government accepted its key recommendations."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "15th Finance Commission criteria",
+   "question": "Which of the following were horizontal devolution criteria of the 15th Finance Commission beyond population, area and income distance?\n1. Demographic performance\n2. Forest and ecology\n3. Tax and fiscal effort",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F28"
+   ],
+   "explanation": "All three statements are correct. Beyond population, area and income distance, the 15th Finance Commission used demographic performance, forest and ecology, and tax and fiscal effort as additional criteria."
+  }
+ ]
+}

@@ -1,34 +1,34 @@
 # CA MCQ report
 
-- MCQs kept: **8290**
-- News pages with at least one question: **2609 / 2629**
-- Facts tested: **15017 / 20515** (73.2%)
-- Answer positions: A 2064, B 2177, C 2203, D 1846
+- MCQs kept: **8834**
+- News pages with at least one question: **2613 / 2629**
+- Facts tested: **15894 / 20515** (77.5%)
+- Answer positions: A 2198, B 2313, C 2344, D 1979
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 882 | 894 | 959 | 818 |
-| Negative / Incorrect Statement | 158 | 149 | 160 | 145 |
-| Assertion-Reason | 150 | 179 | 226 | 188 |
-| Statement-Based (A/B) | 269 | 181 | 249 | 198 |
-| Multi-Statement Correctness | 303 | 318 | 281 | 282 |
+| Direct Recall | 924 | 966 | 1022 | 890 |
+| Negative / Incorrect Statement | 162 | 157 | 165 | 147 |
+| Assertion-Reason | 157 | 186 | 234 | 195 |
+| Statement-Based (A/B) | 291 | 185 | 265 | 212 |
+| Multi-Statement Correctness | 334 | 334 | 299 | 303 |
 | Chronological Ordering | 5 | 4 | 2 | 3 |
-| List-Matching | 213 | 201 | 184 | 206 |
-| Count-Based | 84 | 251 | 142 | 6 |
+| List-Matching | 236 | 215 | 206 | 223 |
+| Count-Based | 89 | 266 | 151 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 978 |
-| verify:explanation_contradicts | 165 |
-| verify:not_in_facts | 121 |
-| duplicate | 54 |
-| verify:two_correct | 35 |
-| verify:none_correct | 30 |
-| verify:second reader picked option 2, key 1 | 19 |
+| code | 1044 |
+| verify:explanation_contradicts | 179 |
+| verify:not_in_facts | 126 |
+| duplicate | 57 |
+| verify:two_correct | 38 |
+| verify:none_correct | 31 |
+| verify:second reader picked option 2, key 1 | 20 |
 | verify:ambiguous_stem | 9 |
-| verify:garbled | 7 |
+| verify:garbled | 8 |
 | verify:second reader picked option 1, key 0 | 5 |
 | verify:second reader picked option 3, key 0 | 2 |
 | verify:second reader picked option 0, key 1 | 2 |
@@ -131,17 +131,17 @@
 | 2026-03/09 | Awards, Persons & Appointments | 61 | 120/122 |
 | 2026-03/10 | Sports | 27 | 41/42 |
 | 2026-03/11 | Important Days & Events | 53 | 71/78 |
-| 2026-02/01 | Andhra Pradesh | 42 | 107/236 |
-| 2026-02/02 | Polity & Governance | 36 | 72/198 |
-| 2026-02/03 | Schemes & Social Sector | 14 | 35/73 |
-| 2026-02/04 | Economy, Banking & Budget | 21 | 43/188 |
-| 2026-02/05 | International Relations | 40 | 96/202 |
-| 2026-02/06 | Science, Tech, Space & Defence | 29 | 63/153 |
-| 2026-02/07 | Environment & Geography | 26 | 61/166 |
-| 2026-02/08 | Reports, Indices & Rankings | 10 | 23/44 |
-| 2026-02/09 | Awards, Persons & Appointments | 17 | 44/74 |
-| 2026-02/10 | Sports | 11 | 23/48 |
-| 2026-02/11 | Important Days & Events | 19 | 37/116 |
+| 2026-02/01 | Andhra Pradesh | 127 | 234/236 |
+| 2026-02/02 | Polity & Governance | 109 | 197/198 |
+| 2026-02/03 | Schemes & Social Sector | 38 | 71/73 |
+| 2026-02/04 | Economy, Banking & Budget | 88 | 182/188 |
+| 2026-02/05 | International Relations | 109 | 201/202 |
+| 2026-02/06 | Science, Tech, Space & Defence | 85 | 150/153 |
+| 2026-02/07 | Environment & Geography | 95 | 166/166 |
+| 2026-02/08 | Reports, Indices & Rankings | 23 | 43/44 |
+| 2026-02/09 | Awards, Persons & Appointments | 38 | 74/74 |
+| 2026-02/10 | Sports | 26 | 48/48 |
+| 2026-02/11 | Important Days & Events | 71 | 115/116 |
 | 2026-01/01 | Andhra Pradesh | 42 | 95/193 |
 | 2026-01/02 | Polity & Governance | 29 | 63/137 |
 | 2026-01/03 | Schemes & Social Sector | 26 | 47/81 |
@@ -1263,20 +1263,95 @@
 - `2026-02/01/c005#4` verify: explanation_contradicts — The facts make figures 1, 2, and 4 correct, so the answer is Only three, not Only two.
   - Q: In Operation Vajra Prahar in SPS Nellore district, how many of the following figures are correct? / 1. 69 NDPS cases were registered. / 2. 65 persons were arrested. / 3. 10 vehicles were seized. / 4. 9 habitu
   - Key: Only two
+- `2026-02/01/d001#2` verify: two_correct — Options 0 and 3 both express that exactly statements 1 and 2 are correct.
+  - Q: With reference to the employment and workforce targets under Swarnandhra Vision-2047, consider the following statements: / 1. Unemployment is targeted to decline from 4.1% to 2% by 2047. / 2. Women’s work
+  - Key: Exactly two statements are correct
+- `2026-02/01/d001#8` verify: two_correct — Options 0 and 3 both express that exactly statements 1 and 2 are correct.
+  - Q: With reference to Andhra Pradesh’s AI initiatives, consider the following statements: / 1. AI applications cover 10 sectors, 30 departments and 98 use cases. / 2. The State conducted 43 hackathons. / 3. The
+  - Key: Exactly two statements are correct
+- `2026-02/01/d001#10` verify: not_in_facts — The facts state that 71 lakh were screened but do not establish that they were students, so statement 3 is undecidable.
+  - Q: How many of the following statements are correct? / 1. The Oral Reading Fluency tool covered 13.4 lakh students. / 2. The Oral Reading Fluency tool covered 35,000 schools. / 3. Universal health screening co
+  - Key: Only two
+- `2026-02/01/d002#6` verify: explanation_contradicts — Statements 1, 2, and 4 are supported by the facts, so three statements are correct, contrary to the explanation.
+  - Q: According to the 2025–26 advance estimates, how many of the following statements about district per capita income are correct? / 1. Visakhapatnam ranked first with a PCI of ₹6,58,091. / 2. Krishna ranked 
+  - Key: Only two
+- `2026-02/01/d005#0` verify: not_in_facts — The facts do not establish whether AI face recognition is associated with attendance monitoring or whether the FLN Mission has that purpose.
+  - Q: With reference to the AI-driven education initiatives showcased by Andhra Pradesh, consider the following statements: / 1. The Guaranteed FLN Mission focuses on foundational literacy and numeracy. / 2. Th
+  - Key: 1 and 2 only
+- `2026-02/02/d000#10` verify: explanation_contradicts — The facts support statements 1 and 3, so the count is two rather than one.
+  - Q: How many of the following statements are correct regarding the recommendations and background of the Finance Commission reports? / 1. The 308 inactive SPSEs were recommended for closure. / 2. The Union wa
+  - Key: Only one
+- `2026-02/02/d001#1` verify: explanation_contradicts — The facts support all four statements, including elimination of supplier liability, so no option is established as incorrect.
+  - Q: Which of the following statements regarding the liability provisions under the SHANTI Act, 2025, is incorrect?
+  - Key: Supplier liability is eliminated under the revised regime.
+- `2026-02/03/d000#10` verify: not_in_facts — The facts list Tele-MANAS but do not establish whether it is being replaced by another national programme.
+  - Q: How many of the following are identified policy responses or institutional mechanisms relevant to India’s adolescent mental-health crisis? /  / 1. Recognition in the Economic Survey 2025–26 / 2. National Me
+  - Key: Only three
 - `2026-02/04/c004#6` verify: second reader picked option 3, key 1 — 
   - Q: Consider the following statements: / Statement A: More than 20 crore Soil Health Cards have been distributed, and cards are issued every three years. / Statement B: The Soil Health Card scheme was launche
   - Key: Both Statement A and Statement B are false
+- `2026-02/04/d000#0` verify: garbled — List-I labels the second item as “a” instead of “b,” making the matching list malformed.
+  - Q: Match List-I with List-II in the context of the Union Budget 2026–27 and budget history. /  / List-I / a. Presenter of the Union Budget 2026–27 / a. Reforms since Independence Day 2025 / c. Capital expenditure 
+  - Key: a-ii, b-iii, c-i, d-iv
+- `2026-02/04/d003#0` verify: not_in_facts — The facts identify a DPI launch in 2024 but do not explicitly identify DPI as AgriStack.
+  - Q: In which year was AgriStack launched under the Digital Agriculture Mission?
+  - Key: 2024
+- `2026-02/04/d003#11` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements are correct? / 1. Sonepur International Airport is planned in Saran, Bihar. / 2. Its runway is planned to be 4,200 m for A380 operations. / 3. Adampur Airport was rename
+  - Key: Only two
+- `2026-02/04/d005#1` verify: none_correct — All four options are supported as written; the explanation adds “without regulation,” which is absent from option 2.
+  - Q: Which one of the following statements regarding Bharat Taxi’s partnership with the Airports Authority of India (AAI) is incorrect?
+  - Key: The AAI partnership concerned airport taxi services.
 - `2026-02/05/c005#7` verify: explanation_contradicts — Statements 1 and 4 are supported by the facts, so two—not one—statements are correct.
   - Q: With reference to the proposed Gaza reconstruction initiative involving the ‘Peace Council’, how many of the following statements are correct? / 1. Nine countries pledged $70 billion for Gaza. / 2. Gaza h
   - Key: Only one
+- `2026-02/05/d001#2` verify: explanation_contradicts — The facts explicitly identify TRISHNA as a thermal-infrared ISRO–CNES partnership, so all three statements are correct.
+  - Q: Which of the following statements about the India–France outcomes is/are correct? /  / 1. The outcomes include an Indo-French Centre for AI in Health, an Indo-French Centre for Digital Science and Technol
+  - Key: 1 and 2 only
+- `2026-02/05/d001#8` verify: two_correct — List-II labels i and iii both mean core member, so option 2 also matches all participant statuses.
+  - Q: Match the following Pax Silica participants with their status: /  / List-I /  a. Japan /  b. UAE /  c. Canada /  d. OECD /  / List-II /  i. Core member /  ii. Observer /  iii. Core member /  iv. Observer /  / Select the correct 
+  - Key: a-i, b-iii, c-ii, d-iv
+- `2026-02/05/d001#9` verify: explanation_contradicts — The facts state that the ministerial occurred on 4 February 2026 with 55 delegations, making statement 3 correct.
+  - Q: Which of the following statements about India’s related critical-minerals and supply-chain initiatives is/are correct? /  / 1. India was earlier part of the Supply Chain Resilience Initiative with Japan a
+  - Key: 1 and 2 only
+- `2026-02/05/d004#2` verify: explanation_contradicts — The facts support both statements, contrary to the explanation's claim that both are false.
+  - Q: Consider the following statements: / Statement A: Former South Korean President Yoon Suk Yeol was sentenced to life imprisonment over the 3 December 2024 martial law. / Statement B: Sheikh Hasina received
+  - Key: Both Statement A and Statement B are false
+- `2026-02/05/d004#6` verify: explanation_contradicts — Both Brazil and Russia are listed as BRICS members, so the count is two, not one.
+  - Q: How many of the following countries are members of BRICS as listed in February 2026? / 1. Brazil / 2. Russia / 3. Japan / 4. Canada
+  - Key: Only one
+- `2026-02/05/d005#5` verify: explanation_contradicts — The facts say the library is available in all four named languages as well as Spanish, so statement 3 is true and three statements are correct.
+  - Q: How many of the following statements about the Traditional Knowledge Digital Library are correct? /  / 1. It was established in 2001 by CSIR and the Ministry of AYUSH. / 2. It covers Ayurveda, Unani, Siddha
+  - Key: Only two
+- `2026-02/05/d005#8` verify: explanation_contradicts — The facts establish statement 3 as true because 55 GW of wind is lower than 141 GW of solar; only statement 4 is false.
+  - Q: How many of the following statements about India’s capacity figures in 2026 are correct? /  / 1. India’s non-fossil capacity was above 272 GW. / 2. India’s solar capacity was above 141 GW. / 3. India’s wind c
+  - Key: Only two
 - `2026-02/07/c003#5` verify: not_in_facts — The facts establish statements 1 and 2 but do not explicitly determine whether statements 3 and 4 are false.
   - Q: How many of the following statements about Dal Lake and Futala Lake are correct? / 1. The Jammu and Kashmir Government cancelled a ₹416.72 crore restoration plan for Dal Lake. / 2. Futala Lake is a man-ma
   - Key: Only two
 - `2026-02/07/c004#4` verify: explanation_contradicts — Both assertions are true, and the geographic fact does not explain the tribunal direction, so option 1 applies.
   - Q: Assertion (A): The Supreme Court directed the Centre to constitute an Inter-State River Water Disputes Tribunal for the Pennaiyar dispute within one month. / Reason (R): The Pennaiyar rises in Nandi Hil
   - Key: A is true, but R is false
+- `2026-02/07/d000#7` verify: explanation_contradicts — The facts make d-iii the valid wetland pairing, but the explanation claims d-iv, which pairs a wetland with a training certificate.
+  - Q: Match the components of Amrit Dharohar with the corresponding details: /  / List-I / (a) Objective / (b) First-phase site / (c) Training programme / (d) First-phase wetland /  / List-II / (i) Livelihood and eco-tourism
+  - Key: a-i, b-iii, c-ii, d-iv
+- `2026-02/07/d000#9` verify: explanation_contradicts — Three statements are correct because 18,000 Wetland Mitras is supported; the explanation incorrectly says only two.
+  - Q: How many of the following statements about Mission Sahbhagita and Wetland Mitras are correct? / 1. Two million people were sensitised. / 2. Eighty thousand wetlands were surveyed. / 3. Six thousand health c
+  - Key: Only two
 - `2026-02/09/c001#2` verify: not_in_facts — The facts establish the Dalai Lama’s first Grammy and winning category, but do not establish that it was at the 68th Grammy Awards.
   - Q: Assertion (A): The Dalai Lama received his first Grammy Award at the 68th Grammy Awards. / Reason (R): He won Best Audiobook, Narration & Storytelling for “Meditations: The Reflections of His Holiness t
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-02/09/d001#7` verify: not_in_facts — The facts establish Statement A and Dharamshala's headquarters status, but do not establish whether the 1967 date in Statement B is true or false.
+  - Q: Consider the following statements: / Statement A: China objected to the Dalai Lama's first Grammy. / Statement B: Dharamshala is the headquarters of the Tibetan Government-in-Exile since 1967.
+  - Key: Statement A is true, Statement B is false
+- `2026-02/11/d001#8` verify: explanation_contradicts — The facts support both A and R, but R does not explain why the procedure was conducted.
+  - Q: Assertion (A): The first tele-robotic ultrasound in Antarctica was conducted by AIIMS at Maitri with NCPOR and IIT Delhi. / Reason (R): Maitri is India's second Antarctic base, established in 1989.
+  - Key: A is false, but R is true
+- `2026-02/11/d002#4` verify: explanation_contradicts — The facts support statements 1, 2, and 3, so the correct count is three, not two.
+  - Q: How many of the following statements about India’s seafood sector are correct? /  / 1. India is the 2nd largest aquaculture producer. / 2. India exported 1.78 million tonnes of seafood in 2023–24. / 3. The ex
+  - Key: Only two
+- `2026-02/11/d002#8` verify: explanation_contradicts — R explains the 150-year reference but not the separate requirement concerning all six stanzas.
+  - Q: Assertion (A): The MHA guidelines on “Vande Mataram” require all six stanzas to be observed at official functions and educational institutions and mark 150 years since its first publication. / Reason (R
   - Key: Both A and R are true, and R is the correct explanation of A
 - `2026-01/01/c000#5` verify: not_in_facts — The facts explicitly exclude conditional patta lands but do not establish whether service inam or freehold lands were removed.
   - Q: How many of the following categories were removed from the prohibited list under Section 22-A? / 1. Lands allotted to former and serving defence personnel / 2. Conditional patta lands / 3. Service inam land

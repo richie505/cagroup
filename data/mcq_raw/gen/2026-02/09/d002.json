@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11
+ ],
+ "only": [
+  "P10.F10",
+  "P10.F11",
+  "P10.F4",
+  "P10.F8",
+  "P10.F9",
+  "P11.F2",
+  "P11.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Appointment and post",
+   "question": "Match List-I with List-II regarding national appointments announced in February 2026.\n\nList-I\n(a) Justice Balbir Singh Chauhan\n(b) Dr Jyothi Buddhar Prakash\n\nList-II\n(i) CMD, Singareni Collieries\n(ii) Chair, committee on Manipur violence\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4",
+    "P10.F8"
+   ],
+   "explanation": "Justice Balbir Singh Chauhan was appointed chair of the committee on Manipur violence, while Dr Jyothi Buddhar Prakash became CMD of Singareni Collieries. Therefore, the correct pairs are a-ii and b-i; the other codes interchange or duplicate the appointments."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Role and distinction",
+   "question": "Match the persons in List-I with the positions or distinctions in List-II.\n\nList-I\n(a) Dr Vibhavari Nayak\n(b) Aditya Pandya\n\nList-II\n(i) Clinical Lead, WFSA 2026\n(ii) India's youngest male analog astronaut\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-i, b-i",
+    "a-ii, b-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F9",
+    "P10.F11"
+   ],
+   "explanation": "Dr Vibhavari Nayak was appointed Clinical Lead for WFSA 2026, whereas Aditya Pandya was identified as India's youngest male analog astronaut. Hence, a-i and b-ii is the correct matching."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First and only Indian Governor-General",
+   "question": "Who was described as the first and only Indian Governor-General, whose statue was unveiled at Rashtrapati Bhavan during the inaugural Rajaji Utsav?",
+   "options": [
+    "C. Rajagopalachari",
+    "Rev. Jesse Jackson Sr.",
+    "Robert Duvall",
+    "Shankar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F10"
+   ],
+   "explanation": "C. Rajagopalachari was the first and only Indian Governor-General and was honoured with a statue unveiling at Rashtrapati Bhavan during Rajaji Utsav. Rev. Jesse Jackson Sr., Robert Duvall and Shankar were associated with civil rights, acting and Bengali literature respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Person in news—civil rights leader",
+   "question": "Rev. Jesse Jackson Sr., who passed away in February 2026, was particularly known as which of the following?",
+   "options": [
+    "A US civil rights leader after the 1968 assassination of Martin Luther King Jr.",
+    "A sociologist who wrote Caste, Class and Power",
+    "A travel writer and former Navy Commander",
+    "A Bengali writer associated with Chowringhee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "Rev. Jesse Jackson Sr. was known as a US civil rights leader after Martin Luther King Jr.'s assassination in 1968. The other descriptions refer to André Béteille, Hugh Gantzer and Shankar respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Literary recognition",
+   "question": "Which Bengali writer, known for works such as Chowringhee, Jana Aranya and Seemabaddha, was a Sahitya Akademi awardee?",
+   "options": [
+    "Shankar",
+    "C. Rajagopalachari",
+    "Dr Vibhavari Nayak",
+    "Justice Balbir Singh Chauhan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F7"
+   ],
+   "explanation": "Shankar, whose full name was Mani Shankar Mukherjee, was the Bengali writer known for Chowringhee, Jana Aranya and Seemabaddha and was a Sahitya Akademi awardee. The other options refer to a statesman, a clinical lead and a committee chair."
+  }
+ ]
+}

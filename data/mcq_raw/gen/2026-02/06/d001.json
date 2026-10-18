@@ -1,0 +1,177 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P3.F10",
+  "P3.F4",
+  "P3.F5",
+  "P3.F8",
+  "P3.F9",
+  "P4.F10",
+  "P4.F3",
+  "P4.F4",
+  "P4.F7",
+  "P4.F9",
+  "P5.F3",
+  "P5.F4",
+  "P6.F3",
+  "P6.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Exercise and venue",
+   "question": "Exercise Agni Varsha, involving the Indian Army Southern Command, was conducted at which location and featured journalists from how many countries?",
+   "options": [
+    "Pokhran; 25 countries",
+    "Lakshadweep and Minicoy; 20 countries",
+    "Bakloh; 15 countries",
+    "Chaubattia; 10 countries"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Agni Varsha was conducted at Pokhran and featured journalists from 25 countries. Lakshadweep and Minicoy were associated with Exercise Kalari Leap, not Agni Varsha."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue of exercise",
+   "question": "Exercise Kalari Leap, involving the IAF Southern Air Command, AFSOD and the Coast Guard, was conducted in which area?",
+   "options": [
+    "Lakshadweep and Minicoy",
+    "Pokhran, Jaisalmer",
+    "Misamari, Assam",
+    "Arunachal Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "Exercise Kalari Leap was conducted in Lakshadweep and Minicoy. Pokhran was associated with Agni Varsha and Vayu Shakti, while Misamari was the venue of Khanjar-XIII."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "LCH Prachand and Vayu Shakti",
+   "question": "With reference to President Droupadi Murmu’s participation in Vayu Shakti 2026 and the Prachand helicopter, consider the following statements:\n\n1. President Droupadi Murmu flew in LCH Prachand on 27 February 2026 and watched Vayu Shakti.\n2. Prachand is India’s first indigenous Attack Combat Helicopter.\n3. Prachand was developed by HAL and inducted in 2022.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F8",
+    "P3.F9"
+   ],
+   "explanation": "Statements 1 and 3 are correct: President Droupadi Murmu flew in the LCH Prachand on 27 February 2026, and Prachand is India’s first indigenous Light Combat Helicopter developed by HAL and inducted in 2022. Statement 2 is incorrect because Prachand is a Light Combat Helicopter, not an Attack Combat Helicopter."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Counter-terror operation",
+   "question": "Operation Kiya was a joint counter-terror operation conducted from the Basantgarh forest in Udhampur by which forces?",
+   "options": [
+    "White Knight Corps, CIF and J&K Police",
+    "Southern Command, AFSOD and Coast Guard",
+    "Spear Corps, ITBP and J&K Police",
+    "White Knight Corps, Coast Guard and HAL"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F10"
+   ],
+   "explanation": "Operation Kiya was conducted by the White Knight Corps, the Counter Insurgency Force and the J&K Police from the Basantgarh forest in Udhampur. The Southern Command, AFSOD and Coast Guard were associated with Kalari Leap."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Defence technology partnerships",
+   "question": "Consider the following statements about defence deals announced in February 2026:\n\n1. Indrajala Drone Defence was associated with Sigma Advanced Systems of Hyderabad.\n2. Embraer and Mahindra partnered for C-390 Millennium MRO after the C-390 was chosen for the Medium Transport Aircraft need.\n3. Indrajala Drone Defence was developed in partnership with a Bengaluru-based shipbuilding company.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Indrajala Drone Defence was associated with Sigma Advanced Systems of Hyderabad, while Embraer and Mahindra partnered for C-390 Millennium MRO; statement 3 incorrectly changes the partner and describes it as a shipbuilding company."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First indigenous training ship",
+   "question": "Which vessel was described as India’s first indigenous Cadet Training Ship?",
+   "options": [
+    "Krishna, Yard 18003",
+    "INS Anjadeep",
+    "C-390 Millennium",
+    "Dornier 228"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "Krishna, designated Yard 18003, was described as India’s first indigenous Cadet Training Ship. INS Anjadeep is an Anti-Submarine Warfare ship, while the C-390 Millennium and Dornier 228 are aircraft."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Missile capabilities",
+   "question": "Consider the following statements about missile tests conducted in February 2026:\n\n1. The Agni-3 is an approximately 3,000-km-range, road-mobile, nuclear-capable IRBM.\n2. VSHORAD is a shoulder-fired system that shot down drones at Chandipur.\n3. Agni-3 is a shoulder-fired system designed to shoot down drones at Chandipur.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F9",
+    "P4.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Agni-3 is a road-mobile, nuclear-capable IRBM with a range of approximately 3,000 km, whereas the shoulder-fired system that shot down drones at Chandipur was VSHORAD."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "High-power microwave weapon and chip technology",
+   "question": "Consider the following statements:\nStatement A: China’s TPG-1000C high-power microwave weapon can deliver approximately 2 GW for about 1 minute.\nStatement B: Ashwini Vaishnaw unveiled a 3-nanometre chip by Qualcomm in Bengaluru.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "Both statements are false. The TPG-1000C was reported to deliver approximately 20 GW for about 1 minute, while the chip unveiled by Ashwini Vaishnaw was a 2-nanometre Qualcomm chip, not a 3-nanometre chip."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Health AI and sovereign language AI",
+   "question": "Assertion (A): SAHI and BODH are linked to the ABDM and the National Health Policy 2017.\nReason (R): BharatGen is a sovereign generative AI initiative that had reached 15 languages and is intended to cover all 22 scheduled languages.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F5"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. SAHI and BODH are linked to the ABDM and the National Health Policy 2017, while BharatGen concerns sovereign generative AI and language coverage; the BharatGen detail does not explain the health-AI linkage."
+  }
+ ]
+}

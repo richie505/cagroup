@@ -1,0 +1,216 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F10",
+  "P1.F14",
+  "P1.F15",
+  "P1.F3",
+  "P1.F5",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F17",
+  "P2.F2",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Sites/Location",
+   "question": "The Great Nicobar Island Project includes sites that are near-equidistant from which group of locations?",
+   "options": [
+    "Colombo, Port Klang and Singapore",
+    "Sabang, Kra Canal and Coco Islands",
+    "Malacca, Sunda and Lombok straits",
+    "Minicoy, Maldives and Port Blair"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The project sites at Galathea Bay, Pemmaya Bay and Nanjappa Bay are near-equidistant from Colombo, Port Klang and Singapore. Sabang, the Kra Canal and Coco Islands are associated with the project’s strategic concerns, not this site-location detail."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tribal Safeguards",
+   "question": "Which institution is specifically associated with tribal safeguards for the Great Nicobar Island Project under the stated arrangement?",
+   "options": [
+    "National Commission for Scheduled Tribes under Article 338A(9)",
+    "Central Pollution Control Board under Article 338A(9)",
+    "NITI Aayog under Article 338A(9)",
+    "Ministry of Environment, Forest and Climate Change under Article 338A(9)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "The National Commission for Scheduled Tribes is associated with the tribal safeguards under Article 338A(9). AAJVS and the Ministry of Tribal Affairs are also mentioned in the safeguards framework, but the other listed bodies are not identified for this constitutional role."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Environmental Concerns",
+   "question": "With reference to the environmental concerns surrounding the Great Nicobar Island Project, consider the following statements:\n\n1. About 130 sq km of rainforest and more than 10 million trees are involved in the stated concerns.\n2. About 700 ha were allegedly in prohibited zones under the ICRZ Notification 2019.\n3. The Shekhar Singh Commission was constituted in 2004.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the concerns refer to about 130 sq km of rainforest, more than 10 million trees and about 700 ha allegedly in prohibited zones under the ICRZ Notification 2019. Statement 3 is incorrect because the Shekhar Singh Commission is associated with 2002, not 2004."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Strategic Concerns and Review",
+   "question": "With reference to the Great Nicobar Island Project, consider the following statements:\n\nStatement A: Strategic concerns include the project’s proximity to the Malacca, Sunda and Lombok straits, as well as Sabang port, the Kra Canal and Coco Islands.\nStatement B: The High-Powered Committee reviewed the 2021 Environmental Clearance.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F14"
+   ],
+   "explanation": "Statement A is true because these straits and locations are identified in the project’s strategic context. Statement B is false: the High-Powered Committee reviewed the 2022 Environmental Clearance, not the 2021 Environmental Clearance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Development Area and Tribes",
+   "question": "What is the stated development area of the Great Nicobar Island Project, and which tribes are associated with it?",
+   "options": [
+    "166 sq km; Shompen and Nicobarese",
+    "130 sq km; Jarawa and Shompen",
+    "700 ha; Nicobarese and Jarawa",
+    "81,000 sq km; Shompen and Nicobarese"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F15"
+   ],
+   "explanation": "The stated development area is 166 sq km, and the tribes associated with the project are the Shompen and Nicobarese. The 130 sq km figure refers to forest diversion, while 700 ha refers to alleged prohibited-zone coverage."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Waste Generation and Processing",
+   "question": "Under the Solid Waste Management Rules, 2026, approximately how much solid waste is generated in India per day according to the stated data?",
+   "options": [
+    "1.85 lakh tonnes per day",
+    "1.14 lakh tonnes per day",
+    "40,000 tonnes per day",
+    "620 lakh tonnes per day"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "The stated daily generation is approximately 1.85 lakh tonnes. About 1.14 lakh tonnes per day is processed and about 40,000 tonnes per day is landfilled; 620 lakh tonnes is the annual figure."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Earlier Categories and Bulk Responsibility",
+   "question": "With reference to the Solid Waste Management Rules, 2026, consider the following statements:\n\n1. The Solid Waste Management Rules, 2016 had three waste categories.\n2. A bulk waste generator is defined partly by a built-up area of at least 30,000 sq m.\n3. Extended Bulk Waste Generator Responsibility includes on-site wet waste processing, portal registration and certification-based compliance.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the 2016 Rules had three categories, and Extended Bulk Waste Generator Responsibility includes the three listed compliance requirements. Statement 2 is incorrect because the stated built-up-area threshold is at least 20,000 sq m, not 30,000 sq m."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bulk Waste Contribution",
+   "question": "Bulk waste generators are estimated to produce approximately what share of solid waste?",
+   "options": [
+    "30%",
+    "20%",
+    "40%",
+    "50%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "Bulk waste generators produce approximately 30% of solid waste. The alternatives of 20%, 40% and 50% do not match the stated estimate."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Enforcement Mechanisms",
+   "question": "Match the provisions under the Solid Waste Management Rules, 2026 in List-I with their corresponding details in List-II.\n\nList-I\n a. Polluter Pays principle\n b. Centralised online portal\n c. Legacy dumpsites\n d. District Collectors\n\nList-II\n i. Oversight of landfills\n ii. Mapping by 31 October 2026\n iii. Tracking of the full lifecycle\n iv. Environmental compensation",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12",
+    "P2.F13",
+    "P2.F14",
+    "P2.F17"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-ii and d-i: Polluter Pays involves environmental compensation, the portal tracks the full lifecycle, legacy dumpsites are mapped by 31 October 2026, and District Collectors oversee landfills. The other codes interchange these distinct enforcement responsibilities."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Energy Recovery and RDF",
+   "question": "Assertion (A): Under the Solid Waste Management Rules, 2026, waste with a calorific value of at least 1,200 kcal/kg is directed to energy recovery.\nReason (R): The use of refuse-derived fuel in industries rises from 6% initially to 15% within six years.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F15",
+    "P2.F16"
+   ],
+   "explanation": "Assertion A is false because the stated calorific-value threshold for energy recovery is at least 1,500 kcal/kg, not 1,200 kcal/kg. Reason R is true: RDF use in industries rises from 6% initially to 15% within six years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Special Provisions and Oversight",
+   "question": "Under the Solid Waste Management Rules, 2026, who oversees landfills, including the special provisions for hilly areas and islands?",
+   "options": [
+    "District Collectors",
+    "State Pollution Control Boards",
+    "Central Pollution Control Board",
+    "Bulk Waste Generators"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F17"
+   ],
+   "explanation": "District Collectors oversee landfills, with special provisions for hilly areas and islands. The CPCB frames guidelines and SPCBs enforce them, but neither is identified as the landfill oversight authority in this provision."
+  }
+ ]
+}

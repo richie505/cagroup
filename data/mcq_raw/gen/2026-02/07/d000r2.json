@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F15",
+  "P0.F17",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Which wetland is noted for being protected by religious norms?",
+   "options": [
+    "Renuka Lake",
+    "Tso Kar",
+    "Bhoj Wetland",
+    "Deepor Beel"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F8",
+    "P0.F4",
+    "P0.F13"
+   ],
+   "explanation": "Renuka Lake in Himachal Pradesh is protected by religious norms. Tso Kar is associated with Ladakh and is a high-altitude Ramsar site, while Bhoj Wetland is in Bhopal and Deepor Beel is in Assam."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Scheme objective and achievements",
+   "question": "Match List-I with List-II regarding wetland-conservation initiatives and activities:\n\nList-I\n(a) Amrit Dharohar\n(b) Mission Sahbhagita\n(c) Wetland Mitras\n(d) Training under Amrit Dharohar\n\nList-II\n(i) 18,000 persons\n(ii) Livelihoods and eco-tourism\n(iii) 2 million persons sensitised\n(iv) ALP and Paryatan Navik Certificate\n\nChoose the correct code:",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15",
+    "P0.F17"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv. Amrit Dharohar focused on livelihoods and eco-tourism; Mission Sahbhagita sensitised 2 million persons; there were 18,000 Wetland Mitras; and training included ALP and the Paryatan Navik Certificate. The other codes interchange these scheme details and achievements."
+  }
+ ]
+}

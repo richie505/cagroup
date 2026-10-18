@@ -1,0 +1,81 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": [
+  "P3.F11",
+  "P3.F12",
+  "P3.F13",
+  "P3.F17",
+  "P3.F22"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP growth forecast",
+   "question": "Which agency forecast India’s GDP growth at 7.4%?",
+   "options": [
+    "NSO",
+    "ICRA",
+    "ADB",
+    "Grant Thornton"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F11"
+   ],
+   "explanation": "The NSO forecast India’s GDP growth at 7.4%. ICRA and ADB also gave forecasts, but their figures were 7.4% and 7.2%, respectively; Grant Thornton’s forecast was 7.3–7.5%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP growth forecast",
+   "question": "Which agency forecast India’s GDP growth at 7.4% among the following?",
+   "options": [
+    "ADB",
+    "ICRA",
+    "Grant Thornton",
+    "NSO"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F12"
+   ],
+   "explanation": "ICRA forecast India’s GDP growth at 7.4%. ADB’s forecast was 7.2%, while Grant Thornton gave a range of 7.3–7.5%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP growth forecast",
+   "question": "Which agency forecast India’s GDP growth at 7.2%?",
+   "options": [
+    "Grant Thornton",
+    "NSO",
+    "ADB",
+    "ICRA"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F13"
+   ],
+   "explanation": "ADB forecast India’s GDP growth at 7.2%. NSO and ICRA forecast 7.4%, while Grant Thornton’s forecast was 7.3–7.5%."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "GDP forecast and world GDP rank",
+   "question": "With reference to the February 2026 economic forecasts and the share in world GDP during 1980–2023, consider the following statements:\n1. Grant Thornton forecast India’s GDP growth at 7.3–7.5%.\n2. India ranked fourth in the share of world GDP during 1980–2023.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F17",
+    "P3.F22"
+   ],
+   "explanation": "Only one statement is correct. Grant Thornton forecast India’s GDP growth at 7.3–7.5%; India ranked fifth, not fourth, in the share of world GDP during 1980–2023."
+  }
+ ]
+}

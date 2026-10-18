@@ -1,0 +1,178 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P0.F3",
+  "P0.F4",
+  "P0.F7",
+  "P1.F3",
+  "P2.F2",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P3.F2",
+  "P3.F3",
+  "P4.F4",
+  "P6.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Rank and score",
+   "question": "With reference to the Corruption Perceptions Index 2025, match List-I with List-II.\n\nList-I\n a. Denmark\n b. Finland\n c. Score 89\n d. Score 88\n\nList-II\n i. Rank 1\n ii. Rank 2\n iii. Denmark\n iv. Finland",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "The correct pairs are Denmark–Rank 1, Finland–Rank 2, Score 89–Denmark and Score 88–Finland. The most tempting error is interchanging the first and second ranks, but Denmark topped the index while Finland stood second."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Shared score",
+   "question": "In the Corruption Perceptions Index 2025, what score was recorded by both Pakistan and Iraq?",
+   "options": [
+    "28",
+    "39",
+    "84",
+    "9"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "Pakistan and Iraq both recorded a score of 28 in the Corruption Perceptions Index 2025. The score 39 belongs to India, while 84 belongs to Singapore and 9 to South Sudan and Somalia."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Publisher",
+   "question": "Who publishes the Henley Passport Index 2026, using IATA data?",
+   "options": [
+    "Henley & Partners",
+    "Transparency International",
+    "Portulans Institute",
+    "USGBC"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The Henley Passport Index 2026 is published by Henley & Partners using IATA data. Portulans Institute publishes the Network Readiness Index, while Transparency International publishes the Corruption Perceptions Index."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AI investment projection",
+   "question": "According to the AI investment projections for India, which combination is correct?",
+   "options": [
+    "AI investment will exceed ₹6.14 lakh crore by 2026–27, and AI could add ₹50 lakh crore by 2035",
+    "AI investment will exceed ₹50 lakh crore by 2026–27, and AI could add ₹6.14 lakh crore by 2035",
+    "AI investment will exceed ₹6.14 lakh crore by 2035, and AI could add ₹50 lakh crore by 2026–27",
+    "AI investment will exceed ₹50 lakh crore by 2035, and AI could add ₹6.14 lakh crore by 2026–27"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "India’s AI investment is projected to exceed ₹6.14 lakh crore by 2026–27, while PwC estimates that AI could add ₹50 lakh crore by 2035. The other options interchange the two amounts or their time periods."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Country-wise AI investment share",
+   "question": "Consider the following statements about AI investment as a percentage of GDP:\n\n1. Singapore’s AI investment share was 3.1–4.6%.\n2. South Korea’s AI investment share was 2.3–3.3%.\n3. China’s AI investment share was 1.7–2.6%.\n4. The UAE’s AI investment share was 1.6–2.3%.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "4 only"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5",
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "Only statement 3 is correct: China’s AI investment share was 1.7–2.6% of GDP. Singapore’s range was 3.1–4.6%, South Korea’s was 2.2–3.3%, and the UAE’s was 1.5–2.3%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Publisher and headquarters",
+   "question": "Which organisation, based in Washington DC, published the Network Readiness Index 2025?",
+   "options": [
+    "Portulans Institute",
+    "Henley & Partners",
+    "Transparency International",
+    "USGBC"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "The Network Readiness Index 2025 was published by the Portulans Institute, based in Washington DC. Henley & Partners is associated with the Henley Passport Index, while Transparency International publishes the Corruption Perceptions Index."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Network readiness sub-ranks",
+   "question": "Match the Network Readiness Index 2025 indicators in List-I with their ranks in List-II.\n\nList-I\n a. Telecom service investment\n b. FTTH\n c. AI scientific publications\n d. Mobile broadband traffic\n\nList-II\n i. 1st\n ii. 2nd\n iii. 1st\n iv. 2nd",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "The correct pairs are telecom service investment–1st, FTTH–2nd, AI scientific publications–1st and mobile broadband traffic–2nd. The principal trap is reversing the ranks for FTTH and telecom service investment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "LEED certification",
+   "question": "Which organisation provides certification for LEED projects in the LEED Green Building rankings 2025?",
+   "options": [
+    "GBCI",
+    "USGBC",
+    "Portulans Institute",
+    "Henley & Partners"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "LEED project certification is provided by GBCI. USGBC is associated with the establishment of the green-building framework, but it is GBCI that provides certification."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Growth and target figures",
+   "question": "With reference to the tobacco and renewable-energy updates for 2024–25 and 2030, how many of the following statements are correct?\n\n1. Tobacco area increased by 65.47% in 2024–25.\n2. Tobacco production increased by 56.52% in 2024–25.\n3. Tobacco area increased by 56.52% in 2024–25.\n4. India’s target is 450 GW of non-fossil capacity by 2030.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "Only two statements are correct: tobacco area increased by 65.47% and production by 56.52% in 2024–25. The correct national target is 500 GW of non-fossil capacity by 2030, so statements 3 and 4 are incorrect."
+  }
+ ]
+}

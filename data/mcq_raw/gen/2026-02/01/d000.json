@@ -1,0 +1,285 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F19",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F24",
+  "P0.F25",
+  "P0.F26",
+  "P0.F27",
+  "P0.F28",
+  "P0.F29",
+  "P0.F5",
+  "P1.F2",
+  "P1.F5",
+  "P1.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Budget presenter",
+   "question": "Who presented the Andhra Pradesh Budget 2026–27?",
+   "options": [
+    "Payyavula Keshav",
+    "The Andhra Pradesh Legislature",
+    "₹3,32,205 crore",
+    "₹22,002 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Payyavula Keshav presented the Andhra Pradesh Budget 2026–27. ₹3,32,205 crore is the total budget amount, while ₹22,002 crore is the revenue deficit, not the presenter."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Revenue deficit",
+   "question": "What revenue deficit was projected in the Andhra Pradesh Budget 2026–27?",
+   "options": [
+    "₹22,002 crore",
+    "₹22,002 lakh",
+    "₹22,002 million",
+    "₹22,002"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The projected revenue deficit was ₹22,002 crore. The other options alter the unit or omit the crore denomination."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Budget allocations",
+   "question": "Match the following Andhra Pradesh Budget 2026–27 heads with their allocations.\n\nList-I\n(a) Municipal Administration\n(b) Power\n\nList-II\n(i) ₹13,934 crore\n(ii) ₹14,539 crore\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Municipal Administration received ₹14,539 crore and Power received ₹13,934 crore; hence a-ii, b-i is correct. The tempting alternative reverses the two allocations."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Agriculture and infrastructure allocations",
+   "question": "Consider the following statements regarding the Andhra Pradesh Budget 2026–27:\n\n1. Agriculture and allied received ₹13,598 crore.\n2. Roads, ports, airports received ₹13,546 crore.\n3. Agriculture and allied received ₹13,546 crore.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "Exactly two statements are correct",
+    "Only statement 1 is correct",
+    "Only statements 2 and 3 are correct",
+    "All three statements are correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13",
+    "P0.F14"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Agriculture and allied received ₹13,598 crore, while Roads, ports, airports received ₹13,546 crore. Statement 3 swaps the two amounts and is therefore incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Home and Annadata Sukhibhava allocations",
+   "question": "Which of the following correctly gives the allocations for Home and Annadata Sukhibhava in the Andhra Pradesh Budget 2026–27?",
+   "options": [
+    "Home—₹9,165 crore; Annadata Sukhibhava—₹6,660 crore",
+    "Home—₹6,660 crore; Annadata Sukhibhava—₹9,165 crore",
+    "Home—₹9,165 crore; Annadata Sukhibhava—₹6,105 crore",
+    "Home—₹6,000 crore; Annadata Sukhibhava—₹6,660 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15",
+    "P0.F16"
+   ],
+   "explanation": "Home was allocated ₹9,165 crore and Annadata Sukhibhava ₹6,660 crore. The other combinations interchange or replace one of these allocations with an amount belonging to another budget head."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Polavaram and Amaravati allocations",
+   "question": "Which pair of allocations was provided for Polavaram and Amaravati capital in the Andhra Pradesh Budget 2026–27?",
+   "options": [
+    "Polavaram—₹6,105 crore; Amaravati capital—₹6,000 crore",
+    "Polavaram—₹6,000 crore; Amaravati capital—₹6,105 crore",
+    "Polavaram—₹5,451 crore; Amaravati capital—₹6,000 crore",
+    "Polavaram—₹6,105 crore; Amaravati capital—₹5,451 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F17",
+    "P0.F18"
+   ],
+   "explanation": "Polavaram received ₹6,105 crore and Amaravati capital received ₹6,000 crore. The other options reverse the allocations or substitute the Housing allocation of ₹5,451 crore."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Housing and NTR Vaidya Seva allocations",
+   "question": "Consider the following statements:\nStatement A: Housing received ₹4,000 crore in the Andhra Pradesh Budget 2026–27.\nStatement B: NTR Vaidya Seva received ₹5,451 crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F19",
+    "P0.F20"
+   ],
+   "explanation": "Both statements are false. Housing received ₹5,451 crore and NTR Vaidya Seva received ₹4,000 crore; the statements exchange the two amounts."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Jal Jeevan Mission allocation",
+   "question": "Assertion (A): Jal Jeevan Mission received ₹4,000 crore in the Andhra Pradesh Budget 2026–27.\nReason (R): Scholarships received ₹3,000 crore in the same Budget.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F21",
+    "P0.F22"
+   ],
+   "explanation": "Assertion A is true because Jal Jeevan Mission received ₹4,000 crore. Reason R is false because Scholarships received ₹3,836 crore, not ₹3,000 crore."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Industries and Mid-Day Meal allocations",
+   "question": "How many of the following statements regarding the Andhra Pradesh Budget 2026–27 are correct?\n\n1. Industries received ₹3,161 crore.\n2. Mid-Day Meal received ₹2,000 crore.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F23",
+    "P0.F24"
+   ],
+   "explanation": "Only one statement is correct. Industries received ₹3,161 crore, whereas Mid-Day Meal received ₹2,161 crore, not ₹2,000 crore."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Swachh Bharat allocation",
+   "question": "What allocation was made for Swachh Bharat in the Andhra Pradesh Budget 2026–27?",
+   "options": [
+    "₹1,037 crore",
+    "₹1,073 crore",
+    "₹1,300 crore",
+    "₹1,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F25"
+   ],
+   "explanation": "Swachh Bharat received ₹1,037 crore. The other options alter the amount."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Hostels and gurukuls allocation",
+   "question": "How much was allocated for hostels and gurukuls in the Andhra Pradesh Budget 2026–27?",
+   "options": [
+    "₹300 crore",
+    "₹330 crore",
+    "₹3,000 crore",
+    "₹3,836 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F26"
+   ],
+   "explanation": "The allocation for hostels and gurukuls was ₹300 crore. ₹3,836 crore was the allocation for Scholarships, while the other options change the stated amount."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Economic regions and districts",
+   "question": "Which statement correctly describes the economic regions announced in the Andhra Pradesh Budget 2026–27?",
+   "options": [
+    "Visakha Economic Region covers 10 districts, while Amaravati Economic Region covers 9 districts.",
+    "Visakha Economic Region covers 9 districts, while Amaravati Economic Region covers 10 districts.",
+    "Both Visakha and Amaravati Economic Regions cover 10 districts.",
+    "Both Visakha and Amaravati Economic Regions cover 9 districts."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F27"
+   ],
+   "explanation": "The Visakha Economic Region covers 10 districts and the Amaravati Economic Region covers 9 districts. The other options reverse or equalise the district counts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Horticulture hub investment",
+   "question": "What amount was announced for the Rayalaseema Global Horticulture Hub?",
+   "options": [
+    "₹30,000 crore",
+    "₹28,000 crore",
+    "₹3,000 crore",
+    "₹30,000 lakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F28"
+   ],
+   "explanation": "₹30,000 crore was announced for the Rayalaseema Global Horticulture Hub. ₹28,000 crore relates to the Visakha Economic Region, while the remaining options alter the amount or unit."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cyber crime policing",
+   "question": "What cyber crime policing measure was announced for Andhra Pradesh?",
+   "options": [
+    "A cyber crime police station in every district",
+    "A cyber crime police station in every economic region",
+    "A cyber crime police station in every 10 districts",
+    "A cyber crime police station only in the capital region"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F29"
+   ],
+   "explanation": "The announcement provides for a cyber crime police station in every district. The other options restrict the measure to economic regions, groups of districts, or the capital region."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Telangana share and Finance Commission-related transfers",
+   "question": "Consider the following statements:\n\n1. Telangana’s share under the 16th Finance Commission was 2.174%.\n2. Andhra Pradesh was to receive ₹64,362.16 crore in 2026–27, compared with ₹56,741.18 crore in 2025–26.\n3. Telangana was to receive ₹33,180.78 crore in 2026–27, compared with ₹29,471.19 crore in 2025–26, an increase of ₹3,709.59 crore.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "All three statements are correct. Telangana’s 16th Finance Commission share was 2.174%; Andhra Pradesh’s stated transfer rose from ₹56,741.18 crore to ₹64,362.16 crore, and Telangana’s rose from ₹29,471.19 crore to ₹33,180.78 crore, an increase of ₹3,709.59 crore."
+  }
+ ]
+}

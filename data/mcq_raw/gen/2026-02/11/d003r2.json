@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": [
+  "P5.F3",
+  "P6.F10",
+  "P6.F15"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Hoysala ruler",
+   "question": "Which of the following is the exact name of the Hoysala ruler identified as the final entry in the listed sequence of rulers?",
+   "options": [
+    "Vira Someshwara",
+    "Veera Ballala III",
+    "Veera Ballala II",
+    "Vishnuvardhana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "Vira Someshwara is the final ruler in the listed sequence of Hoysala rulers. Veera Ballala III is also mentioned in the sequence, but it is not the final entry."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cyber helpline and digital public services",
+   "question": "Consider the following statements:\n1. Cyber Sarathi was the first AI voice agent integrated with cybercrime complaints.\n2. WhatsApp Mee Seva can be accessed through 80969 58096.\n3. WhatsApp Mee Seva provides 4.5 lakh services.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F10",
+    "P6.F15"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Cyber Sarathi was the first AI voice agent integrated with cybercrime complaints, and WhatsApp Mee Seva uses 80969 58096. Statement 3 is incorrect because WhatsApp Mee Seva offers 581 services and has 4.5 lakh registered users; 4.5 lakh is not the number of services."
+  }
+ ]
+}

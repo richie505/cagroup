@@ -1,0 +1,121 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P2.F1",
+  "P2.F15",
+  "P2.F16",
+  "P2.F18",
+  "P2.F19",
+  "P2.F5",
+  "P2.F6",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic partnership",
+   "question": "The strategic partnership signed by Andhra Pradesh with the Gates Foundation covers which combination of sectors?",
+   "options": [
+    "Technology, AI, health, education and agriculture",
+    "Quantum computing, defence, tourism, textiles and mining",
+    "Roads, ports, policing, fisheries and space research",
+    "Banking, insurance, railways, aviation and urban housing"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The partnership covers technology, AI, health, education and agriculture. The other combinations contain sectors not identified as areas of this strategic partnership."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Swarnandhra Vision-2047 targets",
+   "question": "With reference to the employment-related targets under Swarnandhra Vision-2047, consider the following statements:\n\n1. Unemployment is targeted to decline from 4.1% to 2% by 2047.\n2. Women’s workforce participation is targeted to rise from 45.8% to 80% by 2047.\n3. Women’s workforce participation is targeted to rise from 45.8% to 85% by 2047.\n\nWhich of the following is correct?",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6"
+   ],
+   "explanation": "Only Statement 1 is correct: unemployment is targeted to fall from 4.1% to 2%. Statement 2 is false because the target for women’s workforce participation is 80%, not 85%; therefore exactly one statement is correct."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Tech cluster and health-education indicators",
+   "question": "Match List-I with List-II regarding Andhra Pradesh’s technology, education and health initiatives.\n\nList-I\n(a) Electronics–Space City\n(b) ORF tool\n(c) Universal health screening\n\nList-II\n(i) 71 lakh people screened, 41 tests and linkage to ABDM\n(ii) 13.4 lakh students in 35,000 schools\n(iii) Tirupati\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-i, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F15",
+    "P2.F18",
+    "P2.F19"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii and c-i: the Electronics–Space City is associated with Tirupati, the ORF tool covers 13.4 lakh students in 35,000 schools, and universal health screening covered 71 lakh people through 41 tests with linkage to ABDM. The other codes interchange these associations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AI governance scale",
+   "question": "According to the Andhra Pradesh AI initiative, which combination correctly represents its reported scale?",
+   "options": [
+    "10 sectors, 30 departments, 98 use cases, 43 hackathons and 7 data lake projects",
+    "7 sectors, 43 departments, 30 use cases, 98 hackathons and 10 data lake projects",
+    "30 sectors, 10 departments, 43 use cases, 7 hackathons and 98 data lake projects",
+    "98 sectors, 7 departments, 10 use cases, 30 hackathons and 43 data lake projects"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F16"
+   ],
+   "explanation": "The reported scale was 10 sectors, 30 departments, 98 use cases, 43 hackathons and 7 data lake projects. The remaining options rearrange or replace these figures."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Quantum Valley bhoomi puja",
+   "question": "Assertion (A): The ground-breaking ceremony for Quantum Valley was held near Uddandarayunipalem in Amaravati on 7 February 2026.\nReason (R): The event marked the foundation-laying of Quantum Valley.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "Both statements are true, and the reason correctly explains the event: the ceremony was the ground-breaking or foundation-laying of Quantum Valley. It took place on 7 February 2026 near Uddandarayunipalem in Amaravati."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Land allotment",
+   "question": "How much land was allotted for Quantum Valley at the time of its ground-breaking ceremony in Amaravati?",
+   "options": [
+    "50 acres",
+    "35 acres",
+    "71 acres",
+    "109 acres"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9"
+   ],
+   "explanation": "Fifty acres were allotted for Quantum Valley. The other figures refer to unrelated figures in the Andhra Pradesh current-affairs context and are not the land allotment for Quantum Valley."
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P5.F2",
+  "P6.F3",
+  "P7.F4",
+  "P8.F3",
+  "P8.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Geographical significance",
+   "question": "Which description correctly identifies Aconcagua, the destination of the Indian mountaineering expedition?",
+   "options": [
+    "Aconcagua is in the Andes of Argentina, at about 6,960 m, and is the highest peak in South America and outside Asia.",
+    "Aconcagua is in the Andes of Argentina, at about 6,960 m, and is the highest peak in Asia and outside South America.",
+    "Aconcagua is in the Andes of Argentina, at about 6,960 m, and is the highest peak in South America but not outside Asia.",
+    "Aconcagua is in the Andes of Argentina, at about 6,960 m, and is the highest peak outside South America and Asia."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "Aconcagua is located in the Andes of Argentina and rises to about 6,960 m. It is the highest peak in South America and the highest outside Asia; therefore, the third option is incorrect because it denies the latter distinction."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "The Cook Strait, crossed by Indian para-swimmer Satendra Singh Lohia, has which geographical location and connection?",
+   "options": [
+    "It lies between New Zealand’s North and South Islands and links the Tasman Sea with the South Pacific.",
+    "It lies between New Zealand’s North and South Islands and links the South Pacific with the Indian Ocean.",
+    "It lies between New Zealand’s North and South Islands and links the Tasman Sea with the Atlantic Ocean.",
+    "It lies between New Zealand’s North and South Islands and links the South Pacific with the Arctic Ocean."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "Cook Strait lies between the North and South Islands of New Zealand and connects the Tasman Sea with the South Pacific. The third option is the most tempting alternative, but the strait does not link the Tasman Sea with the Atlantic Ocean."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "HQ and establishment year",
+   "question": "With reference to the organisations associated with the football events of February 2026, consider the following statements:\n\n1. The headquarters of the Asian Football Confederation is in Kuala Lumpur.\n2. The headquarters of the South Asian Football Federation is in Dhaka.\n3. The All India Football Federation was established in 1937.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "All three statements are correct: AFC is headquartered in Kuala Lumpur, SAFF in Dhaka, and AIFF was established in 1937. Hence, the correct choice is “1, 2 and 3”; the other options omit at least one correct organisational detail."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Winner and stadium project",
+   "question": "Consider the following statements:\n\nStatement A: At the Khelo India Winter Games 2026, the Indian Army topped the standings with 9 silver medals and 23 medals overall.\nStatement B: The Uttar Pradesh–IOCL MoU for the Gorakhpur international stadium involves ₹339 crore and a seating capacity of 30,000.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "Statement A is false because the Indian Army topped the Khelo India Winter Games 2026 with 9 gold medals and 23 medals overall. Statement B is true, as the Gorakhpur international stadium project under the Uttar Pradesh–IOCL MoU involves ₹339 crore and 30,000 seats."
+  }
+ ]
+}

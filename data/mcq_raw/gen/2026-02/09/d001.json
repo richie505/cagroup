@@ -1,0 +1,177 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P6.F10",
+  "P6.F11",
+  "P6.F13",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9",
+  "P7.F1",
+  "P7.F2",
+  "P7.F3",
+  "P7.F5",
+  "P7.F6",
+  "P9.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Best Actor (Critics)",
+   "question": "At the 70th Filmfare Awards South for films of 2024, who won the Best Actor (Critics) award?",
+   "options": [
+    "Teja Sajja for Hanu-Man",
+    "Allu Arjun for Pushpa 2: The Rule",
+    "Amitabh Bachchan for Kalki 2898 AD",
+    "Sukumar for Pushpa 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "Teja Sajja won Best Actor (Critics) for Hanu-Man. Allu Arjun won Best Actor, while Amitabh Bachchan won Supporting Actor and Sukumar won Best Director."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Critics and supporting categories",
+   "question": "Which of the following statements regarding the acting awards at the 70th Filmfare Awards South for films of 2024 is incorrect?",
+   "options": [
+    "Kajal Aggarwal won Best Actress (Critics) for Satyabhama.",
+    "Amitabh Bachchan won Supporting Actor for Kalki 2898 AD.",
+    "Anjali won Supporting Actress for Gangs of Godavari.",
+    "Kajal Aggarwal won Supporting Actress (Critics) for Satyabhama."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F6",
+    "P6.F7",
+    "P6.F8"
+   ],
+   "explanation": "The incorrect statement is that Kajal Aggarwal won Supporting Actress (Critics). She won Best Actress (Critics) for Satyabhama; Amitabh Bachchan and Anjali won the stated supporting awards."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Music, lyrics and singer awards",
+   "question": "Match the award categories with their winners at the 70th Filmfare Awards South for films of 2024.\n\nList-I\n(a) Music Album\n(b) Lyrics\n(c) Female Singer\n\nList-II\n(i) Ramajogayya Sastry\n(ii) Shilpa Rao\n(iii) Devi Sri Prasad\n\nChoose the correct code:",
+   "options": [
+    "a-iii, b-i, c-ii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-iii, c-i",
+    "a-iii, b-ii, c-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F9",
+    "P6.F10",
+    "P6.F11"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i and c-ii: Devi Sri Prasad won for Music Album, Ramajogayya Sastry won for Lyrics, and Shilpa Rao won Female Singer. The other codes interchange these winners."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Debut winners and award history",
+   "question": "How many of the following statements about the 70th Filmfare Awards South are correct?\n\n1. Sandeep Saroj was recognised as a debut actor.\n2. Nayan Sarika was recognised as a debut actress.\n3. Filmfare South was established in 1954.\n4. Filmfare South was established in 1957.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F13"
+   ],
+   "explanation": "Three statements are correct: Sandeep Saroj was the debut actor, Nayan Sarika was the debut actress, and Filmfare South was established in 1954. The fourth statement is incorrect because the establishment year was 1954, not 1957."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and host",
+   "question": "Where was the 68th Grammy Awards ceremony held, and who hosted it?",
+   "options": [
+    "Crypto.com Arena, Los Angeles; Trevor Noah",
+    "Kochi, Kerala; Trevor Noah",
+    "Crypto.com Arena, Los Angeles; Steven Spielberg",
+    "Dharamshala; Rufus Wainwright"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The 68th Grammy Awards were held at Crypto.com Arena in Los Angeles and hosted by Trevor Noah. Kochi was associated with the Filmfare Awards South, while Steven Spielberg and Rufus Wainwright were not the host of this ceremony."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Album of the Year and nominations",
+   "question": "With reference to the 68th Grammy Awards, consider the following statements:\n\n1. Bad Bunny won Album of the Year.\n2. Kendrick Lamar led the nominations with 9.\n3. Kendrick Lamar led the nominations with 8.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "Exactly two statements are correct: Bad Bunny won Album of the Year and Kendrick Lamar led the nominations with 9. The figure 8 is incorrect; the stated number of nominations was 9."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First Grammy and EGOT",
+   "question": "Which achievement marked Steven Spielberg's recognition at the 68th Grammy Awards?",
+   "options": [
+    "He won his first Grammy for Music by John Williams and completed the EGOT.",
+    "He won Album of the Year for Music by John Williams.",
+    "He hosted the ceremony for the 7th and final time.",
+    "He accepted the Dalai Lama's first Grammy."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "Steven Spielberg won his first Grammy for Music by John Williams, completing the EGOT. Album of the Year went to Bad Bunny, while Trevor Noah hosted the ceremony and the Dalai Lama's award was accepted by Rufus Wainwright."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "China's objection and Tibetan headquarters",
+   "question": "Consider the following statements:\nStatement A: China objected to the Dalai Lama's first Grammy.\nStatement B: Dharamshala is the headquarters of the Tibetan Government-in-Exile since 1967.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F5",
+    "P7.F6"
+   ],
+   "explanation": "Statement A is true because China objected to the Dalai Lama's first Grammy. Statement B is false because the relevant fact identifies Dharamshala as the headquarters of the Tibetan Government-in-Exile, while the year mentioned is not 1967; the Recording Academy has presented the Grammys since 1957."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Road-safety financing project",
+   "question": "Under which project was road-safety financing in India addressed through the UN Road Safety Fund?",
+   "options": [
+    "Sustainable Financing for Road Safety in India",
+    "Make A Safety Statement",
+    "UN Road Safety Fund",
+    "Recording Academy Grammys since 1957"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "The project was titled Sustainable Financing for Road Safety in India and was implemented under the UN Road Safety Fund. Make A Safety Statement was the campaign connected with the appointment, while the other options do not name the project."
+  }
+ ]
+}

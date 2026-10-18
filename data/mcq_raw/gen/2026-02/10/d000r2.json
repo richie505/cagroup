@@ -1,0 +1,87 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P0.F1",
+  "P1.F10",
+  "P1.F2",
+  "P1.F3",
+  "P1.F5",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Highest winning margin",
+   "question": "In the ICC U-19 Men's World Cup 2026 final at Harare, by what margin did India defeat England—the highest winning margin in a U-19 final?",
+   "options": [
+    "100 runs",
+    "By wickets",
+    "By an innings",
+    "In a tied match"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "India defeated England by 100 runs in the final at Harare, Zimbabwe. The match was notable for recording the highest winning margin in a U-19 final; the other options do not describe the result."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Past T20 World Cup winners",
+   "question": "Consider the following statements about earlier editions of the ICC Men's T20 World Cup:\n1. India won the 2007 edition.\n2. Pakistan won the 2009 edition.\n3. The winners of the 2007 and 2009 editions were different teams.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "All three statements are correct: India won in 2007, Pakistan won in 2009, and the winners were therefore different teams. The options excluding statement 1, statement 2, or both do not reflect these results."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "T20 World Cup winners",
+   "question": "How many of the following statements about ICC Men's T20 World Cup winners are correct?\n1. West Indies won the 2012 edition.\n2. England won the 2022 edition.\n3. England won the 2012 edition.\n4. India won the 2022 edition.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F9"
+   ],
+   "explanation": "Only two statements are correct: West Indies won the 2012 edition and England won the 2022 edition. Statements 3 and 4 interchange those winners, making them incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "2024 T20 World Cup winner",
+   "question": "Which team won the ICC Men's T20 World Cup 2024?",
+   "options": [
+    "India",
+    "England",
+    "West Indies",
+    "Australia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "India won the ICC Men's T20 World Cup 2024. England, West Indies and Australia won different editions mentioned in the tournament record, not the 2024 edition."
+  }
+ ]
+}

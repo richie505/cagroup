@@ -1,0 +1,103 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": [
+  "P7.F1",
+  "P7.F2",
+  "P7.F5",
+  "P7.F6",
+  "P8.F1",
+  "P8.F2",
+  "P8.F3",
+  "P8.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Major contributors and sectoral share",
+   "question": "Consider the following statements regarding the Cornell study on agricultural greenhouse-gas emissions and the WIPO estimate on global R&D:\n1. India, China, Indonesia, the United States, Thailand and Brazil together accounted for about 61% of agricultural greenhouse-gas emissions.\n2. Rice accounted for about 43% of agricultural greenhouse-gas emissions, while Asia accounted for about 45% of global R&D.\n3. Global R&D reached $2.87 trillion in 2025, registering a 3% increase.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the six named countries contributed about 61% of agricultural greenhouse-gas emissions, rice accounted for about 43%, and Asia represented about 45% of global R&D. Statement 3 is incorrect because the $2.87 trillion global R&D estimate and 3% increase refer to 2024, not 2025."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Report findings and coverage",
+   "question": "Match List-I with List-II in the context of the cancer study and QS Best Student Cities 2026:\n\nList-I\n a. Data year of the cancer study\n b. Countries covered by the cancer study\n c. Distinction reported by QS Best Student Cities 2026\n d. City identified in the QS finding\n\nList-II\n i. New Delhi\n ii. 2022\n iii. Most affordable student city\n iv. 185 countries\n\nSelect the correct answer using the codes given below.",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-iv, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5",
+    "P7.F6"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i: the cancer study used 2022 data and covered 185 countries, while QS Best Student Cities 2026 identified New Delhi as the most affordable student city. The other codes interchange the year, coverage and QS finding."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Organ-transplant growth and student mobility",
+   "question": "How many of the following statements are correct?\n1. Organ transplants in India increased from fewer than 5,000 in 2013 to about 20,000 in 2025.\n2. NOTTO was established in 2015.\n3. The Transplantation of Human Organs Act was enacted in 1994 and amended in 2012.\n4. The number of Indian students abroad fell from 9.08 lakh in 2023 to 6.26 lakh in 2025, a decline of about 31%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "Only statements 1 and 4 are correct. NOTTO was established in 2014, and the Transplantation of Human Organs Act, 1994 was amended in 2011; therefore, statements 2 and 3 are incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Cybercrime cases and losses",
+   "question": "Consider the following statements:\nStatement A: India recorded 28.15 lakh cybercrime cases in 2025, a 24% increase over 22.68 lakh cases.\nStatement B: Investment scams accounted for 67% of cybercrime-related losses in 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "Statement A is true: cybercrime cases rose to 28.15 lakh in 2025 from 22.68 lakh, an increase of 24%. Statement B is false because investment scams accounted for 76% of the losses, not 67%."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "HIV treatment and state plan",
+   "question": "Assertion (A): Meghalaya reported 10,239 people on HIV treatment.\nReason (R): A ₹25 crore five-year plan was reported in connection with Meghalaya HIV measures.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F4"
+   ],
+   "explanation": "Assertion A is false because the reported number of people on HIV treatment in Meghalaya was 10,293. Reason R is true: a ₹25 crore five-year plan was reported in connection with Meghalaya HIV measures."
+  }
+ ]
+}

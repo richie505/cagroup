@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": [
+  "P1.F19",
+  "P1.F25",
+  "P1.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "First-of-its-kind facilities",
+   "question": "Consider the following statements about first-of-its-kind facilities reported in February 2026:\n\n1. Mathura became the site of India's first National Cow Culture Museum on the campus of Pandit Deen Dayal Upadhyay Veterinary University.\n2. AIIMS conducted the first tele-robotic ultrasound in Antarctica at Maitri, in collaboration with NCPOR and IIT Delhi.",
+   "options": [
+    "1 only",
+    "2 only",
+    "Neither 1 nor 2",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F19"
+   ],
+   "explanation": "Both statements are correct. The first National Cow Culture Museum was established at Mathura, while AIIMS conducted the first tele-robotic ultrasound in Antarctica at Maitri with NCPOR and IIT Delhi. The options identifying only one or neither statement as correct are therefore wrong."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Emergency Landing Facility details",
+   "question": "The North-East's first Emergency Landing Facility at Moran Bypass, Dibrugarh, has which of the following specifications?",
+   "options": [
+    "4.2 km length and ₹99.86 crore cost",
+    "33.7 km length and ₹18,662.02 crore cost",
+    "500 m length and ₹6.21 crore cost",
+    "23 km length and ₹94.85 crore cost"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F25"
+   ],
+   "explanation": "The Moran Emergency Landing Facility is 4.2 km long and cost ₹99.86 crore. The figures 33.7 km and ₹18,662.02 crore refer to the Gohpur–Numaligarh underwater road-cum-rail tunnel, making that the most tempting incorrect option."
+  }
+ ]
+}

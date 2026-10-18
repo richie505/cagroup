@@ -1,0 +1,233 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P5.F2",
+  "P5.F3",
+  "P5.F4",
+  "P5.F5",
+  "P5.F6",
+  "P6.F1",
+  "P6.F10",
+  "P6.F11",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9",
+  "P7.F2",
+  "P8.F2",
+  "P8.F3",
+  "P8.F4",
+  "P8.F5",
+  "P9.F6",
+  "P9.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "AI Living Labs structure and facilities",
+   "question": "With reference to the AI Living Labs Foundation and related decisions of the Andhra Pradesh Cabinet, consider the following statements:\n1. The AI Living Labs Foundation is a Section-8 non-profit based at Amaravati, aiming to provide AI training to at least one person per family.\n2. The State Data Centre is proposed at the IIIT Tirupati campus under a BOOT model, but without disaster recovery.\n3. The Foundation is intended to operate without GPUs and datasets.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "Statement 1 is correct: the AI Living Labs Foundation is a Section-8 non-profit based at Amaravati and seeks to train at least one person per family in AI. Statement 2 is wrong because the State Data Centre includes disaster recovery, and Statement 3 is wrong because GPUs and datasets are part of the Foundation's plan."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "House regularisation deadline",
+   "question": "Which of the following statements regarding the Andhra Pradesh Cabinet's house-regularisation decision is incorrect?",
+   "options": [
+    "House regularisation on government land was extended to 30 June 2026.",
+    "The extension includes Gajuwaka.",
+    "House regularisation on government land was extended to 30 June 2025.",
+    "The decision concerned regularisation of houses on government land."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "The incorrect statement changes the deadline to 30 June 2025. The correct deadline was 30 June 2026, and the extension included Gajuwaka."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number and amount of water-management works",
+   "question": "Under the Andhra Pradesh Cabinet decisions of 11 February 2026, how many water-management works were approved for 2025–26, and at what cost?",
+   "options": [
+    "7,189 works at ₹344 crore",
+    "7,189 works at ₹443 crore",
+    "7,819 works at ₹344 crore",
+    "7,819 works at ₹443 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "The Cabinet decision covered 7,189 water-management works at a cost of ₹344 crore for 2025–26. The other options alter either the number of works, the amount, or both."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Draft bills",
+   "question": "Which pair of draft bills was included in the Andhra Pradesh Cabinet decisions of 11 February 2026?",
+   "options": [
+    "Assigned Lands Amendment Bill–2026 and Gram/Ward Secretariat Bill–2026",
+    "Assigned Lands Amendment Bill–2025 and Gram/Ward Secretariat Bill–2026",
+    "Assigned Lands Amendment Bill–2026 and Gram/Ward Secretariat Bill–2025",
+    "Assigned Lands Regularisation Bill–2026 and Gram/Ward Secretariat Bill–2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "The two draft bills were the Assigned Lands Amendment Bill–2026 and the Gram/Ward Secretariat Bill–2026. The traps change a year or replace the title of the Assigned Lands Bill."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Districts above State average PCI",
+   "question": "According to the 2025–26 advance estimates for Andhra Pradesh, what was the State average per capita income and how many districts were above it?",
+   "options": [
+    "₹2,94,507; 9 districts",
+    "₹2,94,507; 10 districts",
+    "₹2,49,507; 9 districts",
+    "₹2,49,507; 10 districts"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "The State average per capita income was ₹2,94,507, and only 9 districts were above this average. The other choices alter either the amount or the number of districts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Lowest GDDP district",
+   "question": "Which district recorded the lowest GDDP in Andhra Pradesh according to the 2025–26 advance estimates?",
+   "options": [
+    "Parvathipuram Manyam, with ₹6,723 crore",
+    "Parvathipuram Manyam, with ₹6,723 crore",
+    "SPS Nellore, with ₹6,723 crore",
+    "Parvathipuram Manyam, with ₹67,230 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F6"
+   ],
+   "explanation": "Parvathipuram Manyam ranked last in GDDP with ₹6,723 crore. The third option substitutes SPS Nellore, while the fourth changes the amount by adding a digit."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "PCI ranks and amounts",
+   "question": "According to the 2025–26 advance estimates, how many of the following statements about district per capita income are correct?\n1. Visakhapatnam ranked first with a PCI of ₹6,58,091.\n2. Krishna ranked second with a PCI of ₹4,82,078.\n3. NTR ranked tenth with a PCI of ₹3,91,390.\n4. SPS Nellore ranked tenth with a PCI of ₹2,90,100.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F7",
+    "P6.F8",
+    "P6.F9",
+    "P6.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Visakhapatnam ranked first and Krishna ranked second in PCI. Statement 3 is incorrect because NTR ranked third, while Statement 4 is incorrect because SPS Nellore ranked tenth with ₹2,90,100; therefore, only two statements are correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Lowest PCI district",
+   "question": "Which district had the lowest per capita income in Andhra Pradesh according to the 2025–26 advance estimates?",
+   "options": [
+    "Parvathipuram Manyam, with ₹1,56,977",
+    "Parvathipuram Manyam, with ₹1,65,977",
+    "SPS Nellore, with ₹1,56,977",
+    "Parvathipuram Manyam, with ₹6,723"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F11"
+   ],
+   "explanation": "Parvathipuram Manyam ranked last in PCI with ₹1,56,977. The other options alter the amount, substitute SPS Nellore, or use the district's GDDP figure instead."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First in India",
+   "question": "What was described as the first initiative of its kind in India in the grading of Andhra Pradesh Assembly constituencies?",
+   "options": [
+    "Constituency Vision Action Plan",
+    "Assigned Lands Amendment Bill",
+    "AI Living Labs Foundation",
+    "Green Tug Transition Programme"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "The Constituency Vision Action Plan was described as the first in India. The other options refer to unrelated initiatives or legislative decisions."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "South Coast Railway approval",
+   "question": "Assertion (A): The divisions of South Coast Railway are to include Vijayawada, Guntur and Guntakal, along with parts of East Coast Railway, as promised under the Andhra Pradesh Reorganisation Act, 2014.\nReason (R): The Union Cabinet approved South Coast Railway in February 2026.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3"
+   ],
+   "explanation": "Assertion A is true because these divisions and railway sections were promised under the Andhra Pradesh Reorganisation Act, 2014. Reason R is false: the Union Cabinet approved South Coast Railway in February 2025, not February 2026."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "South Coast Railway realignment",
+   "question": "With reference to the South Coast Railway zone, consider the following statements:\n1. The South Coast Railway zone left the Secunderabad, Hyderabad and Nanded divisions with South Central Railway.\n2. The realigned sections included Raichur–Wadi and Vishnupuram–Pagidipalli.\n3. The South Coast Railway zone left the Secunderabad, Hyderabad and Raichur divisions with South Central Railway.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct. South Central Railway retained Secunderabad, Hyderabad and Nanded divisions, and the realigned sections included Raichur–Wadi and Vishnupuram–Pagidipalli; Statement 3 wrongly substitutes Raichur for Nanded."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sagarmala pillars and maritime initiatives",
+   "question": "Which option correctly combines the five Sagarmala pillars with the related maritime initiatives mentioned in the Andhra Pradesh context?",
+   "options": [
+    "Sagarmala: port modernisation, port connectivity, port-led industrialisation, coastal community development, coastal shipping and IWT; related initiatives: Harit Sagar Guidelines, Green Tug Transition Programme, Sagar Setu 2.0 and Cruise Bharat Mission",
+    "Sagarmala: port modernisation, railway connectivity, port-led industrialisation, coastal community development, coastal shipping and IWT; related initiatives: Harit Sagar Guidelines, Green Tug Transition Programme, Sagar Setu 2.0 and Cruise Bharat Mission",
+    "Sagarmala: port modernisation, port connectivity, port-led industrialisation, coastal community development, coastal shipping and IWT; related initiatives: Harit Sagar Guidelines, Green Tug Transition Programme, Sagar Setu 2.0 and Assigned Lands Amendment Bill–2026",
+    "Sagarmala: port modernisation, port connectivity, port-led industrialisation, coastal community development, coastal shipping and IWT; related initiatives: AI Living Labs Foundation, Green Tug Transition Programme, Sagar Setu 2.0 and Cruise Bharat Mission"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F6",
+    "P9.F7"
+   ],
+   "explanation": "The five Sagarmala pillars are port modernisation, port connectivity, port-led industrialisation, coastal community development, and coastal shipping and IWT. The related initiatives are Harit Sagar Guidelines, Green Tug Transition Programme, Sagar Setu 2.0 and Cruise Bharat Mission; the other options replace one item with an unrelated detail."
+  }
+ ]
+}

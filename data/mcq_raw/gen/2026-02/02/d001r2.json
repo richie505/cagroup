@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Supplier liability and liability fund",
+   "question": "Under the SHANTI Act, 2025, which change was made regarding nuclear liability?",
+   "options": [
+    "Supplier liability was eliminated, while excess liability is covered by a Nuclear Liability Fund.",
+    "Supplier liability was retained, while excess liability is covered by a Nuclear Liability Fund.",
+    "Supplier liability was eliminated, while excess liability is not covered by a Nuclear Liability Fund.",
+    "Supplier liability was retained, while excess liability is not covered by a Nuclear Liability Fund."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "The SHANTI Act eliminates supplier liability and provides that liability exceeding the applicable cap is covered by a Nuclear Liability Fund. The tempting alternative is that supplier liability was retained, but that reverses the Act’s change."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Exemption for grave natural disasters",
+   "question": "With reference to the liability provisions under the SHANTI Act, 2025, consider the following statements:\nStatement A: Operators are exempt from liability in cases of grave natural disasters.\nStatement B: The overall liability ceiling under the framework is about ₹3,000 crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F9"
+   ],
+   "explanation": "Statement A is correct because operators are exempt for grave natural disasters. Statement B is incorrect because the overall ceiling is about ₹3,900 crore, not ₹3,000 crore."
+  }
+ ]
+}

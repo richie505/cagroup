@@ -1,0 +1,228 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F4",
+  "P0.F5",
+  "P1.F10",
+  "P1.F11",
+  "P1.F3",
+  "P1.F6",
+  "P1.F7",
+  "P1.F9",
+  "P2.F3",
+  "P2.F5",
+  "P2.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Achievement under DAY-NRLM",
+   "question": "Under the next phase of the Deendayal Antyodaya Yojana–National Rural Livelihoods Mission, how many Lakhpati Didis had been reported?",
+   "options": [
+    "More than 2 crore",
+    "More than 10 crore",
+    "More than 91 lakh",
+    "47,952"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "More than 2 crore women had crossed the Lakhpati Didi threshold, defined as annual income above ₹1 lakh. The figures 10 crore and 91 lakh refer to DAY-NRLM household and SHG coverage, while 47,952 is the number of Bank Sakhis."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Community banking support",
+   "question": "How many Bank Sakhis had been deployed under DAY-NRLM?",
+   "options": [
+    "47,952",
+    "2 crore",
+    "5.35 lakh",
+    "33,558"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "DAY-NRLM had deployed 47,952 Bank Sakhis. The other figures refer to Lakhpati Didis, Village Organisations and Cluster Level Federations respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Community Resource Persons and models",
+   "question": "With reference to DAY-NRLM’s community resource persons and institutional models, consider the following statements:\n\n1. Krishi Sakhi, Pashu Sakhi, Bank/BC Sakhi and Bima Sakhi are listed as Community Resource Persons.\n2. The Community Resource Person list consists only of Krishi Sakhi and Pashu Sakhi.\n3. Kudumbashree is associated with Kerala, Jeevika with Bihar, and planning is undertaken through the Village Prosperity and Resilience Plan.",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the four Sakhi roles are listed as Community Resource Persons, and the two models and VPRP are correctly associated. Statement 2 is incorrect because the list also includes Bank/BC Sakhi and Bima Sakhi."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State women’s cash-transfer schemes",
+   "question": "Match the women-oriented direct benefit transfer schemes with their States:\n\nList-I\n(a) Ladli Laxmi Yojana\n(b) Maiya Samman Yojana\n(c) Ladki Bahin Yojana\n(d) Mukhyamantri Mahila Rozgar Yojana\n\nList-II\n(i) Bihar\n(ii) Maharashtra\n(iii) Madhya Pradesh\n(iv) Jharkhand",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12",
+    "P0.F13",
+    "P0.F14",
+    "P0.F15"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i: Ladli Laxmi is of Madhya Pradesh, Maiya Samman is of Jharkhand, Ladki Bahin is of Maharashtra, and Mukhyamantri Mahila Rozgar is of Bihar. The other codes interchange these State associations."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Institutional suggestions for women entrepreneurs",
+   "question": "Assertion (A): Suggestions for strengthening rural women’s entrepreneurship included individual credit and CIBIL scores, partnerships with SIDBI, and a Convergence Cell at NITI Aayog.\nReason (R): The proposed Convergence Cell was to be established at the Ministry of Rural Development.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "The Assertion is true because all three suggestions were identified for strengthening women’s entrepreneurship. The Reason is false: the suggested Convergence Cell was at NITI Aayog, not at the Ministry of Rural Development."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Earlier AYUSH allocation",
+   "question": "What was the AYUSH allocation in 2020–21?",
+   "options": [
+    "₹2,122 crore",
+    "₹3,992 crore",
+    "₹4,408 crore",
+    "$26.5 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The AYUSH allocation in 2020–21 was ₹2,122 crore. ₹3,992 crore and ₹4,408 crore are allocations for other stated budget years, while $26.5 billion is the sector size reported for 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AI assistant for medicinal plant farmers",
+   "question": "Which initiative announced in the 2026–27 Budget is an AI assistant for medicinal plant farmers?",
+   "options": [
+    "Bharat-VISTAAR",
+    "National AYUSH Mission",
+    "Traditional Knowledge Digital Library",
+    "WHO Global Traditional Medicine Centre"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "Bharat-VISTAAR is the AI assistant announced for medicinal plant farmers. The National AYUSH Mission is a funding-related mission, the Traditional Knowledge Digital Library concerns traditional knowledge, and the WHO centre is located in Jamnagar."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "India–EU FTA and AYUSH scope",
+   "question": "Consider the following statements:\nStatement A: Under the India–EU FTA, AYUSH practitioners may practise in EU states with Indian qualifications without TM regulation, and wellness centres are envisaged across 27 EU states.\nStatement B: Allopathy is one of the disciplines included in the AYUSH acronym.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F9"
+   ],
+   "explanation": "Statement A is true: the arrangement covers practice with Indian qualifications without TM regulation and wellness centres across 27 EU states. Statement B is false because AYUSH comprises Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy, not Allopathy."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "AYUSH sector profile",
+   "question": "Match the features of the AYUSH sector with the corresponding descriptions:\n\nList-I\n(a) Sector size in 2026\n(b) Share represented by start-ups and MSMEs\n(c) Year associated with the reported sector size\n(d) Sector covered by the reported estimate\n\nList-II\n(i) 2026\n(ii) About 80%\n(iii) $26.5 billion\n(iv) AYUSH",
+   "options": [
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-i and d-iv: the AYUSH sector was valued at $26.5 billion in 2026, with start-ups and MSMEs accounting for about 80%. The alternative codes mismatch the estimate, year, sector or enterprise share."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mental-health workforce and digital reach",
+   "question": "Which combination correctly describes India’s adolescent mental-health context?",
+   "options": [
+    "Fewer than 10,000 psychiatrists for more than 1.4 billion people, alongside more than 800 million internet users",
+    "More than 10,000 psychiatrists for more than 1.4 billion people, alongside fewer than 800 million internet users",
+    "Fewer than 10,000 psychiatrists for fewer than 1.4 billion people, alongside more than 800 million internet users",
+    "More than 10,000 psychiatrists for fewer than 1.4 billion people, alongside fewer than 800 million internet users"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "India had fewer than 10,000 psychiatrists for a population exceeding 1.4 billion, while internet users exceeded 800 million. Each other option reverses one or more of these stated figures."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Policy responses to adolescent mental health",
+   "question": "How many of the following are identified policy responses or institutional mechanisms relevant to India’s adolescent mental-health crisis?\n\n1. Recognition in the Economic Survey 2025–26\n2. National Mental Health Programme\n3. Ayushman Bharat Health and Wellness Centres\n4. A national programme replacing Tele-MANAS",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Only three statements are correct: recognition in the Economic Survey 2025–26, the National Mental Health Programme and Ayushman Bharat Health and Wellness Centres are identified responses. Statement 4 is false because Tele-MANAS itself is listed as a relevant mechanism; the fact does not state that it is being replaced."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "International social-media regulation models",
+   "question": "Which group of countries was cited as providing social-media regulation models in the discussion on adolescent mental health?",
+   "options": [
+    "Australia, France and South Korea",
+    "India, Australia and France",
+    "France, South Korea and Japan",
+    "Australia, India and South Korea"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "The cited models are from Australia, France and South Korea. The other options replace one of these countries with India or Japan, which are not part of the stated group."
+  }
+ ]
+}

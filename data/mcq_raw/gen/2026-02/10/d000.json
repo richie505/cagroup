@@ -1,0 +1,250 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F2",
+  "P0.F3",
+  "P1.F10",
+  "P1.F2",
+  "P1.F3",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F2",
+  "P2.F3",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P3.F5",
+  "P3.F7",
+  "P4.F1"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and winning margin",
+   "question": "In the ICC U-19 Men's World Cup 2026 final at Harare, Zimbabwe, which result was recorded?",
+   "options": [
+    "India defeated England by 100 runs",
+    "India defeated England by 75 runs",
+    "England defeated India by 100 runs",
+    "India defeated England by 10 wickets"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "India defeated England by 100 runs in the final at Harare, Zimbabwe. The 100-run margin was the highest winning margin in a U-19 final; it was not a 75-run margin or a 10-wicket victory."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Final score and Player of the Series",
+   "question": "Consider the following statements about the ICC U-19 Men's World Cup 2026 final:\nStatement A: India scored 401/9 against England.\nStatement B: Ayush Mhatre was named Player of the Series.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "Both statements are false. India scored 411/9, while Vaibhav Suryavanshi was named Player of the Series; Ayush Mhatre scored 53 in the final."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Winner in 2007",
+   "question": "Who won the inaugural ICC Men's T20 World Cup held in 2007?",
+   "options": [
+    "India",
+    "Pakistan",
+    "England",
+    "West Indies"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "India won the 2007 ICC Men's T20 World Cup. Pakistan won in 2009, while England and West Indies won in later editions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Winner in 2009",
+   "question": "Which team won the ICC Men's T20 World Cup in 2009?",
+   "options": [
+    "Pakistan",
+    "India",
+    "Sri Lanka",
+    "Australia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "Pakistan won the 2009 ICC Men's T20 World Cup. India was the 2007 winner, whereas Sri Lanka and Australia won other editions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Winner in 2010",
+   "question": "Which country won the ICC Men's T20 World Cup in 2010?",
+   "options": [
+    "England",
+    "West Indies",
+    "Pakistan",
+    "India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "England won the 2010 ICC Men's T20 World Cup. West Indies, Pakistan and India were winners in different editions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Winner in 2012",
+   "question": "Which team won the ICC Men's T20 World Cup in 2012?",
+   "options": [
+    "West Indies",
+    "Sri Lanka",
+    "England",
+    "Australia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "West Indies won the 2012 ICC Men's T20 World Cup. Sri Lanka won in 2014, England in 2022, and Australia in 2021."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Winners of 2014, 2016 and 2021 editions",
+   "question": "Consider the following statements about ICC Men's T20 World Cup winners:\n1. Sri Lanka won the 2014 edition.\n2. West Indies won the 2016 edition.\n3. England won the 2021 edition.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Sri Lanka won in 2014 and West Indies won in 2016. Statement 3 is incorrect because Australia won the 2021 edition, not England."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Winner in 2022",
+   "question": "Which team won the ICC Men's T20 World Cup in 2022?",
+   "options": [
+    "England",
+    "India",
+    "Australia",
+    "Sri Lanka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9"
+   ],
+   "explanation": "England won the 2022 ICC Men's T20 World Cup. India won in 2024, while Australia won in 2021."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Winner in 2024",
+   "question": "Which team won the ICC Men's T20 World Cup in 2024?",
+   "options": [
+    "India",
+    "England",
+    "West Indies",
+    "Pakistan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "India won the 2024 ICC Men's T20 World Cup. England was the 2022 winner, while West Indies and Pakistan won earlier editions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Harmanpreet Kaur's international appearances",
+   "question": "What was the composition of Harmanpreet Kaur's international appearances mentioned in February 2026?",
+   "options": [
+    "189 T20Is, 161 ODIs and 6 Tests",
+    "161 T20Is, 189 ODIs and 6 Tests",
+    "189 T20Is, 161 ODIs and 16 Tests",
+    "189 T20Is, 161 ODIs and 8 Tests"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Harmanpreet Kaur had played 189 T20Is, 161 ODIs and 6 Tests. The figures for T20Is, ODIs and Tests are deliberately interchanged or altered in the other options."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "WPL, Rising Stars, ACC and Deaf Cricket Asia Cup",
+   "question": "Match the women's cricket event or organisation in List-I with the associated fact in List-II.\n\nList-I\n a. WPL 2026\n b. Asia Cup Rising Stars 2026\n c. Asian Cricket Council\n d. Deaf Cricket Asia Cup\n\nList-II\n i. India-A defeated Bangladesh-A by 46 runs\n ii. India won the inaugural title at Barabati Stadium, Cuttack\n iii. Royal Challengers Bengaluru won its second title\n iv. Headquarters at Dubai",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4",
+    "P2.F5",
+    "P2.F6"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii. Royal Challengers Bengaluru won its second WPL title; India-A beat Bangladesh-A by 46 runs; the ACC is headquartered in Dubai; and India won the inaugural Deaf Cricket Asia Cup at Barabati Stadium, Cuttack."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Australian Open 2026 mixed doubles and Djokovic record",
+   "question": "Consider the following statements about the Australian Open 2026:\n1. Olivia Gadecki and John Peers won the mixed doubles title.\n2. Djokovic lost an Australian Open final for the first time in ten.\n3. Mladenovic and Guinard won the mixed doubles title.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Olivia Gadecki and John Peers won mixed doubles, and Djokovic lost an Australian Open final for the first time in ten. Statement 3 is incorrect because Mladenovic and Guinard were the runners-up."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Closing ceremony venue",
+   "question": "Where was the closing ceremony of the Milano Cortina Winter Olympics 2026 held?",
+   "options": [
+    "Verona Arena",
+    "Milan",
+    "Cortina d'Ampezzo",
+    "Barabati Stadium, Cuttack"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The closing ceremony of the 25th Winter Olympics was held at Verona Arena on 22 February 2026. Milan and Cortina d'Ampezzo were the host locations, but neither was the stated closing-ceremony venue."
+  }
+ ]
+}

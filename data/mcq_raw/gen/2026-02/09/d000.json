@@ -1,0 +1,124 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P0.F1",
+  "P1.F3",
+  "P2.F2",
+  "P2.F3",
+  "P3.F2",
+  "P3.F3",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Award and awarding authority",
+   "question": "Which honour, presented by Knesset Speaker Amir Ohana, is Israel’s highest parliamentary honour received by Prime Minister Narendra Modi?",
+   "options": [
+    "Speaker of the Knesset Medal",
+    "Grand Collar of the State of Palestine",
+    "Global Teacher Prize",
+    "Crawford Prize"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Speaker of the Knesset Medal is Israel’s highest parliamentary honour, and it was presented by Knesset Speaker Amir Ohana. The Grand Collar of the State of Palestine and the Crawford Prize are different honours."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation founded and social initiative",
+   "question": "Which foundation, founded by Rubal Nagi, operates about 800 education centres and uses murals on slum walls as classrooms?",
+   "options": [
+    "Rubal Nagi Art Foundation",
+    "Varkey Foundation",
+    "Association for Asian Studies",
+    "India–Israel Industrial R&D Fund"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "Rubal Nagi founded the Rubal Nagi Art Foundation, which operates about 800 education centres and creates classrooms through murals on slum walls. The Varkey Foundation and the Association for Asian Studies are associated with other awards in the period."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Scientific contribution and prize details",
+   "question": "With reference to Veerabhadran Ramanathan’s Crawford Prize, consider the following statements:\n\n1. Ramanathan found that CFCs trap about 10,000 times more heat than CO₂.\n2. The Indian Ocean Experiment showed that pollution clouds weaken the monsoon.\n3. The Crawford Prize ceremony for Ramanathan was held in Stockholm in April.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Ramanathan’s research concerned the heat-trapping effect of CFCs and the weakening of the monsoon by pollution clouds. Statement 3 is incorrect because the ceremony was scheduled in Stockholm in May, not April."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Restoration and institutional history",
+   "question": "Assertion (A): The restoration of Our Lady of Grace Cathedral followed a community-based model and cost about ₹4.5 crore.\nReason (R): The UNESCO Asia-Pacific Cultural Heritage Conservation Awards were established in 2000, and UNESCO’s Director-General is Khaled El Enany.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the establishment of the awards in 2000 and the identity of UNESCO Director-General Khaled El Enany do not explain the cathedral’s restoration cost or its community-based model."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation and chairman",
+   "question": "Abhishek Dev is the chairman of which organisation mentioned in the February 2026 awards and honours reports?",
+   "options": [
+    "APEDA",
+    "ISCR",
+    "NHDC",
+    "Association for Asian Studies"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "Abhishek Dev is the chairman of APEDA. ISCR, NHDC and the Association for Asian Studies are separate organisations associated with other entries."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Achievement and appointment details",
+   "question": "How many of the following statements about the February 2026 honours are correct?\n\n1. Seven-year-old Reyansh Kamkar from Thane received a World Book of Records, London, honour for a 30 km solo swim.\n2. Reyansh Kamkar completed the swim in 7 hours 30 minutes 11 seconds.\n3. Uday Nagraju was sworn in as a life member of the UK House of Lords on 11 February 2026 and took the oath on the Bhagavad Gita.\n4. Uday Nagraju was the founder of the Mahatma Gandhi Future Leaders Foundation.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F6",
+    "P4.F8"
+   ],
+   "explanation": "Only three statements are correct. Uday Nagraju was the founder of the Mahatma Gandhi Future Leaders Program, not the Mahatma Gandhi Future Leaders Foundation."
+  }
+ ]
+}

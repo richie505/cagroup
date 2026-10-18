@@ -1,0 +1,67 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P11.F1",
+  "P8.F1",
+  "P8.F5",
+  "P9.F11"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GST and India–China trade figures",
+   "question": "Consider the following statements regarding India’s economic data reported for 2025–26:\n1. GST collections in January 2026 amounted to ₹1.93 lakh crore, registering 6.2% growth.\n2. India–China trade in 2025 was approximately $155 billion, recording 12% growth.\n3. India–China trade in 2025 was approximately $150 billion, recording 12% growth.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: January 2026 GST collections were ₹1.93 lakh crore with 6.2% growth, while India–China trade in 2025 was approximately $155 billion with 12% growth. Statement 3 is incorrect because the reported trade figure was $155 billion, not $150 billion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UDAN achievements",
+   "question": "Which of the following correctly describes the achievements of the UDAN scheme?",
+   "options": [
+    "625 routes, 90 airports, 15 heliports and 2 water aerodromes",
+    "159 routes, 74 airports, 15 heliports and 2 water aerodromes",
+    "625 routes, 90 airports, 20 heliports and 3 water aerodromes",
+    "102 routes, 90 airports, 15 heliports and 2 water aerodromes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F11"
+   ],
+   "explanation": "UDAN has connected 625 routes and includes 90 airports, 15 heliports and 2 water aerodromes. The other options alter one or more of these achievement figures, including the airport, route, heliport or water-aerodrome counts."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Soil Health Card status",
+   "question": "Which of the following statements regarding the Soil Health Card scheme is incorrect?",
+   "options": [
+    "More than 25 crore Soil Health Cards have been distributed.",
+    "The Soil Health Card scheme was launched in 2015.",
+    "Soil Health Cards are issued every two years.",
+    "Soil Health Cards are issued every 10 years."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The incorrect statement is that Soil Health Cards are issued every 10 years; the cards are issued every two years. More than 25 crore cards have been distributed, and the scheme was launched in 2015."
+  }
+ ]
+}

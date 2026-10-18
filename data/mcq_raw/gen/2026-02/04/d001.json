@@ -1,0 +1,155 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F10",
+  "P1.F11",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Quarterly GDP revisions",
+   "question": "With reference to the revised quarterly real GDP estimates for 2025–26, consider the following statements:\n\n1. Q3 growth for October–December was 7.8%, compared with 7.4% a year earlier.\n2. Q2 growth was revised upward from 8.2% to 8.4%.\n3. Q1 growth was revised upward from 7.8% to 6.7%.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Q3 growth was 7.8%, while Q2 was revised from 8.2% to 8.4%; Q1 was revised downward from 7.8% to 6.7%, making statement 3 incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Real GDP estimate",
+   "question": "What was the estimated real GDP of India for 2025–26 in the revised GDP series?",
+   "options": [
+    "₹299.89 lakh crore",
+    "₹310.58 lakh crore",
+    "₹322.58 lakh crore",
+    "₹332.58 lakh crore"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "The estimated real GDP for 2025–26 was ₹322.58 lakh crore. ₹299.89 lakh crore was the corresponding figure for 2024–25."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Growth outlook",
+   "question": "Assertion (A): The Chief Economic Adviser projected India’s growth for 2026–27 in the range of 7–7.4% and said that the economy may cross USD 4 trillion.\nReason (R): The SBI report projected FY26 growth at approximately 7.6%.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F9"
+   ],
+   "explanation": "Assertion A is correct: the projected 2026–27 growth range was 7–7.4%, with the possibility of crossing USD 4 trillion. Reason R is incorrect because the SBI report estimated FY26 growth at approximately 7.4%, not 7.6%."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Fiscal deficit",
+   "question": "Which of the following statements regarding India’s fiscal deficit position is incorrect?",
+   "options": [
+    "The fiscal deficit at the end of January stood at ₹9.8 lakh crore.",
+    "The January fiscal deficit represented 63% of the target.",
+    "The total fiscal deficit for 2025–26 was ₹15.58 lakh crore.",
+    "The total fiscal deficit for 2025–26 was 4.7%."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "The incorrect statement is that the total fiscal deficit for 2025–26 was 4.7%. The figure was 4.4%; the January deficit was ₹9.8 lakh crore, or 63% of the target."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Base year of trade indices",
+   "question": "Which organisation revised the base year of India’s merchandise trade indices, including Gross, Net and Income Terms of Trade, to 2022–23?",
+   "options": [
+    "National Statistical Office",
+    "Directorate General of Commercial Intelligence and Statistics",
+    "Reserve Bank of India",
+    "State Bank of India"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "The Directorate General of Commercial Intelligence and Statistics revised the base year of the merchandise trade indices to 2022–23. The National Statistical Office is associated with the household income and incorporated service-sector surveys."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Upcoming statistical surveys",
+   "question": "Consider the following statements:\nStatement A: The National Household Income Survey and the Annual Survey of Incorporated Service Sector Enterprises will begin from May 2026.\nStatement B: These surveys will be conducted through CAPI.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "Statement A is false because the surveys are scheduled to begin from April 2026. Statement B is true, as the National Statistical Office will conduct them through CAPI."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "RBI policy measures and projections",
+   "question": "How many of the following statements relating to the February 2026 monetary policy decision are correct?\n\n1. The cumulative repo-rate cut since February 2025 was 125 basis points.\n2. The current-year GDP estimate was revised from 7.3% to 7.4%, while the next-year estimate was placed at 6.9–7%.\n3. Inflation was revised from 2.1% to approximately 3.2%, with the next-year projection at 4–4.2%.\n4. The collateral-free loan limit for micro and small enterprises was increased from ₹10 lakh to ₹30 lakh.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "Three statements are correct: the cumulative cut was 125 basis points, the GDP estimates were revised to 7.4% and 6.9–7%, and the inflation estimates were revised to approximately 3.2% and 4–4.2%. Statement 4 is incorrect because the collateral-free loan limit was increased from ₹10 lakh to ₹20 lakh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "RBI data centre location",
+   "question": "In which State was the RBI’s Tier-IV data centre built?",
+   "options": [
+    "Odisha",
+    "West Bengal",
+    "Maharashtra",
+    "Karnataka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "The RBI’s Tier-IV data centre was built in Odisha. West Bengal, Maharashtra and Karnataka were not identified as the location of this data centre."
+  }
+ ]
+}

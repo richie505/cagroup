@@ -1,0 +1,138 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F2",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Themes and institutional association",
+   "question": "Match the following February observances with their associated themes or institutional notes:\n\nList-I\n(a) World Wetlands Day 2026\n(b) World Pulses Day\n(c) World Radio Day\n(d) Global Tourism Resilience Day\n\nList-II\n(i) Wetlands and traditional knowledge: Celebrating cultural heritage\n(ii) Pulses of the World: From Modesty to Excellence\n(iii) Radio and Artificial Intelligence\n(iv) UN Tourism, Madrid, established in 1975",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F4",
+    "P0.F5",
+    "P0.F7"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. World Wetlands Day carries the traditional-knowledge theme, World Pulses Day carries the pulses theme, World Radio Day focuses on radio and artificial intelligence, and Global Tourism Resilience Day is associated with UN Tourism in Madrid. The tempting alternative a-ii, b-i, c-iv, d-iii incorrectly interchanges the observances and their themes or institutions."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "National Women’s Day and International Mother Language Day",
+   "question": "Consider the following statements about February observances:\n\n1. National Women’s Day has been observed since 2014.\n2. Sarojini Naidu became the first woman Governor of Uttar Pradesh in 1947.\n3. UNESCO declared International Mother Language Day in 2000.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct. National Women’s Day has been observed since 2014, and Sarojini Naidu was the first woman Governor of Uttar Pradesh in 1947. Statement 3 is incorrect because UNESCO declared International Mother Language Day in 1999, not 2000."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Indian Coast Guard Raising Day and capability targets",
+   "question": "How many of the following statements about the Indian Coast Guard 50th Raising Day are correct?\n\n1. It was observed on 1 February 2026.\n2. The Indian Coast Guard was established in 1978 with 7 vessels.\n3. It currently has approximately 150 ships and 80 aircraft.\n4. Its target for 2030 is 200 vessels and 80 aircraft.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Only statement 1 is correct: the Indian Coast Guard 50th Raising Day was observed on 1 February 2026. The Coast Guard was established in 1977, its present strength is approximately 155 ships and 80 aircraft, and its 2030 target is 200 vessels and 100 aircraft. Thus, statements 2, 3 and 4 each alter one detail."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of National Science Day in 2026?",
+   "options": [
+    "Women in Science: Catalysing Viksit Bharat",
+    "Youth voices on multilingual education",
+    "Radio and Artificial Intelligence",
+    "Wetlands and traditional knowledge: Celebrating cultural heritage"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "The theme of National Science Day in 2026 was “Women in Science: Catalysing Viksit Bharat.” The other options were associated with International Mother Language Day, World Radio Day and World Wetlands Day, respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Historical adoption date",
+   "question": "When was the Ramsar Convention adopted, in the context of World Wetlands Day?",
+   "options": [
+    "2 February 1997",
+    "2 February 1971",
+    "4 February 2000",
+    "8 June 1936"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "The Ramsar Convention was adopted on 2 February 1971. 2 February 1997 relates to the observance of World Wetlands Day, while 4 February 2000 and 8 June 1936 relate to other entries in the February current-affairs list."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scientific distinction",
+   "question": "Which scientist is described as the first Asian Nobel laureate in science?",
+   "options": [
+    "Sarojini Naidu",
+    "C. V. Raman",
+    "Paramesh Sivamani",
+    "Gaurav Dwivedi"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "C. V. Raman is described as the first Asian Nobel laureate in science. Sarojini Naidu is associated with National Women’s Day, Paramesh Sivamani with the Indian Coast Guard, and Gaurav Dwivedi with Prasar Bharati."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Organisation and office-holder",
+   "question": "Consider the following statements:\n\nStatement A: The name All India Radio was adopted on 8 June 1936.\nStatement B: Gaurav Dwivedi is the CEO of Prasar Bharati.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "Both Statement A and Statement B are true. The name All India Radio was adopted on 8 June 1936, and Gaurav Dwivedi is the CEO of Prasar Bharati. Therefore, the options treating either statement as false are incorrect."
+  }
+ ]
+}

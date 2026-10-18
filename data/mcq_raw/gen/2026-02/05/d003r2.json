@@ -1,0 +1,70 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P5.F12",
+  "P5.F5",
+  "P5.F7",
+  "P6.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic partnership upgrade",
+   "question": "In which year was the India–Russia relationship upgraded to a Special and Privileged Strategic Partnership?",
+   "options": [
+    "2010",
+    "2000",
+    "1971",
+    "1965"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5",
+    "P5.F2",
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "The relationship was upgraded to a Special and Privileged Strategic Partnership in 2010. The other options refer to the Declaration on Strategic Partnership, the Treaty of Peace, Friendship and Cooperation, and the Tashkent Agreement, respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Defence dependence and trade mechanism",
+   "question": "Consider the following statements regarding India–Russia defence and economic ties:\n1. During the Cold War, the USSR supplied approximately 70% of India's defence equipment.\n2. Rupee–rouble trade was associated with India–USSR economic relations.\n3. Approximately 60% of India's military platforms are of Russian origin.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F7",
+    "P5.F12"
+   ],
+   "explanation": "All three statements are correct: the USSR supplied approximately 70% of India's defence equipment during the Cold War, rupee–rouble trade was an important mechanism, and approximately 60% of India's military platforms are of Russian origin. The tempting option '1 and 2 only' is incorrect because statement 3 is also correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in investment",
+   "question": "According to the India–Canada economic profile, what was Canada's position among investors in India, with investment of $4.18 billion during 2000–2025?",
+   "options": [
+    "17th-largest investor",
+    "7th-largest investor",
+    "17th-largest trading partner",
+    "7th-largest trading partner"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F6",
+    "P6.F5"
+   ],
+   "explanation": "Canada was the 17th-largest investor in India, with investment of $4.18 billion during 2000–2025. The tempting option '7th-largest trading partner' refers to India's position in Canada's trade profile, not Canada's rank as an investor in India."
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P11.F5",
+  "P11.F6",
+  "P13.F1",
+  "P13.F2",
+  "P13.F4",
+  "P13.F5",
+  "P14.F2",
+  "P14.F4",
+  "P14.F5",
+  "P15.F2",
+  "P9.F2",
+  "P9.F4",
+  "P9.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Tender amount",
+   "question": "What was the tender value for the Sawalkot Mega Hydroelectric Project being developed by NHPC?",
+   "options": [
+    "₹5,129 crore",
+    "₹1,856 crore",
+    "₹3,825 crore",
+    "₹80 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The tender value for the Sawalkot project was ₹5,129 crore. The figure of 1,856 refers to its capacity in MW, while 3,825 refers to the completion period in days."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "National project and river allocation",
+   "question": "Consider the following statements regarding the Shahpur Kandi Project and the Indus Waters Treaty:\n\n1. The Shahpur Kandi Project was declared a national project in 2008.\n2. Its cost is shared in the ratio of 80% by Punjab and 20% by the Centre.\n3. The Indus Waters Treaty allocated the eastern rivers Ravi, Beas and Sutlej to Pakistan.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4",
+    "P9.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Shahpur Kandi became a national project in 2008, with costs shared 80% by Punjab and 20% by the Centre. Statement 3 is incorrect because the eastern rivers Ravi, Beas and Sutlej were allocated to India, not Pakistan."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Artificial reef benefits",
+   "question": "The 10-year artificial reef project around Vaan Island in the Gulf of Mannar generated benefits of approximately:",
+   "options": [
+    "₹61.67 crore",
+    "₹80 crore",
+    "₹20 crore",
+    "₹36 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F5"
+   ],
+   "explanation": "The artificial reef project around Vaan Island generated benefits of ₹61.67 crore. The project was associated with the Tamil Nadu Coastal Restoration Mission, launched in 2021."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First marine biosphere reserve",
+   "question": "The Gulf of Mannar was declared India's first marine biosphere reserve in which year?",
+   "options": [
+    "1989",
+    "2021",
+    "1965",
+    "2010"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F6"
+   ],
+   "explanation": "The Gulf of Mannar became India's first marine biosphere reserve in 1989. The other years refer to different environmental initiatives and designations, not this milestone."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Inter-State river dispute tribunal",
+   "question": "Consider the following statements about the Pennaiyar River dispute between Tamil Nadu and Karnataka:\n\n1. The Supreme Court directed the Centre to constitute an Inter-State River Water Disputes Tribunal within one month.\n2. Tamil Nadu's suit was filed under Article 131 of the Constitution.\n3. Article 262 is the name of the Inter-State River Water Disputes Act, 1956.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The Supreme Court directed the Centre to constitute the tribunal within one month, and Tamil Nadu invoked Article 131; the Inter-State River Water Disputes Act was enacted in 1956, whereas Article 262 is a constitutional provision."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Aravalli judicial proceedings",
+   "question": "Consider the following statements:\n\nStatement A: The Supreme Court refused to consider the revised Haryana jungle safari DPR, reduced from 10,000 acres to 3,000 acres, until the Aravalli is defined.\nStatement B: The Ministry of Environment, Forest and Climate Change was to propose expert committee names by 10 April.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F4",
+    "P13.F5"
+   ],
+   "explanation": "Both statements are false. The revised DPR was reduced from 10,000 acres to 3,300 acres, and MoEFCC was to propose expert committee names by 10 March, not 10 April."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Pangolin conservation status",
+   "question": "Which of the following correctly states the IUCN-style conservation status mentioned for the two Indian pangolin species in the news?",
+   "options": [
+    "Indian pangolin—Endangered; Chinese pangolin—Critically Endangered",
+    "Indian pangolin—Critically Endangered; Chinese pangolin—Endangered",
+    "Indian pangolin—Endangered; Chinese pangolin—Vulnerable",
+    "Indian pangolin—Vulnerable; Chinese pangolin—Critically Endangered"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2"
+   ],
+   "explanation": "The Indian pangolin is classified as Endangered, while the Chinese pangolin is Critically Endangered. Both species are also protected under Schedule I of the Wildlife Protection Act, 1972, and Appendix I of CITES."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Goa Bird Atlas details",
+   "question": "Match List-I with List-II in the context of the Goa Bird Atlas and the 9th Bird Festival:\n\nList-I\n(a) Approximate area covered by the atlas\n(b) Approximate length of transects\n(c) Theme of the 9th Bird Festival\n(d) Title of the book released with the atlas\n\nList-II\n(i) Birds of Goa: Konkani Namakaran – Olakh Suknayancho\n(ii) ~370 sq km\n(iii) Majestic Mhadei\n(iv) ~1,400 km\n\nSelect the correct answer using the codes given below.",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F4",
+    "P14.F5"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i. The Goa Bird Atlas covered approximately 370 sq km through about 1,400 km of transects; the festival theme was “Majestic Mhadei”, and the book was titled “Birds of Goa: Konkani Namakaran – Olakh Suknayancho”."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cyclone impact and wind speed",
+   "question": "During Cyclone Gezani's impact on Madagascar, winds were reported to be above:",
+   "options": [
+    "195 km/h",
+    "17,980 km/h",
+    "37,000 km/h",
+    "2,50,000 km/h"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2"
+   ],
+   "explanation": "Cyclone Gezani brought winds above 195 km/h. The figures 17,980, 37,000 and 2,50,000 refer respectively to houses destroyed, houses damaged and people affected, not wind speed."
+  }
+ ]
+}

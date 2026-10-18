@@ -1,0 +1,212 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F14",
+  "P10.F15",
+  "P10.F3",
+  "P10.F4",
+  "P10.F5",
+  "P10.F7",
+  "P10.F8",
+  "P10.F9",
+  "P11.F1",
+  "P11.F10",
+  "P11.F11",
+  "P11.F5",
+  "P11.F6",
+  "P11.F8",
+  "P11.F9",
+  "P12.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Namo Drone Didi; Place in news",
+   "question": "Which place was associated with the self-help group member featured in the 110th episode of Mann Ki Baat in connection with Namo Drone Didi?",
+   "options": [
+    "Sitapur",
+    "Epworth",
+    "Jabalpur",
+    "Foster City"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "The self-help group member associated with Namo Drone Didi was from Sitapur in Uttar Pradesh. Epworth, Jabalpur and Foster City are associated with other topics, not this Namo Drone Didi reference."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Applications of drones",
+   "question": "With reference to the use of drones in India, consider the following statements:\n1. The National Highways Authority of India mandates monthly drone video monitoring of highway projects.\n2. NECTAR uses long-endurance drones for disaster-related purposes.\n3. West Central Railway pioneered drone inspections, and drones were also used in Operation SINDOOR.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4",
+    "P10.F5"
+   ],
+   "explanation": "All three statements are correct. NHAI uses mandatory monthly drone video monitoring, NECTAR uses long-endurance drones for disasters, and West Central Railway pioneered drone inspections while drones were used in Operation SINDOOR."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PLI amount",
+   "question": "What amount was provided under the Production-Linked Incentive scheme for drones?",
+   "options": [
+    "₹120 crore",
+    "₹40 lakh",
+    "₹5 crore",
+    "₹500 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F7"
+   ],
+   "explanation": "The PLI scheme for drones provided ₹120 crore. ₹40 lakh is associated with the NIDAR challenge prize, while the other amounts do not represent the drone PLI allocation."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "GST on drones",
+   "question": "Consider the following statements:\nStatement A: GST on drones was reduced to 5% in September 2025.\nStatement B: The reduction was made from 18% only.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F8"
+   ],
+   "explanation": "Statement A is true: GST on drones was cut to 5% in September 2025. Statement B is false because the reduction was from 18% or 28%, not from 18% only."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Digital Sky and eGCA",
+   "question": "Assertion (A): Services on the Digital Sky platform are migrating to DGCA.\nReason (R): Digital Sky functions as a single-window platform for drone-related services.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F9"
+   ],
+   "explanation": "Assertion A is false because services are migrating to eGCA, not DGCA. Reason R is true because Digital Sky is a single-window platform, but that fact does not make the incorrect migration claim true."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Drone platforms",
+   "question": "Which pair consists of the platforms identified in the Indian drone ecosystem?",
+   "options": [
+    "Bharat Drone Shakti and Bharat Drone Mahotsav",
+    "Namo Drone Didi and SwaYaan",
+    "Digital Sky and eGCA",
+    "NECTAR and Operation SINDOOR"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F14"
+   ],
+   "explanation": "Bharat Drone Shakti and Bharat Drone Mahotsav are the two platforms identified in the Indian drone ecosystem. The other pairs combine a scheme, service platform, organisation or operation rather than the two named platforms."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Fixed-wing UAV capability",
+   "question": "Which of the following statements about fixed-wing UAVs is incorrect?",
+   "options": [
+    "Fixed-wing UAVs cannot hover.",
+    "Fixed-wing UAVs cannot land vertically.",
+    "Fixed-wing UAVs lack hovering capability.",
+    "Fixed-wing UAVs can land vertically."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F15"
+   ],
+   "explanation": "The incorrect statement is that fixed-wing UAVs can land vertically. Fixed-wing UAVs cannot hover or land vertically; the first three options correctly express this limitation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Drug identity and developer",
+   "question": "Which combination correctly describes lenacapavir in the context of HIV prevention?",
+   "options": [
+    "Yeztugo; the first twice-yearly injectable PrEP developed by Gilead Sciences",
+    "Yeztugo; a once-yearly injectable PrEP developed by Gilead Sciences",
+    "Dapivirine; the first twice-yearly injectable PrEP developed by Gilead Sciences",
+    "Yeztugo; the first twice-yearly injectable PrEP developed by UNODA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F11"
+   ],
+   "explanation": "Lenacapavir is branded as Yeztugo and is the first twice-yearly injectable PrEP developed by Gilead Sciences. Dapivirine is the vaginal ring in the prevention toolkit, while UNODA is not the developer."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "HIV prevention timeline and AZT",
+   "question": "Consider the following statements:\n1. Zimbabwe's early-access lenacapavir programme was funded by the US government and the Global Fund, and Zimbabwe was among the 9 countries chosen by WHO for early access.\n2. Zimbabwe's PrEP toolkit included oral PrEP in 2016, the dapivirine vaginal ring in 2021, injectable cabotegravir in 2024 and lenacapavir in 2026.\n3. AZT, or zidovudine, became the first HIV drug in 1987 and targeted reverse transcriptase.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F5",
+    "P11.F6",
+    "P11.F8"
+   ],
+   "explanation": "All three statements are correct. Zimbabwe's early access was supported by the US government and Global Fund, its PrEP options followed the stated timeline, and AZT was the first HIV drug in 1987 targeting reverse transcriptase."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "HIV burden and tattoo transmission",
+   "question": "How many of the following statements are correct?\n1. About 41 million people globally are living with HIV.\n2. About 27 million people, or 60%, are living with HIV in Sub-Saharan Africa.\n3. HIV-related deaths since the 1980s have exceeded 44 million.\n4. Tattooing can transmit Hepatitis B and Chikungunya.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F9",
+    "P11.F10"
+   ],
+   "explanation": "Statements 1 and 3 are correct, so the answer is Only two. Statement 2 changes the stated proportion from 67% to 60%, and Statement 4 is incorrect because tattooing can transmit Hepatitis B and HIV, not Chikungunya."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SALW instruments",
+   "question": "The UN Fellowship Training Programme on Small Arms and Light Weapons control supports which two international instruments?",
+   "options": [
+    "UN Programme of Action (2001) and International Tracing Instrument (2005)",
+    "Drone Rules (2021) and International Tracing Instrument (2005)",
+    "UN Programme of Action (2001) and the dapivirine vaginal ring (2021)",
+    "UNODA (1998) and UNRCPD (1987)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "The programme supports the UN Programme of Action adopted in 2001 and the International Tracing Instrument adopted in 2005. The other options mix these instruments with drone policy, HIV prevention or partner-organisation details."
+  }
+ ]
+}

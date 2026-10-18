@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F14",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "AI platforms and education",
+   "question": "Which combination correctly identifies the farmer-focused AI platforms and the education platform associated with the India AI Impact Summit 2026?",
+   "options": [
+    "Kisan e-Mitra and Mossum GPT; DIKSHA",
+    "AI for ALL and AI by HER; Bhashini",
+    "YUVAi and MyBharat; NIELIT",
+    "MANAV and IndiaAI Mission; STPI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "Kisan e-Mitra and Mossum GPT were identified as farmer AI platforms, while DIKSHA was associated with education. Bhashini, MyBharat and NIELIT were linked to other summit initiatives, not this combination."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "New Delhi Declaration support",
+   "question": "Assertion (A): The New Delhi Declaration on AI Impact was adopted with support from India and 80 countries or organisations.\nReason (R): The declaration was inspired by the principle “Vasudhaiva Kutumbakam”.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "Assertion A is false because the New Delhi Declaration on AI Impact was adopted with support from India and 88 countries or organisations. Reason R is true, as the declaration was inspired by “Vasudhaiva Kutumbakam”; this inspiration does not explain the altered support figure."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "INS Tarangini features",
+   "question": "Match the following details associated with INS Tarangini:\n\nList-I\n(a) Type\n(b) Commissioning date\n(c) Shipyard\n(d) Circumnavigation distinction\n\nList-II\n(i) First Indian naval ship to circumnavigate\n(ii) Goa Shipyard\n(iii) 11 November 1997\n(iv) First sail training ship",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-ii and d-i: INS Tarangini was the first sail training ship, commissioned on 11 November 1997 at Goa Shipyard, and became the first Indian naval ship to circumnavigate. The other codes interchange these identifying details."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "IONS membership and chairmanship",
+   "question": "With reference to the Indian Ocean Naval Symposium, consider the following statements:\n\n1. The symposium was established in 2008.\n2. India chairs the symposium again for 2025–2027.\n3. The symposium has 20 members.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11",
+    "P2.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Indian Ocean Naval Symposium was established in 2008, and India chairs it again for 2025–2027. Statement 3 is incorrect because the symposium has 25 members, not 20."
+  }
+ ]
+}

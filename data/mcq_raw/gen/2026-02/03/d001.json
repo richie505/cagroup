@@ -1,0 +1,233 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P3.F10",
+  "P3.F3",
+  "P3.F5",
+  "P3.F6",
+  "P3.F8",
+  "P3.F9",
+  "P4.F2",
+  "P4.F3",
+  "P4.F4",
+  "P4.F5",
+  "P5.F2",
+  "P5.F3",
+  "P5.F5",
+  "P5.F8",
+  "P6.F5",
+  "P7.F1",
+  "P7.F3",
+  "P7.F5",
+  "P7.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Programme procurement and coverage",
+   "question": "Match List-I with List-II regarding the nationwide HPV vaccination programme.\n\nList-I\n(a) Procurement channel\n(b) Safety record\n(c) Countries using a single-dose schedule\n(d) Mission Indradhanush\n\nList-II\n(i) 500 million+ doses since 2006\n(ii) Immunisation of children and pregnant women\n(iii) Gavi, the Vaccine Alliance\n(iv) 90+ countries\n\nCodes:",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F5",
+    "P3.F9",
+    "P3.F10"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii. The vaccine was procured through Gavi, the Vaccine Alliance; more than 500 million doses have been administered since 2006; 90+ countries use a single-dose schedule; and Mission Indradhanush concerns children and pregnant women."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cervical cancer burden and WHO targets",
+   "question": "Consider the following statements regarding cervical cancer prevention and control:\n\n1. Cervical cancer is the second most common cancer among Indian women, with about 80,000 cases and more than 42,000 deaths a year.\n2. The WHO 90–70–90 targets include vaccinating 90% of girls by the age of 15 and screening 70% of women at 35 and 45.\n3. HPV 16 and 18 cause less than 50% of cervical cancer cases in India.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct. HPV 16 and 18 are associated with more than 80% of cases, so statement 3 is incorrect because it changes the reported proportion to less than 50%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coverage amount",
+   "question": "Under PM-RAHAT, what is the maximum cashless treatment cover available per road-accident victim?",
+   "options": [
+    "Up to ₹1.5 lakh for 7 days",
+    "Up to ₹15 lakh for 7 days",
+    "Up to ₹1.5 lakh for 30 days",
+    "Up to ₹50,000 for 24 hours"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "PM-RAHAT provides cover of up to ₹1.5 lakh per victim for seven days from the accident. The ₹15 lakh figure belongs to the PM-SURAJ loan limit, not this treatment cover."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Emergency response and reimbursement mechanism",
+   "question": "Consider the following statements about PM-RAHAT:\n\n1. ERSS-112 integration enables a victim to call 112, with stabilisation for 24 hours in non-critical cases and 48 hours in critical cases.\n2. Reimbursement is made from the Motor Vehicle Accident Fund under Section 164B of the Motor Vehicles Act, 1988, while the Golden Hour provision is linked to Section 162.\n3. The grievance officer is appointed by the State Road Safety Committee.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F4",
+    "P4.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The grievance officer is appointed by the District Road Safety Committee, not the State Road Safety Committee; hence statement 3 is incorrect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Janaushadhi Kendra target",
+   "question": "With reference to the Pradhan Mantri Bhartiya Janaushadhi Pariyojana, identify the incorrect statement.",
+   "options": [
+    "The target is 20,000 Janaushadhi Kendras by 31 March 2026.",
+    "The scheme was launched in 2008 and revamped in 2015.",
+    "The scheme is run by PMBI, established in 2010 under the Ministry of Chemicals and Fertilizers.",
+    "The target is 20,000 Janaushadhi Kendras by 31 March 2027."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "The incorrect statement is that the target is to be achieved by 31 March 2027. The stated target is 20,000 Janaushadhi Kendras by 31 March 2026; the other statements correctly describe the scheme's launch, revamp and implementing body."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch and elimination target",
+   "question": "Who launched the Lymphatic Filariasis Mass Drug Administration programme in February 2026, and what is its elimination target?",
+   "options": [
+    "J.P. Nadda; elimination by 2027",
+    "Kiren Rijiju; elimination by 2029",
+    "Jayant Chaudhary; elimination by 2026",
+    "Chandrashekhar Pemmasani; elimination by 2030"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "J.P. Nadda launched the Lymphatic Filariasis MDA programme in February 2026, with the target of elimination by 2027. The other names and years do not match this programme's launch and target."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "MDA classification and pension-regulator milestones",
+   "question": "Match the following facts related to the Lymphatic Filariasis MDA programme and NPS Swasthya Pension Scheme.\n\nList-I\n(a) Districts covered by DA\n(b) Districts covered by IDA\n(c) Establishment of PFRDA\n(d) Introduction of NPS\n\nList-II\n(i) 69 districts\n(ii) 2004\n(iii) 55 districts\n(iv) 2003\n\nCodes:",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5",
+    "P5.F8"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii. The MDA coverage includes 55 DA districts and 69 IDA districts, while PFRDA was established in 2003 and NPS was introduced in 2004."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment date",
+   "question": "Which institution was established on 24 January 1997 among the following bodies concerned with welfare financing?",
+   "options": [
+    "NSKFDC",
+    "NSFDC",
+    "NBCFDC",
+    "PMBI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "The National Safai Karamcharis Finance and Development Corporation, or NSKFDC, was established on 24 January 1997. NSFDC dates to 8 February 1989, while NBCFDC dates to 1992."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme expansion",
+   "question": "What does SANKALP stand for in the context of the skilling sector?",
+   "options": [
+    "Skill Acquisition and Knowledge Awareness for Livelihood Promotion",
+    "Social Knowledge and Assistance for Livelihood Promotion",
+    "Skill Advancement and Knowledge Access for Labour Participation",
+    "Socioeconomic Knowledge Acquisition for Local Prosperity"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "SANKALP stands for Skill Acquisition and Knowledge Awareness for Livelihood Promotion. The other expansions alter the official wording of the programme's name."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institutional history",
+   "question": "The Public Accounts Committee associated with scrutiny of SANKALP was established in which year?",
+   "options": [
+    "1921",
+    "1989",
+    "1992",
+    "2003"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "The Public Accounts Committee was established in 1921. The other years refer to establishment dates of organisations or institutions in the related schemes and social-sector context."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Implementing institutions and training structure",
+   "question": "Consider the following statements about Swavalambini:\nStatement A: The programme was implemented by NIESBUD in Guwahati and IIE in Noida.\nStatement B: It involved 1,200 EAP trainees, 600 EDP trainees and 21-week mentorship.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "Statement A is false because NIESBUD is located in Noida and IIE in Guwahati. Statement B is true: the programme covered 1,200 EAP trainees, 600 EDP trainees and 21-week mentorship."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Swavalambini allocation",
+   "question": "How many of the following statements about the Swavalambini allocation are correct?\n\n1. The amount allocated was ₹40,46,016.\n2. The amount released was ₹10,11,504.\n3. The amount allocated was greater than the amount released.\n4. The amount allocated was ₹10,11,504.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F6"
+   ],
+   "explanation": "Three statements are correct: the allocation was ₹40,46,016, the release was ₹10,11,504, and the allocation was greater than the release. Statement 4 is incorrect because it substitutes the released amount for the allocated amount."
+  }
+ ]
+}

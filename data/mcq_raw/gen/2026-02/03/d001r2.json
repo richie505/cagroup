@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P4.F2",
+  "P5.F5",
+  "P5.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Coverage and duration",
+   "question": "Under PM-RAHAT, what cashless treatment cover is available to each road accident victim?",
+   "options": [
+    "Up to ₹1.5 lakh per victim for 7 days",
+    "Up to ₹1.5 lakh per victim for 24 hours",
+    "Up to ₹1.5 lakh per victim for 48 hours",
+    "Up to ₹1.5 lakh per victim for 3–5 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "PM-RAHAT provides cashless treatment cover of up to ₹1.5 lakh per victim for 7 days from the accident. The other options give treatment periods that do not match the scheme’s stated coverage period."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "MDA coverage and NPS institutional details",
+   "question": "Consider the following statements about the Lymphatic Filariasis Mass Drug Administration campaign and the NPS Swasthya Pension Scheme:\n\n1. The MDA campaign covered 124 districts in 12 states and 719 blocks.\n2. The campaign included 55 DA districts and 68 IDA districts.\n3. PFRDA, established in 2003 under the PFRDA Act, 2013, is chaired by Sivasubramanian Ramann; NPS began in 2004 and was opened to all citizens in 2009.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5",
+    "P5.F8"
+   ],
+   "explanation": "Statement 1 is correct: the MDA campaign covered 124 districts in 12 states and 719 blocks. Statement 2 is incorrect because the campaign included 69 IDA districts, not 68, while Statement 3 is incorrect because NPS began in 2004, not 2005 as stated."
+  }
+ ]
+}

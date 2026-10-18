@@ -1,0 +1,142 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F4",
+  "P10.F5",
+  "P11.F3",
+  "P12.F4",
+  "P8.F6",
+  "P8.F7",
+  "P8.F8",
+  "P9.F10",
+  "P9.F5",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Hosts of major summits",
+   "question": "With reference to the host countries of major international groupings in 2026, consider the following statements:\n1. China is hosting APEC.\n2. Turkey is hosting NATO.\n3. COP is being hosted by France.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F6",
+    "P8.F7",
+    "P8.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: China is hosting APEC and Turkey is hosting NATO. Statement 3 is incorrect because COP is being hosted by Turkey, not France."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Peru election and leadership",
+   "question": "Which of the following correctly describes the political development in Peru in February 2026?",
+   "options": [
+    "José María Balkazar of Peru Libre was elected by the 130-member Congress, while the general election is scheduled for 12 April.",
+    "Rob Jetten of D66 was elected by the 130-member Congress, while the general election is scheduled for 12 April.",
+    "José María Balkazar of Peru Libre was elected by the 465-member Congress, while the general election is scheduled for 12 April.",
+    "José María Balkazar of Peru Libre was elected by the 130-member Congress, while the general election is scheduled for 17 June."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F5"
+   ],
+   "explanation": "José María Balkazar of Peru Libre was elected as Peru’s president by the 130-member Congress, and the general election is scheduled for 12 April. Rob Jetten belongs to the Netherlands, while 465 seats refers to Japan and 17 June refers to the 52nd G7 Summit dates."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Leadership developments",
+   "question": "Consider the following statements:\nStatement A: Former South Korean President Yoon Suk Yeol was sentenced to life imprisonment over the 3 December 2024 martial law.\nStatement B: Sheikh Hasina received a 10-year sentence, comprising two 5-year terms, in the RAJUK Purbachal plot cases.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F8",
+    "P9.F9"
+   ],
+   "explanation": "Both statements are false. Yoon Suk Yeol was sentenced to life imprisonment, but the martial law date was 3 December 2024; Sheikh Hasina received 10 years in the RAJUK Purbachal plot cases, but this comprised two 5-year terms."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "WEF leadership",
+   "question": "Assertion (A): President Børge Brende resigned from the World Economic Forum over links with Jeffrey Epstein.\nReason (R): The World Economic Forum was established in 1971 in London.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F10"
+   ],
+   "explanation": "Assertion A is true: Børge Brende resigned over Jeffrey Epstein links. Reason R is false because the World Economic Forum was established in 1971 at Cologny in Geneva, not London."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Organisation and institutional detail",
+   "question": "Match List-I with List-II regarding the Trusted Tech Alliance and the Munich Security Conference.\n\nList-I\n a. Jio Platforms\n b. Munich Security Conference\n c. Jio Platforms\n d. Munich Security Conference\n\nList-II\n i. Held in Munich since 1963\n ii. CEO Kiran Thomas\n iii. Established in 2019\n iv. Located at Ghansoli, Navi Mumbai",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4",
+    "P10.F5"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv: Jio Platforms has Kiran Thomas as CEO, the Munich Security Conference has been held in Munich since 1963, Jio Platforms was established in 2019, and it is located at Ghansoli, Navi Mumbai. The other codes interchange these institutional details."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "International maritime law",
+   "question": "Which of the following statements regarding the Maritime Labour Convention 2006 is incorrect?",
+   "options": [
+    "It is regarded as the fourth pillar of international maritime law.",
+    "Its enforcement involves Flag State–Port State inspections.",
+    "It is described as the fourth pillar of international maritime law and is enforced through Flag State–Port State inspections.",
+    "It is regarded as the third pillar of international maritime law and is enforced through Flag State–Port State inspections."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "The incorrect statement changes the Convention’s designation from the fourth pillar to the third pillar. The Maritime Labour Convention 2006 is regarded as the fourth pillar of international maritime law and is enforced through Flag State–Port State inspections."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "BRICS membership",
+   "question": "How many of the following countries are members of BRICS as listed in February 2026?\n1. Brazil\n2. Russia\n3. Japan\n4. Canada",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "Only one country in the list, Brazil, is included among the BRICS members. Russia is also a member, but Japan and Canada are not; therefore the correct count is not two or more."
+  }
+ ]
+}

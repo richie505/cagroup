@@ -1,0 +1,232 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P4.F12",
+  "P4.F14",
+  "P4.F15",
+  "P4.F3",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8",
+  "P5.F3",
+  "P5.F4",
+  "P5.F5",
+  "P5.F6",
+  "P5.F7",
+  "P6.F2",
+  "P6.F3",
+  "P7.F2",
+  "P7.F3",
+  "P7.F4",
+  "P7.F6",
+  "P7.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch year and mission",
+   "question": "In which year was AgriStack launched under the Digital Agriculture Mission?",
+   "options": [
+    "2024",
+    "2025",
+    "2026",
+    "2027"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "AgriStack was launched in 2024 under the Digital Agriculture Mission. The other years are not the launch year specified for AgriStack."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "AgriStack coverage and survey",
+   "question": "Consider the following statements about AgriStack:\n1. AgriStack was launched in 2024 under the Digital Agriculture Mission.\n2. Geo-referenced village maps covered 5.4 lakh of 6.75 lakh villages, with completion targeted by March 2027.\n3. The Digital Crop Survey for Kharif 2025 covered 604 districts and more than 28.5 crore plots.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F6",
+    "P4.F7"
+   ],
+   "explanation": "All three statements are correct: AgriStack was launched in 2024, village-map coverage stood at 5.4 lakh of 6.75 lakh villages with a March 2027 target, and the Kharif 2025 survey covered 604 districts and more than 28.5 crore plots. The other options incorrectly omit one of these correct statements."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Digital agriculture initiatives and details",
+   "question": "Match List-I with List-II in the context of digital agriculture initiatives:\n\nList-I\n(a) Maharashtra under AgriStack-linked support\n(b) Chhattisgarh Farmer ID initiative\n(c) Namo Drone Didi\n(d) Bharat-VISTAAR\n\nList-II\n(i) More than ₹14,000 crore to 89 lakh farmers\n(ii) Farmer ID for paddy MSP covering more than 32 lakh farmers\n(iii) 500 drones distributed\n(iv) Launched by the Union Agriculture Minister\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8",
+    "P4.F12",
+    "P4.F14"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Maharashtra was associated with more than ₹14,000 crore for 89 lakh farmers, Chhattisgarh used Farmer IDs for paddy MSP, Namo Drone Didi had 500 drones distributed, and Bharat-VISTAAR was launched by the Union Agriculture Minister."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Initial languages and AI assistant",
+   "question": "At its launch, Bharat-VISTAAR was initially available in which languages?",
+   "options": [
+    "Hindi and English",
+    "English and 11 regional languages",
+    "Hindi and Marathi",
+    "All 11 languages"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F15"
+   ],
+   "explanation": "Bharat-VISTAAR was initially available in Hindi and English; it was to be expanded later to 11 languages. The reference to 11 languages therefore does not describe its initial language availability."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "FFS 1.0 management",
+   "question": "Which organisation managed the first Startup India Fund of Funds, or FFS 1.0?",
+   "options": [
+    "SIDBI",
+    "MoHUA",
+    "NPCI",
+    "CONCOR"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "FFS 1.0 was managed by SIDBI. MoHUA is associated with the Urban Challenge Fund portal, while NPCI and CONCOR are linked to other initiatives."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Urban Challenge Fund structure and period",
+   "question": "Consider the following statements about the Urban Challenge Fund:\n1. It has a corpus of ₹1 lakh crore, with the Centre, States and the market contributing 25%, 25% and 50%, respectively, and is expected to generate ₹4 lakh crore investment in 5 years.\n2. It follows a challenge-mode approach and includes Cities as Growth Hubs, Creative Redevelopment of Cities, and Water and Sanitation.\n3. Its period is FY 2025–26 to FY 2030–31, extendable to FY 2033–34, with the MoHUA portal serving as the platform.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F4",
+    "P5.F5",
+    "P5.F6"
+   ],
+   "explanation": "All three statements are correct. The Urban Challenge Fund has the stated ₹1 lakh crore structure, uses challenge mode with the three listed verticals, and operates from FY 2025–26 to FY 2030–31 with possible extension to FY 2033–34 through the MoHUA portal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tunnel length and route",
+   "question": "The Assam Brahmaputra underwater rail–road tunnel approved along the Gohpur–Numaligarh route has what total length?",
+   "options": [
+    "33.7 km",
+    "15.79 km",
+    "18,662.02 km",
+    "1 lakh km"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F7"
+   ],
+   "explanation": "The approved Gohpur–Numaligarh underwater rail–road tunnel has a total length of 33.7 km. The 15.79 km figure refers only to its underwater portion, while ₹18,662.02 crore is its cost."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Ownership and revenue rights",
+   "question": "Assertion (A): National Monetisation Pipeline 2.0 supports the National Infrastructure Pipeline.\nReason (R): Under National Monetisation Pipeline 2.0, ownership remains with the government while revenue rights are leased.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the Reason explains the mechanism by which NMP 2.0 supports the National Infrastructure Pipeline. Government ownership is retained while revenue rights are leased."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Border villages and allocation",
+   "question": "Vibrant Villages Programme-II, launched by Amit Shah, covers how many border villages in 15 States and 2 Union Territories?",
+   "options": [
+    "1,954",
+    "604",
+    "1,500",
+    "2,000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "Vibrant Villages Programme-II covers 1,954 border villages in 15 States and 2 Union Territories, with ₹6,839 crore allocated till 2028–29. The other figures do not represent its village coverage."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Semiconductor project location",
+   "question": "The foundation of the HCL–Foxconn semiconductor project, India Chip Pvt Ltd, was laid virtually at which location?",
+   "options": [
+    "Greater Noida in YEIDA",
+    "Gohpur in Assam",
+    "Saran in Bihar",
+    "Rangeilunda in Ganjam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "The HCL–Foxconn India Chip Pvt Ltd project is located in Greater Noida in the YEIDA area. Gohpur is part of the Assam tunnel route, Saran is associated with Sonepur International Airport, and Rangeilunda is the UAV corridor location."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Shipbuilding Programme",
+   "question": "The GRSE–HSL consortium signed an MoU for Shipping Corporation of India ships under which programme?",
+   "options": [
+    "National Shipbuilding Programme",
+    "Digital Agriculture Mission",
+    "National Infrastructure Pipeline",
+    "Urban Challenge Fund"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "The GRSE–HSL consortium MoU concerned Shipping Corporation of India ships under the National Shipbuilding Programme. The other options relate to agriculture, infrastructure planning and urban development rather than this shipbuilding agreement."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Airport projects and renaming",
+   "question": "How many of the following statements are correct?\n1. Sonepur International Airport is planned in Saran, Bihar.\n2. Its runway is planned to be 4,200 m for A380 operations.\n3. Adampur Airport was renamed Shri Guru Ravidas Maharaj Ji Airport.\n4. The renaming took place on Guru Ravidas's 648th birth anniversary.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F6",
+    "P7.F7"
+   ],
+   "explanation": "Statements 1 and 3 are correct, so only two statements are correct. The Sonepur airport is planned in Saran with a 4,200 m runway, and Adampur Airport was renamed Shri Guru Ravidas Maharaj Ji Airport; the birth anniversary mentioned was the 649th, not the 648th."
+  }
+ ]
+}

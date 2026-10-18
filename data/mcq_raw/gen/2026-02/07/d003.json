@@ -1,0 +1,248 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P5.F2",
+  "P5.F3",
+  "P5.F4",
+  "P5.F6",
+  "P6.F10",
+  "P6.F12",
+  "P6.F14",
+  "P6.F2",
+  "P6.F5",
+  "P6.F6",
+  "P6.F9",
+  "P7.F10",
+  "P7.F3",
+  "P7.F4",
+  "P7.F6",
+  "P7.F7",
+  "P7.F8",
+  "P7.F9",
+  "P8.F2",
+  "P8.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Triggers for DVI guidelines",
+   "question": "Which set of disasters prompted the National Disaster Management Authority to issue national guidelines and SOPs for Disaster Victim Identification?",
+   "options": [
+    "Air India crash in Ahmedabad, Sangareddy chemical explosion, Uttarakhand flash floods and Delhi car bomb blast",
+    "Air India crash in Ahmedabad, Kolhapur grassland fire, Uttarakhand flash floods and Delhi car bomb blast",
+    "Sangareddy chemical explosion, Odisha dolphin census, Uttarakhand flash floods and Delhi car bomb blast",
+    "Air India crash in Ahmedabad, Sangareddy chemical explosion, Dal Lake restoration and Uttarakhand flash floods"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "The guidelines were triggered by the Air India crash in Ahmedabad, Sangareddy chemical explosion, Uttarakhand flash floods and Delhi car bomb blast. The other options replace one of these incidents with an unrelated event or place."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "DVI stages and forensic framework",
+   "question": "Consider the following statements regarding the NDMA guidelines and SOPs for Disaster Victim Identification:\n1. The four stages are systematic recovery, post-mortem data, ante-mortem data and reconciliation.\n2. The National Dental Data Registry is based on the survival of fingerprints in extreme conditions.\n3. The guidelines recommend forensic teams only in selected States under the humanitarian forensics approach.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4",
+    "P5.F6"
+   ],
+   "explanation": "Only statement 1 is correct: the four stages proceed from systematic recovery to post-mortem data, ante-mortem data and reconciliation. The registry concerns teeth and jaws, while humanitarian forensics calls for forensic teams in every State, not only selected States."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "New marine worms and discovery details",
+   "question": "Match the organisms associated with the West Bengal coast discovery with the corresponding details:\n\nList-I\n a. Namalycastis solenotognatha\n b. Nereis dhrityae\n c. West Bengal coast\n d. ZSI\n\nList-II\n i. First marine worm in the discovery\n ii. Second marine worm in the discovery\n iii. Place of discovery\n iv. Organisation associated with the discovery",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Namalycastis solenotognatha and Nereis dhrityae are marine worms recorded from the West Bengal coast in association with ZSI; the second option interchanges the two species and the place and organisation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Species and place in news",
+   "question": "Which newly recorded squat lobster was found near Minicoy at about 360 metres, in connection with Samudrayaan and the Deep Ocean Mission?",
+   "options": [
+    "Leiogalathea samudragiri",
+    "Alpheus madhusoodanai",
+    "Galathea balasubramaniani",
+    "Liriothemis keralensis"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F6"
+   ],
+   "explanation": "Leiogalathea samudragiri is the squat lobster found near Minicoy at about 360 metres. Alpheus madhusoodanai is a pistol shrimp from the Kochi backwaters, while Galathea balasubramaniani is a reef crab from Agatti."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Species and place in news",
+   "question": "Alpheus madhusoodanai, a species reported in February 2026, is what type of organism and from which location?",
+   "options": [
+    "A pistol shrimp from the Kochi backwaters",
+    "A squat lobster from near Minicoy",
+    "A reef crab from Agatti",
+    "A dragonfly from coastal Kerala"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F9"
+   ],
+   "explanation": "Alpheus madhusoodanai is a pistol shrimp recorded from the Kochi backwaters. The other combinations refer to Leiogalathea samudragiri, Galathea balasubramaniani and Liriothemis keralensis respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Species identification and location",
+   "question": "Consider the following statements:\nStatement A: Contarinia icardiflores is a reef crab recorded from Agatti.\nStatement B: Galathea balasubramaniani is a reef crab recorded from Agatti.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F10",
+    "P6.F12"
+   ],
+   "explanation": "Statement A is false, while Statement B is true. Contarinia icardiflores is a blossom midge associated with ICAR–Directorate of Floricultural Research, Pune; Galathea balasubramaniani is the reef crab recorded from Agatti."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Institutional years and headquarters",
+   "question": "Match the institutions or mission with the year and place associated with them:\n\nList-I\n a. Zoological Survey of India\n b. Botanical Survey of India\n c. Deep Ocean Mission\n d. ZSI headquarters\n\nList-II\n i. 1916\n ii. 1890\n iii. 2021\n iv. Kolkata\n\nChoose the correct code.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F14"
+   ],
+   "explanation": "The correct pairs are ZSI–1916, BSI–1890, Deep Ocean Mission–2021 and ZSI headquarters–Kolkata. The second option swaps the years of ZSI and BSI, while the remaining options misassign either the mission year or the headquarters."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scientific name and conservation status",
+   "question": "The lion-tailed macaque, reported in the Anamalai Hills study, has which scientific name and IUCN status?",
+   "options": [
+    "Macaca silenus — Endangered",
+    "Macaca silenus — Vulnerable",
+    "Macaca mulatta — Endangered",
+    "Macaca mulatta — Vulnerable"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "The lion-tailed macaque is Macaca silenus and is listed as Endangered by the IUCN. The other options alter either the scientific name or the conservation status."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Nalsarovar Bird Census 2026",
+   "question": "Which of the following statements about the Nalsarovar Bird Census 2026 is incorrect?",
+   "options": [
+    "It recorded 6,42,232 birds.",
+    "It recorded 270 species.",
+    "Nalsarovar has been a Ramsar site since 24 September 2012.",
+    "It is conducted annually in Gujarat."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "The incorrect statement is that the census is conducted annually; it is biennial. The census recorded 6,42,232 birds and 270 species, and Nalsarovar has been a Ramsar site since 24 September 2012."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Odisha dolphin species counts",
+   "question": "With reference to the Odisha Dolphin Census 2026, how many of the following statements are correct?\n1. The humpback dolphin count was 497.\n2. The Irrawaddy dolphin count was 208.\n3. The bottlenose dolphin count was 50.\n4. The spinner dolphin count was 30.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F6",
+    "P7.F7",
+    "P7.F8",
+    "P7.F9"
+   ],
+   "explanation": "Only two statements are correct: the counts for humpback and Irrawaddy dolphins were 497 and 208 respectively. The bottlenose count was 55, not 50, and the spinner count was 3, not 30."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Odisha dolphin species count",
+   "question": "What was the count of finless porpoises recorded in the Odisha Dolphin Census 2026?",
+   "options": [
+    "2",
+    "3",
+    "55",
+    "208"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F10"
+   ],
+   "explanation": "The Odisha Dolphin Census 2026 recorded 2 finless porpoises. The figures 3, 55 and 208 correspond to spinner, bottlenose and Irrawaddy dolphins respectively."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Location and geographical feature of Dal Lake",
+   "question": "Assertion (A): Dal Lake drains into the Jhelum, whose origin is Srinagar.\nReason (R): Dal Lake is located in Srinagar and is known as the “Jewel in the crown of Kashmir”.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "Assertion A is false because the Jhelum originates at Verinag, not Srinagar. Reason R is true: Dal Lake is in Srinagar and is described as the “Jewel in the crown of Kashmir”."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Origin and threat to Futala Lake",
+   "question": "Consider the following statements about Futala, or Telangkhedi, Lake:\nStatement A: It is a natural lake in Nagpur, built under Bhonsle rule in the 18th century.\nStatement B: It is a man-made lake in Nagpur, built under Bhonsle rule in the 18th century.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "Statement A is false because Futala Lake is man-made, not natural. Statement B is true: the lake is in Nagpur and was built under Bhonsle rule in the 18th century; it is threatened by sewage."
+  }
+ ]
+}

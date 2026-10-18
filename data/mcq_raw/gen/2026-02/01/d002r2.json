@@ -1,0 +1,88 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P6.F10",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Last-ranked district in GDDP",
+   "question": "According to the 2025–26 advance estimates for Andhra Pradesh, which district ranked last in GDDP, with a value of ₹6,723 crore?",
+   "options": [
+    "Parvathipuram Manyam",
+    "Visakhapatnam",
+    "NTR",
+    "Krishna"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F6"
+   ],
+   "explanation": "Parvathipuram Manyam ranked last in GDDP with ₹6,723 crore. Visakhapatnam ranked first in GDDP, while NTR and Krishna ranked second and third respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PCI rank",
+   "question": "Which district ranked first in per capita income in Andhra Pradesh according to the 2025–26 advance estimates?",
+   "options": [
+    "Visakhapatnam",
+    "Krishna",
+    "NTR",
+    "SPS Nellore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F7",
+    "P6.F8",
+    "P6.F9",
+    "P6.F10"
+   ],
+   "explanation": "Visakhapatnam ranked first in per capita income with ₹6,58,091. Krishna ranked second, NTR third and SPS Nellore tenth, making Krishna the most tempting incorrect option."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "PCI ranks of Krishna and NTR",
+   "question": "With reference to the district-wise per capita income rankings in Andhra Pradesh for 2025–26, consider the following statements:\n\n1. Krishna ranked second with a per capita income of ₹4,82,078.\n2. NTR ranked third with a per capita income of ₹3,91,390.\n3. Krishna ranked third with a per capita income of ₹3,91,390.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F8",
+    "P6.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Krishna ranked second with ₹4,82,078 and NTR ranked third with ₹3,91,390. Statement 3 is incorrect because ₹3,91,390 was NTR’s figure, not Krishna’s."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tenth-ranked district in PCI",
+   "question": "Which district ranked tenth in per capita income in Andhra Pradesh according to the 2025–26 advance estimates, with ₹2,90,100?",
+   "options": [
+    "SPS Nellore",
+    "NTR",
+    "Krishna",
+    "Visakhapatnam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F10"
+   ],
+   "explanation": "SPS Nellore ranked tenth in per capita income with ₹2,90,100. NTR and Krishna ranked third and second respectively, while Visakhapatnam ranked first."
+  }
+ ]
+}

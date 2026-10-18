@@ -1,0 +1,156 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F4",
+  "P1.F8",
+  "P1.F9",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Statutory status and accountability",
+   "question": "Under the SHANTI Act, 2025, which institution was granted statutory status and made accountable to Parliament?",
+   "options": [
+    "Atomic Energy Regulatory Board (AERB)",
+    "Atomic Energy Redressal Advisory Council",
+    "Nuclear Damage Claims Commission",
+    "Appellate Tribunal for Electricity"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "The Atomic Energy Regulatory Board (AERB), established in 1983, was granted statutory status and made accountable to Parliament. The other options are bodies associated with nuclear-damage redressal or appeals, not the regulator receiving this status."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Nuclear liability regime",
+   "question": "Which of the following statements regarding the liability provisions under the SHANTI Act, 2025, is incorrect?",
+   "options": [
+    "Excess liability beyond the prescribed operator cap is covered by a Nuclear Liability Fund.",
+    "Operators are exempt from liability in cases of grave natural disasters.",
+    "Supplier liability is eliminated under the revised regime.",
+    "The overall liability ceiling is about ₹3,900 crore."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "The incorrect statement is that supplier liability is eliminated; the SHANTI Act eliminates supplier liability under the revised regime, whereas the earlier CLNDA allowed recourse against suppliers. The Nuclear Liability Fund, the grave-natural-disaster exemption and the overall ceiling of about ₹3,900 crore are features of the stated regime."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Nuclear governance and capacity target",
+   "question": "Consider the following statements regarding India’s nuclear-sector framework and expansion targets:\n\n1. Appeals under the nuclear-damage redressal mechanism lie with the Appellate Tribunal for Electricity under the Electricity Act, 2003.\n2. The Atomic Energy Act, 1948 replaced the Atomic Energy Act, 1962.\n3. India’s new nuclear-power target is 100 GW by 2047.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "Statements 1 and 3 are correct: appeals lie with the Appellate Tribunal for Electricity, and the new target is 100 GW by 2047. Statement 2 reverses the chronology; the Atomic Energy Act, 1962 replaced the 1948 Act."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Reactor principle",
+   "question": "The basic operating principle of a nuclear reactor is based on which process?",
+   "options": [
+    "Controlled nuclear fission",
+    "Enrichment of U-235 beyond prescribed limits",
+    "Spent fuel management",
+    "Nuclear damage adjudication"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13"
+   ],
+   "explanation": "A nuclear reactor operates on the principle of controlled nuclear fission. Enrichment, spent fuel management and damage adjudication are associated with the nuclear sector but are not the reactor principle."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Zero-tolerance approach",
+   "question": "Under PRAHAAR, India’s national counter-terrorism policy, what does the zero-tolerance approach seek to deny terrorists?",
+   "options": [
+    "Funds, weapons and safe havens",
+    "Power, railways and aviation",
+    "Chemical, biological and radiological threats",
+    "Crypto funding, dark web access and cyber-attacks by nation-states"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "PRAHAAR’s zero-tolerance approach seeks to deny terrorists funds, weapons and safe havens. Power, railways and aviation are critical sectors, while the other options refer to separate threat categories or manifestations identified in the policy."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Threat domains and CBRNED",
+   "question": "With reference to the threat framework under PRAHAAR, consider the following statements:\n\n1. Terrorist threats may arise on land, in the air through drones, and on water.\n2. Agriculture and banking are identified among the critical sectors listed in the policy.\n3. CBRNED stands for Chemical, Biological, Radiological, Nuclear, Explosive and Digital.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6"
+   ],
+   "explanation": "Statements 1 and 3 are correct: PRAHAAR covers threats on land, air and water, and defines CBRNED as Chemical, Biological, Radiological, Nuclear, Explosive and Digital. Statement 2 is incorrect because the listed critical sectors include power, railways, aviation, ports, defence, space and atomic energy."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Emerging terrorism threats",
+   "question": "Consider the following statements:\n\nStatement A: PRAHAAR recognises cyber-attacks by nation-states, crypto funding and the dark web as terrorism-related threats.\nStatement B: PRAHAAR recognises cyber-attacks only when they are carried out by non-state actors.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "Statement A is true because PRAHAAR recognises cyber-attacks by nation-states, crypto funding and the dark web. Statement B is false because the policy specifically recognises attacks by nation-states, rather than limiting them to non-state actors."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Non-sectarian approach",
+   "question": "What position does PRAHAAR adopt regarding the relationship between terrorism and social or civilisational identities?",
+   "options": [
+    "It does not link terrorism to any religion, ethnicity or civilisation.",
+    "It links terrorism exclusively to one religion.",
+    "It links terrorism to ethnicity but not to religion or civilisation.",
+    "It links terrorism to civilisation but not to religion or ethnicity."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "PRAHAAR does not link terrorism to any religion, ethnicity or civilisation. The other options introduce identity-based linkages that the policy explicitly avoids."
+  }
+ ]
+}

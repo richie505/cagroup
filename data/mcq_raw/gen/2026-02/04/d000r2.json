@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F32",
+  "P0.F33",
+  "P0.F4",
+  "P0.F49",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Presented by",
+   "question": "Who presented the Union Budget 2026–27, described as a “Yuva Shakti-driven” Budget?",
+   "options": [
+    "Nirmala Sitharaman",
+    "Morarji Desai",
+    "John Mathai",
+    "R.K. Shanmukham Chetty"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Nirmala Sitharaman presented the Union Budget 2026–27, which was described as a “Yuva Shakti-driven” Budget. Morarji Desai, John Mathai and R.K. Shanmukham Chetty are associated with other Budget-history facts, not the presentation of this Budget."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Reforms and capital expenditure",
+   "question": "With reference to the Union Budget 2026–27, consider the following statements:\n1. More than 350 reforms had been undertaken since Independence Day 2025.\n2. These reforms included GST simplification, notification of Labour Codes and rationalisation of QCOs.\n3. Capital expenditure in 2014–15 was ₹2 lakh crore.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F9"
+   ],
+   "explanation": "All three statements are correct. The reforms since Independence Day 2025 numbered more than 350 and included GST simplification, Labour Codes and QCO rationalisation; capital expenditure in 2014–15 was ₹2 lakh crore. Therefore, the option omitting any one of these statements is incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Tax treatment and safe harbour",
+   "question": "Match the Union Budget 2026–27 tax measures in List-I with their corresponding details in List-II.\n\nList-I\n a. IT services treated as a single category\n b. IT services safe harbour margin\n c. Foreign cloud service providers\n d. Cloud service providers using Indian data centres\n\nList-II\n i. Common margin of 15.5%\n ii. Tax holiday till 2047\n iii. Covered under the specified tax measure\n iv. Common category for the specified services\n\nSelect the correct code.",
+   "options": [
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F32",
+    "P0.F33"
+   ],
+   "explanation": "The correct pairs are a-iv, b-i, c-ii and d-iii. IT services were placed in a single category with a common safe harbour margin of 15.5%, while foreign cloud service providers using Indian data centres were granted a tax holiday till 2047."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Budget number and digital status",
+   "question": "Which of the following correctly describes Nirmala Sitharaman’s Budget record mentioned in the context of the Union Budget 2026–27?",
+   "options": [
+    "Her 9th Budget, also the 6th digital Budget",
+    "Her 8th Budget, also the 5th digital Budget",
+    "Her 10th Budget, also the 7th digital Budget",
+    "Her 6th Budget, also the 9th digital Budget"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F49"
+   ],
+   "explanation": "The Union Budget 2026–27 was Nirmala Sitharaman’s 9th Budget and the 6th digital Budget. The other options alter one or both of these Budget counts."
+  }
+ ]
+}

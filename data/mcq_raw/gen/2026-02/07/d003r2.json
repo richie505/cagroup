@@ -1,0 +1,54 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P6.F5",
+  "P7.F10"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Species type",
+   "question": "Liriothemis keralensis, known as the “Slender Bombardier” and recorded from coastal Kerala, is which type of organism?",
+   "options": [
+    "Dragonfly",
+    "Trapdoor spider",
+    "Squat lobster",
+    "Flowering plant"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5",
+    "P6.F3",
+    "P6.F6",
+    "P6.F7"
+   ],
+   "explanation": "Liriothemis keralensis is a dragonfly recorded from coastal Kerala. The trapdoor spider, squat lobster and flowering plant refer to different species reported from other locations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Census count",
+   "question": "In the Odisha Dolphin Census 2026, how many finless porpoises were recorded?",
+   "options": [
+    "2",
+    "3",
+    "55",
+    "208"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F10",
+    "P7.F9",
+    "P7.F8",
+    "P7.F7"
+   ],
+   "explanation": "The Odisha Dolphin Census 2026 recorded 2 finless porpoises. The figures 3, 55 and 208 correspond to spinner dolphins, bottlenose dolphins and Irrawaddy dolphins, respectively."
+  }
+ ]
+}

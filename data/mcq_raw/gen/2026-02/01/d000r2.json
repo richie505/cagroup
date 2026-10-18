@@ -1,0 +1,82 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F17",
+  "P0.F18",
+  "P0.F26",
+  "P0.F28"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Presented by",
+   "question": "Who presented the Andhra Pradesh Budget 2026–27?",
+   "options": [
+    "Payyavula Keshav",
+    "NTR Bharosa",
+    "Polavaram",
+    "Amaravati capital"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Andhra Pradesh Budget 2026–27 was presented by Finance Minister Payyavula Keshav. NTR Bharosa, Polavaram and Amaravati capital are budget heads or projects, not the presenter."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Key budget allocations",
+   "question": "With reference to the key allocations in the Andhra Pradesh Budget 2026–27, consider the following statements:\nStatement A: Polavaram received ₹6,105 crore.\nStatement B: Amaravati capital received ₹6,105 crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F17",
+    "P0.F18"
+   ],
+   "explanation": "Statement A is true because Polavaram received ₹6,105 crore. Statement B is false: Amaravati capital received ₹6,000 crore, not ₹6,105 crore."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Allocation amount",
+   "question": "What allocation was made for Hostels and gurukuls in the Andhra Pradesh Budget 2026–27?",
+   "options": [
+    "₹300 crore",
+    "₹6,105 crore",
+    "₹6,000 crore",
+    "₹30,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F26"
+   ],
+   "explanation": "Hostels and gurukuls received an allocation of ₹300 crore in the Andhra Pradesh Budget 2026–27. ₹6,105 crore was allocated to Polavaram, while ₹6,000 crore was allocated to Amaravati capital."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Economic region and investment",
+   "question": "Which initiative was announced with an outlay of ₹30,000 crore in the Andhra Pradesh Budget 2026–27?",
+   "options": [
+    "Rayalaseema Global Horticulture Hub",
+    "Polavaram",
+    "Amaravati capital",
+    "Hostels and gurukuls"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F28"
+   ],
+   "explanation": "The Rayalaseema Global Horticulture Hub was announced with an outlay of ₹30,000 crore. Polavaram, Amaravati capital and Hostels and gurukuls are separate budget heads with different allocations."
+  }
+ ]
+}

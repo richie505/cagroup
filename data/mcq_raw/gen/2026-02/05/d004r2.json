@@ -1,0 +1,68 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P12.F4",
+  "P9.F5",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Election result and sentencing",
+   "question": "Consider the following statements:\nStatement A: José María Balkazar of Peru Libre was elected as Peru’s president by the 130-member Congress.\nStatement B: Former South Korean President Yoon Suk Yeol was sentenced to 10 years’ imprisonment over the 3 December 2024 martial law case.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F5",
+    "P9.F8"
+   ],
+   "explanation": "Statement A is true: José María Balkazar of Peru Libre was elected by Peru’s 130-member Congress. Statement B is false because Yoon Suk Yeol was sentenced to life imprisonment, not 10 years, over the 3 December 2024 martial law case."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sentence in RAJUK Purbachal plot cases",
+   "question": "What punishment was awarded to Sheikh Hasina in the RAJUK Purbachal plot cases?",
+   "options": [
+    "Two five-year terms",
+    "A single five-year term",
+    "Life imprisonment",
+    "A single ten-year term"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F9"
+   ],
+   "explanation": "Sheikh Hasina was sentenced to 10 years, comprising two five-year terms, in the RAJUK Purbachal plot cases. A single five-year term and life imprisonment do not match the reported punishment."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "BRICS membership",
+   "question": "Which of the following is NOT included among the BRICS members?",
+   "options": [
+    "Indonesia",
+    "Ethiopia",
+    "Egypt",
+    "Pakistan"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "Pakistan is not included in the listed BRICS membership. Indonesia, Ethiopia and Egypt are among the members listed alongside Brazil, Russia, India, China, South Africa, Saudi Arabia, the UAE and Iran."
+  }
+ ]
+}

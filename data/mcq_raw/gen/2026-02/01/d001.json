@@ -1,0 +1,263 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P2.F1",
+  "P2.F11",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F17",
+  "P2.F18",
+  "P2.F19",
+  "P2.F2",
+  "P2.F20",
+  "P2.F5",
+  "P2.F6",
+  "P2.F8",
+  "P2.F9",
+  "P3.F2",
+  "P3.F3",
+  "P3.F4",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9",
+  "P4.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic partnership",
+   "question": "The strategic partnership signed by Andhra Pradesh with the Gates Foundation covers which of the following areas?",
+   "options": [
+    "Technology, AI, health, education and agriculture",
+    "Quantum science, defence, tourism, mining and ports",
+    "Water security, logistics, energy security, Swachh Andhra and deep-tech",
+    "Literacy, per capita income, unemployment, life expectancy and product quality"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The partnership with the Gates Foundation covers technology, AI, health, education and agriculture. The other options combine targets or principles of Swarnandhra Vision-2047 rather than the partnership's stated areas."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Historic visit and Microsoft connection",
+   "question": "Why did Chief Minister N. Chandrababu Naidu describe Bill Gates’ visit as historic?",
+   "options": [
+    "He recalled the 1997 meeting that brought Microsoft to Hyderabad",
+    "He recalled the 2025 meeting that established the Quantum Valley in Amaravati",
+    "He recalled the 30 June 2025 meeting that launched the National Quantum Mission",
+    "He recalled the 7 February 2026 meeting that inaugurated the AI–Quantum Digital Embassy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Naidu called Bill Gates’ visit historic and recalled the 1997 meeting that brought Microsoft to Hyderabad. The other dates and events do not describe the Microsoft connection mentioned in the news."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Vision-2047 social and employment targets",
+   "question": "With reference to the employment and workforce targets under Swarnandhra Vision-2047, consider the following statements:\n1. Unemployment is targeted to decline from 4.1% to 2% by 2047.\n2. Women’s workforce participation is targeted to rise from 45.8% to 80% by 2047.\n3. Unemployment is targeted to decline from 4.1% to 3% by 2047.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "Exactly two statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the targets are 2% unemployment and 80% women’s workforce participation. Statement 3 is incorrect because the target unemployment rate is 2%, not 3%; therefore exactly two statements are correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Skilled workforce and life expectancy targets",
+   "question": "Which combination represents the Swarnandhra Vision-2047 targets for skilled workforce and life expectancy?",
+   "options": [
+    "95% skilled workforce and 85 years life expectancy",
+    "80% skilled workforce and 72 years life expectancy",
+    "85% skilled workforce and 95 years life expectancy",
+    "100% skilled workforce and 80 years life expectancy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "Swarnandhra Vision-2047 targets a 95% skilled workforce and life expectancy of 85 years. The other combinations interchange or alter these target figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ten principles of Vision-2047",
+   "question": "Which of the following is included among the ten principles of Swarnandhra Vision-2047?",
+   "options": [
+    "Zero poverty",
+    "Quantum gateway",
+    "AI–Quantum Digital Embassy",
+    "Universal health screening linked to ABDM"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "Zero poverty is one of the ten principles of Swarnandhra Vision-2047. Quantum gateway, the AI–Quantum Digital Embassy and universal health screening are associated with other initiatives."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tech cluster location",
+   "question": "Where is the Data & AI City tech cluster planned in Andhra Pradesh?",
+   "options": [
+    "Visakhapatnam",
+    "Amaravati",
+    "Kakinada",
+    "Orvakal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "The Data & AI City cluster is associated with Visakhapatnam. Amaravati is associated with Quantum Valley, Kakinada with Green Hydrogen Valley, and Orvakal with Drone City."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Electronics–Aero City location",
+   "question": "The Electronics–Aero City tech cluster is associated with which place?",
+   "options": [
+    "Lepakshi",
+    "Tirupati",
+    "Visakhapatnam",
+    "Kakinada"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F14"
+   ],
+   "explanation": "Lepakshi is the location associated with Electronics–Aero City. Tirupati is linked to Electronics–Space City, while Visakhapatnam and Kakinada are linked to other clusters."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Electronics–Space City location",
+   "question": "Which place is associated with the Electronics–Space City tech cluster?",
+   "options": [
+    "Tirupati",
+    "Lepakshi",
+    "Orvakal",
+    "Amaravati"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F15"
+   ],
+   "explanation": "Electronics–Space City is associated with Tirupati. Lepakshi is associated with Electronics–Aero City, whereas Orvakal and Amaravati are associated with Drone City and Quantum Valley respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "AI governance and project scale",
+   "question": "With reference to Andhra Pradesh’s AI initiatives, consider the following statements:\n1. AI applications cover 10 sectors, 30 departments and 98 use cases.\n2. The State conducted 43 hackathons.\n3. The State undertook 30 data lake projects.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "Exactly two statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F16"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the AI initiative covers 10 sectors, 30 departments and 98 use cases, alongside 43 hackathons. Statement 3 is incorrect because the number of data lake projects is 7, not 30; hence exactly two statements are correct."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "AWARE and governance tools",
+   "question": "Consider the following statements:\nStatement A: AWARE expands to AP Wide Area Real-time Execution.\nStatement B: Andhra Pradesh’s governance initiatives included WhatsApp governance and DG Verify.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F17"
+   ],
+   "explanation": "Both statements are true. AWARE stands for AP Wide Area Real-time Execution, and the governance initiatives included WhatsApp governance and DG Verify."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "ORF and universal health screening figures",
+   "question": "How many of the following statements are correct?\n1. The Oral Reading Fluency tool covered 13.4 lakh students.\n2. The Oral Reading Fluency tool covered 35,000 schools.\n3. Universal health screening covered 71 lakh students.\n4. Universal health screening involved 40 tests.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F18",
+    "P2.F19"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the ORF tool covered 13.4 lakh students in 35,000 schools. Statement 3 changes the screened population detail, and statement 4 is incorrect because universal health screening involved 41 tests; therefore only two statements are correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sanjeevini rollout and target",
+   "question": "Which description correctly relates to the Sanjeevini programme in Andhra Pradesh?",
+   "options": [
+    "It was piloted in Kadapa with 109 centres, was scheduled statewide from July 2026, and targeted 5.2 crore people",
+    "It was piloted in Kakinada with 41 centres, was scheduled statewide from February 2026, and targeted 71 lakh people",
+    "It was piloted in Amaravati with 95 centres, was scheduled statewide from June 2025, and targeted 13.4 lakh people",
+    "It was piloted in Visakhapatnam with 30 centres, was scheduled statewide from 2047, and targeted 1,00,000 people"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F20"
+   ],
+   "explanation": "Sanjeevini was piloted in Kadapa with 109 centres, with statewide rollout from July 2026 and a target of 5.2 crore people. The other options alter the pilot place, centre count, rollout period or target."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Quantum training inspiration and scale",
+   "question": "The APSCHE quantum training initiative drew inspiration from which combination and aimed to train approximately how many learners?",
+   "options": [
+    "The Amaravati Quantum Declaration and National Quantum Mission; 1,000+ faculty and about 1,00,000 students",
+    "The Swarnandhra Vision-2047 and AI Impact Summit; 109 faculty and 5.2 crore students",
+    "The Amaravati Quantum Declaration and National Quantum Mission; 94 institutions and 100+ teams",
+    "The National Quantum Mission and DG Verify; 43 faculty and 98 students"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "The initiative was inspired by the Amaravati Quantum Declaration and the National Quantum Mission, with training planned for 1,000+ faculty and approximately 1,00,000 students. The other options substitute hackathon figures or unrelated initiatives."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Quantum Valley, hackathon and MoU partners",
+   "question": "Match List-I with the appropriate description in List-II.\n\nList-I\n(a) Amaravati Quantum Valley\n(b) Jury of the Amaravati Quantum Valley Hackathon\n(c) Internship collaboration\n(d) AP MoU partner group\n\nList-II\n(i) India’s “quantum gateway”\n(ii) IBM and TCS\n(iii) IBM with T-Hub\n(iv) UN International Computing Centre, IBM, NIELIT, BharatGen–NextGen–IBM, Kalibo AI, Wiser and IIT Madras",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F7",
+    "P4.F2"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Amaravati Quantum Valley is described as India’s quantum gateway; the jury included IBM and TCS; IBM partnered with T-Hub for internships; and the MoU group included the seven institutions listed in List-II(iv)."
+  }
+ ]
+}

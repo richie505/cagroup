@@ -1,0 +1,54 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20
+ ],
+ "only": [
+  "P17.F4",
+  "P17.F5",
+  "P18.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "TKDL establishment and origin",
+   "question": "With reference to the Traditional Knowledge Digital Library (TKDL), consider the following statements:\n1. The TKDL was established in 2001 by the Council of Scientific and Industrial Research and the Ministry of AYUSH.\n2. Its creation followed patent disputes involving turmeric and neem.\n3. The Council of Scientific and Industrial Research was established in 1940.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F4",
+    "P17.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the TKDL was established in 2001 by CSIR and the Ministry of AYUSH, following turmeric and neem patent disputes. Statement 3 is incorrect because CSIR was established in 1942, not 1940."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Renewable-energy capacity",
+   "question": "According to India's 2026 renewable-energy capacity figures, what was the country's non-fossil capacity?",
+   "options": [
+    "141 GW+",
+    "272 GW+",
+    "55 GW",
+    "35 GW"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P18.F6"
+   ],
+   "explanation": "India's non-fossil capacity in 2026 was 272 GW+. The figures 141 GW+ and 55 GW refer to solar and wind capacity respectively, while 35 GW was the solar capacity added during FY 2025–26."
+  }
+ ]
+}

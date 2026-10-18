@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P7.F5",
+  "P7.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Objection by country",
+   "question": "At the 68th Grammy Awards, which country objected in connection with the Dalai Lama's first Grammy?",
+   "options": [
+    "China",
+    "Dharamshala",
+    "Recording Academy",
+    "Los Angeles"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "China objected in connection with the Dalai Lama's first Grammy. Dharamshala is the headquarters of the Tibetan Government-in-Exile, not the country that objected."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Year of establishment",
+   "question": "Since which year has the Recording Academy presented the Grammy Awards?",
+   "options": [
+    "1957",
+    "1954",
+    "2018",
+    "2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F6"
+   ],
+   "explanation": "The Recording Academy has presented the Grammy Awards since 1957. The other years relate to different awards or initiatives and are not the starting year of the Grammys."
+  }
+ ]
+}

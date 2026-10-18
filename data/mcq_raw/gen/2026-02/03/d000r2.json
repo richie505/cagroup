@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F4",
+  "P1.F10",
+  "P1.F3",
+  "P2.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Achievement/coverage",
+   "question": "Under the Deendayal Antyodaya Yojana–National Rural Livelihoods Mission, the number of Lakhpati Didis—women earning more than ₹1 lakh annually—has crossed which milestone?",
+   "options": [
+    "1 crore",
+    "2 crore",
+    "3 crore",
+    "5 crore"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The number of Lakhpati Didis under DAY-NRLM has crossed 2 crore. The tempting figure of 1 crore is incorrect because the reported milestone is more than twice that number."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Allocation and institutional structure",
+   "question": "With reference to the AYUSH sector and its institutional framework, consider the following statements:\n1. The AYUSH allocation was ₹2,122 crore in 2020–21.\n2. The Ministry of AYUSH was set up in 2016.\n3. NCISM and the National Commission for Homoeopathy are regulators of the AYUSH sector.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F10"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the AYUSH allocation was ₹2,122 crore in 2020–21, and NCISM and the National Commission for Homoeopathy are its regulators. Statement 2 is incorrect because the Ministry of AYUSH was set up in 2014, not 2016."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Policy response",
+   "question": "Which of the following correctly describes the policy response recognised for addressing adolescent mental health in India?",
+   "options": [
+    "Economic Survey 2025–26, NMHP, Ayushman Bharat Health and Wellness Centres, and Tele-MANAS",
+    "Economic Survey 2025–26, National Mental Health Survey, Ayushman Bharat Health and Wellness Centres, and Tele-MANAS",
+    "Economic Survey 2025–26, NMHP, Ayushman Bharat Health and Wellness Centres, and TKDL",
+    "Economic Survey 2025–26, NMHP, National AYUSH Mission, and Tele-MANAS"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The recognised policy response comprises the Economic Survey 2025–26, the National Mental Health Programme, Ayushman Bharat Health and Wellness Centres, and Tele-MANAS. The other options replace NMHP or one of the listed interventions with a different survey, initiative, or knowledge database."
+  }
+ ]
+}

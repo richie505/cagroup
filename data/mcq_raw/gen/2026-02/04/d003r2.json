@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P6.F3",
+  "P7.F6",
+  "P7.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Sectors covered",
+   "question": "Which group of sectors was covered under the first National Monetisation Pipeline launched in 2021?",
+   "options": [
+    "Roads, railways, power transmission, airports and ports",
+    "Roads, railways, power transmission and airports",
+    "Roads, railways, power transmission and ports",
+    "Roads, railways, airports and ports"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "The first National Monetisation Pipeline was launched in 2021 and covered roads, railways, power transmission, airports and ports. The most tempting alternative omits ports, which was one of the sectors included."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Airport project details",
+   "question": "Consider the following statements about infrastructure and airport projects announced in February 2026:\n\n1. Sonepur International Airport is in Saran, Bihar, and has a 4,200-metre runway for A380 aircraft.\n2. Adampur Airport was renamed Shri Guru Ravidas Maharaj Ji Airport in Ludhiana.\n3. The renaming of Adampur Airport took place on Guru Ravidas's 648th birth anniversary.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F6",
+    "P7.F7"
+   ],
+   "explanation": "Only Statement 1 is correct: Sonepur International Airport is in Saran, Bihar, with a 4,200-metre runway for A380 aircraft. Adampur Airport is in Jalandhar, not Ludhiana, and it was renamed on Guru Ravidas's 649th birth anniversary, not the 648th."
+  }
+ ]
+}

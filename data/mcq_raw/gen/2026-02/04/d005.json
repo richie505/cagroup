@@ -1,0 +1,82 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13
+ ],
+ "only": [
+  "P12.F2",
+  "P12.F3",
+  "P12.F4",
+  "P12.F5",
+  "P12.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Service features and women participation",
+   "question": "With reference to Bharat Taxi, consider the following statements:\n1. Its drivers are called “Sarathis”, and the platform provides zero commission, no surge pricing and social security.\n2. The “Bike Didi” initiative has more than 150 women drivers.\n3. The “Bike Didi” initiative has 150 women drivers.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Bharat Taxi drivers are called “Sarathis”, with zero commission, no surge pricing and social security, while “Bike Didi” has more than 150 women drivers. Statement 3 is incorrect because the reported figure is more than 150, not exactly 150."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Partnership with AAI",
+   "question": "Which one of the following statements regarding Bharat Taxi’s partnership with the Airports Authority of India (AAI) is incorrect?",
+   "options": [
+    "Bharat Taxi signed a Memorandum of Understanding with AAI for regulated airport taxis.",
+    "AAI was one of the organisations associated with Bharat Taxi’s airport taxi partnership.",
+    "The AAI partnership concerned airport taxi services.",
+    "AAI was established in 1995."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "The incorrect statement is that the AAI partnership concerned airport taxi services without regulation; the MoU was specifically for regulated airport taxis. AAI was established in 1995, and its MoU with Bharat Taxi concerned airport taxi operations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First State/UT to partner",
+   "question": "Which State/Union Territory became the first to partner with Bharat Taxi?",
+   "options": [
+    "Delhi",
+    "Delhi Transport and Tourism Development Corporation",
+    "Sahakar Taxi Cooperative Ltd",
+    "Rekha Gupta"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F5"
+   ],
+   "explanation": "Delhi was the first State/Union Territory to partner with Bharat Taxi. The partnership was formalised through an MoU between the Delhi Transport and Tourism Development Corporation and Sahakar Taxi Cooperative Ltd, in the presence of Chief Minister Rekha Gupta."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Other partners",
+   "question": "How many of the following were listed as other partners of Bharat Taxi?\n1. Delhi Traffic Police\n2. DMRC\n3. SBI was not among the partners\n4. Ministry of Cooperation was among the partners",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F6"
+   ],
+   "explanation": "Only two statements are correct: Delhi Traffic Police and DMRC were listed as other partners. SBI was also a partner, while the Ministry of Cooperation was mentioned with its establishment year of 2021, not as one of these other partners."
+  }
+ ]
+}

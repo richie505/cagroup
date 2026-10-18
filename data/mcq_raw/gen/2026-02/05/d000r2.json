@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F23",
+  "P0.F24"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Agricultural trade surplus",
+   "question": "Under the agriculture-related provisions of the India–US trade deal, what was India’s agricultural surplus with the United States?",
+   "options": [
+    "USD 1.3 billion",
+    "USD 3.4 billion",
+    "USD 2.1 billion",
+    "No agricultural surplus"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F23"
+   ],
+   "explanation": "India’s agricultural surplus with the United States was USD 1.3 billion. The figures of USD 3.4 billion and USD 2.1 billion represented agricultural exports and imports respectively, not the surplus."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Zero-duty agricultural exports",
+   "question": "With reference to the agricultural provisions of the India–US trade deal, consider the following statements:\nStatement A: USD 1.035 billion of agricultural exports face zero additional duty.\nStatement B: USD 1.035 billion is assured zero reciprocal tariff.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F24"
+   ],
+   "explanation": "Statement A is false because USD 1.36 billion of agricultural exports face zero additional duty. Statement B is true: USD 1.035 billion is assured zero reciprocal tariff."
+  }
+ ]
+}
