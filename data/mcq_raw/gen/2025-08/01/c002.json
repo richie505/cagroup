@@ -1,0 +1,121 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme objective",
+   "question": "Under the Swachh Ratham pilot of the Swachh Andhra campaign, what did villagers exchange for groceries and essential commodities of equal value?",
+   "options": [
+    "Dry waste",
+    "Wet waste converted into manure",
+    "Chemical fertilisers",
+    "Recyclers’ payments"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F4",
+    "P6.F9"
+   ],
+   "explanation": "Villagers exchanged dry waste for groceries and essentials such as rice, soaps and shampoos of equal value. The waste was sold to recyclers, while wet-waste manure was planned for marketing through MarkFed; it was not used for biogas."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Place and implementation",
+   "question": "With reference to the Swachh Ratham waste-for-groceries pilot, which of the following statements is incorrect?",
+   "options": [
+    "The pilot was conducted in seven panchayats of Guntur Rural Mandal and was to be expanded to Vijayawada rural.",
+    "Drivers of Material Delivery Units repurposed their vehicles as Swachh Rathams.",
+    "The collected waste was used for biogas production.",
+    "The collected waste was sold to recyclers."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "The incorrect statement is that the collected waste was used for biogas production. The dry waste was sold to recyclers, and drivers of Material Delivery Units repurposed their vehicles as Swachh Rathams; the pilot covered seven panchayats of Guntur Rural Mandal with expansion to Vijayawada rural."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award-winning initiatives",
+   "question": "Which two initiatives of the Andhra Pradesh Revenue Department won the SKOCH Awards 2025?",
+   "options": [
+    "Online Court Management System and Re-Survey 2.0",
+    "Online Court Management System and Swachh Ratham",
+    "Re-Survey 2.0 and Circular Economy Policy",
+    "Swachh Ratham and Circular Economy Policy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "The two award-winning initiatives were the Online Court Management System, which digitised revenue courts, and Re-Survey 2.0, which used drones and GIS mapping of land records. Swachh Ratham and the Circular Economy Policy belong to a different Andhra Pradesh initiative."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State-wise income share",
+   "question": "According to the Union Finance Ministry data on ITR-1 filers for AY 2024-25, consider the following statements:\n\n1. Andhra Pradesh had a 62.1% share of filers with income above ₹5 lakh.\n2. Karnataka had a 61.7% share of filers with income above ₹5 lakh.\n3. Tamil Nadu had a 61.5% share of filers with income above ₹5 lakh.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3",
+    "P8.F4",
+    "P8.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Andhra Pradesh recorded 62.1% and Karnataka 61.7%. Statement 3 is incorrect because 61.5% was recorded for Telangana, while Tamil Nadu recorded 58.8%."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Highest state share",
+   "question": "Assertion (A): Andhra Pradesh recorded the highest share among major states of ITR-1 filers with income above ₹5 lakh in AY 2024-25.\nReason (R): The national average share of ITR-1 filers with income above ₹5 lakh was 55.3%.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3",
+    "P8.F8"
+   ],
+   "explanation": "Both Assertion and Reason are true: Andhra Pradesh recorded 62.1%, the highest among major states, while the national average was 55.3%. However, the national average does not explain why Andhra Pradesh ranked highest among the major states."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Change in income slabs",
+   "question": "For Andhra Pradesh ITR-1 filers, how many of the following slab shifts between AY 2020-21 and AY 2024-25 are correct?\n\n1. The up to ₹2.5 lakh share fell from 10.6% to 6.9%.\n2. The ₹2.5–5 lakh share fell from 43.1% to 30.9%.\n3. The ₹5–7.5 lakh share rose from 21.2% to 28.3%.\n4. The above ₹10 lakh share rose from 9.6% to 21.2%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F10",
+    "P8.F11",
+    "P8.F12",
+    "P8.F13"
+   ],
+   "explanation": "Only three statements are correct. The above ₹10 lakh share rose from 9.6% to 22%, not 21.2%; the other three stated slab shifts are correct."
+  }
+ ]
+}

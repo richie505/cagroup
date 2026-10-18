@@ -1,0 +1,116 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Department responsible",
+   "question": "Which department flagged approximately 1.17 crore ration-card holders as potentially ineligible under the NFSA, 2013, through inter-ministerial data matching?",
+   "options": [
+    "Department of Food and Public Distribution",
+    "Income Tax Department",
+    "Ministry of Road Transport and Highways",
+    "Ministry of Corporate Affairs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "The Department of Food and Public Distribution flagged approximately 1.17 crore potentially ineligible ration-card holders through inter-ministerial data matching. The Income Tax Department was one of the databases used for verification, not the department that issued the list."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Responsibility for deletion",
+   "question": "Which of the following statements regarding the NFSA ration-card verification exercise is incorrect?",
+   "options": [
+    "States and Union Territories have to verify and remove ineligible cards by 30 September 2025.",
+    "The Rightful Targeting Dashboard is an API-based tool provided for use by States and Union Territories.",
+    "Deletion of ineligible cards is the responsibility of the Centre, while States and Union Territories only provide data.",
+    "A total of 1.34 crore bogus or ineligible cards had been deleted during 2021–2023."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "The incorrect statement is that deletion is the responsibility of the Centre. Deletion is the responsibility of States and Union Territories, while the Centre provides the data; the other statements correctly describe the deadline, dashboard and earlier deletions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Formally skilled workforce",
+   "question": "What proportion of India’s workforce was identified as formally skilled in the discussion on vocational education and training?",
+   "options": [
+    "4%",
+    "3%",
+    "6–7%",
+    "63%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6",
+    "P1.F4"
+   ],
+   "explanation": "Only 4% of the workforce was identified as formally skilled. The figures 3% and 6–7% relate to present and suggested VET spending, while 63% is the ITI employment rate."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Vocational education framework",
+   "question": "Consider the following statements:\nStatement A: The National Education Policy, 2020, provides for vocational exposure from Grade 6.\nStatement B: The National Credit Framework enables credit transfer between vocational and general education.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "Both statements are true. NEP 2020 provides vocational exposure from Grade 6, while the National Credit Framework enables credit transfer between vocational and general education."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Report number and recommendation",
+   "question": "Which report of the Rajya Sabha Committee on Petitions, dated 20 August 2025, recommended declaring cancer a notifiable disease in all States and Union Territories?",
+   "options": [
+    "The 163rd report",
+    "The 18th report",
+    "The 20th report",
+    "The 3rd report"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2"
+   ],
+   "explanation": "The recommendation was made in the Committee on Petitions’ 163rd report dated 20 August 2025. The committee was headed by Narain Dass Gupta; the other report numbers do not correspond to this recommendation."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Cancer registry coverage",
+   "question": "Assertion (A): The Rajya Sabha Committee on Petitions recommended declaring cancer a notifiable disease in all States and Union Territories.\nReason (R): The National Cancer Registry Programme currently covers 81% of the population.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "Assertion A is true because the committee made this recommendation in its 163rd report. Reason R is false: the National Cancer Registry Programme covers only 18% of the population, not 81%."
+  }
+ ]
+}

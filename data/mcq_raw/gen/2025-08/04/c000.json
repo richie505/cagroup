@@ -1,0 +1,95 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "GST rate structure",
+   "question": "Under the GST rate-rationalisation proposal accepted by the Group of Ministers, which rate structure was proposed?",
+   "options": [
+    "Retain 5% and 18%; remove 12% and 28%",
+    "Retain 12% and 28%; remove 5% and 18%",
+    "Retain 5% and 12%; remove 18% and 28%",
+    "Retain 18% and 28%; remove 5% and 12%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "The proposal was to retain the 5% and 18% slabs while removing the 12% and 28% slabs. The other options incorrectly alter which GST slabs would be retained."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "GST Council and compensation",
+   "question": "Which of the following statements regarding the proposed GST rate rationalisation and state compensation is NOT correct?",
+   "options": [
+    "The compensation cess is proposed to be abolished.",
+    "The final decision rests with the GST Council, chaired by the Union Finance Minister.",
+    "The GST Council meeting was expected in September 2025.",
+    "The final decision rests with the Group of Ministers chaired by Bihar Deputy Chief Minister Samrat Choudhary."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "The incorrect statement is that the Group of Ministers has the final say. The Group of Ministers accepted the Centre's proposal, but the final decision rests with the GST Council, chaired by the Union Finance Minister."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GST slab migration",
+   "question": "With reference to the proposed GST rate rationalisation, consider the following statements:\n1. Ninety-nine percent of the items in the 12% slab were proposed to move to the 5% slab.\n2. Ninety percent of the items in the 28% slab were proposed to move to the 18% slab.\n3. A new 40% slab was proposed for manufacturing and service states.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 99% of 12% items were to move to 5%, and 90% of 28% items to 18%. Statement 3 is incorrect because the proposed 40% slab was for sin goods such as tobacco, cigarettes and online real-money gaming."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sectoral tariff impact",
+   "question": "Following the US tariff increase on Indian exports, what tariff change was specified for textiles and apparel?",
+   "options": [
+    "From 13.9% to 63.9%",
+    "From 10% to 60%",
+    "From 2.9% to 52.9%",
+    "From 4% to 54%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The tariff on textiles and apparel was specified to rise from 13.9% to 63.9%. The other options correspond to shrimp, carpets and organic chemicals respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Export-sector institutions and employment",
+   "question": "Consider the following statements:\nStatement A: Surat's diamond-polishing sector employs approximately 12 lakh workers.\nStatement B: CHEMEXCIL is the chemicals body mentioned in the context of the tariff impact.\n\nWhich one of the following is correct?",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F11"
+   ],
+   "explanation": "Both statements are true: Surat's diamond-polishing sector has approximately 12 lakh workers, and CHEMEXCIL is the chemicals body identified in the tariff-impact discussion. Therefore, neither statement is the altered detail in the alternatives."
+  }
+ ]
+}

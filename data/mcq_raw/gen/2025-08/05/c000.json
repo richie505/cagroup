@@ -1,0 +1,132 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Host of summit",
+   "question": "Who hosted the August 2025 White House summit attended by European leaders and Ukraine's Volodymyr Zelenskyy on the Ukraine peace process?",
+   "options": [
+    "Donald Trump",
+    "Vladimir Putin",
+    "Volodymyr Zelenskyy",
+    "European leaders"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Donald Trump hosted the White House summit with European leaders and Volodymyr Zelenskyy. Vladimir Putin had met Trump separately in Alaska before the summit, while Zelenskyy was an attendee rather than the host."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Trade route under dispute",
+   "question": "India and China agreed to resume border trade through which pass, leading to an objection from Nepal?",
+   "options": [
+    "Lipulekh Pass",
+    "Kalapani Pass",
+    "Limpiyadhura Pass",
+    "Mahakali Pass"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The proposed resumption of India–China border trade was through Lipulekh Pass in Uttarakhand. Kalapani and Limpiyadhura were part of Nepal's territorial claim, not the pass named for the trade route."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Background of Lipulekh trade",
+   "question": "Which of the following statements regarding trade via Lipulekh is incorrect?",
+   "options": [
+    "Trade via Lipulekh began in 1954.",
+    "Lipulekh is located in Pithoragarh district.",
+    "Lipulekh lies at the India–Nepal–China (Tibet) tri-junction.",
+    "Trade via Lipulekh was disrupted by the 2019 pandemic."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "The incorrect statement is that trade was disrupted by the 2019 pandemic; it was disrupted by COVID-19. Trade via Lipulekh began in 1954, and the pass is in Pithoragarh district at the India–Nepal–China (Tibet) tri-junction."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Date of declaration",
+   "question": "On which date did the WHO declare Nepal to have eliminated rubella as a public health problem?",
+   "options": [
+    "18 August 2025",
+    "18 August 2012",
+    "18 August 2016",
+    "Early 2024"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The WHO made the declaration on 18 August 2025. The years 2012 and 2016 refer to Nepal's vaccine-related steps, while early 2024 refers to the achievement of over 95% coverage for at least one dose."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Rubella surveillance and vaccination",
+   "question": "Consider the following statements:\nStatement A: Nepal was the first country in the WHO South-East Asia Region to adopt a laboratory algorithm for rubella surveillance.\nStatement B: The MMR vaccine requires three doses.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F7"
+   ],
+   "explanation": "Statement A is true: Nepal was the first in the WHO South-East Asia Region to adopt a laboratory algorithm for rubella surveillance. Statement B is false because the MMR vaccine consists of two doses, not three."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Enclave exchange and population movement",
+   "question": "Match the items related to the India–Bangladesh Land Boundary Agreement with the corresponding details.\n\nList-I\n(a) Indian enclaves in Bangladesh\n(b) Bangladeshi enclaves in India\n(c) New Indian citizens\n(d) Migrated to India\n\nList-II\n(i) 111 transferred to Bangladesh\n(ii) 51 merged into India\n(iii) 14,854 residents\n(iv) 922 from Indian enclaves in Bangladesh",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4",
+    "P3.F5",
+    "P3.F6"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Indian enclaves in Bangladesh numbered 111 and were transferred to Bangladesh; 51 Bangladeshi enclaves merged into India; 14,854 residents became new Indian citizens; and 922 people migrated to India."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Key facts of the Land Boundary Agreement",
+   "question": "How many of the following statements correctly describe the India–Bangladesh Land Boundary Agreement and its implementation?\n\n1. The Land Boundary Agreement was from 2015.\n2. The 111 Indian enclaves were transferred to India.\n3. The 51 Bangladeshi enclaves were merged into Bangladesh.\n4. The exchange day was observed on 31 August.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F3",
+    "P3.F4",
+    "P3.F7"
+   ],
+   "explanation": "Only one statement is correct: the Land Boundary Agreement was from 2015. The 111 Indian enclaves were transferred to Bangladesh, the 51 Bangladeshi enclaves were merged into India, and the exchange day was 31 July rather than 31 August."
+  }
+ ]
+}

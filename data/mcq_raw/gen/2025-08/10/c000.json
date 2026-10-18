@@ -1,0 +1,44 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "Where were the World Transplant Games 2025 held?",
+   "options": [
+    "Dresden, Germany",
+    "Jaigaon, Dooars",
+    "Jangareddygudem Forest Division",
+    "Hyderabad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F7"
+   ],
+   "explanation": "The World Transplant Games 2025 were held in Dresden, Germany. Hyderabad is the tempting wrong option, but the Games were held in Germany, not Hyderabad."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Medal and organising body",
+   "question": "Consider the following statements:\nStatement A: Forest Section Officer Nagavasu Naidu Sunkara won a gold medal in the 5 km racewalking event at the World Transplant Games 2025.\nStatement B: The World Transplant Games are biennial and are organised by the World Transplant Games Federation.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Statement A is false because Nagavasu Naidu Sunkara won silver, not gold, in the 5 km racewalking event. Statement B is true because the Games are biennial and organised by the World Transplant Games Federation."
+  }
+ ]
+}

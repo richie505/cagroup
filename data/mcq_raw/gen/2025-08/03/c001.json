@@ -1,0 +1,97 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First digital Census",
+   "question": "Which statement correctly describes Census 2027 in India?",
+   "options": [
+    "It will be India's first digital Census and the first Census since 2011",
+    "It will be India's first paper-based Census and the first since 2011",
+    "It will be India's first digital Census and the first Census since 2001",
+    "It will be India's second digital Census and the first since 2011"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "Census 2027 will be India's first digital Census and the first Census since 2011. The tempting option stating that it is the first since 2001 is incorrect; the previous Census was held in 2011."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Disability prevalence estimates",
+   "question": "Consider the following statements about disability prevalence estimates in India:\n1. Census 2011 recorded disability prevalence at 2.21%.\n2. NFHS-5 recorded disability prevalence at approximately 15%.\n3. The WHO estimate placed disability prevalence at 4.52%.",
+   "options": [
+    "Only statement 1 is correct",
+    "Only statement 2 is correct",
+    "Only statement 3 is correct",
+    "Statements 1, 2 and 3 are correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "Only statement 1 is correct: Census 2011 recorded 26.8 million persons with disabilities, or 2.21%. The figures 4.52% and approximately 15% belong to NFHS-5 and the WHO estimate respectively, so statements 2 and 3 interchange those sources and values."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Disability data framework",
+   "question": "Assertion (A): The Washington Group–Short Set has been suggested for disability data collection in India.\nReason (R): It can be aligned with the 21 categories recognised under the RPwD Act, 2016.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F10",
+    "P3.F17"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the alignment with the 21 RPwD Act categories explains the suggestion to use the Washington Group–Short Set. The option that treats the Reason as unrelated is therefore incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Census 2011 methodology",
+   "question": "Consider the following statements about disability data collection in India:\nStatement A: Census 2011 used functional questions across 21 categories.\nStatement B: India has adopted the Washington Group–Short Set in all surveys.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F9",
+    "P3.F11"
+   ],
+   "explanation": "Both statements are false. Census 2011 used medical binary questions in 8 categories, while India has not adopted the Washington Group–Short Set in all surveys."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Drug safety regulation and market",
+   "question": "How many of the following statements about India's drug safety deficit and pharmaceutical market are correct?\n1. Good Manufacturing Practices were introduced only in 2005.\n2. CDSCO is an independent regulator that does not report to the Health Ministry.\n3. Branded generics account for 87% of the Indian market.\n4. The WHO estimates that 1 in 20 drugs in developing countries are fake or substandard.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F3",
+    "P4.F4"
+   ],
+   "explanation": "Only two statements are correct: GMP was introduced in 2005, and branded generics account for 87% of the Indian market. CDSCO is not independent and reports through DGHS to the Health Ministry; the WHO figure is 1 in 10 drugs in developing countries, not 1 in 20."
+  }
+ ]
+}

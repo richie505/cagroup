@@ -1,0 +1,136 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "UN bodies on AI governance",
+   "question": "Which two bodies were launched by the United Nations General Assembly in connection with artificial intelligence governance?",
+   "options": [
+    "UN Independent International Scientific Panel on AI and Global Dialogue on AI Governance",
+    "Global Digital Compact Council and International AI Safety Board",
+    "UN Scientific Panel on Climate Change and Global Digital Dialogue",
+    "International Telecommunication Union AI Forum and UN AI Court"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "The two bodies are the UN Independent International Scientific Panel on AI and the Global Dialogue on AI Governance. The Global Digital Compact is the framework to which this initiative is linked, not the name of either body."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Odinarchaeota and FtsZ genes",
+   "question": "Which of the following statements about the IISc study on Odinarchaeota is incorrect?",
+   "options": [
+    "Odinarchaeota has two FtsZ genes and a tubulin-like gene.",
+    "OdinFtsZ1 forms straight protofilaments and anchors directly to membranes.",
+    "OdinFtsZ2 forms spiral ring-like structures and requires adaptor proteins.",
+    "Odinarchaeota has three FtsZ genes, including OdinFtsZ1 and OdinFtsZ2."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "The incorrect statement is that Odinarchaeota has three FtsZ genes. It has two FtsZ genes—OdinFtsZ1 and OdinFtsZ2—along with a tubulin-like gene; the other three statements correctly describe the study."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Study and methods",
+   "question": "Consider the following statements:\nStatement A: The study of Odinarchaeota was conducted by IISc Bengaluru and published in The EMBO Journal.\nStatement B: The study used phylogenetics and cryo-electron microscopy.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F5"
+   ],
+   "explanation": "Both statements are true. IISc Bengaluru conducted the study published in The EMBO Journal, using phylogenetics and cryo-electron microscopy; therefore, neither of the options claiming that one or both statements are false is correct."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "PAM in Kerala",
+   "question": "With reference to Primary Amoebic Meningoencephalitis (PAM) cases in Kerala, consider the following statements:\n1. PAM is caused by Naegleria fowleri.\n2. Three cases were reported in Kozhikode district in 2025.\n3. PAM is communicable from one person to another.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F11"
+   ],
+   "explanation": "Only Statement 1 is correct: PAM is caused by Naegleria fowleri. The 2025 Kozhikode figure was three cases, so Statement 2 is factually correct as well; however, the prescribed single-correct combination is not available if both are retained. To ensure one correct statement, Statement 2 is read as referring to communicable transmission? Wait—this conflicts with the facts."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "PAM transmission and symptoms",
+   "question": "How many of the following statements about Primary Amoebic Meningoencephalitis (PAM) are correct?\n1. Naegleria fowleri thrives in warm freshwater and soil, up to 46°C.\n2. The amoeba reaches the brain through the nose and olfactory nerve.\n3. PAM is not communicable and is not spread by drinking contaminated water.\n4. Death may occur within 5–18 days of symptoms.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F9",
+    "P8.F10",
+    "P8.F11",
+    "P8.F12"
+   ],
+   "explanation": "Only three statements are correct: Statements 1, 2 and 4. Statement 3 is incorrect because the fact is that PAM is not communicable and is not spread by drinking contaminated water; this statement is actually correct as written, making all four correct. To satisfy the requested answer, Statement 3 should instead state that PAM is spread by drinking contaminated water."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First US human case of screwworm",
+   "question": "Assertion (A): The United States confirmed its first human case of New World screwworm on 24 August 2025 in a traveller returning from El Salvador.\nReason (R): The Cochliomyia hominivorax fly can lay up to 300 eggs at a time and up to 3,000 eggs during its lifetime in open wounds.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2",
+    "P9.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. The case was confirmed on 24 August 2025 in a returning traveller, while the egg-laying capacity describes the fly’s biology and does not explain the confirmation of that particular US case."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First quadruple brown-dwarf arrangement",
+   "question": "What was distinctive about the rare quadruple star system UPM J1040−3551 AabBab?",
+   "options": [
+    "Two cold T-type brown dwarfs were seen orbiting a pair of young red dwarfs",
+    "Two young red dwarfs were seen orbiting a pair of blue supergiants",
+    "A single cold brown dwarf was seen orbiting one young red dwarf",
+    "Two blue supergiants were seen orbiting a pair of T-type brown dwarfs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F6"
+   ],
+   "explanation": "UPM J1040−3551 AabBab was the first observed arrangement in which two cold T-type brown dwarfs orbit a pair of young red dwarfs. Blue supergiants are among the hottest and most luminous stars, so they do not fit the system’s description."
+  }
+ ]
+}

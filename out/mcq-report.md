@@ -1,33 +1,33 @@
 # CA MCQ report
 
-- MCQs kept: **3421**
-- News pages with at least one question: **2358 / 2629**
-- Facts tested: **7187 / 20515** (35.0%)
-- Answer positions: A 893, B 877, C 915, D 736
+- MCQs kept: **3531**
+- News pages with at least one question: **2420 / 2629**
+- Facts tested: **7431 / 20515** (36.2%)
+- Answer positions: A 924, B 904, C 944, D 759
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 352 | 371 | 357 | 299 |
-| Negative / Incorrect Statement | 95 | 99 | 104 | 99 |
-| Assertion-Reason | 106 | 102 | 134 | 110 |
-| Statement-Based (A/B) | 126 | 76 | 115 | 97 |
-| Multi-Statement Correctness | 138 | 110 | 118 | 110 |
+| Direct Recall | 361 | 376 | 368 | 308 |
+| Negative / Incorrect Statement | 100 | 102 | 107 | 106 |
+| Assertion-Reason | 108 | 109 | 141 | 112 |
+| Statement-Based (A/B) | 135 | 81 | 119 | 99 |
+| Multi-Statement Correctness | 142 | 116 | 120 | 112 |
 | Chronological Ordering | 2 | 0 | 0 | 0 |
-| List-Matching | 30 | 26 | 28 | 19 |
-| Count-Based | 44 | 93 | 59 | 2 |
+| List-Matching | 30 | 26 | 28 | 20 |
+| Count-Based | 46 | 94 | 61 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 349 |
-| verify:explanation_contradicts | 46 |
+| code | 353 |
+| verify:explanation_contradicts | 50 |
 | verify:not_in_facts | 44 |
 | over the page's quota | 23 |
 | duplicate | 14 |
-| verify:none_correct | 11 |
+| verify:none_correct | 13 |
 | verify:two_correct | 8 |
-| verify:second reader picked option 2, key 1 | 6 |
+| verify:second reader picked option 2, key 1 | 7 |
 | verify:garbled | 3 |
 | verify:second reader picked option 1, key 0 | 2 |
 | verify:ambiguous_stem | 2 |
@@ -190,17 +190,17 @@
 | 2025-09/09 | Awards, Persons & Appointments | 6 | 11/39 |
 | 2025-09/10 | Sports | 3 | 4/13 |
 | 2025-09/11 | Important Days & Events | 2 | 6/16 |
-| 2025-08/01 | Andhra Pradesh | 0 | 0/154 |
-| 2025-08/02 | Polity & Governance | 0 | 0/78 |
-| 2025-08/03 | Schemes & Social Sector | 0 | 0/79 |
-| 2025-08/04 | Economy, Banking & Budget | 0 | 0/81 |
-| 2025-08/05 | International Relations | 0 | 0/40 |
-| 2025-08/06 | Science, Tech, Space & Defence | 0 | 0/106 |
-| 2025-08/07 | Environment & Geography | 0 | 0/37 |
-| 2025-08/08 | Reports, Indices & Rankings | 0 | 0/10 |
-| 2025-08/09 | Awards, Persons & Appointments | 0 | 0/13 |
-| 2025-08/10 | Sports | 0 | 0/7 |
-| 2025-08/11 | Important Days & Events | 0 | 0/8 |
+| 2025-08/01 | Andhra Pradesh | 30 | 70/154 |
+| 2025-08/02 | Polity & Governance | 13 | 28/78 |
+| 2025-08/03 | Schemes & Social Sector | 13 | 33/79 |
+| 2025-08/04 | Economy, Banking & Budget | 12 | 21/81 |
+| 2025-08/05 | International Relations | 8 | 16/40 |
+| 2025-08/06 | Science, Tech, Space & Defence | 19 | 42/106 |
+| 2025-08/07 | Environment & Geography | 7 | 16/37 |
+| 2025-08/08 | Reports, Indices & Rankings | 2 | 5/10 |
+| 2025-08/09 | Awards, Persons & Appointments | 2 | 4/13 |
+| 2025-08/10 | Sports | 2 | 4/7 |
+| 2025-08/11 | Important Days & Events | 2 | 5/8 |
 | 2025-06/01 | Andhra Pradesh | 0 | 0/61 |
 | 2025-06/02 | Polity & Governance | 0 | 0/25 |
 | 2025-06/03 | Schemes & Social Sector | 0 | 0/24 |
@@ -622,3 +622,24 @@
 - `2025-09/08/c000#3` verify: second reader picked option 1, key 0 — 
   - Q: With reference to the SRS Statistical Report 2023, how many of the following statements are correct? /  / 1. India’s Crude Birth Rate declined from 19.1 in 2022 to 18.4 in 2023. / 2. Eighteen States and Uni
   - Key: Only one
+- `2025-08/02/c002#3` verify: explanation_contradicts — Statement 3 is supported by the facts, but the explanation incorrectly calls it incorrect.
+  - Q: With reference to the Presidential Reference under Article 143, consider the following statements: / 1. Article 143(1) permits the President to refer a question of law or fact of public importance for a
+  - Key: 1 and 2 only
+- `2025-08/03/c002#3` verify: explanation_contradicts — Statement 3 is supported by the facts, so three statements—not two—are correct.
+  - Q: How many of the following statements are correct in the context of employment challenges and AI projections? / 1. AI is projected globally to create 170 million jobs by 2030. / 2. AI is projected globally
+  - Key: Only two
+- `2025-08/04/c001#0` verify: none_correct — Growth exceeding 4,000% also means it exceeded 3,000%, so statements 1 and 2 are correct but no option lists them together.
+  - Q: With reference to the August 2025 report on India’s solar module manufacturing capacity, consider the following statements: / 1. Module capacity was approximately 100 GW in 2025, while cumulative solar 
+  - Key: 1 only
+- `2025-08/04/c001#4` verify: explanation_contradicts — Statement 3 is supported by the facts, so three statements are correct; the explanation wrongly calls statement 3 incorrect.
+  - Q: Consider the following statements regarding cotton production, imports and procurement: / 1. 2024-25 cotton production was 294 lakh bales, the lowest in 15 years, against a requirement of 318 lakh bales
+  - Key: Only two
+- `2025-08/06/c001#6` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements regarding India’s space-law framework are correct? / 1. The Indian Space Policy was issued in 2023. / 2. The IN-SPACe Norms, Guidelines and Procedures of 2023 provide 
+  - Key: Only two
+- `2025-08/06/c002#3` verify: none_correct — Statements 1 and 2 are true and statement 3 is false, but no option represents 1 and 2 only.
+  - Q: With reference to Primary Amoebic Meningoencephalitis (PAM) cases in Kerala, consider the following statements: / 1. PAM is caused by Naegleria fowleri. / 2. Three cases were reported in Kozhikode distric
+  - Key: 1 only
+- `2025-08/06/c002#4` verify: explanation_contradicts — All four statements are supported by the facts, contrary to the explanation.
+  - Q: How many of the following statements about Primary Amoebic Meningoencephalitis (PAM) are correct? / 1. Naegleria fowleri thrives in warm freshwater and soil, up to 46°C. / 2. The amoeba reaches the brain 
+  - Key: Only three

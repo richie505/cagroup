@@ -1,0 +1,96 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Award recipient",
+   "question": "Who was the only teacher from Andhra Pradesh to receive the National Best Teacher Award 2025?",
+   "options": [
+    "Madabathula Thirumala Sridevi",
+    "Harshitha Manikanta",
+    "Nandamuri Balakrishna",
+    "Droupadi Murmu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "Madabathula Thirumala Sridevi, headmistress of Pandit Nehru Municipal High School, Bheemili, was the only teacher from Andhra Pradesh among the 45 teachers selected nationally. Harshitha Manikanta and Nandamuri Balakrishna were associated with different August 2025 news items, while Droupadi Murmu presented the award."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Achievement and place",
+   "question": "Which European peak was climbed by AP Police Railways wing DSP Harshitha Manikanta?",
+   "options": [
+    "Mount Elbrus",
+    "Mount Everest",
+    "Aconcagua",
+    "Denali"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "DSP Harshitha Manikanta of the AP Police Railways wing climbed Mount Elbrus, the highest peak in Europe. Mount Everest, Aconcagua and Denali are listed as peaks of Asia, South America and North America respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Mountain facts",
+   "question": "Consider the following statements about Mount Elbrus:\n1. Mount Elbrus is 5,642 metres high and lies in the Caucasus Range on the Russia–Georgia border.\n2. Mount Elbrus is located in the Himalaya.\n3. Mount Elbrus is an active stratovolcano.",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F4",
+    "P14.F5"
+   ],
+   "explanation": "Exactly one statement is correct: statement 1 accurately gives Mount Elbrus’s height, range and location. The peak is not in the Himalaya, and it is described as a dormant rather than an active stratovolcano."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Recognition edition",
+   "question": "Assertion (A): Nandamuri Balakrishna was included in the Gold Edition of the World Book of Records, U.K.\nReason (R): His recognition placed him in the Platinum Edition.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "Assertion A is true because Nandamuri Balakrishna was included in the Gold Edition for completing 50 years as a lead hero in Indian cinema. Reason R is false: the recognition was in the Gold Edition, not the Platinum Edition."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Recognition and career details",
+   "question": "Which of the following statements about Nandamuri Balakrishna is incorrect?",
+   "options": [
+    "He was recognised as Chairman of Basavatarakam Indo American Cancer Hospital & Research Institute for 15 years.",
+    "The CEO of the World Book of Records, U.K., is Santosh Shukla.",
+    "He made his debut as a child artist in 1974.",
+    "His child-artist debut film was Mangammagari Manavadu."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P15.F2",
+    "P15.F3",
+    "P15.F5",
+    "P15.F6"
+   ],
+   "explanation": "The incorrect statement is that his child-artist debut film was Mangammagari Manavadu. His debut as a child artist was in 1974 in Tatamma Kala; Mangammagari Manavadu is among the films listed in his later film career."
+  }
+ ]
+}

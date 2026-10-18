@@ -1,0 +1,80 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Mode of electoral-roll publication",
+   "question": "How did the Election Commission share the electoral rolls discussed in the machine-readable electoral rolls debate?",
+   "options": [
+    "As image PDFs without voter photographs",
+    "Through ERONET as downloadable spreadsheets",
+    "As scanned pages carrying voter photographs",
+    "Through district officials in printed registers only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The Election Commission shared the rolls as image PDFs, and they did not contain voter photographs. ERONET is the Commission’s digital application for voter details, not the stated mode of sharing these rolls."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Machine-readable rolls debate",
+   "question": "Which of the following statements regarding the machine-readable electoral rolls debate is incorrect?",
+   "options": [
+    "ERONET is the Election Commission’s digital application for voter details.",
+    "The rolls are prepared by district officials.",
+    "Before the 2019 elections, the Election Commission told Chief Electoral Officers to continue uploading machine-readable rolls.",
+    "In Kamal Nath vs EC of India (2018), the Supreme Court refused to compel the Election Commission to provide machine-readable rolls."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F2",
+    "P4.F4",
+    "P4.F5"
+   ],
+   "explanation": "The incorrect statement is that the Election Commission told Chief Electoral Officers to continue uploading machine-readable rolls; it told them to stop uploading them before the 2019 elections. ERONET, district-level preparation of rolls, and the Kamal Nath ruling are correctly stated."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Article 143 Presidential Reference",
+   "question": "Assertion (A): President Droupadi Murmu made a Presidential Reference under Article 143(1) on whether the President and Governors could be judicially compelled to act within timelines on State Bills.\nReason (R): An opinion under Article 143(1) is binding on all parties.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F6",
+    "P5.F8"
+   ],
+   "explanation": "Assertion A is correct: President Droupadi Murmu made the reference under Article 143(1) on timelines for assent to State Bills. Reason R is false because an Article 143 opinion is advisory, not binding, though it is persuasive."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Scope and nature of Article 143",
+   "question": "With reference to the Presidential Reference under Article 143, consider the following statements:\n1. Article 143(1) permits the President to refer a question of law or fact of public importance for an advisory opinion.\n2. The opinion under Article 143 is advisory and not binding, though it is persuasive.\n3. Article 143(2) concerns disputes relating to pre-Constitution treaties and agreements.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F7",
+    "P5.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Article 143(1) provides for a reference on a question of law or fact of public importance, and the opinion is advisory rather than binding. Statement 3 is incorrect because disputes on pre-Constitution treaties and agreements fall under Article 143(2), not Article 143(1)."
+  }
+ ]
+}

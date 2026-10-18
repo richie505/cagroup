@@ -1,0 +1,79 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Largest producer and dairy model",
+   "question": "Which description best characterises India's position in the global dairy sector?",
+   "options": [
+    "The world's largest milk producer, based on a smallholder, cooperative-led model",
+    "The world's largest milk producer, based on large-scale, pasture-based dairies",
+    "The world's second-largest milk producer, based on a smallholder, cooperative-led model",
+    "The world's largest milk producer, based on a government-owned dairy model"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "India is the largest milk producer in the world, and its dairy system is smallholder and cooperative-led. The large-scale pasture-based description is associated with the New Zealand-style model, which India cannot adopt because it lacks sufficient land for such pasture dairying."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Competitiveness factor",
+   "question": "Which of the following statements about the competitiveness of India's dairy sector is incorrect?",
+   "options": [
+    "India's dairy competitiveness stems from low labour costs.",
+    "India's dairy competitiveness stems from high yields per cow.",
+    "India's dairy model is smallholder and cooperative-led.",
+    "India lacks land for New Zealand-style pasture dairying."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F7",
+    "P5.F8"
+   ],
+   "explanation": "The incorrect statement is that India's competitiveness stems from high yields per cow; it stems from low labour costs, not high yields. The smallholder cooperative-led structure and the lack of land for New Zealand-style pasture dairying are both stated characteristics of India's dairy sector."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "One-time switch from UPS to NPS",
+   "question": "Consider the following statements:\nStatement A: The Finance Ministry permitted a one-time, one-way switch from the Unified Pension Scheme to the National Pension System for Central government employees.\nStatement B: The permitted switch was from the Unified Pension Scheme to the Old Pension Scheme.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F3"
+   ],
+   "explanation": "Statement A is correct because the permitted switch was a one-time, one-way move from UPS to NPS for Central government employees. Statement B is incorrect because the switch was not to OPS; it was back to NPS."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "UPS effective date and nature",
+   "question": "Assertion (A): The Unified Pension Scheme became effective on 1 April 2025 and provides an assured payout.\nReason (R): The Unified Pension Scheme is a defined-contribution scheme.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F4",
+    "P6.F9",
+    "P6.F10"
+   ],
+   "explanation": "Assertion A is correct: UPS is effective from 1 April 2025 and has an assured pension payout. Reason R is incorrect because UPS is hybrid, whereas NPS is defined contribution; therefore, the reason does not explain the assertion."
+  }
+ ]
+}

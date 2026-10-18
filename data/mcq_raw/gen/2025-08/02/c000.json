@@ -1,0 +1,96 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Introduced by",
+   "question": "Who introduced the Constitution (130th Amendment) Bill, 2025 in the Lok Sabha?",
+   "options": [
+    "The Union Home Minister",
+    "The President",
+    "The Governor",
+    "Abhishek Singhvi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Constitution (130th Amendment) Bill, 2025 was introduced in the Lok Sabha by the Union Home Minister. Abhishek Singhvi was identified as a critic of the proposal, not its introducer."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Removal trigger and timeline",
+   "question": "Which of the following statements regarding the proposed removal of arrested Ministers under the Constitution (130th Amendment) Bill, 2025 is incorrect?",
+   "options": [
+    "A Minister arrested and detained for 30 consecutive days for an alleged offence punishable with 5 years or more imprisonment may be removed by the 31st day on the advice of the PM.",
+    "A Minister arrested and detained for 31 consecutive days for an alleged offence punishable with 5 years or more imprisonment may be removed by the 31st day on the advice of the PM.",
+    "If the advice for removal is not tendered by the 31st day, the person automatically ceases to be a Minister.",
+    "A Minister may be re-appointed after release from custody under Article 75(1)."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F17",
+    "P0.F18"
+   ],
+   "explanation": "The incorrect statement changes the required detention period from 30 consecutive days to 31 consecutive days. The proposal provides for automatic cessation if advice is not tendered by the 31st day, while re-appointment is permitted after release from custody under Article 75(1)."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Applicability and JPC composition",
+   "question": "Consider the following statements about the Constitution (130th Amendment) Bill, 2025 and its associated legislative changes:\n1. The proposed provision applies to both Union and State Ministers.\n2. Separate amendments were proposed to the Government of Union Territories Act, 1963 and the J&K Reorganisation Act, 2019.\n3. The Joint Parliamentary Committee consists of 10 Lok Sabha members and 21 Rajya Sabha members.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F21"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the provision covers both Union and State Ministers, and separate amendments concern the Government of Union Territories Act, 1963 and the J&K Reorganisation Act, 2019. Statement 3 reverses the Joint Parliamentary Committee composition, which is 21 Lok Sabha members and 10 Rajya Sabha members."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Summons and related coverage",
+   "question": "Consider the following statements regarding the Section 152 BNS proceedings involving The Wire:\nStatement A: Assam Police summoned Siddharth Varadarajan and Karan Thapar under Section 152 of the Bharatiya Nyaya Sanhita.\nStatement B: The summons were related to coverage of Operation Sindoor.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Both statements are true. Assam Police summoned The Wire editors Siddharth Varadarajan and Karan Thapar under Section 152 BNS in connection with coverage of Operation Sindoor."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Intent standard and press freedom",
+   "question": "Assertion (A): Section 152 of the BNS, unlike Section 124A of the IPC, demands a high standard of proof of intent.\nReason (R): Article 19(1)(a) protects freedom of speech and expression.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "The assertion is false because Section 152 does not demand a high standard of proof of intent, unlike the stated comparison with Section 124A. The reason is true: Article 19(1)(a) concerns freedom of speech and expression."
+  }
+ ]
+}

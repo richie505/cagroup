@@ -1,0 +1,81 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Extension period",
+   "question": "The PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi) scheme has been extended up to which date?",
+   "options": [
+    "31 December 2024",
+    "31 March 2030",
+    "31 March 2024",
+    "31 December 2030"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2"
+   ],
+   "explanation": "PM SVANidhi, launched in 2020, has been extended from 31 December 2024 to 31 March 2030. The tempting option of 31 December 2024 is the earlier end date, not the extended one."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Loan tranche amounts",
+   "question": "With reference to the restructured PM SVANidhi scheme, which of the following statements is incorrect?",
+   "options": [
+    "The first tranche was increased from ₹10,000 to ₹15,000.",
+    "The second tranche was increased from ₹20,000 to ₹25,000.",
+    "The third tranche was increased from ₹50,000 to ₹25,000.",
+    "The third tranche remains ₹50,000."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F8",
+    "P5.F9",
+    "P5.F10"
+   ],
+   "explanation": "The incorrect statement is that the third tranche was increased to ₹25,000; it remains ₹50,000, unchanged. The first and second tranches were increased to ₹15,000 and ₹25,000 respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Demographic dividend and employability",
+   "question": "Consider the following statements about India's demographic dividend:\n1. The working-age population constitutes approximately two-thirds of the population, with the demographic window extending till the 2040s.\n2. Only 42–43% of graduates are job-ready.\n3. High school students are aware of 20,000+ career paths.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P6.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so the answer is 1 and 2 only. Statement 3 reverses the career-awareness fact: students know only 6–7 careers, compared with more than 20,000 possible paths."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Employment and AI projections",
+   "question": "How many of the following statements are correct in the context of employment challenges and AI projections?\n1. AI is projected globally to create 170 million jobs by 2030.\n2. AI is projected globally to displace 92 million jobs by 2030.\n3. Around 40–50% of engineering graduates are unemployed or underemployed.\n4. The Skill India target of skilling 400 million people by 2022 was achieved.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F4",
+    "P6.F5",
+    "P6.F6"
+   ],
+   "explanation": "Only two statements are correct: AI is projected to create 170 million and displace 92 million jobs by 2030. Statement 3 is incorrect because the unemployment or underemployment figure for engineering graduates is 40–50%, and Statement 4 is incorrect because the Skill India target was missed."
+  }
+ ]
+}

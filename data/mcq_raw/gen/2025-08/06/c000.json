@@ -1,0 +1,97 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue of commissioning",
+   "question": "INS Udaygiri and INS Himgiri were commissioned together on 26 August 2025 at which place?",
+   "options": [
+    "Visakhapatnam",
+    "Chandipur",
+    "Mumbai",
+    "Kolkata"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "INS Udaygiri and INS Himgiri were commissioned at Visakhapatnam on 26 August 2025. Mumbai and Kolkata were the locations of MDL and GRSE respectively, while Chandipur was associated with the IADWS test."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Commissioning milestone",
+   "question": "With reference to the commissioning of INS Udaygiri and INS Himgiri, consider the following statements:\n1. It was the first time that two major warships from two different shipyards were commissioned together.\n2. INS Udaygiri was the 100th ship designed by the Navy’s Warship Design Bureau.\n3. INS Himgiri was built by MDL, Mumbai.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the commissioning marked the first joint commissioning of two major warships from different shipyards, and Udaygiri was the 100th ship designed by the Warship Design Bureau. Statement 3 is incorrect because Himgiri was built by GRSE, Kolkata; MDL, Mumbai built Udaygiri."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Project 17A details",
+   "question": "Which one of the following statements regarding Project 17A is incorrect?",
+   "options": [
+    "Project 17A is the follow-on project of Project 17, the Shivalik-class.",
+    "Project 17A comprises seven ships, with four assigned to MDL and three to GRSE.",
+    "The project has approximately 75% indigenous content and involves more than 200 MSMEs.",
+    "Project 17B comprises seven next-generation frigates under Project 17A."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "The fourth statement is incorrect because Project 17B is the next project involving seven next-generation frigates; it is not described as comprising seven ships under Project 17A. Project 17A is the follow-on of Project 17, has seven ships, and has approximately 75% indigenous content with participation from more than 200 MSMEs."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Integrated air-defence capability",
+   "question": "Assertion (A): The Integrated Air Defence Weapon System destroyed two fixed-wing UAVs and one multi-copter drone simultaneously during its maiden flight tests.\nReason (R): IADWS integrates QRSAM, VSHORADS and a Directed Energy Weapon.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F4"
+   ],
+   "explanation": "Both the assertion and the reason are true. The simultaneous destruction of two fixed-wing UAVs and one multi-copter drone reflects the integrated capability of a system combining QRSAM, VSHORADS and a high-power-laser Directed Energy Weapon."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Test date and command centre",
+   "question": "Consider the following statements:\nStatement A: The maiden flight tests of IADWS were conducted on 26 August 2025 off the Odisha coast.\nStatement B: The Centralised Command and Control Centre for IADWS was provided by Rafael.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3",
+    "P1.F7"
+   ],
+   "explanation": "Both statements are false. The maiden flight tests took place on 23 August 2025 off the Odisha coast, and the Centralised Command and Control Centre was by DRDL; the system was fully indigenous and not developed with Israel’s Rafael."
+  }
+ ]
+}
