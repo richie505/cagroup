@@ -1,0 +1,57 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": [
+  "P3.F1",
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F2",
+  "P3.F3",
+  "P3.F4",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First district with 100% CCTV coverage",
+   "question": "Which district became the first in Andhra Pradesh to achieve 100% CCTV coverage across all its inhabited villages?",
+   "options": [
+    "NTR district",
+    "Krishna district",
+    "Tiruvuru municipality",
+    "Nandigama municipality"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F11",
+    "P3.F12"
+   ],
+   "explanation": "NTR district became the first district in Andhra Pradesh to achieve 100% CCTV coverage, with at least four cameras in each of its 305 inhabited villages. Krishna is the parent district from which NTR district was carved out, not the district identified in this achievement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CCTV coverage per village",
+   "question": "Under NTR district’s 100% CCTV coverage initiative, what was the minimum number of cameras installed in each inhabited village?",
+   "options": [
+    "At least four cameras",
+    "At least sixteen cameras",
+    "At least twenty cameras",
+    "At least eighty cameras"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F11"
+   ],
+   "explanation": "The initiative ensured at least four cameras in each of NTR district’s 305 inhabited villages. Sixteen refers to the number of uninhabited villages in the district, while twenty is the number of mandals."
+  }
+ ]
+}

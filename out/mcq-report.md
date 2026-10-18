@@ -1,31 +1,31 @@
 # CA MCQ report
 
-- MCQs kept: **3531**
-- News pages with at least one question: **2420 / 2629**
-- Facts tested: **7431 / 20515** (36.2%)
-- Answer positions: A 924, B 904, C 944, D 759
+- MCQs kept: **3583**
+- News pages with at least one question: **2451 / 2629**
+- Facts tested: **7553 / 20515** (36.8%)
+- Answer positions: A 935, B 920, C 955, D 773
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 361 | 376 | 368 | 308 |
-| Negative / Incorrect Statement | 100 | 102 | 107 | 106 |
-| Assertion-Reason | 108 | 109 | 141 | 112 |
-| Statement-Based (A/B) | 135 | 81 | 119 | 99 |
-| Multi-Statement Correctness | 142 | 116 | 120 | 112 |
+| Direct Recall | 364 | 381 | 373 | 312 |
+| Negative / Incorrect Statement | 102 | 104 | 108 | 109 |
+| Assertion-Reason | 108 | 111 | 141 | 116 |
+| Statement-Based (A/B) | 137 | 82 | 120 | 101 |
+| Multi-Statement Correctness | 146 | 119 | 122 | 113 |
 | Chronological Ordering | 2 | 0 | 0 | 0 |
 | List-Matching | 30 | 26 | 28 | 20 |
-| Count-Based | 46 | 94 | 61 | 2 |
+| Count-Based | 46 | 97 | 63 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 353 |
-| verify:explanation_contradicts | 50 |
-| verify:not_in_facts | 44 |
+| code | 357 |
+| verify:explanation_contradicts | 51 |
+| verify:not_in_facts | 45 |
 | over the page's quota | 23 |
+| verify:none_correct | 14 |
 | duplicate | 14 |
-| verify:none_correct | 13 |
 | verify:two_correct | 8 |
 | verify:second reader picked option 2, key 1 | 7 |
 | verify:garbled | 3 |
@@ -201,17 +201,17 @@
 | 2025-08/09 | Awards, Persons & Appointments | 2 | 4/13 |
 | 2025-08/10 | Sports | 2 | 4/7 |
 | 2025-08/11 | Important Days & Events | 2 | 5/8 |
-| 2025-06/01 | Andhra Pradesh | 0 | 0/61 |
-| 2025-06/02 | Polity & Governance | 0 | 0/25 |
-| 2025-06/03 | Schemes & Social Sector | 0 | 0/24 |
-| 2025-06/04 | Economy, Banking & Budget | 0 | 0/32 |
-| 2025-06/05 | International Relations | 0 | 0/31 |
-| 2025-06/06 | Science, Tech, Space & Defence | 0 | 0/36 |
-| 2025-06/07 | Environment & Geography | 0 | 0/22 |
-| 2025-06/08 | Reports, Indices & Rankings | 0 | 0/48 |
+| 2025-06/01 | Andhra Pradesh | 12 | 33/61 |
+| 2025-06/02 | Polity & Governance | 4 | 10/25 |
+| 2025-06/03 | Schemes & Social Sector | 5 | 10/24 |
+| 2025-06/04 | Economy, Banking & Budget | 6 | 13/32 |
+| 2025-06/05 | International Relations | 4 | 10/31 |
+| 2025-06/06 | Science, Tech, Space & Defence | 7 | 13/36 |
+| 2025-06/07 | Environment & Geography | 6 | 12/22 |
+| 2025-06/08 | Reports, Indices & Rankings | 7 | 18/48 |
 | 2025-06/09 | Awards, Persons & Appointments | 0 | 0/0 |
 | 2025-06/10 | Sports | 0 | 0/0 |
-| 2025-06/11 | Important Days & Events | 0 | 0/3 |
+| 2025-06/11 | Important Days & Events | 1 | 3/3 |
 | 2025-05/01 | Andhra Pradesh | 0 | 0/155 |
 | 2025-05/02 | Polity & Governance | 0 | 0/7 |
 | 2025-05/03 | Schemes & Social Sector | 0 | 0/9 |
@@ -643,3 +643,12 @@
 - `2025-08/06/c002#4` verify: explanation_contradicts — All four statements are supported by the facts, contrary to the explanation.
   - Q: How many of the following statements about Primary Amoebic Meningoencephalitis (PAM) are correct? / 1. Naegleria fowleri thrives in warm freshwater and soil, up to 46°C. / 2. The amoeba reaches the brain 
   - Key: Only three
+- `2025-06/01/c001#0` verify: not_in_facts — The facts identify the first district only descriptively and do not name it.
+  - Q: Which district became the first in Andhra Pradesh to achieve 100% CCTV coverage?
+  - Key: NTR district
+- `2025-06/01/c001#1` verify: none_correct — At least four cameras entails at least three, so all four statements are true.
+  - Q: Which of the following statements regarding CCTV coverage in NTR district is incorrect?
+  - Key: At least three cameras were provided in every inhabited village.
+- `2025-06/04/c000#6` verify: explanation_contradicts — Statements 1, 2, and 3 are correct, so the count is three rather than two.
+  - Q: With reference to the Production-Linked Incentive schemes, how many of the following statements are correct? / 1. Pharma exports in FY25 under the scheme amounted to ₹0.67 lakh crore. / 2. India became a 
+  - Key: Only two

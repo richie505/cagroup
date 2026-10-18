@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Publisher",
+   "question": "The report titled “State of the Climate in Asia 2024” was published by which organisation?",
+   "options": [
+    "World Meteorological Organization (WMO)",
+    "Celeste Saulo",
+    "United Nations",
+    "World Health Organization"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The State of the Climate in Asia 2024 report was published by the World Meteorological Organization (WMO), whose Secretary-General is Celeste Saulo. Celeste Saulo is the organisation’s Secretary-General, not the publishing organisation."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Asia warming and temperature record",
+   "question": "Consider the following statements:\nStatement A: In 2024, Asia warmed at the global average rate.\nStatement B: The year 2024 was the warmest year on record in Asia.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Statement A is false because Asia warmed at twice the global average. Statement B is true because 2024 was the warmest year on record in Asia; therefore, the correct answer is “Statement A is false, Statement B is true.”"
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Cyclone location and impact",
+   "question": "With reference to the cyclones and extreme weather events reported in Asia during 2024, identify the incorrect statement.",
+   "options": [
+    "Cyclone Remal was a Bay of Bengal cyclone that made landfall on 26 May near Mongla and Khepupara.",
+    "Cyclone Fengal hit India after skirting Sri Lanka in November.",
+    "Cyclone Asna occurred in the Arabian Sea in August and affected Oman.",
+    "Cyclone Remal affected Oman, while Cyclone Asna occurred in the Arabian Sea."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F16",
+    "P0.F17",
+    "P0.F18",
+    "P0.F19"
+   ],
+   "explanation": "The incorrect statement is that Cyclone Remal affected Oman. Remal did not hit Oman; Cyclone Asna was the cyclone associated with Oman and occurred in the Arabian Sea."
+  }
+ ]
+}

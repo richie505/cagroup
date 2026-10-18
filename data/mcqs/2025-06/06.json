@@ -1,5 +1,132 @@
 {
  "folder": "2025-06",
  "nn": "06",
- "mcqs": []
+ "mcqs": [
+  {
+   "id": "2025-06/06/c000#0",
+   "format": "Direct Recall",
+   "keyword": "Launch vehicle",
+   "question": "Which launch vehicle carried the Axiom-4 mission with Group Captain Shubhanshu Shukla towards the International Space Station on 25 June 2025?",
+   "options": [
+    "Axiom Space",
+    "Falcon Heavy",
+    "Crew Dragon",
+    "Falcon 9"
+   ],
+   "answer": 3,
+   "explanation": "Axiom-4 was launched aboard a Falcon 9 from Launch Complex 39A at Kennedy Space Center, Florida. Crew Dragon was the spacecraft, while Axiom Space was the private mission operator; Falcon Heavy was not used.",
+   "facts": [
+    "P0.F1"
+   ]
+  },
+  {
+   "id": "2025-06/06/c000#1",
+   "format": "Multi-Statement Correctness",
+   "keyword": "First Indian at ISS and mission type",
+   "question": "Consider the following statements about Shubhanshu Shukla’s Axiom-4 mission:\n1. Shubhanshu Shukla became the first Indian to reach the International Space Station.\n2. The mission was launched on 26 June 2025.\n3. It was a private Axiom Space mission conducted with NASA and SpaceX.",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 only",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "Statements 1 and 3 are correct: Shubhanshu Shukla was the first Indian to reach the ISS, and the mission was a private Axiom Space mission with NASA and SpaceX. Statement 2 is incorrect because the launch took place on 25 June 2025.",
+   "facts": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F4"
+   ]
+  },
+  {
+   "id": "2025-06/06/c000#2",
+   "format": "Direct Recall",
+   "keyword": "Place of commissioning",
+   "question": "Where was INS Tamal commissioned on 1 July 2025?",
+   "options": [
+    "Goa Shipyard Ltd",
+    "Kaliningrad, Russia",
+    "St. Petersburg",
+    "Yantar Shipyard"
+   ],
+   "answer": 1,
+   "explanation": "INS Tamal was commissioned at Kaliningrad, Russia, after being built at Yantar Shipyard. St. Petersburg and Kaliningrad were associated with crew training, while Goa Shipyard Ltd was linked to other frigates.",
+   "facts": [
+    "P1.F1",
+    "P1.F13"
+   ]
+  },
+  {
+   "id": "2025-06/06/c000#3",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Fleet assignment",
+   "question": "Which of the following statements about INS Tamal is incorrect?",
+   "options": [
+    "It belongs to the Eastern Fleet.",
+    "It was the eighth Krivak/Talwar-class frigate from Russia in two decades.",
+    "It belongs to the Western Fleet, known as the Sword Arm of the Western Naval Command.",
+    "It was the last warship procured from a foreign source."
+   ],
+   "answer": 0,
+   "explanation": "The incorrect statement is that INS Tamal belongs to the Eastern Fleet. It belongs to the Western Fleet, known as the Sword Arm of the Western Naval Command; it was also the last warship procured from a foreign source and the eighth Krivak/Talwar-class frigate from Russia in two decades.",
+   "facts": [
+    "P1.F2",
+    "P1.F3",
+    "P1.F5"
+   ]
+  },
+  {
+   "id": "2025-06/06/c000#4",
+   "format": "Assertion-Reason",
+   "keyword": "CAR-T cell source",
+   "question": "Assertion (A): CAR-T therapy uses the patient’s own B-cells engineered to attack cancer.\nReason (R): CAR-T therapy uses the patient’s own T-cells, which are genetically modified and infused to attack cancer.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 3,
+   "explanation": "Assertion A is false because CAR-T therapy uses the patient’s own T-cells, not B-cells. Reason R is true: the T-cells are genetically modified and then infused to attack cancer.",
+   "facts": [
+    "P2.F1",
+    "P2.F2"
+   ]
+  },
+  {
+   "id": "2025-06/06/c000#5",
+   "format": "Count-Based",
+   "keyword": "Approved indications",
+   "question": "How many of the following are blood cancers for which CAR-T therapy has been approved?\n1. Acute Lymphoblastic Leukemia\n2. Non-Hodgkin Lymphoma\n3. Multiple Myeloma\n4. Solid tumours",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 2,
+   "explanation": "Only three listed conditions—Acute Lymphoblastic Leukemia, Non-Hodgkin Lymphoma and Multiple Myeloma—are approved indications for CAR-T therapy. Solid tumours are not yet included among the approved indications.",
+   "facts": [
+    "P2.F3"
+   ]
+  },
+  {
+   "id": "2025-06/06/c000#6",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Copyright and AI policy",
+   "question": "Consider the following statements:\nStatement A: Large language models have been trained on news content without consent or compensation.\nStatement B: In India, DPIIT formed a committee on copyright and artificial intelligence.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 0,
+   "explanation": "Both statements are true. The copyright concern arises from the use of news content by large language models without consent or compensation, and DPIIT responded by forming a committee on copyright and artificial intelligence.",
+   "facts": [
+    "P3.F1",
+    "P3.F2"
+   ]
+  }
+ ]
 }

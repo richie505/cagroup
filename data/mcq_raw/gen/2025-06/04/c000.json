@@ -1,0 +1,137 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Trade negotiation hurdles",
+   "question": "In the India–US trade negotiations discussed in June 2025, which issues remained the principal sticking points?",
+   "options": [
+    "Agriculture and dairy",
+    "Chabahar and the INSTC",
+    "GSP status and SAARC trade",
+    "Bilateral trade and Market Infrastructure Institutions"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Agriculture and dairy were the principal sticking points, owing to concerns involving small producers and hormones in US milk. Chabahar and the INSTC were discussed as alternatives to the Hormuz route, not as negotiation hurdles."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "South Asian trade integration",
+   "question": "With reference to South Asia’s economic integration, consider the following statements:\n1. Intra-regional trade under SAFTA accounts for only 5–7% of total trade.\n2. SAARC trade is valued at $67 billion against a potential of $23 billion.\n3. Intra-SAARC trade costs amount to 114% of the value of goods, compared with 109% for trade with the US.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct: SAFTA’s intra-regional trade is only 5–7%, and intra-SAARC trade costs are 114% of goods value compared with 109% with the US. Statement 2 reverses the figures; SAARC trade is $23 billion against a potential of $67 billion."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "South Asian trade indicators",
+   "question": "Which of the following statements regarding South Asian trade and economic integration is incorrect?",
+   "options": [
+    "Intra-regional trade under SAFTA accounts for only 5–7% of total trade.",
+    "SAARC trade is $23 billion against a potential of $67 billion.",
+    "Intra-SAARC trade costs are 114% of goods value, compared with 109% for trade with the US.",
+    "Bangladesh has the highest unexploited trade potential at 86%."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3",
+    "P1.F6"
+   ],
+   "explanation": "The incorrect statement is the one that places Bangladesh’s unexploited trade potential at 86%; the correct figure is 93%. The overall unexploited potential is over 86%, which is distinct from Bangladesh’s country-specific figure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MII governance reform",
+   "question": "Under SEBI’s proposed governance reforms for Market Infrastructure Institutions, what minimum number of Executive Directors must each MII have?",
+   "options": [
+    "At least two",
+    "At least three",
+    "At least four",
+    "At least five"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "SEBI proposed at least two Executive Directors for each Market Infrastructure Institution, reporting to the Managing Director. The other numbers are not the minimum proposed under the reform."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "SEBI consultation proposal",
+   "question": "Which of the following statements about SEBI’s proposed governance reforms for Market Infrastructure Institutions is incorrect?",
+   "options": [
+    "The consultation paper was issued on 24 June 2025, with comments invited until 15 July 2025.",
+    "The head of the Commercial Interests and Business Development vertical is an Executive Director at the MII’s discretion.",
+    "Executive Directors heading the first two verticals would be on the Governing Board, with status similar to that of the Managing Director, and their appointment would require SEBI approval.",
+    "Executive Directors may hold non-executive posts in unlisted government companies or not-for-profit organisations, in addition to positions in MII subsidiaries."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F6",
+    "P2.F7",
+    "P2.F9"
+   ],
+   "explanation": "The incorrect statement extends the permitted outside directorships to Executive Directors. The proposal permits such non-executive posts for Managing Directors, while Executive Directors may hold none except in MII subsidiaries."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "PLI scheme scale and coverage",
+   "question": "Regarding the Production-Linked Incentive schemes, consider the following statements:\n1. The schemes were launched in 2020, initially covering three sectors and later expanding to 14 sectors.\n2. As of March 2025, incentives had been disbursed in all 14 sectors.\n3. The schemes had generated investment of ₹1.76 lakh crore.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the schemes began in 2020 with three sectors, expanded to 14, and generated investment of ₹1.76 lakh crore. Statement 2 is incorrect because disbursals as of March 2025 covered 12 sectors, not all 14."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "PLI sector outcomes",
+   "question": "With reference to the Production-Linked Incentive schemes, how many of the following statements are correct?\n1. Pharma exports in FY25 under the scheme amounted to ₹0.67 lakh crore.\n2. India became a net exporter of bulk drugs, moving from a deficit of ₹1,930 crore to a surplus of ₹2,280 crore.\n3. The food-processing sector recorded investment of ₹9,032 crore.\n4. The PLI schemes were launched in 2020 after initially covering 14 sectors.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F6",
+    "P3.F7",
+    "P3.F8"
+   ],
+   "explanation": "Exactly two statements are correct: FY25 pharma exports were ₹0.67 lakh crore, and bulk drugs moved from a ₹1,930 crore deficit to a ₹2,280 crore surplus; food-processing investment was ₹9,032 crore. Statement 4 is incorrect because the schemes were launched in 2020 with three sectors, later expanding to 14."
+  }
+ ]
+}

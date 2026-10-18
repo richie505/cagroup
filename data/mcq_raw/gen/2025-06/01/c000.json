@@ -1,0 +1,102 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch timeline",
+   "question": "By when is Amaravati Quantum Valley, India's first Quantum Computing Valley, scheduled to be launched?",
+   "options": [
+    "January 2026",
+    "By 2029",
+    "21 June 2025",
+    "2023"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Amaravati Quantum Valley is scheduled for launch by January 2026. The 2029 date relates to IBM’s planned fault-tolerant quantum system, not the launch of the Valley."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Guinness World Record and venue",
+   "question": "With reference to the 11th International Day of Yoga celebrations in Andhra Pradesh, consider the following statements:\n1. The event was held on 21 June 2025.\n2. A Guinness World Record was set for the largest gathering for a yoga session at a single venue, with 3 lakh participants at RK Beach, Visakhapatnam.\n3. The earlier record surpassed was Gujarat’s 3 lakh participants in 2023.\n4. The Guinness certificate was presented to Justice Venkata Jyothirmai Pratapa.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the observance took place on 21 June 2025 and involved 3 lakh participants at RK Beach. Statement 3 is wrong because the earlier Gujarat record was 1.53 lakh in 2023, while Statement 4 is wrong because the certificate was presented to IT & HRD Minister Nara Lokesh."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Yogandhra achievements",
+   "question": "How many of the following Yogandhra campaign achievements are correctly stated?\n1. Over 1.44 lakh instructors were trained.\n2. Over 2.17 crore participants were registered.\n3. The campaign covered 1.7 crore locations.\n4. The Surya Namaskar record involved 1.4 lakh tribal students.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8",
+    "P1.F9",
+    "P1.F11"
+   ],
+   "explanation": "Only two statements are correct: over 1.44 lakh instructors were trained and over 2.17 crore participants were registered. The campaign covered about 1.4 lakh locations, while the Surya Namaskar record involved 22,122 tribal students."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Legal status and outcome",
+   "question": "Assertion (A): The Andhra Pradesh High Court upheld Shabana’s right to invoke Section 498A, while the charges were quashed for lack of evidence.\nReason (R): NALSA v. Union of India recognised the right to self-identify gender.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. The Court upheld the right to file the case, but the charges were quashed specifically for lack of evidence; the NALSA ruling is a legal basis concerning self-identification and does not explain that evidentiary outcome."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Grounds for quashing and constitutional basis",
+   "question": "Which of the following statements regarding the Andhra Pradesh High Court ruling concerning a trans woman is incorrect?",
+   "options": [
+    "The case was heard by Justice Venkata Jyothirmai Pratapa.",
+    "The charges were quashed on gender grounds.",
+    "The petition was filed by Viswanathan Krishnamurthy and his parents against a case by Shabana.",
+    "Article 15 bars discrimination on the ground of sex."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F3",
+    "P2.F4",
+    "P2.F7"
+   ],
+   "explanation": "The incorrect statement is that the charges were quashed on gender grounds. They were quashed for lack of evidence, not on gender grounds; the other statements correctly identify the judge, parties and scope of Article 15."
+  }
+ ]
+}
