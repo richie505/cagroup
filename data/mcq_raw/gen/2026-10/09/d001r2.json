@@ -1,0 +1,88 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P14.F3",
+  "P8.F2",
+  "P8.F5",
+  "P8.F7",
+  "P8.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Fields of awardee",
+   "question": "Sarah Peluse, recipient of the SASTRA–Ramanujan Award 2026, is associated with which combination of fields?",
+   "options": [
+    "Analytic number theory, additive combinatorics, combinatorial geometry and group theory",
+    "Analytic number theory, CABG, arterial revascularisation and group theory",
+    "Additive combinatorics, c-score, combinatorial geometry and group theory",
+    "Combinatorial geometry, National Mathematics Day, group theory and analytic number theory"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "Sarah Peluse’s fields include analytic number theory, additive combinatorics, combinatorial geometry and group theory. The other options replace one or more of these fields with CABG, arterial revascularisation, c-score or National Mathematics Day, which are unrelated details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Instituting organisation",
+   "question": "Which organisation instituted the SASTRA–Ramanujan Award?",
+   "options": [
+    "SASTRA Deemed University, Thanjavur",
+    "Stanford University, USA",
+    "Indian Institute of Science, Bengaluru",
+    "International Centre for Theoretical Physics, Trieste, Italy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "The SASTRA–Ramanujan Award was instituted by SASTRA Deemed University, Thanjavur. Stanford University is associated with Sarah Peluse, while IISc and ICTP are associated with the Ramanujan Prize for Young Mathematicians."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Prize amount and Ramanujan facts",
+   "question": "Consider the following statements:\n1. The SASTRA–Ramanujan Award carries USD 10,000 and a citation.\n2. Srinivasa Ramanujan was born on 22 December 1887 in Erode, Tamil Nadu.\n3. National Mathematics Day is observed on 22 December 1887.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F7",
+    "P8.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the award carries USD 10,000 and a citation, and Ramanujan was born on 22 December 1887 in Erode, Tamil Nadu. Statement 3 is incorrect because National Mathematics Day is observed on 22 December, not on 22 December 1887."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Science Day",
+   "question": "On which date is National Science Day observed in India?",
+   "options": [
+    "28 February",
+    "22 December",
+    "1 October",
+    "9 October"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3"
+   ],
+   "explanation": "National Science Day is observed on 28 February, associated with the Raman Effect of 1928. The dates 22 December, 1 October and 9 October refer to other events in the current-affairs set, not National Science Day."
+  }
+ ]
+}

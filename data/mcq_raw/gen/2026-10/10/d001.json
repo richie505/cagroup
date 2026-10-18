@@ -1,0 +1,199 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P1.F2",
+  "P1.F3",
+  "P1.F4",
+  "P1.F5",
+  "P2.F2",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P4.F3",
+  "P4.F4",
+  "P4.F6",
+  "P4.F7",
+  "P5.F1",
+  "P5.F2",
+  "P5.F4",
+  "P7.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Medal winners and trophy namesake",
+   "question": "Match the following features of the 46th Chess Olympiad 2026 with the correct entries:\n\nList-I\n(a) Open section gold\n(b) Women’s section silver\n(c) Nona Gaprindashvili Trophy recipient\n(d) Namesake of the trophy\n\nList-II\n(i) India\n(ii) Nona Gaprindashvili\n(iii) Uzbekistan\n(iv) Kazakhstan",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3",
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "The correct pairs are Open gold—Uzbekistan, Women’s silver—Kazakhstan, Nona Gaprindashvili Trophy—India, and namesake—Nona Gaprindashvili. The tempting alternative reverses the Open and Women’s medal associations and does not match the reported results."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Captaincy debut",
+   "question": "Harmanpreet Kaur first captained India in which match and year?",
+   "options": [
+    "T20 against Pakistan at Guangzhou in 2012",
+    "ODI against Pakistan at Guangzhou in 2012",
+    "T20 against Pakistan at Guangzhou in 2016",
+    "T20 against Sri Lanka at Guangzhou in 2012"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Harmanpreet Kaur first captained India in a T20 match against Pakistan at Guangzhou in 2012. The other options alter the format, opponent or year."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Major achievement as captain",
+   "question": "Which achievement was associated with Harmanpreet Kaur’s captaincy of India?",
+   "options": [
+    "India’s first Women’s ODI World Cup title in November 2025 and second consecutive Asian Games T20 gold in 2026",
+    "India’s first Women’s ODI World Cup title in November 2024 and first Asian Games T20 gold in 2026",
+    "India’s second Women’s ODI World Cup title in November 2025 and second consecutive Asian Games T20 gold in 2025",
+    "India’s first Women’s ODI World Cup title in November 2025 and first Asian Games T20 gold in 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Harmanpreet Kaur led India to its first Women’s ODI World Cup in November 2025 and its second consecutive Asian Games T20 gold in 2026. The alternatives change the year, title count or whether the Asian Games gold was the first or second consecutive one."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Personal milestone and award",
+   "question": "Consider the following statements:\nStatement A: Harmanpreet Kaur was the first Indian woman to score a T20I century.\nStatement B: She received the Arjuna Award in 2018.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Statement A is correct because Harmanpreet Kaur was the first Indian woman with a T20I century. Statement B is incorrect: she received the Arjuna Award in 2017, not 2018."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Women’s cricket administration",
+   "question": "In which year did the Women’s Cricket Association of India merge with the BCCI?",
+   "options": [
+    "2006",
+    "1973",
+    "1928",
+    "1909"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "The Women’s Cricket Association of India merged with the BCCI in 2006. The other years refer to the first Women’s ODI World Cup, the establishment of the BCCI and the establishment of the ICC, respectively."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Youth Olympic Games features",
+   "question": "With reference to the Dakar 2026 Youth Olympic Games, how many of the following statements are correct?\n\n1. Dakar 2026 will feature the first Youth Refugee Olympic Team.\n2. It will involve 2,700 athletes aged 15–18.\n3. It will have 26 sports.\n4. Mixed-NOC events will be retained.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F4"
+   ],
+   "explanation": "Exactly two statements are correct: Dakar 2026 will feature the first Youth Refugee Olympic Team and will involve 2,700 athletes aged 15–18. The Games will have 25 sports, and mixed-NOC events will be dropped."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Youth Olympics and IOC origins",
+   "question": "Assertion (A): The first Summer Youth Olympic Games were held in Buenos Aires in 2018.\nReason (R): The IOC was established on 23 June 1894 in Lausanne by Pierre de Coubertin.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F6",
+    "P4.F7"
+   ],
+   "explanation": "The Assertion is false because the first Summer Youth Olympic Games were held in Singapore in 2010; Buenos Aires hosted a later edition in 2018. The Reason is true: the IOC was established on 23 June 1894 in Lausanne by Pierre de Coubertin."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Championship scale and disciplines",
+   "question": "Match the following features of the Commonwealth Cue Sports Championship 2026 with the correct entries:\n\nList-I\n(a) Number of athletes\n(b) Number of participating countries\n(c) Number of events\n(d) One discipline included\n\nList-II\n(i) English Billiards\n(ii) 144\n(iii) 42\n(iv) 10",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2"
+   ],
+   "explanation": "The correct pairs are 144 athletes, 42 countries, 10 events and English Billiards as one of the disciplines. The other codes interchange the championship’s participation figures or substitute a different listed category."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Governing organisation",
+   "question": "Which organisation coordinates cue sports, including the disciplines featured in the Commonwealth Cue Sports Championship 2026?",
+   "options": [
+    "World Confederation of Billiards Sports",
+    "International Chess Federation",
+    "International Olympic Committee",
+    "Board of Control for Cricket in India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "The World Confederation of Billiards Sports (WCBS) coordinates cue sports. FIDE, the IOC and the BCCI are associated with chess, the Olympic movement and cricket respectively, not the coordination of cue sports."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "BRICS institutional milestones",
+   "question": "Arrange the following BRICS-related developments in chronological order:\n\n1. Formation of BRIC\n2. First BRICS Summit at Yekaterinburg\n3. South Africa joined\n4. Establishment of the New Development Bank in Shanghai\n5. First BRICS Games at Guangzhou",
+   "options": [
+    "1-2-3-4-5",
+    "2-1-3-5-4",
+    "1-3-2-4-5",
+    "3-1-2-4-5"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "The correct sequence is BRIC formation in 2006, the first summit in 2009, South Africa’s joining in 2010, the New Development Bank in 2014 and the first BRICS Games in 2017. The other sequences place one or more milestones in the wrong order."
+  }
+ ]
+}

@@ -1,0 +1,291 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F3",
+  "P10.F5",
+  "P10.F6",
+  "P10.F7",
+  "P5.F2",
+  "P5.F3",
+  "P5.F4",
+  "P6.F2",
+  "P6.F3",
+  "P7.F2",
+  "P7.F3",
+  "P8.F1",
+  "P8.F2",
+  "P8.F3",
+  "P8.F5",
+  "P9.F1",
+  "P9.F10",
+  "P9.F11",
+  "P9.F12",
+  "P9.F13",
+  "P9.F2",
+  "P9.F7",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Scheme and construction process",
+   "question": "With reference to the 3D concrete-printed government houses at Burripalem, consider the following statements:\n1. The houses are being constructed under PMAY-G 2.0, with each house measuring 325 sq ft.\n2. The construction process begins with a manual brick layout and ends with plastering.\n3. The process involves 3D CAD design, a concrete mix and a robotic or gantry printer working layer by layer.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the houses are under PMAY-G 2.0, each is 325 sq ft, and construction uses 3D CAD design, concrete mix and layer-by-layer robotic or gantry printing. Statement 2 is the trap because it changes the stated 3D-printing process to a manual brick-based process."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Builder and agreement",
+   "question": "Which organisation is the builder associated with the 3D concrete-printed government housing pilot at Burripalem, under an agreement signed on 4 October?",
+   "options": [
+    "Central Building Research Institute, Roorkee, under CSIR",
+    "Raj Path Infrastructure, headquartered in Maharashtra",
+    "DGCIS, headquartered in Kolkata",
+    "Central Public Works Department, New Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The builder is the Central Building Research Institute, Roorkee, under CSIR, and the agreement was signed on 4 October in the presence of Chief Minister Naidu. Raj Path Infrastructure is associated with the NH-544G road record, not this housing pilot."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Objective and mechanism",
+   "question": "Consider the following statements:\nStatement A: The Andhra Pradesh Omnibus Act–2026 aims to expand the number of separate industrial approvals and slow the approval process.\nStatement B: The Act retains a multi-window system in which applicants approach different authorities separately for clearances.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3"
+   ],
+   "explanation": "Both statements are false. The Act aims to simplify industrial approvals through ‘Speed of Doing Business’ reforms and uses a simplified single-window system for approvals and clearances; the tempting alternatives reverse both features."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award recipient",
+   "question": "At the World Habitat Day event in New Delhi, who received Andhra Pradesh’s award for urban housing construction under PMAY-U 2.0?",
+   "options": [
+    "Special Secretary Hepsiba Rani",
+    "MoS Tokhan Sahu",
+    "Chief Minister Naidu",
+    "Palle Sindhura Reddy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "Special Secretary Hepsiba Rani received the award from MoS Tokhan Sahu. Tokhan Sahu presented the award, so he was not the recipient."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "World Habitat Day",
+   "question": "Which statement correctly describes World Habitat Day in the context of the PMAY-U 2.0 award?",
+   "options": [
+    "It is observed on the first Monday of October, was established by the UNGA and was first observed in 1986.",
+    "It is observed on the first Monday of October, was established by the UNGA and was first observed in 1996.",
+    "It is observed on the first Friday of October, was established by the UNGA and was first observed in 1986.",
+    "It is observed on the first Monday of September, was established by the UNGA and was first observed in 1986."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "World Habitat Day is observed on the first Monday of October, is associated with the UNGA and was first observed in 1986. The other options alter either the weekday, month or year."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Data source and headquarters",
+   "question": "The Andhra Pradesh export data for 2025–26 was sourced from which organisation, whose headquarters are in Kolkata?",
+   "options": [
+    "Directorate General of Commercial Intelligence and Statistics",
+    "Central Building Research Institute",
+    "Raj Path Infrastructure",
+    "Ministry of Tourism"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "The source was the Directorate General of Commercial Intelligence and Statistics, or DGCIS, under the Ministry of Commerce, headquartered in Kolkata. The Central Building Research Institute and Raj Path Infrastructure relate to other news items."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Export value trend",
+   "question": "How many of the following statements regarding Andhra Pradesh exports are correct?\n1. Exports in 2025–26 were valued at ₹1,76,503.37 crore.\n2. Exports in 2024–25 were valued at ₹1,75,754 crore.\n3. Exports in 2022–23 were valued at ₹1,63,563 crore.\n4. Exports increased by 7.39% over two years.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "Only two statements are correct: the 2025–26 value was ₹1,76,503.37 crore and the 2024–25 value was ₹1,75,754 crore. The corresponding earlier year was 2023–24, not 2022–23, and the increase over two years was 7.93%, not 7.39%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Top export destinations",
+   "question": "The top ten export destinations of Andhra Pradesh in 2025–26 accounted for what value and share of exports?",
+   "options": [
+    "₹96,419 crore and 54.63%",
+    "₹94,419 crore and 45.63%",
+    "₹1,76,503.37 crore and 54.63%",
+    "₹96,419 crore and 64.53%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "The top ten destinations accounted for ₹96,419 crore, or 54.63% of exports. The other options alter either the value, the percentage or confuse the overall export value with the top-ten total."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Major export commodities",
+   "question": "Which of the following is the correct group of major exports from Andhra Pradesh in 2025–26?",
+   "options": [
+    "Marine products, pharma, organic chemicals, petroleum, rice, ferro-alloys, chillies and sugar",
+    "Marine products, textiles, tea, coffee, petroleum, rice, coal and sugar",
+    "Pharma, automobiles, iron ore, wheat, cotton, spices, cement and sugar",
+    "Organic chemicals, electronics, tea, rubber, rice, gold, chillies and coffee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "The major exports included marine products, pharma, organic chemicals, petroleum, rice, ferro-alloys, chillies and sugar. The other groups replace several of these commodities with items not identified among the major exports."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tourism projects and investment",
+   "question": "Which statement correctly describes Andhra Pradesh’s tourism development programme near completion?",
+   "options": [
+    "Eight Centre-funded projects worth about ₹428 crore were nearing completion; tourism was given industrial status, the new policy attracted about ₹20,000 crore, and the national rank improved from 16th to 13th.",
+    "Eight State-funded projects worth about ₹428 crore were nearing completion; tourism was given industrial status, the new policy attracted about ₹20,000 crore, and the national rank improved from 16th to 13th.",
+    "Eight Centre-funded projects worth about ₹248 crore were nearing completion; tourism was given industrial status, the new policy attracted about ₹20,000 crore, and the national rank improved from 16th to 13th.",
+    "Eight Centre-funded projects worth about ₹428 crore were nearing completion; tourism was denied industrial status, the new policy attracted about ₹20,000 crore, and the national rank improved from 16th to 13th."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2"
+   ],
+   "explanation": "The programme covered eight Centre-funded projects costing about ₹428 crore. Andhra Pradesh gave tourism industrial status, the new policy drew about ₹20,000 crore, and the national rank improved from 16th to 13th; the other options change the funding source, amount or policy status."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Tourism project allocations and components",
+   "question": "Match List-I with List-II regarding Andhra Pradesh tourism projects.\n\nList-I\n(a) Annavaram\n(b) Ahobilam\n(c) Nagarjuna Sagar Buddhist Circuit\n(d) Borra Caves\n\nList-II\n(i) ₹25.32 crore; annadanam hall, queue complex and EV facilities\n(ii) ₹24.96 crore; museum under Swadesh Darshan 2.0\n(iii) ₹25 crore; meditation hall and spiritual centre\n(iv) ₹29.87 crore; 3D projection mapping, laser lighting and coffee-tasting\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F7",
+    "P9.F8",
+    "P9.F9",
+    "P9.F10"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Annavaram received ₹25.32 crore, Ahobilam ₹24.96 crore, the Nagarjuna Sagar Buddhist Circuit ₹25 crore and Borra Caves ₹29.87 crore, with the listed components."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Tourism initiatives and acronym",
+   "question": "How many of the following statements are correct?\n1. Lambasingi has 15 geodesic glamping cottages.\n2. QR digital guides are available in 130+ languages at 100+ locations.\n3. PRASHAD stands for Pilgrimage Rejuvenation and Spiritual Heritage Augmentation Drive.\n4. Lambasingi has 12 geodesic glamping cottages.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F11",
+    "P9.F12",
+    "P9.F13"
+   ],
+   "explanation": "Only two statements are correct: Lambasingi has 15 geodesic glamping cottages, and QR digital guides cover 130+ languages at 100+ locations. Statement 3 changes the stated expansion of PRASHAD, while statement 4 changes the number of cottages from 15 to 12."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Record-holder and certificate recipient",
+   "question": "Which combination correctly identifies the company associated with the NH-544G road record and the person to whom the certificate was presented?",
+   "options": [
+    "Raj Path Infrastructure; Puttaparthi MLA Palle Sindhura Reddy",
+    "Central Building Research Institute; Puttaparthi MLA Palle Sindhura Reddy",
+    "Raj Path Infrastructure; Special Secretary Hepsiba Rani",
+    "DGCIS; MoS Tokhan Sahu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F6"
+   ],
+   "explanation": "Raj Path Infrastructure, headquartered in Maharashtra, broke its own records, and the certificate was presented to Puttaparthi MLA Palle Sindhura Reddy. Hepsiba Rani and Tokhan Sahu were associated with the World Habitat Day award, not this road record."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Material quantity",
+   "question": "Approximately how much concrete and asphalt was used for the 28.95 km road record achieved in 24 hours?",
+   "options": [
+    "7,500 MT",
+    "5,700 MT",
+    "7,500 tonnes of cement only",
+    "9,500 MT"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "Approximately 7,500 MT of concrete and asphalt was used. The tempting alternatives either reverse the digits, restrict the material to cement only or change the quantity."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Expressway and district",
+   "question": "Assertion (A): The NH-544G road record was achieved in Anantapur district.\nReason (R): The project is the Amaravati–Bengaluru Expressway.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F5",
+    "P10.F7"
+   ],
+   "explanation": "Assertion A is false because the district is Sri Sathya Sai, not Anantapur. Reason R is true because the road record formed part of the Amaravati–Bengaluru Expressway, but that fact does not make Anantapur the district."
+  }
+ ]
+}

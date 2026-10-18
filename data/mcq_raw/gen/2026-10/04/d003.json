@@ -1,0 +1,198 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "only": [
+  "P11.F2",
+  "P11.F3",
+  "P11.F4",
+  "P12.F3",
+  "P12.F4",
+  "P13.F2",
+  "P13.F3",
+  "P13.F4",
+  "P13.F5",
+  "P14.F4",
+  "P14.F5",
+  "P15.F1",
+  "P15.F2",
+  "P15.F4",
+  "P18.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Functions and technical appraisal",
+   "question": "With reference to the Integrated Transport and Logistics Authority (ITLA), consider the following statements:\n1. It prepares a National Transport Master Plan with a horizon of 10+ years.\n2. It undertakes technical appraisal of central projects costing ₹500 crore or more.\n3. Its technical appraisal covers only projects below ₹500 crore.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2",
+    "P11.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: ITLA prepares a 10+ year National Transport Master Plan and technically appraises central projects of ₹500 crore or more. Statement 3 is incorrect because the threshold is ₹500 crore or more, not below ₹500 crore."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GIS-based platform and launch",
+   "question": "The PM Gati Shakti National Master Plan, referred to in the context of ITLA, was launched in which manner?",
+   "options": [
+    "In October 2021 as a GIS-based plan",
+    "In October 2022 as a GIS-based plan",
+    "In October 2021 as a non-GIS plan",
+    "In September 2022 as a GIS-based plan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4"
+   ],
+   "explanation": "The PM Gati Shakti National Master Plan was launched in October 2021 and is GIS-based. October 2022 and September 2022 are incorrect, while describing it as non-GIS is also incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Nodal institution and scope",
+   "question": "Match List-I with List-II in relation to the PM Gati Shakti National Master Plan and logistics planning.\n\nList-I\n(a) Nodal department for PM Gati Shakti\n(b) Number of sectors covered\n(c) National Logistics Policy\n(d) ITLA appraisal threshold\n\nList-II\n(i) 17 September 2022\n(ii) DPIIT\n(iii) ₹500 crore or more\n(iv) 7 sectors",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3",
+    "P12.F4"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii: DPIIT is nodal, the plan covers 7 sectors, the National Logistics Policy was issued on 17 September 2022, and ITLA appraises projects of ₹500 crore or more. The other codes interchange these institutional, date, sector and threshold details."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Steel consumption and secondary sector",
+   "question": "Consider the following statements regarding the Draft National Steel Policy 2047:\n1. Per capita steel consumption is projected to rise from 116 kg in 2025–26 to 302 kg by 2047.\n2. Support is proposed for about 2,550 secondary steel units accounting for 47% of capacity.\n3. The NSP 2017 target was 250 MT by 2030–31.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2",
+    "P13.F3",
+    "P13.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: per capita consumption is projected to increase from 116 kg to 302 kg, and the secondary steel sector comprises about 2,550 units and 47% of capacity. Statement 3 is incorrect because NSP 2017 set a target of 300 MT by 2030–31, not 250 MT."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation and headquarters",
+   "question": "Which organisation was established in 1967 and has its headquarters in Brussels in the context of the steel sector?",
+   "options": [
+    "worldsteel",
+    "SAIL",
+    "National Steel Policy 2017",
+    "India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F5"
+   ],
+   "explanation": "worldsteel was established in 1967 and is headquartered in Brussels. SAIL was established in 1973 and is a Maharatna, while the other options do not match this organisational profile."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Kharif and Rabi crop seasons",
+   "question": "Consider the following statements:\nStatement A: Kharif crops are sown in winter, harvested in spring, and have wheat as the principal cereal.\nStatement B: Rabi crops are sown with the southwest monsoon, harvested in autumn, and have rice as the principal cereal.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F4",
+    "P14.F5"
+   ],
+   "explanation": "Both statements are false. Kharif crops are sown with the southwest monsoon, harvested in autumn and are principally associated with rice, whereas Rabi crops are sown in winter, harvested in spring and are principally associated with wheat."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Export value",
+   "question": "According to DGCI&S data on pulses exports, what was the export value in 2025–26?",
+   "options": [
+    "US$969.58 million",
+    "US$191.76 million",
+    "More than 10 lakh tonnes",
+    "1.37 lakh tonnes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "The export value in 2025–26 was US$969.58 million. US$191.76 million belongs to 2016–17, while the other two options are volume figures rather than the 2025–26 export value."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GI product and exporting market",
+   "question": "Which GI-tagged pulse from Karnataka was reported to be in demand in Maldives?",
+   "options": [
+    "Kalaburagi Tur Dal",
+    "Kalaburagi Tur Dal from Maldives",
+    "Mission for Aatmanirbharta in Pulses",
+    "DGCI&S pulses"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2"
+   ],
+   "explanation": "GI Kalaburagi Tur Dal from Karnataka was in demand in Maldives and could command up to 30% higher prices. Maldives is the market, not the origin of the GI product; the other options are not the named GI pulse."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mission launch year",
+   "question": "The Mission for Aatmanirbharta in Pulses was launched in which year?",
+   "options": [
+    "2025",
+    "2026",
+    "2021",
+    "2022"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4"
+   ],
+   "explanation": "The Mission for Aatmanirbharta in Pulses was launched in 2025. The years 2026, 2021 and 2022 refer to other events or periods in the supplied economic and logistics context, not this mission."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cargo quantity per vessel",
+   "question": "In the first post-Independence international cargo voyage from Bogibeel Terminal, approximately how much methanol cargo did each vessel carry?",
+   "options": [
+    "Approximately 540 tonnes",
+    "27 containers",
+    "Approximately 20 tonnes",
+    "2 vessels"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F3"
+   ],
+   "explanation": "Each vessel carried approximately 540 tonnes of methanol, based on 27 containers of about 20 tonnes each. Twenty tonnes refers to the approximate cargo per container, 27 is the number of containers per vessel, and 2 is the number of vessels."
+  }
+ ]
+}

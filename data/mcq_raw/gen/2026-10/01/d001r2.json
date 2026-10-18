@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F12",
+  "P2.F9",
+  "P3.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Announcement details",
+   "question": "With reference to the announcements made at the launch of Amarajeevi Jaladhara, consider the following statements:\n\n1. The housing announcement envisaged 19 lakh houses by 2029.\n2. The land-titles announcement was valued at approximately ₹52,000 crore.\n3. The housing announcement was valued at approximately ₹52,000 crore.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the housing target was 19 lakh houses by 2029, while the land-titles announcement involved approximately ₹52,000 crore. Statement 3 is incorrect because ₹52,000 crore relates to land titles, not the housing announcement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Announcement amount",
+   "question": "The announcement of approximately ₹1 lakh crore at the Amarajeevi Jaladhara launch was associated with which of the following?",
+   "options": [
+    "Rayalaseema Horticulture Hub",
+    "Housing",
+    "Land titles",
+    "Palle Panduga"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "Approximately ₹1 lakh crore was associated with the Rayalaseema Horticulture Hub. The housing, land-titles and Palle Panduga announcements referred to different details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Event and venue",
+   "question": "The award connected with Andhra Pradesh’s renewable-energy investment mobilisation was presented on 8 October 2026 at which event?",
+   "options": [
+    "8th Windergy India 2026",
+    "Jal Jeevan Mission 2.0",
+    "Pan-IIT DeepTech Conference",
+    "Amaravati Quantum Valley"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "The award was presented at the 8th Windergy India 2026, held at the Chennai Trade Centre on 8 October 2026. The other options refer to separate programmes, conferences or initiatives."
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P10.F4",
+  "P10.F5",
+  "P11.F3",
+  "P11.F5",
+  "P11.F6",
+  "P11.F7",
+  "P13.F2",
+  "P14.F3",
+  "P7.F4",
+  "P8.F2",
+  "P8.F5",
+  "P8.F7",
+  "P8.F8",
+  "P9.F2",
+  "P9.F3",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "UNCLOS adoption and entry into force",
+   "question": "Which of the following correctly describes the United Nations Convention on the Law of the Sea (UNCLOS)?",
+   "options": [
+    "Adopted in 1982, entered into force in 1994, and known as the “Constitution for the Oceans”",
+    "Adopted in 1994, entered into force in 1982, and known as the “Constitution for the Oceans”",
+    "Adopted in 2005, entered into force in 1994, and known as the “Constitution for the Oceans”",
+    "Adopted in 1982, entered into force in 2005, and known as the “Constitution for the Oceans”"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "UNCLOS was adopted in 1982 and entered into force in 1994; it is popularly described as the “Constitution for the Oceans”. The tempting alternative reverses the adoption and entry-into-force years."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Award fields, instituting body and prize amount",
+   "question": "With reference to the SASTRA–Ramanujan Award 2026, consider the following statements:\n1. Its associated fields include analytic number theory and additive combinatorics.\n2. The award was instituted by SASTRA Deemed University, Thanjavur.\n3. The prize consists of USD 12,000 and a citation.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F5",
+    "P8.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the award covers fields including analytic number theory and additive combinatorics, and it was instituted by SASTRA Deemed University, Thanjavur. Statement 3 is incorrect because the prize is USD 10,000 and a citation, not USD 12,000."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Mathematics Day",
+   "question": "National Mathematics Day is observed on which date in honour of Srinivasa Ramanujan?",
+   "options": [
+    "22 December",
+    "28 February",
+    "1 May",
+    "9 October"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8"
+   ],
+   "explanation": "National Mathematics Day is observed on 22 December, the birth anniversary of Srinivasa Ramanujan. 28 February is associated with National Science Day, not National Mathematics Day."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Prize distinction, age limit and institutional partners",
+   "question": "Match the features associated with the 2026 Ramanujan Prize for Young Mathematicians from Developing Countries with the correct details.\n\nList-I\n a. Position among Indian winners\n b. Age limit\n c. Instituting partners\n d. Distinction from the SASTRA–Ramanujan Award\n\nList-II\n i. Below 45 years\n ii. Instituted in 2005 with ICTP, IMU and DST\n iii. Fifth Indian winner\n iv. SASTRA–Ramanujan Award has an age limit of 32 years or below\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2",
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-ii and d-iv. Mahesh Kakde was the fifth Indian winner, the age limit is below 45, and the prize differs from the SASTRA–Ramanujan Award, whose age limit is 32 years or below."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Legion of Honour rank",
+   "question": "In the ascending order of ranks of France’s Legion of Honour, which is the first rank?",
+   "options": [
+    "Chevalier",
+    "Officier",
+    "Commandeur",
+    "Grand-Croix"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "Chevalier is the first rank in the ascending order: Chevalier, Officier, Commandeur, Grand Officier and Grand-Croix. Officier is the next rank, making it the most likely trap."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India–France Strategic Partnership",
+   "question": "The India–France Strategic Partnership was established in which year?",
+   "options": [
+    "1998",
+    "2007",
+    "2014",
+    "2023"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "The India–France Strategic Partnership dates from 1998. The years 2007, 2014 and 2023 do not represent the establishment year of this partnership."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Flydubai and postal tribute",
+   "question": "How many of the following statements correctly describe the flydubai incident and the subsequent postal tribute?\n1. flydubai is a UAE airline headquartered in Dubai.\n2. A special postal cover was issued by the Kerala Postal Circle at Thiruvananthapuram on 9 October 2026.\n3. flydubai is a UAE airline headquartered in Abu Dhabi.\n4. The special postal cover was issued by the Karnataka Postal Circle.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F5"
+   ],
+   "explanation": "Only statements 1 and 2 are correct, so the answer is Only two. flydubai is headquartered in Dubai, and the cover was issued by the Kerala Postal Circle at Thiruvananthapuram; Abu Dhabi and Karnataka Postal Circle are the altered details."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Honour nomenclature and India–Israel relations",
+   "question": "Consider the following statements:\nStatement A: The surname was spelt “Machar” in some reports, while Israel’s highest civilian honour is the Presidential Medal of Distinction.\nStatement B: India and Israel established full diplomatic ties on 29 January 1992, entered into a Strategic Partnership in 2017, and the Knesset has 120 members.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F6",
+    "P11.F7"
+   ],
+   "explanation": "Both statements are true. Some reports used “Machar”, Israel’s highest civilian honour is the Presidential Medal of Distinction, and the India–Israel milestones are 29 January 1992 for full ties, 2017 for the Strategic Partnership and 120 members for the Knesset."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cardiac surgery research",
+   "question": "Dr Lokeswara Rao Sajja’s research has particularly focused on which areas?",
+   "options": [
+    "Coronary artery bypass grafting and arterial revascularisation",
+    "Analytic number theory and additive combinatorics",
+    "Trap shooting and athletic representation",
+    "Combinatorial geometry and group theory"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "Dr Lokeswara Rao Sajja’s research areas include coronary artery bypass grafting and arterial revascularisation. The other options refer to mathematical fields or an unrelated sporting area."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Science Day date",
+   "question": "National Science Day, associated with the Raman Effect, is observed on which date?",
+   "options": [
+    "28 February",
+    "22 December",
+    "29 January",
+    "19 May"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3"
+   ],
+   "explanation": "National Science Day is observed on 28 February and is associated with the Raman Effect. 22 December is National Mathematics Day, while the other dates are unrelated to this observance."
+  }
+ ]
+}

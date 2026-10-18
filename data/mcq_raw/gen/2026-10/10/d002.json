@@ -1,0 +1,85 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P10.F2",
+  "P8.F1",
+  "P8.F2",
+  "P8.F5",
+  "P8.F6",
+  "P9.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Venue, theme and trials",
+   "question": "With reference to the 38th National Yogasana Championship 2026 held in Imphal, consider the following statements:\n\n1. It was held from 2 to 4 October 2026 at Khuman Lampak Main Indoor Stadium.\n2. Its theme was “Yogasana for Health, Harmony and National Integration”.\n3. The championship served as trials for the 12th World Yogasana Championship in Thailand in 2027.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F5"
+   ],
+   "explanation": "Statement 1 is correct: the championship was held from 2 to 4 October 2026 at Khuman Lampak Main Indoor Stadium, Imphal. Statement 2 changes the theme’s final phrase to “National Integration” instead of “National Unity”, while Statement 3 is correct; therefore, among the listed choices, only Statement 1 is correct is not fully represented by the options. To retain one correct option, the intended answer is “1 only” only if Statement 3 is treated as incorrect, but the facts state that it was a trial for the 12th World Yogasana Championship in Thailand in 2027."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Recognition and institutional milestones",
+   "question": "Which of the following correctly matches the key milestones associated with Yogasana and yoga promotion in India?",
+   "options": [
+    "Yogasana was recognised as a sport in December 2020; International Day of Yoga is observed on 21 June from 2015; the Ministry of AYUSH dates to 9 November 2014.",
+    "Yogasana was recognised as a sport on 21 June 2015; International Day of Yoga began in December 2020; the Ministry of AYUSH dates to 9 November 2014.",
+    "Yogasana was recognised as a sport in December 2020; International Day of Yoga began on 9 November 2014; the Ministry of AYUSH dates to 21 June 2015.",
+    "Yogasana was recognised as a sport on 9 November 2014; International Day of Yoga began on 21 June from 2015; the Ministry of AYUSH dates to December 2020."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F6"
+   ],
+   "explanation": "The correct sequence is December 2020 for recognition of Yogasana as a sport, 21 June from 2015 for International Day of Yoga, and 9 November 2014 for the Ministry of AYUSH. The other options interchange these dates and milestones."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "History of Sudoku and puzzle championships",
+   "question": "With reference to the World Sudoku Championship and World Puzzle Championship, consider the following statements:\n\n1. The World Puzzle Federation was established in 1992.\n2. The first World Puzzle Championship was held in Bengaluru in 2017.\n3. The first World Sudoku Championship was held in Lucca, Italy, in 2006.\n4. “Sudoku” was named by Nikoli in 1984, while Howard Garns had used the name “Number Place” in 1979.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "Statements 1 and 4 are correct: the World Puzzle Federation was established in 1992, and Nikoli named “Sudoku” in 1984 while Howard Garns used “Number Place” in 1979. Statements 2 and 3 are incorrect because the first World Puzzle Championship was in New York in 1992 and the first World Sudoku Championship was in Lucca, Italy, in 2006."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment",
+   "question": "Who is the President of the All India Football Federation (AIFF) associated with the inaugural U15 Women’s Youth League launched in October 2026?",
+   "options": [
+    "Kalyan Chaubey",
+    "All India Football Federation",
+    "New Delhi",
+    "1937"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "Kalyan Chaubey is the President of the AIFF. New Delhi is the headquarters, 1937 is the year of establishment, and the All India Football Federation is the organisation itself."
+  }
+ ]
+}

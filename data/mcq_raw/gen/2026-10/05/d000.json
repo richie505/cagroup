@@ -1,0 +1,177 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P0.F3",
+  "P0.F4",
+  "P0.F7",
+  "P1.F3",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F3",
+  "P3.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "EFTA members",
+   "question": "Which of the following correctly lists the four members of the European Free Trade Association (EFTA) associated with the India–EFTA TEPA?",
+   "options": [
+    "Iceland, Liechtenstein, Norway and Switzerland",
+    "Iceland, Liechtenstein, Switzerland and Canada",
+    "Norway, Switzerland, India and Bhutan",
+    "Liechtenstein, Norway, Switzerland and Ghana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "EFTA comprises Iceland, Liechtenstein, Norway and Switzerland. The other options replace one or more EFTA members with countries that are not among the four EFTA members listed."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "TEPA target and summit theme",
+   "question": "Consider the following statements regarding the India–EFTA TEPA and the 2nd India–EFTA Prosperity Summit 2026:\n\n1. The TEPA set an investment target of USD 100 billion and sought to create 1 million direct jobs over 15 years.\n2. The summit theme was “Building a USD 100 Billion Investment Partnership, Creating 1 Million Jobs in India”.\n3. The investment target was USD 100 billion with the job-creation target to be achieved over 1 year.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the TEPA target was USD 100 billion in investment and 1 million direct jobs over 15 years, while the summit used the stated theme. Statement 3 is incorrect because the period was 15 years, not 1 year."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "BIMSTEC expansion",
+   "question": "Which statement correctly describes the early expansion of BIMSTEC after it began as BIST-EC?",
+   "options": [
+    "Myanmar joined in 1997, while Nepal and Bhutan joined in 2004",
+    "Myanmar joined in 2004, while Nepal and Bhutan joined in 1997",
+    "Myanmar, Nepal and Bhutan all joined in 1997",
+    "Myanmar joined in 1997, while Nepal and Bhutan joined in 2022"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "BIMSTEC began as BIST-EC; Myanmar joined in 1997, and Nepal and Bhutan joined in 2004. The other options alter the years of accession."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Nature, authority and duration of immigration pathways",
+   "question": "Match the immigration pathways in List-I with their nature, authority and duration in List-II.\n\nList-I\n(a) H-1B\n(b) PERM\n(c) Green Card\n\nList-II\ni. Temporary work status; USCIS (+ LCA to DOL); up to 6 years\nii. Labour certification; Department of Labor; procedural\niii. Permanent residence; USCIS / State Dept; permanent\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii",
+    "a-iii, b-ii, c-i",
+    "a-i, b-iii, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8",
+    "P2.F9"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii and c-iii. H-1B is a temporary work status handled through USCIS with an LCA to the Department of Labor and lasting up to 6 years; PERM is a Department of Labor labour-certification procedure; and a Green Card represents permanent residence."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Visa Bulletin status",
+   "question": "What was the status of India’s EB-2 category in the September 2026 Visa Bulletin?",
+   "options": [
+    "It was unavailable",
+    "Its final action date was 1 November 2013",
+    "Its final action date was 1 January 2014",
+    "It was available without a final action date"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "India’s EB-2 category was unavailable in the September 2026 Visa Bulletin. The dates 1 November 2013 and 1 January 2014 relate to the October 2026 final action dates for EB-2 India and EB-3 India, respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "October 2026 employment-based visa dates",
+   "question": "Consider the following statements:\nStatement A: In October 2026, the EB-2 India final action date was 1 November 2013.\nStatement B: In October 2026, the EB-3 India final action date was 1 December 2014.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "Statement A is true: the October 2026 EB-2 India final action date was 1 November 2013. Statement B is false because the EB-3 India final action date was 1 January 2014, not 1 December 2014."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "EB-2 and EB-3 eligibility categories",
+   "question": "Assertion (A): EB-2 covers skilled workers.\nReason (R): EB-3 covers skilled workers.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "The assertion is false because EB-2 covers advanced degrees or exceptional ability. The reason is true because EB-3 covers skilled workers."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "H-1B extension beyond six years",
+   "question": "Under the stated rule for H-1B extensions beyond six years, when may an extension be granted and for how long at a time?",
+   "options": [
+    "When PERM or I-140 has been pending for 365 days, for up to 3 years at a time",
+    "When PERM or I-140 has been pending for 180 days, for up to 6 years at a time",
+    "When PERM or I-140 has been pending for 365 days, permanently",
+    "When PERM or I-140 has been pending for 15 years, for up to 1 year at a time"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F13"
+   ],
+   "explanation": "An H-1B extension beyond 6 years is possible when PERM or I-140 has been pending for 365 days, with extensions of up to 3 years at a time. The other options change the waiting period, the duration of extension or the nature of the benefit."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "IPU theme and headquarters",
+   "question": "Consider the following statements about the 153rd Inter-Parliamentary Union Assembly:\nStatement A: Its theme was “Enhancing good governance and empowering communities through inclusivity, trust and opportunities for all”.\nStatement B: The Inter-Parliamentary Union was established in 1960 and has its headquarters in Geneva.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "Statement A correctly gives the theme of the 153rd IPU Assembly. Statement B is false because the IPU was established in 1889, although its headquarters is in Geneva."
+  }
+ ]
+}

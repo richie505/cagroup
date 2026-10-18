@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F14",
+  "P0.F26",
+  "P0.F27",
+  "P0.F28",
+  "P0.F3",
+  "P0.F37"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Participants",
+   "question": "How were the participants in the 20th Asian Games Aichi–Nagoya 2026 constituted?",
+   "options": [
+    "45 NOCs plus the OCA Refugee Team",
+    "46 nations without a refugee team",
+    "45 nations plus the OCA Refugee Team",
+    "46 NOCs including two refugee teams"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The Games brought together 45 NOCs and the OCA Refugee Team, with approximately 11,000 athletes. The formulation of 46 nations is incorrect because the participants included an OCA Refugee Team rather than 46 nations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Medal table leader",
+   "question": "Which country topped the medal table at the 20th Asian Games Aichi–Nagoya 2026?",
+   "options": [
+    "China",
+    "Japan",
+    "South Korea",
+    "India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "China topped the medal table at the 20th Asian Games Aichi–Nagoya 2026, securing rank 1 with 341 medals. Japan is a tempting alternative, but it did not occupy the top position."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "First/only sporting achievements",
+   "question": "Match the Indian athletes or sports achievements at the 20th Asian Games Aichi–Nagoya 2026 with the correct detail.\n\nList-I\n(a) Kumkum Anil Mohod\n(b) Neeru Dhanda and Kynan Chenai\n(c) Lovlina Borgohain\n\nList-II\ni. First Indian woman individual recurve gold\nii. Asian record in mixed trap, along with 2 gold and 1 silver\niii. Second Indian woman after Mary Kom with Asian Games boxing gold",
+   "options": [
+    "a-i, b-ii, c-iii",
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii",
+    "a-i, b-iii, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F26",
+    "P0.F27",
+    "P0.F28"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii and c-iii: Kumkum Anil Mohod became the first Indian woman to win individual recurve gold; Neeru Dhanda and Kynan Chenai set an Asian record in mixed trap; and Lovlina Borgohain became the second Indian woman after Mary Kom with Asian Games boxing gold. The code a-ii, b-iii, c-i incorrectly assigns the shooting and boxing achievements."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "OCA establishment and headquarters",
+   "question": "Consider the following statements:\nStatement A: The Olympic Council of Asia was established in 1980.\nStatement B: The decision to replace the Asian Games Federation with the Olympic Council of Asia was taken in 1981, and its headquarters moved to Kuwait in 1982.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F37"
+   ],
+   "explanation": "Statement A is false because the reported establishment detail is 1982, while the decision to replace the Asian Games Federation was taken in 1981. Statement B is true because the headquarters moved to Kuwait in 1982."
+  }
+ ]
+}

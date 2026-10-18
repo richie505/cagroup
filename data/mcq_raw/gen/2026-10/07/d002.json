@@ -1,0 +1,142 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F2",
+  "P11.F3",
+  "P6.F1",
+  "P6.F3",
+  "P7.F2",
+  "P8.F3",
+  "P8.F4",
+  "P9.F2",
+  "P9.F3",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Species location",
+   "question": "The newly reported gecko Hemidactylus cairnicola was found in which district of Telangana?",
+   "options": [
+    "Nalgonda district",
+    "Warangal district",
+    "Chamoli district",
+    "Shi-Yomi district"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "Hemidactylus cairnicola was found in Nalgonda district. Warangal is associated with Hemidactylus koyaorum in Pakhal Wildlife Sanctuary, not with H. cairnicola."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Research organisation and reptile count",
+   "question": "With reference to the study reporting new gecko species in Telangana, consider the following statements:\n1. The study was conducted by the Zoological Survey of India.\n2. The Zoological Survey of India was established in 1916 and has its headquarters in Kolkata.\n3. Telangana's endemic reptiles now number six.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "All three statements are correct: the study was by the Zoological Survey of India, established in 1916 with headquarters in Kolkata, and Telangana's endemic reptiles now number six. The alternatives omit at least one correct detail."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Family and habitat",
+   "question": "Which combination correctly describes the newly discovered plant Didymocarpus nautiyalii?",
+   "options": [
+    "Gesneriaceae; an approximately 8 cm herb with leathery leaves and blue-violet flowers on moist rocks above 1,000 m",
+    "Gesneriaceae; a tree with red flowers on dry plains below 1,000 m",
+    "Zoological Survey of India; an approximately 6 cm reptile from forest caves",
+    "MoEFCC; a shrub with yellow flowers in coastal wetlands"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "Didymocarpus nautiyalii belongs to the family Gesneriaceae and is an approximately 8 cm herb with leathery leaves and blue-violet flowers, growing on moist rocks above 1,000 m. The other options alter its family, form, flowers or habitat."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GLOF and Uttarakhand capitals",
+   "question": "With reference to glacial lake outburst floods and Uttarakhand, consider the following statements:\n1. A GLOF is the sudden release of water from a glacial lake, which may result from moraine or ice-dam failure, avalanches or landslides.\n2. Dehradun is the capital of Uttarakhand.\n3. Gairsain is the summer capital of Uttarakhand.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "All three statements are correct. A GLOF involves the sudden release of water from a glacial lake, while Dehradun is Uttarakhand's capital and Gairsain its summer capital."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "E-methanol plant partners, capacity and inputs",
+   "question": "Match the features of India's first port-based e-methanol plant with the corresponding details:\n\nList-I\n a. Project partners\n b. Plant capacity\n c. Nature of fuel\n d. Principal inputs for e-methanol\n\nList-II\n i. Renewable electricity, water and biogenic CO2\n ii. Deendayal Port Authority and Assam Petro-Chemicals Ltd\n iii. 150 tonnes per day\n iv. Green marine fuel",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2",
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i. The partners are Deendayal Port Authority and Assam Petro-Chemicals Ltd, capacity is 150 tonnes per day, the fuel is green marine fuel, and its inputs are renewable electricity, water and biogenic CO2."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Event venue and leadership",
+   "question": "During the declaration of Jawahar Dweep as India's first plastic-free oil terminal, which combination correctly identifies the event locations and leadership?",
+   "options": [
+    "Indira Dock and Grey Gate; led by Sarbananda Sonowal, with Dr M. Angamuthu as MbPA Chair",
+    "Gandhidham–Kandla; led by Sarbananda Sonowal, with Dr M. Angamuthu as MbPA Chair",
+    "Indira Dock and Grey Gate; led by Dr M. Angamuthu, with Sarbananda Sonowal as MbPA Chair",
+    "Namrup; led by the Deendayal Port Authority, with Dr M. Angamuthu as MbPA Chair"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "The event was held at Indira Dock and Grey Gate, led by Ports Minister Sarbananda Sonowal, with Dr M. Angamuthu as MbPA Chair. Gandhidham–Kandla and Namrup are locations associated with other environment-related facts, while the leadership roles in the third option are reversed."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Glacier melting causes",
+   "question": "Assertion (A): Record summer heatwaves were among the causes of the record melting of Aletsch Glacier in 2026.\nReason (R): High winter snowfall was among the causes of the melting.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "Assertion A is true because record summer heatwaves contributed to the melting. Reason R is false: the reported winter condition was low winter snowfall, not high winter snowfall."
+  }
+ ]
+}

@@ -1,0 +1,346 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F26",
+  "P0.F27",
+  "P0.F28",
+  "P0.F29",
+  "P0.F3",
+  "P0.F30",
+  "P0.F31",
+  "P0.F32",
+  "P0.F33",
+  "P0.F34",
+  "P0.F35",
+  "P0.F36",
+  "P0.F37",
+  "P0.F38",
+  "P0.F39",
+  "P0.F4",
+  "P0.F40",
+  "P0.F41",
+  "P0.F42",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Participants",
+   "question": "Approximately how many athletes participated in the 20th Asian Games Aichi–Nagoya 2026?",
+   "options": [
+    "Approximately 9,000",
+    "Approximately 10,000",
+    "Approximately 11,000",
+    "Approximately 12,000"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Approximately 11,000 athletes participated in the Games. The nearby figure of approximately 10,000 is incorrect."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Sports and slogan",
+   "question": "With reference to the 20th Asian Games Aichi–Nagoya 2026, consider the following statements:\n1. The Games featured 43 sports, 71 disciplines, 469 events and 54 venues.\n2. The slogan of the Games was “Imagine One Asia”.\n3. The Games featured 469 disciplines and 54 events.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Games had 43 sports, 71 disciplines, 469 events and 54 venues, with the slogan “Imagine One Asia”. Statement 3 reverses the figures for disciplines and events."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mascot",
+   "question": "What was the mascot of the 20th Asian Games Aichi–Nagoya 2026?",
+   "options": [
+    "HONOHON",
+    "Kinshachi",
+    "Kumkum",
+    "Shachihoko"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "HONOHON was the mascot of the Games, designed as a rising flame with Shachihoko ears and Kumadori eyes. Kinshachi and Shachihoko are associated with the emblem or mascot design, but neither was the mascot’s name."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Opening ceremony",
+   "question": "Consider the following statements:\nStatement A: The 20th Asian Games Aichi–Nagoya 2026 were declared open by Emperor Naruhito.\nStatement B: The theme of the opening ceremony was “Imagine One Asia”.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "Statement A is true: Emperor Naruhito declared the Games open at Mizuho Park Athletic Stadium. Statement B is false because “Imagine One Asia” was the slogan, while the opening ceremony theme was “Harmonic Heart Beat”."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Flag-bearers and succession",
+   "question": "Match the following personalities or teams associated with the 20th Asian Games Aichi–Nagoya 2026 with the relevant detail.\n\nList-I\n(a) Manu Bhaker and Pawan Sehrawat\n(b) Shigenobu Murofushi and Koji Murofushi\n(c) Neeru Dhanda\n(d) 21st Asian Games\n\nList-II\n(i) Closing ceremony flag-bearer\n(ii) Doha, Qatar, 2030\n(iii) Opening ceremony flag-bearers\n(iv) Cauldron lighting",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9",
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii. Manu Bhaker and Pawan Sehrawat were opening flag-bearers, the Murofushis lit the cauldron, Neeru Dhanda was the closing flag-bearer, and Doha will host the 21st Games in 2030."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "New sports",
+   "question": "Which set correctly identifies the sports that debuted or were introduced as new sports at the 20th Asian Games Aichi–Nagoya 2026?",
+   "options": [
+    "Teqball, MMA and Padel",
+    "Surfing, skateboarding and sport climbing",
+    "Cricket, kabaddi and hockey",
+    "Archery, shooting and wrestling"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "Teqball made its debut, MMA was included for the first time, and Padel was also a new sport at the Games. Surfing, skateboarding and sport climbing were also listed among the sports, but they were not the specified new-sport trio."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Emblem colours",
+   "question": "Consider the following statements:\nStatement A: The emblem used purple to represent the Iris, the flower of Aichi Prefecture.\nStatement B: The emblem featured a red moon representing the OCA.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Statement A is true because purple represented the Iris, Aichi’s flower. Statement B is false because the emblem contained a red sun associated with the OCA, not a red moon."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Medal table leader",
+   "question": "Which country topped the medal table at the 20th Asian Games Aichi–Nagoya 2026 with 169 gold medals and 341 medals overall?",
+   "options": [
+    "China",
+    "Japan",
+    "South Korea",
+    "India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "China topped the medal table with 169 gold, 89 silver and 83 bronze medals, totalling 341. Japan was second with 269 medals, making it the most tempting alternative."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Medal table rank and tally",
+   "question": "Which of the following statements regarding Japan’s performance in the medal table of the 20th Asian Games Aichi–Nagoya 2026 is incorrect?",
+   "options": [
+    "Japan ranked second in the medal table.",
+    "Japan won 83 gold medals.",
+    "Japan won 89 silver medals.",
+    "Japan won 269 medals in total."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "The incorrect statement is that Japan won 89 silver medals; Japan won 95 silver medals. The figure 89 belonged to China, while Japan’s total was 269 medals."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Medal-table records",
+   "question": "Consider the following statements about the 20th Asian Games Aichi–Nagoya 2026 and the preceding Hangzhou Games:\n1. China topped the Asian Games medal table for the 12th consecutive edition.\n2. India and Uzbekistan both won 21 gold medals, but India finished ahead on silver medals.\n3. At Hangzhou 2023, India won 28 gold medals and finished third.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F20",
+    "P0.F21",
+    "P0.F22"
+   ],
+   "explanation": "Statements 1 and 2 are correct: China extended its leading streak to 12 editions, and India placed ahead of Uzbekistan because it won 27 silver medals against Uzbekistan’s 25. Statement 3 is incorrect because India also finished fourth at Hangzhou 2023."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Indian sporting achievements",
+   "question": "Consider the following statements regarding India’s performance at the 20th Asian Games Aichi–Nagoya 2026:\n1. Kumkum Anil Mohod became the first Indian woman to win individual recurve gold.\n2. Neeru Dhanda ended a 48-year wait for India’s trap gold.\n3. Lovlina Borgohain became the first Indian woman after Mary Kom to win Asian Games boxing gold.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F26",
+    "P0.F27",
+    "P0.F28"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Kumkum Mohod achieved the individual recurve milestone, and Neeru Dhanda ended the 48-year trap-gold wait. Statement 3 is false because Lovlina Borgohain was the second Indian woman after Mary Kom to win Asian Games boxing gold."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Indian award and sport highlights",
+   "question": "Match the following Indian achievements at the 20th Asian Games Aichi–Nagoya 2026 with the correct detail.\n\nList-I\n(a) Wrestling\n(b) Golf\n(c) Jaspal Rana Award\n(d) Raja Randhir Singh Award\n\nList-II\n(i) First Indian golf gold, won by Pranavi Urs\n(ii) Best male athlete, Sujeet Kalkal\n(iii) Six medals, the best Indian performance since 1962 Jakarta\n(iv) First recipient and best female athlete, Kumkum Mohod",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F29",
+    "P0.F30",
+    "P0.F31",
+    "P0.F32"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii. Indian wrestling won six medals, Pranavi Urs secured India’s first golf gold, Kumkum Mohod received the Jaspal Rana Award, and Sujeet Kalkal received the Raja Randhir Singh Award."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "OCA history and headquarters",
+   "question": "Consider the following statements about the Olympic Council of Asia (OCA):\n1. Its headquarters are in Kuwait.\n2. The Asian Games Federation was founded in New Delhi in 1949 and was replaced by the OCA in 1981.\n3. The OCA headquarters moved to Kuwait in 1981.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F33"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The headquarters moved to Kuwait in 1982, not 1981, so statement 3 is incorrect."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "First Asian Games",
+   "question": "How many of the following statements about the first Asian Games are correct?\n1. They were held in New Delhi from 4 to 11 March 1951.\n2. The Games had 11 NOCs and 489 athletes.\n3. The Games featured 13 sports and 57 events.\n4. India hosted the Asian Games again in 1986.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F34"
+   ],
+   "explanation": "Only two statements are correct: the first Asian Games were held in New Delhi from 4 to 11 March 1951, with 11 NOCs and 489 athletes. They featured 12 sports, not 13, and India hosted the Games again in 1982, not 1986."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cricket final",
+   "question": "In the T20 cricket final at the 20th Asian Games Aichi–Nagoya 2026, how did India defeat Pakistan?",
+   "options": [
+    "India, after scoring 211, won by 19 runs",
+    "India, after scoring 19, won by 211 runs",
+    "Pakistan, after scoring 211, won by 19 runs",
+    "India won by 19 wickets after Pakistan scored 211"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F35"
+   ],
+   "explanation": "India won the T20 final by 19 runs after scoring 211, having won the toss and elected to bat. Pakistan did not win the final, and the margin was in runs rather than wickets."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "OCA president and headquarters",
+   "question": "Assertion (A): Sheikh Joaan bin Hamad Al Thani was the President of the Olympic Council of Asia.\nReason (R): The headquarters of the Olympic Council of Asia are in Doha.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F36"
+   ],
+   "explanation": "The assertion is true because Sheikh Joaan bin Hamad Al Thani was the OCA President. The reason is false because the OCA headquarters are in Kuwait City, not Doha."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Future hosts and athlete awards",
+   "question": "Match the following with the correct detail relating to the Asian Games and the IOA awards.\n\nList-I\n(a) 21st Asian Games\n(b) 2034 Asian Games\n(c) Jaspal Rana Memorial Award\n(d) Randhir Singh Memorial Award\n\nList-II\n(i) Sujeet Kalkal, who defeated Kotaro Kiyooka in the semifinal\n(ii) Kumkum Mohod, with gold in the women’s recurve individual and team events\n(iii) Doha, Qatar\n(iv) Riyadh, Saudi Arabia",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F38",
+    "P0.F39",
+    "P0.F40",
+    "P0.F41"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i. Doha will host the 21st Games, Riyadh will host the 2034 Games, Kumkum Mohod received the Jaspal Rana Memorial Award, and Sujeet Kalkal received the Randhir Singh Memorial Award after defeating Kotaro Kiyooka in the semifinal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IOA headquarters and establishment",
+   "question": "Which statement correctly describes the Indian Olympic Association (IOA)?",
+   "options": [
+    "It was established in 1927 and is headquartered in New Delhi.",
+    "It was established in 1949 and is headquartered in Kuwait.",
+    "It was established in 1981 and is headquartered in Doha.",
+    "It was established in 1982 and is headquartered in Riyadh."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F42"
+   ],
+   "explanation": "The IOA was established in 1927 and is headquartered in New Delhi. The other options use dates or locations associated with the Asian Games or the OCA, not the IOA."
+  }
+ ]
+}

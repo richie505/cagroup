@@ -1,0 +1,249 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F13",
+  "P3.F14",
+  "P3.F15",
+  "P3.F16",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9",
+  "P4.F4",
+  "P4.F6",
+  "P4.F7",
+  "P5.F1",
+  "P5.F2",
+  "P5.F7",
+  "P5.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Diffusion speed",
+   "question": "According to the World Development Report 2026, which sequence correctly compares the time taken for diffusion to lower-income economies?",
+   "options": [
+    "Steam—80 years; electricity—40 years; internet—20 years",
+    "Steam—40 years; electricity—20 years; internet—80 years",
+    "Steam—20 years; electricity—80 years; internet—40 years",
+    "Steam—80 years; electricity—20 years; internet—40 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "The report gives the diffusion periods as 80 years for steam, 40 years for electricity and 20 years for the internet. The other sequences interchange these figures."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "AI use and automation exposure",
+   "question": "With reference to the World Development Report 2026, consider the following statements:\n1. ChatGPT use in April 2025 was 24% in high-income countries.\n2. GenAI automation exposure was 4.5% in developing countries.\n3. ChatGPT use in April 2025 was 5.8% in low-income countries.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the figures were 24% and 4.5%, respectively. Statement 3 is incorrect because 5.8% was the figure for upper-middle-income countries, while low-income countries recorded 0.7%."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Productivity, capex and national strategies",
+   "question": "Match the items associated with the World Development Report 2026 with their figures.\n\nList-I\n a. Productivity potential in developing countries\n b. Big-tech AI capital expenditure in 2026\n c. Countries with national AI strategies\n d. Rori maths tutor cost per student\n\nList-II\n i. More than USD 750 billion\n ii. 16.2%\n iii. 80+ countries\n iv. Approximately USD 5",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8",
+    "P3.F9",
+    "P3.F10",
+    "P3.F11"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv. Developing-country productivity potential was 16.2%, big-tech AI capex exceeded USD 750 billion, more than 80 countries had national AI strategies, and the Rori tutor cost approximately USD 5 per student."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Small AI application",
+   "question": "What improvement was reported for Bangladesh’s diabetic retinopathy screening application mentioned under “Small AI” in the World Development Report 2026?",
+   "options": [
+    "39.5%",
+    "35%",
+    "40%",
+    "30%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F11"
+   ],
+   "explanation": "Bangladesh’s diabetic retinopathy screening application recorded an improvement of 39.5%. The figures 35%, 40% and 30% relate to other examples in the report."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Agricultural AI application",
+   "question": "What was the reported impact of the Baramati AI application on sugarcane cultivation?",
+   "options": [
+    "Sugarcane yields increased by 40%, while water and fertiliser use fell by 30%.",
+    "Sugarcane yields increased by 35%, while water and fertiliser use fell by 40%.",
+    "Sugarcane yields increased by 30%, while water and fertiliser use fell by 40%.",
+    "Sugarcane yields increased by 40%, while water and fertiliser use fell by 35%."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F12"
+   ],
+   "explanation": "At Baramati, sugarcane yields increased by 40%, while water and fertiliser use declined by 30%. The other options interchange the reported percentages."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "AI monsoon forecasts",
+   "question": "How many of the following statements about the 2025 AI monsoon forecasts in India are correct?\n1. The forecasts reached approximately 3.8 crore farmers.\n2. The forecasts were used in 13 States.\n3. The forecasts were available in 5 languages.\n4. Between 52% and 61% of farmers changed their planting decisions.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F13"
+   ],
+   "explanation": "Only three statements are correct: the forecasts reached approximately 3.8 crore farmers, covered 13 States and were available in 5 languages. The reported range for farmers changing planting decisions was 31–52%, not 52–61%."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Indian AI applications",
+   "question": "Consider the following statements:\nStatement A: TB detection improved by 39%, and Gujarat AgriStack covered approximately 5 lakh farmers.\nStatement B: Sarlaben was an animal-health application covering approximately 5 crore cattle.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F14"
+   ],
+   "explanation": "Both statements are false. TB detection improved by 35%, not 39%, and Sarlaben concerned animal health for approximately 3 crore cattle, not 5 crore; Gujarat AgriStack covered approximately 5 lakh farmers."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place and purpose of AI application",
+   "question": "Which initiative in the World Development Report 2026 used AI to screen children aged 0–6 years for developmental delays?",
+   "options": [
+    "Navachetana in Andhra Pradesh",
+    "MahaVISTAAR AI in Maharashtra",
+    "EdskGrid in Meghalaya",
+    "Vyuhaa-Cerviai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F15"
+   ],
+   "explanation": "Navachetana in Andhra Pradesh used AI to screen children aged 0–6 years for developmental delays. MahaVISTAAR AI, EdskGrid and Vyuhaa-Cerviai are other initiatives listed in the Indian examples."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of IndiaAI Mission pillars",
+   "question": "How many pillars does the IndiaAI Mission have, according to the World Development Report 2026?",
+   "options": [
+    "7",
+    "5",
+    "13",
+    "80+"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F16"
+   ],
+   "explanation": "The IndiaAI Mission has 7 pillars, including Compute, AIKosh datasets, FutureSkills, Startup Financing and Safe & Trusted AI. The other figures are associated with different facts in the report."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "GCC employment and World Bank institutions",
+   "question": "Assertion (A): GCC employment in India increased from 1.9 million to 2.36 million.\nReason (R): The World Bank Group consists of 5 institutions.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F6"
+   ],
+   "explanation": "Both the assertion and the reason are true: GCC employment rose from 1.9 million to 2.36 million, and the World Bank Group has 5 institutions. The number of institutions does not explain the reported change in GCC employment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Digital Public Infrastructure",
+   "question": "Which of the following correctly represents the Digital Public Infrastructure examples cited for India in the World Bank’s AI-readiness context?",
+   "options": [
+    "Aadhaar, UPI and DigiLocker",
+    "IBRD, IDA and IFC",
+    "Compute, AIKosh and FutureSkills",
+    "Adopt, Adapt and Advance"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6",
+    "P4.F7"
+   ],
+   "explanation": "India’s cited DPI examples are Aadhaar, UPI and DigiLocker. IBRD, IDA and IFC are World Bank Group institutions, while the other options refer to the IndiaAI Mission and the report’s framework."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Poverty thresholds and distribution measures",
+   "question": "With reference to the World Bank Poverty and Inequality Report 2026, consider the following statements:\n1. The poorest 10% in India had a threshold of USD 3 per day, while the richest 10% had a threshold of USD 10 per day.\n2. The figures for India were distribution thresholds, not averages.\n3. The Gini measure used a scale of 0–100.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F7",
+    "P5.F8"
+   ],
+   "explanation": "All three statements are correct. India’s poorest and richest 10% thresholds were USD 3 and USD 10 per day, the figures were distribution thresholds rather than averages, and the Gini scale ran from 0 to 100."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Poverty line and data platform",
+   "question": "Which combination correctly describes the revised extreme poverty line and the platform through which the poverty data were provided?",
+   "options": [
+    "USD 3.00 per day in 2021 PPP; Poverty and Inequality Platform",
+    "USD 10 per day in 2021 PPP; Poverty and Inequality Platform",
+    "USD 3.00 per day in 2025 PPP; Poverty and Inequality Platform",
+    "USD 3.00 per day in 2021 PPP; IndiaAI Mission"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F8"
+   ],
+   "explanation": "The extreme poverty line was revised in 2025 to USD 3.00 per day in 2021 PPP, and the data were provided through the Poverty and Inequality Platform. The other options alter the PPP basis, the threshold or the data platform."
+  }
+ ]
+}

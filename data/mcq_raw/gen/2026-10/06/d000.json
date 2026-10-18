@@ -1,0 +1,298 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F3",
+  "P0.F6",
+  "P0.F8",
+  "P0.F9",
+  "P1.F2",
+  "P1.F3",
+  "P1.F5",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F17",
+  "P2.F18",
+  "P2.F19",
+  "P2.F20",
+  "P2.F3",
+  "P2.F4",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Associated commissioning events",
+   "question": "At the launch event of INS Surya at Hindustan Shipyard Ltd, which additional set of developments took place?",
+   "options": [
+    "Keel of FSS-5 was laid, Slipway-4 was inaugurated, and a 300-tonne Goliath Crane was commissioned",
+    "Keel of FSS-4 was laid, Slipway-3 was inaugurated, and a 200-tonne crane was commissioned",
+    "Keel of FSS-5 was laid, Slipway-4 was dismantled, and a 500-tonne crane was commissioned",
+    "Keel of FSS-6 was laid, Slipway-5 was inaugurated, and a 300-tonne crane was commissioned"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The event included laying the keel of FSS-5, inaugurating upgraded Slipway-4 and commissioning a 300-tonne Goliath Crane. The tempting alternative changes the FSS number, slipway status and crane capacity."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "HSL history and production profile",
+   "question": "Match the following HSL-related entries with the corresponding details.\n\nList-I\n(a) Jala Usha\n(b) Vizag maritime hub\n(c) Establishment of HSL\n(d) FSS construction programme\n\nList-II\n(i) Established in 1941\n(ii) First ship built in independent India, launched in 1948\n(iii) Five FSS, each about 43,500 tonnes displacement, built in 18 months\n(iv) Eastern Naval Command, Naval Dockyard, HSL and Visakhapatnam Port",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-iii, b-i, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9",
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "Jala Usha corresponds to the first ship built in independent India and launched in 1948; the Vizag hub comprises the four listed maritime institutions. HSL was established in 1941, while the FSS programme involves five ships of about 43,500 tonnes each, built in 18 months."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Navy partner and technology transfer",
+   "question": "In the Jaya AUV collaboration, which organisation was identified as the Indian Navy partner when HSL signed the technology-transfer agreement for mass production?",
+   "options": [
+    "Indian Navy's Design Directorate",
+    "Indian Navy's Eastern Naval Command",
+    "National Knowledge Network",
+    "CSIR-NIO's Goa establishment"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F5"
+   ],
+   "explanation": "The Indian Navy's Design Directorate was named as the Navy partner, while HSL signed the ToT agreement for mass production. Eastern Naval Command and CSIR-NIO were not the partner identified for this collaboration."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Jaya AUV specifications",
+   "question": "With reference to Jaya, the indigenous Autonomous Underwater Vehicle developed by CSIR-NIO, consider the following statements:\n\n1. It weighs 54 kg and is 1.7 metres long.\n2. It can operate at depths of up to 200 metres and has about 80% Indian components.\n3. It has a CTD sensor and a side-scan sonar.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "All three statements correctly describe Jaya: its weight is 54 kg, its length is 1.7 metres, its maximum depth is 200 metres, and it has about 80% Indian components with CTD and side-scan sonar. Therefore, the complete combination is correct."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Rudra server deployment",
+   "question": "Which of the following statements about the Rudra servers under the National Supercomputing Mission is incorrect?",
+   "options": [
+    "About 6,000 Rudra servers had been deployed.",
+    "About 1,500 Rudra servers were under production.",
+    "The number of deployed Rudra servers was about 5,000.",
+    "Rudra servers formed part of the mission's indigenous technology effort."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "The incorrect statement changes the deployed number to about 5,000; the correct figure was about 6,000. About 1,500 were under production, making that statement accurate."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Supercomputing Mission beneficiaries and outputs",
+   "question": "How many of the following statements correctly describe the users and outcomes associated with the National Supercomputing Mission as of September 2026?\n\n1. More than 16,000 researchers and 2,900 PhD scholars were users.\n2. More than 400 institutions were associated with the mission.\n3. The mission was associated with 1.5 crore jobs and 1,990 publications.\n4. The mission was associated with 1.5 lakh jobs and 1,990 publications.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct, while statement 4 changes 1.5 crore jobs to 1.5 lakh jobs. Hence, only three statements are correct."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Build approach and backbone",
+   "question": "Consider the following statements:\n\nStatement A: The National Supercomputing Mission's build approach progressed from manufacturing to assembly and then to design and manufacturing.\nStatement B: The National Knowledge Network designed the Rudra servers for the mission.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "Both statements are false. The stated progression was Assembly → Manufacturing → Design & manufacturing, and the National Knowledge Network was the backbone; C-DAC designed the Rudra servers."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PARAM 8000 milestone",
+   "question": "Which performance milestone was associated with PARAM 8000, developed by C-DAC in 1991?",
+   "options": [
+    "1 gigaflop",
+    "54 teraFLOPS",
+    "100/200 Gbps",
+    "2.19 exaFLOPS"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "PARAM 8000 was developed by C-DAC in 1991 and achieved 1 gigaflop. The other figures refer to different supercomputing technologies or milestones."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indigenous server and software stack",
+   "question": "What did PARAM Rudra represent in the indigenous technology portfolio of the National Supercomputing Mission?",
+   "options": [
+    "Indigenous Rudra servers together with an Indian software stack",
+    "A supercomputing-in-a-box system for colleges",
+    "A 54-teraFLOPS predecessor system",
+    "An indigenous cooling system only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "PARAM Rudra comprised indigenous Rudra servers and an Indian software stack. The supercomputing-in-a-box description belongs to PARAM Shavak, while 54 teraFLOPS refers to PARAM Yuva."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Supercomputing for colleges",
+   "question": "Which indigenous system was described as a “supercomputing-in-a-box” for colleges?",
+   "options": [
+    "PARAM Shavak",
+    "PARAM Rudra",
+    "PARAM Yuva",
+    "PARAM 8000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F13"
+   ],
+   "explanation": "PARAM Shavak was described as a supercomputing-in-a-box system for colleges. PARAM Rudra refers to indigenous servers and an Indian software stack, whereas PARAM Yuva and PARAM 8000 have different milestones."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Indigenous HPC infrastructure and education",
+   "question": "Match the following National Supercomputing Mission initiatives with their descriptions.\n\nList-I\n(a) Indigenous interconnect\n(b) Indigenous cooling\n(c) HPC Shiksha Portal and EduHPC\n(d) FDPs\n\nList-II\n(i) Faculty development programmes with AICTE\n(ii) 100/200 Gbps connectivity\n(iii) Indigenous cooling technology\n(iv) Education and training platforms",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F14"
+   ],
+   "explanation": "The indigenous interconnect was 100/200 Gbps, indigenous cooling was separately developed, HPC Shiksha Portal and EduHPC were education platforms, and FDPs were conducted with AICTE. Thus, a-ii, b-iii, c-iv and d-i is the correct matching."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Supercomputing applications",
+   "question": "Which of the following applications were associated with the National Supercomputing Mission?\n\n1. Flood early warning for the Mahanadi basin two days ahead and a forest-fire model for the Sikkim Himalayas.\n2. Urban Environment DSS and seismic imaging.\n3. COVID drug screening.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F15"
+   ],
+   "explanation": "All three statements are correct. The listed applications include Mahanadi flood warning, the Sikkim Himalayas forest-fire model, Urban Environment DSS, seismic imaging and COVID drug screening."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "FLOPS scale and data generation",
+   "question": "Assertion (A): Tera, peta and exa denote trillion, quadrillion and quintillion FLOPS respectively, and India generates about 20% of the world's data.\nReason (R): The world's fastest system in 2026 operated at about 2.19 petaFLOPS.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F16"
+   ],
+   "explanation": "Assertion A is true: tera, peta and exa represent trillion, quadrillion and quintillion FLOPS, and India generates about 20% of the world's data. Reason R is false because the world's fastest system in 2026 was stated at about 2.19 exaFLOPS, not petaFLOPS."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sustainable Development Goals",
+   "question": "The National Supercomputing Mission contributes to how many Sustainable Development Goals?",
+   "options": [
+    "11",
+    "12",
+    "17",
+    "20"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F17"
+   ],
+   "explanation": "The mission contributes to 11 Sustainable Development Goals. The other numbers are not the stated contribution count."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ESTIC-2026 venue and organiser",
+   "question": "Where was the second edition of the Emerging Science, Technology and Innovation Conclave (ESTIC-2026) scheduled, and who organised it?",
+   "options": [
+    "Bharat Mandapam, New Delhi; CSIR",
+    "Hindustan Shipyard Ltd, Visakhapatnam; C-DAC",
+    "Bharat Mandapam, New Delhi; AICTE",
+    "Visakhapatnam Port; CSIR-NIO"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F18",
+    "P2.F19"
+   ],
+   "explanation": "ESTIC-2026, the second edition, was scheduled for 27–29 October 2026 at Bharat Mandapam, New Delhi, and was organised by CSIR. The alternatives substitute either the venue or the organising institution."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ESTIC-2026 theme",
+   "question": "What was the theme of ESTIC-2026?",
+   "options": [
+    "Creative Minds, Catalyzing Science, Empowering Technologies",
+    "Science for Sustainable Development and Inclusive Growth",
+    "Innovating India for a Digital Future",
+    "Technology, Security and National Progress"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F20"
+   ],
+   "explanation": "The theme of ESTIC-2026 was “Creative Minds, Catalyzing Science, Empowering Technologies.” The other options are not the stated theme of the conclave."
+  }
+ ]
+}

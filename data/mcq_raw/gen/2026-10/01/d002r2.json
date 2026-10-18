@@ -1,0 +1,69 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P5.F3",
+  "P9.F11",
+  "P9.F12",
+  "P9.F13"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Builder/implementing institution",
+   "question": "For India’s first 3D concrete-printed government housing pilot at Burripalem, which institution entered into the agreement on 4 October in the presence of Chief Minister Naidu?",
+   "options": [
+    "Central Building Research Institute (CBRI), Roorkee",
+    "Council of Scientific and Industrial Research (CSIR), Roorkee",
+    "PMAY-G 2.0",
+    "Chief Minister Naidu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The builder is the Central Building Research Institute (CBRI), Roorkee, functioning under CSIR. The agreement was signed on 4 October in the presence of Chief Minister Naidu. CSIR is the parent organisation, not the institution identified as the builder."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Tourism infrastructure details",
+   "question": "Consider the following statements regarding Andhra Pradesh’s tourism development initiatives:\nStatement A: Lambasingi has 12 geodesic glamping cottages.\nStatement B: QR digital guides are available in 100+ languages at 100+ locations.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F11",
+    "P9.F12"
+   ],
+   "explanation": "Both statements are false. Lambasingi has 15 geodesic glamping cottages, while the QR digital guides cover 130+ languages at 100+ locations. The tempting option that Statement B alone is true is incorrect because its language figure is 100+, not 130+."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme expansion",
+   "question": "What is the full form of PRASHAD, the scheme associated with pilgrimage and spiritual heritage development in Andhra Pradesh?",
+   "options": [
+    "Pilgrimage Rejuvenation and Spiritual Heritage Augmentation Drive",
+    "Pilgrimage Renewal and Sacred Heritage Advancement Programme",
+    "Pilgrim Rejuvenation and Spiritual Heritage Development Drive",
+    "Pilgrimage Restoration and Sustainable Heritage Augmentation Scheme"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F13"
+   ],
+   "explanation": "PRASHAD stands for Pilgrimage Rejuvenation and Spiritual Heritage Augmentation Drive. The other options alter the official wording, particularly terms such as “Renewal,” “Sacred,” or “Programme.”"
+  }
+ ]
+}

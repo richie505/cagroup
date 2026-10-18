@@ -1,0 +1,241 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F3",
+  "P2.F1",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P3.F3",
+  "P3.F4",
+  "P4.F2",
+  "P4.F3",
+  "P5.F1",
+  "P5.F4",
+  "P6.F2",
+  "P6.F3",
+  "P6.F4",
+  "P7.F1",
+  "P7.F2",
+  "P9.F1",
+  "P9.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Approval and institutional initiative",
+   "question": "Which initiative was approved by the Ministry of Education for languages granted classical status on 3 October 2024?",
+   "options": [
+    "Centres of Excellence",
+    "National Postal Week",
+    "Brihattar Bharat International Conference",
+    "Project Tiger"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The Ministry of Education approved Centres of Excellence for languages granted classical status on 3 October 2024. National Postal Week, the Brihattar Bharat International Conference and Project Tiger are different initiatives or events."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Centre of Excellence",
+   "question": "The Centre of Excellence for Prakrit is located at which institution?",
+   "options": [
+    "Central University of Gujarat",
+    "Tezpur University",
+    "Visva-Bharati University",
+    "Central University of Odisha, Koraput"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3",
+    "P2.F5",
+    "P2.F6"
+   ],
+   "explanation": "Prakrit has its Centre of Excellence at the Central University of Gujarat. Tezpur University, Visva-Bharati University and Central University of Odisha, Koraput are associated with other languages."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Classical languages and recognition years",
+   "question": "Match the earlier classical languages with the years in which they were granted classical status.\n\nList-I\n(a) Tamil\n(b) Sanskrit\n(c) Telugu and Kannada\n(d) Malayalam\n\nList-II\n(i) 2008\n(ii) 2013\n(iii) 2004\n(iv) 2005",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "The correct pairs are Tamil–2004, Sanskrit–2005, Telugu and Kannada–2008, and Malayalam–2013. The other codes interchange the recognition years among these classical languages."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Classical-language criteria",
+   "question": "Which of the following is a criterion for granting classical-language status?",
+   "options": [
+    "Texts or inscriptions dating back 1,500–2,000 years",
+    "A minimum of 500 years of official use",
+    "Recognition by the Universal Postal Union",
+    "A minimum of 100 years of printed literature"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "One criterion is the presence of texts or inscriptions dating back 1,500–2,000 years. The other options do not form part of the stated criteria, which also include ancient literature and epigraphical evidence."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Hosts and associated observance",
+   "question": "Assertion (A): The World Congress of Gastroenterology 2026 is hosted by the Indian Society of Gastroenterology and the World Gastroenterology Organisation.\nReason (R): World Digestive Health Day is observed on 29 April.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "Assertion A is correct because the two organisations are the hosts of the congress. Reason R is false: World Digestive Health Day is observed on 29 May, and in any case it does not explain the hosting arrangement."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "FAO history and leadership",
+   "question": "Consider the following statements about World Food Day and the Food and Agriculture Organization:\n1. World Food Day marks the founding of FAO on 16 October 1945 at the Quebec City conference.\n2. World Food Day was first observed in 1981, following the decision taken in 1979.\n3. Qu Dongyu of China is the Director-General of FAO, and FAO, IFAD and WFP are the Rome-based trio.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F2",
+    "P4.F3"
+   ],
+   "explanation": "All three statements are correct. World Food Day commemorates FAO’s founding on 16 October 1945, was first observed in 1981 after the 1979 decision, and the FAO Director-General is Qu Dongyu while FAO, IFAD and WFP form the Rome-based trio."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Postal theme and Indian postal history",
+   "question": "Consider the following statements about World Post Day 2026 and India’s postal history:\n1. The theme of World Post Day 2026 is “World Post Day: One Postal Network, Infinite Possibilities”.\n2. Scinde Dawk, issued in 1852, was the first adhesive stamp.\n3. Stamps were issued nationwide in 1854.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F4"
+   ],
+   "explanation": "All three statements are correct. The 2026 theme is “World Post Day: One Postal Network, Infinite Possibilities”, while Scinde Dawk dates to 1852 and nationwide stamps were issued in 1854."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Declaration and legal framework",
+   "question": "Consider the following statements about the International Day of the Girl Child:\n1. It was declared by United Nations General Assembly Resolution 66/170 in 2011.\n2. It was first observed on 11 October 2012.\n3. Sustainable Development Goal 5.3 seeks to end child marriage by 2030.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3"
+   ],
+   "explanation": "All three statements are correct. Resolution 66/170 was adopted in 2011, the first observance took place on 11 October 2012, and SDG 5.3 targets the end of child marriage by 2030."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Girl-child initiative and date",
+   "question": "The Beti Bachao Beti Padhao programme was launched on 22 January 2015 at which place?",
+   "options": [
+    "Panipat",
+    "New Delhi",
+    "Vigyan Bhawan",
+    "Rome"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4",
+    "P10.F1"
+   ],
+   "explanation": "Beti Bachao Beti Padhao was launched on 22 January 2015 at Panipat. New Delhi and Vigyan Bhawan are associated with the Brihattar Bharat International Conference, while Rome is associated with the FAO, IFAD and WFP grouping."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "International observances and institutional milestones",
+   "question": "Match the items in List-I with the corresponding year or detail in List-II.\n\nList-I\n(a) International Day of Rural Women — resolution\n(b) First observance of the International Day of Rural Women\n(c) Establishment of UN Women\n(d) Adoption of CEDAW\n\nList-II\n(i) 1979\n(ii) 2008\n(iii) 2007\n(iv) 2010",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2"
+   ],
+   "explanation": "The correct pairs are Resolution 62/136–2007, first observance–2008, establishment of UN Women–2010, and adoption of CEDAW–1979. The alternative codes interchange these years."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Wildlife institutions and milestones",
+   "question": "How many of the following statements about National Wildlife Week and India’s wildlife institutions are correct?\n1. National Wildlife Week was conceived in 1952 by the Indian Board for Wildlife.\n2. The Wildlife Protection Act dates to 1972.\n3. Project Tiger was launched in 1973.\n4. The Wildlife Institute of India is located in New Delhi.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F3"
+   ],
+   "explanation": "Only two statements are correct: National Wildlife Week was conceived in 1952 by the Indian Board for Wildlife, and Project Tiger dates to 1973; the Wildlife Protection Act dates to 1972. The Wildlife Institute of India is located in Dehradun, not New Delhi."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Organiser and centenary connection",
+   "question": "Consider the following statements:\nStatement A: The Brihattar Bharat International Conference 2026 is organised by Brihattar Bharat and the Area Studies Division of IGNCA.\nStatement B: The conference marks the centenary of the Greater India Society, founded in Calcutta in 1926.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F2",
+    "P10.F3"
+   ],
+   "explanation": "Statement A is true because Brihattar Bharat and the Area Studies Division of IGNCA are the organisers. Statement B is false because the conference marks the centenary of the Greater India Society founded in Calcutta in 1926, not in 1927."
+  }
+ ]
+}

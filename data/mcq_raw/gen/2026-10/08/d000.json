@@ -1,0 +1,191 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P1.F10",
+  "P1.F5",
+  "P1.F7",
+  "P1.F9",
+  "P2.F2",
+  "P2.F6",
+  "P2.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in index",
+   "question": "Who topped the Global Innovation Index 2026?",
+   "options": [
+    "Switzerland with a score of 66.7",
+    "China with a score of 66.7",
+    "India with a score of 40.1",
+    "Bengaluru with a score of 40.1"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Switzerland ranked first in the Global Innovation Index 2026 with a score of 66.7. China ranked 10th, while India ranked 38th with 40.1, so the China option is the closest trap."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Country rank and input-output performance",
+   "question": "With reference to the Global Innovation Index 2026, consider the following statements:\n1. India ranked 38th with a score of 40.1.\n2. China ranked 10th and was first among middle-income economies.\n3. India ranked 59th in innovation inputs and 25th in outputs.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: India ranked 38th with 40.1, and China ranked 10th and first among middle-income economies. Statement 3 is incorrect because India ranked 49th in inputs and 25th in outputs, not 59th in inputs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Top global innovation cluster",
+   "question": "Which cluster was ranked the top innovation cluster globally in the Global Innovation Index 2026?",
+   "options": [
+    "Shenzhen–Hong Kong–Guangzhou",
+    "Bengaluru",
+    "Silicon Valley–San Francisco",
+    "Tokyo–Yokohama"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "Shenzhen–Hong Kong–Guangzhou was the top innovation cluster in the world. Bengaluru was identified as the top cluster in India, making it the most tempting alternative."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Top Indian innovation cluster",
+   "question": "Which was the top innovation cluster in India according to the Global Innovation Index 2026?",
+   "options": [
+    "Bengaluru",
+    "Shenzhen–Hong Kong–Guangzhou",
+    "Hyderabad",
+    "Mumbai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "Bengaluru was the top innovation cluster in India. Shenzhen–Hong Kong–Guangzhou was the global leader, not the top Indian cluster."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Pillars of innovation index",
+   "question": "Consider the following statements:\nStatement A: The Global Innovation Index 2026 was based on six pillars.\nStatement B: Creative Outputs was not one of the pillars of the index.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "Both statements are false. The Global Innovation Index 2026 had seven pillars, and Creative Outputs was one of them."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State rank by number of factories",
+   "question": "In the Annual Survey of Industries 2024–25, which State ranked seventh in the number of factories?",
+   "options": [
+    "Telangana, with 13,937 factories",
+    "Andhra Pradesh, with 15,602 factories",
+    "Maharashtra, with 27,879 factories",
+    "Gujarat, with 33,084 factories"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "Telangana ranked seventh with 13,937 factories in the Annual Survey of Industries 2024–25. Andhra Pradesh ranked sixth with 15,602 factories, which is the closest ranking trap."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Industrial growth indicators",
+   "question": "How many of the following indicator–growth-rate pairs from the Annual Survey of Industries 2024–25 are correctly matched?\n1. Output — 7.81%\n2. Employment — 7.91%\n3. Wages — 12.80%\n4. Capital investment — 11.01%",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "Only one pair is correctly matched: output recorded growth of 7.81%. The correct figures were 7.19% for employment, 12.08% for wages and 11.10% for capital investment."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Manufacturing concentration and employment",
+   "question": "With reference to the Annual Survey of Industries 2024–25, consider the following statements:\n1. Basic metals, motor vehicles, chemicals, pharma and food together contributed more than 45% of manufacturing GVA.\n2. Tamil Nadu, Maharashtra, Gujarat, Uttar Pradesh and Haryana together accounted for 56% of employment among the top five States.\n3. The five leading employment States together accounted for 65% of employment.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The five specified industries contributed more than 45% of manufacturing GVA, and the five leading States accounted for 56% of employment; 65% is an incorrect replacement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global trade outlook",
+   "question": "According to the UNCTAD Trade and Development Report 2026, what was the position of global trade and its projected growth in 2026?",
+   "options": [
+    "Global trade reached USD 35 trillion in 2025, while growth was projected to moderate from 4.4% to 4% in 2026",
+    "Global trade reached USD 35 trillion in 2025, while growth was projected to rise from 4% to 4.4% in 2026",
+    "Global trade reached USD 25 trillion in 2025, while growth was projected to moderate from 4.4% to 4% in 2026",
+    "Global trade reached USD 35 trillion in 2025, while growth was projected to remain at 4.4% in 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Global trade reached a record USD 35 trillion in 2025, and its growth was projected to slow from 4.4% to 4% in 2026. The other options alter either the trade value or the direction and rate of growth."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "UNCTAD and industrial policy measures",
+   "question": "The UNCTAD Trade and Development Report 2026 recorded 707 industrial policy measures during 2022–25. Match List-I with List-II.\n\nList-I\n a. UNCTAD\n b. Trade and Development Report — first edition\n c. China’s industrial policy measures, 2008–21\n d. India’s industrial policy measures, 2008–21\n\nList-II\n i. 1964\n ii. 1981\n iii. 4,201\n iv. 1,416\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: UNCTAD was established in 1964, the first Trade and Development Report appeared in 1981, China recorded 4,201 measures and India 1,416 during 2008–21. The other codes interchange the establishment and report years or reverse the China–India figures."
+  }
+ ]
+}

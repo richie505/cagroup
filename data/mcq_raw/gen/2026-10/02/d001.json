@@ -1,0 +1,268 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F3",
+  "P1.F5",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F3",
+  "P2.F4",
+  "P3.F10",
+  "P3.F4",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9",
+  "P4.F3",
+  "P4.F4",
+  "P4.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment",
+   "question": "Who was appointed Governor of Odisha in the new gubernatorial appointments announced in October 2026?",
+   "options": [
+    "Braj Mohan",
+    "Dhal Singh Bisen",
+    "Om Prakash Mathur",
+    "Dushyant Gautam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "Braj Mohan was appointed Governor of Odisha. Dhal Singh Bisen was appointed Governor of Uttarakhand, while Om Prakash Mathur and Dushyant Gautam were associated with Kerala and Sikkim, respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment",
+   "question": "Who was appointed Governor of Uttarakhand in the October 2026 gubernatorial appointments?",
+   "options": [
+    "Braj Mohan",
+    "Dhal Singh Bisen",
+    "Sudha Yadav",
+    "Rajendra Vishwanath Arlekar"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "Dhal Singh Bisen was appointed Governor of Uttarakhand. Braj Mohan was appointed Governor of Odisha, while Sudha Yadav and Rajendra Vishwanath Arlekar were associated with Karnataka and Tamil Nadu, respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitutional provisions",
+   "question": "Consider the following statements about the constitutional provisions relating to the office of Governor:\n1. Article 153 provides for a Governor for each State and permits one person to be appointed Governor of two or more States.\n2. Article 155 provides that a Governor is appointed by Parliament.\n3. Article 156 provides for the pleasure of the President and a term of five years.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Articles 153 and 156 contain the stated provisions. Statement 2 is incorrect because Article 155 provides for appointment by the President, not by Parliament."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Governor's constitutional qualifications and powers",
+   "question": "Match List-I with List-II regarding constitutional provisions relating to the Governor.\n\nList-I\n a. Article 156\n b. Article 157\n c. Article 159\n d. Article 161\n\nList-II\n i. Oath before the Chief Justice of the High Court\n ii. Pardoning power\n iii. Pleasure of the President and five-year term\n iv. Citizen and 35 years of age\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10",
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii. Article 156 concerns the President's pleasure and the five-year term; Articles 157, 159 and 161 concern qualifications, oath and pardoning power, respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Council of Ministers and Governor",
+   "question": "Under which Article does the Council of Ministers headed by the Chief Minister aid and advise the Governor?",
+   "options": [
+    "Article 153",
+    "Article 159",
+    "Article 161",
+    "Article 163"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F13"
+   ],
+   "explanation": "Article 163 provides for a Council of Ministers headed by the Chief Minister to aid and advise the Governor. Articles 153, 159 and 161 concern other aspects of the Governor's office."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Scope of Gujarat UCC",
+   "question": "Consider the following statements about the Gujarat Uniform Civil Code Bill–2026:\nStatement A: It covers marriage, divorce and inheritance but excludes live-in relationships.\nStatement B: The Uniform Civil Code is mentioned in Article 44 in Part IV of the Constitution.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "Statement A is false because the Bill covers live-in relationships along with marriage, divorce and inheritance. Statement B is true because the Uniform Civil Code is associated with Article 44 in Part IV, the Directive Principles of State Policy."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rules and commencement",
+   "question": "When will the Gujarat Uniform Civil Code Bill–2026 come into force?",
+   "options": [
+    "Immediately after Presidential assent",
+    "After rules are notified",
+    "After approval by the Supreme Court",
+    "After implementation by Uttarakhand"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "The Gujarat Uniform Civil Code Bill–2026 will come into force after the rules are notified. Presidential assent alone does not make the Bill operational under the stated provision."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Legal challenge",
+   "question": "Who challenged the Central Armed Police Forces (General Administration) Act 2026 in the Supreme Court?",
+   "options": [
+    "Serving officers",
+    "The President",
+    "The Council of Ministers",
+    "The Chief Justice of India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Serving officers challenged the Act in the Supreme Court. The facts identify the challenge as being brought by serving officers, not by the President, the Council of Ministers or the Chief Justice of India."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "CAPF establishment and role",
+   "question": "Match the Central Armed Police Forces in List-I with their establishment year in List-II.\n\nList-I\n a. BSF\n b. CRPF\n c. CISF\n\nList-II\n i. 1939\n ii. 1965\n iii. 1969\n iv. 1962\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iii",
+    "a-i, b-ii, c-iv",
+    "a-iii, b-iv, c-i",
+    "a-iv, b-iii, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "The correct pairs are BSF–1965, CRPF–1939 and CISF–1969. The other codes wrongly interchange the establishment years of these forces."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Force and role",
+   "question": "Which Central Armed Police Force, established in 1962, is associated with the China border?",
+   "options": [
+    "BSF",
+    "CISF",
+    "ITBP",
+    "SSB"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "The ITBP was established in 1962 and is associated with the China border. BSF, CISF and SSB are linked respectively with Pakistan and Bangladesh borders, infrastructure and airports, and Nepal and Bhutan borders."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Force and role",
+   "question": "Which Central Armed Police Force was established in 1963 and is associated with the Nepal and Bhutan borders?",
+   "options": [
+    "CRPF",
+    "SSB",
+    "ITBP",
+    "CISF"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F9"
+   ],
+   "explanation": "The SSB was established in 1963 and is associated with the Nepal and Bhutan borders. The ITBP is associated with the China border, while the CRPF and CISF have internal-security and infrastructure-related roles."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Assam Rifles and Article 33",
+   "question": "Consider the following statements about the Assam Rifles and the constitutional position of armed forces:\nStatement A: The Assam Rifles is administered by the Army and operates under the Ministry of Home Affairs.\nStatement B: Article 33 empowers Parliament to restrict the Fundamental Rights of members of forces.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F10"
+   ],
+   "explanation": "Statement A is false because the Assam Rifles is administratively under the Ministry of Home Affairs and operationally under the Army. Statement B is true because Article 33 permits Parliament to restrict the Fundamental Rights of members of forces."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Research basis",
+   "question": "The Judicial Well-Being Committee constituted by Chief Justice of India Surya Kant was based on research by which institution?",
+   "options": [
+    "Centre for Research and Planning of the Supreme Court",
+    "PGIMER",
+    "World Federation for Mental Health",
+    "Ministry of Home Affairs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "The committee was based on research by the Supreme Court's Centre for Research and Planning. PGIMER was associated with Dr Savita Malhotra's membership, while the World Federation for Mental Health is associated with the origin of World Mental Health Day."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Judicial well-being and institutional context",
+   "question": "Assertion (A): World Mental Health Day is observed on 10 October and was first observed in 1992.\nReason (R): The Supreme Court was inaugurated on 28 January 1950 and has a strength of 34.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F5"
+   ],
+   "explanation": "Both the assertion and the reason are true: World Mental Health Day is observed on 10 October and was first observed in 1992, while the Supreme Court was inaugurated on 28 January 1950 and has a strength of 34. However, the Supreme Court's institutional details do not explain the observance or origin of World Mental Health Day."
+  }
+ ]
+}

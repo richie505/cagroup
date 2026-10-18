@@ -1,0 +1,287 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F15",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18",
+  "P1.F19",
+  "P1.F2",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F1",
+  "P2.F3",
+  "P3.F2",
+  "P3.F3",
+  "P3.F4",
+  "P4.F2",
+  "P5.F3",
+  "P5.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Alternative name",
+   "question": "Short-Lived Climate Pollutants (SLCPs) are also known as which of the following?",
+   "options": [
+    "Super pollutants",
+    "Greenhouse gases",
+    "Sulphate aerosols",
+    "Long-lived climate pollutants"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "SLCPs are also called super pollutants and Short-Lived Climate Forcers. Sulphate aerosols are cooling particles, not an alternative name for SLCPs."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Methane, ozone and crop loss",
+   "question": "Consider the following statements about Short-Lived Climate Pollutants:\n1. Methane has approximately 80 times the warming effect of CO2 over 20 years.\n2. Stratospheric ozone occurs approximately from 10–50 km, while tropospheric ozone extends from the surface to 10 km.\n3. Ozone causes the loss of approximately 100 million tonnes of staple crops every year.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: methane has approximately 80 times CO2’s 20-year warming effect, and the two ozone layers occupy the stated altitude ranges. Statement 3 is incorrect because ozone causes the loss of approximately 110 million tonnes of staple crops annually, not 100 million tonnes."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "India-specific pollution impact",
+   "question": "Consider the following statements:\nStatement A: Air pollution caused 1.67 million deaths in India in 2019, accounting for 17.8%.\nStatement B: Residential fuels account for approximately 60% of South Asia’s black carbon, with the Indo-Gangetic Plain identified as a hotspot.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "Both statements are true. The Indian air-pollution figures are for 2019, while residential fuels contribute approximately 60% of South Asia’s black carbon and the Indo-Gangetic Plain is a hotspot."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Sources of methane emissions",
+   "question": "Match the sectors with their shares of India’s methane emissions according to the 2016 Third BUR.\n\nList-I\n a. Agriculture\n b. Waste\n c. Energy\n d. Industry\n\nList-II\n i. 10.62%\n ii. 0.96%\n iii. 73.96%\n iv. 14.46%",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "The correct pairs are agriculture–73.96%, waste–14.46%, energy–10.62%, and industry–0.96%. The other codes interchange the sectoral shares."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "India and Global Methane Pledge",
+   "question": "Assertion (A): India is a member of the Global Methane Pledge.\nReason (R): The Global Methane Pledge calls for a 30% reduction in methane emissions from 2020 levels by 2030.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F12",
+    "P1.F15"
+   ],
+   "explanation": "The Assertion is false because India has not joined the Global Methane Pledge. The Reason is true: the pledge calls for a 30% reduction from 2020 levels by 2030."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "International climate instruments",
+   "question": "Match the international instrument or coalition with the corresponding fact.\n\nList-I\n a. Montreal Protocol\n b. Kigali Amendment\n c. Global Methane Pledge\n d. Climate and Clean Air Coalition\n\nList-II\n i. Adopted in 2016; India ratified it in September 2021\n ii. COP26, Glasgow, 2021\n iii. 1987\n iv. UNEP-led; India joined in 2019",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13",
+    "P1.F14",
+    "P1.F15",
+    "P1.F16"
+   ],
+   "explanation": "The correct pairs are Montreal Protocol–1987, Kigali Amendment–2016 with India’s ratification in September 2021, Global Methane Pledge–COP26 Glasgow 2021, and Climate and Clean Air Coalition–UNEP-led with India joining in 2019. The other options interchange these dates and institutional details."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Indian air-quality measures",
+   "question": "Match each Indian air-quality measure with its year or distinguishing detail.\n\nList-I\n a. Air Act\n b. National Ambient Air Quality Standards\n c. National AQI\n d. GRAP\n\nList-II\n i. 2015\n ii. 1981\n iii. 2017, for Delhi-NCR\n iv. 2009, covering 12 pollutants",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F17"
+   ],
+   "explanation": "The correct pairs are Air Act–1981, NAAQS–2009 covering 12 pollutants, National AQI–2015, and GRAP–2017 for Delhi-NCR. The other codes assign the measures to the wrong years or detail."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "NCAP performance indicators",
+   "question": "How many of the following statements about the National Clean Air Programme are correct?\n1. NCAP covers 130 cities in 24 States/UTs.\n2. During 2025–26, 65 cities were within the PM2.5 limit of 40 µg/m³.\n3. Delhi recorded 102 µg/m³.\n4. Only 14 cities met the PM10 limit of 50 µg/m³.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F18"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect because the PM10 limit stated for the programme is 60 µg/m³, not 50 µg/m³; only 14 cities met that limit."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Measures addressing household and agricultural emissions",
+   "question": "Which combination correctly lists measures associated with India’s efforts to address household and agricultural emission sources?",
+   "options": [
+    "PMUY, GOBARdhan, SRI, DSR and alternate wetting & drying",
+    "PMUY, GRAP, National AQI, SRI and Kigali Amendment",
+    "GOBARdhan, Montreal Protocol, DSR, Air Act and PMUY",
+    "SRI, Global Methane Pledge, NAAQS, DSR and GRAP"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F19"
+   ],
+   "explanation": "The correct combination is PMUY, GOBARdhan, SRI, DSR and alternate wetting & drying. The other options insert air-quality regulations or international instruments that are not part of this listed group of measures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Releasing authority",
+   "question": "Who released the implementation guidelines for National Coastal Mission 2.0, and where?",
+   "options": [
+    "The Union MoEFCC Minister in New Delhi",
+    "The Union Environment Minister at Sam in the Desert National Park",
+    "The Ladakh Lieutenant Governor in Leh",
+    "The Union MoEFCC Minister in Chennai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The guidelines were released by the Union MoEFCC Minister in New Delhi. Sam is associated with the Desert National Park event, while Leh is associated with the Snow Leopard Safari."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coverage and administration",
+   "question": "Which statement correctly describes the coverage and administrative arrangement of National Coastal Mission 2.0?",
+   "options": [
+    "It covers 9 coastal States and 4 UTs and is directly administered by MoEFCC.",
+    "It covers 9 coastal States and 4 UTs and is administered by the Ladakh Forest Department.",
+    "It covers 4 coastal States and 9 UTs and is directly administered by MoEFCC.",
+    "It covers 9 coastal States and 4 UTs and is administered by the Climate and Clean Air Coalition."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "National Coastal Mission 2.0 covers 9 coastal States and 4 UTs and is directly administered by MoEFCC. The Ladakh Forest Department and the Climate and Clean Air Coalition are not its administering authorities."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Snow Leopard Safari: implementing bodies and species facts",
+   "question": "Match the following with the correct detail relating to India’s high-altitude Snow Leopard Safari and snow leopard conservation.\n\nList-I\n a. SHAN Society and Ladakh Forest Department\n b. Ladakh’s snow leopard population under SPAI 2024\n c. Panthera uncia\n\nList-II\n i. Scientific name of the snow leopard\n ii. 477\n iii. Implementing bodies of the safari",
+   "options": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-i, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "SHAN Society and the Ladakh Forest Department implemented the safari, Ladakh recorded 477 snow leopards under SPAI 2024, and Panthera uncia is the scientific name. The other codes mismatch the implementing bodies, population figure and species name."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Desert National Park characteristics",
+   "question": "Which combination correctly describes the Desert National Park, where the Great Indian Bustards were released?",
+   "options": [
+    "Located in the Thar Desert, it covers more than 3,160 sq km, receives less than 100 mm rainfall, and contains Jurassic fossils and extinct salt-lake beds.",
+    "Located in the Thar Desert, it covers more than 3,160 sq km, receives more than 100 mm rainfall, and contains Jurassic fossils and extinct salt-lake beds.",
+    "Located in the Thar Desert, it covers less than 3,160 sq km, receives less than 100 mm rainfall, and contains Jurassic fossils and extinct salt-lake beds.",
+    "Located in the Indo-Gangetic Plain, it covers more than 3,160 sq km, receives less than 100 mm rainfall, and contains Jurassic fossils and extinct salt-lake beds."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "The Desert National Park lies in the Thar Desert, covers more than 3,160 sq km, receives less than 100 mm rainfall, and has Jurassic fossils and extinct salt-lake beds. The traps alter either its rainfall, area or geographical setting."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GI legal framework",
+   "question": "Which statement correctly describes the legal framework governing Geographical Indications in India?",
+   "options": [
+    "The GI Act was enacted in 1999, came into force on 15 September 2003, and GI registration is valid for 10 years and renewable.",
+    "The GI Act was enacted in 1999, came into force on 15 September 2003, and GI registration is permanent and non-renewable.",
+    "The GI Act was enacted in 2004–05, came into force on 15 September 2003, and GI registration is valid for 10 years and renewable.",
+    "The GI Act was enacted in 1999, came into force on 8 October 2026, and GI registration is valid for 10 years and renewable."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The GI Act dates from 1999, came into force on 15 September 2003, and registration is valid for 10 years with renewal possible. The other options alter the validity, enactment or commencement detail."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First GI in India",
+   "question": "Which product was the first Geographical Indication registered in India during 2004–05?",
+   "options": [
+    "Darjeeling Tea",
+    "Ambaji Mohanthal Prasad",
+    "Great Indian Bustard",
+    "Mohanthal of Banaskantha"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "Darjeeling Tea was India’s first GI, registered during 2004–05. Ambaji Mohanthal Prasad received its GI much later, while the Great Indian Bustard is a bird and not a GI product."
+  }
+ ]
+}

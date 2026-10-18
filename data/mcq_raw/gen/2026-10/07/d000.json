@@ -1,0 +1,282 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F19",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F24",
+  "P0.F25",
+  "P0.F26",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Number of accredited reserves; scheme objective",
+   "question": "With reference to the CA|TS-accredited tiger reserves and the Nameri Wild Classroom, consider the following statements:\n1. The number of CA|TS-accredited tiger reserves is 24.\n2. Nameri Wild Classroom was launched by the Assam Forest Department for experiential conservation education.\n3. The programme is intended for students from Class 6 onwards.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15",
+    "P0.F25"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the source lists 24 CA|TS-accredited tiger reserves, and the Assam Forest Department launched Nameri Wild Classroom for experiential conservation education. Statement 3 is incorrect because the programme is for students from Class 8 onwards."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CA|TS reserves in Assam",
+   "question": "Which of the following is the complete list of CA|TS-accredited tiger reserves in Assam in the 24-reserve list?",
+   "options": [
+    "Manas, Kaziranga, Orang and Nameri",
+    "Satpura, Pench, Kanha, Panna and Bandhavgarh",
+    "Bandipur, Kali, Periyar and Parambikulam",
+    "Dudhwa, Pilibhit, Sundarbans and Valmiki"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "The Assam entries are Manas, Kaziranga, Orang and Nameri. The other options combine reserves associated with Madhya Pradesh, Karnataka, Kerala, Uttar Pradesh, West Bengal and Bihar."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CA|TS reserves in Madhya Pradesh",
+   "question": "Which set correctly represents the CA|TS-accredited tiger reserves of Madhya Pradesh in the 24-reserve list?",
+   "options": [
+    "Satpura, Pench, Kanha, Panna and Bandhavgarh",
+    "Pench, Melghat, Tadoba–Andhari and Navegaon–Nagzira",
+    "Manas, Kaziranga, Orang and Nameri",
+    "Mudumalai, Anamalai and Sathyamangalam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F17"
+   ],
+   "explanation": "Madhya Pradesh has Satpura, Pench, Kanha, Panna and Bandhavgarh in the 24-reserve list. The other options correspond to Maharashtra, Assam and Tamil Nadu respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "CA|TS reserves in Maharashtra",
+   "question": "Which one of the following statements about Maharashtra’s CA|TS-accredited tiger reserves is incorrect?",
+   "options": [
+    "Pench is included in Maharashtra’s list.",
+    "Melghat is included in Maharashtra’s list.",
+    "Tadoba–Andhari is included in Maharashtra’s list.",
+    "Navegaon–Nagzira is included in Madhya Pradesh’s list."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F18"
+   ],
+   "explanation": "The incorrect statement is the fourth one: Navegaon–Nagzira is listed among Maharashtra’s CA|TS-accredited reserves, not Madhya Pradesh’s. Pench, Melghat and Tadoba–Andhari are also included in Maharashtra’s list."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CA|TS reserve in Bihar",
+   "question": "Which tiger reserve is listed as the CA|TS-accredited reserve of Bihar?",
+   "options": [
+    "Valmiki",
+    "Dudhwa",
+    "Sundarbans",
+    "Periyar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F19"
+   ],
+   "explanation": "Valmiki is the CA|TS-accredited tiger reserve listed for Bihar. Dudhwa is listed for Uttar Pradesh, Sundarbans for West Bengal, and Periyar for Kerala."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "State-wise CA|TS reserves",
+   "question": "Assertion (A): Dudhwa and Pilibhit are listed as CA|TS-accredited tiger reserves of Karnataka.\nReason (R): Bandipur and Kali are listed as CA|TS-accredited tiger reserves of Karnataka.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F20",
+    "P0.F21"
+   ],
+   "explanation": "Assertion A is false because Dudhwa and Pilibhit are listed for Uttar Pradesh. Reason R is true because Bandipur and Kali are the two Karnataka entries in the 24-reserve list."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CA|TS reserve in Kerala",
+   "question": "Which pair comprises Kerala’s CA|TS-accredited tiger reserves in the 24-reserve list?",
+   "options": [
+    "Parambikulam and Periyar",
+    "Mudumalai and Anamalai",
+    "Bandipur and Kali",
+    "Dudhwa and Pilibhit"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F22"
+   ],
+   "explanation": "Kerala’s pair is Parambikulam and Periyar. Mudumalai and Anamalai are listed for Tamil Nadu, Bandipur and Kali for Karnataka, and Dudhwa and Pilibhit for Uttar Pradesh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CA|TS reserves in Tamil Nadu",
+   "question": "Which of the following is the complete list of CA|TS-accredited tiger reserves in Tamil Nadu?",
+   "options": [
+    "Mudumalai, Anamalai and Sathyamangalam",
+    "Parambikulam, Periyar and Bandipur",
+    "Sundarbans, Valmiki and Dudhwa",
+    "Pench, Melghat and Tadoba–Andhari"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F23"
+   ],
+   "explanation": "Tamil Nadu’s listed reserves are Mudumalai, Anamalai and Sathyamangalam. The other options combine reserves from Kerala and Karnataka, West Bengal, Bihar and Uttar Pradesh, or Maharashtra."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CA|TS reserve in West Bengal",
+   "question": "Which tiger reserve is listed as the CA|TS-accredited reserve of West Bengal?",
+   "options": [
+    "Sundarbans",
+    "Nameri",
+    "Valmiki",
+    "Panna"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F24"
+   ],
+   "explanation": "Sundarbans is the reserve listed for West Bengal. Nameri is listed for Assam, Valmiki for Bihar, and Panna for Madhya Pradesh."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State-wise CA|TS reserve distribution",
+   "question": "Match List-I with List-II regarding the CA|TS-accredited tiger reserves listed in the 15-reserve compilation.\n\nList-I\nA. Assam\nB. West Bengal\nC. Bihar\n\nList-II\ni. Valmiki\nii. Sundarbans\niii. Kaziranga, Manas, Orang and Nameri\n\nCodes:",
+   "options": [
+    "A-iii, B-ii, C-i",
+    "A-ii, B-i, C-iii",
+    "A-i, B-iii, C-ii",
+    "A-iii, B-i, C-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "The correct pairs are Assam–Kaziranga, Manas, Orang and Nameri; West Bengal–Sundarbans; and Bihar–Valmiki. Therefore, the correct code is A-iii, B-ii, C-i."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State-wise CA|TS reserve distribution",
+   "question": "Match List-I with List-II regarding the CA|TS-accredited tiger reserves listed in the 15-reserve compilation.\n\nList-I\nA. Uttar Pradesh\nB. Madhya Pradesh\nC. Maharashtra\n\nList-II\ni. Pench\nii. Dudhwa\niii. Kanha, Panna and Satpura\n\nCodes:",
+   "options": [
+    "A-ii, B-iii, C-i",
+    "A-i, B-ii, C-iii",
+    "A-iii, B-i, C-ii",
+    "A-ii, B-i, C-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "The correct pairs are Uttar Pradesh–Dudhwa, Madhya Pradesh–Kanha, Panna and Satpura, and Maharashtra–Pench. Hence, A-ii, B-iii, C-i is correct."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State-wise CA|TS reserve distribution",
+   "question": "Match List-I with List-II regarding the CA|TS-accredited tiger reserves listed in the 15-reserve compilation.\n\nList-I\nA. Tamil Nadu\nB. Kerala\nC. Karnataka\n\nList-II\ni. Bandipur\nii. Parambikulam\niii. Anamalai and Mudumalai\n\nCodes:",
+   "options": [
+    "A-iii, B-ii, C-i",
+    "A-i, B-iii, C-ii",
+    "A-ii, B-i, C-iii",
+    "A-iii, B-i, C-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "The correct pairs are Tamil Nadu–Anamalai and Mudumalai, Kerala–Parambikulam, and Karnataka–Bandipur. Thus, the correct code is A-iii, B-ii, C-i."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NTCA establishment",
+   "question": "In which year was the National Tiger Conservation Authority (NTCA) established?",
+   "options": [
+    "2006",
+    "1973",
+    "1998",
+    "2022"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "The National Tiger Conservation Authority was established in 2006. The other years refer to Project Tiger’s launch, Nameri’s National Park status, and the All India Tiger Estimation respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tiger population estimate",
+   "question": "According to the All India Tiger Estimation 2022, what was India’s estimated tiger population?",
+   "options": [
+    "3,682",
+    "3,167",
+    "785",
+    "563"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "The All India Tiger Estimation 2022 estimated India’s tiger population at 3,682, with 3,167 as the minimum estimate. The figures 785 and 563 refer to the estimates for Madhya Pradesh and Karnataka respectively."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "IUCN status and UNESCO sites",
+   "question": "Assertion (A): The tiger is classified as Vulnerable in the IUCN status mentioned for the Nameri Wild Classroom context.\nReason (R): Kaziranga and Manas are UNESCO sites.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F26"
+   ],
+   "explanation": "Assertion A is false because the tiger’s IUCN status is Endangered. Reason R is true because Kaziranga and Manas are UNESCO sites; however, that fact does not explain the tiger’s conservation status."
+  }
+ ]
+}

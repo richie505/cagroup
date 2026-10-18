@@ -1,0 +1,323 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P3.F2",
+  "P3.F3",
+  "P3.F4",
+  "P3.F5",
+  "P4.F10",
+  "P4.F11",
+  "P4.F12",
+  "P4.F13",
+  "P4.F14",
+  "P4.F15",
+  "P4.F16",
+  "P4.F17",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8",
+  "P4.F9",
+  "P5.F2",
+  "P5.F3",
+  "P6.F2",
+  "P6.F3",
+  "P6.F4",
+  "P7.F1",
+  "P7.F2",
+  "P7.F3",
+  "P8.F1",
+  "P8.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment and headquarters",
+   "question": "The Nuclear Power Corporation of India Limited (NPCIL) was established in which year and has its headquarters at which place?",
+   "options": [
+    "1987, Mumbai",
+    "1988, New Delhi",
+    "1987, Hyderabad",
+    "1990, Chennai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "NPCIL was established in 1987 and is headquartered in Mumbai. The other options change either the year or the headquarters city."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Thorium potential and SMRs",
+   "question": "Consider the following statements about India’s nuclear-energy potential:\n1. India possesses approximately 25% of the world’s thorium.\n2. Small Modular Reactors can have a capacity of up to 300 MW.\n3. The Atomic Energy Act was enacted in 1964.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: India has about 25% of the world’s thorium, and SMRs can be up to 300 MW. Statement 3 is incorrect because the Atomic Energy Act was enacted in 1962, not 1964."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Three-stage nuclear programme",
+   "question": "In Homi Bhabha’s three-stage nuclear programme, which sequence correctly represents the progression of fuel and reactor technologies?",
+   "options": [
+    "PHWR using natural uranium → FBR using plutonium → U-233 from Th-232",
+    "FBR using natural uranium → PHWR using plutonium → U-235 from Th-232",
+    "PHWR using enriched uranium → FBR using thorium → plutonium from U-233",
+    "U-233 from Th-232 → PHWR using plutonium → FBR using natural uranium"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "The three-stage programme progresses from PHWRs using natural uranium to FBRs using plutonium and then to U-233 obtained from Th-232. The other sequences alter this prescribed order or the fuels used."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Duration and distance",
+   "question": "Radioisotope systems have been used since 1961. Which statement correctly describes the Voyager missions associated with them?",
+   "options": [
+    "Voyager was launched in 1977 for a five-year mission and is now more than 20 billion km away.",
+    "Voyager was launched in 1981 for a ten-year mission and is now more than 10 billion km away.",
+    "Voyager was launched in 1961 for a five-year mission and is now more than 20 billion km away.",
+    "Voyager was launched in 1977 for a two-year mission and is now about 5 billion km away."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6"
+   ],
+   "explanation": "The Voyager spacecraft were launched in 1977 with a five-year mission, and they are now more than 20 billion km away. The other options change the launch year, mission duration or distance."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Indian RTG proposal and NASA invitation",
+   "question": "Consider the following statements:\nStatement A: ISRO invited proposals in 2021 for a 100-watt Radioisotope Thermoelectric Generator.\nStatement B: NASA invited ISRO to its Mars Base programme.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "Statement A is true because ISRO invited proposals in 2021 for a 100-watt RTG. Statement B is false: NASA invited ISRO to its Moon Base programme, not a Mars Base programme."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mission and launch date",
+   "question": "NASA’s Dragonfly mission to Titan is scheduled for launch in which month and year, using what power source?",
+   "options": [
+    "July 2028, a radioisotope generator",
+    "July 2027, a solar generator",
+    "December 2028, a fission reactor",
+    "January 2030, a chemical generator"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8"
+   ],
+   "explanation": "NASA’s Dragonfly mission to Titan is scheduled for July 2028 and will use a radioisotope generator. The other options alter the launch schedule or the power source."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Lunar fission and orbital reactor plans",
+   "question": "Consider the following statements about planned space nuclear-power systems:\n1. NASA announced in August 2025 a lunar fission system of at least 100 kW by the first quarter of FY2030.\n2. A White House memorandum of April 2026 envisaged 20-kW reactors in orbit by 2028.\n3. The White House memorandum envisaged placing those reactors on the Moon by 2035.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F9",
+    "P4.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The memorandum envisaged reactors on the Moon by 2030, not 2035, making statement 3 incorrect."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "International Lunar Research Station",
+   "question": "Assertion (A): China and Russia plan to place a reactor on the Moon by the mid-2030s.\nReason (R): The planned reactor is associated with the International Lunar Research Station.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F11"
+   ],
+   "explanation": "Both the plan for a lunar reactor by the mid-2030s and its association with the International Lunar Research Station are correct. However, the association identifies the programme and does not explain the stated timeline, so R is not the correct explanation of A."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "International space-law instruments",
+   "question": "Match List-I with List-II regarding the legal and safety framework for nuclear power in space.\n\nList-I\n a. Outer Space Treaty, 1967\n b. Liability Convention, 1972\n c. UN Principles on Nuclear Power Sources, 1992\n d. COPUOS–IAEA Safety Framework, 2009\n\nList-II\n i. Guidance that is not legally binding\n ii. Launching State absolutely liable for damage on Earth or to aircraft in flight\n iii. Bans nuclear weapons and weapons of mass destruction in orbit but does not ban peaceful nuclear power\n iv. Safety, radiation protection and re-entry notification principles limited to non-propulsive use",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F12",
+    "P4.F13",
+    "P4.F14",
+    "P4.F15"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i. The Outer Space Treaty addresses nuclear weapons in orbit, the Liability Convention fixes absolute liability, the 1992 Principles concern non-propulsive nuclear power sources, and the 2009 framework is guidance rather than binding law."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Cosmos 954 incident",
+   "question": "How many of the following statements about Cosmos 954 are correct?\n1. Cosmos 954 was a Soviet satellite.\n2. It re-entered over northern Canada in 1978.\n3. The matter was settled in 1982.\n4. The settlement amount was C$5 million.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F16"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Cosmos 954 was a Soviet satellite that re-entered over northern Canada in 1978. The settlement occurred in 1981 for C$3 million, so statements 3 and 4 are incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Pu-238 production",
+   "question": "After approximately how long did the United States restart plutonium-238 production in 2015?",
+   "options": [
+    "About three decades",
+    "About one decade",
+    "About five decades",
+    "About seven decades"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F17"
+   ],
+   "explanation": "The United States restarted Pu-238 production in 2015 after a gap of approximately three decades. The other options give different production gaps."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Akash system and first foreign user",
+   "question": "Consider the following statements about the Akash air-defence system:\n1. It is a short-to-medium-range surface-to-air missile system.\n2. It was developed by DRDO and is made by BDL and BEL.\n3. Armenia was its first foreign user.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "All three statements are correct. Akash is a short-to-medium-range SAM developed by DRDO and manufactured by BDL and BEL, while Armenia was its first foreign user."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "BrahMos technology and partnership",
+   "question": "Match List-I with List-II in relation to the BrahMos missile system.\n\nList-I\n a. Category under DAP\n b. Name BrahMos\n c. Development partnership\n d. First foreign buyer\n\nList-II\n i. Philippines\n ii. Brahmaputra and Moskva\n iii. Buy (Indian–IDDM)\n iv. DRDO and NPO Mashinostroyenia\n\nWhich of the following codes is correct?",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i. The contract category is Buy (Indian–IDDM), BrahMos combines Brahmaputra and Moskva, the venture involves DRDO and NPO Mashinostroyenia, and the Philippines was the first foreign buyer."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First indigenous HPV vaccine",
+   "question": "Which vaccine is India’s first indigenous quadrivalent HPV vaccine, and which organisation developed it?",
+   "options": [
+    "CERVAVAC, Serum Institute of India",
+    "CERVAVAC, Bharat Biotech",
+    "Covaxin, Serum Institute of India",
+    "Cervarix, Indian Council of Medical Research"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "CERVAVAC is India’s first indigenous quadrivalent HPV vaccine and was developed by the Serum Institute of India. The other options pair the vaccine with a different developer or name a different vaccine."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "HPV coverage and 90–70–90 targets",
+   "question": "Consider the following statements concerning CERVAVAC and the WHO cervical-cancer strategy:\n1. CERVAVAC covers HPV types 6, 11, 16 and 18.\n2. Under the WHO 90–70–90 targets, 70% of women are to be screened at ages 35 and 45.\n3. The target for treatment is 80% of women.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: CERVAVAC covers HPV types 6, 11, 16 and 18, and the screening target is 70% at ages 35 and 45. Statement 3 is incorrect because the treatment target is 90%, not 80%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Developer and location",
+   "question": "The indigenous High-Altitude Platform System tested by DRDO was developed as a stratospheric airship by which establishment?",
+   "options": [
+    "ADRDE, Agra",
+    "BDL, Hyderabad",
+    "HAL, Bengaluru",
+    "DRDL, Visakhapatnam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "The stratospheric airship was developed by ADRDE in Agra under DRDO. The other options name different organisations or locations not associated with this system."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "DRDO motto and establishment",
+   "question": "Which motto and establishment year correctly belong to the Defence Research and Development Organisation (DRDO)?",
+   "options": [
+    "“Balasya Mulam Vigyanam”, 1958",
+    "“Jai Jawan Jai Kisan”, 1962",
+    "“Vigyanam Sarvatra Pujyate”, 1954",
+    "“Satyameva Jayate”, 1948"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4"
+   ],
+   "explanation": "DRDO was established in 1958 and its motto is “Balasya Mulam Vigyanam.” The other options combine different mottos or establishment years."
+  }
+ ]
+}

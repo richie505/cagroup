@@ -1,0 +1,110 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25
+ ],
+ "only": [
+  "P18.F2",
+  "P18.F3",
+  "P20.F2",
+  "P20.F3",
+  "P22.F4",
+  "P24.F3",
+  "P25.F2",
+  "P25.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Launched by and shipyard milestone",
+   "question": "Regarding the launch of the Next Generation Patrol Vessel “Shreyas” by GRSE, consider the following statements:\n1. “Shreyas” was launched by the wife of Vice Chief Vice Admiral Ajay Kochhar.\n2. GRSE was established in 1885.\n3. GRSE became the first Indian shipyard to deliver the indigenous warship INS Ajay in 1962.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F2",
+    "P18.F3"
+   ],
+   "explanation": "Only statement 1 is correct: “Shreyas” was launched by the wife of Vice Chief Vice Admiral Ajay Kochhar. GRSE was established in 1884 and delivered INS Ajay in 1961, making statements 2 and 3 incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "ROV applications and iDEX launch",
+   "question": "With reference to EyeROV’s TROUT underwater remotely operated vehicle, consider the following statements:\nStatement A: TROUT is used for surveillance, port protection, and search and recovery.\nStatement B: The Innovations for Defence Excellence (iDEX) initiative was launched in 2019.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P20.F2",
+    "P20.F3"
+   ],
+   "explanation": "Statement A is true because TROUT supports surveillance, port protection, and search and recovery. Statement B is false: iDEX was launched in 2018, not 2019."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Role of the Chief of Defence Staff",
+   "question": "Under Project Seabird Phase-IIA, which description correctly identifies the institutional role of the Chief of Defence Staff (CDS)?",
+   "options": [
+    "Permanent Chairman of the Chiefs of Staff Committee and head of the Department of Military Affairs",
+    "Permanent Chairman of the Chiefs of Staff Committee and head of Project Seabird",
+    "Chief of the Navy and head of the Department of Military Affairs",
+    "Chairman of the Western Naval Command and head of the Department of Military Affairs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P22.F4"
+   ],
+   "explanation": "The CDS is the Permanent Chairman of the Chiefs of Staff Committee and heads the Department of Military Affairs. The other options incorrectly substitute Project Seabird, the Navy, or the Western Naval Command for this role."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First Indian woman on Mount Everest",
+   "question": "Who was the first Indian woman to summit Mount Everest, according to the Coast Guard’s mountaineering-related current-affairs context?",
+   "options": [
+    "Tenzing",
+    "Hillary",
+    "Bachendri Pal",
+    "General N.S. Raja Subramani"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P24.F3"
+   ],
+   "explanation": "Bachendri Pal became the first Indian woman to summit Mount Everest on 23 May 1984. Tenzing and Hillary made the first summit in 1953, while General N.S. Raja Subramani is associated with the Chief of Defence Staff role."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Aircraft history and operational association",
+   "question": "Match the aircraft or operation associated with IAF No. 17 Squadron “Golden Arrows” in List-I with the corresponding detail in List-II.\n\nList-I\n(a) Harvard-II B\n(b) de Havilland Vampire jets\n(c) Dassault Rafale\n(d) Operation Sindoor\n\nList-II\n(i) 12 aircraft\n(ii) 1955\n(iii) Current aircraft\n(iv) May 2025",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P25.F2",
+    "P25.F3"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii, and d-iv: the squadron’s first aircraft was Harvard-II B (12), Vampire jets were introduced in 1955, its current aircraft is Dassault Rafale, and it took part in Operation Sindoor in May 2025. The other codes interchange these aircraft and operational details."
+  }
+ ]
+}

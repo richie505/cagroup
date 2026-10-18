@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P8.F1",
+  "P8.F2",
+  "P8.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Venue, date and theme",
+   "question": "With reference to the 38th National Yogasana Championship 2026 held in Imphal, consider the following statements:\n1. It was held from 2–4 October 2026 at Khuman Lampak Main Indoor Stadium, Imphal.\n2. Its theme was “Yogasana for Health, Harmony and National Unity”.\n3. It was held from 2–4 October 2026 at the Sporting Planet Sports Complex, Belagavi.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the championship was held from 2–4 October 2026 at Khuman Lampak Main Indoor Stadium, Imphal, with the theme “Yogasana for Health, Harmony and National Unity”. Statement 3 is incorrect because Sporting Planet Sports Complex, Belagavi, was associated with the AIFF U15 Women’s Youth League, not this championship."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Qualification event",
+   "question": "The trials conducted during the 38th National Yogasana Championship 2026 were for participation in which event?",
+   "options": [
+    "The 38th National Yogasana Championship in Imphal, 2026",
+    "The 12th World Yogasana Championship in Thailand, 2027",
+    "The 12th World Yogasana Championship in Imphal, 2026",
+    "The 38th National Yogasana Championship in Thailand, 2027"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "The trials were conducted for the 12th World Yogasana Championship, scheduled to be held in Thailand in 2027. The other options incorrectly interchange the national and world championships or their venue and year."
+  }
+ ]
+}

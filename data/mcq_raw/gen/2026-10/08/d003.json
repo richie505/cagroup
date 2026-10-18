@@ -1,0 +1,158 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P10.F4",
+  "P10.F6",
+  "P10.F7",
+  "P10.F8",
+  "P10.F9",
+  "P11.F1",
+  "P11.F2",
+  "P11.F3",
+  "P11.F4",
+  "P11.F5",
+  "P12.F2",
+  "P12.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in peak power demand",
+   "question": "According to the CEA peak power demand rankings for August 2026, which State stood at the fourth position?",
+   "options": [
+    "Tamil Nadu",
+    "Andhra Pradesh",
+    "Telangana",
+    "Gujarat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "Tamil Nadu ranked fourth with a peak demand of 21,313 MW in August 2026. Andhra Pradesh was placed ninth, while Telangana was placed fifth."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Peak demand ranking and growth",
+   "question": "Consider the following statements regarding the CEA peak power demand data for August 2026:\n1. Andhra Pradesh stood at the ninth position with a peak demand of 13,987 MW.\n2. Telangana recorded 19,892 MW in September 2026.\n3. All-India peak demand remained below 2.58 lakh MW in August 2026.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F6",
+    "P10.F7",
+    "P10.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Andhra Pradesh ranked ninth with 13,987 MW, and Telangana recorded 19,892 MW in September 2026. Statement 3 is incorrect because All-India peak demand exceeded 2.58 lakh MW in August 2026."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Legal basis and administrative ministry",
+   "question": "Assertion (A): The Central Electricity Authority operates under the Electricity Act, 2003.\nReason (R): The Central Electricity Authority is associated with the Ministry of Power.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F9"
+   ],
+   "explanation": "Both the assertion and the reason are true: the current legal framework is the Electricity Act, 2003, and the Central Electricity Authority is associated with the Ministry of Power. However, the Ministry of Power does not explain the replacement of the Electricity (Supply) Act, 1948 by the Electricity Act, 2003."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First national survey and conducting organisation",
+   "question": "India's first National Household Travel Survey, covering the period July 2025–June 2026, was conducted by which organisation?",
+   "options": [
+    "National Statistical Office under MoSPI",
+    "Central Electricity Authority",
+    "Pahle India Foundation",
+    "Social Statistics Division alone"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "India's first National Household Travel Survey was conducted by the National Statistical Office under MoSPI during July 2025–June 2026. The Central Electricity Authority and Pahle India Foundation were not the conducting organisation for this survey."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Survey coverage and commuting expenditure",
+   "question": "Match the following features of India's first National Household Travel Survey:\n\nList-I\n(a) Villages covered\n(b) Urban blocks covered\n(c) Two-wheelers' share for travel to fixed workplaces\n(d) Average monthly commute expenditure\n\nList-II\n(i) 14,274\n(ii) 10,377\n(iii) 42.6%\n(iv) ₹785\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2",
+    "P11.F3",
+    "P11.F4"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: the survey covered 14,274 villages and 10,377 urban blocks; two-wheelers accounted for 42.6% of travel to fixed workplaces; and average monthly commute expenditure was ₹785. The other codes interchange these survey figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institutional formation",
+   "question": "The National Statistical Office was formed in 2019 by merging which two organisations?",
+   "options": [
+    "CSO and NSSO",
+    "NSO and CEA",
+    "MoSPI and Pahle India Foundation",
+    "SEEA and EnviStats India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F5"
+   ],
+   "explanation": "The National Statistical Office was formed in 2019 by merging the Central Statistics Office and the National Sample Survey Office. The other options name unrelated organisations or statistical frameworks and publications."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Environmental accounting priorities",
+   "question": "Which of the following are priorities under the MoSPI Strategy for Environmental Economic Accounts 2026–2030?\n1. Forests, water and land\n2. Soil, minerals, carbon stocks, biodiversity and pollination services\n3. Tourism, transport and urban housing\n\nSelect the correct answer using the code below.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2"
+   ],
+   "explanation": "Statements 1 and 2 correctly identify the strategy's priorities, including forests, water, land, soil, minerals, carbon stocks, biodiversity and pollination services. Statement 3 is incorrect because tourism, transport and urban housing are not listed among these priorities."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SEEA frameworks and national publication",
+   "question": "Which combination correctly describes the environmental accounting standards and publication associated with India's environmental economic accounts?",
+   "options": [
+    "SEEA Central Framework—2012; SEEA Ecosystem Accounting—2021; EnviStats India",
+    "SEEA Central Framework—2021; SEEA Ecosystem Accounting—2012; EnviStats India",
+    "SEEA Central Framework—2012; SEEA Ecosystem Accounting—2021; no Indian publication",
+    "SEEA Central Framework—2021; SEEA Ecosystem Accounting—2012; no Indian publication"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "The SEEA Central Framework dates to 2012, while SEEA Ecosystem Accounting dates to 2021; India publishes EnviStats India. The other combinations reverse the framework years or incorrectly deny India's publication."
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F11",
+  "P0.F15"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Ancient name",
+   "question": "What was the ancient name of Sarnath, the site associated with Buddha’s first sermon?",
+   "options": [
+    "Rishipattan",
+    "Dharmachakra",
+    "Sarnath",
+    "Tentative List"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "Sarnath was anciently known as Rishipattan and is associated with Buddha’s first sermon, known as the Dharmachakra. Dharmachakra refers to the first sermon, not the ancient name of the site."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Danger List examples",
+   "question": "Which of the following combination consists entirely of examples associated with the World Heritage in Danger List?",
+   "options": [
+    "Bamiyan Valley, Zabid and Bam",
+    "Bamiyan Valley, Rishipattan and Bam",
+    "Zabid, Dharmachakra and Bam",
+    "Rishipattan, Zabid and Dharmachakra"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Bamiyan Valley, Zabid in Yemen and Bam in Iran are examples associated with the World Heritage in Danger List. Rishipattan and Dharmachakra are associated with Sarnath and Buddha’s first sermon, not the listed danger-site examples."
+  }
+ ]
+}

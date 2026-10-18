@@ -1,0 +1,53 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F3",
+  "P1.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Top-ranked economy",
+   "question": "Which economy secured the first position in the Global Innovation Index 2026 with a score of 66.7?",
+   "options": [
+    "Switzerland",
+    "India",
+    "China",
+    "Bengaluru"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5",
+    "P0.F8"
+   ],
+   "explanation": "Switzerland ranked first in the Global Innovation Index 2026 with a score of 66.7. India, China and Bengaluru are associated with other results in the index, not the top global position."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State rank by number of factories",
+   "question": "According to the Annual Survey of Industries 2024–25, which State ranked seventh in the number of factories, with 13,937 factories?",
+   "options": [
+    "Telangana",
+    "Andhra Pradesh",
+    "Maharashtra",
+    "Gujarat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F2",
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "Telangana ranked seventh with 13,937 factories in the Annual Survey of Industries 2024–25. Andhra Pradesh ranked sixth, while Maharashtra and Gujarat occupied higher positions in the ranking."
+  }
+ ]
+}

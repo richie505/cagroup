@@ -1,0 +1,157 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P5.F2",
+  "P5.F3",
+  "P6.F3",
+  "P6.F4",
+  "P6.F5",
+  "P7.F3",
+  "P7.F4",
+  "P7.F5",
+  "P8.F14",
+  "P8.F15",
+  "P8.F4",
+  "P8.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "President of institution",
+   "question": "Who was the President of the World Bank in October 2026?",
+   "options": [
+    "Ajay Banga",
+    "Sanjay Malhotra",
+    "The Office of the Economic Adviser",
+    "The National Statistical Office"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "Ajay Banga was the President of the World Bank. Sanjay Malhotra was the Governor of the RBI, while the Office of the Economic Adviser and the National Statistical Office are institutions, not the World Bank President."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP base year",
+   "question": "What was the base year used by the NSO for GDP estimates?",
+   "options": [
+    "2022–23",
+    "2016",
+    "April 2026",
+    "September 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The NSO used 2022–23 as the base year for GDP estimates. The other options refer to a year associated with the MPC framework or months appearing in the economic updates, not the GDP base year."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "State-wise CPI ranking",
+   "question": "Consider the following statements:\nStatement A: Telangana was the highest among the cited States during January–August 2026 and slipped to fourth place in September 2026.\nStatement B: Telangana was the highest among the cited States during January–August 2026 and remained the highest in September 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "Statement A is correct: Telangana, which had been highest during January–August 2026, slipped to fourth place. Statement B is incorrect because Telangana did not remain highest in September 2026."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Institutions and monetary framework",
+   "question": "With reference to India’s CPI, WPI and Monetary Policy Committee framework, consider the following statements:\n1. CPI is compiled by the NSO.\n2. WPI is compiled by the NSO.\n3. The MPC was introduced through an amendment to the RBI Act in 2015.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "Only statement 1 is correct: CPI is compiled by the NSO. WPI is handled by the Office of the Economic Adviser, DPIIT, and the MPC was introduced through an amendment to the RBI Act in 2016, not 2015."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Net FDI calculation",
+   "question": "In the context of India’s net FDI, which expression is correct?",
+   "options": [
+    "Gross inward FDI − outward FDI − repatriation/disinvestment",
+    "Gross inward FDI + outward FDI + repatriation/disinvestment",
+    "Outward FDI − gross inward FDI − repatriation/disinvestment",
+    "Repatriation/disinvestment − gross inward FDI + outward FDI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "Net FDI is calculated as gross inward FDI minus outward FDI minus repatriation/disinvestment. The other options incorrectly add or reverse the components."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "FDI policy and RBI profile",
+   "question": "Match List-I with List-II.\n\nList-I\n a. FDI policy\n b. Routes for FDI\n c. RBI headquarters\n d. RBI Governor\n\nList-II\n i. Sanjay Malhotra\n ii. Automatic and Government\n iii. Mumbai\n iv. DPIIT",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4",
+    "P7.F5"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i. FDI policy is handled by DPIIT, the routes are Automatic and Government, the RBI headquarters is in Mumbai, and its Governor is Sanjay Malhotra."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Outlay components",
+   "question": "Consider the following statements regarding the outlay components of Green Energy Corridor Phase-III:\nStatement A: The Intra-State transmission component amounts to ₹1,36,378 crore.\nStatement B: The Central Financial Support component amounts to ₹50,000 crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F6"
+   ],
+   "explanation": "Statement A is correct because the Intra-State transmission component is ₹1,36,378 crore. Statement B is incorrect: Central Financial Support amounts to ₹54,082 crore; ₹50,000 crore is associated with the 50 GWh BESS component."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Renewable-energy targets and storage",
+   "question": "How many of the following statements regarding renewable-energy targets and storage types are correct?\n1. Renewable-energy capacity is targeted to rise from 295 GW to 500 GW by 2030.\n2. Non-fossil capacity is targeted at 900 GW by 2035.\n3. Battery energy storage systems include lithium iron phosphate technology.\n4. Compressed air is not included among the listed storage types.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F14",
+    "P8.F15"
+   ],
+   "explanation": "Only three statements are correct: statements 1, 2 and 3. Compressed air is included among the listed storage types, so statement 4 is incorrect."
+  }
+ ]
+}

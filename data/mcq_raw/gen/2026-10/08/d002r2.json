@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P6.F3",
+  "P6.F5",
+  "P6.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Regional distribution of degraded land",
+   "question": "According to the FAO State of the World's Forests 2026, consider the following statements about regional degraded land:\n\n1. Asia accounted for 583 million hectares.\n2. Africa accounted for 245 million hectares.\n3. South America accounted for 334 million hectares.\n\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "Only statement 1 is correct: Asia accounted for 583 million hectares of degraded land. Africa accounted for 334 million hectares and South America accounted for 245 million hectares, so statements 2 and 3 interchange the two regional figures."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "FAO establishment and COFO venue",
+   "question": "With reference to the Food and Agriculture Organization and the 28th Session of the FAO Committee on Forestry, consider the following statements:\n\nStatement A: The FAO was established in 1945 and is headquartered in Rome.\nStatement B: The 28th Session of the FAO Committee on Forestry was held in Paris from 28 September to 2 October 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F5",
+    "P6.F6"
+   ],
+   "explanation": "Statement A is correct because the FAO was established in 1945 and has its headquarters in Rome. Statement B is incorrect because the 28th Session of the FAO Committee on Forestry was held in Rome from 28 September to 2 October 2026, not in Paris."
+  }
+ ]
+}

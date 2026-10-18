@@ -1,36 +1,35 @@
 # CA MCQ report
 
-- MCQs kept: **3795**
-- News pages with at least one question: **2588 / 2629**
-- Facts tested: **8040 / 20515** (39.2%)
-- Answer positions: A 985, B 970, C 1016, D 824
+- MCQs kept: **4228**
+- News pages with at least one question: **2590 / 2629**
+- Facts tested: **8714 / 20515** (42.5%)
+- Answer positions: A 1079, B 1092, C 1135, D 922
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 380 | 404 | 401 | 334 |
-| Negative / Incorrect Statement | 107 | 110 | 114 | 114 |
-| Assertion-Reason | 119 | 113 | 146 | 124 |
-| Statement-Based (A/B) | 143 | 89 | 128 | 110 |
-| Multi-Statement Correctness | 154 | 124 | 133 | 118 |
-| Chronological Ordering | 2 | 0 | 0 | 0 |
-| List-Matching | 31 | 28 | 30 | 22 |
-| Count-Based | 49 | 102 | 64 | 2 |
+| Direct Recall | 432 | 450 | 457 | 378 |
+| Negative / Incorrect Statement | 109 | 112 | 117 | 115 |
+| Assertion-Reason | 120 | 120 | 152 | 137 |
+| Statement-Based (A/B) | 149 | 102 | 144 | 117 |
+| Multi-Statement Correctness | 163 | 144 | 148 | 141 |
+| Chronological Ordering | 3 | 0 | 0 | 0 |
+| List-Matching | 51 | 46 | 46 | 32 |
+| Count-Based | 52 | 118 | 71 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 415 |
-| verify:explanation_contradicts | 54 |
-| verify:not_in_facts | 52 |
-| over the page's quota | 24 |
-| duplicate | 18 |
-| verify:none_correct | 16 |
-| verify:two_correct | 9 |
-| verify:second reader picked option 2, key 1 | 8 |
+| code | 455 |
+| verify:explanation_contradicts | 58 |
+| verify:not_in_facts | 56 |
+| duplicate | 27 |
+| verify:none_correct | 17 |
+| verify:two_correct | 11 |
+| verify:second reader picked option 2, key 1 | 9 |
+| verify:ambiguous_stem | 3 |
 | verify:garbled | 3 |
 | verify:second reader picked option 1, key 0 | 2 |
-| verify:ambiguous_stem | 2 |
 | verify:second reader picked option 3, key 0 | 1 |
 | verify:second reader picked option 2, key 0 | 1 |
 | verify:trivial | 1 |
@@ -41,34 +40,34 @@
 
 | File | Category | MCQs | Facts tested |
 |---|---|---|---|
-| 2026-10/01 | Andhra Pradesh | 23 | 48/136 |
-| 2026-10/02 | Polity & Governance | 8 | 16/82 |
-| 2026-10/03 | Schemes & Social Sector | 16 | 29/62 |
-| 2026-10/04 | Economy, Banking & Budget | 27 | 62/145 |
-| 2026-10/05 | International Relations | 17 | 41/63 |
-| 2026-10/06 | Science, Tech, Space & Defence | 49 | 89/197 |
-| 2026-10/07 | Environment & Geography | 16 | 27/83 |
-| 2026-10/08 | Reports, Indices & Rankings | 19 | 48/110 |
-| 2026-10/09 | Awards, Persons & Appointments | 27 | 54/92 |
-| 2026-10/10 | Sports | 14 | 30/85 |
-| 2026-10/11 | Important Days & Events | 14 | 26/80 |
+| 2026-10/01 | Andhra Pradesh | 77 | 134/136 |
+| 2026-10/02 | Polity & Governance | 41 | 82/82 |
+| 2026-10/03 | Schemes & Social Sector | 37 | 62/62 |
+| 2026-10/04 | Economy, Banking & Budget | 79 | 143/145 |
+| 2026-10/05 | International Relations | 31 | 62/63 |
+| 2026-10/06 | Science, Tech, Space & Defence | 119 | 196/197 |
+| 2026-10/07 | Environment & Geography | 54 | 82/83 |
+| 2026-10/08 | Reports, Indices & Rankings | 59 | 110/110 |
+| 2026-10/09 | Awards, Persons & Appointments | 52 | 90/92 |
+| 2026-10/10 | Sports | 47 | 83/85 |
+| 2026-10/11 | Important Days & Events | 49 | 79/80 |
 | 2026-09/01 | Andhra Pradesh | 37 | 77/193 |
 | 2026-09/02 | Polity & Governance | 33 | 66/160 |
 | 2026-09/03 | Schemes & Social Sector | 24 | 48/137 |
 | 2026-09/04 | Economy, Banking & Budget | 31 | 68/173 |
-| 2026-09/05 | International Relations | 41 | 83/198 |
+| 2026-09/05 | International Relations | 42 | 84/198 |
 | 2026-09/06 | Science, Tech, Space & Defence | 42 | 81/294 |
 | 2026-09/07 | Environment & Geography | 17 | 39/104 |
 | 2026-09/08 | Reports, Indices & Rankings | 28 | 58/139 |
 | 2026-09/09 | Awards, Persons & Appointments | 36 | 82/179 |
-| 2026-09/10 | Sports | 16 | 30/76 |
+| 2026-09/10 | Sports | 18 | 33/76 |
 | 2026-09/11 | Important Days & Events | 21 | 45/156 |
-| 2026-08/01 | Andhra Pradesh | 45 | 104/230 |
+| 2026-08/01 | Andhra Pradesh | 46 | 106/230 |
 | 2026-08/02 | Polity & Governance | 32 | 74/169 |
 | 2026-08/03 | Schemes & Social Sector | 19 | 45/97 |
 | 2026-08/04 | Economy, Banking & Budget | 38 | 82/247 |
 | 2026-08/05 | International Relations | 25 | 50/116 |
-| 2026-08/06 | Science, Tech, Space & Defence | 35 | 77/204 |
+| 2026-08/06 | Science, Tech, Space & Defence | 37 | 79/204 |
 | 2026-08/07 | Environment & Geography | 21 | 44/114 |
 | 2026-08/08 | Reports, Indices & Rankings | 23 | 61/128 |
 | 2026-08/09 | Awards, Persons & Appointments | 21 | 54/96 |
@@ -89,28 +88,28 @@
 | 2026-06/02 | Polity & Governance | 12 | 31/83 |
 | 2026-06/03 | Schemes & Social Sector | 47 | 73/157 |
 | 2026-06/04 | Economy, Banking & Budget | 36 | 61/207 |
-| 2026-06/05 | International Relations | 33 | 57/132 |
+| 2026-06/05 | International Relations | 34 | 58/132 |
 | 2026-06/06 | Science, Tech, Space & Defence | 33 | 51/140 |
 | 2026-06/07 | Environment & Geography | 20 | 37/125 |
 | 2026-06/08 | Reports, Indices & Rankings | 26 | 61/124 |
 | 2026-06/09 | Awards, Persons & Appointments | 14 | 31/63 |
 | 2026-06/10 | Sports | 8 | 15/31 |
 | 2026-06/11 | Important Days & Events | 40 | 49/97 |
-| 2026-05/01 | Andhra Pradesh | 59 | 128/262 |
+| 2026-05/01 | Andhra Pradesh | 60 | 128/262 |
 | 2026-05/02 | Polity & Governance | 33 | 77/172 |
 | 2026-05/03 | Schemes & Social Sector | 22 | 51/110 |
 | 2026-05/04 | Economy, Banking & Budget | 48 | 93/257 |
 | 2026-05/05 | International Relations | 26 | 60/149 |
-| 2026-05/06 | Science, Tech, Space & Defence | 33 | 75/156 |
+| 2026-05/06 | Science, Tech, Space & Defence | 34 | 74/156 |
 | 2026-05/07 | Environment & Geography | 13 | 30/60 |
 | 2026-05/08 | Reports, Indices & Rankings | 19 | 41/110 |
 | 2026-05/09 | Awards, Persons & Appointments | 30 | 60/185 |
 | 2026-05/10 | Sports | 14 | 32/62 |
 | 2026-05/11 | Important Days & Events | 15 | 26/75 |
-| 2026-04/01 | Andhra Pradesh | 65 | 129/306 |
+| 2026-04/01 | Andhra Pradesh | 66 | 130/306 |
 | 2026-04/02 | Polity & Governance | 39 | 86/211 |
 | 2026-04/03 | Schemes & Social Sector | 16 | 32/71 |
-| 2026-04/04 | Economy, Banking & Budget | 26 | 57/116 |
+| 2026-04/04 | Economy, Banking & Budget | 27 | 57/116 |
 | 2026-04/05 | International Relations | 24 | 46/92 |
 | 2026-04/06 | Science, Tech, Space & Defence | 20 | 37/129 |
 | 2026-04/07 | Environment & Geography | 33 | 66/152 |
@@ -130,19 +129,19 @@
 | 2026-03/10 | Sports | 8 | 16/42 |
 | 2026-03/11 | Important Days & Events | 14 | 21/78 |
 | 2026-02/01 | Andhra Pradesh | 42 | 107/236 |
-| 2026-02/02 | Polity & Governance | 35 | 71/198 |
+| 2026-02/02 | Polity & Governance | 36 | 72/198 |
 | 2026-02/03 | Schemes & Social Sector | 14 | 35/73 |
 | 2026-02/04 | Economy, Banking & Budget | 22 | 43/188 |
 | 2026-02/05 | International Relations | 40 | 96/202 |
-| 2026-02/06 | Science, Tech, Space & Defence | 29 | 61/153 |
-| 2026-02/07 | Environment & Geography | 25 | 60/166 |
+| 2026-02/06 | Science, Tech, Space & Defence | 29 | 63/153 |
+| 2026-02/07 | Environment & Geography | 26 | 61/166 |
 | 2026-02/08 | Reports, Indices & Rankings | 10 | 23/44 |
 | 2026-02/09 | Awards, Persons & Appointments | 17 | 44/74 |
 | 2026-02/10 | Sports | 11 | 23/48 |
 | 2026-02/11 | Important Days & Events | 19 | 37/116 |
 | 2026-01/01 | Andhra Pradesh | 42 | 95/193 |
 | 2026-01/02 | Polity & Governance | 29 | 63/137 |
-| 2026-01/03 | Schemes & Social Sector | 23 | 46/81 |
+| 2026-01/03 | Schemes & Social Sector | 26 | 47/81 |
 | 2026-01/04 | Economy, Banking & Budget | 42 | 104/246 |
 | 2026-01/05 | International Relations | 39 | 77/162 |
 | 2026-01/06 | Science, Tech, Space & Defence | 18 | 30/84 |
@@ -172,8 +171,8 @@
 | 2025-10/01 | Andhra Pradesh | 56 | 127/294 |
 | 2025-10/02 | Polity & Governance | 25 | 51/137 |
 | 2025-10/03 | Schemes & Social Sector | 18 | 44/97 |
-| 2025-10/04 | Economy, Banking & Budget | 21 | 49/101 |
-| 2025-10/05 | International Relations | 33 | 63/185 |
+| 2025-10/04 | Economy, Banking & Budget | 21 | 50/101 |
+| 2025-10/05 | International Relations | 33 | 64/185 |
 | 2025-10/06 | Science, Tech, Space & Defence | 18 | 43/92 |
 | 2025-10/07 | Environment & Geography | 33 | 75/158 |
 | 2025-10/08 | Reports, Indices & Rankings | 10 | 19/54 |
@@ -183,7 +182,7 @@
 | 2025-09/02 | Polity & Governance | 28 | 64/138 |
 | 2025-09/03 | Schemes & Social Sector | 17 | 46/91 |
 | 2025-09/04 | Economy, Banking & Budget | 27 | 64/130 |
-| 2025-09/05 | International Relations | 40 | 84/203 |
+| 2025-09/05 | International Relations | 41 | 86/203 |
 | 2025-09/06 | Science, Tech, Space & Defence | 20 | 45/80 |
 | 2025-09/07 | Environment & Geography | 17 | 36/70 |
 | 2025-09/08 | Reports, Indices & Rankings | 10 | 21/59 |
@@ -233,7 +232,7 @@
 | 2025-04/10 | Sports | 6 | 12/30 |
 | 2025-04/11 | Important Days & Events | 2 | 4/15 |
 | special/01 | Budgets, Finance Commission & NITI Aayog | 19 | 47/233 |
-| special/02 | Awards & Honours | 24 | 57/319 |
+| special/02 | Awards & Honours | 25 | 60/319 |
 | special/03 | Environment | 12 | 29/142 |
 | special/04 | Polity, Elections & Society | 8 | 16/50 |
 | special/05 | Sports | 4 | 11/26 |
@@ -247,8 +246,20 @@
 - `2026-10/01/c000#2` verify: two_correct — Option 3 also identifies the date because the ISA foundation-stone ceremony occurred on the same day as the launch.
   - Q: The project titled “Global Horticulture Hub–Rayalaseema Rising” was launched at which place and on which date?
   - Key: Madanapalle, Annamayya district, on 2 October 2026
+- `2026-10/01/d000#12` verify: not_in_facts — The facts establish that the private share is larger but do not establish its association with food processing, logistics and exports.
+  - Q: Which of the following statements about the funding structure of the Global Horticulture Hub is incorrect?
+  - Key: The government investment share is larger than the private investment share.
+- `2026-10/01/d002#11` verify: explanation_contradicts — The facts explicitly give the stated expansion of PRASHAD, so statements 1, 2 and 3 are correct, making the count three rather than two.
+  - Q: How many of the following statements are correct? / 1. Lambasingi has 15 geodesic glamping cottages. / 2. QR digital guides are available in 130+ languages at 100+ locations. / 3. PRASHAD stands for Pilgrim
+  - Key: Only two
+- `2026-10/02/d000#18` verify: explanation_contradicts — The explanation additionally identifies Arthur Hamilton Lee as chairman, creating a contradiction with the stated chairman Lord Lee of Fareham.
+  - Q: Who chaired the Lee Commission appointed in 1923, whose report in 1924 recommended a statutory Public Service Commission?
+  - Key: Lord Lee of Fareham
 - `2026-10/03/c000#5` verify: not_in_facts — The facts support the 100% literacy achievement and the 5-crore target but do not establish that Lakshadweep was the first Union Territory.
   - Q: Assertion (A): Lakshadweep became the first Union Territory to achieve 100% literacy under ULLAS. / Reason (R): ULLAS has a target of covering 5 crore people.
+  - Key: Both A and R are true, but R is NOT the correct explanation of A
+- `2026-10/03/d000#6` verify: explanation_contradicts — Both statements are true, but the Reason does not explain the numerical increase; this corresponds to option 1, not option 2.
+  - Q: Assertion (A): The average district score under the PM Dhan-Dhaanya Krishi Yojana increased by 28.04 between April and August 2026. / Reason (R): The scheme converges 36 schemes of 11 Ministries.
   - Key: Both A and R are true, but R is NOT the correct explanation of A
 - `2026-10/03/g000#1` verify: not_in_facts — The facts do not identify which Union Territory achieved 100% literacy.
   - Q: Which Union Territory became the first in India to achieve 100% literacy under the ULLAS programme?
@@ -259,6 +270,12 @@
 - `2026-10/04/c000#4` verify: second reader picked option 2, key 1 — 
   - Q: With reference to the key recommendations of the 57th GST Council meeting, how many of the following are correct? / 1. Arrest provisions under GST were recommended for removal. / 2. The prosecution thresh
   - Key: Only two
+- `2026-10/04/d002#2` verify: two_correct — The facts give both ₹13,906.50 crore and its approximate equivalent of USD 1.5 billion as the pool’s capacity.
+  - Q: What is the capacity of the Bharat Maritime Insurance Pool?
+  - Key: ₹13,906.50 crore
+- `2026-10/04/d002#7` verify: two_correct — Both Balrampur Chini Mills and Vedanta Sterlite Copper are identified among the other associated users.
+  - Q: Which entity was mentioned among the other users associated with the Bharat Maritime Insurance Pool?
+  - Key: Balrampur Chini Mills
 - `2026-10/05/c001#5` verify: two_correct — The facts say the Houthis captured both Turbah and Mocha port, so two options are defensible.
   - Q: Which place was captured by the Houthis, also known as Ansar Allah, in Yemen?
   - Key: Turbah
@@ -271,9 +288,30 @@
 - `2026-10/06/c003#0` verify: not_in_facts — The facts identify the craft only by type and sequence, not by the name Mangrol.
   - Q: Which Anti-Submarine Warfare Shallow Water Craft was inducted at the Naval Dockyard, Mumbai, on 12 October 2026?
   - Key: ASW-SWC Mangrol
+- `2026-10/06/d000#4` verify: not_in_facts — The facts establish the incorrect deployed count but do not establish that Rudra servers formed part of an indigenous technology effort.
+  - Q: Which of the following statements about the Rudra servers under the National Supercomputing Mission is incorrect?
+  - Key: The number of deployed Rudra servers was about 5,000.
+- `2026-10/08/d002#0` verify: not_in_facts — The facts give no basis for matching India with 82.74 million ha.
+  - Q: Match the regions with the estimated degraded forest area reported in the FAO State of the World's Forests 2026. /  / List-I / (a) Asia / (b) Africa / (c) South America / (d) India /  / List-II / (i) 583 million ha / (ii
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2026-10/09/d001#1` verify: not_in_facts — The facts identify SASTRA as the award's 'By' detail but do not establish that it instituted the award.
+  - Q: With reference to the SASTRA–Ramanujan Award 2026, consider the following statements: / 1. Its associated fields include analytic number theory and additive combinatorics. / 2. The award was instituted by
+  - Key: 1 and 2 only
+- `2026-10/10/d000#10` verify: ambiguous_stem — The fact that Lovlina was the second Indian woman after Mary Kom can also mean she was the first woman after Mary Kom, so statement 3 is linguistically ambiguous.
+  - Q: Consider the following statements regarding India’s performance at the 20th Asian Games Aichi–Nagoya 2026: / 1. Kumkum Anil Mohod became the first Indian woman to win individual recurve gold. / 2. Neeru D
+  - Key: 1 and 2 only
+- `2026-10/10/d002#0` verify: none_correct — Statements 1 and 3 are correct, but no option lists exactly 1 and 3.
+  - Q: With reference to the 38th National Yogasana Championship 2026 held in Imphal, consider the following statements: /  / 1. It was held from 2 to 4 October 2026 at Khuman Lampak Main Indoor Stadium. / 2. Its 
+  - Key: 1 only
 - `2026-10/11/c002#1` verify: not_in_facts — The facts identify the Hidimba Devi Temple but do not state that President Murmu visited it.
   - Q: Which temple in Manali did President Murmu visit?
   - Key: Hidimba Devi Temple
+- `2026-10/11/d000#7` verify: explanation_contradicts — The facts identify Bam as another danger-list example, making three rather than the explanation's claimed two.
+  - Q: How many of the following are examples associated with the World Heritage in Danger list? /  / 1. Bamiyan Valley / 2. Zabid in Yemen / 3. Bam in Iran / 4. Sarnath
+  - Key: Only two
+- `2026-10/11/d001#10` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements about National Wildlife Week and India’s wildlife institutions are correct? / 1. National Wildlife Week was conceived in 1952 by the Indian Board for Wildlife. / 2. Th
+  - Key: Only two
 - `2026-10/11/g002#0` verify: two_correct — The facts associate the temple with both Manali and Kullu, so options 0 and 1 can be defended.
   - Q: President Droupadi Murmu's visit to Hidimba Devi Temple was associated with which place?
   - Key: Manali

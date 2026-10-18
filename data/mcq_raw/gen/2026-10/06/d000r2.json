@@ -1,0 +1,67 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F6",
+  "P2.F12",
+  "P2.F13",
+  "P2.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Crane manufacturer and construction method",
+   "question": "Which combination correctly describes the 300-tonne Goliath Crane commissioned at Hindustan Shipyard Ltd, Visakhapatnam?",
+   "options": [
+    "Made by L&T Geostructure with Konecranes under Make in India and using block-construction",
+    "Made by L&T Geostructure with Konecranes under Make in India and using slipway-construction",
+    "Made by L&T Geostructure with Konecranes under Design and Manufacture and using block-construction",
+    "Made by L&T Geostructure with Konecranes under Make in India and using modular-construction"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "The Goliath Crane was made by L&T Geostructure with Konecranes under the Make in India approach and uses block-construction. The most tempting alternative changes the construction method to slipway-construction, whereas the reported method was block-construction."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rudra deployment and indigenous systems",
+   "question": "With reference to the National Supercomputing Mission status and indigenous technologies in September 2026, consider the following statements:\n\n1. About 6,000 Rudra servers had been deployed, while 1,500 were under production.\n2. PARAM Rudra comprises indigenous Rudra servers and an Indian software stack.\n3. PARAM Shavak is described as a “supercomputing-in-a-box” for colleges.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F12",
+    "P2.F13"
+   ],
+   "explanation": "All three statements are correct: about 6,000 Rudra servers had been deployed, 1,500 were under production, PARAM Rudra combines indigenous Rudra servers with an Indian software stack, and PARAM Shavak is a “supercomputing-in-a-box” for colleges. The tempting option “1 and 2 only” is incorrect because statement 3 is also correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Supercomputing-in-a-box",
+   "question": "Which National Supercomputing Mission initiative was described as a “supercomputing-in-a-box” for colleges?",
+   "options": [
+    "PARAM Shavak",
+    "PARAM Rudra",
+    "PARAM Yuva",
+    "PARAM 8000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F13"
+   ],
+   "explanation": "PARAM Shavak was described as a “supercomputing-in-a-box” for colleges. PARAM Rudra refers to indigenous Rudra servers and an Indian software stack, while PARAM Yuva and PARAM 8000 are different supercomputing milestones."
+  }
+ ]
+}

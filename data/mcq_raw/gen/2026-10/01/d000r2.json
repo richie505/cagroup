@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P1.F13",
+  "P1.F15"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rural roads investment",
+   "question": "Under the investment components of the Global Horticulture Hub–Rayalaseema Rising project, how much was earmarked for rural roads?",
+   "options": [
+    "₹4,562 crore",
+    "₹14,906 crore",
+    "₹20,884 crore",
+    "₹40,352 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13"
+   ],
+   "explanation": "₹4,562 crore was earmarked for rural roads under the project. ₹14,906 crore was allocated for horticulture development, making it the most tempting alternative."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Government and private investment",
+   "question": "Consider the following statements:\nStatement A: The Global Horticulture Hub–Rayalaseema Rising project is not fully government-funded.\nStatement B: The private investment share in the project is larger than the government investment share.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F15"
+   ],
+   "explanation": "Both statements are true: the project is not fully government-funded, and its private investment share is larger than its government investment share. Therefore, neither statement can be rejected on the ground that government funding is the larger component."
+  }
+ ]
+}

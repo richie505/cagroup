@@ -1,0 +1,67 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P6.F5",
+  "P7.F3",
+  "P8.F4",
+  "P8.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Data quality",
+   "question": "In the September 2026 CPI data, which category of price information was skipped because the figures in the source were inconsistent?",
+   "options": [
+    "Commodity-level price data",
+    "State-wise inflation data",
+    "CPI data compiled by the NSO",
+    "WPI data compiled by the Office of the Economic Adviser"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "Commodity-level price data was skipped because the figures in the source were inconsistent. State-wise inflation data, CPI compilation by the NSO and WPI compilation by the Office of the Economic Adviser were separately identified in the CPI framework."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Definition",
+   "question": "In the context of India’s foreign investment data, what does net FDI represent?",
+   "options": [
+    "Gross inward FDI minus outward FDI and repatriation/disinvestment",
+    "Gross inward FDI plus outward FDI and repatriation/disinvestment",
+    "Outward FDI minus gross inward FDI and repatriation/disinvestment",
+    "Repatriation/disinvestment minus gross inward FDI and outward FDI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "Net FDI is calculated as gross inward FDI minus outward FDI minus repatriation/disinvestment. The other options incorrectly add or reverse one or more components of the calculation."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Outlay components",
+   "question": "With reference to the outlay components of PM-DHARA and Green Energy Corridor Phase-III, consider the following statements:\n\n1. The Intra-State transmission component has an allocation of ₹1,36,378 crore.\n2. Central Financial Support has an allocation of ₹54,082 crore.\n3. The Intra-State transmission component has an allocation of ₹54,082 crore.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Intra-State transmission component is allocated ₹1,36,378 crore, while Central Financial Support is allocated ₹54,082 crore. Statement 3 is incorrect because ₹54,082 crore is the amount for Central Financial Support, not Intra-State transmission."
+  }
+ ]
+}

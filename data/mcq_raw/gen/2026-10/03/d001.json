@@ -1,0 +1,180 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F3",
+  "P11.F2",
+  "P11.F3",
+  "P11.F4",
+  "P12.F3",
+  "P15.F4",
+  "P7.F2",
+  "P7.F3",
+  "P8.F2",
+  "P8.F3",
+  "P9.F3",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Occasion and focus",
+   "question": "With reference to India’s first Women Farmers–Workers Conference, consider the following statements:\n1. It was held on the occasion of the UN International Year of the Woman Farmer 2026.\n2. Its focus included recognising women as farmers rather than unpaid helpers.\n3. Its focus was limited to agricultural technology and crop insurance.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the conference marked the UN International Year of the Woman Farmer 2026 and focused on recognising women as farmers, along with land rights and credit. Statement 3 is incorrect because the stated focus was not limited to agricultural technology and crop insurance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institutional history",
+   "question": "Which statement correctly describes the historical development and administrative status of the Indian Council of Medical Research (ICMR)?",
+   "options": [
+    "It was established in 1911 as IRFA, renamed ICMR in 1949, and functions under the Department of Health Research.",
+    "It was established in 1949 as IRFA, renamed ICMR in 1956, and functions under the Department of Higher Education.",
+    "It was established in 1911 as ICMR, renamed IRFA in 1949, and functions under the Department of Health Research.",
+    "It was established in 1965 as IRFA, renamed ICMR in 2006, and functions under the Department of Health Research."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "ICMR was established in 1911 as IRFA, renamed in 1949, and operates under the Department of Health Research. The tempting alternative reverses the original name and the later institutional identity."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Altitude illnesses",
+   "question": "Which set of illnesses is specifically associated with the high-altitude medical research focus of ICMR-CHAMP?",
+   "options": [
+    "AMS, HAPE and HACE",
+    "Dengue, malaria and chikungunya",
+    "TB, pneumonia and influenza",
+    "Rabies, tetanus and diphtheria"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "The altitude illnesses identified are AMS, HAPE and HACE. The other options list infectious diseases or other conditions that are not the specified altitude-illness group."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Consumer launch and NFSA coverage",
+   "question": "With reference to Bharat Rice and the National Food Security Act, 2013, consider the following statements:\nStatement A: Bharat Rice for consumers was launched in February 2024.\nStatement B: The NFSA, 2013 provides coverage of up to 75% of the rural population and 50% of the urban population.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "Both statements are true: Bharat Rice for consumers was launched in February 2024, while the NFSA provides for up to 75% rural and 50% urban coverage. The figures in Statement B should not be confused with equal coverage for rural and urban populations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "FSSAI initiative",
+   "question": "In the FSSAI’s Eat Right India initiative, what does the acronym BHOG stand for?",
+   "options": [
+    "Blissful Hygienic Offering to God",
+    "Balanced Health and Organic Grains",
+    "Bharat Hygiene and Outreach for Governance",
+    "Basic Hospitality and Offering Guidelines"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "BHOG stands for Blissful Hygienic Offering to God. The other expansions are plausible-sounding but do not give the meaning associated with the FSSAI initiative."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Religious and geographical significance",
+   "question": "Which combination correctly relates to the Ayodhya Ram Temple?",
+   "options": [
+    "Pran Pratishtha on 22 January 2024; Ayodhya is situated on the Sarayu",
+    "Pran Pratishtha on 26 January 2024; Ayodhya is situated on the Yamuna",
+    "Pran Pratishtha on 22 January 2023; Ayodhya is situated on the Ganga",
+    "Pran Pratishtha on 15 August 2024; Ayodhya is situated on the Narmada"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "The Pran Pratishtha took place on 22 January 2024, and Ayodhya is on the Sarayu. The other options alter either the date or the river."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Programme officials and legal basis",
+   "question": "How many of the following statements relating to the ‘Bhiksha Vritti Mukt Bharat’ programme are correct?\n1. Dr Virendra Kumar was the Chief Guest.\n2. Rekha Gupta was the Special Guest.\n3. The programme was linked with the SMILE scheme’s sub-scheme ‘Comprehensive Rehabilitation of Persons Engaged in the Act of Begging’.\n4. The constitutional provisions identified in this context were Article 21 and Article 40.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F2",
+    "P11.F3",
+    "P11.F4"
+   ],
+   "explanation": "Three statements are correct: Dr Virendra Kumar was the Chief Guest, Rekha Gupta was the Special Guest, and the programme relates to the specified SMILE sub-scheme. Statement 4 is incorrect because the identified constitutional provisions are Article 21 and Article 41, not Article 21 and Article 40."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Domestic violence law",
+   "question": "The Protection of Women from Domestic Violence Act, 2005 covers which combination of forms of abuse in the context of Kerala Police’s ‘Speak Up’ task force?",
+   "options": [
+    "Physical, sexual, verbal, emotional and economic abuse",
+    "Only physical and sexual abuse",
+    "Only verbal, emotional and economic abuse",
+    "Physical, financial and cyber abuse, but not sexual or verbal abuse"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "The PWDVA, 2005 covers physical, sexual, verbal, emotional and economic abuse. The other options omit one or more of these forms or introduce a limitation not stated in the law’s identified scope."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Constitutional status of UGC",
+   "question": "Which statement correctly describes the University Grants Commission (UGC) in the context of the proposed CU Denver campus in Hyderabad?",
+   "options": [
+    "It is a statutory body established under the UGC Act, 1956.",
+    "It is a constitutional body established under the Constitution of India, 1950.",
+    "It is a statutory body established under the UGC Act, 1965.",
+    "It is an executive body established under the Foreign Universities Act, 2023."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4"
+   ],
+   "explanation": "The UGC is a statutory body established under the UGC Act, 1956. The alternatives incorrectly describe its constitutional status or cite unrelated legislation and years."
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P11.F2",
+  "P12.F1",
+  "P12.F2",
+  "P12.F3",
+  "P12.F4",
+  "P13.F3",
+  "P13.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Theme and scale of festival",
+   "question": "With reference to the BRICS Theatre Festival 2026, consider the following statements:\n1. Its theme was “Shared Stories, Shared Futures”.\n2. It featured 10 groups and 11 plays.\n3. It was part of India’s BRICS Chairship 2026, following Brazil’s Chairship in 2025.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "All three statements are correct. The festival had the theme “Shared Stories, Shared Futures”, featured 10 groups and 11 plays, and formed part of India’s BRICS Chairship 2026 after Brazil’s Chairship in 2025. The option omitting the theme is therefore incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Temple architecture and mythology",
+   "question": "Match List-I with List-II in the context of the Hidimba Devi Temple at Manali and its associated tradition.\n\nList-I\n(a) Year of construction of the temple\n(b) Architectural style\n(c) Hidimba’s relationship with Bhima\n(d) Hidimba’s son\n\nList-II\n(i) 1553\n(ii) Wife\n(iii) Ghatotkacha\n(iv) Wooden pagoda style\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2"
+   ],
+   "explanation": "The correct pairs are a-i, b-iv, c-ii and d-iii. The temple was built in 1553 in wooden pagoda style; Hidimba was Bhima’s wife and Ghatotkacha was her son. The other codes interchange these architectural and mythological details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue of Kullu Dussehra",
+   "question": "Kullu Dussehra, associated with the Kullu region of Himachal Pradesh, is held at which venue?",
+   "options": [
+    "Dhalpur Maidan",
+    "Great Himalayan National Park",
+    "Dhungri Temple",
+    "Shimla Ridge"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "Kullu Dussehra is held at Dhalpur Maidan. Great Himalayan National Park is a UNESCO site, while Dhungri Temple and Shimla Ridge are different locations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Statehood and capitals of Himachal Pradesh",
+   "question": "Consider the following statements:\nStatement A: Shimla is the capital of Himachal Pradesh.\nStatement B: Himachal Pradesh attained statehood on 26 January 1971.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "Statement A is true because Shimla is the capital of Himachal Pradesh. Statement B is false: the state attained statehood on 25 January 1971, not 26 January 1971."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Temple dimensions and Musi River",
+   "question": "How many of the following statements are correct regarding the Omkareshwara Swamy Temple project and the Musi River?\n1. The temple complex has 2 prakaras and 8 rajagopurams.\n2. The Musi is a tributary of the Krishna.\n3. The main gopuram is 91 feet high and has 8 storeys.\n4. The Musi originates in the Nilgiri Hills.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F4"
+   ],
+   "explanation": "Only two statements are correct: the project has 2 prakaras and 8 rajagopurams, and the Musi is a tributary of the Krishna. The main gopuram has 9 storeys, not 8, and the Musi originates in the Ananthagiri Hills, not the Nilgiri Hills."
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F3",
+  "P10.F4",
+  "P10.F5",
+  "P11.F1",
+  "P12.F2",
+  "P12.F3",
+  "P13.F3",
+  "P14.F2",
+  "P14.F3",
+  "P15.F2",
+  "P15.F3",
+  "P16.F4",
+  "P16.F5",
+  "P9.F2",
+  "P9.F3",
+  "P9.F5",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "SAMARTH vision components",
+   "question": "With reference to the Indian Army’s “SAMARTH” vision, consider the following statements:\n1. The letter S stands for Sustainability.\n2. The letter A stands for Adaptation.\n3. The second letter A stands for Acceleration.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F2",
+    "P9.F3",
+    "P9.F5"
+   ],
+   "explanation": "All three statements are correct: S denotes Sustainability, A denotes Adaptation, and the second A denotes Acceleration. The other options omit one of these three components."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Supreme Commander of the Indian Army",
+   "question": "Who is the Supreme Commander of the Indian Army, whose Army Day is observed on 15 January and whose motto is “Service Before Self”?",
+   "options": [
+    "President",
+    "General Dhiraj Seth",
+    "Paramesh Sivamani",
+    "INS Sahyadri"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F9"
+   ],
+   "explanation": "The President is the Supreme Commander of the Indian Army. General Dhiraj Seth is associated with announcing the SAMARTH vision, while Paramesh Sivamani is associated with the NMSARB meeting."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "AIME-2026 ships, theme and structure",
+   "question": "Match the following features of the 2nd ASEAN–India Maritime Exercise, AIME-2026, with the correct details:\n\nList-I\n(a) Indian ships\n(b) Theme\n(c) Exercise sequence\n(d) ASEAN headquarters\n\nList-II\n(i) INS Sahyadri and INS Kulish\n(ii) “Anchored in Trust, United at Sea”\n(iii) Harbour phase followed by Sea phase\n(iv) Jakarta",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2",
+    "P10.F3",
+    "P10.F4",
+    "P10.F5"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. AIME-2026 featured INS Sahyadri and INS Kulish, used the stated theme, followed a Harbour phase with a Sea phase, and ASEAN has its headquarters at Jakarta."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and participants",
+   "question": "Mountain Guardian 2026, the India–UAE joint military exercise, was conducted at which location?",
+   "options": [
+    "Chaubattia Foreign Training Node, Uttarakhand",
+    "Oskemen, Kazakhstan",
+    "Subic Bay, Philippines",
+    "Vladivostok, Russia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "Mountain Guardian 2026 was held at the Chaubattia Foreign Training Node in Uttarakhand. Oskemen was associated with KAZIND-2026, while Subic Bay was associated with AIME-2026."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "KAZIND-2026 contingent and Kazakhstan",
+   "question": "With reference to KAZIND-2026, consider the following statements:\nStatement A: The Indian contingent consisted of 60 personnel and was mainly drawn from the Garhwal Rifles and the Indian Air Force.\nStatement B: Kazakhstan’s capital is Almaty.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "Statement A is correct: the Indian contingent had 60 personnel, mainly from the Garhwal Rifles and the Indian Air Force. Statement B is incorrect because Kazakhstan’s capital is Astana, not Almaty."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "History of exercise series",
+   "question": "Since which year has the INDRA series of India–Russia exercises been conducted?",
+   "options": [
+    "2003",
+    "2004",
+    "2008",
+    "1967"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "The INDRA series has been conducted since 2003. The other years belong to the starting years of the Konkan series, IBSAMAR’s biennial cycle, and ASEAN’s establishment, respectively."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "IBSAMAR institutional framework",
+   "question": "Assertion (A): IBSAMAR is conducted biennially since 2008.\nReason (R): IBSAMAR is held under the IBSA Dialogue Forum.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: IBSAMAR has been biennial since 2008 and is conducted under the IBSA Dialogue Forum. The institutional framework does not itself explain the stated biennial frequency."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "South African capitals and currency",
+   "question": "Which of the following correctly identifies South Africa’s judicial capital and currency in the context of IBSAMAR IX-2026?",
+   "options": [
+    "Bloemfontein and Rand",
+    "Pretoria and Tenge",
+    "Cape Town and Rand",
+    "Bloemfontein and Tenge"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3"
+   ],
+   "explanation": "Bloemfontein is South Africa’s judicial capital and the Rand is its currency. Pretoria is the administrative capital, Cape Town is the legislative capital, and Tenge is associated with Kazakhstan."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Other India–UK exercises",
+   "question": "Which of the following is the India–UK Army exercise listed alongside Konkan-2026?",
+   "options": [
+    "Ajeya Warrior",
+    "Indradhanush",
+    "IBSAMAR",
+    "KAZIND"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2"
+   ],
+   "explanation": "Ajeya Warrior is the India–UK Army exercise listed alongside Konkan. Indradhanush is the corresponding Air Force exercise, while IBSAMAR and KAZIND involve different partner countries."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Strategic partnership framework",
+   "question": "With reference to Konkan-2026, consider the following statements:\nStatement A: The exercise forms part of the India–UK Comprehensive Strategic Partnership and Vision 2035.\nStatement B: The exercise forms part of the India–UK Comprehensive Strategic Partnership and Vision 2040.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F3"
+   ],
+   "explanation": "Statement A is correct because Konkan-2026 is part of the India–UK Comprehensive Strategic Partnership and Vision 2035. Statement B changes the vision year to 2040, so it is incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NMSARB meeting",
+   "question": "The 24th National Maritime Search and Rescue Board meeting connected with SAREX-2026 was held at which place?",
+   "options": [
+    "Bhubaneswar",
+    "Paradip",
+    "Chaubattia",
+    "Simon’s Town"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F4"
+   ],
+   "explanation": "The 24th NMSARB meeting was held in Bhubaneswar and chaired by ICG Director General Paramesh Sivamani. Paradip was the offshore location of SAREX-2026, while Chaubattia and Simon’s Town were associated with other exercises."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Indian Coast Guard institutional facts",
+   "question": "How many of the following statements about the Indian Coast Guard are correct?\n1. It was established on 1 February 1977.\n2. The Coast Guard Act was enacted in 1978.\n3. Its motto is “Vayam Rakshama”.\n4. It was established on 1 February 1978.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P16.F5"
+   ],
+   "explanation": "Only two statements are correct: the Indian Coast Guard was established on 1 February 1977 and the Coast Guard Act dates to 1978. Its motto is “Vayam Rakshamah,” not “Vayam Rakshama,” and its establishment year was 1977, not 1978."
+  }
+ ]
+}

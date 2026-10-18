@@ -229,3 +229,124 @@ News pages still without a question (41):
 - 2026-10/08 — P11: India's first National Household Travel Survey (NSO)
 - 2026-10/11 — P7: International Day of Rural Women — 15 October
 - 2026-10/11 — P12: President Murmu visits Hidimba Devi Temple, Manali
+
+## Deep coverage
+
+Per folder: deepen → verify → deepen (round 2) → verify, then a global build (newest month wins duplicates).
+
+- **2026-10** — deepen 37 calls, 420 items, in 106,545/out 146,583; verify 37 calls, 389 items, in 104,800/out 23,210; deepen r2 26 calls, 51 items, in 85,185/out 25,854; verify 11 calls, 42 items, in 13,450/out 2,867 — build: 4228 MCQs kept, facts tested 8714/20515 (42.5%); this folder 645 MCQs, facts 1123/1135 (98.9%)
+
+## 2026-10 sample deep MCQs (new deep items, copied exactly)
+
+### 1. Direct Recall (`2026-10/11/d001#8`)
+
+The Beti Bachao Beti Padhao programme was launched on 22 January 2015 at which place?
+
+- A. Vigyan Bhawan
+- B. New Delhi
+- C. Panipat  **(key)**
+- D. Rome
+
+_Explanation:_ Beti Bachao Beti Padhao was launched on 22 January 2015 at Panipat. New Delhi and Vigyan Bhawan are associated with the Brihattar Bharat International Conference, while Rome is associated with the FAO, IFAD and WFP grouping.
+
+### 2. Direct Recall (`2026-10/01/d002#4`)
+
+Which statement correctly describes World Habitat Day in the context of the PMAY-U 2.0 award?
+
+- A. It is observed on the first Monday of October, was established by the UNGA and was first observed in 1996.
+- B. It is observed on the first Monday of October, was established by the UNGA and was first observed in 1986.  **(key)**
+- C. It is observed on the first Friday of October, was established by the UNGA and was first observed in 1986.
+- D. It is observed on the first Monday of September, was established by the UNGA and was first observed in 1986.
+
+_Explanation:_ World Habitat Day is observed on the first Monday of October, is associated with the UNGA and was first observed in 1986. The other options alter either the weekday, month or year.
+
+### 3. Multi-Statement Correctness (`2026-10/01/d001#10`)
+
+Consider the following statements about sanctioned capacities associated with Andhra Pradesh’s clean-energy mobilisation:  
+  
+1. Green hydrogen and derivatives had a capacity of 2.20 MMTPA.  
+2. Electrolyser manufacturing had a capacity of 2 GW.  
+3. Compressed biogas had a capacity of 11,521 tonnes per day.  
+  
+Which of the statements given above are correct?
+
+- A. 1 and 2 only
+- B. 2 and 3 only
+- C. 1 and 3 only
+- D. 1, 2 and 3  **(key)**
+
+_Explanation:_ All three statements are correct: the capacities were 2.20 MMTPA for green hydrogen and derivatives, 2 GW for electrolyser manufacturing and 11,521 tonnes per day for compressed biogas. Thus, the correct choice includes statements 1, 2 and 3.
+
+### 4. List-Matching (`2026-10/04/d002#9`)
+
+Match List-I with List-II in the context of India’s maritime sector.  
+  
+List-I  
+(a) Maritime trade by value  
+(b) Non-major ports  
+(c) Exclusive Economic Zone  
+(d) Ships in the fleet in mid-2026  
+  
+List-II  
+(i) 95%  
+(ii) 217  
+(iii) 2.4 million sq km  
+(iv) 1,609
+
+- A. a-iii, b-iv, c-i, d-ii
+- B. a-ii, b-i, c-iv, d-iii
+- C. a-i, b-ii, c-iii, d-iv  **(key)**
+- D. a-iv, b-iii, c-ii, d-i
+
+_Explanation:_ The correct pairs are a-i, b-ii, c-iii and d-iv: maritime trade accounts for 95% by value, there are 217 non-major ports, the EEZ covers 2.4 million sq km, and the mid-2026 fleet had 1,609 ships. The other codes interchange these maritime indicators.
+
+### 5. Statement-Based (A/B) (`2026-10/01/d003#7`)
+
+Consider the following statements:  
+Statement A: Article 234 deals with district judges.  
+Statement B: Article 235 provides for High Court control over subordinate courts.
+
+- A. Both Statement A and Statement B are true
+- B. Both Statement A and Statement B are false
+- C. Statement A is true, Statement B is false
+- D. Statement A is false, Statement B is true  **(key)**
+
+_Explanation:_ Statement A is false because Article 233 deals with district judges; Article 234 concerns other judicial services. Statement B is true because Article 235 relates to High Court control over subordinate courts.
+
+### 6. Assertion-Reason (`2026-10/06/d000#12`)
+
+Assertion (A): Tera, peta and exa denote trillion, quadrillion and quintillion FLOPS respectively, and India generates about 20% of the world's data.  
+Reason (R): The world's fastest system in 2026 operated at about 2.19 petaFLOPS.
+
+- A. Both A and R are true, and R is the correct explanation of A
+- B. Both A and R are true, but R is NOT the correct explanation of A
+- C. A is true, but R is false  **(key)**
+- D. A is false, but R is true
+
+_Explanation:_ Assertion A is true: tera, peta and exa represent trillion, quadrillion and quintillion FLOPS, and India generates about 20% of the world's data. Reason R is false because the world's fastest system in 2026 was stated at about 2.19 exaFLOPS, not petaFLOPS.
+
+### 7. Count-Based (`2026-10/01/d002#6`)
+
+How many of the following statements regarding Andhra Pradesh exports are correct?  
+1. Exports in 2025–26 were valued at ₹1,76,503.37 crore.  
+2. Exports in 2024–25 were valued at ₹1,75,754 crore.  
+3. Exports in 2022–23 were valued at ₹1,63,563 crore.  
+4. Exports increased by 7.39% over two years.
+
+- A. Only one
+- B. Only two  **(key)**
+- C. Only three
+- D. All four
+
+_Explanation:_ Only two statements are correct: the 2025–26 value was ₹1,76,503.37 crore and the 2024–25 value was ₹1,75,754 crore. The corresponding earlier year was 2023–24, not 2022–23, and the increase over two years was 7.93%, not 7.39%.
+
+### 8. Negative / Incorrect Statement (`2026-10/04/d000#4`)
+
+Which of the following statements regarding September 2026 GST growth in the southern region is incorrect?
+
+- A. Telangana recorded 18% growth, the highest September growth in the south.
+- B. Karnataka recorded 16% growth in September 2026.
+- C. Andhra Pradesh recorded 11% growth in September 2026.  **(key)**
+- D. Tamil Nadu recorded a negative growth of 5%.
+
+_Explanation:_ The incorrect statement is that Andhra Pradesh recorded 11% growth. Andhra Pradesh recorded 6%; 11% was Kerala’s growth, while Telangana recorded the highest southern growth at 18%.

@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F20",
+  "P0.F21"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State-wise CA|TS reserves",
+   "question": "With reference to the CA|TS-accredited tiger reserves in Uttar Pradesh, consider the following statements:\n\n1. Dudhwa and Pilibhit are the CA|TS-accredited tiger reserves of Uttar Pradesh in the 24-reserve list.\n2. Dudhwa and Pilibhit are the CA|TS-accredited tiger reserves of Bihar in the 24-reserve list.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F20"
+   ],
+   "explanation": "Statement 1 is correct: Uttar Pradesh has Dudhwa and Pilibhit in the 24-reserve CA|TS list. Statement 2 is incorrect because these two reserves are associated with Uttar Pradesh, not Bihar."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State-wise CA|TS reserves",
+   "question": "Which pair comprises Karnataka’s CA|TS-accredited tiger reserves in the 24-reserve list?",
+   "options": [
+    "Bandipur and Kali",
+    "Dudhwa and Pilibhit",
+    "Parambikulam and Periyar",
+    "Pench and Melghat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F21"
+   ],
+   "explanation": "Bandipur and Kali are Karnataka’s CA|TS-accredited tiger reserves in the 24-reserve list. Dudhwa and Pilibhit belong to Uttar Pradesh, while Parambikulam and Periyar belong to Kerala."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F13",
+  "P0.F49"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Centenary and constitutional provision",
+   "question": "With reference to the centenary of the Union Public Service Commission and the constitutional framework of Public Service Commissions, consider the following statements:\n1. India’s first Public Service Commission was constituted on 1 October 1926.\n2. Article 316 provides for Public Service Commissions for the Union and States.\n3. Article 315 provides for a Joint Public Service Commission for three or more States.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F13"
+   ],
+   "explanation": "Only statement 1 is correct: UPSC completed 100 years on 1 October 2026, marking the constitution of India’s first Public Service Commission on 1 October 1926. Article 315, not Article 316, provides for Public Service Commissions for the Union and States and permits a Joint Public Service Commission for two or more States."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Lee Commission recommendation",
+   "question": "Match the following milestones associated with the Lee Commission with the appropriate details:\n\nList-I\n(a) Year of appointment\n(b) Year of report\n(c) Chairman\n(d) Recommendation\n\nList-II\n(i) 1924\n(ii) Lord Lee of Fareham\n(iii) Statutory Public Service Commission\n(iv) 1923",
+   "options": [
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-i, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F49"
+   ],
+   "explanation": "The correct matching is a-iv, b-i, c-ii, d-iii: the Lee Commission was appointed in 1923, submitted its report in 1924, was chaired by Lord Lee of Fareham, and recommended a statutory Public Service Commission. The other codes incorrectly interchange the appointment year, report year or chairman."
+  }
+ ]
+}

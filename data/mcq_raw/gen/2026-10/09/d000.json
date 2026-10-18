@@ -1,0 +1,197 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F6",
+  "P0.F7",
+  "P0.F9",
+  "P1.F3",
+  "P3.F3",
+  "P4.F3",
+  "P4.F4",
+  "P4.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scientific proposal",
+   "question": "Who proposed the use of light for controlling neurons in the 1970s, an idea later associated with optogenetics?",
+   "options": [
+    "Francis Crick",
+    "Karl Deisseroth",
+    "Peter Hegemann",
+    "Georg Nagel"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Francis Crick proposed using light to control neurons in the 1970s. Karl Deisseroth, Peter Hegemann and Georg Nagel were associated with later developments in optogenetics, not this original proposal."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Optogenetics background",
+   "question": "Consider the following statements about the scientific background of optogenetics:\n\n1. Francis Crick proposed using light to control neurons in the 1970s.\n2. The engram, or memory trace, was activated in the 1970s.\n3. The human brain has approximately 90 billion synapses.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Only statement 1 is correct: Francis Crick proposed light-based control of neurons in the 1970s. The engram was activated in 2012, and the stated figure refers to approximately 90 billion neurons, not synapses."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Nobel awarding bodies",
+   "question": "Match the Nobel Prize category with its awarding body:\n\nList-I\n a. Physics\n b. Physiology or Medicine\n c. Literature\n d. Peace\n\nList-II\n i. Swedish Academy\n ii. Norwegian Nobel Committee\n iii. Royal Swedish Academy of Sciences\n iv. Nobel Assembly at Karolinska Institutet",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10",
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "The correct pairs are Physics–Royal Swedish Academy of Sciences, Physiology or Medicine–Nobel Assembly at Karolinska Institutet, Literature–Swedish Academy, and Peace–Norwegian Nobel Committee. The other codes interchange these awarding bodies."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Nobel Prize background",
+   "question": "How many of the following statements about the Nobel Prizes are correct?\n\n1. The Nobel Prizes were first awarded in 1968.\n2. A maximum of three persons may generally share one prize.\n3. Nobel Prizes are generally awarded posthumously.\n4. The Economics prize was created in 1968 by Sweden’s central bank.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Statements 2 and 4 are correct, so the answer is Only two. The Nobel Prizes were first awarded in 1901, and they are generally not awarded posthumously."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First Indian Nobel laureates",
+   "question": "Which pairing correctly identifies the first Indian Nobel laureate and the first Indian woman Nobel laureate?",
+   "options": [
+    "Tagore in 1913; Mother Teresa in 1979",
+    "Mother Teresa in 1913; Tagore in 1979",
+    "Tagore in 1979; Mother Teresa in 1913",
+    "Tagore in 1913; Mother Teresa in 1913"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "Tagore became the first Indian Nobel laureate in 1913, while Mother Teresa became the first Indian woman Nobel laureate in 1979. The other options reverse or duplicate these year-person pairings."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Alga species and field",
+   "question": "Which combination correctly identifies the alga associated with the Nobel-recognised optogenetics research and the field in which the work is placed?",
+   "options": [
+    "Chlamydomonas reinhardtii, a unicellular green alga; neuroscience",
+    "Chlamydomonas reinhardtii, a unicellular green alga; economics",
+    "Chlamydomonas reinhardtii, a multicellular green alga; neuroscience",
+    "Chlamydomonas reinhardtii, a unicellular green alga; literature"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "The alga is Chlamydomonas reinhardtii, described as a unicellular green alga, and the associated field is neuroscience. The other options alter either the field or the organism’s cellular description."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Economics prize date discrepancy",
+   "question": "What discrepancy is recorded regarding the year in which Sweden’s central bank created or introduced the Economics prize?",
+   "options": [
+    "One source records 1968, while another records 1969",
+    "Both sources record 1968",
+    "Both sources record 1969",
+    "The sources disagree about the awarding body, not the year"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "One source records 1968 and another records 1969, with both referring to Sweden’s central bank. The tempting alternatives incorrectly remove or change the stated disagreement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fields of Nobel Physics work",
+   "question": "The 2026 Nobel Prize in Physics work associated with Francis Halzen relates to which combination of fields?",
+   "options": [
+    "Particle physics, astrophysics and cosmology",
+    "Neuroscience, astrophysics and cosmology",
+    "Particle physics, economics and cosmology",
+    "Particle physics, astrophysics and literature"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The work is associated with particle physics, astrophysics and cosmology. The other options replace one of these fields with neuroscience, economics or literature."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First recipients in Literature",
+   "question": "Which sequence correctly identifies the first recipient of the Nobel Prize in Literature, the first woman recipient and the first Asian recipient?",
+   "options": [
+    "Sully Prudhomme; Selma Lagerlöf; Tagore",
+    "Selma Lagerlöf; Sully Prudhomme; Tagore",
+    "Sully Prudhomme; Tagore; Selma Lagerlöf",
+    "Tagore; Selma Lagerlöf; Sully Prudhomme"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "Sully Prudhomme was the first recipient, Selma Lagerlöf was the first woman recipient, and Tagore was the first Asian recipient in 1913 for Gitanjali. The other options rearrange these three historical distinctions."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Peace Prize amount, ceremony and background",
+   "question": "Match each feature of the 2026 Nobel Peace Prize with the correct detail:\n\nList-I\n a. Prize amount\n b. Ceremony\n c. Norwegian Nobel Committee\n d. Nobel’s will\n\nList-II\n i. 1895\n ii. Five members appointed by the Storting\n iii. 12 million SEK, approximately US$1.2 million\n iv. Oslo, 10 December 2026",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F5"
+   ],
+   "explanation": "The correct pairs are prize amount–12 million SEK, ceremony–Oslo on 10 December 2026, committee–five members appointed by the Storting, and Nobel’s will–1895. The other codes interchange the amount, ceremony, committee composition and year."
+  }
+ ]
+}

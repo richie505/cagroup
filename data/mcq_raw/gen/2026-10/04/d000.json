@@ -1,0 +1,269 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P1.F1",
+  "P1.F2",
+  "P1.F3",
+  "P1.F4",
+  "P1.F5",
+  "P2.F1",
+  "P2.F2",
+  "P2.F3",
+  "P2.F4",
+  "P2.F5",
+  "P2.F8",
+  "P3.F5",
+  "P3.F7",
+  "P3.F8",
+  "P4.F2",
+  "P4.F4",
+  "P4.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Policy rates",
+   "question": "Match the RBI policy rates with their levels after the October 2026 monetary policy decision:\n\nList-I\n(a) Repo rate\n(b) Standing Deposit Facility (SDF)\n(c) Marginal Standing Facility (MSF) / Bank Rate\n\nList-II\n(i) 5.25%\n(ii) 5.50%\n(iii) 5.75%\n\nSelect the correct answer using the code below.",
+   "options": [
+    "a-ii, b-i, c-iii",
+    "a-i, b-ii, c-iii",
+    "a-iii, b-i, c-ii",
+    "a-ii, b-iii, c-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "The repo rate was 5.50%, the SDF was 5.25%, and the MSF/Bank Rate was 5.75%. Therefore, the correct matching is a-ii, b-i and c-iii; the other codes interchange these policy-rate levels."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "MPC composition and inflation target",
+   "question": "With reference to the RBI’s monetary policy framework, consider the following statements:\n\n1. The Monetary Policy Committee has six members, comprising three members from the RBI and three from the Centre.\n2. The CPI inflation target is 4% with a tolerance band of plus or minus 2%, set by the Centre in consultation with the RBI.\n3. The Governor of the RBI does not have a casting vote in the MPC.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the MPC has six members in a 3-plus-3 composition, and the CPI target is 4% ± 2%. Statement 3 is incorrect because the Governor has a casting vote."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Gross GST collection",
+   "question": "What was the gross GST collection in September 2026, according to the reported GST revenue figures?",
+   "options": [
+    "₹1,76,520 crore",
+    "₹2,03,521 crore",
+    "₹1,37,996 crore",
+    "₹65,525 crore"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Gross GST collection in September 2026 was ₹2,03,521 crore, representing a 14.7% year-on-year increase. ₹1,76,520 crore was the net GST figure, while ₹1,37,996 crore was domestic GST."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "GST collection components",
+   "question": "Match the September 2026 GST collection components with their amounts:\n\nList-I\n(a) Domestic GST\n(b) GST from imports\n(c) Refunds\n(d) Net GST\n\nList-II\n(i) ₹27,001 crore\n(ii) ₹1,37,996 crore\n(iii) ₹1,76,520 crore\n(iv) ₹65,525 crore\n\nSelect the correct answer using the code below.",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "Domestic GST was ₹1,37,996 crore, imports contributed ₹65,525 crore, refunds were ₹27,001 crore, and net GST was ₹1,76,520 crore. Hence, the correct code is a-ii, b-iv, c-i and d-iii."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "State-wise GST growth",
+   "question": "Which of the following statements regarding September 2026 GST growth in the southern region is incorrect?",
+   "options": [
+    "Telangana recorded 18% growth, the highest September growth in the south.",
+    "Karnataka recorded 16% growth in September 2026.",
+    "Andhra Pradesh recorded 11% growth in September 2026.",
+    "Tamil Nadu recorded a negative growth of 5%."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "The incorrect statement is that Andhra Pradesh recorded 11% growth. Andhra Pradesh recorded 6%; 11% was Kerala’s growth, while Telangana recorded the highest southern growth at 18%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GST constitutional and legal framework",
+   "question": "Which combination correctly describes the constitutional and legal framework of GST in India?",
+   "options": [
+    "Introduced on 1 July 2017 under the 101st Amendment Act, 2016; GST Council under Article 279A",
+    "Introduced on 1 July 2016 under the 101st Amendment Act, 2017; GST Council under Article 280",
+    "Introduced on 1 July 2017 under the 100th Amendment Act, 2016; GST Council under Article 279",
+    "Introduced on 1 July 2018 under the 102nd Amendment Act, 2017; GST Council under Article 279A"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "GST was introduced on 1 July 2017 through the 101st Amendment Act, 2016, and the GST Council is constituted under Article 279A. The other options alter the implementation date, amendment, or constitutional article."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GST Council reform recommendations",
+   "question": "Consider the following statements about the reform recommendations of the 57th GST Council meeting:\n\n1. Arrest provisions under GST were recommended for removal.\n2. The prosecution threshold was recommended to be reduced from ₹1 crore to ₹50 lakh.\n3. Interception of goods in transit was recommended to be conducted without authorised approval.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F4"
+   ],
+   "explanation": "Only statement 1 is correct: removal of arrest provisions was recommended. The prosecution threshold was proposed to rise from ₹1 crore to ₹5 crore, and interception of goods in transit was to be intelligence-based with authorised approval."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "GST registration reform",
+   "question": "Assertion (A): The 57th GST Council meeting recommended simpler registration for small e-commerce sellers.\nReason (R): The recommendations included simpler registration and compliance procedures.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F5"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the broader recommendation for simpler registration and compliance explains the specific proposal for small e-commerce sellers. The other options incorrectly treat one of these recommendations as false or unrelated."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GST legal character",
+   "question": "Which statement correctly describes the legal and economic character of GST highlighted in the 57th GST Council reform context?",
+   "options": [
+    "Offences, prosecution and arrest are dealt with under the CGST Act, 2017, and GST is destination-based.",
+    "Offences, prosecution and arrest are dealt with under the CGST Act, 2016, and GST is origin-based.",
+    "Offences, prosecution and arrest are dealt with under the SGST Act, 2017, and GST is destination-based.",
+    "Offences, prosecution and arrest are dealt with under the IGST Act, 2017, and GST is origin-based."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "The relevant provisions on offences, prosecution and arrest are in the CGST Act, 2017, and GST is destination-based. The other choices change either the Act or the destination-based character of GST."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Quarterly GDP estimates",
+   "question": "Consider the following statements regarding Q1 of 2026–27 in the National Accounts Statistics 2026:\n\nStatement A: Real GDP growth was 7.8%, while nominal GDP growth was 8.6%.\nStatement B: Final estimates were provided for 2022–23 and 2024–25, while the first revised estimate was provided for 2023–24.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F7"
+   ],
+   "explanation": "Both statements are false. Q1 of 2026–27 had real growth of 7.8% and nominal growth of 10.3%; final estimates covered 2022–23 and 2023–24, while the first revised estimate covered 2024–25."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Real and nominal GDP",
+   "question": "In the National Accounts Statistics 2026, what do real GDP and nominal GDP respectively represent?",
+   "options": [
+    "Real GDP represents current prices, while nominal GDP represents constant prices.",
+    "Real GDP represents constant prices, while nominal GDP represents current prices.",
+    "Both real and nominal GDP represent constant prices.",
+    "Both real and nominal GDP represent current prices."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "Real GDP is measured at constant prices, whereas nominal GDP is measured at current prices. The reverse pairing is therefore incorrect."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Calendar-year growth projections",
+   "question": "With reference to the IMF World Economic Outlook October 2026 projections, consider the following:\n\n1. India’s calendar-year growth projection for 2026 was 7.4%.\n2. India’s calendar-year growth projection for 2027 was 7.4%.\n3. Global growth was projected at 3.1% for 2026.\n4. Global growth was projected at 3.1% for 2027.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "Statements 1 and 3 are correct, so the answer is Only two. India’s 2027 projection was 7.0%, and global growth for 2027 was projected at 3.4%, not 3.1%."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "IMF institutional profile",
+   "question": "Match the following IMF attributes with the correct details:\n\nList-I\n(a) Bretton Woods origin\n(b) Beginning of operations\n(c) Headquarters\n(d) Managing Director\n\nList-II\n(i) Washington, DC\n(ii) 1944\n(iii) Kristalina Georgieva\n(iv) 1947\n\nSelect the correct answer using the code below.",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "The IMF originated at Bretton Woods in 1944, began operations in 1947, is headquartered in Washington, DC, and has Kristalina Georgieva as Managing Director. Thus, a-ii, b-iv, c-i and d-iii is the correct matching."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "WEO and SDR timeline",
+   "question": "Which combination correctly states the IMF’s publication cycle for the World Economic Outlook and the year of introduction of Special Drawing Rights (SDRs)?",
+   "options": [
+    "WEO in April and October; SDRs introduced in 1969",
+    "WEO in January and July; SDRs introduced in 1971",
+    "WEO in March and September; SDRs introduced in 1969",
+    "WEO in April and October; SDRs introduced in 1974"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5"
+   ],
+   "explanation": "The World Economic Outlook is issued in April and October, while SDRs were introduced in 1969. The other options alter either the publication months or the year of SDR introduction."
+  }
+ ]
+}

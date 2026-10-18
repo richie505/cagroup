@@ -1,0 +1,266 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F15",
+  "P1.F16",
+  "P1.F2",
+  "P1.F3",
+  "P1.F5",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Throughput of major port",
+   "question": "Which statement correctly describes Visakhapatnam port in relation to Andhra Pradesh’s port network?",
+   "options": [
+    "It is Andhra Pradesh’s only major port, with throughput of around 100 MTPA",
+    "It is Andhra Pradesh’s first greenfield OTMP, with throughput of around 200 MTPA",
+    "It is a state port in Prakasam district, with throughput of around 50 MTPA",
+    "It is a multi-cargo PPP facility in Kakinada SEZ, with throughput of around 16 MTPA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Visakhapatnam is Andhra Pradesh’s only major port and handles around 100 MTPA. The tempting option mentioning a multi-cargo PPP facility refers to Kakinada Gateway Port, not Visakhapatnam."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "AP position in OTMP cargo",
+   "question": "With reference to Andhra Pradesh’s position in Other Than Major Port cargo handling, consider the following statements:\n1. OTMPs handle nearly 50% of India’s total port cargo.\n2. Andhra Pradesh ports account for 16% of OTMP cargo.\n3. Andhra Pradesh ranks second after Gujarat in OTMP cargo handling.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "All three statements are correct: OTMPs handle nearly 50% of India’s port cargo, Andhra Pradesh accounts for 16% of OTMP cargo, and the State ranks second after Gujarat. The trap is the possible assumption that Andhra Pradesh ranks first."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ramayapatnam and Mulapeta ports",
+   "question": "Consider the following statements about Andhra Pradesh’s greenfield ports:\n1. Ramayapatnam is located in Prakasam district.\n2. The AP Maritime Board issued the RFP for the operator of Ramayapatnam port, with finalisation expected by the end of October 2026.\n3. Mulapeta is a state port located in Srikakulam.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "All three statements are correct. Ramayapatnam is the Prakasam-based state port whose operator RFP was to be finalised by the end of October 2026, while Mulapeta is a state port in Srikakulam."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Port developer and PPP facility",
+   "question": "Consider the following statements about the other two greenfield ports in Andhra Pradesh:\n1. Machilipatnam is a state port built by Megha Engineering & Infrastructures Ltd.\n2. Kakinada Gateway Port is a multi-cargo facility developed by the Aurobindo Group.\n3. Kakinada Gateway Port is being developed under the PPP model.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "All three statements are correct. Machilipatnam is being built by MEIL, whereas Kakinada Gateway Port is an Aurobindo Group-developed multi-cargo facility under the PPP model."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Hinterland served",
+   "question": "Which of the following is included in the hinterland proposed to be served by Andhra Pradesh’s port network?",
+   "options": [
+    "Telangana",
+    "Kerala",
+    "Punjab",
+    "West Bengal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "Telangana is one of the hinterland States identified for service by Andhra Pradesh’s ports. Kerala, Punjab and West Bengal are not included in the specified hinterland list."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Maritime gateway objective",
+   "question": "Assertion (A): Andhra Pradesh aims to become the maritime gateway of India’s west coast.\nReason (R): The State seeks to bridge the container gap on the Haldia–Visakhapatnam–Chennai corridor.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "Assertion A is false because the stated aim is to make Andhra Pradesh the maritime gateway of India’s east coast. Reason R is true because bridging the container gap on the Haldia–Visakhapatnam–Chennai corridor is part of the objective."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Associated dignitaries",
+   "question": "The Global Horticulture Hub–Rayalaseema Rising project at Madanapalle was associated with which combination of dignitaries?",
+   "options": [
+    "Nirmala Sitharaman, N. Chandrababu Naidu and Pawan Kalyan",
+    "Nirmala Sitharaman, Pawan Kalyan and the Gujarat Chief Minister",
+    "N. Chandrababu Naidu, the Union Agriculture Minister and the Telangana Chief Minister",
+    "Pawan Kalyan, the Union Finance Minister and the Odisha Chief Minister"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The project was associated with Union Finance Minister Nirmala Sitharaman, Chief Minister N. Chandrababu Naidu and Deputy Chief Minister Pawan Kalyan. The other combinations replace one or more of these dignitaries with persons not associated with the project."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Coverage and area target",
+   "question": "Consider the following statements:\nStatement A: The project provides for 201 horticulture villages.\nStatement B: The targeted horticulture area is to rise from 8.41 lakh hectares to 14.41 lakh acres.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F7"
+   ],
+   "explanation": "Both statements are false. The target is 201 horticulture clusters, not villages, and the area is to increase from 8.41 lakh hectares to 14.41 lakh hectares, not acres."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Fruit bowl identity",
+   "question": "With reference to the identity projected for Andhra Pradesh under the Rayalaseema horticulture initiative, consider the following statements:\n1. Andhra Pradesh is projected as a “fruit bowl” alongside its “rice bowl” identity.\n2. The initiative seeks to increase horticulture production from 222 lakh MT to 435 lakh MT.\n3. It includes creation of 9 lakh acres of new irrigation potential and stabilisation of 4.3 lakh acres.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "All three statements are correct. The initiative presents Andhra Pradesh as both a fruit bowl and a rice bowl, while targeting the stated production and irrigation outcomes."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Government investment components",
+   "question": "Which of the following statements correctly describe the government investment proposed for the Global Horticulture Hub?\n1. Government investment totals ₹40,352 crore.\n2. Irrigation accounts for ₹20,884 crore.\n3. Horticulture development accounts for ₹14,906 crore.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "All three statements are correct. The government component totals ₹40,352 crore, including ₹20,884 crore for irrigation and ₹14,906 crore for horticulture development."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rural roads allocation",
+   "question": "How much of the government investment in the Rayalaseema horticulture initiative is earmarked for rural roads?",
+   "options": [
+    "₹4,562 crore",
+    "₹14,906 crore",
+    "₹20,884 crore",
+    "₹40,352 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13"
+   ],
+   "explanation": "₹4,562 crore is earmarked for rural roads. ₹14,906 crore is the horticulture-development allocation, while ₹20,884 crore is for irrigation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Private investment",
+   "question": "Approximately how much private investment is envisaged for food processing, logistics and exports under the Global Horticulture Hub?",
+   "options": [
+    "₹60,000 crore",
+    "₹40,352 crore",
+    "₹20,884 crore",
+    "₹14,906 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F14"
+   ],
+   "explanation": "Private investment of approximately ₹60,000 crore is envisaged for food processing, logistics and exports. The other amounts are components of the government investment."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Funding structure",
+   "question": "Which of the following statements about the funding structure of the Global Horticulture Hub is incorrect?",
+   "options": [
+    "The project is not fully government-funded.",
+    "The private investment share is larger than the government share.",
+    "Private investment is associated with food processing, logistics and exports.",
+    "The government investment share is larger than the private investment share."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F15"
+   ],
+   "explanation": "The incorrect statement is that the government investment share is larger. The project is not fully government-funded, and the private share is larger."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Target crops",
+   "question": "Which of the following crops is included among those associated with the Global Horticulture Hub?",
+   "options": [
+    "Dragon Fruit",
+    "Wheat",
+    "Tea",
+    "Cotton"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F16"
+   ],
+   "explanation": "Dragon Fruit is one of the listed crops, along with mango, banana, tomato, pomegranate, avocado and berries. Wheat, tea and cotton are not included in the specified crop list."
+  }
+ ]
+}

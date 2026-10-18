@@ -1,0 +1,52 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "only": [
+  "P11.F4",
+  "P15.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch year and platform",
+   "question": "Which of the following correctly describes the PM Gati Shakti National Master Plan?",
+   "options": [
+    "It was launched in October 2021 as a GIS-based plan",
+    "It was launched in October 2022 as a GIS-based plan",
+    "It was launched in October 2021 as a non-GIS-based plan",
+    "It was launched in October 2026 as a GIS-based plan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4"
+   ],
+   "explanation": "The PM Gati Shakti National Master Plan was launched in October 2021 and is GIS-based. The tempting alternative is October 2022, but the correct launch year is 2021."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Launch year",
+   "question": "With reference to the Mission for Aatmanirbharta in Pulses, consider the following statements:\nStatement A: The Mission for Aatmanirbharta in Pulses was launched in 2025.\nStatement B: The initiative is titled the Mission for Aatmanirbharta in Pulses.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4"
+   ],
+   "explanation": "Both statements are correct: the Mission for Aatmanirbharta in Pulses was launched in 2025, and this is its stated title. The tempting incorrect option is the one that treats only the launch year as correct, whereas the initiative’s title is also correctly stated."
+  }
+ ]
+}
