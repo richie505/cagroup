@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  21,
+  22
+ ],
+ "only": [
+  "P21.F13",
+  "P21.F17",
+  "P22.F13"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Appointment and organisational role",
+   "question": "Consider the following statements regarding September 2026 appointments and persons in news:\n1. Hansraj Singh Verma, a 2008-batch IFS officer, was appointed India's Ambassador to Cuba on September 18, 2026.\n2. Havana is the capital of Cuba, whose President is Miguel Díaz-Canel.\n3. Sanjukta Parashar belongs to the 2006-batch Assam–Meghalaya cadre of the IPS, and the CoBRA force is associated with jungle warfare against Left-Wing Extremism.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P21.F13",
+    "P21.F17"
+   ],
+   "explanation": "All three statements are correct. Hansraj Singh Verma was appointed Ambassador to Cuba on September 18, 2026; Havana is Cuba's capital and Miguel Díaz-Canel is its President. Sanjukta Parashar is a 2006-batch Assam–Meghalaya cadre IPS officer, while CoBRA is associated with jungle warfare against Left-Wing Extremism."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "War-crimes conviction and case details",
+   "question": "With reference to the September 2026 judgment involving former Kosovo President Hashim Thaçi, consider the following statements:\n1. He was convicted of four war crimes.\n2. The case involved 96 murders, 385 detentions and 303 instances of torture.\n3. Six crimes-against-humanity charges were dismissed.\n4. The Kosovo Specialist Chambers that sentenced him were established in 2016.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P22.F13"
+   ],
+   "explanation": "Only three statements are correct. Hashim Thaçi was convicted of four war crimes; the case involved 96 murders, 385 detentions and 303 instances of torture, and six crimes-against-humanity charges were dismissed. Statement 4 is incorrect because the Kosovo Specialist Chambers were established in 2015, not 2016."
+  }
+ ]
+}

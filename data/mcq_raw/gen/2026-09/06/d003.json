@@ -1,0 +1,172 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6
+ ],
+ "only": [
+  "P6.F1",
+  "P6.F10",
+  "P6.F11",
+  "P6.F13",
+  "P6.F15",
+  "P6.F2",
+  "P6.F3",
+  "P6.F4",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Capacity projection",
+   "question": "India’s data-centre capacity rose from approximately 375 MW in 2020 to 1.57 GW in August 2026. What capacity is projected by 2030?",
+   "options": [
+    "Approximately 1.57 GW",
+    "Approximately 8 GW",
+    "Approximately 17 GW",
+    "Approximately 70 GW"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "India’s data-centre capacity is projected to reach approximately 8 GW by 2030. The tempting figure of 1.57 GW is the capacity recorded in August 2026, not the 2030 projection."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Power demand projection",
+   "question": "According to the Central Electricity Authority, India’s data-centre power demand is expected to reach approximately how much by 2031–32?",
+   "options": [
+    "8 GW",
+    "17 GW",
+    "70 GW",
+    "90 GW"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "The Central Electricity Authority projects data-centre power demand of approximately 17 GW by 2031–32. The 8 GW figure refers to projected data-centre capacity by 2030, not power demand."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Investment in data centres",
+   "question": "With reference to investment in India’s data-centre sector, consider the following statements:\n\n1. Approximately USD 70 billion is underway and approximately USD 90 billion has been announced.\n2. Approximately USD 90 billion is underway and approximately USD 70 billion has been announced.\n3. Approximately USD 8 billion is underway and approximately USD 17 billion has been announced.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "Only statement 1 is correct: approximately USD 70 billion is underway and approximately USD 90 billion has been announced. Statement 2 reverses the two investment figures, while statement 3 substitutes unrelated figures."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "NIC centres and policy measures",
+   "question": "Match List-I with List-II regarding India’s data-centre infrastructure and policy measures.\n\nList-I\n a. NIC National Data Centres\n b. Smaller NIC data centres\n c. Budget 2022–23\n d. Budget 2026–27\n\nList-II\n i. 37 centres in State capitals\n ii. Data centres included in the Harmonised List of Infrastructure\n iii. Delhi, Pune, Hyderabad and Bhubaneswar\n iv. Tax holiday for notified foreign cloud providers till 2047\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4",
+    "P6.F5",
+    "P6.F6"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-ii and d-iv. NIC’s National Data Centres are in Delhi, Pune, Hyderabad and Bhubaneswar; Budget 2022–23 added data centres to the Harmonised List of Infrastructure, while Budget 2026–27 provided the tax holiday."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Semiconductor and digital-technology initiatives",
+   "question": "Consider the following statements:\nStatement A: Semicon 2.0 was approved in July 2026 with an outlay of ₹1,27,500 crore under the India Semiconductor Mission.\nStatement B: The IndiaAI Mission has an outlay of ₹10,371.92 crore, while ECMS was raised from ₹22,000 crore to ₹40,000 crore and PLI 2.0 applies to IT Hardware.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F7",
+    "P6.F8"
+   ],
+   "explanation": "Both statements are true. Semicon 2.0 was approved in July 2026 with ₹1,27,500 crore under the India Semiconductor Mission, and the stated allocations and enhancement relate to the IndiaAI Mission, ECMS and PLI 2.0 for IT Hardware."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Nuclear-energy policy and standards",
+   "question": "Assertion (A): The SHANTI Act enables small modular reactors and fusion reactors.\nReason (R): The BIS LITD 31 committee deals with cloud and data centres.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F9",
+    "P6.F10"
+   ],
+   "explanation": "The assertion is false because the SHANTI Act enables small modular reactors and micro reactors, not fusion reactors. The reason is true: BIS LITD 31 is the committee concerned with cloud and data centres."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Data-centre efficiency metrics",
+   "question": "How many of the following statements regarding data-centre efficiency metrics are correct?\n\n1. PUE measures power usage, and a lower value is better.\n2. WUE measures carbon usage.\n3. CUE measures water usage.\n4. CER measures power usage.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F11"
+   ],
+   "explanation": "Only one statement is correct: PUE measures power usage, and a lower value is better. WUE concerns water, CUE concerns carbon and CER concerns cooling, so statements 2, 3 and 4 are incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cloud region and investment plan",
+   "question": "Microsoft’s launch of the “India South Central” region in Telangana on September 24, 2026 formed part of which investment plan for India through 2029?",
+   "options": [
+    "USD 20.5 billion",
+    "USD 30 billion",
+    "USD 70 billion",
+    "USD 90 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F13"
+   ],
+   "explanation": "The launch formed part of Microsoft’s USD 20.5 billion India plan through 2029. USD 30 billion refers to a broader investment opportunity associated with Telangana’s target, while USD 70 billion and USD 90 billion are data-centre investment figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MoU signatories and company history",
+   "question": "The TCS–HyperVault MoU was signed before which Telangana leaders, according to the September 2026 announcement?",
+   "options": [
+    "A. Revanth Reddy and D. Sridhar Babu",
+    "A. Revanth Reddy and TCS",
+    "D. Sridhar Babu and TCS",
+    "TCS and HyperVault"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F15"
+   ],
+   "explanation": "The MoU was signed before Chief Minister A. Revanth Reddy and IT Minister D. Sridhar Babu. TCS and HyperVault are the parties to the MoU, not the two Telangana leaders before whom it was signed."
+  }
+ ]
+}

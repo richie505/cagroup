@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F14",
+  "P0.F22"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Clean Air Day observance",
+   "question": "With reference to clean-air observances in India, consider the following statements:\n1. The International Day of Clean Air for Blue Skies is observed on September 7, and India marks it as Swachh Vayu Diwas.\n2. Clean Air Day was first observed in 2020.\n3. The International Day of Clean Air for Blue Skies was designated by the UNGA in 2020.",
+   "options": [
+    "Exactly two statements are correct",
+    "Only one statement is correct",
+    "All three statements are correct",
+    "No statement is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F22"
+   ],
+   "explanation": "Statements 1 and 2 are correct: September 7 is the International Day of Clean Air for Blue Skies, India observes it as Swachh Vayu Diwas, and Clean Air Day was first observed in 2020. Statement 3 is incorrect because the UNGA designated it in 2019, not 2020."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Delhi pollution-control measures",
+   "question": "Which combination correctly states the scheduled Delhi measures concerning buses and particulate emissions in 2026?",
+   "options": [
+    "Only BS-VI, CNG and electric buses from November 1, 2026; particulate norm of 50 mg/Nm³ from October 1, 2026",
+    "Only BS-VI, CNG and electric buses from October 1, 2026; particulate norm of 50 mg/Nm³ from November 1, 2026",
+    "Only BS-VI and CNG buses from November 1, 2026; particulate norm of 40 mg/Nm³ from October 1, 2026",
+    "Only CNG and electric buses from November 1, 2026; particulate norm of 50 mg/Nm³ from October 1, 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "From November 1, 2026, Delhi is scheduled to allow only BS-VI, CNG and electric buses, while the particulate norm is 50 mg/Nm³ from October 1, 2026. The other options alter the implementation date, the vehicle categories or the particulate limit."
+  }
+ ]
+}

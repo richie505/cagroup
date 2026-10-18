@@ -1,0 +1,270 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  23,
+  24,
+  25,
+  26
+ ],
+ "only": [
+  "P23.F1",
+  "P23.F10",
+  "P23.F11",
+  "P23.F12",
+  "P23.F13",
+  "P23.F14",
+  "P23.F15",
+  "P23.F16",
+  "P23.F17",
+  "P23.F19",
+  "P23.F2",
+  "P23.F20",
+  "P23.F6",
+  "P23.F8",
+  "P23.F9",
+  "P24.F1",
+  "P24.F2",
+  "P24.F3",
+  "P24.F5",
+  "P24.F6",
+  "P24.F7",
+  "P25.F3",
+  "P25.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "District-level enterprise and worker ranking",
+   "question": "With reference to the ASUSE district data for Andhra Pradesh and Telangana, consider the following statements:\n1. Prakasam had the highest number of enterprises in Andhra Pradesh.\n2. YSR Kadapa had the highest number of workers in Andhra Pradesh.\n3. Nizamabad had the highest number of enterprises in Telangana.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F1",
+    "P23.F2",
+    "P23.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Prakasam led Andhra Pradesh in enterprises, while YSR Kadapa led in workers. Statement 3 is incorrect because Rangareddy, not Nizamabad, had the highest number of enterprises in Telangana."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "AP rank and enterprise count",
+   "question": "Match the Andhra Pradesh rank with the district having the corresponding number of enterprises in the ASUSE district tables.\n\nList-I\n a. Rank 1\n b. Rank 2\n\nList-II\n i. Prakasam — 2.13 lakh\n ii. Krishna — 1.98 lakh\n iii. YSR Kadapa — 1.95 lakh\n iv. NTR — 1.89 lakh\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-iii, b-iv",
+    "a-iv, b-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F8",
+    "P23.F9"
+   ],
+   "explanation": "The correct pairs are a-i and b-ii: Prakasam was ranked 1 with 2.13 lakh enterprises, and Krishna was ranked 2 with 1.98 lakh enterprises. The other codes interchange these districts with the lower-ranked entries."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "AP rank and enterprise count",
+   "question": "Match the Andhra Pradesh rank with the district having the corresponding number of enterprises in the ASUSE district tables.\n\nList-I\n a. Rank 3\n b. Rank 4\n\nList-II\n i. NTR — 1.89 lakh\n ii. YSR Kadapa — 1.95 lakh\n iii. Sri Sathya Sai — 1.82 lakh\n iv. Tirupati — 1.79 lakh\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-iii, b-iv",
+    "a-iv, b-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F10",
+    "P23.F11"
+   ],
+   "explanation": "The correct pairs are a-ii and b-i: YSR Kadapa was ranked 3 with 1.95 lakh enterprises, and NTR was ranked 4 with 1.89 lakh. Sri Sathya Sai and Tirupati belong to ranks 5 and 6 respectively, making the remaining codes incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "AP rank and enterprise count",
+   "question": "Match the Andhra Pradesh rank with the district having the corresponding number of enterprises in the ASUSE district tables.\n\nList-I\n a. Rank 5\n b. Rank 6\n\nList-II\n i. Tirupati — 1.79 lakh\n ii. Sri Sathya Sai — 1.82 lakh\n iii. Srikakulam — 1.76 lakh\n iv. West Godavari — 1.72 lakh\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-iii, b-iv",
+    "a-iv, b-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F12",
+    "P23.F13"
+   ],
+   "explanation": "The correct pairs are a-ii and b-i: Sri Sathya Sai was ranked 5 with 1.82 lakh enterprises, while Tirupati was ranked 6 with 1.79 lakh. Srikakulam and West Godavari were ranked 7 and 8 respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "AP rank and enterprise count",
+   "question": "Match the Andhra Pradesh rank with the district having the corresponding number of enterprises in the ASUSE district tables.\n\nList-I\n a. Rank 7\n b. Rank 8\n\nList-II\n i. West Godavari — 1.72 lakh\n ii. Srikakulam — 1.76 lakh\n iii. East Godavari — 1.70 lakh\n iv. Eluru — 1.67 lakh\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-iii, b-iv",
+    "a-iv, b-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F14",
+    "P23.F15"
+   ],
+   "explanation": "The correct pairs are a-ii and b-i: Srikakulam was ranked 7 with 1.76 lakh enterprises, and West Godavari was ranked 8 with 1.72 lakh. East Godavari and Eluru correspond to ranks 9 and 10."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "AP rank and enterprise count",
+   "question": "Match the Andhra Pradesh rank with the district having the corresponding number of enterprises in the ASUSE district tables.\n\nList-I\n a. Rank 9\n b. Rank 10\n\nList-II\n i. Eluru — 1.67 lakh\n ii. East Godavari — 1.70 lakh\n iii. West Godavari — 1.72 lakh\n iv. Srikakulam — 1.76 lakh\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-iii, b-iv",
+    "a-iv, b-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F16",
+    "P23.F17"
+   ],
+   "explanation": "The correct pairs are a-ii and b-i: East Godavari was ranked 9 with 1.70 lakh enterprises, and Eluru was ranked 10 with 1.67 lakh. West Godavari and Srikakulam occupied the higher ranks 8 and 7 respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Telangana district indicators",
+   "question": "Consider the following statements:\nStatement A: In Telangana, Nizamabad had the lowest women-worker share among the districts listed.\nStatement B: Peddapalli had the lowest annual wage in Telangana.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P23.F19",
+    "P23.F20"
+   ],
+   "explanation": "Statement A is false, while Statement B is true. Nizamabad had the highest women-worker share at 69.59%, whereas Peddapalli had the lowest annual wage at ₹1,06,328."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Malaria burden by district",
+   "question": "According to the malaria burden data for tribal Andhra Pradesh, approximately how many cases were recorded in Alluri Sitarama Raju in 2024?",
+   "options": [
+    "Approximately 3,690",
+    "Approximately 2,650",
+    "Approximately 7,800",
+    "Approximately 1,820"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F5"
+   ],
+   "explanation": "Alluri Sitarama Raju recorded approximately 3,690 malaria cases in 2024. The figures 2,650 and 1,820 relate to Parvathipuram Manyam, while 7,800 is the Andhra Pradesh total for 2024."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Malaria burden figures",
+   "question": "How many of the following statements regarding malaria cases in tribal Andhra Pradesh are correct?\n1. Parvathipuram Manyam recorded approximately 2,650 cases in 2024.\n2. Andhra Pradesh recorded approximately 7,000 cases in 2025.\n3. Parvathipuram Manyam recorded approximately 3,500 or more cases in 2025.\n4. Andhra Pradesh recorded approximately 1,820 cases in 2024.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P24.F6",
+    "P24.F7"
+   ],
+   "explanation": "Exactly two statements are correct: Parvathipuram Manyam recorded approximately 2,650 cases in 2024, and Andhra Pradesh recorded approximately 7,000 cases in 2025. The 2025 figure for Parvathipuram Manyam was approximately 1,820, while the 2024 Andhra Pradesh total was approximately 7,800."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Casualties after chloroquine administration",
+   "question": "What was reported after chloroquine tablets were administered at a medical camp in Polavaram district?",
+   "options": [
+    "A 7-year-old girl died and 52 people, including 47 children, fell ill",
+    "A 7-year-old girl died and 23 people, including 15 children, fell ill",
+    "A 10-year-old boy died and 52 people, including 47 children, fell ill",
+    "A 7-year-old girl was injured and 52 people, including 47 children, were hospitalised"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F1"
+   ],
+   "explanation": "A 7-year-old girl died and 52 people, including 47 children, fell ill after the tablets were administered. The alternatives alter the age, number of affected persons, or outcome reported."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "The chloroquine-related illness incident in Polavaram district occurred in which location?",
+   "options": [
+    "Gollaguppa village, Yetapaka mandal",
+    "Lakshmipuram village, Bhadrachalam mandal",
+    "Chinna Gangavaram village, G.K. Veedhi mandal",
+    "Lothugedda village, Chintapalli mandal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F2"
+   ],
+   "explanation": "The incident occurred at Gollaguppa village in Yetapaka mandal of Polavaram district. Lakshmipuram was the location of a primary health centre involved in shifting patients, while Chinna Gangavaram and Lothugedda relate to other news items."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Patient transfer",
+   "question": "From where to where were 23 children shifted following the chloroquine-related illness incident?",
+   "options": [
+    "From Lakshmipuram PHC to Bhadrachalam Area Hospital",
+    "From Gollaguppa PHC to Lakshmipuram Area Hospital",
+    "From Bhadrachalam Area Hospital to Lakshmipuram PHC",
+    "From Yetapaka PHC to Chinna Gangavaram Area Hospital"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F3"
+   ],
+   "explanation": "The 23 children were shifted from Lakshmipuram PHC to Bhadrachalam Area Hospital. The other options reverse or change the health facilities and locations involved."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Similar community-built bridge",
+   "question": "Where had a similar wooden bridge been built a year earlier in relation to the Adivasi bridge in ASR district?",
+   "options": [
+    "T. Korukonda",
+    "Chinna Gangavaram",
+    "Ganugurolu",
+    "Boyapadu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P25.F3"
+   ],
+   "explanation": "A similar bridge had been built at T. Korukonda a year earlier. Chinna Gangavaram was associated with a washed-away culvert, while Boyapadu was one end of the later bridge."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Constitutional protection of Scheduled Areas",
+   "question": "Which constitutional provision applies to Scheduled Areas in Andhra Pradesh, other than the areas covered by the Sixth Schedule?",
+   "options": [
+    "Fifth Schedule",
+    "Sixth Schedule",
+    "Article 46",
+    "PESA 1996"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P25.F5"
+   ],
+   "explanation": "The Fifth Schedule applies to Scheduled Areas in Andhra Pradesh, whereas the Sixth Schedule covers Assam, Meghalaya, Tripura and Mizoram. Article 46 and PESA 1996 are related provisions but are not the constitutional Schedule asked for here."
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": [
+  "P3.F11",
+  "P3.F12",
+  "P3.F13",
+  "P3.F14",
+  "P3.F15",
+  "P3.F16",
+  "P3.F17",
+  "P3.F18",
+  "P3.F19",
+  "P3.F2",
+  "P3.F5",
+  "P3.F7",
+  "P3.F8",
+  "P4.F3",
+  "P4.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Policy rationale",
+   "question": "The NPCI Merchant Discount Rate framework was introduced following which government measure?",
+   "options": [
+    "Exemption of UPI payments up to ₹2,000 and RuPay debit cards from bank charges",
+    "Exemption of UPI payments up to ₹75,000 and credit cards from bank charges",
+    "Exemption of capital-market payments up to ₹300 and RuPay debit cards from bank charges",
+    "Exemption of UPI payments above ₹2,000 and RuPay debit cards from bank charges"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "The framework followed the government’s exemption of UPI payments up to ₹2,000 and RuPay debit cards from bank charges. The ₹75,000 threshold belongs to a separate MDR category, not the government exemption."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Capital-market MDR",
+   "question": "Under the NPCI UPI Merchant Discount Rate framework, what MDR applies to capital-market transactions?",
+   "options": [
+    "0.02%, capped at ₹300",
+    "0.4%, capped at ₹300",
+    "0.02%, capped at ₹75,000",
+    "Nil MDR without any cap"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Capital-market transactions attract MDR of 0.02%, with a cap of ₹300. The 0.4% rate applies to another merchant-payment category, while ₹75,000 is a transaction threshold in a separate provision."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nil-MDR categories",
+   "question": "Which group of transactions carries Nil MDR under the NPCI UPI framework?",
+   "options": [
+    "P2P, P2PM and AutoPay transactions",
+    "Capital-market, P2M and AutoPay transactions",
+    "P2P, capital-market and essential-sector transactions",
+    "P2M, P2PM and capital-market transactions"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "The framework prescribes Nil MDR for P2P, P2PM and AutoPay transactions. Capital-market and P2M transactions are governed by separate MDR provisions."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Fund, cost and volume data",
+   "question": "How many of the following statements about the UPI MDR framework and related payment data are correct?\n1. Five per cent of MDR collections is allocated to a small-merchant adoption fund.\n2. UPI’s running cost is approximately ₹28,000 crore per year, while its theoretical maximum MDR is approximately ₹28,000 crore per year.\n3. Debit-card MDR is up to 0.90%, while credit-card MDR is 1.5–2.5%.\n4. P2M transactions above ₹2,000 account for 2.5% of volume but approximately half of merchant value.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F11",
+    "P3.F12",
+    "P3.F13",
+    "P3.F14"
+   ],
+   "explanation": "Statements 1 and 3 are correct: 5% goes to the small-merchant adoption fund, and debit- and credit-card MDR rates are as stated. Statement 2 reverses the running-cost figure, which is approximately ₹20,000 crore, while statement 4 changes approximately two-thirds of merchant value to half."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Card MDR",
+   "question": "Which combination correctly states the card MDR rates associated with the UPI MDR framework?",
+   "options": [
+    "Debit card: up to 0.90%; credit card: 1.5–2.5%",
+    "Debit card: 1.5–2.5%; credit card: up to 0.90%",
+    "Debit card: 0.02%; credit card: 0.4%",
+    "Debit card: Nil; credit card: 1.5–2.5%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F13"
+   ],
+   "explanation": "Debit-card MDR is up to 0.90%, whereas credit-card MDR ranges from 1.5% to 2.5%. The 0.02% and 0.4% figures relate to other MDR categories."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "UPI transaction scale",
+   "question": "Consider the following statements:\nStatement A: In 2025–26, UPI processed 24,000 crore-plus transactions worth ₹314 lakh crore, while P2M transactions above ₹2,000 accounted for 60.5% of volume.\nStatement B: In 2025–26, UPI processed 24,000 crore-plus transactions worth ₹314 lakh crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F14",
+    "P3.F15"
+   ],
+   "explanation": "Statement B is correct: UPI recorded more than 24,000 crore transactions worth ₹314 lakh crore in 2025–26. Statement A is incorrect because P2M transactions above ₹2,000 represented 2.5% of volume, not 60.5%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bank and app shares",
+   "question": "Which of the following correctly represents the reported UPI participation shares?",
+   "options": [
+    "Yes Bank was the payer bank in more than 50% of transactions, while PhonePe accounted for approximately 46%",
+    "ICICI Bank was the payer bank in more than 50% of transactions, while Google Pay accounted for approximately 46%",
+    "Axis Bank was the payee bank in more than 55% of transactions, while PhonePe accounted for approximately 32%",
+    "Yes Bank was the payer bank in approximately 18.3% of transactions, while Google Pay accounted for approximately 46%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F16"
+   ],
+   "explanation": "Yes Bank served as the payer bank in more than 50% of transactions, and PhonePe accounted for approximately 46%. ICICI Bank’s payer share was approximately 18.3%, while Google Pay’s share was approximately 32%."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "NPCI origin and institutional basis",
+   "question": "Assertion (A): NPCI received in-principle approval from RBI’s DPSS on 24 September 2009.\nReason (R): NPCI was an initiative of RBI and IBA and functions as a not-for-profit company under Section 8 of the Companies Act 2013.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F17",
+    "P3.F18"
+   ],
+   "explanation": "Both statements are true. However, NPCI’s institutional character as an RBI–IBA initiative and Section 8 company does not explain the specific date on which RBI’s DPSS granted in-principle approval."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "NPCI payment systems",
+   "question": "Match the following NPCI systems with the group in which they are listed:\n\nList-I\n a. UPI\n b. RuPay\n c. IMPS\n d. NETC FASTag\n\nList-II\n i. NPCI system\n ii. NPCI system\n iii. NPCI system\n iv. NPCI system",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F19"
+   ],
+   "explanation": "UPI, RuPay, IMPS and NETC FASTag are all included among NPCI’s systems. Since every List-II entry identifies an NPCI system, the stated one-to-one pairing is the correct code."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Uzbekistan facts",
+   "question": "Match the following with the corresponding facts relating to Uzbekistan:\n\nList-I\n a. Capital\n b. Currency\n c. President\n d. Geographical distinction\n\nList-II\n i. Tashkent\n ii. Som\n iii. Shavkat Mirziyoyev\n iv. One of the world’s two doubly landlocked countries, along with Liechtenstein",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "Uzbekistan’s capital is Tashkent, its currency is the Som, and its President is Shavkat Mirziyoyev. It is one of the world’s two doubly landlocked countries, the other being Liechtenstein."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "UPI and NIPL institutional background",
+   "question": "Match the following with the appropriate institutional detail:\n\nList-I\n a. UPI\n b. NPCI\n c. RBI\n d. NIPL\n\nList-II\n i. Introduced in 2016\n ii. Organisation behind UPI\n iii. Regulator of UPI\n iv. NPCI subsidiary taking UPI and RuPay abroad",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "UPI was introduced in 2016 by NPCI and is regulated by RBI. NIPL is an NPCI subsidiary responsible for taking UPI and RuPay abroad, making the first code correct."
+  }
+ ]
+}

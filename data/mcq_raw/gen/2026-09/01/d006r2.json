@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  27,
+  28
+ ],
+ "only": [
+  "P27.F1",
+  "P27.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "State Festival declaration",
+   "question": "What status was accorded to Poet-reformer Gurajada Apparao’s birth anniversary in Andhra Pradesh?",
+   "options": [
+    "A State Festival",
+    "A National Festival",
+    "A District Festival",
+    "A Cultural Heritage Day"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F1"
+   ],
+   "explanation": "Gurajada Apparao’s birth anniversary was declared a State Festival in Andhra Pradesh. The other options do not reflect the status accorded to the anniversary."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Gurajada Apparao: birth and works",
+   "question": "Consider the following statements about Gurajada Apparao:\n1. He was born on September 21, 1862, at Rayavaram.\n2. Kanyasulkam was his work.\n3. Kanyasulkam was his song titled “Desamunu Preminchumanna”.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Gurajada Apparao was born on September 21, 1862, at Rayavaram, and Kanyasulkam was his work. Statement 3 is incorrect because “Desamunu Preminchumanna” is identified as his song, whereas Kanyasulkam is his work."
+  }
+ ]
+}

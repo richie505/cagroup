@@ -1,0 +1,284 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F1",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F2",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch date and vehicle",
+   "question": "EOS-05 was launched on which date aboard which launch vehicle from the Second Launch Pad at SDSC-SHAR, Sriharikota?",
+   "options": [
+    "4 September 2026 — GSLV-F17",
+    "18 April 2001 — GSLV-D5",
+    "January 2014 — GSLV-F17",
+    "4 September 2026 — LVM3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "EOS-05 was launched on 4 September 2026 by GSLV-F17 from the Second Launch Pad at SDSC-SHAR, Sriharikota. The other options alter either the launch vehicle or the date."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GSLV-F17 specifications",
+   "question": "Which combination correctly describes GSLV-F17?",
+   "options": [
+    "19th GSLV flight, 51.7 m height, 420.5 t lift-off mass, three stages and a 4 m ogive fairing",
+    "19th GSLV flight, 51.7 m height, 420.5 t lift-off mass, four stages and a 4 m ogive fairing",
+    "17th GSLV flight, 51.7 m height, 420.5 t lift-off mass, three stages and a 4 m ogive fairing",
+    "19th GSLV flight, 50.7 m height, 420.5 t lift-off mass, three stages and a 4 m ogive fairing"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "GSLV-F17 was the 19th GSLV flight, measured 51.7 m, had a 420.5 t lift-off mass, used three stages and carried a 4 m ogive fairing. The distractors change the flight number, number of stages or vehicle height."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "GSLV stage configuration",
+   "question": "Match the stages of GSLV-F17 with their corresponding details.\n\nList-I\n a. GS1\n b. GS2\n c. GS3\n d. Vehicle fairing\n\nList-II\n i. 4 m ogive fairing\n ii. S139 solid core with four L40H liquid strap-ons\n iii. GL40HT liquid stage\n iv. CUS15 cryogenic stage using LH2 and LOX",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "The correct pairs are GS1–S139 with four L40H strap-ons, GS2–GL40HT, GS3–CUS15 using LH2 and LOX, and vehicle fairing–4 m ogive fairing. The other codes interchange the stage and fairing details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Payload capacity and development milestones",
+   "question": "Which statement correctly describes the GSLV Mk II?",
+   "options": [
+    "It can carry about 2,250 kg to GTO and 6,000 kg to LEO; its first flight was on 18 April 2001, and its indigenous cryogenic stage began with GSLV-D5 in January 2014.",
+    "It can carry about 6,000 kg to GTO and 2,250 kg to LEO; its first flight was on 18 April 2001, and its indigenous cryogenic stage began with GSLV-D5 in January 2014.",
+    "It can carry about 2,250 kg to GTO and 6,000 kg to LEO; its first flight was on 4 September 2026, and its indigenous cryogenic stage began with GSLV-D5 in January 2014.",
+    "It can carry about 2,250 kg to GTO and 6,000 kg to LEO; its first flight was on 18 April 2001, and its indigenous cryogenic stage began with GSLV-F17 in January 2014."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "GSLV Mk II has a capacity of about 2,250 kg to GTO and 6,000 kg to LEO, first flew on 18 April 2001, and used an indigenous cryogenic stage from GSLV-D5 in January 2014. The wrong options reverse capacities or substitute an incorrect mission or vehicle."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "LEO characteristics and payloads",
+   "question": "With reference to low Earth orbit, consider the following statements:\n\n1. LEO extends from 160 km to 2,000 km.\n2. An orbit in LEO takes about 90–120 minutes.\n3. About 22 active payloads were reported in LEO on 4 September 2026.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: LEO ranges from 160 km to 2,000 km and has an orbital period of about 90–120 minutes. Statement 3 is incorrect because about 15,562 active payloads were reported, while 22 was the number of India’s operational LEO satellites in April 2026."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Geosynchronous and geostationary orbits",
+   "question": "Consider the following statements:\n\nStatement A: A geosynchronous orbit is necessarily circular, equatorial and has zero inclination.\nStatement B: India has 30 GEO satellites.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "Both statements are false. A geosynchronous orbit may be elliptical or inclined; the circular, equatorial, zero-inclination description applies to a geostationary orbit, and India has 31 GEO satellites."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MEO constellation",
+   "question": "How many satellites are in the Galileo constellation in medium Earth orbit?",
+   "options": [
+    "30",
+    "31",
+    "22",
+    "15,562"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "Galileo, the European system, has 30 satellites in medium Earth orbit. The other figures refer to India’s GEO satellites, India’s operational LEO satellites or active payloads in LEO."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Applications and orbital monitoring features",
+   "question": "How many of the following statements about EOS-05’s geostationary-orbit imaging role are correct?\n\n1. It is useful for agriculture, land resources, environmental and weather monitoring, and disaster management.\n2. Unlike LEO or Sun-synchronous Earth-observation satellites, it can watch the same large area with very high temporal frequency.\n3. A geostationary orbit is about 35,786 km above the equator, has a period of about 24 hours and appears stationary.\n4. Its principal regional advantage is that it observes the same area only once every 24 hours.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F13",
+    "P0.F14",
+    "P0.F15"
+   ],
+   "explanation": "Only three statements are correct: statements 1, 2 and 3 accurately describe the applications and monitoring advantages of EOS-05 and geostationary orbit. Statement 4 is incorrect because the same large area can be watched with very high temporal frequency, not only once every 24 hours."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch-centre identity",
+   "question": "SDSC-SHAR, the launch centre used for EOS-05, is located at which place and is named after whom?",
+   "options": [
+    "Sriharikota, Andhra Pradesh — Prof. Satish Dhawan",
+    "Mahendragiri, Tamil Nadu — Prof. Satish Dhawan",
+    "Sriharikota, Andhra Pradesh — Vikram Sarabhai",
+    "Mahendragiri, Tamil Nadu — Vikram Sarabhai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "SDSC-SHAR is located at Sriharikota in Andhra Pradesh and is named after Prof. Satish Dhawan. Mahendragiri is the location of IPRC, not SDSC-SHAR."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Full-thrust hot test",
+   "question": "At what rated thrust level was the Semi-Cryogenic Engine Power Head Test Article hot-tested?",
+   "options": [
+    "100% rated level, corresponding to 200 tonnes thrust",
+    "88% rated level, corresponding to 175 tonnes thrust",
+    "60% rated level, corresponding to 120 tonnes thrust",
+    "47% rated level, corresponding to 94 tonnes thrust"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The PHTA hot test reached 100% of the rated level, corresponding to 200 tonnes thrust. The other options are lower test levels and their corresponding thrust values."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Test venue",
+   "question": "Where was the Semi-Cryogenic Engine Power Head Test Article hot test conducted?",
+   "options": [
+    "ISRO Propulsion Research Complex, Mahendragiri, Tamil Nadu",
+    "Second Launch Pad, SDSC-SHAR, Sriharikota, Andhra Pradesh",
+    "ISRO Propulsion Research Complex, Sriharikota, Andhra Pradesh",
+    "Second Launch Pad, Mahendragiri, Tamil Nadu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The hot test was conducted at the ISRO Propulsion Research Complex at Mahendragiri in Tamil Nadu. Sriharikota and the Second Launch Pad are associated with the launch-site context, not this propulsion test."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Engine-system validation",
+   "question": "What operational transition was validated during the semi-cryogenic Power Head Test Article hot test?",
+   "options": [
+    "Switching from a low-pressure start tank to a medium-pressure run tank",
+    "Switching from a medium-pressure run tank to a low-pressure start tank",
+    "Switching from a low-pressure start tank to a high-pressure run tank",
+    "Switching from a high-pressure start tank to a medium-pressure run tank"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "The test validated the switch from a low-pressure start tank to a medium-pressure run tank. The other options alter one or both of the pressure-tank descriptions."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Test levels and thrust values",
+   "question": "Match the tested power levels with the corresponding thrust values.\n\nList-I\n a. 47%\n b. 60%\n c. 88%\n d. 100%\n\nList-II\n i. 120 t\n ii. 200 t\n iii. 94 t\n iv. 175 t",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8",
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "The correct pairs are 47%–94 t, 60%–120 t, 88%–175 t and 100%–200 t. The other codes mismatch the power levels and thrust values."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PHTA configuration",
+   "question": "Which component is excluded from the systems included in the Semi-Cryogenic Engine Power Head Test Article?",
+   "options": [
+    "Thrust chamber",
+    "Low-pressure start tank",
+    "Medium-pressure run tank",
+    "Power head systems"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "The PHTA includes all engine systems except the thrust chamber. The start tank, run tank and other power-head systems are included in the tested configuration."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Engine and stage relationship",
+   "question": "Assertion (A): SE2000 is a 2,000 kN-class engine that powers the SC120 semi-cryogenic stage.\nReason (R): SC120 is intended to replace the L110 core stage of LVM3 and, with an uprated C32 cryogenic upper stage, raises LVM3 payload.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "Both the assertion and the reason are true. However, the replacement of L110 by SC120 and the use of an uprated C32 upper stage describe the role and payload effect of SC120; they do not explain why SE2000 is classified as a 2,000 kN-class engine powering it."
+  }
+ ]
+}

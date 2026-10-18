@@ -1,0 +1,199 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F3",
+  "P10.F4",
+  "P12.F4",
+  "P13.F3",
+  "P14.F2",
+  "P14.F3",
+  "P14.F5",
+  "P15.F3",
+  "P15.F4",
+  "P15.F5",
+  "P15.F6",
+  "P9.F1",
+  "P9.F3",
+  "P9.F5",
+  "P9.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "IMEC announcement",
+   "question": "At which G20 summit was the India–Middle East–Europe Economic Corridor (IMEC) announced?",
+   "options": [
+    "G20 New Delhi, 2023",
+    "G20 New Delhi, 1993",
+    "G20 New Delhi, 1999",
+    "G20 New Delhi, 2012"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "IMEC was announced at the G20 New Delhi Summit in September 2023. The years 1993, 1999 and 2012 relate to other international developments, not the announcement of IMEC."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "EU structure and Canada’s proposed status",
+   "question": "Consider the following statements regarding the European Union and the proposed Canadian associate-member status:\n1. The European Union dates from 1993 and has 27 members.\n2. Twenty-one EU members use the euro.\n3. Canada’s proposed associate-member status would provide voting rights and full Single Market access.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the EU dates from 1993, has 27 members, and 21 members use the euro. Statement 3 is incorrect because the proposed Canadian status would not provide voting rights or full Single Market access."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IMEC corridors and connectivity",
+   "question": "Which combination correctly describes the India–Middle East–Europe Economic Corridor (IMEC)?",
+   "options": [
+    "Eastern corridor linking India with the Arabian Gulf, and Northern corridor linking the Arabian Gulf with Europe, supported by rail, shipping, electricity, digital links and clean hydrogen",
+    "Eastern corridor linking India with Europe, and Northern corridor linking the Arabian Gulf with Canada, supported only by rail",
+    "Eastern corridor linking Canada with the Arabian Gulf, and Northern corridor linking India with Europe, supported only by shipping and electricity",
+    "Eastern corridor linking India with the Arabian Gulf, and Northern corridor linking Europe with Canada, supported by digital links only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F5"
+   ],
+   "explanation": "IMEC has an Eastern corridor from India to the Arabian Gulf and a Northern corridor from the Arabian Gulf to Europe. Its proposed connectivity includes rail, shipping, electricity, digital links and clean hydrogen."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "India–Belgium cooperation areas",
+   "question": "Match List-I with List-II in the context of India–Belgium cooperation.\n\nList-I\n a. Zorawar\n b. Green ammonia project\n c. Semiconductors\n d. Critical minerals\n\nList-II\n i. Light tank\n ii. Kakinada\n iii. Link between imec and India\n iv. Cooperation area\n\nSelect the correct answer using the code below.",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: Zorawar is a light tank, the green ammonia project is associated with Kakinada, semiconductors involve linking imec with India, and critical minerals are a separate cooperation area. The other codes interchange these cooperation subjects."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Belgium’s capital, languages and wartime connection",
+   "question": "Consider the following statements:\nStatement A: Belgium’s capital is Brussels and its languages are Dutch, French and English.\nStatement B: India and Belgium discussed cooperation in defence, renewable energy, cybercrime and diplomatic training, and Indian soldiers served in Belgium during the First World War.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4"
+   ],
+   "explanation": "Statement A is false because Belgium’s languages listed in the fact are Dutch, French and German, although its capital is Brussels. Statement B is true and covers the identified cooperation areas and the service of Indian soldiers in Belgium during World War I."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "G20 composition",
+   "question": "Which of the following correctly describes the composition of the G20 as stated in the context of the G20 Energy Ministers’ Meeting?",
+   "options": [
+    "19 countries, the European Union and the African Union",
+    "27 countries and the European Union only",
+    "19 countries and the African Union only",
+    "21 countries, the European Union and the African Union"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "The G20 consists of 19 countries, the European Union and the African Union. The African Union became a permanent member in 2023; the other options alter the membership composition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nepal’s political leadership",
+   "question": "Who were the President and Prime Minister of Nepal mentioned in the context of India’s approved electricity exports to Nepal?",
+   "options": [
+    "Ram Chandra Paudel and Balen Shah",
+    "Mark Carney and Bart De Wever",
+    "Ajit Doval and Wang Yi",
+    "Kao Kim Hourn and Francisco P. Tiu Laurel"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "Nepal’s President was Ram Chandra Paudel and its Prime Minister was Balen Shah. The other pairs refer to Canadian, Belgian, India–China diplomatic, and ASEAN-related contexts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "India–China border context",
+   "question": "Consider the following statements regarding the India–China border developments in September 2026:\n1. The tensions preceding the talks were in Taksing, Upper Subansiri, and NSA Ajit Doval met Foreign Minister Wang Yi in Beijing on August 25, 2026.\n2. The Line of Actual Control is an agreed international boundary.\n3. The Line of Actual Control is a de facto line and not an agreed boundary.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F2",
+    "P14.F5"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the reported tensions were in Taksing, Upper Subansiri, and Ajit Doval met Wang Yi in Beijing on August 25, 2026; the LAC is a de facto line, not an agreed boundary. Statement 2 incorrectly describes the LAC as an agreed international boundary."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "McMahon Line and Simla Convention",
+   "question": "Assertion (A): The McMahon Line is associated with the 1914 Simla Convention.\nReason (R): The McMahon Line was established through the 1914 Simla Convention.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3"
+   ],
+   "explanation": "Both the assertion and the reason are true. The 1914 Simla Convention is the basis for the McMahon Line, so the reason correctly explains the assertion."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "ASEAN–India cooperation and ASEAN profile",
+   "question": "How many of the following statements are correct?\n1. The ASEAN documents adopted included “ASEAN 2045: Our Shared Future” and the ASEAN Food, Agriculture and Forestry Sectoral Plan 2026–2030.\n2. The listed agricultural cooperation areas included high-emission rice, AI digital agriculture and soil health.\n3. ASEAN was founded on August 8, 1967, through the Bangkok Declaration, has its headquarters in Jakarta, has 11 members and has Kao Kim Hourn as Secretary-General.\n4. India–ASEAN relations progressed from sectoral dialogue in 1992 to full dialogue in 1995, strategic partnership in 2012 and comprehensive strategic partnership in 2022.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F3",
+    "P15.F4",
+    "P15.F5",
+    "P15.F6"
+   ],
+   "explanation": "Statements 1, 3 and 4 accurately state the adopted ASEAN documents, ASEAN’s profile and the stages of India–ASEAN relations. Statement 2 is incorrect because the identified area was low-emission rice, not high-emission rice; therefore, exactly three statements are correct."
+  }
+ ]
+}

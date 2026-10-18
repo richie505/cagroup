@@ -1,0 +1,268 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "only": [
+  "P15.F2",
+  "P15.F4",
+  "P15.F6",
+  "P15.F7",
+  "P16.F2",
+  "P16.F4",
+  "P16.F5",
+  "P16.F6",
+  "P17.F2",
+  "P17.F4",
+  "P17.F5",
+  "P18.F4",
+  "P18.F5",
+  "P18.F6",
+  "P19.F10",
+  "P19.F11",
+  "P19.F12",
+  "P19.F3",
+  "P19.F5",
+  "P19.F7",
+  "P19.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch vehicle and collaboration",
+   "question": "The TRISHNA mission, being jointly developed by ISRO and France's CNES, is scheduled to be launched on which vehicle?",
+   "options": [
+    "PSLV",
+    "GSLV",
+    "LVM3",
+    "Ariane 6"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2"
+   ],
+   "explanation": "TRISHNA is a joint ISRO–CNES mission scheduled for launch on the PSLV. The other vehicles are not identified as the launch vehicle for this mission."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Mission applications and institutional background",
+   "question": "With reference to TRISHNA and the institutions associated with it, consider the following statements:\n1. TRISHNA will support the assessment of water stress and use, urban heat islands and geothermal resources.\n2. ISRO was established in 1969 at Bengaluru, and its Chairman is V. Narayanan.\n3. CNES was established in 1961, is headquartered in Paris, and is headed by Lionel Suchet.\nWhich of the statements given above is correct?",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F4",
+    "P15.F6",
+    "P15.F7"
+   ],
+   "explanation": "All three statements are correct: TRISHNA has the listed applications, ISRO dates to 1969 and is based in Bengaluru with V. Narayanan as Chairman, and CNES dates to 1961 with its headquarters in Paris and Lionel Suchet as head. Therefore, the option stating that all three are correct is the answer."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Company and innovation",
+   "question": "In the India–France space-industry agreements, which Indian company partnered with France's RIDE! for launch services for two satellites?",
+   "options": [
+    "TakeMe2Space",
+    "Dhruva Space",
+    "AXISCADES",
+    "GalaxEye"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F2"
+   ],
+   "explanation": "TakeMe2Space partnered with RIDE! for launch services for two satellites. Dhruva Space and AXISCADES were associated with other agreements, while GalaxEye was not identified in this arrangement."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Participation in Chandrayaan-3",
+   "question": "Assertion (A): Safran also participated in Chandrayaan-3.\nReason (R): Safran was the French partner of AXISCADES in an agreement on India's microsatellite market.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P16.F4",
+    "P16.F3"
+   ],
+   "explanation": "The Assertion is true because Safran also took part in Chandrayaan-3. The Reason is false: AXISCADES partnered with U-Space, whereas Safran was associated with Dhruva Space in the other agreement."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Bilateral space cooperation background",
+   "question": "Consider the following statements:\nStatement A: The agreements followed Emmanuel Macron's India visit in February 2026.\nStatement B: India–France space ties began in the 1970s and concern only civilian satellites.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P16.F5",
+    "P16.F6"
+   ],
+   "explanation": "Statement A is true: the agreements followed Emmanuel Macron's India visit in February 2026. Statement B is false because India–France space ties date from the 1960s and also include human spaceflight, besides civilian satellites."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Signatories",
+   "question": "The extension of the ISRO–ESA cooperation agreement was signed by which pair of officials?",
+   "options": [
+    "Dr. V. Narayanan and Josef Aschbacher",
+    "V. Narayanan and Lionel Suchet",
+    "Josef Aschbacher and Emmanuel Macron",
+    "V. Narayanan and Safran's chief executive"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F2"
+   ],
+   "explanation": "The extension was signed by ISRO Chairman Dr. V. Narayanan and ESA Director General Josef Aschbacher. Lionel Suchet is associated with CNES, not ESA, and the other pairs do not represent the signatories."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Agreement scope and ESA profile",
+   "question": "Match List-I with List-II regarding the ISRO–ESA cooperation arrangement and ESA.\n\nList-I\n(a) Areas covered by the agreement\n(b) Establishment of ESA\n(c) Headquarters of ESA\n(d) Institutional character of ESA\n\nList-II\n(i) Paris\n(ii) 1975\n(iii) Intergovernmental space organisation\n(iv) Human and robotic exploration, space weather and sustainable outer-space activities\n\nSelect the correct answer using the code below:",
+   "options": [
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-iii, b-ii, c-i, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F4",
+    "P17.F5"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-i and d-iii. The agreement covers human and robotic exploration, space weather and sustainable outer-space activities; ESA was established in 1975, is headquartered in Paris and is an intergovernmental space organisation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Applications of satellite imaging",
+   "question": "The Optical Synthetic Aperture Radar imaging system of GalaxEye is intended for which of the following applications?",
+   "options": [
+    "National security, agriculture and disaster management",
+    "Only weather forecasting and astronomical observation",
+    "Deep-sea mining and human spaceflight alone",
+    "Nuclear power generation and vaccine development"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F4"
+   ],
+   "explanation": "GalaxEye's imaging system has applications including national security, agriculture, infrastructure, insurance, maritime surveillance and disaster management. The other combinations do not represent the listed uses."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Start-up and SAR technology",
+   "question": "Consider the following statements:\nStatement A: GalaxEye was established in 2022 in Bengaluru.\nStatement B: Synthetic Aperture Radar is a passive remote-sensing system that cannot operate through clouds or at night.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P18.F5",
+    "P18.F6"
+   ],
+   "explanation": "Both statements are false. GalaxEye was established in 2021 in Bengaluru, while SAR is active remote sensing that sends microwave signals, records echoes and works through clouds and at night."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Djibouti profile",
+   "question": "Which currency is associated with Djibouti, the country located near Bab el-Mandeb?",
+   "options": [
+    "Djiboutian Franc",
+    "African CFA franc",
+    "Ethiopian birr",
+    "Riyal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F3"
+   ],
+   "explanation": "Djibouti's currency is the Djiboutian Franc, and the country is near Bab el-Mandeb. The other currencies are not identified as Djibouti's currency."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "BRICS membership",
+   "question": "Which of the following correctly represents the recent BRICS membership listed for September 2026?",
+   "options": [
+    "Egypt, Ethiopia, Iran, Saudi Arabia, UAE and Indonesia",
+    "Finland, Sweden, Egypt, Ethiopia, Iran and Indonesia",
+    "South Sudan, Israel, Colombia, Uzbekistan, Egypt and UAE",
+    "Comoros, Timor-Leste, Türkiye, Djibouti, Egypt and Iran"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F5"
+   ],
+   "explanation": "The listed recent BRICS members are Egypt, Ethiopia, Iran, Saudi Arabia, UAE and Indonesia. The other options combine countries associated with different organisations or membership entries."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NAM membership",
+   "question": "South Sudan was listed as which numbered member of the Non-Aligned Movement (NAM)?",
+   "options": [
+    "121st",
+    "119th",
+    "165th",
+    "69th"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F7"
+   ],
+   "explanation": "South Sudan was listed as the 121st member of NAM. The other numbers belong to different membership entries or are not the stated position of South Sudan."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "ADB and NDB membership",
+   "question": "Match the organisation with the corresponding recent-membership detail.\n\nList-I\n(a) ADB\n(b) NDB\n\nList-II\n(i) Israel — 69th member\n(ii) 11 members, including Colombia and Uzbekistan\n\nSelect the correct answer using the code below:",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-i, b-i",
+    "a-ii, b-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F9",
+    "P19.F10"
+   ],
+   "explanation": "ADB's listed recent membership was Israel as its 69th member, while the NDB entry referred to 11 members including Colombia and Uzbekistan. Hence, the correct matching is a-i, b-ii."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "WTO and Artemis Accords memberships",
+   "question": "How many of the following statements are correct?\n1. Comoros became the WTO's 165th member.\n2. Timor-Leste became the WTO's 165th member.\n3. Türkiye became the 71st signatory to the Artemis Accords.\n4. Djibouti became the 71st signatory to the Artemis Accords.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P19.F11",
+    "P19.F12"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Comoros was the WTO's 165th member and Türkiye was the 71st Artemis Accords signatory. Timor-Leste was the 166th WTO member, while Djibouti was the 72nd Artemis Accords signatory, so exactly two statements are correct."
+  }
+ ]
+}

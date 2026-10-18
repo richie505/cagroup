@@ -1,0 +1,232 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F5",
+  "P10.F6",
+  "P10.F7",
+  "P12.F3",
+  "P12.F4",
+  "P13.F3",
+  "P13.F4",
+  "P8.F10",
+  "P8.F11",
+  "P8.F12",
+  "P8.F13",
+  "P8.F14",
+  "P8.F3",
+  "P8.F5",
+  "P8.F6",
+  "P9.F2",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Five pillars",
+   "question": "Which of the following statements about the five pillars of Swachhata Hi Seva 2026 is incorrect?",
+   "options": [
+    "CTU transformation is one of the five pillars.",
+    "Swachh Paathshala is associated with Yuva for Swachhata.",
+    "SafaiMitra Suraksha, Seva Evam Samman Shivirs form one of the pillars.",
+    "Swachhata Se Samriddhi includes Kabaad Se Jugaad and Kabaad Se Rozgar."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "The incorrect statement is the fourth one. Swachhata Se Samriddhi includes Kabaad Se Jugaad and Kabaad Se Kala, not Kabaad Se Rozgar; the other three are among the five pillars."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch year and date",
+   "question": "Swachhata Hi Seva was first launched in which year and on which date was its 2017 focus launched?",
+   "options": [
+    "2017, September 15",
+    "2020, September 15",
+    "2023, September 17",
+    "2026, October 1"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "Swachhata Hi Seva was first launched in 2017, with its 2017 focus launched on September 15. The other options combine the event with years or dates belonging to different campaign contexts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Campaign year not held",
+   "question": "In which year was the Swachhata Hi Seva focus not held because of COVID?",
+   "options": [
+    "2017",
+    "2020",
+    "2023",
+    "2026"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F6"
+   ],
+   "explanation": "The Swachhata Hi Seva focus was not held in 2020 because of COVID. The years 2017, 2023 and 2026 refer to other campaign years, not the COVID-related non-observance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Annual focus",
+   "question": "What was the Swachhata Hi Seva focus in 2026?",
+   "options": [
+    "Garbage-Free India",
+    "Swabhav Swachhata, Sanskaar Swachhata",
+    "Swachhotsav",
+    "Swachhata Mein Sahbhag"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F10"
+   ],
+   "explanation": "The 2026 Swachhata Hi Seva focus was “Swachhata Mein Sahbhag.” “Garbage-Free India,” “Swabhav Swachhata, Sanskaar Swachhata” and “Swachhotsav” were associated with earlier campaign years."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Swachh Bharat Mission progress",
+   "question": "With reference to the Swachh Bharat Mission progress reported on September 17, 2026, how many of the following statements are correct?\n1. The Mission was launched on October 2, 2014, and its logo depicts Gandhi’s spectacles.\n2. Rural India became ODF in 2020.\n3. There were more than 5.25 lakh ODF Plus Model villages and 12.22 crore household toilets.\n4. The urban network included 95,478 wards with door-to-door collection and 60 waste-to-energy plants.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F11",
+    "P8.F12",
+    "P8.F13"
+   ],
+   "explanation": "Only two statements are correct: statements 1 and 3. Rural India became ODF in 2019, while the urban figure of 60 refers to waste-to-energy plants but the statement as a whole is not counted as correct because it combines the 95,478-ward figure with an unsupported door-to-door collection description."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "ODF Plus stages",
+   "question": "Consider the following statements about the stages of ODF Plus villages:\n1. The stages are Aspiring, Rising and Model.\n2. The stages are Model, Rising and Aspiring, in that order.\n3. ODF Plus has three stages named Aspiring, Rising and Model.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F14"
+   ],
+   "explanation": "Statements 1 and 3 are correct because the ODF Plus stages are Aspiring, Rising and Model. Statement 2 incorrectly reverses the order of the stages."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CBG output target",
+   "question": "What is the principal production objective of the National Circular Bioenergy Scheme, GOBARdhan?",
+   "options": [
+    "To double CBG output",
+    "To raise CBG output approximately ten-fold",
+    "To maintain CBG output at the existing level",
+    "To reduce CBG output approximately ten-fold"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The scheme aims to raise Compressed Biogas output approximately ten-fold. Doubling, maintaining or reducing output does not represent the stated objective."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Feedstock",
+   "question": "Which of the following is not identified as feedstock for the National Circular Bioenergy Scheme, GOBARdhan?",
+   "options": [
+    "Crop residue",
+    "Cattle dung",
+    "Press mud",
+    "Mineral coal"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "Mineral coal is not among the identified feedstocks. GOBARdhan uses crop residue, cattle dung, press mud and municipal organic waste."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Approved outlay",
+   "question": "At the 5th National Steering Committee, what amount was approved for the three PM-SETU ITI clusters?",
+   "options": [
+    "₹735.70 crore",
+    "₹2,171 crore",
+    "₹241 crore",
+    "₹254.30 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "₹735.70 crore was approved for the three ITI clusters at the 5th National Steering Committee. ₹2,171 crore is the total for nine clusters, while ₹241 crore and ₹254.30 crore are amounts associated with individual clusters."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "PM-SETU and NSDC",
+   "question": "Consider the following statements:\n1. The total amount for nine PM-SETU ITI clusters is ₹2,171 crore.\n2. PM-SETU stands for Pradhan Mantri Skilling and Employability Transformation through Upgraded ITIs and follows a hub-and-spoke model under MSDE.\n3. NSDC was established in 2009 as a public-sector organisation.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5",
+    "P10.F6",
+    "P10.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct. NSDC dates to 2008 and operates through a public-private partnership, so statement 3 is incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "SDG alignment and vaccines",
+   "question": "Consider the following statements:\nStatement A: India’s target to eliminate Hepatitis B and C as public-health threats is aligned with SDG 3.2.\nStatement B: Hepatitis B has a vaccine, whereas Hepatitis C has no vaccine and is treated with antivirals.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F3",
+    "P12.F4"
+   ],
+   "explanation": "Statement A is false because the target is aligned with SDG 3.3, not SDG 3.2. Statement B is true: Hepatitis B has a vaccine, while Hepatitis C has no vaccine and is treated with antivirals."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Court proceedings and school sanitation",
+   "question": "Consider the following statements regarding the separate school toilets issue:\n1. ASG Aishwarya Bhati presented the Centre’s position before the Supreme Court.\n2. The matter was heard by a Bench comprising Justice J.B. Pardiwala and Justice R. Mahadevan.\n3. Swachh Vidyalaya concerns WASH in schools, while the Swachh Bharat Mission was launched on September 2, 2014.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: ASG Aishwarya Bhati represented the Centre, and the Bench comprised Justice J.B. Pardiwala and Justice R. Mahadevan. Statement 3 is incorrect because the Swachh Bharat Mission was launched on October 2, 2014, although Swachh Vidyalaya does concern WASH in schools."
+  }
+ ]
+}

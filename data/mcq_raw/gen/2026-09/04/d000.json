@@ -1,0 +1,177 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F1",
+  "P1.F2",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F10",
+  "P2.F11",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Components and drivers of reserves",
+   "question": "With reference to India’s foreign-exchange reserves reported by the RBI in September 2026, consider the following statements:\n1. The reserves comprise Foreign Currency Assets, gold, SDRs and the Reserve Tranche Position with the IMF.\n2. FDI, FPI, FCNR(B) deposits, RBI forex swaps, exports, remittances and gold appreciation are growth drivers of the reserves.\n3. India’s reserves provided import cover of more than 11–12 months.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "All three statements are correct. The reserve components include Foreign Currency Assets, gold, SDRs and the Reserve Tranche Position with the IMF; the reported growth drivers include the listed financial flows, exports, remittances and gold appreciation, while import cover was more than 11–12 months. The other options omit one correct statement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Management and issuer",
+   "question": "In the context of India’s foreign-exchange reserves, which pairing is correct?",
+   "options": [
+    "RBI manages the reserves; IMF issues SDRs",
+    "IMF manages the reserves; RBI issues SDRs",
+    "RBI manages the reserves; SBI issues SDRs",
+    "SBI manages the reserves; IMF issues SDRs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "The correct pairing is that the RBI manages India’s foreign-exchange reserves and the IMF issues SDRs. The alternatives incorrectly assign reserve management or SDR issuance to the IMF, SBI or RBI."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "NAS-2026 release details",
+   "question": "Match the items related to National Accounts Statistics 2026 in List-I with the corresponding details in List-II.\n\nList-I\n(a) Release date of NAS-2026\n(b) Number of statistical statements\n(c) Final estimates\n(d) Revised indicators\n\nList-II\n(i) 31 August 2026\n(ii) 60\n(iii) 2022–23 and 2023–24\n(iv) 2025–26",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: NAS-2026 was released on 31 August 2026, contained 60 statistical statements, gave final estimates for 2022–23 and 2023–24, and included revised indicators for 2025–26. The other codes interchange these release details."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Base year and new indicators",
+   "question": "Consider the following statements:\nStatement A: The new national accounts series introduced 2011–12 as its base year.\nStatement B: The new series includes the Output Producer Price Index, IIP and Banking Services Price Index.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Statement A is false because the new series introduced 2022–23 as the base year and replaced 2011–12. Statement B is true because the new indicators include the Output Producer Price Index, IIP and Banking Services Price Index."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP measurement concepts",
+   "question": "Which statement correctly describes the GDP concepts used in National Accounts Statistics 2026?",
+   "options": [
+    "Real GDP is measured at constant prices, while nominal GDP is measured at current prices; GDP equals GVA plus product taxes minus product subsidies",
+    "Real GDP is measured at current prices, while nominal GDP is measured at constant prices; GDP equals GVA minus product taxes plus product subsidies",
+    "Both real and nominal GDP are measured at constant prices; GDP equals GVA plus product taxes plus product subsidies",
+    "Both real and nominal GDP are measured at current prices; GDP equals GVA minus product taxes minus product subsidies"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9"
+   ],
+   "explanation": "Real GDP is measured at constant prices and nominal GDP at current prices. GDP is calculated as GVA plus product taxes minus product subsidies; the other options reverse the price concepts or alter the GDP relationship."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP forecast",
+   "question": "Which agency projected India’s GDP growth for 2026–27 at 7.0%?",
+   "options": [
+    "ADB",
+    "OECD",
+    "Fitch Ratings",
+    "S&P Global"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "ADB projected India’s GDP growth for 2026–27 at 7.0%. OECD projected 7.1%, while Fitch Ratings and S&P Global had different projections."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "GDP forecast",
+   "question": "Which of the following statements regarding GDP growth projections for 2026–27 is incorrect?",
+   "options": [
+    "ADB projected growth of 7.0%.",
+    "Fitch Ratings projected growth of 6.9%.",
+    "Fitch Ratings projected growth of 7.0%.",
+    "ADB and Fitch Ratings were among the agencies issuing projections for 2026–27."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "The incorrect statement is that Fitch Ratings projected growth of 7.0%; its projection was 6.9%. The 7.0% projection was made by ADB, making that the key distinction between the two agencies."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Institutional background",
+   "question": "Match the institutions in List-I with their corresponding details in List-II.\n\nList-I\n(a) DBS Bank\n(b) DBS Bank\n(c) SBI\n(d) SBI\n\nList-II\n(i) Mumbai\n(ii) Singapore\n(iii) July 1, 1955\n(iv) 1968\n\nChoose the correct code.",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "The correct pairs are DBS Bank–Singapore, DBS Bank–1968, SBI–July 1, 1955, and SBI–Mumbai. The other options interchange the institutional details."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Base effect",
+   "question": "Assertion (A): A high base can make current growth appear lower.\nReason (R): A low base can make current growth appear higher.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: a high base can make current growth look lower, while a low base can make current growth look higher. However, the Reason describes the effect of a low base and does not explain the separate effect asserted for a high base."
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": [
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F3",
+  "P1.F32"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number and geographical spread",
+   "question": "During India's 2026 BRICS Chairship, more than 350 meetings were organised across how many cities?",
+   "options": [
+    "20 cities",
+    "25 cities",
+    "30 cities",
+    "35 cities"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "More than 350 BRICS meetings were organised across 25 cities during India's 2026 Chairship. The tempting options 20, 30 and 35 alter the reported number of cities."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Initiative and institutional association",
+   "question": "Consider the following statements:\nStatement A: The Mental health Training Hub Network was associated with IIT Delhi.\nStatement B: BRICS CONNECT stands for Cooperation Network for Capacity Building, Employability, New Skills and Finance.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "Both statements are false. The Mental health Training Hub Network is associated with NIMHANS, while BRICS CONNECT refers to Cooperation Network for Capacity Building, Employability, New Skills and Technologies, not Finance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Action Plan period",
+   "question": "What is the period covered by the GVC Action Plan announced under India's 2026 BRICS initiatives?",
+   "options": [
+    "2025–2028",
+    "2026–2030",
+    "2027–2031",
+    "2026–2029"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F13"
+   ],
+   "explanation": "The GVC Action Plan covers 2026–2030. The period 2026–2029 belongs to the Mission for Healthy Lifestyle, while the other periods do not correspond to the GVC Action Plan."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Summit outcome amid internal differences",
+   "question": "Assertion (A): The Delhi Declaration was adopted at the 18th BRICS Summit.\nReason (R): Differences among Iran, Saudi Arabia and the UAE concerned West Asia.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F32"
+   ],
+   "explanation": "Both A and R are true, but the reason is not the correct explanation of the assertion. The key fact is that the Delhi Declaration was adopted despite differences among Iran, Saudi Arabia and the UAE over West Asia; the reason merely identifies the area of disagreement."
+  }
+ ]
+}

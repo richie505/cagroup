@@ -1,36 +1,37 @@
 # CA MCQ report
 
-- MCQs kept: **4228**
-- News pages with at least one question: **2590 / 2629**
-- Facts tested: **8714 / 20515** (42.5%)
-- Answer positions: A 1079, B 1092, C 1135, D 922
+- MCQs kept: **4931**
+- News pages with at least one question: **2592 / 2629**
+- Facts tested: **9802 / 20515** (47.8%)
+- Answer positions: A 1245, B 1291, C 1325, D 1070
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 432 | 450 | 457 | 378 |
-| Negative / Incorrect Statement | 109 | 112 | 117 | 115 |
-| Assertion-Reason | 120 | 120 | 152 | 137 |
-| Statement-Based (A/B) | 149 | 102 | 144 | 117 |
-| Multi-Statement Correctness | 163 | 144 | 148 | 141 |
-| Chronological Ordering | 3 | 0 | 0 | 0 |
-| List-Matching | 51 | 46 | 46 | 32 |
-| Count-Based | 52 | 118 | 71 | 2 |
+| Direct Recall | 508 | 522 | 543 | 439 |
+| Negative / Incorrect Statement | 117 | 118 | 127 | 124 |
+| Assertion-Reason | 128 | 130 | 166 | 147 |
+| Statement-Based (A/B) | 170 | 115 | 163 | 136 |
+| Multi-Statement Correctness | 183 | 185 | 169 | 160 |
+| Chronological Ordering | 3 | 0 | 1 | 0 |
+| List-Matching | 77 | 74 | 73 | 62 |
+| Count-Based | 59 | 147 | 83 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 455 |
-| verify:explanation_contradicts | 58 |
-| verify:not_in_facts | 56 |
-| duplicate | 27 |
+| code | 538 |
+| verify:explanation_contradicts | 76 |
+| verify:not_in_facts | 68 |
+| duplicate | 32 |
 | verify:none_correct | 17 |
-| verify:two_correct | 11 |
-| verify:second reader picked option 2, key 1 | 9 |
-| verify:ambiguous_stem | 3 |
+| verify:two_correct | 15 |
+| verify:second reader picked option 2, key 1 | 10 |
+| verify:ambiguous_stem | 4 |
 | verify:garbled | 3 |
 | verify:second reader picked option 1, key 0 | 2 |
 | verify:second reader picked option 3, key 0 | 1 |
+| verify:second reader picked option 0, key 1 | 1 |
 | verify:second reader picked option 2, key 0 | 1 |
 | verify:trivial | 1 |
 | verify:second reader picked option 3, key 1 | 1 |
@@ -51,17 +52,17 @@
 | 2026-10/09 | Awards, Persons & Appointments | 52 | 90/92 |
 | 2026-10/10 | Sports | 47 | 83/85 |
 | 2026-10/11 | Important Days & Events | 49 | 79/80 |
-| 2026-09/01 | Andhra Pradesh | 37 | 77/193 |
-| 2026-09/02 | Polity & Governance | 33 | 66/160 |
-| 2026-09/03 | Schemes & Social Sector | 24 | 48/137 |
-| 2026-09/04 | Economy, Banking & Budget | 31 | 68/173 |
-| 2026-09/05 | International Relations | 42 | 84/198 |
-| 2026-09/06 | Science, Tech, Space & Defence | 42 | 81/294 |
-| 2026-09/07 | Environment & Geography | 17 | 39/104 |
-| 2026-09/08 | Reports, Indices & Rankings | 28 | 58/139 |
-| 2026-09/09 | Awards, Persons & Appointments | 36 | 82/179 |
-| 2026-09/10 | Sports | 18 | 33/76 |
-| 2026-09/11 | Important Days & Events | 21 | 45/156 |
+| 2026-09/01 | Andhra Pradesh | 111 | 189/193 |
+| 2026-09/02 | Polity & Governance | 89 | 153/160 |
+| 2026-09/03 | Schemes & Social Sector | 82 | 136/137 |
+| 2026-09/04 | Economy, Banking & Budget | 96 | 167/173 |
+| 2026-09/05 | International Relations | 110 | 191/198 |
+| 2026-09/06 | Science, Tech, Space & Defence | 174 | 284/294 |
+| 2026-09/07 | Environment & Geography | 54 | 101/104 |
+| 2026-09/08 | Reports, Indices & Rankings | 83 | 139/139 |
+| 2026-09/09 | Awards, Persons & Appointments | 100 | 178/179 |
+| 2026-09/10 | Sports | 47 | 76/76 |
+| 2026-09/11 | Important Days & Events | 86 | 155/156 |
 | 2026-08/01 | Andhra Pradesh | 46 | 106/230 |
 | 2026-08/02 | Polity & Governance | 32 | 74/169 |
 | 2026-08/03 | Schemes & Social Sector | 19 | 45/97 |
@@ -321,18 +322,129 @@
 - `2026-09/01/c000#5` verify: explanation_contradicts — All four statements are supported by the facts, so none can be identified as incorrect.
   - Q: Which of the following statements regarding the Mazagon Dock merchant shipyard at Dugarajapatnam is incorrect?
   - Key: MDL will invest approximately ₹15,000 crore over 5–7 years, with a capacity of 1.2 million gross tonnes per year and aro
+- `2026-09/01/d002r2#0` verify: two_correct — Both VB-G RAM G — ₹1,750 crore and Global Horticulture Hub — ₹3,800 crore are supported by the facts.
+  - Q: Under Palle Panduga 3.0 in Andhra Pradesh, which funding-source pairing is correct?
+  - Key: Global Horticulture Hub — ₹3,800 crore
+- `2026-09/01/d003#5` verify: explanation_contradicts — The facts support Statement A and contradict Statement B, but the explanation incorrectly says both are false.
+  - Q: Consider the following statements: / Statement A: The amendment recognises muscles as tissues and seeks to promote transparency and stop trafficking. / Statement B: The amendment excludes muscles from the
+  - Key: Both Statement A and Statement B are false
+- `2026-09/01/d006#0` verify: explanation_contradicts — The facts support all three statements, so the correct selection is 1, 2 and 3, contrary to the explanation.
+  - Q: With reference to Gurajada Apparao's birth anniversary and his literary contributions, consider the following statements: / 1. Gurajada Apparao's birth anniversary was declared a State Festival, to be o
+  - Key: 1 and 2 only
+- `2026-09/02/d000#7` verify: not_in_facts — The facts establish the tribal exemption but do not establish that coastal populations are not exempt.
+  - Q: Consider the following statements: / Statement A: State-level Uniform Civil Codes exempt tribal populations. / Statement B: State-level Uniform Civil Codes exempt coastal populations.
+  - Key: Statement A is true, Statement B is false
+- `2026-09/02/d001#3` verify: explanation_contradicts — The facts support option 0, but the explanation incorrectly identifies option 1.
+  - Q: Match the inter-basin projects in List-I with their associated description in List-II. /  / List-I / (a) Mullaperiyar / (b) Parambikulam–Aliyar / (c) Krishna Water Supply / (d) Indira Gandhi Canal /  / List-II / (i) Su
+  - Key: a-iii, b-iv, c-ii, d-i
+- `2026-09/02/d001#7` verify: not_in_facts — The facts do not establish the statement that Article 142 may be used to do complete justice.
+  - Q: Which one of the following statements about the Supreme Court's power under Article 142 is incorrect?
+  - Key: The power can override fundamental constitutional limits.
+- `2026-09/02/d001#9` verify: explanation_contradicts — The facts support option 0, but the explanation incorrectly identifies option 1.
+  - Q: Match the constitutional Articles in List-I with their subjects in List-II. /  / List-I / (a) Article 129 / (b) Article 136 / (c) Article 137 / (d) Article 141 /  / List-II / (i) Review of judgments / (ii) Special Leave 
+  - Key: a-iv, b-ii, c-i, d-iii
+- `2026-09/02/d003#10` verify: ambiguous_stem — List-II assigns the same description to both (i) and (iv), making the matching non-unique.
+  - Q: Match List-I with List-II regarding the lottery framework and Kerala's 2023–24 lottery figures. /  / List-I / (a) Kerala / (b) Mizoram / (c) Karunya / (d) Punjab /  / List-II / (i) State running lotteries / (ii) ₹2,883.8
+  - Key: a-ii, b-i, c-iii, d-iv
 - `2026-09/03/c002#4` verify: second reader picked option 3, key 0 — 
   - Q: With reference to the launch locations of the two phases of the Vibrant Villages Programme, consider the following statements: / 1. VVP-I was launched at Kibithoo in Anjaw, Arunachal Pradesh. / 2. VVP-II 
   - Key: 1 only
+- `2026-09/03/d002#8` verify: explanation_contradicts — The facts establish all three statements as correct, contrary to the explanation's attempt to treat statement 3 as false.
+  - Q: Consider the following statements about VVP-I and VVP-II: / 1. VVP-I covers 662 villages. / 2. VVP-II covers 1,954 villages. / 3. Their combined outlay is ₹11,639 crore, and VVP-I was announced in Budget 20
+  - Key: Exactly two statements are correct
+- `2026-09/03/d002#16` verify: explanation_contradicts — The facts identify the ice plant at Porbandar as an example, and statement 2 does not claim it is itself a technology.
+  - Q: Consider the following statements about the fisheries sector: / 1. Recirculatory Aquaculture System and Biofloc are identified technologies. / 2. An ice plant at Porbandar is an example associated with th
+  - Key: Exactly two statements are correct
+- `2026-09/03/d003#4` verify: explanation_contradicts — The facts explicitly state 95,478 wards had door-to-door collection and that there were 60 waste-to-energy plants, so all four statements are supported.
+  - Q: With reference to the Swachh Bharat Mission progress reported on September 17, 2026, how many of the following statements are correct? / 1. The Mission was launched on October 2, 2014, and its logo depi
+  - Key: Only two
+- `2026-09/04/d001#8` verify: two_correct — All List-II entries are identical, so the facts do not determine a unique one-to-one pairing.
+  - Q: Match the following NPCI systems with the group in which they are listed: /  / List-I /  a. UPI /  b. RuPay /  c. IMPS /  d. NETC FASTag /  / List-II /  i. NPCI system /  ii. NPCI system /  iii. NPCI system /  iv. NPCI syste
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2026-09/04/d001r2#3` verify: second reader picked option 0, key 1 — 
+  - Q: With reference to card MDR rates, consider the following statements: / 1. Debit-card MDR can be up to 0.90%. / 2. Credit-card MDR ranges from 1.5% to 2.5%. / 3. Debit-card MDR ranges from 1.5% to 2.5%. / 4. C
+  - Key: Only two
+- `2026-09/04/d002r2#1` verify: two_correct — Both List-II (ii) and (iv) are 90%, so options 0 and 2 encode the same applicable provisions.
+  - Q: Match the ECLGS 5.0 category or feature in List-I with the applicable provision in List-II. /  / List-I / (a) MSMEs — guarantee cover / (b) Non-MSMEs — guarantee cover / (c) Scheduled passenger airlines — guara
+  - Key: a-i, b-ii, c-iv, d-iii
+- `2026-09/04/d003#4` verify: explanation_contradicts — The facts establish that statements 1 and 3 are correct, so exactly two statements are correct, contrary to the explanation.
+  - Q: How many of the following statements regarding the regulatory framework are correct? /  / 1. The RBI SRO-FT framework was introduced in May 2024. / 2. Digital Payment Security Controls were introduced in 20
+  - Key: Only one
+- `2026-09/04/d005#15` verify: explanation_contradicts — Statement 4 is supported by the facts, so three statements are correct rather than two.
+  - Q: How many of the following statements are correct? /  / 1. Madhya Pradesh was named the Most Film Friendly State at the 68th National Film Awards. / 2. Internet subscribers increased from 25.15 crore in 2014
+  - Key: Only two
 - `2026-09/05/c004#6` verify: explanation_contradicts — The facts identify three pillars among the listed items: statements 1, 2, and 4.
   - Q: How many of the following are among the three pillars of the Ramsar Convention? / 1. Wise use of all wetlands / 2. Designation and management of Ramsar Sites / 3. Designation and management of all rivers / 4.
   - Key: Only two
+- `2026-09/05/d001#5` verify: not_in_facts — The facts do not establish whether BRICS CONNECT has a 2026–2030 roadmap, so the total count cannot be determined.
+  - Q: How many of the following statements about BRICS initiatives are correct? /  / 1. The Mental health Training Hub Network is associated with NIMHANS. / 2. BRICS CONNECT is a Cooperation Network for Capacity 
+  - Key: Only two
+- `2026-09/05/d001r2#3` verify: not_in_facts — The facts establish that R is true but do not establish whether the Delhi Declaration was adopted at the 18th BRICS Summit.
+  - Q: Assertion (A): The Delhi Declaration was adopted at the 18th BRICS Summit. / Reason (R): Differences among Iran, Saudi Arabia and the UAE concerned West Asia.
+  - Key: Both A and R are true, but R is NOT the correct explanation of A
+- `2026-09/05/d003#9` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements are correct? / 1. The ASEAN documents adopted included “ASEAN 2045: Our Shared Future” and the ASEAN Food, Agriculture and Forestry Sectoral Plan 2026–2030. / 2. The l
+  - Key: Only two
+- `2026-09/05/d004#0` verify: not_in_facts — The facts do not identify what the 2nd Nodal Group was held alongside, so pair a-ii cannot be established.
+  - Q: Match List-I with List-II regarding BIMSTEC-related meetings and designations. /  / List-I / (a) 2nd BIMSTEC Nodal Group on Traditional Medicine Knowledge / (b) BIMSTEC / (c) JWG-CTTC / (d) Additional Secretary a
+  - Key: a-ii, b-iii, c-i, d-iv
+- `2026-09/05/d004#7` verify: explanation_contradicts — Statement 3 is supported by the facts, so statements 1 and 3 are correct, not only statement 1.
+  - Q: Consider the following statements regarding Greenland under the US–Denmark–Greenland security arrangement: /  / 1. Nuuk is the capital of Greenland. / 2. Greenland is the second-largest island in the world.
+  - Key: 1 only
+- `2026-09/05/d004#10` verify: explanation_contradicts — Statement 3 is explicitly listed as one of the Ramsar Convention's three pillars, so statements 1 and 3 are correct.
+  - Q: Consider the following statements concerning the Ramsar Convention: /  / 1. The Montreux Record covers Ramsar sites with adverse ecological change. / 2. The Ramsar Convention has only two pillars: wise use 
+  - Key: 1 only
+- `2026-09/05/d006#1` verify: not_in_facts — The facts do not establish whether the Singapore Convention was finalised in Geneva as a legally binding treaty.
+  - Q: Consider the following statements: / 1. More states ratified the Singapore Convention on Mediation. / 2. The Global Biofuel Alliance gained new African and South American members. / 3. The Singapore Convent
+  - Key: 1 and 2 only
 - `2026-09/06/c005#1` verify: explanation_contradicts — Both statements are true, but the quantity of weapons does not explain why the contract was with BDL.
   - Q: Assertion (A): The SAT-SAAW procurement involved a contract with Bharat Dynamics Limited. / Reason (R): The contract covered 160 Satellite Smart Anti-Airfield Weapons.
   - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-09/06/d005#6` verify: not_in_facts — The facts explicitly establish only the maritime-security focus, not the other three pillar-to-focus pairs.
+  - Q: Match the pillars of the RAKSHA Defence Diplomacy Action Document with their indicated focus: /  / List-I / (a) Strategic Partnerships / (b) Capacity Building / (c) Indigenous Defence Exports / (d) Maritime Secur
+  - Key: a-ii, b-iii, c-iv, d-i
+- `2026-09/06/d005#7` verify: explanation_contradicts — The facts state HAL was established in 1940, whereas the explanation and keyed matching use 1932.
+  - Q: Match the defence institutions with the corresponding details: /  / List-I / (a) HAL / (b) BDL / (c) DRDO / (d) Indian Air Force /  / List-II / (i) Established on January 1, 1958 / (ii) Established in 1932; headquarters 
+  - Key: a-ii, b-iii, c-i, d-iv
+- `2026-09/06/d008#8` verify: not_in_facts — The facts establish statements 1 and 2 but do not determine whether statement 3 is false.
+  - Q: With reference to the SPROUT facility, consider the following statements: / 1. It evaluates plant traits through high-throughput phenotyping for climate-resilient crops. / 2. BRIC–NIPGR stands for Biotech
+  - Key: 1 and 2 only
+- `2026-09/06/d009#11` verify: not_in_facts — The facts do not establish that SARAL AI was used by CSIR-NIScPR, that the event was the First International Space Summit, or that MatsyaMetri was developed by CMFRI.
+  - Q: How many of the following statements are correct? / 1. SARAL AI is used by CSIR-NIScPR to turn research papers into short videos and is an initiative of ANRF. / 2. CMFRI was established in 1948 at Kochi u
+  - Key: Only two
+- `2026-09/06/d009r2#0` verify: not_in_facts — The facts give CMFRI's establishment details but do not establish that MatsyaMetri was developed by CMFRI.
+  - Q: Consider the following statements about SARAL AI and MatsyaMetri: / 1. SARAL AI, used by CSIR-NIScPR, converts research papers into short videos. / 2. MatsyaMetri was developed by CMFRI, which was establi
+  - Key: 1 and 2 only
+- `2026-09/07/d000#5` verify: explanation_contradicts — Statement A is true and Statement B is false, so the correct option is 2, contrary to the explanation.
+  - Q: Consider the following statements: / Statement A: From November 1, 2026, Delhi will permit only BS-VI/CNG/electric buses. / Statement B: Delhi's particulate norm is 50 mg/Nm³ from November 1, 2026.
+  - Key: Both Statement A and Statement B are false
 - `2026-09/09/c005#3` verify: explanation_contradicts — The facts support all four statements, while the explanation incorrectly calls statement 1 incorrect.
   - Q: Which one of the following statements about the September 2026 obituaries is incorrect?
   - Key: Gloria Steinem co-founded Ms. Magazine and the National Women’s Political Caucus in 1971.
+- `2026-09/09/d001#8` verify: explanation_contradicts — The facts make Assertion A true; the explanation incorrectly labels it false.
+  - Q: Assertion (A): CAST stands for the Council for Agricultural Science and Technology, and Dr. Karim Maredia has been at Michigan State University since 1989. / Reason (R): The Library of Congress was esta
+  - Key: A is false, but R is true
+- `2026-09/09/d002r2#0` verify: explanation_contradicts — The facts establish that all three statements are correct, but the explanation says only statements 1 and 2 are correct.
+  - Q: With reference to the Food and Agriculture Organization (FAO), consider the following statements: /  / 1. The FAO was established in 1945. / 2. The headquarters of the FAO is in Rome. / 3. Qu Dongyu is the Di
+  - Key: 1 and 2 only
+- `2026-09/09/d003#4` verify: explanation_contradicts — The facts state that Article 231 provides for a common High Court, so statements 1, 2, and 3 are all correct.
+  - Q: Consider the following statements regarding constitutional provisions connected with High Courts: / 1. Article 214 provides for a High Court for each State. / 2. Article 231 provides for a common High Cou
+  - Key: 1 and 3 only
+- `2026-09/09/d005#7` verify: two_correct — Options 0 and 2 make the same person-to-description matches because List-II repeats both names.
+  - Q: Match List-I with List-II regarding the two personalities who died in September 2026. /  / List-I /  a. Ex-ISRO scientist /  b. US feminist /  c. Founder of Surya Festival in 1977 /  d. Co-founder of Ms. Magazine
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2026-09/09/d005#8` verify: not_in_facts — The facts support statements 1 and 2 but do not establish whether statements 3 and 4 are false, so the count cannot be determined.
+  - Q: How many of the above statements are correct? /  / 1. Surya Krishnamoorthy died in Thiruvananthapuram on September 23, 2026. / 2. Gloria Steinem co-founded the National Women’s Political Caucus with Bella A
+  - Key: Only two
+- `2026-09/10/d000#10` verify: not_in_facts — The facts give FIH's headquarters but do not provide Hockey India's headquarters, which the question asks for.
+  - Q: Which of the following correctly identifies the headquarters and president of the two hockey governing bodies associated with the 2026 Junior Asia Cup championships?
+  - Key: Hockey India — 2009, Dilip Tirkey; FIH — 1924, Lausanne, Tayyab Ikram
+- `2026-09/10/d000#13` verify: explanation_contradicts — The facts make Women—Bronze equal to India, not Germany, so none of the listed codes is correct.
+  - Q: Match the Chess Olympiad sections with their medal-winning countries. /  / List-I / (a) Open — Gold / (b) Open — Silver / (c) Women — Gold / (d) Women — Bronze /  / List-II / (i) China / (ii) India / (iii) Uzbekistan / (iv) 
+  - Key: a-iii, b-ii, c-i, d-iv
+- `2026-09/10/d002#0` verify: explanation_contradicts — The explanation incorrectly says statements 1 and 3 are false, although the facts support both.
+  - Q: With reference to the recent NADA action, consider the following statements: / 1. Powerlifter Gaurav Vats was provisionally suspended for possession. / 2. Prakruti Rupa Rao was provisionally suspended aft
+  - Key: 2 only
 - `2026-09/11/c002#1` verify: second reader picked option 1, key 0 — 
   - Q: Assertion (A): Kerala became the first State to mandate a computer-based Hazard Perception Test for driving licences. / Reason (R): The provision for this test is under the Central Motor Vehicles Rules,
   - Key: Both A and R are true, and R is the correct explanation of A

@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P13.F1",
+  "P14.F10",
+  "P14.F11",
+  "P14.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "At which event were bamboo products made by rural women showcased in 2026?",
+   "options": [
+    "SARAS Aajeevika Mela, Gurugram",
+    "Film Bazaar, Goa",
+    "IITF, New Delhi",
+    "National Film Awards, Madhya Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "Bamboo products made by rural women were showcased at the SARAS Aajeevika Mela 2026 in Gurugram. The tempting alternative IITF, New Delhi, is associated with another bamboo-related individual achievement, not this showcase."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Sector size and film-friendly state",
+   "question": "With reference to India’s media and entertainment sector and the 68th National Film Awards, consider the following statements:\n\n1. The sector was valued at $13.1 billion in 2023–24.\n2. It is projected to reach $17.5–19.7 billion by 2028–29.\n3. Madhya Pradesh was recognised as the Most Film Friendly State at the 68th National Film Awards.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F5",
+    "P14.F10"
+   ],
+   "explanation": "Statements 1 and 2 correctly state the sector’s value in 2023–24 and its projected value for 2028–29. Statement 3 is also correct because Madhya Pradesh was named the Most Film Friendly State at the 68th National Film Awards."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Internet subscribers",
+   "question": "India’s internet subscriber base increased to what level by March 2026?",
+   "options": [
+    "25.15 crore",
+    "109.2 crore",
+    "17.5 crore",
+    "99.9 crore"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F11"
+   ],
+   "explanation": "India’s internet subscriber base reached 109.2 crore by March 2026, rising from 25.15 crore in 2014. The figure 25.15 crore refers to the earlier 2014 level, not the March 2026 position."
+  }
+ ]
+}

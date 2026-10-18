@@ -315,6 +315,661 @@
     "P10.F2",
     "P10.F3"
    ]
+  },
+  {
+   "id": "2026-09/07/d000#1",
+   "format": "Direct Recall",
+   "keyword": "Monitoring portal and network",
+   "question": "Which pairing correctly describes the NCAP monitoring and air-quality network arrangements?",
+   "options": [
+    "SAMEER monitors NCAP; PRANA provides AQI for 292+ cities; 1,646 stations operate in 603 cities",
+    "PRANA monitors NCAP; SAMEER provides AQI for 292+ cities; 1,646 stations operate in 603 cities",
+    "PRANA monitors NCAP; SAMEER provides AQI for 603 cities; 1,646 stations operate in 292 cities",
+    "PRANA monitors NCAP; SAMEER provides AQI for 292+ cities; 1,246 stations operate in 603 cities"
+   ],
+   "answer": 1,
+   "explanation": "PRANA monitors NCAP, SAMEER provides AQI for 292+ cities, and the March 2026 network had 1,646 stations in 603 cities. The other options interchange PRANA and SAMEER or alter the city and station figures.",
+   "facts": [
+    "P0.F5",
+    "P0.F6"
+   ]
+  },
+  {
+   "id": "2026-09/07/d000#2",
+   "format": "List-Matching",
+   "keyword": "City category and winners",
+   "question": "Match the city categories with the winners in the 2025 and 2026 Swachh Vayu Survekshan rankings.\n\nList-I\n(a) 10 lakh+\n(b) 3–10 lakh\n(c) Less than 3 lakh\n\nList-II\n(i) Amravati in 2025; Rourkela in 2026\n(ii) Dewas in 2025; Kalinganagar in 2026\n(iii) Indore in 2025; Lucknow in 2026",
+   "options": [
+    "a-i, b-ii, c-iii",
+    "a-iii, b-i, c-ii",
+    "a-ii, b-iii, c-i",
+    "a-iii, b-ii, c-i"
+   ],
+   "answer": 1,
+   "explanation": "The correct pairs are 10 lakh+—Indore in 2025 and Lucknow in 2026; 3–10 lakh—Amravati and Rourkela; less than 3 lakh—Dewas and Kalinganagar. The other codes interchange the category-wise winners.",
+   "facts": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ]
+  },
+  {
+   "id": "2026-09/07/d000#3",
+   "format": "Direct Recall",
+   "keyword": "Ward-level ranking",
+   "question": "Which wards received the specified 2026 Swachh Vayu Survekshan ward-level recognition?",
+   "options": [
+    "Ward 70 Indore; Wards 30 and 36 Bhubaneswar; Ward 13 Rourkela",
+    "Ward 60 Lucknow; Wards 30 and 36 Bhubaneswar; Ward 13 Rourkela",
+    "Ward 70 Lucknow; Wards 30 and 36 Rourkela; Ward 13 Bhubaneswar",
+    "Ward 70 Lucknow; Wards 30 and 36 Bhubaneswar; Ward 13 Rourkela"
+   ],
+   "answer": 3,
+   "explanation": "The 2026 ward-level ranking recognised Ward 70 of Lucknow, Wards 30 and 36 of Bhubaneswar, and Ward 13 of Rourkela. The traps change a ward number or replace the city.",
+   "facts": [
+    "P0.F10"
+   ]
+  },
+  {
+   "id": "2026-09/07/d000#4",
+   "format": "Multi-Statement Correctness",
+   "keyword": "AQI and pollution-control classification",
+   "question": "Consider the following statements regarding air-quality and industrial pollution monitoring:\n\n1. AQI uses eight pollutants, and the worst sub-index determines the AQI.\n2. CPCB's 419 industry sectors include 125 Orange sectors, 137 Red sectors, 94 Green sectors, 54 White sectors and 9 Blue sectors.\n3. OCEMS is mandated for 71 categories of highly polluting industries.",
+   "options": [
+    "Exactly two statements are correct",
+    "Exactly one statement is correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer": 1,
+   "explanation": "Only statement 1 is correct: AQI covers eight pollutants and the worst sub-index decides the result. CPCB lists 125 Red and 137 Orange sectors, not the reverse, and OCEMS is mandated for 17 categories, not 71.",
+   "facts": [
+    "P0.F11",
+    "P0.F12",
+    "P0.F13"
+   ]
+  },
+  {
+   "id": "2026-09/07/d000#6",
+   "format": "Assertion-Reason",
+   "keyword": "Stubble burning and biomass co-firing",
+   "question": "Assertion (A): Stubble burning in Punjab fell by 91% and in Haryana by 93% in 2025 compared with 2021.\nReason (R): CAQM provided for 5–10% biomass co-firing.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 3,
+   "explanation": "Assertion A is false because the decline was 93% in Punjab and 91% in Haryana, in the opposite order. Reason R is true: CAQM provided for 5–10% biomass co-firing.",
+   "facts": [
+    "P0.F15"
+   ]
+  },
+  {
+   "id": "2026-09/07/d000#7",
+   "format": "Count-Based",
+   "keyword": "Air-pollution measures",
+   "question": "How many of the following statements are correct?\n\n1. Twelve single-use plastic items have been banned since July 2022.\n2. GRAP consists of five stages, ranging from Poor to Severe Plus.\n3. The CAQM Act was enacted in 2022.\n4. CPCB functions under the Air Act of 1974.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 0,
+   "explanation": "Only statement 1 is correct: 12 single-use plastic items have been banned since July 2022. GRAP has four stages, the CAQM Act is from 2021, and CPCB is under the Water Act of 1974.",
+   "facts": [
+    "P0.F16",
+    "P0.F18"
+   ]
+  },
+  {
+   "id": "2026-09/07/d000#8",
+   "format": "List-Matching",
+   "keyword": "Green-city initiatives and targets",
+   "question": "Match the initiatives with their targets or reported figures.\n\nList-I\n(a) Nagar Van Yojana — target by 2026–27\n(b) Nagar Van Yojana — supported by December 2025\n(c) Aravalli Green Wall\n(d) Ek Ped Maa Ke Naam — saplings by December 2025\n\nList-II\n(i) 262.4 crore\n(ii) 626\n(iii) 6.31 million ha\n(iv) 1,000\n\nOptions:",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer": 0,
+   "explanation": "The correct pairs are Nagar Van Yojana target—1,000; supported—626; Aravalli Green Wall—6.31 million ha; and Ek Ped Maa Ke Naam—262.4 crore saplings. The other codes interchange these figures.",
+   "facts": [
+    "P0.F17"
+   ]
+  },
+  {
+   "id": "2026-09/07/d000#9",
+   "format": "List-Matching",
+   "keyword": "Ward and city rankings",
+   "question": "Match the award references with their corresponding results in the 5th Swachh Vayu Survekshan Awards.\n\nList-I\n(a) Nalgonda Ward 16\n(b) Sangareddy in Category-3\n(c) First among wards above 30,000\n(d) Second among wards above 30,000\n\nList-II\n(i) Bhopal Ward-60\n(ii) Eighth nationally with 186.8\n(iii) Lucknow Zone-4 Ward-70\n(iv) Second nationally among wards below 10,000\n\nOptions:",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer": 1,
+   "explanation": "Nalgonda Ward 16 ranked second nationally among wards below 10,000; Sangareddy ranked eighth with 186.8 in Category-3; Lucknow Zone-4 Ward-70 was first and Bhopal Ward-60 second among wards above 30,000. The other codes mismatch the ward or rank.",
+   "facts": [
+    "P0.F20",
+    "P0.F21"
+   ]
+  },
+  {
+   "id": "2026-09/07/d000#11",
+   "format": "List-Matching",
+   "keyword": "Category-wise winners and score",
+   "question": "Match the CA-360 categories with the relevant winners and scores or prize details.\n\nList-I\n(a) Category-1 winner\n(b) Category-1 score and prize\n(c) Category-2 winner and score\n(d) Category-3 winner\n\nList-II\n(i) Kalinganagar\n(ii) Lucknow — 198/200 and ₹1.5 crore\n(iii) Rourkela — 198.5\n(iv) Lucknow\n\nOptions:",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer": 1,
+   "explanation": "Lucknow won Category-1, scoring 198/200 and receiving ₹1.5 crore; Rourkela won Category-2 with 198.5; Kalinganagar won Category-3. The other codes assign the winners or score details to the wrong categories.",
+   "facts": [
+    "P0.F23",
+    "P0.F24"
+   ]
+  },
+  {
+   "id": "2026-09/07/d000#12",
+   "format": "Direct Recall",
+   "keyword": "Awards detail and chief guest",
+   "question": "Which combination correctly identifies a 2025–26 NCAP progress figure and the Chief Guest at the 5th Swachh Vayu Survekshan Awards?",
+   "options": [
+    "72 of 130 cities improved PM10; Chief Guest Tanmay Kumar",
+    "108 of 130 cities improved PM10; Chief Guest Amandeep Garg",
+    "130 of 108 cities improved PM10; Chief Guest Justice Prakash Shrivastava",
+    "108 of 130 cities improved PM10; Chief Guest Justice Prakash Shrivastava"
+   ],
+   "answer": 3,
+   "explanation": "PM10 improved in 108 of 130 NCAP cities, and the Chief Guest was NGT Chair Justice Prakash Shrivastava. Amandeep Garg was identified as CPCB Chair, while Tanmay Kumar was Environment Secretary.",
+   "facts": [
+    "P0.F26",
+    "P0.F27"
+   ]
+  },
+  {
+   "id": "2026-09/07/d000#13",
+   "format": "Direct Recall",
+   "keyword": "PM10 definition",
+   "question": "In the air-quality context, PM10 refers to particles that are:",
+   "options": [
+    "50 micrometres or smaller",
+    "10 millimetres or smaller",
+    "2.5 micrometres or smaller",
+    "10 micrometres or smaller"
+   ],
+   "answer": 3,
+   "explanation": "PM10 means particles with a size of 10 micrometres or less. The other options use incorrect units or refer to a different size threshold.",
+   "facts": [
+    "P0.F28"
+   ]
+  },
+  {
+   "id": "2026-09/07/d000#14",
+   "format": "Direct Recall",
+   "keyword": "Telangana ward awards",
+   "question": "Which pairing correctly gives the Telangana State ward awardees by category?",
+   "options": [
+    "Jubilee Hills — Category-1; Gunfoundry — Category-2; Ward 31 Sangareddy — Category-3",
+    "Jubilee Hills — Category-2; Gunfoundry — Category-1; Ward 31 Sangareddy — Category-3",
+    "Jubilee Hills — Category-1; Gunfoundry — Category-3; Ward 31 Sangareddy — Category-2",
+    "Jubilee Hills — Category-3; Gunfoundry — Category-2; Ward 31 Sangareddy — Category-1"
+   ],
+   "answer": 0,
+   "explanation": "The Telangana ward awardees were Jubilee Hills in Category-1, Gunfoundry in Category-2 and Ward 31 Sangareddy in Category-3. The other options interchange the categories.",
+   "facts": [
+    "P0.F29"
+   ]
+  },
+  {
+   "id": "2026-09/07/d000r2#0",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Clean Air Day observance",
+   "question": "With reference to clean-air observances in India, consider the following statements:\n1. The International Day of Clean Air for Blue Skies is observed on September 7, and India marks it as Swachh Vayu Diwas.\n2. Clean Air Day was first observed in 2020.\n3. The International Day of Clean Air for Blue Skies was designated by the UNGA in 2020.",
+   "options": [
+    "No statement is correct",
+    "Only one statement is correct",
+    "All three statements are correct",
+    "Exactly two statements are correct"
+   ],
+   "answer": 3,
+   "explanation": "Statements 1 and 2 are correct: September 7 is the International Day of Clean Air for Blue Skies, India observes it as Swachh Vayu Diwas, and Clean Air Day was first observed in 2020. Statement 3 is incorrect because the UNGA designated it in 2019, not 2020.",
+   "facts": [
+    "P0.F1",
+    "P0.F22"
+   ]
+  },
+  {
+   "id": "2026-09/07/d000r2#1",
+   "format": "Direct Recall",
+   "keyword": "Delhi pollution-control measures",
+   "question": "Which combination correctly states the scheduled Delhi measures concerning buses and particulate emissions in 2026?",
+   "options": [
+    "Only BS-VI, CNG and electric buses from November 1, 2026; particulate norm of 50 mg/Nm³ from October 1, 2026",
+    "Only BS-VI, CNG and electric buses from October 1, 2026; particulate norm of 50 mg/Nm³ from November 1, 2026",
+    "Only BS-VI and CNG buses from November 1, 2026; particulate norm of 40 mg/Nm³ from October 1, 2026",
+    "Only CNG and electric buses from November 1, 2026; particulate norm of 50 mg/Nm³ from October 1, 2026"
+   ],
+   "answer": 0,
+   "explanation": "From November 1, 2026, Delhi is scheduled to allow only BS-VI, CNG and electric buses, while the particulate norm is 50 mg/Nm³ from October 1, 2026. The other options alter the implementation date, the vehicle categories or the particulate limit.",
+   "facts": [
+    "P0.F14"
+   ]
+  },
+  {
+   "id": "2026-09/07/d001#0",
+   "format": "Direct Recall",
+   "keyword": "Casualties and assistance",
+   "question": "In the August 26, 2026 rock–ice collapse near the Nepal–China border, which combination correctly describes the reported human impact?",
+   "options": [
+    "2,000 deaths in Nepal, about 579 missing and more than 9,300 needing assistance",
+    "475 deaths in Nepal, about 1,000 missing and more than 47,500 needing assistance",
+    "579 deaths in Nepal, about 5,200 missing and more than 93,000 needing assistance",
+    "579 deaths in Nepal, about 2,000 missing and more than 93,000 needing assistance"
+   ],
+   "answer": 3,
+   "explanation": "The disaster caused 579 deaths in Nepal, left about 2,000 people missing and created assistance needs for more than 93,000 people; Kailash Mansarovar pilgrims were also missing. The other options alter one or more of these reported figures.",
+   "facts": [
+    "P1.F2"
+   ]
+  },
+  {
+   "id": "2026-09/07/d001#2",
+   "format": "Direct Recall",
+   "keyword": "Port damage and upgrade",
+   "question": "Which Chinese port was buried in the August 2026 disaster and had been upgraded at a cost of $175.8 million?",
+   "options": [
+    "Maharajganj Port",
+    "Valmikinagar Barrage",
+    "Gyirong Port",
+    "Kailash Mansarovar Port"
+   ],
+   "answer": 2,
+   "explanation": "Gyirong Port in Tibet was buried and had been upgraded at a cost of $175.8 million. Valmikinagar Barrage was monitored in India, while Maharajganj and Kailash Mansarovar were not identified as the affected port.",
+   "facts": [
+    "P1.F6"
+   ]
+  },
+  {
+   "id": "2026-09/07/d001#3",
+   "format": "List-Matching",
+   "keyword": "India’s response and affected river system",
+   "question": "Match List-I with List-II in the context of India’s response to the Nepal rock–ice collapse.\n\nList-I\n a. Rivers mentioned in the Indian context\n b. States placed on alert\n c. Barrage kept under watch\n d. Relief sent by India\n\nList-II\n i. Bihar and Uttar Pradesh\n ii. 47.5 tonnes\n iii. Valmikinagar Barrage\n iv. Gandak, Kosi and Ganga",
+   "options": [
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iii, c-iv, d-i"
+   ],
+   "answer": 1,
+   "explanation": "The correct pairs are a-iv, b-i, c-iii and d-ii: the rivers were Gandak, Kosi and Ganga; Bihar and Uttar Pradesh were alerted; Valmikinagar Barrage was watched; and India sent 47.5 tonnes of relief. The other codes interchange these river, alert, barrage and relief details.",
+   "facts": [
+    "P1.F7"
+   ]
+  },
+  {
+   "id": "2026-09/07/d001#4",
+   "format": "Direct Recall",
+   "keyword": "Study and location",
+   "question": "Which study assessed ecosystem services and blue carbon in the Pichavaram Mangrove Forest?",
+   "options": [
+    "Economic Valuation and Blue Carbon Assessment of Ecosystem Services in the Gyirong Port wetlands",
+    "Economic Valuation and Blue Carbon Assessment of Ecosystem Services in the Sundarbans",
+    "Economic Valuation and Blue Carbon Assessment of Ecosystem Services in Bhitarkanika",
+    "Economic Valuation and Blue Carbon Assessment of Ecosystem Services in the Pichavaram Mangrove Forest"
+   ],
+   "answer": 3,
+   "explanation": "The study was titled “Economic Valuation and Blue Carbon Assessment of Ecosystem Services in the Pichavaram Mangrove Forest” in Tamil Nadu. The other options substitute different places for Pichavaram.",
+   "facts": [
+    "P2.F1"
+   ]
+  },
+  {
+   "id": "2026-09/07/d001#6",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Valuation of ecosystem services",
+   "question": "Consider the following statements about the Pichavaram Mangrove Forest valuation:\n\n1. The value assigned to carbon stock in vegetation was ₹387.77 crore.\n2. Annual carbon sequestration was valued at ₹19.48 crore.\n3. Biodiversity was valued at ₹10.53 crore.",
+   "options": [
+    "1, 2 and 3",
+    "2 only",
+    "3 only",
+    "1 only"
+   ],
+   "answer": 3,
+   "explanation": "Statement 1 alone is correct: carbon stock in vegetation was valued at ₹387.77 crore. Annual carbon sequestration was valued at ₹26.86 crore, and biodiversity at ₹19.48 crore; ₹10.53 crore was the value for nutrient cycling.",
+   "facts": [
+    "P2.F6",
+    "P2.F9",
+    "P2.F10"
+   ]
+  },
+  {
+   "id": "2026-09/07/d001#7",
+   "format": "List-Matching",
+   "keyword": "Mangrove service and carbon values",
+   "question": "Match the Pichavaram Mangrove Forest components with their reported values.\n\nList-I\n a. Nutrient cycling\n b. Fish, crab and shrimp\n c. Vegetation carbon\n d. Combined carbon value\n\nList-II\n i. ₹1,612.40 crore\n ii. ₹3.47 crore\n iii. 79.449 t/ha\n iv. ₹10.53 crore",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer": 2,
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i: nutrient cycling was ₹10.53 crore, fish–crab–shrimp services ₹3.47 crore, vegetation carbon 79.449 t/ha and the combined carbon value ₹1,612.40 crore. The other codes mismatch the reported service and carbon figures.",
+   "facts": [
+    "P2.F11",
+    "P2.F12",
+    "P2.F13"
+   ]
+  },
+  {
+   "id": "2026-09/07/d001#8",
+   "format": "Count-Based",
+   "keyword": "Mangrove status, scheme and adaptations",
+   "question": "How many of the following statements are correct?\n\n1. ISFR 2023 recorded India’s mangrove cover at 4,992 sq km.\n2. IUCN 2024 reported that 50% of the world’s mangrove ecosystems were at risk of collapse.\n3. MISHTI was launched in 2022 with an allocation of ₹100 crore.\n4. Mangroves possess pneumatophores, prop roots and vivipary, and are called the “Lungs of the Planet.”",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 1,
+   "explanation": "Only two statements are correct: the ISFR 2023 mangrove-cover figure was 4,992 sq km, and IUCN 2024 reported 50% of global mangrove ecosystems at risk of collapse. MISHTI was launched in 2023, and mangroves are called the “Kidneys of the Planet,” not the “Lungs of the Planet.”",
+   "facts": [
+    "P2.F15",
+    "P2.F16",
+    "P2.F17",
+    "P2.F18"
+   ]
+  },
+  {
+   "id": "2026-09/07/d001#9",
+   "format": "Assertion-Reason",
+   "keyword": "Mangrove sites and biodiversity",
+   "question": "Assertion (A): Bhitarkanika is an Odisha Ramsar site associated with estuarine crocodiles.\nReason (R): Bhitarkanika is associated with the Royal Bengal Tiger.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 2,
+   "explanation": "The assertion is true: Bhitarkanika in Odisha is a Ramsar site associated with estuarine crocodiles. The Royal Bengal Tiger is associated with the Sundarbans, so the reason is false.",
+   "facts": [
+    "P2.F19"
+   ]
+  },
+  {
+   "id": "2026-09/07/d002#0",
+   "format": "List-Matching",
+   "keyword": "Mineral resources and offshore governance",
+   "question": "Match List-I with List-II regarding deep-sea mineral resources and offshore jurisdiction.\n\nList-I\n(a) Polymetallic nodule ISA zones\n(b) Polymetallic sulphides\n(c) India's ISA sulphide contracts\n(d) Exclusive Economic Zone\n\nList-II\n(i) Copper, zinc, lead, silver and gold\n(ii) Clarion–Clipperton, Central Indian Ocean Basin and Peru Basin\n(iii) 200 nautical miles under UNCLOS\n(iv) India became the first country with two ISA sulphide contracts\n\nCodes:",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer": 2,
+   "explanation": "The correct pairs are a-ii, b-i, c-iv and d-iii. Polymetallic nodules are associated with the listed ISA zones, while sulphides contain copper, zinc, lead, silver and gold; India's two ISA sulphide contracts made it the first such country, and the EEZ extends 200 nautical miles under UNCLOS.",
+   "facts": [
+    "P3.F5",
+    "P3.F6",
+    "P3.F7",
+    "P3.F8"
+   ]
+  },
+  {
+   "id": "2026-09/07/d002#1",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Offshore mineral legislation and ocean decade",
+   "question": "Consider the following statements:\nStatement A: The Offshore Areas Mineral (Development and Regulation) Act was enacted in 2002, and the UN Ocean Decade extends from 2021 to 2030.\nStatement B: The Offshore Areas Mineral (Development and Regulation) Act was enacted in 2016.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 2,
+   "explanation": "Statement A is true: the Offshore Areas Mineral (D&R) Act dates to 2002 and the UN Ocean Decade covers 2021–2030. Statement B is false because the Act was enacted in 2002, not 2016.",
+   "facts": [
+    "P3.F9"
+   ]
+  },
+  {
+   "id": "2026-09/07/d002#2",
+   "format": "Assertion-Reason",
+   "keyword": "Deep Ocean Mission",
+   "question": "Assertion (A): India's Deep Ocean Mission was launched in 2020 with an outlay of ₹4,077 crore.\nReason (R): The Deep Ocean Mission is associated with the Ministry of Earth Sciences.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 3,
+   "explanation": "Assertion A is false because the Deep Ocean Mission was launched in 2021, although its outlay was ₹4,077 crore. Reason R is true because the mission is associated with the Ministry of Earth Sciences.",
+   "facts": [
+    "P3.F10"
+   ]
+  },
+  {
+   "id": "2026-09/07/d002#3",
+   "format": "List-Matching",
+   "keyword": "Research vessel specifications",
+   "question": "Match the features of Sagar Manthan with the correct details.\n\nList-I\n(a) Launching organisation\n(b) Length\n(c) Cost\n(d) Operational year\n\nList-II\n(i) 89.5 metres\n(ii) 2028\n(iii) GRSE\n(iv) ₹840 crore\n\nCodes:",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer": 0,
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii. Sagar Manthan was launched by GRSE, is 89.5 metres long, costs ₹840 crore and is scheduled to become operational in 2028.",
+   "facts": [
+    "P3.F11",
+    "P3.F12"
+   ]
+  },
+  {
+   "id": "2026-09/07/d002#4",
+   "format": "Direct Recall",
+   "keyword": "NCPOR and Samudrayaan",
+   "question": "Which of the following correctly describes Samudrayaan in relation to NCPOR and the Deep Ocean Mission?",
+   "options": [
+    "It is a battery-waste management programme under the 2022 Rules",
+    "It is an equal-area mapping programme under the UN Ocean Decade",
+    "It is a wetland restoration initiative in Ladakh during 2021–2026",
+    "It is a manned deep-sea mission under the Deep Ocean Mission during 2021–2026"
+   ],
+   "answer": 3,
+   "explanation": "Samudrayaan is a manned deep-sea mission under the Deep Ocean Mission for 2021–2026. The other options refer to unrelated mapping, wetland and waste-management themes.",
+   "facts": [
+    "P3.F13"
+   ]
+  },
+  {
+   "id": "2026-09/07/d002#5",
+   "format": "Count-Based",
+   "keyword": "E-waste data and institutional framework",
+   "question": "How many of the following statements are correct regarding India's e-waste challenge?\n\n1. India generated 13.98 lakh tonnes of e-waste in 2024–25.\n2. The annual value of India's e-waste stream is approximately ₹51,000 crore.\n3. India is a party to the Kyoto Protocol under the hazardous-waste framework mentioned here.\n4. The Centre of Excellence on E-Waste is located at C-MET, Chennai.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 1,
+   "explanation": "Only statements 1 and 2 are correct: e-waste generation was 13.98 lakh tonnes in 2024–25 and its annual stream value is approximately ₹51,000 crore. India is party to the Basel Convention, not the Kyoto Protocol, and the Centre of Excellence on E-Waste is at C-MET, Hyderabad.",
+   "facts": [
+    "P4.F1",
+    "P4.F3",
+    "P4.F7",
+    "P4.F8"
+   ]
+  },
+  {
+   "id": "2026-09/07/d002#6",
+   "format": "Direct Recall",
+   "keyword": "E-waste regulation",
+   "question": "Under which framework is India identified as a party to the international convention relevant to hazardous and other wastes?",
+   "options": [
+    "E-Waste (Management) Rules, 2022 and the Ramsar Convention",
+    "Hazardous and Other Wastes Rules, 2016 and the Basel Convention",
+    "Battery Waste Management Rules, 2022 and the Montreal Protocol",
+    "Offshore Areas Mineral (D&R) Act, 2002 and UNCLOS"
+   ],
+   "answer": 1,
+   "explanation": "The relevant framework is the Hazardous and Other Wastes Rules, 2016, and India is party to the Basel Convention. The other combinations connect unrelated waste, wetland or offshore-mineral instruments.",
+   "facts": [
+    "P4.F7"
+   ]
+  },
+  {
+   "id": "2026-09/07/d002#8",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Map projections and sovereignty",
+   "question": "Consider the following statements:\nStatement A: The Mercator projection is useful for navigation because constant compass bearings appear as straight lines.\nStatement B: The UNGA's promotion of equal-area maps changes international borders and sovereignty.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 2,
+   "explanation": "Statement A is true because constant compass bearings are represented as straight lines on the Mercator projection. Statement B is false: the change promoted by the UNGA is visual, while borders and sovereignty remain unaffected.",
+   "facts": [
+    "P6.F3",
+    "P6.F4"
+   ]
+  },
+  {
+   "id": "2026-09/07/d002#9",
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Anak Krakatau, meaning “Child of Krakatau,” rose from the caldera of which earlier eruption?",
+   "options": [
+    "The 2022 battery-waste regulation",
+    "The 2020 Tso Kar restoration",
+    "The 1569 Mercator mapping event",
+    "The 1883 Krakatau eruption"
+   ],
+   "answer": 3,
+   "explanation": "Anak Krakatau rose from the caldera of the 1883 Krakatau eruption. The other options concern a wetland initiative, a map projection and waste regulation, not the volcano's origin.",
+   "facts": [
+    "P7.F2"
+   ]
+  },
+  {
+   "id": "2026-09/07/d002#10",
+   "format": "Direct Recall",
+   "keyword": "Traditional instrument and material",
+   "question": "Which description best fits the Mandar, the Jharkhand instrument that received a GI tag?",
+   "options": [
+    "A double-sided barrel or cylindrical drum made of red clay and leather",
+    "A high-altitude saline lake–wetland complex of southeastern Ladakh",
+    "A polymetallic nodule containing nickel, cobalt, manganese and copper",
+    "An ocean research vessel built for surveys to 6 km depth"
+   ],
+   "answer": 0,
+   "explanation": "Mandar is a double-sided barrel or cylindrical drum made of red clay and leather, linked to the tribal culture of the Chotanagpur Plateau. The other options describe Tso Kar, polymetallic nodules and Sagar Manthan.",
+   "facts": [
+    "P8.F2"
+   ]
+  },
+  {
+   "id": "2026-09/07/d002r2#0",
+   "format": "Direct Recall",
+   "keyword": "Ramsar wetland and habitat",
+   "question": "Which of the following correctly describes the ecological significance of Tso Kar in Ladakh?",
+   "options": [
+    "It is a habitat of the Black-necked Crane, and the Tso Kar Wetland Complex was designated a Ramsar site in 2025.",
+    "It is a habitat of the Black-necked Crane, and the Tso Kar Wetland Complex was designated a Ramsar site in 2021.",
+    "It is a habitat of the Black-necked Crane, but only Startsapuk Tso forms the Ramsar wetland complex.",
+    "It is a habitat of the Black-necked Crane, and the Tso Kar Wetland Complex was designated a Ramsar site in 2020."
+   ],
+   "answer": 3,
+   "explanation": "Tso Kar is a habitat of the Black-necked Crane, and the Tso Kar Wetland Complex—comprising Tso Kar and Startsapuk Tso—was designated a Ramsar site in 2020. The other options alter the Ramsar year or incorrectly exclude Tso Kar from the wetland complex.",
+   "facts": [
+    "P5.F2"
+   ]
+  },
+  {
+   "id": "2026-09/07/d003#0",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Project connectivity and reservoir",
+   "question": "Consider the following statements:\nStatement A: The Kalpasar Project's road–rail corridor is expected to reduce the Bhavnagar–South Gujarat distance to about 30 km.\nStatement B: The project envisages a roughly 30-km dam across the Gulf of Khambhat, creating a freshwater reservoir for irrigation covering more than 10 lakh hectares, mainly in Saurashtra.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 3,
+   "explanation": "Statement B is correct: the project proposes a roughly 30-km dam across the Gulf of Khambhat and irrigation for more than 10 lakh hectares, mainly in Saurashtra. Statement A is incorrect because the road–rail corridor is expected to reduce the Bhavnagar–South Gujarat distance to about 60 km, not 30 km.",
+   "facts": [
+    "P9.F3",
+    "P9.F4"
+   ]
+  },
+  {
+   "id": "2026-09/07/d003#1",
+   "format": "Direct Recall",
+   "keyword": "Renewable-energy plan",
+   "question": "What renewable-energy capacity is planned under the Kalpasar Project?",
+   "options": [
+    "1,000 MW wind and 1,500 MW solar",
+    "1,500 MW wind and 1,500 MW solar",
+    "1,000 MW wind and 1,000 MW solar",
+    "1,500 MW wind and 1,000 MW solar"
+   ],
+   "answer": 3,
+   "explanation": "The Kalpasar Project's renewable plan comprises about 1,500 MW of wind power and 1,000 MW of solar power. The most tempting alternative reverses the wind and solar capacities.",
+   "facts": [
+    "P9.F5"
+   ]
+  },
+  {
+   "id": "2026-09/07/d003#2",
+   "format": "Direct Recall",
+   "keyword": "Organisation and headquarters",
+   "question": "Which organisation, estimated to have been established in 1945, is headquartered in New Delhi and functions under the Ministry of Jal Shakti in the Kalpasar Project context?",
+   "options": [
+    "Delft University of Technology",
+    "Deltares",
+    "Central Water Commission",
+    "Gujarat's Kalpasar Department"
+   ],
+   "answer": 2,
+   "explanation": "The Central Water Commission is estimated to have been established in 1945, is headquartered in New Delhi, and functions under the Ministry of Jal Shakti. Deltares and Delft University of Technology are Netherlands-based partners mentioned in the project context, not the organisation described here.",
+   "facts": [
+    "P9.F6"
+   ]
+  },
+  {
+   "id": "2026-09/07/d003#3",
+   "format": "Direct Recall",
+   "keyword": "State formation and capital",
+   "question": "Which pair correctly states the date of Haryana's formation and its capital?",
+   "options": [
+    "November 1, 1966 — Chandigarh",
+    "September 24, 2026 — New Delhi",
+    "November 1, 1966 — Gujarat",
+    "September 24, 2026 — Chandigarh"
+   ],
+   "answer": 0,
+   "explanation": "Haryana was formed on November 1, 1966, and its capital is Chandigarh. The other options alter either the formation date or the capital.",
+   "facts": [
+    "P10.F4"
+   ]
   }
  ]
 }

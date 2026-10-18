@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12
+ ],
+ "only": [
+  "P12.F4",
+  "P12.F5",
+  "P12.F6",
+  "P12.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Provisionally suspended athletes",
+   "question": "With reference to the recent NADA action, consider the following statements:\n1. Powerlifter Gaurav Vats was provisionally suspended for possession.\n2. Prakruti Rupa Rao was provisionally suspended after winning an Inter-State athletics bronze medal for steroids.\n3. Seven athletics competitors were on the list.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "Statement 2 is correct: Prakruti Rupa Rao was provisionally suspended after an Inter-State athletics bronze medal for steroids. Statement 1 is incorrect because Gaurav Vats was suspended for possession, while statement 3 is incorrect because the list contained 7 athletics competitors."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Anti-doping institutions and provisions",
+   "question": "Match List-I with List-II in the context of anti-doping institutions and provisions.\n\nList-I\n a. Chelsea\n b. NADA\n c. WADA\n d. National Anti-Doping Act\n\nList-II\n i. 5-year ban\n ii. Established in 2005\n iii. Established in 1999\n iv. Enacted in 2022\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F5",
+    "P12.F6"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Chelsea received a 5-year ban; NADA dates to 2005; WADA dates to 1999; and the National Anti-Doping Act was enacted in 2022."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Club of Lionel Messi",
+   "question": "Which club was associated with Lionel Messi at the time of his international-football retirement in 2026?",
+   "options": [
+    "Inter Miami",
+    "WorldSkills International",
+    "NADA",
+    "WADA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F8"
+   ],
+   "explanation": "Lionel Messi was associated with Inter Miami. WorldSkills International is the organisation connected with the WorldSkills Competition, while NADA and WADA are anti-doping organisations."
+  }
+ ]
+}

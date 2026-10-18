@@ -350,3 +350,4 @@ Which of the following statements regarding September 2026 GST growth in the sou
 - D. Tamil Nadu recorded a negative growth of 5%.
 
 _Explanation:_ The incorrect statement is that Andhra Pradesh recorded 11% growth. Andhra Pradesh recorded 6%; 11% was Kerala’s growth, while Telangana recorded the highest southern growth at 18%.
+- **2026-09** — deepen 64 calls, 718 items, in 179,620/out 255,427; verify 60 calls, 659 items, in 178,995/out 39,190; deepen r2 48 calls, 110 items, in 152,976/out 62,679; verify 13 calls, 86 items, in 26,197/out 6,223 — build: 4931 MCQs kept, facts tested 9802/20515 (47.8%); this folder 1032 MCQs, facts 1769/1809 (97.8%)

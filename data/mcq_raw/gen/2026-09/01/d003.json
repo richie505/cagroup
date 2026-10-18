@@ -1,0 +1,234 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "only": [
+  "P11.F5",
+  "P11.F6",
+  "P12.F2",
+  "P12.F3",
+  "P12.F4",
+  "P12.F5",
+  "P12.F6",
+  "P13.F3",
+  "P13.F4",
+  "P14.F2",
+  "P14.F3",
+  "P14.F4",
+  "P15.F1",
+  "P15.F4",
+  "P15.F5",
+  "P15.F6",
+  "P16.F2",
+  "P16.F5",
+  "P16.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Cancelled project",
+   "question": "With reference to the renewable-energy approvals under the Andhra Pradesh Clean Energy Policy, which statement is incorrect?",
+   "options": [
+    "Megha Engineering’s 2,000 MW pumped-hydro project was cancelled.",
+    "The cancelled project was located at Kommuru.",
+    "The cancelled project was located in Annamayya district.",
+    "The cancelled project was a 2,000 MW solar project."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F5"
+   ],
+   "explanation": "The incorrect statement is that the project was a solar project; it was a pumped-hydro project. Megha Engineering’s 2,000 MW pumped-hydro project at Kommuru in Annamayya district was cancelled."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Policy and implementing agencies",
+   "question": "The renewable-energy projects approved by Andhra Pradesh were processed under which policy and by which agencies?",
+   "options": [
+    "Andhra Pradesh Clean Energy Policy; NREDCAP and APTRANSCO",
+    "Andhra Pradesh Clean Energy Policy; NTCA and ASI",
+    "Project Tiger; NREDCAP and APTRANSCO",
+    "AMASR Rules, 1959; APTRANSCO and ASI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F6"
+   ],
+   "explanation": "The approvals were under the Andhra Pradesh Clean Energy Policy, with NREDCAP and APTRANSCO identified in connection with them. NTCA and ASI are associated with other subjects, not these renewable-energy approvals."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "TOPCon plant and expansion",
+   "question": "With reference to Premier Energies’ N-Type TOPCon solar cell facility, consider the following statements:\n1. TOPCon stands for Tunnel Oxide Passivated Contact.\n2. Solar cells based on this technology work through the photovoltaic effect.\n3. The 7 GW N-Type TOPCon G12R cell plant was opened on September 21, 2026, taking the company’s total capacity to 10.6 GW.\n4. The company’s total capacity after the opening was described as India’s highest.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "All four statements are correct. TOPCon expands to Tunnel Oxide Passivated Contact, the cells use the photovoltaic effect, and the September 21, 2026 opening of the 7 GW G12R plant raised the company’s total to 10.6 GW, described as India’s highest."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Investment, capacity and N-Type features",
+   "question": "Consider the following statements about Premier Energies’ N-Type TOPCon facility and expansion plans:\n1. The facility covers 101 acres and involved an investment of about ₹3,293 crore.\n2. The facility was designed for about 88,000 cells per hour.\n3. The company planned an investment of ₹15,000 crore in three years and had an order book of ₹12,500 crore.\n4. N-Type cells were described as having lower efficiency and higher degradation.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F4",
+    "P12.F5",
+    "P12.F6"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: the facility covers 101 acres, cost about ₹3,293 crore and was designed for about 88,000 cells per hour. The planned investment was ₹12,500 crore and the order book was ₹15,000 crore, while N-Type cells have higher efficiency and lower degradation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "THOTA and Jeevandan",
+   "question": "Which statement correctly describes the legal and programme background of the Andhra Pradesh Human Organ Transplantation Amendment Act 2026?",
+   "options": [
+    "THOTA was enacted in 1994 and amended in 2011; Jeevandan is Andhra Pradesh’s deceased organ donation programme.",
+    "THOTA was enacted in 2011 and amended in 1994; Jeevandan is Andhra Pradesh’s deceased organ donation programme.",
+    "THOTA was enacted in 1994 and amended in 2011; Jeevandan is Andhra Pradesh’s tiger conservation programme.",
+    "THOTA was enacted in 2011 and amended in 1994; Jeevandan is Andhra Pradesh’s tiger conservation programme."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "THOTA dates to 1994 and was amended in 2011, while Jeevandan is Andhra Pradesh’s deceased organ donation programme. The other options reverse the legal years or replace Jeevandan with a tiger-conservation programme."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Tissues and objective of amendment",
+   "question": "Consider the following statements:\nStatement A: The amendment recognises muscles as tissues and seeks to promote transparency and stop trafficking.\nStatement B: The amendment excludes muscles from the category of tissues and seeks to regulate renewable-energy projects.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F4"
+   ],
+   "explanation": "Both statements are false as written because Statement A incorrectly says the amendment recognises muscles as tissues, while Statement B incorrectly excludes muscles and gives an unrelated objective. The correct position is that tissues also include muscles, and the amendment aims at transparency and stopping trafficking."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Committee composition and reserve geography",
+   "question": "Regarding the State-Level Steering Committee for tiger conservation and the Nagarjunasagar–Srisailam Tiger Reserve, consider the following statements:\n1. The committee includes members from the Forest, Tribal Welfare, PR&RD and Social Welfare departments, along with wildlife experts and tribal councils.\n2. Nagarjunasagar–Srisailam Tiger Reserve extends across Andhra Pradesh and Telangana and lies in the Nallamala hills along the river Krishna.\n3. Nagarjunasagar–Srisailam Tiger Reserve is India’s largest tiger reserve by area.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F2",
+    "P14.F3"
+   ],
+   "explanation": "All three statements are correct. The committee has the stated departmental, expert and tribal-council representation, while Nagarjunasagar–Srisailam spans Andhra Pradesh and Telangana in the Nallamala hills along the Krishna and is India’s largest tiger reserve by area."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Project Tiger and NTCA",
+   "question": "Which statement correctly describes Project Tiger and the National Tiger Conservation Authority in the context of tiger conservation?",
+   "options": [
+    "Project Tiger began in 1973, and NTCA is a statutory authority under the Wildlife (Protection) Act.",
+    "Project Tiger began in 1972, and NTCA is a statutory authority under the AMASR Act.",
+    "Project Tiger began in 1973, and NTCA is a non-statutory authority under the Wildlife (Protection) Act.",
+    "Project Tiger began in 1972, and NTCA is a non-statutory authority under the AMASR Act."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F4"
+   ],
+   "explanation": "Project Tiger was launched in 1973, and NTCA is statutory under the Wildlife (Protection) Act. The other choices alter the year, the statutory status, or the legislation."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Inscription site and historical record",
+   "question": "Match the places, persons and terms associated with the Vijayanagara-era inscription at Penukonda:\n\nList-I\n a. Sri Naga Lingeshwara Swamy Temple\n b. Penukonda hill\n c. Anantharasu Chikka Odeyar\n d. Nagula Bavi\n\nList-II\n i. Well of Serpents\n ii. Prime Minister of Bukka Raya I\n iii. Location of the temple\n iv. Place where the inscription was found\n\nSelect the correct code.",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F4"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-ii and d-i: the inscription was found at Sri Naga Lingeshwara Swamy Temple on Penukonda hill; Anantharasu Chikka Odeyar was the Prime Minister of Bukka Raya I; and Nagula Bavi means Well of Serpents. The other codes interchange these place, office and name associations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sculpture and capital",
+   "question": "Which statement correctly combines two notable features associated with the Penukonda inscription discovery?",
+   "options": [
+    "It included a sculpture of eight Naga Kanyas worshipping Shiva, and Penukonda was the second capital of the Vijayanagara Empire.",
+    "It included a sculpture of eight Naga Kanyas worshipping Shiva, and Penukonda was the first capital of the Vijayanagara Empire.",
+    "It included a sculpture of eight Naga Kanyas worshipping Vishnu, and Penukonda was the second capital of the Vijayanagara Empire.",
+    "It included a sculpture of four Naga Kanyas worshipping Shiva, and Penukonda was the second capital of the Vijayanagara Empire."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F5",
+    "P15.F6"
+   ],
+   "explanation": "The discovery included a sculpture of eight Naga Kanyas worshipping Shiva, and Penukonda was the second capital of the Vijayanagara Empire. The other options change the number of figures, the deity or the status of Penukonda."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Heritage site and district",
+   "question": "Lingalakonda and Bojjannakonda, proposed by the Archaeological Survey of India for protection, are located in which district?",
+   "options": [
+    "Anakapalli",
+    "Kurnool",
+    "Srikakulam",
+    "Palnadu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F2"
+   ],
+   "explanation": "Lingalakonda and Bojjannakonda at Sankaram are in Anakapalli district. Kurnool, Srikakulam and Palnadu correspond to other heritage-site entries, not this pair."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "AMASR protection and ASI",
+   "question": "With reference to the proposed protection of Andhra Pradesh heritage sites, consider the following statements:\n1. The AMASR Rules, 1959 prohibit mining and blasting in the nearby area.\n2. Bojjannakonda and Lingalakonda are Buddhist rock-cut monasteries.\n3. The Archaeological Survey of India was established in 1861, with Alexander Cunningham as its first Director General.\n4. Under the AMASR Act, 1958, a monument must be at least 100 years old to qualify as an ancient monument.",
+   "options": [
+    "1 and 2 only",
+    "2 and 4 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P16.F5",
+    "P16.F6"
+   ],
+   "explanation": "All four statements are correct. The AMASR Rules, 1959 address mining and blasting, Bojjannakonda and Lingalakonda are Buddhist rock-cut monasteries, and the ASI and AMASR Act have the stated establishment, leadership and age details."
+  }
+ ]
+}

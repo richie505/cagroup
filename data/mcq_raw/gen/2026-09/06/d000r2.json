@@ -1,0 +1,84 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch vehicle",
+   "question": "EOS-05 was launched on 4 September 2026 using which launch vehicle?",
+   "options": [
+    "GSLV-F17",
+    "EOS-05",
+    "Second Launch Pad",
+    "SDSC-SHAR Sriharikota"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "EOS-05 was launched on 4 September 2026 aboard GSLV-F17 from the Second Launch Pad at SDSC-SHAR Sriharikota. EOS-05 is the satellite, while the Second Launch Pad and SDSC-SHAR are associated with the launch location."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "GSLV stage configuration",
+   "question": "Match the components of GSLV-F17 with their corresponding stages.\n\nList-I\n a. S139 solid core\n b. L40H liquid strap-ons\n c. GL40HT liquid stage\n d. CUS15 cryogenic stage\n\nList-II\n i. GS1 core\n ii. GS1 strap-ons\n iii. GS2\n iv. GS3",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: S139 is the GS1 solid core, L40H units are GS1 liquid strap-ons, GL40HT is the GS2 stage, and CUS15 is the GS3 cryogenic stage. The other codes interchange these stage assignments."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GSLV-F17 mission profile",
+   "question": "With reference to GSLV-F17, consider the following statements:\n\n1. It was the 19th GSLV flight.\n2. Its height was 51.7 m.\n3. Its lift-off mass was 420.5 t.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: GSLV-F17 was the 19th GSLV flight and had a height of 51.7 m. Statement 3 is incorrect because its lift-off mass was 420.5 t, not a different value; therefore, the intended correct combination is 1 and 2 only."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "GSLV Mk II capabilities and development",
+   "question": "Consider the following statements:\n\nStatement A: GSLV Mk II can place approximately 2,250 kg into GTO and 6,000 kg into LEO.\nStatement B: GSLV Mk II's indigenous cryogenic stage was introduced from GSLV-D5 in January 2014.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "Both statements are true. GSLV Mk II has approximately 2,250 kg capacity to GTO and 6,000 kg to LEO, and its indigenous cryogenic stage dates from GSLV-D5 in January 2014; the other options incorrectly reject one or both of these details."
+  }
+ ]
+}

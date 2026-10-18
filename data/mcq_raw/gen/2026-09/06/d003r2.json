@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6
+ ],
+ "only": [
+  "P6.F13",
+  "P6.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Projected power demand",
+   "question": "According to the Central Electricity Authority, what is India's data-centre power demand expected to reach by 2031–32?",
+   "options": [
+    "Approximately 17 GW",
+    "Approximately 70 GW",
+    "Approximately 90 GW",
+    "Approximately 1.57 GW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3",
+    "P6.F1"
+   ],
+   "explanation": "The Central Electricity Authority estimates data-centre power demand at approximately 17 GW by 2031–32. The figures of approximately 70 GW and 90 GW relate to investment amounts, while 1.57 GW is the data-centre capacity recorded in August 2026."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cloud region and investment plan",
+   "question": "With reference to Microsoft's September 2026 data-centre expansion in Telangana, consider the following statements:\n\n1. Microsoft launched the “India South Central” region in Telangana on September 24, 2026.\n2. The launch formed part of Microsoft's USD 20.5 billion India plan through 2029.\n3. The “India South Central” region was launched on September 5, 2026.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F13"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Microsoft launched the “India South Central” region in Telangana on September 24, 2026, as part of its USD 20.5 billion India plan through 2029. Statement 3 is incorrect because September 5, 2026, was not the launch date of this region."
+  }
+ ]
+}

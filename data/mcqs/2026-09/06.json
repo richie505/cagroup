@@ -755,6 +755,2328 @@
     "P29.F1",
     "P29.F2"
    ]
+  },
+  {
+   "id": "2026-09/06/d000#4",
+   "format": "Multi-Statement Correctness",
+   "keyword": "LEO characteristics and payloads",
+   "question": "With reference to low Earth orbit, consider the following statements:\n\n1. LEO extends from 160 km to 2,000 km.\n2. An orbit in LEO takes about 90–120 minutes.\n3. About 22 active payloads were reported in LEO on 4 September 2026.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "Statements 1 and 2 are correct: LEO ranges from 160 km to 2,000 km and has an orbital period of about 90–120 minutes. Statement 3 is incorrect because about 15,562 active payloads were reported, while 22 was the number of India’s operational LEO satellites in April 2026.",
+   "facts": [
+    "P0.F9"
+   ]
+  },
+  {
+   "id": "2026-09/06/d000#5",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Geosynchronous and geostationary orbits",
+   "question": "Consider the following statements:\n\nStatement A: A geosynchronous orbit is necessarily circular, equatorial and has zero inclination.\nStatement B: India has 30 GEO satellites.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 1,
+   "explanation": "Both statements are false. A geosynchronous orbit may be elliptical or inclined; the circular, equatorial, zero-inclination description applies to a geostationary orbit, and India has 31 GEO satellites.",
+   "facts": [
+    "P0.F10"
+   ]
+  },
+  {
+   "id": "2026-09/06/d000#6",
+   "format": "Direct Recall",
+   "keyword": "MEO constellation",
+   "question": "How many satellites are in the Galileo constellation in medium Earth orbit?",
+   "options": [
+    "22",
+    "31",
+    "30",
+    "15,562"
+   ],
+   "answer": 2,
+   "explanation": "Galileo, the European system, has 30 satellites in medium Earth orbit. The other figures refer to India’s GEO satellites, India’s operational LEO satellites or active payloads in LEO.",
+   "facts": [
+    "P0.F11"
+   ]
+  },
+  {
+   "id": "2026-09/06/d000#7",
+   "format": "Count-Based",
+   "keyword": "Applications and orbital monitoring features",
+   "question": "How many of the following statements about EOS-05’s geostationary-orbit imaging role are correct?\n\n1. It is useful for agriculture, land resources, environmental and weather monitoring, and disaster management.\n2. Unlike LEO or Sun-synchronous Earth-observation satellites, it can watch the same large area with very high temporal frequency.\n3. A geostationary orbit is about 35,786 km above the equator, has a period of about 24 hours and appears stationary.\n4. Its principal regional advantage is that it observes the same area only once every 24 hours.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 2,
+   "explanation": "Only three statements are correct: statements 1, 2 and 3 accurately describe the applications and monitoring advantages of EOS-05 and geostationary orbit. Statement 4 is incorrect because the same large area can be watched with very high temporal frequency, not only once every 24 hours.",
+   "facts": [
+    "P0.F13",
+    "P0.F14",
+    "P0.F15"
+   ]
+  },
+  {
+   "id": "2026-09/06/d000#8",
+   "format": "Direct Recall",
+   "keyword": "Launch-centre identity",
+   "question": "SDSC-SHAR, the launch centre used for EOS-05, is located at which place and is named after whom?",
+   "options": [
+    "Mahendragiri, Tamil Nadu — Vikram Sarabhai",
+    "Mahendragiri, Tamil Nadu — Prof. Satish Dhawan",
+    "Sriharikota, Andhra Pradesh — Vikram Sarabhai",
+    "Sriharikota, Andhra Pradesh — Prof. Satish Dhawan"
+   ],
+   "answer": 3,
+   "explanation": "SDSC-SHAR is located at Sriharikota in Andhra Pradesh and is named after Prof. Satish Dhawan. Mahendragiri is the location of IPRC, not SDSC-SHAR.",
+   "facts": [
+    "P0.F16"
+   ]
+  },
+  {
+   "id": "2026-09/06/d000#9",
+   "format": "Direct Recall",
+   "keyword": "Full-thrust hot test",
+   "question": "At what rated thrust level was the Semi-Cryogenic Engine Power Head Test Article hot-tested?",
+   "options": [
+    "47% rated level, corresponding to 94 tonnes thrust",
+    "88% rated level, corresponding to 175 tonnes thrust",
+    "60% rated level, corresponding to 120 tonnes thrust",
+    "100% rated level, corresponding to 200 tonnes thrust"
+   ],
+   "answer": 3,
+   "explanation": "The PHTA hot test reached 100% of the rated level, corresponding to 200 tonnes thrust. The other options are lower test levels and their corresponding thrust values.",
+   "facts": [
+    "P1.F1"
+   ]
+  },
+  {
+   "id": "2026-09/06/d000#10",
+   "format": "Direct Recall",
+   "keyword": "Test venue",
+   "question": "Where was the Semi-Cryogenic Engine Power Head Test Article hot test conducted?",
+   "options": [
+    "ISRO Propulsion Research Complex, Sriharikota, Andhra Pradesh",
+    "Second Launch Pad, SDSC-SHAR, Sriharikota, Andhra Pradesh",
+    "ISRO Propulsion Research Complex, Mahendragiri, Tamil Nadu",
+    "Second Launch Pad, Mahendragiri, Tamil Nadu"
+   ],
+   "answer": 2,
+   "explanation": "The hot test was conducted at the ISRO Propulsion Research Complex at Mahendragiri in Tamil Nadu. Sriharikota and the Second Launch Pad are associated with the launch-site context, not this propulsion test.",
+   "facts": [
+    "P1.F2"
+   ]
+  },
+  {
+   "id": "2026-09/06/d000#11",
+   "format": "Direct Recall",
+   "keyword": "Engine-system validation",
+   "question": "What operational transition was validated during the semi-cryogenic Power Head Test Article hot test?",
+   "options": [
+    "Switching from a medium-pressure run tank to a low-pressure start tank",
+    "Switching from a low-pressure start tank to a medium-pressure run tank",
+    "Switching from a low-pressure start tank to a high-pressure run tank",
+    "Switching from a high-pressure start tank to a medium-pressure run tank"
+   ],
+   "answer": 1,
+   "explanation": "The test validated the switch from a low-pressure start tank to a medium-pressure run tank. The other options alter one or both of the pressure-tank descriptions.",
+   "facts": [
+    "P1.F5"
+   ]
+  },
+  {
+   "id": "2026-09/06/d000#12",
+   "format": "List-Matching",
+   "keyword": "Test levels and thrust values",
+   "question": "Match the tested power levels with the corresponding thrust values.\n\nList-I\n a. 47%\n b. 60%\n c. 88%\n d. 100%\n\nList-II\n i. 120 t\n ii. 200 t\n iii. 94 t\n iv. 175 t",
+   "options": [
+    "a-iv, b-ii, c-i, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer": 2,
+   "explanation": "The correct pairs are 47%–94 t, 60%–120 t, 88%–175 t and 100%–200 t. The other codes mismatch the power levels and thrust values.",
+   "facts": [
+    "P1.F7",
+    "P1.F8",
+    "P1.F9",
+    "P1.F10"
+   ]
+  },
+  {
+   "id": "2026-09/06/d000#13",
+   "format": "Direct Recall",
+   "keyword": "PHTA configuration",
+   "question": "Which component is excluded from the systems included in the Semi-Cryogenic Engine Power Head Test Article?",
+   "options": [
+    "Medium-pressure run tank",
+    "Low-pressure start tank",
+    "Thrust chamber",
+    "Power head systems"
+   ],
+   "answer": 2,
+   "explanation": "The PHTA includes all engine systems except the thrust chamber. The start tank, run tank and other power-head systems are included in the tested configuration.",
+   "facts": [
+    "P1.F6"
+   ]
+  },
+  {
+   "id": "2026-09/06/d000#14",
+   "format": "Assertion-Reason",
+   "keyword": "Engine and stage relationship",
+   "question": "Assertion (A): SE2000 is a 2,000 kN-class engine that powers the SC120 semi-cryogenic stage.\nReason (R): SC120 is intended to replace the L110 core stage of LVM3 and, with an uprated C32 cryogenic upper stage, raises LVM3 payload.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 1,
+   "explanation": "Both the assertion and the reason are true. However, the replacement of L110 by SC120 and the use of an uprated C32 upper stage describe the role and payload effect of SC120; they do not explain why SE2000 is classified as a 2,000 kN-class engine powering it.",
+   "facts": [
+    "P1.F11",
+    "P1.F12"
+   ]
+  },
+  {
+   "id": "2026-09/06/d000r2#3",
+   "format": "Statement-Based (A/B)",
+   "keyword": "GSLV Mk II capabilities and development",
+   "question": "Consider the following statements:\n\nStatement A: GSLV Mk II can place approximately 2,250 kg into GTO and 6,000 kg into LEO.\nStatement B: GSLV Mk II's indigenous cryogenic stage was introduced from GSLV-D5 in January 2014.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 0,
+   "explanation": "Both statements are true. GSLV Mk II has approximately 2,250 kg capacity to GTO and 6,000 kg to LEO, and its indigenous cryogenic stage dates from GSLV-D5 in January 2014; the other options incorrectly reject one or both of these details.",
+   "facts": [
+    "P0.F8"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001#2",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Semicon 1.0 achievements",
+   "question": "With reference to the achievements under Semicon 1.0, consider the following statements:\n1. Twelve units were approved with an investment of more than ₹1.64 lakh crore.\n2. The approved projects included one silicon fab, one silicon-carbide fab, one GaN Micro-LED display fab and nine ATMP/OSAT units.\n3. All the twelve approved units had entered production.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "Statements 1 and 2 are correct. Five of the twelve approved units were in production, not all twelve, making statement 3 incorrect.",
+   "facts": [
+    "P2.F5"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001#3",
+   "format": "Count-Based",
+   "keyword": "Semiconductor data",
+   "question": "How many of the following statements regarding India’s semiconductor ecosystem are correct?\n1. India imports 50–55% of its chips.\n2. Semiconductor demand is projected to reach $110 billion by FY2035.\n3. India has about 20% of the global chip-design workforce and about 17% of semiconductor GCCs.\n4. Taiwan accounts for more than 60% of global chips and about 90% of advanced chips.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 0,
+   "explanation": "Only statement 4 is correct: Taiwan accounts for more than 60% of global chips and about 90% of advanced chips. India imports 90–95% of chips, demand is projected at $110 billion by FY2030, and the semiconductor GCC share is about 7%, not 17%.",
+   "facts": [
+    "P2.F7",
+    "P2.F8",
+    "P2.F9",
+    "P2.F10"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001#4",
+   "format": "Direct Recall",
+   "keyword": "Semiconductor applications",
+   "question": "Which of the following is associated with the Semiconductor Laboratory, Mohali?",
+   "options": [
+    "Mission Mausam’s weather radars",
+    "Camera chip in the Chandrayaan-3 lander, Vikram processor and rad-hard ADC in Aditya-L1",
+    "The six pillars of Semicon 2.0",
+    "The India–Germany Joint Declaration of Intent"
+   ],
+   "answer": 1,
+   "explanation": "The Semiconductor Laboratory, Mohali, contributed the camera chip in the Chandrayaan-3 lander, the Vikram processor and the rad-hard ADC in Aditya-L1. The other options refer to separate semiconductor-policy or weather-related developments.",
+   "facts": [
+    "P2.F11"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001#5",
+   "format": "Statement-Based (A/B)",
+   "keyword": "International partnerships",
+   "question": "Consider the following statements:\nStatement A: India and Germany adopted a Joint Declaration of Intent in January 2026.\nStatement B: India joined Pax Silica at the India AI Impact Summit in February 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 0,
+   "explanation": "Both statements are true. The India–Germany Joint Declaration of Intent was made in January 2026, while India joined Pax Silica at the India AI Impact Summit in February 2026.",
+   "facts": [
+    "P2.F12"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001#6",
+   "format": "List-Matching",
+   "keyword": "Electronics policies and years",
+   "question": "Match the following policies with their years:\n\nList-I\n a. National Policy on Electronics\n b. SPECS\n c. PLI 2.0 for IT hardware\n d. ECMS\n\nList-II\n i. 2025\n ii. 2019\n iii. 2020\n iv. 2023",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer": 0,
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i: NPE was issued in 2019, SPECS in 2020, PLI 2.0 for IT hardware in 2023 and ECMS in 2025. The other codes interchange these policy years.",
+   "facts": [
+    "P2.F13"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001#7",
+   "format": "Direct Recall",
+   "keyword": "Notification and implementation",
+   "question": "Which statement correctly describes the institutional framework for Semicon 2.0 incentives?",
+   "options": [
+    "The incentives were notified on January 14, 2025; the programme has ISRO as nodal organisation and IITM as implementing agency.",
+    "The incentives were notified in December 2021; the programme has the Ministry of Earth Sciences as nodal ministry and IMD as implementing agency.",
+    "The incentives were notified on August 31, 2026; the Semicon India Programme has MeitY as nodal ministry and ISM as implementing agency.",
+    "The incentives were notified in February 2026; the programme has the Ministry of Finance as nodal ministry and NCMRWF as implementing agency."
+   ],
+   "answer": 2,
+   "explanation": "Semicon 2.0 incentives were notified on August 31, 2026. The Semicon India Programme was approved in 2021, with MeitY as the nodal ministry and ISM as the implementing agency; the other combinations belong to unrelated institutions or dates.",
+   "facts": [
+    "P2.F14"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001#8",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Semicon 2.0 incentives",
+   "question": "Consider the following statements about Semicon 2.0 incentives:\n1. Silicon fabs with a minimum investment of ₹20,000 crore receive 40% assistance.\n2. Compound semiconductor and display fabs receive 35% assistance.\n3. The Deployment-Linked Incentive provides 10% of net sales for up to five years, with a maximum of ₹30 crore per application.",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "Statements 1 and 2 are correct. The Deployment-Linked Incentive is 9% of net sales for up to five years, not 10%, while its maximum remains ₹30 crore per application.",
+   "facts": [
+    "P2.F15",
+    "P2.F16"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001#9",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Training target and edition",
+   "question": "Consider the following statements regarding Semicon 2.0 and SEMICON India 2026:\nStatement A: About 85,000 engineers had been trained, with a target to train one lakh more.\nStatement B: SEMICON India 2026 was the fifth edition.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 0,
+   "explanation": "Both statements are true. The programme had trained about 85,000 engineers and set a target of training one lakh more; SEMICON India 2026 was the fifth edition.",
+   "facts": [
+    "P2.F17",
+    "P2.F19"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001#11",
+   "format": "Direct Recall",
+   "keyword": "Radar technology",
+   "question": "Which combination correctly describes the operating principle and update cycle of a Doppler Weather Radar?",
+   "options": [
+    "It uses visible light and provides updates approximately every 10 minutes.",
+    "It uses sound waves and provides updates approximately every 10 minutes.",
+    "It uses radio waves and provides updates once every 24 hours.",
+    "It uses radio waves and provides updates approximately every 10 minutes."
+   ],
+   "answer": 3,
+   "explanation": "A Doppler Weather Radar uses radio waves, not sound waves, and updates approximately every 10 minutes. The other options incorrectly change the wave type or the update frequency.",
+   "facts": [
+    "P3.F7"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001#12",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Mission Mausam",
+   "question": "Consider the following statements about Mission Mausam:\nStatement A: It was approved in September 2024 with an outlay of ₹2,000 crore for two years and was launched on January 14, 2025.\nStatement B: Its goal is to build a weather-ready and climate-smart nation, and it is implemented by IMD, IITM and NCMRWF under the Ministry of Earth Sciences.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 0,
+   "explanation": "Both statements are true. Mission Mausam was approved in September 2024, launched on January 14, 2025, and seeks a weather-ready and climate-smart nation through implementation by IMD, IITM and NCMRWF under the Ministry of Earth Sciences.",
+   "facts": [
+    "P3.F8",
+    "P3.F9"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001#13",
+   "format": "List-Matching",
+   "keyword": "CA-360 specifications",
+   "question": "Match the features of the CA-360 system with the correct details:\n\nList-I\n a. Location\n b. Radius\n c. Resolution\n d. Inauguration date in the CA-360 account\n\nList-II\n i. 150 m\n ii. Jamadarpali, Sambalpur\n iii. September 16, 2026\n iv. 250-km radius",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer": 0,
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii: CA-360 is located at Jamadarpali, Sambalpur, has a 250-km radius and 150-m resolution, and its CA-360 account gives September 16, 2026 as the inauguration date. The daily news account gives September 17, 2026, which is the principal trap.",
+   "facts": [
+    "P3.F10",
+    "P3.F11"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001#14",
+   "format": "Count-Based",
+   "keyword": "Mission Mausam expansion and approval",
+   "question": "How many of the following statements regarding Mission Mausam are correct?\n1. Mission Mausam plans only 4–5 more radars.\n2. It aims to create a network of about 1,000 radars within two years.\n3. Mission Mausam was approved in 2024 with an outlay of ₹2,000 crore.\n4. It is under the Ministry of Finance.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 0,
+   "explanation": "Only statement 3 is correct: Mission Mausam was approved in 2024 with an outlay of ₹2,000 crore under the Ministry of Earth Sciences. The plan is for 40–50 more radars and a network of about 100 within two years, not 4–5, 1,000 or the Ministry of Finance.",
+   "facts": [
+    "P3.F12",
+    "P3.F13"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001r2#0",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Approval and outlay",
+   "question": "With reference to the semiconductor programmes in India, consider the following statements:\nStatement A: Semicon 2.0 was approved by the Union Cabinet in July 2026 with an outlay of ₹1,27,500 crore.\nStatement B: Semicon 1.0 was approved in December 2021 with an outlay of ₹76,000 crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 0,
+   "explanation": "Both statements are correct. Semicon 2.0 received Union Cabinet approval in July 2026 with an outlay of ₹1,27,500 crore, while Semicon 1.0 was approved in December 2021 with an outlay of ₹76,000 crore.",
+   "facts": [
+    "P2.F1",
+    "P2.F4"
+   ]
+  },
+  {
+   "id": "2026-09/06/d001r2#1",
+   "format": "Direct Recall",
+   "keyword": "Chip-design ecosystem",
+   "question": "Which of the following correctly describes the achievements under Semicon 1.0 in chip design and talent development?",
+   "options": [
+    "About 1 lakh chip-design projects, tools for 300 engineers in 24 organisations, and 500 chip designs",
+    "About 300 chip-design projects, tools for 24 engineers in 500 organisations, and more than 1 lakh chip designs",
+    "About 500 chip-design projects, tools for 24 lakh engineers in 300 organisations, and more than 1 lakh chip designs",
+    "About 24 chip-design projects, tools for more than 1 lakh engineers in 500 organisations, and more than 300 chip designs"
+   ],
+   "answer": 3,
+   "explanation": "Semicon 1.0 supported about 24 chip-design projects, provided tools to more than 1 lakh engineers in 500 organisations, and enabled more than 300 chip designs. The other options interchange or alter these figures.",
+   "facts": [
+    "P2.F6"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#0",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Study period and methodology",
+   "question": "With reference to the NRSC (ISRO) analysis of Oceansat-3 data on the El Niño impact, consider the following statements:\n1. The analysis covered April–June data from 2023–2026.\n2. The productive zone contracted westward.\n3. The analysis combined OCM-3 chlorophyll data with Sea Surface Temperature Monitor data.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "Statements 1 and 2 are correct: NRSC (ISRO) analysed April–June data from 2023–2026 and found that the productive zone contracted westward. Statement 3 is incorrect because the analysis combined OCM-3 chlorophyll data with scatterometer winds, not Sea Surface Temperature Monitor data.",
+   "facts": [
+    "P4.F2",
+    "P4.F3"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#1",
+   "format": "Direct Recall",
+   "keyword": "Launch details",
+   "question": "Oceansat-3 (EOS-06), the third-generation Oceansat, was launched on which date and by which launch vehicle from Sriharikota?",
+   "options": [
+    "November 26, 2022, by GSLV",
+    "November 26, 2023, by PSLV-C54",
+    "November 26, 2022, by PSLV-C54",
+    "October 26, 2022, by PSLV-C54"
+   ],
+   "answer": 2,
+   "explanation": "Oceansat-3 was launched on November 26, 2022, by PSLV-C54 from Sriharikota. The other options change the year, launch vehicle or date.",
+   "facts": [
+    "P4.F4"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#2",
+   "format": "Direct Recall",
+   "keyword": "Payloads",
+   "question": "Which set of payloads was carried by Oceansat-3 (EOS-06)?",
+   "options": [
+    "Ocean Colour Monitor-2, Ku-band Scatterometer, Sea Surface Temperature Monitor and ARGOS",
+    "Ocean Colour Monitor-3, Ku-band Scatterometer, Synthetic Aperture Radar and ARGOS",
+    "Ocean Colour Monitor-3, Ku-band Scatterometer, Sea Surface Temperature Monitor and ARGOS",
+    "Ocean Colour Monitor-3, C-band Scatterometer, Sea Surface Temperature Monitor and ARGOS"
+   ],
+   "answer": 2,
+   "explanation": "The payloads of Oceansat-3 were Ocean Colour Monitor-3, Ku-band Scatterometer (SCAT-3), Sea Surface Temperature Monitor and ARGOS. The other options alter one of the listed payloads.",
+   "facts": [
+    "P4.F5"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#4",
+   "format": "List-Matching",
+   "keyword": "Technology Translation Research Parks",
+   "question": "Match the institutions associated with the Technology Translation Research Parks with their domains:\n\nList-I\n a. IIT Kanpur\n b. IISc Bengaluru\n c. IIT (ISM) Dhanbad\n d. IIT Indore\n\nList-II\n i. Cybersecurity\n ii. Robotics and AI\n iii. Mining\n iv. Digital healthcare\n\nSelect the correct code:",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer": 3,
+   "explanation": "The correct pairs are IIT Kanpur–Cybersecurity, IISc Bengaluru–Robotics and AI, IIT (ISM) Dhanbad–Mining, and IIT Indore–Digital healthcare. The other codes interchange these institutional domains.",
+   "facts": [
+    "P5.F6",
+    "P5.F7",
+    "P5.F8",
+    "P5.F9"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#5",
+   "format": "Direct Recall",
+   "keyword": "CHANAKYA expansion",
+   "question": "In the context of NM-ICPS achievements, CHANAKYA stands for:",
+   "options": [
+    "Comprehensive and Holistic Advancement of National Knowledge Yield and Analytics",
+    "Comprehensive and Holistic Advancement of National Knowledge, Youth and Analytics",
+    "Centralised and Holistic Advancement of National Knowledge Yield and Applications",
+    "Comprehensive and High-level Advancement of National Knowledge Yield and Analytics"
+   ],
+   "answer": 0,
+   "explanation": "CHANAKYA expands to Comprehensive and Holistic Advancement of National Knowledge Yield and Analytics. The other options change one or more words in the expansion.",
+   "facts": [
+    "P5.F11"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#6",
+   "format": "Direct Recall",
+   "keyword": "BharatGen foundation model",
+   "question": "Which BharatGen model is a foundation model with 17 billion parameters covering all 22 Scheduled languages?",
+   "options": [
+    "Shrutam",
+    "Param-2",
+    "Sooktam",
+    "Patram"
+   ],
+   "answer": 1,
+   "explanation": "Param-2 is the BharatGen foundation model with 17 billion parameters for all 22 Scheduled languages. Shrutam is for speech-to-text, Sooktam for text-to-speech and Patram for documents.",
+   "facts": [
+    "P5.F12"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#7",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "BharatGen speech-to-text",
+   "question": "Which one of the following statements about BharatGen is incorrect?",
+   "options": [
+    "Shrutam is a speech-to-text model for 12 languages.",
+    "Sooktam is a text-to-speech model for 12 languages.",
+    "Shrutam is a speech-to-text model for 22 languages.",
+    "Param-2 is a foundation model covering all 22 Scheduled languages."
+   ],
+   "answer": 2,
+   "explanation": "The incorrect statement changes Shrutam’s language coverage to 22 languages. Shrutam is a speech-to-text model for 12 languages; 22 Scheduled languages is associated with Param-2.",
+   "facts": [
+    "P5.F12",
+    "P5.F13",
+    "P5.F14"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#8",
+   "format": "Direct Recall",
+   "keyword": "BharatGen text-to-speech",
+   "question": "Which BharatGen model is designed for text-to-speech in 12 languages?",
+   "options": [
+    "Patram",
+    "Shrutam",
+    "Sooktam",
+    "Param-2"
+   ],
+   "answer": 2,
+   "explanation": "Sooktam is BharatGen’s text-to-speech model for 12 languages. Shrutam is the speech-to-text model, while Patram is for documents and Param-2 is the foundation model.",
+   "facts": [
+    "P5.F14"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#9",
+   "format": "Direct Recall",
+   "keyword": "BharatGen documents framework",
+   "question": "Which BharatGen model is associated with documents and the DocBodh framework?",
+   "options": [
+    "Shrutam",
+    "Param-2",
+    "Sooktam",
+    "Patram"
+   ],
+   "answer": 3,
+   "explanation": "Patram is the BharatGen model for documents and is associated with the DocBodh framework. The other models have foundation-model, text-to-speech or speech-to-text purposes.",
+   "facts": [
+    "P5.F15"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#10",
+   "format": "Direct Recall",
+   "keyword": "Domain-specific BharatGen models",
+   "question": "Which set correctly matches the BharatGen models with their purposes?",
+   "options": [
+    "Ayur Param—agriculture; Agri Param—legal; Legal Param—Ayurveda",
+    "Ayur Param—Ayurveda; Agri Param—agriculture; Legal Param—legal",
+    "Ayur Param—legal; Agri Param—Ayurveda; Legal Param—agriculture",
+    "Ayur Param—documents; Agri Param—speech-to-text; Legal Param—text-to-speech"
+   ],
+   "answer": 1,
+   "explanation": "Ayur Param, Agri Param and Legal Param are intended respectively for Ayurveda, agriculture and legal applications. The other options interchange or replace these purposes.",
+   "facts": [
+    "P5.F16"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#11",
+   "format": "List-Matching",
+   "keyword": "CPS applications and institutions",
+   "question": "Match the applications with their associated institutions or descriptions:\n\nList-I\n a. CharakDT\n b. Agri-IoT Farm Management System\n c. TEXMiN\n d. Indigenous 5G-Advanced ORAN Massive MIMO Radio Unit\n\nList-II\n i. Drishti CPS Foundation, IIT Indore\n ii. IIT Bombay\n iii. Mining drones transmitting data up to 50 km\n iv. IIIT Bengaluru\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer": 1,
+   "explanation": "CharakDT is associated with Drishti CPS Foundation at IIT Indore; the Agri-IoT Farm Management System with IIT Bombay; TEXMiN with mining drones transmitting data up to 50 km; and the 5G-Advanced ORAN Massive MIMO Radio Unit with IIIT Bengaluru. The other codes interchange these applications and institutions.",
+   "facts": [
+    "P5.F17",
+    "P5.F18",
+    "P5.F19",
+    "P5.F20"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#12",
+   "format": "Direct Recall",
+   "keyword": "Cybersecurity application",
+   "question": "Which NM-ICPS application is associated with the IHUB NTIHAC Foundation at IIT Kanpur?",
+   "options": [
+    "IT-OT Security Operations Centre and crypto-forensic tools",
+    "Digital twin of the human body",
+    "Accident-prone spot alerts piloted in Nagpur",
+    "India’s first proving ground for autonomous navigation"
+   ],
+   "answer": 0,
+   "explanation": "The IHUB NTIHAC Foundation at IIT Kanpur developed an IT-OT Security Operations Centre and crypto-forensic tools. The other options refer to applications associated with IIT Indore, IISc’s robotics hub and TiHAN Foundation respectively.",
+   "facts": [
+    "P5.F21"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#13",
+   "format": "Direct Recall",
+   "keyword": "First proving ground",
+   "question": "Which NM-ICPS application was described as India’s first proving ground for autonomous navigation?",
+   "options": [
+    "TiHAN Foundation at IIT Hyderabad",
+    "IHUB NTIHAC Foundation at IIT Kanpur",
+    "Drishti CPS Foundation at IIT Indore",
+    "TEXMiN at IIT (ISM) Dhanbad"
+   ],
+   "answer": 0,
+   "explanation": "TiHAN Foundation at IIT Hyderabad was described as India’s first proving ground for autonomous navigation. The other institutions are associated with cybersecurity, a digital human-body twin or mining applications.",
+   "facts": [
+    "P5.F22"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002#14",
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "The iRASTE application, which provides accident-prone spot alerts, was piloted in which place?",
+   "options": [
+    "Bengaluru",
+    "Nagpur",
+    "Kanpur",
+    "Dhanbad"
+   ],
+   "answer": 1,
+   "explanation": "iRASTE, associated with the IISc robotics hub, was piloted in Nagpur for accident-prone spot alerts. The other places are linked to institutions or domains in the NM-ICPS ecosystem, not this pilot.",
+   "facts": [
+    "P5.F23"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002r2#0",
+   "format": "Direct Recall",
+   "keyword": "El Niño impact on marine productivity",
+   "question": "According to the Oceansat-3 findings on the developing El Niño in the tropical Pacific, what is the effect of weakened upwelling on marine productivity?",
+   "options": [
+    "It increases phytoplankton levels",
+    "It has no effect on phytoplankton levels",
+    "It lowers phytoplankton levels",
+    "It reverses the decline in phytoplankton levels"
+   ],
+   "answer": 2,
+   "explanation": "El Niño weakens upwelling, which leads to lower phytoplankton levels. The tempting opposite option is incorrect because weakened, not strengthened, upwelling is associated with reduced phytoplankton.",
+   "facts": [
+    "P4.F6"
+   ]
+  },
+  {
+   "id": "2026-09/06/d002r2#1",
+   "format": "Count-Based",
+   "keyword": "NM-ICPS achievements",
+   "question": "As of August 2026, how many of the following statements correctly describe achievements of the National Mission on Interdisciplinary Cyber-Physical Systems?\n\n1. The mission had developed 1,146 technologies.\n2. The mission had produced 1,329 start-ups.\n3. The mission had supported 5,824 products.\n4. The mission had established 24,000+ international collaborations.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 0,
+   "explanation": "Only one statement is correct: 1,146 technologies had been developed. The most tempting wrong statement is 2, which changes the category: 1,329 refers to products, while the number of start-ups was 1,136.",
+   "facts": [
+    "P5.F10"
+   ]
+  },
+  {
+   "id": "2026-09/06/d003#0",
+   "format": "Direct Recall",
+   "keyword": "Capacity projection",
+   "question": "India’s data-centre capacity rose from approximately 375 MW in 2020 to 1.57 GW in August 2026. What capacity is projected by 2030?",
+   "options": [
+    "Approximately 1.57 GW",
+    "Approximately 8 GW",
+    "Approximately 17 GW",
+    "Approximately 70 GW"
+   ],
+   "answer": 1,
+   "explanation": "India’s data-centre capacity is projected to reach approximately 8 GW by 2030. The tempting figure of 1.57 GW is the capacity recorded in August 2026, not the 2030 projection.",
+   "facts": [
+    "P6.F1"
+   ]
+  },
+  {
+   "id": "2026-09/06/d003#2",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Investment in data centres",
+   "question": "With reference to investment in India’s data-centre sector, consider the following statements:\n\n1. Approximately USD 70 billion is underway and approximately USD 90 billion has been announced.\n2. Approximately USD 90 billion is underway and approximately USD 70 billion has been announced.\n3. Approximately USD 8 billion is underway and approximately USD 17 billion has been announced.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "Only statement 1 is correct: approximately USD 70 billion is underway and approximately USD 90 billion has been announced. Statement 2 reverses the two investment figures, while statement 3 substitutes unrelated figures.",
+   "facts": [
+    "P6.F3"
+   ]
+  },
+  {
+   "id": "2026-09/06/d003#3",
+   "format": "List-Matching",
+   "keyword": "NIC centres and policy measures",
+   "question": "Match List-I with List-II regarding India’s data-centre infrastructure and policy measures.\n\nList-I\n a. NIC National Data Centres\n b. Smaller NIC data centres\n c. Budget 2022–23\n d. Budget 2026–27\n\nList-II\n i. 37 centres in State capitals\n ii. Data centres included in the Harmonised List of Infrastructure\n iii. Delhi, Pune, Hyderabad and Bhubaneswar\n iv. Tax holiday for notified foreign cloud providers till 2047\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer": 1,
+   "explanation": "The correct pairs are a-iii, b-i, c-ii and d-iv. NIC’s National Data Centres are in Delhi, Pune, Hyderabad and Bhubaneswar; Budget 2022–23 added data centres to the Harmonised List of Infrastructure, while Budget 2026–27 provided the tax holiday.",
+   "facts": [
+    "P6.F4",
+    "P6.F5",
+    "P6.F6"
+   ]
+  },
+  {
+   "id": "2026-09/06/d003#4",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Semiconductor and digital-technology initiatives",
+   "question": "Consider the following statements:\nStatement A: Semicon 2.0 was approved in July 2026 with an outlay of ₹1,27,500 crore under the India Semiconductor Mission.\nStatement B: The IndiaAI Mission has an outlay of ₹10,371.92 crore, while ECMS was raised from ₹22,000 crore to ₹40,000 crore and PLI 2.0 applies to IT Hardware.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 0,
+   "explanation": "Both statements are true. Semicon 2.0 was approved in July 2026 with ₹1,27,500 crore under the India Semiconductor Mission, and the stated allocations and enhancement relate to the IndiaAI Mission, ECMS and PLI 2.0 for IT Hardware.",
+   "facts": [
+    "P6.F7",
+    "P6.F8"
+   ]
+  },
+  {
+   "id": "2026-09/06/d003#5",
+   "format": "Assertion-Reason",
+   "keyword": "Nuclear-energy policy and standards",
+   "question": "Assertion (A): The SHANTI Act enables small modular reactors and fusion reactors.\nReason (R): The BIS LITD 31 committee deals with cloud and data centres.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 3,
+   "explanation": "The assertion is false because the SHANTI Act enables small modular reactors and micro reactors, not fusion reactors. The reason is true: BIS LITD 31 is the committee concerned with cloud and data centres.",
+   "facts": [
+    "P6.F9",
+    "P6.F10"
+   ]
+  },
+  {
+   "id": "2026-09/06/d003#6",
+   "format": "Count-Based",
+   "keyword": "Data-centre efficiency metrics",
+   "question": "How many of the following statements regarding data-centre efficiency metrics are correct?\n\n1. PUE measures power usage, and a lower value is better.\n2. WUE measures carbon usage.\n3. CUE measures water usage.\n4. CER measures power usage.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 0,
+   "explanation": "Only one statement is correct: PUE measures power usage, and a lower value is better. WUE concerns water, CUE concerns carbon and CER concerns cooling, so statements 2, 3 and 4 are incorrect.",
+   "facts": [
+    "P6.F11"
+   ]
+  },
+  {
+   "id": "2026-09/06/d003#8",
+   "format": "Direct Recall",
+   "keyword": "MoU signatories and company history",
+   "question": "The TCS–HyperVault MoU was signed before which Telangana leaders, according to the September 2026 announcement?",
+   "options": [
+    "D. Sridhar Babu and TCS",
+    "A. Revanth Reddy and TCS",
+    "A. Revanth Reddy and D. Sridhar Babu",
+    "TCS and HyperVault"
+   ],
+   "answer": 2,
+   "explanation": "The MoU was signed before Chief Minister A. Revanth Reddy and IT Minister D. Sridhar Babu. TCS and HyperVault are the parties to the MoU, not the two Telangana leaders before whom it was signed.",
+   "facts": [
+    "P6.F15"
+   ]
+  },
+  {
+   "id": "2026-09/06/d003r2#0",
+   "format": "Direct Recall",
+   "keyword": "Projected power demand",
+   "question": "According to the Central Electricity Authority, what is India's data-centre power demand expected to reach by 2031–32?",
+   "options": [
+    "Approximately 17 GW",
+    "Approximately 70 GW",
+    "Approximately 90 GW",
+    "Approximately 1.57 GW"
+   ],
+   "answer": 0,
+   "explanation": "The Central Electricity Authority estimates data-centre power demand at approximately 17 GW by 2031–32. The figures of approximately 70 GW and 90 GW relate to investment amounts, while 1.57 GW is the data-centre capacity recorded in August 2026.",
+   "facts": [
+    "P6.F2",
+    "P6.F3",
+    "P6.F1"
+   ]
+  },
+  {
+   "id": "2026-09/06/d003r2#1",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cloud region and investment plan",
+   "question": "With reference to Microsoft's September 2026 data-centre expansion in Telangana, consider the following statements:\n\n1. Microsoft launched the “India South Central” region in Telangana on September 24, 2026.\n2. The launch formed part of Microsoft's USD 20.5 billion India plan through 2029.\n3. The “India South Central” region was launched on September 5, 2026.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "2 only",
+    "1 and 2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 2 are correct: Microsoft launched the “India South Central” region in Telangana on September 24, 2026, as part of its USD 20.5 billion India plan through 2029. Statement 3 is incorrect because September 5, 2026, was not the launch date of this region.",
+   "facts": [
+    "P6.F13"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#0",
+   "format": "Direct Recall",
+   "keyword": "Exercise and venue",
+   "question": "Which exercise was conducted as the 13th India–Sri Lanka naval exercise at Visakhapatnam from September 17 to 21, 2026?",
+   "options": [
+    "SLINEX-26",
+    "Varuna-2026",
+    "Samudra Laksamana",
+    "ReSAREX-26"
+   ],
+   "answer": 0,
+   "explanation": "SLINEX-26 was the 13th India–Sri Lanka naval exercise, held at Visakhapatnam from September 17 to 21. Varuna-2026 was an India–France naval exercise, while Samudra Laksamana involved India and Malaysia.",
+   "facts": [
+    "P7.F1"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#1",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Exercise details and training format",
+   "question": "With reference to Exercise Nomadic Elephant-2026, consider the following statements:\n1. It was the 18th India–Mongolia exercise.\n2. It involved 45 personnel from each side and focused on counter-insurgency under a UN mandate.\n3. It was an annual company-level exercise conducted at the Foreign Training Node, Pithoragarh.",
+   "options": [
+    "1 and 3 only",
+    "2 and 3 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "Statements 1 and 2 are correct: Nomadic Elephant-2026 was the 18th India–Mongolia exercise, with 45 personnel from each side and a counter-insurgency focus under a UN mandate. Statement 3 is incorrect because it was an annual platoon-level exercise, not a company-level exercise.",
+   "facts": [
+    "P7.F2",
+    "P7.F16"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#2",
+   "format": "Direct Recall",
+   "keyword": "Venue and participating aircraft",
+   "question": "Where was Veer Guardian-2026, the India–Japan air exercise, conducted?",
+   "options": [
+    "Bikaner and Auli",
+    "AFS Jodhpur",
+    "Visakhapatnam",
+    "Toulon"
+   ],
+   "answer": 1,
+   "explanation": "The second edition of Veer Guardian-2026 was conducted at AFS Jodhpur from September 9 to 22. Bikaner and Auli were associated with Yudh Abhyas-2026, while Toulon was the starting venue of Varuna-2026.",
+   "facts": [
+    "P7.F3"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#3",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Exercise duration and history",
+   "question": "Which of the following statements regarding Yudh Abhyas-2026 is incorrect?",
+   "options": [
+    "It has been conducted since 2005.",
+    "It was conducted from September 9 to 28, 2026.",
+    "It was held at Bikaner and Auli.",
+    "It was the 22nd India–USA army exercise."
+   ],
+   "answer": 0,
+   "explanation": "The incorrect statement is that Yudh Abhyas has been conducted since 2005. The exercise has been conducted since 2004; it was the 22nd India–USA army exercise and was held at Bikaner and Auli from September 9 to 28.",
+   "facts": [
+    "P7.F4"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#4",
+   "format": "List-Matching",
+   "keyword": "Exercise venue",
+   "question": "Match the exercises in List-I with their respective venues or locations in List-II.\n\nList-I\n a. Varuna-2026\n b. Samudra Laksamana\n c. ReSAREX-26\n d. CSC Table Top Exercise\n\nList-II\n i. Eastern Naval Command, Visakhapatnam\n ii. Off Mumbai\n iii. Toulon\n iv. Lumut",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer": 1,
+   "explanation": "The correct pairs are Varuna-2026–Toulon, Samudra Laksamana–Lumut, ReSAREX-26–off Mumbai, and CSC Table Top Exercise–Eastern Naval Command, Visakhapatnam. Therefore, the correct code is a-iii, b-iv, c-ii, d-i.",
+   "facts": [
+    "P7.F6",
+    "P7.F8",
+    "P7.F10",
+    "P7.F11"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#5",
+   "format": "Assertion-Reason",
+   "keyword": "MAHASAGAR expansion",
+   "question": "Assertion (A): The full form of MAHASAGAR includes the phrase “Security and Growth Across Regions.”\nReason (R): MAHASAGAR stands for “Mutual and Holistic Advancement for Security and Growth Across Regions.”",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 0,
+   "explanation": "Both the Assertion and the Reason are true. The stated expansion of MAHASAGAR directly explains why its full form includes “Security and Growth Across Regions.”",
+   "facts": [
+    "P7.F12"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#6",
+   "format": "Statement-Based (A/B)",
+   "keyword": "India–Japan exercise roles",
+   "question": "Consider the following statements:\nStatement A: Dharma Guardian is an India–Japan naval exercise.\nStatement B: JIMEX is an India–Japan army exercise.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 1,
+   "explanation": "Both statements are false. Dharma Guardian is an India–Japan army exercise, whereas JIMEX is an India–Japan naval exercise.",
+   "facts": [
+    "P7.F13"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#7",
+   "format": "Direct Recall",
+   "keyword": "Motto of the Indian Coast Guard",
+   "question": "What is the motto of the Indian Coast Guard?",
+   "options": [
+    "One Team, One Purpose, Absolute Battlefield Dominance",
+    "Mutual and Holistic Advancement for Security and Growth Across Regions",
+    "Vayam Rakshamah",
+    "Colombo Security Conclave"
+   ],
+   "answer": 2,
+   "explanation": "The motto of the Indian Coast Guard is “Vayam Rakshamah.” “One Team, One Purpose, Absolute Battlefield Dominance” was the theme associated with Rudra Raptors.",
+   "facts": [
+    "P7.F14"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#8",
+   "format": "Direct Recall",
+   "keyword": "Exercise phases and command",
+   "question": "Under which command were the Harbour and Sea phases of SLINEX conducted?",
+   "options": [
+    "Konark Corps",
+    "Eastern Naval Command",
+    "Kazakh Land Forces",
+    "Colombo secretariat"
+   ],
+   "answer": 1,
+   "explanation": "The Harbour and Sea phases of SLINEX were conducted under the Eastern Naval Command. Konark Corps is associated with Rudra Raptors, while the Colombo secretariat is associated with the CSC Table Top Exercise.",
+   "facts": [
+    "P7.F15"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#9",
+   "format": "Count-Based",
+   "keyword": "Veer Guardian and Quad",
+   "question": "How many of the following statements are correct regarding Veer Guardian-2026 and the Quad?\n1. Two C-2 transport aircraft were involved in Veer Guardian.\n2. The first edition was the first bilateral fighter exercise of the two air forces.\n3. The Quad consists of India, Japan, France and Australia.\n4. Mongolia is a member of the Quad.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 1,
+   "explanation": "Only two statements are correct: two C-2 transport aircraft were involved, and the first edition was the first bilateral fighter exercise of the two air forces. The Quad comprises India, Japan, the USA and Australia, not France or Mongolia.",
+   "facts": [
+    "P7.F17"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#10",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "KAZIND contingent and location",
+   "question": "Which of the following statements regarding KAZIND-2026 is incorrect?",
+   "options": [
+    "India’s contingent included 60 personnel, including Indian Air Force personnel.",
+    "The participating Kazakh formation was the Kazakh Land Forces.",
+    "Kazakhstan’s capital is Ulaanbaatar.",
+    "Kazakhstan’s capital is Astana."
+   ],
+   "answer": 2,
+   "explanation": "The incorrect statement is that Kazakhstan’s capital is Ulaanbaatar. Kazakhstan’s capital is Astana; Ulaanbaatar was the previous venue of Nomadic Elephant.",
+   "facts": [
+    "P7.F18"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#11",
+   "format": "Direct Recall",
+   "keyword": "Warship classification",
+   "question": "INS Trishul, used in Varuna-2026, belongs to which class of warship?",
+   "options": [
+    "Talwar-class guided-missile frigate",
+    "Fleet tanker",
+    "Anti-submarine warfare corvette",
+    "C-2 transport aircraft"
+   ],
+   "answer": 0,
+   "explanation": "INS Trishul is a Talwar-class guided-missile frigate. INS Jyoti is a fleet tanker and INS Kavaratti is an anti-submarine warfare corvette, making them distinct from INS Trishul.",
+   "facts": [
+    "P7.F19"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#12",
+   "format": "Direct Recall",
+   "keyword": "F-35 manufacturer",
+   "question": "The F-35 aircraft associated with Tarang Shakti-2026 is manufactured by which company?",
+   "options": [
+    "Indian Coast Guard",
+    "Boeing",
+    "JASDF",
+    "Lockheed Martin"
+   ],
+   "answer": 3,
+   "explanation": "The F-35 associated with Tarang Shakti-2026 is identified with Lockheed Martin. Boeing is associated with the Apache aircraft used in Rudra Raptors, while JASDF and the Indian Coast Guard are organisations rather than the manufacturer named for the F-35.",
+   "facts": [
+    "P7.F20"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004#13",
+   "format": "List-Matching",
+   "keyword": "Exercise-specific details",
+   "question": "Match the exercises in List-I with the corresponding details in List-II.\n\nList-I\n a. Rudra Raptors\n b. ReSAREX-26\n c. CSC Table Top Exercise\n d. Eager Lion\n\nList-II\n i. Colombo secretariat\n ii. Began on September 15\n iii. Apache by Boeing\n iv. Indian Coast Guard as the nodal agency for maritime search and rescue",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer": 2,
+   "explanation": "The correct pairs are Rudra Raptors–Apache by Boeing, ReSAREX-26–Indian Coast Guard as the nodal maritime search-and-rescue agency, CSC Table Top Exercise–Colombo secretariat, and Eager Lion–began on September 15. Hence, the correct code is a-iii, b-iv, c-i, d-ii.",
+   "facts": [
+    "P7.F21",
+    "P7.F22",
+    "P7.F23",
+    "P7.F24"
+   ]
+  },
+  {
+   "id": "2026-09/06/d004r2#0",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Exercise-associated military units",
+   "question": "With reference to Exercise Rudra Raptors, consider the following statements:\n1. Apache helicopters were associated with the Thar Raptors.\n2. The Black Mace Brigade was associated with the exercise.\n3. The exercise was conducted by the Indian Navy.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "2 and 3 only",
+    "1 and 2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 2 are correct: Apache helicopters were associated with the Thar Raptors, and the Black Mace Brigade was associated with Exercise Rudra Raptors. Statement 3 is incorrect because Rudra Raptors was an Indian Army exercise, not an Indian Navy exercise.",
+   "facts": [
+    "P7.F9"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#0",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Trainer aircraft development",
+   "question": "Consider the following statements about HAL's HTT-40 basic trainer, named “Ankur”:\nStatement A: The first 2 aircraft were delivered out of an order for 70.\nStatement B: The HTT-40 has a pressurised cockpit and is intended to replace ageing trainers.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 3,
+   "explanation": "Statement A is false because the first 3 HTT-40 aircraft were delivered out of 70. Statement B is true: the HTT-40 has a pressurised cockpit and replaces ageing trainers.",
+   "facts": [
+    "P8.F1",
+    "P8.F33"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#1",
+   "format": "Direct Recall",
+   "keyword": "Defence technology acronym",
+   "question": "In the DRDO technology-development context, what does SHIELD stand for?",
+   "options": [
+    "Satellite High-Intensity Electronic Launch and Defence",
+    "S-band High-Power Microwave Integrated Evaluation for Lethality and Damage",
+    "Strategic High-Energy Infrared Laser for Detection",
+    "S-band Hypersonic Integrated Electronic Launch Device"
+   ],
+   "answer": 1,
+   "explanation": "SHIELD stands for S-band High-Power Microwave Integrated Evaluation for Lethality and Damage. It is being developed under the Technology Development Fund.",
+   "facts": [
+    "P8.F2"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#2",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Directed-energy and underwater systems",
+   "question": "Consider the following statements about the 30-kW laser directed-energy weapon and the MP-AUV:\n1. The laser system has downed a fixed-wing drone and multiple drones.\n2. The laser trials were conducted at NOAR, Kurnool, in April 2025.\n3. The MP-AUV detects mines and underwater threats through radar.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "Statements 1 and 2 are correct: the 30-kW laser has downed fixed-wing and multiple drones, and its trials were held at NOAR, Kurnool, in April 2025. Statement 3 is incorrect because the MP-AUV uses sonar, not radar, to detect mines and underwater threats.",
+   "facts": [
+    "P8.F3",
+    "P8.F27",
+    "P8.F28"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#3",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Long-range glide bomb",
+   "question": "Which of the following statements about Khagantak-243 is incorrect?",
+   "options": [
+    "It is a long-range glide bomb.",
+    "It was developed by JSR Dynamics.",
+    "It is a satellite-guided anti-airfield weapon developed by BDL.",
+    "It underwent an Indian Air Force drop test."
+   ],
+   "answer": 2,
+   "explanation": "The incorrect statement is that Khagantak-243 is a satellite-guided anti-airfield weapon developed by BDL. The fact identifies it as a long-range glide bomb by JSR Dynamics that underwent an IAF drop test.",
+   "facts": [
+    "P8.F6"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#4",
+   "format": "Count-Based",
+   "keyword": "Quantum technology and deep-tech project",
+   "question": "How many of the following statements about the Zero mK India project are correct?\n1. It is the first high-value deep-tech project under the Technology Development Fund.\n2. It involves a 20 mK dilution refrigerator.\n3. The refrigerator operates at 2 mK, or 0.002 K.\n4. The project is intended for radar-based air-defence applications.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 1,
+   "explanation": "Exactly two statements are correct: Zero mK India is the first high-value deep-tech TDF project and involves a 20 mK, or 0.020 K, dilution refrigerator for quantum computing. The 2 mK figure and radar application are incorrect.",
+   "facts": [
+    "P8.F7",
+    "P8.F30"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#5",
+   "format": "Direct Recall",
+   "keyword": "Defence contract and weapon",
+   "question": "The SAT-SAAW contract with Bharat Dynamics Limited relates to which of the following?",
+   "options": [
+    "160 loitering munitions under a ₹50 crore contract",
+    "100 Javelin missiles under a USD 45.7 million package",
+    "70 HTT-40 trainers under a ₹810 crore contract",
+    "160 Satellite Smart Anti-Airfield Weapons under a ₹810 crore contract"
+   ],
+   "answer": 3,
+   "explanation": "SAT-SAAW is covered by a ₹810 crore contract with BDL for 160 Satellite Smart Anti-Airfield Weapons. The weapon is DRDO-designed and intended for use against runways and airfields.",
+   "facts": [
+    "P8.F8",
+    "P8.F29"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#8",
+   "format": "Direct Recall",
+   "keyword": "Defence vision acronym",
+   "question": "The Indian Army's SAMARTH vision includes which of the following expansions?",
+   "options": [
+    "Security, Armament, Maritime Action, Readiness, Technology and Human Resources",
+    "Strategic Air Mobility and Rapid Tactical Handling, Acceleration, Reconnaissance, Training",
+    "Sustainability, Adaptation, Modernisation and Mission Readiness, Acceleration, Resilience, Technology, Human–Machine Teaming",
+    "Sustainable Ammunition Management and Rapid Transport for Humanitarian Operations"
+   ],
+   "answer": 2,
+   "explanation": "SAMARTH expands to Sustainability, Adaptation, Modernisation and Mission Readiness, Acceleration, Resilience, Technology and Human–Machine Teaming. Its technology focus includes AI, drones and robotics.",
+   "facts": [
+    "P8.F11"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#9",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "AK-203 ammunition and rifle programme",
+   "question": "Which of the following statements regarding the AK-203 ammunition arrangement is incorrect?",
+   "options": [
+    "The AK-47 was adopted in 1959.",
+    "The ammunition is for 7.62×39 mm rounds.",
+    "The rifle contract for 6,01,427 rifles was signed on December 6, 2021.",
+    "Adani Defence entered a 5-year deal with Indo-Russian Rifles at Korwa, Amethi."
+   ],
+   "answer": 0,
+   "explanation": "The incorrect detail is the year 1959; the AK-47 was adopted in 1949. The other statements describe the Adani Defence deal, the 7.62×39 mm rounds and the 6,01,427-rifle contract.",
+   "facts": [
+    "P8.F12",
+    "P8.F31"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#10",
+   "format": "Direct Recall",
+   "keyword": "Bulletproof-glass project",
+   "question": "The DRDO–CSIR-CGCRI project for lightweight bulletproof glass involves which combination?",
+   "options": [
+    "₹1.10 lakh crore for 4 years, with NPOL in Kochi",
+    "₹810 crore for 5 years, with BEL in Hyderabad",
+    "₹50 crore for 4 years, with CSIR-CGCRI in Kolkata",
+    "₹50 crore for 10 years, with MIL in Pune"
+   ],
+   "answer": 2,
+   "explanation": "The project is valued at ₹50 crore and has a duration of 4 years. CSIR-CGCRI in Kolkata is the institution associated with the lightweight bulletproof-glass project.",
+   "facts": [
+    "P8.F14"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#11",
+   "format": "List-Matching",
+   "keyword": "Loitering-munition MoU",
+   "question": "Match the elements of the Drogo Aerospace–MIL agreement:\n\nList-I\n(a) Indian private company\n(b) Partner organisation\n(c) Place of signing\n(d) MIL's origin\n\nList-II\n(i) Pune\n(ii) Drogo Aerospace\n(iii) Set up in 2021 from OFB\n(iv) MIL",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer": 3,
+   "explanation": "The correct pairs are Drogo Aerospace, MIL, Pune and MIL's establishment in 2021 from OFB. Their MoU concerns loitering munitions known as “Delta Wing Kamikaze”; it was signed by Yashwanth Bonthu and Kumar Vaibhav Gaur.",
+   "facts": [
+    "P8.F15",
+    "P8.F26"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#12",
+   "format": "Direct Recall",
+   "keyword": "Javelin production partnership",
+   "question": "The TASL–Javelin joint venture MoU concerns final assembly in India of which weapon?",
+   "options": [
+    "Khagantak-243",
+    "SAT-SAAW",
+    "FGM-148 Javelin",
+    "AK-203"
+   ],
+   "answer": 2,
+   "explanation": "The MoU concerns final assembly in India of the FGM-148 Javelin. The joint venture is between Lockheed Martin and RTX.",
+   "facts": [
+    "P8.F16"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#13",
+   "format": "Assertion-Reason",
+   "keyword": "GCAP partnership status",
+   "question": "Assertion (A): India received “Dialogue Partner” status in the Global Combat Air Programme in August 2026.\nReason (R): GCAP is a sixth-generation fighter programme involving the UK, Japan and Italy.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 1,
+   "explanation": "Both the Assertion and the Reason are true. However, the composition and sixth-generation character of GCAP do not explain the specific decision to grant India Dialogue Partner status.",
+   "facts": [
+    "P8.F17"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#14",
+   "format": "Statement-Based (A/B)",
+   "keyword": "GCAP and AMCA distinction",
+   "question": "Consider the following statements about India's position regarding GCAP:\nStatement A: India became a member and co-developer of GCAP in August 2026.\nStatement B: India continues its own AMCA programme, which is a fifth-generation fighter programme.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 3,
+   "explanation": "Statement A is false because India received Dialogue Partner status and did not become a member or co-developer. Statement B is true because India continues its own fifth-generation AMCA programme.",
+   "facts": [
+    "P8.F17",
+    "P8.F23"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#15",
+   "format": "Count-Based",
+   "keyword": "DAC procurement approvals",
+   "question": "The Defence Acquisition Council approved proposals worth about ₹1.10 lakh crore, with approximately 98% domestic content. How many of the following areas were included in the approvals?\n1. CBRN reconnaissance vehicles\n2. Navy Arudhra radars\n3. High Mobility Vehicles and automated mine-laying systems\n4. Submarine-launched ballistic missiles",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 2,
+   "explanation": "Exactly three listed areas were included: CBRN reconnaissance vehicles, Arudhra radars, and High Mobility Vehicles with automated mine-laying systems. Submarine-launched ballistic missiles were not among the listed approvals; other approvals included trawl tanks and Navy marine gas turbines.",
+   "facts": [
+    "P8.F18",
+    "P8.F24"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#16",
+   "format": "List-Matching",
+   "keyword": "Dronathon 2026",
+   "question": "Match the features of IAF Dronathon-2026:\n\nList-I\n(a) Venue\n(b) Dates\n(c) Participation\n(d) Chief of Air Staff associated with the event\n\nList-II\n(i) September 14–16, 2026\n(ii) Pokhran\n(iii) More than 20 firms, including start-ups, MSMEs and DPSUs\n(iv) Air Chief Marshal Amar Preet Singh",
+   "options": [
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer": 1,
+   "explanation": "The correct pairs are Pokhran, September 14–16, more than 20 participating firms, and Air Chief Marshal Amar Preet Singh. Dronathon-2026 was the first edition and was opened by VCAS Ashutosh Dixit.",
+   "facts": [
+    "P8.F19",
+    "P8.F25"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005#17",
+   "format": "List-Matching",
+   "keyword": "Defence exercises and procurement package",
+   "question": "Match the following defence developments with their correct details:\n\nList-I\n(a) 43rd ICG Commanders' Conference\n(b) Eager Lion-2026\n(c) Javelin package\n(d) TASL headquarters\n\nList-II\n(i) Fort Carson, Colorado, and the first time hosted in the USA\n(ii) New Delhi, September 17–19, 2026\n(iii) Hyderabad\n(iv) USD 45.7 million package comprising 100 missiles, 1 Fly-to-Buy and 25 Lightweight Command Launch Units",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer": 0,
+   "explanation": "The correct pairs are the ICG conference—New Delhi, September 17–19; Eager Lion—Fort Carson and its first US hosting; the Javelin package—USD 45.7 million with 100 missiles, 1 Fly-to-Buy and 25 launch units; and TASL—Hyderabad. Eager Lion-2026 was the 12th US–Jordan edition.",
+   "facts": [
+    "P8.F20",
+    "P8.F21",
+    "P8.F22"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005r2#0",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Defence diplomacy document",
+   "question": "With reference to RAKSHA, the 10-year Defence Diplomacy Action Document released in September 2026, consider the following statements:\n1. RAKSHA was released by Rajnath Singh on September 3, 2026.\n2. RAKSHA is a 8-year Defence Diplomacy Action Document.\n3. Its maritime-security framework is linked to DAP-2015.",
+   "options": [
+    "2 only",
+    "1 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statement 1 is correct: RAKSHA was released by Rajnath Singh on September 3, 2026. Statement 2 is incorrect because RAKSHA is a 10-year document, while Statement 3 is incorrect because the relevant framework is DAP-2020, not DAP-2015.",
+   "facts": [
+    "P8.F9",
+    "P8.F32"
+   ]
+  },
+  {
+   "id": "2026-09/06/d005r2#1",
+   "format": "List-Matching",
+   "keyword": "Establishment year and headquarters",
+   "question": "Match the following defence organisations with the corresponding details:\n\nList-I\n(a) HAL\n(b) BDL\n(c) DRDO\n(d) IAF\n\nList-II\n(i) Established on January 1, 1958\n(ii) Established in 1940 at Bengaluru\n(iii) Established on October 8, 1932\n(iv) Established in 1970 at Hyderabad\n\nCodes:\n(a) (b) (c) (d)",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer": 0,
+   "explanation": "The correct pairs are HAL–1940 at Bengaluru, BDL–1970 at Hyderabad, DRDO–January 1, 1958, and IAF–October 8, 1932. Therefore, the correct code is a-ii, b-iv, c-i, d-iii; the other codes interchange the organisations’ establishment details.",
+   "facts": [
+    "P8.F10"
+   ]
+  },
+  {
+   "id": "2026-09/06/d006#0",
+   "format": "Direct Recall",
+   "keyword": "Decommissioning place",
+   "question": "At which place was ICGS Savitribai Phule decommissioned after about 20 years of service?",
+   "options": [
+    "Karwar",
+    "Mumbai",
+    "Okha",
+    "Chennai"
+   ],
+   "answer": 0,
+   "explanation": "ICGS Savitribai Phule was decommissioned at Karwar after about 20 years of service. Mumbai was the decommissioning place of ICGS Subhadra Kumari Chauhan, while Okha was associated with ICGS Meera Behn.",
+   "facts": [
+    "P10.F1"
+   ]
+  },
+  {
+   "id": "2026-09/06/d006#1",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ship identity and namesake",
+   "question": "Consider the following statements:\nStatement A: ICGS Subhadra Kumari Chauhan was decommissioned at Mumbai on August 27, 2026.\nStatement B: The name Meera Behn refers to the poet who wrote “Jhansi Ki Rani”.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 2,
+   "explanation": "Statement A is true: ICGS Subhadra Kumari Chauhan was decommissioned at Mumbai on August 27, 2026. Statement B is false because Meera Behn refers to Madeleine Slade; “Jhansi Ki Rani” was written by Subhadra Kumari Chauhan.",
+   "facts": [
+    "P10.F3",
+    "P10.F4"
+   ]
+  },
+  {
+   "id": "2026-09/06/d006#2",
+   "format": "Multi-Statement Correctness",
+   "keyword": "SAR record and legal basis",
+   "question": "Consider the following statements about the Indian Coast Guard and ICGS Savitribai Phule:\n1. ICGS Savitribai Phule saved 71 lives in search-and-rescue operations.\n2. The Indian Coast Guard has its legal basis in the Coast Guard Act, 1978.\n3. ICGS Savitribai Phule saved 70 lives in search-and-rescue operations.",
+   "options": [
+    "2 and 3 only",
+    "1 and 2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 2 are correct: Savitribai Phule saved 71 lives in SAR operations, and the Coast Guard’s legal basis is the Coast Guard Act, 1978. Statement 3 is incorrect because the reported number was 71, not 70.",
+   "facts": [
+    "P10.F5",
+    "P10.F7"
+   ]
+  },
+  {
+   "id": "2026-09/06/d006#4",
+   "format": "List-Matching",
+   "keyword": "Instruments, stations, namesake and cosmic composition",
+   "question": "Match List-I with List-II in the context of the Nancy Grace Roman Space Telescope and related astronomy facts.\n\nList-I\n a. Wide Field Instrument\n b. Ground stations\n c. Nancy Grace Roman\n d. Dark energy\n\nList-II\n i. 68%\n ii. NASA’s first Chief Astronomer\n iii. New Mexico, Australia and Japan\n iv. 300-megapixel infrared camera",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer": 3,
+   "explanation": "The correct pairs are a-iv, b-iii, c-ii and d-i. The Wide Field Instrument has a 300-megapixel infrared camera; the ground stations are in New Mexico, Australia and Japan; Nancy Grace Roman was NASA’s first Chief Astronomer; and dark energy accounts for 68%.",
+   "facts": [
+    "P11.F4",
+    "P11.F6",
+    "P11.F7",
+    "P11.F8"
+   ]
+  },
+  {
+   "id": "2026-09/06/d006#5",
+   "format": "Direct Recall",
+   "keyword": "Related space missions",
+   "question": "Which statement correctly describes the James Webb Space Telescope in comparison with Hubble?",
+   "options": [
+    "JWST was launched in 2021 and is also at Sun–Earth L2",
+    "JWST has operated since 1990 and Hubble was launched in 2021",
+    "Hubble was launched in 2021 and is also at Sun–Earth L2",
+    "Hubble and JWST were both launched in 1990"
+   ],
+   "answer": 0,
+   "explanation": "The James Webb Space Telescope was launched in 2021 and is also located at Sun–Earth L2. Hubble has operated since 1990, so the options reversing their dates or locations are incorrect.",
+   "facts": [
+    "P11.F9"
+   ]
+  },
+  {
+   "id": "2026-09/06/d006#6",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Material properties and safety",
+   "question": "Which of the following statements about BAM-H24 is incorrect?",
+   "options": [
+    "It is a boron-, hydrogen- and nitrogen-rich compound.",
+    "It has high chemical and thermal stability.",
+    "It resists friction and is safer than conventional high-energy materials.",
+    "It is a boron-, hydrogen- and oxygen-rich compound."
+   ],
+   "answer": 3,
+   "explanation": "The incorrect statement is that BAM-H24 is boron-, hydrogen- and oxygen-rich; the changed element is oxygen, whereas the correct element is nitrogen. Its high stability, friction resistance and improved safety are reported properties.",
+   "facts": [
+    "P12.F3"
+   ]
+  },
+  {
+   "id": "2026-09/06/d006#7",
+   "format": "Count-Based",
+   "keyword": "Solid propellant and DRDO",
+   "question": "How many of the following statements are correct?\n1. A solid propellant consists of fuel and oxidiser in a solid mixture.\n2. Solid propellants are associated with short storage and slow readiness.\n3. DRDO was established in 1958.\n4. DRDO functions under the Ministry of Space.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 1,
+   "explanation": "Only two statements are correct: statements 1 and 3. Solid propellants support long storage and rapid readiness, not short storage and slow readiness, while DRDO functions under the Department of Defence Research and Development, Ministry of Defence, not the Ministry of Space.",
+   "facts": [
+    "P12.F6",
+    "P12.F7"
+   ]
+  },
+  {
+   "id": "2026-09/06/d006#8",
+   "format": "Direct Recall",
+   "keyword": "Facility and activity",
+   "question": "What did IIT Madras-incubated Agnikul Cosmos open at its Chennai research campus?",
+   "options": [
+    "Facilities to recover, recycle, test and reuse components of launched rockets",
+    "Facilities only to manufacture liquid-hydrogen engines",
+    "Facilities to launch satellites from Australia",
+    "Facilities to decommission Coast Guard ships"
+   ],
+   "answer": 0,
+   "explanation": "Agnikul Cosmos opened facilities at its Chennai research campus to recover, recycle, test and reuse components of launched rockets. The other options introduce activities or locations not associated with this facility.",
+   "facts": [
+    "P13.F1"
+   ]
+  },
+  {
+   "id": "2026-09/06/d006#9",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Company background and engine technology",
+   "question": "Consider the following statements:\nStatement A: Agnikul Cosmos was established in 2017 and developed the small-satellite launcher Agnibaan.\nStatement B: A semi-cryogenic engine uses liquid hydrogen and liquid oxygen.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 2,
+   "explanation": "Statement A is true: Agnikul Cosmos was established in 2017 and is associated with the small-satellite launcher Agnibaan. Statement B is false because a semi-cryogenic engine uses refined hydrocarbon fuel and liquid oxygen; liquid hydrogen with liquid oxygen describes a cryogenic engine.",
+   "facts": [
+    "P13.F5",
+    "P13.F6"
+   ]
+  },
+  {
+   "id": "2026-09/06/d006#10",
+   "format": "Direct Recall",
+   "keyword": "Reusable launch vehicle",
+   "question": "What distinguishes a reusable launch vehicle from a vehicle built for one-time use?",
+   "options": [
+    "It uses only liquid hydrogen and liquid oxygen",
+    "It recovers and reuses major components instead of building a new vehicle for every launch",
+    "It operates only from Chennai research campuses",
+    "It replaces solid propellant with a new fuel after every launch"
+   ],
+   "answer": 1,
+   "explanation": "A reusable launch vehicle recovers and reuses major components instead of building a new vehicle for each launch. The other options confuse reusability with cryogenic propulsion, a research location or propellant replacement.",
+   "facts": [
+    "P13.F7"
+   ]
+  },
+  {
+   "id": "2026-09/06/d006#11",
+   "format": "Direct Recall",
+   "keyword": "Project objective",
+   "question": "What is Google’s Project Suncatcher intended to examine?",
+   "options": [
+    "The composition of dark energy",
+    "The decommissioning of Coast Guard ships",
+    "The recycling of launched rocket components in Chennai",
+    "The feasibility of AI computing infrastructure in space"
+   ],
+   "answer": 3,
+   "explanation": "Google’s Project Suncatcher examines the feasibility of AI computing infrastructure in space. Rocket-component recycling belongs to Agnikul Cosmos, while Coast Guard decommissioning and dark-energy composition are separate subjects.",
+   "facts": [
+    "P14.F1"
+   ]
+  },
+  {
+   "id": "2026-09/06/d006#13",
+   "format": "Assertion-Reason",
+   "keyword": "TPU function",
+   "question": "Assertion (A): Project Suncatcher will test Google’s Tensor Processing Units in the space environment.\nReason (R): A TPU is a liquid-fuel rocket engine designed for orbital launches.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 2,
+   "explanation": "The assertion is true: Project Suncatcher will test Google’s TPUs in space. The reason is false because a TPU is a Google-developed application-specific integrated circuit used to speed tensor and matrix computations in AI and machine learning, not a liquid-fuel rocket engine.",
+   "facts": [
+    "P14.F3",
+    "P14.F4"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#0",
+   "format": "Direct Recall",
+   "keyword": "Launch vehicle and collaboration",
+   "question": "The TRISHNA mission, being jointly developed by ISRO and France's CNES, is scheduled to be launched on which vehicle?",
+   "options": [
+    "PSLV",
+    "GSLV",
+    "LVM3",
+    "Ariane 6"
+   ],
+   "answer": 0,
+   "explanation": "TRISHNA is a joint ISRO–CNES mission scheduled for launch on the PSLV. The other vehicles are not identified as the launch vehicle for this mission.",
+   "facts": [
+    "P15.F2"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#1",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Mission applications and institutional background",
+   "question": "With reference to TRISHNA and the institutions associated with it, consider the following statements:\n1. TRISHNA will support the assessment of water stress and use, urban heat islands and geothermal resources.\n2. ISRO was established in 1969 at Bengaluru, and its Chairman is V. Narayanan.\n3. CNES was established in 1961, is headquartered in Paris, and is headed by Lionel Suchet.\nWhich of the statements given above is correct?",
+   "options": [
+    "Exactly one statement is correct",
+    "All three statements are correct",
+    "Exactly two statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer": 1,
+   "explanation": "All three statements are correct: TRISHNA has the listed applications, ISRO dates to 1969 and is based in Bengaluru with V. Narayanan as Chairman, and CNES dates to 1961 with its headquarters in Paris and Lionel Suchet as head. Therefore, the option stating that all three are correct is the answer.",
+   "facts": [
+    "P15.F4",
+    "P15.F6",
+    "P15.F7"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#2",
+   "format": "Direct Recall",
+   "keyword": "Company and innovation",
+   "question": "In the India–France space-industry agreements, which Indian company partnered with France's RIDE! for launch services for two satellites?",
+   "options": [
+    "AXISCADES",
+    "Dhruva Space",
+    "TakeMe2Space",
+    "GalaxEye"
+   ],
+   "answer": 2,
+   "explanation": "TakeMe2Space partnered with RIDE! for launch services for two satellites. Dhruva Space and AXISCADES were associated with other agreements, while GalaxEye was not identified in this arrangement.",
+   "facts": [
+    "P16.F2"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#3",
+   "format": "Assertion-Reason",
+   "keyword": "Participation in Chandrayaan-3",
+   "question": "Assertion (A): Safran also participated in Chandrayaan-3.\nReason (R): Safran was the French partner of AXISCADES in an agreement on India's microsatellite market.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 2,
+   "explanation": "The Assertion is true because Safran also took part in Chandrayaan-3. The Reason is false: AXISCADES partnered with U-Space, whereas Safran was associated with Dhruva Space in the other agreement.",
+   "facts": [
+    "P16.F4",
+    "P16.F3"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#4",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Bilateral space cooperation background",
+   "question": "Consider the following statements:\nStatement A: The agreements followed Emmanuel Macron's India visit in February 2026.\nStatement B: India–France space ties began in the 1970s and concern only civilian satellites.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 2,
+   "explanation": "Statement A is true: the agreements followed Emmanuel Macron's India visit in February 2026. Statement B is false because India–France space ties date from the 1960s and also include human spaceflight, besides civilian satellites.",
+   "facts": [
+    "P16.F5",
+    "P16.F6"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#5",
+   "format": "Direct Recall",
+   "keyword": "Signatories",
+   "question": "The extension of the ISRO–ESA cooperation agreement was signed by which pair of officials?",
+   "options": [
+    "Josef Aschbacher and Emmanuel Macron",
+    "V. Narayanan and Lionel Suchet",
+    "Dr. V. Narayanan and Josef Aschbacher",
+    "V. Narayanan and Safran's chief executive"
+   ],
+   "answer": 2,
+   "explanation": "The extension was signed by ISRO Chairman Dr. V. Narayanan and ESA Director General Josef Aschbacher. Lionel Suchet is associated with CNES, not ESA, and the other pairs do not represent the signatories.",
+   "facts": [
+    "P17.F2"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#6",
+   "format": "List-Matching",
+   "keyword": "Agreement scope and ESA profile",
+   "question": "Match List-I with List-II regarding the ISRO–ESA cooperation arrangement and ESA.\n\nList-I\n(a) Areas covered by the agreement\n(b) Establishment of ESA\n(c) Headquarters of ESA\n(d) Institutional character of ESA\n\nList-II\n(i) Paris\n(ii) 1975\n(iii) Intergovernmental space organisation\n(iv) Human and robotic exploration, space weather and sustainable outer-space activities\n\nSelect the correct answer using the code below:",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-iii, b-ii, c-i, d-iv"
+   ],
+   "answer": 1,
+   "explanation": "The correct pairs are a-iv, b-ii, c-i and d-iii. The agreement covers human and robotic exploration, space weather and sustainable outer-space activities; ESA was established in 1975, is headquartered in Paris and is an intergovernmental space organisation.",
+   "facts": [
+    "P17.F4",
+    "P17.F5"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#7",
+   "format": "Direct Recall",
+   "keyword": "Applications of satellite imaging",
+   "question": "The Optical Synthetic Aperture Radar imaging system of GalaxEye is intended for which of the following applications?",
+   "options": [
+    "National security, agriculture and disaster management",
+    "Only weather forecasting and astronomical observation",
+    "Deep-sea mining and human spaceflight alone",
+    "Nuclear power generation and vaccine development"
+   ],
+   "answer": 0,
+   "explanation": "GalaxEye's imaging system has applications including national security, agriculture, infrastructure, insurance, maritime surveillance and disaster management. The other combinations do not represent the listed uses.",
+   "facts": [
+    "P18.F4"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#8",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Start-up and SAR technology",
+   "question": "Consider the following statements:\nStatement A: GalaxEye was established in 2022 in Bengaluru.\nStatement B: Synthetic Aperture Radar is a passive remote-sensing system that cannot operate through clouds or at night.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 1,
+   "explanation": "Both statements are false. GalaxEye was established in 2021 in Bengaluru, while SAR is active remote sensing that sends microwave signals, records echoes and works through clouds and at night.",
+   "facts": [
+    "P18.F5",
+    "P18.F6"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#9",
+   "format": "Direct Recall",
+   "keyword": "Djibouti profile",
+   "question": "Which currency is associated with Djibouti, the country located near Bab el-Mandeb?",
+   "options": [
+    "Ethiopian birr",
+    "African CFA franc",
+    "Djiboutian Franc",
+    "Riyal"
+   ],
+   "answer": 2,
+   "explanation": "Djibouti's currency is the Djiboutian Franc, and the country is near Bab el-Mandeb. The other currencies are not identified as Djibouti's currency.",
+   "facts": [
+    "P19.F3"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#10",
+   "format": "Direct Recall",
+   "keyword": "BRICS membership",
+   "question": "Which of the following correctly represents the recent BRICS membership listed for September 2026?",
+   "options": [
+    "Comoros, Timor-Leste, Türkiye, Djibouti, Egypt and Iran",
+    "Finland, Sweden, Egypt, Ethiopia, Iran and Indonesia",
+    "South Sudan, Israel, Colombia, Uzbekistan, Egypt and UAE",
+    "Egypt, Ethiopia, Iran, Saudi Arabia, UAE and Indonesia"
+   ],
+   "answer": 3,
+   "explanation": "The listed recent BRICS members are Egypt, Ethiopia, Iran, Saudi Arabia, UAE and Indonesia. The other options combine countries associated with different organisations or membership entries.",
+   "facts": [
+    "P19.F5"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#11",
+   "format": "Direct Recall",
+   "keyword": "NAM membership",
+   "question": "South Sudan was listed as which numbered member of the Non-Aligned Movement (NAM)?",
+   "options": [
+    "121st",
+    "119th",
+    "165th",
+    "69th"
+   ],
+   "answer": 0,
+   "explanation": "South Sudan was listed as the 121st member of NAM. The other numbers belong to different membership entries or are not the stated position of South Sudan.",
+   "facts": [
+    "P19.F7"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#12",
+   "format": "List-Matching",
+   "keyword": "ADB and NDB membership",
+   "question": "Match the organisation with the corresponding recent-membership detail.\n\nList-I\n(a) ADB\n(b) NDB\n\nList-II\n(i) Israel — 69th member\n(ii) 11 members, including Colombia and Uzbekistan\n\nSelect the correct answer using the code below:",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-i, b-i",
+    "a-ii, b-ii"
+   ],
+   "answer": 0,
+   "explanation": "ADB's listed recent membership was Israel as its 69th member, while the NDB entry referred to 11 members including Colombia and Uzbekistan. Hence, the correct matching is a-i, b-ii.",
+   "facts": [
+    "P19.F9",
+    "P19.F10"
+   ]
+  },
+  {
+   "id": "2026-09/06/d007#13",
+   "format": "Count-Based",
+   "keyword": "WTO and Artemis Accords memberships",
+   "question": "How many of the following statements are correct?\n1. Comoros became the WTO's 165th member.\n2. Timor-Leste became the WTO's 165th member.\n3. Türkiye became the 71st signatory to the Artemis Accords.\n4. Djibouti became the 71st signatory to the Artemis Accords.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 3 are correct: Comoros was the WTO's 165th member and Türkiye was the 71st Artemis Accords signatory. Timor-Leste was the 166th WTO member, while Djibouti was the 72nd Artemis Accords signatory, so exactly two statements are correct.",
+   "facts": [
+    "P19.F11",
+    "P19.F12"
+   ]
+  },
+  {
+   "id": "2026-09/06/d008#0",
+   "format": "Direct Recall",
+   "keyword": "Definition of protoplanetary disk",
+   "question": "What is a protoplanetary disk in the context of planet formation?",
+   "options": [
+    "A group of fully formed planets orbiting an old star",
+    "Gas, dust and debris around a young star where planets form",
+    "A cloud composed only of hydrogen around a galaxy",
+    "A solid ring of asteroids beyond a planet"
+   ],
+   "answer": 1,
+   "explanation": "A protoplanetary disk is made up of gas, dust and debris surrounding a young star where planets form. It is not a system of fully formed planets or a purely gaseous cloud.",
+   "facts": [
+    "P20.F4"
+   ]
+  },
+  {
+   "id": "2026-09/06/d008#1",
+   "format": "Direct Recall",
+   "keyword": "Stage of planet formation",
+   "question": "What feature of Elias 2-24 b indicates that it is at an early stage of planet formation?",
+   "options": [
+    "It sits in a gap of the protoplanetary disk and is still accreting gas and dust",
+    "It has stopped orbiting its young star",
+    "It is located outside the protoplanetary disk and contains no gas",
+    "It is a fully formed rocky body with no surrounding material"
+   ],
+   "answer": 0,
+   "explanation": "Elias 2-24 b sits in a gap of the protoplanetary disk and is still accreting gas and dust, indicating the earliest stage of planet formation. The other options contradict its continuing accretion.",
+   "facts": [
+    "P20.F3"
+   ]
+  },
+  {
+   "id": "2026-09/06/d008#2",
+   "format": "Direct Recall",
+   "keyword": "Indigenous cattle characteristics",
+   "question": "Which description best applies to the Badri cattle of Uttarakhand?",
+   "options": [
+    "Small, hardy indigenous hill cattle adapted to the Himalayas and having State Animal status",
+    "Large camelid animals adapted to desert conditions",
+    "Small cattle introduced from Denmark for laboratory research",
+    "Crossbred dairy cattle developed only for plains agriculture"
+   ],
+   "answer": 0,
+   "explanation": "Badri cattle are small, hardy indigenous hill cattle of Uttarakhand, adapted to the Himalayas and recognised as the State Animal. The other descriptions do not apply to the Badri breed.",
+   "facts": [
+    "P21.F2"
+   ]
+  },
+  {
+   "id": "2026-09/06/d008#3",
+   "format": "Direct Recall",
+   "keyword": "HQ of ICAR–NDRI",
+   "question": "Where is the headquarters of the ICAR–National Dairy Research Institute located?",
+   "options": [
+    "Hyderabad",
+    "Bengaluru",
+    "New Delhi",
+    "Karnal, Haryana"
+   ],
+   "answer": 3,
+   "explanation": "The ICAR–National Dairy Research Institute was established in 1923 and has its headquarters at Karnal, Haryana. Bengaluru, New Delhi and Hyderabad are associated with other institutions or organisations in the relevant scientific developments.",
+   "facts": [
+    "P21.F4"
+   ]
+  },
+  {
+   "id": "2026-09/06/d008#4",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Coding and non-coding DNA",
+   "question": "With reference to the AlphaGenome Atlas, consider the following statements:\nStatement A: Non-coding DNA accounts for approximately 80% of the human genome.\nStatement B: The human genome has approximately 3 billion base pairs, and single-letter mutations are also called point mutations or Single-Nucleotide Variants.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 3,
+   "explanation": "Statement A is false because non-coding DNA accounts for approximately 98% of the genome. Statement B is true: the human genome has approximately 3 billion base pairs, and single-letter mutations are point mutations or Single-Nucleotide Variants.",
+   "facts": [
+    "P22.F3",
+    "P22.F4"
+   ]
+  },
+  {
+   "id": "2026-09/06/d008#5",
+   "format": "Assertion-Reason",
+   "keyword": "Significance of DNA strand binding",
+   "question": "Assertion (A): Directly observed binding between negatively charged DNA double strands is relevant to genetic recombination, gene silencing and chromosome packaging.\nReason (R): The double-helix model was proposed by Watson and Crick in 1909.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 2,
+   "explanation": "Assertion A is true because DNA-strand binding has implications for genetic recombination, gene silencing and chromosome packaging. Reason R is false: Watson and Crick proposed the double-helix model in 1953, not 1909.",
+   "facts": [
+    "P23.F3",
+    "P23.F4"
+   ]
+  },
+  {
+   "id": "2026-09/06/d008#6",
+   "format": "Direct Recall",
+   "keyword": "Institutional background",
+   "question": "Which statement correctly describes the Indian Institute of Science (IISc) in the context of the recombinant antivenom research?",
+   "options": [
+    "It was established in 1974 as a Central University in Hyderabad",
+    "It was established in 1923 in Karnal, Haryana",
+    "It was established in 1909 in Bengaluru and is an Institute of Eminence",
+    "It was established in 1984 in New Delhi under the Department of Telecommunications"
+   ],
+   "answer": 2,
+   "explanation": "IISc was established in 1909 in Bengaluru and is an Institute of Eminence. The other options describe the backgrounds or locations of ICAR–NDRI, the University of Hyderabad and C-DOT.",
+   "facts": [
+    "P23.F7"
+   ]
+  },
+  {
+   "id": "2026-09/06/d008#7",
+   "format": "List-Matching",
+   "keyword": "Drought-tolerant rice research details",
+   "question": "Match List-I with List-II regarding the drought-tolerant rice research:\n\nList-I\n a. Dr. M. Muthamilarasan\n b. Central assistance\n c. States receiving free seed for field trials\n d. Scientific name of foxtail millet\n\nList-II\n i. Setaria italica\n ii. Andhra Pradesh, Karnataka, Maharashtra and Tamil Nadu\n iii. Leader of the research\n iv. ₹80 lakh",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer": 1,
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i. Dr. M. Muthamilarasan led the research, the assistance was ₹80 lakh, free seed was provided for trials in Andhra Pradesh, Karnataka, Maharashtra and Tamil Nadu, and foxtail millet is Setaria italica.",
+   "facts": [
+    "P24.F2",
+    "P24.F3",
+    "P24.F4"
+   ]
+  },
+  {
+   "id": "2026-09/06/d008#9",
+   "format": "Count-Based",
+   "keyword": "Officials, institutional background and optical fibre",
+   "question": "Consider the following statements regarding the DoT–C-DOT Optical Network Testbed:\n1. Alok Shukla, Dr. Rajkumar Upadhyay and Atul Kumar Singh are the officials associated with the present arrangement.\n2. C-DOT was established in 1984 in New Delhi and functions under the Department of Telecommunications, Ministry of Communications.\n3. C-DOT functions under the Department of Telecommunications, Ministry of Electronics and Information Technology.\n4. Optical fibre sends data as electrical signals and is characterised by low bandwidth.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 1,
+   "explanation": "Only statements 1 and 2 are correct. The third statement changes the ministry to the Ministry of Electronics and Information Technology; C-DOT is under the Department of Telecommunications, Ministry of Communications. The fourth statement is also incorrect because optical fibre sends data as light and provides high bandwidth.",
+   "facts": [
+    "P25.F4",
+    "P25.F5",
+    "P25.F6"
+   ]
+  },
+  {
+   "id": "2026-09/06/d008r2#0",
+   "format": "Direct Recall",
+   "keyword": "Facility objective",
+   "question": "What is the primary function of the SPROUT facility inaugurated at BRIC–NIPGR in September 2026?",
+   "options": [
+    "Producing recombinant antivenom from selected antibodies",
+    "Testing and commercialising indigenous optical technology",
+    "Analysing human DNA through AI predictions",
+    "Evaluating plant traits for climate-resilient crops through high-throughput phenotyping"
+   ],
+   "answer": 3,
+   "explanation": "SPROUT evaluates plant traits, with a focus on climate-resilient crops and high-throughput phenotyping. Optical technology, human DNA analysis and recombinant antivenom belong to separate scientific developments, not SPROUT.",
+   "facts": [
+    "P24.F6"
+   ]
+  },
+  {
+   "id": "2026-09/06/d008r2#1",
+   "format": "Direct Recall",
+   "keyword": "Organisation and ministry",
+   "question": "BRIC–NIPGR, which hosts the SPROUT facility, functions under which department?",
+   "options": [
+    "University of Hyderabad",
+    "Department of Telecommunications",
+    "Ministry of Communications",
+    "Department of Biotechnology"
+   ],
+   "answer": 3,
+   "explanation": "BRIC–NIPGR stands for Biotechnology Research and Innovation Council–National Institute of Plant Genome Research and functions under the Department of Biotechnology. The Department of Telecommunications and Ministry of Communications are associated with the optical network testbed, while the University of Hyderabad led separate rice research.",
+   "facts": [
+    "P24.F7"
+   ]
+  },
+  {
+   "id": "2026-09/06/d009#0",
+   "format": "Direct Recall",
+   "keyword": "Research collaboration",
+   "question": "Which collaboration developed AI tools for teachers in September 2026?",
+   "options": [
+    "IIT Madras–C-DOT Samgnya and Q-Clairvoyance",
+    "IIT-BHU and the University of Michigan",
+    "IIT Madras and UNESCO MGIEP",
+    "Bodhan AI and AI4Bharat"
+   ],
+   "answer": 2,
+   "explanation": "IIT Madras and UNESCO MGIEP developed AI tools for teachers. The University of Michigan partnership concerned electric mobility research, while Samgnya–Q-Clairvoyance concerned quantum technology.",
+   "facts": [
+    "P26.F3"
+   ]
+  },
+  {
+   "id": "2026-09/06/d009#1",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Digital Public Goods",
+   "question": "Which of the following statements about the Bharat Education AI Stack is correct?\n1. Bodhan AI and AI4Bharat developed four multilingual models—ASR, TTS, MT and OCR—as Digital Public Goods, built with NVIDIA Nemotron, along with a Student Tutor Bot for Classes 6–12 and a Teacher Assistant Bot.\n2. The Bharat Education AI Stack consisted of three multilingual models and was built with NVIDIA Nemotron, with the Student Tutor Bot intended for Classes 1–5.\n3. The four multilingual models were built with Intel Nemotron, while the Student Tutor Bot was intended for Classes 6–12.",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 only",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "Only statement 1 is correct: the stack contains four models—ASR, TTS, MT and OCR—and includes the Student Tutor Bot for Classes 6–12 and a Teacher Assistant Bot. Statement 2 changes four to three and Classes 6–12 to Classes 1–5; statement 3 changes NVIDIA Nemotron to Intel Nemotron.",
+   "facts": [
+    "P26.F4"
+   ]
+  },
+  {
+   "id": "2026-09/06/d009#2",
+   "format": "List-Matching",
+   "keyword": "MoUs and research areas",
+   "question": "Match the institutions or partnerships with their associated development:\n\nList-I\n a. IIT-BHU and the University of Michigan\n b. IIT Madras–C-DOT Samgnya and Q-Clairvoyance\n c. IIT Madras–C-DOT Samgnya\n d. UNESCO MGIEP\n\nList-II\n i. National Hub for Quantum Communication\n ii. AI tools for teachers\n iii. MoU on electric mobility research\n iv. MoU on quantum technology",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer": 2,
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii. IIT-BHU and the University of Michigan signed an electric-mobility MoU; Samgnya and Q-Clairvoyance signed a quantum-technology MoU; Samgnya is the National Hub for Quantum Communication; and UNESCO MGIEP partnered with IIT Madras on AI tools for teachers.",
+   "facts": [
+    "P26.F7",
+    "P26.F8",
+    "P26.F9",
+    "P26.F3"
+   ]
+  },
+  {
+   "id": "2026-09/06/d009#4",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Institutional history",
+   "question": "Consider the following statements:\nStatement A: IIT Madras was established in 1959 with West German aid.\nStatement B: IIT-BHU received IIT status in 2011.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 2,
+   "explanation": "Statement A is true: IIT Madras was established in 1959 with West German aid. Statement B is false because IIT-BHU received IIT status in 2012, not 2011.",
+   "facts": [
+    "P26.F10"
+   ]
+  },
+  {
+   "id": "2026-09/06/d009#5",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Patent and inventor institution",
+   "question": "Which of the following statements about the IIT (ISM) Dhanbad patent is incorrect?",
+   "options": [
+    "The patent is titled “An Electrochemical Reactor for Cathodic Recovery of Copper from Wastewater.”",
+    "The patent concerns the recovery of copper from wastewater.",
+    "Sukumar Mishra is the Director of IIT (ISM) Dhanbad.",
+    "The patent is titled “An Electrochemical Reactor for Cathodic Recovery of Copper from Industrial Sludge.”"
+   ],
+   "answer": 3,
+   "explanation": "The incorrect statement changes “wastewater” to “industrial sludge.” The patent is titled “An Electrochemical Reactor for Cathodic Recovery of Copper from Wastewater,” and Sukumar Mishra is the Director of IIT (ISM) Dhanbad.",
+   "facts": [
+    "P26.F11"
+   ]
+  },
+  {
+   "id": "2026-09/06/d009#6",
+   "format": "Direct Recall",
+   "keyword": "Micro-GPU applications",
+   "question": "Which of the following is an identified use of IIT Delhi’s indigenous Micro-GPU?",
+   "options": [
+    "Industrial displays",
+    "Copper recovery from wastewater",
+    "Fish-length measurement through Augmented Reality",
+    "Quantum communication"
+   ],
+   "answer": 0,
+   "explanation": "IIT Delhi’s Micro-GPU can be used in industrial displays. Copper recovery from wastewater was associated with IIT (ISM) Dhanbad, fish-length measurement with MatsyaMetri, and quantum communication with Samgnya.",
+   "facts": [
+    "P26.F12"
+   ]
+  },
+  {
+   "id": "2026-09/06/d009#7",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Defence technology course",
+   "question": "Which of the following statements about the IIT Ropar–Army Air Defence College initiative is correct?\n1. The M.Tech in Defence Technology is linked to the Long Air Defence Course and was signed by Rajeev Ahuja and Lt Gen Amit Rao.\n2. The initiative followed an ARTRAC MoU signed in December 2023.\n3. The programme was signed by Sukumar Mishra and Lt Gen Amit Rao.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "Only statement 1 is correct: the M.Tech is linked to the Long Air Defence Course and was signed by Rajeev Ahuja and Lt Gen Amit Rao. The earlier ARTRAC MoU was from December 2022, and Sukumar Mishra was not one of the signatories.",
+   "facts": [
+    "P26.F13"
+   ]
+  },
+  {
+   "id": "2026-09/06/d009#8",
+   "format": "Direct Recall",
+   "keyword": "MoU signatories and venue",
+   "question": "At which venue was the IIT-BHU–University of Michigan electric-mobility MoU signed by Amit Patra and Todd Allen?",
+   "options": [
+    "IIT Hyderabad Centre of Excellence",
+    "IIT Madras Research Park, Chennai",
+    "Army Air Defence College, Gopalpur",
+    "University of Michigan Electric Vehicle Center, Ann Arbor"
+   ],
+   "answer": 3,
+   "explanation": "The MoU was signed at the University of Michigan Electric Vehicle Center in Ann Arbor by Amit Patra and Todd Allen. IIT Madras Research Park was associated with Samgnya, while Army Air Defence College was associated with the defence-technology programme.",
+   "facts": [
+    "P26.F14"
+   ]
+  },
+  {
+   "id": "2026-09/06/d009#9",
+   "format": "Assertion-Reason",
+   "keyword": "Quantum technology partnership",
+   "question": "Assertion (A): Samgnya was set up at IIT Madras Research Park in Chennai by the Department of Science and Technology.\nReason (R): The Samgnya–Q-Clairvoyance MoU covered quantum computing, algorithms, Quantum AI and orbital tourism.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 2,
+   "explanation": "Assertion A is true: Samgnya was set up at IIT Madras Research Park, Chennai, by the Department of Science and Technology. Reason R is false because the MoU covered quantum computing, algorithms, Quantum AI and post-quantum cybersecurity, not orbital tourism.",
+   "facts": [
+    "P26.F15"
+   ]
+  },
+  {
+   "id": "2026-09/06/d009#10",
+   "format": "List-Matching",
+   "keyword": "Establishment and policy details",
+   "question": "Match the institution or policy with the correct detail:\n\nList-I\n a. National Critical Mineral Mission\n b. BioE3 Policy\n c. UNESCO\n d. European Space Agency\n\nList-II\n i. Approved in 2025\n ii. Biotechnology for Economy, Environment and Employment, 2024\n iii. Established on November 16, 1945, in Paris\n iv. Established in 1975 with headquarters in Paris\n\nOptions:",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer": 2,
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The National Critical Mineral Mission was approved in 2025; BioE3 means Biotechnology for Economy, Environment and Employment; UNESCO was established on November 16, 1945, in Paris; and ESA was established in 1975 with headquarters in Paris.",
+   "facts": [
+    "P27.F2",
+    "P28.F2",
+    "P26.F16",
+    "P29.F3"
+   ]
+  },
+  {
+   "id": "2026-09/06/d009r2#1",
+   "format": "Direct Recall",
+   "keyword": "Participating organisations",
+   "question": "Which organisations took part in the First International Space Summit in Paris in September 2026?",
+   "options": [
+    "NASA, ESA and CNSA",
+    "NASA, ISRO and JAXA",
+    "ESA, Roscosmos and CNSA",
+    "ISRO, CNSA and Roscosmos"
+   ],
+   "answer": 0,
+   "explanation": "NASA, ESA and CNSA took part in the First International Space Summit. The summit addressed issues including Earth observation for climate, orbital sustainability, space governance and equitable access; the other combinations include organisations not identified as participants.",
+   "facts": [
+    "P29.F4"
+   ]
   }
  ]
 }

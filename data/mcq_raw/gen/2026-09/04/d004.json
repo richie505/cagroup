@@ -1,0 +1,214 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P10.F3",
+  "P10.F4",
+  "P10.F5",
+  "P10.F6",
+  "P10.F7",
+  "P10.F8",
+  "P10.F9",
+  "P11.F2",
+  "P11.F3",
+  "P11.F4",
+  "P11.F5",
+  "P9.F11",
+  "P9.F12",
+  "P9.F13",
+  "P9.F14",
+  "P9.F15",
+  "P9.F4",
+  "P9.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Pilot coverage and selection",
+   "question": "With reference to the pilot of the Decentralised Grain Storage Plan in the Cooperative Sector, consider the following statements:\n1. The pilot covered 11 PACS in 11 States with a capacity of 9,750 MT.\n2. PACS were selected by District Cooperative Development Committees under the SOP “Margdarshika”.\n3. The selected PACS were required to have leased land for more than 10 years.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4",
+    "P9.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the pilot covered 11 PACS in 11 States with 9,750 MT capacity, and selection was made by District Cooperative Development Committees under “Margdarshika”. Statement 3 is incorrect because the leased land requirement was for more than 20 years, not more than 10 years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NABARD role and margin money",
+   "question": "Under the converged support framework of the Decentralised Grain Storage Plan, which combination is correct?",
+   "options": [
+    "Margin money was reduced from 20% to 10%, and NABARD refinance could bring effective interest down to as low as 1%.",
+    "Margin money was reduced from 25% to 10%, and NABARD refinance could bring effective interest down to as low as 3%.",
+    "Margin money was increased from 10% to 20%, and NABARD refinance could bring effective interest down to as low as 1%.",
+    "Margin money was reduced from 20% to 5%, and NABARD refinance could bring effective interest down to as low as 5%."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F11"
+   ],
+   "explanation": "The correct combination is reduction of margin money from 20% to 10% and NABARD refinance at an effective interest rate as low as 1%. The other options alter the margin-money or interest figures."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Case study and assured hiring",
+   "question": "Match the following features associated with the Decentralised Grain Storage Plan:\n\nList-I\n(a) FCI support\n(b) Nerpingalai PACS\n(c) Warehouse capacity\n(d) Soybean bags handled\n\nList-II\n(i) Approximately 32,000 bags\n(ii) 3,000 MT\n(iii) Assured hiring of godowns\n(iv) Amravati, Maharashtra",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F12",
+    "P9.F13"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i. FCI allowed assured hiring of godowns, while Nerpingalai PACS in Amravati, Maharashtra had a 3,000 MT warehouse handling approximately 32,000 soybean bags."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Foodgrain output",
+   "question": "According to the 3rd Advance Estimates for 2025–26, what was India’s foodgrain output?",
+   "options": [
+    "376.563 million tonnes, up by 18.8 MT or 5.3%",
+    "357.732 million tonnes, up by 18.8 MT or 5.3%",
+    "376.563 million tonnes, up by 20 MT or 3.5%",
+    "357.732 million tonnes, up by 5.3 MT or 18.8%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F14"
+   ],
+   "explanation": "Foodgrain output was estimated at 376.563 million tonnes, an increase of 18.8 MT or 5.3% over 357.732 million tonnes. The other options interchange the base and current output or alter the increase figures."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NFSA coverage",
+   "question": "Consider the following statements:\nStatement A: The National Food Security Act, 2013 covers approximately 80 crore people.\nStatement B: The National Food Security Act, 2013 covers approximately 80 lakh people.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F15"
+   ],
+   "explanation": "Statement A is correct because the National Food Security Act, 2013 covers approximately 80 crore people. Statement B is incorrect: the coverage is approximately 80 crore, not 80 lakh."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Gas substitution and payback",
+   "question": "With reference to the Incentive Scheme for Promotion of Domestic PNG Connections, consider the following statements:\n1. APM gas replaces costlier LNG used for the CNG transport segment.\n2. The payback period on a connection is expected to decline from approximately 10 years to approximately 3 years.\n3. The payback period is expected to decline from approximately 10 years to approximately 5 years.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: APM gas replaces costlier LNG in the CNG transport segment, and the connection payback is expected to fall from about 10 years to about 3 years. Statement 3 is incorrect because the revised payback is approximately 3 years, not 5 years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PNGRB-authorised geographical areas",
+   "question": "How many Geographical Areas had the PNGRB authorised for City Gas Distribution, covering the entire mainland?",
+   "options": [
+    "309",
+    "301",
+    "319",
+    "290"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "The PNGRB had authorised City Gas Distribution in 309 Geographical Areas covering the entire mainland. The other figures do not represent the stated number of authorised Geographical Areas."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "PNG network status and regulatory measures",
+   "question": "Consider the following statements:\n1. Approximately 1.74 crore domestic PNG connections existed as on August 18, 2026.\n2. The 2026 Distribution Order provided an Accelerated Approval Framework and uniform Right-of-Way charges.\n3. States were urged to reduce VAT on natural gas to 3%.\n4. National PNG Drive 2.0 was scheduled from July 1 to December 31, 2026.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F6",
+    "P10.F7",
+    "P10.F8",
+    "P10.F9"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: there were approximately 1.74 crore domestic PNG connections, and the 2026 Order provided the Accelerated Approval Framework and uniform Right-of-Way charges. Statement 3 is wrong because the urged VAT rate was 5%, while Statement 4 is wrong because National PNG Drive 2.0 ran from January 1 to June 30, 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Electronics and mobile-phone production",
+   "question": "Which statement correctly describes the production gains associated with Make in India by 2025–26?",
+   "options": [
+    "Electronics production reached approximately ₹13.11 lakh crore, while mobile-phone production rose from ₹18,000 crore to ₹6.27 lakh crore.",
+    "Electronics production reached approximately ₹11.13 lakh crore, while mobile-phone production rose from ₹18,000 crore to ₹6.27 lakh crore.",
+    "Electronics production reached approximately ₹13.11 lakh crore, while mobile-phone production rose from ₹18,000 crore to ₹5.27 lakh crore.",
+    "Electronics production reached approximately ₹13.11 lakh crore, while mobile-phone production fell from ₹6.27 lakh crore to ₹18,000 crore."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "Electronics production reached approximately ₹13.11 lakh crore, and mobile-phone production increased from ₹18,000 crore to ₹6.27 lakh crore. The alternatives change the electronics figure, the mobile-phone figure, or the direction of growth."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global rank in mobile-phone manufacturing",
+   "question": "What was India’s position globally as a mobile-phone maker by volume after the progress associated with Make in India?",
+   "options": [
+    "Second-largest",
+    "Largest",
+    "Third-largest",
+    "Fifth-largest"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "India became the second-largest mobile-phone maker globally by volume. The other ranks do not match the stated position."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "FDI and sectoral composition",
+   "question": "With reference to the Make in India milestone, consider the following statements:\n1. India recorded FDI of USD 94.53 billion in 2025–26.\n2. The 27 sectors comprised 15 manufacturing sectors and 12 services sectors, with cumulative FDI of USD 843 billion from 2014–15 to 2025–26.\n3. The 27 sectors comprised 12 manufacturing sectors and 15 services sectors, with cumulative FDI of USD 843 billion from 2014–15 to 2025–26.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4",
+    "P11.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: FDI reached USD 94.53 billion in 2025–26, and the 27 sectors consisted of 15 manufacturing and 12 services sectors with cumulative FDI of USD 843 billion. Statement 3 reverses the manufacturing and services composition."
+  }
+ ]
+}

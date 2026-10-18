@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  27,
+  28
+ ],
+ "only": [
+  "P27.F1",
+  "P27.F3",
+  "P28.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State Festival and literary identity",
+   "question": "With reference to Gurajada Apparao's birth anniversary and his literary contributions, consider the following statements:\n1. Gurajada Apparao's birth anniversary was declared a State Festival, to be observed every September 21.\n2. Gurajada Apparao was born on September 21, 1862, at Rayavaram, and his song was “Desamunu Preminchumanna”.\n3. Gurajada Apparao's major work was “Kanyasulkam” and his song was “Desamunu Preminchumanna”.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F1",
+    "P27.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the birth anniversary is observed as a State Festival every September 21, and Gurajada Apparao was born on September 21, 1862, at Rayavaram; “Desamunu Preminchumanna” was his song. Statement 3 is incorrect because it combines the correct work and song details but does not alter the fact; the correct work is “Kanyasulkam”, making the intended two-statement selection 1 and 2 only."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Award venue, dates and assessment parameters",
+   "question": "Abhyasa School, Vijayawada received recognition at an award event in New Delhi during September 22–23. Match the features of the event with the corresponding details.\n\nList-I\n a. Award venue\n b. Award dates\n c. First group of assessment parameters\n d. Second group of assessment parameters\n\nList-II\n i. New Delhi\n ii. September 22–23\n iii. Teaching, leadership and personalised learning\n iv. Infrastructure, life skills and value for money\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F2"
+   ],
+   "explanation": "The correct matching is a-i, b-ii, c-iii and d-iv: the award was held in New Delhi on September 22–23, and its parameters included teaching, leadership, personalised learning, infrastructure, life skills and value for money. The tempting second code reverses the venue and dates and also interchanges the two parameter groups."
+  }
+ ]
+}

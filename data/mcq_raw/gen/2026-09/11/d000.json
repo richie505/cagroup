@@ -1,0 +1,338 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F19",
+  "P0.F2",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F25",
+  "P0.F26",
+  "P0.F27",
+  "P0.F28",
+  "P0.F29",
+  "P0.F3",
+  "P0.F30",
+  "P0.F31",
+  "P0.F32",
+  "P0.F33",
+  "P0.F34",
+  "P0.F4",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Observing body",
+   "question": "Which organisation is associated with World Sexual and Reproductive Health Month observed throughout September?",
+   "options": [
+    "WHO",
+    "MWCD",
+    "UN",
+    "UNESCO"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "WHO is the body associated with World Sexual and Reproductive Health Month, observed from September 1 to 30. MWCD is associated with National Nutrition Week, not this month-long observance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme/note",
+   "question": "What is the 2026 focus of National Nutrition Week observed from September 1 to 7?",
+   "options": [
+    "Role of nutrition in health",
+    "Charity and poverty eradication",
+    "Forest personnel who died on duty",
+    "Nuclear disarmament"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The 2026 focus of National Nutrition Week is the role of nutrition in health. Charity and poverty eradication is associated with the International Day of Charity."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Date, origin and observing body",
+   "question": "With reference to the International Day of Charity and Teachers' Day in India, consider the following statements:\n1. The International Day of Charity is observed on September 5.\n2. The International Day of Charity has been observed since 2012 by the UN.\n3. Teachers' Day in India is observed on September 5 and has been observed since 1962 by the Government of India.",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "All three statements are correct: both observances fall on September 5, the International Day of Charity dates from 2012 under the UN, and Teachers' Day in India dates from 1962 under the Government of India. The other options omit at least one correct statement."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Date and theme",
+   "question": "Consider the following statements:\nStatement A: The International Day to Protect Education from Attack is observed on September 9 and focuses on students, teachers and schools in conflict.\nStatement B: World Suicide Prevention Day is observed on September 11 and its 2026 theme is \"Changing the Narrative on Suicide — Start the Conversation\".",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "Statement A is true: the International Day to Protect Education from Attack is observed on September 9 and concerns students, teachers and schools in conflict. Statement B is false because World Suicide Prevention Day is observed on September 10, not September 11."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Purpose and observance",
+   "question": "Assertion (A): National Forest Martyrs Day is observed on September 11.\nReason (R): It honours forest personnel who died on duty.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the reason explains the significance of National Forest Martyrs Day. The day is associated with forest personnel who died on duty and is observed on September 11."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Date, theme and body",
+   "question": "Match the observances in List-I with their corresponding details in List-II.\n\nList-I\n(a) National Inclusion Week\n(b) Engineer's Day (India)\n(c) International Day of Democracy\n(d) Hispanic Heritage Month\n\nList-II\n(i) September 15–October 15; Hispanic and Latino Americans; US\n(ii) September 15; birth anniversary of Sir M. Visvesvaraya; Institution of Engineers\n(iii) September 14–20; \"Break Barriers. Navigate Change\"; Inclusive Employers\n(iv) September 15; \"When every voice counts, democracy delivers\"; UN",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12",
+    "P0.F13",
+    "P0.F14",
+    "P0.F15"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i. National Inclusion Week is observed from September 14 to 20, Engineer's Day on September 15, the International Day of Democracy on September 15, and Hispanic Heritage Month from September 15 to October 15."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme and protocol",
+   "question": "Which theme is associated with World Ozone Day in 2026?",
+   "options": [
+    "Global Action for a Cooler Planet",
+    "Safe care for noncommunicable diseases",
+    "Empowering pharmacists for healthier futures",
+    "Waterways in Our Communities"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "The 2026 theme of World Ozone Day is \"Global Action for a Cooler Planet.\" \"Safe care for noncommunicable diseases\" is the theme of World Patient Safety Day."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme and observing body",
+   "question": "Who is associated with World Patient Safety Day, whose 2026 theme is \"Safe care for noncommunicable diseases\"?",
+   "options": [
+    "WHO",
+    "FIP",
+    "World Bamboo Organization",
+    "World Heart Federation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F17"
+   ],
+   "explanation": "World Patient Safety Day is associated with WHO. FIP is associated with World Pharmacists Day, while the World Heart Federation is associated with World Heart Day."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Date and theme",
+   "question": "Consider the following statements about World Bamboo Day and the International Day of Peace:\n1. World Bamboo Day is observed on September 18.\n2. The 2026 theme of World Bamboo Day is \"Bamboo for a Regenerative Future: A Global Call to Grow, Build and Prosper with Nature\".\n3. The International Day of Peace is observed on September 21 and has been observed since 1981.",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F19",
+    "P0.F20"
+   ],
+   "explanation": "All three statements are correct. World Bamboo Day is observed on September 18 with the stated 2026 theme, while the International Day of Peace falls on September 21 and dates from 1981."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Dates of observances",
+   "question": "How many of the following statements about September observances are correct?\n1. World Alzheimer's Day is observed on September 21.\n2. World Rhino Day is observed on September 21.\n3. The International Day of Sign Languages is observed on September 22.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F21",
+    "P0.F22",
+    "P0.F23"
+   ],
+   "explanation": "Only one statement is correct: World Alzheimer's Day is observed on September 21. World Rhino Day is observed on September 22, and the International Day of Sign Languages is observed on September 23."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Observing body",
+   "question": "Which organisation is associated with World Pharmacists Day?",
+   "options": [
+    "FIP",
+    "WHO",
+    "UN Women / ILO",
+    "GARC / WHO"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F25"
+   ],
+   "explanation": "World Pharmacists Day is associated with FIP and is observed on September 25. GARC / WHO is associated with World Rabies Day."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Date and purpose",
+   "question": "Consider the following statements:\nStatement A: Antyodaya Diwas is observed on September 25 and marks the birth anniversary of Pandit Deendayal Upadhyaya.\nStatement B: The International Day for the Total Elimination of Nuclear Weapons is observed on September 25.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F26",
+    "P0.F27"
+   ],
+   "explanation": "Statement A is true: Antyodaya Diwas is observed on September 25 and commemorates the birth anniversary of Pandit Deendayal Upadhyaya. Statement B is false because the International Day for the Total Elimination of Nuclear Weapons is observed on September 26."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What is the 2026 theme of World Tourism Day?",
+   "options": [
+    "Digital Agenda and Artificial Intelligence to Redesign Tourism",
+    "Invest in Peace: For Everyone, Everywhere, Every Day",
+    "Stronger Together",
+    "Don't Miss a Beat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F28"
+   ],
+   "explanation": "The 2026 theme of World Tourism Day is \"Digital Agenda and Artificial Intelligence to Redesign Tourism.\" \"Invest in Peace: For Everyone, Everywhere, Every Day\" is the theme of the International Day of Peace."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Date and periodicity",
+   "question": "World Rivers Day is observed on which basis in September 2026?",
+   "options": [
+    "September 27, the 4th Sunday of September",
+    "September 27, the 3rd Sunday of September",
+    "September 28, the 4th Sunday of September",
+    "September 29, the 4th Sunday of September"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F29"
+   ],
+   "explanation": "World Rivers Day is observed on September 27 in 2026, as the 4th Sunday of September. September 28 is associated with World Rabies Day and the International Day for Universal Access to Information."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme and date",
+   "question": "Which theme was associated with World Rabies Day in 2026?",
+   "options": [
+    "Stronger Together",
+    "Don't Miss a Beat",
+    "Transformative Potential of Reducing Food Loss and Waste",
+    "The Earlier You Know, The More You Can Do: A Dementia Diagnosis Matters"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F30"
+   ],
+   "explanation": "The 2026 theme of World Rabies Day is \"Stronger Together.\" \"Don't Miss a Beat\" is the theme of World Heart Day."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the 2026 theme of the International Day for Universal Access to Information?",
+   "options": [
+    "Upholding Information Integrity in the Digital Age: The role of access to information in addressing information disorder",
+    "Linguistic Diversity and Language Rights — The power of being understood",
+    "Changing the Narrative on Suicide — Start the Conversation",
+    "Clean Air for Climate Action"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F31"
+   ],
+   "explanation": "The 2026 theme was \"Upholding Information Integrity in the Digital Age: The role of access to information in addressing information disorder.\" \"Linguistic Diversity and Language Rights — The power of being understood\" is the theme of International Translation Day."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme and date",
+   "question": "Which theme was associated with World Heart Day in 2026?",
+   "options": [
+    "Don't Miss a Beat",
+    "Safe care for life!",
+    "Empowering pharmacists for healthier futures",
+    "Solidarity Rising: Global Alliance for Inclusive and Innovative Development"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F32"
+   ],
+   "explanation": "The 2026 theme of World Heart Day is \"Don't Miss a Beat.\" \"Safe care for life!\" is the slogan of World Patient Safety Day."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Theme and observing body",
+   "question": "Consider the following statements:\nStatement A: The International Day of Awareness of Food Loss and Waste is observed on September 29 and is associated with FAO / UNEP.\nStatement B: International Translation Day has been observed since 2018 and is associated with FIT / UN.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F33",
+    "P0.F34"
+   ],
+   "explanation": "Statement A is true: the International Day of Awareness of Food Loss and Waste is observed on September 29 and is associated with FAO / UNEP. Statement B is false because International Translation Day has been observed since 2017, not 2018."
+  }
+ ]
+}

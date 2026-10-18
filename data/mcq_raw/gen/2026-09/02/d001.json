@@ -1,0 +1,234 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F2",
+  "P3.F3",
+  "P3.F5",
+  "P4.F1",
+  "P4.F10",
+  "P4.F11",
+  "P4.F4",
+  "P4.F5",
+  "P4.F7",
+  "P4.F8",
+  "P4.F9",
+  "P5.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "In the Ken–Betwa interlinking project, protests were reported in which place?",
+   "options": [
+    "Chhatarpur",
+    "Bundelkhand",
+    "Madhya Pradesh",
+    "Uttar Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Protests against the Ken–Betwa project were reported in Chhatarpur. Bundelkhand is the broader region, while Madhya Pradesh and Uttar Pradesh are the States covered by the project."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State opposition and environmental concern",
+   "question": "Which State opposed the Pamba–Achankovil–Vaippar river-linking project because of possible harm to the Vembanad wetland?",
+   "options": [
+    "Kerala",
+    "Pamba",
+    "Achankovil",
+    "Vaippar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "Kerala opposed the Pamba–Achankovil–Vaippar link, citing possible harm to the Vembanad wetland. Pamba, Achankovil and Vaippar are the rivers in the proposed link, not States."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Inter-State water disputes",
+   "question": "Consider the following statements about inter-State water disputes:\n1. In the Pennaiyar dispute, Tamil Nadu sought a tribunal in November 2019 against Karnataka, which was linked to an 1892 agreement.\n2. In the Mekedatu dispute, Tamil Nadu sought a tribunal in March 2026.\n3. The Centre referred the Pennaiyar dispute to the Mahadayi Tribunal.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: they describe the Pennaiyar and Mekedatu disputes respectively. Statement 3 is incorrect because the Centre only floated the idea of referring the Pennaiyar dispute to the Mahadayi Tribunal."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Inter-basin projects and States",
+   "question": "Match the inter-basin projects in List-I with their associated description in List-II.\n\nList-I\n(a) Mullaperiyar\n(b) Parambikulam–Aliyar\n(c) Krishna Water Supply\n(d) Indira Gandhi Canal\n\nList-II\n(i) Sutlej–Beas to Rajasthan\n(ii) Water to Hyderabad\n(iii) Periyar in Kerala to Vaigai in Tamil Nadu\n(iv) Kerala and Tamil Nadu",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10",
+    "P2.F11",
+    "P2.F12"
+   ],
+   "explanation": "The correct pairs are Mullaperiyar–Periyar in Kerala to Vaigai in Tamil Nadu, Parambikulam–Aliyar–Kerala and Tamil Nadu, Krishna Water Supply–Water to Hyderabad, and Indira Gandhi Canal–Sutlej–Beas to Rajasthan. Therefore, option 1 gives all four correct matches."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Written grounds and bail rights",
+   "question": "Consider the following statements:\nStatement A: For remand, written grounds of arrest must be supplied at least 2 hours before production; otherwise, the arrest is illegal.\nStatement B: Section 47 of the BNSS requires informing the arrested person of the grounds and bail rights.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "Both statements are true. The ruling requires written grounds at least 2 hours before production for remand, while Section 47 of the BNSS concerns communication of the grounds and bail rights."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Re-arrest safeguards",
+   "question": "Before re-arresting a person, whose permission is required under the ruling on written grounds of arrest?",
+   "options": [
+    "Judicial Magistrate",
+    "Written grounds",
+    "Another investigating officer",
+    "Disciplinary authority"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "Re-arrest requires written grounds and permission from a Judicial Magistrate. The probe must also be entrusted to another officer, and disciplinary action may follow against the erring officer."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Article 142 and NEET-UG protests",
+   "question": "Why did the Supreme Court invoke Article 142 in the NEET-UG paper-leak matter?",
+   "options": [
+    "To quash FIRs against protesting students",
+    "To transfer the matter to a High Court",
+    "To review every examination result",
+    "To impose disciplinary action on students"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The Supreme Court used Article 142, the power to do complete justice, to quash FIRs against students protesting the NEET-UG paper leak. The ruling was not a transfer of the matter or a review of examination results."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Limits of Article 142",
+   "question": "Which one of the following statements about the Supreme Court's power under Article 142 is incorrect?",
+   "options": [
+    "The power is broad but not unlimited.",
+    "The power cannot override fundamental constitutional limits.",
+    "The power may be used to do complete justice.",
+    "The power can override fundamental constitutional limits."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "The incorrect statement is that Article 142 can override fundamental constitutional limits. The power is broad and enables complete justice, but it remains subject to fundamental constitutional limits."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Case law on Article 142",
+   "question": "Which case is specifically associated with the year 1963 in the context of Article 142?",
+   "options": [
+    "Prem Chand Garg",
+    "Union Carbide",
+    "Delhi Judicial Service Association",
+    "Supreme Court Bar Association"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5"
+   ],
+   "explanation": "Prem Chand Garg is the case associated with 1963. Union Carbide, Delhi Judicial Service Association and Supreme Court Bar Association are also important cases connected with Article 142, but the supplied year is attached to Prem Chand Garg."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Constitutional provisions related to the Supreme Court",
+   "question": "Match the constitutional Articles in List-I with their subjects in List-II.\n\nList-I\n(a) Article 129\n(b) Article 136\n(c) Article 137\n(d) Article 141\n\nList-II\n(i) Review of judgments\n(ii) Special Leave to Appeal\n(iii) Supreme Court law binding on all courts\n(iv) Supreme Court as Court of Record and contempt",
+   "options": [
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-i, b-iii, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7",
+    "P4.F8",
+    "P4.F9",
+    "P4.F10"
+   ],
+   "explanation": "Article 129 concerns the Supreme Court as a Court of Record and contempt; Article 136 concerns Special Leave to Appeal; Article 137 concerns review; and Article 141 makes Supreme Court law binding on all courts. Hence, option 1 is the correct matching."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "President's advisory reference",
+   "question": "Which Article deals with the President's advisory reference to the Supreme Court?",
+   "options": [
+    "Article 143",
+    "Article 142",
+    "Article 141",
+    "Article 136"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F11"
+   ],
+   "explanation": "Article 143 deals with the President's advisory reference to the Supreme Court. Article 142 concerns complete justice, Article 141 concerns binding Supreme Court law, and Article 136 concerns Special Leave to Appeal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inter-State Council amendment",
+   "question": "Under the Inter-State Council (Amendment) Order, 2026, who attends the Inter-State Council when Article 356 is in force?",
+   "options": [
+    "The Governor",
+    "The Lieutenant Governor of Delhi",
+    "The Prime Minister",
+    "The President"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "The Governor attends the Inter-State Council when Article 356 is in force. The Lieutenant Governor of Delhi attends when Article 239AB applies."
+  }
+ ]
+}

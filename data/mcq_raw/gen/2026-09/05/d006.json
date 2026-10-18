@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  32
+ ],
+ "only": [
+  "P32.F1",
+  "P32.F3",
+  "P32.F5",
+  "P32.F6",
+  "P32.F7",
+  "P32.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "ICJ advisory opinion",
+   "question": "What obligation was highlighted in the ICJ advisory opinion concerning climate change?",
+   "options": [
+    "Binding state obligations to cut greenhouse gases and protect small island states",
+    "A legally binding treaty on global plastics finalised in Geneva",
+    "A joint maritime security protocol covering SAR and IUU fishing",
+    "An extended moratorium on customs duties on electronic transmissions"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P32.F1"
+   ],
+   "explanation": "The ICJ advisory opinion highlighted binding state obligations to cut greenhouse gases and protect small island states. The option concerning a legally binding treaty finalised in Geneva refers to the global plastics treaty, not the ICJ advisory opinion."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "International agreements and alliances",
+   "question": "Consider the following statements:\n1. More states ratified the Singapore Convention on Mediation.\n2. The Global Biofuel Alliance gained new African and South American members.\n3. The Singapore Convention on Mediation was finalised in Geneva as a legally binding treaty.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P32.F3",
+    "P32.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: more states ratified the Singapore Convention on Mediation, and the Global Biofuel Alliance added new African and South American members. Statement 3 is incorrect because the treaty finalised in Geneva was the global plastics treaty, not the Singapore Convention on Mediation."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Global economic prospects and climate adaptation",
+   "question": "Consider the following statements:\nStatement A: The World Bank Global Economic Prospects reported growth stabilising, led by Europe and North America.\nStatement B: The IPCC special report focused on extreme-weather attribution and reduced adaptation finance.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P32.F6",
+    "P32.F7"
+   ],
+   "explanation": "Both statements are false. Growth was reported as stabilising under the leadership of South and Southeast Asia, while the IPCC special report concerned extreme-weather attribution and more adaptation finance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "WTO electronic transmissions moratorium",
+   "question": "What did the WTO extend in relation to electronic transmissions?",
+   "options": [
+    "The moratorium on customs duties on electronic transmissions",
+    "The Singapore Convention on International Settlement Agreements",
+    "The Global Biofuel Alliance membership framework",
+    "The ICJ obligations to protect small island states"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P32.F8"
+   ],
+   "explanation": "The WTO extended the moratorium on customs duties on electronic transmissions. The Singapore Convention, the Global Biofuel Alliance, and the ICJ advisory opinion concern different international developments."
+  }
+ ]
+}

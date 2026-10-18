@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P7.F10",
+  "P7.F9",
+  "P8.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "JPC chairperson",
+   "question": "With reference to the Joint Parliamentary Committees on the following Bills, consider the statements:\n\n1. Sanjay Jaiswal chaired the JPC on the Biological Diversity Amendment Bill, 2021.\n2. Rajendra Agrawal chaired the JPC on the Forest Conservation Amendment Bill, 2023.\n3. Rajendra Agrawal chaired the JPC on the Biological Diversity Amendment Bill, 2021.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F9",
+    "P7.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Sanjay Jaiswal chaired the JPC on the Biological Diversity Amendment Bill, 2021, while Rajendra Agrawal chaired the JPC on the Forest Conservation Amendment Bill, 2023. Statement 3 is incorrect because Sanjay Jaiswal, not Rajendra Agrawal, chaired the Biological Diversity Amendment Bill JPC."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Statutory basis and chairing authority",
+   "question": "The Zonal Councils are statutory bodies established under which law, and who chairs them?",
+   "options": [
+    "States Reorganisation Act, 1956 — Union Home Minister",
+    "States Reorganisation Act, 1956 — Chief Ministers by rotation",
+    "States Reorganisation Act, 1956 — Inter-State Council Secretariat",
+    "States Reorganisation Act, 1956 — Amit Shah"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F1",
+    "P8.F10"
+   ],
+   "explanation": "The Zonal Councils were established under the States Reorganisation Act, 1956, and are chaired by the Union Home Minister. Chief Ministers serve as Vice-Chairmen by rotation, the Inter-State Council Secretariat organises the meetings, and Amit Shah chaired the specific Western Zonal Council meeting."
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": [
+  "P14.F2",
+  "P14.F3",
+  "P16.F1",
+  "P16.F10",
+  "P16.F12",
+  "P16.F6",
+  "P16.F7",
+  "P16.F8",
+  "P16.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "International Year",
+   "question": "Which year has been designated as the International Year of the Woman Farmer, with the FAO as the lead agency?",
+   "options": [
+    "2026",
+    "1989",
+    "2005",
+    "1966"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2"
+   ],
+   "explanation": "2026 is the International Year of the Woman Farmer, with the FAO as the lead agency. The other years are associated with different UNESCO literacy milestones, not this designation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "HQ and founding year",
+   "question": "The Food and Agriculture Organization (FAO) was established in which year and has its headquarters where?",
+   "options": [
+    "1945, Rome",
+    "1945, Paris",
+    "1989, Rome",
+    "2005, Paris"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3"
+   ],
+   "explanation": "The FAO was established in 1945 and is headquartered in Rome. Paris is the headquarters of UNESCO, while 1989 and 2005 relate to the UNESCO literacy prizes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and theme",
+   "question": "Where were the UNESCO International Literacy Prizes 2026 presented, and what was their theme?",
+   "options": [
+    "Chiapas, Mexico — “Literacy for people, the planet and prosperity”",
+    "Rome, Italy — “Literacy for all and sustainable development”",
+    "Paris, France — “Education for peace and prosperity”",
+    "Bogotá, Colombia — “Literacy for people and the planet”"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1"
+   ],
+   "explanation": "The UNESCO International Literacy Prizes 2026 were presented in Chiapas, Mexico, under the theme “Literacy for people, the planet and prosperity.” The other locations and themes do not match the 2026 presentation."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Confucius Prize laureates and history",
+   "question": "Consider the following statements regarding the UNESCO International Literacy Prizes 2026:\n\n1. The Government of Chiapas won the Confucius Prize for the Chiapas Puede initiative.\n2. Hat Yai City Municipality won the Confucius Prize for Language for Life.\n3. The King Sejong Literacy Prize was established in 2005.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F6",
+    "P16.F7",
+    "P16.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Government of Chiapas won for Chiapas Puede, and Hat Yai City Municipality won for Language for Life. Statement 3 is incorrect because the King Sejong Prize dates from 1989; 2005 is the year associated with the Confucius Prize."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Laureate award package",
+   "question": "Assertion (A): Each laureate of the UNESCO International Literacy Prizes 2026 received USD 30,000, a medal and a diploma, and the prizes were linked to SDG 4.6.\nReason (R): Each laureate received a medal but no diploma.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P16.F9"
+   ],
+   "explanation": "Assertion A is true: each laureate received USD 30,000, a medal and a diploma, with the prizes linked to SDG 4.6. Reason R is false because the award package included a diploma."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Initiative reach and UNESCO HQ",
+   "question": "Consider the following statements:\nStatement A: The Rutu Foundation’s Language Friendly School initiative covered approximately 70 schools in 12 continents.\nStatement B: UNESCO has its headquarters in Rome.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P16.F10",
+    "P16.F12"
+   ],
+   "explanation": "Both statements are false. The Rutu Foundation initiative covered approximately 70 schools in 12 countries, not continents, and UNESCO is headquartered in Paris, not Rome."
+  }
+ ]
+}

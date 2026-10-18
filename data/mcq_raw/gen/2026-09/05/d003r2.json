@@ -1,0 +1,89 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P12.F4",
+  "P15.F3",
+  "P15.F4",
+  "P15.F5",
+  "P15.F6",
+  "P9.F1"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "International corridor backed",
+   "question": "Amid disruptions in the Strait of Hormuz in September 2026, which initiative received backing from US President Donald Trump?",
+   "options": [
+    "India–Middle East–Europe Economic Corridor (IMEC)",
+    "European Union’s proposed Associate Member status for Canada",
+    "US-led 6G initiative",
+    "ASEAN–India Medium-Term Plan of Action"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "Donald Trump backed the India–Middle East–Europe Economic Corridor (IMEC) amid the Hormuz disruptions. The European Union’s proposed Associate Member status for Canada and the US-led 6G initiative were separate developments."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "G20 composition and origin",
+   "question": "Which of the following correctly describes the G20 in the context of the G20 Energy Ministers’ Meeting?",
+   "options": [
+    "It was established in 1999 and comprises 19 countries, the European Union and the African Union; the African Union became a permanent member in 2023.",
+    "It was established in 2003 and comprises 19 countries and the European Union; the African Union became a permanent member in 2023.",
+    "It was established in 1999 and comprises 21 countries and the European Union; the African Union became a permanent member in 2022.",
+    "It was established in 1999 and comprises 19 countries, the European Union and the African Union; India held the presidency in 2022."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "The G20 dates from 1999 and consists of 19 countries, the European Union and the African Union, which became a permanent member in 2023. The other options alter the year of establishment, composition or India’s presidency year."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "ASEAN–India agriculture outcomes",
+   "question": "Consider the following statements regarding the 9th ASEAN–India Ministerial Meeting on Agriculture and Forestry:\n\n1. It adopted “ASEAN 2045: Our Shared Future” and the ASEAN Food, Agriculture and Forestry Sectoral Plan 2026–2030.\n2. The 10th ASEAN–India Working Group met two days earlier.\n3. Its focus areas included AI digital agriculture, low-emission rice, water productivity, soil health and carbon capture.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F3",
+    "P15.F4"
+   ],
+   "explanation": "Statement 1 is correct: both “ASEAN 2045: Our Shared Future” and the ASEAN Food, Agriculture and Forestry Sectoral Plan 2026–2030 were adopted. Statement 2 is incorrect because the 10th ASEAN–India Working Group met a day earlier, while Statement 3 changes the listed area of circular bioeconomy to carbon capture."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "ASEAN background and India–ASEAN milestones",
+   "question": "How many of the following statements are correct regarding ASEAN and India–ASEAN relations?\n\n1. ASEAN was founded on August 8, 1967, through the Bangkok Declaration, and its headquarters is in Bangkok.\n2. ASEAN has 11 members, and its Secretary-General is Kao Kim Hourn.\n3. India–ASEAN relations became sectoral in 1992 and a full dialogue partnership in 1995.\n4. India–ASEAN relations became strategic in 2012 and comprehensive strategic in 2023.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F5",
+    "P15.F6"
+   ],
+   "explanation": "Exactly two statements are correct: Statements 2 and 3. ASEAN’s headquarters is Jakarta, not Bangkok, and India–ASEAN relations became a comprehensive strategic partnership in 2022, not 2023."
+  }
+ ]
+}

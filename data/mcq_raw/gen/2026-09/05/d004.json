@@ -1,0 +1,216 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19,
+  20,
+  21
+ ],
+ "only": [
+  "P16.F4",
+  "P16.F5",
+  "P16.F6",
+  "P17.F3",
+  "P17.F6",
+  "P17.F7",
+  "P17.F8",
+  "P17.F9",
+  "P19.F4",
+  "P19.F5",
+  "P19.F6",
+  "P20.F3",
+  "P20.F4",
+  "P20.F5",
+  "P21.F2",
+  "P21.F3",
+  "P21.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "BIMSTEC institutional details",
+   "question": "Match List-I with List-II regarding BIMSTEC-related meetings and designations.\n\nList-I\n(a) 2nd BIMSTEC Nodal Group on Traditional Medicine Knowledge\n(b) BIMSTEC\n(c) JWG-CTTC\n(d) Additional Secretary associated with JWG-CTTC\n\nList-II\n(i) Joint Working Group on Counter Terrorism and Transnational Crime\n(ii) Held alongside the 3rd Conference on Traditional Medicine Knowledge, Genetic Resources and IPR\n(iii) Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation\n(iv) Additional Secretary (CT), Ministry of External Affairs\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F4",
+    "P16.F5",
+    "P16.F6"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv. The nodal group was held alongside the conference, while JWG-CTTC expands to Joint Working Group on Counter Terrorism and Transnational Crime; its associated official was Additional Secretary (CT), Ministry of External Affairs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "BIMSTEC expansion",
+   "question": "Which description correctly expands the acronym BIMSTEC in the context of regional cooperation among its member countries?",
+   "options": [
+    "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+    "Bay of Bengal International Maritime Security and Trade Economic Council",
+    "Bay Initiative for Multilateral Science, Technology and Energy Cooperation",
+    "Bay of Bengal Treaty for Strategic Transport and Economic Coordination"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F5"
+   ],
+   "explanation": "BIMSTEC stands for Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation. The other options replace the organisation’s actual words with unrelated descriptions."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Hilsa export policy",
+   "question": "With reference to Bangladesh’s policy on Hilsa exports to India, identify the incorrect statement.",
+   "options": [
+    "Bangladesh restricted Hilsa exports from 2012.",
+    "Since 2019, Bangladesh has allowed Hilsa exports for approximately one month during Durga Puja.",
+    "Bangladesh has allowed Hilsa exports throughout the year since 2012.",
+    "The temporary relaxation of the restriction has been associated with the Durga Puja period."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P17.F3"
+   ],
+   "explanation": "The incorrect statement is that Bangladesh has allowed Hilsa exports throughout the year since 2012. Exports were restricted from 2012, with approximately one month allowed during Durga Puja since 2019."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Hilsa classification and official consultation",
+   "question": "Match List-I with List-II in relation to Hilsa and the 2026 Bangladesh export-related developments.\n\nList-I\n(a) Fish Importers Association\n(b) Ataur Rehman Khan\n(c) Clupeidae\n(d) Tenualosa ilisha\n\nList-II\n(i) Species of Hilsa\n(ii) Family of Hilsa\n(iii) Bangladesh Commerce Secretary\n(iv) Body that met the Bangladesh Commerce Secretary in August 2026\n\nSelect the correct code:",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F6",
+    "P17.F7"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-ii and d-i. The Fish Importers Association met Ataur Rehman Khan, while Clupeidae is the family and Tenualosa ilisha is a Hilsa species."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Hilsa status and cultural associations",
+   "question": "Consider the following statements about Hilsa:\n\n1. Hilsa is the State Fish of West Bengal.\n2. Hilsa is the National Fish of Bangladesh.\n3. Bangladesh produces approximately 70% of the world’s Hilsa.\n4. Joda Ilish refers to a single Hilsa fish.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P17.F8",
+    "P17.F9"
+   ],
+   "explanation": "Exactly three statements are correct: Hilsa is the State Fish of West Bengal, the National Fish of Bangladesh, and Bangladesh produces approximately 70% of the world’s Hilsa. Joda Ilish means a pair of Hilsa, not a single fish."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "West Asian maritime passages",
+   "question": "Consider the following statements about the two West Asian chokepoints:\n\n1. The Strait of Hormuz connects the Persian Gulf and the Gulf of Oman.\n2. Bab el-Mandeb connects the Red Sea and the Gulf of Aden.\n3. Bab el-Mandeb lies between Yemen and Saudi Arabia.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P19.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Strait of Hormuz connects the Persian Gulf with the Gulf of Oman, and Bab el-Mandeb connects the Red Sea with the Gulf of Aden. Bab el-Mandeb is between Yemen and Djibouti/Eritrea, not Saudi Arabia."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "GCC and Yemen developments",
+   "question": "Match List-I with List-II regarding the Gulf Cooperation Council and the developments around Mocha.\n\nList-I\n(a) GCC\n(b) GCC headquarters\n(c) GCC establishment\n(d) Capital of Yemen\n\nList-II\n(i) Riyadh\n(ii) 1981\n(iii) Sana'a\n(iv) Gulf Cooperation Council\n\nSelect the correct code:",
+   "options": [
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F5",
+    "P19.F6"
+   ],
+   "explanation": "The correct pairs are a-iv, b-i, c-ii and d-iii. GCC means Gulf Cooperation Council, was established in 1981, has its headquarters at Riyadh, and Sana'a is the capital of Yemen; Saudi Arabia struck the airport after the Houthis took Mocha."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Greenland’s geography and investment scrutiny",
+   "question": "Consider the following statements regarding Greenland under the US–Denmark–Greenland security arrangement:\n\n1. Nuuk is the capital of Greenland.\n2. Greenland is the second-largest island in the world.\n3. Sensitive investments in Greenland are to face US security scrutiny.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F3",
+    "P20.F4"
+   ],
+   "explanation": "Only statement 1 is correct: Nuuk is the capital of Greenland. Greenland is described as the world’s largest island, and sensitive investments are to face US security scrutiny, making statements 2 and 3 incorrect as worded."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Denmark profile",
+   "question": "Which one of the following correctly describes Denmark in the context of the US–Denmark–Greenland security arrangement?",
+   "options": [
+    "Its capital is Copenhagen, its currency is the Danish Krone, and it was a NATO founding member in 1949.",
+    "Its capital is Nuuk, its currency is the Danish Krone, and it joined NATO in 1981.",
+    "Its capital is Copenhagen, its currency is the euro, and it was a NATO founding member in 1949.",
+    "Its capital is Riyadh, its currency is the Danish Krone, and it was a NATO founding member in 1949."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F5"
+   ],
+   "explanation": "Denmark’s capital is Copenhagen, its currency is the Danish Krone, and it was a NATO founding member in 1949. Nuuk is Greenland’s capital, while the euro and Riyadh do not match the stated Danish profile."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Ramsar Convention and World Wetlands Day",
+   "question": "Assertion (A): World Wetlands Day is observed on February 2.\nReason (R): The Ramsar Convention was adopted on February 2, 1971, at Ramsar in Iran.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the Reason explains the date of World Wetlands Day. The Ramsar Convention was adopted on February 2, 1971, at Ramsar in Iran."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ramsar mechanisms and pillars",
+   "question": "Consider the following statements concerning the Ramsar Convention:\n\n1. The Montreux Record covers Ramsar sites with adverse ecological change.\n2. The Ramsar Convention has only two pillars: wise use of all wetlands and international cooperation.\n3. Designation and management of Ramsar Sites is one of its three pillars.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F3",
+    "P21.F5"
+   ],
+   "explanation": "Only statement 1 is correct as worded. The Montreux Record concerns Ramsar sites with adverse ecological change; the Convention has three pillars, including wise use, designation and management of Ramsar Sites, and international cooperation, so statements 2 and 3 are altered incorrectly."
+  }
+ ]
+}

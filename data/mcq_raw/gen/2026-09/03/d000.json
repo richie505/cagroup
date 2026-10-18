@@ -1,0 +1,229 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P1.F10",
+  "P1.F11",
+  "P1.F2",
+  "P1.F3",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F8",
+  "P1.F9",
+  "P2.F10",
+  "P2.F11",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "World's largest government-funded health assurance scheme",
+   "question": "Which scheme is recognised as the world's largest government-funded health assurance scheme and provides coverage of ₹5 lakh per family per year?",
+   "options": [
+    "Ayushman Bharat PM-JAY",
+    "PM Vishwakarma",
+    "PM SHRI",
+    "Pradhan Mantri Schools for Rising India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Ayushman Bharat PM-JAY is the world's largest government-funded health assurance scheme and provides ₹5 lakh per family per year. PM Vishwakarma and PM SHRI are schemes in the MSME and education sectors, respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Implementing authority",
+   "question": "Which of the following statements regarding the implementation of Ayushman Bharat PM-JAY is incorrect?",
+   "options": [
+    "The National Health Authority implements the scheme.",
+    "The Ministry of Health and Family Welfare is associated with its implementation.",
+    "The Ministry of MSME is the implementing ministry for the scheme.",
+    "The scheme is implemented by the National Health Authority under the Ministry of Health and Family Welfare."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The incorrect statement is that the Ministry of MSME implements Ayushman Bharat PM-JAY. The scheme is implemented by the National Health Authority and the Ministry of Health and Family Welfare; the Ministry of MSME is associated with PM Vishwakarma."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ayushman Cards and service delivery",
+   "question": "Consider the following statements:\nStatement A: As on 23 September 2026, 48.54 crore Ayushman Cards had been issued.\nStatement B: Ayushman Bharat PM-JAY provides cashless and paperless coverage for secondary and tertiary hospitalisation.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Both statements are true. The scheme had issued 48.54 crore Ayushman Cards by 23 September 2026 and covers secondary and tertiary hospitalisation through cashless and paperless services."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Scheme pillars and training provision",
+   "question": "With reference to PM Vishwakarma, consider the following statements:\n1. The scheme has an outlay of ₹13,000 crore, covers 18 traditional trades and is available to persons aged 18 years or above, with one beneficiary per family.\n2. Its three pillars are Samman, Samarthya and Samriddhi.\n3. Basic training is for 5–7 days, while advanced training is for 10 days or more, with a stipend of ₹500 per day.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Advanced training is for 15 days or more, not 10 days or more, so Statement 3 is incorrect despite correctly stating the basic training duration and stipend."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Toolkit assistance",
+   "question": "Under PM Vishwakarma, what is the maximum assistance provided for the toolkit component?",
+   "options": [
+    "Up to ₹5,000",
+    "Up to ₹10,000",
+    "Up to ₹15,000",
+    "Up to ₹25,000"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "The toolkit component of PM Vishwakarma provides assistance of up to ₹15,000. The other amounts do not represent the toolkit provision under the scheme."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Loan structure and interest support",
+   "question": "Assertion (A): The loan component of PM Vishwakarma provides collateral-free assistance only up to ₹2 lakh.\nReason (R): The loan is structured as ₹1 lakh for 18 months and ₹2 lakh for 30 months at 5% interest, with subvention up to 8%.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "The Assertion is false because the collateral-free loan is available up to ₹3 lakh, not ₹2 lakh. The Reason is true: it comprises ₹1 lakh for 18 months and ₹2 lakh for 30 months at 5%, with subvention up to 8%."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "PM Vishwakarma progress and evaluation",
+   "question": "How many of the following statements regarding PM Vishwakarma progress as on 15 September 2026 are correct?\n1. The 30 lakh registration target had been achieved, 24.37 lakh persons had been trained, and more than 12,000 had been trained in AI tools.\n2. A concurrent evaluation by IIM Mumbai was examining income gains.\n3. The first National Exhibition-cum-Trade Fair was held at Dilli Haat from 17–31 January 2027.\n4. The first National Exhibition-cum-Trade Fair involving 117 artisans recorded sales below ₹2 crore.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "Exactly two statements are correct: the registration, training and AI-training figures in Statement 1, and the IIM Mumbai evaluation in Statement 2. The fair was held from 17–31 January 2026, and its sales exceeded ₹2 crore, making Statements 3 and 4 incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Institutional partnerships and market access",
+   "question": "Match the elements associated with PM Vishwakarma's partnerships and market-access initiatives:\n\nList-I\n a. Amazon\n b. One Station One Product and AVSAR\n c. Indian Institute of Packaging\n d. TRIFED\n\nList-II\n i. Packaging support\n ii. Stalls and market-access arrangements involving artisans\n iii. Organisation mentioned in the initiative\n iv. Memorandum of Understanding",
+   "options": [
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "The correct matching is Amazon–MoU, One Station One Product and AVSAR–stalls and market access, Indian Institute of Packaging–packaging support, and TRIFED–organisation mentioned in the initiative. Therefore, the correct code is a-iv, b-ii, c-i, d-iii."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme period and cost",
+   "question": "What are the implementation period and total cost of the PM SHRI scheme?",
+   "options": [
+    "2020–21 to 2024–25 and ₹18,128 crore",
+    "2022–23 to 2026–27 and ₹27,360 crore",
+    "2023–24 to 2027–28 and ₹13,000 crore",
+    "2022–23 to 2026–27 and ₹18,128 crore"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "PM SHRI is implemented from 2022–23 to 2026–27 at a total cost of ₹27,360 crore. ₹18,128 crore is the central share, while ₹13,000 crore relates to PM Vishwakarma."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "PAB central share and increase",
+   "question": "Which of the following statements regarding the PM SHRI PAB central share is incorrect?",
+   "options": [
+    "It was ₹2,520 crore in 2023–24.",
+    "It was ₹5,224 crore in 2026–27.",
+    "The increase between the two amounts was approximately 107%.",
+    "It was ₹2,524 crore in 2026–27."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The incorrect statement gives the 2026–27 PAB central share as ₹2,524 crore. The correct amount is ₹5,224 crore, rising from ₹2,520 crore in 2023–24, an increase of approximately 107%."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Institutional coverage",
+   "question": "Match the PM SHRI coverage elements with their corresponding numbers:\n\nList-I\n a. Districts\n b. Blocks/ULBs\n c. Kendriya Vidyalayas\n d. Navodaya Vidyalayas\n\nList-II\n i. 620\n ii. 8,340\n iii. 913\n iv. 725",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "PM SHRI covers 725 districts and 8,340 blocks/ULBs, including 913 KVS and 620 NVS. Hence, the correct pairs are a-iv, b-ii, c-iii and d-i."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Teachers, DIET support and national education background",
+   "question": "How many of the following statements are correct?\n1. PM SHRI schools had 6,102 Sanskrit teachers, 1,994 Urdu teachers and 9,152 regional-language teachers according to UDISE+ 2025–26.\n2. DIET support under PM SHRI is up to ₹3 lakh per DIET and ₹2,500 per teacher.\n3. India had 14.71 lakh schools and 24.69 crore students, and the NEP structure is 5+3+4+4.\n4. DIET support is ₹3 lakh per teacher and ₹2,500 per DIET.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10",
+    "P2.F11"
+   ],
+   "explanation": "Exactly two statements are correct: Statements 1 and 2. The NEP structure is 5+3+3+4, not 5+3+4+4, and DIET support is up to ₹3 lakh per DIET and ₹2,500 per teacher, so Statements 3 and 4 are incorrect."
+  }
+ ]
+}

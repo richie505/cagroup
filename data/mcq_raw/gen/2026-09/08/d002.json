@@ -1,0 +1,324 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F2",
+  "P10.F4",
+  "P11.F2",
+  "P11.F3",
+  "P11.F4",
+  "P11.F5",
+  "P12.F2",
+  "P12.F3",
+  "P12.F4",
+  "P12.F5",
+  "P12.F6",
+  "P13.F2",
+  "P13.F3",
+  "P13.F4",
+  "P13.F5",
+  "P13.F6",
+  "P13.F7",
+  "P14.F3",
+  "P14.F4",
+  "P14.F6",
+  "P14.F7",
+  "P9.F2",
+  "P9.F3",
+  "P9.F4",
+  "P9.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "State-wise party switching",
+   "question": "According to the ADR and National Election Watch findings for 2022–2026, which State recorded the highest number of sitting legislators changing parties?",
+   "options": [
+    "Nagaland",
+    "West Bengal",
+    "Telangana",
+    "Chhattisgarh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "Nagaland recorded the highest number, with 32 sitting legislators changing parties. West Bengal recorded 20 and Telangana 9, so neither is the correct answer."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Recipient parties",
+   "question": "Which party received the largest number of legislators who switched parties during 2022–2026, according to the ADR findings?",
+   "options": [
+    "NPF",
+    "BJP",
+    "NCPI",
+    "Congress"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "NPF received the largest number of legislators, with 32. BJP received 29 and NCPI received 20, making both lower than NPF."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Anti-defection provisions",
+   "question": "Consider the following statements about the ADR proposals and the Tenth Schedule:\n1. ADR proposed that disqualification should be decided by the President or Governor on the advice of the Election Commission.\n2. The Tenth Schedule was introduced through the 52nd Constitutional Amendment in 1985.\n3. The current authority to decide disqualification under the Tenth Schedule is the President or Governor.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4",
+    "P9.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The current deciding authority is the Speaker or Chairman, not the President or Governor; therefore, statement 3 is incorrect."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Student mental-health findings",
+   "question": "The Supreme Court-appointed National Task Force examined student mental health in higher educational institutions. Consider the following statements:\n1. It found that 15% of students faced severe stress or anxiety, 9% had suicidal thoughts, and 34% felt like outsiders.\n2. The survey covered 2.43 lakh students, of whom 67% belonged to the SC, ST or OBC categories.\n3. The survey covered 2.34 lakh students, of whom 76% belonged to the SC, ST or OBC categories.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2"
+   ],
+   "explanation": "Statements 1 and 2 correctly state the National Task Force findings and survey profile. Statement 3 changes both survey figures: the correct figures are 2.43 lakh students and 67% from SC, ST or OBC categories."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Report submission deadline",
+   "question": "By what date was the Supreme Court-appointed National Task Force required to submit its final report to the Supreme Court?",
+   "options": [
+    "October 31, 2026",
+    "September 30, 2026",
+    "December 31, 2026",
+    "October 31, 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "The final report was to be submitted to the Supreme Court by October 31, 2026. The other dates do not match the specified deadline."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "WASH service gaps",
+   "question": "Match the school WASH service with the number of school-age children lacking it, according to the WHO–UNICEF findings for 2025.\n\nList-I\n a. Basic drinking water\n b. Basic sanitation\n c. Basic hygiene\n d. WHO establishment\n\nList-II\n i. 429 million\n ii. 460 million\n iii. 545 million\n iv. 1948\n\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2",
+    "P11.F3",
+    "P11.F4",
+    "P11.F5"
+   ],
+   "explanation": "The correct pairs are basic drinking water–429 million, basic sanitation–460 million, basic hygiene–545 million, and WHO establishment–1948. The other codes interchange these service figures or the year."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation headquarters",
+   "question": "Which option correctly identifies the founding year and headquarters of WHO and UNICEF?",
+   "options": [
+    "WHO—1948, Geneva; UNICEF—1946, New York",
+    "WHO—1946, New York; UNICEF—1948, Geneva",
+    "WHO—1945, Rome; UNICEF—1946, New York",
+    "WHO—1948, New York; UNICEF—1946, Geneva"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F5"
+   ],
+   "explanation": "WHO was established in 1948 with headquarters in Geneva, while UNICEF was established in 1946 with headquarters in New York. The other options interchange the organisations, years or headquarters."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of water structures",
+   "question": "Under the third edition of Jal Sanchay Jan Bhagidari and Catch the Rain in Chhattisgarh, how many structures were registered and how many were completed?",
+   "options": [
+    "79,775 registered and 77,719 completed",
+    "77,719 registered and 79,775 completed",
+    "79,775 registered and 77,195 completed",
+    "77,975 registered and 79,719 completed"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2"
+   ],
+   "explanation": "Chhattisgarh registered 79,775 structures, of which 77,719 were completed. The other options alter or reverse one or both figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Top districts",
+   "question": "Which of the following correctly lists districts included among the top-10 districts of Chhattisgarh under Jal Sanchay Jan Bhagidari and Catch the Rain?",
+   "options": [
+    "Surajpur, Mahasamund, Balod, Balodabazar–Bhatapara and Kabirdham",
+    "Raipur, Durg, Bilaspur, Korba and Bastar",
+    "Surajpur, Mahasamund, Raigarh, Korba and Kabirdham",
+    "Balod, Balodabazar–Bhatapara, Durg, Raipur and Bastar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "The listed districts are Surajpur, Mahasamund, Balod, Balodabazar–Bhatapara and Kabirdham. The other options replace some of these districts with places not identified in the finding."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Scheme launch and objective",
+   "question": "Consider the following statements:\nStatement A: Jal Sanchay Jan Bhagidari was launched in September 2024 to promote rainwater harvesting, recharge and the revival of defunct borewells.\nStatement B: Jal Shakti Abhiyan: Catch the Rain was launched in 2022 with the slogan “Catch the Rain, Where It Falls, When It Falls”.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F4",
+    "P12.F5"
+   ],
+   "explanation": "Statement A is correct: Jal Sanchay Jan Bhagidari was launched in September 2024 with those objectives. Statement B is false because Jal Shakti Abhiyan: Catch the Rain was launched in 2021, although the stated slogan is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ministry formation and State background",
+   "question": "Which option correctly combines the relevant background facts about the Jal Shakti Ministry and Chhattisgarh?",
+   "options": [
+    "Jal Shakti Ministry—formed in 2019 by merging the Water Resources and Drinking Water and Sanitation ministries; Chhattisgarh—formed on November 1, 2000, with Raipur as capital",
+    "Jal Shakti Ministry—formed in 2021 by merging the Water Resources and Drinking Water and Sanitation ministries; Chhattisgarh—formed on November 1, 2000, with Raipur as capital",
+    "Jal Shakti Ministry—formed in 2019; Chhattisgarh—formed on September 1, 2000, with Raipur as capital",
+    "Jal Shakti Ministry—formed in 2019 by merging the Water Resources and Drinking Water and Sanitation ministries; Chhattisgarh—formed on November 1, 2000, with Bilaspur as capital"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F6"
+   ],
+   "explanation": "The Jal Shakti Ministry was formed in 2019 through the merger of the two specified ministries. Chhattisgarh was formed on November 1, 2000, and its capital is Raipur."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Forest dependence and wild foods",
+   "question": "Match the findings in the FAO and Landscape Alliance report “Forests for Food” with the corresponding figures.\n\nList-I\n a. People depending on forests\n b. Maximum share of rural income in some regions\n c. Wild species used and eaten\n d. Share of daily protein from wild foods in remote communities\n\nList-II\n i. Up to 20%\n ii. 5 billion+\n iii. 50,000+ used and 10,000+ eaten\n iv. Up to 80%\n\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2",
+    "P13.F3"
+   ],
+   "explanation": "The correct pairs are 5 billion+ people, up to 20% of rural income, 50,000+ wild species used with 10,000+ eaten, and up to 80% of daily protein. The other options mismatch the report’s figures."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Forest ecosystem contributions",
+   "question": "How many of the following statements correctly reflect findings of the “Forests for Food” report?\n1. In 2022, 1.8 billion people, or 23%, depended on wood fuel for cooking.\n2. 410 million people depended on wood fuel to boil water.\n3. Pollinators account for 30% of crop production, while forested watersheds supply 85% or more of major cities.\n4. More than 2 billion people use forest medicinal plants.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F4",
+    "P13.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 1.8 billion people, representing 23%, depended on wood fuel for cooking, and 410 million used it to boil water. Statements 3 and 4 are incorrect because the correct figures are 35% for crop production and 1 billion+ users of forest medicinal plants."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Forest-loss trend",
+   "question": "Which option correctly describes the forest-loss findings reported for 2015–2025 and the change in net loss between the stated periods?",
+   "options": [
+    "Annual forest loss was 10.9 million hectares in 2015–2025; net loss fell from 10.7 million hectares in 1990–2000 to 4.12 million hectares in 2015–2025",
+    "Annual forest loss was 10.7 million hectares in 2015–2025; net loss fell from 10.9 million hectares in 1990–2000 to 4.12 million hectares in 2015–2025",
+    "Annual forest loss was 10.9 million hectares in 2015–2025; net loss rose from 4.12 million hectares in 1990–2000 to 10.7 million hectares in 2015–2025",
+    "Annual forest loss was 4.12 million hectares in 2015–2025; net loss fell from 10.7 million hectares in 1990–2000 to 10.9 million hectares in 2015–2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F6"
+   ],
+   "explanation": "The report recorded annual forest loss of 10.9 million hectares during 2015–2025. Net loss declined from 10.7 million hectares in 1990–2000 to 4.12 million hectares in 2015–2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Publisher and leadership",
+   "question": "Which option correctly identifies the headquarters of the FAO and the Director-General associated with the “Forests for Food” report?",
+   "options": [
+    "FAO—Rome; Director-General—Qu Dongyu",
+    "FAO—Geneva; Director-General—Qu Dongyu",
+    "FAO—Rome; Director-General—S. Ravindra Bhat",
+    "FAO—New York; Director-General—Qu Dongyu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F7"
+   ],
+   "explanation": "The FAO is headquartered in Rome, and its Director-General is Qu Dongyu. Geneva and New York are not the headquarters specified for FAO, while S. Ravindra Bhat is not its Director-General."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coral-reef disturbance and bleaching cycles",
+   "question": "Consider the following statements about the 7th GCRMN Status of Coral Reefs report:\n1. Major disturbances now occur every 4–6 years, compared with approximately 10 years earlier.\n2. More than 25% of reef area experienced over 4°C-weeks four or more times during 2019–2025.\n3. Mass bleaching episodes were recorded in 1998–99, 2010–11, 2016–17 and 2023–25.\n4. Major disturbances now occur every 8–10 years, compared with approximately 4–6 years earlier.\nWhich of the statements given above are correct?",
+   "options": [
+    "1, 2 and 3 only",
+    "1 and 2 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3",
+    "P14.F4"
+   ],
+   "explanation": "Statements 1, 2 and 3 correctly state the disturbance frequency, repeated heat exposure and mass-bleaching periods. Statement 4 reverses the reported trend: disturbances now occur every 4–6 years, rather than every 8–10 years."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "GCRMN and Indian reef locations",
+   "question": "Match the coral-reef references with the associated details.\n\nList-I\n a. Global Coral Reef Monitoring Network\n b. Lakshadweep reefs\n c. Andaman and Nicobar reefs\n d. Gulf of Kutch, Gulf of Mannar and Malvan reefs\n\nList-II\n i. Established in 1995 under the International Coral Reef Initiative\n ii. Atolls\n iii. Fringing reefs\n iv. Indian reef locations listed in the report\n\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F6",
+    "P14.F7"
+   ],
+   "explanation": "The Global Coral Reef Monitoring Network was established in 1995 under the International Coral Reef Initiative. Lakshadweep has atolls, the Andaman and Nicobar reefs are fringing reefs, and the Gulf of Kutch, Gulf of Mannar and Malvan are among the listed Indian reef locations."
+  }
+ ]
+}

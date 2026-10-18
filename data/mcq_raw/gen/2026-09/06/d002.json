@@ -1,0 +1,284 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": [
+  "P4.F2",
+  "P4.F3",
+  "P4.F4",
+  "P4.F5",
+  "P4.F6",
+  "P5.F10",
+  "P5.F11",
+  "P5.F12",
+  "P5.F13",
+  "P5.F14",
+  "P5.F15",
+  "P5.F16",
+  "P5.F17",
+  "P5.F18",
+  "P5.F19",
+  "P5.F20",
+  "P5.F21",
+  "P5.F22",
+  "P5.F23",
+  "P5.F6",
+  "P5.F7",
+  "P5.F8",
+  "P5.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Study period and methodology",
+   "question": "With reference to the NRSC (ISRO) analysis of Oceansat-3 data on the El Niño impact, consider the following statements:\n1. The analysis covered April–June data from 2023–2026.\n2. The productive zone contracted westward.\n3. The analysis combined OCM-3 chlorophyll data with Sea Surface Temperature Monitor data.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2",
+    "P4.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: NRSC (ISRO) analysed April–June data from 2023–2026 and found that the productive zone contracted westward. Statement 3 is incorrect because the analysis combined OCM-3 chlorophyll data with scatterometer winds, not Sea Surface Temperature Monitor data."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch details",
+   "question": "Oceansat-3 (EOS-06), the third-generation Oceansat, was launched on which date and by which launch vehicle from Sriharikota?",
+   "options": [
+    "November 26, 2022, by PSLV-C54",
+    "November 26, 2023, by PSLV-C54",
+    "November 26, 2022, by GSLV",
+    "October 26, 2022, by PSLV-C54"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "Oceansat-3 was launched on November 26, 2022, by PSLV-C54 from Sriharikota. The other options change the year, launch vehicle or date."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Payloads",
+   "question": "Which set of payloads was carried by Oceansat-3 (EOS-06)?",
+   "options": [
+    "Ocean Colour Monitor-3, Ku-band Scatterometer, Sea Surface Temperature Monitor and ARGOS",
+    "Ocean Colour Monitor-3, Ku-band Scatterometer, Synthetic Aperture Radar and ARGOS",
+    "Ocean Colour Monitor-2, Ku-band Scatterometer, Sea Surface Temperature Monitor and ARGOS",
+    "Ocean Colour Monitor-3, C-band Scatterometer, Sea Surface Temperature Monitor and ARGOS"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5"
+   ],
+   "explanation": "The payloads of Oceansat-3 were Ocean Colour Monitor-3, Ku-band Scatterometer (SCAT-3), Sea Surface Temperature Monitor and ARGOS. The other options alter one of the listed payloads."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Achievements",
+   "question": "Assertion (A): The NM-ICPS achievements included 1,146 technologies.\nReason (R): The NM-ICPS achievements included 1,329 start-ups.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F10"
+   ],
+   "explanation": "Assertion A is true because 1,146 technologies were among the achievements of NM-ICPS as of August 2026. Reason R is false: the figure 1,329 referred to products, while the number of start-ups was 1,136."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Technology Translation Research Parks",
+   "question": "Match the institutions associated with the Technology Translation Research Parks with their domains:\n\nList-I\n a. IIT Kanpur\n b. IISc Bengaluru\n c. IIT (ISM) Dhanbad\n d. IIT Indore\n\nList-II\n i. Cybersecurity\n ii. Robotics and AI\n iii. Mining\n iv. Digital healthcare\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F7",
+    "P5.F8",
+    "P5.F9"
+   ],
+   "explanation": "The correct pairs are IIT Kanpur–Cybersecurity, IISc Bengaluru–Robotics and AI, IIT (ISM) Dhanbad–Mining, and IIT Indore–Digital healthcare. The other codes interchange these institutional domains."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CHANAKYA expansion",
+   "question": "In the context of NM-ICPS achievements, CHANAKYA stands for:",
+   "options": [
+    "Comprehensive and Holistic Advancement of National Knowledge Yield and Analytics",
+    "Comprehensive and Holistic Advancement of National Knowledge, Youth and Analytics",
+    "Centralised and Holistic Advancement of National Knowledge Yield and Applications",
+    "Comprehensive and High-level Advancement of National Knowledge Yield and Analytics"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F11"
+   ],
+   "explanation": "CHANAKYA expands to Comprehensive and Holistic Advancement of National Knowledge Yield and Analytics. The other options change one or more words in the expansion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "BharatGen foundation model",
+   "question": "Which BharatGen model is a foundation model with 17 billion parameters covering all 22 Scheduled languages?",
+   "options": [
+    "Param-2",
+    "Shrutam",
+    "Sooktam",
+    "Patram"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F12"
+   ],
+   "explanation": "Param-2 is the BharatGen foundation model with 17 billion parameters for all 22 Scheduled languages. Shrutam is for speech-to-text, Sooktam for text-to-speech and Patram for documents."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "BharatGen speech-to-text",
+   "question": "Which one of the following statements about BharatGen is incorrect?",
+   "options": [
+    "Shrutam is a speech-to-text model for 12 languages.",
+    "Shrutam is a speech-to-text model for 22 languages.",
+    "Sooktam is a text-to-speech model for 12 languages.",
+    "Param-2 is a foundation model covering all 22 Scheduled languages."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F12",
+    "P5.F13",
+    "P5.F14"
+   ],
+   "explanation": "The incorrect statement changes Shrutam’s language coverage to 22 languages. Shrutam is a speech-to-text model for 12 languages; 22 Scheduled languages is associated with Param-2."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "BharatGen text-to-speech",
+   "question": "Which BharatGen model is designed for text-to-speech in 12 languages?",
+   "options": [
+    "Sooktam",
+    "Shrutam",
+    "Patram",
+    "Param-2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F14"
+   ],
+   "explanation": "Sooktam is BharatGen’s text-to-speech model for 12 languages. Shrutam is the speech-to-text model, while Patram is for documents and Param-2 is the foundation model."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "BharatGen documents framework",
+   "question": "Which BharatGen model is associated with documents and the DocBodh framework?",
+   "options": [
+    "Patram",
+    "Param-2",
+    "Sooktam",
+    "Shrutam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F15"
+   ],
+   "explanation": "Patram is the BharatGen model for documents and is associated with the DocBodh framework. The other models have foundation-model, text-to-speech or speech-to-text purposes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Domain-specific BharatGen models",
+   "question": "Which set correctly matches the BharatGen models with their purposes?",
+   "options": [
+    "Ayur Param—Ayurveda; Agri Param—agriculture; Legal Param—legal",
+    "Ayur Param—agriculture; Agri Param—legal; Legal Param—Ayurveda",
+    "Ayur Param—legal; Agri Param—Ayurveda; Legal Param—agriculture",
+    "Ayur Param—documents; Agri Param—speech-to-text; Legal Param—text-to-speech"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F16"
+   ],
+   "explanation": "Ayur Param, Agri Param and Legal Param are intended respectively for Ayurveda, agriculture and legal applications. The other options interchange or replace these purposes."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "CPS applications and institutions",
+   "question": "Match the applications with their associated institutions or descriptions:\n\nList-I\n a. CharakDT\n b. Agri-IoT Farm Management System\n c. TEXMiN\n d. Indigenous 5G-Advanced ORAN Massive MIMO Radio Unit\n\nList-II\n i. Drishti CPS Foundation, IIT Indore\n ii. IIT Bombay\n iii. Mining drones transmitting data up to 50 km\n iv. IIIT Bengaluru\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F17",
+    "P5.F18",
+    "P5.F19",
+    "P5.F20"
+   ],
+   "explanation": "CharakDT is associated with Drishti CPS Foundation at IIT Indore; the Agri-IoT Farm Management System with IIT Bombay; TEXMiN with mining drones transmitting data up to 50 km; and the 5G-Advanced ORAN Massive MIMO Radio Unit with IIIT Bengaluru. The other codes interchange these applications and institutions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cybersecurity application",
+   "question": "Which NM-ICPS application is associated with the IHUB NTIHAC Foundation at IIT Kanpur?",
+   "options": [
+    "IT-OT Security Operations Centre and crypto-forensic tools",
+    "Digital twin of the human body",
+    "Accident-prone spot alerts piloted in Nagpur",
+    "India’s first proving ground for autonomous navigation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F21"
+   ],
+   "explanation": "The IHUB NTIHAC Foundation at IIT Kanpur developed an IT-OT Security Operations Centre and crypto-forensic tools. The other options refer to applications associated with IIT Indore, IISc’s robotics hub and TiHAN Foundation respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First proving ground",
+   "question": "Which NM-ICPS application was described as India’s first proving ground for autonomous navigation?",
+   "options": [
+    "TiHAN Foundation at IIT Hyderabad",
+    "IHUB NTIHAC Foundation at IIT Kanpur",
+    "Drishti CPS Foundation at IIT Indore",
+    "TEXMiN at IIT (ISM) Dhanbad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F22"
+   ],
+   "explanation": "TiHAN Foundation at IIT Hyderabad was described as India’s first proving ground for autonomous navigation. The other institutions are associated with cybersecurity, a digital human-body twin or mining applications."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "The iRASTE application, which provides accident-prone spot alerts, was piloted in which place?",
+   "options": [
+    "Nagpur",
+    "Bengaluru",
+    "Kanpur",
+    "Dhanbad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F23"
+   ],
+   "explanation": "iRASTE, associated with the IISc robotics hub, was piloted in Nagpur for accident-prone spot alerts. The other places are linked to institutions or domains in the NM-ICPS ecosystem, not this pilot."
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": [
+  "P4.F6",
+  "P5.F10"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "El Niño impact on marine productivity",
+   "question": "According to the Oceansat-3 findings on the developing El Niño in the tropical Pacific, what is the effect of weakened upwelling on marine productivity?",
+   "options": [
+    "It increases phytoplankton levels",
+    "It lowers phytoplankton levels",
+    "It has no effect on phytoplankton levels",
+    "It reverses the decline in phytoplankton levels"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F6"
+   ],
+   "explanation": "El Niño weakens upwelling, which leads to lower phytoplankton levels. The tempting opposite option is incorrect because weakened, not strengthened, upwelling is associated with reduced phytoplankton."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "NM-ICPS achievements",
+   "question": "As of August 2026, how many of the following statements correctly describe achievements of the National Mission on Interdisciplinary Cyber-Physical Systems?\n\n1. The mission had developed 1,146 technologies.\n2. The mission had produced 1,329 start-ups.\n3. The mission had supported 5,824 products.\n4. The mission had established 24,000+ international collaborations.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F10"
+   ],
+   "explanation": "Only one statement is correct: 1,146 technologies had been developed. The most tempting wrong statement is 2, which changes the category: 1,329 refers to products, while the number of start-ups was 1,136."
+  }
+ ]
+}

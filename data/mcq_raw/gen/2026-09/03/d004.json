@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  14
+ ],
+ "only": [
+  "P14.F2",
+  "P14.F3",
+  "P14.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Applicable regulation and UGC background",
+   "question": "In the context of Birkbeck, University of London’s Bengaluru campus, consider the following statements:\n1. The campus is governed by the UGC (Setting Up and Operation of Campuses of Foreign Higher Educational Institutions in India) Regulations, 2023.\n2. The UGC is a statutory body associated with the UGC Act, 1956, and New Delhi.\n3. The NEP 2023 invites top foreign universities to establish campuses in India.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2",
+    "P14.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the applicable regulations are the 2023 UGC regulations, and the UGC is statutory, associated with the UGC Act, 1956, and New Delhi. Statement 3 is incorrect because the relevant policy is NEP 2020, not NEP 2023."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Royal Charter and institutional character",
+   "question": "The University of London, associated with the Birkbeck campus proposal in Bengaluru, was established under a Royal Charter of which year and is best described as what?",
+   "options": [
+    "1836; a federation of institutions",
+    "1956; a statutory higher-education regulator",
+    "2020; a policy platform for foreign universities",
+    "2023; a regulatory framework for foreign campuses"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F4"
+   ],
+   "explanation": "The University of London received its Royal Charter in 1836 and is a federation of institutions. The other options combine the University of London with the UGC Act, NEP 2020, or the 2023 foreign-campus regulations."
+  }
+ ]
+}

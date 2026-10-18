@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  26,
+  27,
+  28,
+  29
+ ],
+ "only": [
+  "P28.F3",
+  "P28.F5",
+  "P29.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "SARAL AI and institutional detail",
+   "question": "Consider the following statements about SARAL AI and MatsyaMetri:\n1. SARAL AI, used by CSIR-NIScPR, converts research papers into short videos.\n2. MatsyaMetri was developed by CMFRI, which was established in 1947 at Kochi.\n3. SARAL AI is an initiative of BIRAC.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F3",
+    "P28.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: SARAL AI is used by CSIR-NIScPR to turn research papers into short videos, while CMFRI was established in 1947 at Kochi. Statement 3 is incorrect because SARAL AI is an initiative of ANRF, not BIRAC."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Participating organisations",
+   "question": "Which organisations took part in the First International Space Summit in Paris in September 2026?",
+   "options": [
+    "NASA, ESA and CNSA",
+    "NASA, ISRO and JAXA",
+    "ESA, Roscosmos and CNSA",
+    "ISRO, CNSA and Roscosmos"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F4"
+   ],
+   "explanation": "NASA, ESA and CNSA took part in the First International Space Summit. The summit addressed issues including Earth observation for climate, orbital sustainability, space governance and equitable access; the other combinations include organisations not identified as participants."
+  }
+ ]
+}

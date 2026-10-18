@@ -1,0 +1,65 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F1",
+  "P2.F4",
+  "P2.F6",
+  "P3.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Approval and outlay",
+   "question": "With reference to the semiconductor programmes in India, consider the following statements:\nStatement A: Semicon 2.0 was approved by the Union Cabinet in July 2026 with an outlay of ₹1,27,500 crore.\nStatement B: Semicon 1.0 was approved in December 2021 with an outlay of ₹76,000 crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F4"
+   ],
+   "explanation": "Both statements are correct. Semicon 2.0 received Union Cabinet approval in July 2026 with an outlay of ₹1,27,500 crore, while Semicon 1.0 was approved in December 2021 with an outlay of ₹76,000 crore."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Chip-design ecosystem",
+   "question": "Which of the following correctly describes the achievements under Semicon 1.0 in chip design and talent development?",
+   "options": [
+    "About 24 chip-design projects, tools for more than 1 lakh engineers in 500 organisations, and more than 300 chip designs",
+    "About 300 chip-design projects, tools for 24 engineers in 500 organisations, and more than 1 lakh chip designs",
+    "About 500 chip-design projects, tools for 24 lakh engineers in 300 organisations, and more than 1 lakh chip designs",
+    "About 1 lakh chip-design projects, tools for 300 engineers in 24 organisations, and 500 chip designs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "Semicon 1.0 supported about 24 chip-design projects, provided tools to more than 1 lakh engineers in 500 organisations, and enabled more than 300 chip designs. The other options interchange or alter these figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of radars planned",
+   "question": "Under the Mission Mausam plans associated with the 51st Doppler Weather Radar at Sambalpur, how many more radars were planned?",
+   "options": [
+    "40 more radars",
+    "50 more radars",
+    "100 more radars",
+    "250 more radars"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "Mission Mausam planned 40 more radars. The figures 50, 100 and 250 do not represent the stated number of additional radars planned."
+  }
+ ]
+}

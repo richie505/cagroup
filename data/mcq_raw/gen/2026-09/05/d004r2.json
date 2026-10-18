@@ -1,0 +1,89 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19,
+  20,
+  21
+ ],
+ "only": [
+  "P16.F4",
+  "P16.F6",
+  "P20.F3",
+  "P20.F4",
+  "P21.F3",
+  "P21.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Meeting held alongside",
+   "question": "The 2nd BIMSTEC Nodal Group on Traditional Medicine Knowledge was held alongside which gathering?",
+   "options": [
+    "The 3rd BIMSTEC Conference on Traditional Medicine Knowledge, Genetic Resources and IPR",
+    "The 11th BIMSTEC JWG on Counter Terrorism and Transnational Crime",
+    "The 2nd BIMSTEC Nodal Group on Traditional Medicine Knowledge",
+    "The BIMSTEC JWG on Traditional Medicine Knowledge"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F4"
+   ],
+   "explanation": "The 2nd BIMSTEC Nodal Group on Traditional Medicine Knowledge was held alongside the 3rd BIMSTEC Conference on Traditional Medicine Knowledge, Genetic Resources and IPR. The 11th BIMSTEC JWG on Counter Terrorism and Transnational Crime was a separate meeting."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Organisation and designation",
+   "question": "With reference to the JWG-CTTC, which of the following statements is incorrect?",
+   "options": [
+    "JWG-CTTC stands for Joint Working Group on Counter Terrorism and Transnational Crime.",
+    "Suhel Ajaz Khan is Additional Secretary (CT) in the Ministry of External Affairs.",
+    "Suhel Ajaz Khan is Additional Secretary (CT) in the Ministry of Home Affairs.",
+    "The abbreviation CTTC includes the terms Counter Terrorism and Transnational Crime."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P16.F6"
+   ],
+   "explanation": "The incorrect statement places Suhel Ajaz Khan in the Ministry of Home Affairs. He is Additional Secretary (CT) in the Ministry of External Affairs, and JWG-CTTC means Joint Working Group on Counter Terrorism and Transnational Crime."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Greenland base and investment scrutiny",
+   "question": "With reference to Greenland under the US–Denmark–Greenland security arrangement, consider the following statements:\n\n1. Nuuk is the capital of Greenland.\n2. Pituffik Space Base is a US base in Greenland.\n3. Sensitive investments in Greenland face Danish security scrutiny.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F3",
+    "P20.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Nuuk is Greenland’s capital, and Pituffik Space Base is a US base there. Statement 3 is incorrect because sensitive investments face US security scrutiny, not Danish security scrutiny."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Ramsar conservation concepts",
+   "question": "Match List-I with List-II regarding Ramsar wetland conservation concepts.\n\nList-I\n(a) Montreux Record\n(b) Wise use of all wetlands\n(c) Designation and management of Ramsar Sites\n(d) International cooperation\n\nList-II\n(i) A pillar of the Ramsar Convention\n(ii) Ramsar sites with adverse ecological change\n(iii) A pillar of the Ramsar Convention\n(iv) A pillar of the Ramsar Convention",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F3",
+    "P21.F5"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv. The Montreux Record concerns Ramsar sites with adverse ecological change, while wise use, designation and management of Ramsar Sites, and international cooperation are the three Ramsar pillars."
+  }
+ ]
+}

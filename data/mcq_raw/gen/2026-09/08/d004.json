@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  21
+ ],
+ "only": [
+  "P21.F1",
+  "P21.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Study authors",
+   "question": "Who conducted the 2024 study on countries’ contributions to global warming?",
+   "options": [
+    "V.K. Patel of Cranfield University and P.A. Taksal of IIT Kharagpur",
+    "V.K. Patel of IIT Kharagpur and P.A. Taksal of Cranfield University",
+    "V.K. Patel of Cranfield University and P.A. Taksal of the EU",
+    "V.K. Patel of the EU and P.A. Taksal of IIT Kharagpur"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F1"
+   ],
+   "explanation": "The study was conducted by V.K. Patel of Cranfield University and P.A. Taksal of IIT Kharagpur. The other options incorrectly interchange or replace their institutional affiliations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Warming contribution",
+   "question": "According to the 2024 study on countries’ contributions to global warming, which entity had a warming contribution of 0.17–0.20°C?",
+   "options": [
+    "EU",
+    "USA",
+    "China",
+    "Russia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F4"
+   ],
+   "explanation": "The EU’s warming contribution was estimated at 0.17–0.20°C. The USA, China and Russia were associated with different warming-contribution figures in the study."
+  }
+ ]
+}

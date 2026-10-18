@@ -1,0 +1,232 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P10.F3",
+  "P7.F1",
+  "P7.F10",
+  "P7.F11",
+  "P7.F12",
+  "P7.F13",
+  "P7.F2",
+  "P7.F3",
+  "P7.F4",
+  "P7.F5",
+  "P9.F1",
+  "P9.F10",
+  "P9.F13",
+  "P9.F3",
+  "P9.F4",
+  "P9.F5",
+  "P9.F6",
+  "P9.F7",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Launch details and phase-wise works",
+   "question": "With reference to Palle Panduga 3.0 in Andhra Pradesh, consider the following statements:\n1. It was launched on September 29, 2026, at Udayagiri in Nellore district.\n2. The Centre's share was ₹5,694 crore and the State's share was ₹5,391 crore.\n3. Phase 1.0 included 4,000 km of cement roads, 22,514 cattle sheds, 21,000 farm ponds and horticulture on 64,000 acres.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct. Palle Panduga 3.0 was launched at Udayagiri in Nellore district, while Phase 1.0 had the listed works. Statement 2 reverses the Centre's ₹5,391 crore and the State's ₹5,694 crore shares."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Phase 3.0 targets",
+   "question": "Consider the following statements:\nStatement A: Under Phase 3.0, horticulture had a target of 64,000 acres at a cost of ₹225 crore.\nStatement B: The target for Magic Drains under Phase 3.0 was 32 km at a cost of ₹110 crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F10",
+    "P7.F11"
+   ],
+   "explanation": "Both statements are false. Phase 3.0 horticulture had a target of 50,000 acres at ₹225 crore, while the Magic Drains target was 1,000 km at ₹110 crore. The traps are the altered figures of 64,000 acres and 32 km."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Phase 3.0 works and Phase 2.0 details",
+   "question": "Assertion (A): Palle Panduga 3.0 included bus shelters, gram panchayat buildings and Rachabandas at a cost of ₹200 crore.\nReason (R): Phase 2.0 also had 15,750 cattle sheds, 15,500 water troughs and 82,000 soak pits.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F12",
+    "P7.F13"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the Phase 2.0 figures for cattle sheds, water troughs and soak pits do not explain the cost of the Phase 3.0 civic works."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Magic Drains cost",
+   "question": "Under Palle Panduga 3.0, what were the target and cost for Magic Drains?",
+   "options": [
+    "1,000 km and ₹110 crore",
+    "32 km and ₹110 crore",
+    "1,000 km and ₹200 crore",
+    "50,000 acres and ₹225 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "The Magic Drains target was 1,000 km and the cost was ₹110 crore. The options containing 32 km, ₹200 crore and 50,000 acres combine this item with figures from other works."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Phase 2.0 works",
+   "question": "Which combination correctly describes the works listed for Phase 2.0 of Palle Panduga?",
+   "options": [
+    "2,500 km of CC roads, 8,300 km of BT roads, 86,000 farm ponds and 32 km of Magic Drains",
+    "4,000 km of cement roads, 22,514 cattle sheds, 21,000 farm ponds and horticulture on 64,000 acres",
+    "6,000 km of cement roads, 9,500 km of BT roads, 22,000 Mini Gokulams and horticulture on 50,000 acres",
+    "1,000 km of Magic Drains, bus shelters, gram panchayat buildings and Rachabandas at ₹200 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "Phase 2.0 included 2,500 km of CC roads, 8,300 km of BT roads, 86,000 farm ponds and 32 km of Magic Drains. The other options describe Phase 1.0 or Phase 3.0 works."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Export rank and leading States",
+   "question": "Match the export rank in List-I with the corresponding State in List-II according to DGFT data for 2025–26.\n\nList-I\n a. Rank 1\n b. Rank 2\n\nList-II\n i. Gujarat\n ii. Maharashtra\n iii. Tamil Nadu\n iv. Karnataka",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-iii, b-iv",
+    "a-iv, b-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "The correct pairs are a-i and b-ii: Gujarat ranked first and Maharashtra ranked second. Tamil Nadu and Karnataka occupied the third and fourth positions respectively, so the other codes are incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Export rank and State",
+   "question": "Match the export rank in List-I with the corresponding State in List-II according to DGFT data for 2025–26.\n\nList-I\n a. Rank 3\n b. Rank 4\n\nList-II\n i. Karnataka\n ii. Tamil Nadu\n iii. Uttar Pradesh\n iv. Haryana",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-iii, b-iv",
+    "a-iv, b-iii"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F5",
+    "P9.F6"
+   ],
+   "explanation": "The correct pairs are a-ii and b-i: Tamil Nadu ranked third and Karnataka ranked fourth. Uttar Pradesh and Haryana ranked fifth and sixth, respectively, not third or fourth."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Export rank",
+   "question": "Which State ranked fifth in India's merchandise exports in 2025–26 according to DGFT data?",
+   "options": [
+    "Uttar Pradesh",
+    "Haryana",
+    "Andhra Pradesh",
+    "Telangana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F7"
+   ],
+   "explanation": "Uttar Pradesh ranked fifth with merchandise exports of ₹2.01 lakh crore. Haryana ranked sixth, while Andhra Pradesh and Telangana ranked seventh and eighth respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Export rank",
+   "question": "Which State ranked sixth in India's merchandise exports in 2025–26 according to DGFT data?",
+   "options": [
+    "Haryana",
+    "Uttar Pradesh",
+    "Andhra Pradesh",
+    "Telangana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F8"
+   ],
+   "explanation": "Haryana ranked sixth with exports of ₹1.82 lakh crore. Uttar Pradesh was fifth, Andhra Pradesh seventh and Telangana eighth."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Ranks of Andhra Pradesh and Telangana",
+   "question": "According to DGFT data for 2025–26, how many of the following statements are correct?\n1. Andhra Pradesh ranked seventh with merchandise exports of ₹1.77 lakh crore.\n2. Telangana ranked eighth with merchandise exports of ₹1.23 lakh crore.\n3. Andhra Pradesh ranked sixth with merchandise exports of ₹1.77 lakh crore.\n4. Telangana ranked seventh with merchandise exports of ₹1.23 lakh crore.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F9",
+    "P9.F10"
+   ],
+   "explanation": "Only two statements are correct: Andhra Pradesh ranked seventh and Telangana ranked eighth. Statements 3 and 4 incorrectly interchange their ranks."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "DGFT mandate and administrative location",
+   "question": "Which organisation, headquartered in New Delhi under the Department of Commerce, Ministry of Commerce and Industry, implements the Foreign Trade Policy?",
+   "options": [
+    "Directorate General of Foreign Trade",
+    "Special Assistance to States for Capital Investment",
+    "Bharat Audyogik Vikas Yojana",
+    "National Industrial Corridor Development and Implementation Trust"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F13"
+   ],
+   "explanation": "The Directorate General of Foreign Trade implements the Foreign Trade Policy and is associated with the Department of Commerce, Ministry of Commerce and Industry, New Delhi. The other options refer to a capital-investment assistance, an industrial-development scheme and an industrial-corridor organisation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Agreement partners under BHAVYA",
+   "question": "Under BHAVYA-related industrial park development in Andhra Pradesh, agreements were signed between which two organisations?",
+   "options": [
+    "APIIC and NICDIT",
+    "DGFT and the Department of Commerce",
+    "The Ministry of Commerce and Industry and NABARD",
+    "APIIC and the Ministry of Finance"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "The agreements were between APIIC and NICDIT. The other options combine organisations or departments associated with different facts and do not identify the agreement partners."
+  }
+ ]
+}

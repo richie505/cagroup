@@ -1,0 +1,130 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  23,
+  24,
+  25,
+  26
+ ],
+ "only": [
+  "P23.F10",
+  "P23.F11",
+  "P23.F12",
+  "P23.F13",
+  "P23.F14",
+  "P23.F15",
+  "P23.F16",
+  "P23.F17",
+  "P24.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "District rank — most workers",
+   "question": "In the Andhra Pradesh district tables of the ASUSE data, which district had the most workers at Rank 3?",
+   "options": [
+    "Prakasam",
+    "YSR Kadapa",
+    "NTR",
+    "East Godavari"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F10",
+    "P23.F11",
+    "P23.F12"
+   ],
+   "explanation": "Prakasam had the most workers at Rank 3, with 2.88 lakh workers. YSR Kadapa was associated with Rank 3 for most enterprises, while NTR was at Rank 4 for most enterprises."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "District rank — most workers",
+   "question": "Which district recorded the most workers at Andhra Pradesh Rank 4 in the ASUSE district tables?",
+   "options": [
+    "East Godavari",
+    "Kakinada",
+    "Tirupati",
+    "West Godavari"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F11",
+    "P23.F13",
+    "P23.F14",
+    "P23.F15"
+   ],
+   "explanation": "East Godavari recorded the most workers at Rank 4, with 2.76 lakh workers. Kakinada and Tirupati were associated with the most workers at Ranks 6 and 7, respectively, while West Godavari was associated with Rank 8."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "District rank — enterprises and workers",
+   "question": "Consider the following statements:\n\nStatement A: At Andhra Pradesh Rank 5, Sri Sathya Sai had the most enterprises and the most workers.\nStatement B: At Andhra Pradesh Rank 6, Tirupati had the most enterprises and Kakinada had the most workers.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F12",
+    "P23.F13"
+   ],
+   "explanation": "Both statements are true. Sri Sathya Sai had 1.82 lakh enterprises and 2.61 lakh workers at Rank 5, while Tirupati and Kakinada were the corresponding most-enterprise and most-worker districts at Rank 6."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "District ranks 7–9",
+   "question": "With reference to the Andhra Pradesh district tables in the ASUSE data, consider the following statements:\n\n1. At Rank 7, Srikakulam had the most enterprises and Tirupati had the most workers.\n2. At Rank 8, West Godavari had the most enterprises and West Godavari had the most workers.\n3. At Rank 9, East Godavari had the most enterprises and West Godavari had the most workers.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P23.F14",
+    "P23.F15",
+    "P23.F16"
+   ],
+   "explanation": "Statements 1 and 3 are correct. Statement 2 is incorrect because West Godavari had the most enterprises at Rank 8, but Krishna had the most workers there; West Godavari had the most workers at Rank 9."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "District rank — Rank 10",
+   "question": "Which district had both the most enterprises and the most workers at Andhra Pradesh Rank 10 in the ASUSE district tables?",
+   "options": [
+    "Eluru",
+    "Sri Sathya Sai",
+    "Tirupati",
+    "Krishna"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F12",
+    "P23.F13",
+    "P23.F15",
+    "P23.F17"
+   ],
+   "explanation": "Eluru had both the most enterprises, 1.67 lakh, and the most workers, 2.20 lakh, at Rank 10. Sri Sathya Sai was associated with Rank 5, Tirupati with Rank 6 for most enterprises, and Krishna with Rank 8 for most workers."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Malaria burden — district and year",
+   "question": "In Alluri Sitarama Raju area, what malaria-case figure was reported for 2025 in the tribal Andhra Pradesh data?",
+   "options": [
+    "2024: approximately 3,690",
+    "2025: 3,500+",
+    "2024: 3,500+",
+    "2025: approximately 3,690"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P24.F5"
+   ],
+   "explanation": "Alluri Sitarama Raju area recorded 3,500+ malaria cases in 2025, compared with approximately 3,690 in 2024. The figure of approximately 3,690 belongs to 2024, not 2025."
+  }
+ ]
+}

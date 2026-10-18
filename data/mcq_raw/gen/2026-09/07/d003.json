@@ -1,0 +1,82 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10
+ ],
+ "only": [
+  "P10.F4",
+  "P9.F3",
+  "P9.F4",
+  "P9.F5",
+  "P9.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Project connectivity and reservoir",
+   "question": "Consider the following statements:\nStatement A: The Kalpasar Project's road–rail corridor is expected to reduce the Bhavnagar–South Gujarat distance to about 30 km.\nStatement B: The project envisages a roughly 30-km dam across the Gulf of Khambhat, creating a freshwater reservoir for irrigation covering more than 10 lakh hectares, mainly in Saurashtra.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "Statement B is correct: the project proposes a roughly 30-km dam across the Gulf of Khambhat and irrigation for more than 10 lakh hectares, mainly in Saurashtra. Statement A is incorrect because the road–rail corridor is expected to reduce the Bhavnagar–South Gujarat distance to about 60 km, not 30 km."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Renewable-energy plan",
+   "question": "What renewable-energy capacity is planned under the Kalpasar Project?",
+   "options": [
+    "1,000 MW wind and 1,500 MW solar",
+    "1,500 MW wind and 1,000 MW solar",
+    "1,000 MW wind and 1,000 MW solar",
+    "1,500 MW wind and 1,500 MW solar"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F5"
+   ],
+   "explanation": "The Kalpasar Project's renewable plan comprises about 1,500 MW of wind power and 1,000 MW of solar power. The most tempting alternative reverses the wind and solar capacities."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation and headquarters",
+   "question": "Which organisation, estimated to have been established in 1945, is headquartered in New Delhi and functions under the Ministry of Jal Shakti in the Kalpasar Project context?",
+   "options": [
+    "Central Water Commission",
+    "Deltares",
+    "Delft University of Technology",
+    "Gujarat's Kalpasar Department"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F6"
+   ],
+   "explanation": "The Central Water Commission is estimated to have been established in 1945, is headquartered in New Delhi, and functions under the Ministry of Jal Shakti. Deltares and Delft University of Technology are Netherlands-based partners mentioned in the project context, not the organisation described here."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State formation and capital",
+   "question": "Which pair correctly states the date of Haryana's formation and its capital?",
+   "options": [
+    "November 1, 1966 — Chandigarh",
+    "September 24, 2026 — New Delhi",
+    "November 1, 1966 — Gujarat",
+    "September 24, 2026 — Chandigarh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "Haryana was formed on November 1, 1966, and its capital is Chandigarh. The other options alter either the formation date or the capital."
+  }
+ ]
+}

@@ -1,0 +1,252 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F3",
+  "P4.F2",
+  "P4.F4",
+  "P4.F7",
+  "P5.F2",
+  "P5.F3",
+  "P6.F3",
+  "P6.F4",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7",
+  "P7.F2",
+  "P7.F3",
+  "P7.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Presidential waiver procedure",
+   "question": "Consider the following statements:\nStatement A: A presidential waiver under the Lindsey O. Graham Sanctioning Russia and Iran Act, 2026 requires written national-interest certification and a report to Congress.\nStatement B: The USTR must review the waiver within 180 days.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Both statements are true. The waiver requires written national-interest certification and a report to Congress, while the USTR review must take place within 180 days."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "India’s exposure to Russian energy and US trade",
+   "question": "With reference to India’s exposure under the US Sanctioning Russia and Iran Act, 2026, consider the following statements:\n1. Russia supplied more than 51% of India’s crude imports in July 2026.\n2. The price of oil was above $100 per barrel and the Strait of Hormuz was constrained.\n3. The United States accounted for approximately 50% of India’s goods exports.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Russia supplied more than 51% of India’s crude imports, while oil was above $100 per barrel and the Strait of Hormuz was constrained. Statement 3 is incorrect because the United States accounted for approximately 20% of India’s goods exports, not 50%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Earlier punitive tariff",
+   "question": "What was the status of the earlier 25% punitive tariff imposed on India through an Executive Order in the context of the US trade regime in 2026?",
+   "options": [
+    "It was upheld by the US Supreme Court",
+    "The broader regime was struck down by the US Supreme Court in February 2026",
+    "It was converted into a 50% tariff on steel, aluminium and copper",
+    "It was replaced by a 10% tariff under Section 301"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "The broader tariff regime connected with the earlier 25% punitive tariff was struck down by the US Supreme Court in February 2026. The 50% rate belongs to Section 232, while the 10% rate belongs to Section 301."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Section 301 and Section 232 tariffs",
+   "question": "How many of the following statements regarding the tariff provisions affecting India are correct?\n1. Section 301 of the Trade Act, 1974 imposed a 10% tariff on India in connection with a forced labour probe.\n2. Section 232 of the Trade Expansion Act, 1962 imposed 50% tariffs on steel, aluminium and copper.\n3. Section 301 imposed a 50% tariff on steel, aluminium and copper.\n4. Section 232 imposed a 10% tariff on India in connection with a forced labour probe.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "Only two statements are correct: Section 301 involved a 10% tariff on India linked to a forced labour probe, and Section 232 involved 50% tariffs on steel, aluminium and copper. Statements 3 and 4 interchange the two provisions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Trend in India’s exports to the US",
+   "question": "India’s exports to the United States showed which change between the two periods mentioned in the 2026 trade assessment?",
+   "options": [
+    "They rose from 3.8% to 18%",
+    "They rose from 18% to 25%",
+    "They slowed from 18% during April–August 2025 to 3.8% during April 2025–February 2026",
+    "They slowed from 25% during April–August 2025 to 10% during April 2025–February 2026"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "India’s exports to the US increased by 18% during April–August 2025 but slowed to 3.8% during April 2025–February 2026. The other options use figures not associated with these two periods."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic partnership status",
+   "question": "India and Russia established which successive partnership frameworks?",
+   "options": [
+    "Strategic Partnership in 2000 and Special and Privileged Strategic Partnership in 2010",
+    "Strategic Partnership in 2007 and Special and Privileged Strategic Partnership in 2016",
+    "Strategic Partnership in 2010 and Special and Privileged Strategic Partnership in 2026",
+    "Strategic Partnership in 1991 and Special and Privileged Strategic Partnership in 2000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "India and Russia established the Strategic Partnership in 2000 and the Special and Privileged Strategic Partnership in 2010. The other year combinations do not match the two partnership milestones."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Treaty in abeyance",
+   "question": "Since which event has India kept the Indus Waters Treaty in abeyance?",
+   "options": [
+    "The signing of the treaty in Karachi on September 19, 1960",
+    "The Pahalgam terror attack on April 22, 2025",
+    "The establishment of the Permanent Court of Arbitration in 1899",
+    "The division of the rivers into eastern and western groups"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "The Indus Waters Treaty has been in abeyance since the Pahalgam terror attack of April 22, 2025. The Karachi signing and the establishment of the Permanent Court of Arbitration are earlier background events."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Indus Waters Treaty background",
+   "question": "Match List-I with List-II regarding the Indus Waters Treaty and the Indus River.\n\nList-I\n a. Date of signing of the Indus Waters Treaty\n b. Place of signing\n c. Institution that brokered the treaty\n d. Drainage destination of the Indus River\n\nList-II\n i. Arabian Sea\n ii. September 19, 1960\n iii. World Bank\n iv. Karachi",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F7"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i: the treaty was signed on September 19, 1960, at Karachi, was brokered by the World Bank, and the Indus drains into the Arabian Sea. The other codes interchange these dates, places, institutions or geographical features."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Visegrád Group and UNSC composition",
+   "question": "Consider the following statements:\nStatement A: The Visegrád Group was formed in 1991 at Visegrád in Hungary and comprises the Czech Republic, Hungary, Poland and Slovakia.\nStatement B: The United Nations Security Council has 15 members, including 5 permanent members and 10 non-permanent members with 2-year terms.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "Both statements are true. The Visegrád Group has the four listed members and was formed in 1991, while the Security Council consists of 5 permanent and 10 non-permanent members, the latter serving 2-year terms."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "India–Vietnam partnership milestones",
+   "question": "Match the India–Vietnam partnership milestones with their years.\n\nList-I\n a. Establishment of diplomatic relations\n b. Strategic Partnership\n c. Comprehensive Strategic Partnership\n d. Enhanced Comprehensive Strategic Partnership\n\nList-II\n i. 2016\n ii. 1972\n iii. 2026\n iv. 2007",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F4",
+    "P6.F5",
+    "P6.F6"
+   ],
+   "explanation": "The correct sequence is a-ii, b-iv, c-i and d-iii: diplomatic relations began in 1972, the Strategic Partnership was established in 2007, the Comprehensive Strategic Partnership in 2016, and the Enhanced Comprehensive Strategic Partnership in 2026. The other options shift these milestones to incorrect years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Vietnam’s capital, currency and President",
+   "question": "Which of the following correctly identifies Vietnam’s capital, currency and President in the September 2026 current-affairs context?",
+   "options": [
+    "Hanoi, Dong and To Lam",
+    "Wellington, Dollar and Christopher Luxon",
+    "Hanoi, Yen and To Lam",
+    "Tokyo, Dong and Le Hoai Trung"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F7"
+   ],
+   "explanation": "Vietnam’s capital is Hanoi, its currency is the Dong, and its President is To Lam. Wellington and Christopher Luxon relate to New Zealand, while Yen is not Vietnam’s currency."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Opening event",
+   "question": "The India–Japan Year of Shared Horizons in 2027 is scheduled to begin with which event during the Aichi–Nagoya Asian Games 2026?",
+   "options": [
+    "A friendly cricket match",
+    "A parliamentary session of Japan’s National Diet",
+    "A youth exchange under Shared Future-75",
+    "An arts programme under RASA-75"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "The year is scheduled to begin with a friendly cricket match during the Aichi–Nagoya Asian Games 2026. Shared Future-75 and RASA-75 are separate initiatives, while the National Diet is Japan’s parliament."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "India–Japan initiatives and institutional partnership",
+   "question": "Match the India–Japan initiatives and partnership fact with their correct descriptions.\n\nList-I\n a. MAGE-75\n b. Shared Future-75\n c. RASA-75\n d. Special Strategic and Global Partnership\n\nList-II\n i. Established in 2014\n ii. Manga, anime and gaming\n iii. Youth-focused initiative\n iv. Rang, Sur and Sakura—arts\n\nOptions:",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i. MAGE-75 covers manga, anime and gaming; Shared Future-75 is youth-focused; RASA-75 concerns Rang, Sur and Sakura—arts; and the Special Strategic and Global Partnership dates from 2014."
+  }
+ ]
+}

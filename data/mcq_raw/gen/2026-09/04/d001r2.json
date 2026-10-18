@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": [
+  "P3.F11",
+  "P3.F12",
+  "P3.F13",
+  "P3.F19",
+  "P3.F2",
+  "P3.F5",
+  "P3.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Government exemption",
+   "question": "The NPCI Merchant Discount Rate framework follows which government measure?",
+   "options": [
+    "Exemption of UPI payments up to ₹2,000 and RuPay debit cards from bank charges",
+    "Exemption of UPI payments above ₹2,000 and credit cards from bank charges",
+    "Exemption of capital-market payments and telecom payments from bank charges",
+    "Exemption of all UPI payments and all debit cards from bank charges"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "The framework follows the government’s exemption of UPI payments up to ₹2,000 and RuPay debit cards from bank charges. The exemption does not cover UPI payments above ₹2,000 or all card payments."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "MDR caps and merchant fund",
+   "question": "With reference to the NPCI Merchant Discount Rate framework, consider the following statements:\n1. For a transaction of ₹75,000 or more, MDR is capped at ₹300.\n2. Capital-market transactions carry MDR of 0.02%, subject to a cap of ₹300.\n3. Ten per cent of MDR collections is allocated to a small-merchant adoption fund.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F7",
+    "P3.F11"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the ₹75,000-or-more category has a ₹300 maximum, while capital-market MDR is 0.02% with a ₹300 cap. Statement 3 is incorrect because the allocation to the small-merchant adoption fund is 5%, not 10%."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "UPI operating cost",
+   "question": "Assertion (A): UPI has an annual running cost of approximately ₹20,000 crore.\nReason (R): The theoretical maximum MDR revenue is approximately ₹20,000 crore per year.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F12"
+   ],
+   "explanation": "Assertion A is true: UPI’s running cost is approximately ₹20,000 crore per year. Reason R is false because the theoretical maximum MDR is approximately ₹28,000 crore per year, not ₹20,000 crore."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Card MDR rates",
+   "question": "With reference to card MDR rates, consider the following statements:\n1. Debit-card MDR can be up to 0.90%.\n2. Credit-card MDR ranges from 1.5% to 2.5%.\n3. Debit-card MDR ranges from 1.5% to 2.5%.\n4. Credit-card MDR can be up to 0.90%.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F13"
+   ],
+   "explanation": "Only two statements are correct: debit-card MDR can be up to 0.90%, and credit-card MDR ranges from 1.5% to 2.5%. Statements 3 and 4 interchange the reported debit-card and credit-card rates."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NPCI payment systems",
+   "question": "Consider the following statements:\nStatement A: UPI, RuPay, IMPS and NACH are among the systems associated with NPCI.\nStatement B: AePS, APBS, NFS and NETC FASTag are also among the systems associated with NPCI.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F19"
+   ],
+   "explanation": "Both statements are true. The NPCI system list includes UPI, RuPay, IMPS and NACH, as well as AePS, APBS, NFS and NETC FASTag; neither statement substitutes an unrelated system."
+  }
+ ]
+}

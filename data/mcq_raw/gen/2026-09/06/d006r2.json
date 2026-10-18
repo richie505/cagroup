@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P11.F1",
+  "P14.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch agency and date",
+   "question": "When was the Nancy Grace Roman Space Telescope launched, and by whom?",
+   "options": [
+    "August 30, 2026, by NASA on a SpaceX rocket",
+    "August 27, 2026, by NASA on a SpaceX rocket",
+    "October 1, 2026, by Google on a SpaceX rocket",
+    "August 30, 2026, by NASA on Transporter-18"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The Nancy Grace Roman Space Telescope was launched on August 30, 2026, by NASA on a SpaceX rocket. October 1, 2026, and Transporter-18 relate to Google’s Project Suncatcher, not this telescope."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First orbital test and launch vehicle",
+   "question": "When and on which mission was Google’s Project Suncatcher scheduled for its first orbital test?",
+   "options": [
+    "October 1, 2026, with a prototype satellite with Planet on SpaceX Transporter-18",
+    "August 30, 2026, with a prototype satellite with Planet on a SpaceX rocket",
+    "October 1, 2026, with a prototype satellite with NASA on SpaceX Transporter-18",
+    "August 27, 2026, with a prototype satellite with Planet on SpaceX Transporter-18"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2"
+   ],
+   "explanation": "Project Suncatcher’s first orbital test was scheduled for October 1, 2026, using a prototype satellite with Planet on SpaceX Transporter-18. August 30, 2026, is the launch date of the Nancy Grace Roman Space Telescope, while NASA is not the partner identified for this test."
+  }
+ ]
+}

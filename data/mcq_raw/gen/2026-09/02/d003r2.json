@@ -1,0 +1,52 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P10.F8",
+  "P13.F4",
+  "P13.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Traditional practice",
+   "question": "Traditionally, how many stanzas of Vande Mataram were sung?",
+   "options": [
+    "Only the first stanza",
+    "Only the first two stanzas",
+    "The first three stanzas",
+    "All six stanzas"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F8"
+   ],
+   "explanation": "Traditionally, only the first two stanzas of Vande Mataram were sung. The reference to all six stanzas is associated with the 2026 direction, not the traditional practice."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "States running lotteries and Kerala lottery finances",
+   "question": "With reference to State-run lotteries in India, consider the following statements:\n1. Nine States run lotteries, including Arunachal Pradesh, Goa, Kerala, Maharashtra, Mizoram, Nagaland, Punjab, Sikkim and West Bengal.\n2. Kerala's lottery-related figures for 2023-24 included ₹2,883.80 crore, comprising a ₹1,129.71 crore surplus and ₹1,754.09 crore SGST, with the Karunya health scheme associated with it.\n3. Kerala's reported lottery figures of ₹2,883.80 crore relate to 2022-23.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F4",
+    "P13.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: nine States run lotteries, and Kerala's 2023-24 figures were ₹2,883.80 crore, including the stated surplus and SGST amounts, with the Karunya health scheme. Statement 3 is incorrect because the figures relate to 2023-24, not 2022-23."
+  }
+ ]
+}

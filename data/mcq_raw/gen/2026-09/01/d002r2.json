@@ -1,0 +1,102 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P7.F2",
+  "P7.F3",
+  "P7.F5",
+  "P9.F1",
+  "P9.F5",
+  "P9.F6",
+  "P9.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Funding component",
+   "question": "Under Palle Panduga 3.0 in Andhra Pradesh, which funding-source pairing is correct?",
+   "options": [
+    "VB-G RAM G — ₹1,750 crore",
+    "Global Horticulture Hub — ₹3,800 crore",
+    "NABARD/SASCI etc. — ₹3,800 crore",
+    "Global Horticulture Hub — ₹2,000 crore"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "The Global Horticulture Hub received ₹3,800 crore under the funding structure of Palle Panduga 3.0. ₹1,750 crore was provided under VB-G RAM G, while ₹2,000 crore was associated with NABARD/SASCI etc."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Works and cost",
+   "question": "Under Palle Panduga 3.0 in Andhra Pradesh, which work was provided an outlay of ₹200 crore?",
+   "options": [
+    "1,000 km of Magic Drains",
+    "Bus shelters, gram panchayat buildings and Rachabandas",
+    "1,000 km of Magic Drains along with gram panchayat buildings",
+    "Bus shelters and 1,000 km of Magic Drains"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "Bus shelters, gram panchayat buildings and Rachabandas were provided an outlay of ₹200 crore. The 1,000 km Magic Drains component had a cost of ₹110 crore, making it the closest trap."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Phase 2.0 works",
+   "question": "Which combination correctly describes the works listed under Phase 2.0 of Palle Panduga in Andhra Pradesh?",
+   "options": [
+    "2,500 km of CC roads, 8,300 km of BT roads, 86,000 farm ponds and 32 km of Magic Drains",
+    "2,500 km of CC roads, 8,300 km of BT roads, 64,000 farm ponds and 32 km of Magic Drains",
+    "4,000 km of CC roads, 8,300 km of BT roads, 86,000 farm ponds and 32 km of Magic Drains",
+    "2,500 km of CC roads, 8,300 km of BT roads, 86,000 farm ponds and 1,000 km of Magic Drains"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "Phase 2.0 included 2,500 km of CC roads, 8,300 km of BT roads, 86,000 farm ponds and 32 km of Magic Drains. The other options alter one key target, such as the farm-pond figure or the length of Magic Drains."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank and export share",
+   "question": "According to DGFT data for 2025–26, which combination correctly describes Andhra Pradesh's merchandise exports?",
+   "options": [
+    "7th rank, ₹1.77 lakh crore and 4.57% of India's exports",
+    "7th rank, ₹1.77 lakh crore and 3.18% of India's exports",
+    "8th rank, ₹1.77 lakh crore and 4.57% of India's exports",
+    "7th rank, ₹1.23 lakh crore and 4.57% of India's exports"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "Andhra Pradesh ranked seventh, with merchandise exports of ₹1.77 lakh crore and a 4.57% share of India's ₹39.04 lakh crore exports. The figures ₹1.23 lakh crore and 3.18% relate to the eighth-ranked entry, not Andhra Pradesh."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Export rank",
+   "question": "Consider the following statements:\nStatement A: According to DGFT data for 2025–26, Karnataka ranked fifth in India's merchandise exports.\nStatement B: According to the same data, Haryana ranked sixth with merchandise exports of ₹1.82 lakh crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F6",
+    "P9.F8"
+   ],
+   "explanation": "Statement A is false because Karnataka ranked fourth with merchandise exports of ₹3.03 lakh crore. Statement B is true: Haryana ranked sixth with exports of ₹1.82 lakh crore."
+  }
+ ]
+}

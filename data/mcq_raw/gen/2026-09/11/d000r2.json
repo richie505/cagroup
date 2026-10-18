@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F29"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the 2026 theme of the UN Day for South-South Cooperation observed on September 12?",
+   "options": [
+    "Solidarity Rising: Global Alliance for Inclusive and Innovative Development",
+    "When Every Voice Counts, Democracy Delivers",
+    "Invest in Peace: For Everyone, Everywhere, Every Day",
+    "Clean Air for Climate Action"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "The 2026 theme of the UN Day for South-South Cooperation was “Solidarity Rising: Global Alliance for Inclusive and Innovative Development.” “When Every Voice Counts, Democracy Delivers” was associated with the International Day of Democracy, while the other options were themes of different observances."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Date and organising body",
+   "question": "With reference to World Rivers Day observed in September 2026, consider the following statements:\nStatement A: World Rivers Day was observed on September 27 with the theme “Waterways in Our Communities”.\nStatement B: World Rivers Day is associated with the World Rivers Day Council and UNEP / UNGA.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F29"
+   ],
+   "explanation": "Statement A is true: World Rivers Day was observed on September 27, with the theme “Waterways in Our Communities”. Statement B is false because its associated bodies are the World Rivers Day Council and UN-Water, not UNEP / UNGA."
+  }
+ ]
+}

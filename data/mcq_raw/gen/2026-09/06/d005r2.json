@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9
+ ],
+ "only": [
+  "P8.F10",
+  "P8.F32",
+  "P8.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Defence diplomacy document",
+   "question": "With reference to RAKSHA, the 10-year Defence Diplomacy Action Document released in September 2026, consider the following statements:\n1. RAKSHA was released by Rajnath Singh on September 3, 2026.\n2. RAKSHA is a 8-year Defence Diplomacy Action Document.\n3. Its maritime-security framework is linked to DAP-2015.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F9",
+    "P8.F32"
+   ],
+   "explanation": "Statement 1 is correct: RAKSHA was released by Rajnath Singh on September 3, 2026. Statement 2 is incorrect because RAKSHA is a 10-year document, while Statement 3 is incorrect because the relevant framework is DAP-2020, not DAP-2015."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Establishment year and headquarters",
+   "question": "Match the following defence organisations with the corresponding details:\n\nList-I\n(a) HAL\n(b) BDL\n(c) DRDO\n(d) IAF\n\nList-II\n(i) Established on January 1, 1958\n(ii) Established in 1940 at Bengaluru\n(iii) Established on October 8, 1932\n(iv) Established in 1970 at Hyderabad\n\nCodes:\n(a) (b) (c) (d)",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F10"
+   ],
+   "explanation": "The correct pairs are HAL–1940 at Bengaluru, BDL–1970 at Hyderabad, DRDO–January 1, 1958, and IAF–October 8, 1932. Therefore, the correct code is a-ii, b-iv, c-i, d-iii; the other codes interchange the organisations’ establishment details."
+  }
+ ]
+}

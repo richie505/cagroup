@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P2.F3",
+  "P3.F4",
+  "P3.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Governing bodies and leadership",
+   "question": "Consider the following statements about the organisations associated with junior international hockey:\n\n1. Hockey India was established in 2009, and its President is Dilip Tirkey.\n2. The FIH was established in 1924, is headquartered in Lausanne, and has Tayyab Ikram as its President.\n3. The FIH was established in 2009 and is headquartered in Lausanne.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Hockey India was established in 2009 under President Dilip Tirkey, while the FIH was established in 1924, is headquartered in Lausanne, and is headed by Tayyab Ikram. Statement 3 is incorrect because 2009 is the establishment year of Hockey India, not the FIH."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Chess Olympiad section-wise medals",
+   "question": "Match List-I with List-II regarding the section-wise medal results at the 46th Chess Olympiad.\n\nList-I\n(a) Open section\n(b) Women’s section\n(c) Silver medallist in the Open section\n(d) Silver medallist in the Women’s section\n\nList-II\n(i) Uzbekistan–Gold, India–Silver, Germany–Bronze\n(ii) China–Gold, Kazakhstan–Silver, India–Bronze\n(iii) India\n(iv) Kazakhstan\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F5"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The Open section had Uzbekistan, India and Germany as gold, silver and bronze medallists respectively; the Women’s section had China, Kazakhstan and India in those positions. Therefore, India won the Open silver, while Kazakhstan won the Women’s silver."
+  }
+ ]
+}

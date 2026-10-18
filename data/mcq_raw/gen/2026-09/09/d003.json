@@ -1,0 +1,195 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  18,
+  19,
+  20
+ ],
+ "only": [
+  "P18.F16",
+  "P18.F17",
+  "P18.F18",
+  "P18.F19",
+  "P18.F20",
+  "P18.F21",
+  "P18.F5",
+  "P18.F6",
+  "P18.F7",
+  "P18.F8",
+  "P19.F2",
+  "P20.F4",
+  "P20.F5",
+  "P20.F6",
+  "P20.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment—High Court",
+   "question": "Which High Court was assigned to Ashwani Kumar Mishra as Chief Justice in the September 2026 appointments?",
+   "options": [
+    "Punjab and Haryana High Court",
+    "Chhattisgarh High Court",
+    "Madhya Pradesh High Court",
+    "J&K and Ladakh High Court"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F5"
+   ],
+   "explanation": "Ashwani Kumar Mishra was appointed Chief Justice of the Punjab and Haryana High Court. Chhattisgarh, Madhya Pradesh, and J&K and Ladakh were assigned to other judges in the same set of appointments."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Appointment—Chief Justice",
+   "question": "Consider the following statements regarding the September 2026 appointments of Chief Justices of High Courts:\n1. Krishnaram Mahapatra was appointed Chief Justice of the Chhattisgarh High Court.\n2. Alpesh Yashwant Kogje was appointed Chief Justice of the Madhya Pradesh High Court.\n3. Ashwani Kumar Mishra was appointed Chief Justice of the Chhattisgarh High Court.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F5",
+    "P18.F6",
+    "P18.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Krishnaram Mahapatra was appointed Chief Justice of Chhattisgarh and Alpesh Yashwant Kogje of Madhya Pradesh. Statement 3 is incorrect because Ashwani Kumar Mishra was appointed Chief Justice of Punjab and Haryana."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment—Court and parent High Court",
+   "question": "Pushpendra Singh Bhati was appointed Chief Justice of which High Court, and was he from which parent High Court?",
+   "options": [
+    "J&K and Ladakh High Court; Rajasthan High Court",
+    "Punjab and Haryana High Court; Orissa High Court",
+    "Chhattisgarh High Court; Gujarat High Court",
+    "Madhya Pradesh High Court; Rajasthan High Court"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F8",
+    "P18.F18"
+   ],
+   "explanation": "Pushpendra Singh Bhati was appointed Chief Justice of the J&K and Ladakh High Court and was from the Rajasthan High Court. The other court-parent combinations do not match the appointment and background facts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Parent High Court",
+   "question": "Consider the following statements about the parent High Courts of judges appointed as Chief Justices:\n1. Krishnaram Mahapatra was from the Orissa High Court.\n2. Alpesh Yashwant Kogje was from the Gujarat High Court.\n3. Pushpendra Singh Bhati was from the Gujarat High Court.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F16",
+    "P18.F17",
+    "P18.F18"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Krishnaram Mahapatra was from Orissa High Court and Alpesh Yashwant Kogje from Gujarat High Court. Statement 3 is incorrect because Pushpendra Singh Bhati was from Rajasthan High Court."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitutional provisions—High Courts",
+   "question": "Consider the following statements regarding constitutional provisions connected with High Courts:\n1. Article 214 provides for a High Court for each State.\n2. Article 231 provides for a common High Court.\n3. The retirement age is 62 years for High Court judges and 65 years for Supreme Court judges.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P18.F19"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Article 214 concerns a High Court for each State, and the retirement ages are 62 years for High Court judges and 65 years for Supreme Court judges. Statement 2 is incorrect because Article 231, not a different provision, provides for a common High Court."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Judicial case—States involved",
+   "question": "Which of the following groups of States was involved in the district judges’ retirement-related case, All India Judges Association v. Union of India?",
+   "options": [
+    "Chhattisgarh, Karnataka, Madhya Pradesh, Maharashtra, Sikkim, Tamil Nadu and West Bengal",
+    "Chhattisgarh, Gujarat, Madhya Pradesh, Maharashtra, Sikkim, Tamil Nadu and West Bengal",
+    "Chhattisgarh, Karnataka, Madhya Pradesh, Rajasthan, Sikkim, Tamil Nadu and West Bengal",
+    "Chhattisgarh, Karnataka, Madhya Pradesh, Maharashtra, Sikkim, Odisha and West Bengal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F20"
+   ],
+   "explanation": "The case involved Chhattisgarh, Karnataka, Madhya Pradesh, Maharashtra, Sikkim, Tamil Nadu and West Bengal. The other options alter one State in this group."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Constitutional roles—District judges",
+   "question": "Assertion (A): The constitutional framework provides for appointment of District Judges by the Governor in consultation with the High Court and gives the High Court control over subordinate courts.\nReason (R): Articles 233 and 235 respectively provide for the appointment of District Judges by the Governor in consultation with the High Court and the High Court’s control over subordinate courts.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F21"
+   ],
+   "explanation": "Both the Assertion and Reason are true. Article 233 contains the Governor–High Court consultation requirement for District Judges, while Article 235 concerns High Court control over subordinate courts; these provisions directly explain the Assertion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news—Active volcano",
+   "question": "Which geographical feature of the Andaman and Nicobar Islands is identified as the only active volcano?",
+   "options": [
+    "Barren Island",
+    "Indira Point",
+    "Ten Degree Channel",
+    "Sri Vijaya Puram"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F2"
+   ],
+   "explanation": "Barren Island is the only active volcano among the listed Andaman and Nicobar Islands features. Indira Point is the southernmost point, Ten Degree Channel is a channel, and Sri Vijaya Puram is the capital."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Appointment—Announcing ministry and prior office",
+   "question": "Consider the following statements:\nStatement A: Bhagwat Prasad Makwana earlier chaired the National Commission for Safai Karamcharis.\nStatement B: His appointment as Chairman was announced by the Ministry of Social Justice and Empowerment.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P20.F4"
+   ],
+   "explanation": "Statement A is false because Makwana earlier chaired the Uttarakhand Safai Karamchari Commission. Statement B is true: the appointment was announced by the Ministry of Social Justice and Empowerment."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "NCSK—Legal basis and composition",
+   "question": "How many of the following statements regarding the National Commission for Safai Karamcharis are correct?\n1. The NCSK Act, 1993 provided for the Commission from August 12, 1994.\n2. After February 29, 2004, the Commission remained statutory and was extended by resolutions.\n3. The Commission consists of a Chairperson, a Vice-Chairperson and five Members, with at least one woman; the Chairperson has the rank of Union Minister of State and the other members have Secretary rank.\n4. The Manual Scavengers Act, 2013 abolished untouchability, while Article 17 banned manual scavenging.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P20.F5",
+    "P20.F6",
+    "P20.F7"
+   ],
+   "explanation": "Statements 1 and 3 are correct, so the answer is Only two. The Act lapsed on February 29, 2004, after which the Commission became non-statutory and was extended by resolutions; the Manual Scavengers Act, 2013 bans manual scavenging, while Article 17 concerns abolition of untouchability."
+  }
+ ]
+}

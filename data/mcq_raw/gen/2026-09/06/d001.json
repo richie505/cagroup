@@ -1,0 +1,284 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F1",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F17",
+  "P2.F19",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F13",
+  "P3.F3",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Outlay",
+   "question": "What outlay was approved for Semicon 2.0 by the Union Cabinet in July 2026?",
+   "options": [
+    "₹1,27,500 crore",
+    "₹76,000 crore",
+    "₹40,000 crore",
+    "₹2,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Semicon 2.0 was approved with an outlay of ₹1,27,500 crore. ₹76,000 crore was the outlay of Semicon 1.0, while ₹40,000 crore relates to ECMS and ₹2,000 crore to Mission Mausam."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Approval year and outlay",
+   "question": "When was Semicon 1.0 approved, and what was its outlay?",
+   "options": [
+    "December 2021 and ₹76,000 crore",
+    "July 2026 and ₹1,27,500 crore",
+    "August 2026 and ₹40,000 crore",
+    "September 2024 and ₹2,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Semicon 1.0 was approved in December 2021 with an outlay of ₹76,000 crore. July 2026 and ₹1,27,500 crore refer to Semicon 2.0, while the other figures belong to ECMS and Mission Mausam."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Semicon 1.0 achievements",
+   "question": "With reference to the achievements under Semicon 1.0, consider the following statements:\n1. Twelve units were approved with an investment of more than ₹1.64 lakh crore.\n2. The approved projects included one silicon fab, one silicon-carbide fab, one GaN Micro-LED display fab and nine ATMP/OSAT units.\n3. All the twelve approved units had entered production.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Five of the twelve approved units were in production, not all twelve, making statement 3 incorrect."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Semiconductor data",
+   "question": "How many of the following statements regarding India’s semiconductor ecosystem are correct?\n1. India imports 50–55% of its chips.\n2. Semiconductor demand is projected to reach $110 billion by FY2035.\n3. India has about 20% of the global chip-design workforce and about 17% of semiconductor GCCs.\n4. Taiwan accounts for more than 60% of global chips and about 90% of advanced chips.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8",
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "Only statement 4 is correct: Taiwan accounts for more than 60% of global chips and about 90% of advanced chips. India imports 90–95% of chips, demand is projected at $110 billion by FY2030, and the semiconductor GCC share is about 7%, not 17%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Semiconductor applications",
+   "question": "Which of the following is associated with the Semiconductor Laboratory, Mohali?",
+   "options": [
+    "Camera chip in the Chandrayaan-3 lander, Vikram processor and rad-hard ADC in Aditya-L1",
+    "Mission Mausam’s weather radars",
+    "The six pillars of Semicon 2.0",
+    "The India–Germany Joint Declaration of Intent"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "The Semiconductor Laboratory, Mohali, contributed the camera chip in the Chandrayaan-3 lander, the Vikram processor and the rad-hard ADC in Aditya-L1. The other options refer to separate semiconductor-policy or weather-related developments."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "International partnerships",
+   "question": "Consider the following statements:\nStatement A: India and Germany adopted a Joint Declaration of Intent in January 2026.\nStatement B: India joined Pax Silica at the India AI Impact Summit in February 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "Both statements are true. The India–Germany Joint Declaration of Intent was made in January 2026, while India joined Pax Silica at the India AI Impact Summit in February 2026."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Electronics policies and years",
+   "question": "Match the following policies with their years:\n\nList-I\n a. National Policy on Electronics\n b. SPECS\n c. PLI 2.0 for IT hardware\n d. ECMS\n\nList-II\n i. 2025\n ii. 2019\n iii. 2020\n iv. 2023",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F13"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i: NPE was issued in 2019, SPECS in 2020, PLI 2.0 for IT hardware in 2023 and ECMS in 2025. The other codes interchange these policy years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Notification and implementation",
+   "question": "Which statement correctly describes the institutional framework for Semicon 2.0 incentives?",
+   "options": [
+    "The incentives were notified on August 31, 2026; the Semicon India Programme has MeitY as nodal ministry and ISM as implementing agency.",
+    "The incentives were notified in December 2021; the programme has the Ministry of Earth Sciences as nodal ministry and IMD as implementing agency.",
+    "The incentives were notified on January 14, 2025; the programme has ISRO as nodal organisation and IITM as implementing agency.",
+    "The incentives were notified in February 2026; the programme has the Ministry of Finance as nodal ministry and NCMRWF as implementing agency."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F14"
+   ],
+   "explanation": "Semicon 2.0 incentives were notified on August 31, 2026. The Semicon India Programme was approved in 2021, with MeitY as the nodal ministry and ISM as the implementing agency; the other combinations belong to unrelated institutions or dates."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Semicon 2.0 incentives",
+   "question": "Consider the following statements about Semicon 2.0 incentives:\n1. Silicon fabs with a minimum investment of ₹20,000 crore receive 40% assistance.\n2. Compound semiconductor and display fabs receive 35% assistance.\n3. The Deployment-Linked Incentive provides 10% of net sales for up to five years, with a maximum of ₹30 crore per application.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F15",
+    "P2.F16"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The Deployment-Linked Incentive is 9% of net sales for up to five years, not 10%, while its maximum remains ₹30 crore per application."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Training target and edition",
+   "question": "Consider the following statements regarding Semicon 2.0 and SEMICON India 2026:\nStatement A: About 85,000 engineers had been trained, with a target to train one lakh more.\nStatement B: SEMICON India 2026 was the fifth edition.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F17",
+    "P2.F19"
+   ],
+   "explanation": "Both statements are true. The programme had trained about 85,000 engineers and set a target of training one lakh more; SEMICON India 2026 was the fifth edition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Radar expansion",
+   "question": "How many more weather radars are planned under Mission Mausam?",
+   "options": [
+    "40",
+    "50",
+    "40–50",
+    "100"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "Mission Mausam plans 40 more radars. The 40–50 range and the network of about 100 refer to broader planning descriptions, not the specific figure stated for this expansion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Radar technology",
+   "question": "Which combination correctly describes the operating principle and update cycle of a Doppler Weather Radar?",
+   "options": [
+    "It uses radio waves and provides updates approximately every 10 minutes.",
+    "It uses sound waves and provides updates approximately every 10 minutes.",
+    "It uses radio waves and provides updates once every 24 hours.",
+    "It uses visible light and provides updates approximately every 10 minutes."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "A Doppler Weather Radar uses radio waves, not sound waves, and updates approximately every 10 minutes. The other options incorrectly change the wave type or the update frequency."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Mission Mausam",
+   "question": "Consider the following statements about Mission Mausam:\nStatement A: It was approved in September 2024 with an outlay of ₹2,000 crore for two years and was launched on January 14, 2025.\nStatement B: Its goal is to build a weather-ready and climate-smart nation, and it is implemented by IMD, IITM and NCMRWF under the Ministry of Earth Sciences.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8",
+    "P3.F9"
+   ],
+   "explanation": "Both statements are true. Mission Mausam was approved in September 2024, launched on January 14, 2025, and seeks a weather-ready and climate-smart nation through implementation by IMD, IITM and NCMRWF under the Ministry of Earth Sciences."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "CA-360 specifications",
+   "question": "Match the features of the CA-360 system with the correct details:\n\nList-I\n a. Location\n b. Radius\n c. Resolution\n d. Inauguration date in the CA-360 account\n\nList-II\n i. 150 m\n ii. Jamadarpali, Sambalpur\n iii. September 16, 2026\n iv. 250-km radius",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F10",
+    "P3.F11"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii: CA-360 is located at Jamadarpali, Sambalpur, has a 250-km radius and 150-m resolution, and its CA-360 account gives September 16, 2026 as the inauguration date. The daily news account gives September 17, 2026, which is the principal trap."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Mission Mausam expansion and approval",
+   "question": "How many of the following statements regarding Mission Mausam are correct?\n1. Mission Mausam plans only 4–5 more radars.\n2. It aims to create a network of about 1,000 radars within two years.\n3. Mission Mausam was approved in 2024 with an outlay of ₹2,000 crore.\n4. It is under the Ministry of Finance.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F12",
+    "P3.F13"
+   ],
+   "explanation": "Only statement 3 is correct: Mission Mausam was approved in 2024 with an outlay of ₹2,000 crore under the Ministry of Earth Sciences. The plan is for 40–50 more radars and a network of about 100 within two years, not 4–5, 1,000 or the Ministry of Finance."
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F5",
+  "P0.F7",
+  "P1.F4",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P2.F10",
+  "P2.F3",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number/amount",
+   "question": "Under the wider Uttarandhra water-supply plan associated with the Polavaram Left Main Canal, how many proposed data centres are expected to require about 5 TMC of water?",
+   "options": [
+    "3",
+    "5",
+    "7",
+    "10"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "Five proposed data centres are expected to require about 5 TMC of water. The figures 3, 7 and 10 do not match the stated plan."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Project status",
+   "question": "With reference to the status of the Polavaram project, which of the following statements is incorrect?",
+   "options": [
+    "About 72% of the works had been completed by 2019.",
+    "The diaphragm wall was damaged later.",
+    "About 82% of the works had been completed by 2019.",
+    "Construction was accelerated after 2024."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "The incorrect statement changes the completion figure: about 72%, not 82%, of the works had been completed by 2019. The diaphragm wall was damaged later, and construction was accelerated after 2024."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Interim water-sharing arrangement",
+   "question": "The 66:34 Krishna-water sharing formula between Andhra Pradesh and Telangana originally began as what type of arrangement?",
+   "options": [
+    "A one-year interim arrangement",
+    "A five-year permanent arrangement",
+    "A ten-year tribunal award",
+    "A monthly emergency arrangement"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "The 66:34 formula originally began as a one-year interim arrangement and continued for about 12 years. It was not initially framed as a five-year or ten-year permanent arrangement."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "River-water law and measurement",
+   "question": "With reference to the constitutional and institutional framework relating to Krishna river-water sharing, consider the following statements:\n1. Article 262 assigns adjudication of inter-State river disputes to the Supreme Court.\n2. The Krishna River Management Board was set up under the Andhra Pradesh Reorganisation Act, 2014.\n3. One TMC-ft is approximately 28.32 billion cubic metres.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Only statement 2 is correct: the Krishna River Management Board was set up under the Andhra Pradesh Reorganisation Act, 2014. Article 262 assigns adjudication to Parliament, not the Supreme Court, and one TMC-ft is approximately 28.32 million cubic metres, not billion cubic metres."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Unit conversion",
+   "question": "One TMC-ft of water is approximately equal to how many cubic metres?",
+   "options": [
+    "2.832 million cubic metres",
+    "28.32 million cubic metres",
+    "283.2 million cubic metres",
+    "28.32 billion cubic metres"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "One TMC-ft is approximately 28.32 million cubic metres. The other options shift the decimal scale to million or billion cubic metres."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Investment, capacity and vessel type",
+   "question": "Match the following features of the proposed Mazagon Dock merchant shipyard with their respective values or descriptions.\n\nList-I\n a. Proposed investment by MDL\n b. Annual capacity\n c. Employment potential\n d. One vessel category\n\nList-II\n i. 1.2 million gross tonnes\n ii. Tankers\n iii. About ₹15,000 crore\n iv. About 45,000 jobs\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii: MDL's proposed investment is about ₹15,000 crore, capacity is 1.2 million gross tonnes per year, employment potential is about 45,000 jobs, and tankers are among the vessels planned. The other codes interchange these values and descriptions."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Feasibility and national shipbuilding vision",
+   "question": "With reference to the proposed merchant shipyard at Dugarajapatnam, consider the following statements:\nStatement A: The feasibility estimates put the shipyard cost at ₹29,254 crore and the port cost at ₹9,513 crore, under the Centre's Shipbuilding Development Scheme.\nStatement B: The project is linked to Maritime Amrit Kaal Vision 2047, which envisages India among the top 5 shipbuilders by 2047.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "Both statements are true. The feasibility estimates are ₹29,254 crore for the shipyard and ₹9,513 crore for the port, while the linked vision seeks to place India among the top 5 shipbuilders by 2047."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Scheme and national target",
+   "question": "Which of the following statements regarding the policy framework and national target associated with the proposed merchant shipyard is incorrect?",
+   "options": [
+    "The project is under the Centre's Shipbuilding Development Scheme.",
+    "The feasibility estimate for the shipyard is ₹29,254 crore.",
+    "Maritime Amrit Kaal Vision 2047 seeks to place India among the top 3 shipbuilders by 2047.",
+    "The feasibility estimate for the port is ₹9,513 crore."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "The incorrect statement changes the national target: Maritime Amrit Kaal Vision 2047 aims for India to be among the top 5 shipbuilders by 2047, not the top 3. The shipyard and port feasibility estimates are ₹29,254 crore and ₹9,513 crore respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Signing and MDL profile",
+   "question": "Which combination correctly describes the signing and employment-related profile of the proposed Mazagon Dock merchant shipyard project?",
+   "options": [
+    "The MoU was signed in the presence of CM N. Chandrababu Naidu; MDL was established in 1934 with headquarters in Mumbai, and the project is expected to create 45,000 direct and indirect jobs while MDL builds warships and submarines.",
+    "The MoU was signed in the presence of CM N. Chandrababu Naidu; MDL was established in 1934 with headquarters in Mumbai, and the project is expected to create 25,000 direct and indirect jobs while MDL builds warships and submarines.",
+    "The MoU was signed in the presence of CM N. Chandrababu Naidu; MDL was established in 1943 with headquarters in Mumbai, and the project is expected to create 45,000 direct and indirect jobs while MDL builds warships and submarines.",
+    "The MoU was signed in the presence of CM N. Chandrababu Naidu; MDL was established in 1934 with headquarters in Chennai, and the project is expected to create 45,000 direct and indirect jobs while MDL builds warships and submarines."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "The correct combination records the signing in the presence of CM N. Chandrababu Naidu, MDL's establishment in 1934 and headquarters in Mumbai, about 45,000 direct and indirect jobs, and MDL's construction of warships and submarines. The other options alter one key detail: the jobs figure, establishment year or headquarters."
+  }
+ ]
+}

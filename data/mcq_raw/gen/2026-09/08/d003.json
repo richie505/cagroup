@@ -1,0 +1,233 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  15,
+  16,
+  17,
+  18,
+  19,
+  20
+ ],
+ "only": [
+  "P15.F1",
+  "P15.F2",
+  "P15.F3",
+  "P15.F4",
+  "P15.F5",
+  "P15.F6",
+  "P17.F1",
+  "P17.F2",
+  "P17.F3",
+  "P17.F5",
+  "P17.F6",
+  "P18.F2",
+  "P18.F5",
+  "P19.F2",
+  "P20.F2",
+  "P20.F5",
+  "P20.F6",
+  "P20.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Second-hand smoke deaths",
+   "question": "According to The Lancet Public Health study, how many second-hand smoke deaths were recorded in India in 2023?",
+   "options": [
+    "2,17,700",
+    "3,25,600",
+    "4,44,00,000",
+    "2.71 billion"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "India recorded 3,25,600 second-hand smoke deaths in 2023, compared with 2,17,700 in 1990. The figure 2,17,700 refers to 1990, not 2023."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Exposure to second-hand smoke",
+   "question": "With reference to the Lancet findings on second-hand smoke exposure, consider the following statements:\n1. India's exposed population rose from 375 million to 444 million, an increase of 18.4%.\n2. Globally, 2.71 billion people, or 33.9% of the population, were exposed in 2023.\n3. India accounted for 767 million of the globally exposed population in 2023.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2",
+    "P15.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: India’s exposed population reached 444 million, while global exposure was 2.71 billion, or 33.9%, in 2023. Statement 3 is incorrect because 767 million was the global number of exposed children, not India’s exposed population."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Countries with highest exposure and tobacco-control provision",
+   "question": "Match List-I with List-II regarding the Lancet findings and India’s tobacco-control framework.\n\nList-I\n a. China\n b. India\n c. Indonesia\n d. Section 4 of COTPA, 2003\n\nList-II\n i. 664 million exposed\n ii. 444 million exposed\n iii. 142 million exposed\n iv. Bans smoking in public places\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F4",
+    "P15.F5"
+   ],
+   "explanation": "The correct pairs are China–664 million, India–444 million, Indonesia–142 million, and Section 4 of COTPA, 2003–ban on smoking in public places. The most tempting alternative swaps China’s and India’s exposed populations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "WHO FCTC timeline",
+   "question": "Consider the following statements:\nStatement A: The WHO Framework Convention on Tobacco Control was adopted in 2005.\nStatement B: The WHO Framework Convention on Tobacco Control came into force in 2005.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P15.F6"
+   ],
+   "explanation": "Statement A is false because the WHO FCTC was adopted in 2003. Statement B is true because it came into force in 2005."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Groundwater depletion",
+   "question": "According to the WMO State of Global Water Resources 2025, groundwater depletion continued during 2022–25 particularly in which part of India?",
+   "options": [
+    "North-western India",
+    "Southeastern India",
+    "Eastern India",
+    "Central India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1"
+   ],
+   "explanation": "The report highlighted continued groundwater depletion in north-western India during 2022–25. The other regions are not identified in this finding."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Water-resources monitoring indicators",
+   "question": "How many of the following statements correctly describe findings in the WMO State of Global Water Resources 2025?\n1. Coverage expanded from 3 to 15 hydrological variables in five years.\n2. Stations with below-normal groundwater increased from 25% in 2024 to 34% in 2025.\n3. Glaciers lost 767 gigatonnes in the reported period.\n4. Terrestrial water storage has been rising since 2014–16.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P17.F2",
+    "P17.F3",
+    "P17.F5"
+   ],
+   "explanation": "Only statements 1 and 2 are correct. The report recorded glacier loss of 408 ± 132 gigatonnes and stated that terrestrial water storage has been falling since 2014–16, making statements 3 and 4 incorrect."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "WMO headquarters and glacier loss",
+   "question": "Assertion (A): The World Meteorological Organization was established in 1951 in Geneva.\nReason (R): The WMO report recorded glacier losses of 408 ± 132 gigatonnes.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F5",
+    "P17.F6"
+   ],
+   "explanation": "Assertion A is false because the WMO was established in 1950 in Geneva. Reason R is true because the report recorded glacier losses of 408 ± 132 gigatonnes; however, the required relationship is therefore A false and R true."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Health burden of air pollution",
+   "question": "The UNEP–Climate and Clean Air Coalition report estimated how many new childhood asthma cases and new dementia cases respectively?",
+   "options": [
+    "5.5 million and 2 million",
+    "2 million and 5.5 million",
+    "8.4 million and 2 million",
+    "5.5 million and 8.4 million"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F2"
+   ],
+   "explanation": "The report estimated 5.5 million new childhood asthma cases and around 2 million new dementia cases. The figures 8.4 million and 2 million refer to a different pairing of air-pollution findings, not these two outcomes."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "UNEP and CCAC institutional background",
+   "question": "Consider the following statements regarding the institutions associated with the air-pollution report:\n1. UNEP was established in 1972 and has its headquarters in Nairobi.\n2. The Climate and Clean Air Coalition was established in 2012.\n3. The Climate and Clean Air Coalition focuses on long-lived pollutants such as carbon dioxide.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: UNEP dates from 1972 and is headquartered in Nairobi, while the Climate and Clean Air Coalition was established in 2012. Statement 3 is incorrect because the coalition addresses short-lived pollutants including methane, black carbon and HFCs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Electrification sectors and technologies",
+   "question": "Which combination correctly identifies the sectors and technologies highlighted in the IEA Special Report on Electrification 2026?",
+   "options": [
+    "Transport, buildings and industry; EVs and heat pumps",
+    "Agriculture, forestry and fisheries; solar cookers and dams",
+    "Transport, health and education; nuclear reactors and turbines",
+    "Buildings, mining and tourism; coal plants and diesel engines"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F2"
+   ],
+   "explanation": "The report highlighted transport, buildings and industry, with electric vehicles and heat pumps as key technologies. The other combinations contain sectors or technologies not identified in the stated finding."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Survey coverage",
+   "question": "The Lokniti-CSDS and Common Cause cybercrime scam study, included in the Status of Policing in India Report 2026, covered which sample and geographical spread?",
+   "options": [
+    "8,306 citizens across 16 States",
+    "8,306 citizens across 20 States",
+    "16,000 citizens across 8 States",
+    "13,000 citizens across 16 States"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F2"
+   ],
+   "explanation": "The study surveyed 8,306 citizens across 16 States. The alternatives alter either the sample size or the number of States covered."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Socio-economic patterns in cyber fraud",
+   "question": "Match the following findings from the Lokniti-CSDS and Common Cause study.\n\nList-I\n a. High internet users: moderate/high exposure\n b. Graduates facing financial fraud\n c. Wealthiest facing financial fraud\n d. Respondents losing over ₹20,000\n\nList-II\n i. 46%+\n ii. 59%\n iii. 57%\n iv. 23%\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F5",
+    "P20.F6",
+    "P20.F7"
+   ],
+   "explanation": "The correct pairs are high internet users–46%+, graduates–59%, wealthiest–57%, and respondents losing over ₹20,000–23%. The other codes interchange these percentages among the study’s socio-economic findings."
+  }
+ ]
+}

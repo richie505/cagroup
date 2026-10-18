@@ -1,0 +1,180 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P10.F5",
+  "P11.F2",
+  "P11.F3",
+  "P5.F3",
+  "P5.F4",
+  "P5.F5",
+  "P5.F6",
+  "P6.F2",
+  "P6.F4",
+  "P7.F4",
+  "P7.F5",
+  "P8.F3",
+  "P9.F3",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "US Open doubles winners",
+   "question": "With reference to the US Open 2026, match List-I with List-II.\n\nList-I\n(a) Men’s doubles winner\n(b) Women’s doubles winner\n(c) Mixed doubles winner\n(d) Men’s doubles runner-up\n\nList-II\n(i) Kateřina Siniaková / Taylor Townsend\n(ii) Karolína Muchová / Jakub Menšík\n(iii) Christian Harrison / Neal Skupski\n(iv) Krawietz / Pütz",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4",
+    "P5.F5"
+   ],
+   "explanation": "The correct matching is a-iii, b-i, c-ii, d-iv: Christian Harrison/Neal Skupski won the men’s doubles, Kateřina Siniaková/Taylor Townsend won the women’s doubles, Karolína Muchová/Jakub Menšík won the mixed doubles, and Krawietz/Pütz were men’s doubles runners-up. The other codes interchange these US Open doubles results."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Tournament venue and playing surface",
+   "question": "Consider the following statements about the US Open:\n1. The tournament was established in 1881.\n2. It is held at the USTA Billie Jean King National Tennis Center in New York.\n3. It is played on a clay court.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the US Open dates to 1881 and is held at the USTA Billie Jean King National Tennis Center in New York. Statement 3 is incorrect because the tournament is played on a hard court, not a clay court."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Medal tally and qualification status",
+   "question": "Regarding India’s performance at Stage 3 of the Hyundai World Archery Para Series in Ahmedabad, consider the following statements:\n1. India won 15 medals.\n2. India’s medal tally included 4 gold, 5 silver and 8 bronze medals.\n3. The series served as a qualifier for the Asian Para Games 2026 and was governed by the Asian Paralympic Committee.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct: India won 15 medals, and the series was a qualifier for the Asian Para Games 2026 under the governance of the Asian Paralympic Committee. Statement 2 is incorrect because the silver-medal count was 3, not 5."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "World records and AFI details",
+   "question": "Match the following with reference to hammer throw records and the Athletics Federation of India.\n\nList-I\n(a) Yuriy Sedykh’s world record\n(b) Anita Włodarczyk’s world record\n(c) President of the Athletics Federation of India\n(d) Year of establishment of the Athletics Federation of India\n\nList-II\n(i) 1946\n(ii) 82.98 m at Warsaw\n(iii) Bahadur Singh Sagoo\n(iv) 86.74 m at Stuttgart",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4",
+    "P7.F5"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i: Sedykh’s record was 86.74 m at Stuttgart, Włodarczyk’s was 82.98 m at Warsaw, Bahadur Singh Sagoo is the AFI President, and AFI was established in 1946. The other options mismatch the records, venues or AFI details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "HQ, year and president",
+   "question": "Which combination correctly describes the international chess organisation FIDE?",
+   "options": [
+    "Established in 1924, headquartered in Lausanne, and headed by Arkady Dvorkovich",
+    "Established in 1931, headquartered in Lausanne, and headed by Greg Easton",
+    "Established in 1924, headquartered in Monaco, and headed by Arkady Dvorkovich",
+    "Established in 1904, headquartered in Paris, and headed by Mohammed Ben Sulayem"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "FIDE was established in 1924, is headquartered in Lausanne, and its President is Arkady Dvorkovich. The other options combine FIDE details with those of World Archery, World Athletics or the FIA."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Origins, debut and announcing body",
+   "question": "How many of the following statements regarding Wushu and Pencak Silat are correct?\n1. Wushu originated in China.\n2. Pencak Silat originated in Indonesia.\n3. Pencak Silat made its Asian Games debut in 2018.\n4. The championships were announced by IWUF, the Wushu global body headquartered in Lausanne.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "Only three statements are correct: Wushu originated in China, Pencak Silat originated in Indonesia, and Pencak Silat made its Asian Games debut in 2018. Statement 4 is incorrect because the announcement was made by the Indian Pencak Silat Federation; IWUF is the global Wushu body headquartered in Lausanne."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "World Athletics Championships detail",
+   "question": "Which statement correctly describes the 2029 World Athletics Championships in Nairobi?",
+   "options": [
+    "It will be a 10-day event at an upgraded Africa Cup of Nations stadium; World Athletics was established in 1912 and the championships are biennial.",
+    "It will be a 10-day event at an upgraded Africa Cup of Nations stadium; World Athletics was established in 1904 and the championships are annual.",
+    "It will be a 15-day event at an upgraded Africa Cup of Nations stadium; World Athletics was established in 1912 and the championships are biennial.",
+    "It will be a 10-day event at an upgraded Olympic stadium; World Athletics was established in 1912 and the championships are biennial."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "The Nairobi championships will be a 10-day event at an upgraded Africa Cup of Nations stadium. World Athletics was established in 1912, and the championships are biennial; the other options alter one of these details."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Task force terms of reference",
+   "question": "Assertion (A): The task force on reviving Formula 1 racing in India will study policy, taxation, infrastructure and partnership models.\nReason (R): Tax issues did not affect earlier Indian Formula 1 races.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "Assertion A is true because the task force will examine policy, taxation, infrastructure and partnership models. Reason R is false: tax issues affected earlier Indian Formula 1 races, which is why taxation is among the areas being studied."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian Grand Prix venue and years",
+   "question": "At which venue and in which years did India host the Indian Grand Prix?",
+   "options": [
+    "Buddh International Circuit, Greater Noida, in 2011, 2012 and 2013",
+    "Buddh International Circuit, Greater Noida, in 2012, 2013 and 2014",
+    "JLN Stadium, New Delhi, in 2011, 2012 and 2013",
+    "Buddh International Circuit, Greater Noida, in 2010, 2011 and 2012"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "India hosted the Indian Grand Prix at Buddh International Circuit in Greater Noida in 2011, 2012 and 2013. The other options change either the venue or the years."
+  }
+ ]
+}

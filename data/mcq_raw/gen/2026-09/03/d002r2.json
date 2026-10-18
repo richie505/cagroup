@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P6.F8",
+  "P6.F9",
+  "P7.F7",
+  "P7.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Number of villages and budget announcement",
+   "question": "With reference to the Vibrant Villages Programme, consider the following statements:\n1. VVP-I covers 662 villages.\n2. VVP-II covers 662 villages.\n3. The combined outlay of VVP-I and VVP-II is ₹11,639 crore.\n4. VVP-I was announced in the Budget 2026.",
+   "options": [
+    "1 and 3 only",
+    "1 and 4 only",
+    "2 and 3 only",
+    "2 and 4 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F8",
+    "P6.F9"
+   ],
+   "explanation": "Statements 1 and 3 are correct: VVP-I covers 662 villages and the combined outlay is ₹11,639 crore. Statement 2 is incorrect because VVP-II covers 1,954 villages, while statement 4 is incorrect because VVP-I was announced in the Budget 2022–23."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Technology and example",
+   "question": "In the fisheries sector initiatives associated with PMMSY, which of the following examples is correctly matched with its location?",
+   "options": [
+    "Ice plant at Porbandar",
+    "Ice plant at Kibithoo",
+    "Ice plant at Nathanpur",
+    "Ice plant at Ladakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F7"
+   ],
+   "explanation": "The correctly matched example is an ice plant at Porbandar. Kibithoo, Nathanpur and Ladakh are associated with the Vibrant Villages Programme facts, not with the cited fisheries example."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sectoral reach and SDG linkage",
+   "question": "The fisheries sector supports approximately how many people and is linked to which Sustainable Development Goal?",
+   "options": [
+    "Approximately 3 crore people and SDG 14",
+    "Approximately 58 lakh people and SDG 14",
+    "Approximately 2,195 people and SDG 14",
+    "Approximately 100 people and SDG 14"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F8"
+   ],
+   "explanation": "The fisheries sector supports approximately 3 crore people and is linked to SDG 14. The figures 58 lakh, 2,195 and 100 belong to other fisheries-related facts and do not represent the sector’s total people supported."
+  }
+ ]
+}

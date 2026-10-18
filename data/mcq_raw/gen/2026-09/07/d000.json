@@ -1,0 +1,284 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F24",
+  "P0.F26",
+  "P0.F27",
+  "P0.F28",
+  "P0.F29",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Day and designation",
+   "question": "International Day of Clean Air for Blue Skies is observed on which date, and what name does India use for its observance?",
+   "options": [
+    "September 7 — Swachh Vayu Diwas",
+    "September 5 — Swachh Vayu Diwas",
+    "September 7 — Clean Air Day",
+    "September 8 — Swachh Vayu Diwas"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The International Day of Clean Air for Blue Skies is observed on September 7, and India marks it as Swachh Vayu Diwas. September 5 and September 8 are incorrect dates, while Clean Air Day is not the Indian designation stated here."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Monitoring portal and network",
+   "question": "Which pairing correctly describes the NCAP monitoring and air-quality network arrangements?",
+   "options": [
+    "PRANA monitors NCAP; SAMEER provides AQI for 292+ cities; 1,646 stations operate in 603 cities",
+    "SAMEER monitors NCAP; PRANA provides AQI for 292+ cities; 1,646 stations operate in 603 cities",
+    "PRANA monitors NCAP; SAMEER provides AQI for 603 cities; 1,646 stations operate in 292 cities",
+    "PRANA monitors NCAP; SAMEER provides AQI for 292+ cities; 1,246 stations operate in 603 cities"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "PRANA monitors NCAP, SAMEER provides AQI for 292+ cities, and the March 2026 network had 1,646 stations in 603 cities. The other options interchange PRANA and SAMEER or alter the city and station figures."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "City category and winners",
+   "question": "Match the city categories with the winners in the 2025 and 2026 Swachh Vayu Survekshan rankings.\n\nList-I\n(a) 10 lakh+\n(b) 3–10 lakh\n(c) Less than 3 lakh\n\nList-II\n(i) Amravati in 2025; Rourkela in 2026\n(ii) Dewas in 2025; Kalinganagar in 2026\n(iii) Indore in 2025; Lucknow in 2026",
+   "options": [
+    "a-iii, b-i, c-ii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-iii, c-i",
+    "a-iii, b-ii, c-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "The correct pairs are 10 lakh+—Indore in 2025 and Lucknow in 2026; 3–10 lakh—Amravati and Rourkela; less than 3 lakh—Dewas and Kalinganagar. The other codes interchange the category-wise winners."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ward-level ranking",
+   "question": "Which wards received the specified 2026 Swachh Vayu Survekshan ward-level recognition?",
+   "options": [
+    "Ward 70 Lucknow; Wards 30 and 36 Bhubaneswar; Ward 13 Rourkela",
+    "Ward 60 Lucknow; Wards 30 and 36 Bhubaneswar; Ward 13 Rourkela",
+    "Ward 70 Lucknow; Wards 30 and 36 Rourkela; Ward 13 Bhubaneswar",
+    "Ward 70 Indore; Wards 30 and 36 Bhubaneswar; Ward 13 Rourkela"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "The 2026 ward-level ranking recognised Ward 70 of Lucknow, Wards 30 and 36 of Bhubaneswar, and Ward 13 of Rourkela. The traps change a ward number or replace the city."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "AQI and pollution-control classification",
+   "question": "Consider the following statements regarding air-quality and industrial pollution monitoring:\n\n1. AQI uses eight pollutants, and the worst sub-index determines the AQI.\n2. CPCB's 419 industry sectors include 125 Orange sectors, 137 Red sectors, 94 Green sectors, 54 White sectors and 9 Blue sectors.\n3. OCEMS is mandated for 71 categories of highly polluting industries.",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12",
+    "P0.F13"
+   ],
+   "explanation": "Only statement 1 is correct: AQI covers eight pollutants and the worst sub-index decides the result. CPCB lists 125 Red and 137 Orange sectors, not the reverse, and OCEMS is mandated for 17 categories, not 71."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Delhi bus and particulate norms",
+   "question": "Consider the following statements:\nStatement A: From November 1, 2026, Delhi will permit only BS-VI/CNG/electric buses.\nStatement B: Delhi's particulate norm is 50 mg/Nm³ from November 1, 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "Both statements are false. The bus restriction begins on November 1, 2026, but the particulate norm of 50 mg/Nm³ applies from October 1, 2026; Statement B changes that date."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Stubble burning and biomass co-firing",
+   "question": "Assertion (A): Stubble burning in Punjab fell by 91% and in Haryana by 93% in 2025 compared with 2021.\nReason (R): CAQM provided for 5–10% biomass co-firing.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Assertion A is false because the decline was 93% in Punjab and 91% in Haryana, in the opposite order. Reason R is true: CAQM provided for 5–10% biomass co-firing."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Air-pollution measures",
+   "question": "How many of the following statements are correct?\n\n1. Twelve single-use plastic items have been banned since July 2022.\n2. GRAP consists of five stages, ranging from Poor to Severe Plus.\n3. The CAQM Act was enacted in 2022.\n4. CPCB functions under the Air Act of 1974.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16",
+    "P0.F18"
+   ],
+   "explanation": "Only statement 1 is correct: 12 single-use plastic items have been banned since July 2022. GRAP has four stages, the CAQM Act is from 2021, and CPCB is under the Water Act of 1974."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Green-city initiatives and targets",
+   "question": "Match the initiatives with their targets or reported figures.\n\nList-I\n(a) Nagar Van Yojana — target by 2026–27\n(b) Nagar Van Yojana — supported by December 2025\n(c) Aravalli Green Wall\n(d) Ek Ped Maa Ke Naam — saplings by December 2025\n\nList-II\n(i) 262.4 crore\n(ii) 626\n(iii) 6.31 million ha\n(iv) 1,000\n\nOptions:",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F17"
+   ],
+   "explanation": "The correct pairs are Nagar Van Yojana target—1,000; supported—626; Aravalli Green Wall—6.31 million ha; and Ek Ped Maa Ke Naam—262.4 crore saplings. The other codes interchange these figures."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Ward and city rankings",
+   "question": "Match the award references with their corresponding results in the 5th Swachh Vayu Survekshan Awards.\n\nList-I\n(a) Nalgonda Ward 16\n(b) Sangareddy in Category-3\n(c) First among wards above 30,000\n(d) Second among wards above 30,000\n\nList-II\n(i) Bhopal Ward-60\n(ii) Eighth nationally with 186.8\n(iii) Lucknow Zone-4 Ward-70\n(iv) Second nationally among wards below 10,000\n\nOptions:",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F20",
+    "P0.F21"
+   ],
+   "explanation": "Nalgonda Ward 16 ranked second nationally among wards below 10,000; Sangareddy ranked eighth with 186.8 in Category-3; Lucknow Zone-4 Ward-70 was first and Bhopal Ward-60 second among wards above 30,000. The other codes mismatch the ward or rank."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First observance",
+   "question": "When was Clean Air Day first observed?",
+   "options": [
+    "2020",
+    "2019",
+    "2021",
+    "2022"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F22"
+   ],
+   "explanation": "Clean Air Day was first observed in 2020. The years 2019, 2021 and 2022 are incorrect alternatives."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Category-wise winners and score",
+   "question": "Match the CA-360 categories with the relevant winners and scores or prize details.\n\nList-I\n(a) Category-1 winner\n(b) Category-1 score and prize\n(c) Category-2 winner and score\n(d) Category-3 winner\n\nList-II\n(i) Kalinganagar\n(ii) Lucknow — 198/200 and ₹1.5 crore\n(iii) Rourkela — 198.5\n(iv) Lucknow\n\nOptions:",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F23",
+    "P0.F24"
+   ],
+   "explanation": "Lucknow won Category-1, scoring 198/200 and receiving ₹1.5 crore; Rourkela won Category-2 with 198.5; Kalinganagar won Category-3. The other codes assign the winners or score details to the wrong categories."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Awards detail and chief guest",
+   "question": "Which combination correctly identifies a 2025–26 NCAP progress figure and the Chief Guest at the 5th Swachh Vayu Survekshan Awards?",
+   "options": [
+    "108 of 130 cities improved PM10; Chief Guest Justice Prakash Shrivastava",
+    "108 of 130 cities improved PM10; Chief Guest Amandeep Garg",
+    "130 of 108 cities improved PM10; Chief Guest Justice Prakash Shrivastava",
+    "72 of 130 cities improved PM10; Chief Guest Tanmay Kumar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F26",
+    "P0.F27"
+   ],
+   "explanation": "PM10 improved in 108 of 130 NCAP cities, and the Chief Guest was NGT Chair Justice Prakash Shrivastava. Amandeep Garg was identified as CPCB Chair, while Tanmay Kumar was Environment Secretary."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PM10 definition",
+   "question": "In the air-quality context, PM10 refers to particles that are:",
+   "options": [
+    "10 micrometres or smaller",
+    "10 millimetres or smaller",
+    "2.5 micrometres or smaller",
+    "50 micrometres or smaller"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F28"
+   ],
+   "explanation": "PM10 means particles with a size of 10 micrometres or less. The other options use incorrect units or refer to a different size threshold."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Telangana ward awards",
+   "question": "Which pairing correctly gives the Telangana State ward awardees by category?",
+   "options": [
+    "Jubilee Hills — Category-1; Gunfoundry — Category-2; Ward 31 Sangareddy — Category-3",
+    "Jubilee Hills — Category-2; Gunfoundry — Category-1; Ward 31 Sangareddy — Category-3",
+    "Jubilee Hills — Category-1; Gunfoundry — Category-3; Ward 31 Sangareddy — Category-2",
+    "Jubilee Hills — Category-3; Gunfoundry — Category-2; Ward 31 Sangareddy — Category-1"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F29"
+   ],
+   "explanation": "The Telangana ward awardees were Jubilee Hills in Category-1, Gunfoundry in Category-2 and Ward 31 Sangareddy in Category-3. The other options interchange the categories."
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F8",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F2",
+  "P1.F3",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Notification date and authority",
+   "question": "The Legal Metrology (Indian Standard Time) Rules, 2026, were notified by which authority and on what date?",
+   "options": [
+    "The Union government on August 27, 2026",
+    "The Union government on August 28, 2026",
+    "The State governments on August 27, 2026",
+    "The Union government on July 27, 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Legal Metrology (Indian Standard Time) Rules, 2026, were notified by the Union government on August 27, 2026. The most tempting wrong option is August 28, but the notification date was August 27, 2026."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "IST trademark and uncertainty",
+   "question": "Assertion (A): The IST® trademark was registered by CSIR-NPL in 2024.\nReason (R): The IST® trademark was registered by CSIR-NPL in 2025.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "Assertion A is true because CSIR-NPL registered the IST® trademark in 2024. Reason R is false because the registration year was 2024, not 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of RRSLs",
+   "question": "How many Regional Reference Standard Laboratories maintain secondary time scales for Indian Standard Time?",
+   "options": [
+    "Three",
+    "Four",
+    "Five",
+    "Six"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "Five Regional Reference Standard Laboratories maintain secondary time scales for IST. The nearby figures three, four and six are incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "White Rabbit network",
+   "question": "Where was the White Rabbit-based IST dissemination network commissioned in July 2026?",
+   "options": [
+    "RRSL Bengaluru",
+    "RRSL Hyderabad",
+    "RRSL Mumbai",
+    "RRSL New Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "The White Rabbit-based IST dissemination network was commissioned at RRSL Bengaluru in July 2026. Hyderabad, Mumbai and New Delhi were not the stated commissioning location."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Time dissemination technology and accuracy",
+   "question": "Match the time-dissemination technologies with their stated accuracy levels:\n\nList-I\n(a) NTP\n(b) PTP\n(c) Satellite links\n(d) Optical links\n\nList-II\n(i) Nanoseconds\n(ii) Picoseconds\n(iii) Milliseconds\n(iv) Microseconds",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12",
+    "P0.F13",
+    "P0.F14"
+   ],
+   "explanation": "The correct pairs are NTP–milliseconds, PTP–microseconds, satellite links–nanoseconds and optical links–picoseconds: a-iii, b-iv, c-i, d-ii. The other codes interchange the accuracy levels assigned to these technologies."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NavIC background",
+   "question": "Which statement correctly describes NavIC, earlier known as IRNSS?",
+   "options": [
+    "It was developed after GPS data was denied during the Kargil War and carries atomic clocks.",
+    "It was developed after GPS data was denied during the Kargil War and carries mechanical clocks.",
+    "It was developed before the Kargil War and carries atomic clocks.",
+    "It was developed after GPS data was denied during the Kargil War and carries optical clocks."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "NavIC, earlier IRNSS, was developed after GPS data was denied during the Kargil War and carries atomic clocks. The alternatives alter either the development context or the type of clocks carried."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UCC status in States",
+   "question": "Which statement accurately reflects the status of State-level Uniform Civil Code measures mentioned in the September 2026 debate?",
+   "options": [
+    "Uttarakhand has had the UCC in force since January 2025, while the Assam, Gujarat and Madhya Pradesh Bills await Presidential assent.",
+    "Uttarakhand has had the UCC in force since January 2024, while the Assam, Gujarat and Madhya Pradesh Bills await Presidential assent.",
+    "Uttarakhand has had the UCC in force since January 2025, while the Assam, Gujarat and Madhya Pradesh Bills have received Presidential assent.",
+    "Uttarakhand has had the UCC in force since January 2025, while the Assam, Gujarat and Rajasthan Bills await Presidential assent."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "Uttarakhand’s UCC has been in force since January 2025, whereas the UCC Bills of Assam, Gujarat and Madhya Pradesh await Presidential assent. The other options change the year, the assent status or one of the States."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Tribal exemption under State UCCs",
+   "question": "Consider the following statements:\nStatement A: State-level Uniform Civil Codes exempt tribal populations.\nStatement B: State-level Uniform Civil Codes exempt coastal populations.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "Statement A is true because State UCCs exempt tribal populations. Statement B is false because the stated exemption is for tribal populations, not coastal populations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Law Commission consultation",
+   "question": "What was the principal reform focus of the Law Commission’s 2018 consultation paper in the UCC debate?",
+   "options": [
+    "Reforming discriminatory personal laws",
+    "Replacing all State laws with a single tax code",
+    "Creating a separate criminal code for tribal populations",
+    "Making Article 44 justiciable"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "The Law Commission’s 2018 consultation paper focused on reforming discriminatory personal laws. The other options describe subjects not identified as the paper’s reform focus."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "UCC-related Supreme Court cases",
+   "question": "Match the case with the legal point associated with it:\n\nList-I\n(a) Shah Bano\n(b) Sarla Mudgal\n(c) Daniel Latifi\n(d) John Vallamattom\n\nList-II\n(i) Conversion for second marriage invalid\n(ii) Struck down Section 118 of the Indian Succession Act, 1925\n(iii) Maintenance under Section 125 CrPC\n(iv) Upheld the Muslim Women Act, 1986",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-iv, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8",
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "The correct pairs are Shah Bano–maintenance under Section 125 CrPC, Sarla Mudgal–conversion for second marriage invalid, Daniel Latifi–upheld the Muslim Women Act, 1986, and John Vallamattom–struck Section 118 of the Indian Succession Act, 1925. The other codes mismatch these case holdings."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Later UCC-related judgments",
+   "question": "Match each case with the associated legal point:\n\nList-I\n(a) Shayara Bano\n(b) Jose Paulo Coutinho\n(c) Section 6A Citizenship Act case, 2024\n\nList-II\n(i) Goa as an example of a common civil code\n(ii) Instant triple talaq invalid\n(iii) Casteism and gender discrimination cannot claim Article 29 protection",
+   "options": [
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-ii, c-i",
+    "a-ii, b-iii, c-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11",
+    "P1.F12",
+    "P1.F13"
+   ],
+   "explanation": "The correct pairs are Shayara Bano–instant triple talaq invalid, Jose Paulo Coutinho–Goa as an example of a common civil code, and the Section 6A Citizenship Act case–casteism and gender discrimination cannot claim Article 29 protection. The other options interchange these three legal points."
+  }
+ ]
+}

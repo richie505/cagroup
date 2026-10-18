@@ -1,0 +1,176 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": [
+  "P7.F1",
+  "P7.F10",
+  "P7.F11",
+  "P7.F12",
+  "P7.F13",
+  "P7.F14",
+  "P7.F16",
+  "P7.F8",
+  "P7.F9",
+  "P8.F3",
+  "P8.F4",
+  "P8.F5",
+  "P8.F6",
+  "P8.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Edition, venue and dates",
+   "question": "Which statement correctly describes the Global Fintech Fest 2026?",
+   "options": [
+    "It was the 7th edition, held in Mumbai from 8–11 September 2026",
+    "It was the edition that began in 2020, held in Mumbai from 8–11 September 2026",
+    "It was the 7th edition, held in Mumbai from 8–11 September 2020",
+    "It was the 7th edition, held in 2020 from 8–11 September 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The Global Fintech Fest 2026 was the 7th edition and was held in Mumbai from 8–11 September 2026. The most tempting wrong option is the one using 2020, which was the year the event began, not the year of this edition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of Jan Dhan accounts",
+   "question": "As of 26 August 2026, how many accounts were recorded under Jan Dhan?",
+   "options": [
+    "59.15 crore accounts",
+    "59.15 crore users",
+    "59.15 crore documents",
+    "59.15 crore transactions"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F8"
+   ],
+   "explanation": "Jan Dhan recorded 59.15 crore accounts as of 26 August 2026. The tempting alternative changes the category from accounts to users, which is not the reported Jan Dhan indicator."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Aadhaar enrolments and e-KYC",
+   "question": "Which combination correctly represents the Aadhaar indicators reported for March 2026?",
+   "options": [
+    "144 crore enrolments and 2,458 crore e-KYC transactions",
+    "2,458 crore enrolments and 144 crore e-KYC transactions",
+    "144 crore users and 2,458 crore documents",
+    "144 crore accounts and 2,458 crore buyers"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F9"
+   ],
+   "explanation": "For March 2026, Aadhaar recorded 144 crore enrolments and 2,458 crore e-KYC transactions. The closest distractor reverses the two figures and their indicators."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "DPI indicator figures",
+   "question": "Match the following digital public infrastructure items with their reported figures.\n\nList-I\n(a) Jan Dhan\n(b) Aadhaar\n(c) DigiLocker\n(d) DBT\n\nList-II\n(i) 59.15 crore accounts\n(ii) 144 crore enrolments; 2,458 crore e-KYC transactions\n(iii) 73.53 crore users; 936.03 crore documents\n(iv) Cumulative ₹53.26 lakh crore",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F8",
+    "P7.F9",
+    "P7.F10",
+    "P7.F11"
+   ],
+   "explanation": "The correct pairs are Jan Dhan–59.15 crore accounts, Aadhaar–144 crore enrolments and 2,458 crore e-KYC transactions, DigiLocker–73.53 crore users and 936.03 crore documents, and DBT–₹53.26 lakh crore. The second code incorrectly assigns the Aadhaar figures to Jan Dhan."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Regulatory timeline",
+   "question": "How many of the following statements regarding the regulatory framework are correct?\n\n1. The RBI SRO-FT framework was introduced in May 2024.\n2. Digital Payment Security Controls were introduced in 2022.\n3. The Regulatory Sandbox was introduced in August 2019.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "None"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F13"
+   ],
+   "explanation": "Only one statement is correct: the RBI SRO-FT framework dates to May 2024 and the Regulatory Sandbox to August 2019, while Digital Payment Security Controls date to 2021, not 2022. Thus, the second statement is the altered detail."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Data protection and cyber-fraud safeguards",
+   "question": "Consider the following statements:\nStatement A: The DPDP Act was enacted in 2023 and the DPDP Rules were issued in 2025.\nStatement B: The cyber helpline is 1930, while the SACHET portal concerns illegal deposits.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F14"
+   ],
+   "explanation": "Both statements are true. The data-protection framework comprises the DPDP Act 2023 and DPDP Rules 2025, while 1930 is the cyber helpline and SACHET addresses illegal deposits."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NPCI establishment and leadership",
+   "question": "Which combination correctly describes the National Payments Corporation of India (NPCI)?",
+   "options": [
+    "Established in 2008, headquartered in Mumbai, with Dilip Asbe as MD and CEO",
+    "Established in 2008, headquartered in Mumbai, with the MD and CEO of the Regulatory Sandbox",
+    "Established in 2021, headquartered in Mumbai, with Dilip Asbe as MD and CEO",
+    "Established in 2008, headquartered in the SACHET portal, with Dilip Asbe as MD and CEO"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F16"
+   ],
+   "explanation": "NPCI was established in 2008, is based in Mumbai, and has Dilip Asbe as its MD and CEO. The third option changes the establishment year to 2021, which is associated with Digital Payment Security Controls rather than NPCI."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Scheme component-wise allocation",
+   "question": "Match the components of the National Offshore Exploration Scheme with their allocations.\n\nList-I\n(a) Offshore seismic data\n(b) 60 deepwater wells\n(c) Common offshore infrastructure\n(d) Manufacturing and services zones\n\nList-II\n(i) ₹10,000 crore\n(ii) ₹28,534 crore\n(iii) ₹2,000 crore\n(iv) ₹43,200 crore",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4",
+    "P8.F5",
+    "P8.F6"
+   ],
+   "explanation": "The correct pairs are offshore seismic data–₹28,534 crore, 60 deepwater wells–₹43,200 crore, common offshore infrastructure–₹10,000 crore, and manufacturing and services zones–₹2,000 crore. The second code swaps the allocations for seismic data and deepwater wells."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Scheme targets",
+   "question": "Which of the following statements regarding the targets of the National Offshore Exploration Scheme are correct?\n\n1. The scheme targets reserve accretion of 600 MT or more.\n2. Annual output is targeted to rise from 62 to 80 mtoe.\n3. The resource base is targeted to rise from 1,600 to 2,100 mtoe.",
+   "options": [
+    "Exactly two statements are correct",
+    "Only statement 1 is correct",
+    "Only statements 1 and 3 are correct",
+    "All three statements are correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the targets are reserve accretion of 600 MT or more and an output increase from 62 to 80 mtoe per year. Statement 3 is incorrect because the resource-base target rises from 1,600 to 2,200 mtoe, not 2,100 mtoe."
+  }
+ ]
+}

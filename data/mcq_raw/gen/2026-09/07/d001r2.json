@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F5",
+  "P2.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Hydropower capacity lost",
+   "question": "Following the August 26, 2026 rock–ice collapse near the Nepal–China border, approximately how much hydropower capacity was lost in Nepal?",
+   "options": [
+    "475 MW",
+    "579 MW",
+    "47.5 MW",
+    "2,843 MW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "Nepal lost approximately 475 MW of hydropower capacity in the disaster. The tempting figure of 47.5 MW refers to the quantity of relief sent by India, not hydropower capacity."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Total economic value",
+   "question": "According to the economic valuation of the Pichavaram Mangrove Forest, what was the estimated Total Economic Value of its ecosystem services?",
+   "options": [
+    "₹2,485.38 crore",
+    "₹1,612.40 crore",
+    "₹1,224.63 crore",
+    "₹484.25 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "The Total Economic Value of the Pichavaram Mangrove Forest was estimated at ₹2,485.38 crore. ₹1,612.40 crore was the combined carbon value, while ₹1,224.63 crore was the value assigned to soil organic carbon."
+  }
+ ]
+}

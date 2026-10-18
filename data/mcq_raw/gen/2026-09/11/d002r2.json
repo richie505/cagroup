@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": [
+  "P3.F22",
+  "P3.F40",
+  "P3.F41"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "SVAMITVA and legal-aid framework",
+   "question": "Consider the following statements about institutional and constitutional measures associated with rural property rights and legal aid:\n1. SVAMITVA was introduced in 2020 by the Ministry of Panchayati Raj using drones.\n2. Article 39A provides for free housing.\n3. The Legal Services Authorities Act was enacted in 1997.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F22"
+   ],
+   "explanation": "Only statement 1 is correct: SVAMITVA dates to 2020, is associated with the Ministry of Panchayati Raj, and uses drones. Article 39A concerns free legal aid, not free housing, and the Legal Services Authorities Act was enacted in 1987, not 1997."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Services and features of first-of-its-kind centres",
+   "question": "Match List-I with List-II regarding two important initiatives reported in September 2026.\n\nList-I\n(a) Victims Rights Centre\n(b) Expansion of the Victims Rights Centre\n(c) Bhedaghat–Lamhetaghat geological museum\n(d) Planned opening of the geological museum\n\nList-II\n(i) All Bihar districts\n(ii) February 2028\n(iii) Free medical, counselling and legal aid\n(iv) Madhya Pradesh Tourism Board",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F40",
+    "P3.F41"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii. The Victims Rights Centre provides free medical, counselling and legal aid and is intended to extend to all Bihar districts; the Bhedaghat–Lamhetaghat museum is being developed by the Madhya Pradesh Tourism Board and is scheduled to open by February 2028."
+  }
+ ]
+}

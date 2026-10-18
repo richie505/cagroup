@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": [
+  "P7.F12",
+  "P7.F13",
+  "P7.F16"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "ONDC scale and regulatory milestones",
+   "question": "Consider the following statements regarding ONDC and India’s digital-payment regulatory framework:\n\n1. ONDC has 20 crore buyers, 5 lakh sellers and a presence in 1,000+ cities.\n2. The RBI SRO-FT framework dates to May 2024, while Digital Payment Security Controls date to 2021.\n3. The Regulatory Sandbox was introduced in August 2020.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F12",
+    "P7.F13"
+   ],
+   "explanation": "Statements 1 and 2 are correct: ONDC reported 20 crore buyers, 5 lakh sellers and a presence in 1,000+ cities; the RBI SRO-FT framework dates to May 2024 and Digital Payment Security Controls to 2021. Statement 3 is incorrect because the Regulatory Sandbox dates to August 2019, not August 2020."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NPCI establishment and leadership",
+   "question": "Which of the following correctly describes the National Payments Corporation of India (NPCI)?",
+   "options": [
+    "It was established in 2008 in Mumbai, and its MD and CEO is Dilip Asbe.",
+    "It was established in 2021 in Mumbai, and its MD and CEO is Dilip Asbe.",
+    "It was established in 2008 outside Mumbai, and its MD and CEO is Dilip Asbe.",
+    "It was established in 2008 in Mumbai, but its MD and CEO is not Dilip Asbe."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F16"
+   ],
+   "explanation": "NPCI was established in 2008 in Mumbai, and Dilip Asbe is its MD and CEO. The other options alter one of these three details: the establishment year, the location or the name of the MD and CEO."
+  }
+ ]
+}

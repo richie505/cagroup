@@ -1,0 +1,196 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F2",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P2.F1",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F15",
+  "P2.F16",
+  "P2.F17",
+  "P2.F18",
+  "P2.F19",
+  "P2.F2",
+  "P2.F6",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Casualties and assistance",
+   "question": "In the August 26, 2026 rock–ice collapse near the Nepal–China border, which combination correctly describes the reported human impact?",
+   "options": [
+    "579 deaths in Nepal, about 2,000 missing and more than 93,000 needing assistance",
+    "475 deaths in Nepal, about 1,000 missing and more than 47,500 needing assistance",
+    "579 deaths in Nepal, about 5,200 missing and more than 93,000 needing assistance",
+    "2,000 deaths in Nepal, about 579 missing and more than 9,300 needing assistance"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The disaster caused 579 deaths in Nepal, left about 2,000 people missing and created assistance needs for more than 93,000 people; Kailash Mansarovar pilgrims were also missing. The other options alter one or more of these reported figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Hydropower loss",
+   "question": "Approximately how much hydropower capacity was lost in Nepal following the August 2026 rock–ice collapse?",
+   "options": [
+    "475 MW",
+    "175.8 MW",
+    "579 MW",
+    "2,000 MW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "Nepal lost approximately 475 MW of hydropower capacity. The figures 175.8 and 579 refer to other details in the reported disaster, while 2,000 MW is not the reported loss."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Port damage and upgrade",
+   "question": "Which Chinese port was buried in the August 2026 disaster and had been upgraded at a cost of $175.8 million?",
+   "options": [
+    "Gyirong Port",
+    "Valmikinagar Barrage",
+    "Maharajganj Port",
+    "Kailash Mansarovar Port"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "Gyirong Port in Tibet was buried and had been upgraded at a cost of $175.8 million. Valmikinagar Barrage was monitored in India, while Maharajganj and Kailash Mansarovar were not identified as the affected port."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "India’s response and affected river system",
+   "question": "Match List-I with List-II in the context of India’s response to the Nepal rock–ice collapse.\n\nList-I\n a. Rivers mentioned in the Indian context\n b. States placed on alert\n c. Barrage kept under watch\n d. Relief sent by India\n\nList-II\n i. Bihar and Uttar Pradesh\n ii. 47.5 tonnes\n iii. Valmikinagar Barrage\n iv. Gandak, Kosi and Ganga",
+   "options": [
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iii, c-iv, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "The correct pairs are a-iv, b-i, c-iii and d-ii: the rivers were Gandak, Kosi and Ganga; Bihar and Uttar Pradesh were alerted; Valmikinagar Barrage was watched; and India sent 47.5 tonnes of relief. The other codes interchange these river, alert, barrage and relief details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Study and location",
+   "question": "Which study assessed ecosystem services and blue carbon in the Pichavaram Mangrove Forest?",
+   "options": [
+    "Economic Valuation and Blue Carbon Assessment of Ecosystem Services in the Pichavaram Mangrove Forest",
+    "Economic Valuation and Blue Carbon Assessment of Ecosystem Services in the Sundarbans",
+    "Economic Valuation and Blue Carbon Assessment of Ecosystem Services in Bhitarkanika",
+    "Economic Valuation and Blue Carbon Assessment of Ecosystem Services in the Gyirong Port wetlands"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The study was titled “Economic Valuation and Blue Carbon Assessment of Ecosystem Services in the Pichavaram Mangrove Forest” in Tamil Nadu. The other options substitute different places for Pichavaram."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Total economic value",
+   "question": "What total economic value was assigned to the Pichavaram Mangrove Forest in the economic valuation study?",
+   "options": [
+    "₹2,485.38 crore, approximately ₹1.83 crore per hectare",
+    "₹1,612.40 crore, approximately ₹2.485 crore per hectare",
+    "₹484.25 crore, approximately ₹1.83 crore per hectare",
+    "₹2,485.38 crore, approximately ₹10.53 crore per hectare"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "The study estimated the total economic value at ₹2,485.38 crore, or approximately ₹1.83 crore per hectare. ₹1,612.40 crore was the combined carbon value, while ₹484.25 crore and ₹10.53 crore were values associated with other services."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Valuation of ecosystem services",
+   "question": "Consider the following statements about the Pichavaram Mangrove Forest valuation:\n\n1. The value assigned to carbon stock in vegetation was ₹387.77 crore.\n2. Annual carbon sequestration was valued at ₹19.48 crore.\n3. Biodiversity was valued at ₹10.53 crore.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "Statement 1 alone is correct: carbon stock in vegetation was valued at ₹387.77 crore. Annual carbon sequestration was valued at ₹26.86 crore, and biodiversity at ₹19.48 crore; ₹10.53 crore was the value for nutrient cycling."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Mangrove service and carbon values",
+   "question": "Match the Pichavaram Mangrove Forest components with their reported values.\n\nList-I\n a. Nutrient cycling\n b. Fish, crab and shrimp\n c. Vegetation carbon\n d. Combined carbon value\n\nList-II\n i. ₹1,612.40 crore\n ii. ₹3.47 crore\n iii. 79.449 t/ha\n iv. ₹10.53 crore",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11",
+    "P2.F12",
+    "P2.F13"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i: nutrient cycling was ₹10.53 crore, fish–crab–shrimp services ₹3.47 crore, vegetation carbon 79.449 t/ha and the combined carbon value ₹1,612.40 crore. The other codes mismatch the reported service and carbon figures."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Mangrove status, scheme and adaptations",
+   "question": "How many of the following statements are correct?\n\n1. ISFR 2023 recorded India’s mangrove cover at 4,992 sq km.\n2. IUCN 2024 reported that 50% of the world’s mangrove ecosystems were at risk of collapse.\n3. MISHTI was launched in 2022 with an allocation of ₹100 crore.\n4. Mangroves possess pneumatophores, prop roots and vivipary, and are called the “Lungs of the Planet.”",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F15",
+    "P2.F16",
+    "P2.F17",
+    "P2.F18"
+   ],
+   "explanation": "Only two statements are correct: the ISFR 2023 mangrove-cover figure was 4,992 sq km, and IUCN 2024 reported 50% of global mangrove ecosystems at risk of collapse. MISHTI was launched in 2023, and mangroves are called the “Kidneys of the Planet,” not the “Lungs of the Planet.”"
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Mangrove sites and biodiversity",
+   "question": "Assertion (A): Bhitarkanika is an Odisha Ramsar site associated with estuarine crocodiles.\nReason (R): Bhitarkanika is associated with the Royal Bengal Tiger.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F19"
+   ],
+   "explanation": "The assertion is true: Bhitarkanika in Odisha is a Ramsar site associated with estuarine crocodiles. The Royal Bengal Tiger is associated with the Sundarbans, so the reason is false."
+  }
+ ]
+}

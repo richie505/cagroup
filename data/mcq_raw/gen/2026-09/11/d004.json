@@ -1,0 +1,85 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P13.F3",
+  "P13.F4",
+  "P13.F5",
+  "P13.F6",
+  "P15.F3",
+  "P15.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "IPv6 address length",
+   "question": "With reference to APNIC-62 and Internet address allocation, consider the following statements:\n1. IPv6 uses 128-bit addresses.\n2. IPv4 uses 128-bit addresses.\n3. There are four Regional Internet Registries.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "Only statement 1 is correct: IPv6 uses 128-bit addresses. Statement 2 is incorrect because IPv4 uses 32-bit addresses, while statement 3 is incorrect because there are 5 Regional Internet Registries."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launched by and venue",
+   "question": "Who launched the Platform for Aggregating Clean Transport (PACT), and at which event was it launched?",
+   "options": [
+    "NITI Member Rajiv Gauba at the 5th e-FAST India Summit",
+    "NIXI at APNIC-62",
+    "ISPAI at the 5th e-FAST India Summit",
+    "NITI Member Rajiv Gauba at the World Knowledge Forum"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F4"
+   ],
+   "explanation": "PACT was launched by NITI Member Rajiv Gauba at the 5th e-FAST India Summit. APNIC-62 and the World Knowledge Forum were separate events, while ISPAI was associated with APNIC-62 as its co-host."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NITI Aayog date and scheme objective",
+   "question": "Consider the following statements:\nStatement A: NITI Aayog was established on January 1, 2014.\nStatement B: PACT aggregates freight demand for zero-emission vehicles on freight corridors.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F5",
+    "P13.F6"
+   ],
+   "explanation": "Statement A is false because the date associated with NITI Aayog is January 1, 2015. Statement B is true: PACT aggregates freight demand for zero-emission vehicles on freight corridors."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "WHO and Princess Elisabeth Island details",
+   "question": "How many of the following statements are correct regarding the World Health Organization and Princess Elisabeth Island?\n1. The WHO was established on April 7, 1948, in Geneva.\n2. Tedros is the Director-General of the WHO.\n3. Princess Elisabeth Island covers 15 hectares.\n4. Princess Elisabeth Island is linked to Elia Transmission Netherlands.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F3",
+    "P15.F4"
+   ],
+   "explanation": "Only statements 1 and 2 are correct. The WHO was established on April 7, 1948, in Geneva, and its Director-General is Tedros; Princess Elisabeth Island covers 5 hectares and is linked to Elia Transmission Belgium, not 15 hectares or Elia Transmission Netherlands."
+  }
+ ]
+}

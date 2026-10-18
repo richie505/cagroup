@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  15,
+  16
+ ],
+ "only": [
+  "P15.F3",
+  "P15.F4",
+  "P16.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Standards and implementation measures",
+   "question": "With reference to Mission Rangeen Machhli–2031, consider the following statements:\n1. National standards are to be developed for broodstock, breeding, hatcheries and quarantine, along with traceability and certification for captive-bred fish.\n2. The plan proposes clusters with rail-cargo links.\n3. Training is intended only for coastal fishers and excludes youth and women self-help groups.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F3",
+    "P15.F4"
+   ],
+   "explanation": "Statement 1 is correct: the plan provides national standards for broodstock, breeding, hatcheries and quarantine, with traceability and certification for captive-bred fish. Statements 2 and 3 are incorrect; the plan proposes air-cargo links and training for coastal fishers, youth and women self-help groups."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Portal and accreditation requirement",
+   "question": "Under the medical value tourism measures announced at the Sanjeevani–2026 Expo, which combination was advised for hospitals and patients?",
+   "options": [
+    "Hospitals should disclose prices and register on the Heal in India portal; patients should use NABH-accredited hospitals.",
+    "Hospitals should conceal prices and register on the Heal in India portal; patients should use NABH-accredited hospitals.",
+    "Hospitals should disclose prices and register on the Heal in India portal; patients should use only non-accredited hospitals.",
+    "Hospitals should disclose prices but avoid registering on the Heal in India portal; patients should use NABH-accredited hospitals."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F3"
+   ],
+   "explanation": "Hospitals were asked to disclose prices and register on the Heal in India portal, while patients were urged to use NABH-accredited hospitals. The other options reverse or remove one of these requirements."
+  }
+ ]
+}

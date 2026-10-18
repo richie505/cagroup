@@ -1,0 +1,218 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F3",
+  "P10.F4",
+  "P10.F5",
+  "P11.F2",
+  "P11.F4",
+  "P12.F2",
+  "P4.F4",
+  "P5.F2",
+  "P5.F3",
+  "P6.F3",
+  "P6.F4",
+  "P7.F2",
+  "P7.F3",
+  "P7.F4",
+  "P8.F2",
+  "P9.F4",
+  "P9.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Survey number",
+   "question": "The protected area notified for Gollalagudi Temple, a Monument of National Importance near Ramappa Temple, lies in which Survey Number?",
+   "options": [
+    "Survey No. 417/3",
+    "Survey No. 417/5",
+    "Survey No. 471/3",
+    "Survey No. 417/13"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "The protected area of Gollalagudi Temple is located in Survey No. 417/3. The other survey numbers are altered versions of the notified survey number."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Heritage village features and Ladakh status",
+   "question": "Consider the following statements about Kumik and Ladakh:\n1. Kumik is known for mud houses, sacred sites, farming traditions and Tibetan Buddhist heritage.\n2. Kumik preserves Kanjur manuscripts, which are canonical Buddhist scriptures.\n3. Ladakh is a Union Territory with a legislature, formed on October 31, 2019, with Leh and Kargil as its districts and Vinai Kumar Saxena as its Lieutenant Governor.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Kumik is associated with its traditional cultural features and preserves Kanjur manuscripts. Statement 3 is incorrect because Ladakh is a Union Territory without a legislature."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Founder and headquarters",
+   "question": "The World Circular Economy Forum was launched in 2017 by which organisation, whose headquarters are in Helsinki?",
+   "options": [
+    "Sitra, the Finnish Innovation Fund",
+    "National Green Tribunal",
+    "International Crops Research Institute for the Semi-Arid Tropics",
+    "Council of Scientific and Industrial Research"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "The World Circular Economy Forum was launched in 2017 by Sitra, the Finnish Innovation Fund, headquartered in Helsinki. The other organisations are not the forum's launching institution."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Circular economy principles",
+   "question": "Assertion (A): The World Circular Economy Forum promotes a shift from the linear “Take-Make-Waste” model towards principles such as reduce, reuse, repair, recycle and recover.\nReason (R): The World Circular Economy Forum began during the centenary of Finland’s independence.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the centenary context of Finland’s independence does not explain the circular principles or the shift away from the “Take-Make-Waste” model."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Institutions, scale and participation",
+   "question": "Match the following entities associated with the Global Dryland Congress 2026 with the corresponding description.\n\nList-I\n(a) ICAR\n(b) ICRISAT\n(c) Drylands\n(d) Congress participation\n\nList-II\n(i) Established in 1929; Director General Mangi Lal Jat\n(ii) Established in 1972; based in Hyderabad; Director General Himanshu Pathak\n(iii) About 45% of the land and home to more than 2 billion people\n(iv) More than 800 scientists, policymakers and farmers\n\nCodes:",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. ICAR dates to 1929, ICRISAT to 1972 and is based in Hyderabad, drylands cover about 45% of land and support more than 2 billion people, and participation exceeded 800."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "NGT establishment and chairperson",
+   "question": "Which of the following statements about the National Green Tribunal is incorrect?",
+   "options": [
+    "The National Green Tribunal was established on October 18, 2010.",
+    "Justice Prakash Shrivastava is its Chairperson.",
+    "The National Green Tribunal was established on October 8, 2010.",
+    "Justice Prakash Shrivastava is associated with the chairpersonship of the Tribunal."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "The incorrect statement changes the establishment date to October 8, 2010. The correct date is October 18, 2010; Justice Prakash Shrivastava is the Chairperson."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Institutional year and defence innovation",
+   "question": "Consider the following statements:\nStatement A: The Council of Scientific and Industrial Research was established in 1940.\nStatement B: The Innovations for Defence Excellence initiative was established in 2018, and the defence corridors are located in Uttar Pradesh and Tamil Nadu.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F4",
+    "P9.F6"
+   ],
+   "explanation": "Statement A is false because CSIR was established in 1942. Statement B is true: iDEX dates to 2018, while the defence corridors are in Uttar Pradesh and Tamil Nadu."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Biodiversity governance and conference",
+   "question": "Consider the following statements regarding biodiversity governance and the WWF Global Conservation Conference:\n1. The biodiversity governance structure runs from the National Biodiversity Authority to State Biodiversity Boards or UT Councils and then to Biodiversity Management Committees, which maintain People's Biodiversity Registers.\n2. The WWF Global Conservation Conference was held in New Delhi and brought together representatives from more than 100 countries.\n3. The conference was held in Jaipur and brought together representatives from more than 100 countries.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct. The three-tier biodiversity structure includes the NBA, State Biodiversity Boards or UT Councils, and Biodiversity Management Committees; the WWF conference was held in Jaipur with participation from more than 100 countries."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Conservation projections",
+   "question": "At the WWF Global Conservation Conference, which projection correctly described India’s conservation expansion over a decade?",
+   "options": [
+    "Protected areas 750 to 1,000+, tiger reserves 47 to 58, and elephant reserves 30 to 33",
+    "Protected areas 750 to 900, tiger reserves 47 to 50, and elephant reserves 30 to 35",
+    "Protected areas 700 to 1,000+, tiger reserves 45 to 58, and elephant reserves 28 to 33",
+    "Protected areas 800 to 1,000+, tiger reserves 50 to 60, and elephant reserves 30 to 33"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "The stated projection was an increase in protected areas from 750 to 1,000+, tiger reserves from 47 to 58, and elephant reserves from 30 to 33. Each other option alters one or more of these figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Foundation and founder",
+   "question": "The Kalakshetra Foundation, associated with the 17th Kathakali Festival in Chennai, was established in which year by whom?",
+   "options": [
+    "1936 by Rukmini Devi Arundale",
+    "1929 by Mangi Lal Jat",
+    "1942 by N. Kalaiselvi",
+    "1961 by the WWF"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "The Kalakshetra Foundation was established in 1936 by Rukmini Devi Arundale. The other year-person combinations refer to unrelated institutions or organisations."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Classical tradition and film history",
+   "question": "How many of the following statements are correct?\n1. Kathakali is a classical dance-drama of Kerala.\n2. The International Film Festival of India was first held in 1952.\n3. The National Film Awards were first instituted in 1955.\n4. Kathakali is a classical dance-drama of Tamil Nadu.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F4",
+    "P12.F2"
+   ],
+   "explanation": "Exactly two statements are correct: Kathakali is a classical dance-drama of Kerala, and the International Film Festival of India was first held in 1952. The National Film Awards date to 1954, not 1955, and Kathakali is associated with Kerala, not Tamil Nadu."
+  }
+ ]
+}

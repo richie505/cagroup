@@ -1,0 +1,65 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  23,
+  24
+ ],
+ "only": [
+  "P24.F2",
+  "P24.F3",
+  "P24.F6",
+  "P24.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Founder of cultural festival",
+   "question": "Surya Krishnamoorthy, the former ISRO scientist who died in September 2026, founded which cultural festival in 1977?",
+   "options": [
+    "Surya Festival",
+    "Ms. Magazine",
+    "National Women's Political Caucus",
+    "Vir Chakra"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F2"
+   ],
+   "explanation": "Surya Krishnamoorthy founded the Surya Festival in 1977 at Thiruvananthapuram. Ms. Magazine and the National Women's Political Caucus were associated with Gloria Steinem, while the Vir Chakra was associated with Alfred Tyrone Cook."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Co-founder of Ms. Magazine",
+   "question": "Which US feminist who died in September 2026 co-founded Ms. Magazine?",
+   "options": [
+    "Bella Abzug",
+    "Gloria Steinem",
+    "Shirley Chisholm",
+    "Betty Friedan"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P24.F3"
+   ],
+   "explanation": "Gloria Steinem co-founded Ms. Magazine. Bella Abzug, Shirley Chisholm and Betty Friedan were her fellow co-founders of the National Women's Political Caucus, not the person identified with co-founding Ms. Magazine in this context."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Place of death and co-founders",
+   "question": "Consider the following statements:\nStatement A: Surya Krishnamoorthy died in Kochi on September 23, 2026.\nStatement B: Gloria Steinem co-founded the National Women's Political Caucus with Bella Abzug, Shirley Chisholm and Eleanor Roosevelt.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P24.F6",
+    "P24.F7"
+   ],
+   "explanation": "Both statements are false. Surya Krishnamoorthy died in Thiruvananthapuram on September 23, 2026, while Gloria Steinem co-founded the National Women's Political Caucus with Bella Abzug, Shirley Chisholm and Betty Friedan."
+  }
+ ]
+}

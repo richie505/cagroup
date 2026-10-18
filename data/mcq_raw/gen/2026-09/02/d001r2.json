@@ -1,0 +1,139 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F9",
+  "P4.F10",
+  "P4.F11",
+  "P4.F4",
+  "P4.F7",
+  "P4.F8",
+  "P4.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Inter-basin river projects",
+   "question": "Match the following inter-basin projects with their associated details:\n\nList-I\n(a) Mullaperiyar\n(b) Parambikulam–Aliyar\n(c) Krishna Water Supply\n(d) Indira Gandhi Canal\n\nList-II\n(i) Water to Hyderabad\n(ii) Periyar in Kerala to Vaigai in Tamil Nadu\n(iii) Kerala and Tamil Nadu\n(iv) Sutlej–Beas to Rajasthan\n\nSelect the correct answer using the code below:",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10",
+    "P2.F11",
+    "P2.F12"
+   ],
+   "explanation": "The correct matching is Mullaperiyar—Periyar in Kerala to Vaigai in Tamil Nadu; Parambikulam–Aliyar—Kerala and Tamil Nadu; Krishna Water Supply—water to Hyderabad; and Indira Gandhi Canal—Sutlej–Beas to Rajasthan. The other codes interchange the projects and their associated details."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Limits of Article 142",
+   "question": "With reference to the Supreme Court’s power under Article 142, identify the incorrect statement.",
+   "options": [
+    "The power under Article 142 is broad but not unlimited.",
+    "The power under Article 142 cannot override fundamental constitutional limits.",
+    "Article 142 remains subject to fundamental constitutional limits despite its broad scope.",
+    "Article 142 is unlimited and can override fundamental constitutional limits."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "The incorrect statement is that Article 142 is unlimited and can override fundamental constitutional limits. The power is broad, but it cannot override those fundamental constitutional limits."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Article 129 subject",
+   "question": "Which constitutional provision concerns the Supreme Court as a Court of Record and its contempt jurisdiction?",
+   "options": [
+    "Article 129",
+    "Article 136",
+    "Article 141",
+    "Article 143"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "Article 129 concerns the Supreme Court as a Court of Record and its contempt jurisdiction. Articles 136, 141 and 143 concern different constitutional subjects."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Special Leave to Appeal",
+   "question": "Which constitutional provision deals with the Supreme Court’s power of Special Leave to Appeal?",
+   "options": [
+    "Article 136",
+    "Article 137",
+    "Article 141",
+    "Article 143"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8"
+   ],
+   "explanation": "Article 136 deals with Special Leave to Appeal. Article 137 concerns review of judgments, while Articles 141 and 143 concern other subjects."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Review of judgments",
+   "question": "Which constitutional provision is associated with the Supreme Court’s review of judgments?",
+   "options": [
+    "Article 137",
+    "Article 129",
+    "Article 136",
+    "Article 143"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F9"
+   ],
+   "explanation": "Article 137 is associated with the review of judgments. Articles 129, 136 and 143 relate respectively to the Court of Record and contempt, Special Leave to Appeal, and the President’s advisory reference."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Binding nature of Supreme Court law",
+   "question": "Which constitutional provision makes the law declared by the Supreme Court binding on all courts?",
+   "options": [
+    "Article 141",
+    "Article 129",
+    "Article 136",
+    "Article 226"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F10"
+   ],
+   "explanation": "Article 141 concerns the binding nature of Supreme Court law on all courts. Articles 129 and 136 concern different Supreme Court powers, while Article 226 concerns High Court writs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "President’s advisory reference",
+   "question": "Which constitutional provision relates to a President’s advisory reference to the Supreme Court?",
+   "options": [
+    "Article 143",
+    "Article 137",
+    "Article 141",
+    "Article 129"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F11"
+   ],
+   "explanation": "Article 143 relates to the President’s advisory reference to the Supreme Court. Articles 137, 141 and 129 concern review of judgments, binding Supreme Court law, and the Court of Record and contempt respectively."
+  }
+ ]
+}

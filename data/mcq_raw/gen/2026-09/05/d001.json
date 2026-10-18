@@ -1,0 +1,350 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": [
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F15",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18",
+  "P1.F19",
+  "P1.F20",
+  "P1.F21",
+  "P1.F22",
+  "P1.F23",
+  "P1.F25",
+  "P1.F26",
+  "P1.F27",
+  "P1.F28",
+  "P1.F29",
+  "P1.F3",
+  "P1.F30",
+  "P1.F31",
+  "P1.F32",
+  "P1.F33",
+  "P1.F34",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of meetings and cities",
+   "question": "During India's 2026 BRICS Chairship, more than how many meetings were scheduled across how many cities?",
+   "options": [
+    "350 meetings in 25 cities",
+    "250 meetings in 35 cities",
+    "350 meetings in 11 cities",
+    "25 meetings in 350 cities"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "India's 2026 BRICS Chairship included 350+ meetings in 25 cities. The figures 11 and 25 also relate to BRICS membership and partner-related facts, but not to the meeting schedule."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Members and partners",
+   "question": "Match the BRICS category with the corresponding list:\n\nList-I\n(a) BRICS members\n(b) BRICS partners\n\nList-II\n(i) Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, Saudi Arabia, UAE, Indonesia\n(ii) Belarus, Bolivia, Cuba, Kazakhstan, Malaysia, Nigeria, Thailand, Uganda, Uzbekistan, Vietnam\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-i, b-i",
+    "a-ii, b-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "The 11-member list includes Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, Saudi Arabia, UAE and Indonesia. The 10-partner list includes Belarus, Bolivia, Cuba, Kazakhstan, Malaysia, Nigeria, Thailand, Uganda, Uzbekistan and Vietnam."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "BRICS global share",
+   "question": "Which combination correctly represents BRICS' share of global population, GDP and trade?",
+   "options": [
+    "49.5% population, approximately 40% GDP and 26% trade",
+    "26% population, approximately 40% GDP and 49.5% trade",
+    "49.5% population, approximately 26% GDP and 40% trade",
+    "Approximately 40% population, 49.5% GDP and 26% trade"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "BRICS accounts for 49.5% of the population, approximately 40% of GDP and 26% of trade. The other options interchange these three figures."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Agriculture initiatives and institutions",
+   "question": "Match the BRICS initiative with the institution associated with it:\n\nList-I\n(a) CoE on Agro-Ecology\n(b) Network on Digital Agriculture\n\nList-II\n(i) IIT Delhi\n(ii) ICAR-IIFSR, Modipuram\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "The CoE on Agro-Ecology is coordinated by ICAR-IIFSR, Modipuram, while the Network on Digital Agriculture is associated with IIT Delhi. Thus, the correct pairs are a-ii and b-i."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Agriculture and healthy lifestyle initiatives",
+   "question": "Consider the following statements about initiatives associated with India's 2026 BRICS Chairship:\n\n1. BRICS AGRIN relates to Agro-Inputs, Genetic Resources and Information Network.\n2. The Mission for Healthy Lifestyle has a 2026–2029 roadmap addressing obesity and NCDs.\n3. BRICS AGRIN was approved as a non-binding, farmer-centric platform.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10",
+    "P1.F25"
+   ],
+   "explanation": "All three statements are correct. BRICS AGRIN expands to Agro-Inputs, Genetic Resources and Information Network; the Mission for Healthy Lifestyle covers obesity and NCDs through a 2026–2029 roadmap; and BRICS AGRIN was approved as a non-binding, farmer-centric platform."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Institutional initiatives",
+   "question": "How many of the following statements about BRICS initiatives are correct?\n\n1. The Mental health Training Hub Network is associated with NIMHANS.\n2. BRICS CONNECT is a Cooperation Network for Capacity Building, Employability, New Skills and Technologies.\n3. The Mental health Training Hub Network is associated with IIT Delhi.\n4. BRICS CONNECT has a 2026–2030 roadmap.\n\nSelect the correct answer.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F11",
+    "P1.F12",
+    "P1.F13"
+   ],
+   "explanation": "Exactly two statements are correct: the Mental health Training Hub Network is associated with NIMHANS, and BRICS CONNECT covers capacity building, employability, new skills and technologies. IIT Delhi is associated with the Network on Digital Agriculture, while 2026–2030 is the period of the GVC Action Plan."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GVC Action Plan",
+   "question": "What is the period of the BRICS GVC Action Plan associated with India's 2026 Chairship?",
+   "options": [
+    "2026–2030",
+    "2026–2029",
+    "2025–2030",
+    "2021–2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13"
+   ],
+   "explanation": "The BRICS GVC Action Plan covers 2026–2030. The period 2026–2029 belongs to the Mission for Healthy Lifestyle, not the GVC Action Plan."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Other BRICS initiatives",
+   "question": "Which of the following is included among the other initiatives associated with India's 2026 BRICS Chairship?",
+   "options": [
+    "Urban Mobility Hub, MSME Cooperation Portal and Startup Innovation Fund",
+    "Delhi Declaration, Chennai Consensus and Delhi Development Bank",
+    "Counter-Terrorism Action Plan, BRICS@15 and BRICS–BIMSTEC outreach",
+    "CRA, NDB and BRICS Vaccine R&D Centre"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F14",
+    "P1.F20",
+    "P1.F22",
+    "P1.F28"
+   ],
+   "explanation": "The other initiatives include the Urban Mobility Hub, MSME Cooperation Portal and Startup Innovation Fund, along with the Incubator Network, Sports Technology Working Group and Youth Cooperation Framework 2026. The other options combine earlier BRICS outcomes, institutions or initiatives rather than the listed group."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "Evolution of BRICS",
+   "question": "Arrange the following developments in the evolution of BRICS in chronological order:\n\n1. BRIC term coined by Jim O'Neill.\n2. First BRICS summit at Yekaterinburg.\n3. South Africa invited and subsequently became a member.\n4. NDB agreement at Fortaleza.\n5. Expansion involving Africa and West Asia.",
+   "options": [
+    "1-2-3-4-5",
+    "2-1-3-4-5",
+    "1-3-2-4-5",
+    "1-2-4-3-5"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F15",
+    "P1.F16",
+    "P1.F17",
+    "P1.F18",
+    "P1.F19"
+   ],
+   "explanation": "The sequence is 2001, 2009, 2010–11, 2014 and 2024: the BRIC term, first summit, South Africa's invitation and membership, NDB agreement, and expansion. The alternative sequences place one or more later developments before an earlier event."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "India's earlier BRICS chairships",
+   "question": "Match the year of India's earlier BRICS Chairship with the associated event:\n\nList-I\n(a) 2012\n(b) 2016\n(c) 2021\n\nList-II\n(i) 13th summit, virtual format, BRICS@15 and Counter-Terrorism Action Plan\n(ii) 4th summit in New Delhi, Delhi Declaration and proposal for a development bank\n(iii) 8th summit in Goa, BRICS–BIMSTEC outreach and the theme “Building Responsive, Inclusive and Collective Solutions”\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iii, c-i",
+    "a-i, b-ii, c-iii",
+    "a-iii, b-i, c-ii",
+    "a-ii, b-i, c-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F20"
+   ],
+   "explanation": "The 2012 Chairship featured the 4th summit in New Delhi and the proposed development bank; 2016 featured the 8th summit in Goa and BRICS–BIMSTEC outreach; and 2021 featured the virtual 13th summit, BRICS@15 and the Counter-Terrorism Action Plan."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NDB, CRA and Vaccine R&D Centre",
+   "question": "Consider the following statements:\nStatement A: The BRICS Vaccine R&D Centre was launched on March 22, 2021.\nStatement B: The CRA funds projects, while the NDB provides short-term liquidity.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F21",
+    "P1.F22"
+   ],
+   "explanation": "Both statements are false. The BRICS Vaccine R&D Centre was launched on March 22, 2022, while the NDB funds projects and the CRA provides short-term liquidity."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Summit venue and membership milestones",
+   "question": "Match each BRICS summit-related detail with the correct description:\n\nList-I\n(a) 18th Summit venue\n(b) South Africa's membership milestone\n(c) Vietnam's partner status\n(d) Egypt, Ethiopia, Iran and UAE\n\nList-II\n(i) Joined in 2024\n(ii) 10th partner in 2025\n(iii) Joined at the 3rd summit at Sanya, China, in 2011\n(iv) Bharat Mandapam, New Delhi\n\nSelect the correct code.",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F23"
+   ],
+   "explanation": "The 18th Summit venue was Bharat Mandapam, New Delhi; South Africa joined at the 3rd summit at Sanya in 2011; Vietnam was the 10th partner in 2025; and Egypt, Ethiopia, Iran and UAE joined in 2024."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "BRICS AGRIN status",
+   "question": "How was BRICS AGRIN characterised under the New Delhi Declaration?",
+   "options": [
+    "A non-binding, farmer-centric platform",
+    "A binding military cooperation treaty",
+    "A short-term liquidity facility",
+    "A judicial arbitration forum"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F25"
+   ],
+   "explanation": "BRICS AGRIN was approved under the New Delhi Declaration as a non-binding, farmer-centric platform. Short-term liquidity is associated with the CRA, while a judicial forum is associated with the Chief Justices Forum."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "BRICS logo",
+   "question": "Which motif appears in the logo associated with the 18th BRICS Summit?",
+   "options": [
+    "A lotus with a “Namaste” motif",
+    "A lotus with a “Chennai Consensus” motif",
+    "A BRIC map with a “Delhi Declaration” motif",
+    "A wheat symbol with a “BRICS AGRIN” motif"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F26"
+   ],
+   "explanation": "The logo features a lotus with a “Namaste” motif. BRICS AGRIN is a farmer-centric platform, while the Chennai Consensus and Delhi Declaration are associated with other BRICS outcomes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NDB headquarters and president",
+   "question": "Which combination correctly identifies the headquarters and President of the New Development Bank?",
+   "options": [
+    "Shanghai; Dilma Rousseff",
+    "New Delhi; Jim O'Neill",
+    "Fortaleza; Dilma Rousseff",
+    "Chennai; Jim O'Neill"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F15",
+    "P1.F18",
+    "P1.F27"
+   ],
+   "explanation": "The NDB has its headquarters in Shanghai and Dilma Rousseff as its President. Jim O'Neill is associated with the 2001 BRIC term, while Fortaleza is associated with the NDB agreement."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "BRICS meetings and venues",
+   "question": "Match the BRICS meeting with its venue or date:\n\nList-I\n(a) 14th BRICS STI Ministers' Meeting\n(b) BRICS Chief Justices Forum\n(c) BRICS Heads of Tax Authorities\n\nList-II\n(i) New Delhi, September 23, 2026\n(ii) Chennai Declaration or “Chennai Consensus”\n(iii) Supreme Court, New Delhi, September 4–6, 2026\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii",
+    "a-ii, b-i, c-iii",
+    "a-i, b-ii, c-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F28",
+    "P1.F29",
+    "P1.F30"
+   ],
+   "explanation": "The 14th BRICS STI Ministers' Meeting was associated with the Chennai Declaration or “Chennai Consensus”; the Chief Justices Forum was hosted by the Supreme Court in New Delhi from September 4–6, 2026; and the Heads of Tax Authorities meeting was held in New Delhi on September 23, 2026."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "BRICS acronym and AGRIN",
+   "question": "Consider the following statements:\n\n1. BRICS became the formal name from 2006, and RICS represents Resilience, Innovation, Cooperation and Sustainability.\n2. The BRICS logo uses a lotus, described as the national flower.\n3. BRICS AGRIN covers seeds, germplasm, inputs and information sharing among 11 members.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F31",
+    "P1.F33"
+   ],
+   "explanation": "All three statements are correct. BRICS became formal from 2006, its RICS acronym denotes Resilience, Innovation, Cooperation and Sustainability, its logo uses a lotus, and BRICS AGRIN covers seeds, germplasm, inputs and information sharing among 11 members."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "BRICS forums and outcomes",
+   "question": "Assertion (A): The BRICS Chief Justices Forum addressed AI in the judiciary, arbitration and mediation.\nReason (R): The BRICS Heads of Tax Authorities meeting was the concluding event of India's BRICS tax presidency and involved 10 tax administrations.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F34"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the subjects are separate: AI in the judiciary, arbitration and mediation concern the Chief Justices Forum, whereas the Reason concerns the concluding tax-presidency event involving 10 tax administrations."
+  }
+ ]
+}

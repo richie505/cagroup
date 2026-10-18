@@ -1,0 +1,269 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F3",
+  "P10.F4",
+  "P10.F5",
+  "P10.F7",
+  "P11.F1",
+  "P11.F4",
+  "P11.F6",
+  "P11.F7",
+  "P11.F8",
+  "P11.F9",
+  "P12.F3",
+  "P12.F6",
+  "P12.F7",
+  "P13.F1",
+  "P13.F5",
+  "P13.F6",
+  "P13.F7",
+  "P14.F1",
+  "P14.F2",
+  "P14.F3",
+  "P14.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Decommissioning place",
+   "question": "At which place was ICGS Savitribai Phule decommissioned after about 20 years of service?",
+   "options": [
+    "Karwar",
+    "Mumbai",
+    "Okha",
+    "Chennai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "ICGS Savitribai Phule was decommissioned at Karwar after about 20 years of service. Mumbai was the decommissioning place of ICGS Subhadra Kumari Chauhan, while Okha was associated with ICGS Meera Behn."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ship identity and namesake",
+   "question": "Consider the following statements:\nStatement A: ICGS Subhadra Kumari Chauhan was decommissioned at Mumbai on August 27, 2026.\nStatement B: The name Meera Behn refers to the poet who wrote “Jhansi Ki Rani”.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4"
+   ],
+   "explanation": "Statement A is true: ICGS Subhadra Kumari Chauhan was decommissioned at Mumbai on August 27, 2026. Statement B is false because Meera Behn refers to Madeleine Slade; “Jhansi Ki Rani” was written by Subhadra Kumari Chauhan."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "SAR record and legal basis",
+   "question": "Consider the following statements about the Indian Coast Guard and ICGS Savitribai Phule:\n1. ICGS Savitribai Phule saved 71 lives in search-and-rescue operations.\n2. The Indian Coast Guard has its legal basis in the Coast Guard Act, 1978.\n3. ICGS Savitribai Phule saved 70 lives in search-and-rescue operations.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5",
+    "P10.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Savitribai Phule saved 71 lives in SAR operations, and the Coast Guard’s legal basis is the Coast Guard Act, 1978. Statement 3 is incorrect because the reported number was 71, not 70."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch agency and date",
+   "question": "Who launched the Nancy Grace Roman Space Telescope on August 30, 2026?",
+   "options": [
+    "NASA on a SpaceX rocket",
+    "DRDO on a SpaceX rocket",
+    "NASA on a Transporter-18 rocket",
+    "Google on a SpaceX rocket"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "NASA launched the Nancy Grace Roman Space Telescope on a SpaceX rocket on August 30, 2026. Transporter-18 was associated with Google’s Project Suncatcher, not the Roman Space Telescope."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Instruments, stations, namesake and cosmic composition",
+   "question": "Match List-I with List-II in the context of the Nancy Grace Roman Space Telescope and related astronomy facts.\n\nList-I\n a. Wide Field Instrument\n b. Ground stations\n c. Nancy Grace Roman\n d. Dark energy\n\nList-II\n i. 68%\n ii. NASA’s first Chief Astronomer\n iii. New Mexico, Australia and Japan\n iv. 300-megapixel infrared camera",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4",
+    "P11.F6",
+    "P11.F7",
+    "P11.F8"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-ii and d-i. The Wide Field Instrument has a 300-megapixel infrared camera; the ground stations are in New Mexico, Australia and Japan; Nancy Grace Roman was NASA’s first Chief Astronomer; and dark energy accounts for 68%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Related space missions",
+   "question": "Which statement correctly describes the James Webb Space Telescope in comparison with Hubble?",
+   "options": [
+    "JWST was launched in 2021 and is also at Sun–Earth L2",
+    "JWST has operated since 1990 and Hubble was launched in 2021",
+    "Hubble was launched in 2021 and is also at Sun–Earth L2",
+    "Hubble and JWST were both launched in 1990"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F9"
+   ],
+   "explanation": "The James Webb Space Telescope was launched in 2021 and is also located at Sun–Earth L2. Hubble has operated since 1990, so the options reversing their dates or locations are incorrect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Material properties and safety",
+   "question": "Which of the following statements about BAM-H24 is incorrect?",
+   "options": [
+    "It is a boron-, hydrogen- and nitrogen-rich compound.",
+    "It has high chemical and thermal stability.",
+    "It resists friction and is safer than conventional high-energy materials.",
+    "It is a boron-, hydrogen- and oxygen-rich compound."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "The incorrect statement is that BAM-H24 is boron-, hydrogen- and oxygen-rich; the changed element is oxygen, whereas the correct element is nitrogen. Its high stability, friction resistance and improved safety are reported properties."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Solid propellant and DRDO",
+   "question": "How many of the following statements are correct?\n1. A solid propellant consists of fuel and oxidiser in a solid mixture.\n2. Solid propellants are associated with short storage and slow readiness.\n3. DRDO was established in 1958.\n4. DRDO functions under the Ministry of Space.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F6",
+    "P12.F7"
+   ],
+   "explanation": "Only two statements are correct: statements 1 and 3. Solid propellants support long storage and rapid readiness, not short storage and slow readiness, while DRDO functions under the Department of Defence Research and Development, Ministry of Defence, not the Ministry of Space."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Facility and activity",
+   "question": "What did IIT Madras-incubated Agnikul Cosmos open at its Chennai research campus?",
+   "options": [
+    "Facilities to recover, recycle, test and reuse components of launched rockets",
+    "Facilities only to manufacture liquid-hydrogen engines",
+    "Facilities to launch satellites from Australia",
+    "Facilities to decommission Coast Guard ships"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "Agnikul Cosmos opened facilities at its Chennai research campus to recover, recycle, test and reuse components of launched rockets. The other options introduce activities or locations not associated with this facility."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Company background and engine technology",
+   "question": "Consider the following statements:\nStatement A: Agnikul Cosmos was established in 2017 and developed the small-satellite launcher Agnibaan.\nStatement B: A semi-cryogenic engine uses liquid hydrogen and liquid oxygen.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P13.F5",
+    "P13.F6"
+   ],
+   "explanation": "Statement A is true: Agnikul Cosmos was established in 2017 and is associated with the small-satellite launcher Agnibaan. Statement B is false because a semi-cryogenic engine uses refined hydrocarbon fuel and liquid oxygen; liquid hydrogen with liquid oxygen describes a cryogenic engine."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Reusable launch vehicle",
+   "question": "What distinguishes a reusable launch vehicle from a vehicle built for one-time use?",
+   "options": [
+    "It recovers and reuses major components instead of building a new vehicle for every launch",
+    "It uses only liquid hydrogen and liquid oxygen",
+    "It operates only from Chennai research campuses",
+    "It replaces solid propellant with a new fuel after every launch"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F7"
+   ],
+   "explanation": "A reusable launch vehicle recovers and reuses major components instead of building a new vehicle for each launch. The other options confuse reusability with cryogenic propulsion, a research location or propellant replacement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Project objective",
+   "question": "What is Google’s Project Suncatcher intended to examine?",
+   "options": [
+    "The feasibility of AI computing infrastructure in space",
+    "The decommissioning of Coast Guard ships",
+    "The recycling of launched rocket components in Chennai",
+    "The composition of dark energy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "Google’s Project Suncatcher examines the feasibility of AI computing infrastructure in space. Rocket-component recycling belongs to Agnikul Cosmos, while Coast Guard decommissioning and dark-energy composition are separate subjects."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First orbital test",
+   "question": "When and with whom is Google’s Project Suncatcher scheduled for its first orbital test?",
+   "options": [
+    "October 1, 2026, with Planet on SpaceX Transporter-18",
+    "August 30, 2026, with NASA on a SpaceX rocket",
+    "August 27, 2026, with DRDO on Transporter-18",
+    "October 1, 2026, with Hubble on a SpaceX rocket"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2"
+   ],
+   "explanation": "The first orbital test is scheduled for October 1, 2026, using a prototype satellite with Planet on SpaceX Transporter-18. August 30, 2026, was the launch date of the Nancy Grace Roman Space Telescope."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "TPU function",
+   "question": "Assertion (A): Project Suncatcher will test Google’s Tensor Processing Units in the space environment.\nReason (R): A TPU is a liquid-fuel rocket engine designed for orbital launches.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F3",
+    "P14.F4"
+   ],
+   "explanation": "The assertion is true: Project Suncatcher will test Google’s TPUs in space. The reason is false because a TPU is a Google-developed application-specific integrated circuit used to speed tensor and matrix computations in AI and machine learning, not a liquid-fuel rocket engine."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": [
+  "P5.F4",
+  "P5.F6",
+  "P5.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Eligibility condition",
+   "question": "Under ECLGS 5.0, what is the maximum permissible overdue period for working-capital eligibility with Member Lending Institutions?",
+   "options": [
+    "60 days",
+    "1 year",
+    "2 years",
+    "5 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "The eligibility condition under ECLGS 5.0 permits overdue of up to 60 days for working capital with Member Lending Institutions as on March 31, 2026. The other options refer to moratorium or tenure periods, not the overdue limit."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Guarantee cover and credit cap",
+   "question": "Match the ECLGS 5.0 category or feature in List-I with the applicable provision in List-II.\n\nList-I\n(a) MSMEs — guarantee cover\n(b) Non-MSMEs — guarantee cover\n(c) Scheduled passenger airlines — guarantee cover\n(d) Scheduled passenger airlines — cap\n\nList-II\n(i) 100%\n(ii) 90%\n(iii) ₹1,500 crore\n(iv) 90%\n\nCodes:",
+   "options": [
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F8"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iv and d-iii: MSMEs receive 100% guarantee cover, while non-MSMEs and scheduled passenger airlines receive 90% cover; the airline cap is ₹1,500 crore. The tempting second code incorrectly assigns 90% cover to MSMEs and 100% cover to non-MSMEs."
+  }
+ ]
+}

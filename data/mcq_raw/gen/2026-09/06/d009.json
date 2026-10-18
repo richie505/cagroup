@@ -1,0 +1,232 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  26,
+  27,
+  28,
+  29
+ ],
+ "only": [
+  "P26.F10",
+  "P26.F11",
+  "P26.F12",
+  "P26.F13",
+  "P26.F14",
+  "P26.F15",
+  "P26.F16",
+  "P26.F3",
+  "P26.F4",
+  "P26.F7",
+  "P26.F8",
+  "P26.F9",
+  "P27.F2",
+  "P28.F2",
+  "P28.F3",
+  "P28.F5",
+  "P29.F3",
+  "P29.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Research collaboration",
+   "question": "Which collaboration developed AI tools for teachers in September 2026?",
+   "options": [
+    "IIT Madras and UNESCO MGIEP",
+    "IIT-BHU and the University of Michigan",
+    "IIT Madras–C-DOT Samgnya and Q-Clairvoyance",
+    "Bodhan AI and AI4Bharat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F3"
+   ],
+   "explanation": "IIT Madras and UNESCO MGIEP developed AI tools for teachers. The University of Michigan partnership concerned electric mobility research, while Samgnya–Q-Clairvoyance concerned quantum technology."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Digital Public Goods",
+   "question": "Which of the following statements about the Bharat Education AI Stack is correct?\n1. Bodhan AI and AI4Bharat developed four multilingual models—ASR, TTS, MT and OCR—as Digital Public Goods, built with NVIDIA Nemotron, along with a Student Tutor Bot for Classes 6–12 and a Teacher Assistant Bot.\n2. The Bharat Education AI Stack consisted of three multilingual models and was built with NVIDIA Nemotron, with the Student Tutor Bot intended for Classes 1–5.\n3. The four multilingual models were built with Intel Nemotron, while the Student Tutor Bot was intended for Classes 6–12.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F4"
+   ],
+   "explanation": "Only statement 1 is correct: the stack contains four models—ASR, TTS, MT and OCR—and includes the Student Tutor Bot for Classes 6–12 and a Teacher Assistant Bot. Statement 2 changes four to three and Classes 6–12 to Classes 1–5; statement 3 changes NVIDIA Nemotron to Intel Nemotron."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "MoUs and research areas",
+   "question": "Match the institutions or partnerships with their associated development:\n\nList-I\n a. IIT-BHU and the University of Michigan\n b. IIT Madras–C-DOT Samgnya and Q-Clairvoyance\n c. IIT Madras–C-DOT Samgnya\n d. UNESCO MGIEP\n\nList-II\n i. National Hub for Quantum Communication\n ii. AI tools for teachers\n iii. MoU on electric mobility research\n iv. MoU on quantum technology",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F7",
+    "P26.F8",
+    "P26.F9",
+    "P26.F3"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii. IIT-BHU and the University of Michigan signed an electric-mobility MoU; Samgnya and Q-Clairvoyance signed a quantum-technology MoU; Samgnya is the National Hub for Quantum Communication; and UNESCO MGIEP partnered with IIT Madras on AI tools for teachers."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Quantum Mission",
+   "question": "When was the National Hub for Quantum Communication at IIT Madras–C-DOT Samgnya set up?",
+   "options": [
+    "December 2025",
+    "September 11, 2026",
+    "December 2022",
+    "2023"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F9"
+   ],
+   "explanation": "The National Hub for Quantum Communication was set up in December 2025 under the National Quantum Mission. September 11, 2026 was associated with the Samgnya–Q-Clairvoyance MoU, while December 2022 related to the ARTRAC MoU."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Institutional history",
+   "question": "Consider the following statements:\nStatement A: IIT Madras was established in 1959 with West German aid.\nStatement B: IIT-BHU received IIT status in 2011.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P26.F10"
+   ],
+   "explanation": "Statement A is true: IIT Madras was established in 1959 with West German aid. Statement B is false because IIT-BHU received IIT status in 2012, not 2011."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Patent and inventor institution",
+   "question": "Which of the following statements about the IIT (ISM) Dhanbad patent is incorrect?",
+   "options": [
+    "The patent is titled “An Electrochemical Reactor for Cathodic Recovery of Copper from Wastewater.”",
+    "The patent concerns the recovery of copper from wastewater.",
+    "Sukumar Mishra is the Director of IIT (ISM) Dhanbad.",
+    "The patent is titled “An Electrochemical Reactor for Cathodic Recovery of Copper from Industrial Sludge.”"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P26.F11"
+   ],
+   "explanation": "The incorrect statement changes “wastewater” to “industrial sludge.” The patent is titled “An Electrochemical Reactor for Cathodic Recovery of Copper from Wastewater,” and Sukumar Mishra is the Director of IIT (ISM) Dhanbad."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Micro-GPU applications",
+   "question": "Which of the following is an identified use of IIT Delhi’s indigenous Micro-GPU?",
+   "options": [
+    "Industrial displays",
+    "Copper recovery from wastewater",
+    "Fish-length measurement through Augmented Reality",
+    "Quantum communication"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F12"
+   ],
+   "explanation": "IIT Delhi’s Micro-GPU can be used in industrial displays. Copper recovery from wastewater was associated with IIT (ISM) Dhanbad, fish-length measurement with MatsyaMetri, and quantum communication with Samgnya."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Defence technology course",
+   "question": "Which of the following statements about the IIT Ropar–Army Air Defence College initiative is correct?\n1. The M.Tech in Defence Technology is linked to the Long Air Defence Course and was signed by Rajeev Ahuja and Lt Gen Amit Rao.\n2. The initiative followed an ARTRAC MoU signed in December 2023.\n3. The programme was signed by Sukumar Mishra and Lt Gen Amit Rao.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F13"
+   ],
+   "explanation": "Only statement 1 is correct: the M.Tech is linked to the Long Air Defence Course and was signed by Rajeev Ahuja and Lt Gen Amit Rao. The earlier ARTRAC MoU was from December 2022, and Sukumar Mishra was not one of the signatories."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MoU signatories and venue",
+   "question": "At which venue was the IIT-BHU–University of Michigan electric-mobility MoU signed by Amit Patra and Todd Allen?",
+   "options": [
+    "University of Michigan Electric Vehicle Center, Ann Arbor",
+    "IIT Madras Research Park, Chennai",
+    "Army Air Defence College, Gopalpur",
+    "IIT Hyderabad Centre of Excellence"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F14"
+   ],
+   "explanation": "The MoU was signed at the University of Michigan Electric Vehicle Center in Ann Arbor by Amit Patra and Todd Allen. IIT Madras Research Park was associated with Samgnya, while Army Air Defence College was associated with the defence-technology programme."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Quantum technology partnership",
+   "question": "Assertion (A): Samgnya was set up at IIT Madras Research Park in Chennai by the Department of Science and Technology.\nReason (R): The Samgnya–Q-Clairvoyance MoU covered quantum computing, algorithms, Quantum AI and orbital tourism.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P26.F15"
+   ],
+   "explanation": "Assertion A is true: Samgnya was set up at IIT Madras Research Park, Chennai, by the Department of Science and Technology. Reason R is false because the MoU covered quantum computing, algorithms, Quantum AI and post-quantum cybersecurity, not orbital tourism."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Establishment and policy details",
+   "question": "Match the institution or policy with the correct detail:\n\nList-I\n a. National Critical Mineral Mission\n b. BioE3 Policy\n c. UNESCO\n d. European Space Agency\n\nList-II\n i. Approved in 2025\n ii. Biotechnology for Economy, Environment and Employment, 2024\n iii. Established on November 16, 1945, in Paris\n iv. Established in 1975 with headquarters in Paris\n\nOptions:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F2",
+    "P28.F2",
+    "P26.F16",
+    "P29.F3"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The National Critical Mineral Mission was approved in 2025; BioE3 means Biotechnology for Economy, Environment and Employment; UNESCO was established on November 16, 1945, in Paris; and ESA was established in 1975 with headquarters in Paris."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Science and space initiatives",
+   "question": "How many of the following statements are correct?\n1. SARAL AI is used by CSIR-NIScPR to turn research papers into short videos and is an initiative of ANRF.\n2. CMFRI was established in 1948 at Kochi under ICAR.\n3. NASA, ESA and CNSA took part in the First International Space Summit.\n4. MatsyaMetri was developed by CMFRI, established in 1947 at Chennai under ICAR.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P28.F3",
+    "P28.F5",
+    "P29.F4"
+   ],
+   "explanation": "Exactly two statements are correct: statements 1 and 3. CMFRI was established in 1947 at Kochi under ICAR, not in 1948; and the stated location in statement 4 is Chennai, whereas the correct location is Kochi."
+  }
+ ]
+}
