@@ -23,6 +23,9 @@ Model gpt-5.6-luna. Steps per folder: generate, verify, cover, verify, then buil
 | 2025-05 | 15 / 13 / 1 / 1 = 30 | 52,850 / 28,909 | 57 | 41 / 41 |
 | 2025-04 | 13 / 11 / 5 / 3 = 32 | 58,002 / 29,281 | 60 | 42 / 44 |
 | special | 25 / 9 / 0 / 0 = 34 | 77,953 / 29,457 | 69 | 29 / 29 |
+| **Total** | 1363 | 3,132,211 / 1,658,804 | 3771 | 2564 / 2629 |
+
+Final build over all folders: 3769 MCQs kept; news pages with a question 2563/2629; facts tested 7991/20515 (39.0%). No STOPPED and no script crash during the run; scripts/ca_mcqs.py unchanged.
 
 ## 2026-10 answer positions per format
 
