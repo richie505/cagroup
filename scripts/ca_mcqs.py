@@ -56,6 +56,7 @@ API = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1")
 MODEL = os.environ.get("OPENAI_MODEL", "gpt-5.6-luna")
 CHUNK_FACTS = 36  # facts per generate call (small pages are grouped up to this)
 VERIFY_BATCH = 12  # MCQs per verify call
+DEEP_ROUNDS = 2  # deep-coverage calls per page group (round 2 retries the facts round 1 left untested)
 COVER_TRIES = 3  # coverage calls per news page that still has no question
 VERIFY_VERSION = 2  # bump when VERIFY_SYSTEM changes: older verdicts are ignored and items are verified again
 
@@ -282,13 +283,17 @@ def fid(page: dict, f: dict) -> str:
     return f"P{page['i']}.{f['id']}"
 
 
-def facts_text(pages: list[dict], only: set | None = None) -> str:
+def facts_text(pages: list[dict], only: set | None = None, deep: bool = False) -> str:
     parts = []
     for p in pages:
-        lines = [f"PAGE P{p['i']} — write {quota(p)} question{'s' if quota(p) > 1 else ''}: {p['title']}"]
+        lines = [f"PAGE P{p['i']}: {p['title']}" if deep else
+                 f"PAGE P{p['i']} — write {quota(p)} question{'s' if quota(p) > 1 else ''}: {p['title']}"]
         for f in p["facts"]:
             head = f" [{f['head']}]" if f["head"] else ""
-            mark = "" if only is None or fid(p, f) in only else " (already tested)"
+            if deep:
+                mark = " (TEST)" if fid(p, f) in only else " (already tested — context only)"
+            else:
+                mark = "" if only is None or fid(p, f) in only else " (already tested)"
             lines.append(f"{fid(p, f)}{head}: {f['text']}{mark}")
         parts.append("\n".join(lines))
     return "\n\n".join(parts)
@@ -406,6 +411,8 @@ def place_answer(q: dict, qid: str) -> dict:
 
 
 # ------------------------------------------------------------------ steps
+# Order for a full run: generate, verify, cover, verify (headline questions, 1-3 per news page), then
+# deepen, verify, deepen, verify (every remaining fact, like Rocket Prep / APPSC Prep), then build.
 
 def files(args) -> list[tuple[str, str]]:
     want = set(args.folders or [])
@@ -449,19 +456,29 @@ def key_plan(seed: str) -> str:
             "(a second one of the same format may use any other answer):\n" + "\n".join(lines))
 
 
-def gen_job(folder: str, nn: str, key: str, pages: list[dict], count: int, only: set | None, asked: list[dict], title: str):
+DEEP_ONLY = """
+Write questions ONLY for the facts marked (TEST); facts marked "already tested" are context — do not ask them again.
+Together your questions must test EVERY (TEST) fact: a Multi-Statement, List-Matching or Count question may test
+2–4 of them at once, a Direct Recall question one. Skip a (TEST) fact only if it has no exam value (a minor
+official's name, a figure nobody would ask) — do not invent padding. The per-page "1–3 questions" limit of rule 6
+does NOT apply here; the "Do not test the same fact twice / ALREADY ASKED" part does."""
+
+
+def gen_job(folder: str, nn: str, key: str, pages: list[dict], count: int, only: set | None, asked: list[dict], title: str,
+            deep: bool = False):
     path = raw_path("gen", folder, nn, key)
     if path.exists():
         return 0
-    user = USER.format(period=period_of(folder), category=title, count=count,
-                       only=("\nThese news pages have no question yet: write ONE question for each page, on its headline fact."
-                             if only else ""),
-                       keys=key_plan(f"{folder}/{nn}/{key}"), asked=asked_list(asked), facts=facts_text(pages, only))
+    only_text = DEEP_ONLY if deep else (
+        "\nThese news pages have no question yet: write ONE question for each page, on its headline fact." if only else "")
+    user = USER.format(period=period_of(folder), category=title, count=count, only=only_text,
+                       keys=key_plan(f"{folder}/{nn}/{key}"), asked=asked_list(asked, 120 if deep else 60),
+                       facts=facts_text(pages, only, deep))
     system = SYSTEM.format(period=period_of(folder), ar=" | ".join(AR_OPTIONS), ab=" | ".join(AB_OPTIONS))
     res = api(system, user, gen_schema(), "ca_mcqs")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps({"model": MODEL, "pages": [p["i"] for p in pages], "only": sorted(only) if only else None,
-                                "mcqs": res["mcqs"]}, ensure_ascii=False, indent=1))
+                                "deep": deep, "mcqs": res["mcqs"]}, ensure_ascii=False, indent=1))
     return len(res["mcqs"])
 
 
@@ -579,9 +596,6 @@ def kept(folder: str, nn: str, facts: dict, bank: Bank, log: list) -> list[dict]
             log.append((q, f"verify: {why} — {v['note']}"))
             continue
         pg = page_of(q)
-        if per_page.get(pg, 0) >= quotas.get(pg, 1):
-            log.append((q, "over the page's quota"))
-            continue
         if bank.is_dup(q):
             log.append((q, "duplicate"))
             continue
@@ -606,7 +620,7 @@ def cmd_cover(args):
         gens = load_raw("gen", folder, nn)
         tries = {}  # page -> coverage calls already made for it
         for rec in gens.values():
-            if rec.get("only"):
+            if rec.get("only") and not rec.get("deep"):
                 for pg in {int(re.match(r"P(\d+)\.", i).group(1)) for i in rec["only"]}:
                     tries[pg] = tries.get(pg, 0) + 1
         for k, pages in enumerate(chunks(data)):
@@ -618,6 +632,33 @@ def cmd_cover(args):
                 key = f"g{k:03d}" + (f"r{rnd + 1}" if rnd else "")
                 jobs.append((gen_job, folder, nn, key, empty, len(empty), gap, asked, data["title"]))
     print(f"{len(jobs)} coverage calls to make (one question for each news page that has none; up to {COVER_TRIES} tries)")
+    run(jobs, args.workers, args.max_calls)
+
+
+def cmd_deepen(args):
+    """Deep coverage, like Rocket Prep / APPSC Prep: MCQs for every fact no kept MCQ tests yet (up to DEEP_ROUNDS
+    calls per page group; run verify after each round). Kept MCQs are shown as ALREADY ASKED, and the global
+    near-duplicate check still applies in build."""
+    bank, log, jobs = Bank(), [], []
+    for folder, nn in ordered_files(files(args)):
+        data = ca_facts.load(folder, nn)
+        facts = all_fact_text(data)
+        qs = kept(folder, nn, facts, bank, log)
+        tested = {i for q in qs for i in q["fact_ids"]}
+        gens = load_raw("gen", folder, nn)
+        for k, pages in enumerate(chunks(data)):
+            done = [name for name in gens if re.fullmatch(rf"d{k:03d}(r\d+)?", name)]
+            if len(done) >= DEEP_ROUNDS:
+                continue
+            gap = {fid(p, f) for p in pages for f in p["facts"]} - tested  # round 2 retries what round 1 left untested
+            if not gap:
+                continue
+            count = max(1, min(18, math.ceil(len(gap) / 1.6)))
+            ids = {fid(p, f) for p in pages for f in p["facts"]}
+            asked = [q for q in qs if any(i in ids for i in q["fact_ids"])]
+            key = f"d{k:03d}" + (f"r{len(done) + 1}" if done else "")
+            jobs.append((gen_job, folder, nn, key, pages, count, gap, asked, data["title"], True))
+    print(f"{len(jobs)} deep-coverage calls to make")
     run(jobs, args.workers, args.max_calls)
 
 
@@ -698,12 +739,13 @@ def cmd_dry(args):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=["models", "generate", "verify", "cover", "build", "dry"])
+    ap.add_argument("cmd", choices=["models", "generate", "verify", "cover", "deepen", "build", "dry"])
     ap.add_argument("--folders", nargs="*")
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--max-calls", type=int)
     args = ap.parse_args()
-    {"models": cmd_models, "generate": cmd_generate, "verify": cmd_verify, "cover": cmd_cover, "build": cmd_build,
+    {"models": cmd_models, "generate": cmd_generate, "verify": cmd_verify, "cover": cmd_cover, "deepen": cmd_deepen,
+     "build": cmd_build,
      "dry": cmd_dry}[args.cmd](args)
 
 
