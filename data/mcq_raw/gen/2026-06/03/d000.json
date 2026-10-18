@@ -1,0 +1,137 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F15",
+  "P0.F3",
+  "P0.F4",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Highlighted by",
+   "question": "Participatory water budgeting in rural India was highlighted by which ministry?",
+   "options": [
+    "Ministry of Jal Shakti",
+    "Ministry of Rural Development",
+    "NITI Aayog",
+    "National Water Mission"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Participatory water budgeting in rural India was highlighted by the Ministry of Jal Shakti. The Ministry of Rural Development and NITI Aayog are associated with other aspects of the Varuni initiative, but they were not identified as the ministry highlighting this subject."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rural water use and India’s global share",
+   "question": "With reference to rural water use and India’s global resource share, consider the following statements:\n1. Agriculture accounts for 80–90% of rural water use.\n2. India accounts for 11.6% of the global population and 11.6% of the world’s livestock.\n3. Agriculture accounts for 70–80% of rural water use.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "Only statement 1 is correct: agriculture accounts for 80–90% of rural water use. Statement 2 changes India’s global population share from 17.5% to 11.6%, while statement 3 changes the agricultural share from 80–90% to 70–80%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State-specific scheme",
+   "question": "Mukhya Mantri Jal Swavlamban Abhiyan is associated with which State?",
+   "options": [
+    "Rajasthan",
+    "Maharashtra",
+    "Andhra Pradesh",
+    "Karnataka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "Mukhya Mantri Jal Swavlamban Abhiyan is associated with Rajasthan. Maharashtra is linked with the Jalyukt Shivar Abhiyan, making it the most plausible alternative but not the correct answer."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Scheme and associated feature",
+   "question": "Match the following water-conservation initiatives with their associated features.\n\nList-I\n a. Mukhya Mantri Jal Swavlamban Abhiyan\n b. Jalyukt Shivar Abhiyan\n c. Applications for Jalyukt Shivar Abhiyan\n d. Hiware Bazar\n\nList-II\n i. Rajasthan\n ii. Maharashtra, 2014\n iii. Maharashtra Remote Sensing Application Centre\n iv. Community-led watershed model",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Mukhya Mantri Jal Swavlamban Abhiyan is associated with Rajasthan; Jalyukt Shivar Abhiyan began in Maharashtra in 2014, its applications were developed by the Maharashtra Remote Sensing Application Centre, and Hiware Bazar is a community-led watershed model."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Varuni purpose and project",
+   "question": "Consider the following statements:\nStatement A: Varuni is a digital tool for block-level water budgeting.\nStatement B: Varuni was developed under an Indo-German project on Water Security and Climate Adaptation in Urban India.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Statement A is true because Varuni is a digital tool for block-level water budgeting. Statement B is false because the Indo-German project concerns Water Security and Climate Adaptation in Rural India, not Urban India."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institutional and technical support",
+   "question": "Varuni was developed with which institutional partnership and technical support?",
+   "options": [
+    "Ministry of Jal Shakti and Ministry of Rural Development, with technical support from NITI Aayog",
+    "Ministry of Jal Shakti and NITI Aayog, with technical support from the Ministry of Rural Development",
+    "Ministry of Rural Development and NITI Aayog, with technical support from the Ministry of Jal Shakti",
+    "Ministry of Jal Shakti and Ministry of Rural Development, with technical support from the National Water Mission"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Varuni was developed with the Ministry of Jal Shakti and the Ministry of Rural Development, with technical support from NITI Aayog. The tempting second option reverses the roles of NITI Aayog and the Ministry of Rural Development."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Establishment of IBBI",
+   "question": "Which of the following statements regarding the Insolvency and Bankruptcy Board of India (IBBI) is incorrect?",
+   "options": [
+    "IBBI was established on 1 October 2016.",
+    "IBBI was established on 1 October 2015.",
+    "IBBI was established under the Insolvency and Bankruptcy Code, 2016.",
+    "The Insolvency and Bankruptcy Code, 2016 established IBBI on 1 October 2016."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "The incorrect statement is that IBBI was established on 1 October 2015. IBBI was established on 1 October 2016 under the Insolvency and Bankruptcy Code, 2016; the changed detail is the year."
+  }
+ ]
+}

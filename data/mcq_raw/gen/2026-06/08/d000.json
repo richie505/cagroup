@@ -1,0 +1,321 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F19",
+  "P0.F2",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F8",
+  "P0.F9",
+  "P1.F3",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P2.F2",
+  "P2.F3",
+  "P3.F2",
+  "P3.F3",
+  "P3.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Global nuclear inventory",
+   "question": "According to the SIPRI Yearbook 2026, consider the following statements about global nuclear forces:\n1. Nine states possessed nuclear weapons.\n2. Of the 12,187 warheads at the start of 2026, 9,745 were in military stockpiles and more than 4,000 were deployed.\n3. The United States and Russia together possessed about 80% of the world's warheads.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "Only statement 1 is correct: the number of nuclear-armed states was nine. Statement 2 changes the reported figures by combining details inaccurately, while the United States and Russia together accounted for about 86%, not 80%, of warheads."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India's nuclear warheads",
+   "question": "How many nuclear warheads did India possess in early 2026, according to the SIPRI Yearbook 2026?",
+   "options": [
+    "190",
+    "178",
+    "12",
+    "620"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "India possessed approximately 190 nuclear warheads in early 2026. Of these, 12 were deployed and 178 were in storage; 620 was the figure reported for China."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Country-wise warhead estimates",
+   "question": "Match the countries with the relevant SIPRI estimates or change reported in the CA-360 details of the SIPRI Yearbook 2026.\n\nList-I\n a. India\n b. China\n c. Russia\n d. United States\n\nList-II\n i. Added 10 warheads in a year\n ii. 620 warheads\n iii. 5,420 warheads\n iv. 5,044 warheads",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "The correct pairs are India—added 10 warheads, China—620, Russia—5,420, and the United States—5,044. The other codes interchange these country-wise figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First cyber integration in conflict",
+   "question": "What was distinctive about Operation Sindoor in May 2025, as highlighted in the SIPRI Yearbook 2026?",
+   "options": [
+    "India and Pakistan integrated cyber operations into an active conflict for the first time",
+    "India and China conducted the first joint nuclear test",
+    "India and Pakistan signed the first civil nuclear agreement",
+    "India became the first country to join the Nuclear Suppliers Group"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "Operation Sindoor marked the first time India and Pakistan integrated cyber operations into an active conflict. The other options refer to developments not associated with Operation Sindoor."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Top arms importer",
+   "question": "Which country was the largest importer of major arms during 2021–25, according to the SIPRI data?",
+   "options": [
+    "Ukraine",
+    "India",
+    "Saudi Arabia",
+    "Qatar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "Ukraine was the top arms importer during 2021–25. India, Saudi Arabia and Qatar were also among the leading importers, but they followed Ukraine in the reported ranking."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Arms-export shares",
+   "question": "With reference to the global arms trade during 2021–25, consider the following statements:\n1. France accounted for 5.7% of global arms exports.\n2. Germany accounted for 5.7% of global arms exports.\n3. European NATO members accounted for 28% of global arms exports.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Only statement 2 is correct: Germany's share was 5.7%. France accounted for 9.8%, while European NATO members accounted for 28%."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "China in global arms trade",
+   "question": "Which one of the following statements about China's position in the global arms trade during 2021–25 is incorrect?",
+   "options": [
+    "China's arms imports fell by 72%.",
+    "China was the 20th-largest arms importer.",
+    "China received arms from 162 recipient states.",
+    "China's arms imports rose by 72%."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "The incorrect statement is that China's arms imports rose by 72%; they fell by 72%. China was the 20th-largest importer and its arms were supplied to 162 recipient states."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Nuclear doctrine",
+   "question": "Consider the following statements regarding India's nuclear doctrine:\nStatement A: The doctrine was drafted in 2003 and adopted in 1999.\nStatement B: The doctrine includes a First Use policy and civilian control.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Both statements are false. India's doctrine was drafted in 1999 and adopted in 2003, and it follows No First Use while providing for civilian control."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nuclear Command Authority",
+   "question": "Who chairs the Political Council of India's Nuclear Command Authority?",
+   "options": [
+    "The Prime Minister",
+    "The National Security Adviser",
+    "The President of India",
+    "The Defence Minister"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "The Political Council is chaired by the Prime Minister. The National Security Adviser chairs the Executive Council, making that the most tempting alternative."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Pokhran milestones",
+   "question": "Match the nuclear milestones with their dates or associated operation.\n\nList-I\n a. Pokhran-I\n b. Pokhran-II\n c. National Technology Day\n d. Operation Shakti\n\nList-II\n i. 18 May 1974\n ii. May 1998\n iii. 11 May\n iv. Five tests in May 1998",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F17",
+    "P0.F18"
+   ],
+   "explanation": "Pokhran-I took place on 18 May 1974; Pokhran-II occurred in May 1998; National Technology Day is observed on 11 May; and Operation Shakti comprised five tests in May 1998. The other codes mismatch these milestones and dates."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "India's nuclear agreements and commitments",
+   "question": "Consider the following statements:\n1. The 2008 India–US civil nuclear deal was accompanied by an NSG waiver.\n2. India has not signed the NPT or CTBT and opposes the TPNW.\n3. India is a member of the MTCR, Wassenaar Arrangement and Australia Group, and seeks membership of the NSG.\n4. India's reactors with imported uranium operate under IAEA safeguards.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F19",
+    "P0.F20",
+    "P0.F21",
+    "P0.F22"
+   ],
+   "explanation": "Only three statements are correct. Statements 1, 2 and 4 accurately describe India's nuclear arrangements; statement 3 is incorrect because India seeks NSG membership rather than being a member of the NSG."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "South Asian rankings",
+   "question": "Match the South Asian countries with their ranks in the Global Peace Index 2026.\n\nList-I\n a. Nepal\n b. Bangladesh\n c. India\n d. Pakistan\n\nList-II\n i. 111\n ii. 117\n iii. 127\n iv. 152",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F4",
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "The correct ranking pairs are Nepal—111, Bangladesh—117, India—127 and Pakistan—152. The alternative codes interchange the ranks among these South Asian countries."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Energy-transition leaders",
+   "question": "Which country topped the WEF Energy Transition Index 2026?",
+   "options": [
+    "Sweden",
+    "Finland",
+    "Denmark",
+    "India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Sweden topped the WEF Energy Transition Index 2026. Finland and Denmark occupied the next two positions, while India was among the fastest-improving countries."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Publisher and institutional details",
+   "question": "Consider the following statements regarding the WEF Energy Transition Index 2026:\nStatement A: The index has been published by Accenture with the WEF since 2010, and the WEF was established in 1971.\nStatement B: The WEF is headquartered in Cologny and was founded by Klaus Schwab.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "Both statements are false because the publisher arrangement is WEF with Accenture, not Accenture with the WEF, and the WEF was established in 1971; its headquarters and founder details are Cologny and Klaus Schwab. The wording of both statements reverses or misstates the institutional details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CHIPS framework",
+   "question": "In the State of India's Digital Economy 2026 report, what does the acronym CHIPS stand for?",
+   "options": [
+    "Connect, Harness, Innovate, Protect, Sustain",
+    "Create, Harness, Integrate, Protect, Scale",
+    "Connect, Harmonise, Innovate, Promote, Sustain",
+    "Coordinate, Harness, Invest, Protect, Secure"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "CHIPS stands for Connect, Harness, Innovate, Protect and Sustain. The other expansions alter one or more of these five components."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India's AI user base and talent position",
+   "question": "According to the State of India's Digital Economy 2026 report, which statement correctly describes India's position in the global AI ecosystem?",
+   "options": [
+    "About 19.9% of global AI users are Indian, and India is the second-largest AI talent hub",
+    "About 19.9% of global AI users are Indian, and India is the fourth-largest AI talent hub",
+    "About 8.2% of global AI users are Indian, and India is the second-largest AI talent hub",
+    "About 20% of global AI users are Indian, and India is the fifth-largest AI talent hub"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "Approximately 19.9% of global AI users are Indian, and India is the second-largest AI talent hub. The other options change either the reported share or India's talent-hub position."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Report released by",
+   "question": "Which organisation released the State of India's Digital Economy (SIDE) 2026 report?",
+   "options": [
+    "ICRIER–Prosus Centre for Internet and Digital Economy",
+    "Institute for Economics and Peace",
+    "Stockholm International Peace Research Institute",
+    "World Economic Forum with Accenture"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "The report was released by the ICRIER–Prosus Centre for Internet and Digital Economy. The other organisations are associated with the Global Peace Index, SIPRI Yearbook and Energy Transition Index respectively."
+  }
+ ]
+}

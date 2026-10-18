@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": [
+  "P8.F2",
+  "P8.F6",
+  "P8.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Digital agriculture mission and tools",
+   "question": "With reference to India’s digital agriculture initiatives, consider the following statements:\n1. The Digital Agriculture Mission has an allocation of ₹2,817 crore and covers AgriStack, Krishi-DSS, digital crop survey and soil mapping.\n2. DGCES stands for Digital General Crop Estimation Survey.\n3. NPSS covers 65+ crops and 400+ pests.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F6"
+   ],
+   "explanation": "All three statements are correct. The Digital Agriculture Mission has an allocation of ₹2,817 crore and includes AgriStack, Krishi-DSS, digital crop survey and soil mapping; DGCES expands to Digital General Crop Estimation Survey, while NPSS covers 65+ crops and 400+ pests. The tempting option “1 and 3 only” is incorrect because statement 2 is also correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme classification and beneficiaries",
+   "question": "Namo Drone Didi is correctly described as which of the following?",
+   "options": [
+    "A Central Sector Scheme for women SHGs under DAY-NRLM",
+    "A Centrally Sponsored Scheme for women SHGs under DAY-NRLM",
+    "A Central Sector Scheme for farmer producer organisations under DAY-NRLM",
+    "A State Sector Scheme for women SHGs under DAY-NRLM"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "Namo Drone Didi is a Central Sector Scheme meant for women SHGs under DAY-NRLM. The most tempting wrong option calls it a Centrally Sponsored Scheme, whereas its classification is Central Sector."
+  }
+ ]
+}

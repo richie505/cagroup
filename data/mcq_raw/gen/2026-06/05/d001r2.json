@@ -1,0 +1,65 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F13",
+  "P2.F2",
+  "P2.F3",
+  "P2.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Origin of boundary dispute",
+   "question": "Consider the following statements regarding the origin and claims in the Kalapani–Lipulekh–Limpiyadhura boundary dispute:\n1. The dispute originated from the Treaty of Sugauli, signed in 1816 after the Anglo-Nepalese War.\n2. Nepal claims that the Kali/Mahakali River begins near Kalapani.\n3. Nepal’s 2020 constitutional amendment and new map were accompanied by the issuance of a new NPR 100 note.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the dispute traces its origin to the Treaty of Sugauli of 1816, and Nepal’s 2020 map issue was accompanied by a new NPR 100 note. Statement 2 is incorrect because Nepal places the river’s source near Limpiyadhura, not Kalapani."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s territorial claim",
+   "question": "According to India’s position in the Kalapani–Lipulekh–Limpiyadhura dispute, where is the source of the Kali/Mahakali River located?",
+   "options": [
+    "Near Limpiyadhura in Nepal",
+    "Near Kalapani in Pithoragarh, Uttarakhand",
+    "Near Lipulekh in Nepal",
+    "Near Kathmandu in Nepal"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "India maintains that the source of the Kali/Mahakali River is near Kalapani, in the Pithoragarh area of Uttarakhand. Limpiyadhura is the location identified by Nepal in its claim, making it the most tempting alternative."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bridge connecting India and Nepal",
+   "question": "The Mechi Bridge connects which of the following places?",
+   "options": [
+    "Panitanki and Kakarvitta",
+    "Sabroom and Ramgarh",
+    "Jhulaghat and Kakarvitta",
+    "Panitanki and Ramgarh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F13"
+   ],
+   "explanation": "The Mechi Bridge connects Panitanki in India with Kakarvitta in Nepal. Sabroom–Ramgarh refers to Maitri Setu, while the other pairings do not represent the Mechi Bridge connection."
+  }
+ ]
+}

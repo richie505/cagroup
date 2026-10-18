@@ -1,36 +1,36 @@
 # CA MCQ report
 
-- MCQs kept: **6201**
-- News pages with at least one question: **2594 / 2629**
-- Facts tested: **11801 / 20515** (57.5%)
-- Answer positions: A 1566, B 1603, C 1669, D 1363
+- MCQs kept: **6708**
+- News pages with at least one question: **2593 / 2629**
+- Facts tested: **12586 / 20515** (61.4%)
+- Answer positions: A 1674, B 1740, C 1810, D 1484
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 658 | 654 | 700 | 569 |
-| Negative / Incorrect Statement | 126 | 130 | 140 | 130 |
-| Assertion-Reason | 137 | 146 | 187 | 165 |
-| Statement-Based (A/B) | 215 | 137 | 201 | 160 |
-| Multi-Statement Correctness | 229 | 231 | 208 | 210 |
+| Direct Recall | 708 | 701 | 777 | 632 |
+| Negative / Incorrect Statement | 133 | 134 | 144 | 135 |
+| Assertion-Reason | 138 | 155 | 198 | 172 |
+| Statement-Based (A/B) | 227 | 151 | 206 | 168 |
+| Multi-Statement Correctness | 244 | 251 | 227 | 230 |
 | Chronological Ordering | 4 | 4 | 2 | 2 |
-| List-Matching | 126 | 117 | 123 | 123 |
-| Count-Based | 71 | 184 | 108 | 4 |
+| List-Matching | 147 | 140 | 136 | 141 |
+| Count-Based | 73 | 204 | 120 | 4 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 715 |
-| verify:explanation_contradicts | 109 |
-| verify:not_in_facts | 89 |
-| duplicate | 40 |
-| verify:none_correct | 21 |
-| verify:two_correct | 20 |
-| verify:second reader picked option 2, key 1 | 13 |
-| verify:ambiguous_stem | 4 |
-| verify:garbled | 3 |
+| code | 784 |
+| verify:explanation_contradicts | 117 |
+| verify:not_in_facts | 95 |
+| duplicate | 42 |
+| verify:two_correct | 25 |
+| verify:none_correct | 23 |
+| verify:second reader picked option 2, key 1 | 16 |
+| verify:ambiguous_stem | 6 |
+| verify:second reader picked option 1, key 0 | 4 |
+| verify:garbled | 4 |
 | verify:second reader picked option 3, key 0 | 2 |
-| verify:second reader picked option 1, key 0 | 2 |
 | verify:second reader picked option 0, key 1 | 1 |
 | verify:second reader picked option 2, key 0 | 1 |
 | verify:trivial | 1 |
@@ -85,17 +85,17 @@
 | 2026-07/09 | Awards, Persons & Appointments | 83 | 154/158 |
 | 2026-07/10 | Sports | 37 | 60/64 |
 | 2026-07/11 | Important Days & Events | 112 | 175/175 |
-| 2026-06/01 | Andhra Pradesh | 47 | 90/208 |
-| 2026-06/02 | Polity & Governance | 12 | 31/83 |
-| 2026-06/03 | Schemes & Social Sector | 47 | 73/157 |
-| 2026-06/04 | Economy, Banking & Budget | 36 | 61/207 |
-| 2026-06/05 | International Relations | 34 | 58/132 |
-| 2026-06/06 | Science, Tech, Space & Defence | 33 | 51/140 |
-| 2026-06/07 | Environment & Geography | 20 | 37/125 |
-| 2026-06/08 | Reports, Indices & Rankings | 26 | 61/124 |
-| 2026-06/09 | Awards, Persons & Appointments | 14 | 31/63 |
-| 2026-06/10 | Sports | 8 | 15/31 |
-| 2026-06/11 | Important Days & Events | 40 | 49/97 |
+| 2026-06/01 | Andhra Pradesh | 122 | 202/208 |
+| 2026-06/02 | Polity & Governance | 45 | 83/83 |
+| 2026-06/03 | Schemes & Social Sector | 101 | 155/157 |
+| 2026-06/04 | Economy, Banking & Budget | 125 | 204/207 |
+| 2026-06/05 | International Relations | 84 | 130/132 |
+| 2026-06/06 | Science, Tech, Space & Defence | 86 | 137/140 |
+| 2026-06/07 | Environment & Geography | 78 | 122/125 |
+| 2026-06/08 | Reports, Indices & Rankings | 64 | 119/124 |
+| 2026-06/09 | Awards, Persons & Appointments | 35 | 63/63 |
+| 2026-06/10 | Sports | 18 | 31/31 |
+| 2026-06/11 | Important Days & Events | 67 | 97/97 |
 | 2026-05/01 | Andhra Pradesh | 60 | 128/262 |
 | 2026-05/02 | Polity & Governance | 33 | 77/172 |
 | 2026-05/03 | Schemes & Social Sector | 22 | 51/110 |
@@ -125,7 +125,7 @@
 | 2026-03/05 | International Relations | 26 | 53/133 |
 | 2026-03/06 | Science, Tech, Space & Defence | 27 | 55/166 |
 | 2026-03/07 | Environment & Geography | 29 | 55/154 |
-| 2026-03/08 | Reports, Indices & Rankings | 10 | 15/48 |
+| 2026-03/08 | Reports, Indices & Rankings | 9 | 14/48 |
 | 2026-03/09 | Awards, Persons & Appointments | 21 | 56/122 |
 | 2026-03/10 | Sports | 8 | 16/42 |
 | 2026-03/11 | Important Days & Events | 14 | 21/78 |
@@ -727,6 +727,30 @@
 - `2026-06/01/c006#2` verify: explanation_contradicts — Statement 1 matches the supplied fact, but the explanation incorrectly says it omits Andhra Pradesh.
   - Q: Consider the following statements regarding headlines in the CARE monthly index: / 1. Andhra Pradesh is emerging as a major centre for beach sand mineral exploration. / 2. Ponna Kaluva Utsavam was held at
   - Key: 2 only
+- `2026-06/01/d002#3` verify: two_correct — Housing, digital connectivity and DBT are all merely identified as basic necessities, so their distinct pairings with (i)-(iii) are not uniquely determinable.
+  - Q: Match the components associated with the Swarna Andhra @2047 Vision in List-I with their descriptions in List-II. /  / List-I / (a) Housing / (b) Digital connectivity / (c) DBT / (d) Zero Poverty P4 /  / List-II / (i) 
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2026-06/01/d002#5` verify: two_correct — Options 1, 2 and 3 incorrectly attribute other organisations' engagements to Google.
+  - Q: With reference to the outcome of the Chief Minister’s Singapore visit, identify the incorrect statement regarding Google’s proposed involvement in Andhra Pradesh.
+  - Key: Google was invited to the Sanjeevani healthcare project and to establish a branch or satellite campus in Amaravati.
+- `2026-06/01/d003#6` verify: second reader picked option 1, key 0 — 
+  - Q: Assertion (A): Andhra Pradesh has about 20 lakh acres under natural farming. / Reason (R): China returned 3 containers of Guntur chilli because of pesticide residues.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-06/01/d004#7` verify: second reader picked option 1, key 0 — 
+  - Q: Assertion (A): The KWDT award provided Karnataka 65% and undivided Andhra Pradesh 35% of the relevant water allocation. / Reason (R): The KWDT was constituted in 1969 and gave its award in 1976.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-06/01/d004#14` verify: not_in_facts — The facts give the mission's launch year but do not establish whether it was launched by the Andhra Pradesh Government.
+  - Q: Consider the following statements: / Statement A: The AP Semiconductor and Display Fab Policy covers the period 2024–2029. / Statement B: The India Semiconductor Mission was launched by the Andhra Pradesh
+  - Key: Statement A is true, Statement B is false
+- `2026-06/01/d005#0` verify: explanation_contradicts — The facts state that Dr. Arvind Panagariya chaired the 16th Finance Commission, so all three statements are correct.
+  - Q: Regarding the 16th Finance Commission grants to Andhra Pradesh local bodies, consider the following statements: / 1. Gram Panchayats receive 70% of the share. / 2. Holding local body elections is one of t
+  - Key: 1 and 2 only
+- `2026-06/01/d005#5` verify: explanation_contradicts — Statements 1 and 4 are correct, so the count is two, contradicting the explanation's claim of only one.
+  - Q: How many of the following statements correctly describe Andhra Pradesh's performance and the reasons associated with its pulse-production growth? / 1. Higher MSP was among the reasons associated with th
+  - Key: Only one
+- `2026-06/01/d006#0` verify: not_in_facts — The facts identify the healthcare service but do not establish whether it was provided at Amaravati.
+  - Q: With reference to the Andhra Pradesh headlines listed in the CARE monthly index, which of the following statements is incorrect?
+  - Key: Mee Intiki – Mee Doctor provides doorstep healthcare for poor families at Amaravati.
 - `2026-06/03/c004#4` verify: not_in_facts — The facts describe the ICAR WhatsApp advisory but do not identify it as Oilseeds Kisan Mitra.
   - Q: Which description correctly identifies Oilseeds Kisan Mitra?
   - Key: An ICAR WhatsApp AI advisory available 24×7 in multiple languages without a separate app
@@ -745,18 +769,39 @@
 - `2026-06/03/c005#14` verify: not_in_facts — The facts give Devasthal as the permanent station location but do not explicitly identify that station as the Himalayan Climate Observatory.
   - Q: The Himalayan Climate Observatory is being established under a 50-year MoU at which location?
   - Key: Devasthal, Uttarakhand
+- `2026-06/03/d001#10` verify: explanation_contradicts — A figure above 96% is also above 95%, so statements 1, 2 and 3 are correct, not only statements 1 and 3.
+  - Q: How many of the following figures were reported in NFHS-6? / 1. Vaccines received through public facilities: 95.6%. / 2. Any vaccine coverage: above 95%. / 3. Severe diarrhoea: 0.5%. / 4. Breastfeeding among 
+  - Key: Only two
+- `2026-06/03/d003#11` verify: two_correct — The facts give both 3,204 and an alternative figure of 3,202, so the recall item is internally conflicting.
+  - Q: How many data layers were available on the PM GatiShakti platform?
+  - Key: 3,204
+- `2026-06/03/d004#2` verify: explanation_contradicts — Statement 3 is supported by the facts because the gas grid uses Horizontal Directional Drilling under the Brahmaputra.
+  - Q: Consider the following statements about major infrastructure and energy projects in the North-East: /  / 1. Bogibeel Bridge is a road–rail bridge over the Brahmaputra, and Bhupen Hazarika Setu connects As
+  - Key: 1 only
 - `2026-06/04/c007#2` verify: explanation_contradicts — Both statements are true, but the definition of green ammonia does not explain why this specific port is being developed as a bunkering hub.
   - Q: Assertion (A): The V.O. Chidambaranar Port at Thoothukudi is being developed as a green ammonia bunkering hub with AM Green. / Reason (R): Green ammonia is a marine fuel made with green hydrogen from re
   - Key: Both A and R are true, and R is the correct explanation of A
 - `2026-06/04/c007#5` verify: not_in_facts — The facts give NCAER's establishment year but do not establish that it was founded in New Delhi.
   - Q: With reference to the Centre for Transport, Mobility and Logistics Economics established through the NHAI–NCAER initiative, how many of the following statements are correct? / 1. It is located in New De
   - Key: Only three
+- `2026-06/04/d002#15` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements are correct? / 1. Saubhagya covered 2.86 crore households. / 2. The International Solar Alliance has 125 members. / 3. LPG consumers increased from 14.51 crore to 33.39 
+  - Key: Only two
 - `2026-06/05/c001#2` verify: ambiguous_stem — The facts provide two different formulations as themes, making the direct-recall answer ambiguous.
   - Q: What was the theme of the 52nd G7 Summit Outreach Session held at Évian-les-Bains, France?
   - Key: Forging New Partnerships and Rebuilding International Solidarity
 - `2026-06/05/c004#2` verify: not_in_facts — The facts identify an AI geospatial-intelligence MoU but do not name Safran and SatSure, so Assertion A is not established.
   - Q: Assertion (A): Safran and SatSure signed an MoU on AI geospatial intelligence. / Reason (R): The MoU was signed with the National Museum of Denmark to explore the wreck of the ship Øresund.
   - Key: A is true, but R is false
+- `2026-06/05/d000#5` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements about India–Oman economic relations are correct? / 1. Around seven lakh Indians live in Oman. / 2. Oman is India’s second-largest trading partner in the Gulf. / 3. Bilat
+  - Key: Only two
+- `2026-06/05/d000#12` verify: explanation_contradicts — Statement B correctly combines the stated border and medicines facts, so both statements are true.
+  - Q: Consider the following statements: / Statement A: India is Myanmar’s fourth-largest trading partner, with trade of about USD 2.1 billion in FY25. / Statement B: India shares a 1,643 km border with Myanmar
+  - Key: Statement A is true, Statement B is false
+- `2026-06/05/d002#2` verify: two_correct — The facts list all four institutions under the Institutions component, so they do not establish InnoXchange Bridge as uniquely correct.
+  - Q: Which institution is identified as a pillar of the Institutions component of the India–France Innovation Roadmap 2030?
+  - Key: InnoXchange Bridge
 - `2026-06/06/c001#2` verify: explanation_contradicts — Statements 1 and 2 are correct from the facts, so exactly two statements—not exactly one—are correct.
   - Q: Consider the following statements about India's space missions: /  / 1. Mangalyaan was the first mission to reach Mars orbit in its maiden attempt. / 2. Aditya-L1 is India's first solar observatory and oper
   - Key: Exactly one statement is correct
@@ -769,18 +814,60 @@
 - `2026-06/06/c004#8` verify: not_in_facts — The facts identify the satellite only as ex-SWFO-L1 and do not establish the option name SOLAR-1.
   - Q: What is the name of the USA's first dedicated space-weather satellite launched on 24 September 2025?
   - Key: SOLAR-1
+- `2026-06/06/d000#4` verify: garbled — The question lists three statements but includes an impossible “All four” option.
+  - Q: How many of the following disease-agent statements are correct? / 1. Dengue is a viral disease. / 2. Athlete’s foot is a bacterial disease. / 3. Whooping cough is a fungal disease caused by Bordetella pertu
+  - Key: Only one
+- `2026-06/06/d001#9` verify: second reader picked option 2, key 1 — 
+  - Q: Consider the following statements: / Statement A: The NGLV is designed for 30 tonnes to LEO, while its reusable variant is designed for 14 tonnes. / Statement B: The PSLV/GSLV/LVM3 group is designed for u
+  - Key: Both Statement A and Statement B are false
+- `2026-06/06/d002#1` verify: ambiguous_stem — The facts give conflicting 2026 internet-user figures: 102.86 crore and an alternative 100.29 crore.
+  - Q: Which combination correctly represents India's internet-user base in 2026 and the prevailing data cost per GB?
+  - Key: 102.86 crore and ₹8–10/GB
+- `2026-06/06/d002r2#0` verify: ambiguous_stem — The facts give both 102.86 crore and an alternative figure of 100.29 crore for internet users.
+  - Q: Consider the following statements about India's digital base: / 1. Digital India was launched in 2015, while optical-fibre length increased from 19.35 lakh km to 42.36 lakh km by 2025. / 2. Internet users
+  - Key: 1 and 2 only
+- `2026-06/06/d003#6` verify: two_correct — The facts report both approximately 24 countries and an alternative source reporting 23, supporting options 0 and 1.
+  - Q: Which of the following correctly describes India's Digital Public Infrastructure cooperation and platforms?
+  - Key: DPI pacts covered approximately 24 countries, and India Stack Global and the Global DPI Repository were launched during 
 - `2026-06/07/c003#2` verify: explanation_contradicts — The stated 10 km ash height is approximately 33,000 ft, so statement 3 is consistent with the facts.
   - Q: Consider the following statements about recent volcanic and seismic events: / 1. Kīlauea is a shield volcano of the Hawaiian hotspot and is monitored by the USGS. / 2. Mount Merapi is a stratovolcano in J
   - Key: 1 and 2 only
 - `2026-06/07/c004#2` verify: explanation_contradicts — Statement 1 directly matches the facts, while statement 3 is contradicted because Indocolea devendrae was first recorded in India, not Nepal.
   - Q: Consider the following statements about species discoveries reported in June 2026: / 1. Chonala albistricta was the 10th species of its genus worldwide and the 2nd in India. / 2. Pseudocapritermes novus w
   - Key: 2 only
+- `2026-06/07/d004#5` verify: not_in_facts — The facts do not provide any information about Crotalaria phulei or statement 3.
+  - Q: Consider the following statements about species reported in June 2026: / 1. Bovista colorata is a puffball mushroom recorded for the first time from Longding district of Arunachal Pradesh. / 2. Eristalinu
+  - Key: 1 and 2 only
 - `2026-06/08/c000#2` verify: none_correct — Statements 1 and 2 are true, but no option represents “1 and 2 only”; the explanation also incorrectly treats military stockpiles as deployed warheads.
   - Q: With reference to the global nuclear-warhead estimates presented in the SIPRI Yearbook 2026, consider the following statements: / 1. The total number of nuclear warheads at the start of 2026 was estimat
   - Key: 1 only
+- `2026-06/08/d000#0` verify: none_correct — Statements 1 and 2 are supported, but no option represents both; the explanation incorrectly rejects statement 2.
+  - Q: According to the SIPRI Yearbook 2026, consider the following statements about global nuclear forces: / 1. Nine states possessed nuclear weapons. / 2. Of the 12,187 warheads at the start of 2026, 9,745 wer
+  - Key: 1 only
+- `2026-06/08/d000#5` verify: none_correct — Statements 2 and 3 are both supported, but no option represents that combination; the explanation incorrectly rejects statement 3.
+  - Q: With reference to the global arms trade during 2021–25, consider the following statements: / 1. France accounted for 5.7% of global arms exports. / 2. Germany accounted for 5.7% of global arms exports. / 3.
+  - Key: 2 only
+- `2026-06/08/d000#10` verify: explanation_contradicts — All four statements follow from the facts; statement 3 says India seeks NSG membership and does not claim it is already an NSG member.
+  - Q: Consider the following statements: / 1. The 2008 India–US civil nuclear deal was accompanied by an NSG waiver. / 2. India has not signed the NPT or CTBT and opposes the TPNW. / 3. India is a member of the M
+  - Key: Only three
+- `2026-06/08/d000#13` verify: explanation_contradicts — The facts support Statement B and the intended reading makes Statement A false, but the explanation incorrectly says both statements are false.
+  - Q: Consider the following statements regarding the WEF Energy Transition Index 2026: / Statement A: The index has been published by Accenture with the WEF since 2010, and the WEF was established in 1971. / S
+  - Key: Both Statement A and Statement B are false
+- `2026-06/08/d000r2#1` verify: not_in_facts — The facts establish statements 1 and 2, but do not establish that more than 4,000 warheads were not held in civilian stockpiles.
+  - Q: With reference to global nuclear arsenals at the beginning of 2026, consider the following statements: / 1. The total number of nuclear warheads was 12,187, and the United States and Russia together pos
+  - Key: 1 and 2 only
+- `2026-06/08/d000r2#5` verify: not_in_facts — The facts establish that some reactors use imported uranium under safeguards, but do not establish that every reactor does or does not.
+  - Q: Regarding India’s nuclear reactors and uranium arrangements, consider the following statements: / Statement A: Every Indian reactor uses imported uranium under IAEA safeguards. / Statement B: India has re
+  - Key: Statement A is false, Statement B is true
+- `2026-06/08/d002#7` verify: explanation_contradicts — The release schedule does not explain why TOP500 uses the High Performance Linpack benchmark.
+  - Q: Assertion (A): The TOP500 ranking evaluates supercomputers using the High Performance Linpack benchmark. / Reason (R): The TOP500 list is released every June and November.
+  - Key: Both A and R are true, and R is the correct explanation of A
 - `2026-06/11/c000#16` verify: not_in_facts — The facts establish the facility and its FBTR heat source but do not establish that it is the world’s first.
   - Q: Assertion (A): The world’s first Cu–Cl nuclear hydrogen facility was established at IGCAR, Kalpakkam. / Reason (R): The facility uses heat from the FBTR.
   - Key: Both A and R are true, but R is NOT the correct explanation of A
+- `2026-06/11/d002#13` verify: not_in_facts — The facts identify Rainforest Partnership as the associated body but do not establish that it did not found the day.
+  - Q: Which of the following statements about World Rainforest Day is incorrect?
+  - Key: It was established by the Rainforest Partnership.
 - `2026-05/01/c003#5` verify: trivial — The reason almost exactly restates the assertion, giving the item little exam value.
   - Q: Assertion (A): After bifurcation, Andhra Pradesh shifted from Hyderabad’s single-hub agglomeration model towards a multi-node distributed industrial model. / Reason (R): The multi-node model represents 
   - Key: Both A and R are true, and R is the correct explanation of A

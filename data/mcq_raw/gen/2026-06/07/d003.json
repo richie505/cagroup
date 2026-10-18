@@ -1,0 +1,192 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7
+ ],
+ "only": [
+  "P6.F1",
+  "P6.F10",
+  "P6.F2",
+  "P6.F4",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7",
+  "P6.F9",
+  "P7.F1",
+  "P7.F2",
+  "P7.F3",
+  "P7.F4",
+  "P7.F5",
+  "P7.F6",
+  "P7.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Tunnel length and location",
+   "question": "With reference to the Zojila Tunnel project, which one of the following combinations is correct?",
+   "options": [
+    "13.153 km; J&K–Ladakh",
+    "8.7 km; Himachal Pradesh–Punjab",
+    "2.65 km; Srinagar–Leh",
+    "13.153 km; Himachal Pradesh–Uttarakhand"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "The Zojila Tunnel is 13.153 km long and connects J&K with Ladakh. The 8.7-km figure belongs to the Chenab–Beas Link Tunnel, while 2.65 km is associated with the Photu La Tunnel."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tunnel approval and cost",
+   "question": "The Photu La Tunnel was approved on which highway, with an estimated cost of ₹1,196.22 crore?",
+   "options": [
+    "Srinagar–Leh NH-01",
+    "Jammu–Srinagar NH-44",
+    "Manali–Leh NH-03",
+    "Pithoragarh–Lipulekh NH-09"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "The Photu La Tunnel was approved on Srinagar–Leh NH-01 at a cost of ₹1,196.22 crore. Its planned length is 2.65 km, including twin-tube and approach-road components."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Hydropower projects and capacity",
+   "question": "Consider the following statements about the Kiru hydropower projects:\n1. Kiru-II has a capacity of 930 MW and is located on the Chenab.\n2. Kiru has a capacity of 624 MW and is targeted for completion in December 2027.",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "Both statements are correct",
+    "Both statements are incorrect"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5",
+    "P6.F6"
+   ],
+   "explanation": "Exactly one statement is correct: Kiru-II is a 930 MW run-of-river project on the Chenab. Kiru is targeted for December 2026, not December 2027; its capacity is 624 MW."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Water disputes and tribunals",
+   "question": "Match List-I with List-II regarding the water disputes and tribunals:\n\nList-I\n a. Mekedatu\n b. Ravi–Beas Tribunal\n c. KWDT-II\n d. Extension of the tribunals\n\nList-II\n i. One year under the ISRWD Act, 1956\n ii. Punjab, Haryana and Rajasthan\n iii. Tamil Nadu Assembly resolution against Karnataka’s dam on the Cauvery\n iv. Andhra Pradesh, Telangana, Karnataka and Maharashtra",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4",
+    "P6.F7"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i. Mekedatu concerns the Tamil Nadu Assembly resolution against Karnataka’s dam on the Cauvery; the Ravi–Beas and KWDT-II entries correspond to their respective States, and both tribunals were extended by one year under the ISRWD Act, 1956."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mountain committee and report deadline",
+   "question": "Who chairs the expert committee formed by the Supreme Court to define the limits of the Aravalli range, whose report is due by 31 August 2026?",
+   "options": [
+    "Kanchan Devi",
+    "Guru Shikhar",
+    "Kirthai-II",
+    "Kanchan Valley"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F9"
+   ],
+   "explanation": "The expert committee on defining the limits of the Aravallis is chaired by Kanchan Devi. Guru Shikhar is the highest peak of the Aravallis, not the chair of the committee."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Dam MoU and river",
+   "question": "Consider the following statements about the Kishau Multipurpose Dam:\nStatement A: Five States signed the MoU for the project.\nStatement B: The dam is being constructed on the Sutlej River.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F10"
+   ],
+   "explanation": "Both statements are false. Six States signed the MoU, and the Kishau Multipurpose Dam is on the Tons River, the largest tributary of the Yamuna."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Volcanic ash height",
+   "question": "During the reported activity of Volcán de Fuego in Guatemala, ash rose to approximately what height?",
+   "options": [
+    "33,000 ft",
+    "10 km",
+    "8.5 km",
+    "1,800 ft"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "Volcán de Fuego in Guatemala produced ash reaching up to 33,000 ft. The 10 km figure relates to ash from Shiveluch in Kamchatka."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Volcanoes and earthquake facts",
+   "question": "How many of the following statements are correct?\n1. Shiveluch in Kamchatka produced ash reaching 10 km and was placed under Red Alert.\n2. The earthquake near Mindanao, Philippines, had a magnitude of 7.1.\n3. Mount Merapi is a shield volcano.\n4. Kīlauea is a stratovolcano.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3",
+    "P7.F4",
+    "P7.F5"
+   ],
+   "explanation": "Only one statement is correct: Shiveluch produced ash up to 10 km and received a Red Alert. The Mindanao earthquake was M8.1, Merapi is a stratovolcano, and Kīlauea is a shield volcano."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coral colony and age",
+   "question": "The giant Pavona clavus coral colony known as the Potato Patch was discovered near which Lakshadweep island?",
+   "options": [
+    "Kadmat Island",
+    "Minamarg",
+    "Kodaikanal",
+    "Gunji"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F6"
+   ],
+   "explanation": "The giant Pavona clavus colony, called the Potato Patch, was found near Kadmat Island in Lakshadweep. The colony covers about 4,250 sq m and is estimated to be 700–1,800 years old."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Place in conservation news",
+   "question": "Assertion (A): The Madras High Court’s Madurai Bench sent the Berijam Lake petition to the Forest Bench for a tiger reserve feasibility study.\nReason (R): Berijam Lake is a natural saltwater lagoon in the coastal plains.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F9"
+   ],
+   "explanation": "The assertion is true, but the reason is false. Berijam Lake is an artificial drinking-water reservoir in Kodaikanal’s Upper Palani Hills, not a natural saltwater lagoon in the coastal plains."
+  }
+ ]
+}

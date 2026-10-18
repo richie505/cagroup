@@ -1,0 +1,214 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F3",
+  "P1.F10",
+  "P1.F11",
+  "P1.F3",
+  "P1.F4",
+  "P1.F7",
+  "P1.F8",
+  "P2.F4",
+  "P2.F5",
+  "P3.F2",
+  "P3.F5",
+  "P3.F6",
+  "P3.F8",
+  "P4.F5",
+  "P4.F7",
+  "P4.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "International honour",
+   "question": "Which honour was conferred on Prime Minister Narendra Modi by Slovakia in June 2026?",
+   "options": [
+    "Order of the White Double Cross (First Class)",
+    "Order of the White Double Cross (Second Class)",
+    "Order of the Blue Double Cross (First Class)",
+    "Order of the Red Double Cross (First Class)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Slovakia presented Prime Minister Narendra Modi with the Order of the White Double Cross (First Class), its highest civilian award. This was described as his 33rd international honour; the other options alter the class or name of the honour."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Diplomatic ties and capital",
+   "question": "With reference to India–Slovakia relations, consider the following statements:\nStatement A: India and Slovakia established diplomatic ties in 1994.\nStatement B: Bratislava is the capital of Slovenia.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Both statements are false. India–Slovakia diplomatic ties date to 1993, and Bratislava is the capital of Slovakia, not Slovenia."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "International award winner",
+   "question": "Who won the 71st IMO Prize of the World Meteorological Organization in 2026?",
+   "options": [
+    "Dr Florence Rabier",
+    "Dr Florence Ravier",
+    "Dr Florence Rabi",
+    "Dr Florence Rabeer"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "Dr Florence Rabier of France won the 71st IMO Prize. The prize recognised her contributions to numerical weather prediction, 4D-Var and AI forecasting; the other options alter her name."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "British honour",
+   "question": "Which Indian-origin gastroenterologist received the GBE in the United Kingdom’s King’s Birthday Honours 2026?",
+   "options": [
+    "Dame Parveen Kumar",
+    "Dame Parveen Kumari",
+    "Dame Praveen Kumar",
+    "Dame Parveen Kaur"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "Dame Parveen Kumar, an Indian-origin gastroenterologist, received the GBE in the King’s Birthday Honours 2026. The other options change her name."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "National awards and winners",
+   "question": "With reference to national awards announced in June 2026, consider the following statements:\n1. Araku Valley won the Most Instagrammable Landscape (Editors’ Choice) award.\n2. Gummadi Gopalakrishna received the Sangeet Natak Akademi Award for acting.\n3. Araku Valley is located in Goa.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Araku Valley won the Most Instagrammable Landscape award, and Gummadi Gopalakrishna received the Sangeet Natak Akademi Award for acting. Statement 3 is incorrect because Araku Valley is in Andhra Pradesh; Goa was the venue of the award."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "FAO award winner",
+   "question": "Who received the FAO ‘Soil Farmer Hero’ recognition in June 2026?",
+   "options": [
+    "Valluvan, a coconut farmer from Tamil Nadu",
+    "Gummadi Gopalakrishna from Andhra Pradesh",
+    "Sudarsan Pattnaik from Odisha",
+    "GRASA Millets and Food Pvt Ltd"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "Valluvan, a Tamil Nadu coconut farmer, received the FAO ‘Soil Farmer Hero’ recognition. His practices included multi-cropping and tree-based farming, supported by Cauvery Calling and Save Soil."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Award winner, venue and organiser",
+   "question": "Match the elements associated with the Rashtriya Ratna Samman 2026:\n\nList-I\n a. GRASA Millets and Food Pvt Ltd\n b. Bharat Mandapam\n c. BISF\n d. Chirag Paswan\n\nList-II\n i. FPI Minister\n ii. Emerging Health Tech & Nutrition Startup awardee\n iii. Platform launched\n iv. Venue",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i. GRASA Millets and Food Pvt Ltd was the Emerging Health Tech & Nutrition Startup awardee, Bharat Mandapam was the venue, BISF was the launched platform, and Chirag Paswan was the FPI Minister."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Gallantry award rank",
+   "question": "The Shaurya Chakra, conferred in the first phase of the Gallantry Awards 2026, is classified as which honour?",
+   "options": [
+    "The 3rd-highest peacetime gallantry award",
+    "The 2nd-highest peacetime gallantry award",
+    "The 3rd-highest wartime gallantry award",
+    "The highest peacetime gallantry award"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "The Shaurya Chakra is the 3rd-highest peacetime gallantry award. The other options alter either its rank or its wartime/peacetime classification."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Gallantry award recipient",
+   "question": "Assertion (A): Air Commodore Prashanth Balakrishnan Nair received the Kirti Chakra.\nReason (R): He was awarded the Shaurya Chakra as an astronaut-designate of the Indian Space Research Organisation.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The assertion is true: Air Commodore Prashanth Balakrishnan Nair, an IAF Gaganyaan astronaut-designate, received the Kirti Chakra. The reason is false because it changes both the award to Shaurya Chakra and the organisation to the Indian Space Research Organisation."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "World elections and appointments",
+   "question": "With reference to world leaders and elections in June 2026, how many of the following statements are correct?\n1. Mette Frederiksen was sworn in for a third consecutive term as Denmark’s Prime Minister.\n2. Ethiopia’s Prosperity Party won 438 of 501 seats.\n3. Armenia’s Civil Contract Party won, allowing Nikol Pashinyan to continue as Prime Minister.\n4. Khalilur Rahman was elected President of the 81st UN General Assembly with 91 votes.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F5",
+    "P3.F6",
+    "P3.F8"
+   ],
+   "explanation": "Only three statements are correct: the statements on Mette Frederiksen, Ethiopia’s Prosperity Party and Armenia’s Civil Contract Party are accurate. Statement 4 is incorrect because Khalilur Rahman received 99 votes, while Andreas Kakouris received 91."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Appointments and tenure records",
+   "question": "Consider the following statements regarding appointments and records announced in June 2026:\n1. Lt Gen Dhiraj Seth was to become Chief of Army Staff effective 30 June 2026.\n2. Shailesh Wagerwal was appointed CMD of Bharat Dynamics Ltd until 31 March 2031.\n3. Nehru continued to hold the longest uninterrupted tenure as Prime Minister after 10 June 2026.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5",
+    "P4.F7",
+    "P4.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Lt Gen Dhiraj Seth was to assume the Army Chief’s post on 30 June 2026, and Shailesh Wagerwal’s CMD tenure at Bharat Dynamics Ltd was to continue until 31 March 2031. Statement 3 is false because Narendra Modi completed 4,399 consecutive days and thereby surpassed Nehru’s continuous tenure; Nehru retained the longest overall tenure, not the longest uninterrupted tenure."
+  }
+ ]
+}

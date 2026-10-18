@@ -1,0 +1,212 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F2",
+  "P0.F8",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Mission components",
+   "question": "Consider the following statements regarding the components of the National Green Hydrogen Mission:\n\n1. SIGHT stands for Strategic Interventions for Green Hydrogen Transition.\n2. SHIP stands for Strategic Hydrogen Innovation Partnership.\n3. SHIP is associated with research and development.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "All three statements are correct. SIGHT is Strategic Interventions for Green Hydrogen Transition, while SHIP is Strategic Hydrogen Innovation Partnership for research and development. The options excluding one statement are therefore incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Allocation for green hydrogen pilots",
+   "question": "How much was allotted by the Ministry of Steel for green hydrogen pilot projects up to FY 2029–30, aimed at replacing coking coal in the direct reduced iron process?",
+   "options": [
+    "₹455 crore",
+    "₹33,660 crore",
+    "₹1 lakh crore",
+    "₹8 lakh crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "The Ministry of Steel allotted ₹455 crore for green hydrogen pilots up to FY 2029–30. ₹33,660 crore is the outlay associated with BHAVYA, while ₹1 lakh crore and ₹8 lakh crore are different National Green Hydrogen Mission targets."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Green hydrogen applications and infrastructure",
+   "question": "Match List-I with List-II in the context of India’s green hydrogen roadmap.\n\nList-I\n a. Fertiliser projects\n b. Refinery projects\n c. Green Hydrogen Hub ports\n d. Transport pilots\n\nList-II\n i. 37 hydrogen buses/trucks, 10 routes and 9 refuelling stations\n ii. 7,24,000 tonnes of green ammonia per year to 13 plants\n iii. Deendayal, V.O. Chidambaranar and Paradip\n iv. Approximately 30,000 tonnes per year\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10",
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i. Fertiliser projects involve 7,24,000 tonnes of green ammonia annually for 13 plants; refinery projects are approximately 30,000 tonnes per year; the three ports are Deendayal, V.O. Chidambaranar and Paradip; and the transport pilots cover 37 buses/trucks, 10 routes and 9 refuelling stations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Where is the NTPC green hydrogen hub located in Andhra Pradesh?",
+   "options": [
+    "Pudimadaka",
+    "Paradip",
+    "Deendayal",
+    "V.O. Chidambaranar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "The NTPC green hydrogen hub in Andhra Pradesh is located at Pudimadaka. Paradip, Deendayal and V.O. Chidambaranar are listed as Green Hydrogen Hub ports, not the Andhra Pradesh location of the NTPC hub."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Cost and water requirement",
+   "question": "Consider the following statements:\nStatement A: In 2026, green hydrogen cost ₹397–560 per kg, while grey hydrogen cost ₹150–200 per kg.\nStatement B: The water requirement for producing one kg of hydrogen is 9–11 litres.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "Both statements are true. The 2026 cost range for green hydrogen is ₹397–560 per kg compared with ₹150–200 per kg for grey hydrogen, and water consumption is 9–11 litres per kg of hydrogen. Hence, neither statement is false."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Delivered cost and SME window",
+   "question": "Assertion (A): Midstream and end-use costs together account for 60–70% of the final delivered cost of green hydrogen.\nReason (R): An SME window for 10 kW–2 MW electrolysers was suggested.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Assertion A is false because midstream and end-use costs account for 70–85% of the final delivered cost, not 60–70%. Reason R is true because an SME window for 10 kW–2 MW electrolysers was suggested."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Centre-State implementation model",
+   "question": "Under the BHAVYA scheme, which implementation model is correct?",
+   "options": [
+    "States provide land, the Centre provides infrastructure, and the NICDC–State participation is 51:49",
+    "The Centre provides land, States provide infrastructure, and the NICDC–State participation is 49:51",
+    "States provide both land and infrastructure, with no NICDC–State participation",
+    "The Centre provides both land and infrastructure, with NICDC–State participation of 51:49"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "BHAVYA follows a Centre-State model in which States provide land and the Centre provides infrastructure, with NICDC–State participation of 51:49. The other options reverse the responsibilities or alter the participation arrangement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Guidelines and issuing organisation",
+   "question": "Which organisation released the BHAVYA guidelines in May 2026?",
+   "options": [
+    "DPIIT",
+    "NICDC",
+    "BIS",
+    "FSSAI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "The BHAVYA guidelines were released by DPIIT in May 2026. NICDC developed the portal, while BIS and FSSAI are among the testing partners associated with the industrial parks."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Park size by region",
+   "question": "Match the BHAVYA park region or category in List-I with the corresponding size or partner grouping in List-II.\n\nList-I\n a. Hilly regions, small Union Territories and North-Eastern States\n b. Mid-sized States\n c. Areas near cities\n d. Testing partners\n\nList-II\n i. Up to 1,000 acres\n ii. 25 acres\n iii. 100–500 acres\n iv. BIS, Export Inspection Agency and FSSAI\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-i, c-ii, d-iv",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7",
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv. The prescribed sizes are 25 acres for hilly regions, small Union Territories and North-Eastern States; 100–500 acres for mid-sized States; and up to 1,000 acres near cities. BIS, the Export Inspection Agency and FSSAI are the testing partners."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Testing partners and international enclaves",
+   "question": "Consider the following statements about BHAVYA industrial parks:\n\n1. BIS is one of the testing partners.\n2. The Export Inspection Agency is one of the testing partners.\n3. FSSAI is one of the testing partners.\n4. France is listed among the international enclaves.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "Only three statements are correct. BIS, the Export Inspection Agency and FSSAI are testing partners; France is not listed among the international enclaves, which include Japan, Singapore, Korea and Switzerland."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NICDC profile",
+   "question": "Which description correctly characterises NICDC in the context of BHAVYA?",
+   "options": [
+    "It functions under DPIIT in the Ministry of Commerce and Industry, has 20 projects in 13 States, and develops plug-and-play greenfield industrial smart cities",
+    "It functions under the Ministry of Steel, has 13 projects in 20 States, and develops hydrogen refuelling stations",
+    "It functions under FSSAI, has 100 projects in six States, and develops testing laboratories",
+    "It functions under the Ministry of Finance, has 51 projects in 49 States, and develops fertiliser plants"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "NICDC is under DPIIT in the Ministry of Commerce and Industry, has 20 projects in 13 States, and is associated with plug-and-play greenfield industrial smart cities. The other descriptions change the ministry, project figures or institutional role."
+  }
+ ]
+}

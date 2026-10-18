@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P1.F3",
+  "P1.F6",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Secondary pollutant",
+   "question": "Ground-level ozone, a major feature of summer air pollution, is best described as which of the following?",
+   "options": [
+    "A secondary pollutant formed when NOx and VOCs react in sunlight",
+    "A particulate pollutant with a diameter of 10 micrometres or less",
+    "A hot, long-distance dust wind in North India",
+    "A short, local dust storm accompanied by thunderstorms"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "Ground-level ozone is a secondary pollutant produced when NOx and VOCs react in sunlight. PM10, loo and andhi are different concepts, so the other options are incorrect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "PM10 size threshold",
+   "question": "With reference to PM10, which of the following statements is incorrect?",
+   "options": [
+    "PM10 particles have a diameter of 10 micrometres or less.",
+    "PM10 includes particles having a diameter of 10 micrometres.",
+    "PM10 refers to particles no larger than 10 micrometres in diameter.",
+    "PM10 refers to particles having a diameter more than 10 micrometres."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "The incorrect statement is that PM10 particles have a diameter more than 10 micrometres. PM10 consists of particles with a diameter of 10 micrometres or less; the first three statements express this threshold."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Loo and andhi",
+   "question": "Consider the following statements:\nStatement A: Loo is a hot, long-distance dust wind in North India.\nStatement B: Andhi is a hot, long-distance dust wind in North India.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "Statement A is true because loo refers to hot, long-distance dust winds in North India. Statement B is false because andhi is a short, local dust storm accompanied by thunderstorms."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Project objective and concerns",
+   "question": "In the context of the Great Nicobar Project and the background of the Andaman and Nicobar Command, consider the following statements:\n1. The project aims to cut dependence on foreign hubs such as Colombo, Singapore and Port Klang.\n2. The project has raised concerns relating to the felling of lakhs of trees, coral reefs and a high seismic or tsunami zone.\n3. The Andaman and Nicobar Command is India's only two-service command.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F6",
+    "P1.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the project seeks to reduce dependence on Colombo, Singapore and Port Klang, while its ecological and disaster-related concerns include lakhs of trees being felled, coral reefs and a high seismic or tsunami zone. Statement 3 is incorrect because the Andaman and Nicobar Command is India's only tri-service command."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Which pair is correctly associated with the background of the Great Nicobar Project?",
+   "options": [
+    "Barren Island—India's active volcano; Ten Degree Channel—separates Andaman and Nicobar",
+    "Barren Island—India's only tri-service command; Ten Degree Channel—links Colombo and Singapore",
+    "Barren Island—site of the international container transshipment terminal; Ten Degree Channel—separates Great Nicobar and Port Klang",
+    "Barren Island—location of the greenfield international airport; Ten Degree Channel—links Malacca Strait and Colombo"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9"
+   ],
+   "explanation": "Barren Island is India's active volcano, and the Ten Degree Channel separates the Andaman and Nicobar groups. The other options incorrectly associate these geographical features with the command, project components or foreign hubs."
+  }
+ ]
+}

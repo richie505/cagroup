@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": [
+  "P3.F12",
+  "P3.F13",
+  "P3.F29",
+  "P3.F30",
+  "P3.F37",
+  "P3.F38"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Bharatmala completion",
+   "question": "Under the Bharatmala programme, how many kilometres had been completed by 31 March 2026?",
+   "options": [
+    "22,590 km",
+    "22,590 routes",
+    "22,590 bridges",
+    "22,590 miles"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F13"
+   ],
+   "explanation": "The Bharatmala programme completed 22,590 km by 31 March 2026. The other options incorrectly describe the achievement as routes, bridges or miles rather than kilometres."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "PMGSY allocation and connectivity",
+   "question": "Which of the following statements regarding the Pradhan Mantri Gram Sadak Yojana (PMGSY) in 2026–27 is incorrect?",
+   "options": [
+    "The allocation was ₹19,000 crore.",
+    "It had connected 99.6% of habitations.",
+    "The number of bridges increased from 484 to 10,293.",
+    "It had connected 99.6 crore habitations."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F12"
+   ],
+   "explanation": "The incorrect statement is that PMGSY had connected 99.6 crore habitations; the correct figure is 99.6% of habitations. The other statements correctly state the allocation and the increase in bridges from 484 to 10,293."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Infrastructure programme outcomes",
+   "question": "Match the following programme details with their corresponding figures:\n\nList-I\n\na. PRAGATI projects\nb. PRAGATI issues resolved\nc. Jal Jeevan Mission household coverage\n d. Extension of Jal Jeevan Mission\n\nList-II\n\ni. 382 projects\n ii. 2,958 issues\n iii. 3.23 crore to 15.86 crore households\n iv. Till 2028\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F29",
+    "P3.F30"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: PRAGATI covers 382 projects and 2,958 issues resolved, while Jal Jeevan Mission household coverage rose from 3.23 crore to 15.86 crore and was extended till 2028. The other codes interchange these programme outcomes."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Clean-energy and LPG indicators",
+   "question": "How many of the following statements regarding clean-energy institutions and LPG coverage are correct?\n\n1. The International Solar Alliance has 125 members.\n2. The Global Biofuels Alliance comprises 33 countries and 14 organisations.\n3. LPG coverage increased from 55.9% to 107.2%.\n4. LPG consumers increased from 14.51 crore to 55.9 crore.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F37",
+    "P3.F38"
+   ],
+   "explanation": "Exactly three statements are correct: the International Solar Alliance has 125 members, the Global Biofuels Alliance comprises 33 countries and 14 organisations, and LPG coverage rose from 55.9% to 107.2%. Statement 4 is incorrect because LPG consumers increased from 14.51 crore to 33.39 crore, not 55.9 crore."
+  }
+ ]
+}

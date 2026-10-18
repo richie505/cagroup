@@ -1,0 +1,57 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P5.F10",
+  "P5.F17",
+  "P6.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Digital public infrastructure initiatives",
+   "question": "With reference to the Jan Dhan platform and India's global digital public infrastructure initiatives, consider the following statements:\n\nStatement A: Jan Dhan accounts increased from 14.72 crore to 57.78 crore by February 2026, with deposits of ₹2.49 lakh crore.\nStatement B: India Stack Global and the Global DPI Repository were launched in February 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F10",
+    "P5.F17"
+   ],
+   "explanation": "Both statements are false. Jan Dhan deposits were ₹2.94 lakh crore, not ₹2.49 lakh crore, while India Stack Global and the Global DPI Repository were launched during the G20 Presidency, not in February 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment year and location",
+   "question": "The Defence Research and Development Organisation (DRDO) was established in which year and at which place?",
+   "options": [
+    "1958, New Delhi",
+    "1958, Hyderabad",
+    "1958, Chennai",
+    "1958, Kanpur"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "DRDO was established in 1958 at New Delhi. The other options retain the year but associate DRDO with different places."
+  }
+ ]
+}

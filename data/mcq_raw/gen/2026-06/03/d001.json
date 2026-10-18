@@ -1,0 +1,285 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F10",
+  "P1.F11",
+  "P1.F13",
+  "P1.F14",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18",
+  "P1.F2",
+  "P1.F20",
+  "P1.F22",
+  "P1.F24",
+  "P1.F25",
+  "P1.F26",
+  "P1.F27",
+  "P1.F28",
+  "P1.F29",
+  "P1.F3",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F1",
+  "P2.F4",
+  "P2.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Nodal agency",
+   "question": "Which institution served as the nodal agency for NFHS-6?",
+   "options": [
+    "International Institute for Population Sciences (IIPS), Mumbai",
+    "Union Health Ministry (MoHFW)",
+    "Ministry of New and Renewable Energy (MNRE)",
+    "AB PM-JAY"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The International Institute for Population Sciences (IIPS), Mumbai, was the nodal agency for NFHS-6. The Union Health Ministry released the survey, but it was not the nodal agency."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Survey coverage",
+   "question": "NFHS-6 covered approximately how many households and districts?",
+   "options": [
+    "~6.79 lakh households and 715 districts",
+    "~6.79 lakh households and 300 districts",
+    "715 households and ~6.79 lakh districts",
+    "1 crore households and 715 districts"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "NFHS-6 covered approximately 6.79 lakh households across 715 districts. The other combinations alter either the household coverage or the number of districts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Maternal healthcare indicators",
+   "question": "With reference to the maternal healthcare indicators reported in NFHS-6, consider the following statements:\n1. At least 4 ANC visits increased from 58.5% to 65.2%.\n2. Institutional deliveries increased from 88.6% to 90.6%.\n3. Skilled birth attendance increased from 89.4% to 90.3%.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the corresponding increases were 58.5% to 65.2% and 88.6% to 90.6%. Statement 3 is incorrect because skilled birth attendance increased from 89.4% to 91.3%, not 90.3%."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "NFHS-6 indicator changes",
+   "question": "Match List-I with the corresponding NFHS-5 to NFHS-6 change in List-II.\n\nList-I\n a. Newborn PNC within 2 days\n b. IFA for 100+ days\n c. IFA for 180+ days\n d. Contraceptive Prevalence Rate\n\nList-II\n i. 44.1% → 54.9%\n ii. 79.1% → 85.3%\n iii. 26.0% → 37.8%\n iv. 66.7% → 69.1%",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10",
+    "P1.F11",
+    "P1.F13"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv. Newborn PNC rose from 79.1% to 85.3%, while the two IFA indicators and the Contraceptive Prevalence Rate had the other stated changes."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Vaccination and fertility indicators",
+   "question": "Which one of the following statements regarding NFHS-6 findings is incorrect?",
+   "options": [
+    "The Contraceptive Prevalence Rate increased from 66.7% to 69.1%.",
+    "Full vaccination among children aged 12–23 months increased from 83.8% to 87.1%.",
+    "The Contraceptive Prevalence Rate increased from 66.7% to 68.1%.",
+    "Full vaccination among children aged 12–23 months increased from 83.8% to 87.1%."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F13",
+    "P1.F14"
+   ],
+   "explanation": "The incorrect statement changes the NFHS-6 Contraceptive Prevalence Rate from 69.1% to 68.1%. The correct change was from 66.7% to 69.1%; full vaccination increased from 83.8% to 87.1%."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Child health indicators",
+   "question": "With reference to selected child health indicators in NFHS-6, consider the following statements:\n1. Measles second-dose coverage increased from 58.6% to 71.8%.\n2. ARI symptoms declined from 2.8% to 1.8%.\n3. Breastfeeding within one hour increased from 41.8% to 50.1%.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F16",
+    "P1.F17",
+    "P1.F18"
+   ],
+   "explanation": "Statements 1 and 3 are correct: measles second-dose coverage rose to 71.8%, and breastfeeding within one hour rose to 50.1%. Statement 2 is incorrect because ARI symptoms declined from 2.8% to 1.9%, not 1.8%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Severe wasting",
+   "question": "What change in severe wasting among children under five was reported between NFHS-5 and NFHS-6?",
+   "options": [
+    "7.7% to 5.2%",
+    "7.7% to 5.9%",
+    "5.2% to 7.7%",
+    "35.5% to 29.3%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F20"
+   ],
+   "explanation": "Severe wasting declined from 7.7% in NFHS-5 to 5.2% in NFHS-6. The change from 35.5% to 29.3% refers to stunting, not severe wasting."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Complementary feeding",
+   "question": "According to NFHS-6, complementary feeding among children aged 6–8 months changed from which level to which level?",
+   "options": [
+    "45.9% to 59.5%",
+    "45.9% to 54.9%",
+    "59.5% to 45.9%",
+    "44.1% to 54.9%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F22"
+   ],
+   "explanation": "Complementary feeding among children aged 6–8 months increased from 45.9% to 59.5%. The 44.1% to 54.9% change relates to IFA consumption for 100+ days."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Women’s digital and financial access",
+   "question": "Consider the following statements:\nStatement A: The proportion of women who had ever used the internet increased from 33.3% to 63.4%.\nStatement B: The proportion of women with an own-use bank account increased from 78.6% to 89.5%.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F24",
+    "P1.F25"
+   ],
+   "explanation": "Both statements are false because the NFHS-6 figures were 64.3% for women who had ever used the internet and 89.0% for women with an own-use bank account. The altered figures are 63.4% and 89.5%, respectively."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Women’s mobile phone access",
+   "question": "Assertion (A): NFHS-6 reported an increase in the proportion of women owning and using their own mobile phone.\nReason (R): The indicator increased from 53.9% in NFHS-5 to 63.6% in NFHS-6.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F26"
+   ],
+   "explanation": "Both the assertion and reason are true, and the stated figures explain the reported increase. Women’s own-use mobile phone access rose from 53.9% to 63.6%."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "NFHS-6 health and nutrition figures",
+   "question": "How many of the following figures were reported in NFHS-6?\n1. Vaccines received through public facilities: 95.6%.\n2. Any vaccine coverage: above 95%.\n3. Severe diarrhoea: 0.5%.\n4. Breastfeeding among children under 6 months: 96.5%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F28"
+   ],
+   "explanation": "Only two statements are correct: vaccines received through public facilities were 95.6%, and severe diarrhoea was 0.5%. Any vaccine coverage was above 96%, not above 95%, and breastfeeding among children under 6 months was 95.6%, not 96.5%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Schemes credited",
+   "question": "Which group of schemes and programmes was credited in the NFHS-6 context for improvements in maternal, child, nutrition and family-health outcomes?",
+   "options": [
+    "JSY, JSSK, PMSMA, SUMAN, PMMVY, UIP, POSHAN 2.0, AB PM-JAY, Mission Parivar Vikas and U-WIN",
+    "PM Surya Ghar, PM-KUSUM, JSY and U-WIN",
+    "JSSK, PMSMA, PMMVY, PM-KUSUM and POSHAN 2.0",
+    "UIP, AB PM-JAY, Mission Parivar Vikas, PM Surya Ghar and MNRE"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F29"
+   ],
+   "explanation": "The credited group comprised JSY, JSSK, PMSMA, SUMAN, PMMVY, UIP, POSHAN 2.0, AB PM-JAY, Mission Parivar Vikas and U-WIN. PM Surya Ghar and PM-KUSUM are decentralised solar schemes and are not part of this group."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Solar capacity and additions",
+   "question": "With reference to India’s solar expansion, consider the following statements:\n1. Solar accounted for approximately 30% of India’s installed capacity.\n2. More than 50 GW of solar capacity was added in two years.\n3. In 2025, India added more solar capacity than every country except the United States.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Statements 1 and 2 are correct: solar’s share was approximately 30% and more than 50 GW was added in two years. Statement 3 is incorrect because in 2025 India added more solar than every country except China."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Top rooftop solar States",
+   "question": "Which group of States accounted for approximately 70% of rooftop solar installations under the decentralised solar expansion?",
+   "options": [
+    "Gujarat, Maharashtra, Uttar Pradesh, Kerala and Rajasthan",
+    "Gujarat, Maharashtra, Uttar Pradesh and Kerala",
+    "Gujarat, Maharashtra, Punjab, Kerala and Rajasthan",
+    "Maharashtra, Uttar Pradesh, Kerala and Rajasthan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Gujarat, Maharashtra, Uttar Pradesh, Kerala and Rajasthan together accounted for approximately 70% of rooftop solar installations. The other options omit one of these five States or replace it with Punjab."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Barrier to solar uptake",
+   "question": "Which issue was identified as reducing solar uptake in areas such as Punjab?",
+   "options": [
+    "Free power, including 300 units free and free farm power",
+    "A target of 40 GW of decentralised capacity",
+    "Installation of 14 lakh standalone solar pumps",
+    "Addition of more than 50 GW of solar capacity in two years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Free power, including 300 units free and free farm power in Punjab, was identified as reducing solar uptake. The other options describe capacity targets, pump installations or solar additions rather than the stated barrier."
+  }
+ ]
+}

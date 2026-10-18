@@ -1,0 +1,170 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20
+ ],
+ "only": [
+  "P5.F10",
+  "P5.F11",
+  "P5.F13",
+  "P5.F14",
+  "P5.F4",
+  "P5.F7",
+  "P5.F8",
+  "P5.F9",
+  "P6.F3",
+  "P6.F4",
+  "P6.F5",
+  "P6.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Nodal body",
+   "question": "In the institutional framework for North-Eastern development, which body serves as the nodal body?",
+   "options": [
+    "North Eastern Council",
+    "NERAMAC",
+    "National Health Authority",
+    "APEDA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "The North Eastern Council is the nodal body for North-Eastern development. NERAMAC is associated with marketing, while APEDA is associated with agri-exports."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Connectivity routes and border facilities",
+   "question": "Match List-I with List-II regarding North-Eastern connectivity and border facilities.\n\nList-I\n a. Trilateral Highway\n b. Kaladan project\n c. ICP Moreh\n d. Border Haats\n\nList-II\n i. Sittwe Port–Paletwa by waterway\n ii. Moreh–Mae Sot\n iii. Moreh\n iv. Kamalasagar and Bholaganj\n\nChoose the correct code.",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F7",
+    "P5.F8"
+   ],
+   "explanation": "The correct pairs are Trilateral Highway–Moreh–Mae Sot, Kaladan–Sittwe Port–Paletwa by waterway, ICP Moreh–Moreh, and Border Haats–Kamalasagar and Bholaganj. The most tempting alternative swaps the two major connectivity routes, but the Trilateral Highway is the Moreh–Mae Sot link."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Infrastructure and energy projects",
+   "question": "Consider the following statements about major infrastructure and energy projects in the North-East:\n\n1. Bogibeel Bridge is a road–rail bridge over the Brahmaputra, and Bhupen Hazarika Setu connects Assam and Arunachal Pradesh.\n2. Noney Bridge is a Manipur road bridge, and Sela Tunnel connects Tezpur with Tawang.\n3. The Dibang Multipurpose and Subansiri Lower projects are hydro projects, while the North-East Gas Grid uses a pipeline under the Brahmaputra by Horizontal Directional Drilling.\n\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F9",
+    "P5.F10"
+   ],
+   "explanation": "Only statement 1 is correct: Bogibeel Bridge is a road–rail bridge over the Brahmaputra, and Bhupen Hazarika Setu connects Assam and Arunachal Pradesh. Statement 2 wrongly describes Noney Bridge as a road bridge; statement 3 wrongly changes the North-East Gas Grid’s drilling method by omitting its Horizontal Directional Drilling route under the Brahmaputra."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Firsts in the North-East",
+   "question": "Assertion (A): The North-East's first cattle IVF lab is at Guwahati.\nReason (R): AIIMS Guwahati is another first identified for the North-East.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F11"
+   ],
+   "explanation": "Both statements are true: the North-East's first cattle IVF lab is at Guwahati, and AIIMS Guwahati is also identified among the region's firsts. However, the presence of AIIMS Guwahati does not explain the location of the cattle IVF lab."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Regional development outcome",
+   "question": "Which of the following statements regarding basic development outcomes in the North-East is incorrect?",
+   "options": [
+    "All eight States are ODF under Saubhagya.",
+    "All eight States are fully electrified under Saubhagya.",
+    "All eight States are both ODF and fully electrified under Saubhagya.",
+    "All eight States are ODF and fully electrified under a different rural housing programme."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F13"
+   ],
+   "explanation": "The incorrect statement is the fourth one because the stated outcome—being ODF and fully electrified—was achieved under Saubhagya, not under a rural housing programme. The other statements correctly reflect the status of all eight States."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Tribal community and State association",
+   "question": "Consider the following statements:\nStatement A: Limboo is associated with Assam.\nStatement B: Karbi is associated with Sikkim.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F14"
+   ],
+   "explanation": "Both statements are false. Limboo is associated with Sikkim, while Karbi is associated with Assam; the tempting traps interchange these State associations."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Portable ultrasound and rural cancer screening",
+   "question": "Consider the following statements regarding the debate on portable ultrasound use for community cancer screening:\n\n1. High-frequency linear probes used for breast and thyroid imaging cannot image foetal sex.\n2. In 2025, an illegal sex-determination network was busted in Tamil Nadu.\n3. Approximately 60% of the population is rural.\n\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F4",
+    "P6.F5"
+   ],
+   "explanation": "Only statement 1 is correct: high-frequency linear probes used for breast and thyroid imaging cannot image foetal sex, supporting the debate on reform for AI-enabled community cancer screening. The illegal sex-determination network was busted in Karnataka in 2025, and the rural population is approximately 70%, not 60%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Definition of sex ratio",
+   "question": "As used in Census terminology, what does the sex ratio represent?",
+   "options": [
+    "Females per 1,000 males",
+    "Males per 1,000 females",
+    "Females per 100 males",
+    "Children per 1,000 women"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F6"
+   ],
+   "explanation": "The Census sex ratio represents the number of females per 1,000 males. The other options reverse the reference population or refer to a different demographic measure."
+  }
+ ]
+}

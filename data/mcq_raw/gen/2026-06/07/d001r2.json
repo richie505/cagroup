@@ -1,0 +1,155 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F17",
+  "P2.F18",
+  "P2.F19",
+  "P2.F20",
+  "P2.F6",
+  "P2.F7",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Highest number of Ramsar sites",
+   "question": "Which country had the highest number of Ramsar sites, with 176 sites?",
+   "options": [
+    "United Kingdom",
+    "Mexico",
+    "India",
+    "Tamil Nadu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "The United Kingdom had the highest number of Ramsar sites, with 176. Mexico had 144 sites, while India had 100; Tamil Nadu is not a country."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global Ramsar-site position",
+   "question": "Which entry correctly states the Ramsar-site count associated with Mexico?",
+   "options": [
+    "Mexico — 144",
+    "Mexico — 176",
+    "Mexico — 100",
+    "Mexico — 20"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "Mexico had 144 Ramsar sites. The figures 176 and 100 refer to other entries in the Ramsar-site comparison, while 20 is not Mexico’s count."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Recent Ramsar additions — site number and year",
+   "question": "With reference to the Ramsar-site additions of 2025, consider the following statements:\n1. Sakkarakottai BS was designated as Ramsar site No. 86 in Tamil Nadu.\n2. Therthangal BS was designated as Ramsar site No. 86 in Tamil Nadu.\n3. Sakkarakottai BS was designated in 2026.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "Only statement 1 is correct: Sakkarakottai BS was Ramsar site No. 86 in Tamil Nadu in 2025. Therthangal BS was No. 87, and Sakkarakottai BS was designated in 2025, not 2026."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ramsar-site number and State",
+   "question": "Consider the following statements:\nStatement A: Khichan (Phalodi) was Ramsar site No. 91 in Rajasthan.\nStatement B: Menar (Udaipur) was Ramsar site No. 91 in Rajasthan.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F13",
+    "P2.F14"
+   ],
+   "explanation": "Statement A is false because Khichan (Phalodi) was Ramsar site No. 90. Statement B is true because Menar (Udaipur) was Ramsar site No. 91 in Rajasthan."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Ramsar-site identification",
+   "question": "Assertion (A): Gokul Jalashay was Ramsar site No. 92 in Bihar.\nReason (R): Udaipur Jheel was Ramsar site No. 92 in Bihar.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F15",
+    "P2.F16"
+   ],
+   "explanation": "The assertion is true: Gokul Jalashay was Ramsar site No. 92 in Bihar. The reason is false because Udaipur Jheel was Ramsar site No. 93 in Bihar."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Ramsar-site number and State",
+   "question": "How many of the following statements correctly identify the Ramsar-site number and State?\n1. Gogabeel Lake was No. 94 in Bihar.\n2. Siliserh Lake was No. 95 in Rajasthan.\n3. Gogabeel Lake was No. 95 in Bihar.\n4. Siliserh Lake was No. 96 in Rajasthan.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F17",
+    "P2.F18"
+   ],
+   "explanation": "Only two statements are correct: Gogabeel Lake was No. 94 in Bihar, and Siliserh Lake was No. 95 in Rajasthan. Statements 3 and 4 assign incorrect site numbers to those wetlands."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ramsar-site number and State",
+   "question": "Which entry correctly identifies Ramsar site No. 96?",
+   "options": [
+    "Kopra Jalashay — No. 96, Chhattisgarh",
+    "Kopra Jalashay — No. 95, Chhattisgarh",
+    "Kopra Jalashay — No. 96, Bihar",
+    "Kopra Jalashay — No. 97, Chhattisgarh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F19"
+   ],
+   "explanation": "Kopra Jalashay was Ramsar site No. 96 in Chhattisgarh. The other options alter either the site number or the State."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Latest Ramsar addition",
+   "question": "Which entry correctly describes Patna Bird Sanctuary (Etah)?",
+   "options": [
+    "Patna Bird Sanctuary (Etah) — No. 97, Uttar Pradesh, 2026",
+    "Patna Bird Sanctuary (Etah) — No. 96, Uttar Pradesh, 2026",
+    "Patna Bird Sanctuary (Etah) — No. 97, Bihar, 2026",
+    "Patna Bird Sanctuary (Etah) — No. 97, Uttar Pradesh, 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F20"
+   ],
+   "explanation": "Patna Bird Sanctuary (Etah) was Ramsar site No. 97 in Uttar Pradesh, designated in 2026. The other options change its number, State or year."
+  }
+ ]
+}

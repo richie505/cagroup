@@ -1,0 +1,323 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": [
+  "P5.F13",
+  "P5.F14",
+  "P5.F15",
+  "P5.F16",
+  "P5.F17",
+  "P5.F18",
+  "P5.F19",
+  "P5.F20",
+  "P5.F21",
+  "P5.F22",
+  "P5.F23",
+  "P5.F24",
+  "P5.F6",
+  "P5.F7",
+  "P5.F8",
+  "P5.F9",
+  "P6.F10",
+  "P6.F11",
+  "P6.F12",
+  "P6.F2",
+  "P6.F3",
+  "P6.F4",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Production growth",
+   "question": "In the agriculture transformation figures, maize production recorded what increase?",
+   "options": [
+    "42.38%",
+    "79%",
+    "147%",
+    "240%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "Maize production increased by 79%. The 42.38% figure relates to rice, while 147% relates to inland fish production and 240% to honey exports."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Agricultural production and procurement",
+   "question": "Match the following agricultural indicators with their corresponding figures or status:\n\nList-I\n a. Oilseed production\n b. Edible-oil import dependence\n c. Horticulture’s share of crop GVO\n d. MSP procurement during 2014–26\n\nList-II\n i. 37%\n ii. 27.51 MT to 42.99 MT\n iii. 63.2% to 56.25%\n iv. 3.5 times the procurement during 2004–14\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F7",
+    "P5.F8",
+    "P5.F9",
+    "P5.F13"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv. Oilseed production rose from 27.51 MT to 42.99 MT, edible-oil import dependence fell from 63.2% to 56.25%, horticulture accounted for about 37% of crop GVO, and procurement was 3.5 times the 2004–14 level."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Livestock and milk indicators",
+   "question": "Consider the following statements about India’s allied agricultural sectors:\n\n1. The livestock sector recorded a CAGR of 12.77%.\n2. India is the world’s second-largest milk producer, accounting for about 25% of global milk production.\n3. India’s per-capita milk availability is 328 g per day.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F14"
+   ],
+   "explanation": "Only statement 1 is correct: the livestock sector recorded a CAGR of 12.77%. India is the world’s largest milk producer, and its per-capita milk availability is 485 g per day, not 328 g."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Ranking in allied sectors",
+   "question": "Match the allied-sector products with India’s position or indicator:\n\nList-I\n a. Milk\n b. Eggs\n c. Meat\n d. Per-capita egg availability\n\nList-II\n i. 106 per year\n ii. World’s largest producer\n iii. Second globally\n iv. Fourth globally\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F14",
+    "P5.F15"
+   ],
+   "explanation": "The correct pairs are milk–world’s largest producer, eggs–second globally, meat–fourth globally and per-capita egg availability–106 per year. The other codes interchange these rankings and indicators."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inland fisheries",
+   "question": "What was India’s inland fish production, according to the agriculture transformation figures?",
+   "options": [
+    "9.58 MT",
+    "15.16 MT",
+    "19.78 MT",
+    "10.50 MT"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F16"
+   ],
+   "explanation": "India’s inland fish production was 15.16 MT. The figures 9.58 MT and 19.78 MT refer to the earlier and later overall fish-production figures, while 10.50 MT refers to meat production."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Honey exports",
+   "question": "Under the National Beekeeping and Honey Mission, by what percentage did honey exports increase?",
+   "options": [
+    "147%",
+    "200%",
+    "240%",
+    "79%"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F17"
+   ],
+   "explanation": "Honey exports increased by 240% under the National Beekeeping and Honey Mission. The 147% figure refers to the increase in inland fish production, while 79% refers to maize growth."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ethanol procurement and blending",
+   "question": "Consider the following statements about India’s ethanol programme:\n\n1. Ethanol procurement increased from 38 crore litres to 904 crore litres.\n2. Ethanol blending increased from 1.14% to 20% in 2025–26.\n3. Sugar mills earned ₹1.29 lakh crore from the programme.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F18"
+   ],
+   "explanation": "All three statements are correct. Procurement rose from 38 crore litres to 904 crore litres, blending reached 20% in 2025–26, and sugar mills earned ₹1.29 lakh crore."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Agricultural exports",
+   "question": "Consider the following statements about India’s agricultural and processed-food exports:\n\n1. Agri exports increased from $37.29 billion to $51.1 billion.\n2. The share of processed food in agri exports rose from 13.7% to 20.4%.\n3. Seafood exports reached $7.52 billion and covered 130+ countries.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F19"
+   ],
+   "explanation": "All three statements are correct. Agri exports rose to $51.1 billion, processed food’s share increased to 20.4%, and seafood exports stood at $7.52 billion to 130+ countries."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Agricultural digital initiatives",
+   "question": "Match the following agricultural initiatives with their associated figures:\n\nList-I\n a. Namo Drone Didi\n b. National Pest Surveillance System\n c. Kisan e-Mitra\n d. KVKs and ATMA\n\nList-II\n i. 66 crops and 432+ pests\n ii. ₹1,261 crore and 500 drones in 2023–24\n iii. 95 lakh queries in 11 languages\n iv. 731 KVKs and 1.27 crore farmers trained through ATMA\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F20",
+    "P5.F21",
+    "P5.F22",
+    "P5.F23"
+   ],
+   "explanation": "The correct pairs are Namo Drone Didi–₹1,261 crore and 500 drones, National Pest Surveillance System–66 crops and 432+ pests, Kisan e-Mitra–95 lakh queries in 11 languages, and KVKs and ATMA–731 KVKs and 1.27 crore farmers trained."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme objective",
+   "question": "The Rashtriya Gokul Mission primarily focuses on which of the following?",
+   "options": [
+    "Indigenous cattle and buffaloes",
+    "Edible-oil import reduction",
+    "Pest surveillance in 66 crops",
+    "Ethanol blending in flex-fuel vehicles"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F24"
+   ],
+   "explanation": "The Rashtriya Gokul Mission focuses on indigenous cattle and buffaloes. Pest surveillance and ethanol blending are separate agricultural and biofuel initiatives."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ethanol capacity",
+   "question": "At the time of the E20 programme assessment in November 2025, what was the approximate installed ethanol capacity and how many distilleries were involved?",
+   "options": [
+    "10–11 billion litres and 200 distilleries",
+    "About 20 billion litres and about 500 distilleries",
+    "About 500 billion litres and 20 distilleries",
+    "38 crore litres and 904 distilleries"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "Installed ethanol capacity was about 20 billion litres, with about 500 distilleries. The 10–11 billion-litre figure refers to E20 demand, while 38 crore litres and 904 crore litres are procurement figures from the agricultural transformation data."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Ethanol programme gains",
+   "question": "How many of the following statements about the gains from India’s ethanol programme are correct?\n\n1. About ₹1.84 lakh crore in foreign exchange was saved.\n2. Crude-oil consumption was reduced by 302 lakh MT.\n3. Farmers received ₹1.84 lakh crore.\n4. CO2 emissions avoided amounted to 809 lakh MT.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "Only two statements are correct: foreign-exchange savings were about ₹1.84 lakh crore and crude-oil consumption was reduced by 302 lakh MT. Farmers received ₹1.58 lakh crore, while CO2 avoided was 909 lakh MT, not 809 lakh MT."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Where was the 2G bamboo ethanol plant associated with the sustainability rethink located?",
+   "options": [
+    "Golaghat, Assam",
+    "Gokul, Uttar Pradesh",
+    "Kisan, Maharashtra",
+    "Bengaluru, Karnataka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "The 2G bamboo plant was located in Golaghat, Assam. The other places are not identified as the location of this plant in the stated ethanol-programme facts."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Water requirement of feedstocks",
+   "question": "Match the ethanol feedstocks with their approximate water requirement per litre of ethanol:\n\nList-I\n a. Sugarcane\n b. Maize\n c. Rice\n d. E85\n\nList-II\n i. Up to 10,790 litres\n ii. About 2,860 litres\n iii. About 4,093 litres\n iv. Not a feedstock; a blend containing 51–83% ethanol\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5",
+    "P6.F6",
+    "P6.F7",
+    "P6.F9"
+   ],
+   "explanation": "Sugarcane requires about 2,860 litres of water per litre of ethanol, maize about 4,093 litres and rice up to 10,790 litres. E85 is a blend containing 51–83% ethanol, rather than a feedstock."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Maize and ethanol feedstock pressure",
+   "question": "Consider the following statements about maize and the ethanol programme:\n\n1. Poultry uses about 60% of maize.\n2. The maize price was ₹26–30 per kg.\n3. The distillery shortfall was 17 MT, and India became a maize importer.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F8"
+   ],
+   "explanation": "All three statements are correct. Poultry uses about 60% of maize, its price was ₹26–30 per kg, and a 17 MT distillery shortfall contributed to India becoming a maize importer."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "E85 characteristics",
+   "question": "Consider the following statements about E85 and ethanol blends:\n\n1. E20 contains 20% ethanol.\n2. E85 contains 51–83% ethanol and requires a flex-fuel vehicle.\n3. E85 is about ₹20 per litre cheaper, cuts lifecycle GHG emissions by about 61%, and ethanol has a RON of about 108.\n4. E100 is a blend containing 20% ethanol.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3",
+    "1, 2, 3 and 4"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F9",
+    "P6.F10"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct. E100 is not a blend containing 20% ethanol; E20 has the 20% ethanol composition."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "1G and 2G feedstocks",
+   "question": "Consider the following statements about biofuel feedstocks:\n\n1. First-generation ethanol feedstocks include sugarcane, molasses, maize and rice.\n2. Second-generation feedstocks include rice or wheat straw, bagasse and bamboo.\n3. Cassava, damaged wheat, rotten potatoes and sugar beet are identified as biofuel feedstocks.\n4. Groundnut and horse gram are identified as the relevant biofuel feedstocks in place of these materials.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F11",
+    "P6.F12"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: they identify the 1G, 2G and additional biofuel feedstocks respectively. Groundnut and horse gram are specifically not the relevant feedstocks in this list, making statement 4 incorrect."
+  }
+ ]
+}

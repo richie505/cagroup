@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F3",
+  "P0.F6",
+  "P0.F7",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Nipah outbreak history",
+   "question": "With reference to Nipah outbreaks in Kerala, consider the following statements:\n1. The first outbreak occurred in 2018, with 23 cases and a case fatality rate of 91%; most infections were nosocomial.\n2. The 2023 outbreak involved a cluster of 6 cases and was the only human-to-human spread since 2018.\n3. The 2024 outbreak involved 3 cases in Malappuram.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Kerala’s first Nipah outbreak was in 2018 with 23 cases and a 91% case fatality rate, while the 2023 cluster had 6 cases. Statement 3 is incorrect because the 2024 outbreak involved 2 cases in Malappuram, not 3."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bat positivity rate",
+   "question": "In the 2018 Nipah investigations in Kerala, approximately what percentage of sampled bats tested positive?",
+   "options": [
+    "25%",
+    "23%",
+    "91%",
+    "6%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "Approximately 25% of the sampled bats tested positive in 2018. The figures 23 and 6 refer to Nipah case counts in other outbreak events, while 91% was the case fatality rate in the first outbreak."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Research centre and watch-list pathogens",
+   "question": "Consider the following statements:\nStatement A: The One Health Centre for Nipah Research and Resilience was established at Kozhikode in 2023 and had more than 2.5 lakh surveillance volunteers.\nStatement B: Nipah is a WHO priority pathogen, while Kerala’s watch-list includes Nipah, H5N1 and Kyasanur Forest Disease.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "Both statements are true. The One Health Centre is associated with Kozhikode, 2023 and more than 2.5 lakh surveillance volunteers; Nipah is also a WHO priority pathogen and appears with H5N1 and Kyasanur Forest Disease on Kerala’s watch-list."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First outbreak laboratory finding",
+   "question": "During Kerala’s 2018 Nipah investigations, what proportion of sampled bats was reported positive?",
+   "options": [
+    "About 25%",
+    "About 91%",
+    "About 23%",
+    "About 6%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "The reported proportion was about 25% of sampled bats. The other figures are traps based on the 2018 outbreak’s 91% case fatality rate, the 23 cases in the first outbreak and the 6-case cluster in 2023."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Disease-agent classification",
+   "question": "How many of the following disease-agent statements are correct?\n1. Dengue is a viral disease.\n2. Athlete’s foot is a bacterial disease.\n3. Whooping cough is a fungal disease caused by Bordetella pertussis.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "Only one statement is correct: dengue is viral. Athlete’s foot is fungal, while whooping cough is bacterial and is associated with Bordetella pertussis; therefore statements 2 and 3 are incorrect."
+  }
+ ]
+}

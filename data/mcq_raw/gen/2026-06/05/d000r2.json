@@ -1,0 +1,84 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F8",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Sensitive exclusions",
+   "question": "With reference to the sensitive items and trade-policy tools under the India–Oman CEPA, which of the following statements is incorrect?",
+   "options": [
+    "Dairy is among the sensitive items excluded.",
+    "Spices are among the sensitive items excluded.",
+    "TRQ and Minimum Import Price tools are among the listed sensitive exclusions.",
+    "Spices are not among the sensitive items excluded."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "The incorrect statement is that spices are not among the sensitive items excluded. Spices are specifically listed among the excluded sensitive items, along with dairy, cereals, fruits, vegetables, edible oils, oilseeds, rubber and leather; TRQ and Minimum Import Price tools are also listed."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian diaspora in Oman",
+   "question": "Approximately how many Indians live in Oman, according to the background profile accompanying the India–Oman CEPA?",
+   "options": [
+    "About seven lakh",
+    "About 200–300 lakh",
+    "About seven years",
+    "About 200–300 people"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "Approximately seven lakh Indians live in Oman. The figure of 200–300 years refers to the presence of merchant families, not the size of the Indian community."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Trade partnership and bilateral trade",
+   "question": "Consider the following statements about Oman’s economic relationship with India:\n1. Oman is India’s second-largest trading partner in the Gulf.\n2. Bilateral trade between India and Oman was USD 2.1 billion in FY 2025–26.\n3. Oman is India’s largest trading partner in the Gulf.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "Only statement 1 is correct: Oman is India’s second-largest trading partner in the Gulf. Bilateral trade was USD 11.18 billion in FY 2025–26, not USD 2.1 billion; Oman is not described as India’s largest trading partner in the Gulf."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Border and trade profile of Myanmar",
+   "question": "Match List-I with List-II in the context of India–Myanmar relations.\n\nList-I\n(a) Length of India–Myanmar border\n(b) Indian States through which the border runs\n(c) India’s position among Myanmar’s trading partners\n(d) Share of Myanmar’s pharmaceutical market supplied by Indian medicines\n\nList-II\n(i) 1,643 km\n(ii) Arunachal Pradesh, Nagaland, Manipur and Mizoram\n(iii) Fourth largest\n(iv) Approximately 60%",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The India–Myanmar border is 1,643 km long, runs through Arunachal Pradesh, Nagaland, Manipur and Mizoram, India is Myanmar’s fourth-largest trading partner, and Indian medicines account for approximately 60% of Myanmar’s pharmaceutical market."
+  }
+ ]
+}

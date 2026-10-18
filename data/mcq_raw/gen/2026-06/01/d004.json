@@ -1,0 +1,283 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19
+ ],
+ "only": [
+  "P16.F1",
+  "P16.F10",
+  "P16.F11",
+  "P16.F2",
+  "P16.F5",
+  "P16.F6",
+  "P16.F8",
+  "P16.F9",
+  "P17.F10",
+  "P17.F11",
+  "P17.F3",
+  "P17.F4",
+  "P17.F5",
+  "P17.F6",
+  "P17.F7",
+  "P17.F8",
+  "P17.F9",
+  "P18.F2",
+  "P19.F3",
+  "P19.F6",
+  "P19.F7",
+  "P19.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Discoverer",
+   "question": "Who led the ASI epigraphy team that discovered the Vijayanagara-era inscriptions at Sadasivakona in the Seshachalam forest?",
+   "options": [
+    "K. Muniratnam Reddy",
+    "Yadubir Singh Rawat",
+    "Harihara I",
+    "Bukka Raya I"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1"
+   ],
+   "explanation": "The discovery was made by an ASI epigraphy team led by K. Muniratnam Reddy, Director of Epigraphy at ASI, Mysuru. Yadubir Singh Rawat is identified as the Director General of ASI, while Harihara I and Bukka Raya I are associated with the Vijayanagara Empire."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place of discovery",
+   "question": "The Vijayanagara-era inscriptions discovered in the Seshachalam forest were found at which place in Tirupati district?",
+   "options": [
+    "Sadasivakona",
+    "Kondaveedu",
+    "Papavinasam",
+    "Rudrapadam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F2"
+   ],
+   "explanation": "The inscriptions were found at Sadasivakona in the Seshachalam forest of Tirupati district. Kondaveedu and Rudrapadam are associated with the Reddy-period inscription, while Papavinasam is the place where a Siva temple and a mutt were built."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Inscription record and documentation",
+   "question": "Consider the following statements about the inscriptions discovered at Sadasivakona:\n1. The main record refers to Sadasiva Raya's sacred bath and royal donations.\n2. The inscriptions were copied as estampages.\n3. The ASI was established during the Vijayanagara period.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F5",
+    "P16.F6",
+    "P16.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the record mentions a sacred bath and royal donations, and the inscriptions were copied as estampages. Statement 3 is incorrect because the ASI was established in 1861, not during the Vijayanagara period."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Reddy dynasty inscriptions",
+   "question": "Match List-I with List-II regarding the Reddy-period inscriptions and kingdom:\n\nList-I\n a. Location of the inscription\n b. Rudrapadam inscription\n c. Founder of the Reddy Kingdom\n d. First capital of the Reddy Kingdom\n\nList-II\n i. Prolaya Vema Reddy\n ii. Kondaveedu, Palnadu district\n iii. Records two Shiva temples built during Anavema Reddy's reign\n iv. Addanki\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F9",
+    "P16.F10",
+    "P16.F11"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv. The inscription was found at Kondaveedu in Palnadu district; the Rudrapadam record refers to two Shiva temples built during Anavema Reddy's reign; Prolaya Vema Reddy founded the kingdom; and Addanki was its first capital."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "River formation",
+   "question": "The Tungabhadra River is formed by the confluence of which two rivers?",
+   "options": [
+    "Tunga and Bhadra",
+    "Tunga and Krishna",
+    "Bhadra and Krishna",
+    "Tunga and Godavari"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F3"
+   ],
+   "explanation": "The Tungabhadra is formed by the Tunga and Bhadra rivers in the Western Ghats. Krishna and Godavari are not the two rivers that form the Tungabhadra."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Confluence and course",
+   "question": "At which place does the Tungabhadra join the Krishna River?",
+   "options": [
+    "Sangamaleshwaram",
+    "Hamsaladeevi",
+    "Shivamogga",
+    "Hosapete"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F4"
+   ],
+   "explanation": "The Tungabhadra joins the Krishna at Sangamaleshwaram in Andhra Pradesh. Hamsaladeevi is where the Krishna meets the sea, while Shivamogga and Hosapete are associated with the river system and dam region."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Dam management",
+   "question": "Which organisation manages the Tungabhadra dam and project?",
+   "options": [
+    "Tungabhadra Board",
+    "Krishna Water Disputes Tribunal",
+    "India Semiconductor Mission",
+    "Andhra Pradesh Pollution Control Board"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F5"
+   ],
+   "explanation": "The Tungabhadra project is managed by the Tungabhadra Board. The Krishna Water Disputes Tribunal is associated with water allocation, while the India Semiconductor Mission and Andhra Pradesh Pollution Control Board concern different areas."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Water-sharing award",
+   "question": "Assertion (A): The KWDT award provided Karnataka 65% and undivided Andhra Pradesh 35% of the relevant water allocation.\nReason (R): The KWDT was constituted in 1969 and gave its award in 1976.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F6"
+   ],
+   "explanation": "Both the assertion and the reason are true. The KWDT, constituted in 1969, delivered the 1976 award that specified the shares of Karnataka and undivided Andhra Pradesh."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State-wise allocation",
+   "question": "Match the states with their allocations under the Tungabhadra water-sharing details:\n\nList-I\n a. Karnataka\n b. Undivided Andhra Pradesh\n c. Telangana\n d. Andhra Pradesh assured from the dam\n\nList-II\n i. 151.49 tmcft\n ii. 78.51 tmcft\n iii. 15.9 tmcft\n iv. 32 tmcft\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F7",
+    "P17.F8",
+    "P17.F9",
+    "P17.F10"
+   ],
+   "explanation": "The correct pairs are Karnataka—151.49 tmcft, undivided Andhra Pradesh—78.51 tmcft, Telangana—15.9 tmcft, and Andhra Pradesh assured from the dam—32 tmcft. These allocations must not be interchanged between Karnataka, undivided Andhra Pradesh, Telangana and the assured Andhra Pradesh share."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Project under litigation",
+   "question": "Which project led Andhra Pradesh to move the Supreme Court in 2023 because of its impact on Anantapur, Kadapa and Kurnool?",
+   "options": [
+    "Upper Bhadra project",
+    "Tungabhadra dam replacement project",
+    "City Economic Region scheme",
+    "India Semiconductor Mission"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F11"
+   ],
+   "explanation": "Andhra Pradesh moved the Supreme Court in 2023 over the Upper Bhadra project in Karnataka, which affects Anantapur, Kadapa and Kurnool. The other options refer to different water, urban-development or semiconductor matters."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scale of fish mortality",
+   "question": "According to the report on the mass fish deaths at Boyapadu coast, what was the approximate scale of the mortality?",
+   "options": [
+    "About 11 tonnes over 1,500 metres",
+    "About 11 tonnes over 1,500 kilometres",
+    "About 94 tonnes over 1,500 metres",
+    "About ₹5 lakh tonnes over 1,500 metres"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F2"
+   ],
+   "explanation": "Approximately 11 tonnes of fish died along a 1,500-metre stretch. About 94% referred to pony fish and ₹5 lakh referred to the estimated value, not the quantity of fish."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CER participating cities",
+   "question": "Which of the following was listed along with Bengaluru, Pune, Surat and Varanasi among the other cities under the City Economic Region scheme?",
+   "options": [
+    "Bhubaneswar–Puri–Cuttack",
+    "Anantapur–Kadapa–Kurnool",
+    "Tarluvada–Anandapuram–Visakhapatnam",
+    "Sadasivakona–Papavinasam–Tirupati"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F3"
+   ],
+   "explanation": "Bhubaneswar–Puri–Cuttack was one of the other city regions listed under the scheme. The other combinations refer to districts, the semiconductor project location or places connected with the inscriptions."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "OSAT project specifications",
+   "question": "How many of the following statements about Andhra Pradesh's first OSAT unit are correct?\n1. The investment is ₹2,387.81 crore.\n2. The project is expected to create 1,000 jobs.\n3. Incentives are available up to 40%.\n4. Its capacity is stated as 96 million units per month.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P19.F6"
+   ],
+   "explanation": "Three statements are correct: the investment is ₹2,387.81 crore, the project provides 1,000 jobs, and incentives are available up to 40%. Statement 4 is incorrect because the stated capacity is 96 million units per year, not per month."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Technology partner",
+   "question": "Which company from South Korea is the technology partner for Andhra Pradesh's first OSAT unit?",
+   "options": [
+    "APACT Co. Ltd.",
+    "Tungabhadra Board",
+    "ICAR–CMFRI",
+    "ASI Mysuru"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F7"
+   ],
+   "explanation": "APACT Co. Ltd. of South Korea is the technology partner for the OSAT unit. The Tungabhadra Board, ICAR–CMFRI and ASI Mysuru are associated with water management, fisheries research and epigraphy respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Policy period and mission launch",
+   "question": "Consider the following statements:\nStatement A: The AP Semiconductor and Display Fab Policy covers the period 2024–2029.\nStatement B: The India Semiconductor Mission was launched by the Andhra Pradesh Government in 2021.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P19.F8"
+   ],
+   "explanation": "Statement A is true because the AP Semiconductor and Display Fab Policy covers 2024–2029. Statement B is false: the India Semiconductor Mission was launched in 2021, but it is not identified as having been launched by the Andhra Pradesh Government."
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F14",
+  "P1.F20",
+  "P1.F22",
+  "P1.F24",
+  "P1.F25",
+  "P1.F27",
+  "P1.F28"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Full vaccination coverage",
+   "question": "According to NFHS-6, what change was recorded in full vaccination coverage among children aged 12–23 months compared with NFHS-5?",
+   "options": [
+    "83.8% to 87.1%",
+    "83.8% to 85.4%",
+    "85.4% to 87.1%",
+    "87.1% to 89.0%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F14"
+   ],
+   "explanation": "Full vaccination coverage among children aged 12–23 months increased from 83.8% in NFHS-5 to 87.1% in NFHS-6. The figure 85.4% refers to the NFHS-6 rotavirus vaccine coverage, while 89.0% concerns women’s own-use bank accounts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Child nutrition indicators",
+   "question": "With reference to selected child nutrition and women’s digital-access indicators reported in NFHS-6, consider the following statements:\n\n1. Severe wasting among children under five declined from 7.7% to 5.2%.\n2. Complementary feeding among children aged 6–8 months increased from 45.9% to 58.5%.\n3. The proportion of women who had ever used the internet increased from 33.3% to 63.4%.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F20",
+    "P1.F22",
+    "P1.F24"
+   ],
+   "explanation": "Only statement 1 is correct: severe wasting declined from 7.7% to 5.2%. Complementary feeding increased to 59.5%, not 58.5%, and women’s internet use increased to 64.3%, not 63.4%."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Women’s financial inclusion",
+   "question": "Assertion (A): NFHS-6 recorded an increase in the proportion of women who owned and used their own bank account.\nReason (R): The proportion increased from 78.6% to 88.0%.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F25"
+   ],
+   "explanation": "Assertion A is true because the proportion of women owning and using their own bank account increased from 78.6% to 89.0%. Reason R is false because the NFHS-6 value was 89.0%, not 88.0%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Menstrual health indicator",
+   "question": "What change in hygienic menstrual protection among women aged 15–24 was reported between NFHS-5 and NFHS-6?",
+   "options": [
+    "77.6% to 79.2%",
+    "77.6% to 89.0%",
+    "79.2% to 87.1%",
+    "79.2% to 83.8%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F27"
+   ],
+   "explanation": "Hygienic menstrual protection among women aged 15–24 increased from 77.6% to 79.2%. The other options combine this indicator with figures belonging to bank-account use or child vaccination indicators."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "NFHS-6 health and nutrition figures",
+   "question": "With reference to the NFHS-6 figures, consider the following statements:\n\n1. Vaccines received through public facilities accounted for 95.6%.\n2. Any vaccine coverage was above 96%.\n3. The proportion of children with severe diarrhoea was 0.6%.\n4. Breastfeeding among children under six months was 94.6%.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F28"
+   ],
+   "explanation": "Exactly two statements are correct: vaccines through public facilities accounted for 95.6%, and any vaccine coverage was above 96%. Severe diarrhoea was 0.5%, while breastfeeding among children under six months was 95.6%, not the figures given in statements 3 and 4."
+  }
+ ]
+}

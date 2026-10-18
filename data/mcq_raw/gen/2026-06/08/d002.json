@@ -1,0 +1,198 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F3",
+  "P11.F2",
+  "P11.F3",
+  "P12.F6",
+  "P12.F7",
+  "P13.F7",
+  "P13.F8",
+  "P14.F3",
+  "P14.F4",
+  "P14.F5",
+  "P14.F6",
+  "P9.F2",
+  "P9.F3",
+  "P9.F5",
+  "P9.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Top port in segment",
+   "question": "Under the Logistics Port Performance Index for 2024–25, which port topped the Dry Bulk segment?",
+   "options": [
+    "Paradip",
+    "Sikka",
+    "Mundra",
+    "Kandla"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "Paradip topped the Dry Bulk segment under the Logistics Port Performance Index for 2024–25. Sikka was the top port in the Liquid Bulk segment, while Mundra topped Container Cargo."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Parameters and policy support",
+   "question": "With reference to the Logistics Port Performance Index under the Sagar Ankalan framework, consider the following statements:\n1. Sikka topped the Liquid Bulk segment.\n2. Berth idle time is excluded from the parameters used in the index.\n3. The index supports PM Gati Shakti, Maritime India Vision 2030 and Maritime Amrit Kaal Vision 2047.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F5",
+    "P9.F6"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Sikka topped Liquid Bulk, and the framework supports PM Gati Shakti, Maritime India Vision 2030 and Maritime Amrit Kaal Vision 2047. Statement 2 is incorrect because berth idle time is one of the listed parameters, along with cargo handling, vessel turnaround time, waiting time and container dwell time."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ship-recycling growth",
+   "question": "Consider the following statements:\nStatement A: India's share in global ship recycling rose from 30.1% to 35.4%, while its recycling volume increased from 1.86 to 2.99 million gross tonnes.\nStatement B: India's ship-recycling background includes the Recycling of Ships Act, 2019, and India's ratification of the Hong Kong Convention in 2019.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2",
+    "P10.F3"
+   ],
+   "explanation": "Both statements are true. India's share rose from 30.1% to 35.4% and its recycling volume rose from 1.86 to 2.99 million gross tonnes; the relevant legal and international background includes the Recycling of Ships Act, 2019 and ratification of the Hong Kong Convention in 2019."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Solar-capacity growth",
+   "question": "What change in India's solar capacity was highlighted for the period from 2014 to 2026?",
+   "options": [
+    "2.8 GW to more than 155 GW",
+    "2.8 GW to 35.4 GW",
+    "1.86 GW to 2.99 GW",
+    "30.1 GW to more than 155 GW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "India's solar capacity increased from 2.8 GW in 2014 to more than 155 GW in 2026, representing approximately 5,370% growth. The other options substitute ship-recycling figures or the wrong starting and ending values."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Solar institutions and ministry",
+   "question": "Which combination correctly describes India's solar-policy background and the International Solar Alliance?",
+   "options": [
+    "National Solar Mission was launched in 2010 under NAPCC; ISA was established in 2015 with headquarters at Gurugram and India and France as its members; Pralhad Joshi was the MNRE Minister",
+    "National Solar Mission was launched in 2015 under NAPCC; ISA was established in 2010 with headquarters at New York; Sarbananda Sonowal was the MNRE Minister",
+    "National Solar Mission was launched in 2010 under NAPCC; ISA was established in 2015 with headquarters at Paris; Pralhad Joshi was the MNRE Minister",
+    "National Solar Mission was launched in 2010 under NAPCC; ISA was established in 2015 with headquarters at Gurugram; Sarbananda Sonowal was the MNRE Minister"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "The correct combination identifies the National Solar Mission as a 2010 NAPCC initiative, the ISA as established in 2015 with headquarters at Gurugram and India and France as its members, and Pralhad Joshi as the MNRE Minister. The other options alter the year, headquarters or minister."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "South Asia comparison and UNICEF",
+   "question": "In the UNICEF Children's Climate Risk Report 2026, consider the following statements:\n1. Pakistan scored 9.44 and Bangladesh scored 9.38, both higher than India on the stated comparison.\n2. UNICEF was established in 1946 and is headquartered in New York.\n3. Catherine Russell was the Executive Director of UNICEF based in Paris.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F6",
+    "P12.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Pakistan scored 9.44, Bangladesh 9.38, and UNICEF was established in 1946 with headquarters in New York. Statement 3 is incorrect because Catherine Russell was the Executive Director, while the stated headquarters is New York, not Paris."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in TOP500",
+   "question": "Which system occupied the fifth position in the 67th TOP500 list released at ISC 2026?",
+   "options": [
+    "Jupiter Booster",
+    "Aurora",
+    "Frontier",
+    "El Capitan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F7"
+   ],
+   "explanation": "Jupiter Booster of Germany occupied the fifth position in the 67th TOP500 list. Aurora, Frontier and El Capitan occupied the fourth, third and second positions respectively."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "TOP500 benchmark and schedule",
+   "question": "Assertion (A): The TOP500 ranking evaluates supercomputers using the High Performance Linpack benchmark.\nReason (R): The TOP500 list is released every June and November.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F8"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the stated release schedule explains the recurring TOP500 ranking process in the context of its benchmark-based list. TOP500 has existed since 1993, is released every June and November, and uses the High Performance Linpack benchmark."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Forecast revisions",
+   "question": "With reference to the June 2026 India growth forecasts, consider the following statements:\n1. Goldman Sachs raised its CY2026 forecast from 6.5% to 6.8%.\n2. S&P Global Ratings projected FY27 growth at 6.6%, lower than FY26 growth of 7.7%.\n3. Fitch Ratings raised its FY27 forecast from 6.7% to 6.4%.\n4. Goldman Sachs projected India's current account deficit at 1.4% of GDP.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F3",
+    "P14.F4",
+    "P14.F5"
+   ],
+   "explanation": "Only two statements are correct: Goldman Sachs raised the CY2026 forecast to 6.8%, and S&P Global Ratings projected FY27 growth at 6.6% against FY26 growth of 7.7%. Fitch lowered, rather than raised, its FY27 forecast from 6.7% to 6.4%, while Goldman Sachs placed the current account deficit at 1.1% of GDP, not 1.4%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Agency headquarters and membership",
+   "question": "Which statement correctly describes the institutional background of the agencies and reports mentioned in the June 2026 growth-forecast context?",
+   "options": [
+    "The OECD was established in 1961, is headquartered in Paris and has 38 members.",
+    "Fitch Ratings was established in 1914 and is headquartered in Paris.",
+    "Goldman Sachs was established in 1869 and is headquartered in London.",
+    "One hundred basis points equals 0.1%."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F6"
+   ],
+   "explanation": "The OECD was established in 1961, is headquartered in Paris and has 38 members. Fitch Ratings was established in 1914 in New York, Goldman Sachs was established in 1869 in New York, and 100 basis points equals 1%, not 0.1%."
+  }
+ ]
+}

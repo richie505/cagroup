@@ -1,0 +1,82 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F17",
+  "P1.F18",
+  "P1.F21",
+  "P1.F22",
+  "P1.F31"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Space-sector growth and revenue",
+   "question": "Consider the following statements about India's space sector:\n1. The number of space start-ups increased from 1 in 2014 to more than 400 by February 2026.\n2. NSIL's revenue rose from ₹321.77 crore in 2021–22 to ₹3,246.09 crore in 2024–25.\n3. Space-sector investment reached $500 million-plus in 2025.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F17",
+    "P1.F18"
+   ],
+   "explanation": "Statements 1 and 2 are correct: start-ups rose from 1 to more than 400, and NSIL's revenue increased from ₹321.77 crore to ₹3,246.09 crore. Statement 3 is incorrect because the investment was $500 million-plus overall, while the investment in 2025 was approximately $150 million."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NGLV capacity",
+   "question": "Consider the following statements about the Next Generation Launch Vehicle (NGLV):\nStatement A: The NGLV can carry 14 tonnes to low Earth orbit.\nStatement B: Its reusable variant can carry 30 tonnes to low Earth orbit.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F22"
+   ],
+   "explanation": "Both statements are false. The NGLV is specified for 30 tonnes to low Earth orbit, while its reusable variant is specified for 14 tonnes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch vehicle payload capacity",
+   "question": "What payload capacity is specified for the PSLV/GSLV/LVM3 group of launch vehicles?",
+   "options": [
+    "Up to 10 tonnes to LEO and 4.2 tonnes to GTO",
+    "Up to 4.2 tonnes to LEO and 10 tonnes to GTO",
+    "Up to 30 tonnes to LEO and 14 tonnes to GTO",
+    "Up to 14 tonnes to LEO and 30 tonnes to GTO"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F21"
+   ],
+   "explanation": "The PSLV/GSLV/LVM3 group is specified to carry up to 10 tonnes to low Earth orbit and 4.2 tonnes to geostationary transfer orbit. The reversed-capacity option incorrectly assigns 4.2 tonnes to low Earth orbit and 10 tonnes to geostationary transfer orbit."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "South Asia Satellite",
+   "question": "Which set of countries was associated with the South Asia Satellite (GSAT-9), launched on 5 May 2017?",
+   "options": [
+    "Afghanistan, Bangladesh, Nepal, Sri Lanka, Bhutan and Maldives",
+    "Afghanistan, Bangladesh, Nepal, Sri Lanka, Sri Lanka and Maldives",
+    "Maldives, Bangladesh, Nepal, Sri Lanka, Bhutan and Maldives",
+    "Afghanistan, Nepal, Nepal, Sri Lanka, Bhutan and Maldives"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F31"
+   ],
+   "explanation": "The South Asia Satellite (GSAT-9), launched on 5 May 2017, was associated with Afghanistan, Bangladesh, Nepal, Sri Lanka, Bhutan and Maldives. The other options repeat one country and omit another, including Bhutan or Bangladesh."
+  }
+ ]
+}

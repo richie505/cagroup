@@ -1,0 +1,193 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P5.F10",
+  "P5.F12",
+  "P5.F13",
+  "P5.F14",
+  "P5.F15",
+  "P5.F2",
+  "P5.F4",
+  "P5.F6",
+  "P5.F8",
+  "P5.F9",
+  "P7.F3",
+  "P7.F5",
+  "P7.F6",
+  "P7.F8",
+  "P7.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Committee mandate",
+   "question": "With reference to the Search-cum-Selection Committee for the National Sports Board, consider the following statements:\n1. The committee is chaired by Dr. T.V. Somanathan.\n2. The National Sports Board recognises National Sports Federations.\n3. The committee is constituted under the National Sports Governance Act, 2024.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Dr. T.V. Somanathan chairs the committee, and the National Sports Board recognises National Sports Federations. Statement 3 is incorrect because the committee is constituted under the National Sports Governance Act, 2025, not 2024."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "AI Task Force",
+   "question": "Which one of the following statements regarding the IRDAI AI Task Force constituted in June 2026 is incorrect?",
+   "options": [
+    "It is chaired by Sandeep K. Shukla.",
+    "It has seven members.",
+    "Its member-convener is Deepak Gaikwad.",
+    "It has six members."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "The incorrect statement is that the task force has six members; it has seven members. The other statements are correct: Sandeep K. Shukla chairs it and Deepak Gaikwad is the member-convener."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Committee chairperson",
+   "question": "Who was appointed Chairman of the NBA Agricultural Biodiversity Expert Committee in June 2026?",
+   "options": [
+    "Dr. P.L. Gautam",
+    "Dr. Trilochan Mohapatra",
+    "Sandeep K. Shukla",
+    "Dr. T.V. Somanathan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "Dr. P.L. Gautam was appointed Chairman of the NBA Agricultural Biodiversity Expert Committee. Dr. Trilochan Mohapatra was its co-chair, making him the most likely trap."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Extension of appointment",
+   "question": "Assertion (A): Tarun Kapoor received a one-year extension as Adviser to the Prime Minister from 11 June 2026.\nReason (R): The extension was approved by the Appointments Committee of the Cabinet.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F9"
+   ],
+   "explanation": "Assertion A is false because Tarun Kapoor's one-year extension began from 10 June 2026. Reason R is true: the extension was approved by the ACC."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "World Bank appointment",
+   "question": "Who became India's Executive Director at the World Bank, succeeding Parameswaran Iyer?",
+   "options": [
+    "Neelkanth Mishra",
+    "Tarun Kapoor",
+    "Sanjay Kumar Jain",
+    "Saurabh Vijay"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F10"
+   ],
+   "explanation": "Neelkanth Mishra became India's Executive Director at the World Bank, succeeding Parameswaran Iyer. Tarun Kapoor was extended as Adviser to the Prime Minister, which is the likely confusion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Resignation and effective date",
+   "question": "Sanjay Kumar Jain's resignation as IRCTC Chairman and Managing Director became effective on which date?",
+   "options": [
+    "20 July 2026",
+    "26 June 2026",
+    "10 June 2026",
+    "1 July 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "Sanjay Kumar Jain's resignation as IRCTC CMD became effective on 20 July 2026. The other dates relate to different appointments or changes mentioned in June 2026."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "CEO, COO and CBSE appointments",
+   "question": "Match List-I with List-II regarding appointments announced in June 2026.\n\nList-I\n a. Saurabh Vijay\n b. Sudeep Srivastava\n c. Prashant Sitaram Lokhande\n d. Varun Bhardwaj\n\nList-II\n i. Secretary, CBSE\n ii. CEO, IndiaAI Mission\n iii. Chairman, CBSE\n iv. COO, IndiaAI Mission\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F12",
+    "P5.F13"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i: Saurabh Vijay was CEO and Sudeep Srivastava COO of the IndiaAI Mission, while Prashant Sitaram Lokhande and Varun Bhardwaj became Chairman and Secretary of CBSE respectively. The other codes interchange these positions."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "ISRO centre heads",
+   "question": "Match the ISRO centre head with the centre associated with the appointment announced from 1 July 2026.\n\nList-I\n a. Dr. U.P. Rajeev\n b. Dr. N. Jayan\n c. Joji J. Chaman\n d. Muthuchalian\n\nList-II\n i. SDSC-SHAR\n ii. LPSC\n iii. IISU\n iv. VSSC\n\nSelect the correct code:",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F14",
+    "P5.F15"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i: Dr. U.P. Rajeev was associated with VSSC, Dr. N. Jayan with LPSC, Joji J. Chaman with IISU and Muthuchalian with SDSC-SHAR. The alternative codes misplace one or more ISRO centre heads."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Book release venue",
+   "question": "Who released the book Maharshi Sushruta: Father of Surgery at Edinburgh?",
+   "options": [
+    "Prof. Chandra Cheruvu",
+    "Vice-President C.P. Radhakrishnan",
+    "Rajnath Singh",
+    "Air Chief Marshal Amar Preet Singh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F9"
+   ],
+   "explanation": "Maharshi Sushruta: Father of Surgery was released at Edinburgh by Prof. Chandra Cheruvu. The other names were associated with releases of different books or volumes."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Books and authors",
+   "question": "Consider the following statements about books released in June 2026:\n1. Agathiyar – The Unifier was authored by O. Shama Bhat and Dr. M.N. Sudha, with Tamil translation by Prof. Kalyani, and was released by Vice-President C.P. Radhakrishnan.\n2. VIP Culture in India: Power, Privilege and the Distance from Democracy was written by Nabam Rebia with Sandeep Kumar, while Sanskritir Ratna Bhandar: Bhaowaiyar Itibritto was authored by Dr. Jayanta Kumar Roy and Sangita Roy; both were released by the Vice-President.\n3. The Operation Sindoor commemorative volume, containing testimonies of 100 personnel, was released by Rajnath Singh and guided by serving CDS N.S. Raja Subramani.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F5",
+    "P7.F6",
+    "P7.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the Operation Sindoor volume was guided by former CDS General Anil Chauhan, not serving CDS N.S. Raja Subramani."
+  }
+ ]
+}

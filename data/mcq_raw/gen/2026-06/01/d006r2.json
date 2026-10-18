@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  38
+ ],
+ "only": [
+  "P38.F1",
+  "P38.F2",
+  "P38.F3",
+  "P38.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Beach sand mineral exploration",
+   "question": "According to the June 2026 Andhra Pradesh current-affairs headlines, which sector is positioning Andhra Pradesh as a major centre?",
+   "options": [
+    "Beach sand mineral exploration",
+    "Ponna Kaluva Utsavam",
+    "Land titling through Pattadar Passbooks",
+    "Doorstep healthcare for poor families"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P38.F1"
+   ],
+   "explanation": "Andhra Pradesh is emerging as a major centre for beach sand mineral exploration. Pattadar Passbooks and Mee Intiki–Mee Doctor concern different headlines, while Ponna Kaluva Utsavam is an event held at Tirupati."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Where was the Ponna Kaluva Utsavam held?",
+   "options": [
+    "Tirupati",
+    "Amaravati",
+    "Japan",
+    "Andhra Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P38.F2"
+   ],
+   "explanation": "The Ponna Kaluva Utsavam was held at Tirupati. Amaravati and Japan are not identified as its venue, while Andhra Pradesh is the State and not the specific place asked for."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Scheme objective",
+   "question": "Consider the following statements about the Pattadar Passbooks and Mee Intiki–Mee Doctor headlines in Andhra Pradesh:\n\n1. Pattadar Passbooks relate to land titling and legal validity reform.\n2. Mee Intiki–Mee Doctor concerns land titling and legal validity reform.\n3. Pattadar Passbooks provide doorstep healthcare for poor families.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P38.F3",
+    "P38.F5"
+   ],
+   "explanation": "Only statement 1 is correct: Pattadar Passbooks concern land titling and legal validity reform in Andhra Pradesh. The tempting option '1 and 2 only' is incorrect because Mee Intiki–Mee Doctor is associated with doorstep healthcare for poor families, not land titling."
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": [
+  "P5.F16",
+  "P5.F17",
+  "P5.F6",
+  "P6.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Production growth",
+   "question": "In the agriculture transformation figures, by what percentage did maize production increase?",
+   "options": [
+    "It increased by 79%.",
+    "It increased by 42.38%.",
+    "It declined by 79%.",
+    "It remained unchanged."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "Maize production increased by 79%. The 42.38% figure relates to rice, while the other options contradict the reported growth in maize production."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Allied-sector indicators",
+   "question": "Match the following allied-sector indicators with the corresponding figures:\n\nList-I\n a. Overall fish production\n b. Inland fish production\n c. Honey production under NBHM\n d. NBHM-related honey exports\n\nList-II\n i. 0.081 MT to 0.152 MT\n ii. 9.58 MT to 19.78 MT\n iii. Increase of 240%\n iv. 15.16 MT and 147% increase\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F16",
+    "P5.F17"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. Overall fish production rose from 9.58 MT to 19.78 MT, inland fish production reached 15.16 MT with a 147% increase, honey production rose from 0.081 MT to 0.152 MT, and honey exports increased by 240%. The most tempting alternative reverses the overall and inland fish figures."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "E20 capacity and distilleries",
+   "question": "With reference to the capacity created for meeting E20 demand, consider the following statements:\n\n1. E20 demand was estimated at 10–11 billion litres.\n2. Installed capacity was approximately 10 billion litres in November 2025.\n3. The programme involved approximately 50 distilleries.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "Only statement 1 is correct: E20 demand was estimated at 10–11 billion litres. Installed capacity was approximately 20 billion litres, not 10 billion litres, and the number of distilleries was approximately 500, not 50."
+  }
+ ]
+}

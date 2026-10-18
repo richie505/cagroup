@@ -1,0 +1,196 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F3",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P4.F4",
+  "P4.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Key case and holding",
+   "question": "In Rajagopal v. State of Tamil Nadu (1994), which proposition was associated with the right to privacy?",
+   "options": [
+    "The right to be let alone, while court records remain open to comment",
+    "Privacy as a fundamental right encompassing informational privacy",
+    "Denial of removal of acquittal details from online records",
+    "The registry’s direction to remove a couple’s details from search engines"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "Rajagopal v. State of Tamil Nadu (1994) recognised the right to be let alone and held that court records were open to comment. The other options refer to holdings associated with Puttaswamy, Dharamraj Bhanushankar Dave, and the Supreme Court matter concerning a couple’s details."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Key cases and holdings",
+   "question": "Consider the following statements about important Indian privacy and right-to-be-forgotten cases:\n\n1. K.S. Puttaswamy v. Union of India recognised privacy as a fundamental right and included informational privacy.\n2. Dharamraj Bhanushankar Dave v. State of Gujarat involved the Gujarat High Court denying removal of acquittal details.\n3. The Orissa High Court held in 2020 that the right to be forgotten was automatic in ongoing proceedings.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8",
+    "P2.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The Orissa High Court case of 2020 called for debate on the right to be forgotten in the context of online sexual abuse; it did not establish that the right was automatic in ongoing proceedings."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Limited removal from search results",
+   "question": "Which court, in 2021, allowed limited removal of information from search results in the context of the right to be forgotten?",
+   "options": [
+    "Delhi High Court",
+    "Kerala High Court",
+    "Orissa High Court",
+    "Gujarat High Court"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "The Delhi High Court allowed limited removal from search results in 2021. The Kerala High Court’s relevant holding concerned ongoing proceedings, while the Orissa and Gujarat High Court entries relate to different aspects of the debate."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Case and holding",
+   "question": "Match the cases in List-I with their associated holdings in List-II.\n\nList-I\n(a) Supreme Court matter, 2022\n(b) Kerala High Court, 2023\n\nList-II\n(i) The right to be forgotten is not automatic for ongoing proceedings\n(ii) Registry directed to remove a couple’s details from search engines\n(iii) Repeated re-promulgation of Ordinances is unconstitutional\n(iv) Privacy is a fundamental right",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-iii, b-iv",
+    "a-iv, b-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11",
+    "P2.F12"
+   ],
+   "explanation": "The correct pairs are a-ii and b-i: the Supreme Court matter in 2022 concerned removal of a couple’s details from search engines, while the Kerala High Court in 2023 held that the right to be forgotten is not automatic for ongoing proceedings. The other pairs mix these cases with holdings from different cases."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Public record and constitutional privacy",
+   "question": "Assertion (A): The Indian Kanoon matter in 2024 warned that obfuscation harms the public record.\nReason (R): The right to privacy is associated with Article 21 and the Part III freedoms.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F13",
+    "P2.F14"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. The Indian Kanoon matter warned about harm to the public record from obfuscation, while the constitutional privacy proposition concerns Article 21 and Part III freedoms; the latter does not explain the specific warning about obfuscation."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Effect of Ordinance lapse",
+   "question": "Which of the following statements regarding the Presidential Ordinance increasing the sanctioned strength of the Supreme Court is incorrect?",
+   "options": [
+    "If the Ordinance lapses, the sanctioned strength reverts to 34 judges.",
+    "The possible reversion raises concerns about security of tenure and judicial independence.",
+    "If the Ordinance lapses, the sanctioned strength remains at 38 judges.",
+    "The concern about lapse is linked to the effect of the Ordinance on the sanctioned judicial strength."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "The incorrect statement is that the sanctioned strength remains at 38 judges. The stated concern is that, if the Ordinance lapses, the strength reverts to 34, raising issues of security of tenure and judicial independence."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ordinance and constitutional principle",
+   "question": "Which case held that repeated re-promulgation of Ordinances is unconstitutional?",
+   "options": [
+    "D.C. Wadhwa v. State of Bihar (1986)",
+    "Krishna Kumar Singh v. State of Bihar (2017)",
+    "Supreme Court Advocates-on-Record Association (2015)",
+    "Rajagopal v. State of Tamil Nadu (1994)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "D.C. Wadhwa v. State of Bihar (1986) held that repeated re-promulgation of Ordinances is unconstitutional. Krishna Kumar Singh concerned Ordinances as a substitute for legislation, while the Advocates-on-Record Association case concerned the 99th Amendment and the NJAC Act."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Constitutional cases and principles",
+   "question": "Match the constitutional cases or propositions in List-I with the associated principle in List-II.\n\nList-I\n(a) D.C. Wadhwa v. State of Bihar (1986)\n(b) Krishna Kumar Singh v. State of Bihar (2017)\n(c) Supreme Court Advocates-on-Record Association (2015)\n(d) Article 13(3)(a) proposition\n\nList-II\n(i) “Law” includes custom or usage having the force of law\n(ii) The 99th Amendment and the NJAC Act were struck down\n(iii) Repeated re-promulgation of Ordinances is unconstitutional\n(iv) An Ordinance is not a substitute for legislation",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F6",
+    "P3.F7",
+    "P3.F8"
+   ],
+   "explanation": "The correct matching is a-iii, b-iv, c-ii, d-i. D.C. Wadhwa addressed repeated re-promulgation, Krishna Kumar Singh held that an Ordinance is not a substitute for legislation, the Advocates-on-Record Association case struck down the 99th Amendment and NJAC Act, and Article 13(3)(a) includes custom or usage having the force of law."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Islands with tribal councils",
+   "question": "Which of the following is an island with a tribal council under the Andaman and Nicobar Islands tribal council framework?",
+   "options": [
+    "Car Nicobar",
+    "Gulf of Kachchh",
+    "Gulf of Mannar",
+    "Sundarbans"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "Car Nicobar is one of the islands with councils, along with Nancowry, Kamorta, Teressa, Little Nicobar and Great Nicobar. The other options are geographical areas or a region associated with the coral-reef fact, not islands listed with councils."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Coral reef locations",
+   "question": "With reference to coral reefs associated with the Andaman and Nicobar Islands context, consider the following statements:\nStatement A: Coral reefs are found in the Andaman and Nicobar Islands.\nStatement B: Coral reefs are also found in the Gulf of Kachchh and the Gulf of Mannar.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5"
+   ],
+   "explanation": "Both statements are true. The relevant coral-reef locations include the Andaman and Nicobar Islands, the Gulf of Kachchh and the Gulf of Mannar; the Sundarbans is not included in this list."
+  }
+ ]
+}

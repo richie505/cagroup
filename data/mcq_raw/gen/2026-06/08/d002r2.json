@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P13.F8",
+  "P14.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "TOP500 benchmark and release cycle",
+   "question": "With reference to the TOP500 list, consider the following statements:\n1. The TOP500 list has been published since 1993.\n2. The list is released every June and November.\n3. The benchmark associated with the TOP500 list is the High Performance Lattice benchmark.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: TOP500 has been published since 1993 and is released every June and November. Statement 3 is incorrect because the benchmark is High Performance Linpack, not High Performance Lattice."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Reports and institutional background",
+   "question": "How many of the following statements regarding the institutions and economic-report terminology are correct?\n1. The OECD was established in 1961, is headquartered in New York, and has 38 members.\n2. The World Bank’s Global Economic Prospects is a biannual report.\n3. Fitch Ratings was established in 1914 in New York, and 100 basis points equal 2%.\n4. Goldman Sachs was established in 1869 in New York.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F6"
+   ],
+   "explanation": "Only statements 2 and 4 are correct. The OECD was established in 1961, is based in Paris and has 38 members; Fitch Ratings was established in 1914 in New York, while 100 basis points equal 1%, not 2%."
+  }
+ ]
+}

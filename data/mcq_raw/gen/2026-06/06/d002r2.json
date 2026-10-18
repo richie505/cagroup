@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": [
+  "P3.F1",
+  "P3.F17",
+  "P3.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Digital expansion and data cost",
+   "question": "Consider the following statements about India's digital base:\n1. Digital India was launched in 2015, while optical-fibre length increased from 19.35 lakh km to 42.36 lakh km by 2025.\n2. Internet users increased from 25.15 crore to 102.86 crore by 2026.\n3. Data cost increased from ₹8–10 per GB to ₹269 per GB.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Digital India began in 2015, optical-fibre length rose from 19.35 lakh km to 42.36 lakh km, and internet users rose from 25.15 crore to 102.86 crore. Statement 3 reverses the trend; data cost fell from ₹269 to ₹8–10 per GB."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AI Impact Summit declaration",
+   "question": "At the AI Impact Summit held in New Delhi, which outcome was associated with 92 countries and organisations?",
+   "options": [
+    "Adoption of the Declaration",
+    "Participation of 100+ countries",
+    "USD 200 bn+ investment commitments",
+    "Establishment of 4 AI CoEs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F17"
+   ],
+   "explanation": "The Declaration at the AI Impact Summit in New Delhi was adopted by 92 countries and organisations. The participation figure was 100+ countries, while USD 200 bn+ referred to investment commitments; 4 AI CoEs belongs to the IndiaAI Mission."
+  }
+ ]
+}

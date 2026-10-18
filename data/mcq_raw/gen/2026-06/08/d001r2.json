@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P4.F2",
+  "P5.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Pillar-wise rank",
+   "question": "In the QS World Future Skills Index 2027, what was India's rank in the Future of Work pillar?",
+   "options": [
+    "5th",
+    "14th",
+    "18th",
+    "22nd"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "India ranked 5th in the Future of Work pillar of the QS World Future Skills Index 2027. The 14th, 18th and 22nd ranks relate to other pillars, not Future of Work."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global total and valuation",
+   "question": "According to the Hurun Global Unicorn Index 2026, how many unicorns existed worldwide, and what was their combined value?",
+   "options": [
+    "1,603 unicorns worth USD 8 trillion",
+    "806 unicorns worth USD 8 trillion",
+    "381 unicorns worth USD 8 trillion",
+    "70 unicorns worth USD 8 trillion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "The Hurun Global Unicorn Index 2026 reported 1,603 unicorns worldwide, valued at USD 8 trillion. The figures 806, 381 and 70 refer to country-wise unicorn counts, not the global total."
+  }
+ ]
+}

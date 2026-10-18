@@ -1,0 +1,98 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37
+ ],
+ "only": [
+  "P20.F3",
+  "P20.F4",
+  "P21.F2",
+  "P37.F3",
+  "P37.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Grant distribution and conditions",
+   "question": "With reference to the 16th Finance Commission grants to Andhra Pradesh local bodies, consider the following statements:\n1. Gram Panchayats receive 70% of the grant share.\n2. Zilla Parishads receive 70% of the grant share.\n3. The grants are subject to local body elections being held, e-Gram Swaraj records being maintained and the State Finance Commission being constituted.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F3",
+    "P20.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Gram Panchayats receive 70%, and the grants are subject to the three stated conditions. Statement 2 is incorrect because Zilla Parishads receive 15%, not 70%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State and Centre contribution",
+   "question": "What was Andhra Pradesh’s allocation under the Viksit Bharat–Guarantee for Rozgar and Aajeevika Mission (Grameen), or VB-GRAM?",
+   "options": [
+    "₹12,845.35 crore, with the Centre contributing 60% and the State 40%",
+    "₹7,707.21 crore, with the Centre contributing 40% and the State 60%",
+    "₹5,138.14 crore, with the Centre contributing 60% and the State 40%",
+    "₹12,845.35 crore, with the Centre contributing 40% and the State 60%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F2"
+   ],
+   "explanation": "Andhra Pradesh was allocated ₹12,845.35 crore under VB-GRAM, with a 60% contribution from the Centre and 40% from the State. The figures ₹7,707.21 crore and ₹5,138.14 crore are the Centre’s and State’s respective contributions, not the total allocation."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Reasons for pulse production growth",
+   "question": "Assertion (A): Andhra Pradesh’s pulse production growth was attributed to a self-sufficiency drive, quality seeds, pest management, value addition and higher MSP.\nReason (R): The growth was attributed to lower MSP.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P37.F3"
+   ],
+   "explanation": "Assertion A is true because all five factors were identified as reasons for Andhra Pradesh’s pulse production growth. Reason R is false: the stated factor was higher MSP, not lower MSP."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Economic and infrastructure ranking",
+   "question": "Consider the following statements:\nStatement A: Andhra Pradesh was among the top five States in the number of establishments according to the 6th Economic Census.\nStatement B: Andhra Pradesh ranked sixth in ongoing Central projects, with 142 projects.\nChoose the correct answer.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P37.F4"
+   ],
+   "explanation": "Statement A is true: Andhra Pradesh was among the top five States in the number of establishments in the 6th Economic Census. Statement B is false because Andhra Pradesh ranked third, not sixth, in ongoing Central projects, with 142 projects."
+  }
+ ]
+}

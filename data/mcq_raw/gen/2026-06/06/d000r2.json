@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F12",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Disease surveillance finding",
+   "question": "In the 2018 investigation of Nipah in Kerala, approximately what proportion of sampled bats tested positive?",
+   "options": [
+    "Approximately 25%",
+    "Approximately 50%",
+    "Approximately 75%",
+    "All sampled bats"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "Approximately 25% of the sampled bats tested positive in 2018. The tempting figure of approximately 50% is incorrect; the reported proportion was about one-fourth."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Disease classification and causative organism",
+   "question": "With reference to the disease classifications associated with the CDS 2026 question, consider the following statements:\n\n1. Dengue is a bacterial disease.\n2. Athlete's foot is a fungal disease.\n3. Whooping cough is bacterial and is caused by Bordetella pertussis.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "Statements 2 and 3 are correct: athlete's foot is fungal, while whooping cough is bacterial and is caused by Bordetella pertussis. Statement 1 is incorrect because dengue is viral, not bacterial."
+  }
+ ]
+}

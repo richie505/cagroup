@@ -1,0 +1,137 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37
+ ],
+ "only": [
+  "P20.F3",
+  "P20.F4",
+  "P20.F5",
+  "P21.F2",
+  "P21.F3",
+  "P21.F4",
+  "P22.F3",
+  "P37.F3",
+  "P37.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Share and conditions of grants",
+   "question": "Regarding the 16th Finance Commission grants to Andhra Pradesh local bodies, consider the following statements:\n1. Gram Panchayats receive 70% of the share.\n2. Holding local body elections is one of the conditions for receiving the grants.\n3. The 16th Finance Commission was chaired by Dr. Arvind Panagariya.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F3",
+    "P20.F4",
+    "P20.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Gram Panchayats receive 70%, and holding local body elections is a grant condition. Statement 3 is incorrect because Dr. Arvind Panagariya chaired the 16th Finance Commission, but that fact is not a condition or share allocation; the correct combination here is 1 and 2 only."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State share in VB-GRAM allocation",
+   "question": "Under VB-GRAM in Andhra Pradesh, what amount was allocated as the State Government's share?",
+   "options": [
+    "₹5,138.14 crore",
+    "₹7,707.21 crore",
+    "₹12,845.35 crore",
+    "₹4,714 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F2"
+   ],
+   "explanation": "Andhra Pradesh’s share under VB-GRAM was ₹5,138.14 crore. The Centre’s share was ₹7,707.21 crore, while ₹12,845.35 crore was the total allocation; ₹4,714 crore was the materials component."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "VB-GRAM components and national rank",
+   "question": "Match the following aspects of VB-GRAM in Andhra Pradesh with the correct details:\n\nList-I\n a. Wage component\n b. Materials component\n c. Administrative component\n d. Andhra Pradesh's allocation rank\n\nList-II\n i. Third\n ii. ₹4,714 crore\n iii. Approximately ₹1,060 crore\n iv. ₹7,071 crore\n\nSelect the correct code.",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F3",
+    "P21.F4"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i: wages were ₹7,071 crore, materials ₹4,714 crore, administration approximately ₹1,060 crore, and Andhra Pradesh ranked third in allocation. The other codes interchange these components or assign an incorrect rank."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Youth Parliament Competition",
+   "question": "Which Andhra Pradesh institution secured first place in the Hyderabad Region in the 36th National Youth Parliament Competition for 2025–26?",
+   "options": [
+    "PM SHRI KV Nellore",
+    "Dr. Rajendra Prasad KV, President's Estate",
+    "Chandigarh University",
+    "Bedford School, Amaravati"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P22.F3"
+   ],
+   "explanation": "PM SHRI KV Nellore secured first place in the Hyderabad Region in the 36th National Youth Parliament Competition for 2025–26. Dr. Rajendra Prasad KV received the national shield, so it is the most tempting but incorrect alternative."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Article and chairperson of the Finance Commission",
+   "question": "Assertion (A): The Finance Commission is constituted under Article 280 of the Constitution.\nReason (R): The 16th Finance Commission was chaired by Dr. Arvind Panagariya.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P20.F5"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the Finance Commission is constituted under Article 280, and Dr. Arvind Panagariya chaired the 16th Finance Commission. However, the chairperson does not explain the constitutional provision, so the second option is correct."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Reasons for pulse growth and other national rankings",
+   "question": "How many of the following statements correctly describe Andhra Pradesh's performance and the reasons associated with its pulse-production growth?\n1. Higher MSP was among the reasons associated with the growth in pulse production.\n2. Quality seeds were not among the factors associated with the growth.\n3. Andhra Pradesh ranked second among the States in ongoing Central projects.\n4. Andhra Pradesh was among the top five States in the number of establishments according to the 6th Economic Census.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P37.F3",
+    "P37.F4"
+   ],
+   "explanation": "Only one statement is correct: higher MSP was among the reasons for the growth, and Andhra Pradesh was among the top five States in the number of establishments. Statement 2 is false because quality seeds were a stated factor, while statement 3 is false because Andhra Pradesh ranked third, not second, in ongoing Central projects."
+  }
+ ]
+}

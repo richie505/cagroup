@@ -1,0 +1,263 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4
+ ],
+ "only": [
+  "P4.F1",
+  "P4.F10",
+  "P4.F11",
+  "P4.F12",
+  "P4.F13",
+  "P4.F14",
+  "P4.F15",
+  "P4.F16",
+  "P4.F17",
+  "P4.F18",
+  "P4.F19",
+  "P4.F2",
+  "P4.F20",
+  "P4.F21",
+  "P4.F22",
+  "P4.F23",
+  "P4.F4",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8",
+  "P4.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme benefit and ownership condition",
+   "question": "Under PMAY-U 2.0, what is the maximum assistance available under Beneficiary-Led Construction, and who must be the owner or co-owner of the house?",
+   "options": [
+    "Up to ₹2.5 lakh; a female member",
+    "Up to ₹1.2 lakh; any adult member",
+    "Up to ₹1.3 lakh; the eldest male member",
+    "Up to ₹78,000; the beneficiary's employer"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "PMAY-U 2.0 provides up to ₹2.5 lakh under Beneficiary-Led Construction, and a female member must be the owner or co-owner. The other options use assistance figures associated with other schemes or housing categories."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rural housing progress and women ownership",
+   "question": "Which combination correctly describes PMAY-G progress and ownership?",
+   "options": [
+    "Target of 3.98 crore houses, 3.91 crore sanctioned, 3.05 crore completed, with about 75% women-owned",
+    "Target of 3.91 crore houses, 3.98 crore sanctioned, 3.06 crore completed, with about 50% women-owned",
+    "Target of 3.05 crore houses, 3.91 crore sanctioned, 3.98 crore completed, with about 75% women-owned",
+    "Target of 3.98 crore houses, 3.05 crore sanctioned, 3.91 crore completed, with about 25% women-owned"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "PMAY-G had a target of 3.98 crore houses, with 3.91 crore sanctioned and 3.05 crore completed; about 75% were women-owned. The other choices interchange the progress figures or alter the women-ownership share."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Ujjwala coverage",
+   "question": "With reference to PMUY and Ujjwala 2.0, identify the incorrect statement.",
+   "options": [
+    "PMUY had a target of 8 crore connections by September 2019.",
+    "Ujjwala 2.0 added 1 crore connections in August 2021.",
+    "The total coverage reached more than 10.57 crore connections.",
+    "PMUY achieved its target of 8 crore connections by September 2020."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "The incorrect statement is the one that places achievement of the 8 crore target in September 2020; the correct year was 2019. Ujjwala 2.0 added 1 crore connections, taking total coverage to more than 10.57 crore."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Sanitation outcomes",
+   "question": "Consider the following statements regarding rural and urban sanitation outcomes:\n1. Rural sanitation coverage rose from 39% to 100% by 2019 under SBM-G.\n2. SBM-G constructed 12.41 crore toilets.\n3. Under SBM-U, waste processing rose from 18% to 82%.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "Exactly one statement is correct",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6",
+    "P4.F7"
+   ],
+   "explanation": "Only Statement 1 is correct: rural sanitation coverage rose from 39% to 100% by 2019. The correct SBM-G toilet figure was 12.14 crore, while SBM-U waste processing rose from 16% to 82%."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Renewable-energy capacity by source",
+   "question": "Match the energy source in List-I with its capacity in 2014 and March 2026 in List-II.\n\nList-I\n(a) Renewable energy\n(b) Solar\n(c) Wind\n(d) Nuclear\n\nList-II\n(i) 4.78 GW to 8.78 GW\n(ii) 21.04 GW to 56.09 GW\n(iii) 76.38 GW to 274.69 GW\n(iv) 2.82 GW to 150.26 GW\n\nSelect the correct code.",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8",
+    "P4.F9",
+    "P4.F10",
+    "P4.F11"
+   ],
+   "explanation": "The correct pairs are renewable energy—76.38 GW to 274.69 GW, solar—2.82 GW to 150.26 GW, wind—21.04 GW to 56.09 GW, and nuclear—4.78 GW to 8.78 GW. Therefore, the correct code is a-iii, b-iv, c-ii, d-i."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Hydropower capacity",
+   "question": "Assertion (A): India's hydro capacity stood at 51.4 GW in March 2026.\nReason (R): India's hydro capacity stood at 41.4 GW in March 2026.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F12"
+   ],
+   "explanation": "Assertion A is true because hydro capacity was 51.4 GW in March 2026. Reason R is false because it changes the capacity figure to 41.4 GW."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Electricity consumption and urban supply",
+   "question": "Which of the following correctly states the per capita electricity consumption change and urban electricity supply figure?",
+   "options": [
+    "957 kWh to 1,460 kWh during 2024–25; urban supply of 23.4 hours",
+    "957 kWh to 1,260 kWh during 2024–25; urban supply of 21.4 hours",
+    "760 kWh to 1,460 kWh during 2024–25; urban supply of 24.3 hours",
+    "1,460 kWh to 957 kWh during 2024–25; urban supply of 23.4 hours"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F13"
+   ],
+   "explanation": "Per capita consumption increased from 957 kWh to 1,460 kWh during 2024–25, while urban electricity supply was 23.4 hours. The other options alter either the consumption figures, the direction of change, or the supply duration."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Household electrification and rooftop solar",
+   "question": "Consider the following statements:\nStatement A: SAUBHAGYA was closed after achieving its targets in March 2023.\nStatement B: PM Surya Ghar provided a subsidy of up to ₹78,000 and covered more than 40 lakh households by May 2023.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F14",
+    "P4.F15"
+   ],
+   "explanation": "Both statements are false. SAUBHAGYA was closed after achieving its targets in March 2022, while PM Surya Ghar had covered more than 40 lakh households by May 2026, with a subsidy of up to ₹78,000."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Energy efficiency and financial inclusion",
+   "question": "How many of the following statements are correct?\n1. UJALA distributed 37 crore LED bulbs and generated annual savings of ₹19,153 crore.\n2. PMJDY is associated with the JAM trinity.\n3. PMMY provides collateral-free loans and includes Tarun Plus.\n4. The Jan Vishwas Act, 2026 covered 784 provisions in 79 Acts, of which 717 were amended and 67 decriminalised.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F16",
+    "P4.F17",
+    "P4.F18"
+   ],
+   "explanation": "Three statements are correct: Statements 1, 2 and 3. Statement 4 reverses the Jan Vishwas figures; 717 provisions were decriminalised and 67 were amended."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Grievance redressal",
+   "question": "What percentage of CPGRAMS grievances were reported as satisfactory during January 2025–February 2026?",
+   "options": [
+    "69.8%",
+    "59.8%",
+    "79.8%",
+    "89.8%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F19"
+   ],
+   "explanation": "CPGRAMS recorded a satisfactory rating of 69.8% during January 2025–February 2026, alongside about 6 lakh grievances resolved. The other percentages do not match the reported satisfaction figure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MyGov reach and State platforms",
+   "question": "Which combination correctly describes MyGov?",
+   "options": [
+    "More than 60 million users and 28 State platforms",
+    "More than 60 million users and 18 State platforms",
+    "More than 16 million users and 28 State platforms",
+    "More than 28 million users and 60 State platforms"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F20"
+   ],
+   "explanation": "MyGov had more than 60 million users and 28 State platforms. The other options alter either the user base or the number of State platforms."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Infrastructure data layers",
+   "question": "How many data layers were available on the PM GatiShakti platform?",
+   "options": [
+    "3,204",
+    "3,202",
+    "2,304",
+    "4,203"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F21"
+   ],
+   "explanation": "PM GatiShakti had 3,204 data layers. The nearby figure 3,202 is a trap, while the other numbers do not match the reported platform data."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Railway initiative and route",
+   "question": "Which route is associated with the Vande Bharat Sleeper?",
+   "options": [
+    "Howrah–Guwahati",
+    "Mumbai–Pune",
+    "Delhi–Varanasi",
+    "Varanasi–Siliguri"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F22"
+   ],
+   "explanation": "The Vande Bharat Sleeper is associated with the Howrah–Guwahati route. Mumbai–Pune, Delhi–Varanasi and Varanasi–Siliguri are among the proposed high-speed rail corridors, not the route identified for the Vande Bharat Sleeper."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Proposed high-speed rail corridors",
+   "question": "How many high-speed rail corridors were proposed in the listed plan?",
+   "options": [
+    "Seven",
+    "Five",
+    "Six",
+    "Eight"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F23"
+   ],
+   "explanation": "Seven high-speed rail corridors were proposed: Mumbai–Pune, Pune–Hyderabad, Hyderabad–Bengaluru, Hyderabad–Chennai, Chennai–Bengaluru, Delhi–Varanasi and Varanasi–Siliguri. The other numbers do not match the listed proposal."
+  }
+ ]
+}

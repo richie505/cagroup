@@ -1,0 +1,137 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4
+ ],
+ "only": [
+  "P4.F10",
+  "P4.F11",
+  "P4.F12",
+  "P4.F13",
+  "P4.F4",
+  "P4.F5",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8",
+  "P4.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Expected inflow",
+   "question": "Under the RBI’s special FCNR(B) deposit swap facility, what inflow was expected through the measure?",
+   "options": [
+    "$50–70 billion",
+    "$33.8 billion",
+    "$98.56 billion",
+    "$165.65 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "The expected inflow under the facility was $50–70 billion. The $33.8 billion figure is the outstanding FCNR(B) amount, while $98.56 billion and $165.65 billion relate to outstanding NRE and total NRI deposits respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Deposit-flow data",
+   "question": "With reference to the FY26 data on NRI deposits, consider the following statements:\n1. FCNR(B) inflows fell from $7.1 billion in FY25 to $946 million in FY26.\n2. Total NRI inflows declined from $16.16 billion to $14.41 billion.\n3. Outstanding FCNR(B) deposits stood at $165.65 billion.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5",
+    "P4.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: FCNR(B) inflows fell from $7.1 billion to $946 million, while total NRI inflows fell from $16.16 billion to $14.41 billion. Statement 3 is incorrect because outstanding FCNR(B) deposits were $33.8 billion; $165.65 billion was the outstanding total NRI deposit figure."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NRE and NRO deposit data",
+   "question": "Consider the following statements:\nStatement A: NRE deposits increased by $7.94 billion and their outstanding amount was $98.56 billion.\nStatement B: NRO deposits increased by $5.53 billion and their outstanding amount was $33.33 billion.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "Both statements are true. NRE deposits recorded an increase of $7.94 billion with outstanding deposits of $98.56 billion, while NRO deposits increased by $5.53 billion and stood at $33.33 billion outstanding."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Account purpose and currency",
+   "question": "Match List-I with List-II regarding NRI deposit accounts and their features.\n\nList-I\n(a) FCNR(B)\n(b) NRE\n(c) NRO\n(d) NRE and NRO\n\nList-II\n(i) Foreign-currency account\n(ii) Park foreign earnings in India\n(iii) Manage income earned in India\n(iv) Rupee accounts",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8",
+    "P4.F9",
+    "P4.F10"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. FCNR(B) is a foreign-currency account, NRE is used to park foreign earnings in India, NRO manages income earned in India, and both NRE and NRO are rupee accounts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Eligibility",
+   "question": "Who are eligible to hold the NRI deposit accounts covered by the RBI measure?",
+   "options": [
+    "NRIs, OCIs and PIOs",
+    "NRIs only",
+    "NRIs and OCIs only",
+    "OCIs and PIOs only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F11"
+   ],
+   "explanation": "The eligible categories are NRIs, OCIs and PIOs. The other options omit one or more of these eligible categories."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "FBIL expansion",
+   "question": "What is the full form of FBIL, the institution associated with benchmark and forex reference rates?",
+   "options": [
+    "Financial Benchmarks India Pvt Ltd",
+    "Foreign Benchmarks India Pvt Ltd",
+    "Financial Banking India Pvt Ltd",
+    "Financial Benchmarks India Public Ltd"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F12"
+   ],
+   "explanation": "FBIL stands for Financial Benchmarks India Pvt Ltd, which provides benchmark and forex reference rates. The other options alter the institution’s name."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Devaluation and trade balance",
+   "question": "Assertion (A): Devaluation necessarily improves export competitiveness, but not the trade balance.\nReason (R): FBIL is associated with benchmark and forex reference rates.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F12",
+    "P4.F13"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the stated PYQ principle distinguishes export competitiveness from the trade balance, and FBIL provides benchmark and forex reference rates. However, FBIL’s role does not explain the effect of devaluation on export competitiveness or the trade balance."
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F13",
+  "P0.F19",
+  "P0.F2",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P2.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of nuclear states",
+   "question": "According to the SIPRI Yearbook 2026, how many states possess nuclear weapons at the beginning of 2026?",
+   "options": [
+    "Seven",
+    "Eight",
+    "Nine",
+    "Ten"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The SIPRI Yearbook 2026 identifies nine nuclear-armed states: the United States, Russia, the United Kingdom, France, China, India, Pakistan, North Korea and Israel. The tempting figure of eight understates the number by one."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Global nuclear warhead stockpile",
+   "question": "With reference to global nuclear arsenals at the beginning of 2026, consider the following statements:\n1. The total number of nuclear warheads was 12,187, and the United States and Russia together possessed about 86% of them.\n2. Military stockpiles contained 9,745 warheads.\n3. More than 4,000 warheads were held in civilian stockpiles.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the global total was 12,187 warheads, about 86% were held by the United States and Russia, and 9,745 were in military stockpiles. Statement 3 is incorrect because more than 4,000 warheads were deployed, not held in civilian stockpiles."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s nuclear warhead estimate",
+   "question": "What was SIPRI’s estimate of India’s nuclear warheads in early 2026?",
+   "options": [
+    "12",
+    "178",
+    "190",
+    "200"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "India was estimated to possess approximately 190 nuclear warheads in early 2026, including 12 deployed and 178 in storage. The figure 178 refers only to warheads in storage, not the total arsenal."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Arms exporters’ shares",
+   "question": "Which one of the following statements regarding arms exports during 2021–25 is incorrect?",
+   "options": [
+    "France accounted for 9.8% of global arms exports.",
+    "Germany accounted for 5.7% of global arms exports.",
+    "European NATO members accounted for 28% of global arms exports.",
+    "France accounted for 8.9% of global arms exports."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "The incorrect statement is that France accounted for 8.9% of global arms exports; its share was 9.8%. Germany’s share was 5.7%, while European NATO members together accounted for 28%."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Nuclear diplomacy and groupings",
+   "question": "Match List-I with List-II regarding India’s nuclear diplomacy and international groupings.\n\nList-I\n a. 2008\n b. NPT and CTBT\n c. TPNW\n d. MTCR, Wassenaar Arrangement and Australia Group\n\nList-II\n i. India opposes it\n ii. India is a member\n iii. India has not signed them\n iv. India-US civil nuclear deal and NSG waiver",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F19",
+    "P0.F20",
+    "P0.F21"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-i and d-ii. In 2008 India obtained the India-US civil nuclear deal and NSG waiver; it has not signed the NPT and CTBT, opposes the TPNW, and is a member of the MTCR, Wassenaar Arrangement and Australia Group."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "IAEA safeguards and imported uranium",
+   "question": "Regarding India’s nuclear reactors and uranium arrangements, consider the following statements:\nStatement A: Every Indian reactor uses imported uranium under IAEA safeguards.\nStatement B: India has reactors using imported uranium under IAEA safeguards.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F22"
+   ],
+   "explanation": "Statement B is correct because India has reactors with imported uranium under IAEA safeguards. Statement A is incorrect because the fact refers to reactors using such uranium, not to every Indian reactor."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Publisher and collaboration",
+   "question": "The WEF Energy Transition Index 2026 was published by which organisation in collaboration with Accenture?",
+   "options": [
+    "Institute for Economics and Peace",
+    "World Economic Forum",
+    "ICRIER–Prosus Centre for Internet and Digital Economy",
+    "Stockholm International Peace Research Institute"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "The WEF Energy Transition Index has been published by the World Economic Forum in collaboration with Accenture since 2010. The Institute for Economics and Peace and SIPRI are associated with other reports, while ICRIER–Prosus Centre released the SIDE 2026 report."
+  }
+ ]
+}

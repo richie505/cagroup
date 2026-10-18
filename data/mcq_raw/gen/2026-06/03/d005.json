@@ -1,0 +1,99 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37
+ ],
+ "only": [
+  "P33.F1",
+  "P33.F3",
+  "P34.F3",
+  "P36.F2",
+  "P37.F5",
+  "P37.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Mission objective and disease characteristics",
+   "question": "With reference to the National Sickle Cell Anaemia Elimination Mission, consider the following statements:\n1. The mission aims to eliminate sickle cell disease by 2047.\n2. Its interventions include screening, diagnosis, genetic counselling and treatment.\n3. Sickle cell disease is inherited and is caused by Haemoglobin-S; a person with one abnormal gene may be an asymptomatic carrier.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "All three statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P33.F1",
+    "P33.F3"
+   ],
+   "explanation": "The National Sickle Cell Anaemia Elimination Mission targets elimination of the disease by 2047 through screening, diagnosis, genetic counselling and treatment. Sickle cell disease is inherited and caused by Haemoglobin-S, while one abnormal gene can result in an asymptomatic carrier. Therefore, all three statements are correct; the other options omit one correct statement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institutional background",
+   "question": "Which of the following correctly states the institutional background associated with the water-resources initiative involving ISRO and the Ministry of Jal Shakti?",
+   "options": [
+    "ISRO is chaired by V. Narayanan; the Ministry of Jal Shakti was established in 2019; and the ANRF functions under the ANRF Act, 2023.",
+    "ISRO is chaired by C.R. Patil; the Ministry of Jal Shakti was established in 2023; and the ANRF functions under the ANRF Act, 2019.",
+    "ISRO is chaired by Dharmendra Pradhan; the Ministry of Jal Shakti was established in 2020; and the ANRF functions under the ANRF Act, 1881.",
+    "ISRO is chaired by Bhupender Yadav; the Ministry of Jal Shakti was established in 1962; and the ANRF functions under the ANRF Act, 1972."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P34.F3"
+   ],
+   "explanation": "The correct combination identifies V. Narayanan as the ISRO Chair, 2019 as the year of establishment of the Ministry of Jal Shakti, and the ANRF Act, 2023 as the legal basis of the ANRF. The other options alter one or more of these institutional details."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "World Environment Day and minister",
+   "question": "With reference to the NaMo Oxygen Parks initiative, consider the following statements:\nStatement A: Bhupender Yadav is the Minister of Environment, Forest and Climate Change.\nStatement B: World Environment Day has been observed since 1972.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P36.F2"
+   ],
+   "explanation": "Both statements are true: Bhupender Yadav is the Minister of Environment, Forest and Climate Change, and World Environment Day has been observed since 1972. Hence, the option stating that both statements are true is correct; neither statement should be changed to make the other listed combinations valid."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Approved courses and regulatory framework",
+   "question": "With reference to the approved foreign university campuses in India, consider the following statements:\n1. The approved courses include artificial intelligence, cybersecurity, data science, finance, renewable energy and healthcare.\n2. The approvals are under the National Education Policy, 2020.\n3. Dharmendra Pradhan is the Education Minister, and the University of Liverpool was established in 1881 and belongs to the Russell Group.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "All three statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P37.F5",
+    "P37.F6"
+   ],
+   "explanation": "The approved academic areas include artificial intelligence, cybersecurity, data science, finance, renewable energy and healthcare, and the approvals are under NEP 2020. Dharmendra Pradhan is the Education Minister; the University of Liverpool was established in 1881 and is a Russell Group university. Therefore, all three statements are correct; the other options leave out one correct statement."
+  }
+ ]
+}

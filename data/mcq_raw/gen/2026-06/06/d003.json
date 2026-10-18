@@ -1,0 +1,237 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P13.F1",
+  "P5.F10",
+  "P5.F11",
+  "P5.F12",
+  "P5.F13",
+  "P5.F14",
+  "P5.F15",
+  "P5.F16",
+  "P5.F17",
+  "P5.F18",
+  "P5.F5",
+  "P5.F6",
+  "P5.F7",
+  "P5.F8",
+  "P5.F9",
+  "P6.F2",
+  "P6.F3",
+  "P6.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Digital infrastructure coverage",
+   "question": "With reference to the Digital India programme's digital infrastructure, consider the following statements:\n1. Broadband subscribers reached approximately 106.58 crore in March 2026.\n2. Common Services Centres numbered more than 6.5 lakh, including 1.6 lakh post offices.\n3. Under e-Courts, 660 crore pages were digitised and 1.07 crore cases were e-filed.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F5",
+    "P5.F6",
+    "P5.F7"
+   ],
+   "explanation": "All three statements are correct. Broadband subscribers stood at approximately 106.58 crore, CSCs exceeded 6.5 lakh with 1.6 lakh post offices, and e-Courts digitised 660 crore pages with 1.07 crore e-filed cases. The other options incorrectly exclude one of these correct statements."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Digital economy indicators",
+   "question": "Match the following Digital India indicators in List-I with their corresponding data in List-II.\n\nList-I\n a. Electronics production\n b. Status in mobile manufacturing\n c. IT-ITeS revenue in FY25\n d. Global Capability Centres\n\nList-II\n i. ₹1.9 lakh crore to approximately ₹12 lakh crore\n ii. Second-largest mobile maker\n iii. $283 billion\n iv. More than 2,100, employing approximately 26 lakh staff",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F8",
+    "P5.F9"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Electronics production rose from ₹1.9 lakh crore to approximately ₹12 lakh crore, India became the second-largest mobile maker, IT-ITeS revenue was $283 billion, and GCCs exceeded 2,100 with approximately 26 lakh staff. The other codes interchange these indicators and their data."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Aadhaar and digital public platforms",
+   "question": "Which of the following statements regarding Aadhaar-linked digital public platforms is incorrect?",
+   "options": [
+    "Aadhaar coverage exceeded 144 crore.",
+    "More than 98% of the Public Distribution System was Aadhaar-authenticated.",
+    "Direct Benefit Transfer exceeded ₹51 lakh crore.",
+    "Aadhaar authenticated 100% of the Public Distribution System."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F11"
+   ],
+   "explanation": "The incorrect statement is that Aadhaar authenticated 100% of the Public Distribution System. The correct figure was more than 98%; Aadhaar coverage exceeded 144 crore and Direct Benefit Transfer exceeded ₹51 lakh crore. The trap is the change from more than 98% to 100%."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Digital platform reach",
+   "question": "Assertion (A): DigiLocker had more than 70 crore users and more than 850 crore documents.\nReason (R): eSanjeevani recorded more than 48 crore consultations.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F12",
+    "P5.F13"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, but eSanjeevani consultations do not explain DigiLocker's user or document figures. DigiLocker crossed 70 crore users and 850 crore documents, while eSanjeevani crossed 48 crore consultations. The first option is incorrect because the Reason is unrelated to the Assertion."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Education and farmer digital identities",
+   "question": "Consider the following statements:\nStatement A: More than 33 crore APAAR IDs and 6 crore Farmer IDs had been created.\nStatement B: More than 33 crore APAAR IDs and 9 crore Farmer IDs had been created.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F14"
+   ],
+   "explanation": "Statement A is false and Statement B is true. The figures were more than 33 crore APAAR IDs and more than 9 crore Farmer IDs. The trap in Statement A is the alteration of the Farmer ID figure from 9 crore to 6 crore."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Digital platform scale",
+   "question": "How many of the following statements regarding Digital India platforms are correct?\n1. GeM recorded a GMV of more than ₹18 lakh crore and had more than 11 lakh MSMEs.\n2. UMANG offered more than 2,500 services.\n3. POSHAN Tracker covered more than 13 lakh Anganwadis and MY Bharat had more than 2 crore youth.\n4. PMGDISHA had trained more than 9 crore people by March 2024.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F15",
+    "P5.F16"
+   ],
+   "explanation": "Only three statements are correct. The GeM, UMANG, POSHAN Tracker and MY Bharat figures are correct, but PMGDISHA had trained more than 6 crore people by March 2024, not more than 9 crore. The trap is the changed PMGDISHA figure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "DPI international cooperation",
+   "question": "Which of the following correctly describes India's Digital Public Infrastructure cooperation and platforms?",
+   "options": [
+    "DPI pacts covered approximately 24 countries, and India Stack Global and the Global DPI Repository were launched during India's G20 Presidency.",
+    "DPI pacts covered approximately 23 countries, and India Stack Global and the Global DPI Repository were launched during India's G20 Presidency.",
+    "DPI pacts covered approximately 24 countries, and only the Global DPI Repository was launched during India's G20 Presidency.",
+    "DPI pacts covered approximately 23 countries, and only India Stack Global was launched during India's G20 Presidency."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F17"
+   ],
+   "explanation": "The correct description is approximately 24 countries, with India Stack Global and the Global DPI Repository launched during India's G20 Presidency. The other options alter the reported number or omit one of the two platforms. The approximately 23-country figure is the conflicting alternative, not the specified figure here."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Open-source digital platforms",
+   "question": "Which Digital India platform was built on Sunbird?",
+   "options": [
+    "Aarogya Setu",
+    "CoWIN",
+    "DigiLocker",
+    "DIKSHA"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F18"
+   ],
+   "explanation": "DIKSHA was built on Sunbird. Aarogya Setu, CoWIN, DigiLocker and DIKSHA were all described as open-source based, but Sunbird was specifically associated with DIKSHA. The other options are therefore incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Developed by",
+   "question": "Who developed the Advanced Weapon Systems Complex at Hyderabad?",
+   "options": [
+    "DRDO's Missile Systems and Strategic Systems Cluster",
+    "Army Design Bureau",
+    "UPEIDA",
+    "C-DOT"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "The Advanced Weapon Systems Complex was developed by DRDO's Missile Systems and Strategic Systems Cluster. Army Design Bureau and UPEIDA are associated with the National Military Drone Technology Centre, while C-DOT is associated with advanced communication technologies. Hence the first option is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Project Kusha range",
+   "question": "Project Kusha, the indigenous long-range air-defence system, is planned with interceptors of which ranges?",
+   "options": [
+    "150 km, 250 km and 400 km",
+    "150 km, 250 km and 500 km",
+    "100 km, 250 km and 400 km",
+    "150 km, 300 km and 400 km"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "Project Kusha is planned with interceptors having ranges of 150 km, 250 km and 400 km. The other options change one of these three ranges. Thus, the first option correctly states the interceptor ranges."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "DRDO establishment and headquarters",
+   "question": "Which pair correctly represents the year of establishment and headquarters of the Defence Research and Development Organisation?",
+   "options": [
+    "1958 — New Delhi",
+    "1984 — New Delhi",
+    "2000 — New Delhi",
+    "2016 — New Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4",
+    "P9.F1"
+   ],
+   "explanation": "DRDO was established in 1958 and is headquartered in New Delhi. The years 1984, 2000 and 2016 are associated in the facts with other organisations or institutions, not with DRDO's establishment. Therefore, 1958 — New Delhi is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Research institution",
+   "question": "The world's most detailed 3D atlas of the human brainstem was developed by which institution?",
+   "options": [
+    "Sudha Gopalakrishnan Brain Centre, IIT Madras",
+    "IIT Bhubaneswar's Sensors and Spectroscopy Research Group",
+    "C-DOT",
+    "DRDO's Missile Systems and Strategic Systems Cluster"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "The world's most detailed 3D atlas of the human brainstem was developed by the Sudha Gopalakrishnan Brain Centre at IIT Madras. IIT Bhubaneswar's group is associated with the portable arsenic detector, while C-DOT and DRDO's cluster are associated with communication and defence technologies respectively."
+  }
+ ]
+}

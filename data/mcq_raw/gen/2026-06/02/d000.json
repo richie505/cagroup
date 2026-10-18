@@ -1,0 +1,173 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F6",
+  "P0.F8",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Referral to competent authority",
+   "question": "When the Election Commission of India finds a citizenship case doubtful during electoral-roll revision, which course of action did the Supreme Court prescribe?",
+   "options": [
+    "Refer it to the competent authority under the Citizenship Act, 1955, preferably before the next election in that constituency",
+    "Declare the person a non-citizen and permanently cancel citizenship",
+    "Refer it to a Foreigners Tribunal under the Representation of the People Act, 1950",
+    "Defer the matter until after the next election without referring it to any authority"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Doubtful citizenship cases are to be referred to the competent authority under the Citizenship Act, 1955, preferably before the next election in the constituency. The Election Commission does not itself finally decide citizenship."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Proof of identity",
+   "question": "Which document did the Supreme Court direct that the Election Commission should accept as proof of identity during the electoral-roll revision safeguards?",
+   "options": [
+    "Aadhaar",
+    "A voter’s name on the electoral roll alone",
+    "A certificate issued by a Foreigners Tribunal",
+    "A prison identity card"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "Aadhaar was directed to be accepted as proof of identity. The safeguard concerns identity verification and does not convert the electoral roll into conclusive proof of citizenship."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Safeguards and Article 324",
+   "question": "Consider the following statements:\nStatement A: Deleted voters’ names need not be published with reasons, provided the deletion is recorded internally.\nStatement B: Article 324 places the superintendence, direction and control of elections in the hands of the Election Commission of India for prison administration.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "Both statements are false. Deleted voters’ names must be published with reasons, and Article 324 concerns the Election Commission of India’s superintendence, direction and control of elections, not prison administration."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Electoral-roll eligibility",
+   "question": "Under Section 16 of the Representation of the People Act, 1950, which person cannot be registered as a voter?",
+   "options": [
+    "A non-citizen",
+    "A person whose name was deleted with reasons published",
+    "A person assisted by judicial officers during a hearing",
+    "A person whose identity was established through Aadhaar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "Section 16 of the Representation of the People Act, 1950, provides that a non-citizen cannot be registered as a voter. The provision relates to preparation and revision of electoral rolls."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Assam D-voter system",
+   "question": "What did the 1997 revision in Assam do in relation to suspected voters?",
+   "options": [
+    "Marked them as “doubtful voters” and referred them to Foreigners Tribunals",
+    "Granted them automatic citizenship and registered them as voters",
+    "Referred them to judicial officers assisting electoral-roll hearings",
+    "Removed them from the electoral roll without any referral"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "The 1997 revision in Assam marked suspected persons as “doubtful voters” and referred them to Foreigners Tribunals. It did not grant automatic citizenship or end the process without referral."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Occupancy rate",
+   "question": "According to Prison Statistics India 2024, what was the prison occupancy rate of Chhattisgarh, and what had it been in 2015?",
+   "options": [
+    "127.6% in 2024, compared with 234% in 2015",
+    "147.1% in 2024, compared with 78% in 2015",
+    "163.5% in 2024, compared with 234% in 2015",
+    "194.6% in 2024, compared with 127.6% in 2015"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "Chhattisgarh recorded an occupancy rate of 127.6% in 2024, down from 234% in 2015. The other options mix Chhattisgarh’s figures with occupancy figures associated with other States or Union Territories."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Undertrials and prison law",
+   "question": "How many of the following statements are correct regarding prison-related data and legal provisions?\n1. Delhi and Bihar had an undertrial share above 87%.\n2. Hussainara Khatoon v. State of Bihar recognised speedy trial as part of Article 21 in 1980.\n3. Sunil Batra v. Delhi Administration held that prisoners lose their fundamental rights.\n4. Under Section 479 of the BNSS 2023, a first-time offender becomes eligible for release on bond after serving one-half of the maximum sentence.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10",
+    "P1.F11",
+    "P1.F13"
+   ],
+   "explanation": "Only statement 1 is correct: Delhi and Bihar had an undertrial share above 87%. Hussainara Khatoon was decided in 1979, Sunil Batra affirmed that prisoners retain fundamental rights, and Section 479 refers to one-third of the maximum sentence, not one-half."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Release of first-time offenders",
+   "question": "Under Section 479 of the BNSS 2023, when may a first-time offender who has served the specified part of the maximum sentence be released on bond?",
+   "options": [
+    "After serving one-third of the maximum sentence, with the jail superintendent required to apply",
+    "After serving one-half of the maximum sentence, without an application by the jail superintendent",
+    "After serving the entire maximum sentence, on the direction of the Election Commission of India",
+    "After serving one-fourth of the maximum sentence, through a Foreigners Tribunal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13"
+   ],
+   "explanation": "Section 479 of the BNSS 2023 provides for release on bond after a first-time offender has served one-third of the maximum sentence, and the jail superintendent must apply. The threshold is not one-half or one-fourth."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Prison-reform instruments",
+   "question": "Match the prison-reform measure in List-I with the associated detail in List-II.\n\nList-I\n(a) Model Prisons and Correctional Services Act\n(b) Model Prison Manual\n(c) E-Prisons\n(d) Support to Poor Prisoners Scheme\n\nList-II\n(i) 2016\n(ii) 2023\n(iii) Digital prison-related initiative\n(iv) Support for poor prisoners",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F14"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv: the Model Prisons and Correctional Services Act is from 2023, the Model Prison Manual is from 2016, E-Prisons is the digital initiative, and the Support to Poor Prisoners Scheme assists poor prisoners."
+  }
+ ]
+}

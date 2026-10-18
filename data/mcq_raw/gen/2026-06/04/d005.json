@@ -1,0 +1,173 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": [
+  "P7.F10",
+  "P7.F11",
+  "P7.F12",
+  "P7.F3",
+  "P7.F4",
+  "P7.F6",
+  "P7.F7",
+  "P7.F8",
+  "P7.F9",
+  "P8.F2",
+  "P8.F6",
+  "P8.F7",
+  "P8.F8",
+  "P8.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Scheme coverage and purpose",
+   "question": "Consider the following statements about sustainable-agriculture schemes:\n1. Paramparagat Krishi Vikas Yojana covered 15 lakh hectares during 2015–2025.\n2. The Soil Health Card scheme issued approximately 12 crore cards and checks overuse of fertilisers.\n3. Paramparagat Krishi Vikas Yojana covered 52,289 clusters and 2.53 lakh farmers during 2015–2025.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "Only statement 1 is correct. Paramparagat Krishi Vikas Yojana covered 15 lakh hectares during 2015–2025, whereas the Soil Health Card figure is approximately 20 crore cards and the farmer coverage under PKVY was 2.53 million, not 2.53 lakh."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "e-NAM scale",
+   "question": "Match the e-NAM indicators in List-I with their corresponding figures in List-II.\n\nList-I\n(a) Mandis\n(b) Farmers\n(c) Traders\n(d) Farmer Producer Organisations\n\nList-II\n(i) 2.72 lakh\n(ii) 1,650+\n(iii) 4,724\n(iv) 1.80 crore\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F6"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii: e-NAM covered 1,650+ mandis, 1.80 crore farmers, 2.72 lakh traders and 4,724 FPOs. The other codes interchange these indicators and figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme objective and reach",
+   "question": "PM-KUSUM is associated with which of the following achievements and objectives?",
+   "options": [
+    "Solar irrigation for 35 lakh+ farmers",
+    "Natural farming assistance for 18.19 lakh farmers",
+    "Crop marketing through 1,650+ mandis",
+    "Mechanisation support for 22 lakh farmers"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F7"
+   ],
+   "explanation": "PM-KUSUM is associated with solar irrigation and has benefited 35 lakh+ farmers. The other options refer to details associated with natural farming, e-NAM or PMKSY."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Launch year and project approach",
+   "question": "Consider the following statements:\nStatement A: Rashtriya Krishi Vikas Yojana was launched in 2015 and supports location-specific State projects.\nStatement B: Rashtriya Krishi Vikas Yojana was launched in 2007 and supports location-specific State projects.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F8"
+   ],
+   "explanation": "Statement A is false because RKVY was launched in 2007, not 2015. Statement B is true: RKVY supports location-specific State projects."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Approval date and scheme status",
+   "question": "Assertion (A): The National Mission on Natural Farming was approved as a standalone scheme on 25 November 2025.\nReason (R): The National Mission on Natural Farming was approved as a standalone Centrally Sponsored Scheme on 25 November 2024.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F9"
+   ],
+   "explanation": "Assertion A is false because the approval date was 25 November 2024, not 25 November 2025. Reason R is true: the Mission was approved as a standalone Centrally Sponsored Scheme on 25 November 2024."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Agricultural structure and ecology",
+   "question": "How many of the following statements are correct?\n1. Small and marginal farmers account for 86%.\n2. Agricultural mechanisation is approximately 40–45%.\n3. Annual food loss is approximately ₹1.35 trillion.\n4. Pollinators are essential for 65%+ of food crops.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F10",
+    "P7.F12"
+   ],
+   "explanation": "Exactly two statements are correct: small and marginal farmers account for 86%, and mechanisation is approximately 40–45%. Annual food loss is approximately ₹1.53 trillion, while pollinators are essential for 75%+ of food crops."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fertiliser subsidy amount",
+   "question": "What was the revised fertiliser subsidy for 2025–26?",
+   "options": [
+    "₹1.68 lakh crore",
+    "₹1.86 lakh crore",
+    "₹2,481 crore",
+    "₹847 crore"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F11"
+   ],
+   "explanation": "The fertiliser subsidy for 2025–26 was revised upward to ₹1.86 lakh crore from ₹1.68 lakh crore. The other figures relate to different agricultural or climate-finance provisions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Digital Agriculture Mission outlay",
+   "question": "What outlay was provided for the Digital Agriculture Mission covering initiatives such as AgriStack, Krishi-DSS, digital crop survey and soil mapping?",
+   "options": [
+    "₹2,817 crore",
+    "₹2,481 crore",
+    "₹1.86 lakh crore",
+    "₹847 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "The Digital Agriculture Mission has an outlay of ₹2,817 crore and covers AgriStack, Krishi-DSS, digital crop survey and soil mapping. ₹2,481 crore is associated with the National Mission on Natural Farming, while ₹1.86 lakh crore is the revised fertiliser subsidy."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Digital agriculture barriers and e-trading",
+   "question": "Consider the following statements:\n1. e-NAM is a pan-India e-trading portal.\n2. Approximately 18% of rural households have broadband.\n3. Digital Bharat Nidhi funds are fully utilised for overcoming digital-agriculture barriers.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8",
+    "P8.F9"
+   ],
+   "explanation": "Only statement 1 is correct: e-NAM is a pan-India e-trading portal. Broadband access is approximately 8% among rural households, not 18%, and Digital Bharat Nidhi funds remain unused rather than fully utilised."
+  }
+ ]
+}

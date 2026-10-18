@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20
+ ],
+ "only": [
+  "P5.F10",
+  "P5.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Connectivity projects and locations",
+   "question": "Match List-I with List-II regarding major connectivity projects in the North-East.\n\nList-I\n a. Bogibeel Bridge\n b. Bhupen Hazarika Setu\n c. Noney Bridge\n d. Sela Tunnel\n\nList-II\n i. Tezpur–Tawang\n ii. Manipur rail\n iii. Road–rail bridge over the Brahmaputra\n iv. Assam–Arunachal Pradesh\n\nCodes:",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F9"
+   ],
+   "explanation": "The correct pairs are Bogibeel Bridge—road–rail bridge over the Brahmaputra, Bhupen Hazarika Setu—Assam–Arunachal Pradesh, Noney Bridge—Manipur rail, and Sela Tunnel—Tezpur–Tawang. The tempting second code is wrong because it assigns Bogibeel Bridge to Assam–Arunachal Pradesh and Sela Tunnel to Manipur rail."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Hydropower and gas infrastructure",
+   "question": "Consider the following statements regarding infrastructure initiatives in the North-East:\n\n1. The Dibang Multipurpose project is a hydro project.\n2. The Subansiri Lower project is a hydro project.\n3. The North-East Gas Grid involves a pipeline under the Brahmaputra constructed by Horizontal Directional Drilling.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F10"
+   ],
+   "explanation": "All three statements are correct: Dibang Multipurpose and Subansiri Lower are hydro projects, while the North-East Gas Grid includes a pipeline under the Brahmaputra using Horizontal Directional Drilling. The nearest distractor, “1 and 3 only,” wrongly excludes Subansiri Lower."
+  }
+ ]
+}

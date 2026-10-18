@@ -1,0 +1,93 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34
+ ],
+ "only": [
+  "P33.F10",
+  "P33.F6",
+  "P33.F7",
+  "P33.F8",
+  "P33.F9",
+  "P34.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Heritage conservation",
+   "question": "At which heritage site did the Archaeological Survey of India remove modern walls inside the main gopuram in June 2026?",
+   "options": [
+    "Virupaksha Temple, Hampi",
+    "Kolanupaka Someswara Temple",
+    "Pansokhar Pokhar",
+    "National War Memorial"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P33.F6"
+   ],
+   "explanation": "The ASI removed modern walls inside the main gopuram of the Virupaksha Temple at Hampi. Kolanupaka Someswara Temple, Pansokhar Pokhar and the National War Memorial are associated with other heritage developments."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Heritage sites and locations",
+   "question": "Match List-I with List-II regarding heritage-related developments reported in June 2026.\n\nList-I\n(a) Kolanupaka Someswara Temple murals\n(b) Famous Jain temple\n(c) Gupta-era bathing ghat\n(d) Shark fossils\n\nList-II\n(i) Surajpur near Nalanda\n(ii) Mayurbhanj, Odisha\n(iii) Yadadri Bhuvanagiri, Telangana\n(iv) Kolanupaka, Telangana",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P33.F7",
+    "P33.F8",
+    "P33.F10"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii. The murals are at Kolanupaka in Yadadri Bhuvanagiri, the famous Jain temple is also at Kolanupaka, the bathing ghat is at Surajpur near Nalanda, and the shark fossils are at Baripada in Mayurbhanj."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "National War Memorial",
+   "question": "How many of the following statements about the National War Memorial are correct?\n\n1. The names of 6 Operation Sindoor martyrs were added to the Tyag Chakra.\n2. The martyrs included 5 Army personnel and 1 IAF personnel.\n3. The National War Memorial has a 21 m obelisk.\n4. The memorial has 6 circles: Amar, Veerta, Tyag and Rakshak.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P33.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Tyag Chakra carries the names of 6 Operation Sindoor martyrs, comprising 5 Army and 1 IAF personnel. Statement 3 is incorrect because the obelisk is 15.5 m, while Statement 4 is incorrect because the memorial has 4 circles, not 6."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Composition of the North Eastern Council",
+   "question": "Consider the following statements about the North Eastern Council:\n\nStatement A: The Council comprises members from 8 North-Eastern States.\nStatement B: Sikkim joined the Council in 2002.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P34.F2"
+   ],
+   "explanation": "Both statements are true. The North Eastern Council includes the 8 North-Eastern States, and Sikkim joined it in 2002; therefore, the alternatives treating either statement as false are incorrect."
+  }
+ ]
+}

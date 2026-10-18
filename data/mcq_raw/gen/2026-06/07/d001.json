@@ -1,0 +1,333 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": [
+  "P2.F1",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F17",
+  "P2.F18",
+  "P2.F19",
+  "P2.F2",
+  "P2.F20",
+  "P2.F21",
+  "P2.F22",
+  "P2.F24",
+  "P2.F25",
+  "P2.F26",
+  "P2.F27",
+  "P2.F28",
+  "P2.F29",
+  "P2.F3",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Location",
+   "question": "Jai Prakash Narayan Bird Sanctuary, also known as Surha Tal, is located in which district and State?",
+   "options": [
+    "Ballia, Uttar Pradesh",
+    "Etah, Uttar Pradesh",
+    "Aligarh, Uttar Pradesh",
+    "Udaipur, Rajasthan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Jai Prakash Narayan Bird Sanctuary, or Surha Tal, is located in Ballia district of Uttar Pradesh. Etah and Aligarh are associated with other Uttar Pradesh wetland entries, while Udaipur is associated with a Rajasthan site."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Announced by and date",
+   "question": "Who announced the designation of Jai Prakash Narayan Bird Sanctuary as India's 100th Ramsar site on World Environment Day, 5 June 2026?",
+   "options": [
+    "Prime Minister Narendra Modi",
+    "Prime Minister of the United Kingdom",
+    "Chief Minister of Uttar Pradesh",
+    "Union Minister of Environment"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Prime Minister Narendra Modi announced it on World Environment Day, 5 June 2026. The fact specifically identifies the Prime Minister as the announcer, not the Chief Minister or a Union Minister."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Ramsar status and history",
+   "question": "Which one of the following statements about Jai Prakash Narayan Bird Sanctuary is incorrect?",
+   "options": [
+    "It is Uttar Pradesh's 13th Ramsar site.",
+    "It has been a bird sanctuary since 1991.",
+    "It is Uttar Pradesh's 12th Ramsar site.",
+    "It is associated with the Ramsar-site designation announced in 2026."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "The incorrect statement changes Uttar Pradesh's count from 13th to 12th. Jai Prakash Narayan Bird Sanctuary has been a bird sanctuary since 1991 and was identified as the 13th Ramsar site of Uttar Pradesh."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Biodiversity",
+   "question": "With reference to the biodiversity of Jai Prakash Narayan Bird Sanctuary, consider the following statements:\n1. It has more than 221 plant species.\n2. It has about 66 fish species.\n3. The Common Pochard is not among the birds associated with the sanctuary.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the sanctuary has 221+ plant species and about 66 fish species. Statement 3 is incorrect because the Common Pochard is among the birds associated with the sanctuary."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global Ramsar ranking",
+   "question": "Which country has the highest number of Ramsar sites, with 176 sites?",
+   "options": [
+    "United Kingdom",
+    "Mexico",
+    "India",
+    "Iran"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "The United Kingdom has the highest number of Ramsar sites, with 176. Mexico has 144 sites, while India has 100 in the stated comparison."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ramsar sites",
+   "question": "Which country is listed with 144 Ramsar sites in the global comparison?",
+   "options": [
+    "Mexico",
+    "United Kingdom",
+    "India",
+    "Sikkim"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "Mexico is listed with 144 Ramsar sites. The United Kingdom is listed with 176 and India with 100 in the comparison."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Recent Ramsar additions: 86–87",
+   "question": "Match the Ramsar-site numbers with the corresponding sites:\n\nList-I\n a. 86\n b. 87\n\nList-II\n i. Therthangal BS\n ii. Sakkarakottai BS\n iii. Khecheopalri Wetland\n iv. Udhwa Lake",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-iii, b-iv",
+    "a-iv, b-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "Ramsar-site number 86 corresponds to Sakkarakottai BS, while number 87 corresponds to Therthangal BS. Khecheopalri Wetland and Udhwa Lake are numbered 88 and 89 respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Recent Ramsar additions: 88–89",
+   "question": "Match the Ramsar-site numbers with the corresponding sites:\n\nList-I\n a. 88\n b. 89\n\nList-II\n i. Udhwa Lake\n ii. Khecheopalri Wetland\n iii. Menar (Udaipur)\n iv. Khichan (Phalodi)",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-iii, b-iv",
+    "a-iv, b-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11",
+    "P2.F12"
+   ],
+   "explanation": "Site number 88 is Khecheopalri Wetland and site number 89 is Udhwa Lake. Menar and Khichan have different site numbers in the subsequent entries."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Recent Ramsar additions: 90–91",
+   "question": "Match the Ramsar-site numbers with the corresponding sites:\n\nList-I\n a. 90\n b. 91\n\nList-II\n i. Gokul Jalashay\n ii. Khichan (Phalodi)\n iii. Menar (Udaipur)\n iv. Udaipur Jheel",
+   "options": [
+    "a-ii, b-iii",
+    "a-iii, b-ii",
+    "a-i, b-iv",
+    "a-iv, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F13",
+    "P2.F14"
+   ],
+   "explanation": "Khichan (Phalodi) is Ramsar site number 90, and Menar (Udaipur) is number 91. Gokul Jalashay and Udaipur Jheel are numbered 92 and 93 respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Recent Ramsar additions: 92–93",
+   "question": "Match the Ramsar-site numbers with the corresponding sites:\n\nList-I\n a. 92\n b. 93\n\nList-II\n i. Gogabeel Lake\n ii. Udaipur Jheel\n iii. Siliserh Lake\n iv. Gokul Jalashay",
+   "options": [
+    "a-iv, b-ii",
+    "a-ii, b-iv",
+    "a-i, b-iii",
+    "a-iii, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F15",
+    "P2.F16"
+   ],
+   "explanation": "Gokul Jalashay is site number 92 and Udaipur Jheel is site number 93. Gogabeel Lake and Siliserh Lake are numbered 94 and 95 respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Recent Ramsar additions: 94–95",
+   "question": "Match the Ramsar-site numbers with the corresponding sites:\n\nList-I\n a. 94\n b. 95\n\nList-II\n i. Kopra Jalashay\n ii. Gogabeel Lake\n iii. Siliserh Lake\n iv. Patna Bird Sanctuary (Etah)",
+   "options": [
+    "a-ii, b-iii",
+    "a-iii, b-ii",
+    "a-i, b-iv",
+    "a-iv, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F17",
+    "P2.F18"
+   ],
+   "explanation": "Gogabeel Lake is Ramsar site number 94, while Siliserh Lake is number 95. Kopra Jalashay and Patna Bird Sanctuary are numbered 96 and 97 respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Recent Ramsar additions: 96–97",
+   "question": "Match the Ramsar-site numbers with the corresponding sites:\n\nList-I\n a. 96\n b. 97\n\nList-II\n i. Patna Bird Sanctuary (Etah)\n ii. Chhari-Dhand (Kutch)\n iii. Kopra Jalashay\n iv. Shekha Jheel BS (Aligarh)",
+   "options": [
+    "a-iii, b-i",
+    "a-i, b-iii",
+    "a-ii, b-iv",
+    "a-iv, b-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F19",
+    "P2.F20"
+   ],
+   "explanation": "Kopra Jalashay is site number 96 and Patna Bird Sanctuary (Etah) is number 97. Chhari-Dhand and Shekha Jheel BS are numbered 98 and 99 respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Recent additions and Andhra Pradesh site",
+   "question": "Match the wetland entry with its State or associated identification:\n\nList-I\n a. Chhari-Dhand (Kutch)\n b. Shekha Jheel BS (Aligarh)\n c. Kolleru Lake\n\nList-II\n i. Uttar Pradesh\n ii. Andhra Pradesh Ramsar site\n iii. Gujarat\n iv. Bihar",
+   "options": [
+    "a-iii, b-i, c-ii",
+    "a-i, b-iii, c-iv",
+    "a-ii, b-iv, c-i",
+    "a-iv, b-ii, c-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F21",
+    "P2.F22",
+    "P2.F24"
+   ],
+   "explanation": "Chhari-Dhand (Kutch) is in Gujarat, Shekha Jheel BS (Aligarh) is in Uttar Pradesh, and Kolleru Lake is Andhra Pradesh's Ramsar site. The other codes do not match these associations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ramsar Convention and World Wetlands Day",
+   "question": "On which date is World Wetlands Day observed?",
+   "options": [
+    "2 February",
+    "1 February",
+    "5 June",
+    "2 October"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F25"
+   ],
+   "explanation": "World Wetlands Day is observed on 2 February. The other dates in the options are not identified as World Wetlands Day in the Ramsar background."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Largest and smallest Ramsar sites",
+   "question": "Which is the smallest Ramsar site in India?",
+   "options": [
+    "Vembannur Wetland Complex",
+    "Sundarbans",
+    "Pantanal",
+    "Chilika"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F26"
+   ],
+   "explanation": "Vembannur Wetland Complex in Tamil Nadu is the smallest Ramsar site in India. Sundarbans is identified as India's largest Ramsar site, while Pantanal is the world's largest."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First Indian Ramsar sites",
+   "question": "Which pair constituted India's first Ramsar sites in 1981?",
+   "options": [
+    "Chilika and Keoladeo",
+    "Sundarbans and Vembannur",
+    "Kolleru and Surha Tal",
+    "Pantanal and Chilika"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F27"
+   ],
+   "explanation": "Chilika and Keoladeo were India's first Ramsar sites in 1981. The other pairs combine sites that are not identified as India's first Ramsar sites."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Montreux Record",
+   "question": "The Montreux Record, established in 1990 at Montreux, Switzerland, concerns Ramsar sites that have what condition?",
+   "options": [
+    "Changing ecology",
+    "The highest number of fish species",
+    "The smallest geographical area",
+    "Designation as India's first Ramsar sites"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F28"
+   ],
+   "explanation": "The Montreux Record concerns Ramsar sites with changing ecology. It is not a classification based on fish numbers, area, or the sequence of India's first Ramsar designations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Wetland policy framework",
+   "question": "Which wetland-related framework covers the period 2017–2031?",
+   "options": [
+    "National Wetland Action Plan",
+    "Wetlands Rejuvenation Programme",
+    "Amrit Dharohar",
+    "Wetlands of India Portal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F29"
+   ],
+   "explanation": "The National Wetland Action Plan covers 2017–2031. The Wetlands Rejuvenation Programme, Amrit Dharohar and the Wetlands of India Portal are separate initiatives or platforms listed in the wetland policy framework."
+  }
+ ]
+}

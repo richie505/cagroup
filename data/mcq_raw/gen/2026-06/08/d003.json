@@ -1,0 +1,140 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "only": [
+  "P15.F3",
+  "P15.F4",
+  "P15.F5",
+  "P16.F4",
+  "P17.F5",
+  "P17.F6",
+  "P18.F2",
+  "P19.F2",
+  "P19.F3",
+  "P19.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Share of global output",
+   "question": "According to FAO SOFIA 2026, consider the following statements about the concentration of farmed aquatic animal production:\n\n1. India, China, Indonesia, Vietnam and Bangladesh together accounted for 82% of farmed aquatic animal output and 84% of aquaculture.\n2. India, China, Indonesia, Vietnam and Bangladesh together accounted for 84% of farmed aquatic animal output and 82% of aquaculture.\n3. India, China, Indonesia and Vietnam together accounted for 82% of farmed aquatic animal output and 84% of aquaculture.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F3"
+   ],
+   "explanation": "Statement 1 is correct: the five countries together contributed 82% of farmed aquatic animal output and 84% of aquaculture. Statement 2 reverses these two shares, while Statement 3 omits Bangladesh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global production volume",
+   "question": "What was the total global aquatic animal production in 2024, according to FAO SOFIA 2026?",
+   "options": [
+    "235 million tonnes",
+    "142 million tonnes",
+    "Aquaculture output of 235 million tonnes",
+    "World total of 142 million tonnes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4"
+   ],
+   "explanation": "Global aquatic animal production was 235 million tonnes in 2024. The figure of 142 million tonnes refers specifically to aquaculture, not total production."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation headquarters and establishment",
+   "question": "Which pair correctly identifies the year of establishment and headquarters of the Food and Agriculture Organization (FAO)?",
+   "options": [
+    "1945 and Rome",
+    "1945 and Geneva",
+    "1950 and Rome",
+    "1950 and Geneva"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F5"
+   ],
+   "explanation": "The FAO was established in 1945 and is headquartered in Rome. Geneva and 1950 are associated with the UNHCR, not the FAO."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UNHCR establishment and headquarters",
+   "question": "Which combination correctly identifies the establishment year and headquarters of the United Nations High Commissioner for Refugees (UNHCR)?",
+   "options": [
+    "1950 and Geneva",
+    "1945 and Rome",
+    "1960 and Los Baños",
+    "1950 and London"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F4"
+   ],
+   "explanation": "The UNHCR was established in 1950 and is headquartered in Geneva. Rome is the FAO headquarters, while Los Baños is associated with IRRI."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Rank and publisher coverage",
+   "question": "Match the following entries related to the QS World University Rankings 2027 with the correct details.\n\nList-I\n a. Harvard University\n b. Universities covered\n c. Countries covered\n d. QS headquarters\n\nList-II\n i. London\n ii. Rank 5\n iii. 106\n iv. 1,500+\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iii, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F5",
+    "P17.F6"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i: Harvard was ranked 5th, the rankings covered 1,500+ universities in 106 countries, and QS is headquartered in London. The other codes interchange these rank, coverage and headquarters details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Prize categories",
+   "question": "Which of the following correctly lists the four categories of the World's Best School Prizes 2026?",
+   "options": [
+    "Innovation, Community Collaboration, Environmental Action, Supporting Healthy Lives",
+    "Innovation, Community Collaboration, Environmental Action, Public Vote",
+    "Innovation, Judging Academy, Environmental Action, Supporting Healthy Lives",
+    "T4 Education, Community Collaboration, Environmental Action, Supporting Healthy Lives"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F2"
+   ],
+   "explanation": "The four categories are Innovation, Community Collaboration, Environmental Action and Supporting Healthy Lives. Public vote, Judging Academy and T4 Education are connected with the prize process or organiser, not categories."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Research findings and indicator definition",
+   "question": "How many of the following statements about the studies on global rice production and child mortality are correct?\n\n1. China, India and Thailand were identified as leading rice-producing countries, with irrigation and fertilisers among the drivers of increased production.\n2. Irrigation, fertilisers and a 42% increase in area were identified as the drivers of increased global rice production.\n3. IRRI was established in 1960 at Los Baños, Philippines, and Indian rice-producing States include West Bengal, Uttar Pradesh, Punjab, Andhra Pradesh, Telangana, Chhattisgarh and Odisha.\n4. The under-five mortality rate measures deaths before age 5 per 1,000 live births and is linked with SDG-2.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P19.F2",
+    "P19.F3",
+    "P19.F6"
+   ],
+   "explanation": "Statements 1 and 3 are correct. Statement 2 is incorrect because the reported increase in area was 52%, not 42%, and Statement 4 is incorrect because the indicator is linked with SDG-3, not SDG-2."
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20
+ ],
+ "only": [
+  "P15.F2",
+  "P6.F10",
+  "P6.F11",
+  "P6.F3",
+  "P6.F4",
+  "P6.F7",
+  "P6.F9",
+  "P7.F5",
+  "P7.F6",
+  "P7.F9",
+  "P9.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation and location",
+   "question": "Which organisation representing more than 300 Korean marine-equipment firms set up a presence in Mumbai as part of the India–South Korea shipbuilding partnership?",
+   "options": [
+    "KOMEA",
+    "Maritime Development Fund",
+    "Sagarmala Finance Corporation Ltd",
+    "India Ship Technology Centre"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "KOMEA, the Korea Marine Equipment Association, represents more than 300 firms and established a presence in Mumbai. The Maritime Development Fund is a financing initiative, not the Korean marine-equipment association involved in this development."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "International cooperation model",
+   "question": "Which model is being considered for developing India–South Korea cooperation in the shipbuilding sector?",
+   "options": [
+    "Ulsan cluster model",
+    "Thoothukudi shipyard model",
+    "Alang recycling model",
+    "Lothal dockyard model"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "The proposed cooperation is based on Korea’s Ulsan cluster model. Thoothukudi is associated with the proposed mega shipyard, while Alang and Lothal relate to other maritime facts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Shipbuilding schemes",
+   "question": "Consider the following statements about India’s shipbuilding initiatives:\n1. The India Ship Technology Centre is associated with the Shipbuilding Development Scheme.\n2. The Green Tug Transition Programme is among the shipbuilding initiatives.\n3. The Shipbuilding Development Scheme is another name for the Shipbuilding Financial Assistance Scheme.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Shipbuilding Development Scheme is linked with the India Ship Technology Centre, and the Green Tug Transition Programme is listed among the initiatives. Statement 3 is incorrect because the Shipbuilding Development Scheme and the Shipbuilding Financial Assistance Scheme are separate schemes."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Public sector shipyards and locations",
+   "question": "Match the public sector shipyards with their locations and identify the correct code.\n\nList-I\n(a) Mazagon Dock\n(b) GRSE\n(c) Hindustan Shipyard\n(d) Alang\n\nList-II\n(i) Mumbai\n(ii) Kolkata\n(iii) Visakhapatnam\n(iv) Gujarat",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F9",
+    "P6.F10"
+   ],
+   "explanation": "The correct pairs are Mazagon Dock–Mumbai, GRSE–Kolkata, Hindustan Shipyard–Visakhapatnam and Alang–Gujarat. The other codes interchange these shipyard locations or place Alang outside Gujarat."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ancient maritime heritage",
+   "question": "Lothal, associated with India’s ancient maritime history, is identified as which of the following?",
+   "options": [
+    "A Harappan dockyard in Gujarat",
+    "A Korean shipbuilding cluster in Ulsan",
+    "A ship-recycling centre in Gujarat",
+    "A proposed mega shipyard in Thoothukudi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F11"
+   ],
+   "explanation": "Lothal is identified as a Harappan dockyard in Gujarat. Ulsan is the Korean cluster model, Alang is associated with ship recycling, and Thoothukudi is the location of the proposed mega shipyard."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "International groupings and declarations",
+   "question": "How many of the following statements regarding international initiatives in June 2026 are correct?\n1. Argentina was among the countries that also joined the Pax Silicon initiative with India.\n2. The Mombasa Declaration involved 15 countries opposing IUU fishing.\n3. Bolivia declared a 90-day state of emergency.\n4. The Mombasa Declaration was adopted at the 10th Our Ocean Conference.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F5",
+    "P7.F6",
+    "P7.F9"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: Argentina was among the additional Pax Silicon participants, the Mombasa Declaration involved 15 countries against IUU fishing, and Bolivia declared a 90-day state of emergency. Statement 4 is incorrect because the declaration was made at the 11th Our Ocean Conference."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Policy position and production rank",
+   "question": "Consider the following statements regarding India’s positions on Palestine and mango production:\nStatement A: India supports a One-State Solution for Palestine.\nStatement B: India is the world’s largest mango producer.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F2",
+    "P15.F2"
+   ],
+   "explanation": "Statement A is false because India backs a Two-State Solution. Statement B is true because India is the world’s largest mango producer, accounting for about 40% of global output."
+  }
+ ]
+}

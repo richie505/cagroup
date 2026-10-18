@@ -1,0 +1,196 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P12.F2",
+  "P12.F4",
+  "P12.F5",
+  "P12.F6",
+  "P13.F4",
+  "P13.F5",
+  "P13.F7",
+  "P13.F8",
+  "P14.F2",
+  "P14.F6",
+  "P14.F7",
+  "P14.F8",
+  "P15.F3",
+  "P15.F4",
+  "P15.F5",
+  "P15.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coverage and timeline",
+   "question": "Regarding the implementation of Prashast 2.0 disability screening in Andhra Pradesh schools, consider the following statements:\n1. The screening covers government, local-body, aided and private schools.\n2. Part-I is to be completed by class teachers by September 2026.\n3. Part-II is to be completed by special educators and Bhavita Centre staff by October 2026.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F4",
+    "P12.F5"
+   ],
+   "explanation": "All three statements are correct. Prashast 2.0 is to cover all four categories of schools, with Part-I completed by class teachers by September 2026 and Part-II by special educators and Bhavita Centre staff by October 2026. The option limiting coverage to only government schools would therefore be incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Role of IERPs",
+   "question": "In the Prashast 2.0 disability-screening initiative in Andhra Pradesh schools, what does the abbreviation IERPs refer to?",
+   "options": [
+    "Inclusive Education Resource Persons",
+    "Integrated Education Review Panels",
+    "Inclusive Examination Resource Programme",
+    "Institutional Education Rehabilitation Providers"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F6"
+   ],
+   "explanation": "IERPs are Inclusive Education Resource Persons working in Bhavita Centres. They are not examination panels or programme names, making the other options incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of bunk beds",
+   "question": "Under the KGBV initiative reviewed in Andhra Pradesh, how many bunk beds were provided for girls in the 430 Kasturba Gandhi Balika Vidyalayas?",
+   "options": [
+    "53,180",
+    "1,06,360",
+    "430",
+    "2,03,430"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F4"
+   ],
+   "explanation": "The provision comprised 53,180 bunk beds for 1,06,360 girls in 430 KGBVs. The figures 1,06,360 and 430 refer respectively to girls and KGBVs, not to the number of bunk beds."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Name of student kits",
+   "question": "What was the name of the kits distributed to students of Andhra Pradesh junior colleges?",
+   "options": [
+    "Sarvepalli Radhakrishnan Vidyarthi Mitra Kits",
+    "PM SHRI Vidyarthi Kits",
+    "Talliki Vandanam Student Kits",
+    "Annadata Sukhibhava Kits"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F5"
+   ],
+   "explanation": "The kits were named Sarvepalli Radhakrishnan Vidyarthi Mitra Kits. Talliki Vandanam and Annadata Sukhibhava refer to other initiatives, while PM SHRI is not the name given to these kits."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Attendance target and book sales",
+   "question": "Consider the following statements:\nStatement A: Andhra Pradesh set an attendance target below 95%, focusing on Kurnool, Anantapur, Markapuram, Alluri Sitharama Raju and the Polavaram region.\nStatement B: Telugu Academy books were to be sold through Amazon and Flipkart.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F7",
+    "P13.F8"
+   ],
+   "explanation": "Statement A is false because the attendance target was above 95%, not below 95%; the listed focus districts and region are correct. Statement B is true, as Telugu Academy books were to be sold on Amazon and Flipkart."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and chief guest",
+   "question": "At which place was the PM-Kisan–Annadata Sukhibhava support released in Andhra Pradesh by Chief Minister N. Chandrababu Naidu?",
+   "options": [
+    "Linganguntla village, Palnadu district",
+    "Kadapa district",
+    "Kurnool district",
+    "Guntur city"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2"
+   ],
+   "explanation": "The support was released at Linganguntla village in Palnadu district by Chief Minister N. Chandrababu Naidu. Kadapa and Kurnool were associated with the waste-to-energy plants, not this release venue."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Natural farming and chilli exports",
+   "question": "Assertion (A): Andhra Pradesh has about 20 lakh acres under natural farming.\nReason (R): China returned 3 containers of Guntur chilli because of pesticide residues.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F6"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the reported pesticide-residue incident illustrates the importance of natural-farming practices. The incident involved 3 containers of Guntur chilli returned by China."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Paddy payments and Polavaram timeline",
+   "question": "Consider the following statements:\n1. Paddy payments are to be made within 48 hours through the E-Crop system.\n2. Completion of Polavaram has been targeted for April 2027.\n3. Paddy payments are to be made within 72 hours through the E-Crop system.\n4. Completion of Polavaram has been targeted for March 2027.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F7",
+    "P14.F8"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: paddy payments are to be made within 48 hours through E-Crop, and Polavaram completion is targeted for April 2027. The altered timelines of 72 hours and March 2027 make statements 3 and 4 incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cities covered",
+   "question": "Which group of cities was selected for the urban crèche initiative under the MEPMA–Mobile Crèches partnership?",
+   "options": [
+    "Vijayawada, Visakhapatnam, Tirupati and Guntur",
+    "Kadapa, Kurnool, Palnadu and Polavaram",
+    "Kurnool, Anantapur, Markapuram and Guntur",
+    "Vijayawada, Kadapa, Tirupati and Palnadu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F3"
+   ],
+   "explanation": "The initiative covers Vijayawada, Visakhapatnam, Tirupati and Guntur. The other combinations mix these cities with districts or regions associated with other Andhra Pradesh initiatives."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Crèche capacity and convergence",
+   "question": "Regarding the urban crèche initiative under the MEPMA–Mobile Crèches MoU, consider the following statements:\n1. It envisages 15 crèches for children aged 6 months to 6 years and about 375 children.\n2. During 2026–27, 45 SHG women are to be trained as crèche workers and 15 master trainers certified, with Telugu materials and an MIS.\n3. The initiative provides for convergence with ICDS, PHCs and RBSK, covering defects, diseases, deficiencies and developmental delays.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P15.F4",
+    "P15.F5",
+    "P15.F6"
+   ],
+   "explanation": "All three statements are correct. The programme covers 15 crèches and about 375 children, includes training and certification during 2026–27 with Telugu materials and an MIS, and converges with ICDS, PHCs and RBSK for the listed four developmental concerns. The option excluding convergence or the training component is therefore incorrect."
+  }
+ ]
+}
