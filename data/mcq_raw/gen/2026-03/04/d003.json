@@ -1,0 +1,285 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": [
+  "P4.F10",
+  "P4.F11",
+  "P4.F12",
+  "P4.F13",
+  "P4.F3",
+  "P4.F4",
+  "P4.F6",
+  "P4.F8",
+  "P4.F9",
+  "P5.F1",
+  "P5.F10",
+  "P5.F11",
+  "P5.F13",
+  "P5.F14",
+  "P5.F15",
+  "P5.F16",
+  "P5.F17",
+  "P5.F18",
+  "P5.F19",
+  "P5.F20",
+  "P5.F4",
+  "P5.F5",
+  "P5.F6",
+  "P5.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "FTA coverage",
+   "question": "India's Free Trade Agreements cover how many countries and provide access to approximately what share of global GDP?",
+   "options": [
+    "38 countries and approximately 70% of global GDP",
+    "30 countries and approximately 60% of global GDP",
+    "38 countries and approximately 50% of global GDP",
+    "70 countries and approximately 38% of global GDP"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "India's FTAs cover 38 countries and provide access to approximately 70% of global GDP. The tempting option of 30 countries and 60% changes both figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in index",
+   "question": "According to the Stanford AI Index Report 2025, what was India's position in AI skill penetration?",
+   "options": [
+    "Second",
+    "First",
+    "Third",
+    "Fifth"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "India ranked second in AI skill penetration in the Stanford AI Index Report 2025. First, third and fifth are not the reported position."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Sectoral production and output",
+   "question": "Match the sector in List-I with the corresponding fact in List-II.\n\nList-I\n(a) Electronics—production in 2024-25\n(b) Electronics—mobile units\n(c) Pharma—turnover in FY25\n(d) Pharma—position by volume\n\nList-II\n(i) ₹4.72 lakh crore\n(ii) 300+\n(iii) Third-largest\n(iv) ₹11.3 lakh crore",
+   "options": [
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-iii, b-ii, c-iv, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6",
+    "P4.F8"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-i and d-iii: electronics production was ₹11.3 lakh crore, there were 300+ mobile units, pharma turnover was ₹4.72 lakh crore, and pharma was third-largest by volume. The other codes interchange these sectoral details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence industrial corridors",
+   "question": "Which States host India's Defence Industrial Corridors?",
+   "options": [
+    "Uttar Pradesh and Tamil Nadu",
+    "Maharashtra and Gujarat",
+    "Karnataka and Telangana",
+    "Rajasthan and Andhra Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F10"
+   ],
+   "explanation": "India's Defence Industrial Corridors are located in Uttar Pradesh and Tamil Nadu. The other pairs name States not identified for these corridors."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "PM E-DRIVE coverage",
+   "question": "Which of the following statements about the coverage of PM E-DRIVE is incorrect?",
+   "options": [
+    "It covers electric two-wheelers and electric three-wheelers.",
+    "It covers electric trucks and electric ambulances.",
+    "It includes charging infrastructure.",
+    "It covers only electric two-wheelers."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F11"
+   ],
+   "explanation": "The incorrect statement is that PM E-DRIVE covers only electric two-wheelers. Its coverage also includes electric three-wheelers, electric trucks, electric ambulances and charging."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Outlay",
+   "question": "What is the outlay of the Export Promotion Mission for 2025-26 to 2030-31?",
+   "options": [
+    "₹25,060 crore",
+    "₹23,622 crore",
+    "₹30,000 crore",
+    "₹4.72 lakh crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F12"
+   ],
+   "explanation": "The Export Promotion Mission has an outlay of ₹25,060 crore for 2025-26 to 2030-31. ₹23,622 crore is the defence export figure for FY25, while the other amounts do not represent the Mission's outlay."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Export Promotion Mission components",
+   "question": "With reference to the Export Promotion Mission, consider the following statements:\n\n1. Niryat Protsahan relates to finance and credit.\n2. Niryat Disha relates to market access and compliance.\n3. The Mission includes both Niryat Protsahan and Niryat Disha.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F13"
+   ],
+   "explanation": "All three statements are correct. Niryat Protsahan covers finance and credit, while Niryat Disha covers market access and compliance; both are components of the Export Promotion Mission."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "PLFS design and coverage",
+   "question": "With reference to the PLFS Annual Report 2025, consider the following statements:\n\n1. PLFS was launched by the NSO in 2017.\n2. Annual estimates are produced by Usual Status and Current Weekly Status.\n3. The 2025 survey used a new sampling design and a calendar-year format.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F4"
+   ],
+   "explanation": "All three statements are correct. PLFS was launched by the NSO in 2017, annual estimates use Usual Status and Current Weekly Status, and the 2025 survey adopted a new sampling design and calendar-year format."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Rural labour indicators",
+   "question": "Match the rural labour indicator in List-I with its value in List-II for the PLFS Annual Report 2025.\n\nList-I\n(a) Male LFPR\n(b) Female LFPR\n(c) Male WPR\n(d) Female WPR\n\nList-II\n(i) 44.9%\n(ii) 80.5%\n(iii) 45.9%\n(iv) 78.4%",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5",
+    "P5.F6",
+    "P5.F7"
+   ],
+   "explanation": "The correct pairs are male LFPR—80.5%, female LFPR—45.9%, male WPR—78.4% and female WPR—44.9%. The other codes misassign one or more rural labour indicators."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Employment structure",
+   "question": "Match the employment indicator in List-I with its change reported in the PLFS Annual Report 2025.\n\nList-I\n(a) Self-employment\n(b) Regular wage or salaried employment\n(c) Manufacturing share\n(d) Services share\n\nList-II\n(i) 12.2% to 13.1%\n(ii) 57.5% to 56.2%\n(iii) 11.6% to 12.1%\n(iv) 22.4% to 23.6%",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F10",
+    "P5.F11",
+    "P5.F13",
+    "P5.F14"
+   ],
+   "explanation": "The correct pairs are self-employment—57.5% to 56.2%, regular wage or salaried employment—22.4% to 23.6%, manufacturing—11.6% to 12.1%, and services—12.2% to 13.1%. The other options interchange the reported employment shares."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Gender-wise earnings",
+   "question": "According to the PLFS Annual Report 2025, what were the regular earnings of males and females?",
+   "options": [
+    "Male ₹24,217 and female ₹18,353",
+    "Male ₹18,353 and female ₹24,217",
+    "Male ₹24,217 and female ₹24,217",
+    "Male ₹18,353 and female ₹18,353"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F15"
+   ],
+   "explanation": "Regular earnings were ₹24,217 for males and ₹18,353 for females. The reverse pairing is the most direct trap; the other options make the two earnings equal."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Labour-market challenges",
+   "question": "How many of the following statements are correct regarding labour-market challenges highlighted in the PLFS Annual Report 2025?\n\n1. 44.4% of females were outside the labour force due to childcare or domestic work.\n2. 69.8% of males were outside the labour force due to education.\n3. Approximately 25% of persons aged 15–29 were NEET.\n4. Formal vocational training among persons aged 15–59 was 3.2%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F16",
+    "P5.F17"
+   ],
+   "explanation": "Only three statements are correct. The first three figures match the reported findings; formal vocational training was 4.2%, not 3.2%, making statement 4 incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Unemployment and wage trends",
+   "question": "Consider the following statements:\n\nStatement A: Overall unemployment increased from 3.2% to 3.1%.\nStatement B: Casual daily wages declined from ₹295 to ₹418.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F18",
+    "P5.F19"
+   ],
+   "explanation": "Both statements are false. Overall unemployment declined from 3.2% to 3.1%, while casual daily wages increased from ₹295 to ₹418; each statement reverses the reported direction."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Four Labour Codes",
+   "question": "Match the Labour Code in List-I with the year of enactment in List-II.\n\nList-I\n(a) Code on Wages\n(b) Industrial Relations Code\n(c) Code on Social Security\n(d) Occupational Safety, Health and Working Conditions Code\n\nList-II\n(i) 2019\n(ii) 2020\n(iii) 2020\n(iv) 2020",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F20"
+   ],
+   "explanation": "The Code on Wages was enacted in 2019, while the Industrial Relations Code, Code on Social Security and Occupational Safety, Health and Working Conditions Code were enacted in 2020. The other codes assign 2019 to one of the latter three Codes or alter the Code on Wages year."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence production and export targets",
+   "question": "What are the targets for defence production and defence exports by 2029?",
+   "options": [
+    "₹3 lakh crore production and ₹50,000 crore exports",
+    "₹1.54 lakh crore production and ₹23,622 crore exports",
+    "₹3 lakh crore production and ₹23,622 crore exports",
+    "₹1.54 lakh crore production and ₹50,000 crore exports"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F9"
+   ],
+   "explanation": "The targets by 2029 are ₹3 lakh crore in defence production and ₹50,000 crore in defence exports. ₹1.54 lakh crore and ₹23,622 crore are the reported production and export figures for FY25, not the targets."
+  }
+ ]
+}

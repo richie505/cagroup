@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F12",
+  "P0.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Institution and features of Jnanpith Award",
+   "question": "With reference to the Jnanpith Award, consider the following statements:\n1. It was instituted in 1961.\n2. It was first awarded in 1965 to G. Sankara Kurup in Malayalam.\n3. It is conferred by Bharatiya Jnanpith for languages of the Eighth Schedule and includes a bronze Vagdevi (Saraswati) statue.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "All three statements are correct: the Jnanpith Award was instituted in 1961, first awarded in 1965 to G. Sankara Kurup in Malayalam, and is conferred by Bharatiya Jnanpith for Eighth Schedule languages with a bronze Vagdevi statue. The tempting options excluding one statement are incorrect because each of the three details is accurate."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Jnanpith Award edition and language",
+   "question": "Who received the 52nd Jnanpith Award in 2016, and in which language was the award given?",
+   "options": [
+    "Shankha Ghosh — Hindi",
+    "Shankha Ghosh — Bengali",
+    "Shankha Ghosh — Malayalam",
+    "Shankha Ghosh — Sanskrit"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "Shankha Ghosh received the 52nd Jnanpith Award in 2016 for Bengali. The other options retain the correct recipient but change the language; Bengali is the correct language."
+  }
+ ]
+}

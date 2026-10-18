@@ -1,0 +1,52 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P4.F4",
+  "P4.F5",
+  "P4.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rank and Top 10 composition",
+   "question": "With reference to the Skytrax World Airport Awards 2026, consider the following statements:\n\n1. Delhi IGI ranked 28th and was the only Indian airport in the global Top 30.\n2. The Top 10 included Hong Kong, Narita, Paris CDG, Rome, Istanbul, Munich and Vancouver.\n3. Delhi IGI ranked third among airports handling 70 million or more passengers.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F5",
+    "P4.F6"
+   ],
+   "explanation": "All three statements are correct. Delhi IGI ranked 28th and was the only Indian airport in the global Top 30; the Top 10 also included Hong Kong, Narita, Paris CDG, Rome, Istanbul, Munich and Vancouver; Delhi ranked third among airports with 70 million or more passengers. The tempting option “1 and 3 only” is incorrect because the listed airports were also part of the Top 10."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Best Airport in India and South Asia",
+   "question": "At the Skytrax World Airport Awards 2026, which airport was named Best Airport in India and South Asia and ranked third among airports with 70 million or more passengers?",
+   "options": [
+    "Delhi IGI Airport",
+    "Incheon Airport",
+    "Tokyo Haneda Airport",
+    "Singapore Changi Airport"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6"
+   ],
+   "explanation": "Delhi IGI Airport was named Best Airport in India and South Asia and ranked third among airports with 70 million or more passengers. Incheon, Tokyo Haneda and Singapore Changi were associated with other positions in the overall ranking, not this distinction."
+  }
+ ]
+}

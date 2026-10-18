@@ -1,0 +1,248 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F3",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F1",
+  "P1.F10",
+  "P1.F3",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F1",
+  "P2.F2",
+  "P2.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Prepared by",
+   "question": "The Defence Forces Vision 2047, released at South Block, was prepared by which organisation?",
+   "options": [
+    "HQ Integrated Defence Staff",
+    "HAL",
+    "Rosoboronexport",
+    "VEM Technologies"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The Defence Forces Vision 2047 was prepared by HQ Integrated Defence Staff. HAL was associated with the Coast Guard’s ALH procurement, not the preparation of this vision document."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Indigenous defence systems",
+   "question": "Consider the following statements regarding indigenous defence systems:\n1. Vayu Baan is the IAF’s first helicopter-launched drone system and can strike beyond 50 km.\n2. Prahaar LMG, developed by Adani Defence & Aerospace at Gwalior, has a first batch of 2,000 and a target of 40,000.\n3. Shaurya Squadrons are drone sub-units in Armoured Regiments, with 30–50 personnel each.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Shaurya Squadrons have 20–30 personnel each, not 30–50, so statement 3 is incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Indigenous drone systems",
+   "question": "Match List-I with List-II regarding indigenous defence systems.\n\nList-I\n a. Seshnag-150\n b. ADC-150\n\nList-II\n i. Air-Droppable Container\n ii. Long-range swarm attack drone\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "Seshnag-150 is a long-range swarm attack drone, while ADC-150 is an Air-Droppable Container. Therefore, the correct pairs are a-ii and b-i."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Defence production agreement",
+   "question": "Assertion (A): BEL signed an agreement with SASMOS for defence production and exports.\nReason (R): VEM Technologies of Hyderabad partnered with Germany’s TKMS for producing heavy-weight torpedoes in India.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Both the assertion and the reason are true. However, the VEM–TKMS torpedo partnership does not explain the separate BEL–SASMOS defence production and exports agreement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Naval operation and leadership",
+   "question": "Under Operation Urja Suraksha, which vessels were escorted by the Indian Navy from the Persian Gulf through the Strait of Hormuz?",
+   "options": [
+    "Crude, LNG and LPG tankers",
+    "Indian-flagged ships in the Gulf of Aden only",
+    "Warships taking part in a fleet review",
+    "P-8I aircraft operating near Guam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Operation Urja Suraksha escorts crude, LNG and LPG tankers from the Persian Gulf via Hormuz. Indian-flagged ships in the wider Hormuz, Gulf of Oman and Gulf of Aden areas are associated with Operation Sankalp."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Coastal security drill",
+   "question": "Which of the following statements regarding Sagar Kavach is incorrect?",
+   "options": [
+    "It is a Coast Guard-led multi-agency coastal security drill off Maharashtra.",
+    "It has been held since the Mumbai attacks of 2008.",
+    "It is led by the Indian Navy under CNS Admiral Dinesh K. Tripathi.",
+    "The Indian Coast Guard was established in 1978."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The incorrect statement is that Sagar Kavach is led by the Indian Navy under CNS Admiral Dinesh K. Tripathi. Sagar Kavach is a Coast Guard-led drill; Admiral Dinesh K. Tripathi is associated with Operation Urja Suraksha."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "International naval exercises",
+   "question": "Match List-I with List-II.\n\nList-I\n a. Sea Dragon\n b. Kakadu 2026\n\nList-II\n i. Royal Australian Navy exercise, with a fleet review in Sydney Harbour\n ii. US-led anti-submarine exercise near Guam\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "Sea Dragon is a US-led anti-submarine exercise near Guam, in which India participates with the P-8I. Kakadu 2026 is a Royal Australian Navy event featuring a fleet review in Sydney Harbour."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Naval exercises and dates",
+   "question": "Consider the following statements regarding IOS SAGAR and Lamitye:\n1. The second edition of IOS SAGAR was launched on 16 March 2026 after India took the IONS chair.\n2. The eleventh edition of Lamitye was held from 9 to 20 March 2026 at the Seychelles Defence Academy.\n3. IOS SAGAR involved 18 nations.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct. IOS SAGAR involved 16 nations, not 18, making statement 3 incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Venue and scenario",
+   "question": "Consider the following statements:\nStatement A: Amogh Jwala was conducted by the Army’s Southern Command at the Babina field firing range in Madhya Pradesh.\nStatement B: Cold Response 2026 is a NATO exercise in Norway and the Arctic involving an Article 5 scenario.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "Statement A is false because the Babina field firing range is in Uttar Pradesh. Statement B is true: Cold Response 2026 is a NATO exercise in Norway and the Arctic involving an Article 5 scenario."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Aircraft carrier milestone",
+   "question": "INS Vikrant, which completed 1,000 aircraft landings, was built at which shipyard?",
+   "options": [
+    "Cochin Shipyard",
+    "Shoft Shipyard",
+    "Royal Australian Navy shipyard",
+    "Seychelles Defence Academy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "INS Vikrant was built at Cochin Shipyard and completed 1,000 aircraft landings. Shoft Shipyard supplied fuel barges to the Navy, not the aircraft carrier."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "ISRO–ESA cooperation",
+   "question": "How many of the following statements regarding ISRO–ESA cooperation are correct?\n1. ISRO and ESA signed an agreement on Earth-observation calibration.\n2. ISRO–ESA ties began in 1975.\n3. ESA was established in 1978.\n4. ESA is headquartered in London.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Only statement 1 is correct: the agreement concerns Earth-observation calibration. ISRO–ESA ties date from 1978, ESA was established in 1975, and ESA is based in Paris."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Space medicine",
+   "question": "The AIIMS–ISRO MoU signed in March 2026 relates to which field for the Gaganyaan programme?",
+   "options": [
+    "Space medicine",
+    "Earth-observation calibration",
+    "Heavy-weight torpedoes",
+    "Air-launched effects"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "The AIIMS–ISRO MoU concerns space medicine for Gaganyaan. Earth-observation calibration is associated with the ISRO–ESA agreement, while the other options concern defence systems."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Astronomical detection",
+   "question": "Which facility detected a hydroxyl megamaser approximately 8 billion light-years away?",
+   "options": [
+    "MeerKAT in South Africa",
+    "IPRC Mahendragiri",
+    "Cochin Shipyard",
+    "Seychelles Defence Academy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "MeerKAT in South Africa detected the hydroxyl megamaser approximately 8 billion light-years away. IPRC Mahendragiri is associated with cryogenic-engine testing, not this astronomical detection."
+  }
+ ]
+}

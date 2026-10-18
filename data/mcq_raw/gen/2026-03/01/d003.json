@@ -1,0 +1,272 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "only": [
+  "P12.F2",
+  "P12.F3",
+  "P12.F4",
+  "P12.F5",
+  "P13.F2",
+  "P13.F3",
+  "P13.F4",
+  "P13.F5",
+  "P13.F6",
+  "P14.F4",
+  "P14.F5",
+  "P15.F2",
+  "P15.F3",
+  "P15.F4",
+  "P16.F6",
+  "P16.F7",
+  "P16.F8",
+  "P17.F2",
+  "P17.F3",
+  "P17.F4",
+  "P18.F1",
+  "P18.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Institution and rollout",
+   "question": "Match the features associated with the ‘Araku Kouni’ tribal millet-based food menu in List-I with the correct details in List-II.\n\nList-I\n(a) First availability\n(b) Subsequent expansion\n(c) Recipe documentation\n(d) Recipe identification\n\nList-II\n(i) Indian Culinary Institute, Tirupati\n(ii) Tribal Anganwadi workers\n(iii) Haritha restaurants in ASR district\n(iv) Statewide availability\n\nCodes:",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3",
+    "P12.F5"
+   ],
+   "explanation": "The menu was first introduced in Haritha restaurants in the ASR district and was later intended for statewide availability. The Indian Culinary Institute, Tirupati documented the recipes, while tribal Anganwadi workers identified them; therefore, option 1 is correct."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Menu content and origin",
+   "question": "With reference to the ‘Araku Kouni’ tribal millet-based food menu, consider the following statements:\n\n1. Its recipes came from indigenous communities of Alluri Sitarama Raju district and used produce grown without chemical fertilisers or pesticides.\n2. Korra Payasam and Ragi Chapati are among the dishes included in the menu.\n3. The menu also includes Samala Pulihora, Kantla Ambali, Corn Vada and Toor Dal Curry.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F4"
+   ],
+   "explanation": "All three statements are correct. The menu draws on indigenous ASR communities and includes the listed millet-based dishes; the tempting option ‘1 and 3 only’ is wrong because Korra Payasam and Ragi Chapati are also included."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue of State-level event",
+   "question": "Where was the State-level event for Molla Jayanti scheduled to be held?",
+   "options": [
+    "Tummalapalli Kalakshetram, Vijayawada",
+    "Gopavaram village, Kadapa district",
+    "Ukkunagaram, Visakhapatnam",
+    "State Secretariat, Amaravati"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "The State-level Molla Jayanti event was scheduled at Tummalapalli Kalakshetram in Vijayawada. Gopavaram is associated with Atukuri Molla’s birthplace, not the State-level venue."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Atukuri Molla biography",
+   "question": "Consider the following statements about Atukuri Molla:\n\n1. She was also known as Molla Mamba.\n2. She belonged to the 16th century.\n3. She was born at Gopavaram village in Kadapa district.\n4. She came from a potter’s family rather than a royal family.",
+   "options": [
+    "1, 2 and 3 only",
+    "2 and 4 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F4"
+   ],
+   "explanation": "All four statements are correct. Atukuri Molla, also called Molla Mamba, was a 16th-century poetess born at Gopavaram in Kadapa district and came from a potter’s family; the incorrect alternative would wrongly omit one of these details."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Literary identity and work",
+   "question": "Consider the following statements:\nStatement A: Atukuri Molla is regarded as the Adi Kavayitri of Telugu, while Nannayya is regarded as the Adi Kavi.\nStatement B: Molla Ramayanam is a Telugu rendering of Valmiki’s Ramayana written in highly complex Telugu.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P13.F5",
+    "P13.F6"
+   ],
+   "explanation": "Statement A is true: Molla is the Adi Kavayitri and Nannayya is the Adi Kavi. Statement B is false because Molla Ramayanam rendered Valmiki’s Ramayana in simple Telugu, not highly complex Telugu."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitutional safeguards for women",
+   "question": "Consider the following constitutional provisions relevant to women’s equality and protection:\n\n1. Article 14 provides equality before law.\n2. Article 15(3) permits special provisions for women.\n3. Article 21 protects life and dignity.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F4"
+   ],
+   "explanation": "All three statements are correct. Articles 14, 15(3) and 21 respectively address equality before law, special provisions for women, and life and dignity; hence, ‘1, 2 and 3’ is the correct option."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Equal property rights",
+   "question": "Consider the following statements:\nStatement A: Equal property rights for women in Andhra Pradesh were introduced earlier under N. T. Rama Rao.\nStatement B: These equal property rights were introduced by a recent constitutional amendment.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F5"
+   ],
+   "explanation": "Statement A is true because equal property rights for women in Andhra Pradesh were introduced earlier under N. T. Rama Rao. Statement B is false; the change was not introduced by a recent constitutional amendment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "RINL leadership and parade",
+   "question": "Who was the CMD of RINL during the CISF Raising Day programme at the Visakhapatnam Steel Plant, and what was the strength of the parade?",
+   "options": [
+    "Manish Raj Gupta; four platoons",
+    "N. Chandrababu Naidu; three platoons",
+    "Kesineni Srinivas; four platoons",
+    "Manish Raj Gupta; two platoons"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2"
+   ],
+   "explanation": "RINL CMD Manish Raj Gupta was associated with the programme, which featured a parade by four platoons. The alternatives either name a person not identified with this detail or change the number of platoons."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "CISF status and mandate",
+   "question": "Assertion (A): The CISF is a Central Armed Police Force under the Ministry of Home Affairs.\nReason (R): The CISF was created to protect public sector undertakings.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F3",
+    "P15.F4"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: CISF is a CAPF under the Ministry of Home Affairs and was created to protect PSUs. However, its original protective mandate does not explain its administrative status under the Ministry of Home Affairs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Expanded CISF coverage",
+   "question": "Besides public sector undertakings, which of the following is included among the installations and places now protected by the CISF?",
+   "options": [
+    "Airports, metros, seaports, nuclear and space installations, and heritage monuments",
+    "Only agricultural fields and rural markets",
+    "Only State legislative assemblies and district courts",
+    "Only schools, hospitals and universities"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4"
+   ],
+   "explanation": "The CISF now protects airports, metros, seaports, nuclear and space installations, and heritage monuments in addition to PSUs. The other options do not represent the expanded coverage listed for the CISF."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "FMD characteristics and symptoms",
+   "question": "Consider the following statements about Foot-and-Mouth Disease:\n\n1. It is a highly contagious viral disease caused by FMDV and affects cattle, buffaloes, sheep, goats and pigs.\n2. Cross-bred cattle are more susceptible than indigenous breeds.\n3. High fever, blisters in the mouth and between the hooves, udder swelling and salivation are symptoms.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P16.F6",
+    "P16.F7",
+    "P16.F8"
+   ],
+   "explanation": "All three statements are correct. FMD is a highly contagious animal disease, cross-bred cattle are more susceptible than indigenous breeds, and the listed symptoms are associated with it; the disease mainly affects animals, not humans."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Campaign basis",
+   "question": "The joint recognition of Andhra Pradesh and Karnataka for hypertension-awareness best practices was based on which campaign?",
+   "options": [
+    "World Hypertension Day-2025 campaign conducted from May 17 to June 16, 2025",
+    "Women’s Safety Week campaign conducted in March 2026",
+    "National Animal Disease Control Programme conducted from March 16 to April 29, 2026",
+    "CISF Raising Day campaign conducted in 1969"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F2"
+   ],
+   "explanation": "The recognition was based on the World Hypertension Day-2025 campaign conducted from May 17 to June 16, 2025. The other options refer to unrelated safety, animal-disease or CISF events."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Hypertension awareness",
+   "question": "Consider the following statements about hypertension:\n\n1. World Hypertension Day is observed on May 17.\n2. Hypertension is a non-communicable disease commonly described as a ‘silent killer’.\n3. High salt intake, inactivity, stress and obesity are risks associated with hypertension.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F3",
+    "P17.F4"
+   ],
+   "explanation": "All three statements are correct. World Hypertension Day falls on May 17, and hypertension is a non-communicable ‘silent killer’ associated with risks including high salt, inactivity, stress and obesity."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Logo unveiling and event scope",
+   "question": "Consider the following statements about Andhra Pradesh Festival 2026:\n\n1. Its logo was unveiled in Vijayawada by MP Kesineni Srinivas.\n2. The festival includes industry and policy discussions, rather than being restricted to cultural programmes.\n3. Its programme includes a multilingual poets’ meet, film festival, awards and live concerts.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F4"
+   ],
+   "explanation": "All three statements are correct. The logo was unveiled in Vijayawada by MP Kesineni Srinivas, and the festival combines industry and policy discussions with literary, film, award and live-concert events."
+  }
+ ]
+}

@@ -1,0 +1,179 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P10.F2",
+  "P11.F2",
+  "P12.F8",
+  "P13.F1",
+  "P13.F2",
+  "P13.F3",
+  "P13.F7",
+  "P8.F2",
+  "P8.F8",
+  "P9.F1",
+  "P9.F5",
+  "P9.F6",
+  "P9.F7",
+  "P9.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Data sources",
+   "question": "Anthropic’s labour-market study introducing “Observed Exposure” used which combination of data sources?",
+   "options": [
+    "A US occupational database covering about 800 occupations, academic research, and Claude AI usage data",
+    "A global database covering about 80 occupations, government census data, and Gemini usage data",
+    "A US database covering about 8,000 occupations, school enrolment data, and internet-search data",
+    "An Indian occupational database, academic research, and smartphone usage data"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "The study used a US occupational database covering about 800 occupations, academic research, and Claude AI usage data. The other options change the database, scale, or AI-use dataset."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Economic impact of AI",
+   "question": "According to the Anthropic study, what impact could AI have on India’s IT-services revenue over four years?",
+   "options": [
+    "A possible reduction of 9–12%",
+    "A possible reduction of 2–4%",
+    "A possible increase of 9–12%",
+    "A possible reduction of 20–25%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8"
+   ],
+   "explanation": "The study indicated that AI could reduce India’s IT-services revenue by 9–12% over four years, alongside a fall in the Nifty IT index. The other options alter the direction or scale of the reported impact."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Weight of gut microbiome",
+   "question": "The human gut microbiome, consisting of trillions of microbes roughly equal in number to human cells, weighs approximately how much?",
+   "options": [
+    "1–2 kg",
+    "5–6 kg",
+    "10–12 kg",
+    "20–25 kg"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "The gut microbiome weighs approximately 1–2 kg, comparable to the weight of the brain. The other ranges do not match the reported estimate."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Dietary and environmental disruptors",
+   "question": "Consider the following statements regarding factors affecting the gut microbiome:\n1. Ultra-processed foods, low fibre, emulsifiers, artificial sweeteners and preservatives can disrupt the gut microbiome.\n2. The estrobolome is disrupted by antibiotics in livestock.\n3. Bacteria, viruses and fungi can all develop antimicrobial resistance.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F5",
+    "P9.F7",
+    "P9.F8"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the listed food additives and low-fibre diets can act as disruptors, and bacteria, viruses and fungi can all develop antimicrobial resistance. Statement 2 is incorrect because disruption of the estrobolome is associated with pesticides, not antibiotics in livestock."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sugar and gut bacteria",
+   "question": "Which combination correctly describes the effect of excess sugar on gut microorganisms?",
+   "options": [
+    "It favours E. coli and Candida while reducing Bifidobacteria and Lactobacilli",
+    "It favours Bifidobacteria and Lactobacilli while reducing E. coli and Candida",
+    "It favours only Lactobacilli and has no effect on Candida",
+    "It reduces E. coli and Candida while increasing Bifidobacteria and Lactobacilli"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F6"
+   ],
+   "explanation": "Sugar favours E. coli and Candida and reduces Bifidobacteria and Lactobacilli. The other options reverse or remove these reported effects."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic objective",
+   "question": "What is the stated objective of the Terrafab semiconductor project in Austin, Texas, involving Tesla, SpaceX and xAI?",
+   "options": [
+    "To reduce dependence on Samsung, TSMC and Micron",
+    "To increase dependence on Samsung, TSMC and Micron",
+    "To replace Tesla Gigafactories with smaller facilities",
+    "To manufacture only conventional, non-AI chips"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "Terrafab is intended to reduce dependence on Samsung, TSMC and Micron, and is described as larger than Tesla Gigafactories. The other options contradict this strategic purpose or the project’s scale."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation of MWC",
+   "question": "Which organisation organises MWC Barcelona 2026, where C-DOT’s Fraud Pro was recognised as a finalist?",
+   "options": [
+    "GSMA",
+    "Ministry of Communications",
+    "C-DOT",
+    "Tesla"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "MWC Barcelona is organised by GSMA. C-DOT is the developer of Fraud Pro, while the Ministry of Communications is its administrative ministry; neither organises MWC."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coastline statistics",
+   "question": "India’s coastline is approximately how long and extends across how many States and Union Territories?",
+   "options": [
+    "About 7,516 km across 9 States and 4 Union Territories",
+    "About 5,516 km across 8 States and 5 Union Territories",
+    "About 7,516 km across 7 States and 6 Union Territories",
+    "About 9,000 km across 9 States and 4 Union Territories"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F8"
+   ],
+   "explanation": "India’s coastline is approximately 7,516 km long and extends across 9 States and 4 Union Territories. The other options alter either the length or the administrative coverage."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Research innovations and applications",
+   "question": "Match List-I with List-II regarding selected innovations reported from CSIR-IICT and IISc–Pratiksha Trust.\n\nList-I\n a. Nano-fiber membrane\n b. Cellulose packaging\n c. ZIF-8 nano-hybrid catalyst\n d. Moonshot Project\n\nList-II\n i. Removal of Crystal Violet dye from textile wastewater\n ii. Conversion of ragi crop waste into packaging\n iii. Solar green hydrogen\n iv. Brain co-processors for stroke patients",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2",
+    "P13.F3",
+    "P13.F7"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The nano-fiber membrane targets Crystal Violet removal, ragi waste becomes cellulose packaging, the ZIF-8 catalyst supports solar green hydrogen, and the Moonshot Project develops brain co-processors for stroke patients."
+  }
+ ]
+}

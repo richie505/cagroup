@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F4",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Observing organisation",
+   "question": "National Pharmacy Education Day, observed on March 6, has been observed since 2023 by which organisation?",
+   "options": [
+    "Pharmacy Council of India (PCI)",
+    "UNAIDS",
+    "CITES",
+    "UNESCO"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "National Pharmacy Education Day has been observed since 2023 by the Pharmacy Council of India (PCI). UNAIDS, CITES and UNESCO are associated with other observances mentioned for March 2026."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "First and capacity",
+   "question": "Consider the following statements about the first Port of Refuge and the largest floating solar project in India:\n\n1. APSEZ’s first Port of Refuge comprises Dighi on the west coast and Gopalpur on the east coast.\n2. The largest floating solar project is located at Onkareshwar on the Narmada in Khandwa, Madhya Pradesh, with a capacity of 278 MW and a planned expansion to 600 MW.\n3. The first Port of Refuge was established by Rewa Ultra Mega Solar.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: APSEZ’s Port of Refuge includes Dighi and Gopalpur, while the floating solar project is at Onkareshwar and is rated at 278 MW, with expansion to 600 MW. Statement 3 is incorrect because Rewa Ultra Mega Solar is associated with the Onkareshwar floating solar project, not the Port of Refuge."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Organisation and project detail",
+   "question": "Match the following firsts and entities with the correct details:\n\nList-I\n a. NMDC\n b. Shipping Corporation of India\n c. Mazagon Dock\n d. 3,000 DWT\n\nList-II\n i. Headquarters at Hyderabad\n ii. Developed the methanol dual-fuel PSV with SCI\n iii. Partnered with Mazagon Dock in developing the methanol dual-fuel PSV\n iv. Capacity of the methanol dual-fuel PSV\n\nSelect the correct answer using the code given below:",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F13"
+   ],
+   "explanation": "The correct pairs are a-i, b-iii, c-ii and d-iv: NMDC has its headquarters in Hyderabad; SCI partnered with Mazagon Dock; Mazagon Dock developed the PSV with SCI; and the vessel has a capacity of 3,000 DWT. The other codes misassign the organisations or the vessel’s capacity."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation behind first",
+   "question": "Who developed India’s first amphibious surveillance drone, “AVATAAR”?",
+   "options": [
+    "AquaAirX Autonomous Systems",
+    "Deloitte India",
+    "Agnikul Cosmos",
+    "Sapio Analytics"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F14"
+   ],
+   "explanation": "India’s first amphibious surveillance drone, “AVATAAR”, was developed by AquaAirX Autonomous Systems. Deloitte India is associated with ConnectSafe, while Agnikul Cosmos and Sapio Analytics are associated with other firsts."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "World first and innovation",
+   "question": "Assertion (A): Japan was the first country to approve stem-cell therapy for Parkinson’s.\nReason (R): “ReHeart” is a cardiac patch developed by Cureips.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F15"
+   ],
+   "explanation": "Both the assertion and the reason are true: Japan was the first to approve stem-cell therapy for Parkinson’s, and Cureips developed the “ReHeart” cardiac patch. However, the cardiac patch does not explain Japan’s approval of the Parkinson’s therapy."
+  }
+ ]
+}

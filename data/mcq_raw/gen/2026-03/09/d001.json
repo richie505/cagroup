@@ -1,0 +1,177 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P3.F4",
+  "P3.F7",
+  "P4.F10",
+  "P4.F11",
+  "P4.F12",
+  "P4.F8",
+  "P5.F2",
+  "P5.F3",
+  "P5.F4",
+  "P7.F3",
+  "P8.F4",
+  "P8.F5",
+  "P8.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First leader’s spouse to chair UNSC meeting",
+   "question": "Who became the first leader’s spouse to chair a United Nations Security Council meeting?",
+   "options": [
+    "Melania Trump",
+    "Narendra Modi",
+    "José Antonio Kast",
+    "Balen Shah"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Melania Trump became the first leader’s spouse to chair a United Nations Security Council meeting. Narendra Modi, José Antonio Kast and Balen Shah were associated with other political developments, not this distinction."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Brand Ambassador",
+   "question": "Who was appointed Brand Ambassador for Census 2027 by the Ministry of Home Affairs?",
+   "options": [
+    "Sudarsan Pattnaik",
+    "R.M. Nachammai",
+    "Saba Shah",
+    "Melania Trump"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Sudarsan Pattnaik was appointed Brand Ambassador for Census 2027 by the Ministry of Home Affairs. R.M. Nachammai and Saba Shah were noted for distinctions in public service, while Melania Trump was associated with the United Nations Security Council."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Documentary winner",
+   "question": "Which film won the Documentary award at the 98th Academy Awards in 2026?",
+   "options": [
+    "Mr. Nobody Against Putin",
+    "One Battle After Another",
+    "Sinners",
+    "Sentimental Value"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8"
+   ],
+   "explanation": "Mr. Nobody Against Putin won the Documentary award at the 98th Academy Awards in 2026. One Battle After Another and Sinners won multiple awards in other categories, while Sentimental Value won the International Feature award."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "In Memoriam and Indian Oscar milestones",
+   "question": "With reference to the 98th Academy Awards in 2026, consider the following statements:\n1. Dharmendra, Manoj Kumar, B. Saroja Devi and Kota Srinivasa Rao were listed in the In Memoriam segment.\n2. Mother India received India’s first Academy Award nomination, Bhanu Athaiya was the first Indian winner for Gandhi, and Satyajit Ray received an Honorary Oscar.\n3. Bhanu Athaiya won for costume for Gandhi in 1983, while Satyajit Ray received the Honorary Oscar in 1992.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F10",
+    "P4.F12"
+   ],
+   "explanation": "All three statements are correct. The In Memoriam list included the four named Indian personalities, while India’s Oscar milestones included Mother India’s 1958 nomination, Bhanu Athaiya’s 1983 costume win for Gandhi and Satyajit Ray’s 1992 Honorary Oscar."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "International prize winners and key details",
+   "question": "Match the persons or prize with the associated detail:\n\nList-I\n(a) Gerd Faltings\n(b) Kaveh Madani\n(c) William Dalrymple\n(d) Abel Prize 2026\n\nList-II\n(i) Faltings’s Theorem\n(ii) Youngest and first UN official to win the Stockholm Water Prize\n(iii) The Golden Road: How Ancient India Transformed the World\n(iv) Approximately 7.5 million NOK\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Gerd Faltings is associated with Faltings’s Theorem; Kaveh Madani was the youngest and first UN official to win the Stockholm Water Prize; William Dalrymple won for The Golden Road; and the Abel Prize is approximately 7.5 million NOK."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "History of Music Academy",
+   "question": "Which of the following statements about the Music Academy is incorrect?",
+   "options": [
+    "It was established on 18 August 1928.",
+    "Its origin is traced to the 1927 All India Congress Session.",
+    "It was established on 18 August 1927.",
+    "Its origin is associated with the 1927 All India Congress Session."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "The incorrect statement is that the Music Academy was established on 18 August 1927. Its establishment year was 1928, while its origin is traced to the 1927 All India Congress Session."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Founding of honours",
+   "question": "Assertion (A): The Legion of Honour was instituted in 1802 by Napoleon Bonaparte.\nReason (R): The Order of the British Empire was established in 1917 by King George V.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F5"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, but the establishment of the Order of the British Empire does not explain the institution of the Legion of Honour. The Legion of Honour dates to 1802 under Napoleon Bonaparte, whereas the Order of the British Empire was established in 1917 by King George V."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "India–France Strategic Partnership",
+   "question": "Consider the following statements:\nStatement A: The India–France Strategic Partnership was established in 1999.\nStatement B: The France Prime Minister named in connection with the partnership was not Sébastien Lecornu.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F6"
+   ],
+   "explanation": "Both statements are false. The India–France Strategic Partnership was established in 1998, and the France Prime Minister named in the fact is Sébastien Lecornu."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Academy Awards background",
+   "question": "How many of the following statements about the Academy Awards background are correct?\n1. The Academy Awards were first held in 1929 at the Hollywood Roosevelt Hotel.\n2. The name “Oscar” became official in 1940.\n3. The Dolby Theatre is associated with the Academy Awards.\n4. The name “Oscar” became official in 1938.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F11"
+   ],
+   "explanation": "Only one statement is correct: the Academy Awards were first held in 1929 at the Hollywood Roosevelt Hotel. The name “Oscar” became official in 1939, not 1940 or 1938; the Dolby Theatre, rather than the alternatives implied by those changes, is the associated venue."
+  }
+ ]
+}

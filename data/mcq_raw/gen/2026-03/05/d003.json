@@ -1,0 +1,200 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": [
+  "P10.F4",
+  "P12.F3",
+  "P13.F1",
+  "P13.F10",
+  "P13.F11",
+  "P13.F2",
+  "P13.F3",
+  "P13.F6",
+  "P13.F7",
+  "P13.F8",
+  "P13.F9",
+  "P14.F2",
+  "P15.F3",
+  "P16.F1",
+  "P16.F2",
+  "P16.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Country profile",
+   "question": "Which of the following correctly describes Romania?",
+   "options": [
+    "Capital: Bucharest; Currency: Leu; President: Nicușor Dan",
+    "Capital: Bucharest; Currency: Kwacha; President: Peter Mutharika",
+    "Capital: Lilongwe; Currency: Leu; President: Nicușor Dan",
+    "Capital: Thimphu; Currency: Ngultrum; President: Tshering Tobgay"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "Romania has Bucharest as its capital, the Leu as its currency, and Nicușor Dan as its President. The other options combine Romanian details with facts relating to Malawi or Bhutan."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Establishment and appointment",
+   "question": "With reference to the Directorate General of Civil Aviation (DGCA), which of the following statements is incorrect?",
+   "options": [
+    "The DGCA was established in 1958.",
+    "Faiz Ahmed Kidwai is the Director General of the DGCA.",
+    "The DGCA was established in 1993.",
+    "Faiz Ahmed Kidwai heads the DGCA as its Director General."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "The incorrect statement changes the establishment year of the DGCA to 1993; its correct establishment year is 1958. Faiz Ahmed Kidwai is the Director General, making the other statements correct."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Postal cooperation details",
+   "question": "Match List-I with List-II regarding the India–Bhutan postal cooperation announced in March 2026.\n\nList-I\n a. Establishment year of India Post\n b. Establishment year of the Universal Postal Union\n c. Venue of the postal MoU\n d. International remittance system launched\n\nList-II\n i. Thimphu\n ii. UPU–UPI\n iii. 1854\n iv. 1874; headquartered in Bern and a UN agency since 1948\n\nCodes:",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2",
+    "P13.F3"
+   ],
+   "explanation": "The correct pairs are India Post–1854, UPU–1874 with its Bern headquarters and UN-agency status since 1948, Thimphu as the venue, and UPU–UPI as the remittance system. The other codes mismatch at least one of these postal cooperation details."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Hydropower capacity",
+   "question": "Consider the following statements about hydropower projects associated with Bhutan:\n\n1. Punatsangchhu I has a capacity of 1,200 MW.\n2. Punatsangchhu II has a capacity of 1,020 MW.\n3. Mangdechhu has a capacity of 720 MW.\n4. Chukha has a capacity of 336 MW.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2 and 4 only",
+    "All four statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F6",
+    "P13.F7",
+    "P13.F8",
+    "P13.F9"
+   ],
+   "explanation": "All four statements are correct: the capacities are 1,200 MW, 1,020 MW, 720 MW and 336 MW respectively. The partial combinations are incorrect because they omit one or more of the correctly stated project capacities."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Hydropower cooperation framework",
+   "question": "Assertion (A): The 2008 Hydropower Cooperation Agreement between India and Bhutan set a target of 10,000 MW.\nReason (R): The Treaty of Friendship between India and Bhutan was signed in 1949 and revised in 2007.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F10"
+   ],
+   "explanation": "Both the assertion and the reason are true: the 2008 Hydropower Cooperation Agreement targeted 10,000 MW, while the Treaty of Friendship dates from 1949 and was revised in 2007. The treaty’s revision history does not explain why the later agreement set that particular hydropower target."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Bhutan country profile",
+   "question": "Consider the following statements:\n\nStatement A: The currency of Bhutan is the Ngultrum, and its King is Jigme Khesar Namgyel Wangchuck.\nStatement B: Tshering Tobgay is the Prime Minister of Bhutan, while C.R. Patil is the Jal Shakti Minister.\n\nWhich of the following is correct?",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F11"
+   ],
+   "explanation": "Both statements are true. Bhutan uses the Ngultrum and its King is Jigme Khesar Namgyel Wangchuck; Tshering Tobgay is the Prime Minister and C.R. Patil is the Jal Shakti Minister."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Definition of elimination",
+   "question": "For the WHO-certified elimination of leprosy as a public health problem, which prevalence threshold is applicable?",
+   "options": [
+    "Below 1 per 10,000",
+    "Below 1 per 1,000",
+    "Below 10 per 10,000",
+    "Below 1 per 100,000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2"
+   ],
+   "explanation": "Elimination of leprosy as a public health problem is defined by a prevalence below 1 per 10,000. The other thresholds alter the stated prevalence criterion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Founder and establishment",
+   "question": "Reliance Industries, linked to the proposed new US refinery investment, was established in which year and founded by whom?",
+   "options": [
+    "1966; Dhirubhai Ambani",
+    "1958; Faiz Ahmed Kidwai",
+    "1854; Dhirubhai Ambani",
+    "1981; Dhirubhai Ambani"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F3"
+   ],
+   "explanation": "Reliance Industries was established in 1966 by Dhirubhai Ambani. The other options use establishment years associated with unrelated institutions or change the correct year."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "US currency signature change",
+   "question": "Consider the following statements:\n\nStatement A: The signature of a sitting US President will appear on US currency for the first time, with the $100 note scheduled to be first in June 2026.\nStatement B: The change marks the 250th US Independence Day on July 4, 2026, and since 1861 only the Treasurer and Treasury Secretary had signed US currency.\n\nWhich of the following is correct?",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2"
+   ],
+   "explanation": "Both statements are true. The $100 note is to carry the sitting President’s signature first in June 2026, in connection with the 250th Independence Day; since 1861, the Treasurer and Treasury Secretary had signed the currency."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Approved commemorative coin",
+   "question": "Which commemorative item featuring Donald Trump was approved by the Commission of Fine Arts?",
+   "options": [
+    "A 24-carat gold coin",
+    "A 24-carat silver coin",
+    "A 100-dollar note",
+    "A 10-carat gold coin"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F3"
+   ],
+   "explanation": "The Commission of Fine Arts approved a 24-carat gold coin featuring Donald Trump. The other options change either the denomination, metal, or purity stated for the approved item."
+  }
+ ]
+}

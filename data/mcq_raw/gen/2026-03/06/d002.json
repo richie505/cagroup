@@ -1,0 +1,229 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5
+ ],
+ "only": [
+  "P5.F1",
+  "P5.F10",
+  "P5.F11",
+  "P5.F12",
+  "P5.F13",
+  "P5.F16",
+  "P5.F17",
+  "P5.F18",
+  "P5.F19",
+  "P5.F2",
+  "P5.F20",
+  "P5.F21",
+  "P5.F22",
+  "P5.F3",
+  "P5.F5",
+  "P5.F6",
+  "P5.F7",
+  "P5.F8",
+  "P5.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Expanded IAMD network",
+   "question": "In the expanded Integrated Air and Missile Defence (IAMD) network against Iran, which combination was reported as participating?",
+   "options": [
+    "The United States, Israel and the UAE",
+    "The United States, Iran and Israel",
+    "Israel, Russia and the UAE",
+    "Iran, the UAE and South Korea"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "The expanded IAMD network comprises the United States, Israel and the UAE. The UAE's deployment of Cheongung II is a separate detail and does not replace the three-part network composition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "System deployed by UAE",
+   "question": "Which missile-defence system did the UAE deploy over the Gulf in the reported conflict?",
+   "options": [
+    "South Korean Cheongung II",
+    "Israel's Arrow 3",
+    "The American Patriot PAC-3 MSE",
+    "Russia-made Tor-M1"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "The UAE deployed the South Korean Cheongung II over the Gulf. Arrow 3, Patriot PAC-3 MSE and Tor-M1 are associated with other systems or roles in the reported missile-defence landscape."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "IFPC and SM-6 roles",
+   "question": "With reference to the US missile-interception architecture, consider the following statements:\n1. IFPC uses the AIM-9X Sidewinder to reduce reliance on Patriot.\n2. SM-6 has a dual role as a terminal interceptor and against fast-attack craft.\n3. IFPC uses SM-6 to reduce reliance on Patriot.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: IFPC uses AIM-9X Sidewinder, while SM-6 has the stated dual role. Statement 3 is incorrect because the system used by IFPC to reduce reliance on Patriot is AIM-9X Sidewinder, not SM-6."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Exo- and endo-atmospheric layers",
+   "question": "In the 2025 layered missile-defence sequence, consider the following statements:\n1. The exo-atmospheric first line consists of Israel's Arrow 3 and US destroyers with SM-3.\n2. The endo-atmospheric layer consists of THAAD and Arrow 2.\n3. The exo-atmospheric first line consists of THAAD and Arrow 2.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5",
+    "P5.F6"
+   ],
+   "explanation": "Statements 1 and 2 correctly identify the exo-atmospheric first line and the endo-atmospheric layer. Statement 3 is incorrect because THAAD and Arrow 2 form the endo-atmospheric layer, not the exo-atmospheric first line."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Mid and last defence layers",
+   "question": "With reference to the 2025 layered missile-defence sequence, consider the following statements:\nStatement A: The mid layer uses David's Sling with Stunner.\nStatement B: The last line uses Patriot.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F7",
+    "P5.F8"
+   ],
+   "explanation": "Both statements are true. David's Sling with Stunner is the mid layer, while Patriot forms the last line of the sequence."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence against drones",
+   "question": "Which combination was identified as the layer against drones in the 2025 missile-defence sequence?",
+   "options": [
+    "Iron Dome with Tamir and Iron Beam",
+    "David's Sling with Stunner",
+    "THAAD and Arrow 2",
+    "Arrow 3 and SM-3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F9"
+   ],
+   "explanation": "The anti-drone layer consists of Iron Dome with Tamir and Iron Beam. David's Sling with Stunner is the mid layer, while THAAD with Arrow 2 is the endo-atmospheric layer."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Interceptor cost",
+   "question": "What was the approximate cost of one Patriot PAC-3 MSE interceptor, highlighting the cost asymmetry in saturation attacks?",
+   "options": [
+    "$4 million",
+    "$55 million",
+    "$300 million",
+    "$1.5 million"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F10"
+   ],
+   "explanation": "A Patriot PAC-3 MSE interceptor costs approximately $4 million. The significance is the cost asymmetry when such interceptors are used against cheap drones in saturation attacks."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Reported success and production figures",
+   "question": "How many of the following statements regarding missile-defence performance and replenishment are correct?\n1. Iron Dome was reported to have an 80–97% success rate.\n2. US GMD tests showed approximately 55% success.\n3. Patriot once achieved 100% against six hypersonic Kinzhals over Kyiv but fell to approximately 10% against Russian decoys and manoeuvres.\n4. The US quadrupled production orders for THAAD and PAC-3 MSE, while THAAD replenishment required at least 1 year.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F11",
+    "P5.F12",
+    "P5.F13"
+   ],
+   "explanation": "Only three statements are correct: the Iron Dome, US GMD and Patriot figures are accurately stated. Statement 4 is incorrect because THAAD replenishment requires at least 1.5 years, not at least 1 year."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cheongung II feature",
+   "question": "Which feature of Cheongung II helps counter low-flying “skimmers” in the final seconds of engagement?",
+   "options": [
+    "A nose radar",
+    "A stationary radar scanning a 120° cone",
+    "A laser designed only for drone swarms",
+    "A rotating multi-function radar used without a nose radar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F16"
+   ],
+   "explanation": "Cheongung II uses a nose radar in the final seconds to counter low-flying skimmers. The other options either describe different features or omit the specific final-seconds nose-radar function."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Iranian air-defence systems and roles",
+   "question": "Match List-I with List-II.\n\nList-I\n a. Bavar-373 (Sayyad-4B)\n b. Arman BMD\n c. Sevom-e-Khordad\n d. Tor-M1\n\nList-II\n i. Precision-guided bombs\n ii. Mobile system against cruise missiles and jets\n iii. Most advanced long-range system, exceeding 300 km, against aircraft and ballistic missiles\n iv. Short/medium-range ballistic missiles with 360° radar\n\nChoose the correct code:",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F17",
+    "P5.F18",
+    "P5.F19",
+    "P5.F20"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i. Bavar-373 is the long-range system, Arman BMD covers short/medium-range ballistic missiles, Sevom-e-Khordad is mobile against cruise missiles and jets, and Tor-M1 is intended for precision-guided bombs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Low-flying threats",
+   "question": "Which Iranian air-defence systems were associated with low-flying drones and cruise missiles?",
+   "options": [
+    "Majid and Azarakhsh",
+    "Bavar-373 and Arman BMD",
+    "Sevom-e-Khordad and Tor-M1",
+    "Arrow 3 and Iron Dome"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F21"
+   ],
+   "explanation": "Majid and Azarakhsh were associated with low-flying drones and cruise missiles. Bavar-373, Arman BMD and Sevom-e-Khordad have different roles in Iran's air-defence system."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Expansion of THAAD",
+   "question": "Assertion (A): THAAD is known as Terminal High Altitude Area Defence.\nReason (R): The acronym THAAD expands to Terminal High Altitude Area Defence.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F22"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the expansion directly explains the name THAAD. THAAD is also identified as an American anti-missile system."
+  }
+ ]
+}

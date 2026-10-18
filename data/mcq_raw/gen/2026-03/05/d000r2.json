@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F13",
+  "P1.F3",
+  "P1.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Strategic importance of Strait of Hormuz",
+   "question": "With reference to the strategic importance of the Strait of Hormuz, consider the following statements:\n\n1. It links the Persian Gulf and the Gulf of Oman.\n2. Around 20% of global oil and LNG trade passes through it.\n3. India imports 85% or more of its LNG through the Strait of Hormuz.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Strait links the Persian Gulf with the Gulf of Oman and handles around 20% of global oil and LNG trade. Statement 3 is incorrect because India imports 85% or more of its crude, not LNG, through this context. Therefore, the correct answer is 1 and 2 only."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Historical events and designations",
+   "question": "Match List-I with List-II in the context of Iran-related developments:\n\nList-I\n(a) 1979 Iranian Revolution\n(b) Operation Midnight Hammer\n(c) US\n(d) Israel\n\nList-II\n(i) June 2025\n(ii) “Great Satan”\n(iii) “Little Satan”\n(iv) Strikes on Natanz and Isfahan, including B-2 bunker-busters on Fordow\n\nSelect the correct answer using the code below.",
+   "options": [
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F6"
+   ],
+   "explanation": "The 1979 Iranian Revolution is associated with the severing of ties with Israel and the designation of the US as the “Great Satan” and Israel as the “Little Satan.” Operation Midnight Hammer took place in June 2025 and involved strikes on Natanz and Isfahan, with B-2 bunker-busters used against Fordow. Thus, the correct pairs are a-i, b-iv, c-ii and d-iii."
+  }
+ ]
+}

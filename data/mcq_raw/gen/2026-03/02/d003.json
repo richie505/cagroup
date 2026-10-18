@@ -1,0 +1,177 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F13",
+  "P10.F14",
+  "P10.F15",
+  "P10.F16",
+  "P10.F2",
+  "P10.F6",
+  "P10.F8",
+  "P11.F2",
+  "P11.F5",
+  "P11.F7",
+  "P11.F8",
+  "P12.F2",
+  "P13.F1"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Voter turnout gender gap",
+   "question": "Consider the following statements regarding the voter turnout gender gap in Lok Sabha elections and State elections:\n1. In the 1967 Lok Sabha election, the gap was 11.2 percentage points.\n2. In the 1971 Lok Sabha election, the gap was 11.8 percentage points.\n3. Women out-voted men by 1.6 percentage points during 2015–16 State elections.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2",
+    "P10.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the gaps were 11.2 percentage points in 1967 and 11.8 percentage points in 1971. Statement 3 is incorrect because women out-voted men by 2.82 percentage points during 2015–16; 1.6 percentage points applied to 2020–25."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Women’s representation and participation",
+   "question": "Match List-I with List-II regarding women’s political representation and participation in India.\n\nList-I\n a. Women MPs in the Lok Sabha in 1977\n b. Women candidates in 1957 and 2024\n c. Women’s and men’s success rates as candidates in 2024\n d. Women voting independently in 2024\n\nList-II\n i. 19\n ii. 45 and 800\n iii. 9% and 6%\n iv. 50%\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F8",
+    "P10.F13",
+    "P10.F14"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The Lok Sabha had 19 women MPs in 1977; women candidates rose from 45 in 1957 to 800 in 2024, with 2024 success rates of 9% for women and 6% for men, while 50% voted independently."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First country to grant women the vote",
+   "question": "Which country was the first to give women the right to vote, in 1893?",
+   "options": [
+    "New Zealand",
+    "United States of America",
+    "Sri Lanka",
+    "Japan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F15",
+    "P10.F16"
+   ],
+   "explanation": "New Zealand was the first country to give women the vote, in 1893, associated with Kate Sheppard. The United States, Sri Lanka and Japan correspond to later stages in the stated sequence of universal adult franchise."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "Universal adult franchise chronology",
+   "question": "Arrange the following countries in chronological order of the grant of universal adult franchise:\n1. India\n2. Japan\n3. Sri Lanka\n4. United States of America",
+   "options": [
+    "4-3-2-1",
+    "3-4-2-1",
+    "4-2-3-1",
+    "3-2-4-1"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F16"
+   ],
+   "explanation": "The correct order is United States of America in 1920, Sri Lanka in 1931, Japan in 1945 and India in 1950. Therefore, the sequence is 4-3-2-1."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "States reporting denial of public access to Scheduled Castes",
+   "question": "With reference to the NCRB Crime in India 2023 data on denial of access to public spaces to Scheduled Castes, which statement is incorrect?",
+   "options": [
+    "Cases were recorded in Haryana.",
+    "Cases were recorded in Himachal Pradesh.",
+    "Cases were recorded in Punjab.",
+    "Cases were recorded in Rajasthan."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "The incorrect statement is the one referring to Punjab. The states listed besides Uttar Pradesh were Haryana, Himachal Pradesh, Jharkhand, Madhya Pradesh and Rajasthan."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Safeguard against official neglect",
+   "question": "Assertion (A): Section 4 of the SC/ST Act penalises officials’ neglect.\nReason (R): The Protection of Civil Rights Act was enacted in 1989.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F7"
+   ],
+   "explanation": "Assertion A is true because Section 4 of the SC/ST Act penalises officials’ neglect. Reason R is false: the Protection of Civil Rights Act was enacted in 1955, while 1989 is associated with the SC/ST Act."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NCSC constitutional and institutional status",
+   "question": "Which of the following correctly describes the National Commission for Scheduled Castes?",
+   "options": [
+    "It is a constitutional body under Article 338; the 89th Amendment split it from the NCST, and the 65th Amendment made it multi-member.",
+    "It is a statutory body under Article 338B; the 102nd Amendment split it from the NCST, and the 65th Amendment made it single-member.",
+    "It is a constitutional body under Article 338A; the 89th Amendment created it as a single-member body, and the 65th Amendment abolished it.",
+    "It is a statutory body under Article 17; the 89th Amendment gave it constitutional status, and the 65th Amendment merged it with the NCST."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F8"
+   ],
+   "explanation": "The National Commission for Scheduled Castes is a constitutional body under Article 338. The 89th Amendment in 2003 split it from the NCST, while the 65th Amendment in 1990 made it multi-member."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PAC chairperson and Andhra Pradesh members",
+   "question": "Who chaired the Public Accounts Committee for 2026–27, and which set correctly identifies the re-elected Andhra Pradesh MPs on it?",
+   "options": [
+    "K.C. Venugopal; C.M. Ramesh, Vallabhaneni Balashowry and Magunta Srinivasulu Reddy",
+    "Ravi Shankar Prasad; C.M. Ramesh, Vallabhaneni Balashowry and Magunta Srinivasulu Reddy",
+    "K.C. Venugopal; Om Birla, C.M. Ramesh and Magunta Srinivasulu Reddy",
+    "C.M. Venugopal; C.M. Ramesh, Vallabhaneni Balashowry and Ravi Shankar Prasad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2"
+   ],
+   "explanation": "K.C. Venugopal chaired the PAC for 2026–27. The re-elected Andhra Pradesh MPs were C.M. Ramesh of the BJP, Vallabhaneni Balashowry of the Jana Sena and Magunta Srinivasulu Reddy of the TDP."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment and background of NCBC Chairperson",
+   "question": "Which statement correctly describes Sadhvi Niranjan Jyoti’s appointment as Chairperson of the National Commission for Backward Classes?",
+   "options": [
+    "She assumed office on 27 March 2026, replacing Hans Raj Gangaram Ahir; she was an ex-MP from Fatehpur, Uttar Pradesh, during 2014–2024.",
+    "She assumed office on 27 March 2026, replacing Ravi Shankar Prasad; she was an ex-MP from Fatehpur, Uttar Pradesh, during 2014–2024.",
+    "She assumed office on 27 March 2026, replacing Hans Raj Gangaram Ahir; she was an ex-MP from Fatehpur, Bihar, during 2014–2024.",
+    "She assumed office on 27 March 2026, replacing Hans Raj Gangaram Ahir; she was an ex-MP from Fatehpur, Uttar Pradesh, during 2009–2019."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "Sadhvi Niranjan Jyoti assumed office on 27 March 2026, replacing Hans Raj Gangaram Ahir. She was an ex-MP from Fatehpur in Uttar Pradesh during 2014–2024; the other options alter the predecessor, State or period."
+  }
+ ]
+}

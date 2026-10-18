@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  26,
+  27,
+  28,
+  29
+ ],
+ "only": [
+  "P26.F4",
+  "P28.F4",
+  "P28.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Funds and committee chairperson",
+   "question": "Consider the following statements regarding recent developments in Andhra Pradesh:\n1. Under the agricultural funding data, ₹51.13 crore was allocated in 2024–25, of which 46.52% was used, and ₹105 crore was allocated in 2025–26, of which 83.83% was used.\n2. The groundwater recharge committee is chaired by the Special Chief Secretary, Water Resources, G. Sai Prasad.\n3. The groundwater recharge committee is chaired by the Agriculture Minister, K. Achennaidu.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F4",
+    "P28.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The agricultural funding figures are ₹51.13 crore in 2024–25 with 46.52% utilisation and ₹105 crore in 2025–26 with 83.83% utilisation; the groundwater recharge committee is chaired by G. Sai Prasad. Statement 3 is incorrect because K. Achennaidu is associated with AP–Singapore agricultural cooperation, not the committee chairmanship."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Minister handling AP–Singapore agri cooperation",
+   "question": "Who is associated with the Andhra Pradesh–Singapore cooperation in agriculture?",
+   "options": [
+    "K. Achennaidu",
+    "G. Sai Prasad",
+    "Justice Lisa Gill",
+    "Rayapati Shailaja"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F5"
+   ],
+   "explanation": "K. Achennaidu is associated with the Andhra Pradesh–Singapore agricultural cooperation. G. Sai Prasad chairs the groundwater recharge committee, while Justice Lisa Gill and Rayapati Shailaja are associated with other Andhra Pradesh appointments and programmes."
+  }
+ ]
+}

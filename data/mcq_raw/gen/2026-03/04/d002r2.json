@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F3",
+  "P3.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Strategic petroleum reserve benchmark",
+   "question": "Consider the following statements about India's petroleum storage position and Strategic Petroleum Reserve history:\n\n1. India's total national crude-oil storage, including commercial storage, is approximately 74 days.\n2. The IEA norm for crude-oil storage is approximately 8 weeks.\n3. The idea of a Strategic Petroleum Reserve in India was first mooted in 1975.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 3 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F10"
+   ],
+   "explanation": "Statement 1 is correct: total national storage, including commercial storage, is approximately 74 days. Statement 2 is incorrect because the IEA norm is 90 days, not 8 weeks, and Statement 3 is incorrect because the idea was first mooted in 1973, not 1975."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Business expectations index",
+   "question": "In the Ease of Doing Business reforms report, how was the RBI Business Expectations Index positioned against its neutral benchmark?",
+   "options": [
+    "Above the neutral level of 100",
+    "Below the neutral level of 100",
+    "At the neutral level of 100",
+    "It was not benchmarked against 100"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "The RBI Business Expectations Index was above the neutral level of 100. The tempting alternatives incorrectly place the index below, exactly at, or outside the stated benchmark."
+  }
+ ]
+}

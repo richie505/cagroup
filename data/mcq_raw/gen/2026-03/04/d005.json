@@ -1,0 +1,298 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F2",
+  "P10.F5",
+  "P10.F6",
+  "P10.F7",
+  "P11.F11",
+  "P11.F12",
+  "P11.F13",
+  "P11.F14",
+  "P11.F15",
+  "P11.F16",
+  "P11.F17",
+  "P11.F18",
+  "P11.F19",
+  "P11.F20",
+  "P11.F21",
+  "P11.F22",
+  "P11.F23",
+  "P11.F3",
+  "P11.F5",
+  "P11.F6",
+  "P11.F7",
+  "P11.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Event highlighted",
+   "question": "The issue of stranded renewable power and grid congestion was highlighted at which event in 2026?",
+   "options": [
+    "Bharat Climate Forum 2026",
+    "PM Surya Ghar Muft Bijli Yojana",
+    "Central Transmission Utility",
+    "General Network Access"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "The issue was highlighted at Bharat Climate Forum 2026. PM Surya Ghar Muft Bijli Yojana and General Network Access are associated with solutions and grid access, not the event at which the issue was highlighted."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Energy transition targets",
+   "question": "Consider the following statements:\nStatement A: India targets 500 GW of non-fossil capacity by 2030.\nStatement B: India has a net-zero target for 2070.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "Both statements correctly state India’s targets: 500 GW of non-fossil capacity by 2030 and net-zero by 2070. The combination of 500 GW and 2070 is therefore the correct one."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Grid-access mechanism",
+   "question": "In the context of renewable-power evacuation, what happens to T-GNA projects during peak solar hours?",
+   "options": [
+    "They are shut down",
+    "They receive General Network Access",
+    "They are managed through speed breeding",
+    "They are covered under rooftop solar for households"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "T-GNA projects are shut down during peak solar hours. General Network Access is provided to developers, but it is not what happens to T-GNA projects at that time."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Grid-congestion solutions",
+   "question": "Consider the following statements:\nStatement A: STATCOMs and dynamic grid management are proposed solutions to renewable-power grid congestion.\nStatement B: Adaptive line rating and transparent curtailment are also proposed solutions.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F6"
+   ],
+   "explanation": "Both statements identify measures proposed to address renewable-power grid congestion. The solutions include STATCOMs, dynamic grid management, adaptive line rating and transparent curtailment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme coverage",
+   "question": "The PM Surya Ghar Muft Bijli Yojana aims to provide rooftop solar for how many households?",
+   "options": [
+    "1 crore households",
+    "500 GW of households",
+    "18.9 GW of households",
+    "6.2 million households"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F7"
+   ],
+   "explanation": "The PM Surya Ghar Muft Bijli Yojana targets rooftop solar for 1 crore households. The other figures refer to non-fossil capacity, evacuation capacity or the basmati GI region, not the scheme’s household target."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rice export leadership",
+   "question": "Which country was the largest rice exporter in 2024–25, with exports of 21.69 million tonnes?",
+   "options": [
+    "India",
+    "Thailand",
+    "Vietnam",
+    "China"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "India was the exporter with 21.69 million tonnes in 2024–25. Thailand and Vietnam had lower export volumes, while China is identified in the facts in relation to rice production rather than this export figure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Thailand rice exports",
+   "question": "What was Thailand’s rice export volume in 2024–25?",
+   "options": [
+    "7.86 million tonnes",
+    "8.06 million tonnes",
+    "21.69 million tonnes",
+    "150 million tonnes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F5"
+   ],
+   "explanation": "Thailand exported 7.86 million tonnes of rice in 2024–25. The figures of 8.06 million tonnes and 21.69 million tonnes correspond to Vietnam and India respectively, while 150 million tonnes refers to production."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Water-intensive cultivation system",
+   "question": "Which cultivation system is associated with a field water level of 5 cm and 20–30 irrigations in rice production?",
+   "options": [
+    "Conventional transplanting-cum-continuous flooding",
+    "Marker-assisted selection",
+    "Predictive breeding",
+    "Adaptive line rating"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F6"
+   ],
+   "explanation": "The conventional transplanting-cum-continuous flooding system is associated with a 5 cm field water level and 20–30 irrigations. Marker-assisted selection and predictive breeding are breeding approaches, while adaptive line rating concerns electricity transmission."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Rice water footprint",
+   "question": "How many of the following statements about the water footprint of rice are correct?\n1. The conventional system maintains a field water level of 5 cm.\n2. It involves 20–30 irrigations.\n3. One irrigation of 1 acre at 2.5 cm requires 101,171.5 litres.\n4. The total water requirement is approximately 5 million litres per acre.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F6",
+    "P11.F7"
+   ],
+   "explanation": "Only statements 1 and 2 are correct in this set. The 101,171.5-litre figure applies to one irrigation of 1 acre at 2.5 cm, and the total is approximately 5 million litres per acre."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Basmati aroma compound",
+   "question": "Which aroma compound forms in basmati rice when grain filling occurs in October at 30–31°C?",
+   "options": [
+    "2-acetyl-1-pyrroline (2-AP)",
+    "Genomic selection",
+    "STATCOM",
+    "Dynamic grid management"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F11"
+   ],
+   "explanation": "The aroma compound is 2-acetyl-1-pyrroline, also known as 2-AP. Genomic selection is a breeding method, while STATCOM and dynamic grid management are grid-related measures."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Basmati GI-region distribution",
+   "question": "Match the regions in List-I with their respective areas in the basmati GI region in List-II.\n\nList-I\n(a) Punjab\n(b) Western Uttar Pradesh\n(c) Haryana\n(d) Uttarakhand\n\nList-II\n(i) 1.5 million ha\n(ii) 3.1 million ha\n(iii) 0.12 million ha\n(iv) 1.3 million ha",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F12"
+   ],
+   "explanation": "The correct pairs are Punjab–3.1 million ha, Western Uttar Pradesh–1.5 million ha, Haryana–1.3 million ha and Uttarakhand–0.12 million ha. The other codes interchange these regional areas."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "GI aromatic rice varieties and regions",
+   "question": "Match the GI aromatic rice varieties in List-I with their States in List-II.\n\nList-I\n(a) Kalanamak and Adamchini\n(b) Katarni\n(c) Gobindobhog\n(d) Badshah Bhog\n\nList-II\n(i) West Bengal\n(ii) Bihar\n(iii) Chhattisgarh\n(iv) Uttar Pradesh",
+   "options": [
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F13",
+    "P11.F14",
+    "P11.F15",
+    "P11.F16"
+   ],
+   "explanation": "Kalanamak and Adamchini are associated with Uttar Pradesh, Katarni with Bihar, Gobindobhog with West Bengal, and Badshah Bhog with Chhattisgarh. Hence the correct code is a-iv, b-ii, c-i, d-iii."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "GI varieties and improved basmati performance",
+   "question": "Match the entries in List-I with the correct association in List-II.\n\nList-I\n(a) Koraput Kalajeera\n(b) Wayanad Jeerakasala\n(c) Seeraga Samba\n(d) Pusa Basmati-1509\n\nList-II\n(i) Kerala\n(ii) Odisha\n(iii) Tamil Nadu\n(iv) 2.5 t/acre in 115–120 days",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F17",
+    "P11.F18",
+    "P11.F19",
+    "P11.F20"
+   ],
+   "explanation": "Koraput Kalajeera is associated with Odisha, Wayanad Jeerakasala with Kerala, Seeraga Samba with Tamil Nadu, and Pusa Basmati-1509 yields 2.5 t/acre in 115–120 days. Therefore, a-ii, b-i, c-iii, d-iv is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Disease-resistant basmati varieties",
+   "question": "Which group of varieties was developed using marker-assisted selection for resistance to bacterial leaf blight and rice blast?",
+   "options": [
+    "Pusa Basmati-1847, 1885 and 1886",
+    "Pusa Basmati-1509, 1121 and 1401",
+    "Kalanamak, Adamchini and Katarni",
+    "Gobindobhog, Badshah Bhog and Seeraga Samba"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F21"
+   ],
+   "explanation": "Pusa Basmati-1847, Pusa Basmati-1885 and Pusa Basmati-1886 are associated with marker-assisted selection for resistance to bacterial leaf blight and rice blast. The other groups refer to blockbusters or GI aromatic varieties."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Predictive breeding method",
+   "question": "Which combination describes the predictive-breeding approach used in rice improvement?",
+   "options": [
+    "Genomic selection and machine learning, supported by speed breeding",
+    "Marker-assisted selection and transparent curtailment",
+    "Continuous flooding and adaptive line rating",
+    "Floor price and General Network Access"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F22"
+   ],
+   "explanation": "Predictive breeding combines genomic selection and machine learning and is supported by speed breeding. Marker-assisted selection, continuous flooding, adaptive line rating and General Network Access belong to different contexts."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Procurement recommendation",
+   "question": "Assertion (A): A floor price for basmati was recommended.\nReason (R): The recommendation was to shift non-basmati procurement to Western Uttar Pradesh, Bihar, West Bengal and Assam.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F23"
+   ],
+   "explanation": "Assertion A is true because a floor price for basmati was recommended. Reason R is false: the recommended shift in non-basmati procurement was to Eastern Uttar Pradesh, Bihar, West Bengal and Assam, not Western Uttar Pradesh."
+  }
+ ]
+}

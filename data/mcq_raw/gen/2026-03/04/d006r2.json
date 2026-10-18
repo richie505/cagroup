@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P12.F3",
+  "P15.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Land acquisition delays and compensation",
+   "question": "With reference to infrastructure project delays and land acquisition, consider the following statements:\n\n1. Land acquisition causes approximately 35% of project delays.\n2. Compensation may be provided up to four times the market value.\n3. Compensation may be provided up to three times the market value.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: land acquisition causes approximately 35% of project delays, and compensation can be up to four times the market value. Statement 3 is incorrect because it changes the compensation limit from four times to three times."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Vision 2047 targets",
+   "question": "Under Telangana’s Vision 2047, which of the following correctly states the economic targets?",
+   "options": [
+    "To become the third-largest state economy and reach $1 trillion by 2034",
+    "To reach $1 trillion by 2047 and become the third-largest state economy by 2034",
+    "To become the third-largest state economy by 2034 and reach $1 trillion by 2047",
+    "To reach $1 trillion by 2034 and become the third-largest state economy by 2047"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F3"
+   ],
+   "explanation": "Telangana’s Vision 2047 aims to make the State the third-largest state economy and achieve a $1 trillion economy by 2034. The other options incorrectly interchange the years 2034 and 2047."
+  }
+ ]
+}

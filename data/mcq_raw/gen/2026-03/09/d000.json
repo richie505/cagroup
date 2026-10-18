@@ -1,0 +1,176 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F3",
+  "P0.F4",
+  "P0.F8",
+  "P0.F9",
+  "P2.F10",
+  "P2.F3",
+  "P2.F5",
+  "P2.F6",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Institution and first recipient",
+   "question": "The Jnanpith Award, instituted in 1961, was first awarded in 1965 to whom?",
+   "options": [
+    "G. Sankara Kurup",
+    "Vinod Kumar Shukla",
+    "Amitav Ghosh",
+    "Shankha Ghosh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The Jnanpith Award was instituted in 1961 and first awarded in 1965 to G. Sankara Kurup. Amitav Ghosh and Shankha Ghosh were recipients in later editions, while Vinod Kumar Shukla received the 59th award."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Telugu Jnanpith recipients",
+   "question": "Match the Jnanpith Award edition or year in List-I with the corresponding Telugu recipient in List-II.\n\nList-I\n(a) 1970\n(b) 1988\n(c) 2012\n(d) 2015\n\nList-II\n(i) Raghuveer Chaudhari\n(ii) C. Narayana Reddy\n(iii) Viswanatha Satyanarayana\n(iv) Ravuri Bharadwaja\n\n",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F13"
+   ],
+   "explanation": "The correct pairs are 1970–Viswanatha Satyanarayana, 1988–C. Narayana Reddy, 2012–Ravuri Bharadwaja and 2015–Raghuveer Chaudhari. The other codes interchange these recipients and years."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Jnanpith winner and language",
+   "question": "Match the Jnanpith Award edition or year in List-I with the winner and language in List-II.\n\nList-I\n(a) 56th edition (2021)\n(b) 55th edition (2019)\n(c) 54th edition (2018)\n(d) 53rd edition (2017)\n\nList-II\n(i) Amitav Ghosh — English\n(ii) Krishna Sobti — Hindi\n(iii) Nilmani Phookan — Assamese\n(iv) Akkitham Achuthan Namboothiri — Malayalam\n\n",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9",
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "The correct pairs are 56th–Nilmani Phookan (Assamese), 55th–Akkitham Achuthan Namboothiri (Malayalam), 54th–Amitav Ghosh (English) and 53rd–Krishna Sobti (Hindi). Each alternative changes at least one winner-language pairing."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Jnanpith editions and languages",
+   "question": "With reference to the Jnanpith Award editions, consider the following statements:\n\n1. The 53rd edition in 2017 was awarded to Krishna Sobti for Hindi.\n2. The 52nd edition in 2016 was awarded to Shankha Ghosh for Gujarati.\n3. The 52nd edition in 2016 was awarded to Shankha Ghosh for Bengali.",
+   "options": [
+    "Only Statement 1",
+    "Only Statement 2",
+    "Only Statement 3",
+    "Statements 1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Only Statement 1 is correct: Krishna Sobti received the 53rd Jnanpith Award in 2017 for Hindi. Shankha Ghosh received the 52nd award in 2016 for Bengali, not Gujarati."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Jnanpith winner and language",
+   "question": "Who received the 51st Jnanpith Award in 2015 for Gujarati?",
+   "options": [
+    "Raghuveer Chaudhari",
+    "Shankha Ghosh",
+    "Krishna Sobti",
+    "Amitav Ghosh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Raghuveer Chaudhari received the 51st Jnanpith Award in 2015 for Gujarati. Shankha Ghosh, Krishna Sobti and Amitav Ghosh correspond to later editions and different languages."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Reappointment and post",
+   "question": "Who was re-appointed as the Drug Controller General of India for one year in March 2026?",
+   "options": [
+    "Dr. Rajeev Singh Raghuvanshi",
+    "MNV Prabhakar",
+    "K.V. Ramana Murthy",
+    "Padma Dorjee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "Dr. Rajeev Singh Raghuvanshi was re-appointed DCGI for one year under CDSCO. MNV Prabhakar, K.V. Ramana Murthy and Padma Dorjee were appointed to positions in RINL, SEBI and the Godavari River Management Board respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment and organisation",
+   "question": "Who was appointed CMD of RINL, the Visakhapatnam Steel Plant, on 14 March 2026?",
+   "options": [
+    "MNV Prabhakar",
+    "Deepak Gupta",
+    "Ashok Kumar Panda",
+    "Jagdish Kumar Mamidala"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "MNV Prabhakar was appointed CMD of RINL on 14 March 2026. Deepak Gupta, Ashok Kumar Panda and Jagdish Kumar Mamidala were associated with GAIL, SAIL and IIM Calcutta respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SEBI appointment",
+   "question": "Who was appointed Whole-Time Member of SEBI, bringing the regulator to its full complement of four Whole-Time Members?",
+   "options": [
+    "K.V. Ramana Murthy",
+    "Dr. Rajeev Singh Raghuvanshi",
+    "MNV Prabhakar",
+    "V. Periyasami Kumaran"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "K.V. Ramana Murthy was appointed Whole-Time Member of SEBI, taking the number of Whole-Time Members to four. The other persons listed held appointments in CDSCO, RINL and the High Commission to the UK."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Appointment and constitutional framework",
+   "question": "Assertion (A): Padma Dorjee was appointed Chairman of the Godavari River Management Board.\nReason (R): Ambassadors, rather than High Commissioners, are appointed in Commonwealth countries.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "Assertion A is true: Padma Dorjee became Chairman of the Godavari River Management Board. Reason R is false because High Commissioners are appointed in Commonwealth countries, whereas Ambassadors are appointed elsewhere; this diplomatic distinction does not explain the GRMB appointment."
+  }
+ ]
+}

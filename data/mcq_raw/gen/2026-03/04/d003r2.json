@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": [
+  "P4.F12",
+  "P4.F3",
+  "P5.F20"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "FTA coverage and EPM outlay",
+   "question": "With reference to India's export promotion measures, consider the following statements:\n1. India's Free Trade Agreements cover 38 countries, providing access to approximately 70% of global GDP, and India is among the top five Global South economies for export diversity.\n2. The outlay for the Export Promotion Mission is ₹25,060 crore for the period 2025-26 to 2030-31.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F12"
+   ],
+   "explanation": "Both statements are correct. India's FTAs cover 38 countries and provide access to approximately 70% of global GDP, while the Export Promotion Mission has an outlay of ₹25,060 crore for 2025-26 to 2030-31. The option mentioning Statement 3 is incorrect because no third statement is provided."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Labour Codes and years",
+   "question": "Match the Labour Codes with the years in which they were enacted:\n\nList-I\n(a) Code on Wages\n(b) Industrial Relations Code\n(c) Code on Social Security\n(d) Occupational Safety, Health and Working Conditions Code\n\nList-II\ni. 2020\nii. 2019\niii. 2020\niv. 2020",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F20"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv: the Code on Wages was enacted in 2019, while the Industrial Relations Code, Code on Social Security and Occupational Safety, Health and Working Conditions Code were enacted in 2020. The other codes rearrange the 2019 and 2020 entries."
+  }
+ ]
+}

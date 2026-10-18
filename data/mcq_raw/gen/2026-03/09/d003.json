@@ -1,0 +1,349 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10
+ ],
+ "only": [
+  "P10.F11",
+  "P10.F14",
+  "P10.F16",
+  "P10.F17",
+  "P10.F18",
+  "P10.F19",
+  "P10.F20",
+  "P10.F21",
+  "P10.F22",
+  "P10.F23",
+  "P10.F24",
+  "P10.F25",
+  "P10.F26",
+  "P10.F27",
+  "P10.F28",
+  "P10.F29",
+  "P10.F30",
+  "P10.F31",
+  "P10.F32",
+  "P10.F33",
+  "P10.F34",
+  "P10.F35",
+  "P10.F36",
+  "P10.F37",
+  "P10.F38",
+  "P10.F39",
+  "P10.F4",
+  "P10.F40",
+  "P10.F41",
+  "P10.F5",
+  "P10.F6",
+  "P10.F7",
+  "P10.F8",
+  "P10.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Special award winners",
+   "question": "With reference to the special awards at the Gaddar Telangana Film Awards 2025, consider the following statements:\n1. Singeetam Srinivasa Rao received the B.N. Reddy Award.\n2. Ashwini Dutt received the Nagireddy Chakrapani Award.\n3. R. Narayana Murthy received the K.L. Kantha Rao Award.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F4",
+    "P10.F5",
+    "P10.F6"
+   ],
+   "explanation": "All three statements are correct: Singeetam Srinivasa Rao, Ashwini Dutt and R. Narayana Murthy received the B.N. Reddy Award, Nagireddy Chakrapani Award and K.L. Kantha Rao Award, respectively. The other options omit at least one correct award-winner pairing."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Special award-winner matching",
+   "question": "Match List-I with List-II regarding the special awards at the Gaddar Telangana Film Awards 2025.\n\nList-I\n(a) Raghupathi Venkaiah Award\n(b) C. Narayana Reddy Award\n(c) Akkineni Nageswara Rao Award\n\nList-II\n(i) Jayasudha\n(ii) Suddala Ashok Teja\n(iii) Ramesh Prasad\n\nCodes:",
+   "options": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-i, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F7",
+    "P10.F8",
+    "P10.F9"
+   ],
+   "explanation": "The correct pairs are Raghupathi Venkaiah Award–Ramesh Prasad, C. Narayana Reddy Award–Suddala Ashok Teja and Akkineni Nageswara Rao Award–Jayasudha. Hence, a-iii, b-ii, c-i is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Feature-film award category",
+   "question": "Which films jointly received the Second / Third Best award at the Gaddar Telangana Film Awards 2025?",
+   "options": [
+    "Dandora and The Great Pre-Wedding Show",
+    "Little Hearts and Court",
+    "Thandel and Igwa",
+    "Mirai and Anaganaga"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F11"
+   ],
+   "explanation": "Dandora and The Great Pre-Wedding Show received the Second / Third Best award. Little Hearts, Court, Mirai and Anaganaga were winners in other feature-film categories."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Debut film award",
+   "question": "Which film won the Debut category at the Gaddar Telangana Film Awards 2025?",
+   "options": [
+    "Little Hearts",
+    "Court",
+    "Mirai",
+    "Anaganaga"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F14"
+   ],
+   "explanation": "Little Hearts won the Debut category. Court won the Social Message category, Mirai won Special Effects and Anaganaga won the Children's Film category."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Social Message category",
+   "question": "Which film won the Social Message category at the Gaddar Telangana Film Awards 2025?",
+   "options": [
+    "Court",
+    "Little Hearts",
+    "Mirai",
+    "Anaganaga"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F16"
+   ],
+   "explanation": "Court won the Social Message category. The other options were associated with the Debut, Special Effects and Children's Film categories."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Feature-film category matching",
+   "question": "Match the feature-film categories with their winners at the Gaddar Telangana Film Awards 2025.\n\nList-I\n(a) Special Effects\n(b) Children's Film\n(c) Best Director\n\nList-II\n(i) Sailu\n(ii) Anaganaga\n(iii) Mirai\n\nCodes:",
+   "options": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-i, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F17",
+    "P10.F18",
+    "P10.F19"
+   ],
+   "explanation": "The correct pairs are Special Effects–Mirai, Children's Film–Anaganaga and Best Director–Sailu. Therefore, a-iii, b-ii, c-i is the correct code."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Best Actor and Actress",
+   "question": "Consider the following statements:\nStatement A: Rashmika received the Best Actor award at the Gaddar Telangana Film Awards 2025.\nStatement B: Rashmika received the Best Actress award at the Gaddar Telangana Film Awards 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F20",
+    "P10.F21"
+   ],
+   "explanation": "Statement A is false because Naga Chaitanya received the Best Actor award. Statement B is true because Rashmika received the Best Actress award."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Supporting Actor and Actress",
+   "question": "Assertion (A): Shivaji received the Supporting Actor award at the Gaddar Telangana Film Awards 2025.\nReason (R): Bhumika received the Supporting Actor award at the same awards.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F22"
+   ],
+   "explanation": "The Assertion is true because Shivaji received the Supporting Actor award. The Reason is false because Bhumika received the Supporting Actress award, not the Supporting Actor award."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Music award",
+   "question": "Who received the Music award at the Gaddar Telangana Film Awards 2025?",
+   "options": [
+    "Mark K. Robin",
+    "Anurag Kulkarni",
+    "Nandakishore",
+    "Karthik Ghattamaneni"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F23"
+   ],
+   "explanation": "Mark K. Robin received the Music award. Anurag Kulkarni was a Male Singer award winner, while Nandakishore and Karthik Ghattamaneni received the Lyricist and Cinematographer awards, respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Individual award-winner matching",
+   "question": "Match the categories with the winners at the Gaddar Telangana Film Awards 2025.\n\nList-I\n(a) Female Singer\n(b) Comedian\n(c) Child Actor\n\nList-II\n(i) Master Rohan\n(ii) Krishna Teja Reddy\n(iii) Sahithi\n\nCodes:",
+   "options": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-i, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F24",
+    "P10.F25",
+    "P10.F26"
+   ],
+   "explanation": "The correct pairs are Female Singer–Sahithi, Comedian–Krishna Teja Reddy and Child Actor–Master Rohan. Thus, a-iii, b-ii, c-i is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Story and screenplay awards",
+   "question": "Which pairing correctly represents the Story and Screenplay award winners at the Gaddar Telangana Film Awards 2025?",
+   "options": [
+    "Gunasekhar and Anil Ravipudi",
+    "Nandakishore and Karthik Ghattamaneni",
+    "Sreekar Prasad and M.R. Rajakrishnan",
+    "Peter Hein and Sandeep"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F27"
+   ],
+   "explanation": "Gunasekhar received the Story award and Anil Ravipudi received the Screenplay award. The other pairs combine winners from lyricist, cinematography, editing, audiography, action or choreography categories."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Technical award categories",
+   "question": "Match the technical award categories with their winners at the Gaddar Telangana Film Awards 2025.\n\nList-I\n(a) Lyricist\n(b) Cinematographer\n(c) Editor\n\nList-II\n(i) Sreekar Prasad\n(ii) Karthik Ghattamaneni\n(iii) Nandakishore\n\nCodes:",
+   "options": [
+    "a-iii, b-ii, c-i",
+    "a-i, b-iii, c-ii",
+    "a-ii, b-i, c-iii",
+    "a-iii, b-i, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F28",
+    "P10.F29",
+    "P10.F30"
+   ],
+   "explanation": "Nandakishore, Karthik Ghattamaneni and Sreekar Prasad won the Lyricist, Cinematographer and Editor awards, respectively. Therefore, a-iii, b-ii, c-i is the correct code."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Technical award-winner matching",
+   "question": "Match the categories with the winners at the Gaddar Telangana Film Awards 2025.\n\nList-I\n(a) Audiographer\n(b) Choreographer\n(c) Art Director\n\nList-II\n(i) Thota Tharani\n(ii) Sandeep\n(iii) M.R. Rajakrishnan\n\nCodes:",
+   "options": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-i, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F31",
+    "P10.F32",
+    "P10.F33"
+   ],
+   "explanation": "The correct pairs are Audiographer–M.R. Rajakrishnan, Choreographer–Sandeep and Art Director–Thota Tharani. Hence, a-iii, b-ii, c-i is correct."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Makeup, costume and action awards",
+   "question": "How many of the following category-winner pairs are correct at the Gaddar Telangana Film Awards 2025?\n1. Makeup — Y. Govindaraju\n2. Costume — Peter Hein\n3. Action — Peter Hein\n4. Costume — Chandrakant Sonawane and Ajay Kumar Nambal",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F34",
+    "P10.F35",
+    "P10.F36"
+   ],
+   "explanation": "Only the first pair is correct: Y. Govindaraju won the Makeup award. Peter Hein won Action, while Chandrakant Sonawane and Ajay Kumar Nambal won Costume."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Best Book in Telugu",
+   "question": "Which work won the Best Book in Telugu award at the Gaddar Telangana Film Awards 2025?",
+   "options": [
+    "Shoonyam Nunchi Shikharagralaku",
+    "Unity",
+    "The First Action Hero – Paidi Jayaraj Prasthanam",
+    "Mahamanishi Dr. A.S. Rao"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F37"
+   ],
+   "explanation": "Shoonyam Nunchi Shikharagralaku won the Best Book in Telugu award. The other options are documentary titles associated with the documentaries awards."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Film Critic and Special Jury",
+   "question": "Match the award categories with the recipients at the Gaddar Telangana Film Awards 2025.\n\nList-I\n(a) Film Critic\n(b) Special Jury\n\nList-II\n(i) H. Ramesh Babu\n(ii) Sriraj Rachakonda, Chaitu Jonnalagadda, Roshan Make and Ananthika Sanil Kumar\n\nCodes:",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-i, b-i",
+    "a-ii, b-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F38",
+    "P10.F39"
+   ],
+   "explanation": "H. Ramesh Babu received the Film Critic award. The Special Jury recipients were Sriraj Rachakonda, Chaitu Jonnalagadda, Roshan Make and Ananthika Sanil Kumar, making a-i, b-ii correct."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Documentary awards",
+   "question": "Match the documentaries with the persons associated with them at the Gaddar Telangana Film Awards 2025.\n\nList-I\n(a) Unity\n(b) The First Action Hero – Paidi Jayaraj Prasthanam\n(c) Mahamanishi Dr. A.S. Rao\n\nList-II\n(i) Balabrahmachari Poosapati\n(ii) Ponnam Ravichandra\n(iii) Chirandas Srikant\n\nCodes:",
+   "options": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-i, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F40"
+   ],
+   "explanation": "Unity is associated with Chirandas Srikant, The First Action Hero – Paidi Jayaraj Prasthanam with Ponnam Ravichandra, and Mahamanishi Dr. A.S. Rao with Balabrahmachari Poosapati. Thus, a-iii, b-ii, c-i is correct."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Short-film awards",
+   "question": "Match the short-film award categories with the relevant titles at the Gaddar Telangana Film Awards 2025.\n\nList-I\n(a) Short films\n(b) Diploma of Merit\n\nList-II\n(i) Tallidandrula Atma Gauravam\n(ii) Vanajeevi Ramayya, Mauname Nee Bhasha and Cyber Slavery\n\nCodes:",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-i, b-i",
+    "a-ii, b-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F41"
+   ],
+   "explanation": "The short films were Vanajeevi Ramayya, Mauname Nee Bhasha and Cyber Slavery. Tallidandrula Atma Gauravam received the Diploma of Merit, so a-ii, b-i is correct."
+  }
+ ]
+}

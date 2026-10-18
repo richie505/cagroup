@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F13",
+  "P0.F5",
+  "P0.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ageing projection and female LFPR target",
+   "question": "With reference to Andhra Pradesh’s draft Population Management Policy 2026, consider the following statements:\n1. About 23% of Andhra Pradesh’s population is projected to be above 60 years by 2047.\n2. The policy targets increasing female labour force participation from about 31% to nearly 59%.\n3. The policy targets increasing female labour force participation from about 31% to nearly 49%.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F13"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the policy projects that about 23% of the population will be above 60 years by 2047 and targets raising female labour force participation from about 31% to nearly 59%. Statement 3 is incorrect because the target is nearly 59%, not nearly 49%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Birth incentive",
+   "question": "Under the birth-incentive provision of Andhra Pradesh’s draft Population Management Policy 2026, what benefit is proposed?",
+   "options": [
+    "A one-time payment of ₹25,000 at the birth of a second or third child",
+    "A monthly payment of ₹25,000 for the first five years after the birth of a third child",
+    "A monthly payment of ₹1,000 for the first five years after the birth of a second or third child",
+    "A one-time payment of ₹25,000 at the birth of a first child"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "The proposed birth incentive is a one-time payment of ₹25,000 at the birth of a second or third child. The ₹1,000 monthly benefit for the first five years is part of the separate Poshana–Shiksha–Suraksha package for the third child."
+  }
+ ]
+}

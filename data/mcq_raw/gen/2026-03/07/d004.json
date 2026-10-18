@@ -1,0 +1,248 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F3",
+  "P10.F4",
+  "P10.F5",
+  "P11.F3",
+  "P7.F10",
+  "P7.F11",
+  "P7.F2",
+  "P7.F3",
+  "P7.F6",
+  "P7.F7",
+  "P7.F8",
+  "P7.F9",
+  "P8.F4",
+  "P8.F5",
+  "P8.F6",
+  "P8.F7",
+  "P9.F4",
+  "P9.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Species and behaviour",
+   "question": "Which honeybee species, known as the Giant Rock Bee, typically builds open hives on cliffs and forts and may chase intruders at about 35 km/h?",
+   "options": [
+    "Apis dorsata",
+    "Apis mellifera",
+    "Apis cerana",
+    "Apis florea"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "Apis dorsata is the Giant Rock Bee. It builds open hives on cliffs and forts, may have colonies of up to 60,000 bees, and can chase intruders at about 35 km/h; the other species are not identified with these characteristics here."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Bee-sting mechanism and portal",
+   "question": "Consider the following statements about honeybee attacks and the National Beekeeping and Honey Mission:\n1. A honeybee dies after delivering a single sting.\n2. Swatting a honeybee can release pheromones that increase the risk of further attack.\n3. The Madhukranti portal supports registration and traceability.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F6"
+   ],
+   "explanation": "All three statements are correct. A honeybee dies after a single sting, swatting releases alarm pheromones, and the Madhukranti portal provides registration and traceability; therefore, the correct answer is 1, 2 and 3."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Production and export indicators",
+   "question": "With reference to India’s honey-sector indicators under the National Beekeeping and Honey Mission, consider the following statements:\n1. Honey production in 2024 was approximately 1.4 lakh MT.\n2. Honey exports in FY 2023–24 were 1.07 lakh MT, valued at USD 177.55 million.\n3. India became the second-largest exporter, improving from ninth place in 2020.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F7",
+    "P7.F8",
+    "P7.F9"
+   ],
+   "explanation": "All three statements are correct. The recorded production was about 1.4 lakh MT in 2024, exports were 1.07 lakh MT worth USD 177.55 million in FY 2023–24, and India’s export rank rose to second-largest from ninth in 2020."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scientific behaviour and discoverer",
+   "question": "The waggle dance of honeybees was decoded by which scientist, who received the Nobel Prize?",
+   "options": [
+    "Karl von Frisch",
+    "National Bee Board",
+    "Ministry of Agriculture",
+    "Joint Forest Management Committee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F10"
+   ],
+   "explanation": "Karl von Frisch decoded the waggle dance of honeybees and received the Nobel Prize. The National Bee Board and the Ministry of Agriculture are associated with beekeeping administration, while a Joint Forest Management Committee is a community institution."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Threats to honeybees",
+   "question": "Which of the following statements regarding threats to honeybees is incorrect?",
+   "options": [
+    "Varroa mites are a recognised threat to honeybees.",
+    "Nosema is a recognised threat to honeybees.",
+    "Foulbrood is a recognised threat to honeybees.",
+    "Biocharcoal is a recognised threat to honeybees."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F11"
+   ],
+   "explanation": "The incorrect statement is that biocharcoal is a recognised threat to honeybees. The listed threats are Varroa mites, Nosema, foulbrood and pesticides; biocharcoal is not included among them."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Price and livelihood model",
+   "question": "In the Amrabad Tiger Reserve pilot project, at approximately what price is the lantana-derived biocharcoal valued, and through which institutions are livelihoods generated?",
+   "options": [
+    "₹7,000 per tonne through Joint Forest Management Committees",
+    "₹500 crore through the National Bee Board",
+    "₹14.4 lakh through Water User Associations",
+    "USD 177.55 million through export agencies"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4"
+   ],
+   "explanation": "The lantana-derived biocharcoal is valued at approximately ₹7,000 per tonne, with livelihoods generated through Joint Forest Management Committees. The other options refer to the honey mission, Jamuguda irrigation cost, and honey export value."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Origin and invasive characteristics",
+   "question": "Consider the following statements about Lantana camara:\n1. It is native to Central and South America.\n2. It spread globally in the 17th century as an ornamental plant.\n3. The IUCN considers it among the world’s worst invasive species.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F5",
+    "P8.F6"
+   ],
+   "explanation": "All three statements are correct. Lantana camara originated in Central and South America, spread globally in the 17th century as an ornamental, and is listed by the IUCN among the world’s worst invasive species."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Lantana spread and agricultural link",
+   "question": "Consider the following statements:\nStatement A: Lantana camara spreads through allelopathy, seed dispersal by birds and monkeys, deep roots, and resin-coated leaves that aid drought resistance.\nStatement B: Lantana camara is beneficial to livestock because it is non-toxic.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "Statement A is true: Lantana spreads through the listed mechanisms, including allelopathy and animal-mediated seed dispersal. Statement B is false because Lantana camara is toxic to livestock."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Solar irrigation and Shree Anna linkage",
+   "question": "Consider the following statements about the Jamuguda village solar irrigation initiative in Odisha:\nStatement A: The initiative cost ₹30,000–80,000 per year and generated an extra income of ₹14.4 lakh.\nStatement B: The initiative was linked to the National Beekeeping and Honey Mission.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F4",
+    "P9.F5"
+   ],
+   "explanation": "Both statements are false. The project cost ₹14.4 lakh and generated extra income of ₹30,000–80,000 per year; it was linked to the Shree Anna Abhiyan, Odisha’s Millets Mission, not the National Beekeeping and Honey Mission."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Altitude and associated passes",
+   "question": "Which statement correctly describes Lipulekh Pass?",
+   "options": [
+    "It is at about 5,334 m and is a route for the Kailash Mansarovar Yatra; Nathu La and Shipki La are other trade passes.",
+    "It is at about 11,650 ft and is called the Mountain Pass of Blizzards.",
+    "It was recaptured on 1 November 1948 during Operation Bison.",
+    "It is the 13.14 km tunnel constructed by NHIDCL."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "Lipulekh Pass is at about 5,334 m and serves as a route for the Kailash Mansarovar Yatra; Nathu La and Shipki La are other trade passes. The other options describe Zoji La or the Zoji La Tunnel."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Zoji La history and location",
+   "question": "Consider the following statements about Zoji La:\n1. A major avalanche occurred at Zoji La, Kargil, on NH-1, the Srinagar–Kargil–Leh route.\n2. Zoji La is known as the “Mountain Pass of Blizzards”.\n3. It was recaptured by the Indian Army on 1 November 1948 during Operation Bison.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4"
+   ],
+   "explanation": "All three statements are correct. Zoji La lies on NH-1 along the Srinagar–Kargil–Leh route, is known as the “Mountain Pass of Blizzards”, and was recaptured by the Indian Army on 1 November 1948 during Operation Bison."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tunnel length and implementing agency",
+   "question": "The Zoji La Tunnel being constructed on the Zoji La route has what length and is being built by which agency?",
+   "options": [
+    "13.14 km by NHIDCL",
+    "5,334 m by the National Bee Board",
+    "11,650 ft by the Geological Survey of India",
+    "1.3 billion years by the Ministry of Mines"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "The Zoji La Tunnel is 13.14 km long and is being constructed by NHIDCL under the Ministry of Road Transport and Highways. The other options combine unrelated altitude, geological and administrative details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment, headquarters and ministry",
+   "question": "Which organisation, established in 1851, has its headquarters in Kolkata and functions under the Ministry of Mines?",
+   "options": [
+    "Geological Survey of India",
+    "National Bee Board",
+    "NHIDCL",
+    "Water User Association"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "The Geological Survey of India was established in 1851, has its headquarters in Kolkata, and functions under the Ministry of Mines. The National Bee Board, NHIDCL and Water User Association belong to different institutional contexts."
+  }
+ ]
+}

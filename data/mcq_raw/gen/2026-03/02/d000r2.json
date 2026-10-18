@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "History of Women's Reservation Bills and Committees",
+   "question": "With reference to the history of women's political reservation in India, consider the following statements:\n1. Bills concerning women's reservation were introduced in 1996, 1998, 1999 and 2008.\n2. The CSWI, Margaret Alva and Geeta Mukherjee committees were associated with 1971, 1987 and 1998, respectively.\n3. Bills concerning women's reservation were introduced in 1996, 1998, 2000 and 2008.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "Only statement 1 is correct: the relevant bills were introduced in 1996, 1998, 1999 and 2008. Statement 2 incorrectly changes Geeta Mukherjee’s year from 1996 to 1998, while statement 3 changes 1999 to 2000."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Supreme Court bench and case outcome",
+   "question": "In the case arising from the Andhra Pradesh High Court proceedings involving Pastor Chintada Anand Paul, what was the outcome before the Supreme Court?",
+   "options": [
+    "It upheld the Andhra Pradesh High Court judgment and dismissed the SLP.",
+    "It upheld the Andhra Pradesh High Court judgment and allowed the SLP.",
+    "It dismissed the Andhra Pradesh High Court judgment and dismissed the SLP.",
+    "It dismissed the Andhra Pradesh High Court judgment and allowed the SLP."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "The Supreme Court upheld the Andhra Pradesh High Court judgment and dismissed the SLP. The tempting alternative is that the SLP was allowed, but the recorded outcome was its dismissal."
+  }
+ ]
+}

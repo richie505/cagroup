@@ -1,0 +1,172 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": [
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F13",
+  "P3.F14",
+  "P3.F15",
+  "P3.F16",
+  "P3.F17",
+  "P3.F4",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "India's medicinal plant wealth",
+   "question": "With reference to India's medicinal plant wealth, consider the following statements:\n1. India is one of the 17 mega-biodiverse countries.\n2. India accounts for approximately 7% of global biodiversity and has about 45,000 plant species.\n3. About 15,000 plant species are used in AYUSH systems, while about 8,000 are medicinal.\n4. India has about 45 mega-biodiversity regions.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only",
+    "3 and 4 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct. India is one of the 17 mega-biodiverse countries, accounts for approximately 7% of global biodiversity and has about 45,000 plant species. Statement 3 reverses the figures for medicinal species and AYUSH use, while statement 4 changes 17 countries to 45 regions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Distribution of medicinal and aromatic plants",
+   "question": "Approximately what proportion of medicinal and aromatic plants in India is found in the Western Ghats, Eastern Ghats, Himalaya and Aravalli regions?",
+   "options": [
+    "About 70%",
+    "About 45%",
+    "About 8%",
+    "About 15%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "Approximately 70% of India's medicinal and aromatic plants are found in the Western Ghats, Eastern Ghats, Himalaya and Aravalli regions. The other options use figures associated with India's plant diversity and AYUSH-related data, not this geographical distribution."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "BSI documentation",
+   "question": "How many medicinal plant species were documented by the Botanical Survey of India (BSI) in the cited assessment?",
+   "options": [
+    "5,250 species",
+    "9,500+ species",
+    "1,178 species",
+    "242 species"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "The Botanical Survey of India documented 5,250 species and recorded more than 9,500 traditional claims. The figures 1,178 and 242 refer to traded species and species traded in high volume, respectively."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Medicinal plant trade",
+   "question": "How many of the following statements regarding the medicinal plant trade are correct?\n1. The annual demand was approximately 5,12,000 tonnes.\n2. Exactly 242 species were traded.\n3. The 1,178 traded species were all in the high-volume category.\n4. High-volume trade was defined as more than 1,000 tonnes.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Only statement 1 is correct: annual demand was approximately 5,12,000 tonnes. The number of traded species was 1,178, of which 242 were in high volume, and high volume meant more than 100 tonnes, not more than 1,000 tonnes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "In-situ conservation",
+   "question": "How many Medicinal Plants Conservation Areas (MPCAs) are associated with in-situ conservation of medicinal plants?",
+   "options": [
+    "115",
+    "242",
+    "1,178",
+    "9,361"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "In-situ conservation includes 115 Medicinal Plants Conservation Areas. The figures 242 and 1,178 relate to medicinal plant trade, while 9,361 refers to accessions maintained ex-situ at NBPGR."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Central Sector Scheme outlay",
+   "question": "What was the outlay of the Central Sector Scheme on medicinal plants under the National Medicinal Plants Board for 2021–22 to 2025–26?",
+   "options": [
+    "₹322.41 crore",
+    "₹9,361 crore",
+    "₹5,12,000 crore",
+    "₹115 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F10"
+   ],
+   "explanation": "The Central Sector Scheme on medicinal plants had an outlay of ₹322.41 crore for 2021–22 to 2025–26. The other figures are drawn from medicinal-plant conservation or trade data and are not the scheme outlay."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Medicinal plant programmes",
+   "question": "Consider the following statements:\nStatement A: The Aushadhi Vanaspati Mitra programme is associated with medicinal plants.\nStatement B: Cultivation of medicinal plants is now covered under MIDH.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F11"
+   ],
+   "explanation": "Both statements are true. The Aushadhi Vanaspati Mitra programme is associated with medicinal plants, and their cultivation is now covered under MIDH. Therefore, options claiming that either statement is false are incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "GI-tagged medicinal products and States",
+   "question": "Match the GI-tagged medicinal products in List-I with their associated States in List-II.\n\nList-I\n(a) Navara Rice\n(b) Green Cardamom\n(c) Ganjam Kewda Flower\n(d) Kashmir Saffron\n\nList-II\n(i) Kerala\n(ii) Kerala and Karnataka\n(iii) Odisha\n(iv) J&K",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F12",
+    "P3.F13",
+    "P3.F14",
+    "P3.F15"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: Navara Rice–Kerala; Green Cardamom–Kerala and Karnataka; Ganjam Kewda Flower–Odisha; and Kashmir Saffron–J&K. The other codes interchange these product-State associations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "GI tag and environmental organisation",
+   "question": "Consider the following statements:\nStatement A: Nagauri Ashwagandha received a GI tag in 2025.\nStatement B: TRAFFIC is not a UNEP bureau.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F16",
+    "P3.F17"
+   ],
+   "explanation": "Both statements are true. Nagauri Ashwagandha received a GI tag in 2025, and TRAFFIC is not a UNEP bureau. Hence, the options treating either statement as false are incorrect."
+  }
+ ]
+}

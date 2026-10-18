@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P11.F4",
+  "P13.F3",
+  "P13.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitutional basis and institutional association",
+   "question": "Consider the following statements:\n1. Press freedom flows from Article 19(1)(a) of the Constitution.\n2. The book “Janjati Gaurav” is associated with IGNCA, established in 1974.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4",
+    "P13.F3"
+   ],
+   "explanation": "Statement 1 is correct: press freedom flows from Article 19(1)(a). Statement 2 is incorrect because IGNCA was established in 1987, not 1974."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award-winning book and author",
+   "question": "Which book by Arundhati Roy received recognition in the NBCC Awards?",
+   "options": [
+    "“Mother Mary Comes to Me”",
+    "“We Do Not Part”",
+    "“Empire of AI”",
+    "“Fire in the Lake”"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F5"
+   ],
+   "explanation": "Arundhati Roy received recognition for “Mother Mary Comes to Me,” an autobiographical work. “We Do Not Part” is associated with Han Kang, “Empire of AI” with Karen Hao, and “Fire in the Lake” received a lifetime honour."
+  }
+ ]
+}

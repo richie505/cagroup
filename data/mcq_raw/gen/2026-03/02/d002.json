@@ -1,0 +1,179 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P6.F1",
+  "P6.F3",
+  "P6.F4",
+  "P7.F1",
+  "P7.F4",
+  "P8.F10",
+  "P8.F11",
+  "P8.F6",
+  "P8.F7",
+  "P8.F8",
+  "P8.F9",
+  "P9.F2",
+  "P9.F3",
+  "P9.F5",
+  "P9.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Mascots and roles",
+   "question": "At the launch of Census 2027, which pair of mascots was associated with the female and male enumerators respectively?",
+   "options": [
+    "Pragati and Vikas",
+    "Vikas and Pragati",
+    "Pragati and Pragati",
+    "Vikas and Vikas"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "Pragati is the mascot for female enumerators, while Vikas represents male enumerators. The other options reverse the pairing or assign the same mascot to both categories."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Census schedule and legal basis",
+   "question": "Consider the following statements regarding Census 2027:\n1. Phase 1, covering House Listing, will begin on April 1, 2026.\n2. Phase 2, covering Population Enumeration, is scheduled for February 2027, with reference to midnight of March 1, 2027.\n3. The Census is conducted under the Census Act, 1948.\n4. Mrityunjay Kumar Narayan is the Registrar General and Sudarsan Pattnaik is the brand ambassador.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "All four statements are correct: House Listing begins on April 1, 2026; Population Enumeration is scheduled for February 2027 with the March 1, 2027 reference midnight; and the Census operates under the Census Act, 1948. Mrityunjay Kumar Narayan and Sudarsan Pattnaik hold the stated Registrar General and brand ambassador roles respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Removal motion",
+   "question": "Which political grouping decided to move a removal motion against Chief Election Commissioner Gyanesh Kumar?",
+   "options": [
+    "The INDIA bloc",
+    "The Election Commission",
+    "The Council of Ministers",
+    "The Governors’ conference"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The INDIA bloc decided to move a removal motion against CEC Gyanesh Kumar. The Election Commission, the Council of Ministers and the Governors’ conference were not identified as the grouping taking this decision."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Removal of Election Commissioners",
+   "question": "Which of the following statements regarding the removal of Election Commissioners is incorrect?",
+   "options": [
+    "Other Election Commissioners are removed by the President on the recommendation of the Chief Election Commissioner.",
+    "A similar process applies to the removal of Supreme Court judges under Article 124.",
+    "Other Election Commissioners are removed by the President on the recommendation of the Comptroller and Auditor General.",
+    "A similar process applies to the removal of the Comptroller and Auditor General."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "The incorrect statement is the third one. Other Election Commissioners are removed by the President on the recommendation of the Chief Election Commissioner, not on the recommendation of the Comptroller and Auditor General. Similar removal processes apply to Supreme Court judges under Article 124 and to the CAG."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Governor appointments and transfers",
+   "question": "Match the following persons with their new posts in the Governor-related changes announced in March 2026.\n\nList-I\n a. Vinai Kumar Saxena\n b. Rajendra Vishwanath Arlekar\n c. Nand Kishore Yadav\n d. Lt. Gen. (Retd.) Syed Ata Hasnain\n\nList-II\n i. LG of Ladakh\n ii. Kerala Governor with additional charge of Tamil Nadu\n iii. Governor of Nagaland\n iv. Governor of Bihar\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F6",
+    "P8.F7",
+    "P8.F8",
+    "P8.F9"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Vinai Kumar Saxena became LG of Ladakh; Rajendra Vishwanath Arlekar received the additional charge of Tamil Nadu along with being Kerala Governor; Nand Kishore Yadav became Governor of Nagaland; and Syed Ata Hasnain became Governor of Bihar."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment as Delhi LG",
+   "question": "Who was appointed Lieutenant Governor of Delhi in the March 2026 Governor-related changes?",
+   "options": [
+    "Tajit Singh Nindhu",
+    "Vinai Kumar Saxena",
+    "Nand Kishore Yadav",
+    "Syed Ata Hasnain"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F10"
+   ],
+   "explanation": "Tajit Singh Nindhu was appointed Lieutenant Governor of Delhi. Vinai Kumar Saxena was appointed LG of Ladakh, while Nand Kishore Yadav and Syed Ata Hasnain became Governors of Nagaland and Bihar respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Constitutional provisions for Governor and LG",
+   "question": "Consider the following statements:\nStatement A: The office of the Governor is covered by Articles 153–162 and carries a six-year term.\nStatement B: A Lieutenant Governor functions as an Administrator under Article 238.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F11"
+   ],
+   "explanation": "Both statements are false. The Governor has a five-year term, not a six-year term, and a Lieutenant Governor functions as an Administrator under Article 239, not Article 238."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Governor appointment proposal",
+   "question": "Assertion (A): Under the Justice Kurian Joseph Committee's proposal, the President would choose a Governor from three names proposed by the State.\nReason (R): The three names would require approval by a majority of the State Assembly before the President picks one.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the Reason correctly explains the proposed appointment process. The State would propose three names, the Assembly majority would approve them, and the President would select one."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Governor reform proposals",
+   "question": "How many of the following are correct proposals of the Justice Kurian Joseph Committee on Governor reforms?\n1. Removal of the Governor by a resolution passed by the Assembly majority, along with amendments to Articles 155 and 156 for a fixed five-year tenure.\n2. Deletion of Article 176 relating to the Governor's special address.\n3. Reasons for reserving State List bills must be given within 30 days.",
+   "options": [
+    "Only one",
+    "Only two",
+    "All three",
+    "None"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F5",
+    "P9.F6"
+   ],
+   "explanation": "Only two statements are correct. The committee proposed removal by an Assembly majority resolution, amendments to Articles 155 and 156 for a fixed five-year tenure, and deletion of Article 176. The period for giving reasons on reserved bills was proposed as 60 days, not 30 days."
+  }
+ ]
+}

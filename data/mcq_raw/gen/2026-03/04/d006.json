@@ -1,0 +1,213 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P12.F10",
+  "P12.F11",
+  "P12.F12",
+  "P12.F3",
+  "P12.F6",
+  "P12.F9",
+  "P14.F2",
+  "P14.F3",
+  "P14.F4",
+  "P15.F2",
+  "P15.F3",
+  "P15.F4",
+  "P15.F5",
+  "P15.F6",
+  "P15.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Infrastructure delays and financing institutions",
+   "question": "Consider the following statements regarding infrastructure financing:\n1. Land acquisition causes about 30% of project delays.\n2. IRFC was established in 1986 and follows a leasing model.\n3. The Infrastructure Risk Guarantee Fund provides partial guarantees to lenders.\n4. The National Monetisation Pipeline is intended to sell operational assets outright.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "4 only"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F3",
+    "P12.F6",
+    "P12.F9",
+    "P12.F10"
+   ],
+   "explanation": "Only statement 3 is correct: the Infrastructure Risk Guarantee Fund provides partial guarantees to lenders. The other statements alter key details—land acquisition causes about 35% of delays, IRFC uses a leasing model but the statement is incomplete, and the National Monetisation Pipeline leases operational assets rather than selling them outright."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Infrastructure financing instruments and roles",
+   "question": "Match the following infrastructure financing institutions or instruments with their roles:\n\nList-I\n(a) IRFC\n(b) Infrastructure Risk Guarantee Fund\n(c) National Monetisation Pipeline\n(d) Green and blue bonds\n\nList-II\n(i) Lease operational assets\n(ii) Finance infrastructure through environment-linked bond instruments\n(iii) Long-term railway financing through a leasing model\n(iv) Provide partial guarantees to lenders",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F6",
+    "P12.F9",
+    "P12.F10",
+    "P12.F11"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii. IRFC uses a leasing model for long-term infrastructure finance, the Guarantee Fund offers partial guarantees, the National Monetisation Pipeline leases operational assets, and green and blue bonds are among the listed financing tools."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Digital security infrastructure",
+   "question": "What does Public Key Infrastructure refer to in the context of digital governance and security?",
+   "options": [
+    "Digital security infrastructure",
+    "A system for leasing operational infrastructure assets",
+    "A fund for partial guarantees to lenders",
+    "A scheme for financing railway rolling stock"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F12"
+   ],
+   "explanation": "Public Key Infrastructure refers to digital security infrastructure. The other options describe the National Monetisation Pipeline, the Infrastructure Risk Guarantee Fund and IRFC respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Infrastructure financing tools",
+   "question": "Which of the following is included among the other infrastructure financing tools identified for improving access to capital?",
+   "options": [
+    "Partial Credit Enhancement",
+    "Income-tax awareness campaign",
+    "AI-based monitoring of finfluencers",
+    "Aadhaar security bug bounty"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F11"
+   ],
+   "explanation": "Partial Credit Enhancement is one of the listed infrastructure financing tools, along with green and blue bonds, municipal bonds and GIFT City. The other options belong to tax awareness, securities-market monitoring and Aadhaar security initiatives."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Airport inauguration and developer",
+   "question": "Who developed the Noida International Airport at Jewar, whose Phase 1 was inaugurated on March 28, 2026?",
+   "options": [
+    "YIAPL",
+    "Central Warehousing Corporation",
+    "Bureau of Energy Efficiency",
+    "IRFC"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2"
+   ],
+   "explanation": "Phase 1 of the Noida International Airport at Jewar was inaugurated on March 28, 2026, and the airport was developed by YIAPL. The other organisations are associated with warehousing, energy efficiency and railway infrastructure financing."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Foundation day and institutional anniversary",
+   "question": "Consider the following statements:\nStatement A: The Central Warehousing Corporation observed its 70th foundation day on March 1, 2026.\nStatement B: The Bureau of Energy Efficiency completed 25 years, having been established on March 1, 2002.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F3",
+    "P14.F4"
+   ],
+   "explanation": "Statement A is false because the Central Warehousing Corporation observed its 70th foundation day on March 2, 2026. Statement B is true: the Bureau of Energy Efficiency completed 25 years and was established on March 1, 2002."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State economy projection",
+   "question": "What growth rate was recorded for Telangana’s GSDP in 2025–26 in the Telangana Budget 2026–27 context?",
+   "options": [
+    "10.7%",
+    "5%",
+    "12%",
+    "8.5%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2"
+   ],
+   "explanation": "Telangana’s GSDP for 2025–26 was recorded as ₹17,82,198 crore, with a growth rate of 10.7%. The figure of about 5% refers to Telangana’s approximate share of India’s GDP, not its GSDP growth rate."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Telangana Vision 2047",
+   "question": "Under Telangana’s Vision 2047, by which year is the State’s $1 trillion economy target proposed?",
+   "options": [
+    "2034",
+    "2031",
+    "2047",
+    "2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F3"
+   ],
+   "explanation": "Telangana’s Vision 2047 includes the objective of becoming a $1 trillion economy by 2034 and the third-largest state economy. The years 2031, 2047 and 2026 refer to other or altered timelines, not this target."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Telangana regional development initiatives",
+   "question": "Consider the following statements regarding initiatives in the Telangana Budget 2026–27:\n1. CURE targets 53.8 lakh jobs by 2031 beyond the RRR.\n2. HILT is included among the listed initiatives.\n3. PURE is an MSME hub beyond the RRR.\n4. RARE is designed within the ORR.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "4 only"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F4"
+   ],
+   "explanation": "Only statement 2 is correct: HILT is one of the initiatives listed in the Telangana Budget 2026–27. CURE targets 53.8 lakh jobs within the ORR, PURE is the MSME hub between the ORR and RRR, and RARE covers areas beyond the RRR."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Telangana Budget allocations and beneficiaries",
+   "question": "How many of the following statements regarding Telangana Budget 2026–27 initiatives are correct?\n1. Education was allocated ₹26,674 crore.\n2. Health was allocated ₹13,000 crore.\n3. The Mahalakshmi free-bus initiative serves 34.37 lakh women daily.\n4. The ₹500 gas-cylinder initiative covers 40.90 lakh households.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F5",
+    "P15.F6"
+   ],
+   "explanation": "Exactly two statements are correct: education received ₹26,674 crore, and the Mahalakshmi free-bus initiative serves 34.37 lakh women daily. The correct health allocation is ₹13,679 crore, while the ₹500 gas-cylinder initiative covers 42.90 lakh households."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rythu Bharosa assistance",
+   "question": "Under the Telangana Budget 2026–27, what assistance is provided through Rythu Bharosa?",
+   "options": [
+    "₹6,000 per acre per season",
+    "₹500 per household per month",
+    "₹12,000 per acre per season",
+    "₹23,179 per acre per year"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F7"
+   ],
+   "explanation": "Rythu Bharosa provides ₹6,000 per acre per season, amounting to ₹12,000 per year, with an allocation of ₹23,179 crore. The other options confuse the annual amount, the gas-cylinder support and the total allocation with the per-season assistance."
+  }
+ ]
+}

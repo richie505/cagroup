@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7
+ ],
+ "only": [
+  "P7.F2",
+  "P7.F30",
+  "P7.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Connectivity and digital identity indicators",
+   "question": "With reference to the Digital India transformation, consider the following statements:\n1. BharatNet has connected more than 2.15 lakh Gram Panchayats.\n2. Aadhaar has issued more than 143 crore IDs.\n3. BharatNet was launched in 2015.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: BharatNet has connected more than 2.15 lakh Gram Panchayats, and Aadhaar has issued more than 143 crore IDs. Statement 3 is incorrect because BharatNet was launched in 2011, not 2015."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Computer literacy and e-waste",
+   "question": "Match List-I with List-II in the context of the challenges associated with India’s digital transformation.\n\nList-I\n a. Computer literacy among persons aged 15 years and above\n b. E-waste generation in 2019–20\n c. E-waste generation in 2023–24\n d. Source associated with the computer-literacy figure\n\nList-II\n i. 24.7%\n ii. 1.01 million tonnes\n iii. 1.751 million tonnes\n iv. NSS 78th round\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F30"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: computer literacy was 24.7%, e-waste increased from 1.01 million tonnes in 2019–20 to 1.751 million tonnes in 2023–24, and the literacy figure was associated with the NSS 78th round. The other codes interchange these figures or the source."
+  }
+ ]
+}

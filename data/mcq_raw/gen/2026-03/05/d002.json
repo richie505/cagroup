@@ -1,0 +1,268 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P4.F2",
+  "P4.F6",
+  "P4.F7",
+  "P4.F9",
+  "P5.F10",
+  "P5.F11",
+  "P5.F12",
+  "P5.F13",
+  "P5.F3",
+  "P5.F5",
+  "P5.F6",
+  "P5.F7",
+  "P5.F8",
+  "P5.F9",
+  "P6.F2",
+  "P6.F3",
+  "P7.F2",
+  "P7.F3",
+  "P8.F4",
+  "P8.F5",
+  "P9.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Kimberley Process reforms",
+   "question": "Which of the following statements regarding the reforms sought in the Kimberley Process is/are correct?\n1. The definition of conflict diamonds is proposed to be widened to include human rights, child labour and environmental concerns.\n2. Digital certification and traceability are among the proposed reforms.\n3. The reforms propose replacing diamonds with gold in the certification process.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the proposed reforms include a wider definition of conflict diamonds and digital certification with traceability. Statement 3 is incorrect because replacing diamonds with gold is not among the stated reforms."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Conflict diamonds",
+   "question": "Match the conflict-diamond locations associated with the 1990s with the correct list.\n\nList-I\n a. Angola\n b. Sierra Leone\n c. Liberia\n d. Rwanda\n\nList-II\n i. Conflict-diamond location of the 1990s\n ii. Conflict-diamond location of the 1990s\n iii. Conflict-diamond location of the 1990s\n iv. Conflict-diamond location of the 1990s",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6"
+   ],
+   "explanation": "The correct matching is a-i, b-ii, c-iii and d-iv: Angola, Sierra Leone, Liberia and Rwanda were associated with conflict diamonds of the 1990s. The other codes incorrectly rearrange these four locations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "India in diamond trade",
+   "question": "Consider the following statements:\nStatement A: India is the largest cutting and polishing hub and the largest exporter of cut and polished diamonds, with exports of about $13.3 billion in 2024–25.\nStatement B: Diamond is composed of silicon.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F7",
+    "P4.F9"
+   ],
+   "explanation": "Statement A is true: India is the largest cutting and polishing hub and exporter of cut and polished diamonds, with exports of about $13.3 billion in 2024–25. Statement B is false because diamond is pure carbon, not silicon."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Incident involving IRIS Dena",
+   "question": "What was the reported incident that led to debate over warship immunity and freedom of navigation in connection with IRIS Dena’s sinking near Sri Lanka?",
+   "options": [
+    "A reported US submarine torpedo attack",
+    "A reported warship-immunity ruling",
+    "A reported freedom-of-navigation exercise",
+    "A reported Sri Lankan Navy rescue under UNCLOS"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The reported incident was a US submarine torpedo attack, which prompted debate over warship immunity and freedom of navigation. Warship immunity and freedom of navigation were subjects of debate, not the reported attack itself."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UNCLOS parties",
+   "question": "Which statement correctly describes the positions of India and the United States regarding UNCLOS?",
+   "options": [
+    "India is a party to UNCLOS, while the United States has not ratified it",
+    "India has not become a party to UNCLOS, while the United States has ratified it",
+    "Both India and the United States have ratified UNCLOS",
+    "Neither India nor the United States is a party to UNCLOS"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "India is a party to UNCLOS, whereas the United States has not ratified it. The alternatives reverse or incorrectly deny these positions."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "UNCLOS maritime zones",
+   "question": "How many of the following statements regarding the stated UNCLOS maritime-zone extents are correct?\n1. The Territorial Sea extends to 12 nautical miles.\n2. The Contiguous Zone extends to 24 nautical miles.\n3. The EEZ extends to 200 nautical miles.\n4. The Continental Shelf extends only up to 200 nautical miles.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F7",
+    "P5.F8",
+    "P5.F9"
+   ],
+   "explanation": "Only three statements are correct: the Territorial Sea is 12 nautical miles, the Contiguous Zone is 24 nautical miles and the EEZ is 200 nautical miles. Statement 4 is incorrect because the Continental Shelf may extend beyond 200 nautical miles under conditions."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "UNCLOS-related institutions and locations",
+   "question": "Match the UNCLOS-related institution or body with its stated location.\n\nList-I\n a. Body\n b. ITLOS\n c. International Seabed Authority\n d. CLCS\n\nList-II\n i. New York\n ii. Kingston\n iii. Hamburg\n iv. HQ",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F10",
+    "P5.F11",
+    "P5.F12",
+    "P5.F13"
+   ],
+   "explanation": "The correct pairs are Body–HQ, ITLOS–Hamburg, International Seabed Authority–Kingston and CLCS–New York. The other options rearrange these four locations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "FATF Plenary venue and chair",
+   "question": "The decision to add Kuwait and Papua New Guinea to the FATF grey list was taken at which plenary, and who chaired it?",
+   "options": [
+    "The 5th FATF Plenary in Mexico, chaired by Elisa de Anda Madrazo",
+    "The 5th FATF Plenary in Paris, chaired by Elisa de Anda Madrazo",
+    "The 5th FATF Plenary in Mexico, chaired by António Guterres",
+    "The 5th FATF Plenary in Geneva, chaired by Pablo Quirno"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "The decision was taken at the 5th FATF Plenary in Mexico, chaired by Elisa de Anda Madrazo of Mexico. Paris, Geneva, António Guterres and Pablo Quirno do not match this plenary detail."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "FATF establishment, HQ and membership",
+   "question": "Which combination correctly describes the Financial Action Task Force (FATF)?",
+   "options": [
+    "Established in 1989, headquartered in Paris, with 39 members",
+    "Established in 1945, headquartered in New York, with 15 members",
+    "Established in 1948, headquartered in Geneva, with 39 members",
+    "Established in 2000, headquartered in Paris, with 60 participants"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "FATF was established in 1989, has its headquarters in Paris and has 39 members. The other options combine details associated with different organisations or processes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UN establishment and headquarters",
+   "question": "Which combination correctly describes the United Nations?",
+   "options": [
+    "Established on 24 October 1945 and headquartered in New York",
+    "Established on 10 December 1982 and headquartered in Montego Bay",
+    "Established in 1948 and headquartered in Geneva",
+    "Established in 1989 and headquartered in Paris"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "The United Nations was established on 24 October 1945 and is headquartered in New York. Montego Bay is associated with the adoption of UNCLOS, while Geneva and Paris are headquarters locations of other organisations in the facts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UNSC composition and P5",
+   "question": "Which statement correctly describes the composition of the United Nations Security Council and its permanent members?",
+   "options": [
+    "It has 15 members, including 5 permanent members: the US, Russia, China, the UK and France",
+    "It has 15 members, including 10 permanent members: the US, Russia, China, the UK and France",
+    "It has 5 members, including 15 permanent members: the US, Russia, China, the UK and France",
+    "It has 39 members, including 5 permanent members: the US, Russia, China, the UK and France"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "The Security Council has 15 members: 5 permanent and 10 non-permanent. The permanent members are the US, Russia, China, the UK and France; the other options alter the Council’s composition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "WHO HQ, establishment and Director-General",
+   "question": "Which combination correctly describes the World Health Organization?",
+   "options": [
+    "Headquartered in Geneva, established in 1948, with Dr. Tedros Adhanom Ghebreyesus as Director-General",
+    "Headquartered in New York, established in 1945, with Dr. Tedros Adhanom Ghebreyesus as Director-General",
+    "Headquartered in Paris, established in 1989, with Dr. Tedros Adhanom Ghebreyesus as Director-General",
+    "Headquartered in Geneva, established in 1969, with Dr. Tedros Adhanom Ghebreyesus as Director-General"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4"
+   ],
+   "explanation": "The WHO is headquartered in Geneva, was established in 1948 and is led by Director-General Dr. Tedros Adhanom Ghebreyesus. The alternatives change the headquarters or year of establishment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Argentina capital and currency",
+   "question": "What are the capital and currency of Argentina, respectively?",
+   "options": [
+    "Buenos Aires and Argentine Peso",
+    "Jakarta and Rupiah",
+    "Geneva and Argentine Peso",
+    "Buenos Aires and Rupiah"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "Argentina’s capital is Buenos Aires and its currency is the Argentine Peso. Jakarta and Rupiah are associated with Indonesia, not Argentina."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indonesia leadership and currency",
+   "question": "Which combination correctly identifies Indonesia’s capital, currency and President?",
+   "options": [
+    "Jakarta, Rupiah and Prabowo Subianto",
+    "Buenos Aires, Argentine Peso and Prabowo Subianto",
+    "Jakarta, Argentine Peso and Javier Milei",
+    "Geneva, Rupiah and Pablo Quirno"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "Indonesia has Jakarta as its capital, the Rupiah as its currency and Prabowo Subianto as its President. Buenos Aires and the Argentine Peso belong to Argentina, while Javier Milei and Pablo Quirno are not Indonesia’s President."
+  }
+ ]
+}

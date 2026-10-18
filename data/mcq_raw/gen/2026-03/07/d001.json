@@ -1,0 +1,201 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F1",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F2",
+  "P2.F6",
+  "P2.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Report submission",
+   "question": "Which country submitted the Seventh National Report (NR7) to the Convention on Biological Diversity (CBD), described as its first comprehensive assessment since the Kunming-Montreal Global Biodiversity Framework of 2022?",
+   "options": [
+    "India",
+    "MoEFCC",
+    "National Biodiversity Authority",
+    "UNDP"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "India submitted the Seventh National Report to the CBD. The report was described as the first comprehensive assessment since the 2022 Kunming-Montreal Global Biodiversity Framework; MoEFCC, NBA and UNDP were associated with related biodiversity work, not the country submitting the report."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Forest and tree cover",
+   "question": "In India’s Seventh National Report to the CBD, which indicator was recorded at 827,357 sq km, or 25.17%?",
+   "options": [
+    "Forest and tree cover",
+    "Degraded land",
+    "Forest carbon stock",
+    "Tiger population"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F5",
+    "P1.F7",
+    "P1.F10"
+   ],
+   "explanation": "The value of 827,357 sq km, representing 25.17%, refers to forest and tree cover. Degraded land was reported as 29.77%, forest carbon stock as 7,285.5 million tonnes, and the tiger population as 3,167."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Degraded land",
+   "question": "According to India’s Seventh National Report to the CBD, what proportion of land was identified as degraded?",
+   "options": [
+    "29.77%",
+    "25.17%",
+    "Approximately 8.65%",
+    "Slightly above 5%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F4",
+    "P1.F9",
+    "P1.F11"
+   ],
+   "explanation": "Degraded land accounted for 29.77%, equivalent to 97 million ha, according to the Desertification and Land Degradation Atlas. The other figures relate to forest and tree cover, protected areas, and agroforestry."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Biodiversity indicators",
+   "question": "With reference to the biodiversity indicators reported in India’s Seventh National Report to the CBD, how many of the following statements are correct?\n\n1. India pledged to restore 26 million ha by 2030 under the Bonn Challenge.\n2. India’s forest carbon stock was reported as 7,285.5 million tonnes.\n3. The 26 million ha Bonn Challenge pledge had already been completed by 2030.\n4. India’s forest carbon stock was reported in million ha.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so the answer is Only two. The Bonn Challenge figure completed or under way was 24.1 million ha, while 7,285.5 was the forest carbon stock in million tonnes, not million ha."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Bamboo area",
+   "question": "Which of the following statements regarding the bamboo-area indicator in India’s Seventh National Report to the CBD is incorrect?",
+   "options": [
+    "The bamboo area increased by 1,540 sq km.",
+    "The reported change in bamboo area was an increase.",
+    "The bamboo-area indicator recorded a gain of 1,540 sq km.",
+    "The bamboo area declined by 1,540 sq km."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "The incorrect statement is that bamboo area declined by 1,540 sq km. The reported change was an increase of 1,540 sq km."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Protected-area coverage",
+   "question": "What level of protected-area coverage was reported in India’s Seventh National Report to the CBD?",
+   "options": [
+    "Slightly above 5% of the area",
+    "25.17% of the area",
+    "Approximately 8.65% of the area",
+    "30% of the area"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F4",
+    "P1.F11",
+    "P1.F14"
+   ],
+   "explanation": "Protected areas covered slightly above 5% of India’s area. This remained far below the 30×30 goal, which refers to 30% of land and oceans by 2030; 25.17% relates to forest and tree cover, while approximately 8.65% relates to agroforestry."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Biodiversity indicators and initiatives",
+   "question": "Match List-I with List-II in the context of India’s Seventh National Report to the CBD.\n\nList-I\n a. Bamboo area\n b. Tigers\n c. Agroforestry\n d. PARIVESH 2.0\n\nList-II\n i. Digital environmental approvals\n ii. 3,167\n iii. Increase of 1,540 sq km\n iv. Approximately 8.65% of area",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F10",
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i. Bamboo area increased by 1,540 sq km, the tiger figure was 3,167, agroforestry covered approximately 8.65% of the area, and PARIVESH 2.0 concerns digital environmental approvals."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "CBD and KMGBF",
+   "question": "Assertion (A): The Convention on Biological Diversity entered into force on 29 December 1993.\nReason (R): The Kunming-Montreal Global Biodiversity Framework contains 23 global targets, including the 30×30 target.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F13",
+    "P1.F14"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the number and scope of KMGBF targets do not explain the CBD’s entry into force on 29 December 1993; they are separate facts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Current cheetah population",
+   "question": "Following the latest phase of Project Cheetah, how many cheetahs did India have in total?",
+   "options": [
+    "48",
+    "39",
+    "27",
+    "2023"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "India’s total cheetah population was 48. The figure of 39 refers to cubs born in 2023, while 27 of those cubs survived; 2023 is the year associated with their birth, not the population total."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cheetah extinction and conservation agencies",
+   "question": "Consider the following statements about Project Cheetah and the status of cheetahs in India:\n\n1. The cheetah was declared extinct in India in 1952.\n2. The National Tiger Conservation Authority and the Wildlife Institute of India are associated with the programme.\n3. The African cheetah is classified as Vulnerable by the IUCN.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "All three statements are correct. The cheetah was declared extinct in India in 1952, the agencies associated with the programme are NTCA and WII, and the African cheetah is classified as Vulnerable by the IUCN."
+  }
+ ]
+}

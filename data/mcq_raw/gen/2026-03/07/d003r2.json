@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P6.F3",
+  "P6.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "February precipitation deficit",
+   "question": "During Kashmir's shrinking-snowfall episode, what were the February precipitation figures and deficit reported?",
+   "options": [
+    "14.2 mm against a normal of 130.4 mm, an approximately 89% deficit",
+    "100.6 mm against a normal of 284.9 mm, a 65% deficit",
+    "5.3 mm against a normal of 130.4 mm, an approximately 89% deficit",
+    "14.2 mm against a normal of 284.9 mm, a 65% deficit"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "February precipitation was 14.2 mm, compared with the normal 130.4 mm, representing an approximately 89% deficit. The 100.6 mm and 284.9 mm figures refer to winter precipitation from December to February, not February alone."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Srinagar precipitation and temperature",
+   "question": "Which combination correctly describes the reported February conditions in Srinagar during Kashmir's unusually warm and dry winter?",
+   "options": [
+    "5.3 mm precipitation and an approximately 15.6°C February temperature, with the temperature described as a record",
+    "14.2 mm precipitation and an approximately 15.6°C February temperature, with the temperature described as a record",
+    "5.3 mm precipitation and an approximately 5.3°C February temperature, with the temperature described as a record",
+    "100.6 mm precipitation and an approximately 15.6°C February temperature, with the temperature described as a record"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "Srinagar recorded 5.3 mm of precipitation, among the lowest since 1901, while its February temperature was approximately 15.6°C, described as a record. The 14.2 mm figure is Kashmir's February precipitation, whereas 100.6 mm is the December–February winter total."
+  }
+ ]
+}

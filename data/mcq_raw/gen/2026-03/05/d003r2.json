@@ -1,0 +1,54 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": [
+  "P16.F1",
+  "P16.F2",
+  "P16.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "First presidential signature on currency",
+   "question": "With reference to the announcement regarding US dollar notes carrying President Donald Trump's signature, consider the following statements:\n\n1. It will be the first time a sitting President's signature appears on US currency.\n2. The $100 note will be the first denomination to carry the signature, beginning in June 2026.\n3. The move marks the 250th US Independence Day on July 4, 2026; since 1861, only the Treasurer and the Treasury Secretary had signed US currency.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2"
+   ],
+   "explanation": "All three statements are correct. The $100 note is scheduled to carry Trump's signature first in June 2026, marking the 250th US Independence Day; since 1861, only the Treasurer and Treasury Secretary had signed US currency. The options excluding statement 1 or statement 3 are therefore incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Approval of commemorative gold coin",
+   "question": "Which body approved the 24-carat gold coin bearing Donald Trump's image in March 2026?",
+   "options": [
+    "The Commission of Fine Arts",
+    "The World Health Organization",
+    "The Pan American Health Organization",
+    "The European Union Aviation Safety Agency"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F3"
+   ],
+   "explanation": "The Commission of Fine Arts approved the 24-carat gold coin bearing Trump's image. The World Health Organization, Pan American Health Organization and European Union Aviation Safety Agency are not the body identified with this approval."
+  }
+ ]
+}

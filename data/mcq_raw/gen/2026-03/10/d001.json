@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7
+ ],
+ "only": [
+  "P7.F2",
+  "P7.F3",
+  "P7.F4",
+  "P7.F5",
+  "P7.F6",
+  "P7.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "League launch, teams and schedule",
+   "question": "With reference to the Cycling League of India, consider the following statements:\n1. It is India's first franchise road-cycling league.\n2. It will have 10 teams.\n3. It is scheduled for November 2026.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the Cycling League of India is India's first franchise road-cycling league and is scheduled for November 2026. Statement 2 is incorrect because the league will have 8 teams, not 10."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Venue, event and office-bearer",
+   "question": "Match List-I with List-II in the context of the Asia Cup Archery 2027 and other archery events in 2026.\n\nList-I\n a. Second leg of Asia Cup Archery 2027\n b. President of the Archery Association of India\n c. Asian Para Archery 2026\n d. South Asian Archery 2026\n\nList-II\n i. Kolkata\n ii. Ahmedabad\n iii. New Delhi\n iv. Arjun Munda",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F7"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i: the Asia Cup second leg is in New Delhi, Arjun Munda is the AAI President, Asian Para Archery is in Ahmedabad, and South Asian Archery is in Kolkata. The other codes interchange these venues and the office-bearer's name."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Retirement and international career",
+   "question": "On which date did Indian hockey player Gurjant Singh announce his retirement from international hockey in 2026?",
+   "options": [
+    "27 March 2026",
+    "20 March 2026",
+    "27 February 2026",
+    "27 April 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "Gurjant Singh retired on 27 March 2026. The other dates alter the month or day and do not match the reported retirement date."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Sports centenary and IOC policy",
+   "question": "How many of the following statements are correct?\n1. India–New Zealand sports ties began in 1926 through an Indian Army hockey tour.\n2. India–New Zealand sports ties began in 1926 through an Indian Army football tour.\n3. The IOC bars transgender men from women's events.\n4. The IOC was established in 1895.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5",
+    "P7.F6"
+   ],
+   "explanation": "Only statement 1 is correct: India–New Zealand sports ties began in 1926 through an Indian Army hockey tour. Statement 2 changes hockey to football, statement 3 changes transgender women to transgender men, and statement 4 changes the IOC's establishment year from 1894 to 1895."
+  }
+ ]
+}

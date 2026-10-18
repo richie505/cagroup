@@ -1,0 +1,136 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F2",
+  "P0.F7",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Earlier GDP base years",
+   "question": "Before the current GDP series with base year 2022–23, which sequence correctly lists the earlier base years used in India?",
+   "options": [
+    "1948–49, 1960–61, 1970–71, 1980–81, 1993–94, 1999–2000, 2004–05, 2011–12",
+    "1948–49, 1960–61, 1975–76, 1985–86, 1993–94, 1999–2000, 2004–05, 2011–12",
+    "1950–51, 1960–61, 1970–71, 1980–81, 1993–94, 1999–2000, 2004–05, 2011–12",
+    "1948–49, 1960–61, 1970–71, 1980–81, 1993–94, 2000–01, 2004–05, 2011–12"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The correct sequence of earlier GDP base years is 1948–49, 1960–61, 1970–71, 1980–81, 1993–94, 1999–2000, 2004–05 and 2011–12. The tempting alternative substitutes 1975–76 and 1985–86 for 1970–71 and 1980–81."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP size",
+   "question": "According to the new GDP estimates, what was the estimated size of India’s GDP in FY 2025–26?",
+   "options": [
+    "₹322.58 lakh crore",
+    "₹299.89 lakh crore",
+    "₹315.58 lakh crore",
+    "₹332.25 lakh crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "India’s GDP size for FY 2025–26 was estimated at ₹322.58 lakh crore. ₹299.89 lakh crore was the figure for FY25, making it the most plausible trap."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "CEA growth outlook",
+   "question": "Assertion (A): CEA V. Anantha Nageswaran projected FY27 growth at 6.7–7%.\nReason (R): He stated that the economy may cross $4 trillion.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "The assertion is false because the projected FY27 growth range was 7–7.4%, not 6.7–7%. The reason is true: the economy may cross $4 trillion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CRISIL forecast",
+   "question": "What FY 2026–27 growth forecast and CPI projection were given by CRISIL?",
+   "options": [
+    "About 7.1% growth and CPI at 4.3%",
+    "About 7% growth and CPI at 4.5%",
+    "6.1% growth and CPI at 3.8%",
+    "6.7% growth and CPI at 4.6%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "CRISIL forecast about 7.1% growth for FY 2026–27 and projected CPI at 4.3%. The 7% growth and 4.5% CPI combination belongs to Nomura’s revised forecast figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nomura forecast",
+   "question": "Which combination represents Nomura’s FY 2026–27 forecast revisions?",
+   "options": [
+    "Growth from 7.1% to 7%, inflation from 3.8% to 4.5%, and CAD from 1.2% to 1.6%",
+    "Growth from 7.1% to 6.1%, inflation from 3.8% to 4.3%, and CAD from 1.2% to 2%",
+    "Growth from 7.5% to 6.7%, inflation from 3.9% to 4.6%, and CAD from 1.2% to 1.6%",
+    "Growth from 7.1% to 7%, inflation from 4.3% to 4.5%, and CAD from 1.6% to 2%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "Nomura revised its growth forecast from 7.1% to 7%, inflation from 3.8% to 4.5%, and CAD from 1.2% to 1.6%. The third option combines figures associated with Fitch and Goldman Sachs with the Nomura CAD figure."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "OECD and petroleum reserves",
+   "question": "Consider the following statements:\n1. The OECD forecast India’s FY 2026–27 growth at 6.1%.\n2. The OECD was established on 14 December 1960 and has 38 members.\n3. CRISIL estimated SPR at about 10 days and commercial reserves at about 60 days.",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12",
+    "P0.F13"
+   ],
+   "explanation": "Only statement 1 is correct: the OECD forecast FY 2026–27 growth at 6.1%. Statement 2 changes the OECD’s membership figure from 38 to a different figure, while CRISIL’s commercial-reserve estimate was about 65 days, not about 60 days."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Agency-wise growth forecasts",
+   "question": "Match the agency or forecast item in List-I with the corresponding forecast in List-II.\n\nList-I\n(a) Fitch — FY27 growth\n(b) Goldman Sachs — CY26 growth\n(c) S&P Global — FY27 growth\n(d) Fitch — crude price\n\nList-II\n(i) 7.1%\n(ii) About $70 per barrel\n(iii) 6.7%\n(iv) 5.9%",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14",
+    "P0.F15",
+    "P0.F16"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii: Fitch forecast 6.7% for FY27 and crude at about $70 per barrel, Goldman Sachs cut CY26 growth to 5.9%, and S&P Global forecast FY27 growth at 7.1%. The second option incorrectly assigns Goldman Sachs 6.7% and Fitch’s crude-price figure to S&P Global."
+  }
+ ]
+}

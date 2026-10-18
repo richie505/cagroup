@@ -1,34 +1,34 @@
 # CA MCQ report
 
-- MCQs kept: **7769**
-- News pages with at least one question: **2604 / 2629**
-- Facts tested: **14227 / 20515** (69.3%)
-- Answer positions: A 1935, B 2028, C 2074, D 1732
+- MCQs kept: **8290**
+- News pages with at least one question: **2609 / 2629**
+- Facts tested: **15017 / 20515** (73.2%)
+- Answer positions: A 2064, B 2177, C 2203, D 1846
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 829 | 829 | 892 | 763 |
-| Negative / Incorrect Statement | 149 | 146 | 156 | 139 |
-| Assertion-Reason | 144 | 167 | 222 | 181 |
-| Statement-Based (A/B) | 259 | 173 | 235 | 188 |
-| Multi-Statement Correctness | 281 | 298 | 263 | 267 |
-| Chronological Ordering | 5 | 4 | 2 | 2 |
-| List-Matching | 187 | 179 | 168 | 186 |
-| Count-Based | 81 | 232 | 136 | 6 |
+| Direct Recall | 882 | 894 | 959 | 818 |
+| Negative / Incorrect Statement | 158 | 149 | 160 | 145 |
+| Assertion-Reason | 150 | 179 | 226 | 188 |
+| Statement-Based (A/B) | 269 | 181 | 249 | 198 |
+| Multi-Statement Correctness | 303 | 318 | 281 | 282 |
+| Chronological Ordering | 5 | 4 | 2 | 3 |
+| List-Matching | 213 | 201 | 184 | 206 |
+| Count-Based | 84 | 251 | 142 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 933 |
-| verify:explanation_contradicts | 153 |
-| verify:not_in_facts | 116 |
-| duplicate | 50 |
-| verify:two_correct | 31 |
-| verify:none_correct | 28 |
-| verify:second reader picked option 2, key 1 | 18 |
-| verify:ambiguous_stem | 8 |
-| verify:garbled | 6 |
+| code | 978 |
+| verify:explanation_contradicts | 165 |
+| verify:not_in_facts | 121 |
+| duplicate | 54 |
+| verify:two_correct | 35 |
+| verify:none_correct | 30 |
+| verify:second reader picked option 2, key 1 | 19 |
+| verify:ambiguous_stem | 9 |
+| verify:garbled | 7 |
 | verify:second reader picked option 1, key 0 | 5 |
 | verify:second reader picked option 3, key 0 | 2 |
 | verify:second reader picked option 0, key 1 | 2 |
@@ -120,17 +120,17 @@
 | 2026-04/09 | Awards, Persons & Appointments | 25 | 48/49 |
 | 2026-04/10 | Sports | 25 | 41/41 |
 | 2026-04/11 | Important Days & Events | 72 | 111/113 |
-| 2026-03/01 | Andhra Pradesh | 37 | 78/174 |
-| 2026-03/02 | Polity & Governance | 32 | 76/159 |
-| 2026-03/03 | Schemes & Social Sector | 10 | 17/47 |
-| 2026-03/04 | Economy, Banking & Budget | 32 | 61/196 |
-| 2026-03/05 | International Relations | 26 | 53/133 |
-| 2026-03/06 | Science, Tech, Space & Defence | 27 | 55/166 |
-| 2026-03/07 | Environment & Geography | 29 | 55/154 |
-| 2026-03/08 | Reports, Indices & Rankings | 9 | 14/48 |
-| 2026-03/09 | Awards, Persons & Appointments | 21 | 56/122 |
-| 2026-03/10 | Sports | 8 | 16/42 |
-| 2026-03/11 | Important Days & Events | 14 | 21/78 |
+| 2026-03/01 | Andhra Pradesh | 99 | 172/174 |
+| 2026-03/02 | Polity & Governance | 86 | 157/159 |
+| 2026-03/03 | Schemes & Social Sector | 29 | 47/47 |
+| 2026-03/04 | Economy, Banking & Budget | 117 | 192/196 |
+| 2026-03/05 | International Relations | 75 | 129/133 |
+| 2026-03/06 | Science, Tech, Space & Defence | 96 | 165/166 |
+| 2026-03/07 | Environment & Geography | 92 | 151/154 |
+| 2026-03/08 | Reports, Indices & Rankings | 31 | 47/48 |
+| 2026-03/09 | Awards, Persons & Appointments | 61 | 120/122 |
+| 2026-03/10 | Sports | 27 | 41/42 |
+| 2026-03/11 | Important Days & Events | 53 | 71/78 |
 | 2026-02/01 | Andhra Pradesh | 42 | 107/236 |
 | 2026-02/02 | Polity & Governance | 36 | 72/198 |
 | 2026-02/03 | Schemes & Social Sector | 14 | 35/73 |
@@ -1170,15 +1170,93 @@
 - `2026-03/01/c002#1` verify: ambiguous_stem — The facts describe ₹2,300 crore as a rounded figure but give ₹2,387.81 crore as the precise investment, so Statement A depends on whether rounding is accepted.
   - Q: Consider the following statements: / Statement A: The semiconductor ATMP centre near Visakhapatnam involves an investment of ₹2,300 crore. / Statement B: The centre is being established at Taruvada, Anand
   - Key: Statement A is false, Statement B is true
+- `2026-03/01/d001#4` verify: explanation_contradicts — The facts establish that Statement A is true and Statement B is false, contrary to the explanation's claim that both are false.
+  - Q: Consider the following statements: / Statement A: Andhra Pradesh offered land allocation, full administrative support and institutional cooperation for establishing the National Judicial Academy in Amar
+  - Key: Both Statement A and Statement B are false
+- `2026-03/01/d003#0` verify: explanation_contradicts — The correct matching is option 0, but the explanation incorrectly says option 1.
+  - Q: Match the features associated with the ‘Araku Kouni’ tribal millet-based food menu in List-I with the correct details in List-II. /  / List-I / (a) First availability / (b) Subsequent expansion / (c) Recipe doc
+  - Key: a-iii, b-iv, c-i, d-ii
+- `2026-03/02/d000#3` verify: garbled — The facts require both the first Bill and the Geeta Mukherjee Committee to map to 1996, but no option provides that pairing.
+  - Q: Match List-I with List-II regarding initiatives and milestones related to women’s representation. /  / List-I / (a) Women’s reservation Bill — first introduction / (b) Committee on the Status of Women in Indi
+  - Key: a-iii, b-i, c-ii, d-iv
+- `2026-03/04/d000#5` verify: explanation_contradicts — The facts state that the OECD has 38 members, so statements 1 and 2 are correct and statement 3 is false.
+  - Q: Consider the following statements: / 1. The OECD forecast India’s FY 2026–27 growth at 6.1%. / 2. The OECD was established on 14 December 1960 and has 38 members. / 3. CRISIL estimated SPR at about 10 days 
+  - Key: Exactly one statement is correct
+- `2026-03/04/d002#1` verify: explanation_contradicts — The facts establish that statements 1 and 3 are correct, contrary to the given explanation.
+  - Q: Consider the following statements about India's crude-oil storage position: / 1. Total national storage, including commercial stocks, is approximately 74 days. / 2. The government estimate is approximatel
+  - Key: 1 only
+- `2026-03/04/d003#13` verify: two_correct — Because three List-II entries are all 2020, options 0 and 2 encode the same factual matching.
+  - Q: Match the Labour Code in List-I with the year of enactment in List-II. /  / List-I / (a) Code on Wages / (b) Industrial Relations Code / (c) Code on Social Security / (d) Occupational Safety, Health and Working C
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2026-03/04/d003r2#1` verify: two_correct — Because three List-II entries all denote 2020, option 2 also matches the stated years.
+  - Q: Match the Labour Codes with the years in which they were enacted: /  / List-I / (a) Code on Wages / (b) Industrial Relations Code / (c) Code on Social Security / (d) Occupational Safety, Health and Working Condit
+  - Key: a-ii, b-i, c-iii, d-iv
+- `2026-03/04/d005#8` verify: explanation_contradicts — The facts support all four statements, contrary to the explanation's claim that only statements 1 and 2 are correct.
+  - Q: How many of the following statements about the water footprint of rice are correct? / 1. The conventional system maintains a field water level of 5 cm. / 2. It involves 20–30 irrigations. / 3. One irrigatio
+  - Key: Only two
+- `2026-03/04/d006#0` verify: two_correct — Statements 2 and 3 are supported by the facts, but no option represents both.
+  - Q: Consider the following statements regarding infrastructure financing: / 1. Land acquisition causes about 30% of project delays. / 2. IRFC was established in 1986 and follows a leasing model. / 3. The Infras
+  - Key: 3 only
 - `2026-03/05/c003#3` verify: not_in_facts — The facts identify the parties and location but do not explicitly establish that a Postal MoU was signed.
   - Q: Consider the following statements regarding the India–Bhutan postal cooperation announced in March 2026: / 1. The Postal MoU was signed in Thimphu between Bhutan Post Corporation Ltd and the Department 
   - Key: 1 only
+- `2026-03/05/d000#9` verify: second reader picked option 2, key 1 — 
+  - Q: Consider the following statements: / Statement A: The 1979 Iranian Revolution severed Iran's ties with Israel. / Statement B: After the revolution, the United States was called the “Little Satan” and Isra
+  - Key: Both Statement A and Statement B are false
+- `2026-03/05/d000r2#1` verify: not_in_facts — The facts support both date and strike-description matches for Operation Midnight Hammer but do not establish the required 1979 Revolution–June 2025 pairing.
+  - Q: Match List-I with List-II in the context of Iran-related developments: /  / List-I / (a) 1979 Iranian Revolution / (b) Operation Midnight Hammer / (c) US / (d) Israel /  / List-II / (i) June 2025 / (ii) “Great Satan” / (ii
+  - Key: a-i, b-iv, c-ii, d-iii
+- `2026-03/05/d002#1` verify: two_correct — All four List-II entries have the same description, so the matching options are indistinguishable.
+  - Q: Match the conflict-diamond locations associated with the 1990s with the correct list. /  / List-I /  a. Angola /  b. Sierra Leone /  c. Liberia /  d. Rwanda /  / List-II /  i. Conflict-diamond location of the 1990s /  ii
+  - Key: a-i, b-ii, c-iii, d-iv
 - `2026-03/06/c002#0` verify: explanation_contradicts — The facts support statement 2, so all three statements are correct despite the explanation marking statement 2 incorrect.
   - Q: With reference to the expanded Integrated Air and Missile Defence (IAMD) network against Iran, consider the following statements: / 1. The network involves the United States, Israel and the UAE. / 2. Duri
   - Key: 1 and 3 only
+- `2026-03/06/d002#7` verify: explanation_contradicts — At least 1.5 years necessarily means at least 1 year, so statement 4 is also correct.
+  - Q: How many of the following statements regarding missile-defence performance and replenishment are correct? / 1. Iron Dome was reported to have an 80–97% success rate. / 2. US GMD tests showed approximately
+  - Key: Only three
+- `2026-03/07/d002#0` verify: not_in_facts — The facts establish statements 1 and 2 and contradict statement 3, but do not determine whether statement 4 is true or false.
+  - Q: With reference to India's medicinal plant wealth, consider the following statements: / 1. India is one of the 17 mega-biodiverse countries. / 2. India accounts for approximately 7% of global biodiversity 
+  - Key: 1 and 2 only
+- `2026-03/08/d000#12` verify: ambiguous_stem — Hong Kong and Narita are both described identically as being in the Top 10, so List-II items i and iv are not uniquely distinguishable.
+  - Q: Match List-I with List-II in the context of the Skytrax World Airport Awards 2026. /  / List-I /  a. Delhi IGI Airport’s global rank /  b. Hong Kong Airport’s status /  c. Delhi IGI Airport’s national and regio
+  - Key: a-ii, b-i, c-iii, d-iv
 - `2026-03/09/c002#0` verify: two_correct — All four listed people are stated in the facts as included in TIME Women of the Year 2026.
   - Q: Who was included in TIME Women of the Year 2026?
   - Key: Safina Hussain
+- `2026-03/09/d000#3` verify: none_correct — Statements 1 and 3 are correct, but no option gives that combination.
+  - Q: With reference to the Jnanpith Award editions, consider the following statements: /  / 1. The 53rd edition in 2017 was awarded to Krishna Sobti for Hindi. / 2. The 52nd edition in 2016 was awarded to Shankh
+  - Key: Only Statement 1
+- `2026-03/09/d001#8` verify: explanation_contradicts — The facts establish that statements 1 and 3 are correct, so the count is two rather than one.
+  - Q: How many of the following statements about the Academy Awards background are correct? / 1. The Academy Awards were first held in 1929 at the Hollywood Roosevelt Hotel. / 2. The name “Oscar” became officia
+  - Key: Only one
+- `2026-03/09/d003#13` verify: explanation_contradicts — The facts make both pairs 1 and 4 correct, so the count is two rather than only the first pair.
+  - Q: How many of the following category-winner pairs are correct at the Gaddar Telangana Film Awards 2025? / 1. Makeup — Y. Govindaraju / 2. Costume — Peter Hein / 3. Action — Peter Hein / 4. Costume — Chandrakant
+  - Key: Only one
+- `2026-03/09/d004#1` verify: not_in_facts — The facts do not establish which book received recognition in the NBCC Awards.
+  - Q: Which book by Arundhati Roy received recognition in the NBCC Awards?
+  - Key: “Mother Mary Comes to Me”
+- `2026-03/10/d000#5` verify: not_in_facts — The facts do not identify the winner of Best ODI Player, so the complete matching cannot be established.
+  - Q: Match List-I with List-II regarding the BCCI Annual (Naman) Awards 2026. /  / List-I / (a) Best All-rounder / (b) Ranji Trophy Best All-rounder / (c) Best Cricketer (domestic) / (d) Best ODI Player /  / List-II / (i) I
+  - Key: a-iii, b-iv, c-i, d-ii
+- `2026-03/11/d000#6` verify: explanation_contradicts — The facts make statements 1 and 2 true, so the correct count is only two, not only one as stated in the explanation.
+  - Q: How many of the following statements about Shaheed Diwas and World TB Day in 2026 are correct? /  / 1. Bhagat Singh, Rajguru and Sukhdev were hanged in Lahore in 1931. / 2. The theme of World TB Day was “Ye
+  - Key: Only one
+- `2026-03/11/d000r2#2` verify: not_in_facts — The facts establish SCI’s association with Mazagon Dock but do not explicitly establish that Mazagon Dock developed the PSV.
+  - Q: Match the following firsts and entities with the correct details: /  / List-I /  a. NMDC /  b. Shipping Corporation of India /  c. Mazagon Dock /  d. 3,000 DWT /  / List-II /  i. Headquarters at Hyderabad /  ii. Develope
+  - Key: a-i, b-iii, c-ii, d-iv
+- `2026-03/11/d001#7` verify: none_correct — The facts establish that statements 1 and 2 are true and statement 3 is false, but no option represents “1 and 2 only.”
+  - Q: Consider the following statements about the World Trade Organization: /  / 1. The WTO was established in 1995. / 2. The Marrakesh Agreement dates to 1994. / 3. GATT operated from 1948 to 1995.
+  - Key: 1, 2 and 3
+- `2026-03/11/d002#2` verify: explanation_contradicts — The facts support Statement 3 because the quantity was 4.17 lakh tonnes lower, contrary to the explanation.
+  - Q: Consider the following statements about Telangana’s cotton season 2025–26: / 1. The season extended from October 2025 to February 28, 2026. / 2. The cotton was procured by CCI, established in 1971, at 336
+  - Key: 1 only
+- `2026-03/11/d002#6` verify: explanation_contradicts — Loan waivers exceeding ₹21,000 crore also exceed ₹20,000 crore, so Statement 4 is correct.
+  - Q: How many of the following statements regarding farmer debt reported by NABARD as on December 31, 2025, are correct? / 1. Tamil Nadu’s farmer debt was ₹5,06,290.45 crore and Andhra Pradesh’s was ₹3,75,25
+  - Key: Only two
+- `2026-03/11/d002r2#1` verify: explanation_contradicts — The facts state that Telangana had the lowest debt, so statements 1, 2 and 3 are correct and the explanation’s key is wrong.
+  - Q: According to NABARD data as on December 31, 2025, consider the following statements: /  / 1. Tamil Nadu recorded farmer debt of ₹5,06,290.45 crore, while Karnataka recorded ₹2,10,244.47 crore. / 2. Andhra P
+  - Key: Only two
 - `2026-02/01/c002#2` verify: none_correct — All four statements are supported by the supplied facts, so no statement is incorrect.
   - Q: Which of the following statements regarding district per capita income in Andhra Pradesh according to the 2025–26 advance estimates is incorrect?
   - Key: SPS Nellore ranked tenth with ₹2,90,100.

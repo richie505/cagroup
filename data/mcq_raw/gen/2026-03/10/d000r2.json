@@ -1,0 +1,108 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P2.F7",
+  "P2.F8",
+  "P6.F1",
+  "P6.F2",
+  "P6.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Award winner",
+   "question": "Who won the Best All-rounder award at the BCCI Annual (Naman) Awards 2026?",
+   "options": [
+    "Ayush Mhatre",
+    "Harsh Dubey",
+    "Shubman Gill",
+    "Smriti Mandhana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8",
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "Ayush Mhatre won the Best All-rounder award at the BCCI Annual (Naman) Awards 2026. Harsh Dubey won the separate Ranji Trophy Best All-rounder award, while Shubman Gill and Smriti Mandhana received other awards."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award winner",
+   "question": "Who received the Ranji Trophy Best All-rounder award at the BCCI Annual (Naman) Awards 2026?",
+   "options": [
+    "Harsh Dubey",
+    "Ayush Mhatre",
+    "Shafali Verma",
+    "Ira Jadhav"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F7",
+    "P2.F6",
+    "P2.F5"
+   ],
+   "explanation": "Harsh Dubey received the Ranji Trophy Best All-rounder award at the BCCI Annual (Naman) Awards 2026. Ayush Mhatre won the general Best All-rounder award, while Shafali Verma and Ira Jadhav won the Best ODI Player and Best Cricketer (domestic) awards respectively."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Medal tally",
+   "question": "Assertion (A): India topped the World Para Athletics Grand Prix 2026 in New Delhi with 208 medals.\nReason (R): India's medal tally comprised 75 gold, 69 silver and 64 bronze medals.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "Both the assertion and reason are true. The 75 gold, 69 silver and 64 bronze medals together constituted India's total of 208 medals, explaining why India topped the event."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Gold medallists",
+   "question": "Consider the following statements:\nStatement A: At the World Para Athletics Grand Prix 2026, Preeti Paul won the 200m T35–T37 and Shubham Juyal won the shot put F57 with a throw of 13.45 m.\nStatement B: The other listed Indian gold medallists were Rakesh Bhai Bhatt, Manoj Kumar Sabapati, Sumit Antil and Praveen Kumar, with Sumit Antil winning the shot put F57.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "Both statements are false. Shubham Juyal's shot-put distance was 14.45 m, not 13.45 m; and the shot put F57 winner was Shubham Juyal, not Sumit Antil. The other listed gold medallists were Rakesh Bhai Bhatt, Manoj Kumar Sabapati, Sumit Antil and Praveen Kumar."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State ranking and medal tally",
+   "question": "Which State topped the 24th National Para Athletics Championships at Kalinga Stadium, Bhubaneswar?",
+   "options": [
+    "Haryana",
+    "Tamil Nadu",
+    "Gujarat",
+    "Jharkhand"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "Haryana topped the 24th National Para Athletics Championships with 95 medals, including 39 gold. Tamil Nadu won 51 medals and Gujarat won 30, while Jharkhand was not the topper."
+  }
+ ]
+}

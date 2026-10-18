@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10
+ ],
+ "only": [
+  "P10.F34",
+  "P10.F35",
+  "P10.F36"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Individual award recipients",
+   "question": "With reference to the individual awards at the Gaddar Telangana Film Awards 2025, consider the following statements:\n1. Y. Govindaraju received the Makeup award.\n2. Chandrakant Sonawane and Y. Govindaraju jointly received the Costume award.\n3. Chandrakant Sonawane received the Makeup award.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "2 and 3 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F34",
+    "P10.F35"
+   ],
+   "explanation": "Statement 1 is correct: Y. Govindaraju received the Makeup award. Statement 2 wrongly replaces Ajay Kumar Nambal with Y. Govindaraju as the second Costume award recipient, while Statement 3 assigns a Costume recipient to the Makeup category."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Action award recipient",
+   "question": "Who received the Action award at the Gaddar Telangana Film Awards 2025?",
+   "options": [
+    "Y. Govindaraju",
+    "Chandrakant Sonawane",
+    "Peter Hein",
+    "Anurag Kulkarni"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F36"
+   ],
+   "explanation": "Peter Hein received the Action award at the Gaddar Telangana Film Awards 2025. The other options are associated with different individual-award entries, not the Action category."
+  }
+ ]
+}

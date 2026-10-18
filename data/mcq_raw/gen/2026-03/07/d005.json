@@ -1,0 +1,150 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": [
+  "P12.F5",
+  "P12.F6",
+  "P12.F7",
+  "P13.F3",
+  "P14.F6",
+  "P14.F7",
+  "P15.F4",
+  "P15.F5",
+  "P17.F1",
+  "P17.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Appointment, LNG share and suppliers",
+   "question": "Consider the following statements regarding developments connected with Iran and India–Qatar LNG supplies:\n1. Mojtaba Khamenei was named Iran’s Supreme Leader.\n2. India targets a 40–45% gas share by 2030.\n3. Qatar, Australia, the United States and Russia are major LNG suppliers to India.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F5",
+    "P12.F6",
+    "P12.F7"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Mojtaba Khamenei was named Iran’s Supreme Leader, and Qatar, Australia, the United States and Russia are major LNG suppliers to India. Statement 2 is incorrect because India targets a 15% gas share by 2030, not 40–45%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Completion date",
+   "question": "The Panama Canal was completed in which of the following periods?",
+   "options": [
+    "August 1914",
+    "2016",
+    "31 December 1999",
+    "1959"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F4",
+    "P14.F6"
+   ],
+   "explanation": "The Panama Canal was completed in August 1914. The year 2016 is associated with its Neo-Panamax locks, while 31 December 1999 marks its handover to Panama."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Antarctic Treaty and geological event",
+   "question": "Consider the following statements:\nStatement A: The Antarctic Treaty was signed in 1959 and entered into force in 1961.\nStatement B: The Chicxulub crater is located in Wyoming and dates back 66 million years.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F6",
+    "P14.F7"
+   ],
+   "explanation": "Statement A is true because the Antarctic Treaty was signed in 1959 and entered into force in 1961. Statement B is false because the Chicxulub crater is in Mexico, although it dates back 66 million years."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "International wildlife-trafficking operation and environmental organisations",
+   "question": "Match List-I with List-II:\n\nList-I\n a. Operation Thunder\n b. IUCN\n c. INTERPOL\n d. WCO\n\nList-II\n i. Wildlife-trafficking crackdown in 134 countries\n ii. Established in 1948; headquarters at Gland; Director General Grethel Aguilar\n iii. Established in 1923; headquarters at Lyon\n iv. Established in 1952; headquarters at Brussels\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4",
+    "P15.F5"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Operation Thunder covered 134 countries; IUCN was established in 1948 and is headquartered at Gland; INTERPOL dates to 1923 and WCO to 1952."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Headquarters",
+   "question": "The headquarters of the International Union for Conservation of Nature (IUCN) is located at:",
+   "options": [
+    "Gland",
+    "Lyon",
+    "Brussels",
+    "Vienna"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F5",
+    "P15.F4",
+    "P12.F5"
+   ],
+   "explanation": "IUCN is headquartered at Gland. Lyon is associated with INTERPOL, Brussels with WCO, and Vienna with the IAEA."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Export destination",
+   "question": "The trial export of Karbi Anglong ginger from Assam was sent to which destination?",
+   "options": [
+    "London",
+    "The United Kingdom and Italy",
+    "Singhasan Hills",
+    "Gland"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F2",
+    "P15.F5"
+   ],
+   "explanation": "The trial export of 1.2 MT of GI-tagged Karbi Anglong ginger was sent to London. Singhasan Hills is its growing area, while the United Kingdom and Italy were destinations for Joha rice."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Export quantity",
+   "question": "What quantity of GI-tagged Joha rice was exported to the United Kingdom and Italy?",
+   "options": [
+    "25 MT",
+    "1.2 MT",
+    "40–45%",
+    "15%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F2",
+    "P17.F1",
+    "P12.F6"
+   ],
+   "explanation": "The quantity of GI-tagged Joha rice exported to the United Kingdom and Italy was 25 MT. The figure 1.2 MT refers to the trial export of Karbi Anglong ginger, while 40–45% refers to India’s LNG dependence on Qatar."
+  }
+ ]
+}

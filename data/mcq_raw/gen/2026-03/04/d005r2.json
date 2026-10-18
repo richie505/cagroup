@@ -1,0 +1,82 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11
+ ],
+ "only": [
+  "P10.F1",
+  "P11.F3",
+  "P11.F5",
+  "P11.F7",
+  "P11.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "At which forum was the issue of stranded renewable power and grid congestion highlighted in 2026?",
+   "options": [
+    "Bharat Climate Forum 2026",
+    "Central Transmission Utility",
+    "PM Surya Ghar Muft Bijli Yojana",
+    "STATCOM Forum"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "The issue was highlighted at the Bharat Climate Forum 2026. The other options refer to an institution, a scheme and a grid-management solution rather than the forum named in the event."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rice export volume",
+   "question": "Consider the following statements about rice exports in 2024–25:\n\n1. India exported 21.69 million tonnes of rice.\n2. Thailand exported 8.06 million tonnes of rice.\n3. Thailand exported 21.69 million tonnes of rice.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F5"
+   ],
+   "explanation": "Statement 1 alone is correct: India exported 21.69 million tonnes of rice in 2024–25. Thailand’s volume was 7.86 million tonnes, so statements 2 and 3 incorrectly change Thailand’s export figure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Water requirement",
+   "question": "According to the water-footprint assessment of rice cultivation, what is the approximate total water requirement for producing rice on one acre?",
+   "options": [
+    "2.5 million litres",
+    "5 million litres",
+    "101,171.5 litres",
+    "20–30 million litres"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F7"
+   ],
+   "explanation": "The approximate total water requirement is 5 million litres per acre. The figure of 101,171.5 litres refers to one irrigation of one acre at 2.5 cm, not the total requirement."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Virtual water footprint",
+   "question": "Consider the following statements:\nStatement A: The water footprint of paddy is approximately 2,000 litres per kilogram.\nStatement B: The water footprint of milled rice is approximately 2,000 litres per kilogram.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F8"
+   ],
+   "explanation": "Statement A is true: paddy requires approximately 2,000 litres of water per kilogram. Statement B is false because milled rice requires approximately 3,000 litres per kilogram, not 2,000 litres."
+  }
+ ]
+}

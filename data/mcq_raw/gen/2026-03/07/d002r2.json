@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": [
+  "P3.F4",
+  "P3.F6",
+  "P3.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "India's medicinal plant wealth",
+   "question": "With reference to India's medicinal and aromatic plant wealth, consider the following statements:\n1. India is one of the 17 mega-biodiverse countries.\n2. India accounts for approximately 8% of global biodiversity.\n3. Around 18,000 plant species in India are medicinal.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Only statement 1 is correct: India is one of the 17 mega-biodiverse countries. India has approximately 7% of global biodiversity and around 15,000 medicinal plant species, not 8% and 18,000 respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Medicinal plant documentation and in-situ conservation",
+   "question": "Match List-I with List-II regarding medicinal plants and their conservation in India.\n\nList-I\n(a) Plant species documented by BSI\n(b) Traditional medicinal claims documented by BSI\n(c) Medicinal Plants Conservation Areas\n(d) Type of conservation represented by MPCAs\n\nList-II\n(i) In-situ conservation\n(ii) 9,500+\n(iii) 115\n(iv) 5,250\n\nSelect the correct code:",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F8"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i: BSI documented 5,250 species and more than 9,500 traditional claims, while in-situ conservation comprises 115 Medicinal Plants Conservation Areas. The other codes interchange these figures or wrongly associate MPCAs with another conservation category."
+  }
+ ]
+}

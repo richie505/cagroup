@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P2.F3",
+  "P2.F4",
+  "P2.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State offer and land pooling",
+   "question": "In connection with the proposed National Judicial Academy and Justice City in Amaravati, consider the following statements:\n\n1. Andhra Pradesh offered land allocation, full administrative support and institutional cooperation.\n2. Nearly 33,000 acres were pooled voluntarily for Amaravati.\n3. About 30,000 farmers participated voluntarily in the land pooling.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F6"
+   ],
+   "explanation": "All three statements are correct. Andhra Pradesh offered land allocation, full administrative support and institutional cooperation, while nearly 33,000 acres were voluntarily pooled by about 30,000 farmers for Amaravati. The other options are incorrect because they omit one or more correct statements."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Character of proposed Justice City",
+   "question": "How was Amaravati described in the proposal for the Justice City associated with the National Judicial Academy?",
+   "options": [
+    "A futuristic blue-green field capital aligned with Viksit Bharat–2047",
+    "A coastal industrial capital aligned with Viksit Bharat–2030",
+    "A heritage temple city aligned with Viksit Bharat–2035",
+    "A financial services city aligned with Viksit Bharat–2040"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Amaravati was proposed as a futuristic blue-green field capital aligned with Viksit Bharat–2047. The alternatives incorrectly change the character of the capital or the alignment year."
+  }
+ ]
+}

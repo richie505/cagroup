@@ -1,0 +1,122 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P6.F2",
+  "P6.F3",
+  "P6.F4",
+  "P6.F5",
+  "P6.F7",
+  "P8.F2",
+  "P8.F3",
+  "P8.F4",
+  "P9.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Initiative–feature matching",
+   "question": "Match List-I with List-II:\n\nList-I\n a. SWAYATT\n b. Desh Ka Prakriti Parishan Abhiyan\n c. Nasha Mukt Vidyalaya\n d. Gruha Sugam\n\nList-II\n i. NHB housing-loan portal for defence, paramilitary and government staff\n ii. Ministry of AYUSH app with CSIR-IGIB\n iii. GeM initiative for startups, women and youth\n iv. Ministry of Education three-year plan under NMBA\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3",
+    "P6.F4",
+    "P6.F5"
+   ],
+   "explanation": "The correct pairs are SWAYATT–GeM initiative, Desh Ka Prakriti Parishan Abhiyan–Ministry of AYUSH app with CSIR-IGIB, Nasha Mukt Vidyalaya–Ministry of Education three-year plan under NMBA, and Gruha Sugam–NHB housing-loan portal. The other codes interchange these initiative-specific features."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Scheme framework and legislation",
+   "question": "Which of the following statements about the e-Railway Claims Tribunal is incorrect?",
+   "options": [
+    "It was covered under “52 Reforms in 52 Weeks”.",
+    "It is associated with the Tribunal Act, 1987.",
+    "It was covered under “52 Reforms in 52 Months”.",
+    "Its associated legislation is the Tribunal Act, 1987."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F7"
+   ],
+   "explanation": "The incorrect statement changes “52 Reforms in 52 Weeks” to “52 Reforms in 52 Months”. The e-Railway Claims Tribunal is associated with “52 Reforms in 52 Weeks” and the Tribunal Act, 1987."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Partnership and budget allocation",
+   "question": "Consider the following statements:\nStatement A: The NITI Aayog–Tata Electronics partnership concerns electronics manufacturing.\nStatement B: The Electronics Component Manufacturing Scheme received ₹40,000 crore in Budget 2026–27.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "Both statements are true. The partnership concerns electronics manufacturing, and the Electronics Component Manufacturing Scheme received ₹40,000 crore in Budget 2026–27."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Agreement and institutional history",
+   "question": "Assertion (A): The Pension Fund Regulatory and Development Authority was established in 2003 and became statutory in 2013.\nReason (R): The BHASHINI–PFRDA agreement was signed under “BHASHINI for Seva-Sanchalan”.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the BHASHINI–PFRDA agreement being under “BHASHINI for Seva-Sanchalan” does not explain the establishment in 2003 or the statutory status attained in 2013."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Agreement and strategy",
+   "question": "The Ministry of Culture signed an agreement with FICCI for which purpose?",
+   "options": [
+    "Preparing a national cultural and creative economy strategy",
+    "Preparing a national electronics manufacturing strategy",
+    "Preparing a national nutrition and health strategy",
+    "Preparing a national pension-services strategy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4"
+   ],
+   "explanation": "The Ministry of Culture–FICCI agreement concerns a national cultural and creative economy strategy. Electronics manufacturing, nutrition and health, and pension services relate to other initiatives."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Launch, revision and price advantage",
+   "question": "How many of the following statements about the Pradhan Mantri Bhartiya Janaushadhi Pariyojana are correct?\n\n1. It was launched in 2015.\n2. It was revised in 2016.\n3. Its generic medicines are 20–50% cheaper.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the scheme was launched in 2015 and revised in 2016. Statement 3 is incorrect because the generic medicines are 50–90% cheaper."
+  }
+ ]
+}

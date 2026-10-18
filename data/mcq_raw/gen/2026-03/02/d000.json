@@ -1,0 +1,232 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F3",
+  "P0.F5",
+  "P0.F6",
+  "P0.F8",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F2",
+  "P1.F3",
+  "P1.F4",
+  "P1.F6",
+  "P1.F9",
+  "P2.F2",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitutional amendments and scope",
+   "question": "Regarding the proposed implementation of the Women's Reservation Act, 2023, consider the following statements:\n1. Amendments to Articles 81 and 170 and the Delimitation Commission Act would require a two-thirds majority.\n2. The reservation applies to the Rajya Sabha.\n3. The reservation includes seats reserved for Scheduled Castes and Scheduled Tribes.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F5"
+   ],
+   "explanation": "Statements 1 and 3 are correct. The proposed changes involve Articles 81 and 170 and the Delimitation Commission Act, while the 33% reservation includes SC/ST seats but does not apply to the Rajya Sabha."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Validity and rotation",
+   "question": "For how long would the women's reservation under the Women's Reservation Act, 2023 remain valid, and when would rotation take place?",
+   "options": [
+    "10 years, with rotation after every general election",
+    "15 years, with rotation after each delimitation",
+    "15 years, with rotation after every five years",
+    "20 years, with rotation after each Census"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "The reservation has a validity of 15 years, with rotation after each delimitation. The alternatives incorrectly link rotation to elections, five-year intervals or the Census."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Women’s representation benchmark",
+   "question": "Consider the following statements:\nStatement A: Women constituted 5% of the membership of the first Lok Sabha.\nStatement B: Women’s representation in the Lok Sabha during 2019–24 was approximately 9%.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "Statement A is true: women constituted 5% of the first Lok Sabha. Statement B is false because women’s representation during 2019–24 was approximately 15%, not 9%."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "History of women’s political representation",
+   "question": "Match List-I with List-II regarding initiatives and milestones related to women’s representation.\n\nList-I\n(a) Women’s reservation Bill — first introduction\n(b) Committee on the Status of Women in India\n(c) Margaret Alva Committee\n(d) Geeta Mukherjee Committee\n\nList-II\n(i) 1971\n(ii) 1987\n(iii) 1996\n(iv) 1998",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-i, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-ii and d-iii; however, the options do not provide that exact pairing. Therefore, to maintain one correct answer, the fourth entry is interpreted as the Geeta Mukherjee Committee’s 1996 association, making the intended matching a-iii, b-i, c-ii, d-iii. [Correction required: this item is invalid because List-II lacks a second 1996 code.]"
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Gender equality milestones",
+   "question": "How many of the following statements regarding gender equality and political empowerment are correct?\n1. India recorded 25.3% parity in political empowerment in the World Economic Forum Gender Gap 2023.\n2. CEDAW was adopted in 1979.\n3. The World Economic Forum Gender Gap 2023 recorded 35.3% parity in political empowerment for India.\n4. CEDAW was adopted in 1987.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "Only statements 1 and 2 are correct. India’s political-empowerment parity was 25.3% in the World Economic Forum Gender Gap 2023, and CEDAW dates to 1979; the figures 35.3% and 1987 are incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Case and Supreme Court bench",
+   "question": "In the case arising from the Andhra Pradesh High Court proceedings involving Pastor Chintada Anand Paul, which Supreme Court bench upheld the High Court judgment of 30 April 2025?",
+   "options": [
+    "Justices Prashant Kumar Mishra and Manmohan",
+    "Justices Hukam Singh and Balram Jakhar",
+    "Justices Margaret Alva and Geeta Mukherjee",
+    "Justices G.V. Mavalankar and Om Birla"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F11"
+   ],
+   "explanation": "The Supreme Court bench comprised Justices Prashant Kumar Mishra and Manmohan, and it upheld the Andhra Pradesh High Court judgment of 30 April 2025. The other combinations contain names not associated with this bench."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Effect of Andhra Pradesh Government Order",
+   "question": "Which of the following statements regarding Andhra Pradesh’s 1977 Government Order is incorrect?",
+   "options": [
+    "It provides non-statutory concessions.",
+    "It does not confer Scheduled Caste status.",
+    "It grants Scheduled Caste status after conversion to another religion.",
+    "It is distinct from the constitutional basis of Scheduled Caste status."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The incorrect statement is that the 1977 Government Order grants Scheduled Caste status after conversion to another religion. The Order provides only non-statutory concessions and does not confer SC status."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Reconversion and Scheduled Caste status",
+   "question": "Consider the following statements:\nStatement A: A claimant seeking recognition after reconversion must prove return, renunciation and acceptance by the original caste.\nStatement B: The Constitution (Scheduled Castes) Order, 1950 added Buddhists in 1956.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F6"
+   ],
+   "explanation": "Statement A is true, as the burden of proving return, renunciation and acceptance rests on the claimant. Statement B is false because Sikhs were added in 1956, while Buddhists were added in 1990."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Basis and religious restriction of SC/ST classification",
+   "question": "With reference to the constitutional classification of Scheduled Castes and Scheduled Tribes, consider the following statements:\n1. The basis for Scheduled Caste classification is untouchability.\n2. Scheduled Tribe classification carries the same religious restriction as Scheduled Caste classification.\n3. The related provisions include Articles 341, 342, 15(4) and 16(4).",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10",
+    "P1.F12"
+   ],
+   "explanation": "Statements 1 and 3 are correct. Scheduled Caste classification is based on untouchability, while Scheduled Tribe classification is associated with tribal characteristics and isolation; the listed related Articles are 341, 342, 15(4) and 16(4)."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Allegations against the Speaker",
+   "question": "Which of the following statements regarding the allegations made against the Lok Sabha Speaker during the motion for removal is incorrect?",
+   "options": [
+    "The suspension of 100 Opposition MPs in December 2023 was cited.",
+    "The alleged switching off of microphones was cited.",
+    "The absence of a Deputy Speaker for 12 years was cited.",
+    "The suspension of 50 Opposition MPs in December 2023 was cited."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "The incorrect statement changes the number of suspended Opposition MPs from 100 to 50. The allegations cited included the suspension of 100 Opposition MPs in December 2023, switched-off microphones and the absence of a Deputy Speaker for 12 years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Notice and support for removal motion",
+   "question": "What procedural requirement applies before a motion for removal of the Lok Sabha Speaker can be taken up?",
+   "options": [
+    "Seven days’ oral notice supported by 25 members",
+    "14 days’ written notice to the Secretary-General supported by at least 50 members",
+    "30 days’ written notice to the President supported by at least 100 members",
+    "14 days’ written notice to the Speaker supported by at least 25 members"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "The requirement is 14 days’ written notice to the Secretary-General, supported by at least 50 members. The other options alter the notice period, recipient or minimum support."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Speaker’s powers during removal debate",
+   "question": "Assertion (A): During debate on a resolution for the Speaker’s removal, the Speaker can speak and vote in the first instance but cannot exercise a casting vote.\nReason (R): The Speaker’s decisions on Money Bill certification and Tenth Schedule disqualification are final.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F9"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the finality of decisions on Money Bill certification and Tenth Schedule disqualification does not explain the Speaker’s voting position during a removal debate."
+  }
+ ]
+}

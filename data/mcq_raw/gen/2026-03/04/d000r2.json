@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F12",
+  "P0.F13",
+  "P0.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Earlier GDP base years",
+   "question": "Before the adoption of the 2022–23 base year, which sequence correctly lists the earlier base years used in India’s GDP series?",
+   "options": [
+    "1948–49, 1960–61, 1970–71, 1980–81, 1993–94, 1999–2000, 2004–05, 2011–12",
+    "1948–49, 1960–61, 1970–71, 1980–81, 1999–2000, 1993–94, 2004–05, 2011–12",
+    "1948–49, 1970–71, 1960–61, 1980–81, 1993–94, 2004–05, 1999–2000, 2011–12",
+    "1960–61, 1948–49, 1970–71, 1980–81, 1993–94, 1999–2000, 2004–05, 2011–12"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The earlier GDP base years were 1948–49, 1960–61, 1970–71, 1980–81, 1993–94, 1999–2000, 2004–05 and 2011–12. The tempting second option reverses the order of 1993–94 and 1999–2000."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Forecasts and OECD profile",
+   "question": "Match the following items relating to the FY 2026–27 economic outlook with the corresponding details:\n\nList-I\n(a) CRISIL forecast and CPI projection\n(b) OECD growth forecast\n(c) OECD establishment and membership\n(d) India–OECD relationship\n\nList-II\n(i) 6.1%\n(ii) Approximately 7.1%; CPI may rise to 4.3%\n(iii) Established on 14 December 1960; 38 members\n(iv) India has been a key partner since 2007",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F12"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv: CRISIL projected approximately 7.1% growth with CPI at 4.3%, while the OECD forecast 6.1%. The OECD was established on 14 December 1960, has 38 members, and India has been a key partner since 2007."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic petroleum reserves",
+   "question": "According to CRISIL’s assessment, what were the approximate reserve-cover periods for India’s strategic petroleum reserves (SPR) and commercial reserves?",
+   "options": [
+    "SPR: approximately 10 days; commercial reserves: approximately 65 days",
+    "SPR: approximately 65 days; commercial reserves: approximately 10 days",
+    "SPR: approximately 10 days; commercial reserves: approximately 10 days",
+    "SPR: approximately 65 days; commercial reserves: approximately 65 days"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "CRISIL assessed India’s SPR cover at approximately 10 days and commercial reserves at approximately 65 days. The most tempting alternative reverses these two reserve-cover figures."
+  }
+ ]
+}

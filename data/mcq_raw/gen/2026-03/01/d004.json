@@ -1,0 +1,235 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25
+ ],
+ "only": [
+  "P19.F1",
+  "P19.F10",
+  "P19.F2",
+  "P19.F3",
+  "P19.F8",
+  "P19.F9",
+  "P20.F2",
+  "P20.F3",
+  "P20.F4",
+  "P21.F1",
+  "P21.F2",
+  "P22.F2",
+  "P22.F3",
+  "P23.F1",
+  "P23.F5",
+  "P23.F7",
+  "P24.F2",
+  "P24.F4",
+  "P25.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "ICDS survey findings and scheme status",
+   "question": "Consider the following statements regarding the IVRS survey on ICDS nutrition supply in Andhra Pradesh:\n1. 85.2% of beneficiaries received Take Home Ration.\n2. 82% of beneficiaries were dissatisfied with nutrition kit quality.\n3. ICDS is a State-sponsored scheme delivered through health centres.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F2",
+    "P19.F8"
+   ],
+   "explanation": "Statement 1 is correct: 85.2% of beneficiaries received Take Home Ration. Statements 2 and 3 are incorrect because 82% were satisfied with nutrition kit quality and ICDS is a Centrally Sponsored Scheme delivered through Anganwadi Centres."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "ICDS beneficiaries and services",
+   "question": "How many of the following statements regarding ICDS in Andhra Pradesh are correct?\n1. Rayalaseema districts recorded approximately 22–25% dissatisfaction.\n2. ICDS beneficiaries include children aged 0–6 years, pregnant women and lactating mothers.\n3. ICDS provides seven services.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P19.F3",
+    "P19.F9",
+    "P19.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct, while statement 3 is incorrect. ICDS provides six services, including supplementary nutrition, pre-school education, immunization, health check-up and referral."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Hero stone memorial and terminology",
+   "question": "Consider the following statements about the 14th-century hero stone inscription found in Prakasam district:\n1. It commemorates Amnayavira, Tipurayavira and Mummayavira, the sons of Bhokkana of Vira-gotra.\n2. The three warriors died while participating in a temple ritual.\n3. Hero stones are called Veeragallu in Tamil.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F2",
+    "P20.F3",
+    "P20.F4"
+   ],
+   "explanation": "Statement 1 is correct. The warriors died while rescuing cattle, not during a temple ritual, and the Tamil term for hero stones is Nadukal; Veeragallu is the Kannada term."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ITMS feature",
+   "question": "What is a key feature of the AI-powered Intelligent Traffic Management System being operationalised in Nellore?",
+   "options": [
+    "Automated enforcement with smart signals at junctions such as Nehru statue junction",
+    "Vehicle registration through SARATHI",
+    "Driving-licence issuance through VAHAN",
+    "Online handloom sales through e-commerce platforms"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F1"
+   ],
+   "explanation": "The Nellore system provides automated enforcement and smart signals at junctions such as Nehru statue junction. SARATHI is associated with driving licences, while VAHAN is associated with vehicle registration."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Traffic violations detected by ITMS",
+   "question": "Which of the following statements about the AI-powered Intelligent Traffic Management System in Nellore is incorrect?",
+   "options": [
+    "It detects red-light jumping.",
+    "It detects stop-line crossing.",
+    "It detects over-speeding using radar.",
+    "It detects over-speeding using ANPR."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P21.F2"
+   ],
+   "explanation": "The incorrect statement is that over-speeding is detected using ANPR. The system detects over-speeding using radar; it also detects red-light jumping and stop-line crossing."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "SKOCH Summit venue and recipient",
+   "question": "Assertion (A): The SKOCH Award–2025 related to APCO's handloom digitisation was received at Hyderabad.\nReason (R): It was received by G. Rekha Rani, Commissioner (Handlooms and Textiles) and VC & MD of APCO, at the SKOCH Summit in New Delhi.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P22.F2"
+   ],
+   "explanation": "Assertion A is false because the award was presented at the SKOCH Summit in New Delhi. Reason R is true: G. Rekha Rani received it in her capacity as Commissioner (Handlooms and Textiles) and VC & MD of APCO."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Handloom digitisation measures",
+   "question": "Which measures were associated with APCO's digitisation in the handloom sector?",
+   "options": [
+    "Computerised billing at outlets and e-commerce platforms for online sales",
+    "Automated traffic enforcement and smart signals",
+    "Millet processing at Kiloguda and Jeevamrutam inputs",
+    "Referral services and pre-school education at Anganwadi Centres"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P22.F3"
+   ],
+   "explanation": "APCO's digitisation measures included computerised billing at outlets and the use of e-commerce platforms for online sales. The other options refer to traffic management, Eastern Ghats farming activities, and ICDS services."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Location of indigenous seed conservation network",
+   "question": "The farmers' network conserving indigenous seeds and promoting natural farming in the Eastern Ghats is associated with which location?",
+   "options": [
+    "Gasaba village, Peda Bayalu mandal, Alluri Sitharama Raju district",
+    "Kiloguda, Peda Bayalu mandal, Alluri Sitharama Raju district",
+    "Rythu Bazaars, Visakhapatnam",
+    "Hope Island, Coringa"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F1"
+   ],
+   "explanation": "The farmers' network is located in Gasaba village of Peda Bayalu mandal in Alluri Sitharama Raju district. Kiloguda is associated with the millet processing unit and Soil and Seed Information Centre, while Hope Island is associated with Olive Ridley eggs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Natural farming produce and input",
+   "question": "Which combination correctly describes the marketing and processing activities linked to the indigenous seed revival initiative in the Eastern Ghats?",
+   "options": [
+    "Produce sold at Rythu Bazaars in Visakhapatnam; millet processing unit at Kiloguda; Jeevamrutam as a natural input",
+    "Produce sold at Kiloguda; millet processing unit at Gasaba; Jeevamrutam as a traffic-management system",
+    "Produce sold at Hope Island; millet processing unit at Visakhapatnam; Jeevamrutam as an ICDS service",
+    "Produce sold at Coringa; millet processing unit at Gasaba; Jeevamrutam as a handloom e-commerce platform"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F5"
+   ],
+   "explanation": "Produce from the initiative is sold at Rythu Bazaars in Visakhapatnam, a millet processing unit operates at Kiloguda, and Jeevamrutam is used as a natural input. The other combinations assign these activities to unrelated places or sectors."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award for indigenous seed conservation",
+   "question": "Which award was received by the indigenous seed conservation initiative from the PPV&FR Authority?",
+   "options": [
+    "Plant Genome Saviour Community Award, 2011–12",
+    "SKOCH Award–2025",
+    "ISO certification, 1947",
+    "Plant Genome Saviour Community Award, 2001"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F7"
+   ],
+   "explanation": "The initiative received the Plant Genome Saviour Community Award for 2011–12 from the PPV&FR Authority. The SKOCH Award–2025 was associated with APCO's handloom digitisation, while 1947 is the establishment year of ISO."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Coringa Wildlife Sanctuary and FSI",
+   "question": "Consider the following statements:\nStatement A: The Forest Survey of India was established in Dehradun in 1978.\nStatement B: Coringa Wildlife Sanctuary lies in the Godavari estuary and is the second-largest mangrove forest in India after the Sundarbans.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P24.F2",
+    "P24.F4"
+   ],
+   "explanation": "Statement A is false because the Forest Survey of India was established in 1981 at Dehradun. Statement B is true: Coringa lies where the Coringa River meets the Bay of Bengal and is India's second-largest mangrove forest after the Sundarbans."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ISO headquarters",
+   "question": "Where is the headquarters of the International Organization for Standardization (ISO), established in 1947?",
+   "options": [
+    "Geneva",
+    "Dehradun",
+    "New Delhi",
+    "Visakhapatnam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P25.F2"
+   ],
+   "explanation": "ISO was established in 1947 and has its headquarters in Geneva. Dehradun is associated with the Forest Survey of India, while Visakhapatnam is associated with the Rythu Bazaars mentioned in the Eastern Ghats initiative."
+  }
+ ]
+}
