@@ -1,0 +1,54 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  17,
+  19
+ ],
+ "only": [
+  "P17.F1",
+  "P17.F2",
+  "P17.F3",
+  "P17.F4",
+  "P17.F5",
+  "P17.F6",
+  "P19.F1",
+  "P19.F2",
+  "P19.F3",
+  "P19.F4"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Target year",
+   "question": "At the high-level meeting in Panaji, Goa, what was the target year set in the action plan for a drug-free India?",
+   "options": [
+    "2029",
+    "2047",
+    "1986",
+    "1985"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1"
+   ],
+   "explanation": "The action plan aims to achieve a drug-free India by 2029. The year 2047 is associated with the broader Viksit Bharat 2047 vision, not the drug-free India target."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Abolition of institution",
+   "question": "Which top telecom decision-making body was abolished by the Centre after functioning for 37 years?",
+   "options": [
+    "Digital Communications Commission",
+    "Telecom Commission",
+    "Narco-Coordination Centre",
+    "National Crime Bureau"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F4"
+   ],
+   "explanation": "The Centre abolished the Digital Communications Commission, or DCC, which had served as the top telecom decision body for 37 years. Telecom Commission was its former name, while the Narco-Coordination Centre is a drug-control mechanism."
+  }
+ ]
+}

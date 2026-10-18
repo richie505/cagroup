@@ -1,0 +1,133 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Mission expansion",
+   "question": "What is the full form of TRISHNA, the India–France thermal infrared mission?",
+   "options": [
+    "Thermal InfraRed Imaging Satellite for High-resolution Natural resource Assessment",
+    "Thermal Radiation Imaging Satellite for High-resolution National Resource Analysis",
+    "Terrestrial InfraRed Surveying Network for High-resolution Natural Assessment",
+    "Thermal Imaging and Remote Sensing Hub for Natural-resource Analysis"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "TRISHNA stands for Thermal InfraRed Imaging Satellite for High-resolution Natural resource Assessment. The other expansions do not correspond to the mission’s stated name."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Mission instruments and variables",
+   "question": "Which of the following statements about the observations planned by TRISHNA is incorrect?",
+   "options": [
+    "It will observe Aerosol Optical Depth, atmospheric water vapour and cloud cover.",
+    "It will observe land-surface temperature, emissivity and biophysical-radiative variables.",
+    "It will support the study of surface energy balance.",
+    "It will observe Aerosol Optical Depth, atmospheric water vapour and ozone concentration."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P15.F3",
+    "P15.F5"
+   ],
+   "explanation": "The incorrect statement replaces cloud cover with ozone concentration. TRISHNA is specified to observe Aerosol Optical Depth, atmospheric water vapour and cloud cover, along with land-surface and biophysical-radiative variables."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India–France agreement partner",
+   "question": "Which French company entered into an agreement with Dhruva Space in the India–France space-industry arrangements?",
+   "options": [
+    "Safran",
+    "RIDE!",
+    "U-Space",
+    "CNES"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F3"
+   ],
+   "explanation": "Dhruva Space entered into the agreement with France’s Safran. RIDE! was associated with TakeMe2Space, while U-Space was associated with AXISCADES."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Agreement extension date",
+   "question": "Assertion (A): The ISRO–ESA cooperation agreement was extended until January 8, 2031.\nReason (R): The original ISRO–ESA agreement has been in force since January 2002.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F3"
+   ],
+   "explanation": "Assertion A is false because the agreement was extended until January 8, 2032. Reason R is true: the original agreement has been in force since January 2002."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First US satellite-imaging patent",
+   "question": "Consider the following statements:\nStatement A: GalaxEye became the first Indian start-up with a French patent for satellite-imaging technology.\nStatement B: Its OptoSAR system synchronises optical and SAR sensors to image simultaneously.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F2",
+    "P18.F3"
+   ],
+   "explanation": "Statement A is false because GalaxEye received a US patent, not a French patent, and was described as the first Indian start-up with a US patent for satellite-imaging technology. Statement B is true because OptoSAR synchronises optical and SAR sensors for simultaneous imaging."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Artemis Accords membership",
+   "question": "With reference to Djibouti joining the Artemis Accords, consider the following statements:\n1. Djibouti became the 72nd signatory and the 8th African country to join the Artemis Accords.\n2. The Artemis Accords were launched in 2021.\n3. India joined the Artemis Accords in 2023.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F2"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Djibouti became the 72nd signatory and 8th African country, while India joined in 2023. Statement 2 is incorrect because the Artemis Accords were launched in 2020."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Recent membership facts",
+   "question": "How many of the following recent-membership statements are correct?\n1. Finland became NATO’s 31st member on April 4, 2023.\n2. Sweden became NATO’s 31st member on March 7, 2024.\n3. The African Union became a member of the G20.\n4. Liechtenstein became the Asian Development Bank’s 191st member on October 21, 2024.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P19.F4",
+    "P19.F6",
+    "P19.F8"
+   ],
+   "explanation": "Exactly two statements are correct: Finland became NATO’s 31st member, and the African Union became a member of the G20. Sweden became NATO’s 32nd member, while Liechtenstein became the IMF’s 191st member, not the Asian Development Bank’s."
+  }
+ ]
+}

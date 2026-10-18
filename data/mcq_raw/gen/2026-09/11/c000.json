@@ -1,0 +1,62 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Date and historical significance",
+   "question": "With reference to important days observed in September 2026, consider the following statements:\n1. Hindi Diwas is observed on September 14 and marks the 1949 adoption of Hindi in Devanagari.\n2. Hindi Diwas has been observed since 1962.\n3. Ayurveda Day is observed on September 25.\nWhich of the statements given above is correct?",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F24",
+    "P0.F35",
+    "P0.F36"
+   ],
+   "explanation": "Exactly one statement is correct. Hindi Diwas is observed on September 14 and marks the 1949 adoption of Hindi in Devanagari; it has been observed since 1953, not 1962, while Ayurveda Day is observed on September 23, not September 25."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Dates of observance",
+   "question": "Consider the following statements:\nStatement A: The International Day of Clean Air for Blue Skies is observed on September 8.\nStatement B: International Literacy Day has been observed since 1962.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Both statements are false. The International Day of Clean Air for Blue Skies is observed on September 7, while International Literacy Day has been observed since 1967."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Observing body",
+   "question": "Assertion (A): International Equal Pay Day has been observed since 2020.\nReason (R): International Equal Pay Day is associated with UNESCO.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F18",
+    "P0.F6"
+   ],
+   "explanation": "The assertion is true because International Equal Pay Day has been observed since 2020. The reason is false: the associated bodies are UN Women and ILO, not UNESCO."
+  }
+ ]
+}

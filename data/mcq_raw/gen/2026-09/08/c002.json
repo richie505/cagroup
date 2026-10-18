@@ -1,0 +1,145 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Party switching — composition",
+   "question": "According to the ADR and National Election Watch findings for 2022–2026, how many sitting legislators in 17 States/UTs changed parties?",
+   "options": [
+    "111",
+    "101",
+    "121",
+    "131"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "The report recorded 111 sitting legislators who changed parties, comprising 26 Lok Sabha MPs, 7 Rajya Sabha MPs and 78 MLAs. The figures 101, 121 and 131 do not match the reported total."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Task force chairperson",
+   "question": "Who headed the Supreme Court-appointed National Task Force on student mental health in higher educational institutions?",
+   "options": [
+    "Justice S. Ravindra Bhat",
+    "Alok Sarin",
+    "Mary E. John",
+    "Rajendra Kachroo"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "The National Task Force was headed by former Supreme Court judge Justice S. Ravindra Bhat. Alok Sarin, Mary E. John and Rajendra Kachroo were among its members, not its head."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Report title",
+   "question": "Which report was released by WHO and UNICEF on WASH services in schools?",
+   "options": [
+    "Progress on Drinking Water, Sanitation and Hygiene in Schools 2015–2025",
+    "Global School Water and Health Report 2015–2025",
+    "Progress on Sanitation and Nutrition in Schools 2016–2026",
+    "World Report on Drinking Water and Hygiene in Colleges 2015–2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The report is titled “Progress on Drinking Water, Sanitation and Hygiene in Schools 2015–2025.” The other titles alter the report’s subject, period or target institutions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State ranking",
+   "question": "Which State topped the third edition of Jal Sanchay Jan Bhagidari and Catch the Rain?",
+   "options": [
+    "Chhattisgarh",
+    "West Bengal",
+    "Telangana",
+    "Nagaland"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "Chhattisgarh was adjudged the best State under Jal Sanchay Jan Bhagidari and Catch the Rain, third edition. West Bengal, Telangana and Nagaland are not identified as the top State in this finding."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Forests and food security",
+   "question": "With reference to the FAO and Landscape Alliance report on forests and food security, consider the following statements:\n1. Forests contribute to the availability, access, utilisation and stability dimensions of food security.\n2. More than 5 billion people depend on forests.\n3. Up to 20% of rural income in some regions comes from forests.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "All three statements are correct: the report links forests with all four dimensions of food security, records dependence by more than 5 billion people, and notes that forests provide up to 20% of rural income in some regions. Therefore, the correct choice is 1, 2 and 3."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Forest dependence — cooking fuel",
+   "question": "According to the FAO’s “Forests for Food” findings, how many people depended on wood fuel for cooking in 2022?",
+   "options": [
+    "1.8 billion",
+    "410 million",
+    "1 billion",
+    "5 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F4"
+   ],
+   "explanation": "The report stated that 1.8 billion people, or 23%, depended on wood fuel for cooking in 2022. The figures 410 million, 1 billion and 5 billion refer to other forest-related findings, not this measure."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Coral reef heat stress",
+   "question": "Which of the following statements about the 7th GCRMN Status of Coral Reefs report is incorrect?",
+   "options": [
+    "In 2024, 87% of reefs had experienced heat stress.",
+    "In 2024, 42.6% of reefs faced severe-mortality risk.",
+    "Hard coral cover was down 9.5% compared with the 1980–2009 baseline.",
+    "The annual decline in hard coral cover during 2023–24 was 7.9%."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2"
+   ],
+   "explanation": "The incorrect statement is the fourth: the reported annual decline during 2023–24 was 8.9%, not 7.9%. The other statements correctly report the 2024 heat-stress figure, severe-mortality risk and decline against the baseline."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Coral bleaching",
+   "question": "Assertion (A): In 2024, 78% of coral reefs had experienced heat stress.\nReason (R): During bleaching, corals expel their symbiotic zooxanthellae algae and turn white, although they can recover.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F2",
+    "P14.F5"
+   ],
+   "explanation": "Assertion A is false because the reported 2024 figure was 87% of reefs with heat stress. Reason R is true: bleaching involves the expulsion of symbiotic zooxanthellae algae, causing corals to turn white, and recovery is possible."
+  }
+ ]
+}

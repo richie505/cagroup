@@ -1,0 +1,95 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Orbit type",
+   "question": "EOS-05, launched on GSLV-F17 in September 2026, was described as India's first imaging satellite from which type of orbit?",
+   "options": [
+    "Geosynchronous orbit",
+    "Geostationary orbit",
+    "Low Earth orbit",
+    "Medium Earth orbit"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F10"
+   ],
+   "explanation": "EOS-05 was India's first imaging satellite from a geosynchronous orbit. A geostationary orbit is a specific circular, equatorial form of geosynchronous orbit, whereas the mission was placed in Sub-GTO rather than directly in GEO."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Orbit parameters",
+   "question": "Which of the following statements about the orbit and mass of EOS-05 is incorrect?",
+   "options": [
+    "EOS-05 had a mass of approximately 2,367 kg.",
+    "EOS-05 was placed in Sub-GTO.",
+    "Its perigee was 170 km.",
+    "Its apogee was 28,734 km."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The incorrect statement is that the apogee was 28,734 km; the correct apogee was 28,934 km. The mass, Sub-GTO placement and perigee of 170 km are correctly stated."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Mission identity and imaging frequency",
+   "question": "With reference to EOS-05, consider the following statements:\n1. It was India's first imaging satellite from a geosynchronous orbit.\n2. It was placed directly in geostationary orbit.\n3. It could image the subcontinent every 30 minutes.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F12"
+   ],
+   "explanation": "Statements 1 and 3 are correct: EOS-05 was India's first imaging satellite from a geosynchronous orbit and could image the subcontinent every 30 minutes. Statement 2 is incorrect because the satellite was placed in Sub-GTO, not directly in GEO."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Hot-test series",
+   "question": "Assertion (A): The semi-cryogenic engine Power Head Test Article hot test at IPRC was the ninth hot test in the series.\nReason (R): The test had a total duration of 35 seconds, of which 5 seconds were at full level.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. The test was the ninth in the series, while the 35-second total duration and 5 seconds at full level describe the test profile and do not explain why it was the ninth test."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Thrust level",
+   "question": "At the full rated level, what thrust did the semi-cryogenic engine Power Head Test Article demonstrate during the ISRO test at Mahendragiri?",
+   "options": [
+    "94 tonnes",
+    "120 tonnes",
+    "175 tonnes",
+    "200 tonnes"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F10"
+   ],
+   "explanation": "The Power Head Test Article operated at 100% rated level, corresponding to 200 tonnes of thrust. The other values—94 tonnes, 120 tonnes and 175 tonnes—corresponded to the 47%, 60% and 88% levels respectively."
+  }
+ ]
+}

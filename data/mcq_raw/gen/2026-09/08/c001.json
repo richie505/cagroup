@@ -1,0 +1,138 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in index",
+   "question": "In the Global Cities Index 2026, which Indian city was ranked highest, at rank 268?",
+   "options": [
+    "Delhi",
+    "Bengaluru",
+    "Mumbai",
+    "Chennai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F4",
+    "P4.F5",
+    "P4.F6"
+   ],
+   "explanation": "Delhi was the highest-ranked Indian city in the Global Cities Index 2026, securing rank 268. Bengaluru, Mumbai and Chennai were ranked 311, 330 and 381 respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "City-wise ranking",
+   "question": "Match the Indian cities in List-I with their ranks in the Global Cities Index 2026.\n\nList-I\n(a) Delhi\n(b) Hyderabad\n(c) Pune\n(d) Lucknow\n\nList-II\n(i) 725\n(ii) 268\n(iii) 421\n(iv) 427",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F7",
+    "P4.F8",
+    "P4.F9"
+   ],
+   "explanation": "The correct pairs are Delhi-268, Hyderabad-421, Pune-427 and Lucknow-725. Therefore, the correct code is a-ii, b-iii, c-iv, d-i."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Rank and movement",
+   "question": "Which of the following statements regarding the Global Financial Centres Index 40 is incorrect?",
+   "options": [
+    "GIFT City was ranked 37th, moving up 9 places.",
+    "Mumbai was ranked 49th, moving up 3 places.",
+    "GIFT City was ranked 26th in FinTech, moving up 3 places.",
+    "GIFT City was the only Indian centre in the Asia-Pacific Top 10."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "The incorrect statement is that GIFT City was the only Indian centre in the Asia-Pacific Top 10. Its correct position was the only Indian centre in the Asia-Pacific Top 15; the other three statements accurately report the GFCI-40 rankings and movements."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Rank in business climate survey",
+   "question": "Consider the following statements:\nStatement A: India ranked second among 41 markets in the Global Business Climate Survey 2026.\nStatement B: India remained in the Top 3 for the fourth straight year.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "Statement A is false because India ranked first among 41 markets, not second. Statement B is true, as India was in the Top 3 for the fourth straight year."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Gender-equality findings",
+   "question": "With reference to the Gender Snapshot 2026, consider the following statements:\n1. None of the SDG-5 targets is on track for 2030.\n2. Women held 27.4% of seats in national parliaments in 2026.\n3. Around 35.6% representation in local governments has continued since 2023.\n4. Around 1 in 5 gender-equality institutions had budget cuts.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct according to the Gender Snapshot 2026. Statement 4 is incorrect because the reported figure was around 1 in 4 gender-equality institutions with budget cuts, not 1 in 5."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National TFR",
+   "question": "According to the Sample Registration System data, what was India's Total Fertility Rate, below the replacement level of 2.1?",
+   "options": [
+    "1.9",
+    "2.3",
+    "2.1",
+    "3.3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "India's Total Fertility Rate was 1.9, below the replacement level of 2.1. The TFR had declined from around 3.3 in the 2000s and from 2.3 to 1.9 over a decade."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "State-wise TFR",
+   "question": "Which of the following statements about the state-wise Total Fertility Rate data is incorrect?",
+   "options": [
+    "Bihar had a TFR of 2.9.",
+    "Delhi had a TFR of 1.2.",
+    "Andhra Pradesh had a TFR of 1.4.",
+    "Sikkim had a TFR of 1.3."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4",
+    "P8.F5"
+   ],
+   "explanation": "The incorrect statement concerns Sikkim: its TFR was 1.0, not 1.3. Bihar, Delhi and Andhra Pradesh were reported with TFRs of 2.9, 1.2 and 1.4 respectively."
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Nature of event",
+   "question": "The Nepal flash flood near the Nepal–China border on August 26, 2026, was identified as which of the following?",
+   "options": [
+    "A rock–ice collapse-triggered debris flood",
+    "A conventional GLOF",
+    "A 4.4-magnitude earthquake",
+    "A hydropower dam-break flood"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "The event was a rock–ice collapse-triggered debris flood, not a conventional GLOF. The initial 4.4-magnitude earthquake reading was revised after the USGS attributed the signal to the collapse."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Himalayan hazard measures",
+   "question": "Which of the following statements regarding India’s Himalayan hazard-mitigation measures is incorrect?",
+   "options": [
+    "The National GLOF Risk Mitigation Programme has an allocation of ₹150 crore and covers Arunachal Pradesh, Himachal Pradesh, Sikkim and Uttarakhand.",
+    "CWC and NRSC-ISRO monitoring from 2025 covers 2,843 water bodies, including 2,485 glacial lakes.",
+    "The NDMA Guidelines on GLOFs were issued in 2021.",
+    "The National Landslide Risk Mitigation Project has an allocation of ₹1,000 crore and covers 15 States."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9",
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "The incorrect statement is that the NDMA Guidelines on GLOFs were issued in 2021; they were issued in 2020. The year 2021 relates to the Dam Safety Act."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Total economic value",
+   "question": "According to the economic valuation and blue carbon assessment of the Pichavaram Mangrove Forest, what was the Total Economic Value of its ecosystem services?",
+   "options": [
+    "₹2,485.38 crore",
+    "₹1,612.40 crore",
+    "₹1,224.63 crore",
+    "₹484.25 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F13"
+   ],
+   "explanation": "The Total Economic Value of Pichavaram Mangrove Forest was ₹2,485.38 crore, approximately ₹1.83 crore per hectare. ₹1,612.40 crore was the combined carbon value, while ₹1,224.63 crore was the value of soil organic carbon."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Valuation of ecosystem services",
+   "question": "With reference to the economic valuation of the Pichavaram Mangrove Forest, consider the following statements:\n1. Soil organic carbon had the largest ecosystem-service value at ₹1,224.63 crore.\n2. Recreation and tourism was valued at ₹484.25 crore.\n3. Oxygen regulation was valued at ₹147.17 crore.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5",
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: soil organic carbon was valued at ₹1,224.63 crore and recreation and tourism at ₹484.25 crore. Statement 3 is incorrect because ₹147.17 crore was the value assigned to coastal protection; oxygen regulation was valued at ₹181.22 crore."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Mangrove carbon storage",
+   "question": "Consider the following statements:\nStatement A: The Pichavaram study surveyed 302 households in 5 villages.\nStatement B: Most mangrove carbon is stored below ground in sediments.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F14"
+   ],
+   "explanation": "Both statements are true. The study surveyed 302 households in 5 villages, and mangrove carbon is predominantly stored below ground in sediments."
+  }
+ ]
+}

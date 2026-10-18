@@ -1,0 +1,129 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Production data",
+   "question": "According to the FY 2025–26 data for India’s jute sector, what were the quantities of raw jute and jute goods produced?",
+   "options": [
+    "76 lakh bales of raw jute and 12.80 lakh MT of jute goods",
+    "88.02 lakh bales of raw jute and 94.03 lakh MT of jute goods",
+    "22,700 MT of raw jute and 1.71 lakh MT of jute goods",
+    "12.05 lakh MT of raw jute and 76 lakh MT of jute goods"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "India produced 76 lakh bales of raw jute and 12.80 lakh MT of jute goods in FY 2025–26. The figures 22,700 MT and 1.71 lakh MT refer to exports, not total production."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Jute Packaging Materials Act",
+   "question": "Which one of the following statements regarding the Jute Packaging Materials Act, 1987, is incorrect?",
+   "options": [
+    "It provides for 100% jute packaging of foodgrains.",
+    "It provides for 20% jute packaging of sugar.",
+    "It is associated with mandatory use of jute packaging materials.",
+    "It provides for 50% jute packaging of sugar."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F9"
+   ],
+   "explanation": "The incorrect statement changes the sugar packaging requirement to 50%. The correct requirement is 20%, while foodgrains have 100% jute packaging under the stated provision."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Jute sector policy and position",
+   "question": "With reference to India’s jute sector and related policy measures, consider the following statements:\n1. India is the largest producer of raw jute.\n2. The MSP for jute for 2026–27 is ₹5,925 per quintal.\n3. The Jute Corporation of India is the sole MSP agency for jute.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F4",
+    "P12.F8",
+    "P12.F10"
+   ],
+   "explanation": "All three statements are correct: India is the largest producer of raw jute, the MSP for 2026–27 is ₹5,925 per quintal, and JCI is the sole MSP agency. The other options omit at least one correct statement."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "National Bamboo Mission timeline",
+   "question": "Assertion (A): The National Bamboo Mission was launched in 2006–07.\nReason (R): The National Bamboo Mission has been a restructured Centrally Sponsored Scheme since 2018–19.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F4"
+   ],
+   "explanation": "Both statements are true: the National Bamboo Mission was launched in 2006–07 and has been restructured as a Centrally Sponsored Scheme since 2018–19. The restructuring timeline does not explain its original launch."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bamboo legal status",
+   "question": "What change was made by the 2017 amendment to the Indian Forest Act, 1927, regarding bamboo?",
+   "options": [
+    "Bamboo on non-forest land was removed from the definition of “tree”.",
+    "Bamboo in notified forests was removed from all regulation.",
+    "Bamboo was placed under the definition of “tree” on all land.",
+    "Bamboo cultivation was restricted to notified forests."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "The 2017 amendment removed bamboo on non-forest land from the definition of “tree”. Bamboo in notified forests continued to be regulated, making the second option incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "India Cine Hub management and incentive",
+   "question": "Consider the following statements:\nStatement A: India Cine Hub is managed by the National Film Development Corporation, which was set up in 1975.\nStatement B: India Cine Hub provides incentives of up to 40% of qualifying spend for foreign productions.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2"
+   ],
+   "explanation": "Both statements are true. India Cine Hub is managed by NFDC, set up in 1975, and its listed incentives for foreign productions can reach 40% of qualifying spend."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Film cities and film events",
+   "question": "How many of the following statements about India’s film cities and film-related events are correct?\n1. Film Bazaar is held alongside IFFI Goa.\n2. Ramoji Film City was established in 1977.\n3. Mumbai Film City was renamed Dadasaheb Phalke Chitranagari in 2001.\n4. Noida Film City has 20 studios.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F6",
+    "P14.F7",
+    "P14.F8",
+    "P14.F9"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Film Bazaar is held alongside IFFI Goa, and Mumbai Film City was renamed Dadasaheb Phalke Chitranagari in 2001. Ramoji Film City was established in 1996, while Noida Film City has 16 studios, so exactly two statements are correct."
+  }
+ ]
+}

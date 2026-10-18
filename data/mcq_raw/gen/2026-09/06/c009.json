@@ -1,0 +1,111 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  26,
+  27,
+  28,
+  29
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Patent and institute",
+   "question": "Which institute developed a patent for an electrochemical reactor that recovers copper from industrial wastewater?",
+   "options": [
+    "IIT (ISM) Dhanbad",
+    "IIT Madras",
+    "IIT Delhi",
+    "IIT Ropar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F1"
+   ],
+   "explanation": "IIT (ISM) Dhanbad developed the patent for an electrochemical reactor recovering copper from industrial wastewater. IIT Madras is associated with the bacteria-killing implant-grade polymer, while IIT Delhi developed the indigenous Micro-GPU."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Research developments and institutes",
+   "question": "Consider the following statements about research developments associated with Indian Institutes of Technology:\n1. IIT Madras developed an implant-grade polymer with nanostructures that physically kill bacteria.\n2. IIT Delhi developed an implant-grade polymer with nanostructures that physically kill bacteria.\n3. IIT Delhi developed India's first indigenous Micro-GPU.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P26.F2",
+    "P26.F5"
+   ],
+   "explanation": "Statements 1 and 3 are correct: IIT Madras developed the bacteria-killing implant-grade polymer, and IIT Delhi developed India’s first indigenous Micro-GPU. Statement 2 wrongly assigns the polymer development to IIT Delhi."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence technology programme",
+   "question": "Which institute partnered with the Army Air Defence College, Gopalpur, to offer an M.Tech in Defence Technology for officers on September 10, 2026?",
+   "options": [
+    "IIT Ropar",
+    "IIT-BHU",
+    "IIT Hyderabad",
+    "IIT (ISM) Dhanbad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F6"
+   ],
+   "explanation": "IIT Ropar partnered with the Army Air Defence College, Gopalpur, for the M.Tech in Defence Technology for officers. IIT-BHU was associated with an electric mobility research MoU, not this defence technology programme."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Critical minerals partnership",
+   "question": "Which institution is the site of the Centre of Excellence under Telangana's tripartite partnership with Monash University and Singareni Collieries for critical minerals?",
+   "options": [
+    "IIT Hyderabad",
+    "IIT Madras",
+    "IIT Delhi",
+    "IIT Ropar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F1"
+   ],
+   "explanation": "The Centre of Excellence under the tripartite partnership is being established at IIT Hyderabad. The partnership also includes Monash University of Melbourne and Singareni Collieries, but neither is the stated site of the Centre of Excellence."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Biotechnology and fisheries applications",
+   "question": "Consider the following statements:\nStatement A: Bio-Nivesh was launched by Dr. Jitendra Singh to link biotech start-ups with investors.\nStatement B: MatsyaMetri measures fish length by touching the fish directly.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P28.F1",
+    "P28.F4"
+   ],
+   "explanation": "Statement A is true because Bio-Nivesh links biotech start-ups with investors and was launched by Dr. Jitendra Singh. Statement B is false: MatsyaMetri uses Augmented Reality through Google ARCore to measure fish length without touching the fish."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Venue and convener",
+   "question": "Assertion (A): The First International Space Summit was convened by Thomas Pesquet.\nReason (R): The summit was convened by Emmanuel Macron and held at the Grand Palais in Paris on September 9–10, 2026.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P29.F1",
+    "P29.F2"
+   ],
+   "explanation": "Assertion A is false: Thomas Pesquet was a Special Envoy, not the convener. Reason R is true because Emmanuel Macron convened the summit, which was held at the Grand Palais in Paris on September 9–10, 2026."
+  }
+ ]
+}

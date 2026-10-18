@@ -1,0 +1,77 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Date of project development",
+   "question": "On which date was Zero mK India identified as the first high-value deep-tech TDF project?",
+   "options": [
+    "September 3, 2026",
+    "September 15, 2026",
+    "September 24, 2026",
+    "September 17, 2026"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "Zero mK India was identified as the first high-value deep-tech TDF project on September 24, 2026. September 3, September 15 and September 17 refer to other September developments, not this project."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Weapon contract and quantity",
+   "question": "Assertion (A): The SAT-SAAW procurement involved a contract with Bharat Dynamics Limited.\nReason (R): The contract covered 160 Satellite Smart Anti-Airfield Weapons.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8"
+   ],
+   "explanation": "Both the assertion and the reason are true: the contract was signed with BDL for 160 Satellite Smart Anti-Airfield Weapons. The quantity and nature of the weapons explain the specific SAT-SAAW procurement referred to in the assertion."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Defence technology organisations and location",
+   "question": "Consider the following statements regarding defence-technology developments:\n1. The Man-Portable Autonomous Underwater Vehicle was tested by NSTL, Visakhapatnam.\n2. The AASHVAST lab is located at DG EME Headquarters, New Delhi.\n3. HUMSA-2020-NG Mk-2 is made by BEL.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F5",
+    "P8.F13"
+   ],
+   "explanation": "All three statements are correct: NSTL Visakhapatnam tested the MP-AUV, AASHVAST is at DG EME Headquarters in New Delhi, and BEL makes HUMSA-2020-NG Mk-2. The options containing only two statements are incomplete because they omit one of these correct developments."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Theme and institutional linkage",
+   "question": "Consider the following statements about VIMARSH 2026:\nStatement A: VIMARSH 2026 was held by the Ministry of Defence in New Delhi on September 15, 2026, with the theme “Varta se Vikas”.\nStatement B: The meet links DRDO with private industry, MSMEs, deep-tech start-ups and academia, promoting a shift from a buyer–seller model to a collaborative ecosystem.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2"
+   ],
+   "explanation": "Both statements are true. VIMARSH 2026 was held in New Delhi on September 15, 2026, under the theme “Varta se Vikas”, and it seeks a collaborative ecosystem linking DRDO with industry, MSMEs, deep-tech start-ups and academia."
+  }
+ ]
+}

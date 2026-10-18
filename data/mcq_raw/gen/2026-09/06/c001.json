@@ -1,0 +1,99 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Outlay",
+   "question": "What outlay was approved for Semicon 2.0 by the Union Cabinet in July 2026?",
+   "options": [
+    "₹1,27,500 crore",
+    "₹76,000 crore",
+    "₹1.64 lakh crore",
+    "₹40,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F4",
+    "P2.F5",
+    "P2.F13"
+   ],
+   "explanation": "Semicon 2.0 was approved with an outlay of ₹1,27,500 crore. ₹76,000 crore was the outlay of Semicon 1.0, making it the most tempting alternative."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Venue, theme and pillars",
+   "question": "With reference to Semicon 2.0 and SEMICON India 2026, consider the following statements:\n1. SEMICON India 2026 was held at Yashobhoomi, New Delhi, from September 17–19, with the theme “Silicon to Systems: Building the Ecosystem”.\n2. The six pillars of Semicon 2.0 include Design, Machines and Materials, Fabs, Packaging, Research and Talent.\n3. SEMICON India 2026 was inaugurated by Prime Minister Modi and organised by ISM with SEMI.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3",
+    "P2.F18"
+   ],
+   "explanation": "All three statements are correct: the event was held at Yashobhoomi with the stated theme, Semicon 2.0 has the six listed pillars, and the event was inaugurated by Prime Minister Modi and organised by ISM with SEMI. The option “1 and 2 only” is incorrect because statement 3 is also correct."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Approval and outlay",
+   "question": "Consider the following statements:\nStatement A: Semicon 2.0 was approved by the Union Cabinet in July 2026.\nStatement B: Semicon 2.0 received an outlay of ₹76,000 crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F4"
+   ],
+   "explanation": "Statement A is true because Semicon 2.0 was approved in July 2026. Statement B is false: ₹76,000 crore was the outlay for Semicon 1.0, whereas Semicon 2.0 had an outlay of ₹1,27,500 crore."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Place of inauguration",
+   "question": "Assertion (A): India’s 51st Doppler Weather Radar was inaugurated at Gopalpur, Odisha, on September 17, 2026.\nReason (R): Odisha has three Doppler Weather Radars at Sambalpur, Gopalpur and Paradip.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "The assertion is false because India’s 51st Doppler Weather Radar was inaugurated at Sambalpur, not Gopalpur. The reason is true: Odisha’s three radars are at Sambalpur, Gopalpur and Paradip."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Radar band and use",
+   "question": "Which of the following statements regarding Doppler Weather Radar bands and their uses is incorrect?",
+   "options": [
+    "X-band is used for localised thunderstorms and lightning.",
+    "C-band is used for rainfall and cyclone tracking.",
+    "S-band is used for deep coastal and long-range cyclone monitoring.",
+    "C-band is used for localised thunderstorms and lightning."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F5",
+    "P3.F6"
+   ],
+   "explanation": "The incorrect statement assigns localised thunderstorms and lightning to C-band. That use belongs to X-band; C-band is used for rainfall and cyclone tracking, while S-band supports deep coastal and long-range cyclone monitoring."
+  }
+ ]
+}

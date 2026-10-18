@@ -1,0 +1,43 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "WorldSkills rank and doping ban",
+   "question": "Consider the following statements about the 48th WorldSkills Competition in Shanghai and recent NADA action:\n\n1. India secured 9th position, while China topped the competition.\n2. China won 41 gold, 11 silver and 4 bronze medals, while Korea finished 3rd.\n3. NADA imposed a lifetime ban on athletics coach Rakesh Kumar, following his suspension in March 2025.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "Only statement 3 is correct: NADA imposed a lifetime ban on athletics coach Rakesh Kumar following his suspension in March 2025. India finished 10th, not 9th, and Korea finished 2nd, not 3rd; Chinese Taipei was 3rd."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "International retirement",
+   "question": "On which date did Lionel Messi retire from international football?",
+   "options": [
+    "August 31, 2026",
+    "August 31, 2024",
+    "August 31, 2021",
+    "August 31, 2005"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F7"
+   ],
+   "explanation": "Lionel Messi retired from international football on August 31, 2026. August 31, 2024 is an incorrect alternative; 2024 was associated with his Copa América victory, not his retirement."
+  }
+ ]
+}

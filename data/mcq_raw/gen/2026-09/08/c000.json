@@ -1,0 +1,131 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "District rank and score",
+   "question": "In the YouthPOWER rankings of the AP State Handbook of Youth Opportunity, which district ranked first among the 26 districts of Andhra Pradesh?",
+   "options": [
+    "Visakhapatnam, with a score of 55",
+    "Vijayawada, with a score of 55",
+    "Tirupati, with a score of 52",
+    "Kurnool, with a score of 46"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Visakhapatnam ranked first among Andhra Pradesh’s 26 districts with a YouthPOWER score of 55. The tempting alternatives are incorrect because the first-ranked district identified in the rankings was Visakhapatnam."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Assessment framework",
+   "question": "With reference to the YouthPOWER rankings in the AP State Handbook of Youth Opportunity, consider the following statements:\n\n1. The assessment used five parameters: Participation, Opportunity, Work, Education, and Readiness/skilling.\n2. It used approximately 180 indicators drawn from 27 databases.\n3. Visakhapatnam recorded 60% for regular salaried workers, compared with 21% for a typical district.\n\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F8"
+   ],
+   "explanation": "All three statements are correct: YouthPOWER used five parameters and approximately 180 indicators from 27 databases, while Visakhapatnam’s regular salaried-worker figure was 60% against 21% for a typical district. The other options omit one statement that is also correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Top-ranked State/UT",
+   "question": "Which State or Union Territory retained the first position in the India Electric Mobility Index 2025 released by NITI Aayog with World Resources Institute India?",
+   "options": [
+    "Delhi",
+    "Maharashtra",
+    "Karnataka",
+    "Andhra Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Delhi retained first place in the India Electric Mobility Index 2025, improving its score from 77 to 84. Maharashtra and Karnataka ranked second and third, while Andhra Pradesh ranked ninth."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "State ranking and index structure",
+   "question": "Consider the following statements:\nStatement A: Andhra Pradesh ranked tenth with 51 points in the India Electric Mobility Index 2025.\nStatement B: The index assessed 16 indicators under three categories, including Transport Electrification Progress, Charging Infrastructure Readiness, and EV Research and Innovation.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F7"
+   ],
+   "explanation": "Statement A is false: Andhra Pradesh ranked ninth with 52 points, while Telangana ranked tenth with 51 points. Statement B is true because the index used 16 indicators across the three stated categories."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s rank and parity score",
+   "question": "What was India’s position and overall parity score in the Global Gender Gap Index 2026?",
+   "options": [
+    "131st, with 64.5% parity",
+    "121st, with 64.5% parity",
+    "131st, with 69.2% parity",
+    "145th, with 64.5% parity"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "India ranked 131st among the 145 economies, with a parity score of 64.5%. The figures 69.2% and 145th refer to the global share of the gap closed and Chad’s last rank, respectively, not India’s position and score."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Best-performing dimension",
+   "question": "Assertion (A): Educational Attainment was India’s best-performing dimension in the Global Gender Gap Index 2026.\nReason (R): India scored 96.6% in Educational Attainment, compared with 95.6% in Health and Survival, 41.2% in Economic Participation, and 24.5% in Political Empowerment.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5",
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "Both the assertion and reason are true, and the reason explains the assertion: Educational Attainment had India’s highest score at 96.6%, above the other stated dimensions. The lower scores of Health and Survival, Economic Participation, and Political Empowerment make the comparison clear."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "India’s rank and global trend",
+   "question": "With reference to the Travel and Tourism Development Index, identify the incorrect statement.",
+   "options": [
+    "The index was produced by the World Economic Forum with Zurich Insurance Group and covered 110 economies.",
+    "India ranked 31st, improving by nine places, with low travel cost and cultural resources identified among the contributing factors.",
+    "Japan, the United States, Spain, Australia, and France occupied the top five positions.",
+    "India ranked 41st in the index, improving by nine places."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "The incorrect statement is the fourth one: India ranked 31st, not 41st, and improved by nine places. The other three statements correctly describe the index’s coverage, India’s ranking, and the top five economies."
+  }
+ ]
+}

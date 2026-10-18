@@ -1,0 +1,168 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Award recipient",
+   "question": "Who was selected for the 2024 Dadasaheb Phalke Award?",
+   "options": [
+    "Anant Nag",
+    "Devika Rani",
+    "Dhundiraj Govind Phalke",
+    "A.P.J. Abdul Kalam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "Veteran actor Anant Nag was selected for the 2024 Dadasaheb Phalke Award. Devika Rani was the first recipient of the award in 1969, while Dhundiraj Govind Phalke is the person after whom it was named."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Oscar entry",
+   "question": "Which film was selected as India's official entry for Best International Feature Film at the 99th Academy Awards?",
+   "options": [
+    "Gondhal",
+    "Angh",
+    "Mother India",
+    "Lagaan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3"
+   ],
+   "explanation": "The Marathi thriller Gondhal was chosen as India's official entry for Best International Feature Film at the 99th Academy Awards. Mother India and Lagaan were earlier Indian nominees, not the 2027 official entry."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "TIFF award",
+   "question": "Which film by Nagaland filmmaker Teja Rio won the Platform Award at the Toronto International Film Festival 2026?",
+   "options": [
+    "Angh",
+    "Gondhal",
+    "Salaam Bombay!",
+    "Mother India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "Teja Rio's debut film Angh won the Platform Award at the Toronto International Film Festival 2026. Gondhal was India's Oscar entry, whereas Angh was the only Indian film among the 12 films in the Platform competition."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Award categories and winners",
+   "question": "With reference to the Tenzing Norgay National Adventure Awards 2024, consider the following statements:\n1. Baljeet Kaur and Skaljang Rigzin won in the Land Adventure category.\n2. Rimo Saha won in the Water Adventure category.\n3. Shiva Prasad Chamoli won in the Water Adventure category.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Baljeet Kaur and Skaljang Rigzin won the Land Adventure category, and Rimo Saha won the Water Adventure category. Statement 3 is incorrect because Shiva Prasad Chamoli won in the Lifetime Achievement category."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Award categories",
+   "question": "How many of the following are categories of the Tenzing Norgay National Adventure Awards?\n1. Land Adventure\n2. Water Adventure\n3. Air Adventure\n4. Mountain Adventure",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "Land Adventure, Water Adventure and Air Adventure are three listed categories of the awards. Mountain Adventure is not among the listed categories, so the correct answer is Only three."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Football award winners",
+   "question": "Match List-I with List-II in the context of the FPAI Indian Football Awards 2026.\n\nList-I\n a. Indian Footballer of the Year\n b. Women's Player of the Year\n c. Men's Coach\n d. Champions Award\n\nList-II\n i. East Bengal FC\n ii. Owen Coyle\n iii. Lallianzuala Chhangte\n iv. Manisha Kalyan\n\nSelect the correct code.",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2",
+    "P3.F5",
+    "P3.F8"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i: Lallianzuala Chhangte, Manisha Kalyan, Owen Coyle and East Bengal FC respectively. The other codes interchange the award winners and therefore do not give the correct matching."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Special honour",
+   "question": "At the FPAI Indian Football Awards 2026, which team received a special honour for winning the IWL?",
+   "options": [
+    "East Bengal women",
+    "East Bengal FC",
+    "Sanfida Nongrum",
+    "Manisha Kalyan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8",
+    "P3.F9"
+   ],
+   "explanation": "East Bengal women received a special honour for winning the IWL. East Bengal FC received the Champions Award for the ISL 2025–26, which is a separate recognition."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Award and institution",
+   "question": "Assertion (A): V.K. Saraswat is the recipient of the INAE Lifetime Contribution Award in Engineering 2026.\nReason (R): The Indian National Academy of Engineering has its headquarters in Gurugram.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F3"
+   ],
+   "explanation": "Both the assertion and the reason are true: V.K. Saraswat was named for the INAE Lifetime Contribution Award in Engineering 2026, and INAE is headquartered in Gurugram. The headquarters location does not explain why Saraswat received the award."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Award recipient and nomination",
+   "question": "Consider the following statements:\nStatement A: NCSC Chairman Kishor Makwana received the Dr. APJ Abdul Kalam Jan Seva Puraskar 2026 on September 9, 2026, in New Delhi.\nStatement B: Kishor Makwana was nominated for the award by the NCSC.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "Statement A is true: Kishor Makwana received the award on September 9, 2026, at the 16th Sansad Ratna Awards ceremony in New Delhi. Statement B is false because he was nominated by the Prime Point Foundation, not by the NCSC."
+  }
+ ]
+}

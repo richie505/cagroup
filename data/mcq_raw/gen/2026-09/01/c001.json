@@ -1,0 +1,133 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launched by and venue",
+   "question": "Who launched the Sanjeevani programme for tribal development, and where was it launched?",
+   "options": [
+    "CM N. Chandrababu Naidu at Ganneli, Araku Valley, Alluri Sitarama Raju district",
+    "The Danish delegation at Rayapudi, Amaravati",
+    "IIT Madras at Vijayawada",
+    "APCRDA at Ganneli, Araku Valley, Alluri Sitarama Raju district"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "CM N. Chandrababu Naidu launched the Sanjeevani programme at Ganneli in Araku Valley, Alluri Sitarama Raju district. Rayapudi is associated with the APCRDA meeting on the Amaravati power grid, not the Sanjeevani launch."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Five-pronged strategy",
+   "question": "Which of the following statements regarding the five-pronged strategy under the Sanjeevani programme is incorrect?",
+   "options": [
+    "The strategy covers infrastructure, healthcare, education, employment and welfare.",
+    "The strategy covers infrastructure, healthcare, education, roads and welfare.",
+    "The strategy covers infrastructure, healthcare, employment, education and welfare.",
+    "The strategy covers healthcare, infrastructure, education, employment and welfare."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "The incorrect statement replaces employment with roads. Roads are covered separately through Adivathalli Bata, while the five-pronged strategy includes employment."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Major initiatives and strategy",
+   "question": "Consider the following statements about the Sanjeevani programme:\n1. Its strategy includes infrastructure, healthcare, education, employment and welfare.\n2. An emergency network of 150 vehicles is planned in Alluri Sitarama Raju district.\n3. One lakh tribal youth are to be trained in 3 years.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F6",
+    "P3.F14"
+   ],
+   "explanation": "All three statements are correct: the programme follows a five-pronged strategy, provides 150 emergency vehicles in Alluri Sitarama Raju district, and targets training one lakh tribal youth in 3 years. Therefore, the correct option is 1, 2 and 3."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Output of summit",
+   "question": "What is the proposed output of the PanIIT Summit 2026 in Vijayawada?",
+   "options": [
+    "A Research and Recommendation Paper to CM N. Chandrababu Naidu",
+    "The IIT Directors' Conclave under the PanIIT Amaravati Council",
+    "Five panels on Energy and fuel cost, DeepTech, Space and Defence manufacturing, BioValley, and AgriTech",
+    "A leadership dinner on October 2, 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F3",
+    "P4.F4"
+   ],
+   "explanation": "The summit is to produce a Research and Recommendation Paper for CM N. Chandrababu Naidu. The IIT Directors' Conclave, five panels and leadership dinner are summit-related components, but they are not the stated output."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Component under PM-KUSUM",
+   "question": "Assertion (A): Andhra Pradesh is undertaking 1,162.80 MW of feeder-level solarisation through 228 solar plants under Component C of PM-KUSUM.\nReason (R): Feeder-level solarisation is provided under Component B of PM-KUSUM.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F7",
+    "P5.F9"
+   ],
+   "explanation": "Assertion A is true: the Andhra Pradesh project covers 1,162.80 MW through 228 solar plants under Component C. Reason R is false because feeder-level solarisation is under Component C—FLS, whereas Component B provides standalone solar pumps."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "CAPEX and RESCO modes",
+   "question": "Consider the following statements about feeder-level solarisation under PM-KUSUM:\nStatement A: Under the CAPEX mode, the utility owns the project.\nStatement B: Under the RESCO mode, a service company operates the project for a normal period of 25 years.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "Both statements are true. CAPEX means that the utility owns the project, while RESCO involves a service company for a normal period of 25 years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and power-grid project",
+   "question": "During the India–Denmark Energy Partnership visit to Amaravati, what project was discussed with APCRDA at its headquarters in Rayapudi?",
+   "options": [
+    "Design of a 33-kV power grid for Amaravati",
+    "A digital twin of Amaravati at the Amaravati Integrated Command Control Centre",
+    "EV charging under the Amaravati power grid",
+    "A Research and Recommendation Paper for CM N. Chandrababu Naidu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "The Danish delegation met APCRDA at its headquarters in Rayapudi to discuss the design of a 33-kV power grid for Amaravati. The digital twin was shown separately at the Amaravati Integrated Command Control Centre, while EV charging was one of the topics considered for the grid."
+  }
+ ]
+}

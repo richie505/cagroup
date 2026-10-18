@@ -1,0 +1,96 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Edition and venue",
+   "question": "The Global Fintech Fest (GFF) 2026 held in Mumbai was which edition?",
+   "options": [
+    "7th edition",
+    "6th edition",
+    "8th edition",
+    "9th edition"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The Mumbai event in 2026 was the 7th edition of the Global Fintech Fest. The 6th and 8th editions are incorrect, while 2020 was the year in which the event began, not its edition number."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Theme and organisers",
+   "question": "Consider the following statements about the Global Fintech Fest 2026:\n1. Its theme included “Potential to Impact: Agentic AI | Tokenisation | Quantum: Trusted, Connected, Global Systems for Inclusive Finance”.\n2. It was organised by the Payments Council of India, NPCI and RBI.\n3. It was held at Jio World Centre and Trident in Hyderabad.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3",
+    "P7.F15"
+   ],
+   "explanation": "Exactly one statement is correct: the stated theme was the official theme of GFF 2026. The organisers included the Fintech Convergence Council, not RBI, and the venues were in Bandra Kurla Complex, not Hyderabad."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "DPI numbers",
+   "question": "With reference to India’s digital public infrastructure indicators, how many of the following statements are correct?\n1. UPI recorded 2,365.8 crore transactions worth ₹29.88 lakh crore through 741 banks in July 2026.\n2. UPI recorded 24,509 crore transactions in August 2026.\n3. UPI accounted for approximately 50% of real-time transactions and was live in 12 countries.\n4. The Financial Inclusion Index stood at 71.0 in March 2026.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4",
+    "P7.F5",
+    "P7.F6",
+    "P7.F7"
+   ],
+   "explanation": "Only one statement is correct: the July 2026 UPI figures were 2,365.8 crore transactions, ₹29.88 lakh crore and 741 banks. The August figure was 24,509 million transactions, UPI was live in 11 countries, and the Financial Inclusion Index was 70.0 in March 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme outlay and sector",
+   "question": "The National Offshore Exploration Scheme, approved in August 2026, has an outlay of ₹84,084 crore up to 2030-31 for which sector?",
+   "options": [
+    "Oil and gas exploration",
+    "Seabed mineral extraction",
+    "Digital payments infrastructure",
+    "Manufacturing and services zones alone"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "The scheme is a Central Sector Scheme of the Ministry of Petroleum and Natural Gas for oil and gas exploration, with an outlay of ₹84,084 crore up to 2030-31. Seabed minerals are not its focus; manufacturing and services zones are only one component."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Drilling-cost support",
+   "question": "Assertion (A): The National Offshore Exploration Scheme provides support of up to 50% of drilling cost or ₹675 crore per well, whichever is lower.\nReason (R): The support is calculated as up to 50% of drilling cost or ₹675 crore per well, whichever is higher.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "Assertion A is true because the scheme limits support to 50% of drilling cost or ₹675 crore per well, whichever is lower. Reason R is false because the applicable condition is “whichever is lower,” not “whichever is higher.”"
+  }
+ ]
+}

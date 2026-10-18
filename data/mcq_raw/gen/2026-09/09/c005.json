@@ -1,0 +1,80 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  23,
+  24
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Book translator",
+   "question": "Who translated the Russian edition of the Tirukkural that was gifted by Prime Minister Narendra Modi to President Vladimir Putin?",
+   "options": [
+    "Naira Mkrtchyan",
+    "Justice H.N. Nagamohan Das",
+    "Dr. Tamilisai Soundararajan",
+    "Ankuran Dutta"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F1"
+   ],
+   "explanation": "Naira Mkrtchyan translated the Russian edition of the Tirukkural gifted by Prime Minister Narendra Modi to Putin. Justice H.N. Nagamohan Das authored Memorable Trials, Unforgettable Cases, while Dr. Tamilisai Soundararajan authored A Century of Service – The RSS in 100 Acts of Seva."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Authors and publishers of books",
+   "question": "Consider the following statements about books released or highlighted in September 2026:\n1. Memorable Trials, Unforgettable Cases was authored by Justice H.N. Nagamohan Das.\n2. A Century of Service – The RSS in 100 Acts of Seva was authored by Dr. Tamilisai Soundararajan.\n3. Vishwasanchar Hindutva Ka was published by Saptahik Vivek.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P23.F2",
+    "P23.F3",
+    "P23.F4"
+   ],
+   "explanation": "All three statements are correct: Justice H.N. Nagamohan Das authored Memorable Trials, Unforgettable Cases; Dr. Tamilisai Soundararajan authored A Century of Service – The RSS in 100 Acts of Seva; and Saptahik Vivek published Vishwasanchar Hindutva Ka. The tempting option ‘1 and 2 only’ is incorrect because statement 3 is also correct."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Gallantry award and wartime action",
+   "question": "Assertion (A): Flt Lt Alfred Tyrone Cook was a 1965 war hero who received the Vir Chakra.\nReason (R): During the air battle over Kalaikunda, he shot down one PAF Sabre and damaged another while facing a force three times larger.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F1",
+    "P24.F5"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and Cook’s exceptional action against the PAF Sabres explains his recognition as a 1965 war hero and recipient of the Vir Chakra. The second option is incorrect because the wartime action provides the basis for the Assertion."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Obituary details",
+   "question": "Which one of the following statements about the September 2026 obituaries is incorrect?",
+   "options": [
+    "Surya Krishnamoorthy founded the Surya Festival in 1977 in Thiruvananthapuram.",
+    "Gloria Steinem co-founded Ms. Magazine and the National Women’s Political Caucus in 1971.",
+    "Surya Krishnamoorthy died in Thiruvananthapuram on September 23, 2026.",
+    "Gloria Steinem co-founded the National Women’s Political Caucus with Bella Abzug, Shirley Chisholm and Betty Friedan."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P24.F2",
+    "P24.F3",
+    "P24.F6",
+    "P24.F7"
+   ],
+   "explanation": "The second statement is incorrect because the National Women’s Political Caucus was founded in 1971, whereas Surya Krishnamoorthy founded the Surya Festival in 1977. The other three statements correctly describe the obituaries of Surya Krishnamoorthy and Gloria Steinem."
+  }
+ ]
+}

@@ -5,6 +5,7 @@ Model gpt-5.6-luna. Steps per folder: generate, verify, cover, verify, then buil
 | Folder | Calls (gen/ver/cover/ver) | Tokens in / out | MCQs kept | News pages with a question |
 |---|---|---|---|---|
 | 2026-10 | 37 / 26 / 13 / 6 = 82 | 182,596 / 101,559 | 226 | 184 / 195 |
+| 2026-09 | 64 / 33 / 12 / 6 = 115 | 273,637 / 142,583 | 324 | 229 / 233 |
 
 ## 2026-10 answer positions per format
 

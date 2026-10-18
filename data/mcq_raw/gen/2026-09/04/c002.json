@@ -1,0 +1,78 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Credit amount",
+   "question": "Under ECLGS 5.0, what is the maximum additional credit facilitated through guarantees?",
+   "options": [
+    "₹100 crore",
+    "₹2.55 lakh crore",
+    "₹1,500 crore",
+    "USD 1 billion"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "ECLGS 5.0 facilitates additional credit of up to ₹2.55 lakh crore. The other figures relate to borrower or airline limits under the scheme, or to separate MSME credit mobilisation by the IFC."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Approval, implementation and validity",
+   "question": "With reference to ECLGS 5.0, consider the following statements:\n1. The scheme was approved in 2026.\n2. It is implemented by the International Finance Corporation through Member Lending Institutions.\n3. It is valid until March 31, 2028, or until the guarantee limit is reached, whichever is earlier.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "Exactly one statement is correct: ECLGS 5.0 was approved in 2026. The scheme is implemented by the National Credit Guarantee Trustee Company through Member Lending Institutions, and its validity ends on March 31, 2027, or when ₹2.55 lakh crore in guarantees is reached, whichever is earlier."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Guarantee versus loan waiver",
+   "question": "Assertion (A): ECLGS 5.0 remains valid until March 31, 2027, or until ₹2.55 lakh crore in guarantees is reached, whichever is earlier.\nReason (R): The guarantee provided under ECLGS 5.0 is a loan waiver.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F5"
+   ],
+   "explanation": "Assertion A is true because the scheme has the stated validity period and guarantee ceiling. Reason R is false: the guarantee is not a loan waiver."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "IFC mobilisation for MSME credit",
+   "question": "Consider the following statements:\nStatement A: The International Finance Corporation mobilised USD 1 billion from the Union Finance Ministry for long-term credit to small businesses.\nStatement B: The International Finance Corporation is headquartered in New York and is the World Bank Group’s public-sector arm.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F3"
+   ],
+   "explanation": "Both statements are false. The Union Finance Ministry mobilised USD 1 billion from the IFC, which has its headquarters in Washington, D.C. and is the World Bank Group’s private-sector arm."
+  }
+ ]
+}

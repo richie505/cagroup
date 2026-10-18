@@ -1,32 +1,35 @@
 # CA MCQ report
 
-- MCQs kept: **226**
-- News pages with at least one question: **184 / 2629**
-- Facts tested: **464 / 20515** (2.3%)
-- Answer positions: A 43, B 68, C 72, D 43
+- MCQs kept: **550**
+- News pages with at least one question: **413 / 2629**
+- Facts tested: **1137 / 20515** (5.5%)
+- Answer positions: A 139, B 143, C 148, D 120
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 19 | 26 | 35 | 18 |
-| Negative / Incorrect Statement | 3 | 9 | 8 | 4 |
-| Assertion-Reason | 7 | 10 | 7 | 7 |
-| Statement-Based (A/B) | 8 | 2 | 9 | 9 |
-| Multi-Statement Correctness | 4 | 9 | 7 | 5 |
+| Direct Recall | 58 | 65 | 60 | 44 |
+| Negative / Incorrect Statement | 11 | 17 | 15 | 17 |
+| Assertion-Reason | 23 | 18 | 20 | 15 |
+| Statement-Based (A/B) | 18 | 8 | 19 | 23 |
+| Multi-Statement Correctness | 22 | 18 | 18 | 17 |
 | Chronological Ordering | 0 | 0 | 0 | 0 |
-| List-Matching | 2 | 1 | 2 | 0 |
-| Count-Based | 0 | 11 | 4 | 0 |
+| List-Matching | 4 | 2 | 6 | 3 |
+| Count-Based | 3 | 15 | 10 | 1 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 34 |
-| verify:not_in_facts | 5 |
+| code | 75 |
+| verify:not_in_facts | 6 |
+| over the page's quota | 4 |
+| verify:explanation_contradicts | 4 |
 | verify:two_correct | 3 |
 | verify:none_correct | 2 |
+| duplicate | 2 |
 | verify:second reader picked option 2, key 1 | 1 |
-| over the page's quota | 1 |
-| duplicate | 1 |
+| verify:second reader picked option 3, key 0 | 1 |
+| verify:second reader picked option 1, key 0 | 1 |
 
 ## Per file
 
@@ -43,17 +46,17 @@
 | 2026-10/09 | Awards, Persons & Appointments | 27 | 54/92 |
 | 2026-10/10 | Sports | 14 | 30/85 |
 | 2026-10/11 | Important Days & Events | 14 | 26/80 |
-| 2026-09/01 | Andhra Pradesh | 0 | 0/193 |
-| 2026-09/02 | Polity & Governance | 0 | 0/160 |
-| 2026-09/03 | Schemes & Social Sector | 0 | 0/137 |
-| 2026-09/04 | Economy, Banking & Budget | 0 | 0/173 |
-| 2026-09/05 | International Relations | 0 | 0/198 |
-| 2026-09/06 | Science, Tech, Space & Defence | 0 | 0/294 |
-| 2026-09/07 | Environment & Geography | 0 | 0/104 |
-| 2026-09/08 | Reports, Indices & Rankings | 0 | 0/139 |
-| 2026-09/09 | Awards, Persons & Appointments | 0 | 0/179 |
-| 2026-09/10 | Sports | 0 | 0/76 |
-| 2026-09/11 | Important Days & Events | 0 | 0/156 |
+| 2026-09/01 | Andhra Pradesh | 37 | 77/193 |
+| 2026-09/02 | Polity & Governance | 33 | 66/160 |
+| 2026-09/03 | Schemes & Social Sector | 23 | 47/137 |
+| 2026-09/04 | Economy, Banking & Budget | 31 | 68/173 |
+| 2026-09/05 | International Relations | 41 | 83/198 |
+| 2026-09/06 | Science, Tech, Space & Defence | 42 | 81/294 |
+| 2026-09/07 | Environment & Geography | 17 | 39/104 |
+| 2026-09/08 | Reports, Indices & Rankings | 28 | 58/139 |
+| 2026-09/09 | Awards, Persons & Appointments | 35 | 79/179 |
+| 2026-09/10 | Sports | 16 | 30/76 |
+| 2026-09/11 | Important Days & Events | 21 | 45/156 |
 | 2026-08/01 | Andhra Pradesh | 0 | 0/230 |
 | 2026-08/02 | Polity & Governance | 0 | 0/169 |
 | 2026-08/03 | Schemes & Social Sector | 0 | 0/97 |
@@ -265,3 +268,24 @@
 - `2026-10/11/g002#0` verify: two_correct — The facts associate the temple with both Manali and Kullu, so options 0 and 1 can be defended.
   - Q: President Droupadi Murmu's visit to Hidimba Devi Temple was associated with which place?
   - Key: Manali
+- `2026-09/01/c000#5` verify: explanation_contradicts — All four statements are supported by the facts, so none can be identified as incorrect.
+  - Q: Which of the following statements regarding the Mazagon Dock merchant shipyard at Dugarajapatnam is incorrect?
+  - Key: MDL will invest approximately ₹15,000 crore over 5–7 years, with a capacity of 1.2 million gross tonnes per year and aro
+- `2026-09/03/c002#4` verify: second reader picked option 3, key 0 — 
+  - Q: With reference to the launch locations of the two phases of the Vibrant Villages Programme, consider the following statements: / 1. VVP-I was launched at Kibithoo in Anjaw, Arunachal Pradesh. / 2. VVP-II 
+  - Key: 1 only
+- `2026-09/05/c004#6` verify: explanation_contradicts — The facts identify three pillars among the listed items: statements 1, 2, and 4.
+  - Q: How many of the following are among the three pillars of the Ramsar Convention? / 1. Wise use of all wetlands / 2. Designation and management of Ramsar Sites / 3. Designation and management of all rivers / 4.
+  - Key: Only two
+- `2026-09/06/c005#1` verify: explanation_contradicts — Both statements are true, but the quantity of weapons does not explain why the contract was with BDL.
+  - Q: Assertion (A): The SAT-SAAW procurement involved a contract with Bharat Dynamics Limited. / Reason (R): The contract covered 160 Satellite Smart Anti-Airfield Weapons.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-09/09/c005#3` verify: explanation_contradicts — The facts support all four statements, while the explanation incorrectly calls statement 1 incorrect.
+  - Q: Which one of the following statements about the September 2026 obituaries is incorrect?
+  - Key: Gloria Steinem co-founded Ms. Magazine and the National Women’s Political Caucus in 1971.
+- `2026-09/11/c002#1` verify: second reader picked option 1, key 0 — 
+  - Q: Assertion (A): Kerala became the first State to mandate a computer-based Hazard Perception Test for driving licences. / Reason (R): The provision for this test is under the Central Motor Vehicles Rules,
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-09/11/c003#7` verify: not_in_facts — The facts establish the venue and dates but do not establish that it was the 17th festival.
+  - Q: Assertion (A): The 17th Kathakali Festival was held at Kalakshetra, Thiruvanmiyur, Chennai, from September 18 to 20, 2026. / Reason (R): The Kalakshetra Foundation was established in 1936 by Rukmini Dev
+  - Key: Both A and R are true, but R is NOT the correct explanation of A

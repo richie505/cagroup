@@ -1,0 +1,59 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "Where was the 18th BRICS Summit, held under India's 2026 Chairship, scheduled to take place?",
+   "options": [
+    "Bharat Mandapam, New Delhi",
+    "Chennai",
+    "Yekaterinburg",
+    "Goa"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F23"
+   ],
+   "explanation": "The 18th BRICS Summit was scheduled at Bharat Mandapam in New Delhi on September 12–13, 2026. Chennai hosted the 14th BRICS STI Ministers' Meeting, while Yekaterinburg and Goa were associated with earlier BRICS summits."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Theme and Chairship",
+   "question": "Consider the following statements:\nStatement A: India assumed its fifth BRICS Chairship from January 1, 2026.\nStatement B: The theme of India's 2026 BRICS Chairship is “Building for Resilience, Innovation, Cooperation and Sustainability”.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Statement A is false because India's 2026 Chairship is its fourth, not its fifth. Statement B is true and gives the official theme: “Building for Resilience, Innovation, Cooperation and Sustainability”."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Delhi Declaration",
+   "question": "Assertion (A): The Delhi Declaration at the 18th BRICS Summit was adopted unanimously.\nReason (R): The Delhi Declaration opposed multilateral wars and promoted local currencies.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F24"
+   ],
+   "explanation": "Assertion A is true: the Delhi Declaration was adopted unanimously. Reason R is false because the Declaration opposed unilateral wars, not multilateral wars; it did promote local currencies."
+  }
+ ]
+}

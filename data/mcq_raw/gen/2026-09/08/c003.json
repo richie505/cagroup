@@ -1,0 +1,133 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  15,
+  16,
+  17,
+  18,
+  19,
+  20
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Second-hand smoke deaths",
+   "question": "According to The Lancet Public Health study, how many second-hand smoke deaths were recorded in India in 2023?",
+   "options": [
+    "2,17,700",
+    "3,25,600",
+    "4,44,00,000",
+    "2.71 billion"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "India recorded 3,25,600 second-hand smoke deaths in 2023, compared with 2,17,700 in 1990. The figures 4,44,00,000 and 2.71 billion refer to exposed populations globally or in India, not deaths."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Village-level SDG gaps",
+   "question": "Which of the following statements regarding the Lancet study on village-level SDG gaps in India is incorrect?",
+   "options": [
+    "No Indian village met several SDG indicators by 2021, including basic services, health insurance and women's bank accounts.",
+    "Nearly all villages met the adolescent pregnancy target for girls aged 10–14.",
+    "The study team included Harvard T.H. Chan School of Public Health and Dhirubhai Ambani International School, Mumbai.",
+    "The Sustainable Development Goals comprise 16 goals, 169 targets and are to be achieved by 2030."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2",
+    "P16.F3",
+    "P16.F4"
+   ],
+   "explanation": "The incorrect statement is that the Sustainable Development Goals comprise 16 goals; they comprise 17 goals, 169 targets and are to be achieved by 2030. The other statements correctly describe the study's findings and participating institutions."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Driest year in three and a half decades",
+   "question": "Assertion (A): The WMO State of Global Water Resources 2025 described 2025 as one of the driest years in 35 years.\nReason (R): Around 36% of the world's river basins were drier than normal.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F4"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the unusually high share of river basins that were drier than normal supports the assessment that 2025 was one of the driest years in 35 years. The 36% figure is therefore directly relevant to the assertion."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Air-pollution mortality and mitigation",
+   "question": "With reference to the UNEP–CCAC report on air pollution, consider the following statements:\n1. Air pollution caused 8.4 million premature deaths in 2025.\n2. Twenty-five measures across six sectors could prevent 144 million deaths by 2050.\n3. Every USD 15 invested produced a benefit of only USD 1.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F3",
+    "P18.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the report estimated 8.4 million premature deaths in 2025 and identified measures that could prevent 144 million deaths by 2050. Statement 3 reverses the finding; the benefit was USD 15 for every USD 1 invested."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Electrification outlook and IEA",
+   "question": "Consider the following statements:\nStatement A: Electricity's share of global final energy could reach 40% by 2035.\nStatement B: The International Energy Agency was established in 1975 and is headquartered in Geneva.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F3"
+   ],
+   "explanation": "Both statements are false. Electricity's share could reach 35% by 2035, while the IEA dates from 1974 and is based in Paris within the OECD framework."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Types of cyber scams",
+   "question": "How many of the following scam categories and percentages were correctly reported in the Lokniti-CSDS and Common Cause study?\n1. Fake delivery calls — 33%\n2. Investment scams — 31%\n3. Bank impersonation — 27%\n4. Sexual harassment — 6%",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P20.F3",
+    "P20.F4"
+   ],
+   "explanation": "Only three of the pairs are correct: fake delivery calls accounted for 33%, investment scams 31% and bank impersonation 27%. Sexual harassment accounted for 4%, not 6%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NCRB cybercrime data",
+   "question": "What number of cybercrime cases did the NCRB report for India in 2024?",
+   "options": [
+    "86,420",
+    "1,01,928",
+    "17.9%",
+    "6%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P20.F1"
+   ],
+   "explanation": "The NCRB reported 1,01,928 cybercrime cases in 2024, up from 86,420 in 2023. The figures 17.9% and 6% denote the increase in cybercrime and the fall in overall crime, respectively, rather than the number of cases."
+  }
+ ]
+}

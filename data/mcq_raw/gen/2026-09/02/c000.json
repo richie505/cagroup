@@ -1,0 +1,96 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme objective",
+   "question": "What is the principal legal effect of the Legal Metrology (Indian Standard Time) Rules, 2026?",
+   "options": [
+    "They make Indian Standard Time the single legal reference for legal, administrative, commercial and official purposes",
+    "They make UTC+5:30 the only permissible time displayed in India",
+    "They require every organisation to own an atomic clock",
+    "They permit organisations to use separate regional time zones for official purposes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F4",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "The Rules make Indian Standard Time the single legal reference for legal, administrative, commercial and official purposes. The tempting option that requires every organisation to own an atomic clock is wrong; organisations only need to synchronise with time traceable to IST."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Coming into force",
+   "question": "Assertion (A): The Legal Metrology (Indian Standard Time) Rules, 2026, come into force 180 days after publication in the Gazette.\nReason (R): Every organisation is required to own an atomic clock.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "Assertion A is true because the Rules come into force 180 days after Gazette publication. Reason R is false because organisations need synchronisation with time traceable to IST, not ownership of an atomic clock."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Enforcement and display rules",
+   "question": "With reference to the Legal Metrology (Indian Standard Time) Rules, 2026, consider the following statements:\n1. The Legal Metrology Department is responsible for enforcement.\n2. CSIR-NPL provides technical guidance.\n3. Other time zones may be displayed without displaying IST.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: enforcement is assigned to the Legal Metrology Department and CSIR-NPL provides technical guidance. Statement 3 is incorrect because other time zones may be displayed only along with IST."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UCC rollout target",
+   "question": "According to the announcement on the Uniform Civil Code, in how many NDA-ruled States was implementation targeted by 2029?",
+   "options": [
+    "21 States",
+    "22 States",
+    "25 States",
+    "29 States"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The target announced was implementation of the Uniform Civil Code in all 21 NDA-ruled States by 2029. The other numerical options do not match the announced target."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Constitutional provision",
+   "question": "Consider the following statements:\nStatement A: Article 44 is a Directive Principle of State Policy in Part IV that directs the State to endeavour to secure a Uniform Civil Code.\nStatement B: Article 25 deals with religion.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "Both statements are true: Article 44 in Part IV concerns the State's endeavour to secure a Uniform Civil Code, while Article 25 concerns religion. The tempting option that treats Statement B as false is incorrect because religion is specifically associated with Article 25."
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  23,
+  24,
+  25,
+  26
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Most enterprises by district",
+   "question": "According to the ASUSE district data for Andhra Pradesh, which district had the highest number of unincorporated enterprises?",
+   "options": [
+    "Krishna",
+    "Prakasam",
+    "YSR Kadapa",
+    "NTR"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P23.F1"
+   ],
+   "explanation": "Prakasam had the highest number of unincorporated enterprises, with 2.13 lakh enterprises. Krishna, YSR Kadapa and NTR followed with 1.98 lakh, 1.95 lakh and 1.89 lakh respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "District-wise annual wage",
+   "question": "With reference to the ASUSE district data for Andhra Pradesh, which of the following statements is incorrect?",
+   "options": [
+    "Kakinada recorded the highest annual wage at ₹1,99,783.",
+    "Kurnool recorded the lowest annual wage at ₹1,11,549.",
+    "Kurnool recorded the highest annual wage at ₹1,99,783.",
+    "The difference between the highest and lowest annual wage was reported across Kakinada and Kurnool."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P23.F3",
+    "P23.F18"
+   ],
+   "explanation": "The incorrect statement is that Kurnool recorded the highest annual wage at ₹1,99,783. Kakinada recorded the highest wage, while Kurnool recorded the lowest at ₹1,11,549."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "ASUSE organisation and women-related indicators",
+   "question": "Consider the following statements regarding the ASUSE district data and related findings:\n1. ASUSE is conducted by the National Statistical Office under the Ministry of Statistics and Programme Implementation.\n2. Nandyal had the highest shares of women-owned enterprises, women workers and registered firms in Andhra Pradesh.\n3. Nationally, 237 districts had a women-worker share exceeding 33%.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P23.F4",
+    "P23.F5",
+    "P23.F7"
+   ],
+   "explanation": "All three statements are correct. ASUSE is by the NSO under MoSPI; Nandyal led all three listed women-related indicators in Andhra Pradesh, and 237 districts nationally had a women-worker share above 33%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "The chloroquine-related illness incident involving a seven-year-old girl’s death and 52 people falling ill occurred at which place?",
+   "options": [
+    "Gollaguppa village, Yetapaka mandal, Polavaram district",
+    "Lakshmipuram village, Bhadrachalam mandal, Alluri Sitarama Raju district",
+    "Chinna Gangavaram village, Darakonda mandal, Parvathipuram Manyam district",
+    "Lothugedda village, Chintapalli mandal, ASR district"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F1",
+    "P24.F2"
+   ],
+   "explanation": "The incident occurred at Gollaguppa village in Yetapaka mandal of Polavaram district. Lakshmipuram PHC was mentioned as the place from which 23 children were shifted, not as the site of the incident."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Drug safety and malaria transmission",
+   "question": "Assertion (A): Chloroquine has a narrow therapeutic index.\nReason (R): Female Anopheles is the vector associated with Plasmodium falciparum in Andhra Pradesh.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P24.F4",
+    "P24.F8"
+   ],
+   "explanation": "Both the assertion and the reason are true: chloroquine has a small margin between its effective and toxic doses, while female Anopheles is the vector associated with Plasmodium falciparum. However, the vector does not explain chloroquine’s narrow therapeutic index."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Community-built bridge",
+   "question": "Which description correctly identifies the wooden bridge built by Adivasis in ASR district in August 2026?",
+   "options": [
+    "A 100-metre bridge between Lothugedda and Boyapadu, built by about 100 Adivasis from eight villages",
+    "A 100-metre bridge between T. Korukonda and Chinna Gangavaram, built by about 100 Adivasis from eight villages",
+    "A bridge on the Ganugurolu–Bangarubudi road, sanctioned at ₹1.89 crore and completed by Adivasis",
+    "A Panchayat Raj bridge between Lothugedda and Boyapadu that was built in 2024"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P25.F1",
+    "P25.F2",
+    "P25.F4"
+   ],
+   "explanation": "About 100 Adivasis from eight villages built the 100-metre wooden bridge between Lothugedda and Boyapadu in Chintapalli mandal. The earlier Panchayat Raj bridge at the location had been washed away in 2024; the ₹1.89-crore bridge was a separate sanctioned project."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Administrative transfer",
+   "question": "AP FIRST was transferred from the Environment and Forests Department to which department?",
+   "options": [
+    "Environment and Forests Department",
+    "Science & Technology and Innovation Department",
+    "Companies Act Department",
+    "Panchayat Raj Department"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P26.F1"
+   ],
+   "explanation": "AP FIRST was transferred to the Science & Technology and Innovation Department from the Environment and Forests Department. It was set up under the Companies Act, which is a legal framework and not the department receiving the transfer."
+  }
+ ]
+}
