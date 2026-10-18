@@ -1,0 +1,228 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F2",
+  "P0.F4",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F15",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Test location",
+   "question": "Where was the static ground test of the improved SS3, the third stage of the Small Satellite Launch Vehicle, conducted?",
+   "options": [
+    "Satish Dhawan Space Centre, Sriharikota",
+    "Alwaye",
+    "VSSC Composites Entity",
+    "SCL Mohali"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The improved SS3 underwent its static ground test at Satish Dhawan Space Centre (SDSC), Sriharikota. Alwaye was associated with the second Ammonium Perchlorate line, not this test."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Test duration and qualification",
+   "question": "The static ground test of the improved SSLV third stage lasted for how long, after which it qualified for flight missions?",
+   "options": [
+    "90 seconds",
+    "108 seconds",
+    "120 seconds",
+    "64 seconds"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The test lasted 108 seconds, and all parameters matched, qualifying the stage for flight missions. The 90-second and 120-second values do not describe this test."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Stage performance",
+   "question": "What velocity can the SS3 stage of the Small Satellite Launch Vehicle provide?",
+   "options": [
+    "About 1 km/s",
+    "About 2 km/s",
+    "About 4 km/s",
+    "About 10 km/s"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The SS3 provides up to 4 km/s velocity. The other values do not represent the stated SS3 performance."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Facility, date and place",
+   "question": "Match the solid-motor infrastructure facility with its date and place of establishment or operation:\n\nList-I\n a. Solid Motor production facilities\n b. Second Ammonium Perchlorate line\n c. 10-tonne vertical mixer\n\nList-II\n i. July 2025, Sriharikota\n ii. September 2025, Alwaye\n iii. SDSC",
+   "options": [
+    "a-ii, b-i, c-iii",
+    "a-i, b-ii, c-iii",
+    "a-iii, b-ii, c-i",
+    "a-i, b-iii, c-ii"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii and c-iii: production facilities were associated with July 2025 at Sriharikota, the second Ammonium Perchlorate line with September 2025 at Alwaye, and the 10-tonne mixer with SDSC. The other codes interchange these dates or locations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Applications",
+   "question": "Which of the following is an identified use of the DHRUV64 microprocessor?",
+   "options": [
+    "5G infrastructure",
+    "Only strategic, space and defence applications",
+    "Only industrial robotics",
+    "Only space navigation and guidance"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "DHRUV64 is intended for uses including 5G infrastructure, automotive, consumer electronics, industrial automation and IoT. The other options incorrectly restrict its uses to applications associated with other indigenous processors."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Microprocessor ecosystem and next variants",
+   "question": "Consider the following statements:\nStatement A: India consumes about 20% of the world's microprocessors.\nStatement B: Dhanush and Dhanush+ are the next variants associated with DHRUV64.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "Both statements are true. India consumes about 20% of the world's microprocessors, and Dhanush and Dhanush+ are identified as the next variants; the trap is to confuse these variants with earlier processors."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Processor developer and fabrication site",
+   "question": "Assertion (A): THEJAS32 was made at SCL Mohali.\nReason (R): THEJAS64 was made at SCL Mohali.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "The assertion is false: THEJAS32 was fabricated at Silterra, Malaysia. The reason is true because THEJAS64 was made at SCL Mohali."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Processor identity and semiconductor programmes",
+   "question": "Consider the following statements:\n1. VIKRAM was developed by ISRO–SCL.\n2. The India Semiconductor Mission was launched in December 2021 with 10 projects in six States involving ₹1.60 lakh crore.\n3. The DIR-V Programme was launched in December 2021.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13",
+    "P1.F14",
+    "P1.F15"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The DIR-V Programme was launched in April 2022, not December 2021, making statement 3 incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Chips to Startup details",
+   "question": "Which combination correctly describes the Chips to Startup (C2S) programme?",
+   "options": [
+    "113 institutions, ₹250 crore for five years and 85,000 professionals",
+    "10 projects, six States and ₹1.60 lakh crore",
+    "8,000+ trained, 348 short-term and 220 mid-term projects",
+    "An incentive for five years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F16"
+   ],
+   "explanation": "The C2S programme involved 113 institutions, ₹250 crore over five years and 85,000 professionals. The other combinations describe the India Semiconductor Mission, INUP-i2i and the Design Linked Incentive programme respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Programme launch and incentive period",
+   "question": "Which of the following statements about the Design Linked Incentive programme is incorrect?",
+   "options": [
+    "It was launched in 2021.",
+    "It provides an incentive for five years.",
+    "It was launched in 2022.",
+    "It is known as the Design Linked Incentive programme."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F17"
+   ],
+   "explanation": "The incorrect statement is that the programme was launched in 2022; its correct launch year was 2021. The five-year incentive period and the name Design Linked Incentive are correct."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Training and project support",
+   "question": "How many of the following correctly describe the INUP-i2i programme?\n1. It was launched by MeitY.\n2. It trained 8,000+ participants.\n3. It included 348 short-term and 220 mid-term projects.\n4. It included 348 mid-term and 220 short-term projects.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F18"
+   ],
+   "explanation": "Only statement 2 is correct: INUP-i2i trained 8,000+ participants. The programme was launched by MeitY, but statements 1, 3 and 4 alter or reverse the stated project details; specifically, the correct figures are 348 short-term and 220 mid-term projects."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First orbital launch vehicle by a start-up",
+   "question": "What notable test was conducted by the Solid Motor and Propellant Storage and Testing facility at SDSC?",
+   "options": [
+    "A solid motor for the first orbital launch vehicle by an Indian space start-up",
+    "The DHRUV64 microprocessor for 5G infrastructure",
+    "A second Ammonium Perchlorate line at Alwaye",
+    "A 10-tonne vertical mixer at Sriharikota"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "SMPST at SDSC tested a solid motor for the first orbital launch vehicle by an Indian space start-up. The other options refer to DHRUV64 or separate solid-motor infrastructure developments."
+  }
+ ]
+}

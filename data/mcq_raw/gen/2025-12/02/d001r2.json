@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F7",
+  "P3.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Electoral trust distribution",
+   "question": "In FY 2024–25, how much did the Prudent Electoral Trust give to the BJP?",
+   "options": [
+    "₹2,180.71 crore",
+    "₹216.34 crore",
+    "₹2,668.49 crore",
+    "₹33,330.54 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "The Prudent Electoral Trust gave ₹2,180.71 crore to the BJP in FY 2024–25. ₹216.34 crore was given to the Congress, while ₹2,668.49 crore was the amount received by the trust during that year."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Fair press reporting",
+   "question": "Consider the following statements:\nStatement A: The 44th Amendment, 1978, provided for fair press reporting of parliamentary proceedings, except secret sittings.\nStatement B: The 44th Amendment, 1978, provided fair press reporting of parliamentary proceedings including secret sittings.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "Statement A is correct: the 44th Amendment, 1978, protected fair press reporting of proceedings except secret sittings. Statement B is incorrect because secret sittings were excluded from this protection."
+  }
+ ]
+}

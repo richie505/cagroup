@@ -1,0 +1,82 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F13",
+  "P0.F14",
+  "P1.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Replacement of scheme",
+   "question": "Which Bill was introduced to replace the Mahatma Gandhi National Rural Employment Guarantee Act, 2005?",
+   "options": [
+    "Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Bill",
+    "National Action Plan on Antimicrobial Resistance 2.0",
+    "Pradhan Mantri Gati Shakti Bill",
+    "Viksit Gram Panchayat Development Bill"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Bill, abbreviated as VB-G RAM G, was introduced to replace MGNREGA. The National Action Plan on Antimicrobial Resistance 2.0 is a separate health-sector plan, not an employment legislation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Average employment",
+   "question": "What was the average employment provided under MGNREGA per household, according to the cited comparison with VB-G RAM G?",
+   "options": [
+    "About 50 days",
+    "About 100 days",
+    "About 125 days",
+    "About 150 days"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "The average MGNREGA employment was about 50 days per household. The figures 100 and 125 refer to guaranteed-day provisions in the comparison, while 150 days was associated with special cases."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Rural labour and wage data",
+   "question": "Consider the following statements:\nStatement A: Rural female LFPR increased from 24.6% in 2017–18 to 47.6% in 2017–18.\nStatement B: Nominal rural wages grew by only 3.6–6.4% a year during 2015–25, according to the World Bank.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F13",
+    "P0.F14"
+   ],
+   "explanation": "Both statements are false. The rural female LFPR rose from 24.6% in 2017–18 to 47.6% in 2023–24, and the 3.6–6.4% nominal rural wage growth was reported by the Labour Bureau, not the World Bank."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Economic impact of AMR",
+   "question": "According to the World Bank assessment cited in the context of antimicrobial resistance, by how much may AMR reduce global GDP by 2050?",
+   "options": [
+    "3.8%",
+    "1.5%",
+    "5.0%",
+    "8.2%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "The World Bank estimated that antimicrobial resistance may cut global GDP by 3.8% by 2050. The other percentages do not represent the cited projection."
+  }
+ ]
+}

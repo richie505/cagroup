@@ -1,0 +1,282 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F1",
+  "P1.F3",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Description of report",
+   "question": "The Global Environment Outlook 2025 (GEO-7) is described as the world's most authoritative environmental what?",
+   "options": [
+    "Health check",
+    "Climate treaty",
+    "Biodiversity index",
+    "Pollution register"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "GEO-7 is called the world's most authoritative environmental “health check.” It is not described as a climate treaty, biodiversity index or pollution register."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GHG emissions trend",
+   "question": "According to the Global Environment Outlook 2025, global greenhouse-gas emissions have risen at what average annual rate since 1990?",
+   "options": [
+    "1.5%",
+    "3.4%",
+    "4%",
+    "8.1%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The report records a 1.5% annual rise in greenhouse-gas emissions since 1990. The figures 3.4%, 4% and 8.1% refer to other findings in the report, not this emissions trend."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Global temperature record",
+   "question": "Consider the following statements:\nStatement A: Global temperature in 2024 reached 1.55°C, the highest ever.\nStatement B: Global temperature in 2024 reached 1.5°C, the highest ever.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Statement A is correct: the 2024 global temperature was 1.55°C, the highest ever. Statement B changes the figure to 1.5°C and is therefore false."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Species facing extinction",
+   "question": "Assertion (A): Eight million species are facing extinction.\nReason (R): One million of the world's eight million species are facing extinction.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The assertion is false because the finding is that one million of eight million species face extinction, not all eight million. The reason correctly states the reported one-million figure."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Environmental indicators and figures",
+   "question": "Match the environmental indicators associated with GEO-7 in List-I with their reported figures in List-II.\n\nList-I\n(a) Degraded land\n(b) Climate-disaster cost\n(c) Air-pollution health loss in 2019\n(d) Premature pollution deaths\n\nList-II\n(i) USD 8.1 trillion\n(ii) 9 million a year\n(iii) 20–40%, affecting 3 billion+ people\n(iv) USD 143 billion a year",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii: degraded land is 20–40%, climate-disaster cost is USD 143 billion a year, air-pollution health loss is USD 8.1 trillion, and pollution deaths are 9 million a year. The other codes interchange these figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Plastic waste",
+   "question": "What quantity of plastic waste is highlighted in the Global Environment Outlook 2025?",
+   "options": [
+    "8,000 million tonnes",
+    "1,000 million tonnes",
+    "3,000 million tonnes",
+    "20,000 million tonnes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "GEO-7 highlights 8,000 million tonnes of plastic waste. The other quantities are not the figure reported for plastic waste."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Economic damage from chemical exposure",
+   "question": "Which of the following statements about the Global Environment Outlook 2025 is incorrect?",
+   "options": [
+    "Chemical exposure causes damage valued at USD 1.5 trillion a year.",
+    "Chemical exposure causes damage valued at USD 1.5 billion a year.",
+    "The figure is presented as an annual estimate.",
+    "The finding concerns damage from chemical exposure."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "The incorrect statement changes the reported amount from USD 1.5 trillion a year to USD 1.5 billion a year. The correct annual estimate is USD 1.5 trillion."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Projections and transformation benefits",
+   "question": "How many of the following statements are correctly associated with the projections and transformation benefits highlighted in GEO-7?\n\n1. The 1.5°C threshold is projected to be breached by the early 2030s and 2.0°C by the 2040s.\n2. Global GDP could decline by 4% by 2050 and 20% by 2100.\n3. Investment of USD 8 trillion a year until 2050 could yield benefits of up to USD 20 trillion a year by 2070.\n4. Food transformation could move 200 million people out of extreme poverty and 100 million out of undernutrition.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F12",
+    "P0.F13",
+    "P0.F14",
+    "P0.F15"
+   ],
+   "explanation": "Only three statements are correct: Statements 1, 2 and 3 accurately reproduce the projections and investment figures. Statement 4 reverses the reported benefits; the figures are 200 million out of undernutrition and 100 million out of extreme poverty."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UNEP foundation and headquarters",
+   "question": "When and where was the United Nations Environment Programme (UNEP) founded and headquartered, respectively?",
+   "options": [
+    "5 June 1972; Nairobi, Kenya",
+    "5 June 1972; Geneva, Switzerland",
+    "5 June 1975; Nairobi, Kenya",
+    "5 June 1975; Geneva, Switzerland"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "UNEP was founded on 5 June 1972 and has its headquarters in Nairobi, Kenya. The alternatives alter either the year or the headquarters location."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UNEP reports and campaigns",
+   "question": "Which of the following correctly lists reports and campaigns associated with UNEP?",
+   "options": [
+    "Emission Gap Report, Frontiers and GEO; Beat Pollution and World Environment Day",
+    "Basic Animal Husbandry Statistics, Frontiers and GEO; Beat Pollution and World Environment Day",
+    "Emission Gap Report, Frontiers and GEO; Clean Air Mission and World Environment Day",
+    "Emission Gap Report, Frontiers and GEO; Beat Pollution and Plastic-Free Cities"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F17"
+   ],
+   "explanation": "The listed UNEP reports are Emission Gap Report, Frontiers and GEO, while its campaigns include Beat Pollution and World Environment Day. The other options replace one of these entries with an unlisted report or campaign."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Common Carbon Metric",
+   "question": "What does the Common Carbon Metric of UNEP measure?",
+   "options": [
+    "The carbon footprint of building operations",
+    "The carbon footprint of agricultural exports",
+    "The carbon footprint of air travel",
+    "The carbon footprint of plastic waste"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F18"
+   ],
+   "explanation": "UNEP's Common Carbon Metric measures the carbon footprint of building operations. It is not identified here as a metric for agricultural exports, air travel or plastic waste."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Safest city for women",
+   "question": "Which city was identified as the Safest City for Women in India in the NARI 2025 Report?",
+   "options": [
+    "Visakhapatnam",
+    "Vijayawada",
+    "Bengaluru",
+    "Hyderabad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The NARI 2025 Report identified Visakhapatnam as India's Safest City for Women. The other cities are not the result specified for this report."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Women and Child Welfare ranking",
+   "question": "What was the result of Andhra Pradesh's Women and Child Welfare Department in the service delivery assessment?",
+   "options": [
+    "A++, 4th nationally",
+    "A++, 1st nationally",
+    "A+, 4th nationally",
+    "A, 5th nationally"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The Andhra Pradesh Women and Child Welfare Department received an A++ rating and ranked fourth nationally. The other options change either the grade or the national rank."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global Health Security Index rank",
+   "question": "What was India's rank in the Global Health Security Index?",
+   "options": [
+    "66th",
+    "56th",
+    "76th",
+    "86th"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "India was ranked 66th in the Global Health Security Index. The other ranks are adjacent or related-looking alternatives but do not match the reported result."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Literacy and port-index findings",
+   "question": "Consider the following statements:\n1. Andhra Pradesh recorded the lowest literacy rate in the PLFS 2023–24 finding, at 72.6%.\n2. Bihar was the second-lowest state, at 74.3%.\n3. The Container Port Performance Index was published by the World Bank.\n4. Eight Indian ports featured in the Container Port Performance Index.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "Only Statement 1 is correct as written. Bihar was second-lowest at 74.3%, while the index was published by the World Bank and featured nine Indian ports, making Statements 2, 3 and 4 false."
+  }
+ ]
+}

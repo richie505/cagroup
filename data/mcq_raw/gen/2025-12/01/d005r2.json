@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18
+ ],
+ "only": [
+  "P16.F2",
+  "P16.F5",
+  "P17.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Location and ecological significance",
+   "question": "With reference to the TTD Sacred Herbal Garden proposed in Tirumala, consider the following statements:\n\n1. The garden will cover 4 acres between the lower and upper ghat roads, near the GNC Toll Gate.\n2. The Seshachalam Biosphere Reserve was notified in 2010 and is rich in Red sanders, endemic medicinal species, but not sacred groves.\n3. The garden will cover 4 acres on one of the ghat roads near the GNC Toll Gate.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F2",
+    "P16.F5"
+   ],
+   "explanation": "Statement 1 is correct: the proposed garden will cover 4 acres between the lower and upper ghat roads near the GNC Toll Gate. Statement 2 is incorrect because the Seshachalam Biosphere Reserve is also rich in sacred groves, while Statement 3 changes the location from between both ghat roads to one ghat road."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Series name",
+   "question": "The 2026 AP Legislature Biodiversity Calendar formed part of which thematic calendar series launched in 2025?",
+   "options": [
+    "Heritage of Andhra Pradesh",
+    "Legendary Telugus in the Constituent Assembly",
+    "Biodiversity – The Living Heritage of Andhra Pradesh",
+    "Andhra Pradesh Legislature Heritage Series"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F3"
+   ],
+   "explanation": "The calendar formed part of the “Heritage of Andhra Pradesh” thematic calendar series, launched in 2025. “Legendary Telugus in the Constituent Assembly” refers to the 2025 edition, while “Biodiversity – The Living Heritage of Andhra Pradesh” was the theme of the 2026 edition."
+  }
+ ]
+}

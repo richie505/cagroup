@@ -1,0 +1,266 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F11",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F17",
+  "P2.F18",
+  "P2.F3",
+  "P2.F8",
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F13",
+  "P3.F14",
+  "P3.F15",
+  "P3.F16",
+  "P3.F17",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Emergency procurement limit",
+   "question": "Under the emergency procurement arrangements for additional Heron Mk II UAVs, what is the maximum amount permitted per system?",
+   "options": [
+    "₹300 crore",
+    "₹57 crore",
+    "₹118 crore",
+    "₹19 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "The emergency procurement limit for each Heron Mk II system is up to ₹300 crore. The figures 57%, 118% and 19% relate to other maritime indicators, not this procurement limit."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Speed",
+   "question": "What is the stated maximum speed of the Heron Mk II UAV?",
+   "options": [
+    "150 knots",
+    "35,000 ft",
+    "24–45 hours",
+    "500 kg"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "The Heron Mk II has a speed of 150 knots. The other options refer to altitude, endurance and payload respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sensors",
+   "question": "Which of the following correctly lists the sensor and communication systems associated with the Heron Mk II UAV?",
+   "options": [
+    "EO/IR, SAR, ELINT/COMINT/SIGINT and encrypted SATCOM",
+    "Automated take-off, landing and beyond-line-of-sight control only",
+    "Searcher Mark-I, Digital Sky and PLI systems",
+    "Green, Yellow and Red airspace mapping systems"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "The Heron Mk II is equipped with EO/IR, SAR, ELINT/COMINT/SIGINT and encrypted SATCOM. Automated take-off and landing and beyond-line-of-sight operation are capabilities, while Digital Sky and PLI are separate drone-policy measures."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Users and operational capability",
+   "question": "Consider the following statements:\nStatement A: The Heron Mk II is used by the Israeli Air Force and more than 20 militaries.\nStatement B: The Heron Mk II has automated take-off and landing and beyond-line-of-sight capability.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "Both statements are correct. The Heron Mk II is used by the Israeli Air Force and 20+ militaries, and it supports automated take-off and landing as well as beyond-line-of-sight operation."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Drone development and regulation",
+   "question": "With reference to the development and regulation of drones in India, consider the following statements:\n1. India’s UAV journey began in 1998 with the Israeli Searcher Mark-I.\n2. The Indian drone market was valued at ₹29 billion in 2020, is projected to reach ₹1.5 trillion by 2026, and has a goal of becoming a global drone hub by 2030.\n3. The Drone (Amendment) Rules, 2022 require a DGCA pilot licence for non-commercial nano and micro drones.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F13",
+    "P2.F14",
+    "P2.F15"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the Drone (Amendment) Rules, 2022 provide that no DGCA pilot licence is required for non-commercial nano and micro drones."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Digital regulation and drone technology",
+   "question": "Match List-I with List-II regarding India’s drone ecosystem.\n\nList-I\n a. Digital Sky Platform\n b. PLI scheme\n c. Fixed-wing UAVs\n d. Heron, Predator and Reaper\n\nList-II\n i. Cannot land vertically or hover\n ii. Use engines rather than batteries\n iii. Single-window portal with Green, Yellow and Red airspace zones\n iv. Scheme for drones and components",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F16",
+    "P2.F17",
+    "P2.F18"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii. Digital Sky is the single-window airspace portal, the PLI scheme covers drones and components, fixed-wing UAVs cannot hover or land vertically, and large UAVs such as Heron, Predator and Reaper use engines rather than batteries."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Maritime performance indicators",
+   "question": "How many of the following statements correctly describe the stated maritime performance indicators?\n1. Cargo handled increased from 974 MMT in 2014 to 1,594 MMT in 2025.\n2. Port capacity increased by 75%.\n3. Ship turnaround was 48 hours.\n4. Coastal shipping increased by 128%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F7",
+    "P3.F8",
+    "P3.F9"
+   ],
+   "explanation": "Only statements 1 and 3 are correct. Port capacity increased by 57%, not 75%, and coastal shipping increased by 118%, not 128%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inland waterway cargo",
+   "question": "According to the maritime-sector performance figures, inland waterway cargo recorded what change?",
+   "options": [
+    "An eightfold rise",
+    "A 57% rise",
+    "A 118% rise",
+    "A rise from 974 MMT to 1,594 MMT"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F10"
+   ],
+   "explanation": "Inland waterway cargo recorded an eightfold rise. The 57% and 118% figures concern port capacity and coastal shipping, while 974 MMT to 1,594 MMT concerns cargo handled."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ports and container performance",
+   "question": "With reference to India’s port infrastructure, consider the following statements:\n1. Nine Indian ports figured in the World Bank Container Port Performance Index.\n2. India has 12 major ports and 217 non-major ports.\n3. Mundra and Sikka together account for about 29% of cargo.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F11",
+    "P3.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Mundra and Sikka account for about 19% of cargo, not 29%, making statement 3 incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coastline",
+   "question": "What is the approximate length of India’s coastline referred to in the maritime-sector profile?",
+   "options": [
+    "Over 7,500 km",
+    "About 53%",
+    "About 19%",
+    "217 km"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F13"
+   ],
+   "explanation": "India’s coastline is over 7,500 km long. The other figures refer to the cargo share of major ports, the cargo share of Mundra and Sikka, and the number of non-major ports respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Maritime laws and vision",
+   "question": "Match the maritime laws and programme in List-I with their stated descriptions in List-II.\n\nList-I\n a. Indian Ports Act, 2025\n b. Merchant Shipping Act, 2025\n c. Coastal Shipping Act, 2025\n d. Maritime India Vision 2030\n\nList-II\n i. Maritime-sector vision up to 2030\n ii. Act replacing the 1908 Act\n iii. Maritime shipping legislation enacted in 2025\n iv. Coastal shipping legislation enacted in 2025",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F14"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i. The Indian Ports Act, 2025 replaced the 1908 Act, while the Merchant Shipping Act and Coastal Shipping Act were enacted in 2025 and Maritime India Vision 2030 is the sectoral vision."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First major port registered as a company",
+   "question": "Which port was the first major port to be registered as a company?",
+   "options": [
+    "Kamarajar Port (Ennore)",
+    "Mundra Port",
+    "JNPT (Nhava Sheva)",
+    "Sikka Port"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F15"
+   ],
+   "explanation": "Kamarajar Port, also known as Ennore, was the first major port registered as a company. Mundra is identified as the largest private port, while JNPT is the largest container port."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Largest private port",
+   "question": "Assertion (A): Mundra is the largest private port.\nReason (R): Mundra is located on the east coast of India.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F16"
+   ],
+   "explanation": "The assertion is true: Mundra is the largest private port. The reason is false because Mundra is in the Gulf of Kutch, not on India’s east coast."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Largest container port",
+   "question": "Which of the following statements regarding India’s largest container port is incorrect?",
+   "options": [
+    "JNPT is India’s largest container port.",
+    "JNPT is also known as Nhava Sheva.",
+    "Visakhapatnam is not India’s largest container port.",
+    "Visakhapatnam is India’s largest container port."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F17"
+   ],
+   "explanation": "The incorrect statement is that Visakhapatnam is India’s largest container port. JNPT, also known as Nhava Sheva, is the largest container port, not Visakhapatnam."
+  }
+ ]
+}

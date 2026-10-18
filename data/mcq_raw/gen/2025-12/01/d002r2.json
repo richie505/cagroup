@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P3.F12",
+  "P5.F11"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Investment figure and period",
+   "question": "In December 2025, what investment figure did the Andhra Pradesh Chief Minister cite as having been attracted in the preceding period?",
+   "options": [
+    "₹21 lakh crore in 18 months",
+    "₹58 lakh crore in 18 months",
+    "₹21 lakh crore in 58 months",
+    "₹1953 crore in 18 months"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F12",
+    "P3.F4",
+    "P3.F5"
+   ],
+   "explanation": "The Chief Minister cited ₹21 lakh crore in investments in 18 months. The tempting figure of ₹58 lakh crore is incorrect; 58 refers to the days of Potti Sriramulu’s fast, not the investment amount."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Insurance beneficiaries",
+   "question": "Under the police health insurance scheme, what was the coverage in the first year in terms of families and beneficiaries?",
+   "options": [
+    "2,576 families and 10,304 beneficiaries",
+    "10,304 families and 2,576 beneficiaries",
+    "2,576 families and 2 beneficiaries",
+    "10,304 families and 55 beneficiaries"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F11"
+   ],
+   "explanation": "The scheme covered 2,576 families, comprising 10,304 beneficiaries, in its first year. The most tempting wrong option reverses the figures: 10,304 was the number of beneficiaries, while 2,576 was the number of families."
+  }
+ ]
+}

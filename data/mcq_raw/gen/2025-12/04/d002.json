@@ -1,0 +1,266 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": [
+  "P3.F1",
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F13",
+  "P3.F14",
+  "P3.F15",
+  "P3.F2",
+  "P3.F3",
+  "P3.F6",
+  "P3.F7",
+  "P3.F9",
+  "P4.F10",
+  "P4.F11",
+  "P4.F12",
+  "P4.F13",
+  "P4.F14",
+  "P4.F15",
+  "P4.F4",
+  "P4.F7",
+  "P4.F8",
+  "P4.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Claim and venue",
+   "question": "At which event did US President Donald Trump claim that India and Thailand were “dumping” rice in the US?",
+   "options": [
+    "A White House farmers’ roundtable",
+    "A dairy cooperative conference in Gujarat",
+    "An IMF annual meeting",
+    "A World Trade Organization ministerial conference"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "Donald Trump made the rice-dumping claim at a White House farmers’ roundtable, involving Brooke Rollins and Scott Bessent. The claim was not made at a dairy, IMF or WTO event."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Relief package amount",
+   "question": "The rice-dumping claim was made in the context of which US farm-relief package?",
+   "options": [
+    "A $12 billion farm-relief package",
+    "A $12.95 billion farm-relief package",
+    "A $1.6 billion farm-relief package",
+    "A $2.74 billion farm-relief package"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "The context was a $12 billion US farm-relief package. The other amounts refer to different figures associated with rice trade and markets, not the farm-relief package."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nature of rice imports",
+   "question": "What fact about US rice imports challenges the claim that India was dumping rice in the US?",
+   "options": [
+    "The US imports premium aromatic rice at high prices",
+    "The US imports only non-basmati rice from West Africa",
+    "The US exports 25 MT of rice annually",
+    "The US imports rice exclusively from Thailand"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "The relevant fact is that the US imports premium aromatic rice at high prices, which does not fit the dumping allegation. The other options do not describe the stated basis for challenging the claim."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Export projection",
+   "question": "India’s rice-export projection was expected to change from which level in 2024–25 to which level in 2025–26?",
+   "options": [
+    "22.5 MT to 25 MT",
+    "25 MT to 22.5 MT",
+    "3 MT to 1.6 MT",
+    "7.05 MT to 12 MT"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "India’s rice-export projection was 22.5 MT for 2024–25 and 25 MT for 2025–26. The reverse sequence and the other quantities do not represent this projection."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "US rice trade",
+   "question": "According to the stated rice-trade figures, how much rice did the USA import?",
+   "options": [
+    "1.6 MT",
+    "3 MT",
+    "7.05 MT",
+    "22.5 MT"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "The USA imported 1.6 MT of rice; it produced 7.05 MT and exported 3 MT. The 22.5 MT figure is India’s export projection for 2024–25."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Variety and price",
+   "question": "Match the rice varieties with their stated price per tonne.\n\nList-I\n a. Thai Hom Mali\n b. Indian Basmati (2% broken)\n c. Thai Jasmine\n d. US white/parboiled\n\nList-II\n i. $560–675\n ii. $1,125\n iii. $690–700\n iv. $880–900",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9",
+    "P3.F10",
+    "P3.F11",
+    "P3.F12"
+   ],
+   "explanation": "The correct pairs are Thai Hom Mali–$1,125, Indian Basmati (2% broken)–$880–900, Thai Jasmine–$690–700 and US white/parboiled–$560–675. The other codes interchange the prices among these varieties."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Rice markets and brand share",
+   "question": "Match the rice-market category or brand with the relevant market detail.\n\nList-I\n a. Basmati\n b. Non-basmati\n c. LT Foods’ “Royal” brand\n d. India’s basmati exports to the US\n\nList-II\n i. Mainly West Africa\n ii. 55% of the North American basmati market\n iii. Mainly West Asia\n iv. 2.74 lakh tonnes, worth $337.10m, out of 60.65 lakh tonnes",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F13",
+    "P3.F14",
+    "P3.F15"
+   ],
+   "explanation": "Basmati is mainly sold in West Asia, non-basmati mainly in West Africa, Royal holds 55% of the North American basmati market, and India exported 2.74 lakh tonnes of basmati to the US worth $337.10m out of 60.65 lakh tonnes. The other codes wrongly exchange these market associations and figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Economic contribution of dairy",
+   "question": "In India’s agricultural economy, dairy is described as the largest agricultural product and contributes what share of GDP?",
+   "options": [
+    "3.5%",
+    "7.49%",
+    "6.70%",
+    "8.73%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "Dairy is the largest agricultural product and contributes 3.5% of GDP. The other percentages are associated with state shares in milk production."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Per capita availability",
+   "question": "What was India’s per capita milk availability, compared with the world average of 323 g/day?",
+   "options": [
+    "459 g/day",
+    "323 g/day",
+    "239.3 g/day",
+    "8.55 g/day"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "India’s per capita milk availability was 459 g/day, against the world average of 323 g/day. The 8.55 figure is the yield of exotic or crossbred animals, while 239.3 is a milk-production figure in MMT."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Animal productivity",
+   "question": "What was the stated daily milk yield of exotic or crossbred animals?",
+   "options": [
+    "8.55 kg per animal per day",
+    "3.44 kg per animal per day",
+    "459 kg per animal per day",
+    "31.94 kg per animal per day"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8"
+   ],
+   "explanation": "Exotic or crossbred animals yielded 8.55 kg per animal per day. Indigenous animals had the lower stated yield of 3.44 kg per animal per day."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State rank in milk production",
+   "question": "Match the rank in milk production under BAHS 2023 with the State and its share.\n\nList-I\n a. Rank 1\n b. Rank 2\n c. Rank 3\n d. Rank 4\n\nList-II\n i. Uttar Pradesh — 15.72%\n ii. Rajasthan — 14.44%\n iii. Madhya Pradesh — 8.73%\n iv. Gujarat — 7.49%",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F9",
+    "P4.F10",
+    "P4.F11",
+    "P4.F12"
+   ],
+   "explanation": "The correct sequence is Rank 1—Uttar Pradesh—15.72%, Rank 2—Rajasthan—14.44%, Rank 3—Madhya Pradesh—8.73% and Rank 4—Gujarat—7.49%. The other options shift the States and their shares to incorrect ranks."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State rank and share",
+   "question": "Which State ranked fifth in milk production under BAHS 2023, with a share of 6.70%?",
+   "options": [
+    "Andhra Pradesh",
+    "Gujarat",
+    "Madhya Pradesh",
+    "Rajasthan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F13"
+   ],
+   "explanation": "Andhra Pradesh ranked fifth, with a 6.70% share. Gujarat, Madhya Pradesh and Rajasthan occupied the fourth, third and second positions respectively."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Species-wise milk share",
+   "question": "How many of the following statements about species-wise milk shares are correct?\n\n1. Indigenous buffaloes accounted for 31.94% and had the highest share.\n2. Crossbred cattle accounted for 29.81%.\n3. Goat accounted for 1.86%.\n4. Exotic cows accounted for 3.30%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F14"
+   ],
+   "explanation": "Exactly two statements are correct: indigenous buffaloes accounted for 31.94% and crossbred cattle for 29.81%. The figures for goat and exotic cows are reversed in the incorrect statements: goat was 3.30% and exotic cows 1.86%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "White Revolution and institution",
+   "question": "Operation Flood, launched in 1970, is associated with which combination?",
+   "options": [
+    "White Revolution, Dr. Verghese Kurien and NDDB",
+    "Green Revolution, Dr. Verghese Kurien and NDDB",
+    "White Revolution, Brooke Rollins and NDDB",
+    "White Revolution, Dr. Verghese Kurien and LT Foods"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F15"
+   ],
+   "explanation": "Operation Flood, launched in 1970, was associated with the White Revolution, architect Dr. Verghese Kurien and implementation through NDDB. The other options substitute either the revolution, person or organisation."
+  }
+ ]
+}

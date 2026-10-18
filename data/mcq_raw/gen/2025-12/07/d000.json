@@ -1,0 +1,158 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F5",
+  "P0.F6",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F14",
+  "P1.F15",
+  "P1.F5",
+  "P1.F6",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "System status",
+   "question": "In the context of Cyclone Ditwah over the Bay of Bengal, what weakening was expected?",
+   "options": [
+    "It was expected to weaken into a depression",
+    "It was expected to intensify into a super cyclone",
+    "It was expected to become a tropical storm",
+    "It was expected to dissipate immediately"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Cyclone Ditwah was expected to weaken into a depression while over the Bay of Bengal. The other options describe developments not associated with the reported system status."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Wind speed",
+   "question": "Which one of the following statements regarding the winds associated with Cyclone Ditwah is incorrect?",
+   "options": [
+    "Squally winds were 45–55 kmph, gusting up to 65 kmph.",
+    "The later winds were 35–45 kmph, gusting up to 55 kmph.",
+    "The squally winds were 45–55 kmph, gusting up to 75 kmph.",
+    "The later gusts reached up to 55 kmph."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The incorrect statement changes the maximum initial gust from 65 kmph to 75 kmph. The reported initial winds were 45–55 kmph, gusting up to 65 kmph, followed later by 35–45 kmph winds with gusts up to 55 kmph."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Fishermen restriction",
+   "question": "Consider the following statements:\nStatement A: Fishermen were barred from entering the sea until December 3 in connection with Cyclone Ditwah.\nStatement B: Fishermen were barred from entering the sea until December 2 in connection with Cyclone Ditwah.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Statement A is false because the restriction was in force until December 2, not December 3. Statement B correctly states the period during which fishermen were barred from going to sea."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Disaster response",
+   "question": "What immediate response was undertaken by Andhra Pradesh districts during the Cyclone Ditwah situation?",
+   "options": [
+    "District control rooms were activated and emergency teams were kept on standby",
+    "A complete ban on road transport was imposed statewide",
+    "All coastal villages were permanently evacuated",
+    "A national park emergency force was deployed"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "The Andhra Pradesh response included activation of district control rooms and placement of emergency teams on standby. The other options are not part of the reported response."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Age and extent of Aravallis",
+   "question": "With reference to the geographical characteristics of the Aravalli range, consider the following statements:\n1. The Aravalli range is nearly two billion years old.\n2. The range extends for about 650 km from Delhi to Gujarat.\n3. The Aravalli range is nearly 650 million years old.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Aravallis are nearly two billion years old and extend 650 km from Delhi to Gujarat. Statement 3 is incorrect because it changes the age to 650 million years."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Protection timeline",
+   "question": "Match the following milestones related to the protection of the Aravalli range:\n\nList-I\n a. 2009\n b. May 2024\n c. 2024\n d. November 2025\n\nList-II\n i. Central Empowered Committee recommendations\n ii. Supreme Court ban on mining in Gurugram, Faridabad and Mewat\n iii. Halt on new mining leases\n iv. Uniform 100-metre definition",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11",
+    "P1.F12",
+    "P1.F14"
+   ],
+   "explanation": "The correct pairs are 2009–Supreme Court mining ban in Gurugram, Faridabad and Mewat; May 2024–halt on new mining leases; 2024–Central Empowered Committee recommendations; and November 2025–uniform 100-metre definition. The other codes interchange these milestones."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Protection timeline",
+   "question": "Assertion (A): The Central Empowered Committee made recommendations concerning the protection of the Aravalli range in 2024.\nReason (R): The uniform 100-metre definition of the Aravalli range was adopted in November 2025.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F12",
+    "P1.F14"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the Central Empowered Committee recommendations belong to 2024, while the uniform 100-metre definition was adopted in November 2025. However, the later definition does not explain the earlier recommendations."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Groundwater and restoration target",
+   "question": "How many of the following statements regarding the Aravalli region are correct?\n1. Groundwater in Mahendergarh fell to 1,000–2,000 feet.\n2. The land-restoration goal was 26 million hectares by 2030.\n3. Groundwater in Mahendergarh fell to 100–200 feet.\n4. The land-restoration goal was 26 million hectares by 2025.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F15"
+   ],
+   "explanation": "Only statement 1 is correct: groundwater in Mahendergarh fell to 1,000–2,000 feet. Statement 2 changes the restoration deadline from 2030 to a different year, while statements 3 and 4 alter the reported groundwater depth and restoration deadline."
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F13",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F19",
+  "P0.F2",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Completion deadline",
+   "question": "Who directed that the Polavaram project be completed by July 2027?",
+   "options": [
+    "N. Chandrababu Naidu",
+    "The Union Finance Minister",
+    "The Governor of Andhra Pradesh",
+    "The Chief Justice of Andhra Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "N. Chandrababu Naidu directed that the Polavaram project be completed by July 2027. The other options are not identified in connection with this directive."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Reason for advance completion",
+   "question": "Why was advance readiness of the Polavaram project required before July 2027?",
+   "options": [
+    "The Godavari Pushkaralu 2027",
+    "The Kumbh Mela 2027",
+    "The Krishna Pushkaralu 2027",
+    "The National Games 2027"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The project was required to be ready before the Godavari Pushkaralu 2027. The other events were not cited as the reason for the revised completion schedule."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Project benefits",
+   "question": "Which of the following benefits are associated with the Polavaram project?\n1. Irrigation and drinking water\n2. Hydropower generation\n3. Flood mitigation",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "All three statements are correct: the project provides irrigation, drinking water, hydropower and flood mitigation. Therefore, the correct option is 1, 2 and 3."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Diaphragm wall progress",
+   "question": "How much of the Polavaram diaphragm wall had been completed, according to the reported progress?",
+   "options": [
+    "50,858 of 65,352 sq. m, or 78%",
+    "41.11 of 124.2 TMC, or 78%",
+    "25 of 38.32 m, or 80%",
+    "45.72 of 194.6 TMC, or 80%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "The diaphragm wall progress was 50,858 out of 65,352 sq. m, amounting to 78%. The other options combine figures belonging to different Polavaram components."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Diaphragm wall target",
+   "question": "The target for completing the Polavaram diaphragm wall was set for which period?",
+   "options": [
+    "February 2026",
+    "March 2026",
+    "July 2027",
+    "December 2027"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "The diaphragm wall target was February 2026. March 2026 was associated with the ECRF Gap-1 embankment, while July 2027 and December 2027 relate to other project schedules."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ECRF Gap-1 progress",
+   "question": "What change was targeted for the ECRF Gap-1 embankment of the Polavaram project by March 2026?",
+   "options": [
+    "From 25 m to 38.32 m",
+    "From 38.32 m to 45.72 m",
+    "From 41.11 m to 124.2 TMC",
+    "From 45.72 m to 194.6 TMC"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "The ECRF Gap-1 embankment was to rise from 25 m to 38.32 m by March 2026. The other options use the initial-height and final-FRL figures of the project."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Component-wise targets and capacities",
+   "question": "Match the following Polavaram components or works with the corresponding details.\n\nList-I\n a. ECRF Gap-2\n b. Initial height\n c. Final FRL\n d. Stabilisation\n\nList-II\n i. 13.5 lakh acres under Sir Arthur Cotton Barrage and Prakasam Barrage\n ii. 45.72 m corresponding to 194.6 TMC\n iii. Target advanced to July 2027 from December 2027\n iv. 41.11 m corresponding to 124.2 TMC",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9",
+    "P0.F10",
+    "P0.F13"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i. ECRF Gap-2 was advanced to July 2027, the initial height was linked to 124.2 TMC, the final FRL to 194.6 TMC, and stabilisation covered 13.5 lakh acres."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Land required",
+   "question": "How much land was required for the Polavaram project?",
+   "options": [
+    "1,00,099 acres",
+    "91,127 acres",
+    "38,060 acres",
+    "23,675 acres"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "The total land required for the project was 1,00,099 acres. The figures 91,127, 38,060 and 23,675 refer respectively to acquired land, displaced families identified and families yet to be shifted."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Land acquisition and rehabilitation figures",
+   "question": "Consider the following statements regarding land acquisition and rehabilitation for the Polavaram project:\n1. 91,127 acres had been acquired, with the rest by March 2026.\n2. 38,060 displaced families had been identified.\n3. 14,385 displaced families had been shifted.\n4. The 23,675 families yet to be shifted had a deadline of March 2026.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F17",
+    "P0.F18",
+    "P0.F19",
+    "P0.F20"
+   ],
+   "explanation": "Only three statements are correct. The incorrect statement is 4: the 23,675 families yet to be shifted had a deadline of March 2027, not March 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Houses provided and pending",
+   "question": "What was the reported number of houses provided and houses pending for Polavaram project rehabilitation?",
+   "options": [
+    "15,439 provided and 18,921 pending",
+    "18,921 provided and 15,439 pending",
+    "14,385 provided and 23,675 pending",
+    "38,060 provided and 91,127 pending"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F21"
+   ],
+   "explanation": "The reported figures were 15,439 houses provided and 18,921 houses pending. The other options interchange or combine figures related to families and land acquisition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inter-state coordination",
+   "question": "With which States was inter-state coordination required for the Polavaram project?",
+   "options": [
+    "Telangana and Chhattisgarh",
+    "East Godavari and Visakhapatnam",
+    "West Godavari and Krishna",
+    "Odisha and Karnataka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F22"
+   ],
+   "explanation": "Inter-state coordination was required with Telangana and Chhattisgarh. East Godavari, Visakhapatnam, West Godavari and Krishna were identified as canal-related districts, not the States cited for inter-state coordination."
+  }
+ ]
+}

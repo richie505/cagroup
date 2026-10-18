@@ -1,0 +1,343 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F2",
+  "P0.F3",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F15",
+  "P1.F18",
+  "P1.F19",
+  "P1.F20",
+  "P1.F21",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme replacing MGNREGA",
+   "question": "Which Bill was proposed to replace the Mahatma Gandhi National Rural Employment Guarantee Act, 2005?",
+   "options": [
+    "Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Bill",
+    "National Action Plan on Antimicrobial Resistance 2.0",
+    "Viksit Gram Panchayat Plans Bill",
+    "Red Line Campaign Bill"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Bill, abbreviated VB-G RAM G, was proposed to replace MGNREGA. The National Action Plan on Antimicrobial Resistance 2.0 and the Red Line Campaign relate to antimicrobial resistance, not rural employment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Significance of reform",
+   "question": "The VB-G RAM G Bill was described as what kind of change?",
+   "options": [
+    "The largest structural change in 20 years",
+    "A minor administrative revision",
+    "A five-year antimicrobial-resistance plan",
+    "A State-level wage reform"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The VB-G RAM G Bill was described as the largest structural change in 20 years. It was not characterised as a minor revision, an antimicrobial-resistance plan, or merely a State-level wage reform."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Guaranteed employment and rural-work provisions",
+   "question": "With reference to the employment guarantee and work provisions under VB-G RAM G, consider the following statements:\n1. The guaranteed employment provision is 125 days.\n2. Labour budgets are prepared from the bottom up by the Gram Panchayat.\n3. The agriculture pause is limited to 30 days during peak sowing and harvest.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Only Statement 1 is correct: VB-G RAM G provides 125 guaranteed days. The allocation is normative and set by the Centre, while the agriculture pause is 60 days, not 30 days."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Cards and penalty provisions",
+   "question": "Match the VB-G RAM G feature in List-I with the corresponding value in List-II.\n\nList-I\n(a) Validity of Gramin Rozgar Guarantee Cards\n(b) Penalty under Section 27\n(c) Guaranteed employment\n(d) Agriculture pause\n\nList-II\n(i) 3 years\n(ii) 125 days\n(iii) ₹10,000\n(iv) 60 days",
+   "options": [
+    "a-i, b-iii, c-ii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F6",
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "The correct pairs are a-i, b-iii, c-ii and d-iv: cards are valid for 3 years, the penalty is ₹10,000, guaranteed employment is 125 days, and the agriculture pause is 60 days. The other codes interchange these values."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Financial outlay",
+   "question": "What was the total cost estimated for VB-G RAM G?",
+   "options": [
+    "₹1.51 lakh crore",
+    "₹95,692 crore",
+    "About ₹30,000 crore per year",
+    "₹1.51 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "The total estimated cost of VB-G RAM G was ₹1.51 lakh crore. ₹95,692 crore refers to the central component, while about ₹30,000 crore per year is the additional burden on States."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Employment, labour-force and wage data",
+   "question": "How many of the following statements are correct?\n1. Average MGNREGA employment was about 50 days per household.\n2. Rural female LFPR rose from 24.6% in 2017–18 to 47.6% in 2023–24.\n3. Nominal rural wages grew by 6.4–9.3% a year during 2015–25.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F13",
+    "P0.F14"
+   ],
+   "explanation": "Only two statements are correct: average MGNREGA employment was about 50 days per household, and rural female LFPR rose from 24.6% to 47.6%. Nominal rural wages grew by 3.6–6.4% a year, not 6.4–9.3%."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Planning and special cards",
+   "question": "Consider the following statements:\nStatement A: Viksit Gram Panchayat Plans cover water security, core rural infrastructure, livelihood infrastructure and extreme-weather mitigation, and are integrated with PM Gati Shakti.\nStatement B: Special cards under VB-G RAM G are meant only for elderly persons and PVTGs.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Statement A is true because Viksit Gram Panchayat Plans cover the listed areas and are integrated with PM Gati Shakti. Statement B is false because special cards also cover single women, PwDs, released bonded labourers and transgender persons."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MGNREGA eligibility",
+   "question": "Who is eligible for employment under MGNREGA?",
+   "options": [
+    "Adult members of any rural household",
+    "Only elderly persons in rural households",
+    "Only transgender persons in rural households",
+    "Only members of PVTG households"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "MGNREGA eligibility extends to adult members of any rural household. The other groups receive special attention under separate card provisions but are not the complete eligibility category."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "States with NAP 1.0 plans",
+   "question": "Which of the following sets correctly lists the States and National Capital Territory that had State plans under NAP-AMR 1.0?",
+   "options": [
+    "Kerala, Madhya Pradesh, Delhi, Andhra Pradesh, Gujarat, Sikkim and Punjab",
+    "Kerala, Maharashtra, Delhi, Andhra Pradesh, Gujarat, Sikkim and Punjab",
+    "Kerala, Madhya Pradesh, Haryana, Andhra Pradesh, Gujarat, Sikkim and Punjab",
+    "Kerala, Madhya Pradesh, Delhi, Telangana, Gujarat, Sikkim and Punjab"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "The listed jurisdictions were Kerala, Madhya Pradesh, Delhi, Andhra Pradesh, Gujarat, Sikkim and Punjab. Maharashtra, Haryana and Telangana were not part of this specified list."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Out-of-pocket expenditure",
+   "question": "Out-of-pocket expenditure constituted what share of Total Health Expenditure in the AMR-related data?",
+   "options": [
+    "39.4%",
+    "47.6%",
+    "59%",
+    "82%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "Out-of-pocket expenditure accounted for 39.4% of Total Health Expenditure. The other figures refer to rural female LFPR, watch-group antibiotic consumption and the proportion of hospital entrants carrying drug-resistant bacteria."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Economic impact of AMR",
+   "question": "According to the World Bank estimate cited in the AMR context, antimicrobial resistance may reduce global GDP by what percentage by 2050?",
+   "options": [
+    "3.8%",
+    "3.6%",
+    "6.4%",
+    "8%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "The World Bank estimate was that AMR may cut global GDP by 3.8% by 2050. The figures 3.6% and 6.4% relate to the range of nominal rural-wage growth, while 8 in 10 concerns hospital entrants."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Watch-group antibiotics",
+   "question": "What proportion of antibiotic consumption in 2022 was attributed to watch-group antibiotics?",
+   "options": [
+    "About 59%",
+    "About 39.4%",
+    "About 47.6%",
+    "About 82%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "Watch-group antibiotics accounted for about 59% of consumption in 2022. The other figures refer to out-of-pocket expenditure, rural female LFPR and the projected rise in animal-antibiotic use."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Animal-antibiotic consumption",
+   "question": "India was described as the world’s what largest consumer of antibiotics for animals?",
+   "options": [
+    "Fourth largest",
+    "Second largest",
+    "Third largest",
+    "Eighth largest"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9"
+   ],
+   "explanation": "India was identified as the fourth largest consumer of antibiotics for animals, with use projected to rise by about 82% by 2030. The other ranks are not the rank stated in the AMR data."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Environmental and newborn AMR burden",
+   "question": "Which one of the following statements is incorrect?",
+   "options": [
+    "Antibiotic levels in the Musi River at Hyderabad were about 1,000 times the safe limits.",
+    "A total of 156 irrational fixed-dose combinations were banned in 2024.",
+    "More than 50,000 newborns die each year from resistant sepsis.",
+    "India has the second-highest MDR-TB burden."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "The incorrect statement is that India has the second-highest MDR-TB burden; India has the highest MDR-TB burden. The other statements correctly report the Musi River contamination, the 156 FDC ban and more than 50,000 newborn deaths annually from resistant sepsis."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Newborn deaths and MDR-TB",
+   "question": "Which statement correctly describes the newborn and tuberculosis burden associated with antimicrobial resistance in India?",
+   "options": [
+    "More than 50,000 newborns die each year from resistant sepsis, and India has the highest MDR-TB burden.",
+    "More than 50,000 newborns die each year from resistant sepsis, and India has the second-highest MDR-TB burden.",
+    "About 50,000 newborns die each year from resistant sepsis, and India has the highest MDR-TB burden.",
+    "More than 50,000 newborns die each year from resistant sepsis, and India has the lowest MDR-TB burden."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F12"
+   ],
+   "explanation": "More than 50,000 newborns die each year from resistant sepsis, and India has the highest MDR-TB burden. The traps alter either the number description or India’s position in the MDR-TB burden."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "AMR terms and meanings",
+   "question": "Match the terms in List-I with their meanings in List-II.\n\nList-I\n(a) NDM-1\n(b) Schedule H1\n(c) Red Line Campaign\n(d) ICMR-AMRSN\n\nList-II\n(i) Red vertical line on antibiotic strips\n(ii) AMR surveillance network established in 2013\n(iii) Select antibiotics only on prescription, with a register kept\n(iv) New Delhi Metallo-β-lactamase causing resistance to β-lactams including carbapenems",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13",
+    "P1.F14",
+    "P1.F15",
+    "P1.F18"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-i and d-ii. NDM-1 denotes New Delhi Metallo-β-lactamase, Schedule H1 regulates prescription and record-keeping, the Red Line Campaign uses a red vertical line, and ICMR-AMRSN is the AMR surveillance network established in 2013."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Kerala AMR initiatives",
+   "question": "Which initiatives are associated with Kerala’s response to antimicrobial resistance?",
+   "options": [
+    "PROUD and AMRITH",
+    "Schedule H1 and NDM-1",
+    "ICMR-AMRSN and Red Line Campaign",
+    "Musi River and Chennai Declaration"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F19"
+   ],
+   "explanation": "PROUD and AMRITH are the initiatives associated with Kerala. Schedule H1, NDM-1 and ICMR-AMRSN are AMR terms or networks, not the Kerala initiative pair specified here."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Animal-feed ban and resistance mechanisms",
+   "question": "Assertion (A): Colistin was banned in human prescription medicines as an AMR-control measure.\nReason (R): Resistance mechanisms include limiting uptake, target modification, efflux pumps and drug inactivation through β-lactamases.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F20",
+    "P1.F21"
+   ],
+   "explanation": "Assertion A is false because the specified ban was on colistin in animal feed, not in human prescription medicines. Reason R is true: the listed mechanisms are limiting uptake, target modification, efflux pumps and drug inactivation through β-lactamases."
+  }
+ ]
+}

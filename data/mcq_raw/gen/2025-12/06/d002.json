@@ -1,0 +1,231 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": [
+  "P4.F1",
+  "P4.F10",
+  "P4.F11",
+  "P4.F12",
+  "P4.F14",
+  "P4.F15",
+  "P4.F17",
+  "P4.F5",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8",
+  "P4.F9",
+  "P5.F10",
+  "P5.F11",
+  "P5.F12",
+  "P5.F13",
+  "P5.F7",
+  "P5.F8",
+  "P5.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Definition and composition",
+   "question": "Which description correctly defines rare-earth elements (REEs)?",
+   "options": [
+    "17 elements: 15 lanthanides, plus scandium and yttrium",
+    "15 elements: 13 lanthanides, plus scandium and yttrium",
+    "17 elements: 15 actinides, plus scandium and yttrium",
+    "16 elements: 14 lanthanides, plus scandium and yttrium"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "Rare-earth elements comprise 17 elements: 15 lanthanides from lanthanum to lutetium, along with scandium and yttrium. The other options alter the total or replace lanthanides with actinides."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Applications of rare-earth elements",
+   "question": "Match List-I with List-II regarding important applications of rare-earth elements.\n\nList-I\n(a) Permanent magnets\n(b) Phosphors\n(c) Lasers and fibre optics\n(d) Refining catalysts\n\nList-II\n(i) Lanthanum and cerium\n(ii) Neodymium and erbium\n(iii) Europium, terbium and yttrium\n(iv) Neodymium",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5",
+    "P4.F6",
+    "P4.F7",
+    "P4.F8"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-ii and d-i. Neodymium is used in permanent magnets; europium, terbium and yttrium in phosphors; neodymium and erbium in lasers and fibre optics; and lanthanum and cerium in refining catalysts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rare-earth ores and processing bottleneck",
+   "question": "Consider the following statements about rare-earth extraction:\n\n1. Bastnäsite, monazite and ion-adsorption clays are important rare-earth ores or sources.\n2. Rare-earth ores may contain thorium or uranium.\n3. The midstream processing chain includes beneficiation, cracking, leaching, solvent extraction, calcination and reduction.",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F9",
+    "P4.F10"
+   ],
+   "explanation": "All three statements are correct. Rare-earth sources include bastnäsite, monazite and ion-adsorption clays, which may contain thorium or uranium, while the midstream bottleneck covers the listed processing stages."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Rare-earth reserves",
+   "question": "Match the country or reserve category with the reported rare-earth reserve in million tonnes of REO.\n\nList-I\n(a) China\n(b) Brazil\n(c) Australia\n(d) World reserves\n\nList-II\n(i) Over 90\n(ii) 5.7\n(iii) 44\n(iv) 21",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F11",
+    "P4.F12",
+    "P4.F14",
+    "P4.F15"
+   ],
+   "explanation": "The correct pairs are China–44, Brazil–21, Australia–5.7 and world reserves–over 90 million tonnes of REO. The alternative codes interchange the reserve figures among countries or the world category."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Japan's plan to extract rare-earth-rich mud in early 2026 is associated with which location?",
+   "options": [
+    "Near Minamitori Island, from about 6 km underwater",
+    "Near Minamitori Island, from about 600 metres underwater",
+    "Near Okinawa, from about 6 km underwater",
+    "Near Hokkaido, from about 60 km underwater"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F17"
+   ],
+   "explanation": "Japan plans to extract rare-earth-rich mud from about 6 km underwater near Minamitori Island in early 2026. The other options alter either the location or the underwater depth."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Need for space nuclear power",
+   "question": "Why are nuclear power systems considered useful for lunar and Martian missions?",
+   "options": [
+    "The lunar night lasts about 14 Earth days and temperatures fall below –170°C; Mars also experiences dust storms",
+    "The lunar night lasts about 7 Earth days and temperatures fall below –170°C; Mars also experiences dust storms",
+    "The lunar night lasts about 14 Earth days and temperatures rise above 170°C; Mars also experiences dust storms",
+    "The lunar night lasts about 14 Earth days and temperatures fall below –170°C; Mars has no dust storms"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F7"
+   ],
+   "explanation": "Nuclear power is useful because the lunar night lasts about 14 Earth days with temperatures below –170°C, while Mars experiences dust storms. The distractors change the lunar-night duration, temperature condition or Martian environment."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Outer Space Treaty and peaceful nuclear power",
+   "question": "Consider the following statements:\nStatement A: Article IV of the Outer Space Treaty bans peaceful nuclear power on celestial bodies.\nStatement B: Article IV bans nuclear weapons and weapons of mass destruction in orbit and on celestial bodies.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F8"
+   ],
+   "explanation": "Statement A is false because Article IV does not ban peaceful nuclear power. Statement B is true because the provision bans nuclear weapons and weapons of mass destruction in orbit and on celestial bodies."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "UN principles on nuclear power sources",
+   "question": "Assertion (A): The 1992 UN Principles on Nuclear Power Sources in Outer Space are binding rules that regulate nuclear thermal and nuclear electric propulsion.\nReason (R): The principles were adopted through UNGA Resolution 47/68, are non-binding, and do not address NTP or NEP propulsion.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F9"
+   ],
+   "explanation": "Assertion A is false: the principles are non-binding and do not address NTP or NEP propulsion. Reason R is true because the 1992 principles were adopted through UNGA Resolution 47/68 and have those stated limitations."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Liability under space law",
+   "question": "Which of the following statements regarding the 1972 Liability Convention is incorrect?",
+   "options": [
+    "It establishes absolute liability for damage on Earth or to aircraft.",
+    "It applies fault-based liability for damage occurring in outer space.",
+    "It establishes fault-based liability for damage on Earth or to aircraft.",
+    "It distinguishes liability according to whether damage occurs on Earth or in outer space."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F10"
+   ],
+   "explanation": "The incorrect statement is that liability is fault-based for damage on Earth or to aircraft. The Convention provides absolute liability in that situation, while liability for damage in outer space is fault-based."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation",
+   "question": "What is the full form of COPUOS in the context of space governance?",
+   "options": [
+    "UN Committee on the Peaceful Uses of Outer Space",
+    "UN Council for the Protection and Use of Outer Space",
+    "Committee on Planetary Operations and Orbital Utilisation Systems",
+    "UN Commission on Peaceful Operations Under Space"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F11"
+   ],
+   "explanation": "COPUOS stands for the UN Committee on the Peaceful Uses of Outer Space. The other options use different expansions and do not represent the organisation's name."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NPT Nuclear Weapon States",
+   "question": "Which of the following correctly lists the Nuclear Weapon States recognised under the NPT?",
+   "options": [
+    "USA, Russia, UK, France and China",
+    "USA, Russia, UK, France and India",
+    "USA, China, India, Pakistan and Israel",
+    "Russia, UK, France, India and Israel"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F12"
+   ],
+   "explanation": "The NPT Nuclear Weapon States are the USA, Russia, UK, France and China. India, Pakistan and Israel are not recognised as Nuclear Weapon States under the NPT."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "NPT recognition and NSG membership",
+   "question": "How many of the following statements are correct?\n\n1. The USA, Russia, UK, France and China are the NPT Nuclear Weapon States.\n2. India, Pakistan and Israel are recognised as NPT Nuclear Weapon States.\n3. NSG membership automatically means NPT membership.\n4. NSG membership does not mean automatic NPT membership.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F12",
+    "P5.F13"
+   ],
+   "explanation": "Only statements 1 and 4 are correct. India, Pakistan and Israel are not recognised as NPT Nuclear Weapon States, and NSG membership does not automatically confer NPT membership."
+  }
+ ]
+}

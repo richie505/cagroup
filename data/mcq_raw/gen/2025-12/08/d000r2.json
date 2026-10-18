@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F3",
+  "P1.F1",
+  "P1.F3",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Annual rate of increase",
+   "question": "According to the Global Environment Outlook 2025, by how much have greenhouse-gas emissions been rising annually since 1990?",
+   "options": [
+    "1.5% per year",
+    "1.5% per decade",
+    "1.5°C per year",
+    "1.5 trillion tonnes per year"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The Global Environment Outlook 2025 reported that greenhouse-gas emissions have risen by 1.5% per year since 1990. The tempting figure of 1.5°C relates to global temperature, not the annual rise in emissions."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Plastic waste figure",
+   "question": "Which of the following statements regarding the plastic-waste finding of the Global Environment Outlook 2025 is incorrect?",
+   "options": [
+    "The report gave the plastic-waste figure as 8,000 million tonnes.",
+    "Plastic waste was identified as a key finding in the report.",
+    "The reported quantity of plastic waste was 8,000 million tonnes.",
+    "The report gave the plastic-waste figure as 6,000 million tonnes."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "The incorrect statement is the one giving the figure as 6,000 million tonnes; the reported figure was 8,000 million tonnes. The other statements correctly identify plastic waste and its reported quantity."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "City safety ranking and departmental assessment",
+   "question": "With reference to the NARI 2025 Report and the service delivery assessment of the Women and Child Development Department, consider the following statements:\n\n1. Visakhapatnam was identified as the Safest City for Women in India in the NARI 2025 Report.\n2. The Andhra Pradesh Women and Child Welfare Department received an A++ rating and stood 4th nationally.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "Exactly two statements are correct",
+    "Only statement 1 is correct",
+    "Only statement 2 is correct",
+    "Neither statement is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3"
+   ],
+   "explanation": "Both statements are correct: Visakhapatnam was named the Safest City for Women in India, and the Andhra Pradesh Women and Child Welfare Department received an A++ rating with 4th position nationally. The alternatives wrongly reject one or both of these results."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Literacy rate and port index coverage",
+   "question": "Consider the following statements about the PLFS 2023–24 literacy results and the Container Port Performance Index:\n\n1. Andhra Pradesh recorded the lowest literacy rate in the PLFS 2023–24 result, at 72.6%.\n2. Nine Indian ports featured in the Container Port Performance Index, whose source was the World Bank.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "Exactly two statements are correct",
+    "Only statement 1 is correct",
+    "Only statement 2 is correct",
+    "Neither statement is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "Both statements are correct. Andhra Pradesh had the lowest reported literacy rate at 72.6%, while the Container Port Performance Index featured nine Indian ports and was sourced from the World Bank."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Associated subject pages",
+   "question": "The December 2025 quick table on ranks and indices directed readers to which set of pages for details on each item?",
+   "options": [
+    "AP, Economy, Science and Schemes",
+    "Reports, Indices, Rankings and Environment",
+    "Agriculture, Health, Defence and Culture",
+    "Polity, Geography, History and Current Affairs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "The table directed readers to the AP, Economy, Science and Schemes pages for details on each item. The other combinations do not match the set of pages specified for these entries."
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8
+ ],
+ "only": [
+  "P8.F10",
+  "P8.F11",
+  "P8.F12",
+  "P8.F13",
+  "P8.F14",
+  "P8.F15",
+  "P8.F2",
+  "P8.F3",
+  "P8.F5",
+  "P8.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Monetary policy signal",
+   "question": "In December 2025, what was the US Federal Reserve's action and signal relevant to the crypto-market slide?",
+   "options": [
+    "It cut rates by 25 bps on December 10 but signalled no further cuts",
+    "It cut rates by 25 bps on December 10 and signalled further cuts",
+    "It raised rates by 25 bps on December 10 but signalled no further cuts",
+    "It cut rates by 50 bps on December 10 but signalled no further cuts"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "The US Fed cut rates by 25 bps on December 10 but signalled no further cuts. The tempting second option is wrong because the signal was against further cuts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Trigger of crypto crash",
+   "question": "What combination of events was associated with the October 10 crypto-market crash?",
+   "options": [
+    "Trump threatened 100% tariffs on Chinese goods; $19 billion in leveraged trades were liquidated; $500 billion was wiped out in hours",
+    "Trump threatened 100% tariffs on Chinese goods; $19 billion in leveraged trades were liquidated; $1 trillion was wiped out in hours",
+    "Trump threatened 100% tariffs on Chinese goods; $500 billion in leveraged trades were liquidated; $19 billion was wiped out in hours",
+    "Trump threatened 100% tariffs on Chinese goods; $1 trillion in leveraged trades were liquidated; $500 billion was wiped out in hours"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "On October 10, Trump's threat of 100% tariffs on Chinese goods coincided with the liquidation of $19 billion in leveraged trades and the wiping out of $500 billion in hours. The other options interchange the reported amounts."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Nature of Bitcoin as an asset",
+   "question": "With reference to Bitcoin's market behaviour, consider the following statements:\nStatement A: Bitcoin behaves like digital gold.\nStatement B: Bitcoin does not behave like a risk asset.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "Both statements are false because Bitcoin behaves like a risk asset, not digital gold. The statements reverse both parts of the reported characterisation."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Bitcoin origin and supply",
+   "question": "Consider the following statements about Bitcoin and Bitcoin Cash:\n1. Bitcoin dates from 2009 and is associated with Satoshi Nakamoto.\n2. Bitcoin's supply is capped at 21 million.\n3. Bitcoin Cash emerged through a hard fork in 2018.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Bitcoin dates from 2009, is associated with Satoshi Nakamoto, and has a 21 million cap. Statement 3 is incorrect because the Bitcoin Cash hard fork occurred in 2017, not 2018."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "India's crypto-policy timeline",
+   "question": "Arrange the following developments in India's cryptocurrency policy in chronological order:\nA. RBI banking ban\nB. Supreme Court lifted the RBI ban\nC. 30% tax on gains, 1% TDS and e₹ pilots\nD. Exchanges brought under FIU-IND for KYC/AML",
+   "options": [
+    "A-B-C-D",
+    "B-A-C-D",
+    "A-C-B-D",
+    "C-A-B-D"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F10",
+    "P8.F11",
+    "P8.F12",
+    "P8.F13"
+   ],
+   "explanation": "The correct sequence is A-B-C-D: the RBI banking ban was in 2018, the Supreme Court lifted it in 2020, the tax and e₹ pilot measures followed in 2022, and exchanges came under FIU-IND in 2023. The nearest distractor reverses the 2018 and 2020 developments."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Countries and crypto legal status",
+   "question": "Match the countries with their status concerning cryptocurrency:\n\nList-I\n a. El Salvador\n b. Central African Republic\n c. China\n d. Russia\n\nList-II\n i. Legal tender abroad\n ii. Bans or restrictions\n\nCodes:",
+   "options": [
+    "a-i, b-i, c-ii, d-ii",
+    "a-ii, b-ii, c-i, d-i",
+    "a-i, b-ii, c-ii, d-i",
+    "a-ii, b-i, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F14"
+   ],
+   "explanation": "El Salvador and the Central African Republic are associated with legal tender abroad, while China and Russia have bans or restrictions. Therefore, the correct pairs are a-i, b-i, c-ii and d-ii."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Digital Rupee issuer and parity",
+   "question": "Which statement correctly describes India's Digital Rupee?",
+   "options": [
+    "1 e₹ equals 1 ₹, and it is issued by the RBI",
+    "1 e₹ equals 1 ₹, and it is issued by FIU-IND",
+    "1 e₹ equals 1 ₹, and it is issued by Satoshi Nakamoto",
+    "1 e₹ equals 1 Bitcoin, and it is issued by the RBI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F15"
+   ],
+   "explanation": "The Digital Rupee has parity of 1 e₹ = 1 ₹ and is issued by the RBI. FIU-IND is associated with KYC/AML oversight of exchanges, not issuance of the Digital Rupee."
+  }
+ ]
+}

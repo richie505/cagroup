@@ -1,0 +1,266 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7
+ ],
+ "only": [
+  "P6.F10",
+  "P6.F11",
+  "P6.F15",
+  "P6.F16",
+  "P6.F17",
+  "P6.F18",
+  "P6.F19",
+  "P6.F3",
+  "P6.F4",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9",
+  "P7.F10",
+  "P7.F11",
+  "P7.F12",
+  "P7.F13",
+  "P7.F14",
+  "P7.F15",
+  "P7.F3",
+  "P7.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Major contributor to neurological disability",
+   "question": "According to the discussion on neurotechnology and neurological disorders in India, which condition is the largest contributor to neurological disability?",
+   "options": [
+    "Stroke",
+    "Ricin poisoning",
+    "Chronic pain",
+    "Retinitis pigmentosa"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "Stroke is identified as the largest contributor to neurological disability in India. Retinitis pigmentosa is associated with retinal implants, not the stated national burden of neurological disability."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian BCI innovation",
+   "question": "Which Indian institution developed a BCI-based robotic hand for stroke patients?",
+   "options": [
+    "IIT Kanpur",
+    "National Brain Research Centre, Manesar",
+    "IISc Brain Research Centre",
+    "Dognosis"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "IIT Kanpur developed a BCI-based robotic hand for stroke patients. The National Brain Research Centre and IISc Brain Research Centre are research institutions, while Dognosis is a start-up decoding dog brain signals."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian brain research institution",
+   "question": "The National Brain Research Centre mentioned in the Indian neurotechnology ecosystem is located at which place?",
+   "options": [
+    "Manesar",
+    "Kanpur",
+    "Bengaluru",
+    "California"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "The National Brain Research Centre is located at Manesar. Kanpur is associated with IIT Kanpur's BCI-based robotic hand, while California is associated with a brain-data law."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Neurotechnology start-up",
+   "question": "What is Dognosis known for in the Indian neurotechnology ecosystem?",
+   "options": [
+    "Decoding dog brain signals to detect cancer",
+    "Developing a BCI-based robotic hand for stroke patients",
+    "Running the China Brain Project",
+    "Developing retinal implants for retinitis pigmentosa"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F6"
+   ],
+   "explanation": "Dognosis is a start-up that decodes dog brain signals to detect cancer. The BCI-based robotic hand is associated with IIT Kanpur, not Dognosis."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Public and private neurotechnology investment",
+   "question": "How many of the following statements about investment in neurotechnology are correct?\n1. Public investment was 6 billion dollars in 2023.\n2. Private investment was 7.3 billion dollars in 2020.\n3. Public investment was 6 billion dollars in 2020.\n4. Private investment was 7.3 billion dollars in 2020.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F7"
+   ],
+   "explanation": "Statements 1, 2 and 4 are correct: public investment was 6 billion dollars in 2023, while private investment was 7.3 billion dollars in 2020. Statement 3 is incorrect because it changes the year of public investment from 2023 to 2020."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Global neurotechnology initiatives and laws",
+   "question": "Match the countries or jurisdiction associated with the listed neurotechnology initiatives and legal measures.\n\nList-I\n a. USA\n b. China\n c. Chile\n d. California\n\nList-II\n i. BRAIN Initiative\n ii. China Brain Project\n iii. Amended Constitution for mental integrity\n iv. Brain-data law\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F8",
+    "P6.F9",
+    "P6.F10"
+   ],
+   "explanation": "The correct pairs are USA–BRAIN Initiative, China–China Brain Project, Chile–amended Constitution for mental integrity, and California–brain-data law. The other codes interchange these country or jurisdictional associations."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Neurotechnology applications and ethical prohibition",
+   "question": "Match the neurotechnology application or ethical measure with its associated use or prohibition.\n\nList-I\n a. Responsive Neurostimulation\n b. Spinal Cord Stimulation\n c. Retinal implants\n d. UNESCO ethical framework\n\nList-II\n i. Epileptic seizures\n ii. Chronic pain\n iii. Retinitis pigmentosa\n iv. No neural data for manipulative, political or commercial targeting\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F11",
+    "P6.F15",
+    "P6.F16",
+    "P6.F17"
+   ],
+   "explanation": "Responsive Neurostimulation is associated with epileptic seizures, Spinal Cord Stimulation with chronic pain, and retinal implants with retinitis pigmentosa. UNESCO's framework prohibits using neural data for manipulative, political or commercial targeting."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "UNESCO institutional profile",
+   "question": "Which one of the following statements about UNESCO is incorrect?",
+   "options": [
+    "UNESCO was founded in 1945.",
+    "UNESCO's headquarters is in Paris.",
+    "UNESCO has 193 members and 10 associate members.",
+    "UNESCO has 193 members and 12 associate members."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F18"
+   ],
+   "explanation": "The incorrect statement is that UNESCO has 10 associate members; the stated composition is 193 members and 12 associate members. UNESCO was founded in 1945 and has its headquarters in Paris."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "USA and UNESCO",
+   "question": "The United States announced its rejoining of which organisation and agreed to clear more than 600 million US dollars in dues?",
+   "options": [
+    "UNESCO",
+    "Australia Group",
+    "Biological Weapons Convention",
+    "China Brain Project"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F19"
+   ],
+   "explanation": "The United States announced rejoining UNESCO and clearing more than 600 million US dollars in dues. The Australia Group and Biological Weapons Convention are connected with biosecurity, while the China Brain Project is a neurotechnology initiative."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ricin source",
+   "question": "Ricin, which has been associated with reported terror attempts, is a toxin obtained from which source?",
+   "options": [
+    "Castor",
+    "Neural tissue",
+    "Living Modified Organisms",
+    "Synthetic DNA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "Ricin is a toxin obtained from castor and has been associated with reported terror attempts. Living Modified Organisms and synthetic DNA are biosecurity-related terms, but they are not identified as the source of ricin."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian biosecurity institutions",
+   "question": "Which set of Indian bodies is associated respectively with lab governance, surveillance and plant health?",
+   "options": [
+    "DBT, NCDC and Plant Quarantine Organisation",
+    "UNESCO, BWC and Australia Group",
+    "IIT Kanpur, Dognosis and IISc Brain Research Centre",
+    "National Brain Research Centre, NCDC and UNESCO"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F9"
+   ],
+   "explanation": "DBT, NCDC and the Plant Quarantine Organisation are associated with lab governance, surveillance and plant health. UNESCO, the BWC and the Australia Group are not the three Indian bodies assigned these roles."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India's international biosecurity membership",
+   "question": "India is a member of which combination in the field of biological security?",
+   "options": [
+    "Biological Weapons Convention and Australia Group",
+    "Biological Weapons Convention and European Union",
+    "Australia Group and China Brain Project",
+    "European Union and Australia Group"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F10"
+   ],
+   "explanation": "India is a member of the Biological Weapons Convention and the Australia Group. The European Union and China Brain Project do not form India's stated membership combination."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Comparative biosecurity measures",
+   "question": "Match the country or region with its biosecurity measure.\n\nList-I\n a. USA\n b. European Union\n c. China\n d. Australia\n\nList-II\n i. National Biodefense Strategy (2022–28) and 2024 Synthetic DNA Screening Guidance\n ii. Health Security Framework (2022)\n iii. Biosecurity Law (2021)\n iv. Biosecurity Act (2015)\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F11",
+    "P7.F12",
+    "P7.F13",
+    "P7.F14"
+   ],
+   "explanation": "The correct pairs are USA–National Biodefense Strategy and 2024 Synthetic DNA Screening Guidance, European Union–Health Security Framework, China–Biosecurity Law, and Australia–Biosecurity Act. The alternative codes shift these measures to the wrong countries or region."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UK biological security policy",
+   "question": "Which measure represents the United Kingdom's stated approach to biological security?",
+   "options": [
+    "Biological Security Strategy (2023)",
+    "Biosecurity Act (2015)",
+    "Biosecurity Law (2021)",
+    "Health Security Framework (2022)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F15"
+   ],
+   "explanation": "The United Kingdom's measure is the Biological Security Strategy (2023). The Biosecurity Act belongs to Australia, the Biosecurity Law to China, and the Health Security Framework to the European Union."
+  }
+ ]
+}

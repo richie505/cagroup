@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": [
+  "P4.F2",
+  "P4.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Global burden of indoor pollution",
+   "question": "Indoor pollution is linked to what share of global deaths annually?",
+   "options": [
+    "4.1%",
+    "2.5%",
+    "32%",
+    "23%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "Indoor pollution is linked to 4.1% of global deaths annually. The tempting alternatives do not represent the reported global annual burden of indoor pollution."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "WHO household air pollution data",
+   "question": "According to WHO data on household air pollution, which combination is correct regarding annual deaths and healthy life years lost?",
+   "options": [
+    "3.2 million deaths and 86 million healthy life years lost",
+    "4.1 million deaths and 86 million healthy life years lost",
+    "3.2 million deaths and 2019 million healthy life years lost",
+    "4.1 million deaths and 2019 million healthy life years lost"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "Household air pollution causes 3.2 million deaths per year and results in the loss of 86 million healthy life years. The tempting third option confuses 2019, the year associated with the DALYs data, with the number of healthy life years lost."
+  }
+ ]
+}

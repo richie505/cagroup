@@ -1,0 +1,52 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P6.F3",
+  "P6.F4",
+  "P8.F3",
+  "P8.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Design and applications",
+   "question": "With reference to Taramandal’s orbital satellite data centre prototype, consider the following statements:\n1. Its design uses modular, stackable modules joined by docking technology.\n2. The prototype is intended to support AI workloads and disaster prediction.\n3. It is also aimed at strengthening national digital infrastructure.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "All three statements are correct. Taramandal’s prototype uses modular, stackable modules joined by docking technology and is intended for AI workloads, disaster prediction and national digital infrastructure. The option ‘1 and 2 only’ is incorrect because statement 3 is also correct."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Anganwadi network and digital reporting",
+   "question": "Regarding the digital infrastructure and reporting system associated with Andhra Pradesh’s Anganwadi network, consider the following statements:\n1. The network covers 1.25 lakh staff across 55,204 Anganwadi centres.\n2. The system supports real-time ICDS reporting through Poshan Tracker.\n3. GPS attendance is among its uses.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "All three statements are correct. Andhra Pradesh’s Anganwadi network covers 1.25 lakh staff across 55,204 centres, while the digital system supports real-time ICDS reporting through Poshan Tracker and GPS attendance. The option ‘1 and 2 only’ is the tempting trap because it omits the stated use of GPS attendance."
+  }
+ ]
+}

@@ -1,34 +1,34 @@
 # CA MCQ report
 
-- MCQs kept: **9342**
+- MCQs kept: **9686**
 - News pages with at least one question: **2618 / 2629**
-- Facts tested: **16681 / 20515** (81.3%)
-- Answer positions: A 2334, B 2439, C 2470, D 2099
+- Facts tested: **17227 / 20515** (84.0%)
+- Answer positions: A 2417, B 2525, C 2554, D 2190
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 989 | 1023 | 1081 | 944 |
-| Negative / Incorrect Statement | 167 | 162 | 171 | 154 |
-| Assertion-Reason | 163 | 190 | 244 | 199 |
-| Statement-Based (A/B) | 307 | 191 | 277 | 227 |
-| Multi-Statement Correctness | 356 | 357 | 318 | 322 |
-| Chronological Ordering | 6 | 5 | 3 | 3 |
-| List-Matching | 252 | 232 | 217 | 244 |
-| Count-Based | 94 | 279 | 159 | 6 |
+| Direct Recall | 1035 | 1065 | 1124 | 991 |
+| Negative / Incorrect Statement | 171 | 167 | 177 | 159 |
+| Assertion-Reason | 165 | 194 | 250 | 206 |
+| Statement-Based (A/B) | 316 | 196 | 282 | 237 |
+| Multi-Statement Correctness | 364 | 369 | 324 | 333 |
+| Chronological Ordering | 6 | 5 | 3 | 4 |
+| List-Matching | 265 | 244 | 230 | 254 |
+| Count-Based | 95 | 285 | 164 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 1107 |
-| verify:explanation_contradicts | 194 |
-| verify:not_in_facts | 133 |
-| duplicate | 65 |
+| code | 1159 |
+| verify:explanation_contradicts | 200 |
+| verify:not_in_facts | 134 |
+| duplicate | 67 |
 | verify:two_correct | 39 |
 | verify:none_correct | 31 |
 | verify:second reader picked option 2, key 1 | 21 |
+| verify:garbled | 10 |
 | verify:ambiguous_stem | 9 |
-| verify:garbled | 9 |
 | verify:second reader picked option 1, key 0 | 5 |
 | verify:second reader picked option 3, key 0 | 2 |
 | verify:second reader picked option 0, key 1 | 2 |
@@ -153,16 +153,16 @@
 | 2026-01/09 | Awards, Persons & Appointments | 66 | 125/127 |
 | 2026-01/10 | Sports | 18 | 29/29 |
 | 2026-01/11 | Important Days & Events | 90 | 146/152 |
-| 2025-12/01 | Andhra Pradesh | 29 | 59/168 |
-| 2025-12/02 | Polity & Governance | 14 | 28/88 |
-| 2025-12/03 | Schemes & Social Sector | 6 | 10/46 |
-| 2025-12/04 | Economy, Banking & Budget | 21 | 39/140 |
-| 2025-12/05 | International Relations | 10 | 22/59 |
-| 2025-12/06 | Science, Tech, Space & Defence | 18 | 45/129 |
-| 2025-12/07 | Environment & Geography | 14 | 36/78 |
-| 2025-12/08 | Reports, Indices & Rankings | 3 | 2/25 |
-| 2025-12/09 | Awards, Persons & Appointments | 2 | 3/11 |
-| 2025-12/11 | Important Days & Events | 14 | 32/98 |
+| 2025-12/01 | Andhra Pradesh | 96 | 165/168 |
+| 2025-12/02 | Polity & Governance | 53 | 87/88 |
+| 2025-12/03 | Schemes & Social Sector | 27 | 42/46 |
+| 2025-12/04 | Economy, Banking & Budget | 80 | 136/140 |
+| 2025-12/05 | International Relations | 31 | 56/59 |
+| 2025-12/06 | Science, Tech, Space & Defence | 70 | 128/129 |
+| 2025-12/07 | Environment & Geography | 42 | 78/78 |
+| 2025-12/08 | Reports, Indices & Rankings | 18 | 25/25 |
+| 2025-12/09 | Awards, Persons & Appointments | 7 | 11/11 |
+| 2025-12/11 | Important Days & Events | 51 | 94/98 |
 | 2025-11/01 | Andhra Pradesh | 26 | 60/148 |
 | 2025-11/02 | Polity & Governance | 10 | 25/73 |
 | 2025-11/04 | Economy, Banking & Budget | 2 | 4/27 |
@@ -1485,9 +1485,33 @@
 - `2026-01/11/d003#10` verify: second reader picked option 3, key 1 — 
   - Q: How many of the following statements about India's digital public services are correct? / 1. MyGov has more than 6 crore users. / 2. eSanjeevani has recorded more than 44 crore consultations. / 3. MyGov has
   - Key: Only two
+- `2025-12/01/d003#3` verify: not_in_facts — The facts support parts of statements 2 and 3 but do not establish that Poshan Tracker and GPS attendance are not intended uses.
+  - Q: Which of the following statements correctly describes the proposed uses of Taramandal's orbital satellite data centre prototype? / 1. It is intended for AI workloads and disaster prediction. / 2. It is in
+  - Key: 1 only
+- `2025-12/01/d003#5` verify: explanation_contradicts — Statements 1 and 3 are correct, so the count is two, whereas the explanation says only one.
+  - Q: How many of the following statements regarding the Anganwadi smartphone initiative in Andhra Pradesh are correct? / 1. The network covers 1.25 lakh staff across 55,204 Anganwadi centres. / 2. The network 
+  - Key: Only one
+- `2025-12/01/d004#11` verify: explanation_contradicts — The facts make the Assertion true because they name ADTOI, while the given explanation incorrectly marks it false.
+  - Q: Assertion (A): The National Tourism Mart–2025 was organised by the AP Tourism Department with the Association of Domestic Tour Operators of India through an MoU. / Reason (R): The event aimed to boost d
+  - Key: A is false, but R is true
+- `2025-12/03/d000#5` verify: garbled — The question lists only three statements, but one option says 'All four'.
+  - Q: How many of the following statements are correct? / 1. Average MGNREGA employment was about 50 days per household. / 2. Rural female LFPR rose from 24.6% in 2017–18 to 47.6% in 2023–24. / 3. Nominal rural w
+  - Key: Only two
+- `2025-12/03/d001#3` verify: explanation_contradicts — Statements 1 and 4 are correct, so the explanation's claim that only statement 1 is correct is contradictory.
+  - Q: With reference to Bihar’s ULLAS-related funding for 2023–24, consider the following statements: / 1. The Centre provided ₹21 crore. / 2. The State provided ₹15 crore. / 3. The funds had 10% utilisation. / 4. 
+  - Key: Only one
+- `2025-12/06/d000#10` verify: explanation_contradicts — The facts support statements 1, 2 and 3, whereas the explanation incorrectly says only statement 2 is correct.
+  - Q: How many of the following correctly describe the INUP-i2i programme? / 1. It was launched by MeitY. / 2. It trained 8,000+ participants. / 3. It included 348 short-term and 220 mid-term projects. / 4. It incl
+  - Key: Only one
+- `2025-12/07/d000#7` verify: explanation_contradicts — Statements 1 and 2 are supported by the facts, so the correct count is two rather than one.
+  - Q: How many of the following statements regarding the Aravalli region are correct? / 1. Groundwater in Mahendergarh fell to 1,000–2,000 feet. / 2. The land-restoration goal was 26 million hectares by 2030. / 3
+  - Key: Only one
 - `2025-12/08/c000#2` verify: none_correct — Statements 2 and 3 are supported by the facts, while statement 1 changes 1.55°C to 1.5°C; no option represents 2 and 3 only, and the explanation's rejection of statement 3 is unsupported.
   - Q: With reference to the key findings of the Global Environment Outlook 2025, consider the following statements: / 1. Global temperature in 2024 reached 1.5°C, the highest ever. / 2. One million of the world
   - Key: 2 only
+- `2025-12/08/d000#14` verify: explanation_contradicts — The facts support statements 1, 2, and 3, so the explanation incorrectly says that statements 2 and 3 are false.
+  - Q: Consider the following statements: / 1. Andhra Pradesh recorded the lowest literacy rate in the PLFS 2023–24 finding, at 72.6%. / 2. Bihar was the second-lowest state, at 74.3%. / 3. The Container Port Perf
+  - Key: 1 only
 - `2025-11/02/c000#0` verify: none_correct — No option correctly states that the Four Labour Codes replaced 29 Central labour laws; option 1 is malformed and says four laws replaced them.
   - Q: With effect from 21 November 2025, what did the Four Labour Codes replace?
   - Key: Four Central labour laws replaced 29 Central labour laws

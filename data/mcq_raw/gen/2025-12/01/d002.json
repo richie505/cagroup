@@ -1,0 +1,214 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P3.F12",
+  "P3.F2",
+  "P3.F3",
+  "P3.F4",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P4.F5",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8",
+  "P4.F9",
+  "P5.F10",
+  "P5.F11",
+  "P5.F2",
+  "P5.F3",
+  "P5.F5",
+  "P5.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue of announcement",
+   "question": "At which programme was the annual observance of December 15 as the “Day of Sacrifice” announced?",
+   "options": [
+    "Sriramulu's Atmarpana Day programme in Vijayawada",
+    "Centenary celebrations in Amaravati",
+    "Memorial programme in Kurnool",
+    "State formation programme in Chennai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "The announcement was made at Sriramulu's Atmarpana Day programme in Vijayawada. Amaravati, Kurnool and Chennai are associated with other historical or memorial details, not the stated venue of the announcement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Duration of centenary celebrations",
+   "question": "The centenary celebrations associated with Potti Sriramulu were announced to continue until which date?",
+   "options": [
+    "16 March 2026",
+    "15 December 1953",
+    "1 October 1953",
+    "1 November 1956"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "The centenary celebrations were scheduled to continue until 16 March 2026. The other dates relate to Potti Sriramulu’s death or the formation of Andhra State and Andhra Pradesh."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Historical role of Potti Sriramulu",
+   "question": "With reference to Potti Sriramulu and the formation of Andhra State, consider the following statements:\n1. He undertook a 58-day fast unto death for a separate Telugu state and died on 15 December.\n2. Andhra State was formed on 1 October 1953, with Kurnool as its capital.\n3. Andhra Pradesh was formed on 1 November 1956 as the first linguistic state for Telugus.\n4. December 15 is linked to Andhra State formed in 1953, and not to Andhra Pradesh formed in 1956.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F5",
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "All four statements are correct. Potti Sriramulu’s 58-day fast ended with his death on 15 December; Andhra State was formed on 1 October 1953 with Kurnool as capital, while Andhra Pradesh followed on 1 November 1956 as the first linguistic state for Telugus. The key distinction is that December 15 is linked to Andhra State, not Andhra Pradesh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Investment figure",
+   "question": "While discussing Andhra Pradesh’s development achievements during the Potti Sriramulu observance, what investment figure was cited for 18 months?",
+   "options": [
+    "₹21 lakh crore",
+    "₹20 lakh crore",
+    "₹136 crore",
+    "₹700 million"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F12"
+   ],
+   "explanation": "The cited figure was ₹21 lakh crore in investments over 18 months. ₹20 lakh relates to the jobs target in another fact, while 136 acres and 700 million relate to the EduCity and aviation sector respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "AAD EduCity features",
+   "question": "Match List-I with List-II in the context of the integrated Aviation, Aerospace and Defence EduCity.\n\nList-I\n a. Land provided\n b. Core infrastructure timeline\n c. Global university roadshows\n d. Primary aim\n\nList-II\n i. From February 2026\n ii. Bridge the human capital gap in aviation\n iii. 136 acres free of cost from MANSAS Trust\n iv. 12 months",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5",
+    "P4.F6",
+    "P4.F7"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii. The EduCity received 136 acres free of cost from MANSAS Trust, its core infrastructure was planned in 12 months, roadshows for global universities were to begin from February 2026, and its aim was to bridge the human capital gap in aviation."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Aviation projections and investment strategy",
+   "question": "Consider the following statements:\nStatement A: India’s passenger traffic is projected at 700 million annually, and the fleet is expected to double to about 1,700 by 2026.\nStatement B: Andhra Pradesh targets 20 lakh jobs in 18 months through its strategy of offering land at 99 paise to Fortune 500 investors.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F8",
+    "P4.F9"
+   ],
+   "explanation": "Both statements are false. The fleet is projected to double to about 1,700 by 2030, not 2026, and the target of 20 lakh jobs is for five years, not 18 months. The 700 million passenger projection and the 99-paise land strategy are correctly stated but do not make the altered statements true."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue of recognition celebration",
+   "question": "Where was the rally and programme held to celebrate Visakhapatnam’s recognition in the NARI 2025 Report?",
+   "options": [
+    "AU Convention Hall",
+    "Sriramulu's Atmarpana Day programme",
+    "Bhogapuram International Airport",
+    "Kurnool capital complex"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "The celebration was held at AU Convention Hall. The other options refer to a different programme, an airport location and a historical capital, respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Police Commissioner",
+   "question": "Who was the Police Commissioner of Visakhapatnam associated with the city’s women’s safety measures?",
+   "options": [
+    "Sankhabrata Bagchi",
+    "Vangalapudi Anitha",
+    "N. Lokesh",
+    "N. Chandrababu Naidu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "Sankhabrata Bagchi was the Police Commissioner of Visakhapatnam. Vangalapudi Anitha was identified as the Home Minister, while N. Lokesh and N. Chandrababu Naidu were associated with other announcements."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Police response and POCSO enforcement",
+   "question": "With reference to the measures associated with Visakhapatnam’s women’s safety recognition, consider the following statements:\n1. Police reach time was 15 minutes in urban areas and 10 minutes in rural areas.\n2. Home Minister Vangalapudi Anitha highlighted strict POCSO enforcement, with offenders receiving up to 25 years of jail.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Neither 1 nor 2",
+    "1 and 2"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F5",
+    "P5.F6"
+   ],
+   "explanation": "Both statements are correct. The stated police reach time was 15 minutes in urban areas and 10 minutes in rural areas, while strict POCSO enforcement was associated with sentences of up to 25 years of jail. Therefore, the correct option is 1 and 2."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Police health insurance premium",
+   "question": "Assertion (A): The premium under the police health insurance scheme was up to ₹3,000.\nReason (R): The first-year premium was paid by the police department.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F10"
+   ],
+   "explanation": "The assertion is false because the premium was up to ₹2,499, not ₹3,000. The reason is true: the police department paid the first-year premium. Hence, A is false, but R is true."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Insurance beneficiaries",
+   "question": "Under the police health insurance scheme, how many beneficiaries were covered in the first year?",
+   "options": [
+    "10,304",
+    "2,576",
+    "₹2–15 lakh",
+    "₹3–30 lakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F11"
+   ],
+   "explanation": "The scheme covered 10,304 beneficiaries in its first year, representing 2,576 families. The figures ₹2–15 lakh and ₹3–30 lakh refer to coverage ranges for different age groups, not the number of beneficiaries."
+  }
+ ]
+}

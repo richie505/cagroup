@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F5",
+  "P0.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic partnership milestone",
+   "question": "In the India–Russia strategic relationship, which development took place in 2010?",
+   "options": [
+    "Declaration of Strategic Partnership",
+    "India’s Act Far East Policy and conferment of the Order of the Holy Apostle Andrew the First on Narendra Modi",
+    "Special and Privileged Strategic Partnership",
+    "Treaty of Peace, Friendship and Cooperation"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The year 2010 marked the elevation of India–Russia ties to a Special and Privileged Strategic Partnership. The Strategic Partnership Declaration belongs to 2000, while the Treaty of Peace, Friendship and Cooperation dates to 1971."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Act Far East Policy and Russian honour",
+   "question": "With reference to India–Russia relations in 2019, consider the following statements:\n1. India adopted the Act Far East Policy.\n2. Narendra Modi received the Order of the Holy Apostle Andrew the First.\n3. The Special and Privileged Strategic Partnership was established in 2019.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: both India’s Act Far East Policy and Narendra Modi’s receipt of the Order of the Holy Apostle Andrew the First are associated with 2019. Statement 3 is incorrect because the Special and Privileged Strategic Partnership was established in 2010."
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F2",
+  "P2.F5",
+  "P2.F8",
+  "P2.F9",
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F13",
+  "P3.F3",
+  "P3.F4",
+  "P3.F5",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Applicant",
+   "question": "Who filed the applications for the five Tamil Nadu products that received Geographical Indication tags?",
+   "options": [
+    "P. Sanjai Gandhi",
+    "Tamil Nadu State Agricultural Marketing Board",
+    "NABARD's Madurai Agri Business Incubation Forum",
+    "DPIIT"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "The applications were filed by IPR expert P. Sanjai Gandhi. The Tamil Nadu State Agricultural Marketing Board and NABARD's Madurai Agri Business Incubation Forum were associated with the Thooyamalli rice application, not all five applications."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Crop duration and season",
+   "question": "Consider the following statements:\nStatement A: Thooyamalli rice is a 135–140-day crop cultivated in a season other than samba.\nStatement B: Thooyamalli rice is not known as “Pure Jasmine”.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Both statements are false. Thooyamalli rice is known as “Pure Jasmine” and has a 135–140-day duration during the samba season."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "GI law and validity",
+   "question": "Assertion (A): The Geographical Indications of Goods (Registration and Protection) Act was enacted in 1999 for WTO TRIPS obligations.\nReason (R): A Geographical Indication registration is valid for 10 years and can be renewed indefinitely.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F9"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the 10-year renewable validity of a GI registration does not explain why the Act was enacted for WTO TRIPS obligations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Registry and ministry",
+   "question": "The GI Registry functions under which institutional arrangement?",
+   "options": [
+    "DPIIT under the Ministry of Commerce & Industry",
+    "NABARD under the Ministry of Commerce & Industry",
+    "DPIIT under the Ministry of Agriculture",
+    "Tamil Nadu State Agricultural Marketing Board under DPIIT"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "The GI Registry is under DPIIT, Ministry of Commerce & Industry. NABARD and the Tamil Nadu State Agricultural Marketing Board were associated with product applications, not the GI Registry."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "International GI-related conventions and systems",
+   "question": "Match List-I with List-II regarding international instruments associated with geographical indications and industrial property.\n\nList-I\n(a) Paris Convention\n(b) Lisbon Agreement\n(c) Madrid System\n\nList-II\n(i) 1883\n(ii) 1958\n(iii) Trademarks; collective/certification marks",
+   "options": [
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-ii, c-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11",
+    "P2.F12",
+    "P2.F13"
+   ],
+   "explanation": "The correct pairs are Paris Convention–1883, Lisbon Agreement–1958, and Madrid System–trademarks including collective and certification marks. The Lisbon Agreement concerns international registration of appellations of origin, while the Paris Convention was the first multilateral treaty on industrial property including GIs."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Waste-sector share and official estimate",
+   "question": "How many of the following statements regarding India's methane emissions and the 3rd Biennial Update Report are correct?\n\n1. The waste sector accounts for about 15% of India's methane.\n2. The 3rd Biennial Update Report of 2016 recorded methane emissions of 409 million tonnes CO₂e, excluding LULUCF.\n3. The 3rd Biennial Update Report of 2016 recorded methane emissions of 409 million tonnes CO₂e, including LULUCF.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "Only statements 1 and 2 are correct. The reported 409 million tonnes CO₂e figure excluded LULUCF, so statement 3 is incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Chemical property of methane",
+   "question": "Which gas is the simplest alkane and constitutes 80–95% of natural gas?",
+   "options": [
+    "CH₄",
+    "CO₂",
+    "Natural gas",
+    "Methane hydrate"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "CH₄, or methane, is the simplest alkane and constitutes 80–95% of natural gas. Natural gas is the mixture in which methane is present, while methane hydrate is a distinct form in which methane is trapped."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Landfill hotspots",
+   "question": "Which pair of landfills was identified as a methane-emission hotspot in Mumbai?",
+   "options": [
+    "Deonar and Kanjurmarg",
+    "Ghazipur and Bhalswa",
+    "Jawaharnagar",
+    "Dhapa"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9"
+   ],
+   "explanation": "Mumbai's identified landfill hotspots were Deonar and Kanjurmarg. Ghazipur and Bhalswa are associated with Delhi, Jawaharnagar with Hyderabad, and Dhapa with Kolkata."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "City–landfill association",
+   "question": "Match the cities with their identified landfill methane hotspots.\n\nList-I\n(a) Delhi\n(b) Hyderabad\n(c) Kolkata\n\nList-II\n(i) Dhapa\n(ii) Jawaharnagar\n(iii) Ghazipur and Bhalswa",
+   "options": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-i, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F10",
+    "P3.F11",
+    "P3.F12"
+   ],
+   "explanation": "The correct pairs are Delhi–Ghazipur and Bhalswa, Hyderabad–Jawaharnagar, and Kolkata–Dhapa. Jawaharnagar is the Hyderabad site, whereas Dhapa is associated with Kolkata."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Methane capture example",
+   "question": "Which example was cited for methane capture from waste management operations?",
+   "options": [
+    "Indore's Bio-CNG plant under GOBARdhan",
+    "Pirana landfill in Ahmedabad",
+    "Deonar and Kanjurmarg in Mumbai",
+    "Ghazipur and Bhalswa in Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F13"
+   ],
+   "explanation": "Indore's Bio-CNG plant under GOBARdhan was cited as an example of methane capture. The other options identify landfill locations in Ahmedabad, Mumbai and Delhi rather than the cited capture example."
+  }
+ ]
+}

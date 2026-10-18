@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P5.F14",
+  "P6.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Production and potential",
+   "question": "With reference to India's seaweed sector, which pair correctly states the present production and the estimated potential production, respectively?",
+   "options": [
+    "74,083 tonnes and 9.7 million tonnes",
+    "9.7 million tonnes and 74,083 tonnes",
+    "74,083 tonnes and ₹13.28 lakh a year",
+    "41% and 9.7 million tonnes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F14"
+   ],
+   "explanation": "India's seaweed production is 74,083 tonnes, while its potential is estimated at 9.7 million tonnes. The figure of ₹13.28 lakh a year relates to the annual generation potential from one hectare of Kappaphycus, not national production; 41% refers to seaweed extracts' share of the global biostimulant market."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Corporate investment announcements",
+   "question": "According to the December 2025 update on domestic savings and India's capital markets, which statement correctly describes corporate investment announcements in FY25?",
+   "options": [
+    "They increased by 39% year-on-year, with about 70% coming from the private sector",
+    "They increased by 70% year-on-year, with about 39% coming from the private sector",
+    "They declined by 39% year-on-year, although about 70% came from the private sector",
+    "They increased by 39% year-on-year, with about 19% coming from the private sector"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "Corporate investment announcements in FY25 rose by 39% year-on-year, and about 70% were from the private sector. The option reversing 39% and 70% confuses the growth rate with the private-sector share; 19% is not the stated private-sector share."
+  }
+ ]
+}

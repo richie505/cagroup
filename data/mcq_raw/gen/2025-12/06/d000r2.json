@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F2",
+  "P1.F18"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Test duration and qualification",
+   "question": "Regarding the December 2025 developments concerning the improved SS3 of the Small Satellite Launch Vehicle and solid-motor testing, consider the following statements:\n\n1. The static ground test of the improved SS3 lasted 108 seconds, with all parameters matching and qualification for flight missions.\n2. SMPST at SDSC tested a solid motor for the first orbital launch vehicle developed by an Indian space start-up.\n3. The improved SS3 test lasted 108 seconds, but the parameters did not match and the stage was not qualified for flight missions.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the improved SS3 test lasted 108 seconds and qualified for flight missions, while SMPST at SDSC tested a solid motor for the first orbital launch vehicle of an Indian space start-up. Statement 3 is incorrect because all parameters matched and the stage was qualified for flight missions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Training and project numbers",
+   "question": "Which of the following correctly describes the key achievements of the INUP-i2i programme?",
+   "options": [
+    "8,000+ trained; 348 short-term and 220 mid-term projects",
+    "8,000+ trained; 348 mid-term and 220 short-term projects",
+    "8,000+ trained; 348 short-term and 200 mid-term projects",
+    "8,500+ trained; 348 short-term and 220 mid-term projects"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F18"
+   ],
+   "explanation": "INUP-i2i trained more than 8,000 participants and supported 348 short-term and 220 mid-term projects. The other options alter either the classification of the projects or one of the reported figures."
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": [
+  "P3.F7",
+  "P4.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rice production and trade figures",
+   "question": "Consider the following statements about the United States rice market:\n1. The United States produces 7.05 million tonnes of rice.\n2. The United States ranks 13th globally in rice production.\n3. The United States exports 1.6 million tonnes of rice.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the United States produces 7.05 million tonnes of rice and ranks 13th globally. Statement 3 is incorrect because the United States exports 3 million tonnes and imports 1.6 million tonnes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Per capita milk availability",
+   "question": "What was India's per capita milk availability according to the December 2025 dairy-sector profile?",
+   "options": [
+    "459 g/day",
+    "323 g/day",
+    "8.55 kg per animal per day",
+    "3.44 kg per animal per day"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "India's per capita milk availability was 459 g/day. The tempting figure of 323 g/day refers to the world average, while 8.55 kg and 3.44 kg are animal-level yield figures."
+  }
+ ]
+}

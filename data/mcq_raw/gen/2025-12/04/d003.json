@@ -1,0 +1,231 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P5.F1",
+  "P5.F11",
+  "P5.F12",
+  "P5.F13",
+  "P5.F14",
+  "P5.F15",
+  "P5.F6",
+  "P6.F10",
+  "P6.F11",
+  "P6.F5",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9",
+  "P7.F2",
+  "P7.F4",
+  "P7.F6",
+  "P7.F7",
+  "P7.F8",
+  "P7.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Fertiliser use and emissions",
+   "question": "According to the December 2025 discussion on sustainable agriculture, what was the national average fertiliser use and the share of agriculture-related GHG emissions attributed to fertilisers?",
+   "options": [
+    "139.81 kg/ha and 19%",
+    "247.61 kg/ha and 19%",
+    "139.81 kg/ha and 50%",
+    "18% and 19%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "The national average fertiliser use was 139.81 kg/ha, and fertilisers accounted for 19% of agriculture GHG emissions. The figure of 247.61 kg/ha applied to Punjab, not the national average."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Regulatory approval",
+   "question": "Which one of the following statements regarding provisional approvals of biostimulant products is incorrect?",
+   "options": [
+    "About 30,000 products had received provisional approvals.",
+    "The provisional approvals expired on 16 June 2025.",
+    "Only 132 products were approved after the expiry of the provisional approvals.",
+    "About 30,000 products remained approved after 16 June 2025."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "The incorrect statement is that about 30,000 products remained approved after 16 June 2025. After the provisional approvals expired, only 132 products were approved; about 30,000 refers to the earlier provisional approvals."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Market share and cultivation potential",
+   "question": "With reference to the biostimulant and seaweed-related facts reported in December 2025, consider the following statements:\n\n1. Cash crops accounted for 7% of approved biostimulant products.\n2. Seaweed extracts accounted for 41% of the global biostimulant market.\n3. One hectare of Kappaphycus could generate ₹9.7 lakh a year, according to ICAR–CMFRI.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F11",
+    "P5.F12",
+    "P5.F13"
+   ],
+   "explanation": "Statements 1 and 2 are correct: cash crops accounted for 7%, while seaweed extracts represented 41% of the global biostimulant market. Statement 3 is incorrect because one hectare of Kappaphycus was reported to generate ₹13.28 lakh a year, not ₹9.7 lakh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Seaweed production potential",
+   "question": "What was India's reported seaweed production and its estimated potential, respectively?",
+   "options": [
+    "74,083 tonnes and 9.7 million tonnes",
+    "9.7 million tonnes and 74,083 tonnes",
+    "74,083 tonnes and 13.28 lakh tonnes",
+    "41% and 74,083 tonnes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F14"
+   ],
+   "explanation": "India's reported seaweed production was 74,083 tonnes, against a potential of 9.7 million tonnes. The figure of 13.28 lakh relates to the annual generation possible from one hectare of Kappaphycus, not national production potential."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Seaweed hydrocolloids",
+   "question": "Which of the following is a correct group of hydrocolloids obtained from seaweed?",
+   "options": [
+    "Agar, alginate and carrageenan",
+    "Botanical extracts, humic acids and vitamins",
+    "Cereals, pulses and oilseeds",
+    "Protein hydrolysates, antioxidants and live microbes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F15"
+   ],
+   "explanation": "The seaweed hydrocolloids identified were agar, alginate and carrageenan. The other options combine biostimulant categories or crop groups rather than the listed hydrocolloids."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Corporate investment announcements",
+   "question": "What was the reported pattern of corporate investment announcements in FY25?",
+   "options": [
+    "They increased by 39% year-on-year, with about 70% from the private sector.",
+    "They increased by 19% year-on-year, with about 70% from the private sector.",
+    "They increased by 39% year-on-year, with about 50% from the private sector.",
+    "They increased by 70% year-on-year, with about 39% from the private sector."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "Corporate investment announcements increased by 39% year-on-year in FY25, and about 70% of them were from the private sector. The figures 19% and 50% do not represent this reported pattern."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Investor-protection measures",
+   "question": "Consider the following statements:\nStatement A: The suggested change to the SEBI (LODR) Regulations, 2015, was a move towards suitability-based selling.\nStatement B: The suggested investor-education campaign was called Mutual Fund Sahi Nahi, along with the National Strategy for Financial Education.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F7",
+    "P6.F8"
+   ],
+   "explanation": "Statement A is true: the suggested measure was to move towards suitability-based selling under the SEBI (LODR) Regulations, 2015. Statement B is false because the campaign was called Mutual Fund Sahi Hai, along with the National Strategy for Financial Education."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Money market, capital market and convertibility",
+   "question": "Consider the following statements about India's financial-market structure:\n\n1. The money market deals with instruments having maturity of less than one year.\n2. The capital market includes both primary and secondary markets.\n3. The rupee has full current account convertibility and full capital account convertibility.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F9",
+    "P6.F10",
+    "P6.F11"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the money market covers maturities of less than one year, while the capital market includes primary and secondary markets. Statement 3 is incorrect because the rupee has full current account convertibility but only partial capital account convertibility."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Minimum maturity",
+   "question": "Under the RBI rule mentioned for bank-issued infrastructure bonds, what is the minimum maturity period?",
+   "options": [
+    "7 years",
+    "10 years",
+    "15 years",
+    "Less than one year"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "Bank-issued infrastructure bonds must have a minimum maturity of 7 years. A typical tenure may be 10–15 years, but the regulatory minimum is 7 years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Infrastructure-bond issuers",
+   "question": "Which of the following was identified as an institutional issuer of infrastructure bonds?",
+   "options": [
+    "IREDA",
+    "NHAI",
+    "Public sector banks",
+    "Green bonds"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "IREDA was listed among the institutional issuers of infrastructure bonds, along with PFC, REC and IRFC. NHAI was identified as a government issuer, public sector banks as bank issuers, and green bonds as a bond category."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "InvITs and SARFAESI",
+   "question": "Assertion (A): InvITs are not recognised as borrowers under the SARFAESI Act, 2002.\nReason (R): InvITs are recognised as borrowers under the SARFAESI Act, 2002.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F9"
+   ],
+   "explanation": "Assertion A is false because InvITs are recognised as borrowers under the SARFAESI Act, 2002. Reason R is true and states the correct legal position."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Infrastructure bonds versus InvITs",
+   "question": "Match the following aspects with the corresponding features of infrastructure bonds and InvITs:\n\nList-I\n(a) Returns of infrastructure bonds\n(b) Tenure of infrastructure bonds\n(c) Regulation of infrastructure bonds\n(d) Returns of InvITs\n\nList-II\n(i) Fixed interest\n(ii) Fixed\n(iii) RBI and SEBI\n(iv) Market-linked",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F6",
+    "P7.F7",
+    "P7.F8"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: infrastructure bonds offer fixed interest, have fixed tenure and are regulated by RBI and SEBI, while InvIT returns are market-linked. The other codes interchange these distinguishing features."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7
+ ],
+ "only": [
+  "P7.F1",
+  "P7.F2",
+  "P7.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Biosecurity and biosafety; BWC",
+   "question": "With reference to biosecurity and international biological-weapons control, consider the following statements:\n\n1. Biosecurity seeks to prevent the intentional misuse of biological agents.\n2. Biosafety seeks to prevent the accidental release of biological agents.\n3. The Biological Weapons Convention, adopted in 1974, was the first treaty banning the development, production and stockpiling of bioweapons.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: biosecurity addresses intentional misuse, while biosafety addresses accidental release. Statement 3 is incorrect because the Biological Weapons Convention dates to 1975, not 1974."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in Global Health Security Index",
+   "question": "India holds which rank on the Global Health Security Index?",
+   "options": [
+    "65th",
+    "66th",
+    "67th",
+    "68th"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "India ranks 66th on the Global Health Security Index. The nearby ranks 65th, 67th and 68th are incorrect."
+  }
+ ]
+}

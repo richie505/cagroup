@@ -1,0 +1,217 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F15",
+  "P2.F17",
+  "P2.F19",
+  "P2.F22",
+  "P2.F23",
+  "P2.F24",
+  "P2.F3",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F10",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Duration of research",
+   "question": "In the context of HIV, the virus remained incurable even after approximately how many years of research?",
+   "options": [
+    "28 years",
+    "42 years",
+    "72 years",
+    "82 years"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "HIV remains incurable after 42 years of research. The figures 28 and 72 are tempting because 28 days relates to the antibody window period and 72 hours relates to PEP, but neither is the research duration."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "HIV identification and India-related figures",
+   "question": "Match List-I with List-II regarding HIV facts:\n\nList-I\n a. Identification of HIV\n b. Cells attacked by HIV\n c. India’s HIV prevalence in 2024\n d. India’s share of global ART medicines supplied\n\nList-II\n i. 70%\n ii. CD4+ T-cells\n iii. 0.20%\n iv. 1983\n\nWhich of the following is correct?",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5",
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i: HIV was identified in 1983, attacks CD4+ T-cells, India’s prevalence was 0.20% in 2024, and India supplies 70% of global ART medicines. The other codes interchange the year, cell type, prevalence and supply share."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bone-marrow transplant",
+   "question": "How have the handful of documented HIV cures been achieved?",
+   "options": [
+    "Through oral ART medicines alone",
+    "Through bone-marrow transplants",
+    "Through virological testing at birth",
+    "Through a Dapivirine vaginal ring"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "Only a handful of HIV cures have been documented, and all were achieved through bone-marrow transplants. Oral ART and the Dapivirine vaginal ring are treatment or prevention options, while virological testing is used for infant diagnosis."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "AHD, infant testing and PEP",
+   "question": "Consider the following statements about HIV prevention and diagnosis:\n1. Advanced HIV Disease includes a CD4 count below 200 cells/mm³.\n2. Infants with HIV need antibody testing at about 28 days.\n3. PEP should be taken within 72 hours of exposure.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10",
+    "P2.F11"
+   ],
+   "explanation": "Statements 1 and 3 are correct: AHD includes a CD4 count below 200 cells/mm³, and PEP is required within 72 hours of exposure. Infants require virological testing at birth or 6 weeks, not antibody testing at 28 days."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "WHO PrEP options",
+   "question": "Which of the following is listed by WHO as an HIV pre-exposure prophylaxis option?",
+   "options": [
+    "Long-acting injectable lenacapavir",
+    "Bone-marrow transplantation",
+    "Mission Sampark",
+    "Dual HIV-syphilis test kits"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "Long-acting injectable lenacapavir is one of the WHO PrEP options. Bone-marrow transplantation concerns the handful of documented cures, Mission Sampark concerns people lost to follow-up on ART, and dual HIV-syphilis kits are used for antenatal screening."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "HIV transmission",
+   "question": "Which of the following statements about HIV transmission is incorrect?",
+   "options": [
+    "HIV is not transmitted by kissing.",
+    "HIV is not transmitted by hugging.",
+    "HIV is transmitted through sharing food.",
+    "HIV is not transmitted by handshakes."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F13"
+   ],
+   "explanation": "The incorrect statement is that HIV is transmitted through sharing food; HIV is not transmitted by food. Kissing, hugging and handshakes are also listed among the forms of contact that do not transmit HIV."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Why HIV is difficult to treat",
+   "question": "Consider the following statements:\nStatement A: HIV integrates into the host DNA through reverse transcription.\nStatement B: HIV has no latent reservoirs.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F15"
+   ],
+   "explanation": "Statement A is true: HIV integrates into host DNA through reverse transcription. Statement B is false because latent reservoirs are one of the reasons HIV is difficult to treat."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "NACP phases and interventions",
+   "question": "How many of the following statements about India’s HIV/AIDS response are correct?\n1. NACP II focused on reducing the spread of HIV and building national capacity.\n2. NACP IV aimed at a 50% cut in new infections compared with 2007.\n3. NACP-V introduced dual HIV-syphilis test kits for antenatal screening.\n4. There were 1,587 Targeted Intervention projects in September 2025.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F17",
+    "P2.F19",
+    "P2.F22",
+    "P2.F23"
+   ],
+   "explanation": "Only three statements are correct. Statements 1, 2 and 3 accurately describe NACP II, NACP IV and NACP-V; Statement 4 is incorrect because the figure of 1,587 Targeted Intervention projects was recorded for October 2025, not September 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ombudsmen under HIV and AIDS Act",
+   "question": "Under the HIV and AIDS (Prevention and Control) Act, 2017, Ombudsmen were appointed in how many States/Union Territories?",
+   "options": [
+    "24",
+    "34",
+    "44",
+    "54"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F24"
+   ],
+   "explanation": "Ombudsmen were appointed in 34 States/UTs under the HIV and AIDS (Prevention and Control) Act, 2017. The neighbouring figures 24, 44 and 54 do not match the stated coverage."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Crew strength",
+   "question": "About how many crew members sailed aboard INSV Kaundinya during its maiden overseas voyage?",
+   "options": [
+    "About 10",
+    "About 15",
+    "About 20",
+    "About 25"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "INSV Kaundinya sailed with about 15 crew members. The other figures are not the stated crew strength for the voyage."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Symbols and name of INSV Kaundinya",
+   "question": "Consider the following statements about INSV Kaundinya:\n1. Its sails carry the symbols of Gandabherunda and the Sun.\n2. Its bow carries the Simha Yali.\n3. It is named after Kaundinya, an ancient mariner linked to voyages to Southeast Asia.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F9",
+    "P3.F10"
+   ],
+   "explanation": "All three statements are correct. The vessel’s sails bear Gandabherunda and the Sun, its bow bears the Simha Yali, and its name refers to Kaundinya, the ancient mariner linked to voyages to Southeast Asia."
+  }
+ ]
+}
