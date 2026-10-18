@@ -1,0 +1,62 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of Ramsar sites designated in a year",
+   "question": "How many Ramsar sites in Rajasthan were designated in 2025?",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "6"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F20",
+    "P4.F21",
+    "P4.F22"
+   ],
+   "explanation": "Rajasthan had 3 Ramsar sites designated in 2025: Menar Wetland Complex, Khichan Wetland and Siliserh Lake. The number 5 refers to Rajasthan’s total count in the listed state-wise figures, not the 2025 additions."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State-wise Ramsar sites",
+   "question": "Match List-I with List-II regarding Ramsar sites and their States.\n\nList-I\n(a) Loktak Lake\n(b) Pala Wetland\n(c) Rudrasagar Lake\n(d) Khecheopalri Wetland\n\nList-II\n(i) Sikkim\n(ii) Manipur\n(iii) Tripura\n(iv) Mizoram",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F5",
+    "P4.F23",
+    "P4.F24"
+   ],
+   "explanation": "The correct pairs are Loktak Lake–Manipur, Pala Wetland–Mizoram, Rudrasagar Lake–Tripura and Khecheopalri Wetland–Sikkim. Therefore, the correct code is a-ii, b-iv, c-iii, d-i."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "State-wise Ramsar site count",
+   "question": "Consider the following statements:\nStatement A: Uttar Pradesh has 13 Ramsar sites in the listed state-wise count.\nStatement B: Rajasthan has 6 Ramsar sites in the listed state-wise count.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F41"
+   ],
+   "explanation": "Statement A is true because Uttar Pradesh has 13 Ramsar sites. Statement B is false: Rajasthan has 5 Ramsar sites, while the count of 6 applies to Odisha and Punjab."
+  }
+ ]
+}

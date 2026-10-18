@@ -1,31 +1,31 @@
 # CA MCQ report
 
-- MCQs kept: **3700**
-- News pages with at least one question: **2534 / 2629**
-- Facts tested: **7828 / 20515** (38.2%)
-- Answer positions: A 969, B 947, C 987, D 797
+- MCQs kept: **3769**
+- News pages with at least one question: **2563 / 2629**
+- Facts tested: **7991 / 20515** (39.0%)
+- Answer positions: A 983, B 962, C 1006, D 818
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 375 | 393 | 388 | 324 |
-| Negative / Incorrect Statement | 104 | 109 | 111 | 111 |
-| Assertion-Reason | 115 | 112 | 146 | 118 |
-| Statement-Based (A/B) | 141 | 85 | 123 | 107 |
-| Multi-Statement Correctness | 152 | 121 | 125 | 114 |
+| Direct Recall | 379 | 396 | 392 | 329 |
+| Negative / Incorrect Statement | 107 | 110 | 113 | 113 |
+| Assertion-Reason | 119 | 113 | 146 | 124 |
+| Statement-Based (A/B) | 143 | 89 | 128 | 110 |
+| Multi-Statement Correctness | 153 | 124 | 133 | 118 |
 | Chronological Ordering | 2 | 0 | 0 | 0 |
-| List-Matching | 31 | 26 | 30 | 21 |
-| Count-Based | 49 | 101 | 64 | 2 |
+| List-Matching | 31 | 28 | 30 | 22 |
+| Count-Based | 49 | 102 | 64 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 371 |
-| verify:explanation_contradicts | 53 |
+| code | 378 |
+| verify:explanation_contradicts | 54 |
 | verify:not_in_facts | 49 |
-| over the page's quota | 23 |
+| over the page's quota | 24 |
+| duplicate | 17 |
 | verify:none_correct | 16 |
-| duplicate | 15 |
 | verify:two_correct | 8 |
 | verify:second reader picked option 2, key 1 | 8 |
 | verify:garbled | 3 |
@@ -232,12 +232,12 @@
 | 2025-04/09 | Awards, Persons & Appointments | 5 | 16/20 |
 | 2025-04/10 | Sports | 6 | 12/30 |
 | 2025-04/11 | Important Days & Events | 2 | 4/15 |
-| special/01 | Budgets, Finance Commission & NITI Aayog | 0 | 0/233 |
-| special/02 | Awards & Honours | 0 | 0/319 |
-| special/03 | Environment | 0 | 0/142 |
-| special/04 | Polity, Elections & Society | 0 | 0/50 |
-| special/05 | Sports | 0 | 0/26 |
-| special/06 | Reports & Indices | 0 | 0/11 |
+| special/01 | Budgets, Finance Commission & NITI Aayog | 19 | 47/233 |
+| special/02 | Awards & Honours | 24 | 57/319 |
+| special/03 | Environment | 12 | 29/142 |
+| special/04 | Polity, Elections & Society | 8 | 16/50 |
+| special/05 | Sports | 4 | 11/26 |
+| special/06 | Reports & Indices | 2 | 3/11 |
 
 ## Dropped by the second reader (for human review)
 
@@ -679,3 +679,6 @@
 - `2025-04/11/c000#2` verify: explanation_contradicts — Statements 1 and 3 are correct, so exactly two statements are correct; the explanation incorrectly calls this exactly one.
   - Q: With reference to the Srisailam copper plates, consider the following statements: / 1. They are dated 28 January 1420 CE. / 2. They consist of two copper leaves. / 3. They were issued by Recharla Lingama Na
   - Key: exactly one statement is correct
+- `special/01/c001#2` verify: explanation_contradicts — The facts state that seven high-speed rail corridors were proposed, so Statement 3 is true and all three statements are correct.
+  - Q: With reference to the sectoral announcements in Union Budget 2026–27, consider the following statements: / 1. Andhra Pradesh is one of the four states covered by the Rare Earth corridors. / 2. The allocat
+  - Key: 1 and 2 only

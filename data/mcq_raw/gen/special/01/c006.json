@@ -1,0 +1,62 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in index",
+   "question": "In the NITI Aayog Fiscal Health Index 2023-24, which State secured the first rank?",
+   "options": [
+    "Odisha",
+    "Goa",
+    "Jharkhand",
+    "Gujarat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F4"
+   ],
+   "explanation": "Odisha secured the first rank in the NITI Aayog Fiscal Health Index 2023-24. Goa ranked second, making it the closest competing option but not the correct answer."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Index coverage and sub-indices",
+   "question": "Consider the following statements about the NITI Aayog Fiscal Health Index 2023-24:\n1. The index was released by NITI Aayog on 11 March 2026 as its second edition.\n2. It covered 18 major States for the data year 2023-24.\n3. Its sub-indices included Revenue Mobilisation, Quality of Expenditure, Fiscal Prudence, Debt Index and Tax Sustainability.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P6.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the second edition was released by NITI Aayog on 11 March 2026 and covered 18 major States for 2023-24. Statement 3 is incorrect because the fifth sub-index was Debt Sustainability, not Tax Sustainability."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Strongest and weakest sub-indices",
+   "question": "Assertion (A): Andhra Pradesh's weakest area in the NITI Aayog Fiscal Health Index 2023-24 was Debt Sustainability, while its strongest area was Quality of Expenditure.\nReason (R): Andhra Pradesh scored 4.2 in Debt Sustainability and 43.1 in Quality of Expenditure.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F11",
+    "P6.F15",
+    "P6.F16"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the reason explains the assertion. Andhra Pradesh recorded its lowest sub-index score in Debt Sustainability at 4.2 and its highest in Quality of Expenditure at 43.1."
+  }
+ ]
+}

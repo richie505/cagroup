@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Year and State of Ramsar site",
+   "question": "Chhari-Dhand Wetland, designated as a Ramsar site in 2026, is located in which State?",
+   "options": [
+    "Gujarat",
+    "Madhya Pradesh",
+    "Bihar",
+    "Karnataka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F15"
+   ],
+   "explanation": "Chhari-Dhand Wetland is a Ramsar site in Gujarat, designated in 2026. Madhya Pradesh, Bihar and Karnataka have other Ramsar sites listed in the same state-wise compilation, but not Chhari-Dhand Wetland."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State-wise Ramsar sites",
+   "question": "Match List-I with List-II regarding Ramsar sites and their States.\n\nList-I\n a. Kolleru Lake\n b. Nagi Bird Sanctuary\n c. Nanda Lake\n d. Tawa Reservoir\n\nList-II\n i. Goa\n ii. Andhra Pradesh\n iii. Madhya Pradesh\n iv. Bihar\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F4",
+    "P3.F10",
+    "P3.F40"
+   ],
+   "explanation": "The correct pairs are Kolleru Lake–Andhra Pradesh, Nagi Bird Sanctuary–Bihar, Nanda Lake–Goa and Tawa Reservoir–Madhya Pradesh. Therefore, the correct code is a-ii, b-iv, c-i, d-iii; the other codes interchange these State associations."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "State-wise Ramsar site count",
+   "question": "How many of the following States/UTs have five Ramsar sites in the state-wise Ramsar-site list?\n\n1. Gujarat\n2. Jammu & Kashmir\n3. Karnataka\n4. Himachal Pradesh",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F41"
+   ],
+   "explanation": "Gujarat and Jammu & Kashmir each have five Ramsar sites, while Karnataka has four and Himachal Pradesh has three. Thus, exactly two of the listed States/UTs have five Ramsar sites."
+  }
+ ]
+}

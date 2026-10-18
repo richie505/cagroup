@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Budget presentation count",
+   "question": "For the Union Budget 2026–27, which combination correctly describes Nirmala Sitharaman’s budget presentation count?",
+   "options": [
+    "9th Budget and India’s 6th Digital Budget",
+    "6th Budget and India’s 9th Digital Budget",
+    "9th Budget and India’s 4th Digital Budget",
+    "4th Budget and India’s 6th Digital Budget"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Nirmala Sitharaman presented her 9th Budget, which was India’s 6th Digital Budget. The tempting option with the reversed counts is incorrect because the figures are 9th and 6th respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Fiscal deficit and debt-to-GDP",
+   "question": "With reference to the Union Budget 2026–27 estimates, consider the following statements:\nStatement A: The fiscal deficit for BE 2026–27 is 4.4% of GDP.\nStatement B: The debt-to-GDP ratio for BE 2026–27 is 55.6%.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F13",
+    "P0.F14"
+   ],
+   "explanation": "Statement A is false because the BE 2026–27 fiscal deficit is 4.3% of GDP, while 4.4% is the RE for 2025–26. Statement B is true: the BE 2026–27 debt-to-GDP ratio is 55.6%."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Budget estimates",
+   "question": "Consider the following statements regarding the Union Budget 2026–27:\n1. Total expenditure in BE 2026–27 is ₹53.5 lakh crore.\n2. Capital expenditure in BE 2026–27 is about ₹11 lakh crore.\n3. Net tax receipts of the Centre in BE 2026–27 are ₹26.7 lakh crore.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Only Statement 1 is correct: total expenditure in BE 2026–27 is ₹53.5 lakh crore. Statement 2 incorrectly uses about ₹11 lakh crore, which is the RE 2025–26 capital expenditure; Statement 3 similarly uses ₹26.7 lakh crore, the RE 2025–26 net tax receipts, instead of the BE figure of ₹28.7 lakh crore."
+  }
+ ]
+}

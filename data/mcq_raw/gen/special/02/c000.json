@@ -1,0 +1,62 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Telugu awardees",
+   "question": "Among the Padma Awards 2026 awardees, how many were from Telugu States, with 4 from Andhra Pradesh and 7 from Telangana?",
+   "options": [
+    "11",
+    "19",
+    "16",
+    "6"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "There were 11 Telugu awardees in the Padma Awards 2026: 4 from Andhra Pradesh and 7 from Telangana. The figures 19, 16 and 6 refer respectively to women, posthumous awardees and foreigners."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Padma Awards 2026 statistics",
+   "question": "Which of the following statements about the overall distribution of the Padma Awards 2026 is incorrect?",
+   "options": [
+    "The total number of awardees was 131.",
+    "There were 5 Padma Vibhushan awardees.",
+    "There were 113 Padma Bhushan awardees.",
+    "There were 113 Padma Shri awardees."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "The incorrect statement is that there were 113 Padma Bhushan awardees; the correct number was 13. The number 113 applied to Padma Shri awardees, while the total was 131 and Padma Vibhushan awardees numbered 5."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Telugu Padma Shri awardees and fields",
+   "question": "With reference to the Telugu Padma Shri awardees in 2026, consider the following statements:\n1. Gadde Babu Rajendra Prasad was awarded in Science and Engineering.\n2. Vempati Kutumba Sastry was awarded in Arts.\n3. Deepika Reddy was awarded in Arts.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 3 only"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F13",
+    "P0.F19"
+   ],
+   "explanation": "Only statement 3 is correct: Deepika Reddy received the Padma Shri in Arts. Gadde Babu Rajendra Prasad was awarded in Arts, while Vempati Kutumba Sastry was awarded in Literature and Education."
+  }
+ ]
+}

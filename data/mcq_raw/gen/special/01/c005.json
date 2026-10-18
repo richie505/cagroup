@@ -1,0 +1,62 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Report tabling",
+   "question": "Who tabled the report of the 16th Finance Commission along with the Union Budget on 1 February 2026?",
+   "options": [
+    "Nirmala Sitharaman",
+    "Arvind Panagariya",
+    "N.K. Singh",
+    "Y.V. Reddy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "Nirmala Sitharaman tabled the 16th Finance Commission report along with the Union Budget on 1 February 2026. Arvind Panagariya was the Chairman of the Commission, while N.K. Singh and Y.V. Reddy chaired the 15th and 14th Finance Commissions respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Period of recommendations",
+   "question": "Consider the following statements:\nStatement A: The 16th Finance Commission was constituted in 2025.\nStatement B: Its recommendations cover the period from 2027-28 to 2031-32.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F4"
+   ],
+   "explanation": "Both statements are false. The Commission was constituted in 2024 under the chairmanship of Arvind Panagariya, and its recommendations cover 2026-27 to 2030-31. The years 2025 and 2027-28 to 2031-32 are incorrect substitutions."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Vertical devolution and chairmanship",
+   "question": "With reference to the 16th Finance Commission, consider the following statements:\n1. States’ share in the divisible pool of central taxes was retained at 41%.\n2. Horizontal devolution refers to the States’ share in central taxes.\n3. The Chairman of the 16th Finance Commission was N.K. Singh.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F5",
+    "P5.F6",
+    "P5.F51"
+   ],
+   "explanation": "Only statement 1 is correct: the States’ share in the divisible pool was retained at 41%. Horizontal devolution refers to distribution among States, while N.K. Singh chaired the 15th Finance Commission; the 16th Finance Commission was chaired by Arvind Panagariya."
+  }
+ ]
+}

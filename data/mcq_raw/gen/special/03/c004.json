@@ -1,0 +1,63 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of Ramsar sites",
+   "question": "How many Ramsar sites does Tamil Nadu have, making it the State with the most Ramsar sites?",
+   "options": [
+    "18",
+    "19",
+    "20",
+    "21"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F21"
+   ],
+   "explanation": "Tamil Nadu has 20 Ramsar sites, the highest number among States. The tempting option 19 is incorrect because the recorded total is 20."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Year of designation",
+   "question": "Consider the following statements about Ramsar sites in Tamil Nadu:\n1. Sakkarakottai Bird Sanctuary was designated a Ramsar site in 2024.\n2. Longwood Shola Reserve Forest was designated a Ramsar site in 2024.\n3. Therthangal Bird Sanctuary was designated a Ramsar site in 2024.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F15",
+    "P5.F16",
+    "P5.F19",
+    "P5.F20"
+   ],
+   "explanation": "Exactly one statement is correct: Longwood Shola Reserve Forest was designated in 2024. Sakkarakottai Bird Sanctuary and Therthangal Bird Sanctuary were designated in 2025, making the other two statements false."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Oldest Ramsar site",
+   "question": "Which is the oldest Ramsar site in Tamil Nadu?",
+   "options": [
+    "Point Calimere Wildlife & Bird Sanctuary",
+    "Koothankulam Bird Sanctuary",
+    "Karaivetti Bird Sanctuary",
+    "Sakkarakottai Bird Sanctuary"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F15",
+    "P5.F19",
+    "P5.F22"
+   ],
+   "explanation": "Point Calimere Wildlife & Bird Sanctuary is Tamil Nadu’s oldest Ramsar site, designated in 2002. Koothankulam was designated in 2022, while Karaivetti and Sakkarakottai were designated in 2024 and 2025 respectively."
+  }
+ ]
+}

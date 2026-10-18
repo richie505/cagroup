@@ -1,0 +1,81 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Winner",
+   "question": "Which team won the ICC Men's T20 World Cup 2026 by defeating New Zealand by 96 runs?",
+   "options": [
+    "India",
+    "New Zealand",
+    "Sri Lanka",
+    "Italy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "India won the ICC Men's T20 World Cup 2026 by defeating New Zealand by 96 runs. New Zealand was the runner-up, not the winner."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Hosts and final venue",
+   "question": "With reference to the ICC Men's T20 World Cup 2026, consider the following statements:\n1. India and Sri Lanka were the hosts.\n2. The final was held at Narendra Modi Stadium, Ahmedabad, on 8 March 2026.\n3. Jasprit Bumrah was the Player of the Series.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: India and Sri Lanka hosted the tournament, and the final was held at Narendra Modi Stadium, Ahmedabad, on 8 March 2026. Statement 3 is incorrect because Sanju Samson was the Player of the Series; Jasprit Bumrah was the Player of the Match in the final."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Champions",
+   "question": "Which franchise won the 19th edition of the Indian Premier League in 2026?",
+   "options": [
+    "Royal Challengers Bengaluru",
+    "Gujarat Titans",
+    "Mumbai Indians",
+    "Chennai Super Kings"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "Royal Challengers Bengaluru won the 19th edition of the IPL in 2026. Gujarat Titans were the runners-up, while Mumbai Indians and Chennai Super Kings are noted for having five titles each."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Orange and Purple Caps",
+   "question": "Which of the following statements regarding the IPL 2026 individual awards is incorrect?",
+   "options": [
+    "Vaibhav Suryavanshi won the Orange Cap with 776 runs.",
+    "Kagiso Rabada won the Purple Cap with 29 wickets.",
+    "Vaibhav Suryavanshi became the youngest ever Orange Cap winner.",
+    "Kagiso Rabada won the Purple Cap with 27 wickets."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6",
+    "P1.F8"
+   ],
+   "explanation": "The incorrect statement is that Kagiso Rabada won the Purple Cap with 27 wickets. The correct figure was 29 wickets; Vaibhav Suryavanshi won the Orange Cap with 776 runs and became its youngest ever winner."
+  }
+ ]
+}

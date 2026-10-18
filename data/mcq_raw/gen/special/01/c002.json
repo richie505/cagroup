@@ -1,0 +1,62 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Commencement of New Income Tax Act",
+   "question": "Under the Union Budget 2026–27 tax proposals, from when will the new Income Tax Act come into force?",
+   "options": [
+    "April 2026",
+    "March 2026",
+    "April 2027",
+    "April 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The new Income Tax Act will come into force from April 2026. It will introduce simplified rules and forms designed for common citizens; March 2026 is not the stated commencement period."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "TCS rate change",
+   "question": "Which of the following statements regarding the revised Tax Collected at Source provisions in the Union Budget 2026–27 is incorrect?",
+   "options": [
+    "TCS on foreign tour packages is reduced to 2%.",
+    "TCS on the Liberalised Remittance Scheme for education and medical purposes is reduced to 5%.",
+    "TCS on tendu leaves is reduced to 2%.",
+    "TCS on liquor, scrap and minerals sellers is 2%."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F12",
+    "P2.F13",
+    "P2.F14",
+    "P2.F15"
+   ],
+   "explanation": "The incorrect statement is that TCS on the Liberalised Remittance Scheme for education and medical purposes is reduced to 5%; the revised rate is 2%. TCS on foreign tour packages and tendu leaves is also 2%, while the rate for liquor, scrap and minerals sellers is 2%."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "STT and buyback taxation",
+   "question": "With reference to the Union Budget 2026–27 proposals on Securities Transaction Tax and buybacks, consider the following statements:\n\n1. STT on futures is increased to 0.05%.\n2. STT on options premium and exercise is increased to 0.05%.\n3. Buybacks are taxed as capital gains for all shareholders, with an effective tax of 22% for non-corporate promoters.",
+   "options": [
+    "Exactly one statement is correct",
+    "Only statements 1 and 2 are correct",
+    "Only statements 2 and 3 are correct",
+    "All three statements are correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F16",
+    "P2.F17",
+    "P2.F18"
+   ],
+   "explanation": "Exactly one statement is correct: Statement 1. STT on futures is increased to 0.05%; STT on options premium and exercise is 0.15%, while the effective buyback tax is 22% for corporate promoters and 30% for non-corporate promoters."
+  }
+ ]
+}

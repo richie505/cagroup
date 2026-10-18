@@ -1,0 +1,63 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Budget presenter and focus",
+   "question": "Consider the following statements:\nStatement A: The Andhra Pradesh Budget 2026-27 was presented by Chief Minister N. Chandrababu Naidu.\nStatement B: The budget focused on asset creation, higher capital expenditure and fiscal expansion.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F51"
+   ],
+   "explanation": "Both statements are false. The budget was presented by Finance Minister Payyavula Keshav, and its focus included fiscal consolidation rather than fiscal expansion."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Fiscal stress",
+   "question": "Assertion (A): In the Andhra Pradesh Budget 2026-27, interest plus debt repayment accounted for a larger share than welfare.\nReason (R): Interest plus debt repayment accounted for 18% of expenditure, while welfare accounted for 17%.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F13",
+    "P4.F14",
+    "P4.F24"
+   ],
+   "explanation": "Both A and R are true, and R correctly explains A. Interest plus debt repayment constituted 18%, exceeding welfare’s 17%, which was identified as a sign of fiscal stress."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Major scheme allocations",
+   "question": "With reference to major scheme allocations in the Andhra Pradesh Budget 2026-27, consider the following statements:\n1. NTR Bharosa received an allocation of ₹27,719 crore and was the largest welfare expenditure.\n2. Thalliki Vandanam received ₹9,668 crore for aid to mothers of students.\n3. Annadata Sukhibhava received an allocation of ₹4,000 crore.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F25",
+    "P4.F26",
+    "P4.F28"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so exactly two statements are correct. Annadata Sukhibhava received ₹6,660 crore, not ₹4,000 crore; ₹4,000 crore was allocated to NTR Vaidya Seva and Jal Jeevan Mission."
+  }
+ ]
+}

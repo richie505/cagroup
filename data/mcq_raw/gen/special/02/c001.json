@@ -1,0 +1,65 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Awardee-field-state",
+   "question": "Who among the following Padma Vibhushan awardees of 2026 was honoured in the field of Arts and is associated with Uttar Pradesh?",
+   "options": [
+    "Dharmendra Singh Deol",
+    "K.T. Thomas",
+    "N. Rajam",
+    "P. Narayanan"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "N. Rajam received the Padma Vibhushan in the field of Arts and is associated with Uttar Pradesh. Dharmendra Singh Deol was associated with Maharashtra, K.T. Thomas with Public Affairs and Kerala, and P. Narayanan with Literature and Education and Kerala."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Awardee-field-state",
+   "question": "With reference to the Padma Bhushan 2026, identify the incorrect statement.",
+   "options": [
+    "Alka Yagnik was honoured in Arts and is associated with Maharashtra.",
+    "Mammootty was honoured in Arts and is associated with Kerala.",
+    "Uday Kotak was honoured in Trade and Industry and is associated with Maharashtra.",
+    "Vijay Amritraj was honoured in Sports and is associated with Karnataka."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F10",
+    "P1.F16",
+    "P1.F19"
+   ],
+   "explanation": "The incorrect statement is the one associating Vijay Amritraj with Karnataka; he was associated with the USA and was honoured in Sports. The other three statements correctly pair the Padma Bhushan awardees with their fields and states."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Padma Vibhushan awardees and state distribution",
+   "question": "Consider the following statements about the Padma Vibhushan 2026:\n1. Dharmendra Singh Deol was honoured in Arts and is associated with Maharashtra.\n2. K.T. Thomas was honoured in Public Affairs and is associated with Tamil Nadu.\n3. Three of the five Padma Vibhushan awardees are from Karnataka.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F6"
+   ],
+   "explanation": "Only statement 1 is correct: Dharmendra Singh Deol was honoured in Arts and is associated with Maharashtra. K.T. Thomas is associated with Kerala, while three of the five Padma Vibhushan awardees are from Kerala, not Karnataka."
+  }
+ ]
+}

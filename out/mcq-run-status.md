@@ -22,6 +22,7 @@ Model gpt-5.6-luna. Steps per folder: generate, verify, cover, verify, then buil
 | 2025-06 | 11 / 8 / 3 / 2 = 24 | 46,165 / 26,628 | 52 | 31 / 31 |
 | 2025-05 | 15 / 13 / 1 / 1 = 30 | 52,850 / 28,909 | 57 | 41 / 41 |
 | 2025-04 | 13 / 11 / 5 / 3 = 32 | 58,002 / 29,281 | 60 | 42 / 44 |
+| special | 25 / 9 / 0 / 0 = 34 | 77,953 / 29,457 | 69 | 29 / 29 |
 
 ## 2026-10 answer positions per format
 

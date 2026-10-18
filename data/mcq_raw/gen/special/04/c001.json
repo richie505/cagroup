@@ -1,0 +1,94 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Start date and digital status",
+   "question": "Census 2027, described as India's first fully digital census, started on which date?",
+   "options": [
+    "1 April 2026",
+    "1 April 2025",
+    "1 March 2027",
+    "1 October 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Census 2027 started on 1 April 2026 and is India's first fully digital census. 1 March 2027 is the reference date for most of India, while 1 October 2026 applies to snow-bound areas."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Number, budget and personnel",
+   "question": "With reference to Census 2027, which of the following statements is incorrect?",
+   "options": [
+    "It is the 16th Census overall and the 8th Census after Independence.",
+    "Its budget is ₹11,718.24 crore.",
+    "It involves more than 3 million officials, enumerators and supervisors.",
+    "It is being conducted after a gap of 12 years."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "The incorrect statement is that Census 2027 is being conducted after a gap of 12 years. It is being conducted after a gap of 16 years; the other statements correctly state its overall number, budget and personnel."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Census phases and reference dates",
+   "question": "Consider the following statements about the phases and reference dates of Census 2027:\n1. Phase I in February 2027 covers population, socio-economic, education and caste details.\n2. Phase II in February 2027 covers population, socio-economic, education and caste details.\n3. The reference date for most of India is 1 October 2026.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "Only statement 2 is correct: Phase II in February 2027 covers population, socio-economic, education and caste details. Phase I is scheduled for April–September 2026, and the reference date for most of India is 1 March 2027."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Publisher and edition",
+   "question": "The Women and Men in India 2025 report was released by which organisation at Bhubaneswar, and which edition was it?",
+   "options": [
+    "Ministry of Statistics and Programme Implementation; 27th edition",
+    "Ministry of Home Affairs; 26th edition",
+    "Ministry of Statistics and Programme Implementation; 25th edition",
+    "NITI Aayog; 27th edition"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The Women and Men in India 2025 report was released by MoSPI at Bhubaneswar as its 27th edition. The report was not released by the Ministry of Home Affairs or NITI Aayog, and the stated edition is 27th."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Sex ratio at birth",
+   "question": "Assertion (A): The sex ratio at birth increased to 917 during 2021–23.\nReason (R): The earlier sex ratio at birth was 904 during 2017–19.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the sex ratio at birth rose to 917 during 2021–23 from 904 during 2017–19. The earlier figure of 904 directly establishes the increase stated in the Assertion."
+  }
+ ]
+}
