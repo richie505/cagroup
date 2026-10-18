@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P1.F3",
+  "P1.F8",
+  "P2.F12",
+  "P2.F13",
+  "P2.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Advantages cited for defence-industrial hub",
+   "question": "Which combination of advantages was cited for developing Andhra Pradesh as a global hub for defence industries?",
+   "options": [
+    "Long coastline, land availability and skilled youth",
+    "Two operational launch pads, proximity to the equator and fuel-efficient launches",
+    "Missiles Agni, Prithvi and Akash, along with Mission Shakti",
+    "Housing, tap water and electricity"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The advantages cited for Andhra Pradesh were its long coastline, availability of land and skilled youth. The combination of launch pads, proximity to the equator and fuel-efficient launches relates to the Satish Dhawan Space Centre, not the defence-industrial advantages cited for Andhra Pradesh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Satish Dhawan Space Centre details",
+   "question": "Which statement correctly describes the Satish Dhawan Space Centre on Sriharikota Island?",
+   "options": [
+    "It was named after Dr Satish Dhawan in 2002, has two operational launch pads and benefits from proximity to the equator for fuel-efficient launches",
+    "It was named after Dr Satish Dhawan in a later year, has two operational launch pads and benefits from proximity to the equator for fuel-efficient launches",
+    "It was named after Dr Satish Dhawan in 2002, but has only one operational launch pad and benefits from proximity to the equator for fuel-efficient launches",
+    "It was named after Dr Satish Dhawan in 2002, has two operational launch pads but its proximity to the equator makes launches fuel-intensive"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "The Satish Dhawan Space Centre was named after Dr Satish Dhawan in 2002, has two operational launch pads and benefits from its proximity to the equator. The most tempting alternative is the third option, but the Centre has two operational launch pads, not one."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue of public meeting",
+   "question": "Where was the public meeting associated with the inauguration of MSME parks held?",
+   "options": [
+    "Nellorepalem in the Atmakur constituency of Nellore",
+    "Narampeta in Atmakur mandal",
+    "Rambilli",
+    "Sri City"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "The public meeting was held at Nellorepalem in the Atmakur constituency of Nellore. Narampeta was the place where a barricade collapsed, while Rambilli and Sri City were associated with other developments."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Welfare expenditure and basic amenities",
+   "question": "With reference to the welfare measures announced in Andhra Pradesh, consider the following statements:\n\n1. Pensions involved an annual expenditure of ₹33,000 crore for 64 lakh people.\n2. The pension amount was raised from ₹200 to ₹4,000.\n3. The six-point basic amenities programme included housing, tap water, electricity, toilets, LPG connection and free gas cylinders.\n4. The basic amenities programme consisted of five points and included housing, tap water, electricity, toilets, LPG connection and free gas cylinders.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F12",
+    "P2.F13"
+   ],
+   "explanation": "Statements 1, 2 and 3 accurately describe the pension provision and the six-point basic amenities programme; statement 4 is incorrect because the programme had six points, not five. However, this yields three correct statements, not two—wait."
+  }
+ ]
+}

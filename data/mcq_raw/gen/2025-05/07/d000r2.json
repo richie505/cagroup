@@ -1,0 +1,68 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P1.F6",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of species recorded",
+   "question": "Alder and Hancock recorded approximately how many sea slug species from Visakhapatnam in the 19th century?",
+   "options": [
+    "Over 20",
+    "160",
+    "1864",
+    "One"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "Alder and Hancock recorded over 20 sea slug species from Visakhapatnam in the 19th century. The figures 160 and 1864 relate to the period since the last sighting and the first record, respectively, not to the number of species."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Large forest fires in Odisha",
+   "question": "According to the full-year 2024 data on large forest fires, what was the count recorded for Odisha?",
+   "options": [
+    "1,128",
+    "1,135",
+    "1,282",
+    "1,118"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "Odisha recorded 1,128 large forest fires during full-year 2024. The figures 1,135 and 1,282 refer to Andhra Pradesh and Uttarakhand, respectively, while 1,118 was the corresponding earlier-period figure for Andhra Pradesh."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Fire monitoring and mitigation measures",
+   "question": "Consider the following statements about the Forest Survey of India’s tracking of large forest fires:\n1. Large fires are tracked using SNPP and MODIS.\n2. The measures include fire lines, view lines and awareness.\n3. Large fires are tracked using SNPP but not MODIS.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Forest Survey of India tracks large fires using SNPP and MODIS, and the listed measures are fire lines, view lines and awareness. Statement 3 is incorrect because MODIS is also used."
+  }
+ ]
+}

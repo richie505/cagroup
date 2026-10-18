@@ -1,0 +1,139 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P1.F10",
+  "P1.F3",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Dates of annual festival",
+   "question": "Sri Modakondamma Jatara at Paderu was held in 2025 on which dates?",
+   "options": [
+    "11 and 12 May 2025",
+    "12 and 13 May 2025",
+    "11 and 13 May 2025",
+    "11, 12 and 13 May 2025"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The 2025 Sri Modakondamma Jatara was held on 11, 12 and 13 May. The other options omit one of the three festival dates."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Deity",
+   "question": "Sri Modakondamma Jatara is associated with which deity?",
+   "options": [
+    "Grama Devatha",
+    "Goddess Durga",
+    "Kondhs",
+    "Koyas"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The deity of Sri Modakondamma Jatara is Grama Devatha, described as a form of Goddess Durga. Kondhs and Koyas are the communities who revere the deity, not the deity itself."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Rituals",
+   "question": "Which of the following statements about the rituals of Sri Modakondamma Jatara is incorrect?",
+   "options": [
+    "The rituals include processions, tribal dances, community feasts, homams, abhishekam and alankaram.",
+    "The rituals include tribal dances, processions, homams, community feasts, alankaram and abhishekam.",
+    "The rituals include homams, abhishekam, alankaram, processions, tribal dances and community feasts.",
+    "The rituals include processions, tribal dances, community feasts, homams, abhishekam and processions."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The incorrect statement replaces alankaram with a second mention of processions. The listed rituals are processions, tribal dances, community feasts, homams, abhishekam and alankaram."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Felicitation",
+   "question": "Who felicitated the students of Andhra Pradesh associated with the Inter-State Word Power Championship on 6 May 2025?",
+   "options": [
+    "B. Srinivasa Rao, State Project Director, Samagra Shiksha AP",
+    "B. Revanth, Class 4",
+    "B. Sindhu Priya, Class 2",
+    "G. Jethin Manikantha, Class 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "B. Srinivasa Rao, State Project Director, Samagra Shiksha AP, felicitated the students on 6 May 2025. B. Revanth, B. Sindhu Priya and G. Jethin Manikantha were students associated with the achievement, not the felicitating official."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Student and school details",
+   "question": "Match the students associated with the Inter-State Word Power Championship achievement with their class and school.\n\nList-I\n a. B. Revanth\n b. B. Sindhu Priya\n c. G. Jethin Manikantha\n d. P. Charan Srinivas\n\nList-II\n i. Class 4 — Kanimerla MPP School, NTR district\n ii. Class 2 — Kanimerla MPP School, NTR district\n iii. Class 3 — Vakkapattulavaripalem MPP School, Krishna district\n iv. Class 5 — MPP School, Vandalur RH, SPSR Nellore",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F5",
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. B. Revanth was in Class 4, B. Sindhu Priya in Class 2, G. Jethin Manikantha in Class 3 and P. Charan Srinivas in Class 5, with the corresponding schools shown in List-II."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Launch and merger",
+   "question": "Consider the following statements:\nStatement A: Samagra Shiksha was launched in 2019–20 by the Ministry of Education.\nStatement B: Samagra Shiksha merged Sarva Shiksha Abhiyan, RMSA and the Ministry of Education.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "Both statements are false. Samagra Shiksha was launched in 2018–19 by the Ministry of Education, and it merged Sarva Shiksha Abhiyan, RMSA and Teacher Education."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "RTE Act support",
+   "question": "Assertion (A): Samagra Shiksha supports the RTE Act, 2009.\nReason (R): Samagra Shiksha supports the RTE Act, 2010.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "Assertion A is true because Samagra Shiksha supports the RTE Act, 2009. Reason R is false because the stated year is 2009, not 2010."
+  }
+ ]
+}

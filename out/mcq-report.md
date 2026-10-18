@@ -1,32 +1,32 @@
 # CA MCQ report
 
-- MCQs kept: **10939**
+- MCQs kept: **11055**
 - News pages with at least one question: **2625 / 2629**
-- Facts tested: **19172 / 20515** (93.5%)
-- Answer positions: A 2725, B 2841, C 2883, D 2490
+- Facts tested: **19347 / 20515** (94.3%)
+- Answer positions: A 2755, B 2867, C 2917, D 2516
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 1188 | 1221 | 1268 | 1136 |
-| Negative / Incorrect Statement | 182 | 177 | 186 | 173 |
-| Assertion-Reason | 177 | 209 | 271 | 225 |
-| Statement-Based (A/B) | 353 | 220 | 316 | 267 |
-| Multi-Statement Correctness | 407 | 414 | 389 | 381 |
+| Direct Recall | 1201 | 1234 | 1287 | 1152 |
+| Negative / Incorrect Statement | 185 | 178 | 187 | 174 |
+| Assertion-Reason | 179 | 211 | 273 | 226 |
+| Statement-Based (A/B) | 357 | 223 | 318 | 269 |
+| Multi-Statement Correctness | 410 | 418 | 396 | 383 |
 | Chronological Ordering | 6 | 6 | 4 | 5 |
-| List-Matching | 304 | 280 | 270 | 297 |
-| Count-Based | 108 | 314 | 179 | 6 |
+| List-Matching | 309 | 281 | 273 | 301 |
+| Count-Based | 108 | 316 | 179 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 1352 |
-| verify:explanation_contradicts | 213 |
-| verify:not_in_facts | 150 |
+| code | 1369 |
+| verify:explanation_contradicts | 217 |
+| verify:not_in_facts | 151 |
 | duplicate | 76 |
-| verify:two_correct | 46 |
+| verify:two_correct | 47 |
 | verify:none_correct | 34 |
-| verify:second reader picked option 2, key 1 | 26 |
+| verify:second reader picked option 2, key 1 | 27 |
 | verify:garbled | 14 |
 | verify:ambiguous_stem | 9 |
 | verify:second reader picked option 0, key 1 | 6 |
@@ -216,17 +216,17 @@
 | 2025-06/09 | Awards, Persons & Appointments | 0 | 0/0 |
 | 2025-06/10 | Sports | 0 | 0/0 |
 | 2025-06/11 | Important Days & Events | 1 | 3/3 |
-| 2025-05/01 | Andhra Pradesh | 28 | 55/155 |
-| 2025-05/02 | Polity & Governance | 2 | 3/7 |
-| 2025-05/03 | Schemes & Social Sector | 1 | 3/9 |
-| 2025-05/04 | Economy, Banking & Budget | 1 | 2/7 |
-| 2025-05/05 | International Relations | 3 | 7/11 |
-| 2025-05/06 | Science, Tech, Space & Defence | 1 | 1/9 |
-| 2025-05/07 | Environment & Geography | 8 | 18/36 |
-| 2025-05/08 | Reports, Indices & Rankings | 4 | 12/22 |
-| 2025-05/09 | Awards, Persons & Appointments | 6 | 15/27 |
-| 2025-05/10 | Sports | 1 | 1/5 |
-| 2025-05/11 | Important Days & Events | 2 | 3/14 |
+| 2025-05/01 | Andhra Pradesh | 90 | 150/155 |
+| 2025-05/02 | Polity & Governance | 5 | 7/7 |
+| 2025-05/03 | Schemes & Social Sector | 5 | 9/9 |
+| 2025-05/04 | Economy, Banking & Budget | 5 | 7/7 |
+| 2025-05/05 | International Relations | 6 | 11/11 |
+| 2025-05/06 | Science, Tech, Space & Defence | 6 | 9/9 |
+| 2025-05/07 | Environment & Geography | 18 | 34/36 |
+| 2025-05/08 | Reports, Indices & Rankings | 11 | 22/22 |
+| 2025-05/09 | Awards, Persons & Appointments | 14 | 27/27 |
+| 2025-05/10 | Sports | 4 | 5/5 |
+| 2025-05/11 | Important Days & Events | 9 | 14/14 |
 | 2025-04/01 | Andhra Pradesh | 28 | 78/152 |
 | 2025-04/02 | Polity & Governance | 2 | 5/9 |
 | 2025-04/03 | Schemes & Social Sector | 8 | 19/36 |
@@ -1781,6 +1781,27 @@
 - `2025-05/01/c004#4` verify: not_in_facts — The facts do not state whether establishing a new Chennai–Bangalore Industrial Corridor was recommended.
   - Q: With reference to the CAG delegation’s visit to Tirupati Urban Development Authority (TUDA) on 28 May 2025, consider the following statements: / 1. The delegation recommended completing the digitisation
   - Key: 1 and 2 only
+- `2025-05/01/d000#4` verify: two_correct — The three advantage labels in List-II are indistinguishable, so the exact pairings among them cannot be uniquely established.
+  - Q: Match the features associated with Andhra Pradesh’s aerospace and defence potential with the appropriate descriptions. /  / List-I / (a) Long coastline / (b) Land availability / (c) Skilled youth / (d) Satish Dha
+  - Key: a-ii, b-iii, c-i, d-iv
+- `2025-05/01/d000#10` verify: explanation_contradicts — Statements 1, 2 and 4 are correct, so the count is three rather than the explanation's claimed two.
+  - Q: How many of the following statements regarding welfare measures in Andhra Pradesh are correct? / 1. Pensions amount to ₹33,000 crore a year for 64 lakh people. / 2. The pension amount was raised from ₹200
+  - Key: Only two
+- `2025-05/01/d000r2#3` verify: explanation_contradicts — Statements 1–3 are correct, so the answer is ‘Only three’; the explanation’s trailing ‘not two—wait’ is contradictory and unfinished.
+  - Q: With reference to the welfare measures announced in Andhra Pradesh, consider the following statements: /  / 1. Pensions involved an annual expenditure of ₹33,000 crore for 64 lakh people. / 2. The pension a
+  - Key: Only two
+- `2025-05/01/d001#8` verify: not_in_facts — The facts establish the Assertion but do not establish whether the Reason is true or false.
+  - Q: Assertion (A): Trupti Canteens are linked to the Smart Street Programme. / Reason (R): Trupti Canteens are linked to the Bharat Sindoor MSME Park.
+  - Key: A is true, but R is false
+- `2025-05/04/d000#2` verify: explanation_contradicts — Over 3.5 lakh PMAY-U applications necessarily means over 3.3 lakh, so all three statements are correct despite the explanation.
+  - Q: Consider the following statements regarding urban welfare progress in Andhra Pradesh: /  / 1. Andhra Pradesh ranked third among major States under PM SVANidhi. / 2. PM SVANidhi achieved 103.08% of its targe
+  - Key: 1 and 2 only
+- `2025-05/07/d000#7` verify: explanation_contradicts — The facts explicitly state that the measures include fire lines, view lines and awareness, making statements 1 and 3 correct.
+  - Q: How many of the following statements about the Forest Survey of India’s tracking of large forest fires are correct? / 1. FSI uses SNPP and MODIS to track large fires. / 2. FSI uses INSAT and MODIS to trac
+  - Key: Only one
+- `2025-05/09/d000#2` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements correctly describe the Indian Red Cross Society? / 1. Its Managing Body has 18 members. / 2. The Society has 36 State/UT branches. / 3. The Society has over 1,200 distri
+  - Key: Only two
 - `2025-05/11/c000#2` verify: not_in_facts — The facts identify B. Revanth and his school but do not establish that he was among the students associated with the championship.
   - Q: Consider the following statements: / Statement A: The AP students were felicitated on 6 May 2025 by B. Srinivasa Rao, State Project Director, Samagra Shiksha AP. / Statement B: B. Revanth, a Class 4 stude
   - Key: Both Statement A and Statement B are true

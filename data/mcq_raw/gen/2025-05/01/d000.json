@@ -1,0 +1,231 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P1.F2",
+  "P1.F3",
+  "P1.F5",
+  "P1.F6",
+  "P1.F8",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F2",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Amendment procedure",
+   "question": "In the context of recognising Amaravati in the Andhra Pradesh Reorganisation Act, 2014, which step did the Andhra Pradesh Cabinet decide to take?",
+   "options": [
+    "Adopt a resolution and lobby Members of Parliament for amendment of the Central law",
+    "Amend the Act directly through a State ordinance",
+    "Refer the Act to the Andhra Pradesh Reorganisation Commission",
+    "Transfer the power of amendment to the APCRDA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The Cabinet decided to adopt a resolution and lobby Members of Parliament because the Andhra Pradesh Reorganisation Act, 2014 is a Central law that only Parliament can amend. A State ordinance cannot directly amend this Act, making that option incorrect."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "APCRDA approvals and project contracts",
+   "question": "Consider the following statements regarding related approvals of the Andhra Pradesh Cabinet:\n1. The Cabinet ratified decisions of the 47th meeting of the APCRDA.\n2. Contracts for four projects were awarded to L1 bidders for ₹1,732.603 crore.\n3. The Cabinet ratified decisions of the 48th meeting of the APCRDA.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Only statement 1 is correct: the Cabinet ratified decisions of the 47th APCRDA meeting. The correct amount for the four projects was ₹1,732.306 crore, not ₹1,732.603 crore, and the meeting was the 47th, not the 48th."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Funding and contract model",
+   "question": "The Amaravati Capital City Development Project included a ₹560.57 crore package. Which combination correctly describes its funding and contract model?",
+   "options": [
+    "Jointly funded by the World Bank and ADB under DBO contracts",
+    "Funded only by the World Bank under L1 contracts",
+    "Jointly funded by the APCRDA and DRDO under EPC contracts",
+    "Funded by the ADB alone under PPP contracts"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "The ₹560.57 crore Amaravati Capital City Development Project package was jointly funded by the World Bank and the Asian Development Bank and involved Design, Build and Operate contracts. The other options alter the funding agencies or contract model."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme objective",
+   "question": "What was the stated objective of appointing Dr G Satish Reddy as Advisor for Aerospace and Defence to the Andhra Pradesh government?",
+   "options": [
+    "To make Andhra Pradesh a global hub for defence industries and create jobs",
+    "To establish Andhra Pradesh as the headquarters of DRDO",
+    "To convert Sriharikota into a civilian airport",
+    "To expand MSME parks into every constituency"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The objective was to make Andhra Pradesh a global hub for defence industries and generate jobs. Establishing DRDO headquarters in Andhra Pradesh was not the stated objective."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State advantages and space-centre detail",
+   "question": "Match the features associated with Andhra Pradesh’s aerospace and defence potential with the appropriate descriptions.\n\nList-I\n(a) Long coastline\n(b) Land availability\n(c) Skilled youth\n(d) Satish Dhawan Space Centre named after Dr Satish Dhawan\n\nList-II\n(i) Advantage cited for Andhra Pradesh\n(ii) Advantage cited for Andhra Pradesh\n(iii) Advantage cited for Andhra Pradesh\n(iv) Named in 2002\n\nSelect the correct answer using the codes below:",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F8"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv: long coastline, land availability and skilled youth were cited as Andhra Pradesh’s advantages, while the Satish Dhawan Space Centre was named in 2002. The other codes incorrectly assign the year or interchange the listed advantages."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "DRDO contributions",
+   "question": "Which of the following was associated with the Defence Research and Development Organisation as described in the May 2025 current-affairs context?",
+   "options": [
+    "Missiles such as Agni, Prithvi, Akash and Nag, and Mission Shakti",
+    "The PSLV, GSLV and SSLV launch vehicles",
+    "The Amaravati Capital City Development Project",
+    "The six-point basic amenities programme"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "DRDO’s cited contributions included the Agni, Prithvi, Akash and Nag missiles, and it led Mission Shakti. The launch vehicles belong to the space-centre context, while the other options concern Andhra Pradesh development and welfare initiatives."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "DRDO presence in Andhra Pradesh",
+   "question": "Assertion (A): No major DRDO laboratory is headquartered in Andhra Pradesh.\nReason (R): Andhra Pradesh has no DRDO test facilities or collaborations.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "Assertion A is true because no major DRDO laboratory is headquartered in Andhra Pradesh. Reason R is false: Andhra Pradesh has test facilities and collaborations, even though no major DRDO laboratory is headquartered there."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MSME park locations",
+   "question": "Which of the following was among the constituencies where the 11 MSME parks inaugurated by the Andhra Pradesh Chief Minister were located?",
+   "options": [
+    "Rajanagaram",
+    "Amaravati",
+    "Sri City",
+    "Dagadarthi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Rajanagaram was one of the constituencies listed for the 11 MSME parks. Amaravati, Sri City and Dagadarthi were mentioned in connection with other projects or locations, not as entries in this constituency list."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Projects and locations",
+   "question": "Match the projects announced in connection with the Atmakur public meeting with their locations or details.\n\nList-I\n(a) BPCL refinery\n(b) Dagadarthi Airport\n(c) LG investment\n(d) New engineering college\n\nList-II\n(i) Atmakur\n(ii) ₹5,000 crore and 10,000 jobs\n(iii) Near Kavali\n(iv) ₹95,000 crore in Nellore district\n\nSelect the correct answer using the codes below:",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8",
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-ii and d-i: the BPCL refinery was valued at ₹95,000 crore in Nellore district, Dagadarthi Airport was near Kavali, LG’s investment was ₹5,000 crore with 10,000 jobs, and the engineering college was proposed at Atmakur. The other codes interchange these project details and locations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Innovation and education projects",
+   "question": "Consider the following statements:\nStatement A: A new engineering college was announced at Atmakur.\nStatement B: The Amaravati Innovation Hub was described as the Ratan Tata Innovation Hub with AI initiatives.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10",
+    "P2.F11"
+   ],
+   "explanation": "Both statements are true. The new engineering college was announced for Atmakur, while the Amaravati Innovation Hub was identified as the Ratan Tata Innovation Hub involving AI initiatives."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Welfare measures",
+   "question": "How many of the following statements regarding welfare measures in Andhra Pradesh are correct?\n1. Pensions amount to ₹33,000 crore a year for 64 lakh people.\n2. The pension amount was raised from ₹200 to ₹4,000.\n3. The six-point basic amenities programme includes only housing, tap water and electricity.\n4. The six-point basic amenities programme includes housing, tap water, electricity, toilets, LPG connection and free gas cylinders.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F12",
+    "P2.F13"
+   ],
+   "explanation": "Only two statements are correct: statements 1 and 2 accurately describe the pension expenditure, beneficiaries and increase. Statement 3 is incorrect because the basic amenities programme has six components, and statement 4 gives the complete list."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Upcoming welfare initiatives",
+   "question": "Which of the following was included among the upcoming initiatives announced by the Andhra Pradesh government?",
+   "options": [
+    "Thalliki Vandanam",
+    "A new DRDO laboratory in Andhra Pradesh",
+    "A second APCRDA headquarters",
+    "Replacement of the World Bank with the ADB"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F14"
+   ],
+   "explanation": "Thalliki Vandanam was one of the upcoming initiatives listed, along with investment support for farmers, free education for orphans, WhatsApp governance and drone training. The other options were not among those initiatives."
+  }
+ ]
+}

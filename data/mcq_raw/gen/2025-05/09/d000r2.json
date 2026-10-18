@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F5",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Managing body and network",
+   "question": "With reference to the Indian Red Cross Society, consider the following statements:\n1. Its Managing Body has 18 members, comprising 6 members and the Chairman nominated by the President, and 12 members elected by branches.\n2. It has 36 State/UT branches and over 1,200 district branches.\n3. Its network consists of 35 State/UT branches and over 1,200 district branches.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Managing Body has 18 members with the stated nominated and elected composition, and the Society has 36 State/UT branches and over 1,200 district branches. Statement 3 is incorrect because the number of State/UT branches is 36, not 35."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Occasion",
+   "question": "The nomination of the West Godavari Collector for the AP State Red Cross Award was announced on the occasion of which observances?",
+   "options": [
+    "World Red Cross Day and World Thalassemia Day",
+    "World Red Cross Day and Padma Awards Day",
+    "World Thalassemia Day and Republic Day",
+    "AP State Red Cross Day and World Red Cross Day"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The announcement took place on the occasion of World Red Cross Day and World Thalassemia Day, observed on 8 May. The other options incorrectly combine one of these observances with unrelated occasions or replace World Thalassemia Day."
+  }
+ ]
+}

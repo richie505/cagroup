@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Judge",
+   "question": "Who delivered the Andhra Pradesh High Court ruling concerning the Scheduled Caste status of a person who converted to Christianity?",
+   "options": [
+    "Justice N. Harinath",
+    "Pastor Chintada Anand",
+    "Akkala Ramireddy",
+    "Phani Dutt"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Justice N. Harinath delivered the ruling as a judge of the Andhra Pradesh High Court. Pastor Chintada Anand was the person involved in the case, while Phani Dutt was counsel for the petitioners."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Case and proceedings",
+   "question": "In the Andhra Pradesh High Court case involving Pastor Chintada Anand, where and when was the complaint against Akkala Ramireddy and others filed?",
+   "options": [
+    "Kothapalem, Guntur, in January 2021",
+    "Kothapalem, Guntur, in January 2022",
+    "Kothapalem, Guntur, in May 2021",
+    "Kothapalem, Guntur, in January 2020"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Pastor Chintada Anand of Kothapalem, Guntur, filed the complaint against Akkala Ramireddy and others in January 2021. The other options alter the year or month."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Counsel and police action",
+   "question": "Match List-I with List-II in the Andhra Pradesh High Court case involving Pastor Chintada Anand.\n\nList-I\n a. Phani Dutt\n b. Eerla Satish Kumar\n c. Police\n d. Caste certificate\n\nList-II\n i. To be reviewed\n ii. Counsel for Anand\n iii. Faulted for not verifying caste status\n iv. Counsel for the petitioners",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i: Phani Dutt represented the petitioners, Eerla Satish Kumar represented Anand, the police were faulted for not verifying caste status, and the caste certificate was to be reviewed. The other codes interchange these roles or actions."
+  }
+ ]
+}

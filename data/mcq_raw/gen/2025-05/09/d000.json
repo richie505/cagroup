@@ -1,0 +1,161 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F2",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P2.F4",
+  "P3.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Occasion",
+   "question": "The AP State Red Cross Award announcement associated with the West Godavari Collector was made on which occasion?",
+   "options": [
+    "World Red Cross Day and World Thalassemia Day",
+    "World Red Cross Day and Civil Investiture Ceremony-II",
+    "World Thalassemia Day and Civil Investiture Ceremony-II",
+    "Act XV of 1920 and World Thalassemia Day"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The announcement was made on the occasion of World Red Cross Day and World Thalassemia Day, observed on 8 May. Civil Investiture Ceremony-II and Act XV of 1920 are unrelated to this occasion."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Establishment and leadership",
+   "question": "Consider the following statements:\nStatement A: The Indian Red Cross Society was established in 1920 under the Indian Red Cross Society Act, Act XV of 1920.\nStatement B: The President of India is the President of the Indian Red Cross Society, while the Union Health Minister is its Chairman.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Both statements are true. The Indian Red Cross Society was established in 1920 under Act XV of 1920, and its President and Chairman are the President of India and the Union Health Minister respectively."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Managing body and network",
+   "question": "How many of the following statements correctly describe the Indian Red Cross Society?\n1. Its Managing Body has 18 members.\n2. The Society has 36 State/UT branches.\n3. The Society has over 1,200 district branches.\n4. The Managing Body has 12 members, all nominated by the President.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: the Managing Body has 18 members, the network has 36 State/UT branches, and there are over 1,200 district branches. Statement 4 is incorrect because 12 members are elected by branches, while 6 members plus the Chairman are nominated by the President."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "International Red Cross movement",
+   "question": "Which set correctly represents the components of the International Red Cross and Red Crescent Movement mentioned in relation to the Indian Red Cross Society?",
+   "options": [
+    "ICRC, National Societies and IFRC",
+    "ICRC, National Societies and President of India",
+    "IFRC, Union Health Minister and National Societies",
+    "ICRC, Managing Body and State/UT branches"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "The movement comprises the ICRC, National Societies and the IFRC. The President of India, the Union Health Minister, the Managing Body and State/UT branches are not the three components listed for the movement."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Gallantry feat and career",
+   "question": "With reference to Major Malla Rama Gopal Naidu, consider the following statements:\n1. He killed five terrorists on the LoC in Kupwara, J&K, with zero Indian casualties.\n2. He became a Lieutenant in 2016 and a Captain in 2018.\n3. He became a Major in 2022.",
+   "options": [
+    "All statements are correct",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F4"
+   ],
+   "explanation": "All three statements are correct. Major Naidu killed five terrorists on the LoC in Kupwara with zero Indian casualties, and his career progression was Lieutenant in 2016, Captain in 2018 and Major in 2022."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Award status and institution",
+   "question": "Match the features of the Kirti Chakra in List-I with the corresponding details in List-II.\n\nList-I\n(a) Position among peacetime gallantry awards\n(b) Year of institution\n(c) Eligible recipients\n(d) Authority who presents it\n\nList-II\n(i) Second-highest peacetime gallantry award\n(ii) 1952\n(iii) Civilians and military personnel\n(iv) President",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The Kirti Chakra is the second-highest peacetime gallantry award, was instituted in 1952, is open to civilians and military personnel, and is presented by the President."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Project led",
+   "question": "Which project did Prof Kosaraju Leela Krishna lead at the Delhi School of Economics during 2013–2022?",
+   "options": [
+    "India KLEMS productivity project",
+    "President, Indian Econometric Society",
+    "Journal of Quantitative Economics",
+    "Automatic Announcement System"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Prof Kosaraju Leela Krishna led the India KLEMS productivity project at the Delhi School of Economics during 2013–2022. The Indian Econometric Society and Journal of Quantitative Economics refer to his other roles, while the Automatic Announcement System is associated with APSRTC."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organiser and parent group",
+   "question": "Governance Now’s 10th PSU IT Award, received by APSRTC in 2025, was organised by Governance Now under which group?",
+   "options": [
+    "Sri Adhikari Brothers (SAB) Group",
+    "Indian Red Cross Society",
+    "Delhi School of Economics",
+    "International Federation of Red Cross and Red Crescent Societies"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3",
+    "P0.F6",
+    "P2.F4",
+    "P0.F10"
+   ],
+   "explanation": "Governance Now operates under the Sri Adhikari Brothers (SAB) Group, which organised the award. The Indian Red Cross Society, Delhi School of Economics and IFRC are associated with other facts, not with the organisation of this award."
+  }
+ ]
+}

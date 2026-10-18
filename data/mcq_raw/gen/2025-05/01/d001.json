@@ -1,0 +1,266 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P3.F1",
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9",
+  "P4.F1",
+  "P4.F2",
+  "P4.F4",
+  "P5.F1",
+  "P5.F2",
+  "P5.F4",
+  "P6.F1",
+  "P6.F4",
+  "P6.F8",
+  "P6.F9",
+  "P7.F1",
+  "P7.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Location and area",
+   "question": "The Bharat Sindoor MSME Park in Nellore is being established at which location and area?",
+   "options": [
+    "Amancherla village, Nellore Rural constituency — 60 acres",
+    "Atmakur Bus Stand Centre, Nellore — 60 acres",
+    "Amancherla village, Nellore Rural constituency — 23 acres",
+    "Dindi, Konaseema — 60 acres"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "The Bharat Sindoor MSME Park is being established at Amancherla village in the Nellore Rural constituency over 60 acres. Atmakur Bus Stand Centre is associated with the first Trupti Canteen, while Dindi is associated with homestays."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "MSME contribution",
+   "question": "With reference to the contribution and scale of MSMEs in India, consider the following statements:\n1. MSMEs contribute approximately 30% to GDP.\n2. MSMEs account for approximately 48% of exports.\n3. India has more than 83 million MSME units.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: MSMEs contribute approximately 30% to GDP and approximately 48% to exports. Statement 3 is incorrect because the number of MSME units is more than 63 million, not more than 83 million."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Recent MSME measures",
+   "question": "Match List-I with List-II regarding recent MSME measures.\n\nList-I\n a. TReDS\n b. Digital MSME Scheme 2.0\n c. ZED certification\n d. Budget 2025-26 Skill Development allocation\n\nList-II\n i. Cloud, AI and e-commerce\n ii. Bronze, Silver and Gold\n iii. Raised from ₹3,241 crore to ₹6,017 crore\n iv. Mandatory buyer-onboarding threshold reduced to ₹250 crore",
+   "options": [
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8",
+    "P3.F9",
+    "P3.F10",
+    "P3.F11"
+   ],
+   "explanation": "The correct pairs are a-iv, b-i, c-ii and d-iii. TReDS relates to the ₹250 crore threshold, Digital MSME Scheme 2.0 covers cloud, AI and e-commerce, ZED has Bronze, Silver and Gold levels, and the Skill Development allocation rose to ₹6,017 crore from ₹3,241 crore."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ITI upgradation scheme",
+   "question": "Which combination correctly describes the ITI upgradation scheme associated with recent skill-development measures?",
+   "options": [
+    "₹60,000 crore, 1,000 ITIs, 5 National Centres of Excellence, co-financed equally by ADB and World Bank",
+    "₹6,017 crore, 1,000 ITIs, 5 National Centres of Excellence, co-financed equally by ADB and World Bank",
+    "₹60,000 crore, 700 canteens, 5 National Centres of Excellence, co-financed equally by ADB and World Bank",
+    "₹60,000 crore, 1,000 ITIs, 23 National Centres of Excellence, co-financed equally by ADB and World Bank"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F12"
+   ],
+   "explanation": "The ITI upgradation scheme involves ₹60,000 crore, 1,000 ITIs and 5 National Centres of Excellence, with equal co-financing by the ADB and World Bank. The other options alter the amount, number of ITIs, or number of National Centres of Excellence."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MoU and signatory",
+   "question": "The Andhra Pradesh government–UNICEF MoU on youth programmes was signed in the presence of whom?",
+   "options": [
+    "HRD and IT Minister Nara Lokesh",
+    "MA&UD Minister Dr Ponguru Narayana",
+    "Chief Minister N. Chandrababu Naidu",
+    "The Mission for Elimination of Poverty in Municipal Areas"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The MoU was signed in the presence of HRD and IT Minister Nara Lokesh. Dr Ponguru Narayana is associated with the inauguration of the first Trupti Canteen, while the other two options are not identified as the minister present at the MoU signing."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Alignment of youth programmes",
+   "question": "Consider the following statements:\nStatement A: The AP-UNICEF youth programmes are aligned with ‘One Entrepreneur, One Family’ and Swarna Andhra 2030.\nStatement B: The AP-UNICEF youth programmes are aligned with ‘One Entrepreneur, One Village’ and Swarna Andhra 2047.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "Both statements are false. The correct alignment is with ‘One Entrepreneur, One Family’ and Swarna Andhra 2047; Statement A changes 2047 to 2030, while Statement B changes ‘Family’ to ‘Village’."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Implementing agency",
+   "question": "The Trupti Canteens initiative in Andhra Pradesh is being implemented under which organisation?",
+   "options": [
+    "MEPMA",
+    "UNICEF",
+    "ADB",
+    "The Balaji Temple Construction Fund"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "Trupti Canteens are being implemented under MEPMA, the Mission for Elimination of Poverty in Municipal Areas. UNICEF is associated with the youth-programmes MoU, while ADB is associated with co-financing the ITI upgradation scheme."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First canteen and inauguration",
+   "question": "Where was the first Trupti Canteen inaugurated, and who inaugurated it?",
+   "options": [
+    "Atmakur Bus Stand Centre, Nellore; MA&UD Minister Dr Ponguru Narayana",
+    "Amancherla village, Nellore Rural constituency; HRD and IT Minister Nara Lokesh",
+    "Atmakur Bus Stand Centre, Nellore; Chief Minister N. Chandrababu Naidu",
+    "Dwaraka Tirumala; MA&UD Minister Dr Ponguru Narayana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "The first Trupti Canteen was inaugurated at the Atmakur Bus Stand Centre in Nellore by MA&UD Minister Dr Ponguru Narayana. Amancherla is the location of the Bharat Sindoor MSME Park, while Dwaraka Tirumala is one of the temples where Annadanam was already being provided."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Programme linkage",
+   "question": "Assertion (A): Trupti Canteens are linked to the Smart Street Programme.\nReason (R): Trupti Canteens are linked to the Bharat Sindoor MSME Park.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "Assertion A is true because Trupti Canteens are linked to the Smart Street Programme. Reason R is false; the Bharat Sindoor MSME Park is a separate MSME initiative in Nellore."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Approval",
+   "question": "Who approved the extension of the Annadanam programme to all 23 major temples in Andhra Pradesh?",
+   "options": [
+    "Chief Minister N. Chandrababu Naidu",
+    "MA&UD Minister Dr Ponguru Narayana",
+    "HRD and IT Minister Nara Lokesh",
+    "The ADB and World Bank"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "The extension of the Annadanam programme was approved by Chief Minister N. Chandrababu Naidu. Dr Ponguru Narayana is associated with Trupti Canteens, while Nara Lokesh is associated with the AP-UNICEF youth-programmes MoU."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Benchmark model",
+   "question": "Which model is being used as the benchmark for the expanded Annadanam programme in Andhra Pradesh?",
+   "options": [
+    "Tirumala Vengamamba Annadanam model",
+    "UPSHIFT framework",
+    "Smart Street Programme",
+    "Zero Defect Zero Effect certification"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "The Tirumala Vengamamba Annadanam model is the benchmark for the expanded programme. UPSHIFT belongs to the Youth for Social Impact programme, Smart Street is linked to Trupti Canteens, and ZED is an MSME certification."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Temple measures",
+   "question": "With reference to the endowments measures associated with the Annadanam initiative, consider the following statements:\n1. The Balaji Temple Construction Fund envisages one new temple per assembly constituency.\n2. CCTV coverage is provided for all 24,538 temples under the 6C category.\n3. The 6C category now includes only temples with income above ₹25,000.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F8",
+    "P6.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the fund envisages one new temple per assembly constituency, and CCTV coverage extends to all 24,538 temples under the 6C category. Statement 3 is incorrect because the present income threshold for the 6C category is above ₹50,000."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of homestays",
+   "question": "How many homestays were identified for sustainable tourism development across tribal, heritage, rural and urban areas of Andhra Pradesh?",
+   "options": [
+    "Over 500",
+    "About 600",
+    "700",
+    "23"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "Over 500 homestays were identified across tribal, heritage, rural and urban areas. About 600 refers to the homestays in Tirupati mentioned for upgradation, while 700 is the number of proposed Trupti Canteens."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Policy direction",
+   "question": "What policy direction was given for the next phase of the sustainable tourism homestay initiative?",
+   "options": [
+    "The Chief Minister directed preparation of a Homestay Policy",
+    "The Chief Minister directed preparation of a Smart Street Programme",
+    "The Chief Minister directed preparation of a Digital MSME Scheme 2.0",
+    "The Chief Minister directed preparation of a Balaji Temple Construction Fund"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F6"
+   ],
+   "explanation": "The Chief Minister directed the preparation of a Homestay Policy for the next phase of the initiative. The Smart Street Programme is linked to Trupti Canteens, Digital MSME Scheme 2.0 is an MSME measure, and the Balaji Temple Construction Fund concerns temple construction."
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Metro length",
+   "question": "What is the approximate length of the Vijayawada Metro project mentioned in the urban progress of Andhra Pradesh?",
+   "options": [
+    "About 38 km",
+    "About 367 km",
+    "About 589 km",
+    "About 6,200 km"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The Vijayawada Metro project is approximately 38 km long. The figures 367 and ₹6,200 crore relate to AMRUT project proposals, while ₹589 crore is the amount released under AMRUT and AMRUT 2.0."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Smart Cities Mission progress",
+   "question": "Which of the following statements regarding the Smart Cities Mission in Andhra Pradesh is incorrect?",
+   "options": [
+    "Over 84% of the projects have been completed.",
+    "The completed projects are worth ₹5,701 crore.",
+    "The progress covers Amaravati, Kakinada, Tirupati and Visakhapatnam.",
+    "Over 84% of the projects have been completed, with a value of ₹6,200 crore."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The incorrect statement changes the value of the Smart Cities Mission projects from ₹5,701 crore to ₹6,200 crore. The progress involved over 84% completion across Amaravati, Kakinada, Tirupati and Visakhapatnam; ₹6,200 crore refers to the value of AMRUT project DPRs."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "PM SVANidhi and PMAY-U figures",
+   "question": "Consider the following statements regarding urban welfare progress in Andhra Pradesh:\n\n1. Andhra Pradesh ranked third among major States under PM SVANidhi.\n2. PM SVANidhi achieved 103.08% of its target in Andhra Pradesh.\n3. Under PMAY-U, over 3.3 lakh loan applications were sanctioned.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Andhra Pradesh ranked third among major States under PM SVANidhi and achieved 103.08% of its target. Statement 3 is incorrect because PMAY-U recorded over 3.5 lakh sanctioned loan applications, not over 3.3 lakh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AMRUT funding",
+   "question": "How much was released under AMRUT and AMRUT 2.0 in Andhra Pradesh?",
+   "options": [
+    "₹589 crore",
+    "₹5,701 crore",
+    "Over ₹6,200 crore",
+    "₹3.5 lakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "₹589 crore was released under AMRUT and AMRUT 2.0 in Andhra Pradesh. The figure of ₹5,701 crore relates to Smart Cities Mission projects, while over ₹6,200 crore is the value of DPRs prepared for 367 AMRUT projects."
+  }
+ ]
+}

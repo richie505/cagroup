@@ -1,0 +1,68 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P4.F4",
+  "P5.F4",
+  "P7.F1",
+  "P7.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Platform integration",
+   "question": "Under the AP–UNICEF youth programmes, which programme is a digital, multilingual platform integrated with Andhra Pradesh’s Naipunyam portal?",
+   "options": [
+    "Youth for Social Impact (YFSI)",
+    "YouthHub",
+    "Passport to Earning (P2E)",
+    "Smart Street Programme"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "YouthHub is the digital, multilingual platform integrated with Andhra Pradesh’s Naipunyam portal. Youth for Social Impact and Passport to Earning are separate AP–UNICEF youth programmes, while Smart Street Programme is associated with Trupti Canteens."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Programme linkage",
+   "question": "The Trupti Canteens initiative in Andhra Pradesh is linked to which programme?",
+   "options": [
+    "YouthHub",
+    "Smart Street Programme",
+    "Youth for Social Impact",
+    "Passport to Earning"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "Trupti Canteens are linked to the Smart Street Programme. YouthHub, Youth for Social Impact and Passport to Earning belong to the AP–UNICEF youth programmes."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Homestay coverage and policy",
+   "question": "With reference to Andhra Pradesh’s sustainable tourism homestay initiative, consider the following statements:\n1. Over 500 homestays were identified in tribal, heritage, rural and urban areas.\n2. The Chief Minister directed a Homestay Scheme.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F6"
+   ],
+   "explanation": "Statement 1 is correct: over 500 homestays were identified across tribal, heritage, rural and urban areas. Statement 2 is incorrect because the Chief Minister directed a Homestay Policy, not a Homestay Scheme."
+  }
+ ]
+}

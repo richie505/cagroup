@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Profit margin cap",
+   "question": "Under the PM-BJAP arrangements for Jan Aushadhi stores in Andhra Pradesh, what profit margin was capped?",
+   "options": [
+    "15%",
+    "50%",
+    "600%",
+    "30%–40%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The profit margin under PM-BJAP was capped at 15%. The figures 50% and 600% relate to the margins observed in private medical stores, while 30%–40% refers to the proportion of essential generics stocked at Nandyal GGH."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Branded drugs approval",
+   "question": "Regarding the sale of branded drugs in Jan Aushadhi stores, consider the following statements:\nStatement A: Branded drugs may be stocked only with prior approval when no generic alternative exists.\nStatement B: Branded drugs may be stocked without prior approval even when a generic alternative exists.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Statement A is correct: branded drugs require prior approval when no generic exists. Statement B is incorrect because it removes the requirement of prior approval and reverses the condition concerning the non-availability of a generic."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Oversight and signing authority",
+   "question": "Match the relevant authority or official associated with the Jan Aushadhi-store oversight and emergency preparedness directive in Andhra Pradesh.\n\nList-I\n a. Oversight of Jan Aushadhi stores\n b. Heads of local branches associated with the oversight\n c. Official who signed the emergency preparedness directive\n d. Designation of the signatory\n\nList-II\n i. G. Veerapandian\n ii. District Collectors\n iii. Commissioner of Health & FW and Mission Director, NHM\n iv. Red Cross",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F7"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. District Collectors were assigned oversight, they head local Red Cross branches, and G. Veerapandian signed the directive in his capacity as Commissioner of Health & FW and Mission Director, NHM."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Emergency preparedness measures",
+   "question": "In connection with the emergency preparedness directive issued amid India–Pakistan tensions, how many of the following statements are correct?\n\n1. India–Pakistan tensions were cited as the reason for the directive.\n2. The measures included stocks of medicines, oxygen, blood and trauma kits; cancellation of all leaves; district nodal officers; 24x7 control rooms; and CBRN preparedness.\n3. The directive excluded the appointment of district nodal officers and the operation of 24x7 control rooms.\n4. CBRN preparedness was not included among the prescribed measures.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "Only statements 1 and 2 are correct, so the answer is Only two. The directive was issued because of India–Pakistan tensions and included all the measures listed in statement 2; district nodal officers, 24x7 control rooms and CBRN preparedness were included, not excluded."
+  }
+ ]
+}

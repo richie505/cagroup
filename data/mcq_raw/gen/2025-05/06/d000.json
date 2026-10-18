@@ -1,0 +1,102 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Dates and venue",
+   "question": "Consider the following statements:\nStatement A: MILAN 2026 and the International Fleet Review are scheduled from 14–24 February 2026.\nStatement B: Visakhapatnam is the venue for these events.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Both statements are correct: MILAN 2026 and the International Fleet Review are scheduled for 14–24 February 2026 at Visakhapatnam. The venue is not Mumbai, which was associated with the 2001 fleet review."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Invited countries",
+   "question": "With reference to MILAN 2026 and the International Fleet Review at Visakhapatnam, identify the incorrect statement.",
+   "options": [
+    "Over 145 countries have been invited.",
+    "The invitation has been extended to more than 145 countries.",
+    "The events are expected to involve over 145 invited countries.",
+    "Exactly 145 countries have been invited."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The incorrect statement is that exactly 145 countries have been invited. The correct figure is over 145 countries; the word “over” is the changed detail."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Preparation meeting",
+   "question": "Who participated in the preparation meeting for MILAN 2026 and the International Fleet Review at Visakhapatnam?",
+   "options": [
+    "AP Chief Secretary K. Vijayanand and Vice Admiral Sameer Saxena, Chief of Staff, ENC",
+    "Vice Admiral Sameer Saxena as AP Chief Secretary and K. Vijayanand as Chief of Staff, ENC",
+    "AP Chief Secretary K. Vijayanand alone",
+    "Vice Admiral Sameer Saxena alone"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The preparation meeting was held between AP Chief Secretary K. Vijayanand and Vice Admiral Sameer Saxena, Chief of Staff, Eastern Naval Command. The other options omit one participant or interchange the stated roles."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "MILAN characteristics",
+   "question": "Assertion (A): MILAN is conducted under the Eastern Naval Command.\nReason (R): MILAN is a biennial multilateral naval exercise under the Eastern Naval Command.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Both the Assertion and Reason are true. MILAN is described as a biennial multilateral naval exercise under the Eastern Naval Command, which directly establishes the Assertion."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Past fleet review venues",
+   "question": "Match the past fleet reviews with their venues:\n\nList-I\n(a) 2001 fleet review\n(b) 2006 fleet review\n(c) 2016 fleet review\n(d) 2022 President’s Fleet Review\n\nList-II\n(i) Visakhapatnam\n(ii) Mumbai",
+   "options": [
+    "a-ii, b-i, c-i, d-i",
+    "a-i, b-ii, c-i, d-ii",
+    "a-ii, b-i, c-ii, d-i",
+    "a-i, b-i, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "The correct pairs are 2001–Mumbai, 2006–Visakhapatnam, 2016–Visakhapatnam and 2022 President’s Fleet Review–Visakhapatnam. Therefore, the correct code is a-ii, b-i, c-i, d-i."
+  }
+ ]
+}

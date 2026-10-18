@@ -1,0 +1,138 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F6",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Heatwave trend and temperature pattern",
+   "question": "With reference to the CEEW study on district-level heat risk, consider the following statements:\n1. Major heatwaves were recorded in 2013, 2016, 2019, 2022 and 2024.\n2. 70% of Andhra Pradesh districts have at least 5 extra very warm nights per summer during March–June.\n3. The Diurnal Temperature Range has increased, and this has been linked to higher mortality, malaria and dengue.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the major heatwaves occurred in 2013, 2016, 2019, 2022 and 2024, while 70% of Andhra Pradesh districts recorded at least 5 extra very warm nights per summer. Statement 3 is incorrect because the Diurnal Temperature Range decreased, rather than increased."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Urban heat islands",
+   "question": "Which of the following sets consists entirely of cities identified as urban heat-island locations in the CEEW heat-risk study?",
+   "options": [
+    "Visakhapatnam, Vijayawada, Rajahmundry, Tirupati and Guntur",
+    "Visakhapatnam, Vijayawada, J&K, Ladakh and Guntur",
+    "Rajahmundry, Tirupati, Kerala, Maharashtra and Guntur",
+    "Vijayawada, Tirupati, Andhra Pradesh, J&K and Ladakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "The identified urban heat-island locations were Visakhapatnam, Vijayawada, Rajahmundry, Tirupati and Guntur. J&K and Ladakh were associated with very hot days and warm nights, not this list of urban heat islands."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Regional heat trend",
+   "question": "Which region was reported to experience more than 15 additional very hot days and warm nights per summer in the CEEW heat-risk study?",
+   "options": [
+    "Andhra Pradesh",
+    "Kerala",
+    "J&K and Ladakh",
+    "Maharashtra"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "J&K and Ladakh were reported to have more than 15 additional very hot days and warm nights per summer. Andhra Pradesh, Kerala and Maharashtra were identified among the states whose districts had high or very high heat risk, but that is a different finding."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Rural–urban infant-death change",
+   "question": "With reference to infant deaths in Andhra Pradesh between 2020 and 2021, consider the following statements:\nStatement A: Urban infant deaths increased from 613 to 686.\nStatement B: The Registrar General of India was Mritunjay Kumar Narayan.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F11"
+   ],
+   "explanation": "Statement A is false because the increase from 613 to 686 refers to rural infant deaths; urban infant deaths increased from 4,634 to 6,855. Statement B is true, as the Registrar General of India was Mritunjay Kumar Narayan."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Districts with lowest births",
+   "question": "Which of the following statements regarding the districts with the lowest number of births in Andhra Pradesh is incorrect?",
+   "options": [
+    "Vizianagaram recorded 32,023 births.",
+    "Srikakulam recorded 36,290 births.",
+    "Vizianagaram and Srikakulam were the districts with the lowest births.",
+    "Vizianagaram and Srikakulam were the districts with the highest births."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "The incorrect statement is that Vizianagaram and Srikakulam had the highest births. They were the districts with the lowest births, recording 32,023 and 36,290 respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "District with highest deaths",
+   "question": "Which district recorded 67,406 deaths in Andhra Pradesh according to the Civil Registration System report for 2021?",
+   "options": [
+    "East Godavari",
+    "Guntur",
+    "Krishna",
+    "Vizianagaram"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9"
+   ],
+   "explanation": "East Godavari recorded 67,406 deaths, the highest figure among the listed districts. Guntur recorded 63,872 and Krishna 56,317, while Vizianagaram was among the districts with the lowest deaths."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Districts with lowest deaths and Registrar General",
+   "question": "Assertion (A): Vizianagaram and Srikakulam were the districts with the lowest deaths in Andhra Pradesh according to the Civil Registration System report for 2021.\nReason (R): The Registrar General of India was Mritunjay Kumar Narayan.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: Vizianagaram and Srikakulam had the lowest deaths, and Mritunjay Kumar Narayan was the Registrar General of India. The identity of the Registrar General does not explain the district-wise death figures."
+  }
+ ]
+}

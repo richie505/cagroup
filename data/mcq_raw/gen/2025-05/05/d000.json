@@ -1,0 +1,65 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "US officials",
+   "question": "Who were the two US officials associated with the May 2025 India–Pakistan ceasefire announcement?",
+   "options": [
+    "Vice President J.D. Vance and Secretary of State Marco Rubio",
+    "Vice President Marco Rubio and Secretary of State J.D. Vance",
+    "Vice President J.D. Vance and Secretary of State Donald Trump",
+    "Vice President Marco Rubio and Secretary of State Donald Trump"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The US officials were Vice President J.D. Vance and Secretary of State Marco Rubio. The other options incorrectly interchange the offices or include Donald Trump instead of one of the two officials identified."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Strategic concerns",
+   "question": "Consider the following statements:\nStatement A: China reportedly backed India, creating a two-front threat to Pakistan.\nStatement B: India treats the internationalisation of Kashmir as acceptable rather than a bilateral matter.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Both statements are false. China reportedly backed Pakistan, raising a two-front threat, while India treats the risk of internationalisation of Kashmir as a concern and regards Kashmir as a bilateral matter."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Opposition demands",
+   "question": "In the aftermath of the May 2025 India–Pakistan ceasefire, which combination represented the opposition's demands?",
+   "options": [
+    "An all-party meeting chaired by the Prime Minister and a special session of Parliament",
+    "An all-party meeting chaired by the Home Minister and a special session of Parliament",
+    "An all-party meeting chaired by the Prime Minister and a joint sitting of Parliament",
+    "A meeting of chief ministers chaired by the Prime Minister and a special session of Parliament"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "The opposition demanded an all-party meeting chaired by the Prime Minister and a special session of Parliament. The alternatives change either the chairperson or the type of meeting or parliamentary proceeding."
+  }
+ ]
+}

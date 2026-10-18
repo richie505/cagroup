@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F3",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Metro length",
+   "question": "In the urban infrastructure progress of Andhra Pradesh, which metro project was reported to be approximately 38 km long?",
+   "options": [
+    "Vijayawada Metro",
+    "Visakhapatnam Metro",
+    "Smart Cities Mission",
+    "PM SVANidhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The Vijayawada Metro was reported to be approximately 38 km long. Visakhapatnam Metro was mentioned as progressing, but the approximately 38 km detail was associated with Vijayawada Metro."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Funding and project pipeline",
+   "question": "Under AMRUT and AMRUT 2.0 in Andhra Pradesh, which combination was reported?",
+   "options": [
+    "₹589 crore released; DPRs for 367 projects worth over ₹6,200 crore",
+    "₹367 crore released; DPRs for 589 projects worth over ₹6,200 crore",
+    "₹589 crore released; DPRs for 367 projects worth over ₹589 crore",
+    "₹6,200 crore released; DPRs for 367 projects worth ₹589 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "Under AMRUT and AMRUT 2.0, ₹589 crore was released and DPRs were prepared for 367 projects worth over ₹6,200 crore. The other options interchange or alter the figures for the released amount, project count and project value."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Scheme achievement",
+   "question": "With reference to the urban development initiatives in Andhra Pradesh, consider the following statements:\nStatement A: Under PMAY-U, over 3.3 lakh loan applications were sanctioned.\nStatement B: Under PM SVANidhi, Andhra Pradesh ranked 3rd among major states, achieved 103.08% of its target and covered over 3.3 lakh street vendors.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Statement A is false: PMAY-U had sanctioned over 3.5 lakh loan applications, not over 3.3 lakh. Statement B is true because Andhra Pradesh ranked 3rd among major states under PM SVANidhi, achieved 103.08% of its target and covered over 3.3 lakh street vendors."
+  }
+ ]
+}
