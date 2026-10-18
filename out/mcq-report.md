@@ -1,31 +1,31 @@
 # CA MCQ report
 
-- MCQs kept: **3640**
-- News pages with at least one question: **2492 / 2629**
-- Facts tested: **7673 / 20515** (37.4%)
-- Answer positions: A 952, B 931, C 970, D 787
+- MCQs kept: **3700**
+- News pages with at least one question: **2534 / 2629**
+- Facts tested: **7828 / 20515** (38.2%)
+- Answer positions: A 969, B 947, C 987, D 797
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 368 | 388 | 379 | 320 |
-| Negative / Incorrect Statement | 102 | 105 | 111 | 110 |
-| Assertion-Reason | 114 | 111 | 144 | 116 |
-| Statement-Based (A/B) | 139 | 83 | 122 | 104 |
-| Multi-Statement Correctness | 148 | 120 | 123 | 114 |
+| Direct Recall | 375 | 393 | 388 | 324 |
+| Negative / Incorrect Statement | 104 | 109 | 111 | 111 |
+| Assertion-Reason | 115 | 112 | 146 | 118 |
+| Statement-Based (A/B) | 141 | 85 | 123 | 107 |
+| Multi-Statement Correctness | 152 | 121 | 125 | 114 |
 | Chronological Ordering | 2 | 0 | 0 | 0 |
-| List-Matching | 30 | 26 | 28 | 21 |
-| Count-Based | 49 | 98 | 63 | 2 |
+| List-Matching | 31 | 26 | 30 | 21 |
+| Count-Based | 49 | 101 | 64 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 362 |
-| verify:explanation_contradicts | 52 |
-| verify:not_in_facts | 47 |
+| code | 371 |
+| verify:explanation_contradicts | 53 |
+| verify:not_in_facts | 49 |
 | over the page's quota | 23 |
+| verify:none_correct | 16 |
 | duplicate | 15 |
-| verify:none_correct | 14 |
 | verify:two_correct | 8 |
 | verify:second reader picked option 2, key 1 | 8 |
 | verify:garbled | 3 |
@@ -223,15 +223,15 @@
 | 2025-05/09 | Awards, Persons & Appointments | 6 | 15/27 |
 | 2025-05/10 | Sports | 1 | 1/5 |
 | 2025-05/11 | Important Days & Events | 2 | 3/14 |
-| 2025-04/01 | Andhra Pradesh | 0 | 0/152 |
-| 2025-04/02 | Polity & Governance | 0 | 0/9 |
-| 2025-04/03 | Schemes & Social Sector | 0 | 0/36 |
-| 2025-04/04 | Economy, Banking & Budget | 0 | 0/16 |
-| 2025-04/06 | Science, Tech, Space & Defence | 0 | 0/4 |
-| 2025-04/08 | Reports, Indices & Rankings | 0 | 0/34 |
-| 2025-04/09 | Awards, Persons & Appointments | 0 | 0/20 |
-| 2025-04/10 | Sports | 0 | 0/30 |
-| 2025-04/11 | Important Days & Events | 0 | 0/15 |
+| 2025-04/01 | Andhra Pradesh | 28 | 78/152 |
+| 2025-04/02 | Polity & Governance | 2 | 5/9 |
+| 2025-04/03 | Schemes & Social Sector | 8 | 19/36 |
+| 2025-04/04 | Economy, Banking & Budget | 2 | 4/16 |
+| 2025-04/06 | Science, Tech, Space & Defence | 1 | 2/4 |
+| 2025-04/08 | Reports, Indices & Rankings | 6 | 15/34 |
+| 2025-04/09 | Awards, Persons & Appointments | 5 | 16/20 |
+| 2025-04/10 | Sports | 6 | 12/30 |
+| 2025-04/11 | Important Days & Events | 2 | 4/15 |
 | special/01 | Budgets, Finance Commission & NITI Aayog | 0 | 0/233 |
 | special/02 | Awards & Honours | 0 | 0/319 |
 | special/03 | Environment | 0 | 0/142 |
@@ -664,3 +664,18 @@
 - `2025-05/11/c000#2` verify: not_in_facts — The facts identify B. Revanth and his school but do not establish that he was among the students associated with the championship.
   - Q: Consider the following statements: / Statement A: The AP students were felicitated on 6 May 2025 by B. Srinivasa Rao, State Project Director, Samagra Shiksha AP. / Statement B: B. Revanth, a Class 4 stude
   - Key: Both Statement A and Statement B are true
+- `2025-04/01/c000#3` verify: not_in_facts — The facts establish Anantapur had 6 severe mandals, but do not establish the claim that Prakasam was highest among six districts.
+  - Q: Which of the following statements regarding the drought-hit mandals in Andhra Pradesh is incorrect?
+  - Key: Anantapur had 11 severe and 1 moderate drought mandal.
+- `2025-04/01/c001#2` verify: none_correct — Statements 1 and 3 are supported and statement 2 is contradicted, but no option lists 1 and 3 only; the explanation also wrongly says only statement 3 is correct.
+  - Q: With reference to the P4 programme in Andhra Pradesh, consider the following statements: / 1. P4 is a state-level society. / 2. The State society is chaired by Deputy Chief Minister Pawan Kalyan. / 3. Golde
+  - Key: 3 only
+- `2025-04/09/c000#2` verify: not_in_facts — The facts support Statement B but do not state that V. Prasanna Venkatesh received the Prime Minister’s Award.
+  - Q: Consider the following statements: / Statement A: V. Prasanna Venkatesh received the Prime Minister’s Award for Excellence in Public Administration 2023 at the 17th Civil Services Day in New Delhi. / Stat
+  - Key: Both Statement A and Statement B are true
+- `2025-04/10/c000#5` verify: none_correct — Statements 1, 2, and 4 are correct, but no option lists that combination.
+  - Q: Consider the following statements about Arigela Bhargav Ram and Gobburu Viswa Tej: / 1. They became World No. 1 in BWF Junior Boys Doubles. / 2. They have been paired since the 2018 National Championship.
+  - Key: 1 and 2 only
+- `2025-04/11/c000#2` verify: explanation_contradicts — Statements 1 and 3 are correct, so exactly two statements are correct; the explanation incorrectly calls this exactly one.
+  - Q: With reference to the Srisailam copper plates, consider the following statements: / 1. They are dated 28 January 1420 CE. / 2. They consist of two copper leaves. / 3. They were issued by Recharla Lingama Na
+  - Key: exactly one statement is correct

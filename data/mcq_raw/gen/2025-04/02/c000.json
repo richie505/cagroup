@@ -1,0 +1,44 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Approved by / First use",
+   "question": "Consider the following statements:\nStatement A: The Andhra Pradesh Cabinet, chaired by Chief Minister N. Chandrababu Naidu, approved a draft Ordinance on Scheduled Caste sub-categorisation.\nStatement B: The first use of the sub-categorisation arrangement is for recruitment to State civil services.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F9"
+   ],
+   "explanation": "Statement A is true: the AP Cabinet chaired by Chief Minister N. Chandrababu Naidu approved the draft Ordinance. Statement B is false because its first use is for DSC teacher recruitment, not State civil services recruitment."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "SC groups and reservation",
+   "question": "With reference to the Andhra Pradesh Ordinance on Scheduled Caste sub-categorisation, consider the following statements:\n1. Group-I comprises 12 castes and has 1% reservation.\n2. Group-II comprises 18 castes and has 6.5% reservation.\n3. Group-III comprises 29 castes and has 6.5% reservation.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Group-I has 12 castes with 1% reservation, while Group-II has 18 castes with 6.5% reservation. Statement 3 is incorrect because Group-III has 29 castes with 7.5% reservation, not 6.5%."
+  }
+ ]
+}

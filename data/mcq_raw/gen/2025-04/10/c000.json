@@ -1,0 +1,134 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First Indian gold",
+   "question": "Who became the first Indian to win gold at the Northeast Intercollegiate Figure Skating Championship held in New York?",
+   "options": [
+    "Arun Kumar Rayudu",
+    "Sanjay Singh",
+    "Madireddi Kesava Rao",
+    "Bhargav Ram"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "Arun Kumar Rayudu, a 24-year-old from Visakhapatnam representing Northeastern University, became the first Indian to win gold at the championship. Sanjay Singh, Madireddi Kesava Rao and Bhargav Ram are associated with other sports-related facts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and date",
+   "question": "The 8th AP State Wrestling Championship was held on which date and at which place?",
+   "options": [
+    "6 April 2025 at Rajamahendravaram",
+    "23 April 2025 at Kota",
+    "6 April 2025 at Kakinada",
+    "23 April 2025 at Rajamahendravaram"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F7"
+   ],
+   "explanation": "The 8th AP State Wrestling Championship was held on 6 April 2025 at Rajamahendravaram. Kota, Rajasthan, was associated with the nationals beginning on 23 April, not with the state championship venue."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Category-wise champions",
+   "question": "Which of the following statements about the 8th AP State Wrestling Championship is incorrect?",
+   "options": [
+    "NTR was the Under-15 champion, with Kakinada as runner-up.",
+    "Kakinada was the Under-20 champion, with Alluri Sitharama Raju as runner-up.",
+    "Alluri Sitharama Raju was the Under-15 champion, with Kakinada as runner-up.",
+    "The Under-15 and Under-20 categories had different champion teams."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "The incorrect statement is that Alluri Sitharama Raju was the Under-15 champion; the correct Under-15 champion was NTR, with Kakinada as runner-up. Kakinada was the Under-20 champion, with Alluri Sitharama Raju as runner-up."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Medal tally and age",
+   "question": "Assertion (A): Done Murali Krishna has won 40 medals, including 18 gold medals.\nReason (R): Done Murali Krishna is 24 years old.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2"
+   ],
+   "explanation": "Assertion A is true because Done Murali Krishna’s tally is 40 medals, including 18 gold medals. Reason R is false because he is 23 years old, not 24; therefore, it cannot explain the medal tally."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Medal tally and event details",
+   "question": "With reference to Done Murali Krishna’s powerlifting achievements, how many of the following statements are correct?\n1. He has won 40 medals.\n2. His tally includes 18 gold medals.\n3. The World Junior Equipped Powerlifting Championship result was achieved in Malta in 2022.\n4. The age range for the World Junior Equipped event is 15–23 years.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3",
+    "P2.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: his tally is 40 medals, including 18 gold medals. Statement 3 is incorrect because the Malta championship was in 2023, and statement 4 is incorrect because the event covers ages 14–23."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "World ranking and partnership",
+   "question": "Consider the following statements about Arigela Bhargav Ram and Gobburu Viswa Tej:\n1. They became World No. 1 in BWF Junior Boys Doubles.\n2. They have been paired since the 2018 National Championship.\n3. Bhargav Ram was World No. 3 in mixed doubles.\n4. Viswa Tej trained at the SAI Regional Badminton Academy, Bhubaneswar, from 2021 to 2023.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3",
+    "P3.F4",
+    "P3.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the pair became World No. 1 in BWF Junior Boys Doubles and have been paired since the 2018 National Championship. Statement 3 is incorrect because Bhargav Ram was World No. 5 in mixed doubles, while statement 4 is correct."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Player profile and training base",
+   "question": "Consider the following statements:\nStatement A: Arigela Bhargav Ram and Gobburu Viswa Tej are both 17 years old.\nStatement B: The duo trains at Guwahati.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F6"
+   ],
+   "explanation": "Both statements are true. Arigela Bhargav Ram and Gobburu Viswa Tej are both 17, and the duo trains at Guwahati."
+  }
+ ]
+}

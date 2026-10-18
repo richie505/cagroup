@@ -1,0 +1,151 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First human H5N1 death in AP",
+   "question": "The first human H5N1 death reported in Andhra Pradesh involved which of the following?",
+   "options": [
+    "A two-year-old girl from Palnadu district",
+    "A two-year-old boy from Palnadu district",
+    "A two-year-old girl from Guntur district",
+    "A five-year-old girl from Palnadu district"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F4"
+   ],
+   "explanation": "The deceased was a two-year-old girl from Palnadu district, making it the first human H5N1 death in Andhra Pradesh. The other options alter the child’s sex, district or age."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Confirmation of H5N1 infection",
+   "question": "Which of the following statements regarding the reported human H5N1 death in Andhra Pradesh is incorrect?",
+   "options": [
+    "The child died on 16 March at AIIMS-Mangalagiri.",
+    "The infection was confirmed on 31 March by NIV, Pune.",
+    "The child’s contacts tested positive for H5N1 infection.",
+    "The child also had leptospirosis."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F6"
+   ],
+   "explanation": "The incorrect statement is that the child’s contacts tested positive; the contacts tested negative. The infection was confirmed by NIV, Pune, on 31 March, and the child died at AIIMS-Mangalagiri on 16 March while also having leptospirosis."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Gutti Koya tribal status",
+   "question": "With reference to the displaced Gutti Koya tribals, consider the following:\n\nAssertion (A): The Gutti Koya are recognised as Scheduled Tribes in Chhattisgarh but not in Andhra Pradesh and Telangana.\nReason (R): They were displaced from Chhattisgarh by anti-Maoist operations under the Strategic Hamlet Programme.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the Gutti Koya were displaced from Chhattisgarh by anti-Maoist operations, and their Scheduled Tribe status differs across the States. However, their displacement does not explain the differing legal recognition of their ST status, so the Reason is not the correct explanation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Forest Rights Act entitlement",
+   "question": "Under Section 3.1(m) of the Forest Rights Act, 2006, Gutti Koya tribals displaced before the cut-off date are entitled to what?",
+   "options": [
+    "Alternative forest land",
+    "Permanent urban housing",
+    "Reservation in private schools",
+    "Compensation only under the Bru Rehabilitation Plan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "Section 3.1(m) of the Forest Rights Act, 2006, entitles tribals displaced before 13 December 2005 to alternative forest land. The Bru Rehabilitation Plan concerned Bru settlement in Tripura and is not the entitlement specified here."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "RTE quota and age criterion",
+   "question": "With reference to the implementation of the RTE quota in Andhra Pradesh private schools from 2025–26, consider the following statements:\nStatement A: Section 12(1)(c) reserves 15% of Class 1 seats in private unaided schools for disadvantaged and EWS children.\nStatement B: For the State syllabus, the child must have completed 5 years of age by 31 March.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F3"
+   ],
+   "explanation": "Both statements are false. The quota is 25%, not 15%, and for the State syllabus the child must have completed 5 years by 1 June, not by 31 March."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Jal Jeevan Mission coverage in AP",
+   "question": "Regarding Jal Jeevan Mission coverage in Andhra Pradesh, consider the following statements:\n1. Andhra Pradesh had tap-water coverage of 73.82% of rural households.\n2. YSR district reported 100% coverage.\n3. Palnadu district reported the highest coverage in the State.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F3",
+    "P3.F15"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Andhra Pradesh had 73.82% coverage and YSR district had 100% coverage. Statement 3 is incorrect because Palnadu had the lowest reported coverage, at 35.55%."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "District-wise JJM coverage",
+   "question": "With reference to district-wise Jal Jeevan Mission coverage in Andhra Pradesh, how many of the following statements are correct?\n1. Tirupati recorded 99.82% coverage.\n2. Annamayya recorded 99% coverage.\n3. Chittoor recorded 99% coverage.\n4. East Godavari recorded 86.73% coverage.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F5",
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "Only three statements are correct: Tirupati recorded 99.82%, while Annamayya and Chittoor each recorded 99% coverage. East Godavari recorded 92.27%; 86.73% was the coverage reported for Eluru."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Jal Jeevan Mission launch objective",
+   "question": "What was the original target of the Jal Jeevan Mission launched in 2019?",
+   "options": [
+    "Providing tap water to every rural household by 2024",
+    "Providing tap water to every rural household by 2025",
+    "Providing alternative forest land to displaced tribals by 2024",
+    "Providing free education to all children aged 6–14 by 2024"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F17"
+   ],
+   "explanation": "The Jal Jeevan Mission was launched in 2019 with the objective of providing tap water to every rural household by 2024. The other options refer to a different year or to objectives outside the mission’s stated target."
+  }
+ ]
+}

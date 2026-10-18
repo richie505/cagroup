@@ -1,0 +1,115 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Initiating organisation",
+   "question": "The India Justice Report (IJR) 2025, which assesses police, judiciary, prisons and legal aid, was initiated by which organisation?",
+   "options": [
+    "Sir Dorabji Tata Trust",
+    "MoSPI",
+    "Karnataka",
+    "Andhra Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The India Justice Report 2025 was initiated by Sir Dorabji Tata Trust. MoSPI is associated with Energy Statistics India 2025, while Karnataka and Andhra Pradesh are states mentioned in the rankings."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Rank in report",
+   "question": "Assertion (A): Andhra Pradesh secured 2nd rank with a score of 6.32/10 in the India Justice Report 2025.\nReason (R): Andhra Pradesh secured 5th rank in the India Justice Report 2025.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Assertion A is true: Andhra Pradesh ranked 2nd with 6.32/10 in 2025. Reason R is false because 5th rank was Andhra Pradesh’s position in 2022, not in 2025."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Pillar-wise ranks",
+   "question": "With reference to Andhra Pradesh’s performance in the India Justice Report 2025, consider the following statements:\n1. Andhra Pradesh ranked 2nd in the Police pillar in 2025, compared with 3rd in 2022.\n2. Andhra Pradesh ranked 4th in the Prisons pillar in both 2025 and 2022.\n3. Andhra Pradesh ranked 5th in the Judiciary pillar in 2025, compared with 11th in 2022.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "All three statements are correct. The Police, Prisons and Judiciary pillar ranks were respectively 2nd and 3rd, 4th and 4th, and 5th and 11th for 2025 and 2022; therefore, the tempting option ‘1 and 3 only’ wrongly excludes the Prisons statement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Report and publisher",
+   "question": "Which report released by MoSPI highlighted Andhra Pradesh’s renewable-energy potential and utilisation?",
+   "options": [
+    "Energy Statistics India 2025",
+    "India Justice Report 2025",
+    "India Justice Report 2022",
+    "India Justice Report 2019"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Energy Statistics India 2025 was the report released by MoSPI. The India Justice Report series concerns police, judiciary, prisons and legal aid, not Andhra Pradesh’s renewable-energy potential."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Renewable-energy potential and capacity",
+   "question": "Consider the following statements:\nStatement A: Andhra Pradesh’s total renewable-energy potential was 1,23,336 MW, of which only 5.6% was used.\nStatement B: Installed renewable energy of 9,419 MW formed 50.8% of a total capacity of 1,67,060 MW.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3",
+    "P1.F9"
+   ],
+   "explanation": "Both statements are false. The total renewable-energy potential was 1,67,060 MW, while 1,23,336 MW was the wind potential; installed renewable energy of 9,419 MW was 50.8% of 18,552.97 MW, not 1,67,060 MW."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Installed renewable-energy capacity",
+   "question": "With reference to Andhra Pradesh’s installed renewable-energy capacity, how many of the following source-capacity pairs are correctly matched?\n1. Solar — 4,584.98 MW\n2. Wind — 4,096.65 MW\n3. Biomass and cogeneration — 163.31 MW\n4. Small hydro — 491.67 MW",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F5",
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "Only two pairs are correctly matched: Solar was 4,584.98 MW and Wind was 4,096.65 MW. The 163.31 MW figure belonged to Small hydro, while 491.67 MW belonged to Biomass and cogeneration."
+  }
+ ]
+}

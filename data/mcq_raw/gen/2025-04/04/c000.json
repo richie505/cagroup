@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Tariff rate",
+   "question": "What tariff did US President Donald Trump announce on aqua products from Andhra Pradesh, leading to a halt in shipments to the US within 24 hours?",
+   "options": [
+    "10%",
+    "26%",
+    "34%",
+    "90%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "The announced tariff on aqua products was 26%. The tempting figure of 34% represents the total duties after adding tariff, anti-dumping duty and countervailing duty, while 10% was the tariff faced by Ecuador."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "AP seafood export share",
+   "question": "Consider the following statements:\nStatement A: Andhra Pradesh accounted for approximately 34.53% of India's seafood exports in 2023–24.\nStatement B: The United States was India's largest seafood export destination in 2023–24, receiving 2,97,571 MT.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F10"
+   ],
+   "explanation": "Statement A is false because Andhra Pradesh's share was approximately 33%, not 34.53%. Statement B is true: the United States was the largest destination, receiving 2,97,571 MT; 34.53% was the US share of India's exports, not Andhra Pradesh's share."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Post-recovery shrimp prices",
+   "question": "Following the 90-day pause in the US levy, which of the following statements regarding farm-gate shrimp prices is incorrect?",
+   "options": [
+    "The price of 90-count shrimp was ₹235 per kg.",
+    "The price of 80-count shrimp was ₹255 per kg.",
+    "The price of 70-count shrimp was ₹295 per kg.",
+    "The price of 60-count shrimp was ₹295 per kg."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F12",
+    "P0.F15"
+   ],
+   "explanation": "The incorrect statement is that 70-count shrimp cost ₹295 per kg; its correct price was ₹275 per kg. The ₹295 per kg price applied to 60-count shrimp, while the 90-count and 80-count prices were ₹235 and ₹255 per kg respectively."
+  }
+ ]
+}

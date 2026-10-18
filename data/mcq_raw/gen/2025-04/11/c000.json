@@ -1,0 +1,62 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Inscription date and place",
+   "question": "The inscription found sinking at the Vankeswara temple in Palnadu belongs to which date and reign?",
+   "options": [
+    "22 November 1518 CE, during the reign of Sri Krishnadevaraya",
+    "28 January 1420 CE, during the reign of Recharla Lingama Nayaka",
+    "22 November 1518 CE, during the reign of Recharla Lingama Nayaka",
+    "28 January 1420 CE, during the reign of Sri Krishnadevaraya"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "The inscription at the Vankeswara temple, Durgi mandal headquarters, is dated 22 November 1518 CE and belongs to the reign of Sri Krishnadevaraya. The 28 January 1420 CE date relates to the Srisailam copper plates, not this inscription."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First use of ‘Swarajya’",
+   "question": "Assertion (A): The Srisailam copper plates are significant for recording the first use of ‘Swarajya’ in a Telugu inscription.\nReason (R): The term appears in them as ‘Swarajya Punarudhharana’, meaning restoration of an independent state.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "Both statements are true. The three copper leaves are bilingual in Sanskrit and Telugu, and they contain the term ‘Swarajya Punarudhharana’; this explains their importance as the first recorded use of ‘Swarajya’ in a Telugu inscription."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Date, format and ruler",
+   "question": "With reference to the Srisailam copper plates, consider the following statements:\n1. They are dated 28 January 1420 CE.\n2. They consist of two copper leaves.\n3. They were issued by Recharla Lingama Nayaka.",
+   "options": [
+    "exactly one statement is correct",
+    "exactly two statements are correct",
+    "all three statements are correct",
+    "none of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F4",
+    "P1.F6"
+   ],
+   "explanation": "Exactly one statement is correct: Statement 3 is correct because the plates relate to Recharla Lingama Nayaka. Statement 1 changes the recorded date, which is 28 January 1420 CE, while Statement 2 changes the number of copper leaves from three to two."
+  }
+ ]
+}
