@@ -1,0 +1,133 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Report issuer",
+   "question": "Which institution released the Glacial Lakes and Water Bodies Monitoring Report for June 2025?",
+   "options": [
+    "Central Water Commission",
+    "OECD",
+    "UNEP",
+    "UNESCO"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Glacial Lakes and Water Bodies Monitoring Report for June 2025 was released by the Central Water Commission. OECD, UNEP and UNESCO are associated with other environmental issues in the current-affairs material, not this report."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State-wise number of expanding lakes",
+   "question": "With reference to the CWC report on expanding glacial lakes in India, consider the following statements:\n1. The report was released in June 2025.\n2. Arunachal Pradesh recorded the highest number of expanding lakes, with 197.\n3. Ladakh recorded 108 expanding lakes.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the report was issued in June 2025, and Arunachal Pradesh had 197 expanding lakes, the highest figure. Ladakh recorded 120 expanding lakes, not 108."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Tentative World Heritage status",
+   "question": "With reference to Varkala Cliff, which of the following statements is incorrect?",
+   "options": [
+    "Varkala Cliff was added to UNESCO’s Tentative World Heritage list in September 2025.",
+    "The cliffs are located on the Arabian Sea and consist of Mio-Pliocene laterite and sandstone.",
+    "Varkala is the only place in Karnataka where laterite cliffs rise directly from the sea.",
+    "Erosion, tourism and floods are among the threats to Varkala Cliff."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F4"
+   ],
+   "explanation": "The incorrect statement changes Kerala to Karnataka. Varkala is the only place in Kerala where laterite cliffs rise directly from the sea; its addition in September 2025 was to the UNESCO Tentative World Heritage list, not full World Heritage status."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Conservation programme",
+   "question": "Assertion (A): The rise in saltwater crocodile numbers in the Sundarbans was credited to the Bhagabatpur Crocodile Project.\nReason (R): The project involved captive breeding and release of saltwater crocodiles.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2"
+   ],
+   "explanation": "Both the assertion and the reason are true. The Bhagabatpur Crocodile Project was credited with the increase through its captive-breeding and release programme."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "World Environment Day theme",
+   "question": "Consider the following statements:\nStatement A: The theme of World Environment Day 2025 was “Eliminating Plastic Pollution”.\nStatement B: According to the OECD Global Plastic Outlook, plastic production doubled during 2000–2019 to reach 460 million tonnes.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "Statement A is false because the theme was “Ending Plastic Pollution”, while Statement B is true. The OECD figure states that production doubled during 2000–2019 to 460 million tonnes."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Plastic waste fate",
+   "question": "How many of the following statements regarding global plastic production and waste are correct?\n1. Plastic production doubled during 2000–2019 to 460 million tonnes.\n2. Plastic waste amounted to 353 million tonnes.\n3. Nineteen per cent of plastic waste was recycled.\n4. Packaging accounted for 50% of plastic waste by source.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "Only two statements are correct: production reached 460 million tonnes and plastic waste amounted to 353 million tonnes. Nineteen per cent was incinerated, while recycling accounted for 9%; packaging accounted for 40%, not 50%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "The fire involving approximately 4,000 tonnes of dry waste occurred on which island?",
+   "options": [
+    "Minicoy",
+    "Varkala",
+    "Sundarban Biosphere Reserve",
+    "Sikkim"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The waste fire occurred on Minicoy island in Lakshadweep. Varkala is associated with the coastal cliffs in Kerala, while the Sundarban Biosphere Reserve and Sikkim relate to other environmental developments."
+  }
+ ]
+}

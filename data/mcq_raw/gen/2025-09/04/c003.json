@@ -1,0 +1,98 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Loan amount",
+   "question": "For the first phase of the Musi Riverfront Development Project in Telangana, what loan amount was approved by the Asian Development Bank?",
+   "options": [
+    "₹4,100 crore",
+    "₹6.7 crore",
+    "₹165.7 crore",
+    "₹35 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1"
+   ],
+   "explanation": "The Asian Development Bank approved a ₹4,100 crore loan for phase 1 of the Musi Riverfront Development Project. ₹6.7 crore is associated with the storage capacity of the Sammakkasagar barrage, not this project."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Barrage location and features",
+   "question": "Which of the following statements about the proposed Sammakkasagar barrage is incorrect?",
+   "options": [
+    "The barrage received in-principle approval from Chhattisgarh Chief Minister Vishnu Deo Sai, but Central Water Commission approval is still required.",
+    "The barrage is proposed at Tupakulagudem in Mulugu district on the Godavari, downstream of the Godavari–Indravathi confluence.",
+    "The barrage will have storage of 6.7 tmcft at FRL +83 m.",
+    "Submergence in Chhattisgarh was studied by the Central Water Commission in Bhoopalpatnam tehsil of Bijapur district."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F2",
+    "P17.F3",
+    "P17.F6"
+   ],
+   "explanation": "The incorrect statement is the fourth one. The submergence study was conducted by IIT Kharagpur, not the Central Water Commission; the other details correctly describe the barrage."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "NOC and approval status",
+   "question": "Assertion (A): Chhattisgarh has given in-principle approval for the Sammakkasagar barrage.\nReason (R): The Central Water Commission has already granted approval for the project.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P17.F1"
+   ],
+   "explanation": "Assertion A is true because Chhattisgarh Chief Minister Vishnu Deo Sai gave in-principle approval. Reason R is false because Central Water Commission approval is still required, so it cannot explain the in-principle NOC."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Bioeconomy and green transition",
+   "question": "Consider the following statements:\nStatement A: India's bioeconomy increased from $10 billion in 2014 to $165.7 billion in 2024 and accounted for 4.25% of GDP.\nStatement B: India achieved 20% ethanol blending and is the world's 3rd largest pharma producer.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F2"
+   ],
+   "explanation": "Both statements are true. The bioeconomy reached $165.7 billion in 2024 from $10 billion in 2014, while 20% ethanol blending was achieved and India is the 3rd largest pharma producer."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Meaning and origin of involution",
+   "question": "With reference to ‘involution’ in China’s EV sector, consider the following statements:\n1. Involution refers to excessive competition that can lead to price wars below cost and losses.\n2. The term was coined by anthropologist Clifford Geertz in 1969 in relation to agricultural involution in Java wet-rice cultivation.\n3. The United States imposed a 50% tariff on Chinese EVs from 2024.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F2",
+    "P19.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: involution denotes destructive excessive competition, and Clifford Geertz coined the term in 1969 in the context of Java wet-rice cultivation. Statement 3 is incorrect because the United States tariff from 2024 was 100%, not 50%."
+  }
+ ]
+}

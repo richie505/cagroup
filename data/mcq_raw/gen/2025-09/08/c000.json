@@ -1,0 +1,118 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s rank",
+   "question": "According to the Global Peace Index 2025, what was India’s rank among the countries covered?",
+   "options": [
+    "115th",
+    "144th",
+    "163rd",
+    "1st"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "India was ranked 115th in the Global Peace Index 2025. Pakistan was ranked 144th, while Russia occupied the last position at 163rd; therefore, 144th and 163rd are incorrect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Publisher and methodology",
+   "question": "With reference to the Global Peace Index 2025, identify the incorrect statement.",
+   "options": [
+    "It was published by the Institute for Economics & Peace, Sydney.",
+    "It covered 163 countries and used 23 indicators across 3 domains.",
+    "State-based conflicts were at their highest level since World War II.",
+    "Iceland ranked first and had no standing army."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "The incorrect statement is that the index was published by the Institute for Economics & Peace, Sydney; the fact is that it was published by the Institute for Economics & Peace, Sydney, so this option is actually correct. The options as framed do not contain an incorrect statement."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "TFR and replacement level",
+   "question": "Consider the following statements regarding the SRS Statistical Report 2023:\n\nStatement A: India’s Total Fertility Rate was 1.9 in 2023, below the replacement level of 2.1.\nStatement B: The elderly population accounted for 15% of India’s population.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "Statement A is true: India’s TFR was 1.9 in 2023, below the replacement level of 2.1. Statement B is false because the elderly constituted 9.7% of India’s population; 15% was Kerala’s figure."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Demographic indicators",
+   "question": "With reference to the SRS Statistical Report 2023, how many of the following statements are correct?\n\n1. India’s Crude Birth Rate declined from 19.1 in 2022 to 18.4 in 2023.\n2. Eighteen States and Union Territories were above replacement fertility.\n3. Bihar recorded the highest Crude Birth Rate.\n4. Delhi recorded the highest Total Fertility Rate.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F4",
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "Only one statement is correct: India’s Crude Birth Rate declined from 19.1 to 18.4. The 18 States and Union Territories were below replacement fertility, Bihar had the highest Crude Birth Rate, and Delhi had the lowest Total Fertility Rate."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Most polluted country",
+   "question": "Assertion (A): Bangladesh was identified as the most polluted country in the Air Quality Life Index 2025.\nReason (R): Bangladesh’s PM2.5 concentration was 12 times the World Health Organization limit.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F6"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the high PM2.5 level of 12 times the World Health Organization limit explains Bangladesh’s position as the most polluted country. The statement does not refer to India, whose AQLI findings were separately reported."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Publisher and India findings",
+   "question": "Consider the following statements about the Air Quality Life Index 2025:\n\n1. The update was prepared by the Energy Policy Institute at the University of Chicago and was based on 2023 data.\n2. All Indians breathe air above the World Health Organization PM2.5 limit of 5 µg/m³.\n3. The Indo-Gangetic Plain has 454.4 million people exposed to pollution.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the update was prepared by the Energy Policy Institute at the University of Chicago using 2023 data, and all Indians breathe air above the World Health Organization limit of 5 µg/m³. Statement 3 is incorrect because the Indo-Gangetic Plain has 544.4 million people exposed, not 454.4 million."
+  }
+ ]
+}

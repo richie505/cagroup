@@ -1,0 +1,150 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Definition of Universal Health Care",
+   "question": "According to the Bhore Committee, what is the defining principle of Universal Health Care?",
+   "options": [
+    "Care for all irrespective of ability to pay",
+    "₹5 lakh inpatient cover per household per year",
+    "Care limited to insured patients",
+    "Care provided only through private hospitals"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The Bhore Committee defined Universal Health Care as care for all, irrespective of ability to pay. The ₹5 lakh amount refers to PMJAY, not the definition of Universal Health Care."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "PMJAY coverage and utilisation",
+   "question": "Consider the following statements about PMJAY:\n1. PMJAY provides ₹5 lakh per household per year for in-patient care.\n2. Private hospitals receive one-third of PMJAY spending.\n3. Only 20% of insured patients used insurance in 2022–23.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F4",
+    "P7.F5"
+   ],
+   "explanation": "Only statement 1 is correct: PMJAY provides ₹5 lakh per household per year for in-patient care. Private hospitals receive two-thirds of PMJAY spending, while 35% of insured patients used insurance in 2022–23, not the figures stated in statements 2 and 3."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Amendments to clinical-trial rules",
+   "question": "Which one of the following statements about the draft amendments to the New Drugs and Clinical Trials Rules, 2019, is incorrect?",
+   "options": [
+    "The draft was published in the Gazette on 28 August 2025 by the Union Health Ministry.",
+    "For test licences, processing time was reduced from 90 days to 45 days.",
+    "Low-risk bioavailability and bioequivalence studies can start on intimation.",
+    "The amendments are expected to cut test licence applications by about 25%."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "The incorrect statement is the claim of a 25% reduction. The expected reduction in test licence applications is about 50%; the other statements accurately describe the draft amendments."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NCD mortality share",
+   "question": "According to UNICEF India, non-communicable diseases account for what share of deaths in India?",
+   "options": [
+    "63%",
+    "25–26%",
+    "8–10%",
+    "One-third by 2030"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "Non-communicable diseases cause 63% of deaths in India, according to Dr Vivek Singh of UNICEF India. The 25–26% figure concerns premature NCD deaths, while one-third by 2030 is the SDG 3.4 reduction target."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "HelpAge India study",
+   "question": "Consider the following statements:\nStatement A: The HelpAge India study on intergenerational dynamics and perceptions on ageing surveyed 5,700 respondents in 10 cities.\nStatement B: The study found that 78% of elders cited youth impatience as a concern.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F2",
+    "P10.F3"
+   ],
+   "explanation": "Statement A is true: the study covered 5,700 respondents in 10 cities. Statement B is false because 71% of elders cited youth impatience, while 78% of youth thought elders lacked digital interest."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Young heart-attack patients",
+   "question": "According to hospital data for 2020–2023, approximately what proportion of heart-attack patients in India were under 40?",
+   "options": [
+    "50%",
+    "25%",
+    "63%",
+    "70%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "Approximately 50% of heart-attack patients were under 40, according to hospital data for 2020–2023. The 25% figure refers to Indians who could identify heart symptoms in 2024, not to the age profile of heart-attack patients."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Thali framework and food affordability",
+   "question": "What did the ‘Thali’ framework find regarding the affordability of two thali meals a day?",
+   "options": [
+    "About 50% of rural and 20% of urban households could not afford them",
+    "About 20% of rural and 50% of urban households could not afford them",
+    "About 63% of rural and 25–26% of urban households could not afford them",
+    "About 10% of rural and 15% of urban households could not afford them"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "The finding was that about 50% of rural households and 20% of urban households could not afford two thali meals a day. Reversing the rural and urban figures produces the most direct trap in this question."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Assisted dying and death tourism",
+   "question": "Assertion (A): Switzerland permits non-residents to seek assisted dying, a practice described as “death tourism”.\nReason (R): The Supreme Court of India recognised the right to die with dignity under Article 21 in 2018 and allowed passive euthanasia.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F4",
+    "P13.F5"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: Switzerland permits non-residents, while the Supreme Court of India recognised the right to die with dignity under Article 21 and allowed passive euthanasia. The Indian legal position does not explain Switzerland’s policy on non-residents, so the Reason is not the correct explanation of the Assertion."
+  }
+ ]
+}

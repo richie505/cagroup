@@ -1,0 +1,154 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Developed by",
+   "question": "Who developed the 'Made in India' Vikram 32-bit launch-vehicle-grade processor presented during Semicon India 2025?",
+   "options": [
+    "Vikram Sarabhai Space Centre and Semiconductor Laboratory, Chandigarh",
+    "IIT Jammu and IIT Roorkee",
+    "NIT Durgapur and NIT Calicut",
+    "ICMR-NIMR and NII, New Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "The processor was developed jointly by the Vikram Sarabhai Space Centre of ISRO and the Semiconductor Laboratory at Chandigarh. The IITs and NITs were associated with prototype chips shown at the event, while ICMR-NIMR and NII were linked to AdFalciVax."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Predecessor and programme status",
+   "question": "Which of the following statements about the Vikram 32-bit processor is incorrect?",
+   "options": [
+    "Its predecessor, VIKRAM1601, was a 16-bit processor used in ISRO avionics since 2009.",
+    "The Vikram 32-bit processor was developed under the Semicon India Programme.",
+    "The processor builds on ISRO's earlier work.",
+    "VIKRAM1601 preceded the Vikram 32-bit processor."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "The incorrect statement is that the processor was developed under the Semicon India Programme. It was not developed under that programme; instead, it built on ISRO's earlier work, with VIKRAM1601 as its 16-bit predecessor used since 2009."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Certification authority",
+   "question": "Which organisation granted certification to the telecom system powered by domestically manufactured chips?",
+   "options": [
+    "Telecommunication Engineering Centre",
+    "Bastion Research",
+    "Department of Telecommunications",
+    "Ministry of Communications"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F4"
+   ],
+   "explanation": "The domestically manufactured-chip telecom system received certification from the Telecommunication Engineering Centre, or TEC. TEC functions under the Department of Telecommunications in the Ministry of Communications, while Bastion Research was cited in the report."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Vaccine developer",
+   "question": "Which institution developed AdFalciVax, India's first indigenous multi-stage malaria vaccine?",
+   "options": [
+    "ICMR-Regional Medical Research Centre, Bhubaneswar",
+    "ICMR-NIMR, New Delhi",
+    "NII, New Delhi",
+    "Indian Immunologicals"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F4"
+   ],
+   "explanation": "AdFalciVax was developed by the ICMR-Regional Medical Research Centre at Bhubaneswar using Lactococcus lactis, with ICMR-NIMR and NII. Indian Immunologicals was among the entities to which the vaccine was licensed, not its developer."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First-ever expedition and vessel",
+   "question": "Consider the following statements:\nStatement A: IASV Triveni began the first-ever tri-service all-women sailing circumnavigation.\nStatement B: The 50-foot yacht was built at the Indian Naval Dockyard, Puducherry.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "Both statements are true. IASV Triveni began the first-ever tri-service all-women sailing circumnavigation, and the 50-foot yacht was built at the Indian Naval Dockyard, Puducherry."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Crew and route",
+   "question": "Assertion (A): IASV Triveni's crew consisted of 12 women officers.\nReason (R): The expedition crossed the equator twice and passed the three Great Capes.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F6"
+   ],
+   "explanation": "The assertion is false because IASV Triveni carried 10 women officers—5 Army, 1 Navy and 4 Air Force. The reason is true: its route crossed the equator twice and included Cape Leeuwin, Cape Horn and the Cape of Good Hope."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Exercise venue and participating units",
+   "question": "With reference to Exercise Yudh Abhyas 2025, consider the following statements:\n1. The exercise was held at Fort Wainwright, Alaska, as its 21st edition.\n2. India participated with a battalion of the Madras Regiment.\n3. The United States participated with the 2nd Battalion, 5th Infantry Regiment.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The exercise was the 21st edition at Fort Wainwright, Alaska, and India's contingent came from the Madras Regiment; the United States unit was the 1st Battalion, 5th Infantry Regiment, not the 2nd Battalion."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "India–US defence agreements",
+   "question": "How many of the following India–US defence agreements are correctly matched with their years?\n1. LEMOA — 2016\n2. COMCASA — 2020\n3. BECA — 2020\n4. SOSA — 2022",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F6",
+    "P4.F7",
+    "P4.F8",
+    "P4.F9"
+   ],
+   "explanation": "Only two pairs are correctly matched: LEMOA with 2016 and BECA with 2020. COMCASA was signed in 2018 and SOSA in 2024, making the tempting answer 'Only three' incorrect."
+  }
+ ]
+}

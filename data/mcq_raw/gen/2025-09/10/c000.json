@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Athlete and event category",
+   "question": "Who won the gold medal in the 69 kg weightlifting category at the Commonwealth event held in Ahmedabad in September 2025?",
+   "options": [
+    "Juhita Guna",
+    "Ragala Venkat Rahul",
+    "Santoshi Matsa",
+    "Gurunaidu Sanapathi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "Juhita Guna, aged 14 and from Rajamahendravaram, won the gold medal in the 69 kg category at the Commonwealth event held in Ahmedabad. Ragala Venkat Rahul, Santoshi Matsa and Gurunaidu Sanapathi are other Andhra Pradesh weightlifters associated with different achievements."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Training centre and medal category",
+   "question": "Consider the following statements:\nStatement A: Juhita Guna trains at the Sports Authority of India centre in Lucknow.\nStatement B: Juhita Guna won gold in the 85 kg category at the Commonwealth event held in Ahmedabad.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "Statement A is true because Juhita Guna trains at SAI, Lucknow. Statement B is false: her gold medal at the Ahmedabad Commonwealth event was in the 69 kg category, not the 85 kg category."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First Telugu finisher in UTMB",
+   "question": "Who became the first Telugu runner to complete the Ultra Trail du Mont Blanc (UTMB)?",
+   "options": [
+    "Viswabharath Allamsetti",
+    "Juhita Guna",
+    "Karnam Malleswari",
+    "Ragala Venkat Rahul"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Viswabharath Allamsetti, who was born in Guntur and lives in France, became the first Telugu runner to complete UTMB. Juhita Guna, Karnam Malleswari and Ragala Venkat Rahul are associated with weightlifting rather than this UTMB achievement."
+  }
+ ]
+}

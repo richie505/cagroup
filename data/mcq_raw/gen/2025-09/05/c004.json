@@ -1,0 +1,136 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  17,
+  18,
+  19,
+  20,
+  21
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Pakistan's UN role",
+   "question": "Which combination correctly describes Pakistan's United Nations roles announced in June 2025?",
+   "options": [
+    "Chair of the UNSC Taliban Sanctions Committee and Vice-Chair of the Counter-Terrorism Committee",
+    "Chair of the Counter-Terrorism Committee and Vice-Chair of the UNSC Taliban Sanctions Committee",
+    "Chair of FATF and Vice-Chair of UNOCT",
+    "Chair of the UNSC Taliban Sanctions Committee and Vice-Chair of FATF"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F6"
+   ],
+   "explanation": "Pakistan was chosen to chair the UNSC Taliban Sanctions Committee and to serve as Vice-Chair of the Counter-Terrorism Committee. FATF and UNOCT are organisations with which the CTC works, but Pakistan's stated roles were not chairmanships of those organisations."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Protest trigger and toll",
+   "question": "With reference to the Gen Z protests in Nepal in September 2025, identify the incorrect statement.",
+   "options": [
+    "On 4 September 2025, Nepal's Ministry of Communications and IT blocked 26 social media platforms.",
+    "The protests began on 8 September 2025 near the Mandala monument at Maitighar in Kathmandu.",
+    "Hami Nepal, a non-profit established in 2015, coordinated the protests.",
+    "The protests resulted in at least 19 deaths and more than 500 injuries."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F2",
+    "P18.F3",
+    "P18.F4"
+   ],
+   "explanation": "The incorrect statement is the fourth one: the reported toll was at least 19 killed and 400+ injured, not more than 500 injured. The other statements correctly identify the social-media blockade, the protest location and date, and Hami Nepal's coordinating role."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Political outcome",
+   "question": "Assertion (A): The social media ban in Nepal was revoked after the Gen Z protests.\nReason (R): The probe panel was required to report within 30 days.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F7"
+   ],
+   "explanation": "Assertion A is true because the outcome included revocation of the social media ban. Reason R is false: the probe panel was to report in 15 days, not 30 days."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Comparative democratic crises",
+   "question": "Consider the following statements about democratic crises in South Asia:\n1. The 2022 Aragalaya in Sri Lanka was directed against Gotabaya Rajapaksa.\n2. The 2024 July Uprising in Bangladesh lasted 30 days and was directed against Sheikh Hasina.\n3. Nepal's 2025 Gen Z protest was directed against K.P. Sharma Oli following a social media ban.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F2",
+    "P19.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Sri Lanka's Aragalaya opposed Gotabaya Rajapaksa, while Nepal's Gen Z protest opposed K.P. Sharma Oli after the social media ban. Statement 2 is incorrect because the Bangladesh July Uprising lasted 21 days, not 30 days."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Katchatheevu and maritime cooperation",
+   "question": "Consider the following statements:\nStatement A: Katchatheevu is an uninhabited islet in the Palk Strait placed under Sri Lanka by the 1974 India–Sri Lanka Maritime Boundary Treaty.\nStatement B: UNCLOS Article 123 calls for cooperation in semi-enclosed seas such as the Palk Bay and Gulf of Mannar.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F1",
+    "P20.F4"
+   ],
+   "explanation": "Both statements are true. Katchatheevu was placed under Sri Lanka through the 1974 maritime boundary treaty, and UNCLOS Article 123 provides for cooperation in semi-enclosed seas, including the Palk Bay and Gulf of Mannar."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Pilgrimage occasion",
+   "question": "For which occasion were Sikh jathas denied permission to visit Nankana Sahib in November 2025?",
+   "options": [
+    "Guru Nanak's birth anniversary",
+    "Guru Arjan Dev's martyrdom",
+    "Maharaja Ranjit Singh's death anniversary",
+    "The opening anniversary of the Kartarpur Corridor"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F1",
+    "P21.F6"
+   ],
+   "explanation": "The denied Sikh jathas were intended to visit Nankana Sahib for Guru Nanak's birth anniversary in November 2025. Maharaja Ranjit Singh's death anniversary was a separate occasion linked to the earlier denial in June 2025."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Religious pilgrimage quotas",
+   "question": "How many of the following statements regarding religious pilgrimage quotas are correct?\n1. The quota for Guru Nanak's birth anniversary is approximately 3,000.\n2. The quota for Guru Arjan Dev's martyrdom is 1,000.\n3. The quota for Maharaja Ranjit Singh's death anniversary is 600.\n4. Guru Nanak's birth anniversary is observed in June for this pilgrimage framework.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P21.F6",
+    "P21.F7",
+    "P21.F8"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: the quotas are approximately 3,000 for Guru Nanak's birth anniversary and 1,000 for Guru Arjan Dev's martyrdom. Statement 3 is incorrect because the quota for Maharaja Ranjit Singh's death anniversary is 500, and statement 4 gives the wrong occasion timing."
+  }
+ ]
+}

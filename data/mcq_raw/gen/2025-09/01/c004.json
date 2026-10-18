@@ -1,0 +1,126 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19,
+  20
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Conference targets",
+   "question": "At the District Collectors' Conference 2025 in Andhra Pradesh, which combination of targets was set for crime reduction and district growth?",
+   "options": [
+    "Crime reduction by 33% in three months and district growth of 15%",
+    "Crime reduction by 15% in three months and district growth of 33%",
+    "Crime reduction by 4% in three months and district growth of 16%",
+    "Crime reduction by 16% in three months and district growth of 4%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F3"
+   ],
+   "explanation": "The conference set a target of cutting crime by 33% in three months, while districts were asked to target 15% growth. The tempting 15% crime-reduction and 33% growth combination reverses the two targets."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Lead agency",
+   "question": "Which organisation is the lead agency for Andhra Pradesh's mission to clear legacy waste?",
+   "options": [
+    "Swachh Andhra Corporation",
+    "APTRANSCO",
+    "Valmiki Research Centre",
+    "National Sanskrit University"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F7"
+   ],
+   "explanation": "Swachh Andhra Corporation is the lead agency for the legacy-waste clearance mission. APTRANSCO is associated with power projects, while the other options are linked to Sanskrit and Ramayana-related initiatives."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Waste-to-Energy plants",
+   "question": "Consider the following statements about Waste-to-Energy plants under Andhra Pradesh's legacy-waste management mission:\n1. Waste-to-Energy plants are working at Visakhapatnam and Guntur.\n2. New plants are coming up at Nellore, Rajahmundry, Kurnool, Kadapa, Vijayawada and Tirupati.\n3. Andhra Pradesh plans to have six Waste-to-Energy plants by 2027.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F3"
+   ],
+   "explanation": "All three statements are correct: plants are working at Visakhapatnam and Guntur, six other locations are listed for upcoming plants, and six Waste-to-Energy plants are planned by 2027. The other options omit at least one correct statement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Installed solar capacity",
+   "question": "What was Andhra Pradesh's installed solar capacity in September 2025?",
+   "options": [
+    "5,006 MW",
+    "5,500 MW",
+    "78.50 GWp",
+    "130 MW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F1"
+   ],
+   "explanation": "Andhra Pradesh's installed solar capacity reached 5,006 MW in September 2025. The 78.50 GWp figure is the policy target, while 130 MW refers to rooftop capacity under execution in government buildings."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SCADA Centre location",
+   "question": "The APTRANSCO SCADA Centre mentioned in the September 2025 power-project announcement is located at which place and monitors how many substations?",
+   "options": [
+    "Visakhapatnam; 110 substations",
+    "Vijayawada; 110 substations",
+    "Visakhapatnam; 63 substations",
+    "Guntur; 132 substations"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F4"
+   ],
+   "explanation": "The SCADA Centre is at Visakhapatnam and monitors 110 substations. Vijayawada is the stated trap location, while 63 and 132 are not the number of substations monitored by this centre."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Administrative control",
+   "question": "Assertion (A): An Indian Knowledge Systems Centre was sanctioned at the National Sanskrit University, Tirupati.\nReason (R): The centre comes under the Indian Knowledge Systems Division of the Ministry of Education.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P20.F1",
+    "P20.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the IKS Centre was sanctioned at National Sanskrit University, Tirupati, and it is under the IKS Division of the Ministry of Education. The administrative control identifies the centre's institutional framework but does not explain why it was sanctioned at that university."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Conclave name",
+   "question": "What was the name of the legal conclave organised by the Valmiki Research Centre affiliated to National Sanskrit University?",
+   "options": [
+    "Sri Ramayana Sankharavam",
+    "Sri Ramayana Samvadam",
+    "Valmiki Dharma Parishad",
+    "Ramayana Constitutional Conclave"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F6"
+   ],
+   "explanation": "The legal conclave was named “Sri Ramayana Sankharavam.” The other titles are not the name of the conclave organised by the Valmiki Research Centre."
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "WHO endorsement",
+   "question": "Which organisation, for the first time, endorsed GLP-1 receptor agonists for obesity?",
+   "options": [
+    "World Health Organization",
+    "World Trade Organization",
+    "World Bank",
+    "UNESCO"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "The World Health Organization endorsed GLP-1 receptor agonists for obesity for the first time. The World Trade Organization is the tempting alternative, but the endorsement was by the World Health Organization."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Drug brands and use",
+   "question": "Consider the following statements:\nStatement A: Semaglutide is marketed as Ozempic for diabetes and Wegovy for weight loss.\nStatement B: Tirzepatide is marketed as Mounjaro and Zepbound.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "Both statements are true. Semaglutide is associated with Ozempic and Wegovy, while Tirzepatide is associated with Mounjaro and Zepbound; confusing the brands between the two medicines creates the main trap."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Adult neurogenesis and method",
+   "question": "Regarding the confirmation of adult neurogenesis, consider the following statements:\n1. New neurons form in adults in the hippocampus, specifically in the dentate gyrus.\n2. The finding used single-cell RNA sequencing and artificial intelligence.\n3. The cerebral cortex and hypothalamus show no consistent adult neurogenesis.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2",
+    "P11.F3"
+   ],
+   "explanation": "All three statements are correct. Adult neurogenesis was identified in the hippocampal dentate gyrus, the study used single-cell RNA sequencing and artificial intelligence, and no consistent adult neurogenesis was seen in the cerebral cortex and hypothalamus. The trap is to extend the hippocampal finding to those other regions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theaterisation of Armed Forces",
+   "question": "The debate on theaterisation of the Indian Armed Forces primarily concerns the creation of what?",
+   "options": [
+    "Integrated theatre commands",
+    "Separate commands for each weapon system",
+    "Civilian disaster-management units",
+    "Independent scientific research centres"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "Theaterisation refers to integrated theatre commands of the Indian Armed Forces. Separate commands for each weapon system are the tempting alternative, but the news concerns integration through theatre commands."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Human labour in LLM training",
+   "question": "Assertion (A): Supervised learning is a stage in LLM training that uses human labels.\nReason (R): Reinforcement learning in LLM training uses human labels rather than human feedback.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "Assertion A is true because supervised learning uses human labels. Reason R is false because reinforcement learning uses human feedback, not human labels; therefore, the correct option is that A is true but R is false."
+  }
+ ]
+}

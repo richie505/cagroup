@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  11
+ ],
+ "only": [
+  "P11.F1",
+  "P11.F2",
+  "P9.F1",
+  "P9.F2",
+  "P9.F3",
+  "P9.F4",
+  "P9.F5",
+  "P9.F6"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Share of deaths due to NCDs",
+   "question": "According to Dr Vivek Singh of UNICEF India, what share of deaths in India is caused by non-communicable diseases (NCDs)?",
+   "options": [
+    "25–26%",
+    "63%",
+    "8–10%",
+    "One-third"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "Non-communicable diseases cause 63% of deaths in India, according to Dr Vivek Singh of UNICEF India. The figure of 25–26% refers to the share of premature deaths among NCD deaths, while 8–10% relates to children with Type 1 diabetes and one-third to the SDG 3.4 reduction target."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Heart attacks among young Indians",
+   "question": "According to hospital data for 2020–2023, approximately what proportion of heart attack patients in India were below 40 years of age?",
+   "options": [
+    "25–26%",
+    "50%",
+    "63%",
+    "8–10%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "Hospital data for 2020–2023 showed that approximately 50% of heart attack patients were under 40. The figures 25–26%, 63% and 8–10% relate to other health findings, not the age profile of these heart attack patients."
+  }
+ ]
+}

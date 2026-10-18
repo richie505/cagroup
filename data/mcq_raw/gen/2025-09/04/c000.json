@@ -1,0 +1,135 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Chairperson of GST Council meeting",
+   "question": "Who chaired the 56th GST Council meeting held on 3 September 2025, which approved the GST 2.0 changes?",
+   "options": [
+    "Nirmala Sitharaman",
+    "Arvind Shrivastava",
+    "Samrat Choudhary",
+    "Suresh Khanna"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "Nirmala Sitharaman chaired the 56th GST Council meeting held on 3 September 2025. Arvind Shrivastava was the Revenue Secretary, while Samrat Choudhary and Suresh Khanna were associated with the decision as representatives from Bihar and Uttar Pradesh."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GST 2.0 slabs and compensation cess",
+   "question": "With reference to the GST 2.0 decisions of the 56th GST Council, consider the following statements:\n1. The new principal GST slabs of 5% and 18% became effective on 22 September 2025.\n2. Compensation cess on tobacco continues until the loans are repaid.\n3. All televisions were placed under nil GST.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the new slabs took effect on 22 September 2025, and compensation cess on tobacco continues until the loans are repaid. Statement 3 is incorrect because all televisions were assigned 18% GST, not nil GST."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "GST slab restructuring",
+   "question": "Which one of the following statements regarding the GST 2.0 restructuring is incorrect?",
+   "options": [
+    "The new GST slabs of 5% and 18% became effective on 22 September 2025.",
+    "Sin and demerit goods such as cigarettes and paan masala attract the highest slab of 40%.",
+    "The 12% and 28% slabs were retained along with the 5% and 18% slabs.",
+    "Compensation cess on tobacco continues until the loans are repaid."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F4",
+    "P0.F11"
+   ],
+   "explanation": "The incorrect statement is that the 12% and 28% slabs were retained; these slabs were dropped. The restructured system retained 0%, 5% and 18%, along with a 40% demerit rate, while compensation cess on tobacco continues until the loans are repaid."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "GST exemption for insurance and hospital rooms",
+   "question": "Consider the following statements:\nStatement A: Zero GST on individual health and life insurance under GST 2.0 became effective on 25 September 2025.\nStatement B: Hospital rooms costing below ₹5,000 per day were exempted from GST.\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3"
+   ],
+   "explanation": "Statement A is false because the zero-GST change for individual health and life insurance became effective on 22 September 2025. Statement B is true because hospital rooms below ₹5,000 per day were exempted from GST."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GST rate on CT scan machines",
+   "question": "Under the GST 2.0 health-care reforms effective 22 September 2025, what was the revised GST rate on CT scan machines?",
+   "options": [
+    "5%",
+    "18%",
+    "12%",
+    "40%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "The GST rate on CT scan machines was reduced from 18% to 5%. The rates of 18%, 12% and 40% do not represent the revised GST rate for CT scan machines."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Repo rate and GDP growth",
+   "question": "Assertion (A): The repo rate stood at 5.5% after 100 basis points of cuts between February and June 2025.\nReason (R): GDP growth in Q1 FY26 was 7.8%, the highest in five quarters.\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2"
+   ],
+   "explanation": "Both the assertion and the reason are true: the repo rate was 5.5% after 100 basis points of cuts, and Q1 FY26 GDP growth was 7.8%. The GDP growth figure does not explain the stated repo-rate level, so the reason is not the correct explanation of the assertion."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "RBI MPC preview indicators",
+   "question": "With reference to the RBI Monetary Policy Committee preview for 29 September–1 October 2025, how many of the following statements are correct?\n1. The repo rate was 5.5% and the monetary policy stance was neutral.\n2. GDP growth in Q1 FY26 was 7.8%.\n3. CPI inflation in August 2025 was 2.7%.\n4. The US Federal Reserve cut its policy rate by 50 basis points in its first cut of 2025.\n\nSelect the correct answer.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "Only three statements are correct: the repo rate was 5.5% with a neutral stance, Q1 FY26 GDP growth was 7.8%, and August CPI inflation was 2.7%. Statement 4 is incorrect because the US Federal Reserve cut its rate by 25 basis points, not 50 basis points."
+  }
+ ]
+}

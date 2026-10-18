@@ -1,37 +1,37 @@
 # CA MCQ report
 
-- MCQs kept: **3204**
-- News pages with at least one question: **2199 / 2629**
-- Facts tested: **6706 / 20515** (32.7%)
-- Answer positions: A 831, B 811, C 861, D 701
+- MCQs kept: **3421**
+- News pages with at least one question: **2358 / 2629**
+- Facts tested: **7187 / 20515** (35.0%)
+- Answer positions: A 893, B 877, C 915, D 736
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 330 | 345 | 339 | 285 |
-| Negative / Incorrect Statement | 86 | 91 | 97 | 95 |
-| Assertion-Reason | 97 | 95 | 124 | 106 |
-| Statement-Based (A/B) | 117 | 71 | 110 | 91 |
-| Multi-Statement Correctness | 130 | 101 | 109 | 105 |
+| Direct Recall | 352 | 371 | 357 | 299 |
+| Negative / Incorrect Statement | 95 | 99 | 104 | 99 |
+| Assertion-Reason | 106 | 102 | 134 | 110 |
+| Statement-Based (A/B) | 126 | 76 | 115 | 97 |
+| Multi-Statement Correctness | 138 | 110 | 118 | 110 |
 | Chronological Ordering | 2 | 0 | 0 | 0 |
-| List-Matching | 27 | 26 | 28 | 17 |
-| Count-Based | 42 | 82 | 54 | 2 |
+| List-Matching | 30 | 26 | 28 | 19 |
+| Count-Based | 44 | 93 | 59 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 324 |
-| verify:explanation_contradicts | 45 |
-| verify:not_in_facts | 42 |
-| over the page's quota | 22 |
-| duplicate | 12 |
-| verify:none_correct | 9 |
+| code | 349 |
+| verify:explanation_contradicts | 46 |
+| verify:not_in_facts | 44 |
+| over the page's quota | 23 |
+| duplicate | 14 |
+| verify:none_correct | 11 |
 | verify:two_correct | 8 |
 | verify:second reader picked option 2, key 1 | 6 |
 | verify:garbled | 3 |
+| verify:second reader picked option 1, key 0 | 2 |
 | verify:ambiguous_stem | 2 |
 | verify:second reader picked option 3, key 0 | 1 |
-| verify:second reader picked option 1, key 0 | 1 |
 | verify:second reader picked option 2, key 0 | 1 |
 | verify:trivial | 1 |
 | verify:second reader picked option 3, key 1 | 1 |
@@ -179,17 +179,17 @@
 | 2025-10/08 | Reports, Indices & Rankings | 10 | 19/54 |
 | 2025-10/09 | Awards, Persons & Appointments | 10 | 24/47 |
 | 2025-10/11 | Important Days & Events | 4 | 7/18 |
-| 2025-09/01 | Andhra Pradesh | 0 | 0/262 |
-| 2025-09/02 | Polity & Governance | 0 | 0/138 |
-| 2025-09/03 | Schemes & Social Sector | 0 | 0/91 |
-| 2025-09/04 | Economy, Banking & Budget | 0 | 0/130 |
-| 2025-09/05 | International Relations | 0 | 0/203 |
-| 2025-09/06 | Science, Tech, Space & Defence | 0 | 0/80 |
-| 2025-09/07 | Environment & Geography | 0 | 0/70 |
-| 2025-09/08 | Reports, Indices & Rankings | 0 | 0/59 |
-| 2025-09/09 | Awards, Persons & Appointments | 0 | 0/39 |
-| 2025-09/10 | Sports | 0 | 0/13 |
-| 2025-09/11 | Important Days & Events | 0 | 0/16 |
+| 2025-09/01 | Andhra Pradesh | 50 | 111/262 |
+| 2025-09/02 | Polity & Governance | 28 | 64/138 |
+| 2025-09/03 | Schemes & Social Sector | 16 | 42/91 |
+| 2025-09/04 | Economy, Banking & Budget | 26 | 61/130 |
+| 2025-09/05 | International Relations | 39 | 80/203 |
+| 2025-09/06 | Science, Tech, Space & Defence | 20 | 45/80 |
+| 2025-09/07 | Environment & Geography | 17 | 36/70 |
+| 2025-09/08 | Reports, Indices & Rankings | 10 | 21/59 |
+| 2025-09/09 | Awards, Persons & Appointments | 6 | 11/39 |
+| 2025-09/10 | Sports | 3 | 4/13 |
+| 2025-09/11 | Important Days & Events | 2 | 6/16 |
 | 2025-08/01 | Andhra Pradesh | 0 | 0/154 |
 | 2025-08/02 | Polity & Governance | 0 | 0/78 |
 | 2025-08/03 | Schemes & Social Sector | 0 | 0/79 |
@@ -604,3 +604,21 @@
 - `2025-10/08/c000#2` verify: not_in_facts — The facts establish that climate change replaced hunting as the top threat but do not establish that this applied specifically to Asia.
   - Q: With reference to the IUCN World Heritage Outlook 4 (2025), consider the following: / Assertion (A): Climate change was identified as the top threat to natural World Heritage sites in Asia. / Reason (R): 
   - Key: Both A and R are true, and R is the correct explanation of A
+- `2025-09/01/c001#3` verify: not_in_facts — The facts establish that 13 new Bills were approved, but do not state that the first three listed Bills were withdrawn.
+  - Q: Which one of the following statements about the Andhra Pradesh Assembly Monsoon Session 2025 is incorrect?
+  - Key: The Cabinet approved 12 new Bills for tabling.
+- `2025-09/01/c002#3` verify: none_correct — All four listed statements are supported by the facts; the explanation refers to an absent claim that the 197 services were merged.
+  - Q: Which of the following statements regarding the rationalisation of Dr. NTR Vaidya Seva treatments in Andhra Pradesh is incorrect?
+  - Key: 197 rare services continue free and were not merged.
+- `2025-09/01/c003#4` verify: explanation_contradicts — The Reason lists other mandate components but does not explain why the council has a five-year roadmap.
+  - Q: Assertion (A): The 360° Global Capability Centres Advisory Council has a five-year roadmap as part of its mandate. / Reason (R): Monitoring the IT & GCC Policy 4.0 and undertaking a three-month global r
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2025-09/05/c004#1` verify: not_in_facts — The fact that injuries were 400+ does not establish that they were not more than 500.
+  - Q: With reference to the Gen Z protests in Nepal in September 2025, identify the incorrect statement.
+  - Key: The protests resulted in at least 19 deaths and more than 500 injuries.
+- `2025-09/08/c000#1` verify: none_correct — All four statements are supported by the facts, so none is incorrect.
+  - Q: With reference to the Global Peace Index 2025, identify the incorrect statement.
+  - Key: It was published by the Institute for Economics & Peace, Sydney.
+- `2025-09/08/c000#3` verify: second reader picked option 1, key 0 — 
+  - Q: With reference to the SRS Statistical Report 2023, how many of the following statements are correct? /  / 1. India’s Crude Birth Rate declined from 19.1 in 2022 to 18.4 in 2023. / 2. Eighteen States and Uni
+  - Key: Only one

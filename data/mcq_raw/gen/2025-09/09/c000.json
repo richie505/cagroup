@@ -1,0 +1,95 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First Indian organisation",
+   "question": "Which organisation became the first Indian organisation to receive the Ramon Magsaysay Award?",
+   "options": [
+    "Foundation to Educate Girls Globally (Educate Girls)",
+    "Vinoba Bhave",
+    "Mother Teresa",
+    "Bezwada Wilson"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Foundation to Educate Girls Globally, popularly known as Educate Girls, became the first Indian organisation to win the Ramon Magsaysay Award. Vinoba Bhave, Mother Teresa and Bezwada Wilson were individual Indian recipients of the award."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Ceremony venue",
+   "question": "With reference to the Ramon Magsaysay Award ceremony, which of the following statements is incorrect?",
+   "options": [
+    "The ceremony is held on 31 August in Manila.",
+    "The ceremony is held in Manila.",
+    "The ceremony is associated with 31 August.",
+    "The ceremony is held on 31 August in New Delhi."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "The incorrect statement is that the ceremony is held in New Delhi; the correct venue is Manila, on 31 August. The other statements correctly identify the date or venue associated with the ceremony."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Organisation profile and impact",
+   "question": "Consider the following statements about Educate Girls:\n1. It was founded in 2007 by Safeena Husain.\n2. Its volunteers are called “Team Balika”.\n3. It has helped more than 1.9 million girls return to school.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "All three statements are correct: Safeena Husain founded Educate Girls in 2007, its volunteers are called Team Balika, and its work has brought more than 1.9 million girls back to school. Therefore, the correct option is 1, 2 and 3."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First millennial saint",
+   "question": "Assertion (A): Carlo Acutis was the Catholic Church’s first millennial saint, canonised at Westminster Hall.\nReason (R): He was nicknamed “God’s Influencer” and built a multilingual website cataloguing Eucharistic miracles.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Assertion A is false because Carlo Acutis was canonised at St. Peter’s Square, Vatican, not Westminster Hall; he was the Catholic Church’s first millennial saint. Reason R is true because he was known as “God’s Influencer” and created a multilingual website on Eucharistic miracles."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award venue",
+   "question": "Where was Nara Devaansh presented with the World Book of Records Award 2025?",
+   "options": [
+    "Westminster Hall, London",
+    "FIDE headquarters",
+    "St. Peter’s Square, Vatican",
+    "Manila"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F4"
+   ],
+   "explanation": "Nara Devaansh received the World Book of Records Award 2025 at Westminster Hall, London. FIDE headquarters was specifically not the venue; St. Peter’s Square and Manila are associated with other events."
+  }
+ ]
+}

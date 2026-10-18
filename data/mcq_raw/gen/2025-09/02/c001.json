@@ -1,0 +1,123 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Aadhaar-linked e-sign",
+   "question": "In response to allegations regarding voter deletions in Aland during the 2023 Karnataka polls, what verification feature did the Election Commission introduce on the ECINet portal and app?",
+   "options": [
+    "Aadhaar-linked mobile verification made mandatory for online registration, deletion and correction",
+    "Form-7 applications made mandatory for casting a vote",
+    "IP-log verification made mandatory for every voter",
+    "Aadhaar made mandatory at the polling station for casting a vote"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F4",
+    "P3.F5",
+    "P3.F6"
+   ],
+   "explanation": "The Election Commission introduced an e-sign feature requiring Aadhaar-linked mobile verification for online registration, deletion and correction. This followed allegations concerning Aland deletions; Aadhaar is not needed to cast a vote, making the polling-station option incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Supreme Court direction",
+   "question": "What was the Supreme Court’s direction regarding Aadhaar in the Bihar Special Intensive Revision of electoral rolls?",
+   "options": [
+    "The Election Commission was directed to accept Aadhaar as the 12th valid document",
+    "Aadhaar was declared proof of citizenship for the revision",
+    "Aadhaar was made necessary to cast a vote",
+    "The Election Commission was directed to conduct a pan-India Special Intensive Revision"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F3",
+    "P4.F4"
+   ],
+   "explanation": "The Supreme Court directed the Election Commission to accept Aadhaar as the 12th valid document in Bihar’s Special Intensive Revision. Aadhaar establishes identity and address, not citizenship, and the direction concerned Bihar rather than a pan-India revision."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Notification and repeal of earlier order",
+   "question": "The Immigration and Foreigners Order, 2025, notified by the Ministry of Home Affairs on 1 September 2025, replaced which earlier order?",
+   "options": [
+    "Foreigners (Tribunal) Order, 1964",
+    "Immigration and Foreigners Act, 2025",
+    "Assam NRC, 2019",
+    "Immigration and Foreigners (Exemption) Order, 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F9",
+    "P5.F14"
+   ],
+   "explanation": "The Immigration and Foreigners Order, 2025, notified on 1 September 2025, replaced the Foreigners (Tribunal) Order, 1964. The Immigration and Foreigners Act, 2025, is the parent law, while the Exemption Order is a separate order notified on the same date."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Exemption from passport and visa requirements",
+   "question": "With reference to the Immigration and Foreigners (Exemption) Order, 2025, identify the incorrect statement.",
+   "options": [
+    "The Order exempts citizens of Nepal and Bhutan from passport and visa requirements for entry, stay and exit.",
+    "The Order covers specified Tibetan refugees and certain minorities from Afghanistan, Pakistan and Bangladesh.",
+    "The exemption also covers registered Sri Lankan Tamil refugees who sheltered in India on or before 9 January 2015.",
+    "The exemption grants citizenship to all the persons covered by it."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F9",
+    "P5.F10",
+    "P5.F11",
+    "P5.F12"
+   ],
+   "explanation": "The incorrect statement is that the exemption grants citizenship. The Order provides exemption from passport and visa requirements for specified categories, but it does not confer citizenship; those covered remain illegal migrants under the Citizenship Act."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Restoration of statehood and Assembly elections",
+   "question": "With reference to the Supreme Court proceedings on restoration of statehood to Jammu and Kashmir, consider the following statements:\n1. In Zahoor Ahmed Bhat vs Union Territory of Jammu and Kashmir, the Supreme Court sought the Union’s response on restoring statehood.\n2. In its 11 December 2023 verdict, the Supreme Court upheld the abrogation of Articles 370 and 35A and directed restoration of statehood and Assembly polls.\n3. The 90-member Jammu and Kashmir Assembly polls were held in October 2025.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P6.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the case concerned the Union’s response on statehood, and the 11 December 2023 verdict directed restoration of statehood and Assembly polls. Statement 3 is incorrect because the 90-member Assembly polls were held in October 2024."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Constitutional provisions for creation of States",
+   "question": "Assertion (A): Article 2 empowers Parliament to form new States, alter their area, boundaries and names.\nReason (R): Article 3 empowers Parliament to form new States and alter their area, boundaries and names.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F5",
+    "P6.F6"
+   ],
+   "explanation": "Assertion A is false because Article 2 concerns the admission or establishment of new States, such as Sikkim in 1975. Reason R is true: Article 3 covers the formation of new States and alteration of area, boundaries and names."
+  }
+ ]
+}

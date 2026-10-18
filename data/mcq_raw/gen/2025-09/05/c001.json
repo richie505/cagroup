@@ -1,0 +1,140 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and participants",
+   "question": "The 15th India–Japan Annual Summit in 2025 was held in which place, with Prime Minister Narendra Modi and Japanese Prime Minister Shigeru Ishiba participating?",
+   "options": [
+    "Tokyo",
+    "Andhra Pradesh",
+    "Tamil Nadu",
+    "Uttar Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F10",
+    "P2.F11",
+    "P2.F12"
+   ],
+   "explanation": "The 15th India–Japan Annual Summit was held in Tokyo and was attended by Prime Minister Narendra Modi and Japanese Prime Minister Shigeru Ishiba. Andhra Pradesh, Tamil Nadu and Uttar Pradesh were mentioned in the context of Indian state–Japanese prefecture partnerships, not as the summit venue."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Summit outcomes",
+   "question": "Which of the following statements regarding the 15th India–Japan Annual Summit is incorrect?",
+   "options": [
+    "Japan set a target of 10 trillion yen in private-sector investment in India over the next 10 years.",
+    "The summit produced 21 outcomes, including 13 agreements.",
+    "The India–Japan CEPA was terminated at the summit.",
+    "Japan Industrial Townships were endorsed."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3",
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "The incorrect statement is that the India–Japan CEPA was terminated; it was decided that the Comprehensive Economic Partnership Agreement would be reviewed. The summit also involved a 10 trillion yen investment target, 21 outcomes including 13 agreements, and endorsement of Japan Industrial Townships."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State–prefecture partnerships",
+   "question": "Match the Indian States in List-I with their Japanese prefecture partners in List-II.\n\nList-I\n(a) Andhra Pradesh\n(b) Tamil Nadu\n(c) Uttar Pradesh\n(d) Gujarat\n\nList-II\n(i) Shizuoka\n(ii) Toyama\n(iii) Ehime\n(iv) Yamanashi",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10",
+    "P2.F11",
+    "P2.F12",
+    "P2.F13"
+   ],
+   "explanation": "The correct pairs are Andhra Pradesh–Toyama, Tamil Nadu–Ehime, Uttar Pradesh–Yamanashi and Gujarat–Shizuoka. Therefore, the correct code is a-ii, b-iii, c-iv, d-i."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Special economic package",
+   "question": "Consider the following statements:\nStatement A: During the India–Mauritius meeting in Varanasi, India announced a special economic package including a 500-bed Sir Seewoosagur Ramgoolam National Hospital.\nStatement B: The package included the first Jan Aushadhi Kendra outside India.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "Both statements are true. The 11 September 2025 meeting in Varanasi was between Prime Minister Narendra Modi and Mauritius Prime Minister Navinchandra Ramgoolam, and the package included the 500-bed hospital and the first Jan Aushadhi Kendra outside India."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "BIT framework and tariff provisions",
+   "question": "Assertion (A): Israel was the first OECD member with which India signed a Bilateral Investment Treaty under its new investment treaty framework.\nReason (R): The India–Israel Bilateral Investment Treaty contains tariff provisions.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F2",
+    "P4.F3"
+   ],
+   "explanation": "The assertion is true: Israel was the first OECD member with which India signed a BIT under the new framework. The reason is false because the treaty has no tariff provisions; tariff provisions belong to a Free Trade Agreement."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Railway project details",
+   "question": "Consider the following statements about the India–Bhutan cross-border railway projects:\n1. The Kokrajhar–Gelephu line is 69 km long and has six stations.\n2. The Banarhat–Samtse line has three stations.\n3. The total cost of the two projects is ₹4,033 crore.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the Kokrajhar–Gelephu line is 69 km long with six stations, and the combined cost is ₹4,033 crore. Statement 2 is incorrect because the Banarhat–Samtse line has two stations, not three."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "EU–India strategic agenda",
+   "question": "How many of the following statements regarding the New Strategic EU–India Agenda are correct?\n1. The agenda has five priorities: trade, technology, defence and security, connectivity, and multilateral engagement.\n2. The target for concluding the India–EU FTA is the end of 2026.\n3. The EU is India's second-largest trading partner.\n4. China's Russian oil purchases are identified as an irritant in EU–India relations.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P6.F5"
+   ],
+   "explanation": "Only statement 1 is correct: the agenda has the five listed priorities. The FTA target is the end of 2025, the EU is India's largest trading partner, and the identified irritant concerns India's Russian oil purchases, not China's."
+  }
+ ]
+}

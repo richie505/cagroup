@@ -1,0 +1,138 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Ship and exercise",
+   "question": "Which Indian naval vessel reached Alexandria, Egypt, on 1 September 2025 for participation in Exercise Bright Star 2025?",
+   "options": [
+    "INS Trikand",
+    "INS Shivalik",
+    "INS Kolkata",
+    "INS Vikrant"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2"
+   ],
+   "explanation": "INS Trikand, a Talwar-class stealth frigate, reached Alexandria on 1 September 2025 for Exercise Bright Star 2025. INS Shivalik, INS Kolkata and INS Vikrant were not identified as the vessel in this event."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Project 75(I) scope",
+   "question": "With reference to the Project 75(I) contract talks between Mazagon Dock Shipbuilders Ltd and ThyssenKrupp Marine Systems, which of the following statements is incorrect?",
+   "options": [
+    "The talks involve six conventional submarines with Air-Independent Propulsion and technology transfer.",
+    "The talks are between Mazagon Dock Shipbuilders Ltd and ThyssenKrupp Marine Systems.",
+    "The submarines are intended to be nuclear-powered vessels.",
+    "Mazagon Dock Shipbuilders Ltd is located in Mumbai."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "The incorrect statement is that the submarines are nuclear-powered; Project 75(I) covers six conventional submarines with Air-Independent Propulsion and technology transfer. The other statements correctly describe the negotiating organisations, scope and location of Mazagon Dock Shipbuilders Ltd."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Satellite protection measures",
+   "question": "Regarding measures for protecting India's satellites, consider the following statements:\n1. Bodyguard satellites have been proposed as escorts for high-value satellites.\n2. The Indian Space Situational Awareness and Management Centre is located in Hyderabad.\n3. NavIC is testing Navigation Message Authentication.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "Exactly two statements are correct — 1 and 3",
+    "Exactly two statements are correct — 1 and 2",
+    "Only statement 2 is correct",
+    "All three statements are correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct, so exactly two statements are correct. Bodyguard satellites are proposed escorts for high-value satellites, while NavIC is testing Navigation Message Authentication; IS4OM is located in Bengaluru, not Hyderabad."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Space-security measures",
+   "question": "How many of the following measures or commitments relating to India's space security and sustainability are correctly stated?\n1. India pledged “Debris-Free Space Missions by 2030” at the 2024 IADC meeting hosted by India.\n2. A ₹27,000 crore programme for approximately 52 surveillance satellites is planned from 2026.\n3. The UN COPUOS guidelines mentioned in this context were issued in 2024.\n4. The Indian Space Situational Awareness and Management Centre is located in Chennai.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F6",
+    "P7.F7",
+    "P7.F8"
+   ],
+   "explanation": "Only two statements are correct: statements 1 and 2. The UN COPUOS guidelines referred to are from 2019, and IS4OM is located in Bengaluru, not Chennai."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "BSMR-200",
+   "question": "In the context of Small Modular Reactors for AI data centres, consider the following:\nAssertion (A): BSMR-200 is a 200 MW scaled-down Pressurised Heavy Water Reactor intended for captive power.\nReason (R): BSMR-200 is a 300 MW reactor intended for captive power.\n\nChoose the correct answer.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3"
+   ],
+   "explanation": "Assertion A is true: BSMR-200 is a 200 MW scaled-down PHWR for captive power. Reason R is false because the stated capacity is 200 MW, not 300 MW."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Solar energetic electrons",
+   "question": "What was the major finding of the ESA–NASA Solar Orbiter study reported in September 2025?",
+   "options": [
+    "It was the first to trace Solar Energetic Electrons to solar flares and coronal mass ejections.",
+    "It was the first spacecraft to image the Sun's poles.",
+    "It made the closest approach to the Sun.",
+    "It became India's first solar observatory at Lagrange Point L1."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2",
+    "P9.F4",
+    "P9.F5",
+    "P9.F6"
+   ],
+   "explanation": "Solar Orbiter was the first to trace Solar Energetic Electrons to solar flares and coronal mass ejections, based on the study of more than 300 bursts from 2020 to 2022. Imaging the Sun's poles, making the closest approach and operating as India's first L1 solar observatory refer to other mission details."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Mission launch and Lagrange point",
+   "question": "Consider the following statements:\nStatement A: The ESA–NASA Solar Orbiter was launched in 2018.\nStatement B: Aditya-L1 is India's first solar observatory at Lagrange Point L2.\n\nWhich of the following is correct?",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F6"
+   ],
+   "explanation": "Both statements are false. Solar Orbiter was launched in February 2020, while Aditya-L1 is India's first solar observatory at Lagrange Point L1, not L2."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  10
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F2",
+  "P10.F3",
+  "P10.F4",
+  "P7.F1",
+  "P7.F2",
+  "P7.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue of signing",
+   "question": "The India–Morocco Defence Cooperation MoU was signed in which city?",
+   "options": [
+    "Rabat",
+    "Atlantic",
+    "Mediterranean",
+    "India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The India–Morocco Defence Cooperation MoU was signed in Rabat. Atlantic and Mediterranean are geographical features associated with Morocco, while India is the partner country, not the city of signing."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fee amount",
+   "question": "What fee did the United States announce for new H-1B applicants?",
+   "options": [
+    "$100,000",
+    "85,000",
+    "71%",
+    "60%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "The fee for new H-1B applicants was raised to $100,000, approximately six times the earlier fee. The figure 85,000 refers to the annual H-1B quota, while 71% and 60% are percentages concerning Indian recipients and earnings."
+  }
+ ]
+}

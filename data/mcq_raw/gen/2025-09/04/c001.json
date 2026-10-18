@@ -1,0 +1,153 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme allocation",
+   "question": "Under the PM E-DRIVE scheme, what amount was earmarked for EV charging infrastructure?",
+   "options": [
+    "₹10,000 crore",
+    "₹2,000 crore",
+    "₹60,679 crore",
+    "₹89,375 crore"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "₹2,000 crore was earmarked for charging infrastructure under PM E-DRIVE, whose total outlay was ₹10,000 crore. ₹10,000 crore refers to the overall scheme amount, not the charging-infrastructure allocation."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Eligibility of commodity derivatives",
+   "question": "With reference to SEBI’s proposal concerning FPIs and commodity derivatives, which of the following statements is incorrect?",
+   "options": [
+    "The proposal covers non-cash-settled, non-agricultural commodity derivatives such as gold, silver, zinc, lead and base metals.",
+    "FPIs are currently allowed only in cash or financially settled non-agricultural contracts such as crude oil, natural gas and index futures.",
+    "The proposal aims to improve liquidity in far-month contracts, price discovery and domestic hedging.",
+    "The proposal seeks to allow FPIs in agricultural commodity derivatives."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F3"
+   ],
+   "explanation": "The incorrect statement changes ‘non-agricultural’ derivatives to ‘agricultural’ derivatives. The proposal concerns non-cash-settled, non-agricultural commodity derivatives, including gold and silver, and aims to improve liquidity, price discovery and domestic hedging."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Legal basis and conformity schemes",
+   "question": "With reference to Quality Control Orders (QCOs), consider the following statements:\n1. Section 16 of the BIS Act, 2016, enables the government to make the Standard Mark compulsory.\n2. Most of the approximately 23,000 BIS standards are voluntary, while a QCO makes the relevant standards mandatory.\n3. Scheme-I is the most common among the 10 Conformity Assessment Schemes.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "All three statements are correct. Section 16 provides the legal basis for compulsory use of the Standard Mark, QCOs convert relevant voluntary standards into mandatory requirements, and Scheme-I is the most common conformity-assessment scheme."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Impact of QCOs",
+   "question": "Match the following entities with the corresponding information related to Quality Control Orders:\n\nList-I\n a. Hermetic compressors\n b. Room air conditioners\n c. Birla Aircon, Meerut\n d. NITI Aayog Vice Chairman Suman Berry\n\nList-II\n i. Turnover rose from ₹7 crore to ₹42 crore\n ii. Described QCOs as a “malign intervention”\n iii. Output rose from approximately 1 million to 12 million\n iv. Output rose from less than 2 million to 8 million",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5",
+    "P5.F6",
+    "P5.F7"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-i and d-ii. Hermetic compressors rose from less than 2 million to 8 million, room air conditioners from approximately 1 million to 12 million, Birla Aircon’s turnover from ₹7 crore to ₹42 crore, and Suman Berry called QCOs a “malign intervention”."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Coal capacity and grid stability",
+   "question": "Assertion (A): India is to add 97 GW of new coal capacity by 2035.\nReason (R): Nuclear capacity is planned to increase from 8.8 GW to 100 GW by 2047.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F3"
+   ],
+   "explanation": "Both the assertion and the reason are true. The 97 GW coal-capacity addition was announced for grid stability, whereas the nuclear-capacity target is a separate planned expansion and does not explain the coal-capacity decision."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Battery-storage tender",
+   "question": "What was the scale of the battery-storage tender assigned to NTPC for testing storage at coal plants?",
+   "options": [
+    "97 GW across renewable-rich states",
+    "500 GW of non-fossil capacity",
+    "1.7 GW across 11 coal plants",
+    "4.7 GW of pumped hydro"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2"
+   ],
+   "explanation": "The tender covers 1.7 GW of battery storage across 11 coal plants. The figures 97 GW and 500 GW refer to other capacity targets, while 4.7 GW is the existing pumped-hydro capacity."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Regulatory-asset figures",
+   "question": "How many of the following DISCOM–regulatory asset pairs are correctly matched?\n1. BSES Rajdhani — ₹36,057 crore\n2. BSES Yamuna — ₹22,040 crore\n3. Tata Power Delhi — ₹89,375 crore\n4. Tamil Nadu — ₹8,227 crore",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4",
+    "P8.F5",
+    "P8.F6"
+   ],
+   "explanation": "Only two pairs are correctly matched: BSES Rajdhani has ₹36,057 crore and BSES Yamuna has ₹22,040 crore in regulatory assets. ₹8,227 crore belongs to Tata Power Delhi, while Tamil Nadu has ₹89,375 crore."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Regulatory-asset directions",
+   "question": "Consider the following statements:\nStatement A: Existing regulatory assets are to be cleared in 4 years, while new regulatory assets are to be cleared in 3 years.\nStatement B: Regulatory assets are capped at 3% of the Annual Revenue Requirement (ARR).",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "Both statements are true. The directions require existing regulatory assets to be cleared in 4 years, new ones in 3 years, and cap them at 3% of ARR."
+  }
+ ]
+}
