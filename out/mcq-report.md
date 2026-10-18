@@ -1,30 +1,30 @@
 # CA MCQ report
 
-- MCQs kept: **11055**
-- News pages with at least one question: **2625 / 2629**
-- Facts tested: **19347 / 20515** (94.3%)
-- Answer positions: A 2755, B 2867, C 2917, D 2516
+- MCQs kept: **11158**
+- News pages with at least one question: **2627 / 2629**
+- Facts tested: **19504 / 20515** (95.1%)
+- Answer positions: A 2782, B 2893, C 2942, D 2541
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 1201 | 1234 | 1287 | 1152 |
-| Negative / Incorrect Statement | 185 | 178 | 187 | 174 |
-| Assertion-Reason | 179 | 211 | 273 | 226 |
-| Statement-Based (A/B) | 357 | 223 | 318 | 269 |
-| Multi-Statement Correctness | 410 | 418 | 396 | 383 |
+| Direct Recall | 1215 | 1246 | 1296 | 1164 |
+| Negative / Incorrect Statement | 185 | 179 | 190 | 176 |
+| Assertion-Reason | 180 | 212 | 275 | 226 |
+| Statement-Based (A/B) | 361 | 223 | 320 | 272 |
+| Multi-Statement Correctness | 417 | 422 | 402 | 387 |
 | Chronological Ordering | 6 | 6 | 4 | 5 |
-| List-Matching | 309 | 281 | 273 | 301 |
-| Count-Based | 108 | 316 | 179 | 6 |
+| List-Matching | 310 | 287 | 276 | 305 |
+| Count-Based | 108 | 318 | 179 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 1369 |
+| code | 1381 |
 | verify:explanation_contradicts | 217 |
-| verify:not_in_facts | 151 |
+| verify:not_in_facts | 153 |
 | duplicate | 76 |
-| verify:two_correct | 47 |
+| verify:two_correct | 48 |
 | verify:none_correct | 34 |
 | verify:second reader picked option 2, key 1 | 27 |
 | verify:garbled | 14 |
@@ -227,15 +227,15 @@
 | 2025-05/09 | Awards, Persons & Appointments | 14 | 27/27 |
 | 2025-05/10 | Sports | 4 | 5/5 |
 | 2025-05/11 | Important Days & Events | 9 | 14/14 |
-| 2025-04/01 | Andhra Pradesh | 28 | 78/152 |
-| 2025-04/02 | Polity & Governance | 2 | 5/9 |
-| 2025-04/03 | Schemes & Social Sector | 8 | 19/36 |
-| 2025-04/04 | Economy, Banking & Budget | 2 | 4/16 |
-| 2025-04/06 | Science, Tech, Space & Defence | 1 | 2/4 |
-| 2025-04/08 | Reports, Indices & Rankings | 6 | 15/34 |
-| 2025-04/09 | Awards, Persons & Appointments | 5 | 16/20 |
-| 2025-04/10 | Sports | 6 | 12/30 |
-| 2025-04/11 | Important Days & Events | 2 | 4/15 |
+| 2025-04/01 | Andhra Pradesh | 76 | 149/152 |
+| 2025-04/02 | Polity & Governance | 5 | 9/9 |
+| 2025-04/03 | Schemes & Social Sector | 18 | 36/36 |
+| 2025-04/04 | Economy, Banking & Budget | 10 | 16/16 |
+| 2025-04/06 | Science, Tech, Space & Defence | 3 | 4/4 |
+| 2025-04/08 | Reports, Indices & Rankings | 18 | 34/34 |
+| 2025-04/09 | Awards, Persons & Appointments | 8 | 20/20 |
+| 2025-04/10 | Sports | 16 | 29/30 |
+| 2025-04/11 | Important Days & Events | 9 | 15/15 |
 | special/01 | Budgets, Finance Commission & NITI Aayog | 19 | 47/233 |
 | special/02 | Awards & Honours | 25 | 60/319 |
 | special/03 | Environment | 12 | 29/142 |
@@ -1811,6 +1811,15 @@
 - `2025-04/01/c001#2` verify: none_correct — Statements 1 and 3 are supported and statement 2 is contradicted, but no option lists 1 and 3 only; the explanation also wrongly says only statement 3 is correct.
   - Q: With reference to the P4 programme in Andhra Pradesh, consider the following statements: / 1. P4 is a state-level society. / 2. The State society is chaired by Deputy Chief Minister Pawan Kalyan. / 3. Golde
   - Key: 3 only
+- `2025-04/01/d003#6` verify: two_correct — Options 1, 2, and 3 all state a ban period different from the specified 15 April–14 June period.
+  - Q: With reference to the fishing ban covered under the Matsyakara Sevalo programme, which of the following statements is incorrect?
+  - Key: The ban period was from 15 April to 15 June.
+- `2025-04/03/d000#10` verify: not_in_facts — The 35.45% statement is contradicted, but the facts do not establish that the figure is a percentage of rural household coverage.
+  - Q: With reference to the reported Jal Jeevan Mission coverage figure for Palnadu, identify the incorrect statement.
+  - Key: Palnadu is shown with an alternate figure of 35.45%.
+- `2025-04/04/d000#7` verify: not_in_facts — The facts list the districts and an FTA demand but do not establish that either occurred during or after an export-recovery period.
+  - Q: Consider the following statements: /  / Statement A: After the recovery of exports, activity revived in Eluru, Krishna, East Godavari, West Godavari, Nellore and Prakasam. / Statement B: The recovery period
+  - Key: Both Statement A and Statement B are true
 - `2025-04/09/c000#2` verify: not_in_facts — The facts support Statement B but do not state that V. Prasanna Venkatesh received the Prime Minister’s Award.
   - Q: Consider the following statements: / Statement A: V. Prasanna Venkatesh received the Prime Minister’s Award for Excellence in Public Administration 2023 at the 17th Civil Services Day in New Delhi. / Stat
   - Key: Both Statement A and Statement B are true

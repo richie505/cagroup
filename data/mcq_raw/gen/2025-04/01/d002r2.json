@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P12.F4",
+  "P14.F12"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "AP stand on clearances",
+   "question": "In the Polavaram backwaters issue, what was Andhra Pradesh’s stand regarding public hearings after the project clearances?",
+   "options": [
+    "No new public hearings were needed because the clearances had been followed",
+    "A new public hearing was required because the clearances had lapsed",
+    "Public hearings were to be held only at Bhadrachalam",
+    "Public hearings were to be held only for the Manuguru Heavy Water Plant"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "Andhra Pradesh maintained that the required clearances had been followed and therefore no new public hearings were needed. The Bhadrachalam and Manuguru references relate to Telangana’s concerns, not to the AP position on fresh hearings."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Road network specifications",
+   "question": "Under the Amaravati capital project layout, which road-width combination is correct for the gridiron network?",
+   "options": [
+    "Arterial roads: 60 m and 50 m; collector roads: 25 m",
+    "Arterial roads: 50 m and 25 m; collector roads: 60 m",
+    "Arterial roads: 60 m and 25 m; collector roads: 50 m",
+    "Arterial roads: 25 m and 50 m; collector roads: 60 m"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F12"
+   ],
+   "explanation": "The Amaravati layout follows a gridiron road pattern, with arterial roads of 60 m and 50 m and collector roads of 25 m. The other combinations interchange these specified widths."
+  }
+ ]
+}

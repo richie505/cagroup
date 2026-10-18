@@ -1,0 +1,230 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P1.F10",
+  "P1.F2",
+  "P1.F5",
+  "P1.F6",
+  "P1.F8",
+  "P1.F9",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P3.F2",
+  "P3.F3",
+  "P3.F4",
+  "P3.F5",
+  "P3.F7",
+  "P3.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Field participation",
+   "question": "The Northeast Intercollegiate Figure Skating Championship won by Arun Kumar Rayudu featured competitors from how many universities?",
+   "options": [
+    "16 universities",
+    "18 universities",
+    "24 universities",
+    "40 universities"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The championship featured 24 universities, including Harvard, Princeton and MIT. The tempting figure 16 refers to Arun Kumar Rayudu’s national roller-skating titles, not the number of participating universities."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Career achievements",
+   "question": "Match the following achievements of Arun Kumar Rayudu with the correct description:\n\nList-I\n a. National roller skating titles\n b. National ice skating titles\n c. World ranking in U-19 category in 2017\n d. Asia ranking in senior category\n\nList-II\n i. No. 2\n ii. Six-time champion\n iii. No. 5\n iv. 16-time champion",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i: Rayudu was a 16-time national roller-skating champion, six-time national ice-skating champion, world No. 5 in U-19 in 2017 and Asia No. 2 among seniors. The other codes interchange these career records."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Training venue",
+   "question": "Arun Kumar Rayudu trains at which skating facility in Boston, described as the oldest skating facility from the 1900s?",
+   "options": [
+    "Matthews Arena",
+    "Harvard",
+    "Princeton",
+    "MIT"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "Rayudu trains at Matthews Arena, the oldest skating facility from the 1900s. Harvard, Princeton and MIT were among the universities represented in the championship, not the named training facility."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisers",
+   "question": "Which organisations organised the 8th AP State Wrestling Championship?",
+   "options": [
+    "Rotary Club of Rajamahendravaram Icons and AP Amateur Wrestling Association",
+    "World Wrestling Federation and United World Wrestling",
+    "AP Amateur Wrestling Association and Indian Olympic Association",
+    "Rotary Club of Rajamahendravaram Icons and Wrestling Federation of India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The championship was organised by the Rotary Club of Rajamahendravaram Icons along with the AP Amateur Wrestling Association. United World Wrestling and the Indian Olympic Association are associated with the background of wrestling administration, but they were not identified as the organisers."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "U-15 gold medallists and weights",
+   "question": "Match the U-15 gold medallists at the AP State Wrestling Championship with their weight categories:\n\nList-I\n a. Sailaja and Harika\n b. Ramana and Pravallika\n c. Surya Kala and Ch. Sunil\n d. D. Gupta, S. Kumar and Guru Prasad\n\nList-II\n i. 42 kg and 85 kg\n ii. 75 kg, 67 kg and 57 kg\n iii. 65 kg and 62 kg\n iv. 58 kg and 50 kg",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii. Sailaja and Harika won at 65 kg and 62 kg; Ramana and Pravallika at 58 kg and 50 kg; Surya Kala and Ch. Sunil at 42 kg and 85 kg; and D. Gupta, S. Kumar and Guru Prasad at 75 kg, 67 kg and 57 kg."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Wrestling administration",
+   "question": "Consider the following statements about wrestling administration and the planned Wrestling Academy:\n\n1. The Wrestling Federation of India has its headquarters in New Delhi, is affiliated to United World Wrestling, and has Sanjay Singh as president.\n2. The planned Wrestling Academy will have M.V. Manikyala Rao as its mentor.\n3. The president of the AP Amateur Wrestling Association is R.K. Purushotham.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the WFI is headquartered in New Delhi, affiliated to United World Wrestling and headed by Sanjay Singh, while R.K. Purushotham is the APAWA president. Statement 2 is incorrect because Madireddi Kesava Rao, not M.V. Manikyala Rao, is the planned academy’s mentor; M.V. Manikyala Rao is the state federation president."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "International event and category",
+   "question": "At which event and category did Done Murali Krishna win medals in 2022?",
+   "options": [
+    "Istanbul, Turkey — 53 kg junior",
+    "Malta — 59 kg",
+    "Hyderabad — 59 kg",
+    "Kashmir — 53 kg junior"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Done Murali Krishna won medals at Istanbul, Turkey, in 2022 in the 53 kg junior category. Malta was associated with the 2023 World Junior Equipped Powerlifting Championship, while Hyderabad and Kashmir refer to other competitions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inter-university achievement",
+   "question": "Which combination correctly describes Done Murali Krishna’s performance at the All India Inter-University event in 2024?",
+   "options": [
+    "Gold with a 640 kg total in the 59 kg category at Kashmir, and gold at TNPESU",
+    "One gold and two silvers at Hyderabad in April 2024",
+    "Three golds and a 266.05 kg deadlift at Malta",
+    "Medals in the 53 kg junior category at Istanbul, Turkey"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "At the 2024 All India Inter-University event, he won gold with a 640 kg total in the 59 kg category at Kashmir and also won gold at TNPESU. The other options describe his Senior Nationals, World Junior Equipped and Istanbul results."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Senior Nationals result",
+   "question": "What was Done Murali Krishna’s result at the Senior Nationals held in Hyderabad in April 2024?",
+   "options": [
+    "One gold and two silvers",
+    "Three golds",
+    "One gold with a 640 kg total",
+    "Medals in the 53 kg junior category"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "At the Senior Nationals in Hyderabad in April 2024, Done Murali Krishna won one gold and two silvers. Three golds belonged to his World Junior Equipped result, while the 640 kg total belonged to the All India Inter-University event."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ranking and partnership",
+   "question": "Consider the following statements about Arigela Bhargav Ram and Gobburu Viswa Tej:\n\n1. They were ranked World No. 1 in BWF junior boys doubles.\n2. They have been paired since the 2018 National Championship.\n3. They have been paired since the 2021 Yonex Estonian International.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the pair reached World No. 1 in BWF junior boys doubles and have been together since the 2018 National Championship. Statement 3 is incorrect because the partnership dates from the 2018 National Championship, not the 2021 Yonex Estonian International."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Players’ achievements",
+   "question": "Match the player or achievement of the BWF junior boys doubles pair with the correct detail:\n\nList-I\n a. Bhargav Ram’s national and international medals\n b. Bhargav Ram’s highlighted international achievements\n c. Viswa Tej’s national and international medals\n d. Viswa Tej’s highlighted achievements and training\n\nList-II\n i. 17 national and 3 international medals\n ii. 13 national and 5 international medals\n iii. Double gold at the 2024 India Junior International Grand Prix; gold at the 2023 Yonex Sunrise International Junior GP in Pune; World No. 5 in mixed doubles\n iv. Silver at the 2025 Yonex Estonian International; gold at the 2024 U-19 India Junior GP; trained at SAI Regional Badminton Academy, Bhubaneswar, during 2021–23",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F5"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv. Bhargav Ram has 13 national and 5 international medals and the listed Grand Prix and mixed-doubles achievements, while Viswa Tej has 17 national and 3 international medals and the listed 2025, 2024 and academy details."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Sports policy priorities",
+   "question": "Consider the following statements:\nStatement A: The Andhra Pradesh Sports Policy 2017 articulated the vision “Sports for All and Excellence in Sports” and identified badminton as a priority sport.\nStatement B: The Andhra Pradesh Sports Policy 2017 included Khelo Andhra Pradesh and proposed Sports Cities in Amaravati and Visakhapatnam.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7",
+    "P3.F8"
+   ],
+   "explanation": "Both statements are true. The 2017 policy used the vision “Sports for All and Excellence in Sports,” made badminton a priority sport, and included Khelo Andhra Pradesh along with Sports Cities in Amaravati and Visakhapatnam."
+  }
+ ]
+}

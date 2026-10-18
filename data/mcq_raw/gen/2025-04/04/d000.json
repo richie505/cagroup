@@ -1,0 +1,155 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F11",
+  "P0.F13",
+  "P0.F14",
+  "P0.F16",
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Tariff impact",
+   "question": "Which State's aqua-product shipments to the United States were halted within 24 hours after the US President announced a 26% tariff?",
+   "options": [
+    "Andhra Pradesh",
+    "Ecuador",
+    "China",
+    "European Union"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Andhra Pradesh's aqua-product shipments to the United States were halted within 24 hours of the 26% tariff announcement. Ecuador, China and the European Union are not the State identified in this event."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Total duties",
+   "question": "The total duties applicable to the affected Indian seafood exports, including tariff, anti-dumping and countervailing duties, could reach:",
+   "options": [
+    "Up to 34%",
+    "Up to 26%",
+    "Up to 10%",
+    "Up to 34.53%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The combined duties could reach up to 34%, including tariff, anti-dumping and countervailing duties. The figures 26% and 10% refer to tariff levels, while 34.53% refers to a separate export-share figure."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Shrimp price change",
+   "question": "Which of the following statements regarding the 100-count shrimp price after the US tariff announcement is incorrect?",
+   "options": [
+    "It fell from ₹235 per kg to ₹195 per kg.",
+    "It fell from ₹235 per kg to ₹195 per kg within the reported price change.",
+    "It declined to ₹195 per kg from ₹235 per kg.",
+    "It fell from ₹235 per kg to ₹205 per kg."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The incorrect statement changes the final price to ₹205 per kg; the reported price fell from ₹235 per kg to ₹195 per kg. The other three options preserve the correct price movement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Competitor tariff",
+   "question": "Which competing seafood-exporting country faced only a 10% tariff in comparison with the affected Indian aqua-product exports?",
+   "options": [
+    "Ecuador",
+    "Andhra Pradesh",
+    "China",
+    "European Union"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Ecuador faced only a 10% tariff. Andhra Pradesh was the affected Indian exporting region, while China and the European Union were listed as export destinations."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Seafood export destinations and volume",
+   "question": "Match the seafood-export item in List-I with its reported 2023–24 figure in List-II.\n\nList-I\n a. Total Indian seafood exports\n b. China\n c. European Union\n d. Southeast Asia\n\nList-II\n i. 89,697 MT\n ii. 17,81,602 MT\n iii. 52,254 MT\n iv. 1,48,483 MT\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii: total exports were 17,81,602 MT, China accounted for 1,48,483 MT, the European Union for 89,697 MT, and Southeast Asia for 52,254 MT. The other codes interchange these reported volumes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Employment",
+   "question": "Approximately how many people were employed in Andhra Pradesh's aqua sector according to the seafood-export information for 2023–24?",
+   "options": [
+    "About 50 lakh",
+    "About 17,81,602",
+    "About 1,48,483",
+    "About 89,697"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "Andhra Pradesh's aqua sector provided employment to approximately 50 lakh people. The other figures are seafood-export volumes associated with total exports, China and the European Union, respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Loss during tariff halt",
+   "question": "The unconfirmed loss suffered during the halt in exports to the United States was reported to be:",
+   "options": [
+    "Over ₹1,000 crore",
+    "Exactly ₹1,000 crore",
+    "Below ₹1,000 crore",
+    "Over ₹1,000 crore per day"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "The loss during the halt was unconfirmed but reported to be over ₹1,000 crore. The fact does not state that the loss was exactly or below ₹1,000 crore, nor that this amount occurred per day."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Revived districts and trade demand",
+   "question": "Consider the following statements:\n\nStatement A: After the recovery of exports, activity revived in Eluru, Krishna, East Godavari, West Godavari, Nellore and Prakasam.\nStatement B: The recovery period saw a call for a Free Trade Agreement with the United States.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14",
+    "P0.F16"
+   ],
+   "explanation": "Both statements are true. The revived districts were Eluru, Krishna, East Godavari, West Godavari, Nellore and Prakasam, and the recovery period included a call for an FTA with the United States."
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P1.F5",
+  "P1.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "District-wise drought classification",
+   "question": "In the April 2025 drought declaration in Andhra Pradesh, how many severe and moderate drought mandals were reported in Anantapur district, respectively?",
+   "options": [
+    "6 severe and 1 moderate",
+    "9 severe and 1 moderate",
+    "11 severe and 6 moderate",
+    "1 severe and 1 moderate"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "Anantapur had 6 severe and 1 moderate drought mandal. The combination of 9 severe and 1 moderate belonged to Kurnool and YSR Kadapa, while 11 severe and 6 moderate belonged to Prakasam."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "District-wise drought classification",
+   "question": "In the April 2025 drought declaration in Andhra Pradesh, what was the classification of drought mandals in Sri Sathya Sai district?",
+   "options": [
+    "1 severe and 1 moderate",
+    "6 severe and 1 moderate",
+    "9 severe and 1 moderate",
+    "11 severe and 6 moderate"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "Sri Sathya Sai district had 1 severe and 1 moderate drought mandal. The combination of 6 severe and 1 moderate belonged to Anantapur, whereas 9 severe and 1 moderate was reported for Kurnool and YSR Kadapa."
+  }
+ ]
+}

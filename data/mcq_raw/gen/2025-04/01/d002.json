@@ -1,0 +1,178 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P12.F3",
+  "P12.F4",
+  "P12.F5",
+  "P14.F10",
+  "P14.F11",
+  "P14.F12",
+  "P14.F13",
+  "P14.F15",
+  "P14.F16",
+  "P14.F17",
+  "P15.F3",
+  "P15.F4",
+  "P15.F5",
+  "P15.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Polavaram project and Telangana concerns",
+   "question": "With reference to the Polavaram backwaters issue, consider the following statements:\n1. Telangana expressed concern over submergence at Bhadrachalam and Manuguru, including the Manuguru Heavy Water Plant and 954 acres at FRL.\n2. The affected area was reported to have 8–9 streams.\n3. Polavaram is a State project on the Krishna river meant only for irrigation.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3",
+    "P12.F5"
+   ],
+   "explanation": "Only statement 1 is correct. Telangana’s concerns included submergence at Bhadrachalam and Manuguru, the Manuguru Heavy Water Plant, 954 acres at FRL and 6–7 streams; Polavaram is a national project on the Godavari serving irrigation, drinking water and hydropower. Statement 2 changes 6–7 streams to 8–9, while statement 3 changes both the project status and river."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Capital city zone and area",
+   "question": "In the Amaravati capital project layout, which zone has an area of 2,091 hectares?",
+   "options": [
+    "Government City",
+    "Justice City",
+    "Finance City",
+    "Health City"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F8",
+    "P14.F9",
+    "P14.F10",
+    "P14.F11"
+   ],
+   "explanation": "Finance City covers 2,091 hectares in the Amaravati layout. Government City covers 1,093 hectares and Justice City covers 1,339 hectares; Health City is listed among the other cities, not as the zone covering 2,091 hectares."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Other cities in Amaravati layout",
+   "question": "Which of the following statements regarding the other cities planned in the Amaravati layout is incorrect?",
+   "options": [
+    "Education City is included among the other cities.",
+    "Health City is included among the other cities.",
+    "Electronics City is included among the other cities.",
+    "Industrial City is included among the other cities."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F11"
+   ],
+   "explanation": "The incorrect statement is that Industrial City is included. The listed other cities are Education, Health, Sports, Media, Electronics and Tourism; Industrial City is not included in that list."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Road widths and neighbourhood infrastructure",
+   "question": "Match List-I with List-II regarding the Amaravati layout.\n\nList-I\n(a) Neighbourhoods\n(b) Health facility\n(c) Decentralised STPs\n(d) Waste-to-energy facility\n\nList-II\n(i) At Guntur\n(ii) 27\n(iii) One in each neighbourhood\n(iv) 13",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F13"
+   ],
+   "explanation": "The correct matching is a-ii, b-iii, c-iv, d-i: 27 neighbourhoods, one health facility in each neighbourhood, 13 decentralised STPs and a waste-to-energy facility at Guntur. The code a-iii is incorrect because the number of neighbourhoods is 27, while one health facility is provided in each neighbourhood."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Housing provisions",
+   "question": "Assertion (A): The Amaravati capital project includes housing provision for 5,000 EWS families.\nReason (R): The housing plan specifically provides for 5,000 EWS families in addition to apartments and bungalows for officers.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F15"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the Reason explains the Assertion. The housing plan includes 3,500 apartments and 200 bungalows for officers along with provision for 5,000 EWS families; therefore, the alternative that changes the EWS figure is incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Educational institutions in Amaravati",
+   "question": "Consider the following statements:\nStatement A: SRM, Amrita, VIT and NID are among the educational institutions associated with Amaravati, with more than 22,000 students.\nStatement B: BITS Pilani, XLRI, Purdue, Tokyo University and Georgia Tech are listed as upcoming institutions.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F16"
+   ],
+   "explanation": "Both statements are true. SRM, Amrita, VIT and NID are associated with more than 22,000 students, while BITS Pilani, XLRI, Purdue, Tokyo University and Georgia Tech are listed as upcoming institutions. The alternatives incorrectly reject one or both parts of the educational-institution plan."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Project completion timeline",
+   "question": "According to the Amaravati capital project timelines, within how many months is the Secretariat scheduled to be completed?",
+   "options": [
+    "6 months",
+    "18 months",
+    "24 months",
+    "36 months"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F17"
+   ],
+   "explanation": "The Secretariat is scheduled for completion in 36 months. The other timelines are 6 months for the APCRDA office, 18 months for officers’ housing and 24 months for the Assembly and High Court."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "LEAP beneficiary base and target",
+   "question": "Consider the following statements about the Livelihoods & Entrepreneurship Acceleration Plan:\nStatement A: The plan is based on 28.7 lakh women in 2.74 lakh self-help groups.\nStatement B: It targets 30,000 women entrepreneurs by 8 June 2025, comprising 10,000 scale-up and 20,000 new entrepreneurs.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F3",
+    "P15.F4"
+   ],
+   "explanation": "Both statements are true. LEAP is based on 28.7 lakh women in 2.74 lakh SHGs and targets 30,000 women entrepreneurs by 8 June 2025, divided into 10,000 scale-up and 20,000 new entrepreneurs. The alternatives incorrectly alter either the SHG base or the target composition."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "LEAP partner and financial performance",
+   "question": "Match List-I with List-II in relation to the Livelihoods & Entrepreneurship Acceleration Plan.\n\nList-I\n(a) Partner organisation\n(b) Loans provided by MEPMA to SHGs\n(c) Data digitisation\n(d) Period in which the loans were provided\n\nList-II\n(i) India SME Forum\n(ii) ₹16,000 crore\n(iii) 99%\n(iv) Nine months",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F5",
+    "P15.F6"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: India SME Forum, ₹16,000 crore, 99% data digitisation and nine months. The code a-ii is incorrect because ₹16,000 crore refers to MEPMA loans, whereas India SME Forum is the partner organisation."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F14",
+  "P0.F16",
+  "P0.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Total duties and revived districts",
+   "question": "With reference to the impact of the US tariff on Andhra Pradesh's seafood exports, consider the following statements:\n1. The total duties, including tariff, anti-dumping and countervailing duties, could reach 34%.\n2. Eluru and Nellore were among the districts where seafood-export activity revived.\n3. Guntur was among the districts where seafood-export activity revived.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F14"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the combined duties could reach 34%, and Eluru and Nellore were among the districts where activity revived. Statement 3 is incorrect because Guntur was not included in the listed revived districts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Demand for FTA",
+   "question": "After the recovery of Andhra Pradesh's seafood exports to the United States, what trade measure was called for to support the sector?",
+   "options": [
+    "A free trade agreement with the United States",
+    "A permanent halt to seafood exports to the United States",
+    "A reduction in aqua-product shipments to the United States",
+    "A continuation of anti-dumping and countervailing duties"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "The demand was for a free trade agreement with the United States. The other options do not represent the trade measure called for after the recovery of exports."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F3",
+  "P2.F4",
+  "P2.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of participating universities",
+   "question": "The Northeast Intercollegiate Figure Skating Championship in New York featured competitors from how many universities, including Harvard, Princeton and MIT?",
+   "options": [
+    "16",
+    "24",
+    "23",
+    "40"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The championship featured competitors from 24 universities, including Harvard, Princeton and MIT. The tempting figure 16 relates to Arun Kumar Rayudu’s national roller skating titles, not the number of participating universities."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Powerlifting event results",
+   "question": "Consider the following statements about Done Murali Krishna’s international and national powerlifting performances:\n\n1. At the 2022 event in Istanbul, Turkey, he won medals in the 53 kg junior category.\n2. At the Senior Nationals in Hyderabad in April 2024, he won 1 gold and 2 silvers.\n3. The Senior Nationals in April 2024 were held in Istanbul, Turkey, where he won 1 gold and 2 silvers.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the 2022 event was held in Istanbul, Turkey, in the 53 kg junior category, and the April 2024 Senior Nationals were held in Hyderabad, where he won 1 gold and 2 silvers. Statement 3 is incorrect because the Senior Nationals were held in Hyderabad, not Istanbul."
+  }
+ ]
+}
