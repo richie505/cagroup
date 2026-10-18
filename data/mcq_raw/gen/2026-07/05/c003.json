@@ -1,0 +1,82 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Venue of BRICS meetings",
+   "question": "Match the BRICS meetings in List-I with their venues in List-II.\n\nList-I\n(a) Heads of BRICS Anti-Drug Agencies\n(b) BRICS Women Ministers\n(c) 2nd BRICS Science Academies Forum\n(d) 8th BRICS Heads of Prosecution Services\n\nList-II\n(i) Kochi\n(ii) Guwahati\n(iii) Virtual\n(iv) IIT Hyderabad",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F4",
+    "P5.F5",
+    "P5.F6",
+    "P5.F7"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iv and d-iii: the Anti-Drug Agencies meeting was held in Guwahati, the Women Ministers meeting in Kochi, the Science Academies Forum at IIT Hyderabad, and the Heads of Prosecution Services meeting virtually. The tempting alternative a-i is incorrect because Kochi hosted the Women Ministers meeting, not the Anti-Drug Agencies meeting."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisers and venue of meeting",
+   "question": "The BRICS Disaster Risk Reduction Ministers’ meeting held in July 2026 was led by which organisations and held in which place?",
+   "options": [
+    "NDMA and MHA; New Delhi",
+    "J. P. Nadda and the Ministry of Health; Chandigarh",
+    "Nitin Gadkari and the Ministry of Transport; Nagpur",
+    "BRICS Labour Ministers and BRICS CONNECT; Hyderabad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F11",
+    "P5.F12",
+    "P5.F13",
+    "P5.F14"
+   ],
+   "explanation": "The BRICS Disaster Risk Reduction Ministers’ meeting was held in New Delhi and led by the NDMA and MHA. Chandigarh, Nagpur and Hyderabad were associated with other BRICS ministerial meetings, not the Disaster Risk Reduction meeting."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Withdrawal of proposed transit fee",
+   "question": "What happened to the proposed 20% reimbursement fee on cargo transiting the Strait of Hormuz?",
+   "options": [
+    "It was withdrawn one day later and replaced by trade and investment deals with Gulf countries.",
+    "It remained in force after being endorsed by the IMO.",
+    "It was withdrawn after Iran’s Foreign Minister called it reasonable.",
+    "It was converted into a toll imposed on the Suez and Panama canals."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F4"
+   ],
+   "explanation": "The proposed 20% reimbursement fee was withdrawn one day later and replaced by trade and investment deals with Gulf countries. Iran’s Foreign Minister called the fee excessive, so the claim that it was called reasonable is incorrect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "International law and transit passage",
+   "question": "Which of the following statements regarding the Strait of Hormuz and international law is incorrect?",
+   "options": [
+    "Neither the US nor Iran has ratified UNCLOS.",
+    "Transit passage through an international strait is customary law.",
+    "Tolls apply to artificial canals such as the Suez and Panama canals.",
+    "The IMO stated that there is a legal basis for tolls on transit through an international strait."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3"
+   ],
+   "explanation": "The incorrect statement is that the IMO stated there is a legal basis for such tolls; the IMO opposed them and said there was no legal basis for tolls on international strait transit. The other statements correctly describe UNCLOS ratification, customary transit passage and tolls on artificial canals."
+  }
+ ]
+}

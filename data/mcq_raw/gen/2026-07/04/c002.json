@@ -1,0 +1,96 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Outlay and period",
+   "question": "What are the approved period and financial outlay of Modified UDAN?",
+   "options": [
+    "FY 2026–27 to FY 2035–36; ₹28,840 crore",
+    "FY 2025–26 to FY 2031–32; ₹5,659.22 crore",
+    "FY 2026–27 to FY 2035–36; ₹12,159 crore",
+    "FY 2026–27 to FY 2035–36; about ₹10,043 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "Modified UDAN will operate from FY 2026–27 to FY 2035–36 with an outlay of ₹28,840 crore. The amounts ₹12,159 crore and about ₹10,043 crore refer to specific components of the launch details, not the total outlay."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Launch details",
+   "question": "With reference to Modified UDAN, consider the following:\nAssertion (A): Modified UDAN was launched by Prime Minister Narendra Modi on July 4, 2026, from Jodhpur, Rajasthan.\nReason (R): Modified UDAN was launched in October 2016 under the National Civil Aviation Policy, 2016.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F10",
+    "P4.F3"
+   ],
+   "explanation": "Assertion A is true: Modified UDAN was launched by Prime Minister Narendra Modi on July 4, 2026, from Jodhpur, Rajasthan. Reason R is false because October 2016 under the National Civil Aviation Policy, 2016 refers to the launch of UDAN, not Modified UDAN."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Cotton ranking and bale weight",
+   "question": "Consider the following statements:\nStatement A: India ranks second in area under cotton cultivation and first in cotton production.\nStatement B: One bale of cotton weighs 150 kg.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F3"
+   ],
+   "explanation": "Both statements are false. India ranks first in area and second in production, while one bale weighs 170 kg; the altered details are the rankings in Statement A and the bale weight in Statement B."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cotton species and Bt cotton",
+   "question": "Consider the following statements about India’s cotton sector:\n1. India is the only country growing all four cotton species.\n2. G. Barbadense is known as Asian cotton.\n3. Bt cotton became commercial in India in 2005.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F10",
+    "P5.F12"
+   ],
+   "explanation": "Only Statement 1 is correct: India is the only country growing all four cotton species. G. Barbadense is Egyptian cotton, and Bt cotton became commercial in India in 2002, not 2005."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Cotton area, production and exports",
+   "question": "How many of the following statements about India’s cotton sector are correct?\n1. Cotton covers 114.84 lakh hectares in India.\n2. About 62% of India’s cotton area is rain-fed.\n3. India exported about 18 lakh bales of cotton in 2024–25.\n4. India’s cotton consumption was 290.91 lakh bales.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "Only three statements are correct: the area, rain-fed share and 2024–25 exports are as stated. Statement 4 is incorrect because 290.91 lakh bales was the projected production for 2025–26, whereas consumption was 328 lakh bales."
+  }
+ ]
+}

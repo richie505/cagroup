@@ -1,0 +1,61 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Developer",
+   "question": "Which company developed Vikram-I, India’s first private orbital rocket?",
+   "options": [
+    "Skyroot Aerospace, Hyderabad",
+    "Agnikul Cosmos, Chennai",
+    "ISRO, Bengaluru",
+    "NSIL, New Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F19",
+    "P0.F31"
+   ],
+   "explanation": "Vikram-I was developed by Skyroot Aerospace of Hyderabad. Agnikul Cosmos is associated with a 2024 launch from India’s first private launch pad, while ISRO and NSIL are separate organisations mentioned in the Indian space sector."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Launch date and place",
+   "question": "Consider the following statements:\nStatement A: Vikram-I was launched on 18 July 2026 at 12:05:30 PM from SDSC Sriharikota.\nStatement B: The launch was India’s first private orbital rocket launch from Indian soil.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Both statements are true. Vikram-I lifted off from SDSC Sriharikota on 18 July 2026 at 12:05:30 PM, marking India’s first private orbital rocket launch from Indian soil."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Stages, payload capacity and orbital status",
+   "question": "With reference to Vikram-I and Vikram-S, consider the following statements:\n1. Vikram-I had three stages, all of them solid.\n2. Vikram-I could carry up to 350 kg to LEO.\n3. Vikram-S was an orbital rocket, while Vikram-I was sub-orbital.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 3 only"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F11",
+    "P0.F18"
+   ],
+   "explanation": "Only statement 2 is correct: Vikram-I had a payload capacity of up to 350 kg to LEO. It had four stages, including three solid stages and a liquid upper stage, while Vikram-S was sub-orbital and Vikram-I was orbital."
+  }
+ ]
+}

@@ -1,32 +1,32 @@
 # CA MCQ report
 
-- MCQs kept: **838**
-- News pages with at least one question: **609 / 2629**
-- Facts tested: **1790 / 20515** (8.7%)
-- Answer positions: A 208, B 209, C 237, D 184
+- MCQs kept: **1075**
+- News pages with at least one question: **733 / 2629**
+- Facts tested: **2286 / 20515** (11.1%)
+- Answer positions: A 272, B 273, C 306, D 224
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 82 | 91 | 98 | 67 |
-| Negative / Incorrect Statement | 20 | 25 | 25 | 25 |
-| Assertion-Reason | 28 | 24 | 30 | 33 |
-| Statement-Based (A/B) | 24 | 16 | 33 | 29 |
-| Multi-Statement Correctness | 36 | 29 | 27 | 25 |
+| Direct Recall | 104 | 111 | 122 | 82 |
+| Negative / Incorrect Statement | 29 | 30 | 29 | 33 |
+| Assertion-Reason | 34 | 38 | 45 | 38 |
+| Statement-Based (A/B) | 34 | 23 | 39 | 34 |
+| Multi-Statement Correctness | 47 | 39 | 42 | 32 |
 | Chronological Ordering | 0 | 0 | 0 | 0 |
-| List-Matching | 8 | 3 | 7 | 4 |
-| Count-Based | 10 | 21 | 17 | 1 |
+| List-Matching | 10 | 5 | 9 | 4 |
+| Count-Based | 14 | 27 | 20 | 1 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 98 |
-| verify:not_in_facts | 12 |
-| verify:explanation_contradicts | 9 |
+| code | 121 |
+| verify:not_in_facts | 15 |
+| verify:explanation_contradicts | 12 |
 | over the page's quota | 7 |
+| verify:none_correct | 4 |
 | verify:two_correct | 4 |
 | verify:second reader picked option 2, key 1 | 4 |
-| verify:none_correct | 3 |
 | duplicate | 2 |
 | verify:second reader picked option 3, key 0 | 1 |
 | verify:second reader picked option 1, key 0 | 1 |
@@ -68,17 +68,17 @@
 | 2026-08/09 | Awards, Persons & Appointments | 20 | 52/96 |
 | 2026-08/10 | Sports | 22 | 49/102 |
 | 2026-08/11 | Important Days & Events | 11 | 21/61 |
-| 2026-07/01 | Andhra Pradesh | 0 | 0/234 |
-| 2026-07/02 | Polity & Governance | 0 | 0/89 |
-| 2026-07/03 | Schemes & Social Sector | 0 | 0/176 |
-| 2026-07/04 | Economy, Banking & Budget | 0 | 0/197 |
-| 2026-07/05 | International Relations | 0 | 0/162 |
-| 2026-07/06 | Science, Tech, Space & Defence | 0 | 0/189 |
-| 2026-07/07 | Environment & Geography | 0 | 0/139 |
-| 2026-07/08 | Reports, Indices & Rankings | 0 | 0/84 |
-| 2026-07/09 | Awards, Persons & Appointments | 0 | 0/158 |
-| 2026-07/10 | Sports | 0 | 0/64 |
-| 2026-07/11 | Important Days & Events | 0 | 0/175 |
+| 2026-07/01 | Andhra Pradesh | 48 | 109/234 |
+| 2026-07/02 | Polity & Governance | 15 | 31/89 |
+| 2026-07/03 | Schemes & Social Sector | 25 | 57/176 |
+| 2026-07/04 | Economy, Banking & Budget | 22 | 45/197 |
+| 2026-07/05 | International Relations | 23 | 48/162 |
+| 2026-07/06 | Science, Tech, Space & Defence | 26 | 46/189 |
+| 2026-07/07 | Environment & Geography | 23 | 55/139 |
+| 2026-07/08 | Reports, Indices & Rankings | 15 | 34/84 |
+| 2026-07/09 | Awards, Persons & Appointments | 13 | 26/158 |
+| 2026-07/10 | Sports | 9 | 16/64 |
+| 2026-07/11 | Important Days & Events | 18 | 29/175 |
 | 2026-06/01 | Andhra Pradesh | 0 | 0/208 |
 | 2026-06/02 | Polity & Governance | 0 | 0/83 |
 | 2026-06/03 | Schemes & Social Sector | 0 | 0/157 |
@@ -337,3 +337,24 @@
 - `2026-08/10/c002#5` verify: second reader picked option 2, key 1 — 
   - Q: Consider the following statements about sports funding for 2026–27 to 2030–31: / 1. The total allocation is ₹7,386 crore. / 2. Athlete training has an allocation of ₹4,236.74 crore. / 3. The allocation for 
   - Key: Only two
+- `2026-07/02/c002#3` verify: explanation_contradicts — Statements 1, 3, and 4 are correct, so the answer is Only three; the given explanation incorrectly says Only two and misstates the Karnataka detail.
+  - Q: With reference to the ADR and National Election Watch analysis of sitting Chief Ministers, how many of the following statements are correct? / 1. Fourteen of the thirty-one sitting Chief Ministers decla
+  - Key: Only two
+- `2026-07/03/c001#1` verify: explanation_contradicts — The facts state that the strengthened Monitoring and Evaluation framework was added as the seventh institutional mechanism, so statements 1 and 3 are correct but no option lists 1 and 3 only.
+  - Q: With reference to the revised 7×7×7 framework of the Anaemia Mukt Bharat Abhiyaan, consider the following statements: /  / 1. Low Birth Weight babies aged 0–6 months were added as a beneficiary group. / 2. 
+  - Key: 1 only
+- `2026-07/04/c000#1` verify: explanation_contradicts — Statement 3 is supported by the facts, but the explanation incorrectly says only statement 1 is correct.
+  - Q: With reference to the constitutional framework of GST, consider the following statements: / 1. Article 246A gives Parliament and the States concurrent power to make GST laws, while Parliament has exclus
+  - Key: 1 only
+- `2026-07/04/c003#1` verify: none_correct — All four statements are supported by the facts, so no statement is incorrect.
+  - Q: Which of the following statements regarding the SATAT and GOBARdhan initiatives is incorrect?
+  - Key: Only 132 SATAT CBG plants had been completed by June 3, 2026.
+- `2026-07/06/c004#2` verify: not_in_facts — The facts establish Rafale use as first-time but do not establish whether C-17 use was first-time.
+  - Q: With reference to Pitch Black 2026, consider the following: / Assertion (A): The Indian Air Force used Rafale jets for the first time in Pitch Black 2026. / Reason (R): The Indian contingent used C-17 air
+  - Key: A is true, but R is false
+- `2026-07/06/c005#5` verify: not_in_facts — The facts do not state when the IndiaAI Mission occurred, so the fourth match cannot be decided.
+  - Q: How many of the following developments are correctly matched with their years? / 1. 2018 — RBI mandated local storage of financial data / 2. 2020 — Draft National Data Centre Policy / 3. 2022 — DPDP Act / 4. 
+  - Key: Only two
+- `2026-07/07/c003#1` verify: not_in_facts — The facts do not establish that Kinnauri Topi is a GI product of Himachal Pradesh.
+  - Q: Which one of the following statements regarding the new GI products of July 2026 is incorrect?
+  - Key: Sirsa Kinnow was the first fruit from Punjab to receive a GI tag.

@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Flag-off venue and date",
+   "question": "India’s first hydrogen train was flagged off from which place on July 17, 2026?",
+   "options": [
+    "Jind, Haryana",
+    "Sonipat, Haryana",
+    "Jind, Punjab",
+    "Sonipat, Punjab"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The hydrogen train was flagged off by Prime Minister Modi at Jind in Haryana on July 17, 2026. Sonipat is associated with the route, but it was not the flag-off venue."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Route and distance",
+   "question": "Which route is covered by India’s first hydrogen train, and what is its length?",
+   "options": [
+    "Jind–Sonipat, 89 km",
+    "Jind–Sonipat, 75 km",
+    "Jind–Panipat, 89 km",
+    "Jind–Sonipat, 136 km"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "The train operates on the Jind–Sonipat route, covering 89 km. The figures 75 km/h and ₹136 crore refer respectively to its maximum speed and cost, not the route length."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Train specifications",
+   "question": "Which of the following statements about the specifications of India’s first hydrogen train is incorrect?",
+   "options": [
+    "Its maximum speed is 75 km/h.",
+    "Its capacity is at least 682 passengers.",
+    "It has 8 passenger cars and 2 driving power cars.",
+    "Its power output is 3,200 kW, approximately 2,400 hp."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5",
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "The incorrect statement is that its power output is 3,200 kW, approximately 2,400 hp. The correct specification is 2,400 kW, approximately 3,200 hp; the other three statements accurately describe the train."
+  }
+ ]
+}

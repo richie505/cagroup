@@ -1,0 +1,58 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ban and effective date",
+   "question": "Consider the following statements:\nStatement A: The Ministry of Agriculture announced a nationwide ban on the sale and use of Paraquat on July 14, 2026.\nStatement B: The nationwide ban on the sale and use of Paraquat was announced on July 18, 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "Statement A is correct: the Ministry of Agriculture announced the nationwide ban on the sale and use of Paraquat on July 14, 2026. Statement B is incorrect because the announcement date was July 14, 2026, not July 18, 2026."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Authorised drug import port",
+   "question": "Assertion (A): Navi Mumbai Airport was designated an authorised port for the import of drugs from July 8, 2026.\nReason (R): The designation was made by amending Rule 43A of the Drugs Rules, 1945.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F11",
+    "P7.F12"
+   ],
+   "explanation": "Both the Assertion and Reason are correct. Navi Mumbai Airport became an authorised port for drug imports from July 8, 2026, through an amendment to Rule 43A of the Drugs Rules, 1945."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Yamuna Water Project",
+   "question": "With reference to the Yamuna Water Project, consider the following statements:\n1. The project involves a Memorandum of Understanding among the Centre, Haryana and Rajasthan.\n2. Rajasthan's share is to be supplied through underground pipelines from Hatnikund Barrage.\n3. The project involves an estimated cost of ₹34,120 crore.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F17"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the MoU involves the Centre, Haryana and Rajasthan, and Rajasthan's share is to be supplied through underground pipelines from Hatnikund Barrage. Statement 3 is incorrect because the project cost is ₹34,102 crore, not ₹34,120 crore."
+  }
+ ]
+}

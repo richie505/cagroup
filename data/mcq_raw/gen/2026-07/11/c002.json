@@ -1,0 +1,57 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and date",
+   "question": "The 5th BIMSTEC NSAs' Meeting was held at which venue on July 16, 2026?",
+   "options": [
+    "New Delhi",
+    "Jaipur",
+    "Manila",
+    "Geneva"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The 5th BIMSTEC NSAs' Meeting was held in New Delhi on July 16, 2026. Jaipur was the venue of the 29th National e-Governance Conference, making it the most tempting alternative."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Market target",
+   "question": "Consider the following statements:\nStatement A: The 2nd Bharat Green Hydrogen Summit was held in New Delhi on July 23, 2026, at FICCI.\nStatement B: India aims to secure about 10% of the global green hydrogen market by 2030.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Both statements are true. The 2nd Bharat Green Hydrogen Summit took place in New Delhi on July 23, 2026, at FICCI, and India aims at about 10% of the global green hydrogen market by 2030. The third option is incorrect because the market target is part of the summit's stated key facts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Theme and officials",
+   "question": "With reference to the 29th National e-Governance Conference, consider the following statements:\n1. It was held in Jaipur on July 1–2, 2026.\n2. Its theme was “Viksit Bharat 2047: AI-Enabled, Data-Driven and Secure Digital Governance”.\n3. DARPG Secretary Nivedita Shukla Verma was associated with the conference.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "All three statements are correct. The 29th National e-Governance Conference was held in Jaipur on July 1–2, 2026, followed the stated theme, and featured DARPG Secretary Nivedita Shukla Verma. The option “1 and 2 only” is the most tempting trap because it leaves out the correct statement about Nivedita Shukla Verma."
+  }
+ ]
+}

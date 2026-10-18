@@ -1,0 +1,118 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Brand and objective",
+   "question": "What is the primary purpose of ‘Swayam AP’, launched for products made by women Self-Help Groups?",
+   "options": [
+    "A common brand for women Self-Help Group products",
+    "A ration distribution scheme",
+    "An AI-powered tourism platform",
+    "A modernised fair price shop network"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F8"
+   ],
+   "explanation": "Swayam AP is a common brand for products made by women Self-Help Groups. It is a branding and marketing initiative, not a ration scheme. The AI-powered tourism platform is NiVU AI, while modernised fair price shops are associated with Mee Mart."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Launch venue and product coverage",
+   "question": "Which of the following statements regarding Swayam AP is NOT correct?",
+   "options": [
+    "It was announced by Kondapalli Srinivas at SERP headquarters in Vijayawada.",
+    "It covers 65 traditional products from all 26 districts, made by 587 women Self-Help Groups.",
+    "It includes two fulfilment centres and two signature stores.",
+    "It was announced at SERP headquarters in Gollapudi."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "The incorrect statement is that the announcement took place at SERP headquarters in Gollapudi. Swayam AP was announced by Kondapalli Srinivas at SERP headquarters in Vijayawada; Gollapudi is the location of one signature store. The other three statements correctly describe the initiative."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Launch and first outlet",
+   "question": "With reference to Mee Mart, consider the following statements:\n1. Mee Mart modernises fair price shops into community retail centres.\n2. Its first outlet was opened at Lalupuram near Guntur.\n3. The target is 553 outlets, of which 1,000 were ready in the first phase.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2",
+    "P9.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Mee Mart modernises fair price shops into community retail centres, and its first outlet was at Lalupuram near Guntur. Statement 3 reverses the figures; the target is 1,000 outlets, while 553 were ready and 9 were inaugurated in the first phase."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AI-powered tourism initiative",
+   "question": "Which platform is associated with Andhra Pradesh’s plan to become India’s first AI-powered tourism State?",
+   "options": [
+    "NiVU AI",
+    "Swayam AP",
+    "Mee Mart",
+    "Shoreline Management Plan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2"
+   ],
+   "explanation": "NiVU AI is the platform associated with Andhra Pradesh’s plan to become India’s first AI-powered tourism State. It provides information on heritage sites, forts, beaches and caves. Swayam AP concerns women Self-Help Group products, while Mee Mart concerns fair price shops."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Coastal erosion share",
+   "question": "Assertion (A): Kakinada is the worst-affected district in Andhra Pradesh in terms of the share of coastline facing erosion.\nReason (R): Vizianagaram has an erosion share of 32.14%.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F8"
+   ],
+   "explanation": "Assertion A is true because Kakinada has the highest stated erosion share, at 52.99%, and is identified as the worst affected. Reason R is false: Vizianagaram’s erosion share is only 3.26%, with high accretion, not 32.14%. The figure 32.14% belongs to Srikakulam."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "District-wise erosion shares",
+   "question": "The AP Shoreline Management Plan reported the following erosion shares. How many of the above statements are correct?\n1. Kakinada has an erosion share of 52.99%.\n2. West Godavari has an erosion share of 52.54%.\n3. Krishna has an erosion share of 42.71%.\n4. Srikakulam has an erosion share of 26.85%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F4",
+    "P11.F5",
+    "P11.F6"
+   ],
+   "explanation": "Only three statements are correct: Kakinada is at 52.99%, West Godavari at 52.54%, and Krishna at 42.71%. Statement 4 is incorrect because Srikakulam’s erosion share is 32.14%; 26.85% is the figure for Visakhapatnam."
+  }
+ ]
+}

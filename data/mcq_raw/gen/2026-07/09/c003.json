@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment and task force",
+   "question": "Who was appointed to chair the six-member High-Powered Task Force on reforms in the National Testing Agency (NTA)?",
+   "options": [
+    "Nandan Nilekani",
+    "Ananta Barua",
+    "Anurag Jain",
+    "Amit Kumar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "Nandan Nilekani, the former UIDAI chair and Infosys co-founder, chairs the six-member High-Powered Task Force on NTA reforms. Ananta Barua is associated with the SEBI Expert Working Group, while Anurag Jain and Amit Kumar hold other appointments."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ambassadorial appointments",
+   "question": "Consider the following statements:\nStatement A: Koppula Srikar Reddy was appointed Ambassador to Ukraine.\nStatement B: Anjani Kumar was appointed Ambassador to Qatar.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "Both statements are false. Koppula Srikar Reddy was appointed Ambassador to Qatar, while Anjani Kumar was appointed Ambassador to Ukraine."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Secretarial appointments",
+   "question": "With reference to appointments in the Union Government, consider the following statements:\n1. Anurag Jain was appointed CEO of NITI Aayog.\n2. Naresh Pal Gangwar was appointed Secretary, Higher Education.\n3. T. K. Anil Kumar was appointed Secretary, School Education and Literacy.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F7",
+    "P3.F8"
+   ],
+   "explanation": "All three statements are correct. Anurag Jain became CEO of NITI Aayog, Naresh Pal Gangwar became Secretary, Higher Education, and T. K. Anil Kumar became Secretary, School Education and Literacy."
+  }
+ ]
+}

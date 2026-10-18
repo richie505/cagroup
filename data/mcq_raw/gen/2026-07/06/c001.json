@@ -1,0 +1,57 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Gaganyaan parachute test",
+   "question": "Consider the following statements:\nStatement A: IMAT-05 is an Integrated Main Parachute Airdrop Test for Gaganyaan, conducted at the ADRDE drop zone in Sheopur, Madhya Pradesh.\nStatement B: The parachute tested in IMAT-05 is intended for G1, the first uncrewed mission of Gaganyaan.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Both statements are true. IMAT-05 tested the main parachute for Gaganyaan at the ADRDE drop zone in Sheopur, Madhya Pradesh, and the parachute is meant for G1, the first uncrewed mission. The statements correctly connect the test location, purpose and mission."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Cryogenic engine test",
+   "question": "Assertion (A): The CE20 cryogenic engine underwent a flight acceptance hot test for LVM3-M7 at IPRC Mahendragiri in Tamil Nadu.\nReason (R): The CE20 engine uses liquid hydrogen and liquid nitrogen as its propellants.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The assertion is true: the CE20 underwent a flight acceptance hot test at IPRC Mahendragiri for LVM3-M7. The reason is false because the engine uses liquid hydrogen and liquid oxygen, not liquid nitrogen."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "World's first girl-led lunar mission",
+   "question": "With reference to Mission ShaktiSat, consider the following statements:\n1. It is described as the world's first girl-led international lunar mission.\n2. The mission involves Gautam Buddha University, Space Kidz India and IN-SPACe.\n3. Its launch is scheduled for October 2026.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "All three statements are correct. Mission ShaktiSat is described as the world's first girl-led international lunar mission, involves Gautam Buddha University, Space Kidz India and IN-SPACe, and is scheduled for launch in October 2026. Therefore, the correct choice is 1, 2 and 3."
+  }
+ ]
+}

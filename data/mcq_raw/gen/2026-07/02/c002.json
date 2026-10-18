@@ -1,0 +1,99 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "The Fast Track Court for paper leak cases was set up at which location?",
+   "options": [
+    "Rouse Avenue Court complex, New Delhi",
+    "Tis Hazari Court complex, New Delhi",
+    "Karkardooma Court complex, New Delhi",
+    "Patiala House Court complex, New Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F4"
+   ],
+   "explanation": "The Fast Track Court was set up by the Delhi High Court at the Rouse Avenue Court complex in New Delhi. It is presided over by Judge Anu Grover Baliga and deals with paper leaks in competitive examinations and admissions; the other court complexes were not identified for this purpose."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Constitutional basis and implementing ministry",
+   "question": "Consider the following statements:\nStatement A: The Right to be Forgotten is treated as part of the Right to Privacy under Article 21.\nStatement B: The Digital Personal Data Protection Act, 2023, is implemented by the Ministry of Electronics and Information Technology.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F4"
+   ],
+   "explanation": "Both statements are true. The Delhi High Court guidelines treated the Right to be Forgotten as part of privacy under Article 21, while the Digital Personal Data Protection Act, 2023, is implemented by MeitY."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Order in official programmes",
+   "question": "According to the MHA guidelines, what is the correct order when an official programme includes the National Anthem, the National Song and a State song?",
+   "options": [
+    "Vande Mataram → Jana Gana Mana → State Song",
+    "Jana Gana Mana → Vande Mataram → State Song",
+    "State Song → Vande Mataram → Jana Gana Mana",
+    "Vande Mataram → State Song → Jana Gana Mana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The prescribed order is Vande Mataram, followed by Jana Gana Mana, and then the State Song. The other options interchange the National Song, National Anthem or State Song."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Criminal cases and assets of Chief Ministers",
+   "question": "With reference to the ADR and National Election Watch analysis of sitting Chief Ministers, how many of the following statements are correct?\n1. Fourteen of the thirty-one sitting Chief Ministers declared criminal cases.\n2. The average assets of the sitting Chief Ministers were ₹118.70 crore.\n3. Two sitting Chief Ministers declared attempted-murder cases.\n4. Karnataka CM D.K. Shivakumar was identified as the wealthiest CM with assets of ₹1,413 crore+.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "Only two statements are correct: statements 1 and 3. The average assets were ₹118.07 crore, not ₹118.70 crore, and D.K. Shivakumar was identified as the wealthiest CM from Karnataka, not another State."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Institutional model and port security",
+   "question": "Assertion (A): The proposed Bureau of Port Security will be responsible for the physical and cyber security of ports and ships.\nReason (R): The Central Industrial Security Force has been designated as the Recognized Security Organization for port security audits and training of private security staff.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. The Bureau of Port Security is proposed for physical and cyber security of ports and ships, while CISF has been designated for audits and training; the CISF designation does not explain the Bureau’s stated security mandate."
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Constitutional provision",
+   "question": "The Constitution (129th Amendment) Bill, 2024 proposes to insert which Article into the Constitution?",
+   "options": [
+    "Article 82A",
+    "Article 83",
+    "Article 172",
+    "Article 356"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Constitution (129th Amendment) Bill, 2024 proposes to insert Article 82A. Articles 83 and 172 are proposed to be amended, not inserted; Article 356 is not identified as a provision of this Bill."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Scope of One Nation, One Election Bill",
+   "question": "Consider the following statements regarding the Constitution (129th Amendment) Bill, 2024:\n1. Local bodies are excluded from the Bill.\n2. Its companion legislation concerns Delhi, Puducherry and Jammu and Kashmir.\n3. The Bill includes elections to local bodies within its scope.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: local bodies are excluded, while the companion Union Territories Laws (Amendment) Bill, 2024 concerns Delhi, Puducherry and Jammu and Kashmir. Statement 3 is incorrect because local bodies are excluded from the Bill."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Appointed date and mid-term dissolution",
+   "question": "Consider the following statements regarding the Constitution (129th Amendment) Bill, 2024:\nStatement A: The appointed date is notified by the Election Commission at the first sitting of the new Lok Sabha.\nStatement B: If a mid-term dissolution occurs, elections are held for a full new term.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Both statements are false. The appointed date is notified by the President at the first sitting of the new Lok Sabha, and a mid-term dissolution leads to an election only for the unexpired term."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Trial in absentia under BNSS",
+   "question": "Assertion (A): The National Investigation Agency may seek a trial in absentia under Section 356 of the Bharatiya Nagarik Suraksha Sanhita, 2023.\nReason (R): Trial in absentia under this provision is available for minor offences.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F7"
+   ],
+   "explanation": "Assertion A is true: the NIA may seek trial in absentia under Section 356 of the BNSS, 2023. Reason R is false because the provision is not meant for minor offences."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Safeguards and eligibility for trial in absentia",
+   "question": "With reference to trial in absentia under Section 356 of the BNSS, consider the following statements:\n1. It applies to a proclaimed offender under Section 84 of the BNSS for an offence punishable with seven years or more, life imprisonment or death.\n2. Trial may begin after thirty days from the framing of charges.\n3. An accused who appears later may cross-examine witnesses.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "None"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "Only one statement is correct: an accused who appears later may cross-examine witnesses. Statement 1 incorrectly changes the eligibility threshold from ten years or more to seven years, while statement 2 incorrectly changes the required period from ninety days to thirty days."
+  }
+ ]
+}

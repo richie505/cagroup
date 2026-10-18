@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Ship introduction and location",
+   "question": "Which Indian Navy ship, the sixth stealth frigate of Project 17A, was introduced at Visakhapatnam on July 11, 2026?",
+   "options": [
+    "Mahendragiri",
+    "Machilipatnam",
+    "INS Malvan",
+    "ICGS Aruna Asaf Ali"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "Mahendragiri was introduced at Visakhapatnam on July 11, 2026, as the sixth stealth frigate of Project 17A. Machilipatnam, INS Malvan and ICGS Aruna Asaf Ali were associated with separate naval developments."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Ship class and commissioning status",
+   "question": "Which of the following statements regarding Indian naval ships in July 2026 is incorrect?",
+   "options": [
+    "Machilipatnam was the seventh of eight ASW shallow water craft launched by Cochin Shipyard on July 29.",
+    "INS Malvan was commissioned as the second Mahe-class ASW shallow water craft on July 22.",
+    "ICGS Aruna Asaf Ali was decommissioned on July 19.",
+    "Mahendragiri was the fifth stealth frigate of Project 17A."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "The incorrect statement is that Mahendragiri was the fifth stealth frigate of Project 17A; it was the sixth. The other statements correctly describe Machilipatnam, INS Malvan and ICGS Aruna Asaf Ali."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First use of Rafale in exercise",
+   "question": "With reference to Pitch Black 2026, consider the following:\nAssertion (A): The Indian Air Force used Rafale jets for the first time in Pitch Black 2026.\nReason (R): The Indian contingent used C-17 aircraft for the first time in Pitch Black 2026.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F15"
+   ],
+   "explanation": "Assertion A is true: the IAF used Rafale jets for the first time in Pitch Black 2026. Reason R is false because the contingent included 2 C-17 aircraft, while the first-time use specifically concerned 4 Rafale jets."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Exercise edition and circumnavigation",
+   "question": "Consider the following statements about major maritime and global exercises conducted in 2026:\n1. RIMPAC 2026 was the 30th edition and was hosted biennially by the US Pacific Fleet in Hawaii.\n2. Samudra Pradakshina was the first tri-service women's global circumnavigation.\n3. The theme of RIMPAC 2026 was “Partners: Integrated and Ready”.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: RIMPAC 2026 was the 30th edition hosted by the US Pacific Fleet in Hawaii, and Samudra Pradakshina was the first tri-service women's global circumnavigation. Statement 3 is incorrect because the theme was “Partners: Integrated and Prepared”, not “Partners: Integrated and Ready”."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Missile and counter-drone system details",
+   "question": "How many of the following statements about defence systems tested or demonstrated in July 2026 are correct?\n1. Kusha LRSAM underwent its first test on July 23 at APJ Abdul Kalam Island.\n2. Ugram is an indigenous 5.56×45 mm assault rifle.\n3. Bhargavastra can detect large UAVs at a distance of 6 km.\n4. UFOSS is designed to detect only air-independent propulsion submarines.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5",
+    "P6.F7",
+    "P6.F9",
+    "P6.F19"
+   ],
+   "explanation": "Only one statement is correct: Kusha LRSAM underwent its first test on July 23 at APJ Abdul Kalam Island. Ugram is a 7.62×51 mm rifle, Bhargavastra detects large UAVs at 10 km, and UFOSS can detect conventional and nuclear submarines, not only air-independent propulsion submarines."
+  }
+ ]
+}

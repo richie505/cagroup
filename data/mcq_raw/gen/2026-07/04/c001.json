@@ -1,0 +1,92 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Foundation Day",
+   "question": "NABARD celebrated its 45th Foundation Day on which date in 2026?",
+   "options": [
+    "12 July 2026",
+    "28 August 2026",
+    "20 January 2026",
+    "29 March 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "NABARD celebrated its 45th Foundation Day on 12 July 2026. The tempting option 28 August 2026 is associated with the date of PMJDY in 2014, not NABARD’s Foundation Day."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Rural credit survey",
+   "question": "With reference to the NABARD Rural Economic Conditions and Sentiments Survey (RECSS) conducted in May 2026, which of the following statements is incorrect?",
+   "options": [
+    "77.2% of rural households reported higher consumption.",
+    "51% of rural households relied only on formal credit.",
+    "More than 27% of rural households used both formal and informal credit.",
+    "51% of rural households used both formal and informal credit."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "The incorrect statement is that 51% of rural households used both formal and informal credit; the correct figure is more than 27%. The 51% figure refers to households relying only on formal credit, while 77.2% reported higher consumption."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Agricultural credit targets and priority-sector lending",
+   "question": "Consider the following statements regarding rural credit in India:\n1. The Ground Level Credit target for FY 2025–26 was ₹32.50 lakh crore.\n2. ₹5 lakh crore of the Ground Level Credit target was earmarked for animal husbandry, dairy and fisheries.\n3. Priority Sector Lending requires at least 18% of ANBC to be allocated to agriculture.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "All three statements are correct: the Ground Level Credit target was ₹32.50 lakh crore, including ₹5 lakh crore for animal husbandry, dairy and fisheries, and agriculture’s PSL requirement is at least 18% of ANBC. The options excluding one of these statements incorrectly omit a stated rural-credit provision."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Informal-sector index",
+   "question": "Assertion (A): The informal sector accounted for 9.17 crore units and 15.17 crore workers in the March quarter of 2025–26.\nReason (R): The proposed informal-sector index is intended to track employment, output, income and prices.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F9"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the proposed index’s coverage of employment, output, income and prices does not explain the reported number of informal-sector units and workers; it describes the index’s purpose."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "External debt",
+   "question": "According to the external-debt data for March 2026, what was India’s external debt and debt-to-GDP ratio?",
+   "options": [
+    "USD 762.8 billion and 20.8%",
+    "USD 201.17 lakh crore and 20.8%",
+    "USD 762.8 billion and 19.8%",
+    "USD 26.3 billion and 20.8%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "India’s external debt in March 2026 was USD 762.8 billion, with a debt-to-GDP ratio of 20.8%. The figures ₹201.17 lakh crore and ₹26.3 billion refer to central-government debt and the increase in external debt, respectively; 19.8% was the earlier ratio."
+  }
+ ]
+}

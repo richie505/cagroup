@@ -1,0 +1,61 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of World Heritage Sites",
+   "question": "Following the inscription of the Ancient Buddhist Site of Sarnath, how many World Heritage Sites does India have?",
+   "options": [
+    "45",
+    "47",
+    "36",
+    "48"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "India now has 45 World Heritage Sites, placing it sixth globally and second in the Asia-Pacific region. The figures 47 and 48 refer to earlier inscription/session-related details, while 36 is the number of cultural sites."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Historical significance and tentative-list status",
+   "question": "With reference to the Ancient Buddhist Site of Sarnath, consider the following statements:\n1. Sarnath had been on India’s tentative list since 1998.\n2. Buddha delivered his first sermon at Sarnath after attaining enlightenment at Bodh Gaya.\n3. The Dhamek Stupa marks the spot of Buddha’s second sermon.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F5",
+    "P1.F24"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Sarnath was on the tentative list since 1998, and it is associated with Buddha’s first sermon after enlightenment at Bodh Gaya. Statement 3 is incorrect because the Dhamek Stupa marks the spot of the first sermon, not the second."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "UNESCO inscription and World Heritage Convention",
+   "question": "Assertion (A): The Ancient Buddhist Site of Sarnath was inscribed at the 48th session of the World Heritage Committee in Busan, South Korea.\nReason (R): The World Heritage Convention was established in 1998.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F11"
+   ],
+   "explanation": "Assertion A is true: Sarnath was inscribed at the 48th World Heritage Committee session in Busan, South Korea. Reason R is false because the World Heritage Convention dates to 1972, not 1998."
+  }
+ ]
+}

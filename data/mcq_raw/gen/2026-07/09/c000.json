@@ -1,0 +1,63 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Announcement date",
+   "question": "On which date were the 72nd National Film Awards, for films of 2024, announced from PIB Delhi?",
+   "options": [
+    "18 July 2026",
+    "18 July 2025",
+    "17 July 2026",
+    "19 July 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The 72nd National Film Awards for 2024 were announced on 18 July 2026 from PIB Delhi. The tempting date of 18 July 2025 is incorrect because the announcement year was 2026."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Best Feature Film",
+   "question": "With reference to the 72nd National Film Awards for 2024, which of the following statements is NOT correct?",
+   "options": [
+    "Article 370 won Best Feature Film.",
+    "Bhangaar won Best Non-Feature Film.",
+    "Ram-Nami won Best Documentary.",
+    "Yami Gautam won Best Actress for Bramayugam."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5",
+    "P0.F7"
+   ],
+   "explanation": "The incorrect statement is that Yami Gautam won Best Actress for Bramayugam; she won Best Actress for Article 370. Bramayugam was associated with Mammootty and Kartik Aaryan won Best Actor for Chandu Champion."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Jury chairs and award winners",
+   "question": "Consider the following statements about the 72nd National Film Awards for 2024:\n1. Jayaraj chaired the Writing jury.\n2. Bhangaar won Best Documentary.\n3. Yami Gautam won Best Actress for Article 370.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F4",
+    "P0.F5",
+    "P0.F7"
+   ],
+   "explanation": "Only statement 3 is correct: Yami Gautam won Best Actress for Article 370. Jayaraj chaired the Feature jury, not the Writing jury, while Bhangaar won Best Non-Feature Film and Ram-Nami won Best Documentary."
+  }
+ ]
+}

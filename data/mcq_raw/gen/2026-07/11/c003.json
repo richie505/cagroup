@@ -1,0 +1,57 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "The first wildlife eco-bridge under the NH-61 expansion in Telangana is being constructed near which place?",
+   "options": [
+    "Asifabad",
+    "Jangaon",
+    "Sanathnagar",
+    "Kandukur"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "The first wildlife eco-bridge is being constructed near Asifabad as part of the NH-61 expansion. Jangaon, Sanathnagar and Kandukur are associated with other Telangana developments, not this eco-bridge."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Launch timeline and partners",
+   "question": "Assertion (A): The Green Skills Centre in Hyderabad is planned to be launched by August 2026.\nReason (R): The centre is being established with Microsoft alone.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "Assertion A is true: the Green Skills Centre in Hyderabad is planned for launch by August 2026. Reason R is false because the MoU involves Microsoft along with the 1M1B Foundation and MeitY Startup Hub, rather than Microsoft alone."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "First facility and capacity",
+   "question": "With reference to the rare earth magnet centre proposed by Nexon Geochem and Giredmet, consider the following statements:\n1. It is a collaboration between Nexon Geochem of Hyderabad and Giredmet of Russia's Rosatom.\n2. The centre is planned to have a capacity of 1,200 MT per year by FY2033.\n3. The planned capacity is to be achieved by FY2026.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the facility is a Nexon Geochem–Giredmet collaboration and is planned for 1,200 MT per year by FY2033. Statement 3 is incorrect because FY2033, not FY2026, is the stated target year."
+  }
+ ]
+}

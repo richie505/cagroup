@@ -1,0 +1,58 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Scheme implementation and outlay",
+   "question": "Consider the following statements:\nStatement A: Tamil Nadu ranked first in the implementation of the PLI-Auto scheme with 66 units.\nStatement B: The PLI-Auto scheme had an outlay of ₹25,398 crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F12"
+   ],
+   "explanation": "Both statements are false. Maharashtra ranked first with 66 units, while the PLI-Auto scheme had an outlay of ₹25,938 crore. Thus, Tamil Nadu and ₹25,398 crore are the altered details."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Rank in railway electrification",
+   "question": "Assertion (A): India ranked second in railway electrification, after Switzerland.\nReason (R): Yoshua Bengio and Maria Ressa were the co-chairs of the first UN scientific report on AI.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F3"
+   ],
+   "explanation": "Both the assertion and the reason are true. India ranked second after Switzerland in railway electrification, while Yoshua Bengio and Maria Ressa co-chaired the first UN scientific report on AI. The AI report’s co-chairs do not explain India’s railway electrification rank."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "ULLAS literacy threshold and UT milestone",
+   "question": "With reference to the ULLAS literacy report, consider the following statements:\n1. Uttarakhand became the sixth fully literate State, with literacy above 98%.\n2. The threshold for being considered fully literate was 90%.\n3. Chandigarh was listed among the UTs achieving the milestone in 2024.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F6"
+   ],
+   "explanation": "Only statement 1 is correct. Uttarakhand was the sixth fully literate State, with literacy above 98%; the threshold was 95%, and Chandigarh was listed for 2026 rather than 2024. Therefore, statements 2 and 3 are incorrect."
+  }
+ ]
+}

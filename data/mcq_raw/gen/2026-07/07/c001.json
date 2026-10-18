@@ -1,0 +1,116 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Date of observance",
+   "question": "International Tiger Day is observed annually on which date?",
+   "options": [
+    "29 June",
+    "29 July",
+    "29 August",
+    "29 September"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "International Tiger Day is observed on 29 July. The nearby dates are incorrect; 2010 was the year of the Saint Petersburg Tiger Summit, not the date of observance."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "India's tiger share and conservation framework",
+   "question": "Assertion (A): India has about 70% of the world’s wild tigers.\nReason (R): Project Tiger is a flagship initiative of MoEFCC, and NTCA oversees it.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F4"
+   ],
+   "explanation": "Both statements are true: India has about 70% of the world’s wild tigers, while Project Tiger is an MoEFCC flagship overseen by NTCA. The Project Tiger framework does not explain India’s share of the global wild-tiger population, so the reason is not the correct explanation."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Monsoon forecast and rainfall deficit",
+   "question": "Consider the following statements about the monsoon outlook and economic risk:\n1. The first month of the monsoon recorded a rainfall deficit of about 40%.\n2. The IMD forecast below-normal rainfall in July, below 94% of normal.\n3. El Niño and drought could cut GDP growth by 20–65 percentage points.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the first month had a deficit of about 40%, and July rainfall was forecast below 94% of normal. Statement 3 is incorrect because the projected reduction was 20–65 basis points, not percentage points."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Economic and agricultural indicators",
+   "question": "How many of the following statements about the monsoon-related economic risk are correct?\n1. El Niño and drought could cut GDP growth by 20–65 basis points.\n2. There were 315 vulnerable districts.\n3. Reservoir storage was 78.077 BCM on July 2, compared with 47.725 BCM in the previous year.\n4. Foodgrain production in 2024–25 increased by 25.34 MMT.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4",
+    "P3.F5",
+    "P3.F6"
+   ],
+   "explanation": "Exactly two statements are correct: the GDP risk was 20–65 basis points, and 315 districts were identified as vulnerable. The reservoir figures were 47.725 BCM on July 2 against 78.077 BCM the previous year, while foodgrain production increased by 25.43 MMT, not 25.34 MMT."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Location and scale of glacial-lake expansion",
+   "question": "Consider the following statements about the study of glacial lakes in the Mago Chu Basin:\nStatement A: The Mago Chu Basin is located in West Kameng district of Arunachal Pradesh.\nStatement B: Three of five glacial lakes expanded between 2016 and 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "Both statements are false. The Mago Chu Basin is in Tawang district of Arunachal Pradesh, and four of five glacial lakes expanded between 2016 and 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Glacial-lake type most vulnerable to GLOF",
+   "question": "According to the ICIMOD classification, which type of glacial lake is most vulnerable to a glacial lake outburst flood because of loose debris?",
+   "options": [
+    "Glacial-erosion lake",
+    "Moraine-dammed lake",
+    "Ice-blocked lake",
+    "Supraglacial lake"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F2",
+    "P4.F3",
+    "P4.F4",
+    "P4.F5"
+   ],
+   "explanation": "Moraine-dammed lakes are most vulnerable to GLOFs because they are held by loose debris. Glacial-erosion, ice-blocked and supraglacial lakes are separate categories in the classification."
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Study location",
+   "question": "The study on climate change-related decline in milk yield examined which region?",
+   "options": [
+    "Haryana in the trans-Gangetic plains",
+    "Gir forests in Kathiawar, Gujarat",
+    "Friesland in the Netherlands",
+    "Switzerland"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F13",
+    "P8.F17",
+    "P8.F18"
+   ],
+   "explanation": "The study examined climate change impacts on milk yield in Haryana, located in the trans-Gangetic plains. Gujarat, the Netherlands and Switzerland are associated with dairy breeds, not the location of this study."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Heat-stress threshold and yield loss",
+   "question": "Consider the following statements regarding heat stress and milk production in Haryana:\n1. The worst conditions occur when the temperature is above 38°C and humidity is above 70%, particularly during July–August.\n2. The impact of heat stress is significant during winter.\n3. Heat stress can reduce milk yield by 15–20%.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "Statement 1 only",
+    "Statement 2 only",
+    "Statements 1 and 2 only",
+    "Statements 1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F6"
+   ],
+   "explanation": "Only Statement 1 is correct: the threshold is above 38°C with humidity above 70%, and the worst impact occurs in July–August. Winter impact is negligible, while heat stress can reduce yield by 20–30%, not 15–20%."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Impact on buffalo yield and breeds",
+   "question": "Which one of the following statements regarding the Haryana heat-stress study is incorrect?",
+   "options": [
+    "A unit rise in Potential Evapotranspiration reduces buffalo milk yield by about 1.4 litres per buffalo per day.",
+    "Sahiwal and Hariana are identified as resilient breeds.",
+    "The current loss is about 3.2 million tonnes of milk, valued at ₹2,661 crore.",
+    "The loss could reach 15 million tonnes by the 2040s."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F5",
+    "P8.F7"
+   ],
+   "explanation": "The incorrect statement is the fourth one. The projected loss could reach 15 million tonnes by the 2050s, not the 2040s; the other three statements correctly report the study's findings."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Institutional holder of government debt",
+   "question": "Assertion (A): LIC is the single largest institutional holder of Government of India debt and is designated a Domestic Systemically Important Insurer.\nReason (R): Government securities with maturities of 10 to 40 years suit insurers' asset-liability matching.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the maturity profile of government securities explains their suitability for insurers' asset-liability matching, not LIC's status as the single largest institutional holder or its D-SII designation."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Insurance penetration and insurance initiatives",
+   "question": "Consider the following statements:\nStatement A: Insurance penetration in FY25 was 3.2% of GDP.\nStatement B: Bima Vahak is the initiative for an affordable insurance product.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F7",
+    "P9.F9"
+   ],
+   "explanation": "Both statements are false. Insurance penetration in FY25 was 2.7% of GDP, while Bima Vistaar is the affordable insurance product initiative; Bima Vahak focuses on women-led distribution."
+  }
+ ]
+}

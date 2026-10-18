@@ -1,0 +1,62 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue of award induction",
+   "question": "At which place were Sourav Ganguly, Anjum Chopra and Kevin Pietersen inducted into the ICC Hall of Fame?",
+   "options": [
+    "Edinburgh",
+    "Geneva",
+    "Lyon",
+    "Thimphu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F9",
+    "P1.F12",
+    "P1.F13"
+   ],
+   "explanation": "The three cricketers were inducted into the ICC Hall of Fame at Edinburgh. Geneva is associated with the WSIS Prize, Lyon with the Mur des Cinéastes honour, and Thimphu with the J.S.G.W. Literature Award."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Fields Medal milestone",
+   "question": "Assertion (A): Hong Wang was the second woman to win the Fields Medal.\nReason (R): Yu Deng and Hong Wang were the first Chinese citizens to win the Fields Medal since 1982.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F17"
+   ],
+   "explanation": "Assertion A is false because Hong Wang was the third woman to win the Fields Medal. Reason R is true: Yu Deng and Hong Wang were the first Chinese citizens to win it since 1982."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Recipients of awards",
+   "question": "Consider the following statements about awards announced in July 2026:\n1. Dr. Krithi K. Karanth received the Rolex National Geographic Explorer of the Year 2026 award.\n2. Murukesan N. received the NTCA Pratibha Award.\n3. Kerala received the Agriculture Leadership Award 2026 in horticulture.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "Only statement 1 is correct",
+    "Only statement 2 is correct",
+    "Only statement 3 is correct",
+    "Exactly two statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6",
+    "P1.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Dr. Krithi K. Karanth received the Rolex National Geographic Explorer of the Year award, and Murukesan N. received the NTCA Pratibha Award. Statement 3 is false because Gujarat, not Kerala, received the Agriculture Leadership Award 2026 in horticulture."
+  }
+ ]
+}

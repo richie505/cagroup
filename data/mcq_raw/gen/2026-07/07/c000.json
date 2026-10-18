@@ -1,0 +1,79 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "CEC directive",
+   "question": "In the matter of illegal fish ponds in Kolleru Wildlife Sanctuary, which body directed the Andhra Pradesh government to take action?",
+   "options": [
+    "The Supreme Court-appointed Central Empowered Committee",
+    "The Ramsar Convention",
+    "The Government of Andhra Pradesh",
+    "The Governor of Andhra Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F3"
+   ],
+   "explanation": "The Supreme Court-appointed Central Empowered Committee directed the Andhra Pradesh government regarding illegal fish ponds in Kolleru Wildlife Sanctuary. The CEC assists the Supreme Court on forest and wildlife matters; the Ramsar Convention and the Governor were not the directing bodies in this matter."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Objection period",
+   "question": "Under the seventh draft notification declaring an Eco-Sensitive Area in the Western Ghats, how long was provided for objections?",
+   "options": [
+    "60 days",
+    "60 weeks",
+    "60 months",
+    "60 hours"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The Ministry of Environment, Forest and Climate Change reissued the Western Ghats Eco-Sensitive Area draft notification for the seventh time and provided 60 days for objections. The periods expressed in weeks, months and hours are incorrect."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State-wise ESA extent",
+   "question": "With reference to the seventh draft notification for the Western Ghats Eco-Sensitive Area, consider the following statements:\n1. The proposed Eco-Sensitive Area covered 56,825.7 sq km in six States.\n2. Karnataka had the largest proposed Eco-Sensitive Area, covering 20,668 sq km.\n3. Maharashtra had a proposed Eco-Sensitive Area of 9,993.7 sq km.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3",
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the proposed area was 56,825.7 sq km across six States, and Karnataka accounted for the largest share at 20,668 sq km. Statement 3 is incorrect because Maharashtra’s proposed area was 17,340 sq km, while 9,993.7 sq km was proposed for Kerala."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Prohibited and regulated activities",
+   "question": "With reference to the seventh draft notification for the Western Ghats Eco-Sensitive Area, identify the incorrect statement.",
+   "options": [
+    "Mining, quarrying and sand mining were banned.",
+    "Hydel projects were banned.",
+    "Agriculture and plantations were unaffected.",
+    "Large construction and red-category industries were banned."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "The incorrect statement is that hydel projects were banned. Hydel projects were regulated, not banned; mining, quarrying, sand mining, new thermal plants, red-category industries and large construction were banned, while agriculture and plantations were unaffected."
+  }
+ ]
+}

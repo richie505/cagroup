@@ -1,0 +1,81 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Cloudburst definition",
+   "question": "Consider the following statements:\nStatement A: The Assam floods were initially blamed on a cloudburst in Nagaland, but the IMD stated that the event involved heavy rainfall and did not meet the cloudburst threshold.\nStatement B: The IMD defines a cloudburst as rainfall exceeding 100 mm in one hour over 30–40 sq km.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2"
+   ],
+   "explanation": "Statement A is true: the IMD attributed the Assam floods to heavy rainfall rather than a cloudburst. Statement B is false because the cloudburst definition covers more than 100 mm in one hour over 20–30 sq km, not 30–40 sq km."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Flash flood and cloudburst distinction",
+   "question": "Assertion (A): A flash flood develops in less than six hours.\nReason (R): Every flash flood is caused by a cloudburst.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "Assertion A is true because a flash flood develops in less than six hours. Reason R is false: not every flash flood is a cloudburst, as flash floods can also result from dam releases, GLOFs, saturated soil or poor drainage."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Project impact and environmental assessment",
+   "question": "With reference to the proposed hydropower project in the Lohit river basin, consider the following statements:\n1. The project threatens the white-bellied heron.\n2. The project's Environmental Impact Assessment did not include the white-bellied heron.\n3. The Lohit basin holds about 60% of India's white-bellied herons.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P6.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the proposed project threatens the white-bellied heron, and its Environmental Impact Assessment did not include the species. Statement 3 is incorrect because the Lohit basin, including the Lahm tributary, holds about 70% of India's white-bellied herons."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Conservation status and habitat",
+   "question": "With reference to the white-bellied heron, how many of the following statements are correct?\n1. Its scientific name is Ardea insignis.\n2. It is classified as Critically Endangered on the IUCN Red List.\n3. It is listed under Schedule II of the Wildlife Protection Act, 1972.\n4. Its habitat includes fast-flowing Himalayan rivers and mature riparian forests.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F4",
+    "P6.F5",
+    "P6.F6",
+    "P6.F7"
+   ],
+   "explanation": "Statements 1, 2 and 4 are correct: the species is Ardea insignis, is Critically Endangered and inhabits fast-flowing Himalayan rivers and mature riparian forests. Statement 3 is incorrect because the white-bellied heron is listed under Schedule I of the Wildlife Protection Act, 1972."
+  }
+ ]
+}

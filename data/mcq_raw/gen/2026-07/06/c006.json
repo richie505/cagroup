@@ -1,0 +1,91 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Vaccine approval and coverage",
+   "question": "Which statement correctly describes Qdenga, the dengue vaccine approved by the DCGI in July 2026?",
+   "options": [
+    "It is India's first dengue vaccine approved for ages 4–60 and covers all four serotypes",
+    "It is the world's first PROTAC drug for advanced breast cancer",
+    "It is the first oral PCSK9 inhibitor for LDL cholesterol",
+    "It is the first molecular test for Bundibugyo virus"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "Qdenga was approved by the DCGI as India's first dengue vaccine for people aged 4–60, covering all four serotypes. The other options describe Vepdegestrant, Lipefendra and the Bundibugyo virus test, respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First PROTAC drug",
+   "question": "Consider the following statements:\nStatement A: Vepdegestrant was the world's first PROTAC drug for advanced breast cancer.\nStatement B: Vepdegestrant was approved by the DCGI.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "Statement A is true: Vepdegestrant was identified as the world's first PROTAC drug for advanced breast cancer. Statement B is false because the approval was by the US FDA, not the DCGI."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Indigenous tactical aerostat",
+   "question": "Assertion (A): India developed its first indigenous tactical aerostat through collaboration among IIT Delhi, DRDO and a start-up.\nReason (R): The tactical aerostat has a range of about 200 km.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "Assertion A is true because the system was India's first indigenous tactical aerostat developed by IIT Delhi, DRDO and a start-up. Reason R is false: its stated range is about 20 km, not 200 km."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Green hydrogen centre of excellence",
+   "question": "With reference to the Green Hydrogen Centre of Excellence announced at IIT Kanpur in July 2026, consider the following statements:\n1. It was announced on July 20, 2026.\n2. It was approved by Uttar Pradesh through UPNEDA under the UP Green Hydrogen Policy 2024.\n3. It was approved under the UP Green Hydrogen Policy 2025.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the centre was announced on July 20, 2026, and approved through UPNEDA under the UP Green Hydrogen Policy 2024. Statement 3 is incorrect because the policy year was 2024, not 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Olympiad medal tally",
+   "question": "What was India's medal achievement at the 56th International Physics Olympiad 2026 held in Bucaramanga, Colombia?",
+   "options": [
+    "India won five silver medals",
+    "India won five bronze medals",
+    "India won five gold medals",
+    "India won five gold medals at Geneva"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "India won five gold medals at the 56th International Physics Olympiad in Bucaramanga, Colombia. The alternatives change either the medal category or the venue; Geneva is not the venue of this Olympiad."
+  }
+ ]
+}

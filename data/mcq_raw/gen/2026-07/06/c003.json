@@ -1,0 +1,96 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Mission scope",
+   "question": "Beyond quantum computing, which areas are covered by India’s National Quantum Mission?",
+   "options": [
+    "Communication, sensing and materials",
+    "Only communication and computing",
+    "Semiconductor fabrication, fertiliser production and sensing",
+    "Only quantum computing and satellite navigation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F20"
+   ],
+   "explanation": "The National Quantum Mission covers communication, sensing and materials in addition to computing. It is therefore incorrect to view the mission as being confined to quantum computing alone."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Quantum computing developments",
+   "question": "Consider the following statements about recent quantum-computing developments:\n1. Google’s Willow processor demonstrated that scaling qubit lattices from 3×3 to 5×5 to 7×7 cut the encoded error rate by a factor of two at each step.\n2. IBM aims to develop a fault-tolerant quantum computer by 2029.\n3. The current era of quantum computing is known as the fault-tolerant quantum era.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Google reported the successive error-rate reduction with larger Willow lattices, and IBM aims for a fault-tolerant quantum computer by 2029. The current era is NISQ, or Noisy Intermediate-Scale Quantum, not the fault-tolerant quantum era."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Sanction and target",
+   "question": "Assertion (A): The National Quantum Mission was sanctioned in April 2023.\nReason (R): The mission has a target year of 2031.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F15"
+   ],
+   "explanation": "Both the assertion and the reason are true: the mission was sanctioned in April 2023 and has a target of 2031. However, the target year does not explain the date on which the mission was sanctioned."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NIDAR 2.0 and VEGA",
+   "question": "Consider the following statements about NIDAR 2.0:\nStatement A: NIDAR 2.0 was launched by MeitY with IIT Madras.\nStatement B: VEGA is an indigenous RISC-V processor developed under DIR-V.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F5",
+    "P4.F6"
+   ],
+   "explanation": "Statement A is false because NIDAR 2.0 was launched by MeitY with the Drone Federation of India. Statement B is true: VEGA is an indigenous RISC-V processor under DIR-V, or Digital India RISC-V."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "NIPU-2026",
+   "question": "With reference to NIPU-2026 and urea, how many of the following statements are correct?\n1. The new urea investment policy expects savings of ₹250 crore or more per factory.\n2. Urea contains 16% nitrogen.\n3. NIPU-2026 is another name for the Mobile Phone Manufacturing Scheme.\n4. The fixed return on equity under NIPU-2026 is 8–12%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7",
+    "P4.F8",
+    "P4.F9",
+    "P4.F10"
+   ],
+   "explanation": "Only one statement is correct: NIPU-2026 expects savings of ₹250 crore or more per factory. Urea contains 46% nitrogen, MPMP-S is the separate Mobile Phone Manufacturing Scheme, and NIPU-2026 provides a fixed return on equity of 12–16%."
+  }
+ ]
+}
