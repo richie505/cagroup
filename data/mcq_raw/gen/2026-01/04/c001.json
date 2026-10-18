@@ -1,0 +1,151 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GDP growth projections",
+   "question": "Consider the following statements regarding 2025–26 GDP growth projections:\n1. The NSO’s first advance estimate projected growth at 7.4%.\n2. SBI Research projected growth at 7.3%.\n3. The World Bank projected growth at 7.2%.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the NSO projected 7.4% growth and the World Bank projected 7.2%. Statement 2 is incorrect because SBI Research projected 7.5%, not 7.3%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SBI Research GDP outlook",
+   "question": "According to SBI Research’s 2025–26 economic outlook, when is India expected to reach a GDP of USD 5 trillion?",
+   "options": [
+    "Within two years",
+    "By 2030",
+    "Within five years",
+    "By 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F17"
+   ],
+   "explanation": "SBI Research stated that India crossed USD 4 trillion GDP in 2025 and could reach USD 5 trillion within two years. The 2030 reference relates to per capita income and the upper-middle-income classification, not the USD 5 trillion GDP target."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Per capita income outlook",
+   "question": "Assertion (A): SBI Research projected that India’s per capita income would reach USD 4,000 by 2030, leading to upper-middle-income status according to the World Bank.\nReason (R): SBI Research projected India’s per capita income to reach USD 5,000 by 2030.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F16"
+   ],
+   "explanation": "Assertion A is true: the projection is USD 4,000 per capita income by 2030, associated with upper-middle-income status. Reason R is false because the stated amount is USD 4,000, not USD 5,000."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Budget macroeconomic worries",
+   "question": "With reference to the three macroeconomic worries highlighted in Budget 2026, consider the following statements:\n1. Nominal GDP growth was estimated at about 8%, against 10.1% assumed in the February 2025 Budget.\n2. Actual tax buoyancy was 1.1, against 0.6 assumed.\n3. Private corporate investment remained weak despite corporate tax cuts, capex and PLI.\n4. Weak buoyancy means that tax grows faster than GDP.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2",
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct, so the answer is Only two. Statement 2 reverses the actual and assumed tax-buoyancy values, while statement 4 reverses the meaning of weak buoyancy: tax grows slower than GDP."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GST gross collections",
+   "question": "What were India’s gross GST collections in December 2025?",
+   "options": [
+    "₹1.74 lakh crore",
+    "₹1.45 lakh crore",
+    "₹1.22 lakh crore",
+    "₹51,977 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2"
+   ],
+   "explanation": "Gross GST collections in December 2025 were ₹1.74 lakh crore. ₹1.45 lakh crore was the net collection, ₹1.22 lakh crore represented domestic collections, and ₹51,977 crore came from imports."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "FDI inflows",
+   "question": "According to UNCTAD, what was India’s FDI inflow in 2025?",
+   "options": [
+    "USD 47 billion",
+    "USD 107.5 billion",
+    "USD 1.6 trillion",
+    "USD 19.75 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2"
+   ],
+   "explanation": "India received FDI of USD 47 billion in 2025, a rise of 73%. USD 107.5 billion was China’s FDI figure, while USD 1.6 trillion was the global FDI total."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "World Bank lending commitment",
+   "question": "Consider the following statements:\nStatement A: The World Bank will lend India USD 8–10 billion annually for five years.\nStatement B: The framework was finalised with a delegation led by President Ajay Banga and Finance Minister Nirmala Sitharaman.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "Both statements are true. The World Bank’s proposed lending to India is USD 8–10 billion each year for five years, and the framework was finalised with the delegation led by Ajay Banga and Nirmala Sitharaman."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "India–China trade deficit",
+   "question": "Assertion (A): India’s trade deficit with China reached a record USD 116.12 billion in 2025.\nReason (R): India’s trade deficit with China in 2024 was USD 116.12 billion.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2"
+   ],
+   "explanation": "Assertion A is true: the record India–China trade deficit was USD 116.12 billion in 2025. Reason R is false because the 2024 deficit was USD 99.21 billion, not USD 116.12 billion."
+  }
+ ]
+}

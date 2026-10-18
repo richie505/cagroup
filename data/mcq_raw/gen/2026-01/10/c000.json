@@ -1,0 +1,168 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in medal table",
+   "question": "Which State topped the medal tally at the Khelo India Beach Games 2026 held at Ghoghla Beach, Diu?",
+   "options": [
+    "Karnataka",
+    "Tamil Nadu",
+    "Manipur",
+    "DNH and DD"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F4"
+   ],
+   "explanation": "Karnataka secured Rank 1 with a medal tally of 3 gold, 2 silver and 6 bronze medals, totalling 11. Tamil Nadu and Manipur finished second and third respectively, while DNH and DD was the host region."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "The 6th Khelo India Winter Games 2026 was opened at which venue in Leh?",
+   "options": [
+    "Nawang Dorjay Stobdan Stadium",
+    "Kangdoori",
+    "Gulmarg Golf Course",
+    "Leh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3"
+   ],
+   "explanation": "The 6th Khelo India Winter Games 2026 was opened at Nawang Dorjay Stobdan Stadium, Leh. Kangdoori and Gulmarg Golf Course were venues associated with the second phase in J&K, whereas Leh is the location rather than the stadium."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Rank in medal table",
+   "question": "Which of the following statements about the medal standings of the Khelo India Winter Games 2026 is incorrect?",
+   "options": [
+    "Haryana secured Rank 1 with 5 gold, 1 silver and 2 bronze medals.",
+    "Ladakh secured Rank 2 with 2 gold, 5 silver and 4 bronze medals.",
+    "Maharashtra secured Rank 2 with 2 gold, 3 silver and 2 bronze medals.",
+    "Maharashtra secured Rank 3 with 2 gold, 3 silver and 2 bronze medals."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "The incorrect statement is that Maharashtra secured Rank 2; it secured Rank 3 with 2 gold, 3 silver and 2 bronze medals. Ladakh was Rank 2, while Haryana was Rank 1."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "India's bid for the World Indoor Athletics Championships 2028 and World U-20 Championships 2028 proposed which host city?",
+   "options": [
+    "Bhubaneswar",
+    "Leh",
+    "Ahmedabad",
+    "Melbourne"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The proposed host city is Bhubaneswar, with the Kalinga Stadium identified as the venue. Leh, Ahmedabad and Melbourne are not the proposed host city for this bid."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Replacement in tournament",
+   "question": "Consider the following statements:\nStatement A: Bangladesh was excluded from the T20 World Cup and replaced by Italy.\nStatement B: Scotland was placed in Group B along with Italy, England, West Indies and Nepal.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "Both statements are false. Bangladesh was replaced by Scotland, and Scotland was placed in Group C with Italy, England, West Indies and Nepal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Achievement/appointment",
+   "question": "Who became India's 92nd Grandmaster after winning the Andranik Margaryan Memorial in Armenia?",
+   "options": [
+    "Aryan Varshney",
+    "Sumbat Lputian",
+    "Adille Sumariwalla",
+    "Gagan Narang"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "Aryan Varshney became India's 92nd Grandmaster after his performance at the Andranik Margaryan Memorial in Armenia. His final norm came through a draw with Sumbat Lputian; Adille Sumariwalla and Gagan Narang are associated with other sports-related developments."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First/only",
+   "question": "Assertion (A): Novak Djokovic became the first player to record 400 Grand Slam singles match wins.\nReason (R): Novak Djokovic has won 25 Grand Slam titles.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "Assertion A is true: Djokovic became the first player with 400 Grand Slam singles match wins. Reason R is false because he has 24 Grand Slam titles, not 25; the title count also does not explain the 400-win milestone."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launched by",
+   "question": "The National Olympic Education and Development Programme, launched in Ahmedabad in January 2026, was launched by which organisation?",
+   "options": [
+    "Indian Olympic Association",
+    "National Olympic Academy",
+    "International Olympic Academy",
+    "Gagan Narang"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F3"
+   ],
+   "explanation": "The programme was launched by the Indian Olympic Association in Ahmedabad on 12 January 2026, alongside the revitalisation of the National Olympic Academy. The International Olympic Academy at Olympia was the collaborating institution, while Gagan Narang was designated Director of the National Olympic Academy."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Sports persons in news",
+   "question": "Consider the following statements about sports persons in news:\n1. Vijender Singh won India's first Olympic boxing medal, a bronze, at Beijing 2008.\n2. Saina Nehwal's last event was the 2023 Singapore Open.\n3. Jinson Johnson won gold in the 800 m and silver in the 1500 m at the 2018 Asian Games.",
+   "options": [
+    "Exactly two statements are correct",
+    "Only statement 1 is correct",
+    "Only statement 2 is correct",
+    "All three statements are correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "Exactly two statements are correct: statements 1 and 2. Jinson Johnson won gold in the 1500 m and silver in the 800 m at the 2018 Asian Games, so statement 3 reverses the two events."
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "App and launching organisations",
+   "question": "With reference to the use of M-STrIPES at Anamalai Tiger Reserve, consider the following statements:\n1. The tiger census at Anamalai Tiger Reserve will use the M-STrIPES app.\n2. M-STrIPES was launched in 2010 by the National Tiger Conservation Authority with the Wildlife Institute of India.\n3. Anamalai Tiger Reserve is located in Kerala.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2",
+    "P13.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the census will use M-STrIPES, which was launched in 2010 by NTCA with WII. Statement 3 is incorrect because Anamalai Tiger Reserve is in Tamil Nadu, not Kerala."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Renaming of tiger reserve",
+   "question": "Ratapani Tiger Reserve was announced to be renamed after which archaeologist?",
+   "options": [
+    "Dr. Vishnu Shridhar Wakankar",
+    "Mohan Yadav",
+    "Mangubhai Patel",
+    "Frank S. Smythe"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "The reserve was announced to be renamed after archaeologist Dr. Vishnu Shridhar Wakankar, who discovered the Bhimbetka rock shelters. Mohan Yadav is the Chief Minister of Madhya Pradesh, while Mangubhai Patel is its Governor."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Eco-Sensitive Zone extent",
+   "question": "Which one of the following statements regarding the Bannerghatta National Park Eco-Sensitive Zone is incorrect?",
+   "options": [
+    "The Central Empowered Committee recommended restoring the Eco-Sensitive Zone to its 2016 extent.",
+    "The recommendation included scrapping the reduced 2020 notification.",
+    "The Central Empowered Committee dealt with the matter in January 2026.",
+    "The Central Empowered Committee recommended restoring the Eco-Sensitive Zone to its 2020 extent."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "The incorrect statement is that the Eco-Sensitive Zone should be restored to its 2020 extent. The recommended extent was the 2016 extent, along with scrapping the reduced 2020 notification."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Eco-Sensitive Zone notification",
+   "question": "The Parvati–Arga Bird Sanctuary was notified as an Eco-Sensitive Zone in which State?",
+   "options": [
+    "Uttar Pradesh",
+    "Tamil Nadu",
+    "Madhya Pradesh",
+    "Sikkim"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1"
+   ],
+   "explanation": "The Parvati–Arga Bird Sanctuary was notified as an Eco-Sensitive Zone in Uttar Pradesh. The notification concerns its wetland ecosystem, not a sanctuary in Tamil Nadu, Madhya Pradesh or Sikkim."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Conservation objective",
+   "question": "Assertion (A): The Indian Skimmer conservation project focuses on protecting river sandbars.\nReason (R): River sandbars are nesting sites for the Indian Skimmer.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F2"
+   ],
+   "explanation": "Both the assertion and the reason are true. The project launched by BNHS and NMCG focuses on river sandbars because they provide nesting sites for the Indian Skimmer."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Species ecology and distribution",
+   "question": "Consider the following statements:\nStatement A: The dugong is called the “sea cow” and is a herbivore dependent on seagrass.\nStatement B: In India, dugongs are found in the Gulf of Mannar and Palk Bay.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F2",
+    "P18.F3"
+   ],
+   "explanation": "Both statements are true. Dugong dugon is known as the “sea cow” and depends on seagrass, while its Indian distribution includes the Gulf of Mannar and Palk Bay."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Forest fire and landscape facts",
+   "question": "How many of the following statements about the Valley of Flowers and Lohit Valley are correct?\n1. The fire at Valley of Flowers National Park continued for five days in Chamoli.\n2. Valley of Flowers National Park is a UNESCO World Heritage Site with Nanda Devi National Park.\n3. Valley of Flowers National Park was discovered in 1931 by Pema Khandu.\n4. The Lohit River is a tributary of the Ganga.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F2",
+    "P19.F3",
+    "P19.F4"
+   ],
+   "explanation": "Only two statements are correct: the fire continued for five days in Chamoli, and Valley of Flowers National Park is a UNESCO World Heritage Site with Nanda Devi National Park. The park was discovered in 1931 by Frank S. Smythe, and the Lohit is a tributary of the Brahmaputra."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Location of fire",
+   "question": "The forest fire reported in Pangolakha Wildlife Sanctuary occurred in which location?",
+   "options": [
+    "East Sikkim, near the India–China border",
+    "Chamoli, Uttarakhand, between the Zanskar and Greater Himalaya",
+    "Palghar, Maharashtra, north of Mumbai",
+    "Raisen and Sehore districts of Madhya Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F1"
+   ],
+   "explanation": "The fire occurred in East Sikkim near the India–China border, at about 13,000 feet. Chamoli is associated with the Valley of Flowers fire, while Palghar and Raisen–Sehore relate to other events."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Port location and protests",
+   "question": "The protests involving approximately 20,000 people were related to which port in Palghar district?",
+   "options": [
+    "Vadhavan Port",
+    "Bargi Dam",
+    "Bannerghatta National Park",
+    "Tehri Port"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F1"
+   ],
+   "explanation": "Approximately 20,000 people protested against the Vadhavan Port in Palghar, Maharashtra. Bargi Dam is in Madhya Pradesh, while Bannerghatta National Park and Tehri Lake are unrelated to the port protests."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Authority issuing notice",
+   "question": "Which authority issued a show-cause notice to the Narmada Valley Development Authority over Bargi Dam?",
+   "options": [
+    "National Dam Safety Authority",
+    "Central Empowered Committee",
+    "National Mission for Clean Ganga",
+    "Expert Appraisal Committee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P22.F1",
+    "P22.F3"
+   ],
+   "explanation": "The National Dam Safety Authority issued the show-cause notice to the Narmada Valley Development Authority over Bargi Dam. The Central Empowered Committee dealt with the Bannerghatta Eco-Sensitive Zone, while NMCG and the Expert Appraisal Committee were associated with other environmental matters."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rescue during festival",
+   "question": "During the Acro Festival & SIV Championship Tehri 2026, where did the two paragliders fall before being rescued by the SDRF?",
+   "options": [
+    "Tehri Lake",
+    "Bhagirathi River at Tehri Dam",
+    "Pangolakha Wildlife Sanctuary",
+    "Lohit River"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F1",
+    "P23.F2"
+   ],
+   "explanation": "The two paragliders fell into Tehri Lake and were rescued by the SDRF. Tehri Lake is the reservoir of Tehri Dam on the Bhagirathi; Pangolakha Wildlife Sanctuary and Lohit River belong to separate environmental news events."
+  }
+ ]
+}

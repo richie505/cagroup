@@ -1,0 +1,219 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Author",
+   "question": "Who authored the novel *Ghost-Eye*, which deals with reincarnation and Sundarbans conservation?",
+   "options": [
+    "Amitav Ghosh",
+    "Prem Prakash",
+    "Surendra Kumar Pachauri",
+    "Rama Madhav"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "Amitav Ghosh authored *Ghost-Eye*, published by Fourth Estate. Prem Prakash authored *History That India Ignored*, while the other names are associated with different books."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Book launch",
+   "question": "Which of the following statements about *History That India Ignored* (2nd ed.) is incorrect?",
+   "options": [
+    "It was authored by Prem Prakash, Chairman of ANI.",
+    "It was launched in Panaji by Goa Governor Ashok Gajapathi Raju.",
+    "It was launched by Goa Chief Minister Pramod Sawant.",
+    "It was published by Vitasta Publishing."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "The incorrect statement identifies Ashok Gajapathi Raju as the launcher. The book was launched in Panaji by Goa Chief Minister Pramod Sawant; Ashok Gajapathi Raju was mentioned as the Goa Governor."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Award winners and institution",
+   "question": "Consider the following statements about the Subhas Chandra Bose Aapda Prabandhan Puraskar 2026:\n1. The institutional winner was the Sikkim State Disaster Management Authority.\n2. The individual winner was Lt Col Sita Ashok Shelke of Maharashtra.\n3. The award was instituted in 2019 by the Ministry of Home Affairs and was announced on 23 January.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P6.F3"
+   ],
+   "explanation": "All three statements are correct: Sikkim State Disaster Management Authority won in the institutional category, and Lt Col Sita Ashok Shelke won in the individual category. The award was instituted in 2019 by the Ministry of Home Affairs and announced on 23 January."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Award structure and cash amounts",
+   "question": "Consider the following statements about the Jeevan Raksha Padak Awards 2025:\n1. There were 30 awardees, including 6 Sarvottam, 6 Uttam and 18 Jeevan Raksha Padak awardees.\n2. Six awards were posthumous.\n3. The cash amount for a Sarvottam Jeevan Raksha Padak was ₹1.5 lakh.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F3"
+   ],
+   "explanation": "Only statements 1 and 2 are correct. The Sarvottam Jeevan Raksha Padak carried ₹2 lakh, not ₹1.5 lakh; ₹1.5 lakh was the amount for the Uttam category."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Award amount and jury",
+   "question": "Assertion (A): The Indira Gandhi Peace Prize 2025 carried a cash award of ₹2 crore.\nReason (R): The jury for the award was chaired by Shivshankar Menon.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "Assertion A is false because the Indira Gandhi Peace Prize 2025 carried ₹1 crore, not ₹2 crore. Reason R is true: the jury was chaired by Shivshankar Menon."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Prize and administering institution",
+   "question": "Consider the following statements about the Tyler Prize 2026:\nStatement A: Dr. Toby Kiers received the prize for work on underground mycorrhizal fungal networks.\nStatement B: The Tyler Prize was established in 1973 and is administered by the University of Southern California.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2"
+   ],
+   "explanation": "Both statements are true. Dr. Toby Kiers was recognised for work on underground mycorrhizal fungal networks, and the Tyler Prize was established in 1973 and is administered by the University of Southern California."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award recipient",
+   "question": "Who received the UN Secretary-General Award 2025 for peacekeeping in Africa?",
+   "options": [
+    "Major Swati Shant Kumar",
+    "Dr. Toby Kiers",
+    "Prof. Nalini Joshi",
+    "Lt Col Sita Ashok Shelke"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "Indian Army Major Swati Shant Kumar received the UN Secretary-General Award 2025 for peacekeeping in Africa. The award was associated with the initiative ‘Equal Partners, Lasting Peace’, focused on gender-responsive peacekeeping."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Space career",
+   "question": "Which of the following statements about Sunita Williams is incorrect?",
+   "options": [
+    "She joined NASA in 1998 and had a 27-year association with it.",
+    "She served as Commander of ISS Expedition-33.",
+    "She completed three ISS missions, spent 608 days in space and undertook nine spacewalks.",
+    "She completed three ISS missions, spent 608 days in space and undertook three spacewalks."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2"
+   ],
+   "explanation": "The incorrect statement changes the number of spacewalks from nine to three. Sunita Williams completed three ISS missions, spent 608 days in space and undertook nine spacewalks."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award category",
+   "question": "In which category did Dr. Chandrakant Lahariya receive the Wiley Research Heroes Award 2025?",
+   "options": [
+    "Impact Beyond Academia",
+    "Wiley",
+    "Hoboken, New Jersey",
+    "USD 2,000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "Dr. Chandrakant Lahariya received the Wiley Research Heroes Award 2025 in the category ‘Impact Beyond Academia’. He was the first and only Indian among the five winners selected from more than 2,000 nominations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Damehood",
+   "question": "Which British-Indian actress was made a Dame in the New Year Honours, with the honour conferred by King Charles III?",
+   "options": [
+    "Meera Syal",
+    "Meena Upadhyay",
+    "Droupadi Murmu",
+    "Graça Machel"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "British-Indian actress Meera Syal was made a Dame in the New Year Honours, conferred by King Charles III. Geneticist Prof. Meena Upadhyay was also made a Dame, but she is not the actress referred to."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First/only distinction",
+   "question": "Who became the first mathematician to win the New South Wales Scientist of the Year award in 2025?",
+   "options": [
+    "Prof. Nalini Joshi",
+    "Dr. Chandrakant Lahariya",
+    "Srinivas Kulkarni",
+    "Meera Syal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "Indian-origin mathematician Prof. Nalini Joshi became the first mathematician to win the New South Wales Scientist of the Year award. Her field is integrable systems, and she was the first woman Professor of Mathematics at the University of Sydney."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award received",
+   "question": "Which award did Indian-origin American astronomer Srinivas Kulkarni receive from the Royal Astronomical Society?",
+   "options": [
+    "Royal Astronomical Society Gold Medal",
+    "Shaw Prize",
+    "Tyler Prize",
+    "Officer of the Order of Australia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F2"
+   ],
+   "explanation": "Srinivas Kulkarni received the Royal Astronomical Society Gold Medal, an award given since 1824. He had earlier received the Shaw Prize in 2024, but that is distinct from the RAS Gold Medal."
+  }
+ ]
+}

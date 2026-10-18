@@ -1,0 +1,169 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launched by and venue",
+   "question": "Who launched the first edition of the Responsible Nations Index 2026, and where was it launched?",
+   "options": [
+    "Ex-President Ram Nath Kovind at Dr. Ambedkar International Centre",
+    "World Intellectual Foundation at Dr. Ambedkar International Centre",
+    "Ex-President Ram Nath Kovind at the World Intellectual Foundation, New Delhi",
+    "Ex-President Ram Nath Kovind at the United Nations Framework Convention on Climate Change venue"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "The first edition of the Responsible Nations Index 2026 was launched by ex-President Ram Nath Kovind at Dr. Ambedkar International Centre. The World Intellectual Foundation was the organisation behind the index, not the launch venue."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Rank in index",
+   "question": "Which of the following statements about the Responsible Nations Index 2026 is incorrect?",
+   "options": [
+    "Singapore ranked first.",
+    "Switzerland ranked second.",
+    "Denmark ranked third.",
+    "Singapore ranked second."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4",
+    "P3.F5"
+   ],
+   "explanation": "The incorrect statement is that Singapore ranked second; Singapore ranked first. Switzerland ranked second, while Denmark ranked third."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Long-term risk",
+   "question": "Assertion (A): Biodiversity loss and ecosystem collapse was identified as the most severe long-term risk in the WEF Global Risks Report 2026.\nReason (R): The report assessed risks over a 10-year horizon for its long-term outlook.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F3"
+   ],
+   "explanation": "Both statements are true, and the 10-year horizon provides the report’s long-term framework in which biodiversity loss and ecosystem collapse was assessed as most severe. The report also identified AI adverse outcomes as the fifth long-term risk, not the most severe one."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Nature finance imbalance",
+   "question": "With reference to the UNEP State of Finance for Nature 2026, consider the following statements:\n1. For every USD 1 spent on protecting nature, approximately USD 30 goes to nature-degrading activities.\n2. Investment in Nature-based Solutions was USD 220 billion.\n3. Private finance constituted approximately 90% of Nature-based Solutions finance.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F5",
+    "P5.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the imbalance was approximately 30:1, and Nature-based Solutions investment was USD 220 billion. Statement 3 is incorrect because public finance constituted approximately 90%, while private finance constituted 10%."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Nature finance amounts",
+   "question": "How many of the following findings of the UNEP State of Finance for Nature 2026 are correct?\n1. Nature-negative flows in 2023 were USD 7.3 trillion.\n2. The private share of nature-negative flows was USD 4.9 trillion.\n3. Environmentally harmful subsidies amounted to USD 2.4 trillion per year.\n4. USD 571 billion per year was needed by 2030, representing 2.5 times the amount.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3",
+    "P5.F4",
+    "P5.F7"
+   ],
+   "explanation": "Exactly three statements are correct: the values were USD 7.3 trillion, USD 4.9 trillion and USD 2.4 trillion per year, while USD 571 billion per year was needed by 2030. The last figure represented 2.5 times the existing level, so all four statements are not correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global unemployment",
+   "question": "According to the ILO Employment and Social Trends 2026, what was the projected global unemployment rate in 2026?",
+   "options": [
+    "4.9%",
+    "60.5%",
+    "1.0%",
+    "408 million"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F3"
+   ],
+   "explanation": "Global unemployment was projected at 4.9% in 2026, corresponding to approximately 186 million people. The figures 60.5% and 1.0% refer to the participation rate and employment growth respectively, while 408 million was the jobs gap."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in manufacturing index",
+   "question": "What was India’s rank in the Asia Manufacturing Index 2026?",
+   "options": [
+    "1st",
+    "2nd",
+    "3rd",
+    "6th"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "India ranked 6th in the Asia Manufacturing Index 2026. China, Malaysia and Vietnam occupied the first, second and third positions respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Country rank in diabetes prevalence",
+   "question": "In the Lancet Diabetes & Endocrinology study based on 2024 data, which country ranked second in the number of adults with diabetes?",
+   "options": [
+    "China",
+    "India",
+    "United States",
+    "Pakistan"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "India ranked second with approximately 90 million adults with diabetes. China ranked first with 148 million, while the United States ranked third with 39 million; Pakistan may overtake the United States in the future."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ageing classification and state rank",
+   "question": "Consider the following statements:\nStatement A: Andhra Pradesh had a share of 16.4% of people aged 60 years and above in 2026.\nStatement B: Telangana ranked fifth on ageing indicators.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "Both statements are false. Andhra Pradesh’s share was 14.1% in 2026 and was projected to reach 16.4% in 2031; Andhra Pradesh ranked fifth on ageing indicators, while Telangana ranked tenth."
+  }
+ ]
+}

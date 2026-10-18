@@ -1,0 +1,92 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Day and date",
+   "question": "National Youth Day is observed in India on which date in January?",
+   "options": [
+    "12 January",
+    "15 January",
+    "23 January",
+    "25 January"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "National Youth Day is observed on 12 January to commemorate the birth anniversary of Swami Vivekananda. 15 January is associated with Army Day, while 23 January is observed as Parakram Diwas."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Date and institutional approval",
+   "question": "Assertion (A): World Braille Day is observed on 4 January.\nReason (R): The United Nations General Assembly approved World Braille Day in 2019.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "Assertion A is true because World Braille Day is observed on 4 January, the birth anniversary of Louis Braille. Reason R is false: the United Nations General Assembly approved it in 2018, and it was observed from 2019."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Important days and associated facts",
+   "question": "Consider the following statements about important days observed in January 2026:\n1. Army Day is associated with K. M. Cariappa becoming the first Indian Commander-in-Chief on 15 January 1949.\n2. NDRF Raising Day marks the establishment of the NDRF on 19 January 2006.\n3. The 16th National Voters' Day has the theme “My India, My Vote” and the tagline “Citizen at the Heart of Indian Democracy”.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F10",
+    "P1.F14"
+   ],
+   "explanation": "All three statements are correct. Army Day recalls K. M. Cariappa’s appointment as the first Indian Commander-in-Chief on 15 January 1949; NDRF was established on 19 January 2006; and National Voters’ Day carries the stated theme and tagline."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Event venue and distinction",
+   "question": "Wings India 2026, described as Asia’s largest civil aviation event, was held at which venue?",
+   "options": [
+    "Begumpet Airport, Hyderabad",
+    "Yashobhoomi, New Delhi",
+    "Bharat Mandapam",
+    "Madinat Jumeirah, Dubai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Wings India 2026 was held from 28 to 31 January at Begumpet Airport, Hyderabad. Yashobhoomi hosted the Bharat Electricity Summit, while Bharat Mandapam hosted the Second Global Buddhist Summit."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Summit date, venue and distinction",
+   "question": "Consider the following statements about the India–AI Impact Summit:\nStatement A: The summit was scheduled for 19–20 February in New Delhi.\nStatement B: It was announced at the AI Action Summit in Germany.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Statement A is true: the India–AI Impact Summit was scheduled for 19–20 February in New Delhi and was the first international AI summit in the Global South. Statement B is false because it was announced at the AI Action Summit in France, not Germany."
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "System showcased",
+   "question": "Which missile system was showcased by DRDO at the Republic Day Parade 2026?",
+   "options": [
+    "Long Range Anti-Ship Missile (LRAShM)",
+    "Matsya-6000",
+    "Pechora SAM",
+    "PARAM Rudra"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The Long Range Anti-Ship Missile (LRAShM) was showcased by DRDO at the Republic Day Parade 2026. Matsya-6000 is a deep-sea submersible, while Pechora is a surface-to-air missile system."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Missile type and platform",
+   "question": "Assertion (A): LRAShM is a hypersonic glide vehicle missile.\nReason (R): LRAShM can be deployed from land and naval platforms.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F6"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: LRAShM is an HGV missile and can operate from land and naval platforms. However, its platform options do not explain why it is classified as an HGV missile."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Deep Ocean Mission depth",
+   "question": "Under the Deep Ocean Mission, to what depth is the Matsya-6000 designed to take human aquanauts?",
+   "options": [
+    "500 m",
+    "6,000 m",
+    "20–25 km",
+    "1,500 km"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "Matsya-6000 is designed for human dives to 6,000 m under the Deep Ocean Mission. The 500 m figure refers to its first trials, while 20–25 km is an altitude figure associated with the Pechora system."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Supercomputer and inauguration",
+   "question": "Which indigenous supercomputer developed at IIT Madras was inaugurated on 8 January 2026?",
+   "options": [
+    "PARAM Rudra",
+    "SCORP",
+    "Coromandel Corporate Research Centre",
+    "Catalyst Satellite Centre"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "PARAM Rudra, a 3.1 petaflop indigenous supercomputer developed at IIT Madras, was inaugurated on 8 January 2026. SCORP is a legged mobile manipulator, while the other two options are research-centre initiatives."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "IIT innovations",
+   "question": "Consider the following statements about January 2026 IIT innovations:\n1. PARAM Rudra is a 3.1 petaflop indigenous supercomputer inaugurated on 8 January 2026.\n2. IIT Guwahati developed a photocatalyst that converts carbon dioxide into methanol using sunlight.\n3. SCORP is India's first wheeled mobile manipulator.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F4",
+    "P4.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: PARAM Rudra has a capacity of 3.1 petaflops, and IIT Guwahati's photocatalyst converts carbon dioxide into methanol using sunlight. Statement 3 is incorrect because SCORP is India's first legged mobile manipulator, not a wheeled one."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mpemba effect",
+   "question": "Which institution produced the world's first supercomputer simulation explaining the Mpemba effect?",
+   "options": [
+    "JNCASR, Bengaluru",
+    "NCBS, Bengaluru",
+    "PRL, Ahmedabad",
+    "Johns Hopkins University"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "JNCASR in Bengaluru produced the world's first supercomputer simulation explaining the Mpemba effect, in which hot water freezes faster. NCBS is associated with DisoBind, while PRL is associated with the DEX instrument."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "AI chip and drug software",
+   "question": "Consider the following statements:\nStatement A: Maia 200 was first deployed in Texas.\nStatement B: PATH-GENI is open-source software for studying ligand unbinding pathways and drug residence time.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F4"
+   ],
+   "explanation": "Statement A is false because Maia 200 was first deployed in Iowa, not Texas. Statement B is true: PATH-GENI is open-source software for ligand unbinding pathways and drug residence time."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indigenous upgrade agency",
+   "question": "Which organisation completed the indigenous upgrade of the Indian Air Force's Pechora surface-to-air missile system?",
+   "options": [
+    "Alpha Design Technologies Ltd",
+    "DRDO",
+    "C-DAC",
+    "NIOT"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "Alpha Design Technologies Ltd (ADTL), Bengaluru, completed the indigenous upgrade of the IAF's Pechora surface-to-air missile system. DRDO is associated with the LRAShM, C-DAC with PARAM Rudra servers, and NIOT with Matsya-6000."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch venue and date",
+   "question": "Where and when was the Telangana AI Innovation Hub (TAIH) launched?",
+   "options": [
+    "WEF Davos, 20 January 2026",
+    "Republic Day Parade, 26 January 2026",
+    "NIOT Chennai, 8 January 2026",
+    "CSIR-NPL, 20 January 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "TAIH was launched by Chief Minister A. Revanth Reddy at WEF Davos on 20 January 2026. The Republic Day Parade was associated with the showcasing of LRAShM, while NIOT Chennai is associated with Matsya-6000."
+  }
+ ]
+}

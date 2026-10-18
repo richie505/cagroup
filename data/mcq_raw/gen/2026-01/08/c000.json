@@ -1,0 +1,113 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in index",
+   "question": "In the NITI Aayog Export Preparedness Index 2024, what was the rank of Andhra Pradesh among large States?",
+   "options": [
+    "3rd",
+    "4th",
+    "5th",
+    "8th"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "Andhra Pradesh ranked 5th among large States in the NITI Aayog Export Preparedness Index 2024. The 8th position belonged to Telangana, while Gujarat and Uttar Pradesh ranked 3rd and 4th respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Index pillar weight",
+   "question": "With reference to Andhra Pradesh's performance in the NITI Aayog Export Preparedness Index 2024, consider the following statements:\nStatement A: Andhra Pradesh ranked 8th among large States.\nStatement B: The business environment pillar carried a weight of 40 percent.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F8"
+   ],
+   "explanation": "Statement A is false because Andhra Pradesh ranked 5th; Telangana ranked 8th. Statement B is true, as the business environment pillar had a 40 percent weight, the highest among the four pillars."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Sectoral exports",
+   "question": "With reference to Andhra Pradesh's exports highlighted in the NITI Aayog Export Preparedness Index 2024, consider the following statements:\n1. Marine exports from Andhra Pradesh amounted to ₹24,679 crore and accounted for about 60 percent of India's marine exports.\n2. Andhra Pradesh's pharma exports amounted to ₹18,410 crore and ranked 5th.\n3. Andhra Pradesh's total exports in 2024 amounted to ₹1.56 lakh crore.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: marine exports were ₹24,679 crore and pharma exports were ₹18,410 crore, ranked 5th. Statement 3 is incorrect because Andhra Pradesh's total exports in 2024 were ₹1.65 lakh crore, not ₹1.56 lakh crore."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "India's passport rank",
+   "question": "Assertion (A): India ranked 85th in the Henley Passport Index 2026.\nReason (R): Indian passport holders could access 55 destinations visa-free or with visa on arrival in 2026.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Assertion A is false: India ranked 80th in the Henley Passport Index 2026. Reason R is true, as Indian passport holders had visa-free or visa-on-arrival access to 55 destinations; the 85th rank and 57 destinations belonged to 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in military strength index",
+   "question": "What was India's rank in the Global Firepower Index 2026?",
+   "options": [
+    "2nd",
+    "3rd",
+    "4th",
+    "5th"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "India ranked 4th in the Global Firepower Index 2026. Russia and China occupied the 2nd and 3rd positions, while South Korea ranked 5th."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Top rank and index methodology",
+   "question": "How many of the following statements correctly describe the Global Firepower Index 2026?\n1. The United States ranked 1st.\n2. Russia ranked 3rd.\n3. China ranked 3rd.\n4. A lower score indicated a weaker military.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F3",
+    "P2.F12"
+   ],
+   "explanation": "Exactly two statements are correct: the United States ranked 1st and China ranked 3rd. Russia ranked 2nd, not 3rd, and a lower score indicated greater strength, not weakness."
+  }
+ ]
+}

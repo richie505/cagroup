@@ -1,0 +1,187 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Gharial habitat rank",
+   "question": "Which riverine habitat was reported as India's second-largest gharial habitat, with more than 400 adult gharials in 2025?",
+   "options": [
+    "Gandak River",
+    "Chambal River",
+    "Ganga River",
+    "Tapti River"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F3"
+   ],
+   "explanation": "The Gandak River in West Champaran, Bihar, was reported as India's second-largest gharial habitat, with 400+ adult gharials in 2025. The Chambal remains the largest habitat, with 2,400+ gharials."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Kaziranga elevated corridor",
+   "question": "With reference to the elevated corridor inaugurated in Kaziranga National Park, consider the following statements:\n1. The corridor is 34.5 km long.\n2. Kaziranga lies between the Brahmaputra and the Karbi Hills.\n3. Kaziranga National Park was established in 1985.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the inaugurated elevated corridor is 34.5 km long, and Kaziranga lies between the Brahmaputra and Karbi Hills. Statement 3 is incorrect because Kaziranga National Park was established in 1974; 1985 refers to its UNESCO World Heritage Site status."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First butterfly sanctuary in Kerala",
+   "question": "Which wildlife sanctuary was renamed Kerala's first butterfly sanctuary?",
+   "options": [
+    "Aralam Wildlife Sanctuary",
+    "Kottiyoor Wildlife Sanctuary",
+    "Brahmagiri Wildlife Sanctuary",
+    "Kumbhalgarh Wildlife Sanctuary"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F4"
+   ],
+   "explanation": "Aralam Wildlife Sanctuary in Kannur district was renamed Aralam Butterfly Sanctuary and became Kerala's first butterfly sanctuary. Kottiyoor and Brahmagiri are bordering wildlife sanctuaries, while Kumbhalgarh is in Rajasthan."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Butterfly sanctuary facts",
+   "question": "How many of the following statements about Aralam Butterfly Sanctuary are correct?\n1. It has 266 of Kerala's 327 butterfly species.\n2. More than 8 lakh Albatross butterflies were recorded on 11 January 2025.\n3. The sanctuary is located in Kannur district.\n4. It has about 100 sq km of area.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F5"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: Aralam has 266 of Kerala's 327 butterfly species, recorded 8 lakh+ Albatross butterflies on 11 January 2025, and is in Kannur district. Statement 4 is incorrect because the sanctuary covers about 55 sq km, not 100 sq km."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Geographical Indication tag",
+   "question": "Consider the following statements:\nStatement A: Nagauri Ashwagandha from Nagaur, Rajasthan, received a Geographical Indication tag.\nStatement B: Nagauri Ashwagandha became Rajasthan's third agricultural GI after Sojat Mehndi.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "Statement A is true: Nagauri Ashwagandha from Nagaur received a GI tag. Statement B is false because it became Rajasthan's second agricultural GI after Sojat Mehndi, not the third."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Eco-Sensitive Zone extent",
+   "question": "Which of the following statements about the Eco-Sensitive Zone around Kumbhalgarh Wildlife Sanctuary is incorrect?",
+   "options": [
+    "It was notified by the Ministry of Environment, Forest and Climate Change.",
+    "It is located in Rajasthan's Aravallis.",
+    "The notified zone extends from 0 to 1 km around the sanctuary.",
+    "The sanctuary was established in 1986."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F3"
+   ],
+   "explanation": "The incorrect statement is that Kumbhalgarh Wildlife Sanctuary was established in 1986. It was established in 1971; the other statements correctly describe its notification, location and 0-to-1-km Eco-Sensitive Zone."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "International Year and rangelands",
+   "question": "Assertion (A): Rangelands are grasslands used for grazing.\nReason (R): Rangelands include savannas, steppes and prairies.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the forms listed in the Reason describe the types of rangelands used as grazing grasslands. The United Nations declared 2026 the International Year of Rangelands and Pastoralists."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate finance requirement",
+   "question": "According to the ICIMOD report, how much does India need annually for Himalayan climate adaptation and mitigation?",
+   "options": [
+    "USD 102 billion",
+    "USD 605 billion",
+    "USD 768.7 billion",
+    "USD 65 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2"
+   ],
+   "explanation": "The ICIMOD report estimated India's annual requirement at about USD 102 billion for Himalayan adaptation and mitigation. USD 768.7 billion is the annual requirement for the entire HKH region, while USD 605 billion is the combined requirement of India and China."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sea-level rise from glacier collapse",
+   "question": "What sea-level rise could result from the full collapse of Thwaites Glacier?",
+   "options": [
+    "About 65 cm",
+    "About 165 cm",
+    "About 335 cm",
+    "About 40 cm"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2",
+    "P11.F3"
+   ],
+   "explanation": "The full collapse of Thwaites Glacier could cause about 65 cm of sea-level rise. The figures 165 km and 335 km refer to the increase in fracture length between 2002 and 2022, not to sea-level rise."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Vulture release",
+   "question": "Which organisation released 15 critically endangered Indian vultures at Melghat Tiger Reserve?",
+   "options": [
+    "Bombay Natural History Society",
+    "Wildlife Trust of India",
+    "Bihar forest department",
+    "Ministry of Environment, Forest and Climate Change"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2"
+   ],
+   "explanation": "The Bombay Natural History Society released 15 critically endangered Indian vultures at Melghat Tiger Reserve in Maharashtra. Wildlife Trust of India and the Bihar forest department were associated with gharial conservation efforts at the Gandak habitat."
+  }
+ ]
+}

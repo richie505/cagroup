@@ -1,0 +1,132 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launched by",
+   "question": "The Chips to Startup (C2S) programme, aimed at developing semiconductor design talent, was launched in 2022 by which organisation?",
+   "options": [
+    "Ministry of Electronics and Information Technology (MeitY)",
+    "Department of Scientific and Industrial Research (DSIR)",
+    "Indian Institute of Technology Kanpur",
+    "ALICE collaboration at CERN"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "The Chips to Startup programme was launched in 2022 by MeitY to develop semiconductor design talent. DSIR, IIT Kanpur and the ALICE collaboration are associated with other science and technology developments, not the launch of C2S."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Implementing organisation",
+   "question": "The relaxation of recognition norms for deep-tech startups under the Industrial Research and Development Promotion Programme (IRDPP) was implemented by which organisation?",
+   "options": [
+    "Department of Scientific and Industrial Research (DSIR)",
+    "Ministry of Electronics and Information Technology (MeitY)",
+    "Bharat Sanchar Nigam Limited (BSNL)",
+    "ALICE collaboration"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "DSIR implemented the relaxed recognition norms for deep-tech startups under IRDPP. MeitY, BSNL and the ALICE collaboration are linked to different initiatives in science, technology and communications."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Nationwide rollout and features",
+   "question": "Which of the following statements about BSNL’s nationwide Voice over WiFi rollout is incorrect?",
+   "options": [
+    "BSNL rolled out VoWiFi across all circles.",
+    "The rollout took place on 1 January 2026.",
+    "The VoWiFi service was provided free of charge.",
+    "The rollout used a circuit-switched mobile network rather than IMS."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2"
+   ],
+   "explanation": "The incorrect statement is that the rollout used a circuit-switched mobile network; BSNL’s VoWiFi rollout was IMS-based. The other statements correctly identify the nationwide coverage, rollout date and free service."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Solar-cycle prediction",
+   "question": "Consider the following statements:\nStatement A: IIT Kanpur developed a new method to predict solar cycles.\nStatement B: A solar cycle lasts approximately 11 years and involves the flipping of magnetic poles.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2"
+   ],
+   "explanation": "Both statements are true. IIT Kanpur developed the new prediction method, while a solar cycle is approximately 11 years and includes a reversal of the Sun’s magnetic poles."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Deuteron properties and ALICE study",
+   "question": "Consider the following statements about the deuteron study by the ALICE collaboration at CERN:\n1. A deuteron consists of 1 proton and 1 neutron.\n2. A deuteron has charge +1 and spin 1.\n3. The ALICE collaboration explained how protons survive collisions.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: a deuteron is the nucleus of deuterium, containing 1 proton and 1 neutron, with charge +1 and spin 1. Statement 3 is incorrect because the ALICE collaboration explained how deuterons survive collisions, not protons."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Biomaterial categories",
+   "question": "Assertion (A): Drop-in biomaterials are chemically identical to their conventional counterparts, as in bio-PET.\nReason (R): Drop-out biomaterials are chemically different, as in PLA.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "Both the assertion and the reason are true. However, the different chemical identity of drop-out biomaterials does not explain why drop-in biomaterials are chemically identical; the two statements describe separate categories."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Social cost of AI companions",
+   "question": "How many of the following statements correctly reflect the rise and social concerns surrounding AI companions?\n1. AI companions are described as part of a “loneliness economy”.\n2. Emotional dependency is a concern associated with AI companions.\n3. AI companions are already regulated as social infrastructure.\n4. Substitution of human care in elder care is encouraged.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2",
+    "P14.F3"
+   ],
+   "explanation": "Only statements 1 and 2 are correct, so the answer is Only two. AI companions are associated with the “loneliness economy”, and emotional dependency is a concern; they are treated as entertainment rather than already regulated social infrastructure, while substitution of human care is proposed to be prohibited."
+  }
+ ]
+}

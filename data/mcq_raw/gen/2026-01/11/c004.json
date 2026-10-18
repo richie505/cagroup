@@ -1,0 +1,100 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Festival and venue",
+   "question": "Which festival began on 16 January at Spituk Monastery near Leh and features Cham masked dances?",
+   "options": [
+    "Bagurumba",
+    "Spituk Gustor",
+    "Boda Tyohar",
+    "Kerala Kumbhamela"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "Spituk Gustor began on 16 January at Spituk Monastery near Leh and is associated with Cham masked dances. Bagurumba, Boda Tyohar and Kerala Kumbhamela are different festivals or dance traditions described in the news."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Electrification milestone",
+   "question": "With reference to Indian Railways’ electrification achievement, identify the incorrect statement:",
+   "options": [
+    "More than 99% of approximately 70,000 broad-gauge route-km had been electrified by November 2024.",
+    "The pace of electrification rose from 1.5 km per day during 2004–14 to more than 15 km per day during the last six years.",
+    "Solar capacity increased from less than 4 MW in 2014 to approximately 900 MW in 2025.",
+    "Indian Railways was established in 1853 and is the fourth-largest railway network by size."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2",
+    "P11.F3"
+   ],
+   "explanation": "The incorrect statement is the first one because more than 99% of approximately 70,000 broad-gauge route-km had been electrified by November 2025, not November 2024. The other statements correctly describe the pace of electrification, solar-capacity growth and the historical position of Indian Railways."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Cultural mapping project",
+   "question": "Assertion (A): Na Ooru – Na Vaarasatvam is a Ministry of Culture project under the National Mission on Cultural Mapping.\nReason (R): Telangana has 12,760 villages documented under the project, including Bhadrachalam, Ramappa and Yadagirigutta.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, Telangana’s documentation figure and the named villages do not explain why the project is a Ministry of Culture initiative under the National Mission on Cultural Mapping."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Features of Kathputli",
+   "question": "Consider the following statements about Kathputli folk art:\n1. It is a traditional string puppet theatre of Rajasthan.\n2. Its puppets generally have 5–8 strings.\n3. Its musical accompaniment includes the dholak and harmonium.",
+   "options": [
+    "1 and 3 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2",
+    "P13.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Kathputli is Rajasthan’s traditional string puppet theatre, accompanied by instruments such as the dholak and harmonium. Statement 2 is incorrect because the puppets use 2–5 strings, not 5–8 strings."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Jodhpuri jacket history",
+   "question": "How many of the following statements about the bandhgala and its background are correct?\n1. Railway staff were asked to stop wearing the bandhgala, which was described as a colonial relic.\n2. The bandhgala originated in the princely state of Jodhpur under the Rathore dynasty.\n3. The immediate precursor of the bandhgala was the Achkan.\n4. The bandhgala is historically colonial in origin.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2",
+    "P14.F3",
+    "P14.F6"
+   ],
+   "explanation": "Only three statements are correct: the statements about railway staff, Jodhpur’s Rathore dynasty and the Achkan are correct. Statement 4 is incorrect because the bandhgala is historically indigenous, not colonial."
+  }
+ ]
+}

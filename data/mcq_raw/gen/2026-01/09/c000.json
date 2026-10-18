@@ -1,0 +1,62 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Total number of awards",
+   "question": "How many Padma Awards were announced for 2026?",
+   "options": [
+    "131",
+    "113",
+    "5",
+    "13"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "A total of 131 Padma Awards were announced for 2026. The figure 113 refers specifically to Padma Shri awards, not the overall total."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Category-wise award numbers",
+   "question": "With reference to the Padma Awards 2026, consider the following statements:\n1. The number of women awardees was 19.\n2. The number of posthumous awardees was 19.\n3. The number of foreign awardees was 2.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Only statement 1 is correct: there were 19 women awardees. The number of posthumous awardees was 16, while the number of foreign awardees was 6, making statements 2 and 3 incorrect."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Awardee and field",
+   "question": "With reference to the Padma Awards 2026, consider the following:\nAssertion (A): Alka Yagnik received the Padma Bhushan in Arts from Kerala.\nReason (R): Alka Yagnik received the Padma Bhushan in Arts and was associated with Maharashtra.\n",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Assertion (A) is false because Alka Yagnik was associated with Maharashtra, not Kerala. Reason (R) is true: she received the Padma Bhushan in Arts and was associated with Maharashtra."
+  }
+ ]
+}

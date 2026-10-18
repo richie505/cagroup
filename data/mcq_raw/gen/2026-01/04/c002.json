@@ -1,0 +1,99 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "World's largest rice producer",
+   "question": "According to the official figures announced in 2025, which country overtook China to become the world's largest rice producer?",
+   "options": [
+    "India",
+    "China",
+    "Vietnam",
+    "Thailand"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F13"
+   ],
+   "explanation": "India became the world's largest rice producer, producing 150.18 million tonnes compared with China's 145.28 million tonnes. China is the country that India overtook, not the correct answer."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Sustainable rice production and methane",
+   "question": "Consider the following statements:\nStatement A: Transplanted paddy requires 25–27 irrigations in a season.\nStatement B: Flooded transplanted paddy increases methane emissions because of anaerobic conditions.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F6",
+    "P8.F12"
+   ],
+   "explanation": "Both statements are true: transplanted paddy requires 25–27 irrigations, and continuously flooded conditions increase methane through anaerobic processes. The statement that flooded paddy does not increase methane is therefore incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Marine export value",
+   "question": "During April–October 2025, what was the value of India's marine exports, after rising 16% in value?",
+   "options": [
+    "$4.87 billion",
+    "$5.75 billion",
+    "$4.19 billion",
+    "$845.67 million"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2",
+    "P9.F5"
+   ],
+   "explanation": "India's marine exports were valued at $4.87 billion during April–October 2025, up from $4.19 billion. The $5.75 billion figure relates to the April–November period, while $845.67 million was the value associated with China."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "US tariffs on Indian shrimp",
+   "question": "Which of the following statements regarding India's seafood exports amid US tariffs is incorrect?",
+   "options": [
+    "US duties on Indian shrimp were nearly 60%, combining anti-dumping, countervailing and additional duties.",
+    "The United States remained India's single largest seafood market.",
+    "Exports to the United States declined by 4% in value and 11% in quantity.",
+    "Frozen Rohu shrimp was India's main seafood export item."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4",
+    "P9.F6"
+   ],
+   "explanation": "The incorrect statement is that frozen Rohu shrimp was the main export item; the main item was frozen Vannamei shrimp. The other statements correctly describe the nearly 60% US duties, the United States' position as India's largest seafood market, and the decline in exports to that market."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Agricultural growth and milk production",
+   "question": "With reference to India's agricultural performance during 2014–15 to 2024–25, consider the following statements:\n1. Agriculture grew at 4.45% per year, the highest ever.\n2. The crop share of output increased from 54.33% to 63.75%.\n3. India produced 239 million tonnes of milk and was the world's largest producer.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2",
+    "P10.F5"
+   ],
+   "explanation": "Statements 1 and 3 are correct: agriculture grew at 4.45% annually, and milk production reached 239 million tonnes with India as the world's largest producer. Statement 2 is incorrect because the crop share declined from 63.75% to 54.33%, rather than increasing."
+  }
+ ]
+}

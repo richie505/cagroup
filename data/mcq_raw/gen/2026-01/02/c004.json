@@ -1,0 +1,44 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  20
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First in India / Launched by",
+   "question": "C-Mitra, launched in Hyderabad in January 2026, is associated with which initiative?",
+   "options": [
+    "India's first virtual helpdesk for cybercrime victims, launched by Hyderabad City Police",
+    "An app of the State Election Commission for reporting code-violation complaints",
+    "A toll-free anti-corruption complaint service operated through 1064",
+    "A voter-list management system for 116 municipalities and 7 corporations"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F5",
+    "P20.F3",
+    "P20.F4",
+    "P20.F7"
+   ],
+   "explanation": "C-Mitra is India's first virtual helpdesk for cybercrime victims. It was launched by Hyderabad City Police on 9 January 2026 by Commissioner of Police V. C. Sajjanar. The tempting alternative involving code-violation complaints refers to the SEC's TE-Poll app, not C-Mitra."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Police reorganisation",
+   "question": "With reference to the police reorganisation in Telangana, consider the following statements:\nStatement A: The reorganisation provided for four commissionerates—Hyderabad, Cyberabad, Malkajgiri and Future City.\nStatement B: Malkajgiri was renamed Rachakonda.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F6"
+   ],
+   "explanation": "Both statements are true. The four commissionerates are Hyderabad, Cyberabad, Malkajgiri and the new Future City, while Malkajgiri was renamed Rachakonda. Therefore, the options treating either statement as false are incorrect."
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP growth",
+   "question": "According to the Economic Survey 2025–26, what was the estimated GDP growth for 2025–26?",
+   "options": [
+    "6.8%",
+    "7.4%",
+    "5.9%",
+    "8.1%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Economic Survey 2025–26 estimated GDP growth at 7.4% for 2025–26. The 6.8% figure relates to the lower end of the projection range for 2026–27, not the estimate for 2025–26."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Economic indicators and projections",
+   "question": "With reference to the highlights of the Economic Survey 2025–26, consider the following statements:\n\n1. GDP growth for 2025–26 was estimated at 7.4%.\n2. The projection for 2026–27 was 6.2%.\n3. Foreign exchange reserves stood at USD 701.4 billion on 16 January 2026.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F8"
+   ],
+   "explanation": "Statements 1 and 3 are correct: GDP growth was estimated at 7.4%, and foreign exchange reserves were USD 701.4 billion on 16 January 2026. Statement 2 is incorrect because the projection for 2026–27 was 6.8–7.2%; 6.2% was the IMF estimate if US tariffs continued."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in investment attraction",
+   "question": "According to the Bank of Baroda report based on CMIE data, which State ranked first in investment attraction during the first nine months of 2025–26?",
+   "options": [
+    "Odisha",
+    "Andhra Pradesh",
+    "Maharashtra",
+    "Telangana"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3",
+    "P1.F4",
+    "P1.F6"
+   ],
+   "explanation": "Andhra Pradesh ranked first, with a 25.3% share of investment attraction during the first nine months of 2025–26. Odisha ranked second with 13.1%, making it the closest competing option."
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  7,
+  9,
+  15
+ ],
+ "only": [
+  "P15.F1",
+  "P4.F1",
+  "P4.F2",
+  "P4.F3",
+  "P4.F4",
+  "P7.F1",
+  "P7.F2",
+  "P9.F1",
+  "P9.F2",
+  "P9.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launching organisation",
+   "question": "The SHINE Scheme was launched at the 79th Foundation Day of which organisation in New Delhi?",
+   "options": [
+    "Bureau of Indian Standards (BIS)",
+    "International Organization for Standardization (ISO)",
+    "International Electrotechnical Commission (IEC)",
+    "Ministry of Consumer Affairs, Food and Public Distribution"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F3"
+   ],
+   "explanation": "SHINE was launched at the 79th Foundation Day of the Bureau of Indian Standards in New Delhi. ISO and IEC are organisations that BIS represents India at, while the Ministry is the administrative ministry associated with BIS."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Anniversary milestone",
+   "question": "Consider the following statements:\nStatement A: The Pradhan Mantri Matru Vandana Yojana completed nine years on 1 January 2026.\nStatement B: The Pradhan Mantri Matru Vandana Yojana was launched on 1 January 2016.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "Statement A is true because PMMVY completed nine years on 1 January 2026. Statement B is false: the scheme was launched on 1 January 2017, not 1 January 2016."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rah-Veer provisions",
+   "question": "With reference to the Rah-Veer (Good Samaritan) Scheme, consider the following statements:\n1. It operates under Section 134A of the Motor Vehicles (Amendment) Act, 2019.\n2. A helper receives a reward of ₹20,000 and may claim it up to five times a year.\n3. The golden hour refers to the first two hours after a traumatic injury.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2",
+    "P9.F3"
+   ],
+   "explanation": "Only statement 1 is correct: the scheme is provided under Section 134A of the Motor Vehicles (Amendment) Act, 2019. The reward is ₹25,000, not ₹20,000, and the golden hour is the first hour after traumatic injury, not the first two hours."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Launch date and ministry",
+   "question": "Consider the following statements about the Pankhudi portal:\nStatement A: It was launched on 8 January 2026 by the Ministry of Women and Child Development.\nStatement B: It was launched on 8 January 2026 by the Ministry of Consumer Affairs, Food and Public Distribution.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F1",
+    "P4.F3"
+   ],
+   "explanation": "Statement A is true: the Ministry of Women and Child Development launched the Pankhudi portal on 8 January 2026. Statement B is false because the Ministry of Consumer Affairs, Food and Public Distribution is associated with BIS, not the launch of Pankhudi."
+  }
+ ]
+}

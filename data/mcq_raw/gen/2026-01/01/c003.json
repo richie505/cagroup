@@ -1,0 +1,174 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Which event was reported in Konaseema district in January 2026, nearly 30 years after the Pasarlapudi blowout?",
+   "options": [
+    "A major gas blowout",
+    "Komarada mud blowout",
+    "Pasarlapudi blowout",
+    "Devarapalli blowout"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "A major gas blowout occurred in Konaseema district in January 2026. The Pasarlapudi blowout was an earlier event, while Komarada and Devarapalli were separate past mishaps."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Past mishap detail",
+   "question": "Which of the following statements about past mishaps in Konaseema is incorrect?",
+   "options": [
+    "The Komarada mud blowout was capped within 5 days.",
+    "The Pasarlapudi blowout occurred in Devarlanka village, Allavaram mandal.",
+    "The Devarapalli blowout was capped after 24 hours.",
+    "The Tandavapalli blowout was capped within 4 hours."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F4",
+    "P11.F5",
+    "P11.F6",
+    "P11.F7"
+   ],
+   "explanation": "The incorrect statement concerns the Devarapalli blowout: it was capped after 42 hours, not 24 hours. The Komarada, Pasarlapudi and Tandavapalli details stated in the other options are correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number/amount",
+   "question": "Under Pallepandaga 2.0, what was the total number of works and financial outlay announced by Deputy Chief Minister Pawan Kalyan?",
+   "options": [
+    "53,382 works and ₹6,700 crore",
+    "25,000 works and ₹2,000 crore",
+    "1,069 works and ₹1,005 crore",
+    "5 projects and ₹7,910 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F5",
+    "P12.F6"
+   ],
+   "explanation": "Pallepandaga 2.0 comprises 53,382 works with an outlay of ₹6,700 crore. The other combinations refer to specific components or separate programmes, not the overall Pallepandaga 2.0 announcement."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rural works targets",
+   "question": "With reference to Pallepandaga 2.0, consider the following statements:\n1. It includes 8,000 km of rural roads.\n2. It includes 25,000 Mini Gokulams.\n3. It includes 15,000+ water tanks as a Pallepandaga 2.0 target.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F3",
+    "P12.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Pallepandaga 2.0 targets 8,000 km of rural roads and 25,000 Mini Gokulams. Statement 3 is incorrect because 15,000+ water tanks were completed under Pallepandaga 1.0."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Airport approval and location",
+   "question": "Dagadarthi greenfield airport, approved by the Andhra Pradesh Cabinet in January 2026, is located in which district?",
+   "options": [
+    "Nellore district",
+    "Krishnapatnam port",
+    "Ramayapatnam port",
+    "Dagadarthi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "The approved Dagadarthi greenfield airport is in Nellore district. Krishnapatnam and Ramayapatnam are the nearby ports, while Dagadarthi is the airport's location rather than the district."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "State Festival date and venue",
+   "question": "Consider the following statements:\nStatement A: Andhra Pradesh will observe the birth anniversary of Vadde Obanna as a State Festival on 11 January every year.\nStatement B: The state-level function will be held at Vijayawada.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2",
+    "P14.F4"
+   ],
+   "explanation": "Statement A is true: the festival will be observed on 11 January every year. Statement B is false because the state-level function is scheduled at Anantapur, not Vijayawada."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Community association",
+   "question": "Vadde Obanna, whose birth anniversary is being observed as a State Festival in Andhra Pradesh, belonged to which community?",
+   "options": [
+    "Vaddera",
+    "Viswakarma",
+    "Valmiki",
+    "Kanakadasa"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F5",
+    "P14.F6",
+    "P14.F7"
+   ],
+   "explanation": "Vadde Obanna belonged to the Vaddera community, classified as a Backward Class associated with stone-cutting and construction. Viswakarma, Valmiki and Kanakadasa are other BC icons whose Jayantis are celebrated."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Announced by and symbolism",
+   "question": "Assertion (A): The self-sacrifice day of Goddess Vasavi Kanyaka Parameswari was announced as a State Festival by Water Resources Minister Nimmala Ramanaidu at her shrine in Penugonda.\nReason (R): The festival symbolises sacrifice, truth and righteousness and conveys a message transcending caste and community.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F2",
+    "P15.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the symbolism of the festival does not explain the minister's announcement at the shrine; the two statements describe separate aspects of the news."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Key number and ritual detail",
+   "question": "In the Jaggannathota Prabhalu Teertham, how many villages send Ekadasha Rudras as Prabhalu?",
+   "options": [
+    "11 villages",
+    "5–6 lakh devotees",
+    "476 villages",
+    "11 January"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F2",
+    "P16.F3",
+    "P16.F4"
+   ],
+   "explanation": "Ekadasha Rudras from 11 villages arrive as Prabhalu during the Jaggannathota Prabhalu Teertham. The figures 5–6 lakh and 476 refer to the number of devotees and the festival's age respectively, while 11 January belongs to the Vadde Obanna observance."
+  }
+ ]
+}

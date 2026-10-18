@@ -1,0 +1,227 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch occasion and venue",
+   "question": "The SHINE Scheme of the Bureau of Indian Standards was launched on which occasion and at which place?",
+   "options": [
+    "The 79th Foundation Day of BIS in New Delhi",
+    "The 79th Foundation Day of BIS at BIS headquarters under the BIS Act, 2016",
+    "The successor ceremony to ISI in New Delhi",
+    "The ISO and IEC representation ceremony in New Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "SHINE was launched at the 79th Foundation Day of the Bureau of Indian Standards in New Delhi. The BIS Act, 2016 and BIS’s representation at ISO and IEC are background facts, not the launch occasion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Disease vector",
+   "question": "Which organism is the vector of Kyasanur Forest Disease, also known as monkey fever?",
+   "options": [
+    "The hard tick Haemaphysalis spinigera",
+    "The virus of the family Flaviviridae",
+    "The virus of the genus Flavivirus",
+    "The disease first identified in Kyasanur Forest, Karnataka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "Kyasanur Forest Disease is transmitted by the hard tick Haemaphysalis spinigera. Flaviviridae is the virus family and Flavivirus is the genus, so neither is the vector."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "WHO classification",
+   "question": "Which of the following statements about scabies is incorrect?",
+   "options": [
+    "Scabies is a contagious parasitic skin disease caused by the mite Sarcoptes scabiei.",
+    "Itching caused by scabies is worse at night.",
+    "The World Health Organization classifies scabies as a Neglected Tropical Disease.",
+    "Scabies is a contagious viral skin disease caused by the mite Sarcoptes scabiei."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "The incorrect statement describes scabies as viral; it is a contagious parasitic skin disease. The other statements correctly identify Sarcoptes scabiei, nighttime itching and its classification by WHO as a Neglected Tropical Disease."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme objective",
+   "question": "What is the principal purpose of the Pradhan Mantri Matru Vandana Yojana?",
+   "options": [
+    "Wage-loss compensation for pregnant and lactating women",
+    "Awareness on the Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+    "Reward of ₹25,000 and a certificate for helpers",
+    "CSR and partnership coordination under the Companies Act, 2013"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P8.F1",
+    "P9.F2",
+    "P15.F1"
+   ],
+   "explanation": "The Pradhan Mantri Matru Vandana Yojana provides wage-loss compensation for pregnant and lactating women. The other options refer to senior-citizen awareness, the Rah-Veer reward and the Pankhudi portal respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Amount released",
+   "question": "Which statement about the Atal Vayo Abhyuday Yojana is incorrect?",
+   "options": [
+    "₹2.91 crore was released for awareness on the Maintenance and Welfare of Parents and Senior Citizens Act, 2007.",
+    "The scheme was launched in 2021.",
+    "The scheme was launched by the Ministry of Social Justice and Empowerment.",
+    "₹2.19 crore was released for awareness on the Maintenance and Welfare of Parents and Senior Citizens Act, 2007."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "The incorrect statement changes the released amount to ₹2.19 crore; the correct amount was ₹2.91 crore. The scheme was launched in 2021 by the Ministry of Social Justice and Empowerment."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Golden hour",
+   "question": "Assertion (A): The Rah-Veer Scheme highlights the golden hour after a traumatic injury.\nReason (R): The golden hour is the first hour after a traumatic injury.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "Both the assertion and the reason are true. Under the Rah-Veer provisions, the golden hour refers to the first hour after a traumatic injury, which explains the assertion."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Extension and subscriber base",
+   "question": "With reference to the extension of the Atal Pension Yojana, consider the following statements:\n1. The Cabinet extended the scheme till Financial Year 2030–31.\n2. The scheme had 8.66 crore subscribers.\n3. The Atal Pension Yojana was launched on 9 May 2016.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the scheme was extended till Financial Year 2030–31 and had 8.66 crore subscribers. Statement 3 is incorrect because the launch date was 9 May 2015, not 9 May 2016."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Scheme parameters",
+   "question": "How many of the following statements about the Sukanya Samriddhi Yojana are correct?\n1. It was launched on 22 January 2015 under Beti Bachao Beti Padhao.\n2. The account is for a girl below 18 years of age.\n3. The interest rate is 7.2%.\n4. The maturity period is 15 years.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2",
+    "P11.F3"
+   ],
+   "explanation": "Only statement 1 is correct: the scheme was launched on 22 January 2015 under Beti Bachao Beti Padhao. The eligible girl must be below 10 years, the interest rate is 8.2%, and maturity is 21 years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Anniversary date",
+   "question": "Womaniya on GeM completed seven years on which date?",
+   "options": [
+    "14 January 2026",
+    "14 January 2019",
+    "The year 2016, when GeM was launched",
+    "The date on which orders crossed ₹80,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F3"
+   ],
+   "explanation": "Womaniya on GeM completed seven years on 14 January 2026. It was launched on 14 January 2019, while GeM itself was launched in 2016."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "SOAR funding and participation",
+   "question": "Consider the following statements:\nStatement A: The President attended the SOAR event.\nStatement B: ₹500 crore was provided for Centres of Excellence for AI education.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "Both statements are true. The SOAR event was attended by the President, and ₹500 crore was allocated for Centres of Excellence for AI education."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Leadership and coverage",
+   "question": "Match the components associated with Sampurnata Abhiyan 2.0 in List-I with the corresponding details in List-II.\n\nList-I\n a. B. V. R. Subrahmanyam\n b. Rohit Kumar\n c. 28 January – 14 April 2026\n d. 112 Aspirational Districts and 513 Aspirational Blocks\n\nList-II\n i. Campaign period\n ii. NITI Aayog CEO\n iii. Coverage for 100% saturation of key indicators\n iv. Mission Director",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. B. V. R. Subrahmanyam was the NITI Aayog CEO, Rohit Kumar was the Mission Director, the campaign ran from 28 January to 14 April 2026, and it covered 112 Aspirational Districts and 513 Aspirational Blocks."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Portal objective",
+   "question": "What is the primary purpose of the Pankhudi portal launched by the Ministry of Women and Child Development?",
+   "options": [
+    "CSR and partnership coordination",
+    "Wage-loss compensation for pregnant and lactating women",
+    "Awareness on the Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+    "Centres of Excellence for AI education"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1",
+    "P7.F2",
+    "P8.F1",
+    "P13.F2"
+   ],
+   "explanation": "Pankhudi is a CSR and partnership coordination portal under the Companies Act, 2013 CSR framework. The other options describe the Pradhan Mantri Matru Vandana Yojana, Atal Vayo Abhyuday Yojana and SOAR respectively."
+  }
+ ]
+}

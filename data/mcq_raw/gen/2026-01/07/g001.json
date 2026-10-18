@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  9
+ ],
+ "only": [
+  "P4.F1",
+  "P4.F2",
+  "P4.F3",
+  "P4.F4",
+  "P9.F1",
+  "P9.F2",
+  "P9.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Second-largest habitat",
+   "question": "Which river is recognised as India's second-largest gharial habitat, with more than 400 adult gharials recorded in 2025?",
+   "options": [
+    "Gandak",
+    "Chambal",
+    "Ganga",
+    "Wildlife Trust of India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F3"
+   ],
+   "explanation": "The Gandak River is India's second-largest gharial habitat, recording more than 400 adult gharials in 2025. Chambal is the largest habitat, with more than 2,400 gharials, so it is not the correct answer."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UN designation",
+   "question": "Which organisation declared 2026 the International Year of Rangelands and Pastoralists?",
+   "options": [
+    "United Nations",
+    "Wildlife Trust of India",
+    "Bihar forest department",
+    "Ganga River"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "The United Nations declared 2026 the International Year of Rangelands and Pastoralists. The Wildlife Trust of India and the Bihar forest department are associated with gharial-conservation efforts, while the Ganga is a river."
+  }
+ ]
+}

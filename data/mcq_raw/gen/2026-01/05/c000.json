@@ -1,0 +1,63 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Agreement concluded",
+   "question": "Which trade agreement was concluded after negotiations between India and the European Union in January 2026?",
+   "options": [
+    "India–EU FTA",
+    "India–Mauritius CECPA",
+    "India–UAE CEPA",
+    "India–UK CETA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F24",
+    "P0.F25",
+    "P0.F29"
+   ],
+   "explanation": "India and the European Union concluded negotiations on a comprehensive Free Trade Agreement. The India–Mauritius CECPA, India–UAE CEPA and India–UK CETA were other FTAs listed for 2021–2025, not the agreement concluded with the EU in 2026."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Next steps in agreement",
+   "question": "Consider the following statements:\nStatement A: The India–EU FTA will proceed to legal scrubbing, translation and ratification by 26 member states and the European Parliament.\nStatement B: India and the EU concluded negotiations on a comprehensive FTA.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "Statement A is false because ratification is to be undertaken by 27 EU member states and the European Parliament, not 26. Statement B is true because India and the EU concluded negotiations on a comprehensive FTA."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Tariff and services commitments",
+   "question": "With reference to the commitments under the India–EU FTA, consider the following statements:\n1. The EU agreed to liberalise 97% of its tariff lines.\n2. India agreed to cover 99.5% of EU exports.\n3. The EU offered commitments across 144 services subsectors.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the EU liberalised 97% of its tariff lines and offered commitments across 144 services subsectors. Statement 2 is incorrect because India agreed to cover 97.5% of EU exports, while 99.5% refers to Indian exports covered by the EU."
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and dates",
+   "question": "Where and when was the India International Conference on Democracy and Election Management (IICDEM)–2026 conducted by the Election Commission of India?",
+   "options": [
+    "New Delhi, 21–23 January 2026",
+    "Bharat Mandapam, 21–23 January 2026",
+    "New Delhi, 21–23 May 2025",
+    "Bharat Mandapam, 21–23 May 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F4"
+   ],
+   "explanation": "IICDEM–2026 was conducted by the Election Commission of India in New Delhi from 21–23 January 2026. Bharat Mandapam was the venue for the launch of ECINET, not for the conference."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Naxalmukt Bharat Abhiyan and LWE figures",
+   "question": "Consider the following statements:\nStatement A: The Naxalmukt Bharat Abhiyan aims to eliminate Naxalism by 31 March 2026.\nStatement B: In 2025, 312 Left-Wing Extremist cadres were eliminated, the highest ever, and the number of most-affected districts declined to 3.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F5"
+   ],
+   "explanation": "Both statements are true: the target under the Naxalmukt Bharat Abhiyan is 31 March 2026, and 312 cadres were eliminated in 2025, the highest ever, while most-affected districts fell to 3. The tempting alternative that Statement B is false is incorrect because the review specifically recorded both figures."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Security and counter-terror measures",
+   "question": "Consider the following statements regarding the Ministry of Home Affairs Year End Review 2025:\n1. A new Multi-Agency Centre was inaugurated in New Delhi.\n2. The NIA conviction rate was approximately 85%.\n3. Census 2027 will be conducted in one phase with caste enumeration.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F9",
+    "P4.F11",
+    "P4.F21"
+   ],
+   "explanation": "Only statement 1 is correct: a new Multi-Agency Centre was inaugurated in New Delhi. The NIA conviction rate was approximately 95%, not 85%, and Census 2027 is planned in two phases with caste enumeration, not one phase."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Cyber strategy and criminal-law measures",
+   "question": "How many of the following statements are correct according to the Ministry of Home Affairs Year End Review 2025?\n1. I4C launched e-Zero FIR for automatic registration of FIRs in cyber financial crimes.\n2. The four-pillar cyber strategy comprises Convergence, Coordination, Communication and Capacity.\n3. The new criminal laws completed two years in 2025.\n4. 12 drug traffickers were convicted in 2025.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F13",
+    "P4.F14",
+    "P4.F15",
+    "P4.F16"
+   ],
+   "explanation": "Only two statements are correct: e-Zero FIR was launched for cyber financial crimes, and the four pillars are Convergence, Coordination, Communication and Capacity. The new criminal laws completed one year, and 29 drug traffickers—not 12—were convicted in 2025."
+  }
+ ]
+}

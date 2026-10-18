@@ -1,0 +1,54 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  20,
+  26
+ ],
+ "only": [
+  "P20.F1",
+  "P20.F2",
+  "P26.F1",
+  "P26.F2",
+  "P26.F3",
+  "P26.F4",
+  "P26.F5"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Investment approved",
+   "question": "Under the Electronics Components Manufacturing Scheme (ECMS), what investment was represented by the 22 additional projects approved by the Ministry of Electronics and Information Technology (MeitY)?",
+   "options": [
+    "₹41,863 crore",
+    "₹22,919 crore",
+    "₹8.4 trillion",
+    "₹6.45 million tonnes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F1",
+    "P20.F2"
+   ],
+   "explanation": "The 22 additional ECMS projects approved by MeitY represent an investment of ₹41,863 crore. ₹22,919 crore is the outlay of the ECMS, not the investment represented by these 22 projects."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sediment flushing",
+   "question": "What measure did the Union Power Minister direct at the Salal Hydroelectric Project amid the Indus Waters Treaty being in abeyance?",
+   "options": [
+    "Sediment flushing",
+    "Construction of the dam",
+    "Commercial operation of the project",
+    "Allocation of 12.5% power to J&K"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F1",
+    "P26.F2",
+    "P26.F3",
+    "P26.F5"
+   ],
+   "explanation": "The Union Power Minister directed sediment flushing at the Salal Hydroelectric Project. The project began construction in 1970, entered commercial operation in 1987, and provides 12.5% of its power to J&K; these are associated facts, not the directed measure."
+  }
+ ]
+}

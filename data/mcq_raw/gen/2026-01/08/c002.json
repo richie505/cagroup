@@ -1,0 +1,168 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Report and publisher",
+   "question": "Which organisation released the report “Cattle and Community in a Changing Climate (2026)” on 20 January 2026?",
+   "options": [
+    "Council on Energy, Environment and Water",
+    "National Crime Records Bureau",
+    "Oxfam",
+    "Avtar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "The report “Cattle and Community in a Changing Climate (2026)” was released by the Council on Energy, Environment and Water (CEEW). The National Crime Records Bureau, Oxfam and Avtar are associated with other reports or studies in the current-affairs context."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Key findings of CEEW study",
+   "question": "With reference to the CEEW study on cattle-rearing households, consider the following statements:\n1. About 38% of cattle rearers, representing nearly 30 million households, do not sell milk.\n2. In 9 of the 15 states studied, less than half of the respondents cited milk sales as their main motive.\n3. In Jharkhand, 70% of cattle rearers do not prioritise milk sales.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2",
+    "P10.F3",
+    "P10.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 38% of cattle rearers, or nearly 30 million households, do not sell milk, and the finding applied to 9 of 15 states. Statement 3 is incorrect because the Jharkhand figure was 71%, not 70%."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Cattle-rearing motives by state",
+   "question": "Which of the following statements regarding the CEEW study’s state-level findings is incorrect?",
+   "options": [
+    "In Jharkhand, 71% of cattle rearers do not prioritise milk sales.",
+    "In West Bengal and Himachal Pradesh, over 50% of cattle rearers do not sell milk.",
+    "In Maharashtra and Karnataka, over 30% prioritise dung or draught.",
+    "In Himachal Pradesh, Andhra Pradesh and Assam, over 25% cite socio-cultural reasons."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F4",
+    "P10.F5",
+    "P10.F6",
+    "P10.F7"
+   ],
+   "explanation": "The incorrect statement is the one claiming that over 25% cite socio-cultural reasons in Himachal Pradesh, Andhra Pradesh and Assam. The reported figure was over 15%; the other three statements correctly reproduce the state-level findings."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Safest Indian city",
+   "question": "According to the Numbeo Safety Index 2026, which was ranked as India’s safest city?",
+   "options": [
+    "Mangaluru",
+    "Ahmedabad",
+    "Jaipur",
+    "Doha"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "Mangaluru was identified as India’s safest city, with a safety score of 74.4 and a global rank of 46th. Ahmedabad and Jaipur followed it among the Indian cities listed, while Doha was ranked third globally."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Traffic congestion rank",
+   "question": "In the TomTom Traffic Index 2025, which city ranked second globally, with an average congested speed of 16.6 km/h?",
+   "options": [
+    "Bengaluru",
+    "Mexico City",
+    "Pune",
+    "Mumbai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2"
+   ],
+   "explanation": "Bengaluru ranked second in the TomTom Traffic Index 2025, with an average congested speed of 16.6 km/h. Mexico City ranked first, while Pune and Mumbai ranked fifth and eighteenth respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "ICJS 2.0 ranking and scope",
+   "question": "With reference to the ICJS 2.0 rankings released by the NCRB, consider the following statements:\nStatement A: Uttarakhand Police ranked first with a score of 93.46 as of December 2025.\nStatement B: ICJS links police, courts, prisons, prosecution and forensics.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "Both statements are true. Uttarakhand Police topped the ICJS 2.0 rankings with 93.46, and ICJS links police, courts, prisons, prosecution and forensic systems."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "City Inclusion Score ranking",
+   "question": "Match the cities with their ranks in Avtar’s City Inclusion Score ranking of 125 cities.\n\nList-I\n a. Bengaluru\n b. Chennai\n c. Pune\n d. Hyderabad\n\nList-II\n i. Rank 3\n ii. Rank 1\n iii. Rank 4\n iv. Rank 2",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2",
+    "P14.F3",
+    "P14.F4"
+   ],
+   "explanation": "The correct pairs are Bengaluru–Rank 1, Chennai–Rank 2, Pune–Rank 3 and Hyderabad–Rank 4, corresponding to a-ii, b-iv, c-i and d-iii. The other codes interchange the ranks of these cities."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inclusion dimensions and publisher location",
+   "question": "Which combination correctly describes Avtar’s findings on the leading cities for women?",
+   "options": [
+    "Chennai topped social inclusion, Bengaluru topped industrial inclusion, and Avtar is Chennai-based.",
+    "Bengaluru topped social inclusion, Chennai topped industrial inclusion, and Avtar is Bengaluru-based.",
+    "Pune topped social inclusion, Hyderabad topped industrial inclusion, and Avtar is Mumbai-based.",
+    "Mumbai topped social inclusion, Chennai topped industrial inclusion, and Avtar is Kolkata-based."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F7"
+   ],
+   "explanation": "Chennai topped social inclusion, Bengaluru topped industrial inclusion, and Avtar is Chennai-based. The other combinations reverse or replace these reported city and organisation details."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Gender difference in AI risk perception",
+   "question": "Assertion (A): Women perceived artificial intelligence as riskier than men in the study published in PNAS Nexus.\nReason (R): Women gave an average risk score of 4.38, while men gave an average risk score of 4.87.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "Assertion A is true: women’s average risk score was 4.87, compared with 4.38 for men. Reason R is false because it reverses the scores assigned to women and men."
+  }
+ ]
+}

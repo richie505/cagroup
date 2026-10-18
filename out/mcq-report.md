@@ -1,35 +1,35 @@
 # CA MCQ report
 
-- MCQs kept: **2481**
-- News pages with at least one question: **1714 / 2629**
-- Facts tested: **5155 / 20515** (25.1%)
-- Answer positions: A 628, B 625, C 681, D 547
+- MCQs kept: **2791**
+- News pages with at least one question: **1959 / 2629**
+- Facts tested: **5807 / 20515** (28.3%)
+- Answer positions: A 716, B 705, C 758, D 612
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 255 | 270 | 277 | 214 |
-| Negative / Incorrect Statement | 65 | 69 | 75 | 77 |
-| Assertion-Reason | 71 | 73 | 94 | 86 |
-| Statement-Based (A/B) | 86 | 58 | 83 | 74 |
-| Multi-Statement Correctness | 97 | 81 | 88 | 78 |
+| Direct Recall | 293 | 303 | 306 | 252 |
+| Negative / Incorrect Statement | 72 | 73 | 87 | 83 |
+| Assertion-Reason | 79 | 81 | 104 | 94 |
+| Statement-Based (A/B) | 102 | 63 | 95 | 79 |
+| Multi-Statement Correctness | 111 | 94 | 97 | 85 |
 | Chronological Ordering | 1 | 0 | 0 | 0 |
-| List-Matching | 22 | 20 | 22 | 16 |
-| Count-Based | 31 | 54 | 42 | 2 |
+| List-Matching | 25 | 24 | 23 | 17 |
+| Count-Based | 33 | 67 | 46 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 254 |
-| verify:explanation_contradicts | 35 |
-| verify:not_in_facts | 28 |
-| over the page's quota | 17 |
+| code | 288 |
+| verify:explanation_contradicts | 40 |
+| verify:not_in_facts | 38 |
+| over the page's quota | 20 |
+| duplicate | 9 |
 | verify:two_correct | 8 |
-| duplicate | 8 |
 | verify:none_correct | 7 |
 | verify:second reader picked option 2, key 1 | 5 |
+| verify:garbled | 3 |
 | verify:ambiguous_stem | 2 |
-| verify:garbled | 2 |
 | verify:second reader picked option 3, key 0 | 1 |
 | verify:second reader picked option 1, key 0 | 1 |
 | verify:second reader picked option 2, key 0 | 1 |
@@ -139,17 +139,17 @@
 | 2026-02/09 | Awards, Persons & Appointments | 17 | 44/74 |
 | 2026-02/10 | Sports | 11 | 23/48 |
 | 2026-02/11 | Important Days & Events | 19 | 37/116 |
-| 2026-01/01 | Andhra Pradesh | 0 | 0/193 |
-| 2026-01/02 | Polity & Governance | 0 | 0/137 |
-| 2026-01/03 | Schemes & Social Sector | 0 | 0/81 |
-| 2026-01/04 | Economy, Banking & Budget | 0 | 0/246 |
-| 2026-01/05 | International Relations | 0 | 0/162 |
-| 2026-01/06 | Science, Tech, Space & Defence | 0 | 0/84 |
-| 2026-01/07 | Environment & Geography | 0 | 0/156 |
-| 2026-01/08 | Reports, Indices & Rankings | 0 | 0/98 |
-| 2026-01/09 | Awards, Persons & Appointments | 0 | 0/127 |
-| 2026-01/10 | Sports | 0 | 0/29 |
-| 2026-01/11 | Important Days & Events | 0 | 0/152 |
+| 2026-01/01 | Andhra Pradesh | 42 | 95/193 |
+| 2026-01/02 | Polity & Governance | 29 | 63/137 |
+| 2026-01/03 | Schemes & Social Sector | 22 | 46/81 |
+| 2026-01/04 | Economy, Banking & Budget | 42 | 104/246 |
+| 2026-01/05 | International Relations | 39 | 77/162 |
+| 2026-01/06 | Science, Tech, Space & Defence | 18 | 30/84 |
+| 2026-01/07 | Environment & Geography | 40 | 84/156 |
+| 2026-01/08 | Reports, Indices & Rankings | 19 | 39/98 |
+| 2026-01/09 | Awards, Persons & Appointments | 27 | 56/127 |
+| 2026-01/10 | Sports | 8 | 16/29 |
+| 2026-01/11 | Important Days & Events | 24 | 42/152 |
 | 2025-12/01 | Andhra Pradesh | 0 | 0/168 |
 | 2025-12/02 | Polity & Governance | 0 | 0/88 |
 | 2025-12/03 | Schemes & Social Sector | 0 | 0/46 |
@@ -516,3 +516,51 @@
 - `2026-02/09/c001#2` verify: not_in_facts — The facts establish the Dalai Lama’s first Grammy and winning category, but do not establish that it was at the 68th Grammy Awards.
   - Q: Assertion (A): The Dalai Lama received his first Grammy Award at the 68th Grammy Awards. / Reason (R): He won Best Audiobook, Narration & Storytelling for “Meditations: The Reflections of His Holiness t
   - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-01/01/c000#5` verify: not_in_facts — The facts explicitly exclude conditional patta lands but do not establish whether service inam or freehold lands were removed.
+  - Q: How many of the following categories were removed from the prohibited list under Section 22-A? / 1. Lands allotted to former and serving defence personnel / 2. Conditional patta lands / 3. Service inam land
+  - Key: Only one
+- `2026-01/02/c002#7` verify: explanation_contradicts — The facts state that Ambedkar described Article 32 as the “heart and soul,” so Reason R is true, though it does not explain Assertion A.
+  - Q: Assertion (A): Article 32 is available only for violation of fundamental rights. / Reason (R): Dr. B. R. Ambedkar described Article 32 as the “heart and soul of the Constitution.”
+  - Key: A is true, but R is false
+- `2026-01/03/c001#5` verify: not_in_facts — The facts define the golden hour but do not establish that the Rah-Veer Scheme highlights it.
+  - Q: Assertion (A): The Rah-Veer Scheme highlights the golden hour after a traumatic injury. / Reason (R): The golden hour is the first hour after a traumatic injury.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-01/05/c002#3` verify: not_in_facts — The facts identify Juan Angulo as ambassador but do not establish that he conveyed Chile’s support, nor contradict that claim.
+  - Q: With reference to Chile's support for India's permanent membership of the UN Security Council, which of the following statements is incorrect?
+  - Key: Chile's support was conveyed by Ambassador Juan Angulo.
+- `2026-01/07/c000#0` verify: not_in_facts — The facts do not identify which agreement completed 10 years or underwent the stated re-evaluation.
+  - Q: Which international climate agreement completed 10 years in November 2025 and came up for re-evaluation after the United States exit in early 2025 and COP30 at Belém?
+  - Key: Paris Agreement
+- `2026-01/07/c001#0` verify: not_in_facts — The facts give Gandak's gharial counts and identify Chambal as largest, but do not state that Gandak is second-largest.
+  - Q: Which riverine habitat was reported as India's second-largest gharial habitat, with more than 400 adult gharials in 2025?
+  - Key: Gandak River
+- `2026-01/07/c001#6` verify: explanation_contradicts — The facts establish both A and R, but R gives examples of rangelands rather than explaining why they are grasslands used for grazing.
+  - Q: Assertion (A): Rangelands are grasslands used for grazing. / Reason (R): Rangelands include savannas, steppes and prairies.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-01/08/c001#2` verify: explanation_contradicts — The 10-year horizon is true but does not explain why biodiversity loss was ranked most severe; the correct option is 1, not 0.
+  - Q: Assertion (A): Biodiversity loss and ecosystem collapse was identified as the most severe long-term risk in the WEF Global Risks Report 2026. / Reason (R): The report assessed risks over a 10-year horiz
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-01/08/c001#4` verify: explanation_contradicts — The facts state that USD 571 billion per year was needed and represented 2.5 times the amount, so all four statements are correct.
+  - Q: How many of the following findings of the UNEP State of Finance for Nature 2026 are correct? / 1. Nature-negative flows in 2023 were USD 7.3 trillion. / 2. The private share of nature-negative flows was U
+  - Key: Only three
+- `2026-01/08/c002#2` verify: not_in_facts — The fact that over 15% cite socio-cultural reasons does not contradict the possibility that over 25% do.
+  - Q: Which of the following statements regarding the CEEW study’s state-level findings is incorrect?
+  - Key: In Himachal Pradesh, Andhra Pradesh and Assam, over 25% cite socio-cultural reasons.
+- `2026-01/09/c000#2` verify: not_in_facts — The facts establish that the Kerala claim is false, but do not establish whether Alka Yagnik received the Padma Bhushan.
+  - Q: With reference to the Padma Awards 2026, consider the following: / Assertion (A): Alka Yagnik received the Padma Bhushan in Arts from Kerala. / Reason (R): Alka Yagnik received the Padma Bhushan in Arts a
+  - Key: A is false, but R is true
+- `2026-01/09/c002#3` verify: garbled — The options include “All four” although only three statements are presented.
+  - Q: Consider the following statements about the Jeevan Raksha Padak Awards 2025: / 1. There were 30 awardees, including 6 Sarvottam, 6 Uttam and 18 Jeevan Raksha Padak awardees. / 2. Six awards were posthumou
+  - Key: Only two
+- `2026-01/09/c003#3` verify: not_in_facts — The facts identify BVR Mohan Reddy as a Cyient founder who presented at the conference, but do not state who received the award.
+  - Q: Who received the Geospatial World ‘Living Legend’ Award at the 25th GeoSmart India Conference?
+  - Key: BVR Mohan Reddy
+- `2026-01/09/c003#6` verify: not_in_facts — The facts do not establish whether Pravasi Bharatiya Diwas was held in India, so statement 4 cannot be decided.
+  - Q: Consider the following statements about Abbagauni Nandini: /  / 1. She was a Telangana expatriate. / 2. She was a native of Shamirpet, Medchal. / 3. She received the Nari Shakti Award from the Indian Embassy 
+  - Key: Only three
+- `2026-01/09/g002#0` verify: explanation_contradicts — The facts specify 18 Jeevan Raksha Padak awardees, but the explanation incorrectly states 30.
+  - Q: How many awardees were selected for the Jeevan Raksha Padak Awards 2025?
+  - Key: 30
+- `2026-01/10/c000#5` verify: not_in_facts — The facts do not identify the 21-year-old Delhi player by name, so no option is established.
+  - Q: Who became India's 92nd Grandmaster after winning the Andranik Margaryan Memorial in Armenia?
+  - Key: Aryan Varshney

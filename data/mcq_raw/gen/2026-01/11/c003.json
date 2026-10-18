@@ -1,0 +1,150 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "Parakram Diwas 2026, commemorating Netaji Subhas Chandra Bose's 129th birth anniversary, was held by the Ministry of Culture in which principal location along with 13 other locations?",
+   "options": [
+    "Andaman and Nicobar Islands",
+    "Nampally Exhibition Grounds",
+    "Medaram",
+    "Prabhas Patan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "Parakram Diwas 2026 was held in the Andaman and Nicobar Islands along with 13 other locations. Nampally Exhibition Grounds hosted Numaish, while Medaram is associated with the Sammakka–Saralamma Jatara and Prabhas Patan with the Somnath inscription."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Date",
+   "question": "International Data Privacy Day, also known as Data Protection Day, is observed on which date?",
+   "options": [
+    "28 January",
+    "23 January",
+    "11 August",
+    "13 November"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "International Data Privacy Day is observed on 28 January. 23 January is associated with Netaji's birth anniversary, while 11 August 2023 and 13 November 2025 relate to the DPDP Act and DPDP Rules respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Theme",
+   "question": "Which of the following statements about International Data Privacy Day and India's data-protection framework is incorrect?",
+   "options": [
+    "The 2026 theme is “Privacy by Design”.",
+    "Convention 108 is regarded as the world's first legally binding international data protection treaty.",
+    "The DPDP Act was enacted on 13 November 2025.",
+    "The IT Act, 2000 includes Section 69A for blocking."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F7",
+    "P7.F9",
+    "P7.F10",
+    "P7.F15"
+   ],
+   "explanation": "The incorrect statement is that the DPDP Act was enacted on 13 November 2025; it was enacted on 11 August 2023. 13 November 2025 was the date on which the DPDP Rules were notified, making it the tempting confusion."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Theme and significance",
+   "question": "With reference to International Data Privacy Day, consider the following statements:\n1. It is observed on 28 January.\n2. It commemorates Convention 108.\n3. The 2026 theme is “Data Security by Design”.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F15"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the day is observed on 28 January and commemorates Convention 108. Statement 3 is incorrect because the 2026 theme is “Privacy by Design”, not “Data Security by Design”."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Date and inscription",
+   "question": "The inscription at the Bhadrakali Temple at Prabhas Patan, associated with the revival of Somnath by Kumarapala, is dated to which year?",
+   "options": [
+    "1169 CE",
+    "1255 CE",
+    "850 CE",
+    "2026 CE"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "The inscription is dated 1169 CE, corresponding to Valabhi Samvat 850 and Vikram Samvat 1255. The other options confuse the two Samvat equivalents or the contemporary year 2026."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Inscription and reconstruction",
+   "question": "Assertion (A): The Bhadrakali Temple inscription at Prabhas Patan is dated to 1269 CE.\nReason (R): The inscription is associated with Kumarapala's fifth reconstruction of Somnath in 1169 CE.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F7"
+   ],
+   "explanation": "Assertion A is false because the inscription is dated to 1169 CE, not 1269 CE. Reason R is true: Kumarapala's fifth reconstruction of Somnath is associated with 1169 CE."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inauguration venue",
+   "question": "The 85th All India Industrial Exhibition, popularly known as Numaish, was inaugurated on 1 January 2026 at which venue?",
+   "options": [
+    "Nampally Exhibition Grounds",
+    "Medaram",
+    "Keslapur",
+    "Prabhas Patan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "Numaish 2026 was inaugurated at the Nampally Exhibition Grounds on 1 January 2026. Medaram is linked with the Sammakka–Saralamma Jatara, Keslapur with Nagoba Jatara, and Prabhas Patan with the Somnath inscription."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Festival features",
+   "question": "Consider the following statements:\nStatement A: The Sammakka–Saralamma Jatara is a biennial festival held at Medaram in Mulugu.\nStatement B: The Nagoba Jatara 2026 began on 18 January at Medaram.\n\nWhich one of the following is correct?",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F6"
+   ],
+   "explanation": "Statement A is true: the Sammakka–Saralamma Jatara is biennial and held at Medaram in Mulugu. Statement B is false because Nagoba Jatara 2026 began on 18 January at Keslapur in Indravelli mandal, Adilabad, not at Medaram."
+  }
+ ]
+}

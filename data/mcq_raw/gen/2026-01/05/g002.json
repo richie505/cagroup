@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  8
+ ],
+ "only": [
+  "P6.F1",
+  "P6.F2",
+  "P6.F3",
+  "P8.F1",
+  "P8.F2",
+  "P8.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Bilateral trade target",
+   "question": "During the UAE President’s visit, what bilateral trade target was set for India and the UAE by 2032?",
+   "options": [
+    "USD 200 billion",
+    "USD 200 billion by 2022",
+    "USD 200 billion by 2017",
+    "USD 200 billion by 1996"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "The target is to increase bilateral trade between India and the UAE to USD 200 billion by 2032. The year 2022 is associated with the CEPA coming into force, not the trade target."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Treaty expiry",
+   "question": "The Ganga Water Sharing Treaty, signed in 1996, is scheduled to expire in which month and year?",
+   "options": [
+    "December 2026",
+    "December 2022",
+    "December 2032",
+    "December 1996"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "The Ganga Water Sharing Treaty was signed on 12 December 1996 for 30 years and is scheduled to expire in December 2026. December 1996 was the month and year of signing, not its expiry."
+  }
+ ]
+}

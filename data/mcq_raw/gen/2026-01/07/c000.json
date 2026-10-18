@@ -1,0 +1,119 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "10-year milestone",
+   "question": "Which international climate agreement completed 10 years in November 2025 and came up for re-evaluation after the United States exit in early 2025 and COP30 at Belém?",
+   "options": [
+    "Paris Agreement",
+    "Kyoto Protocol",
+    "United Nations Framework Convention on Climate Change",
+    "Project Tiger"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Paris Agreement completed 10 years in November 2025. Its re-evaluation was linked to the United States exit in early 2025 and COP30 at Belém; the Kyoto Protocol and Project Tiger are different frameworks or programmes."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Adoption and goals of Paris Agreement",
+   "question": "Consider the following statements about the Paris Agreement:\n1. It was adopted in 2015 at COP21 in Paris under the UNFCCC.\n2. Its temperature goal is to keep warming well below 2°C, preferably limiting it to 1.5°C.\n3. Nationally Determined Contributions are submitted every 10 years.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Agreement was adopted in 2015 at COP21 under the UNFCCC and seeks to keep warming well below 2°C, preferably at 1.5°C. Statement 3 is incorrect because NDCs are submitted every 5 years, not every 10 years."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Supreme Court intervention in Aravallis",
+   "question": "Which of the following statements regarding the Supreme Court proceedings on illegal mining and the Aravalli range is incorrect?",
+   "options": [
+    "The bench comprised Chief Justice of India Surya Kant, Joymalya Bagchi and Vipul M. Pancholi.",
+    "An expert committee was to be constituted, with its names to be given in 4 weeks by ASG Aishwarya Bhati and amicus K. Parameshwar.",
+    "The Supreme Court extended the stay on its 20 November order concerning the new definition of the Aravalli range.",
+    "Protection of the Aravallis forms part of Article 14 jurisprudence."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "The incorrect statement is the fourth one. The protection of the Aravallis is part of Article 21 jurisprudence, not Article 14 jurisprudence; the other three statements correctly describe the bench, expert committee and stay."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tiger deaths by state",
+   "question": "According to NTCA data for 2025, which State recorded 55 tiger deaths?",
+   "options": [
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Kerala",
+    "Assam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F3",
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "Madhya Pradesh recorded 55 tiger deaths in 2025. Maharashtra recorded 38, while Kerala and Assam recorded 13 and 12 respectively; the national total was 166."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "New species and habitat",
+   "question": "Consider the following statements:\nStatement A: Calamaria mizoramensis is a non-venomous reed snake recorded from Mizoram.\nStatement B: Gegeneophis valmikii was recorded from the northern Western Ghats of Kerala.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "Statement A is true: Calamaria mizoramensis is a non-venomous reed snake from Mizoram. Statement B is false because Gegeneophis valmikii was recorded from the northern Western Ghats in Maharashtra, not Kerala."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Species discovery and distinguishing detail",
+   "question": "Assertion (A): Indiafonte bijoyi is a new genus of micro-crustacean recorded from Kavaratti Lagoon in Lakshadweep.\nReason (R): Parasola plicatilis has a lifespan of under 24 hours.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F6"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. Indiafonte bijoyi is a new genus of micro-crustacean from Kavaratti Lagoon, while Parasola plicatilis has a lifespan under 24 hours; the latter fact does not explain the discovery or location of Indiafonte bijoyi."
+  }
+ ]
+}

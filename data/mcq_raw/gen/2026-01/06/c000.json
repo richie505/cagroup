@@ -1,0 +1,77 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Mission failure",
+   "question": "What was the outcome of the EOS-N1 mission launched by NSIL from Sriharikota on 12 January 2026?",
+   "options": [
+    "All 15 satellites were lost following a third-stage anomaly",
+    "Only the 7 Indian satellites were lost, while the other satellites reached orbit",
+    "Only the 8 foreign satellites were lost, while the Indian satellites reached orbit",
+    "The mission placed all 15 satellites successfully into orbit"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "All 15 satellites aboard the EOS-N1 mission were lost after a third-stage anomaly. The tempting alternatives suggesting the loss of only 7 or 8 satellites are incorrect because the mission lost the entire set of 15 satellites."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Army initiative and community radio",
+   "question": "Consider the following statements:\nStatement A: The Indian Army declared 2026 as the “Year of Networking & Data Centricity.”\nStatement B: Radio Sangam was the Army’s second community radio station near the Line of Control.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Statement A is true because 2026 was declared the “Year of Networking & Data Centricity” by Army Chief Gen Upendra Dwivedi. Statement B is false: Radio Sangam was described as the Army’s first community radio station near the Line of Control, not its second."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First military–civil fusion exercise",
+   "question": "Assertion (A): Sanja Shakti was the Indian Army’s first military–civil fusion exercise.\nReason (R): Sanja Shakti was held at Khadki Military Station–Diggi Range, Malé, on 8–9 January 2026.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The assertion is true: Sanja Shakti was the Army’s first military–civil fusion exercise. The reason is false because the exercise was held at Khadki Military Station–Diggi Range in Pune, not Malé, on 8–9 January 2026."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coast Guard exercise and vessel",
+   "question": "With reference to the Indian Coast Guard’s January 2026 developments, consider the following statements:\n1. DOSTI–17 was a trilateral coast guard exercise involving India, Sri Lanka and Maldives.\n2. Samudra Pratap was the Indian Coast Guard’s first indigenous pollution control vessel.\n3. DOSTI–17 is an annual exercise.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: DOSTI–17 involved India, Sri Lanka and Maldives, while Samudra Pratap was the Indian Coast Guard’s first indigenous pollution control vessel. Statement 3 is incorrect because DOSTI is a biennial exercise, not an annual one."
+  }
+ ]
+}

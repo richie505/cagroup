@@ -1,0 +1,131 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Regulations and scope",
+   "question": "The UGC Promotion of Equity in HEIs Regulations, 2026, notified to address caste-based discrimination, replaced which earlier regulations?",
+   "options": [
+    "2012 regulations",
+    "2015 regulations",
+    "2018 regulations",
+    "2020 regulations"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The 2026 regulations replaced the 2012 regulations. The other years are incorrect because the earlier regulations replaced by the new framework were from 2012."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Institutional equity mechanisms",
+   "question": "Which of the following statements regarding the institutional mechanisms under the UGC Promotion of Equity in HEIs Regulations, 2026, is incorrect?",
+   "options": [
+    "An Equal Opportunity Centre is mandatory in every HEI and must submit bi-annual reports.",
+    "The Equity Committee functions under each Equal Opportunity Centre and is chaired by the Head of Institution.",
+    "The Equity Committee is required to meet at least once a year.",
+    "An annual equity compliance report is submitted to the UGC, with the Head personally responsible."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "The incorrect statement is that the Equity Committee must meet once a year; it must meet at least twice a year. The other statements correctly describe the Equal Opportunity Centre, the Equity Committee and annual compliance reporting."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coverage of protected groups",
+   "question": "With reference to the UGC Promotion of Equity in HEIs Regulations, 2026, consider the following statements:\n1. The regulations cover Scheduled Castes, Scheduled Tribes and Other Backward Classes.\n2. Other Backward Classes were excluded from the final regulations.\n3. The regulations align with Articles 15(4) and 15(5) of the Constitution.",
+   "options": [
+    "Only statement 1 is correct",
+    "Only statement 2 is correct",
+    "Only statement 3 is correct",
+    "Statements 1 and 3 are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the regulations cover SCs, STs and OBCs and align with Articles 15(4) and 15(5). Statement 2 is incorrect because OBC exclusion was present in the draft, not in the final regulations."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Regional malaria trend",
+   "question": "Assertion (A): The Asia-Pacific region was described as a bright spot in the World Malaria Report 2025.\nReason (R): In the region, 10 of 17 endemic countries recorded declines, while cases fell from 9.6 million in 2023 to 8.9 million in 2024.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Both the assertion and reason are true, and the regional decline in endemic countries and cases explains why Asia-Pacific was identified as a bright spot. The tempting alternative is that the region’s cases increased, but the reported trend was a fall from 9.6 million to 8.9 million."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "India malaria target",
+   "question": "Consider the following statements regarding India’s malaria-control target:\nStatement A: India aims to achieve zero indigenous malaria cases by 2027.\nStatement B: Oral artemisinin monotherapy is banned in India.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F7"
+   ],
+   "explanation": "Both statements are true. India’s target is zero indigenous cases by 2027, and oral artemisinin monotherapy is banned; the global malaria target is 2030, not India’s stated 2027 target."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Treatment of cellulitis",
+   "question": "Cellulitis, a bacterial skin infection affecting the subcutaneous tissue, is treated with which of the following?",
+   "options": [
+    "Antibiotics",
+    "Folic acid",
+    "Oral artemisinin monotherapy",
+    "RTS,S vaccine"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2"
+   ],
+   "explanation": "Cellulitis is treated with antibiotics. It is caused by bacteria such as Streptococcus and Staphylococcus and is not contagious; the other options are unrelated to its treatment."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Spina bifida severity and prevention",
+   "question": "With reference to spina bifida, how many of the following statements are correct?\n1. Myelomeningocele is the most severe type.\n2. Meningocele is the mildest type.\n3. Folic acid in early pregnancy helps in prevention.\n4. India has a large-scale folic acid prevention programme.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "Only two statements are correct: myelomeningocele is the most severe type, and folic acid in early pregnancy is a preventive measure. Meningocele is not the mildest type, and India lacks a large-scale folic acid prevention programme."
+  }
+ ]
+}
