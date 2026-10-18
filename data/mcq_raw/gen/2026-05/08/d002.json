@@ -1,0 +1,305 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F2",
+  "P10.F4",
+  "P10.F5",
+  "P11.F11",
+  "P11.F13",
+  "P11.F14",
+  "P11.F15",
+  "P11.F7",
+  "P11.F8",
+  "P11.F9",
+  "P8.F1",
+  "P8.F10",
+  "P8.F2",
+  "P8.F3",
+  "P8.F4",
+  "P8.F5",
+  "P8.F6",
+  "P8.F7",
+  "P8.F8",
+  "P9.F1",
+  "P9.F3",
+  "P9.F4",
+  "P9.F5",
+  "P9.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rooftop solar capacity",
+   "question": "According to the 2025 rooftop solar data, what was India's total installed rooftop solar capacity?",
+   "options": [
+    "20.8 GW",
+    "7.1 GW",
+    "24.35 GW",
+    "29 GW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "India's total rooftop solar capacity was 20.8 GW in 2025. The figure of 7.1 GW refers to capacity added during the year, while 24.35 lakh refers to households covered under PM Surya Ghar, not capacity."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "PM Surya Ghar and utility-led aggregation",
+   "question": "Consider the following statements about rooftop solar developments in 2025:\n1. PM Surya Ghar was approved on 29 February 2024 with an outlay of ₹75,021 crore.\n2. Utility-Led Aggregation covered more than 13 lakh systems in 12 States/UTs.\n3. Uttar Pradesh accounted for 16% of new rooftop solar installations.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3"
+   ],
+   "explanation": "Only statement 1 is correct: PM Surya Ghar was approved on 29 February 2024 with an outlay of ₹75,021 crore. Utility-Led Aggregation covered more than 13 lakh systems in 10 States/UTs, and Uttar Pradesh accounted for 15%, not 16%, of new installations."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Renewable-energy institutional facts",
+   "question": "Match List-I with List-II in the context of India's renewable-energy and nuclear-energy developments.\n\nList-I\n(a) India's rank in renewable-energy installed capacity\n(b) Estimated cost of 100 GW nuclear capacity by 2047\n(c) Budget 2025–26 allocation for SMR R&D\n(d) Year of establishment of MNRE\n\nList-II\n(i) ₹20,000 crore\n(ii) Third\n(iii) 1992\n(iv) ₹23–25 lakh crore",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F6",
+    "P8.F7",
+    "P8.F8"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. India was third in renewable-energy installed capacity; the estimated nuclear investment was ₹23–25 lakh crore; SMR R&D received ₹20,000 crore; and MNRE was established in 1992. The other codes interchange these institutional, ranking and financial details."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Carbon-pricing indicators and nuclear milestones",
+   "question": "How many of the following statements are correct?\n1. India had about 25 nuclear reactors with approximately 8.8 GW of capacity.\n2. Five indigenous SMRs are targeted by 2033.\n3. Carbon-pricing revenue exceeded US$200 billion in 2025.\n4. The average carbon price rose from US$10 to US$21 per tonne of CO2e.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F7",
+    "P8.F8",
+    "P8.F10"
+   ],
+   "explanation": "Only two statements are correct: India had about 25 reactors and approximately 8.8 GW of nuclear capacity, and five indigenous SMRs are targeted by 2033. Carbon-pricing revenue was US$107 billion or more, not over US$200 billion; the average price did rise from US$10 to US$21 per tonne of CO2e."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Semiconductor strategy",
+   "question": "Which strategic approach was highlighted in NITI Aayog's report on the future of India's semiconductor industry?",
+   "options": [
+    "More-than-Moore strategy along with ISM 2.0",
+    "Carbon Credit Trading Scheme",
+    "Utility-Led Aggregation",
+    "5+3+3+4 curriculum structure"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "The report highlighted the More-than-Moore strategy, covering mature nodes, OSAT and wide-bandgap materials, along with ISM 2.0. The Carbon Credit Trading Scheme concerns carbon pricing, Utility-Led Aggregation concerns rooftop solar, and 5+3+3+4 is the NEP 2020 school structure."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Semiconductor workforce and investment",
+   "question": "Consider the following statements about India's semiconductor ambitions:\nStatement A: About 20% of the world's chip-design workforce is of Indian origin.\nStatement B: India aims for a 20–25% share of the global semiconductor market by 2035.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "Statement A is true: about 20% of the world's chip-design workforce is of Indian origin. Statement B is false because the target global share by 2035 is 10–13%, not 20–25%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "School education scale",
+   "question": "According to the report on India's school education system from 2014–15 to 2024–25, what was the gross enrolment ratio at the higher-secondary level?",
+   "options": [
+    "58.4%",
+    "68.1%",
+    "49.2%",
+    "76%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "The higher-secondary gross enrolment ratio was 58.4%. The figures 68.1% and 49.2% represent the shares of government schools and students respectively, while 76% relates to the residential share of new rooftop-solar installations."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Education institutions and milestones",
+   "question": "Match List-I with List-II on major findings and milestones in India's school education system.\n\nList-I\n(a) Share of schools that are government schools\n(b) Right to Education Act\n(c) Samagra Shiksha\n(d) NEP school structure\n\nList-II\n(i) 2018\n(ii) 68.1%\n(iii) 5+3+3+4\n(iv) 2009; Article 21A and ages 6–14 years",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F5",
+    "P9.F6"
+   ],
+   "explanation": "The correct matching is a-ii, b-iv, c-i and d-iii. Government schools constituted 68.1% of schools; the RTE Act was enacted in 2009 under Article 21A for ages 6–14 years; Samagra Shiksha dates to 2018; and NEP 2020 uses the 5+3+3+4 structure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sand consumption ranking",
+   "question": "According to UNEP's Sand and Sustainability report, sand is the world's what most-consumed material after water?",
+   "options": [
+    "Second",
+    "Third",
+    "Fourth",
+    "Fifth"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "Sand is the second most-consumed material after water. Third, fourth and fifth are not the ranking given in the report."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Special 301 Report and Vietnam",
+   "question": "Assertion (A): Vietnam was placed at the top of the concern list in the Special 301 Report.\nReason (R): It was the first time in 13 years that Vietnam occupied that position.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the reason correctly describes the significance of Vietnam's position. Vietnam was at the top of the concern list for the first time in 13 years; India remained on the Priority Watch List."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Brain drain finding",
+   "question": "What proportion of Indian researchers were reported to be keen to move abroad in Elsevier's Research of the Future 2026?",
+   "options": [
+    "52%",
+    "43%",
+    "58.4%",
+    "76%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "The report found that 52% of Indian researchers were keen to move abroad, highlighting the brain-drain concern. The other percentages belong to unrelated education or rooftop-solar figures and are not the report's finding."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Stock-market ranking",
+   "question": "In May 2026, which market overtook India to become the world's fifth-largest stock market?",
+   "options": [
+    "Taiwan",
+    "China",
+    "Russia",
+    "Singapore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "Taiwan, with a market size of US$4.95 trillion, overtook India's US$4.92 trillion market to rank fifth. China and Russia appear in other report-related contexts, while Singapore is not the market identified in this ranking."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Regional-party income ranking",
+   "question": "Match the regional parties with their income rank in 2024–25.\n\nList-I\n(a) Biju Janata Dal\n(b) AIADMK\n(c) Jana Sena\n(d) Trinamool Congress\n\nList-II\n(i) Rank 7\n(ii) Rank 2\n(iii) Rank 5\n(iv) Rank 6",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F7",
+    "P11.F8",
+    "P11.F9"
+   ],
+   "explanation": "The correct pairs are BJD–rank 5, AIADMK–rank 6, Jana Sena–rank 7 and Trinamool Congress–rank 2. The alternative codes shift these parties by one or more positions in the income ranking."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Party expenditure",
+   "question": "Among the regional parties covered by the ADR report for 2024–25, which party recorded the highest expenditure?",
+   "options": [
+    "YSR Congress",
+    "Biju Janata Dal",
+    "Trinamool Congress",
+    "Bharat Rashtra Samithi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F11"
+   ],
+   "explanation": "YSR Congress recorded the highest expenditure at ₹340 crore. BJD spent ₹288 crore, Trinamool Congress ₹227 crore and BRS ₹180 crore, all lower than the YSR Congress figure."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Changes in regional-party income",
+   "question": "How many of the following statements about changes in regional-party income in 2024–25 are correct?\n1. BRS recorded the sharpest fall, amounting to ₹561 crore.\n2. AIADMK recorded growth of ₹39 crore.\n3. Jana Sena recorded growth of ₹37 crore.\n4. The Maharashtra Navnirman Sena recorded growth of ₹24 crore.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F13",
+    "P11.F14"
+   ],
+   "explanation": "Only two statements are correct: BRS recorded the sharpest fall of ₹561 crore, and AIADMK recorded growth of ₹39 crore. Jana Sena's growth was ₹24 crore, while MNS recorded growth of ₹37 crore; statements 3 and 4 interchange those figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ADR institutional detail",
+   "question": "In which year was the Association for Democratic Reforms established?",
+   "options": [
+    "1999",
+    "1972",
+    "1962",
+    "2009"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F15"
+   ],
+   "explanation": "The Association for Democratic Reforms was established in 1999 and is based in New Delhi. The other years refer to establishment dates of organisations or enactment milestones appearing in other reports, not ADR."
+  }
+ ]
+}

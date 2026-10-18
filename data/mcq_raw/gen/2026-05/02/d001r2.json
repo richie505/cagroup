@@ -1,0 +1,65 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F10",
+  "P1.F2",
+  "P1.F5",
+  "P1.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Amendment Bill and pendency",
+   "question": "In May 2026, which legislative measure was proposed in the context of the Supreme Court’s increased case burden, with pendency exceeding 92,000 cases?",
+   "options": [
+    "A Bill to amend the Supreme Court (Number of Judges) Act, 1956",
+    "A Bill to amend the Representation of the People Act, 1950",
+    "A Bill to amend Article 324 of the Constitution",
+    "A Bill to amend the Supreme Court (Number of Judges) Act, 2019"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The proposed measure was a Bill to amend the Supreme Court (Number of Judges) Act, 1956, amid pendency exceeding 92,000 cases. The Representation of the People Act, 1950, and Article 324 relate to electoral administration, not the stated judicial-strength measure."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Evolution of sanctioned strength",
+   "question": "Consider the following statements:\nStatement A: In 1956, the total sanctioned strength of the Supreme Court, including the Chief Justice of India, was 12.\nStatement B: In 1960, the total sanctioned strength of the Supreme Court, including the Chief Justice of India, was 15.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "Both statements are false. The total sanctioned strength was 11 in 1956 and 14 in 1960; therefore, neither 12 nor 15 is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sanctioned strength in 2019",
+   "question": "What was the total sanctioned strength of the Supreme Court, including the Chief Justice of India, in 2019?",
+   "options": [
+    "31",
+    "34",
+    "38",
+    "26"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "In 2019, the Supreme Court’s total sanctioned strength, including the Chief Justice of India, was 34. The figures 31, 26 and 38 correspond to other stages in the evolution of sanctioned strength."
+  }
+ ]
+}

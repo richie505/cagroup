@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F15",
+  "P0.F4",
+  "P0.F5",
+  "P1.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "FII outflows and rupee value",
+   "question": "In the context of the economic pressures highlighted in May 2026, consider the following statements:\n\n1. Foreign Institutional Investor outflows during January–May were approximately ₹1.97 lakh crore.\n2. The rupee fell below 95 per US$.\n3. Foreign Institutional Investor outflows during January–May were approximately ₹1.97 lakh crore, while the rupee remained above 95 per US$.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: FII outflows were approximately ₹1.97 lakh crore during January–May, and the rupee fell below 95 per US$. Statement 3 is incorrect because it states that the rupee remained above 95 per US$."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Source of edible oils",
+   "question": "With reference to India’s edible-oil import pattern highlighted during the May 2026 economic discussion, which of the following pairs is correctly matched?",
+   "options": [
+    "Palm oil — Indonesia and Malaysia; Sunflower oil — Russia and Ukraine",
+    "Palm oil — Russia and Ukraine; Sunflower oil — Indonesia and Malaysia",
+    "Palm oil — Indonesia and Russia; Sunflower oil — Malaysia and Ukraine",
+    "Palm oil — Malaysia and Ukraine; Sunflower oil — Indonesia and Russia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Palm oil is sourced from Indonesia and Malaysia, while sunflower oil is sourced from Russia and Ukraine. The other pairs interchange or mix these source countries."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institutional establishment year",
+   "question": "The Central Board of Direct Taxes (CBDT) was established in which year?",
+   "options": [
+    "1963",
+    "2016",
+    "2017",
+    "2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The CBDT was established in 1963. The years 2016, 2017 and 2025 refer to other tax-related institutional or legislative developments, not the establishment of the CBDT."
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43
+ ],
+ "only": [
+  "P33.F1",
+  "P33.F2",
+  "P33.F3",
+  "P34.F2",
+  "P35.F2",
+  "P36.F2",
+  "P37.F4",
+  "P38.F2",
+  "P39.F3",
+  "P39.F4",
+  "P40.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cyber-fraud response mechanism",
+   "question": "With reference to the AP Cyber Guard system, consider the following statements:\n1. Complaints received through the 1930 helpline are to be responded to within the first 30 minutes, with temporary lien marking on accounts.\n2. The system includes a 24×7 Cyber War Room, AI monitoring, a three-tier district mechanism and training for 500 police personnel.\n3. The 1930 helpline operates under the National Biodiversity Authority, established in 2018.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P33.F1",
+    "P33.F2",
+    "P33.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct features of the AP Cyber Guard system. Statement 3 is incorrect because the 1930 helpline operates under I4C, which was established in 2018; it is not under the National Biodiversity Authority."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Species habitat and population",
+   "question": "Euphorbia ananthapuramensis, one of the newly reported plant species from Andhra Pradesh’s Eastern Ghats, was recorded in which setting?",
+   "options": [
+    "Nigidi forest in Sri Sathya Sai district, among granite rocks at 450–550 metres",
+    "Madanapalle in Annamayya district, along cultivated agricultural fields at 200–300 metres",
+    "Vizianagaram district, in mangrove vegetation at 50–150 metres",
+    "Prakasam district, in coastal sand dunes at 600–700 metres"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P34.F2"
+   ],
+   "explanation": "Euphorbia ananthapuramensis was recorded in Nigidi forest of Sri Sathya Sai district, among granite rocks at 450–550 metres. The other options change the location, habitat or elevation."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "States represented in NBA rotation",
+   "question": "With reference to the annual rotation of representation in the National Biodiversity Authority, match List-I with List-II.\n\nList-I\n a. State 1\n b. State 2\n c. State 3\n\nList-II\n i. Odisha\n ii. Madhya Pradesh\n iii. Tripura\n\nChoose the correct code:",
+   "options": [
+    "a-ii, b-iii, c-i",
+    "a-i, b-ii, c-iii",
+    "a-iii, b-i, c-ii",
+    "a-ii, b-i, c-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P35.F2"
+   ],
+   "explanation": "The three States also represented in the annual rotation are Madhya Pradesh, Tripura and Odisha. Therefore, the correct pairs are a-ii, b-iii and c-i; the other codes rearrange these States."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Frequency and astrological condition",
+   "question": "The Godavari Pushkaram, for which Andhra Pradesh formed an Environmental Protection Task Force, is held when which of the following occurs?",
+   "options": [
+    "Every 12 years, when Jupiter enters Leo (Simha Rasi)",
+    "Every 10 years, when Jupiter enters Aries (Mesha Rasi)",
+    "Every 12 years, when Jupiter enters Sagittarius (Dhanu Rasi)",
+    "Every 6 years, when Jupiter enters Leo (Simha Rasi)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P36.F2"
+   ],
+   "explanation": "Godavari Pushkaram occurs every 12 years when Jupiter enters Leo, known as Simha Rasi. The other options alter either the interval or the zodiac sign."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Disaster-risk reduction framework",
+   "question": "The Electric Field Monitor-based Lightning Early Warning Project is aligned with which framework that stresses early warning for disasters?",
+   "options": [
+    "Sendai Framework, 2015–2030",
+    "Sendai Framework, 2005–2020",
+    "Paris Agreement, 2015–2030",
+    "Hyogo Framework, 2015–2030"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P37.F4"
+   ],
+   "explanation": "The project reflects the Sendai Framework for 2015–2030, which stresses early warning. The remaining options either give the wrong framework or the wrong period."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Food Planet Prize presentation and award amount",
+   "question": "In connection with the Food Planet Prize 2026, where and when were the finalist presentations scheduled, and what was the approximate prize for the winner?",
+   "options": [
+    "Båstad, Sweden, in June 2026; approximately ₹14 crore",
+    "Stockholm, Sweden, in May 2026; approximately ₹1.40 crore",
+    "Båstad, Sweden, in June 2026; approximately ₹1.40 crore",
+    "Copenhagen, Denmark, in June 2026; approximately ₹14 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P38.F2"
+   ],
+   "explanation": "The finalist presentations were scheduled at Båstad, Sweden, in June 2026, and the winner’s prize was approximately ₹14 crore. Approximately ₹1.40 crore was the amount for finalists, not the winner, while the other options change the venue or date."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Observatory function and agricultural institution focus",
+   "question": "Consider the following statements:\nStatement A: C-ART at Andhra University uses remote sensing and an Eddy Covariance Tower to provide early warnings for cyclones, and Andhra University was established in 1926.\nStatement B: The proposed Indian School of Agriculture at Madanapalle will focus only on agricultural research and will not include technology, skills or agri-startups.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P39.F3",
+    "P39.F4",
+    "P40.F2"
+   ],
+   "explanation": "Statement A is true: C-ART uses remote sensing and an Eddy Covariance Tower for cyclone early warnings, and Andhra University was established in 1926. Statement B is false because the Indian School of Agriculture will also focus on technology, skills and agri-startups."
+  }
+ ]
+}

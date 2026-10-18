@@ -1,0 +1,232 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F1",
+  "P1.F10",
+  "P1.F11",
+  "P1.F4",
+  "P1.F5",
+  "P2.F4",
+  "P2.F5",
+  "P3.F2",
+  "P3.F3",
+  "P3.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Summit host and date",
+   "question": "The First International Big Cat Alliance (IBCA) Summit in 2026 is scheduled to be hosted by which country from 1–3 June?",
+   "options": [
+    "India",
+    "Saudi Arabia",
+    "Iran",
+    "Nepal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "India is hosting the First IBCA Summit from 1–3 June 2026, with participation expected from about 95 countries. Saudi Arabia is associated with joining IBCA, not hosting this summit."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Expected outcome and theme",
+   "question": "With reference to the First International Big Cat Alliance Summit, consider the following statements:\n1. The expected outcome is the “Delhi Declaration”, focusing on landscape-based and transboundary conservation.\n2. The summit theme is “Save Big Cats, Save Ecosystems, Save Humanity”.\n3. The expected outcome is the “Mumbai Declaration”, focusing on species-only conservation.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "Only statement 1 is correct: the expected outcome is the “Delhi Declaration”, centred on landscape-based and transboundary conservation. The official theme is “Save Big Cats, Save Humanity, Save Ecosystem”, not the wording in statement 2; statement 3 also changes the declaration and conservation approach."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "IBCA and Project Tiger facts",
+   "question": "Match List-I with List-II in the context of the International Big Cat Alliance and Project Tiger.\n\nList-I\n a. Launch of IBCA by Prime Minister Narendra Modi\n b. Project Tiger\n c. Number of big-cat species covered by IBCA\n d. Share of the world’s wild tigers hosted by India\n\nList-II\n i. Over 70%\n ii. 9 April 2023\n iii. Seven\n iv. 1973\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i. IBCA was launched on 9 April 2023, Project Tiger began in 1973, IBCA covers seven big cats, and India hosts over 70% of the world’s wild tigers."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Saudi Arabia’s IBCA membership",
+   "question": "With reference to Saudi Arabia joining the International Big Cat Alliance on 22 May 2026, consider the following statements:\n1. Saudi Arabia joined IBCA on 22 May 2026.\n2. After its entry, IBCA had 27 members and 5 observers.\n3. IBCA received Union Cabinet approval in February 2024.\n4. Bhupender Yadav was the Environment Minister associated with IBCA.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Saudi Arabia joined IBCA on 22 May 2026, and IBCA received Union Cabinet approval in February 2024. The membership became 26 members and 5 observers, not 27, while Bhupender Yadav was the Environment Minister, making statement 4 correct as well."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Western Disturbance forecast",
+   "question": "According to the May 2026 forecast, over which region was a fresh Western Disturbance expected during 11–13 May?",
+   "options": [
+    "North India",
+    "South India",
+    "Western coast",
+    "Northeastern India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The India Meteorological Department forecast a fresh Western Disturbance over North India during 11–13 May. The other regions were not identified for this forecast."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ENSO phases",
+   "question": "Which ENSO phase is associated with relatively warm oceanic conditions?",
+   "options": [
+    "El Niño",
+    "La Niña",
+    "Neutral",
+    "Western Disturbance"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "El Niño is the warm phase of ENSO. La Niña is the cool phase, while Neutral is the neither-warm-nor-cool phase."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Heatwave minimum maximum temperature",
+   "question": "Under the IMD heatwave criteria, what is the minimum maximum temperature requirement for considering heatwave conditions?",
+   "options": [
+    "40°C in plains and 30°C in hills",
+    "45°C in plains and 35°C in hills",
+    "30°C in plains and 40°C in hills",
+    "47°C in plains and 45°C in hills"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "The IMD criterion specifies a minimum maximum temperature of 40°C in the plains and 30°C in the hills. The other combinations do not represent this minimum-temperature criterion."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Wet-bulb and apparent temperature",
+   "question": "Consider the following statements:\nStatement A: Sustained wet-bulb temperature above 35°C can be fatal.\nStatement B: Feels-like temperature is calculated using temperature, pressure and wind.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "Statement A is true because sustained wet-bulb temperature above 35°C can be fatal. Statement B is false because apparent temperature combines temperature, humidity and wind, not pressure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Environment Protection Act basis",
+   "question": "The Environment Protection Act, 1986 was enacted under which constitutional provision for implementing international treaty obligations?",
+   "options": [
+    "Article 253",
+    "Article 243",
+    "Article 280",
+    "Article 356"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "The Environment Protection Act, 1986 was enacted under Article 253, which concerns implementation of international agreements and treaty obligations. The other Articles do not provide the constitutional basis identified for this enactment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Subsidiarity principle",
+   "question": "In environmental governance, what does the principle of subsidiarity imply?",
+   "options": [
+    "Functions should be performed at the lowest capable level",
+    "All functions should be centralised at the Union level",
+    "Functions should be assigned only to private organisations",
+    "Functions should be performed by the highest judicial authority"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Subsidiarity means that functions should be performed at the lowest level capable of carrying them out effectively. It therefore favours appropriate decentralisation rather than complete centralisation."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "D’Ering Memorial Wildlife Sanctuary details",
+   "question": "With reference to D’Ering Memorial Wildlife Sanctuary, consider the following statements:\n1. It is near Pasighat in East Siang district of Arunachal Pradesh.\n2. The NTCA was established in 2006.\n3. The sanctuary was established in 1980.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "Only statement 1 is correct: D’Ering Memorial Wildlife Sanctuary is near Pasighat in East Siang, Arunachal Pradesh. The NTCA was established in 2005, and the sanctuary was established in 1978, not 1980."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Gir National Park and Asiatic lion",
+   "question": "Which of the following correctly describes Gir National Park and the Asiatic lion?",
+   "options": [
+    "Gir National Park was established in 1965; the Asiatic lion is Panthera leo persica and is Endangered",
+    "Gir National Park was established in 1978; the Asiatic lion is Panthera tigris and is Vulnerable",
+    "Gir National Park was established in 2005; the Asiatic lion is Panthera pardus and is Critically Endangered",
+    "Gir National Park was established in 1973; the Asiatic lion is Panthera uncia and is Near Threatened"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Gir National Park was established in 1965, and the Asiatic lion is Panthera leo persica, classified as Endangered by the IUCN. The other options change the establishment year, scientific name and conservation status."
+  }
+ ]
+}

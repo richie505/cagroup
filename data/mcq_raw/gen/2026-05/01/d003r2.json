@@ -1,0 +1,86 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": [
+  "P14.F3",
+  "P15.F6",
+  "P17.F4",
+  "P17.F7",
+  "P17.F8",
+  "P17.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Global data traffic",
+   "question": "According to the Andhra Pradesh data-centre and cable-landing-station developments, what carries more than 95% of global data traffic?",
+   "options": [
+    "Submarine cables",
+    "Data centres",
+    "Cable Landing Stations",
+    "High-efficiency chillers"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3"
+   ],
+   "explanation": "Submarine cables carry more than 95% of global data traffic. Data centres, Cable Landing Stations and high-efficiency chillers are associated with the wider digital and industrial ecosystem, but they are not identified as carrying this share of global data traffic."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Industrial corridors",
+   "question": "Consider the following statements:\nStatement A: The industrial corridors associated with Andhra Pradesh's data-centre and manufacturing ecosystem are the CBIC and the Visakhapatnam–Chennai Industrial Corridor.\nStatement B: The industrial corridors associated with this ecosystem are the CBIC and the Chennai–Bengaluru Industrial Corridor.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F6"
+   ],
+   "explanation": "Statement A is correct: the corridors are the CBIC and the Visakhapatnam–Chennai Industrial Corridor. Statement B is incorrect because it changes the second corridor to the Chennai–Bengaluru Industrial Corridor."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Aquaculture and chilli exports",
+   "question": "Which combination correctly describes Andhra Pradesh's position highlighted during the AP–Singapore engagement?",
+   "options": [
+    "Largest aquaculture producer in India and 40–45% of India's chilli exports",
+    "Largest aquaculture producer in India and 40–45% of India's chilli imports",
+    "Largest aquaculture producer in India and 40–45% of India's chilli trade",
+    "Largest aquaculture producer in India and 40–45% of India's chilli production"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F4"
+   ],
+   "explanation": "Andhra Pradesh is India's largest aquaculture producer and accounts for 40–45% of India's chilli exports. The trap options replace exports with imports, trade or production."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "SAGE training and diplomatic official",
+   "question": "Assertion (A): Eight Andhra Pradesh Ministers were trained under the Singapore–AP Governance Excellence (SAGE) Initiative.\nReason (R): The Indian High Commissioner to Singapore is Shilpak Ambule.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F8",
+    "P17.F9"
+   ],
+   "explanation": "Assertion A is false because six Andhra Pradesh Ministers, not eight, were trained under the SAGE Initiative. Reason R is true: Shilpak Ambule is the Indian High Commissioner to Singapore."
+  }
+ ]
+}

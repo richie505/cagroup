@@ -1,0 +1,265 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P4.F10",
+  "P4.F11",
+  "P4.F5",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8",
+  "P5.F1",
+  "P5.F10",
+  "P5.F11",
+  "P5.F3",
+  "P5.F6",
+  "P5.F7",
+  "P5.F8",
+  "P5.F9",
+  "P6.F13",
+  "P6.F3",
+  "P6.F4",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7",
+  "P6.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Establishment year",
+   "question": "Match the organisations in List-I with their year of establishment in List-II.\n\nList-I\n(a) Indian Coast Guard\n(b) Goa Shipyard Ltd\n(c) Garden Reach Shipbuilders and Engineers\n(d) Mazagon Dock Shipbuilders\n\nList-II\n(i) 1978\n(ii) 1957\n(iii) 1884\n(iv) 1934",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5"
+   ],
+   "explanation": "The correct pairs are Indian Coast Guard–1978, Goa Shipyard Ltd–1957, Garden Reach Shipbuilders and Engineers–1884, and Mazagon Dock Shipbuilders–1934. The tempting second code incorrectly interchanges the establishment years of the Coast Guard and Goa Shipyard Ltd."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Vehicle configuration and armament",
+   "question": "Which of the following correctly describes the Vikram VT21 armoured vehicle developed by Tata Advanced Systems and DRDO?",
+   "options": [
+    "Tracked and wheeled configurations, with a 30mm unmanned turret",
+    "Only a wheeled configuration, with a 20mm manned turret",
+    "Only a tracked configuration, with a 40mm unmanned turret",
+    "Tracked and wheeled configurations, with a 105mm manned turret"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6"
+   ],
+   "explanation": "Vikram VT21 is being developed in tracked and wheeled configurations and also features a 30mm unmanned turret. The other options alter either the configuration or the turret specification."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Technology transfer and purpose",
+   "question": "Which of the following statements about the GT-IRSS is incorrect?",
+   "options": [
+    "BHEL received its transfer of technology from DRDO's NSTL at Visakhapatnam.",
+    "GT-IRSS stands for Gas Turbine–Infrared Suppression System.",
+    "The system reduces the thermal signature of warships.",
+    "The system increases the thermal signature of warships."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "The incorrect statement is that GT-IRSS increases the thermal signature; it reduces the thermal signature of warships. BHEL received the technology from DRDO's NSTL at Visakhapatnam, and GT-IRSS expands to Gas Turbine–Infrared Suppression System."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Logistics app and procurement category",
+   "question": "Consider the following statements about defence logistics and procurement:\n\n1. Q-FORCE integrates supply chain, transport and inventory on one platform.\n2. The approximate US support package for AH-64 Apache systems was US$23 million.\n3. IDDM is the lowest-priority procurement category.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8",
+    "P4.F10",
+    "P4.F11"
+   ],
+   "explanation": "Only statement 1 is correct: Q-FORCE is the Indian Army's integrated logistics and sustainment app. The AH-64 Apache package was approximately US$18.82 million, not US$23 million, and IDDM is the highest-priority procurement category, not the lowest."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coverage of block-level forecast",
+   "question": "The IMD's new block-level monsoon forecast covers which of the following?",
+   "options": [
+    "3,196 blocks in 15 States and 1 Union Territory",
+    "2,196 blocks in 15 States and 1 Union Territory",
+    "3,196 blocks in 12 States and 3 Union Territories",
+    "3,916 blocks in 16 States and 1 Union Territory"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "The forecast covers 3,196 blocks in 15 States and 1 Union Territory in the monsoon core zone. The other options change the number of blocks or the territorial coverage."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Developed at whose request",
+   "question": "At whose request was the IMD's block-level monsoon forecast developed?",
+   "options": [
+    "Ministry of Agriculture",
+    "Ministry of Heavy Industries",
+    "Department of Space",
+    "Ministry of Defence"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The block-level monsoon forecast was developed at the request of the Ministry of Agriculture. The other ministries listed are not associated with this request."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Supercomputers",
+   "question": "Which pair of supercomputers is associated with the Bharat Forecast System?",
+   "options": [
+    "Arka at IITM Pune and Arunika at NCMRWF Delhi",
+    "Arunika at IITM Pune and Arka at NCMRWF Delhi",
+    "Arka at NCMRWF Delhi and Arunika at IITM Pune",
+    "Arka at IITM Pune and Arunika at NCMRWF Noida"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "The Bharat Forecast System uses Arka at IITM Pune and Arunika at NCMRWF Delhi. The other options reverse the institutional locations or alter the location of NCMRWF."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Forecast performance, monsoon timing and IOD",
+   "question": "How many of the following statements are correct?\n\n1. The Bharat Forecast System provides 64% better accuracy.\n2. The monsoon normally reaches Mumbai around 10 June.\n3. A positive Indian Ocean Dipole can offset El Niño.\n4. The IMD was established in 1876.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F7",
+    "P5.F8",
+    "P5.F9",
+    "P5.F11"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: the system provides 64% better accuracy, the monsoon normally reaches Mumbai around 10 June, and a positive IOD can offset El Niño. Statement 4 is incorrect because the IMD was established in 1875, making the count three."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "AI-based forecast and methodology",
+   "question": "Assertion (A): The IMD's block-level monsoon forecast is called India's first AI-based block-level monsoon forecast.\nReason (R): The system combines artificial intelligence with numerical weather prediction.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F10"
+   ],
+   "explanation": "Both the Assertion and the Reason are correct. The system is described as India's first AI-based block-level monsoon forecast because it combines AI with numerical weather prediction; its error margin is approximately 4 days."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch and payload capability",
+   "question": "Which statement correctly describes Skyroot Aerospace's Vikram-1 in May 2026?",
+   "options": [
+    "Its flight hardware was moved from Max-Q Campus, Hyderabad, to SDSC Sriharikota; it can carry up to 350 kg to LEO and is planned for launch in June 2026.",
+    "Its flight hardware was moved from Max-Q Campus, Hyderabad, to SDSC Sriharikota; it can carry up to 500 kg to LEO and is planned for launch in June 2026.",
+    "Its flight hardware was moved from Bengaluru to SDSC Sriharikota; it can carry up to 350 kg to LEO and is planned for launch in December 2026.",
+    "Its flight hardware was moved from Max-Q Campus, Hyderabad, to Khoraj; it can carry up to 350 kg to LEO and is planned for launch in June 2026."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "Vikram-1 hardware was moved from Max-Q Campus, Hyderabad, to SDSC Sriharikota; the vehicle can carry up to 350 kg to LEO and was planned for launch in June 2026. The other options change the payload, origin, destination or launch timing."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Grant and satellite platform",
+   "question": "What is the principal feature of Project Garuda of Dhruva Space?",
+   "options": [
+    "A ₹105 crore grant for a standard 500-kg-class satellite platform",
+    "A ₹105 crore grant for a standard 350-kg-class satellite platform",
+    "A ₹150 crore grant for a standard 500-kg-class satellite platform",
+    "A ₹105 crore grant for a standard 1,000-kg-class satellite platform"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "Project Garuda received a ₹105 crore grant from the Research Development and Innovation Fund for a standard 500-kg-class satellite platform. The other options alter either the grant amount or the platform class."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Centre of Excellence and facilities",
+   "question": "Consider the following statements:\n\nStatement A: The Karnataka Space Tech Centre of Excellence is India's first State-led Space Technology Centre of Excellence located in Hyderabad.\nStatement B: The Department of Space approved a Space Manufacturing Park at Khoraj near Ahmedabad and a Space Vehicles Cluster at Thoothukudi.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F5",
+    "P6.F6"
+   ],
+   "explanation": "Statement A is false because the Karnataka Space Tech Centre of Excellence is located in Bengaluru, not Hyderabad. Statement B is true: the approved facilities are at Khoraj near Ahmedabad and Thoothukudi."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Founding year and institutional association",
+   "question": "Match the entities in List-I with the corresponding details in List-II.\n\nList-I\n(a) Skyroot Aerospace\n(b) Pixxel\n(c) ISRO Chairman\n\nList-II\n(i) Established in 2018; Hyderabad\n(ii) Established in 2019; Bengaluru\n(iii) V. Narayanan\n(iv) Established in 2020; Bengaluru",
+   "options": [
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iv, c-ii",
+    "a-iii, b-ii, c-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F7"
+   ],
+   "explanation": "The correct pairs are Skyroot Aerospace–established in 2018 at Hyderabad, Pixxel–established in 2019 at Bengaluru, and ISRO Chairman–V. Narayanan. The second code reverses the founding details of Skyroot Aerospace and Pixxel."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "NASA lunar plan and JWST chronology",
+   "question": "How many of the following statements are correct?\n\n1. NASA's lunar-base plan is a multi-phase plan costing approximately US$20 billion.\n2. The plan envisages astronauts by 2028.\n3. The James Webb Space Telescope was launched in 2021.\n4. The Big Bang occurred approximately 14.8 billion years ago.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F9",
+    "P6.F13"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: NASA's plan is a roughly US$20 billion multi-phase programme with astronauts by 2028, and JWST was launched in 2021. Statement 4 is incorrect because the age associated with the Big Bang is approximately 13.8 billion years, making the count three."
+  }
+ ]
+}

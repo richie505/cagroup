@@ -1,0 +1,69 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P7.F1",
+  "P7.F11",
+  "P7.F12",
+  "P7.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First state-specific department",
+   "question": "What significant institutional step has Kerala announced for elderly welfare?",
+   "options": [
+    "Formation of a separate department for elderly welfare, the first such department in India",
+    "Creation of the Kerala State Elderly Commission as the first such department in India",
+    "Transfer of elderly welfare to the Kerala State Elderly Commission",
+    "Continuation of elderly welfare exclusively under the existing Social Welfare Department"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "Kerala has announced a separate department for elderly welfare, described as the first such department in India. The Kerala State Elderly Commission is a separate quasi-judicial body, while elderly welfare is currently under the Social Welfare Department."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Elderly commission and legal framework",
+   "question": "Consider the following statements about Kerala’s institutional framework for elderly welfare:\n1. The Kerala State Elderly Commission was established in 2025 as a quasi-judicial body.\n2. Under the Kerala State Elderly Commission Act, 2025, elderly persons are defined as those aged 60 years and above.\n3. The Maintenance and Welfare of Parents and Senior Citizens Act dates from 2007, while the India Ageing Report referred to is from 2023.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F12"
+   ],
+   "explanation": "All three statements are correct. Kerala’s State Elderly Commission was established in 2025 as a quasi-judicial body, the Act defines elderly persons as those aged 60 and above, and the cited national legal and reporting framework includes the 2007 Act and the India Ageing Report 2023."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Age profile of MGNREGS workers",
+   "question": "Approximately what proportion of MGNREGS workers in Kerala were aged 61–80?",
+   "options": [
+    "About 38%",
+    "A negligible share",
+    "A majority share",
+    "The entire workforce"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F11"
+   ],
+   "explanation": "Approximately 38% of MGNREGS workers in Kerala were in the 61–80 age group. The other options do not represent the reported proportion."
+  }
+ ]
+}

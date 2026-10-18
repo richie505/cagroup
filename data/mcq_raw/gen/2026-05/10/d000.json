@@ -1,0 +1,217 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P1.F3",
+  "P1.F4",
+  "P2.F4",
+  "P2.F5",
+  "P3.F4",
+  "P3.F5",
+  "P3.F6",
+  "P4.F3",
+  "P5.F3",
+  "P5.F4",
+  "P6.F2",
+  "P7.F4",
+  "P8.F1",
+  "P8.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Bronze teams and historical records",
+   "question": "With reference to the 2026 Thomas and Uber Cup Finals, consider the following statements:\n1. Japan and Indonesia won the bronze medals in the Uber Cup.\n2. Indonesia holds the record for the most Thomas Cup titles with 12 titles.\n3. Both the Thomas Cup and the Uber Cup were established in 1949.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Statement 1 is correct: Japan and Indonesia won the Uber Cup bronze medals. Statement 2 is incorrect because Indonesia has 14 Thomas Cup titles, while Statement 3 is incorrect because the Uber Cup was established in 1956–57."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Commonwealth Games history",
+   "question": "Consider the following statements:\nStatement A: The first Commonwealth Games were held at Hamilton, Canada, in 1934.\nStatement B: The Commonwealth Games are held every 4 years.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "Statement A is false because the first Commonwealth Games were held at Hamilton, Canada, in 1930. Statement B is true because the Games are held every 4 years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IOA leadership",
+   "question": "Who were the President and Chief Executive Officer, respectively, of the Indian Olympic Association in the context of the 2026 Commonwealth Games?",
+   "options": [
+    "P.T. Usha and Raghuram Iyer",
+    "Raghuram Iyer and P.T. Usha",
+    "Vandana Rao and Rahul Swamy",
+    "Ravi Bengani and Rohit Rajpal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "P.T. Usha was the President of the Indian Olympic Association, while Raghuram Iyer was its Chief Executive Officer. The other options combine team managers, the Deputy Chef de Mission and the Chef de Mission."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Asian athletics bodies and decision venue",
+   "question": "Match List-I with List-II regarding the hosting of the Asian athletics events in India.\n\nList-I\n a. Asian Athletics Association — establishment\n b. Asian Athletics Association — headquarters\n c. Athletics Federation of India — establishment\n d. Council meeting that decided the hosting\n\nList-II\n i. 1973\n ii. Doha\n iii. 1946\n iv. Hong Kong\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The Asian Athletics Association was established in 1973 and is headquartered in Doha; the Athletics Federation of India was established in 1946, and the decision was taken at the council meeting in Hong Kong."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Edition, rules and governing body",
+   "question": "With reference to the Asian Weightlifting Championships 2026, consider the following statements:\n1. The men's event was the 53rd edition.\n2. The championships were conducted under Indian Weightlifting Federation, Asian Weightlifting Federation and IWF rules.\n3. The International Weightlifting Federation was established in 1905 and is headquartered in Lausanne.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F5",
+    "P3.F6"
+   ],
+   "explanation": "Only Statement 2 is correct: the championships were conducted under the rules of the Indian Weightlifting Federation, Asian Weightlifting Federation and IWF. The men's event was the 54th edition, not the 53rd, and the IWF is headquartered in Lausanne but was established in 1905."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organising body and age category",
+   "question": "The Asian U15 Boxing Championships in Tashkent were organised by which body, and what does U15 denote?",
+   "options": [
+    "Asian Boxing Confederation; athletes below 15 years",
+    "Asian Athletics Association; athletes below 15 years",
+    "Asian Boxing Confederation; athletes below 17 years",
+    "International Weightlifting Federation; athletes below 15 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "The championships were organised by the Asian Boxing Confederation, and U15 refers to athletes below 15 years. The other options alter either the organising body or the age category."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "National governing body",
+   "question": "Assertion (A): The Athletics Federation of India is the national governing body for athletics.\nReason (R): The Athletics Federation of India is the national governing body for weightlifting.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "Assertion A is true because the Athletics Federation of India is the national governing body for athletics. Reason R is false because the stated role of the Federation concerns athletics, not weightlifting."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IBSF headquarters and establishment",
+   "question": "Which of the following correctly describes the International Billiards and Snooker Federation (IBSF)?",
+   "options": [
+    "Established in 1971 and headquartered in Doha",
+    "Established in 1905 and headquartered in Lausanne",
+    "Established in 1973 and headquartered in Doha",
+    "Established in 1946 and headquartered in New Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "The IBSF was established in 1971 and is headquartered in Doha. The other options use the establishment years or locations associated with other sports bodies."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sports Minister",
+   "question": "Who was the Union Sports Minister associated with the National Sports Board and Tribunal Rules, 2026?",
+   "options": [
+    "Mansukh Mandaviya",
+    "P.T. Usha",
+    "Rohit Rajpal",
+    "Raghuram Iyer"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "Mansukh Mandaviya was the Sports Minister associated with the National Sports Board and Tribunal Rules, 2026. P.T. Usha and Raghuram Iyer held Indian Olympic Association positions, while Rohit Rajpal was the Chef de Mission."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Venue, edition and schedule",
+   "question": "Match List-I with List-II regarding the Commonwealth Table Tennis Championships 2026 in Delhi.\n\nList-I\n a. Edition\n b. Dates\n c. Venue\n d. Participating countries\n\nList-II\n i. 22nd\n ii. 27 July – 2 August 2026\n iii. Thyagaraj Stadium, New Delhi\n iv. 35+ countries\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The championship was the 22nd edition, scheduled from 27 July to 2 August 2026 at Thyagaraj Stadium, New Delhi, with participation from 35+ countries."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sports federation establishment and headquarters",
+   "question": "Which pairing is correct regarding the table tennis governing bodies mentioned in the context of the Commonwealth Table Tennis Championships 2026?",
+   "options": [
+    "TTFI—established in 1926; ITTF—headquartered in Lausanne",
+    "TTFI—established in 1971; ITTF—headquartered in Doha",
+    "TTFI—established in 1946; ITTF—headquartered in New Delhi",
+    "TTFI—established in 1973; ITTF—headquartered in Hong Kong"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "The Table Tennis Federation of India was established in 1926, while the International Table Tennis Federation is headquartered in Lausanne. The other pairings use details associated with different sports bodies or locations."
+  }
+ ]
+}

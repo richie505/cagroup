@@ -1,0 +1,401 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F19",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F24",
+  "P0.F25",
+  "P0.F26",
+  "P0.F27",
+  "P0.F28",
+  "P0.F29",
+  "P0.F30",
+  "P0.F31",
+  "P0.F32",
+  "P0.F33",
+  "P0.F34",
+  "P0.F35",
+  "P0.F36",
+  "P0.F37",
+  "P0.F38",
+  "P0.F39",
+  "P0.F4",
+  "P0.F40",
+  "P0.F41",
+  "P0.F42",
+  "P0.F43",
+  "P0.F44",
+  "P0.F45",
+  "P0.F46",
+  "P0.F47",
+  "P0.F48",
+  "P0.F49",
+  "P0.F50",
+  "P0.F51",
+  "P0.F52",
+  "P0.F53",
+  "P0.F54",
+  "P0.F55",
+  "P0.F56",
+  "P0.F57",
+  "P0.F58",
+  "P0.F59",
+  "P0.F60",
+  "P0.F61",
+  "P0.F62",
+  "P0.F63",
+  "P0.F64",
+  "P0.F65",
+  "P0.F66",
+  "P0.F7",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Awardee and field/state",
+   "question": "With reference to the Padma Awards 2026, match List-I with List-II.\n\nList-I\n(a) Dharmendra Singh Deol\n(b) P Narayanan\n(c) Alka Yagnik\n(d) Bhagat Singh Koshyari\n\nList-II\n(i) Public Affairs — Uttarakhand\n(ii) Art — Maharashtra\n(iii) Literature & Education — Kerala\n(iv) Art — Maharashtra\n\nCodes:\n1. a-ii, b-iii, c-iv, d-i\n2. a-iii, b-ii, c-i, d-iv\n3. a-ii, b-i, c-iii, d-iv\n4. a-iv, b-iii, c-ii, d-i",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F7",
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "The correct matching is Dharmendra Singh Deol—Art, Maharashtra; P Narayanan—Literature & Education, Kerala; Alka Yagnik—Art, Maharashtra; and Bhagat Singh Koshyari—Public Affairs, Uttarakhand. The second code wrongly assigns P Narayanan and Alka Yagnik."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Padma Bhushan awardee and field/state",
+   "question": "Match the following Padma Bhushan awardees of 2026 with their fields and associated State/Country.\n\nList-I\n(a) Kallipatti Ramasamy Palaniswamy\n(b) Mammootty\n(c) Nori Dattatreyudu\n(d) Piyush Pandey\n\nList-II\n(i) Art — Maharashtra\n(ii) Medicine — Tamil Nadu\n(iii) Art — Kerala\n(iv) Medicine — USA\n\nCodes:\n1. a-ii, b-iii, c-iv, d-i\n2. a-iii, b-ii, c-i, d-iv\n3. a-ii, b-iv, c-iii, d-i\n4. a-iv, b-iii, c-ii, d-i",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12",
+    "P0.F13",
+    "P0.F14"
+   ],
+   "explanation": "The correct pairs are Kallipatti Ramasamy Palaniswamy—Medicine, Tamil Nadu; Mammootty—Art, Kerala; Nori Dattatreyudu—Medicine, USA; and Piyush Pandey—Art, Maharashtra. The third code interchanges the associations of Mammootty and Nori Dattatreyudu."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Padma Bhushan field and State",
+   "question": "Kallipatti Ramasamy Palaniswamy received the Padma Bhushan 2026 for which field from which State?",
+   "options": [
+    "Social Work — Tamil Nadu",
+    "Medicine — Tamil Nadu",
+    "Medicine — Kerala",
+    "Public Affairs — Uttarakhand"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Kallipatti Ramasamy Palaniswamy received the Padma Bhushan for Medicine from Tamil Nadu. Social Work—Tamil Nadu is associated with S K M Maeilanandhan, not this awardee."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Padma Bhushan awardee and field/state",
+   "question": "Match the following Padma Bhushan awardees of 2026 with their fields and States.\n\nList-I\n(a) S K M Maeilanandhan\n(b) Shatavadhani R Ganesh\n(c) Shibu Soren\n(d) Uday Kotak\n\nList-II\n(i) Trade & Industry — Maharashtra\n(ii) Social Work — Tamil Nadu\n(iii) Art — Karnataka\n(iv) Public Affairs — Jharkhand\n\nCodes:\n1. a-ii, b-iii, c-iv, d-i\n2. a-iii, b-ii, c-i, d-iv\n3. a-ii, b-iv, c-iii, d-i\n4. a-iv, b-iii, c-ii, d-i",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16",
+    "P0.F17",
+    "P0.F18",
+    "P0.F19"
+   ],
+   "explanation": "The correct pairs are S K M Maeilanandhan—Social Work, Tamil Nadu; Shatavadhani R Ganesh—Art, Karnataka; Shibu Soren—Public Affairs, Jharkhand; and Uday Kotak—Trade & Industry, Maharashtra. The second code incorrectly assigns Shatavadhani R Ganesh to Social Work."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Padma Bhushan field and State",
+   "question": "With reference to the Padma Bhushan awardees of 2026, which statement is incorrect?",
+   "options": [
+    "V K Malhotra was honoured for Public Affairs from Delhi.",
+    "Vellappally Natesan was honoured for Public Affairs from Kerala.",
+    "K Pajanivel was honoured for Sports from Puducherry.",
+    "Vijay Amritraj was honoured for Sports from USA."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F20",
+    "P0.F21",
+    "P0.F22",
+    "P0.F23"
+   ],
+   "explanation": "The incorrect statement is the one mentioning K Pajanivel, because K Pajanivel was a Padma Shri awardee, not a Padma Bhushan awardee in the supplied awardee list. The other three statements correctly identify Padma Bhushan awardees and their fields and States/Country."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Padma Shri field and State",
+   "question": "Maganti Murali Mohan received the Padma Shri 2026 for which field from which State?",
+   "options": [
+    "Art — Andhra Pradesh",
+    "Literature & Education — Andhra Pradesh",
+    "Art — Telangana",
+    "Science & Engineering — Telangana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F24"
+   ],
+   "explanation": "Maganti Murali Mohan received the Padma Shri for Art from Andhra Pradesh. Literature & Education—Andhra Pradesh is associated with Vempaty Kutumba Sastry."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Padma Shri awardee and field/state",
+   "question": "Match the following Padma Shri awardees from Andhra Pradesh and Telangana with their fields and States.\n\nList-I\n(a) Vempaty Kutumba Sastry\n(b) Chandramouli Gaddamanugu\n(c) Deepika Reddy\n(d) Guduru Venkat Rao\n\nList-II\n(i) Medicine — Telangana\n(ii) Literature & Education — Andhra Pradesh\n(iii) Science & Engineering — Telangana\n(iv) Art — Telangana\n\nCodes:\n1. a-ii, b-iii, c-iv, d-i\n2. a-iii, b-ii, c-i, d-iv\n3. a-ii, b-iv, c-iii, d-i\n4. a-i, b-iii, c-iv, d-ii",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F25",
+    "P0.F26",
+    "P0.F27",
+    "P0.F28"
+   ],
+   "explanation": "The correct pairs are Vempaty Kutumba Sastry—Literature & Education, Andhra Pradesh; Chandramouli Gaddamanugu—Science & Engineering, Telangana; Deepika Reddy—Art, Telangana; and Guduru Venkat Rao—Medicine, Telangana. The third code wrongly assigns Deepika Reddy to Science & Engineering."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Padma Shri field and State",
+   "question": "Consider the following statements:\nStatement A: Krishnamurty Balasubramanian received the Padma Shri for Science & Engineering from Telangana.\nStatement B: Kumarasamy Thangaraj received the Padma Shri for Medicine from Telangana.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F29",
+    "P0.F30"
+   ],
+   "explanation": "Both statements are false. Krishnamurty Balasubramanian and Kumarasamy Thangaraj were both honoured for Science & Engineering from Telangana; the second statement changes Kumarasamy Thangaraj’s field to Medicine."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Padma Shri awardee and field",
+   "question": "Assertion (A): Palkonda Vijay Anand Reddy received the Padma Shri for Medicine from Telangana.\nReason (R): Rama Reddy Mamidi received the Padma Shri for Science & Engineering from Telangana.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F31",
+    "P0.F32"
+   ],
+   "explanation": "Assertion A is true: Palkonda Vijay Anand Reddy received the Padma Shri for Medicine from Telangana. Reason R is false because Rama Reddy Mamidi was honoured for Animal Husbandry from Telangana."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Padma Shri sports awardee and State",
+   "question": "Match the following Padma Shri sports awardees of 2026 with their States.\n\nList-I\n(a) Rohit Sharma\n(b) Harmanpreet Kaur Bhullar\n(c) Savita Punia\n(d) Praveen Kumar\n\nList-II\n(i) Haryana\n(ii) Maharashtra\n(iii) Uttar Pradesh\n(iv) Punjab\n\nCodes:\n1. a-ii, b-iv, c-i, d-iii\n2. a-iv, b-ii, c-iii, d-i\n3. a-ii, b-i, c-iv, d-iii\n4. a-iii, b-iv, c-i, d-ii",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F33",
+    "P0.F34",
+    "P0.F35",
+    "P0.F36"
+   ],
+   "explanation": "The correct pairs are Rohit Sharma—Maharashtra; Harmanpreet Kaur Bhullar—Punjab; Savita Punia—Haryana; and Praveen Kumar—Uttar Pradesh. The third code swaps the States of Harmanpreet Kaur Bhullar and Savita Punia."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Padma Shri sports awardees and States",
+   "question": "How many of the following Padma Shri sports awardee–State pairs are correctly matched?\n\n1. Baldev Singh — Punjab\n2. Bhagwandas Raikwar — Madhya Pradesh\n3. K Pajanivel — Puducherry\n4. Vladimer Mestvirishvili — Punjab",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F37",
+    "P0.F38",
+    "P0.F39",
+    "P0.F40"
+   ],
+   "explanation": "Only one pair is correct: K Pajanivel—Puducherry. Baldev Singh was associated with Punjab, Bhagwandas Raikwar with Madhya Pradesh, and Vladimer Mestvirishvili with Georgia; therefore the first two and fourth pairs as stated are not all correct? Actually the first and second are also correct, so the count is three."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Padma Shri foreign awardee and field/country",
+   "question": "Match the following Padma Shri awardees with their fields and Countries/State.\n\nList-I\n(a) Lars-Christian Koch\n(b) Liudmila Viktorovna Khokhlova\n(c) Prateek Sharma\n(d) Gayatri and Ranjani Balasubramanian\n\nList-II\n(i) Medicine — USA\n(ii) Art — Germany\n(iii) Art — Tamil Nadu\n(iv) Literature & Education — Russia\n\nCodes:\n1. a-ii, b-iv, c-i, d-iii\n2. a-iv, b-ii, c-iii, d-i\n3. a-ii, b-i, c-iv, d-iii\n4. a-iii, b-iv, c-i, d-ii",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F41",
+    "P0.F42",
+    "P0.F43",
+    "P0.F44"
+   ],
+   "explanation": "The correct pairs are Lars-Christian Koch—Art, Germany; Liudmila Viktorovna Khokhlova—Literature & Education, Russia; Prateek Sharma—Medicine, USA; and Gayatri and Ranjani Balasubramanian—Art, Tamil Nadu. The second code wrongly assigns Lars-Christian Koch to Literature & Education."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Padma Shri duo and field/state",
+   "question": "With reference to the Padma Shri 2026 awardees, consider the following statements:\n\n1. Ramchandra and Suneeta Godbole were honoured for Medicine from Chhattisgarh.\n2. Veezhinathan Kamakoti was honoured for Science & Engineering from Tamil Nadu.\n3. Mamidala Jagadesh Kumar was honoured for Art from Delhi.\n4. Shashi Shekhar Vempati was honoured for Literature & Education from Karnataka.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F45",
+    "P0.F46",
+    "P0.F47",
+    "P0.F48"
+   ],
+   "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect because Mamidala Jagadesh Kumar was honoured for Literature & Education from Delhi, not Art."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Padma Shri field and State",
+   "question": "Match the following Padma Shri awardees with their fields and States/Country.\n\nList-I\n(a) Prosenjit Chatterjee\n(b) Satish Shah\n(c) K Vijay Kumar\n(d) R V S Mani\n\nList-II\n(i) Civil Service — Tamil Nadu\n(ii) Art — West Bengal\n(iii) Art — Maharashtra\n(iv) Civil Service — Delhi\n\nCodes:\n1. a-ii, b-iii, c-i, d-iv\n2. a-iii, b-ii, c-iv, d-i\n3. a-ii, b-i, c-iii, d-iv\n4. a-iv, b-iii, c-i, d-ii",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F49",
+    "P0.F50",
+    "P0.F51",
+    "P0.F52"
+   ],
+   "explanation": "The correct pairs are Prosenjit Chatterjee—Art, West Bengal; Satish Shah—Art, Maharashtra; K Vijay Kumar—Civil Service, Tamil Nadu; and R V S Mani—Civil Service, Delhi. The second code interchanges the associations of Prosenjit Chatterjee and Satish Shah."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Padma Shri field and State",
+   "question": "Match the following Padma Shri awardees with their fields and States.\n\nList-I\n(a) Padma Gurmet\n(b) Budhri Tati\n(c) Buddha Rashmi Mani and Narayan Vyas\n(d) Ramchandra and Suneeta Godbole\n\nList-II\n(i) Archaeology — UP, MP\n(ii) Medicine — Ladakh\n(iii) Social Work — Chhattisgarh\n(iv) Medicine — Chhattisgarh\n\nCodes:\n1. a-ii, b-iii, c-i, d-iv\n2. a-iii, b-ii, c-iv, d-i\n3. a-ii, b-iv, c-i, d-iii\n4. a-i, b-iii, c-ii, d-iv",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F53",
+    "P0.F54",
+    "P0.F55",
+    "P0.F56"
+   ],
+   "explanation": "The correct pairs are Padma Gurmet—Medicine, Ladakh; Budhri Tati—Social Work, Chhattisgarh; Buddha Rashmi Mani and Narayan Vyas—Archaeology, UP and MP; and Ramchandra and Suneeta Godbole—Medicine, Chhattisgarh. The third code incorrectly assigns Budhri Tati to Medicine."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Padma Shri field and State",
+   "question": "Match the following Padma Shri awardees with their fields and States.\n\nList-I\n(a) Sant Niranjan Dass\n(b) T T Jagannathan\n(c) Taga Ram Bheel\n(d) Kalamandalam Vimala Menon\n\nList-II\n(i) Art — Rajasthan\n(ii) Art — Kerala\n(iii) Spiritualism — Punjab\n(iv) Trade & Industry — Karnataka\n\nCodes:\n1. a-iii, b-iv, c-i, d-ii\n2. a-iv, b-iii, c-ii, d-i\n3. a-iii, b-i, c-iv, d-ii\n4. a-ii, b-iv, c-i, d-iii",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F57",
+    "P0.F58",
+    "P0.F59",
+    "P0.F60"
+   ],
+   "explanation": "The correct pairs are Sant Niranjan Dass—Spiritualism, Punjab; T T Jagannathan—Trade & Industry, Karnataka; Taga Ram Bheel—Art, Rajasthan; and Kalamandalam Vimala Menon—Art, Kerala. The second code wrongly assigns Sant Niranjan Dass to Trade & Industry."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Sivasankari and Padma Awards framework",
+   "question": "With reference to the Padma Awards and related constitutional provisions, consider the following statements:\n\n1. Sivasankari received the Padma Shri for Literature & Education from Tamil Nadu.\n2. Article 18(1) permits titles other than military and academic distinctions.\n3. In Balaji Raghavan v. Union of India (1996), national awards were held to be titles that may be used as prefixes or suffixes.\n4. The Padma Awards were instituted in 1954 and suspended during 1977–80 and 1992–95.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 4 only",
+    "2 and 3 only",
+    "1, 2 and 4"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F61",
+    "P0.F62",
+    "P0.F63",
+    "P0.F64"
+   ],
+   "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: Balaji Raghavan v. Union of India (1996) held that national awards are not titles and cannot be used as prefixes or suffixes."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Eligibility and annual ceiling",
+   "question": "How many of the following statements regarding national awards and eligibility are correct?\n\n1. The Bharat Ratna may be awarded to a maximum of three persons in a year.\n2. Government servants, including employees of public-sector undertakings, are eligible for the Padma Awards without exception.\n\nChoose the correct answer.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Both statements are incorrect",
+    "Not determinable"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F65",
+    "P0.F66"
+   ],
+   "explanation": "Only one statement is correct. The Bharat Ratna has a maximum of three awardees in a year, while government servants including PSU employees are not eligible except doctors and scientists."
+  }
+ ]
+}

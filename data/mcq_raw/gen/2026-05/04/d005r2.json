@@ -1,0 +1,53 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24
+ ],
+ "only": [
+  "P16.F3",
+  "P17.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Record solar capacity addition",
+   "question": "India recorded a record solar capacity addition of how much in FY 2025–26?",
+   "options": [
+    "44.61 GW",
+    "44.61 million tonnes",
+    "44.61 days",
+    "44.61%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F3"
+   ],
+   "explanation": "India added a record 44.61 GW of solar capacity in FY 2025–26, more than double the previous year’s addition. The tempting option of 44.61 million tonnes uses the wrong unit; the reported measure was in GW."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme period and outlay",
+   "question": "Under the operational guidelines for the Bharat Audyogik Vikas Yojana (BHAVYA), which combination correctly states the implementation period and outlay?",
+   "options": [
+    "2026–27 to 2031–32 and ₹33,660 crore",
+    "2026–27 to 2031–32 and ₹33,660 lakh",
+    "2026–27 to 2031–32 and ₹33,660 million",
+    "2026–27 to 2031–32 and ₹33,660"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F2"
+   ],
+   "explanation": "BHAVYA covers the period from 2026–27 to 2031–32 and has an outlay of ₹33,660 crore. The other options retain the figure but change the stated unit or omit the crore denomination."
+  }
+ ]
+}

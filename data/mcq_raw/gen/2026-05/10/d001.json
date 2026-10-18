@@ -1,0 +1,178 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P10.F3",
+  "P11.F4",
+  "P13.F3",
+  "P13.F4",
+  "P13.F5",
+  "P14.F1",
+  "P14.F2",
+  "P14.F3",
+  "P14.F4",
+  "P14.F5",
+  "P15.F4",
+  "P15.F5",
+  "P9.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Office-bearers",
+   "question": "Who were elected as Vice-Chair, General Secretary and Treasurer, respectively, of the Commonwealth Chess Association for the 2026–2030 term?",
+   "options": [
+    "Akhramshah Muammar Ubaidah, G. Lakshman Wijesuriya and Vicky Mago",
+    "G. Lakshman Wijesuriya, Vicky Mago and Akhramshah Muammar Ubaidah",
+    "Vicky Mago, Akhramshah Muammar Ubaidah and G. Lakshman Wijesuriya",
+    "Akhramshah Muammar Ubaidah, Vicky Mago and G. Lakshman Wijesuriya"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "Akhramshah Muammar Ubaidah of Malaysia was elected Vice-Chair, G. Lakshman Wijesuriya of Sri Lanka became General Secretary, and Vicky Mago of South Africa became Treasurer. The tempting fourth option reverses the General Secretary and Treasurer positions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment, headquarters and president",
+   "question": "Which combination correctly describes FIDE, the governing body associated with international chess?",
+   "options": [
+    "Established in 1924, headquartered in Lausanne, and headed by Arkady Dvorkovich",
+    "Established in 1907, headquartered in Munich, and headed by Luciano Rossi",
+    "Established in 1989, headquartered in Bonn, and headed by Andrew Parsons",
+    "Established in 1999, headquartered in Montreal, and headed by Arkady Dvorkovich"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "FIDE was established in 1924, is headquartered in Lausanne, and has Arkady Dvorkovich as its President. The second option describes the ISSF, while the third describes the IPC."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Institutional establishment facts",
+   "question": "Consider the following statements regarding sports institutions:\n\n1. The Arjuna Award was instituted in 1961.\n2. The Olympic Council of Asia was established in 1982, with its headquarters in Kuwait City.\n3. The Arjuna Award was instituted in 1962.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Arjuna Award was instituted in 1961, and the Olympic Council of Asia was established in 1982 in Kuwait City. Statement 3 is incorrect because the correct year for instituting the Arjuna Award is 1961."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Anti-doping bodies and competition record",
+   "question": "How many of the following statements are correct regarding the anti-doping cases and agencies?\n\n1. Banveer Singh finished second at the Indian Grand Prix in Bhubaneswar in 2022.\n2. NADA was established in 2005 in New Delhi under the Ministry of Youth Affairs and Sports.\n3. WADA was established in 1999 and is headquartered in Montreal, Canada.\n4. NADA was established in 1999 and is headquartered in Montreal, Canada.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F4",
+    "P13.F5"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct, so the answer is Only three. Statement 4 wrongly assigns WADA’s establishment year and headquarters to NADA; NADA was established in 2005 in New Delhi, whereas WADA was established in 1999 in Montreal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First official national competition",
+   "question": "What was the significance of the F1 Sim Racing India Open 2026?",
+   "options": [
+    "It was India’s first official Formula 1 Sim Racing Championship and the first F1-approved national sim racing competition",
+    "It was India’s first Formula 1 Grand Prix held at Buddh International Circuit",
+    "It was the first Asian event governed exclusively by the International Olympic Committee",
+    "It was India’s first professional motorsport event conducted without an e-sports component"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "The F1 Sim Racing India Open 2026 was India’s first official Formula 1 Sim Racing Championship and the first F1-approved national sim racing competition. The Buddh International Circuit hosted the Indian Grand Prix during 2011–2013, not this sim racing championship."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launched by",
+   "question": "The F1 Sim Racing India Open 2026 was launched by which entities?",
+   "options": [
+    "Formula 1 and Mumbai Falcons Racing Limited",
+    "Formula 1 and the International Automobile Federation",
+    "FIA and Hockey India",
+    "Mumbai Falcons Racing Limited and the Olympic Council of Asia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2"
+   ],
+   "explanation": "The championship was launched by Formula 1 and Mumbai Falcons Racing Limited, which holds the organising rights. FIA and Hockey India are not identified as the launching entities for this competition."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Nature of competition and related motorsport facts",
+   "question": "Consider the following statements about the F1 Sim Racing India Open 2026 and related Indian motorsport facts:\n\n1. It links e-sports with professional motorsport.\n2. Formula 1 is governed by the FIA, which was established in 1904 and is headquartered in Paris.\n3. The Indian Grand Prix was held at Buddh International Circuit from 2011 to 2014.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3",
+    "P14.F4",
+    "P14.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the event connects e-sports with professional motorsport, and Formula 1 is governed by the FIA, established in 1904 with headquarters in Paris. Statement 3 is incorrect because the Indian Grand Prix at Buddh International Circuit was held from 2011 to 2013."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sports personality and National Sports Day",
+   "question": "Major Dhyan Chand, associated with India’s first Olympic hockey gold, is popularly known by which title, and his birth anniversary is observed as what?",
+   "options": [
+    "The Wizard of Hockey; National Sports Day on 29 August",
+    "The Flying Sikh; National Sports Day on 15 August",
+    "The Wall of Hockey; Olympic Day on 23 June",
+    "The Hockey Emperor; Khel Diwas on 26 January"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4"
+   ],
+   "explanation": "Major Dhyan Chand was known as the “Wizard of Hockey”, and his birth anniversary on 29 August is observed as National Sports Day. The other titles and dates do not match the stated association."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Establishment and headquarters",
+   "question": "Consider the following statements:\n\nStatement A: Hockey India was established in 2009 and is headquartered in New Delhi.\nStatement B: The Indian Olympic Association was established in 1982.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F5"
+   ],
+   "explanation": "Statement A is true: Hockey India was established in 2009 in New Delhi. Statement B is false because the Indian Olympic Association was established in 1927, not 1982; 1982 is the establishment year of the Olympic Council of Asia."
+  }
+ ]
+}

@@ -1,0 +1,265 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P4.F1",
+  "P4.F5",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8",
+  "P5.F3",
+  "P5.F4",
+  "P5.F5",
+  "P5.F6",
+  "P6.F10",
+  "P6.F11",
+  "P6.F12",
+  "P6.F2",
+  "P6.F3",
+  "P6.F4",
+  "P6.F5",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9",
+  "P7.F5",
+  "P7.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "IMR and under-5 mortality",
+   "question": "With reference to the fertility and mortality indicators reported in SRS 2024, consider the following statements:\n1. India’s Infant Mortality Rate was 24.\n2. Andhra Pradesh recorded an under-5 mortality rate of 20.\n3. Telangana recorded an under-5 mortality rate of 20.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F5",
+    "P4.F6"
+   ],
+   "explanation": "Statements 1 and 3 are correct: India’s IMR was 24 and Telangana’s under-5 mortality rate was 20. Statement 2 is incorrect because Andhra Pradesh recorded an under-5 mortality rate of 21."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Mortality and birth indicators",
+   "question": "Match the indicators reported in SRS 2024 with the corresponding values.\n\nList-I\n(a) India’s Crude Birth Rate\n(b) Andhra Pradesh’s Crude Birth Rate\n(c) India’s sex ratio at birth\n(d) Telangana’s sex ratio at birth\n\nList-II\n(i) 918\n(ii) 14.3\n(iii) 18.3\n(iv) 917",
+   "options": [
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7",
+    "P4.F8"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-i and d-iv. India and Andhra Pradesh had Crude Birth Rates of 18.3 and 14.3 respectively, while India’s and Telangana’s sex ratios at birth were 918 and 917."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "States below replacement fertility",
+   "question": "According to SRS 2024, how many major States recorded a Total Fertility Rate below the replacement level of 2.1?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "SRS 2024 reported that 16 major States had a Total Fertility Rate below the replacement level of 2.1. The other numbers do not match the reported count."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Crime against vulnerable groups",
+   "question": "Which of the following statements regarding the NCRB’s Crime in India 2024 report is incorrect?",
+   "options": [
+    "Crimes against women declined by 1.5%.",
+    "Crimes against Scheduled Castes declined by 3.6%.",
+    "Crimes against Scheduled Tribes declined by 23.1%.",
+    "Crimes against Scheduled Tribes declined by 21.3%."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The incorrect statement is that crimes against Scheduled Tribes declined by 21.3%. The reported decline was 23.1%; the other three statements correctly state the reported changes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Metro cybercrime ranking",
+   "question": "Among the metropolitan cities covered in the NCRB’s Crime in India 2024 report, which city recorded 17,561 cybercrime cases?",
+   "options": [
+    "Bengaluru",
+    "Mumbai",
+    "Hyderabad",
+    "Chennai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "Bengaluru recorded 17,561 cybercrime cases among the listed metropolitan cities. Mumbai recorded 4,939 and Hyderabad 4,009, while Chennai is not the reported answer."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NCRB and UAPA years",
+   "question": "Consider the following statements:\nStatement A: The NCRB was established in 1967.\nStatement B: The Unlawful Activities (Prevention) Act was enacted in 1986.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "Both statements are false. The NCRB was established in 1986, while the Unlawful Activities (Prevention) Act was enacted in 1967."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Labour force participation and unemployment",
+   "question": "With reference to PLFS 2025, consider the following statements:\n1. The LFPR for all ages increased from 44.7% to 44.9%.\n2. Unemployment in 2025 was 3.6%.\n3. The female LFPR for persons aged 15 years and above was 41.0%.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3"
+   ],
+   "explanation": "Only statement 1 is correct: the all-ages LFPR rose from 44.7% to 44.9%. Unemployment in 2025 was 3.1%, and the female LFPR for persons aged 15 years and above was 40.0%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Women’s work participation",
+   "question": "According to PLFS 2025, what was the increase in the share of rural women in the Worker Population Ratio?",
+   "options": [
+    "From 26.9% to 33.8%",
+    "From 39.7% to 43.5%",
+    "From 44.7% to 44.9%",
+    "From 40.0% to 50.9%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "The share of rural women in the Worker Population Ratio increased from 26.9% to 33.8%. The other pairs refer to different labour-market indicators or unrelated figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Urban cybercrime leader",
+   "question": "Which metropolitan city recorded 4,939 cybercrime cases in the NCRB’s Crime in India 2024 report?",
+   "options": [
+    "Bengaluru",
+    "Mumbai",
+    "Hyderabad",
+    "Delhi"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "Mumbai recorded 4,939 cybercrime cases in the reported metropolitan-city comparison. Bengaluru recorded 17,561 and Hyderabad 4,009, making them incorrect choices."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Unincorporated-sector composition",
+   "question": "How many of the following sectoral shares reported in ASUSE correspond to the stated values?\n1. Retail — 26%\n2. Apparel — 12%\n3. Social and personal services — 13%\n4. Retail — 24%",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F7"
+   ],
+   "explanation": "Only two statements are correct: retail accounted for 26% and apparel for 12%. Social and personal services accounted for 12%, not 13%, and the retail share was 26%, not 24%."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State share of unincorporated enterprises",
+   "question": "Match the States with their shares of enterprises reported in ASUSE.\n\nList-I\n(a) Uttar Pradesh\n(b) West Bengal\n(c) Maharashtra\n(d) Andhra Pradesh\n\nList-II\n(i) 4.79%\n(ii) 13.80%\n(iii) 8.29%\n(iv) 13.10%",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F8"
+   ],
+   "explanation": "The correct pairs are Uttar Pradesh–13.80%, West Bengal–13.10%, Maharashtra–8.29% and Andhra Pradesh–4.79%. These correspond to a-ii, b-iv, c-iii and d-i."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Women-led enterprises and financial indicators",
+   "question": "Match the ASUSE findings with the corresponding details.\n\nList-I\n(a) State with the highest share of women-led enterprises\n(b) State topping financial inclusion\n(c) States with the highest debt burden\n(d) Year of establishment of the NSO\n\nList-II\n(i) Maharashtra — 94.8%\n(ii) Kerala, Andhra Pradesh and Tamil Nadu — ₹1.20–1.60 lakh per enterprise\n(iii) Telangana — 38.6%\n(iv) 2019",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F9",
+    "P6.F10",
+    "P6.F11",
+    "P6.F12"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-ii and d-iv. Telangana led in women-led enterprises at 38.6%, Maharashtra topped financial inclusion at 94.8%, the highest debt burden was reported for Kerala, Andhra Pradesh and Tamil Nadu, and the NSO was established in 2019."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "LEADS Growth Seekers tier",
+   "question": "Which of the following States or Union Territories was included in the Growth Seekers tier of LEADS 2025?",
+   "options": [
+    "West Bengal",
+    "Tamil Nadu",
+    "Gujarat",
+    "Andhra Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "West Bengal was included in the Growth Seekers tier of LEADS 2025. Tamil Nadu was listed among Exemplars, Gujarat among High Performers and Andhra Pradesh among Accelerators."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Logistics policy linkages",
+   "question": "LEADS 2025 was linked with which of the following policy initiatives and years?",
+   "options": [
+    "PM Gati Shakti — 2021 and National Logistics Policy — 2022",
+    "PM Gati Shakti — 2022 and National Logistics Policy — 2021",
+    "PM Gati Shakti — 2021 and National Logistics Policy — 2021",
+    "PM Gati Shakti — 2022 and National Logistics Policy — 2022"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F6"
+   ],
+   "explanation": "LEADS 2025 was linked to PM Gati Shakti, launched in 2021, and the National Logistics Policy of 2022. The other options interchange or alter the reported years."
+  }
+ ]
+}

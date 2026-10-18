@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F16",
+  "P0.F2",
+  "P0.F3",
+  "P0.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Act under challenge",
+   "question": "The Supreme Court hearing in May 2026 concerned a 2024 challenge filed by the Association for Democratic Reforms against which legislation?",
+   "options": [
+    "The Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023",
+    "The Election Commission Act, 1991",
+    "The interim appointment arrangement of March 2023",
+    "Article 324(2) of the Constitution"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The challenge filed by the Association for Democratic Reforms in 2024 concerned the Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023. The Election Commission Act, 1991 was a different legislative reference and was not the law challenged in this hearing."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Composition of selection panels",
+   "question": "Match the persons in List-I with their position in the specified selection arrangement in List-II.\n\nList-I\n(a) Prime Minister in the Anoop Baranwal interim arrangement\n(b) Prime Minister under the 2023 Act\n(c) Leader of the Opposition in the Lok Sabha in the Anoop Baranwal interim arrangement\n(d) Leader of the Opposition in the Lok Sabha under the 2023 Act\n\nList-II\ni. Chairperson\nii. Chairperson\niii. Member\niv. Member",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "The correct pairs are a- i, b-ii, c-iii and d-iv: the Prime Minister was the chairperson in both arrangements, while the Leader of the Opposition in the Lok Sabha was a member in both. The other codes interchange the chairperson and member positions or assign them to the wrong arrangement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Constitutional basis of voting",
+   "question": "According to Anoop Baranwal, voting forms part of the expression protected under which constitutional provision?",
+   "options": [
+    "Article 19(1)(a)",
+    "Article 324(2)",
+    "Article 324(5)",
+    "The Election Commission Act, 1991"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "Anoop Baranwal stated that voting is part of the expression protected under Article 19(1)(a). The other options do not identify the constitutional provision linked to voting in this view."
+  }
+ ]
+}

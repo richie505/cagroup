@@ -1,0 +1,190 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "only": [
+  "P15.F2",
+  "P15.F3",
+  "P15.F4",
+  "P15.F7",
+  "P15.F8",
+  "P16.F5",
+  "P16.F7",
+  "P16.F8",
+  "P16.F9",
+  "P17.F1",
+  "P17.F2",
+  "P17.F3",
+  "P17.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "State leadership",
+   "question": "Who is the Chief Minister of Sikkim in May 2026?",
+   "options": [
+    "Prem Singh Tamang",
+    "Om Prakash Mathur",
+    "Aravind Kumar",
+    "Arjun Ram Meghwal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2",
+    "P15.F3",
+    "P15.F8"
+   ],
+   "explanation": "Prem Singh Tamang is the Chief Minister of Sikkim. Om Prakash Mathur is the Governor of Sikkim, while Aravind Kumar heads the court modernisation committee and Arjun Ram Meghwal is the Law Minister."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Judicial modernisation and Lok Adalat",
+   "question": "Consider the following statements:\n1. The court modernisation committee is headed by Justice Aravind Kumar, targets funding of ₹40,000–50,000 crore and is to submit its report by 31 August 2026.\n2. The e-Courts project timeline identifies 2005 with the Supreme Court e-Committee and 2007 with the Mission Mode Project.\n3. The Samadhan Samaroh–2026 special Lok Adalat is scheduled for 21–23 August 2026, with registration open until 31 May 2026, to settle pending cases by mutual consent.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P15.F3",
+    "P15.F4",
+    "P15.F7"
+   ],
+   "explanation": "All three statements are correct. The court modernisation committee, the e-Courts milestones and the Samadhan Samaroh–2026 schedule are respectively described in the statements."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Law Minister",
+   "question": "Assertion (A): Arjun Ram Meghwal is the Law Minister associated with the Samadhan Samaroh–2026 special Lok Adalat.\nReason (R): Arjun Ram Meghwal is the Governor of Sikkim.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F8",
+    "P15.F2"
+   ],
+   "explanation": "Assertion A is correct because Arjun Ram Meghwal is identified as the Law Minister. Reason R is false: Om Prakash Mathur, not Arjun Ram Meghwal, is the Governor of Sikkim."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Parliamentary committee chairperson",
+   "question": "Who was appointed Chairperson of the Joint Committee on the Corporate Laws Amendment Bill, 2026?",
+   "options": [
+    "Sudheer Gupta",
+    "K.C. Venugopal",
+    "Medha Vishram Kulkarni",
+    "K. Laxman"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F5",
+    "P16.F7",
+    "P16.F8"
+   ],
+   "explanation": "Sudheer Gupta was appointed Chairperson of the Joint Committee on the Corporate Laws Amendment Bill, 2026. Medha Vishram Kulkarni chairs the Rajya Sabha Standing Committee on Science and Technology, Environment, Forests and Climate Change, while Dr. K. Laxman chairs the Rajya Sabha House Committee."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Rajya Sabha committee appointments",
+   "question": "Match List-I with List-II regarding Rajya Sabha appointments in May 2026.\n\nList-I\n(a) Medha Vishram Kulkarni\n(b) Dr. K. Laxman\n\nList-II\n(i) Chair, Standing Committee on Science & Technology, Environment, Forests and Climate Change\n(ii) Chairman, Rajya Sabha House Committee\n(iii) Chairperson, Joint Committee on the Corporate Laws Amendment Bill, 2026\n(iv) Law Minister",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-iii, b-iv",
+    "a-iv, b-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F7",
+    "P16.F8",
+    "P16.F5",
+    "P15.F8"
+   ],
+   "explanation": "The correct pairs are a-i and b-ii. Medha Vishram Kulkarni chairs the specified Standing Committee, while Dr. K. Laxman is Chairman of the Rajya Sabha House Committee."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Constitutional position of Vice-President",
+   "question": "How many of the following statements correctly describe the constitutional position of the Vice-President and the Rajya Sabha?\n\n1. Article 63 provides that the Vice-President is the ex officio Chairman of the Rajya Sabha.\n2. The maximum strength of the Rajya Sabha is 250 members.\n3. Article 63 provides that the Vice-President is the ex officio Speaker of the Lok Sabha.\n4. The maximum strength of the Rajya Sabha is 250 nominated members.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P16.F9"
+   ],
+   "explanation": "Only statements 1 and 2 are correct. Article 63 concerns the Vice-President as ex officio Chairman of the Rajya Sabha, whose maximum strength is 250; it does not make the Vice-President Lok Sabha Speaker or state that all 250 members are nominated."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Sansad Ratna Awards 2026",
+   "question": "Consider the following statements about the Sansad Ratna Awards 2026:\n1. Twelve Members of Parliament were honoured for parliamentary performance, including debates, questions and committee work.\n2. The individual awardee category included Jagdambika Pal, P.P. Chaudhary, Nishikant Dubey and Shrikant Eknath Shinde.\n3. The Sansad Ratna Awards were instituted by the Prime Point Foundation.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F2",
+    "P17.F8"
+   ],
+   "explanation": "All three statements are correct. The 2026 awards recognised 12 MPs, included the four named individual awardees and were instituted by the Prime Point Foundation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Other awardees",
+   "question": "Which of the following was among the other awardees listed under the Sansad Ratna Awards 2026?",
+   "options": [
+    "Medha Vishram Kulkarni",
+    "D. Purandeswari",
+    "Sudheer Gupta",
+    "Om Prakash Mathur"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F3",
+    "P16.F4",
+    "P16.F5",
+    "P15.F2"
+   ],
+   "explanation": "Medha Vishram Kulkarni was among the other awardees listed for the Sansad Ratna Awards 2026. D. Purandeswari and Sudheer Gupta are associated with parliamentary committee chairpersonships, while Om Prakash Mathur is the Governor of Sikkim."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institution behind award",
+   "question": "The Sansad Ratna Awards 2026 were instituted by which organisation?",
+   "options": [
+    "Prime Point Foundation",
+    "National Legal Services Authority",
+    "Supreme Court Registry",
+    "Supreme Court e-Committee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F8",
+    "P15.F7",
+    "P15.F6",
+    "P15.F4"
+   ],
+   "explanation": "The Sansad Ratna Awards were instituted by the Prime Point Foundation. The National Legal Services Authority is associated with the legal-services framework, while the Supreme Court Registry and Supreme Court e-Committee are associated with judicial administration and digitisation."
+  }
+ ]
+}

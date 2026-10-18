@@ -1,0 +1,249 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F2",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F4",
+  "P3.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Publisher and edition",
+   "question": "Who released the 27th edition of Women and Men in India 2025?",
+   "options": [
+    "MoSPI",
+    "Reporters Without Borders",
+    "Ministry of Health and Family Welfare",
+    "International Institute for Population Sciences"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The 27th edition of Women and Men in India 2025 was released by MoSPI. Reporters Without Borders and the Ministry of Health and Family Welfare are associated with other reports mentioned in the news, not this edition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Trend in sex ratio at birth",
+   "question": "According to Women and Men in India 2025, what change was recorded in the sex ratio at birth?",
+   "options": [
+    "904 in 2017–19 to 917 in 2021–23",
+    "917 in 2017–19 to 904 in 2021–23",
+    "904 in 2017–19 to 30.2 in 2021–23",
+    "28.5 in 2017–19 to 917 in 2021–23"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The sex ratio at birth increased from 904 during 2017–19 to 917 during 2021–23. The other options mix the correct figures with values belonging to other indicators or reverse the trend."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Gender indicators",
+   "question": "With reference to Women and Men in India 2025, consider the following statements:\n1. Women in managerial posts increased by 102.54% during 2017–2025, compared with 73.80% for men.\n2. The mean age at marriage was 23.4 years in 2023.\n3. Cervical cancer screening covered approximately 17% of women according to NFHS-5.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "Only Statement 1 is correct: women’s managerial representation increased by 102.54%, against 73.80% for men. The mean age at marriage was 24.3 years, and cervical cancer screening covered only about 1.7% of women, making Statements 2 and 3 incorrect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Literacy gap and gender parity",
+   "question": "Which one of the following statements regarding Women and Men in India 2025 is incorrect?",
+   "options": [
+    "The literacy gap was 14.4 percentage points.",
+    "Gender parity was achieved at all school levels from primary to higher secondary.",
+    "The report recorded a literacy gap of 14.4 percentage points and gender parity from primary to higher secondary.",
+    "Gender parity was achieved at all school levels from primary to higher secondary, except at the primary level."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "The incorrect statement is that parity was achieved everywhere except at the primary level. The report recorded gender parity at all school levels from primary to higher secondary, while the literacy gap was 14.4 percentage points."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment year",
+   "question": "In which year was MoSPI established, as stated in Women and Men in India 2025?",
+   "options": [
+    "1999",
+    "1995",
+    "2006",
+    "1985"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "MoSPI was established in 1999. The other years are associated with the annual publication history, the Prohibition of Child Marriage Act, 2006, and the establishment of Reporters Without Borders, respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bottom rank in index",
+   "question": "Which country was placed last in the World Press Freedom Index 2026?",
+   "options": [
+    "Eritrea",
+    "North Korea",
+    "China",
+    "Iran"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "Eritrea was ranked last in the World Press Freedom Index 2026. North Korea, China and Iran were also among the bottom five, but they were not placed last."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global press-freedom assessment",
+   "question": "What was reported about global press freedom in the World Press Freedom Index 2026?",
+   "options": [
+    "More than 50% of countries were classified as “Difficult” or “Very Serious”",
+    "Exactly 50% of countries were classified as “Difficult” or “Very Serious”",
+    "Less than 50% of countries were classified as “Difficult” or “Very Serious”",
+    "More than 50% of countries were classified as “Free” or “Good”"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "The index reported that more than 50% of countries were in the “Difficult” or “Very Serious” categories, with the situation worsening in about 100 countries. The alternatives alter the reported proportion or categories."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Constitutional provision",
+   "question": "Press freedom in India is implicit in which constitutional provision?",
+   "options": [
+    "Article 19(1)(a)",
+    "MoSPI",
+    "Reporters Without Borders",
+    "NFHS-6"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "Press freedom is implicit in Article 19(1)(a). MoSPI, Reporters Without Borders and NFHS-6 are organisations or reports, not the constitutional provision identified with press freedom."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "NFHS-6 indicator values",
+   "question": "Match the NFHS-6 indicators in List-I with their NFHS-6 values in List-II.\n\nList-I\n a. Full immunisation among children aged 12–23 months\n b. Rotavirus vaccine coverage\n c. Family health insurance coverage\n d. Women using the internet\n\nList-II\n i. 87.1%\n ii. 85.4%\n iii. 60.2%\n iv. 64.3%",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7",
+    "P2.F8",
+    "P2.F9"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: full immunisation was 87.1%, rotavirus vaccination 85.4%, family health insurance 60.2%, and women using the internet 64.3%. The other codes interchange these four NFHS-6 values."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Caesarean delivery trend",
+   "question": "Assertion (A): Caesarean deliveries stood at 27.2% in NFHS-6.\nReason (R): Caesarean deliveries increased from 21.5% in NFHS-5 to 27.2% in NFHS-6.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "Both statements are true, and the change from 21.5% to 27.2% establishes why 27.2% was the NFHS-6 figure. The tempting alternative that the reason is unrelated is incorrect because the reason directly gives the reported NFHS-5 to NFHS-6 change."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First-trimester registration",
+   "question": "Consider the following statements:\nStatement A: First-trimester registration declined from 70% to 76.2% between NFHS-5 and NFHS-6.\nStatement B: First-trimester registration increased from 70% to 76.2% between NFHS-5 and NFHS-6.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "Statement B is true because first-trimester registration increased from 70% to 76.2%. Statement A incorrectly describes the change as a decline."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Maternal and child health indicators",
+   "question": "How many of the following NFHS-6 figures are correctly stated?\n1. Pregnancy registration: 95.9%\n2. Four or more antenatal-care visits: 65.2%\n3. Child vaccinations at government facilities: 65.2%\n4. Pregnancy registration: 95.6%",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "Only two statements are correct: pregnancy registration was 95.9%, and four or more antenatal-care visits were recorded for 65.2%. The child-vaccination figure was 95.6% or more, while 95.6% was not the pregnancy-registration figure."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State-wise child-marriage prevalence",
+   "question": "With reference to the central survey on child marriage during 2019–21, consider the following statements:\n1. Andhra Pradesh recorded a prevalence of 29.3% among girls married before 18.\n2. Telangana recorded a prevalence of 29.3%.\n3. Andhra Pradesh recorded a prevalence of 23.5%.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F5"
+   ],
+   "explanation": "Only Statement 1 is correct: Andhra Pradesh recorded a prevalence of 29.3%. Telangana’s prevalence was 23.5%, so Statements 2 and 3 interchange the figures for the two States."
+  }
+ ]
+}

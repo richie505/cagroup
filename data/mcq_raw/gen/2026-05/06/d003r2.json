@@ -1,0 +1,107 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P10.F12",
+  "P10.F14",
+  "P10.F15",
+  "P10.F16",
+  "P10.F17",
+  "P12.F2",
+  "P12.F3",
+  "P14.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First/only; Administration time",
+   "question": "Which medicine was described in May 2026 as India's first subcutaneous immunotherapy, administered in approximately seven minutes?",
+   "options": [
+    "Tecentriq SC (Atezolizumab)",
+    "Lormalsy (Donanemab)",
+    "R78C malaria vaccine",
+    "CLEAR antibody reporter"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F12"
+   ],
+   "explanation": "Tecentriq SC (Atezolizumab) was described as India's first subcutaneous immunotherapy and can be administered in approximately seven minutes. Lormalsy, R78C and CLEAR refer to different medical or research developments."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "WHA resolution; Stroke burden",
+   "question": "Which of the following statements regarding the World Health Assembly resolution on stroke is correct?\n\n1. It was the first-ever WHA resolution recognising stroke as a major public health emergency.\n2. India records 108–172 strokes per thousand people.\n3. India has approximately 80,000 neurologists and neurosurgeons.",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F14"
+   ],
+   "explanation": "Exactly one statement is correct: the resolution was the first-ever WHA resolution recognising stroke as a major public health emergency. The Indian incidence is stated as 108–172 per lakh, not per thousand, and the number of neurologists and neurosurgeons is approximately 8,000, not 80,000."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Schizophrenia; Pregabalin; Observance day",
+   "question": "How many of the following statements are correct?\n\n1. Schizophrenia affects approximately 24 million people worldwide.\n2. The usual onset of schizophrenia is 15–25 years for women and 25–35 years for men.\n3. Pregabalin was moved from Schedule H to Schedule H1 under the Drugs Rules, 1945.\n4. World Stroke Day is observed on 24 May.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F15",
+    "P10.F16",
+    "P10.F17"
+   ],
+   "explanation": "Only two statements are correct: schizophrenia affects approximately 24 million people worldwide, and pregabalin was moved from Schedule H to Schedule H1. The stated onset is 15–25 years for men and 25–35 years for women, while World Stroke Day is observed on 29 October."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Semiconductor programme; Commercial fab",
+   "question": "Which option correctly describes the Semicon India Programme and India's first commercial semiconductor fab?",
+   "options": [
+    "The Semicon India Programme was launched in December 2021 with an outlay of ₹76,000 crore; India's first commercial fab is at Dholera, Gujarat, through Tata Electronics and PSMC.",
+    "The Semicon India Programme was launched in December 2021 with an outlay of ₹76,000 crore, with 24 fab/packaging projects and 12 design projects; India's first commercial fab is at Dholera, Gujarat, through Tata Electronics and PSMC.",
+    "The Semicon India Programme was launched in December 2021 with an outlay of ₹76,000 crore; India's first commercial fab at Dholera is being established by Tata Electronics alone.",
+    "The Semicon India Programme was launched in December 2021 with an outlay of ₹76,000 crore; India's first commercial fab at Dholera is being established by PSMC alone."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "The programme was launched in December 2021 with ₹76,000 crore, and India's first commercial fab is being established at Dholera, Gujarat, by Tata Electronics and PSMC. The approved project composition is 12 fab/packaging projects and 24 design projects, and the fab partnership includes both organisations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First country; Multilingual AI weather services",
+   "question": "With reference to Mausam Vani's multilingual AI weather services, consider the following statements:\n\nStatement A: India is the second country to have multilingual AI weather services at such scale.\nStatement B: India is set to be the first country with multilingual AI weather services at such scale in 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F3"
+   ],
+   "explanation": "Both statements are false. India is set to be the first country with multilingual AI weather services at such scale; the fact does not place this achievement in 2025, and it is not described as the second country."
+  }
+ ]
+}

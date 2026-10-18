@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  19,
+  20
+ ],
+ "only": [
+  "P19.F2",
+  "P20.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Establishment and minister",
+   "question": "Consider the following statements about the National Highways Authority of India (NHAI):\n\n1. NHAI was established in 1988.\n2. Nitin Gadkari is the Road Transport Minister associated with NHAI.",
+   "options": [
+    "1 only",
+    "2 only",
+    "All statements are correct",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P19.F2"
+   ],
+   "explanation": "Both statements are correct: NHAI was established in 1988, and Nitin Gadkari is the Road Transport Minister. The tempting options ‘1 only’ and ‘2 only’ are incorrect because each omits one correct statement."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "UNICEF establishment, headquarters and executive director",
+   "question": "Match the following details associated with UNICEF:\n\nList-I\n(a) Year of establishment\n(b) Headquarters\n(c) Executive Director\n\nList-II\n(i) 1946\n(ii) New York\n(iii) Catherine Russell\n\nChoose the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii",
+    "a-iii, b-ii, c-i",
+    "a-i, b-iii, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F4"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii and c-iii: UNICEF was established in 1946, is headquartered in New York, and has Catherine Russell as its Executive Director. The other codes incorrectly interchange these three details."
+  }
+ ]
+}

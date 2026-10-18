@@ -1,0 +1,84 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P3.F5",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9",
+  "P4.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Antiquities returned",
+   "question": "In May 2026, how many antiquities were returned to India from the United States in an announcement by Manhattan District Attorney Alvin Bragg?",
+   "options": [
+    "657",
+    "11",
+    "24",
+    "36"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "The United States returned 657 antiquities to India, valued at approximately US$14 million. The figures 11 and 24 relate to the Leiden copper plates, while 36 refers to the length of Kumbhalgarh Fort’s defensive wall."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cultural property convention and Chola history",
+   "question": "Consider the following statements:\n1. The UNESCO Convention of 1970 seeks to combat the illicit import and export of cultural property.\n2. Rajaraja Chola built the Brihadisvara Temple at Thanjavur.\n3. The Chola Empire flourished from the 8th to the 12th century.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7",
+    "P3.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the 1970 UNESCO Convention addresses illicit trade in cultural property, and Rajaraja Chola built the Brihadisvara Temple at Thanjavur. Statement 3 is incorrect because the Chola Empire is stated to have flourished from the 9th to the 13th century."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ASI establishment",
+   "question": "The Archaeological Survey of India, which deals with the protection and study of India’s heritage, was established in which year?",
+   "options": [
+    "1861",
+    "1952",
+    "1970",
+    "1999"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9"
+   ],
+   "explanation": "The Archaeological Survey of India was established in 1861 and functions under the Ministry of Culture. The years 1952, 1970 and 1999 are not the year of its establishment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Deep-tech skilling initiative",
+   "question": "On National Technology Day 2026, which initiative was announced by Andhra Pradesh?",
+   "options": [
+    "Deep-tech skilling with IBM SkillsBuild",
+    "Mee Intiki – Mee Doctor",
+    "Mission Mausam",
+    "Project Tiger"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "Andhra Pradesh announced deep-tech skilling with IBM SkillsBuild on National Technology Day 2026. Mee Intiki – Mee Doctor was launched on World Red Cross Day, while Mission Mausam and Project Tiger are unrelated initiatives."
+  }
+ ]
+}

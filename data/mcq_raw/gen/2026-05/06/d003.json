@@ -1,0 +1,252 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P10.F10",
+  "P10.F11",
+  "P10.F12",
+  "P10.F13",
+  "P10.F14",
+  "P10.F15",
+  "P10.F16",
+  "P10.F17",
+  "P10.F18",
+  "P10.F5",
+  "P10.F6",
+  "P10.F7",
+  "P10.F9",
+  "P11.F3",
+  "P12.F2",
+  "P12.F3",
+  "P13.F3",
+  "P13.F4",
+  "P14.F3",
+  "P15.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Organisation profile",
+   "question": "Match the organisations with their establishment year and headquarters:\n\nList-I\n(a) AERB\n(b) Serum Institute of India\n(c) Roche\n(d) Eli Lilly\n\nList-II\n(i) 1896 — Basel\n(ii) 1966 — Pune\n(iii) 1983 — Mumbai\n(iv) 1876 — Indianapolis",
+   "options": [
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5",
+    "P10.F11",
+    "P10.F18"
+   ],
+   "explanation": "The correct pairs are AERB–1983/Mumbai, Serum Institute of India–1966/Pune, Roche–1896/Basel and Eli Lilly–1876/Indianapolis. The other codes interchange the organisations’ establishment details or headquarters."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch year and ministry",
+   "question": "The India Semiconductor Mission was launched in which year by which ministry?",
+   "options": [
+    "2021 — Ministry of Electronics and Information Technology",
+    "2021 — Department of Atomic Energy",
+    "2021 — Ministry of Earth Sciences",
+    "2021 — Council of Scientific and Industrial Research"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F6"
+   ],
+   "explanation": "The India Semiconductor Mission was launched in 2021 by the Ministry of Electronics and Information Technology. The Department of Atomic Energy, Ministry of Earth Sciences and CSIR are different organisations associated with other technology or research activities."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Research institution",
+   "question": "The CLEAR technology, which maps many proteins in one sample using one fluorescent marker, was developed at which institution?",
+   "options": [
+    "JNCASR, Bengaluru",
+    "IITM, Pune",
+    "IICT, Hyderabad",
+    "University of Oxford"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F7"
+   ],
+   "explanation": "CLEAR, or Cleavable Light-Erased Antibody Reporter, was developed at JNCASR in Bengaluru. IITM, IICT and the University of Oxford are associated with other items in the science and health news."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Anti-MRSA/VRSA compounds",
+   "question": "Which of the following statements regarding the quaternary ammonium compounds investigated against MRSA and VRSA is incorrect?",
+   "options": [
+    "The research was conducted at IICT, Hyderabad.",
+    "IICT is a CSIR institution.",
+    "The research was led by Dr. Haridas B. Rode.",
+    "The research was conducted at IICT, Bengaluru."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F9"
+   ],
+   "explanation": "The incorrect statement changes the location from Hyderabad to Bengaluru; the work was conducted at IICT, Hyderabad. The research involved quaternary ammonium compounds and was led by Dr. Haridas B. Rode under CSIR’s IICT."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Licensing pact",
+   "question": "The R78C multi-stage malaria vaccine was covered by a licensing pact between which two organisations?",
+   "options": [
+    "Serum Institute of India and University of Oxford",
+    "Roche and Eli Lilly",
+    "AERB and NPCIL",
+    "CSIR and Ministry of Electronics and Information Technology"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F10",
+    "P10.F11"
+   ],
+   "explanation": "The licensing pact for the R78C multi-stage malaria vaccine was between the Serum Institute of India and the University of Oxford. Roche and Eli Lilly are pharmaceutical companies, while AERB, NPCIL and CSIR are linked to other facts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First subcutaneous immunotherapy",
+   "question": "Which medicine was described as India’s first subcutaneous immunotherapy and can be administered in about seven minutes?",
+   "options": [
+    "Tecentriq SC (Atezolizumab)",
+    "Lormalsy (Donanemab)",
+    "Pregabalin",
+    "R78C"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F12"
+   ],
+   "explanation": "Tecentriq SC, whose active medicine is Atezolizumab, was described as India’s first subcutaneous immunotherapy and takes about seven minutes to administer. Lormalsy is Donanemab, while Pregabalin and R78C relate to different medical developments."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First approved Alzheimer’s drug",
+   "question": "Which company developed Lormalsy (Donanemab), described as India’s first approved Alzheimer’s drug?",
+   "options": [
+    "Eli Lilly",
+    "Roche",
+    "Serum Institute of India",
+    "CSIR"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F13"
+   ],
+   "explanation": "Lormalsy, or Donanemab, was developed by Eli Lilly and was described as India’s first approved Alzheimer’s drug. Roche is associated with Tecentriq SC, while the Serum Institute of India and CSIR are linked to other developments."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Health facts",
+   "question": "Consider the following statements:\n\n1. The World Health Assembly adopted the first-ever resolution recognising stroke as a major public health emergency.\n2. Schizophrenia affects about 24 million people worldwide.\n3. Pregabalin was moved from Schedule H to Schedule H1 to curb misuse by youth.\n4. World Stroke Day is observed on 28 October.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F14",
+    "P10.F15",
+    "P10.F16",
+    "P10.F17"
+   ],
+   "explanation": "Statements 2 and 3 are correct, so the answer is Only two. The World Health Assembly resolution was the first-ever such resolution, and World Stroke Day is observed on 29 October, not 28 October."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Chief of Army Staff",
+   "question": "Who was the Chief of Army Staff when the Indian Army launched the Kautilya AI Platform in May 2026?",
+   "options": [
+    "General Upendra Dwivedi",
+    "Kautilya AI Platform",
+    "AI command intelligence system",
+    "Indian Army"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "General Upendra Dwivedi was the Chief of Army Staff. The other options identify the platform, its character or the organisation that launched it, not the office-holder."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Semicon India Programme and fab",
+   "question": "Consider the following statements about the Semicon India Programme and semiconductor manufacturing in India:\n\n1. The Semicon India Programme was launched in December 2021 with an outlay of ₹76,000 crore.\n2. Twelve fab/packaging projects and twenty design projects had been approved under the programme.\n3. India’s first commercial fab is being established at Dholera, Gujarat, by Tata Electronics and PSMC.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "Only statement 1 is correct: the Semicon India Programme was launched in December 2021 with ₹76,000 crore. The approved design projects number 24, not 20, and the first commercial fab is at Dholera, Gujarat, with Tata Electronics and PSMC."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Developer and alert protocol",
+   "question": "Match the entities and systems associated with India’s indigenous Cell Broadcast System and SACHET:\n\nList-I\n(a) C-DOT\n(b) NDMA\n(c) SACHET\n(d) Common Alerting Protocol\n\nList-II\n(i) Alert system using multilingual SMS alerts\n(ii) Established in 2005 and chaired by the Prime Minister\n(iii) Developed the indigenous Cell Broadcast System\n(iv) Protocol of the ITU",
+   "options": [
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F4"
+   ],
+   "explanation": "The correct pairs are C-DOT–developer of the Cell Broadcast System, NDMA–established in 2005 and chaired by the Prime Minister, SACHET–multilingual SMS alert system, and Common Alerting Protocol–ITU protocol. The other codes interchange these institutional and technical associations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First country with multilingual AI weather services",
+   "question": "According to the announcement concerning Mausam Vani, which country is set to become the first with multilingual AI weather services at such a scale?",
+   "options": [
+    "India",
+    "Iceland",
+    "Denmark",
+    "Austria"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3"
+   ],
+   "explanation": "India is set to become the first country with multilingual AI weather services at such a scale. Iceland, Denmark and Austria were associated with the Spirulina vitamin B12 research, not the Mausam Vani claim."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Defence dialogue objective",
+   "question": "Assertion (A): The Kalam & Kavach 3.0 defence dialogue aimed at creating future-ready self-reliant forces for Viksit Bharat @2047.\nReason (R): The dialogue aimed exclusively at international collaboration and did not include self-reliance as an objective.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F3"
+   ],
+   "explanation": "Assertion A is true because the dialogue’s aim was future-ready self-reliant forces for Viksit Bharat @2047. Reason R is false because the stated aim included self-reliance; it was not exclusively international collaboration."
+  }
+ ]
+}

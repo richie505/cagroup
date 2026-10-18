@@ -1,0 +1,176 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P4.F10",
+  "P4.F11",
+  "P4.F12",
+  "P4.F7",
+  "P4.F8",
+  "P4.F9",
+  "P5.F6",
+  "P5.F8",
+  "P5.F9",
+  "P6.F3",
+  "P6.F4",
+  "P6.F5",
+  "P6.F6",
+  "P6.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Count-Based",
+   "keyword": "Coverage numbers",
+   "question": "Under the Amended BharatNet Programme in Andhra Pradesh, how many of the following statements regarding additional coverage are correct?\n\n1. On-demand villages number 3,942.\n2. Rural home fibre connections number 4 lakh or more.\n3. On-demand villages number 3,492.\n4. Rural home fibre connections number 3 lakh or more.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7",
+    "P4.F8"
+   ],
+   "explanation": "Only one statement is correct: on-demand villages number 3,942. Rural home fibre connections are 5 lakh or more, not 4 lakh or more or 3 lakh or more; the on-demand village figure is also not 3,492."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Approval date",
+   "question": "When was the Amended BharatNet Programme approved by the Union Cabinet?",
+   "options": [
+    "4 August 2023",
+    "4 August 2022",
+    "1 April 2002",
+    "2011"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F9"
+   ],
+   "explanation": "The Union Cabinet approved the Amended BharatNet Programme on 4 August 2023. The other options refer to different dates or milestones and are not the approval date."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Organisation and network concepts",
+   "question": "Match List-I with List-II regarding BharatNet and its institutional or technical background.\n\nList-I\n a. Digital Bharat Nidhi\n b. Ring topology\n c. BharatNet\n d. BSNL\n\nList-II\n i. Renamed USOF under the Telecommunications Act, 2023\n ii. Circular network providing an alternate route during disruption\n iii. Launched in 2011\n iv. Established in 2000; CMD A. Robert J. Ravi\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F10",
+    "P4.F11",
+    "P4.F12"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Digital Bharat Nidhi is the renamed USOF, ring topology is circular, BharatNet was launched in 2011, and BSNL was established in 2000 with A. Robert J. Ravi as CMD."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Project targets",
+   "question": "Consider the following statements:\nStatement A: The Handri-Neeva Sujala Sravanthi Phase-II project is targeted for October 2026.\nStatement B: Flood protection, interlinking and lift works are targeted for December 2027.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F8"
+   ],
+   "explanation": "Statement A is true because Handri-Neeva Sujala Sravanthi Phase-II has an October 2026 target. Statement B is false: flood protection, interlinking and lift works are targeted for December 2028, not December 2027."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Project location and purpose",
+   "question": "Assertion (A): The Polavaram Project is a multipurpose project on the Godavari.\nReason (R): The Polavaram Project is intended for the drought-prone Rayalaseema region.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F9"
+   ],
+   "explanation": "The assertion is true: Polavaram is a multipurpose project on the Godavari. The reason is false because the project associated with drought-prone Rayalaseema is Handri-Neeva, not Polavaram."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Employment potential",
+   "question": "Approximately how many direct and indirect jobs is the Bharat Forge Marine Gas Turbine facility in Visakhapatnam expected to create?",
+   "options": [
+    "750",
+    "500",
+    "1,000",
+    "250"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "The facility is expected to generate approximately 750 direct and indirect jobs. The figures 500, 1,000 and 250 do not represent the stated employment potential."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Phase-I facilities",
+   "question": "Which of the following is included in Phase 1 of the Bharat Forge Marine Gas Turbine facility?",
+   "options": [
+    "Repair and overhaul, including hot-section restoration, blades, vanes, combustion liners and an NDE lab",
+    "Development and assembly hall with a hot test cell for indigenous MGT qualification",
+    "A 72-hour service-support programme for friendly navies",
+    "A regional MRO hub exclusively for foreign naval fleets"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "Phase 1 covers repair and overhaul, including hot-section restoration, blades, vanes, combustion liners and an NDE lab. The development and assembly hall with a hot test cell belongs to Phase 2."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Phase-II capability",
+   "question": "What is the principal capability planned under Phase 2 of the Bharat Forge Marine Gas Turbine facility?",
+   "options": [
+    "Development and assembly hall with a hot test cell for indigenous MGT qualification",
+    "Repair and overhaul of hot sections, blades and vanes",
+    "A 72-hour service-support facility",
+    "Only a non-destructive evaluation laboratory"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "Phase 2 provides for a development and assembly hall and a hot test cell for indigenous Marine Gas Turbine qualification. Repair and overhaul and the NDE laboratory are features of Phase 1."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Phase-wise service capability",
+   "question": "Which of the following statements regarding the phase-wise capabilities of the Bharat Forge Marine Gas Turbine facility is incorrect?",
+   "options": [
+    "Phase-I includes 72-hour service support.",
+    "Phase-II includes India's first private hot test cell.",
+    "The 72-hour service support is associated with Phase-I.",
+    "India's first private hot test cell is associated with Phase-I."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F8"
+   ],
+   "explanation": "The incorrect statement is that India's first private hot test cell is associated with Phase-I. It is associated with Phase-II, while Phase-I provides 72-hour service support."
+  }
+ ]
+}

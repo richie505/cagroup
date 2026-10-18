@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P3.F10",
+  "P3.F8",
+  "P6.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "AI and quantum cooperation pact; strategic partnership",
+   "question": "With reference to the India–Vietnam AI and quantum cooperation pact signed in May 2026, consider the following statements:\n\n1. Rajnath Singh and Vietnam’s Phan Van Giang signed the pact in Hanoi.\n2. The pact was signed on the 136th birth anniversary of Ho Chi Minh.\n3. India–Vietnam relations were described as a Comprehensive Strategic Partnership.",
+   "options": [
+    "Exactly two statements are correct",
+    "Only statement 1 is correct",
+    "Only statements 2 and 3 are correct",
+    "All three statements are correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8",
+    "P3.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Rajnath Singh and Phan Van Giang signed the AI and quantum cooperation pact in Hanoi on the 136th birth anniversary of Ho Chi Minh. Statement 3 is incorrect because the relationship was described as an Enhanced Comprehensive Strategic Partnership, not merely a Comprehensive Strategic Partnership."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NPT nuclear-weapon states",
+   "question": "Under the definition used by the Nuclear Non-Proliferation Treaty, which criterion identifies a nuclear-weapon state (NWS)?",
+   "options": [
+    "Tested a nuclear weapon before 1 January 1967",
+    "Signed the NPT in 1970",
+    "Joined the NPT Review Conference in 1975",
+    "Supported the indefinite extension of the NPT in 1995"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "An NWS under the NPT is a state that tested a nuclear weapon before 1 January 1967. The years 1970, 1975 and 1995 refer to other NPT-related milestones, not the criterion for identifying an NWS."
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P3.F4",
+  "P3.F5",
+  "P3.F6",
+  "P5.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Edition and governing rules",
+   "question": "With reference to the Asian Weightlifting Championships 2026, consider the following statements:\n1. The championships were the 54th edition for men and the 35th edition for women.\n2. The championships were conducted under the rules of the Indian Weightlifting Federation, Asian Weightlifting Federation and International Olympic Committee.\n3. Gyaneshwari Yadav won a bronze medal in the overall category.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F5"
+   ],
+   "explanation": "Statement 1 is correct: the championships were the 54th men’s and 35th women’s editions. Statement 2 is incorrect because the rules included those of the International Weightlifting Federation, not the International Olympic Committee; statement 3 is also incorrect because Gyaneshwari Yadav won silver in the snatch and bronze in the overall category."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "HQ of international federation",
+   "question": "The International Weightlifting Federation, associated with the Asian Weightlifting Championships 2026, has its headquarters in which city?",
+   "options": [
+    "Lausanne",
+    "Doha",
+    "New Delhi",
+    "Hong Kong"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "The International Weightlifting Federation was established in 1905 and has its headquarters in Lausanne. Doha is associated with the headquarters of the Asian Athletics Association, while New Delhi is associated with the Athletics Federation of India."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue",
+   "question": "At which stadium in Ranchi was the 29th National Senior Athletics Federation Cup held, where Gurindervir Singh set the 100-metre national record?",
+   "options": [
+    "Birsa Munda Athletics Stadium",
+    "Sector-7 Sports Complex",
+    "Kalinga Stadium Indoor Athletics Centre",
+    "Mahatma Mandir Convention Centre"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The 29th National Senior Athletics Federation Cup was held at Birsa Munda Athletics Stadium in Ranchi, Jharkhand. Sector-7 Sports Complex is in Chandigarh, Kalinga Stadium Indoor Athletics Centre is in Bhubaneswar, and Mahatma Mandir Convention Centre is in Gandhinagar."
+  }
+ ]
+}

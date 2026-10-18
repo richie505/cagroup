@@ -1,0 +1,105 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P10.F2",
+  "P11.F7",
+  "P11.F8",
+  "P11.F9",
+  "P8.F1",
+  "P8.F5",
+  "P9.F1",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rooftop solar capacity and installations",
+   "question": "Consider the following statements about India's rooftop solar sector in 2025:\n\n1. Rooftop solar capacity reached 20.8 GW.\n2. A total of 7.1 GW was added, representing a 123% increase.\n3. Residential consumers accounted for 76% of new installations.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "All three statements are correct: rooftop solar capacity reached 20.8 GW, 7.1 GW was added with a 123% increase, and residential consumers accounted for 76% of new installations. The options excluding any one statement are incorrect because each of the three details belongs to the 2025 rooftop-solar expansion."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Renewable-energy manufacturing capacity",
+   "question": "Consider the following statements about India's renewable-energy manufacturing capacity between 2024 and 2025:\nStatement A: Module capacity increased from 38 GW to 74 GW.\nStatement B: Cell capacity increased from 9 GW to 25 GW.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "Both statements are true. Module capacity rose from 38 GW to 74 GW, while cell capacity rose from 9 GW to 25 GW. The alternatives claiming that either statement is false reverse or deny the reported capacity increases."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "NITI Aayog report findings",
+   "question": "Match the following aspects of NITI Aayog's reports with the corresponding finding:\n\nList-I\n(a) More-than-Moore strategy\n(b) Domestic semiconductor value chain by 2035\n(c) Total schools covered in the school-education assessment\n(d) Higher secondary GER\n\nList-II\n(i) 58.4%\n(ii) Mature nodes, OSAT and wide-bandgap materials\n(iii) 14.71 lakh\n(iv) US$120–150 billion\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F4"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i. The More-than-Moore strategy covers mature nodes, OSAT and wide-bandgap materials; the domestic value chain is projected at US$120–150 billion by 2035; the assessment covers 14.71 lakh schools; and higher secondary GER is 58.4%."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Special 301 Report and USTR",
+   "question": "With reference to the Special 301 Report, identify the incorrect statement:",
+   "options": [
+    "India retained its place on the Priority Watch List along with China and Russia.",
+    "Vietnam was placed at the top of the concern list for the first time in 13 years.",
+    "The USTR associated with the report was Jamieson Greer.",
+    "Vietnam was placed at the top of the concern list for the first time in 10 years."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "The incorrect statement is that Vietnam reached the top of the concern list for the first time in 10 years. The correct period was 13 years. India was retained on the Priority Watch List with China and Russia, and Jamieson Greer was the USTR associated with the report."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Income ranking of regional parties",
+   "question": "How many of the following statements about the income ranking of regional parties in 2024–25 are correct?\n\n1. The BJD ranked fifth with an income of ₹110.13 crore.\n2. The AIADMK ranked sixth with an income of ₹86 crore.\n3. The Jana Sena ranked seventh with an income of ₹86 crore.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "More than three"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F7",
+    "P11.F8",
+    "P11.F9"
+   ],
+   "explanation": "Only two statements are correct. The BJD ranked fifth with ₹110.13 crore, and the AIADMK ranked sixth with ₹86 crore. The Jana Sena ranked seventh, but its income was ₹64 crore, not ₹86 crore."
+  }
+ ]
+}

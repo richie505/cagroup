@@ -1,0 +1,75 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P4.F12",
+  "P4.F4",
+  "P4.F5",
+  "P7.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Species habitat and type",
+   "question": "Consider the following statements about Cordyceps, known as “Himalayan Gold”:\n1. It is a parasitic fungus found on insect larvae.\n2. It was reported from East Siang in Arunachal Pradesh.\n3. Cordyceps sinensis was reported from southeastern Eastern Ghats in Tamil Nadu.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Cordyceps is a parasitic fungus on insect larvae, reported from East Siang in Arunachal Pradesh. Statement 3 is incorrect; the southeastern Eastern Ghats in Tamil Nadu are associated with Cyphostemma annamalaiyi, not Cordyceps sinensis."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment and headquarters",
+   "question": "The Zoological Survey of India, in the context of the May 2026 species discoveries, was established in which year?",
+   "options": [
+    "1916",
+    "1983",
+    "1959",
+    "2018"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5",
+    "P4.F7",
+    "P6.F2",
+    "P7.F2"
+   ],
+   "explanation": "The Zoological Survey of India was established in 1916 and has its headquarters in Kolkata. The tempting option 1983 refers to the establishment year of ICAR–NBFGR, not ZSI."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Namesake and location in news",
+   "question": "Match List-I with List-II in the context of the discoveries and traditional structures reported in May 2026.\n\nList-I\n a. Humboldtia nairiana\n b. Lepcha Ru-Som\n c. Cyphostemma annamalaiyi\n d. Melanoseris pendryi\n\nList-II\n i. Found mainly in the Khangchendzonga Biosphere Reserve, recognised by UNESCO in 2018\n ii. Named after G.M. Nair\n iii. Plant of the Vitaceae, or grape family\n iv. Alpine plant reported from the Sikkim Himalayas above 4,000 m\n\nSelect the correct answer using the code given below:",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F12",
+    "P7.F2",
+    "P4.F2",
+    "P4.F3"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv. Humboldtia nairiana was named after G.M. Nair, while Ru-Som structures are found mainly in the Khangchendzonga Biosphere Reserve; the other two pairs identify the plant family and location of the respective species."
+  }
+ ]
+}

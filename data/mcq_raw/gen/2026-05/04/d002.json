@@ -1,0 +1,233 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P10.F3",
+  "P10.F4",
+  "P10.F5",
+  "P10.F6",
+  "P6.F2",
+  "P6.F3",
+  "P6.F4",
+  "P6.F5",
+  "P7.F3",
+  "P7.F4",
+  "P7.F5",
+  "P8.F3",
+  "P8.F4",
+  "P8.F5",
+  "P8.F6",
+  "P9.F1",
+  "P9.F2",
+  "P9.F3",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "State-wise CPI inflation rank",
+   "question": "Match the States with their ranks in CPI inflation in April 2026:\n\nList-I\n(a) Andhra Pradesh\n(b) Tamil Nadu\n(c) Karnataka\n\nList-II\n(i) Rank 4\n(ii) Rank 2\n(iii) Rank 3\n\nSelect the correct answer using the codes below.",
+   "options": [
+    "a-ii, b-iii, c-i",
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "The correct pairs are Andhra Pradesh–Rank 2, Tamil Nadu–Rank 3 and Karnataka–Rank 4. The tempting alternative places Tamil Nadu at Rank 2, but Andhra Pradesh recorded 4.20% and Tamil Nadu 4.18%."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "National, rural and urban CPI inflation",
+   "question": "With reference to CPI inflation in April 2026, consider the following statements:\n\n1. National CPI inflation was 3.48%.\n2. Rural inflation was higher than urban inflation.\n3. The top four States were all from southern India.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: national inflation was 3.48%, while rural inflation of 3.74% exceeded urban inflation of 3.16%. Statement 3 is incorrect because the fact specifies that the top four were southern States, not that they were all from a different regional grouping."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MSP margin over cost",
+   "question": "Under the Kharif MSP decisions for 2026–27, which crop had the highest margin over cost among the listed crops?",
+   "options": [
+    "Moong",
+    "Maize",
+    "Bajra",
+    "Tur"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "Moong had the highest listed margin over cost at 61%. Maize and bajra had 56%, while tur had 54%, so those figures cannot be selected."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "MSP procurement, payments and CACP",
+   "question": "Match the following Kharif MSP-related items with the correct figures or year:\n\nList-I\n(a) Paddy procurement during 2014–15 to 2025–26\n(b) Paddy procurement during the UPA period\n(c) Establishment of the CACP\n\nList-II\n(i) 4,590 lakh tonnes\n(ii) 1965\n(iii) 8,418 lakh tonnes\n\nSelect the correct answer using the codes below.",
+   "options": [
+    "a-iii, b-i, c-ii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4",
+    "P7.F5"
+   ],
+   "explanation": "The correct pairs are 8,418 lakh tonnes, 4,590 lakh tonnes and 1965 respectively. The tempting alternative reverses the two procurement figures, but 8,418 lakh tonnes refers to 2014–15 to 2025–26 and 4,590 lakh tonnes to the UPA period."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Textiles MoU and ammonium sulphate",
+   "question": "Consider the following statements regarding the sectoral developments reported in May 2026:\n\n1. The Textiles–ICRIER MoU concerned evidence-based policy research for textiles and apparel.\n2. Ammonium sulphate contains 21% nitrogen and 24% sulphur.\n3. ICAR advised States to use ammonium sulphate in wheat instead of urea.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because ICAR advised States to use ammonium sulphate in paddy instead of urea, not wheat."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Institutional headquarters and establishment",
+   "question": "Match the institutions and milestones associated with the jute, spices and agricultural sectors:\n\nList-I\n(a) National Jute Board Act\n(b) National Jute Board became operational\n(c) Headquarters of the Spices Board\n(d) Establishment of ICAR\n\nList-II\n(i) 1929\n(ii) Kochi\n(iii) 12 February 2009\n(iv) 2008\n\nSelect the correct answer using the codes below.",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5",
+    "P8.F6"
+   ],
+   "explanation": "The correct pairs are National Jute Board Act–2008, operationalisation–12 February 2009, Spices Board headquarters–Kochi and ICAR–1929. The tempting alternative interchanges the Act year and operational date, which are separate milestones."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian Railways logo and zone",
+   "question": "Why does the new Indian Railways logo contain 18 stars?",
+   "options": [
+    "One star for each railway zone after South Coast Railway became the 18th zone",
+    "One star for each railway zone before South Coast Railway became the 18th zone",
+    "One star for each railway zone and each major station",
+    "One star for each railway zone after South Coast Railway became the 17th zone"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "The 18 stars represent the 18 railway zones after South Coast Railway became the 18th zone on 1 June 2026. The alternatives incorrectly describe the number or basis of the stars."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Railway electrification and operations",
+   "question": "How many of the following statements regarding Indian Railways in 2025–26 are correct?\n\n1. 99.6% of Broad Gauge railway lines were electrified.\n2. Broad Gauge has a track width of 1,676 mm.\n3. Indian Railways operated about 25,000 trains daily.\n4. Indian Railways carried 741 crore passengers.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "All four statements are correct: 99.6% of Broad Gauge was electrified, Broad Gauge measured 1,676 mm, about 25,000 trains ran daily and 741 crore passengers were recorded. The tempting option is Only three, but none of the four statements changes the reported figures."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "CHIRAG and South Central Railway",
+   "question": "Consider the following statements:\n\nStatement A: CHIRAG was opened on 26 May 2026 at Moula Ali, Hyderabad.\nStatement B: The headquarters of South Central Railway is Visakhapatnam.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "Both statements are false. CHIRAG was opened on 25 May 2026 at Moula Ali, Hyderabad, and South Central Railway has its headquarters at Secunderabad."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "RBI intervention in the foreign exchange market",
+   "question": "How does the Reserve Bank of India defend the rupee when it intervenes in the foreign exchange market?",
+   "options": [
+    "By selling dollars and absorbing rupees",
+    "By buying dollars and absorbing rupees",
+    "By selling dollars and releasing rupees",
+    "By buying dollars and releasing rupees"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "The RBI defends the rupee by selling dollars, thereby absorbing rupees. Buying dollars or releasing rupees describes the opposite direction of intervention and is therefore incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Weak rupee and export gains",
+   "question": "Consider the following statements:\n\nStatement A: A weak rupee reduces imported inflation.\nStatement B: Export gains from a weak rupee are unlimited despite import content and price-taker status.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "Both statements are false. A weak rupee leads to imported inflation, while export gains are limited because of import content and India’s price-taker status."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Forex reserves and monetary policy",
+   "question": "How many of the following statements are correct?\n\n1. Foreign currency assets, gold, SDRs and the reserve tranche in the IMF are components of forex reserves.\n2. Expansionary monetary policy does not stop a rupee slide.\n3. Masala Bonds can help address the effects associated with a rupee slide.\n4. Easier ECB can help address the effects associated with a rupee slide.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F5",
+    "P10.F6"
+   ],
+   "explanation": "Only three statements are correct: statements 1, 2 and 4. Statement 3 is incorrect because the relevant fact identifies Masala Bonds and easier ECB as helpful measures; the statement changes the stated role of Masala Bonds."
+  }
+ ]
+}

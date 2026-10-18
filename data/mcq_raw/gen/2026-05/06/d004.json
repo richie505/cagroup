@@ -1,0 +1,145 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24
+ ],
+ "only": [
+  "P17.F3",
+  "P17.F4",
+  "P17.F5",
+  "P17.F6",
+  "P18.F2",
+  "P18.F5",
+  "P19.F5",
+  "P19.F8",
+  "P19.F9",
+  "P21.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Space cyberattack and space law",
+   "question": "With reference to space cyber warfare and the Outer Space Treaty, consider the following statements:\n1. The KA-SAT cyberattack in 2022 targeted the Viasat network and disrupted internet services across Europe.\n2. The Outer Space Treaty of 1967 is silent on cyber operations.\n3. The CERT-In space cybersecurity guidelines of 2026 prescribe “secure-by-design” across the satellite lifecycle.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F3",
+    "P17.F4",
+    "P17.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the 2022 KA-SAT attack affected the Viasat network and disrupted internet across Europe, while the 1967 Outer Space Treaty is silent on cyber operations. Statement 3 is incorrect because “secure-by-design” across the satellite lifecycle is prescribed by the 2026 CERT-In guidelines, not the Outer Space Treaty."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Orbital dependency",
+   "question": "In the context of space cybersecurity, what does the term “orbital dependency” refer to?",
+   "options": [
+    "Reliance on foreign satellite infrastructure",
+    "Blocking of satellite signals",
+    "Use of civilian satellites for military purposes",
+    "Transmission of false GPS positions"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F6"
+   ],
+   "explanation": "Orbital dependency means reliance on foreign satellite infrastructure. Blocking signals is jamming, while transmitting false GPS positions is spoofing."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Education technology coverage",
+   "question": "Which combination correctly describes the digital and linguistic context relevant to Neuro-Symbolic AI in Indian education?",
+   "options": [
+    "47% of rural schools have functional computers, about 1.4 million schools exist, and there are 22 scheduled languages",
+    "22% of rural schools have functional computers, about 47 million schools exist, and there are 1.4 scheduled languages",
+    "47% of rural schools have functional computers, about 22 million schools exist, and there are 1.4 scheduled languages",
+    "1.4% of rural schools have functional computers, about 22 million schools exist, and there are 47 scheduled languages"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F2"
+   ],
+   "explanation": "The relevant figures are 47% of rural schools with functional computers, approximately 1.4 million schools, and 22 scheduled languages. The other options interchange or alter these figures."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Integration with education platforms",
+   "question": "With reference to Neuro-Symbolic AI in Indian education, consider the following statements:\nStatement A: Proposed applications include integration with DIKSHA and Bhashini, along with a proposed Bharat Ontology.\nStatement B: Only 47% of rural schools have functional computers, although India has about 1.4 million schools and 22 scheduled languages.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F2",
+    "P18.F5"
+   ],
+   "explanation": "Both statements are true. The proposed education-AI ecosystem includes DIKSHA, Bhashini and Bharat Ontology, while the stated educational context includes 47% functional-computer coverage in rural schools, about 1.4 million schools and 22 scheduled languages."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "CCUS field lab and institutional facts",
+   "question": "Match List-I with List-II in the context of the IIT research developments and related institutional facts.\n\nList-I\n a. IIT Bombay\n b. Urjanovac\n c. Dai Nippon Printing\n d. HAL\n\nList-II\n i. Makes carbonate and bicarbonate salts\n ii. India's first integrated CCUS Field Lab\n iii. Established in 1876 and headquartered in Tokyo\n iv. Established in 1940\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F5",
+    "P19.F8"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv. IIT Bombay’s development was India’s first integrated CCUS Field Lab, Urjanovac makes carbonate and bicarbonate salts, DNP was established in 1876 in Tokyo, and HAL was established in 1940."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institutional timeline",
+   "question": "Which pairing correctly states the timelines associated with Sagarmala and iCET?",
+   "options": [
+    "Sagarmala was launched in 2015, while iCET was launched in 2023",
+    "Sagarmala was launched in 2023, while iCET was launched in 2015",
+    "Sagarmala was launched in 1959, while iCET was launched in 2008",
+    "Sagarmala was launched in 1940, while iCET was launched in 1876"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F9"
+   ],
+   "explanation": "Sagarmala was launched in 2015 and iCET was launched in 2023. The other options substitute establishment or launch years associated with unrelated institutions or programmes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ICMR leadership and history",
+   "question": "Which statement correctly describes the Indian Council of Medical Research?",
+   "options": [
+    "It was established as IRFA in 1911, renamed ICMR in 1949, and is headed by Director General Rajiv Bahl",
+    "It was established as IRFA in 1949, renamed ICMR in 1911, and is headed by Director General Rajiv Bahl",
+    "It was established as IRFA in 1911, renamed ICMR in 1949, and is headed by Director General Sarbanda Sonowal",
+    "It was established as IRFA in 1876, renamed ICMR in 1940, and is headed by Director General Rajiv Bahl"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F2"
+   ],
+   "explanation": "ICMR was established as IRFA in 1911, renamed in 1949, and its Director General is Rajiv Bahl. The other options alter the historical dates or name an unrelated minister."
+  }
+ ]
+}

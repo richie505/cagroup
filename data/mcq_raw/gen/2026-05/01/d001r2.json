@@ -1,0 +1,67 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P4.F7",
+  "P4.F8",
+  "P6.F3",
+  "P6.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Coverage — on-demand villages",
+   "question": "Under the Amended BharatNet Programme in Andhra Pradesh, how many on-demand villages are included in the planned coverage?",
+   "options": [
+    "3,942",
+    "13,426",
+    "1,692",
+    "11,254"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "The planned coverage includes 3,942 on-demand villages. The figure 13,426 refers to the total number of Gram Panchayats, not on-demand villages."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rural fibre connectivity",
+   "question": "What number of rural home fibre connections is planned under the Amended BharatNet Programme in Andhra Pradesh?",
+   "options": [
+    "5 lakh+",
+    "3,942",
+    "11,254",
+    "480"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8"
+   ],
+   "explanation": "The programme plans to provide 5 lakh+ rural home fibre connections. The figure 3,942 refers to on-demand villages, whereas 480 refers to new Gram Panchayats."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Employment and regional MRO role",
+   "question": "With reference to the Bharat Forge Marine Gas Turbine facility proposed in Andhra Pradesh, consider the following statements:\nStatement A: The facility is expected to generate approximately 750 direct and indirect jobs.\nStatement B: The facility may serve as a regional MRO hub for friendly navies.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F6"
+   ],
+   "explanation": "Both statements are true: the facility is expected to generate approximately 750 direct and indirect jobs and may serve as a regional MRO hub for friendly navies. Therefore, neither statement should be confused with the facility’s phase-wise technical capabilities."
+  }
+ ]
+}

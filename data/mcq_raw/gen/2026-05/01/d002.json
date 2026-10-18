@@ -1,0 +1,197 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F2",
+  "P11.F5",
+  "P12.F1",
+  "P12.F5",
+  "P12.F7",
+  "P12.F8",
+  "P12.F9",
+  "P8.F2",
+  "P8.F3",
+  "P8.F4",
+  "P8.F5",
+  "P9.F2",
+  "P9.F3",
+  "P9.F4",
+  "P9.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First project and investment",
+   "question": "Which project was launched in Rayalaseema on 22 May 2026 as the first project under the Andhra Pradesh Integrated Clean Energy Policy–2024?",
+   "options": [
+    "SAEL Industries’ 600 MW solar project involving an investment of ₹3,000 crore",
+    "Gandikota-II 2,250 MW pumped-storage project involving an investment of ₹3,000 crore",
+    "SAEL Industries’ 2,250 MW solar project involving an investment of ₹10 lakh crore",
+    "Solar ingot-wafer manufacturing project at Anakapalli involving an investment of ₹2,250 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "SAEL Industries’ 600 MW solar project, involving ₹3,000 crore, was launched in Rayalaseema on 22 May 2026 as the first project under the policy. Gandikota-II is a separate pumped-storage project of 2,250 MW in YSR Kadapa."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Clean-energy projects and targets",
+   "question": "With reference to Andhra Pradesh’s Integrated Clean Energy Policy–2024 and its clean-energy targets, consider the following statements:\n\n1. The policy covers projects such as pumped storage and solar ingot-wafer manufacturing at Anakapalli.\n2. The 2,250 MW Gandikota-II pumped-storage project in YSR Kadapa was allotted to Adani Hydro Energy Eleven Ltd.\n3. Andhra Pradesh aims for about ₹10 lakh crore investment and more than 150 GW of renewable-energy capacity.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F4",
+    "P8.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The stated renewable-energy capacity target is 160 GW+, not more than 150 GW; therefore, statement 3 is incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Announcement and date",
+   "question": "Who announced the Quantum-Secure Communications Test Bed at SRM University-AP, and on which occasion?",
+   "options": [
+    "Chief Minister N. Chandrababu Naidu on World Telecommunication and Information Society Day, 17 May",
+    "Chief Minister N. Chandrababu Naidu on National Technology Day, 11 May",
+    "Chief Minister N. Chandrababu Naidu on 14 April 2026",
+    "Chief Minister N. Chandrababu Naidu on 22 May 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The test bed was announced by Chief Minister N. Chandrababu Naidu on World Telecommunication and Information Society Day, observed on 17 May. National Technology Day is associated with the deep-tech skilling announcement."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Quantum communication and QKD",
+   "question": "Assertion (A): The Quantum-Secure Communications Test Bed focuses on quantum communication hardware, photonic and optical systems, encryption and cyber defence.\nReason (R): Quantum Key Distribution enables secure key sharing in which interception can be detected.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F5"
+   ],
+   "explanation": "Both the assertion and the reason are true. However, the QKD feature of detectable interception does not by itself explain the entire range of systems covered by the test bed, so the reason is not the correct explanation of the assertion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Earlier facility and date",
+   "question": "Which facility had been launched earlier, on 14 April 2026, in the context of Andhra Pradesh’s quantum-technology initiatives?",
+   "options": [
+    "Quantum Computing Reference Facilities",
+    "Quantum-Secure Communications Test Bed",
+    "NIELIT Innovation & Skilling Centre",
+    "DRDO–NSTL R&D centre"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "Quantum Computing Reference Facilities were launched earlier on 14 April 2026. The Quantum-Secure Communications Test Bed was announced on 17 May."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Centre mandate and amount",
+   "question": "The DRDO–NSTL R&D centre in Amaravati Quantum Valley, established at a cost of ₹22.50 crore, is intended to work on which area?",
+   "options": [
+    "Quantum computational fluid dynamics and hybrid classical–quantum workflows",
+    "Quantum communication hardware and photonic or optical systems only",
+    "Solar ingot-wafer manufacturing and pumped storage",
+    "Quantum computing, AI, quantum communication and semiconductors"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "The ₹22.50 crore NSTL centre will focus on quantum computational fluid dynamics and hybrid classical–quantum workflows. Quantum communication hardware and photonic systems are associated with the separate Quantum-Secure Communications Test Bed."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Location and facility size",
+   "question": "Where will the DRDO–NSTL R&D centre initially operate, and what is the size of its plug-and-play space?",
+   "options": [
+    "Medha Towers, Gannavaram, in a 5,000 sq ft space",
+    "Acharya Nagarjuna University, Guntur, in a 5,000 sq ft space",
+    "Anakapalli, in a 2,250 MW facility",
+    "SRM University-AP, in a 22.50 crore facility"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "The centre will initially start at Medha Towers, Gannavaram, using 5,000 sq ft of plug-and-play space under the AP Quantum Computing Policy. Acharya Nagarjuna University, Guntur, is the location of the NIELIT Innovation & Skilling Centre."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Task-force mandate and mission",
+   "question": "Which statement correctly describes the role of the Andhra Pradesh Task Force for Quantum Technologies and Biosciences?",
+   "options": [
+    "It guides Amaravati Quantum Valley in relation to the National Quantum Mission 2023–2031, valued at about ₹6,003 crore",
+    "It conducts the Quantum-Secure Communications Test Bed launched on 17 May",
+    "It manages the 600 MW solar project launched in Rayalaseema on 22 May 2026",
+    "It administers the NIELIT centre at Acharya Nagarjuna University for 2026–27"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F5"
+   ],
+   "explanation": "The task force guides Amaravati Quantum Valley and is linked with the National Quantum Mission 2023–2031, valued at about ₹6,003 crore. The other options refer to separate clean-energy, communications or skilling initiatives."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Announcement and National Technology Day",
+   "question": "Consider the following statements:\n\nStatement A: The Andhra Pradesh deep-tech skilling initiative was announced by Chief Minister N. Chandrababu Naidu on National Technology Day, 11 May.\nStatement B: National Technology Day commemorates the Pokhran tests of 1999.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F8"
+   ],
+   "explanation": "Statement A is correct: the initiative was announced by N. Chandrababu Naidu on 11 May, National Technology Day. Statement B is incorrect because the Pokhran tests commemorated by the day took place in 1998, not 1999."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "NIELIT centre, medals and mission details",
+   "question": "How many of the following statements are correct?\n\n1. The NIELIT Innovation & Skilling Centre is located at Acharya Nagarjuna University, Guntur.\n2. Andhra Pradesh students won 4 Gold and 14 Silver medals in NPTEL examinations.\n3. The National Quantum Mission has an allocation of ₹6,003.65 crore for 2023–24 to 2030–30.\n4. NIELIT functions under the Ministry of Education.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F5",
+    "P12.F7",
+    "P12.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the National Quantum Mission period ends in 2030–31, not 2030–30; statement 4 is incorrect because NIELIT is under MeitY."
+  }
+ ]
+}

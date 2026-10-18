@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P5.F4",
+  "P6.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Crime trend under special laws",
+   "question": "With reference to the NCRB’s Crime in India 2024 report, consider the following statements:\n1. Cases under the Unlawful Activities (Prevention) Act increased by 12.5%.\n2. Anti-national offences increased by 12.5%.\n3. Cases under the Unlawful Activities (Prevention) Act increased by 6.6%.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "Only statement 1 is correct: UAPA cases increased by 12.5%. Statement 2 incorrectly assigns 12.5% to anti-national offences, which increased by 6.6%, while statement 3 assigns the 6.6% figure to UAPA cases."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Women’s employment pattern",
+   "question": "According to PLFS 2025, which combination correctly represents the employment patterns of rural and urban women?",
+   "options": [
+    "70.7% of rural women were self-employed; 50.9% of urban women were in regular wage jobs",
+    "50.9% of rural women were self-employed; 70.7% of urban women were in regular wage jobs",
+    "70.7% of rural women were in regular wage jobs; 50.9% of urban women were self-employed",
+    "50.9% of rural women were in regular wage jobs; 70.7% of urban women were self-employed"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "PLFS 2025 reported that 70.7% of rural women were self-employed and 50.9% of urban women were in regular wage jobs. The other options interchange the rural–urban categories or the employment types."
+  }
+ ]
+}

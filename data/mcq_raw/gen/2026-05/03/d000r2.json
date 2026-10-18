@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F5",
+  "P0.F6",
+  "P1.F2",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Allocation formula and farm-season pause",
+   "question": "With reference to VB-G RAM G, consider the following statements:\n1. The Centre’s normative allocation is based on the 16th Finance Commission’s horizontal devolution formula.\n2. The pause during peak sowing and harvesting is 90 days.\n3. Allocation under VB-G RAM G is based on State labour budgets.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Only statement 1 is correct: VB-G RAM G uses the Centre’s normative allocation based on the 16th Finance Commission’s horizontal devolution formula. The pause is 60 days, not 90 days, and State labour budgets are associated with MGNREGA rather than VB-G RAM G."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Allocation amount",
+   "question": "What were the total allocation for PMGSY and the allocation for Madhya Pradesh, respectively, in 2026–27?",
+   "options": [
+    "₹18,907 crore and ₹830 crore",
+    "₹830 crore and ₹18,907 crore",
+    "₹70,125 crore and ₹18,907 crore",
+    "₹384 crore and ₹168 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The PMGSY allocation for 2026–27 was ₹18,907 crore, of which Madhya Pradesh received ₹830 crore. The tempting second option reverses the national and Madhya Pradesh figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NEP structure and assessment centre",
+   "question": "Under the National Education Policy (NEP) 2020, which combination correctly identifies the school education structure and the assessment centre?",
+   "options": [
+    "5+3+3+4 and PARAKH",
+    "5+3+3+4 and School Quality Assessment Framework",
+    "5+3+4+4 and PARAKH",
+    "5+3+3+4 and Samagra Shiksha"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "NEP 2020 follows the 5+3+3+4 structure, and PARAKH is its assessment centre. The other options either pair the structure with a different PM-SHRI framework or alter the structure itself."
+  }
+ ]
+}

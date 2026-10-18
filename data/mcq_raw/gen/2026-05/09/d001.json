@@ -1,0 +1,198 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F3",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P4.F2",
+  "P4.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Role of CDS",
+   "question": "Besides serving as the Chief of Defence Staff, which institutional position does the CDS hold?",
+   "options": [
+    "Permanent Chairman of the Chiefs of Staff Committee",
+    "Head of the Department of Military Affairs",
+    "First Chief of Defence Staff",
+    "Military Adviser in the National Security Council Secretariat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "The CDS is the Permanent Chairman of the Chiefs of Staff Committee. The Department of Military Affairs is headed by the CDS, but that is a separate role and not the position asked here."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Motto and institutional origins",
+   "question": "Match List-I with List-II regarding the Indian Navy and central investigative and defence organisations.\n\nList-I\n a. Indian Navy\n b. CBI\n c. NCB\n d. DRDO\n\nList-II\n i. Established in 1963 and under the Department of Personnel and Training\n ii. Motto: “Sham No Varunah”\n iii. Established in 1986 and under the Ministry of Home Affairs\n iv. Established in 1958\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "The correct pairs are Indian Navy–ii, CBI–i, NCB–iii and DRDO–iv. The other codes interchange the Navy motto and the establishment or administrative details of the organisations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First woman from Arunachal Pradesh in NITI Aayog",
+   "question": "Who became the first woman from Arunachal Pradesh to become a member of NITI Aayog?",
+   "options": [
+    "Joram Aniya",
+    "R. Balasubramaniam",
+    "Saurabh Vijay",
+    "P. Jawahar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "Joram Aniya became the first woman from Arunachal Pradesh in NITI Aayog. R. Balasubramaniam was also appointed a full-time member, but the distinction in the question belongs to Joram Aniya."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "UIDAI legal status",
+   "question": "Consider the following statements:\nStatement A: UIDAI is a statutory authority under the Aadhaar Act, 2016.\nStatement B: UIDAI was established in 2015.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Statement A is true: UIDAI is statutory under the Aadhaar Act, 2016. Statement B is false because UIDAI was established in 2009; 2015 is associated with the establishment of NITI Aayog."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First Chairman of SPCDF",
+   "question": "Who was appointed the first Chairman of the Sardar Patel Cooperative Dairy Federation?",
+   "options": [
+    "Jayen Mehta",
+    "Sangram Chaudhari",
+    "P. Jawahar",
+    "Kota Ravi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Jayen Mehta was appointed the first Chairman of the Sardar Patel Cooperative Dairy Federation. Sangram Chaudhari was its Vice-Chairman, making him the most likely trap."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Institutional legislation and functions",
+   "question": "Match the institutions with the associated fact.\n\nList-I\n a. Central Board of Film Certification\n b. Prasar Bharati\n c. NITI Aayog\n d. SAIL\n\nList-II\n i. Manages Doordarshan and All India Radio\n ii. Established in 2015\n iii. Established under the Cinematograph Act, 1952\n iv. Established in 1973\n\nSelect the correct code.",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F8",
+    "P2.F9",
+    "P2.F13"
+   ],
+   "explanation": "The correct pairs are CBFC–iii, Prasar Bharati–i, NITI Aayog–ii and SAIL–iv. The alternatives wrongly associate the Cinematograph Act, 1952, or the establishment years with other institutions."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Appointment and predecessor of SAIL CMD",
+   "question": "With reference to the appointment of Ashok Kumar Panda as CMD of SAIL, consider the following statements:\n\n1. Ashok Kumar Panda was appointed CMD of SAIL.\n2. He succeeded Amarendu Prakash.\n3. The Union Steel Minister associated with the appointment was Prasoon Joshi.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Ashok Kumar Panda became CMD of SAIL and succeeded Amarendu Prakash. Statement 3 is incorrect because the Steel Minister was H.D. Kumaraswamy, while Prasoon Joshi was appointed Chairman of Prasar Bharati."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "NITI Aayog leadership and CGDA appointment",
+   "question": "Match the person or institution with the associated fact.\n\nList-I\n a. NITI Aayog\n b. Ashok Kumar Lahiri\n c. Nidhi Chhibber\n d. Anugraha Narayan Das\n\nList-II\n i. CEO of NITI Aayog\n ii. Controller General of Defence Accounts\n iii. Vice-Chairman of NITI Aayog\n iv. Established in 2015\n\nSelect the correct code.",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iv, c-iii, d-ii",
+    "a-ii, b-iii, c-iv, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F11"
+   ],
+   "explanation": "NITI Aayog was established in 2015; Ashok Kumar Lahiri is its Vice-Chairman; Nidhi Chhibber is its CEO; and Anugraha Narayan Das is the Controller General of Defence Accounts. Therefore, code a-iv, b-iii, c-i, d-ii is correct."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NCLT distinction and BRICS Chamber appointment",
+   "question": "Consider the following statements:\nStatement A: Justice Anupinder Singh Grewal was the first appointee to the NCLT who was not a High Court Chief Justice.\nStatement B: Dr. Harvansh Chawla was appointed Chairman of Prasar Bharati.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F12",
+    "P2.F14"
+   ],
+   "explanation": "Statement A is true: Justice Anupinder Singh Grewal was the first NCLT appointee who was not a High Court Chief Justice. Statement B is false because Dr. Harvansh Chawla became Chairman of the BRICS Chamber of Commerce and Industry; Prasar Bharati was chaired by Prasoon Joshi."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "FAO Agricola Medal citation and FAO profile",
+   "question": "With reference to the FAO Agricola Medal received by Prime Minister Narendra Modi, consider the following statements:\n\n1. The citation referred to income support for more than 110 million farmers.\n2. The Food and Agriculture Organization was established in 1945.\n3. The headquarters of the Food and Agriculture Organization is in Paris.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2",
+    "P4.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the citation referred to income support for more than 110 million farmers, and FAO was established in 1945. Statement 3 is incorrect because FAO headquarters is in Rome, not Paris."
+  }
+ ]
+}

@@ -1,0 +1,232 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": [
+  "P13.F10",
+  "P13.F2",
+  "P13.F6",
+  "P13.F7",
+  "P13.F9",
+  "P14.F3",
+  "P14.F4",
+  "P15.F5",
+  "P15.F6",
+  "P16.F1",
+  "P16.F2",
+  "P16.F3",
+  "P16.F5",
+  "P16.F7",
+  "P17.F1",
+  "P17.F4",
+  "P17.F7",
+  "P17.F8",
+  "P17.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Flagged off by",
+   "question": "Who flagged off India’s first indigenous Super Pressure Balloon launched from Vijayawada?",
+   "options": [
+    "Kinjarapu Ram Mohan Naidu",
+    "Nara Lokesh",
+    "Gloria Wu",
+    "Shilpak Ambule"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "Kinjarapu Ram Mohan Naidu, the Union Civil Aviation Minister, flagged off the balloon. Nara Lokesh was associated with the Sri City foundation event, not this launch."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Near-space altitude",
+   "question": "Near-space, the operational domain relevant to India’s indigenous Super Pressure Balloon, is generally associated with which atmospheric region and altitude range?",
+   "options": [
+    "The stratosphere, approximately 20–50 km",
+    "The troposphere, approximately 5–10 km",
+    "The mesosphere, approximately 50–80 km",
+    "The thermosphere, approximately 80–120 km"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F6"
+   ],
+   "explanation": "Near-space lies between aircraft altitude and satellites, with the stratosphere extending approximately from 20 km to 50 km. The other options identify different atmospheric regions or incorrect altitude ranges."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Mission applications and identity",
+   "question": "Consider the following statements about India’s indigenous Super Pressure Balloon initiative:\n1. Near-space technology can be used for telecom, disaster management, earth observation, atmospheric research and surveillance.\n2. CA360 referred to the mission as “Mission Sun”, while the daily source referred to it as “Mission SANA”.\n3. India joins the United States, France, Japan and China in this technology, which is designed for 24-hour operations above 25 km.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F7",
+    "P13.F9",
+    "P13.F10"
+   ],
+   "explanation": "All three statements are correct: the technology has multiple applications, the two mission names were used by different sources, and India joins the listed countries in technology designed for 24-hour operations above 25 km. The tempting option “1 and 3 only” wrongly omits the reported “Mission Sun” and “Mission SANA” distinction."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Submarine cable traffic",
+   "question": "What share of global data traffic is carried by submarine cables, according to the facts associated with Visakhapatnam’s data-centre ecosystem?",
+   "options": [
+    "95% or more",
+    "75% or more",
+    "50% or more",
+    "25% or more"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3"
+   ],
+   "explanation": "Submarine cables carry 95% or more of global data traffic. The lower percentages understate the role of submarine cables in global connectivity."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Investment and connectivity",
+   "question": "The Sritech Data Cable Landing Station proposed in Visakhapatnam involves an investment of how much and provides a direct subsea link to which location?",
+   "options": [
+    "₹1,800 crore and Singapore",
+    "₹1,000 crore and Chennai",
+    "₹500 crore and Krishnapatnam",
+    "₹1,800 crore and Paris"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F4"
+   ],
+   "explanation": "The Sritech Data Cable Landing Station involves ₹1,800 crore and a direct subsea link between Visakhapatnam and Singapore. Paris is the headquarters of Orange Group, not the destination of this Sritech link."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Industrial clusters",
+   "question": "Which of the following correctly lists the industrial clusters identified in Andhra Pradesh’s data-centre and manufacturing ecosystem?",
+   "options": [
+    "Data centre hub, renewable cluster, space city, defence zone, AC manufacturing cluster and glass cluster",
+    "Data centre hub, textile cluster, space city, defence zone, automobile cluster and glass cluster",
+    "Renewable cluster, port cluster, tourism zone, AC manufacturing cluster, steel cluster and glass cluster",
+    "Space city, defence zone, pharmaceutical cluster, textile cluster, renewable cluster and port cluster"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F5"
+   ],
+   "explanation": "The identified clusters are a data centre hub, renewable cluster, space city, defence zone, AC manufacturing cluster and glass cluster. The other options substitute clusters not identified in the facts."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Industrial corridors",
+   "question": "Consider the following statements:\nStatement A: The Andhra Pradesh industrial ecosystem is associated with the Chennai–Bengaluru Industrial Corridor.\nStatement B: The Visakhapatnam–Chennai Industrial Corridor is also known as the Visakhapatnam–Krishnapatnam Industrial Corridor.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F6"
+   ],
+   "explanation": "Statement A is true because CBIC is one of the corridors associated with the ecosystem. Statement B is false: VCIC stands for the Visakhapatnam–Chennai Industrial Corridor, not the Visakhapatnam–Krishnapatnam Industrial Corridor."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Multi-node industrial model",
+   "question": "Consider the following statements regarding Andhra Pradesh’s multi-node industrial model:\n1. It shifts from Hyderabad’s single-hub agglomeration model to a multi-node distributed model after bifurcation.\n2. Hyperscale data centres are envisaged at Visakhapatnam along with submarine cable landing stations.\n3. Under the deemed DISCOM model, industries can buy power through open access and captive generation.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2",
+    "P16.F3"
+   ],
+   "explanation": "All three statements correctly describe the multi-node model: distributed development replaces the earlier single-hub approach, Visakhapatnam is associated with hyperscale data centres and cable landing stations, and the deemed DISCOM model permits open-access and captive-generation routes. The option “1 and 3 only” wrongly excludes the Visakhapatnam data-centre component."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Regional industrial role",
+   "question": "Which sector is associated with the Tirupati/Sri City region in Andhra Pradesh’s regional industrial-role model?",
+   "options": [
+    "Manufacturing",
+    "Port-based steel and data centres",
+    "Defence, drones and space",
+    "Aquaculture"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F5"
+   ],
+   "explanation": "Tirupati/Sri City is associated with manufacturing. Defence, drones and space are linked with Rayalaseema, while port-based steel and data centres are associated with Coastal Andhra."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Industrial policy concerns",
+   "question": "Assertion (A): Andhra Pradesh’s multi-node industrial push faces concerns relating to water and power intensity, jobless growth and policy discontinuity.\nReason (R): The model eliminates concerns about policy discontinuity.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P16.F7"
+   ],
+   "explanation": "Assertion A is true because water/power intensity, jobless growth and policy discontinuity are identified concerns. Reason R is false: policy discontinuity is itself listed as a concern, rather than being eliminated by the model."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AP–Singapore engagement",
+   "question": "Who represented Andhra Pradesh at the Joint Implementation Working Committee meeting held in Singapore?",
+   "options": [
+    "Nara Lokesh",
+    "Kinjarapu Ram Mohan Naidu",
+    "Gloria Wu",
+    "Shilpak Ambule"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1"
+   ],
+   "explanation": "Nara Lokesh attended the Joint Implementation Working Committee meeting in Singapore. Gloria Wu was identified as the CEO of Singapore’s Commodities Intelligence Centre, while the other names were associated with different facts."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "AP–Singapore partnership facts",
+   "question": "How many of the following statements are correct regarding Andhra Pradesh’s engagement with Singapore?\n1. Andhra Pradesh is the largest aquaculture producer in India.\n2. Andhra Pradesh accounts for 40–45% of India’s chilli exports.\n3. The AP–Singapore MoU was signed in November 2025.\n4. Six Andhra Pradesh Ministers were trained under the Singapore–AP Governance Excellence Initiative.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P17.F4",
+    "P17.F7",
+    "P17.F8"
+   ],
+   "explanation": "Only three statements are correct: Andhra Pradesh is India’s largest aquaculture producer, accounts for 40–45% of India’s chilli exports, and the MoU dates to November 2025. Statement 4 is incorrect because six Ministers, not another number, were trained under the Singapore–AP Governance Excellence Initiative."
+  }
+ ]
+}

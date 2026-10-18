@@ -1,0 +1,86 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P8.F2",
+  "P8.F3",
+  "P8.F4",
+  "P8.F5",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First project under policy",
+   "question": "Which project was launched in Rayalaseema on 22 May 2026 as the first project under the Andhra Pradesh Integrated Clean Energy Policy–2024?",
+   "options": [
+    "SAEL Industries’ 600 MW solar project",
+    "Gandikota-II pumped storage project",
+    "Adani Hydro Energy Eleven Ltd.’s project",
+    "Solar ingot-wafer manufacturing project at Anakapalli"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "SAEL Industries’ 600 MW solar project was launched in Rayalaseema on 22 May 2026 as the first project under the Andhra Pradesh Integrated Clean Energy Policy–2024. Gandikota-II is a separate pumped storage project, while solar ingot-wafer manufacturing is associated with Anakapalli."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Project allotment",
+   "question": "To which company was the 2,250 MW Gandikota-II pumped storage project in YSR Kadapa allotted?",
+   "options": [
+    "SAEL Industries",
+    "Adani Hydro Energy Eleven Ltd.",
+    "Amaravati Quantum Valley",
+    "Andhra Pradesh Integrated Clean Energy Policy–2024"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F4"
+   ],
+   "explanation": "The 2,250 MW Gandikota-II pumped storage project in YSR Kadapa was allotted to Adani Hydro Energy Eleven Ltd. SAEL Industries is associated with the 600 MW solar project launched in Rayalaseema."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Clean-energy policy and targets",
+   "question": "With reference to Andhra Pradesh’s Integrated Clean Energy Policy–2024 and its clean-energy targets, consider the following statements:\n\n1. Projects under the policy include pumped storage and solar ingot-wafer manufacturing at Anakapalli.\n2. Andhra Pradesh aims for approximately ₹10 lakh crore in investment and more than 160 GW of renewable-energy capacity.\n3. Gandikota-II is a solar ingot-wafer manufacturing project at Anakapalli.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F4",
+    "P8.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the policy covers pumped storage and solar ingot-wafer manufacturing at Anakapalli, while the State aims for approximately ₹10 lakh crore investment and more than 160 GW of renewable-energy capacity. Statement 3 is incorrect because Gandikota-II is a 2,250 MW pumped storage project in YSR Kadapa."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Earlier quantum facility",
+   "question": "Before the Quantum-Secure Communications Test Bed at SRM University-AP, which facility had been launched on 14 April 2026?",
+   "options": [
+    "Quantum Computing Reference Facilities",
+    "Gandikota-II pumped storage facility",
+    "NIELIT Innovation & Skilling Centre",
+    "Solar ingot-wafer manufacturing facility"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "Quantum Computing Reference Facilities were launched on 14 April 2026, before the Quantum-Secure Communications Test Bed. Gandikota-II and solar ingot-wafer manufacturing are clean-energy projects, while the NIELIT Innovation & Skilling Centre is a separate skilling facility."
+  }
+ ]
+}

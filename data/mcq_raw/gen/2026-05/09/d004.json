@@ -1,0 +1,137 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  19,
+  20,
+  21
+ ],
+ "only": [
+  "P19.F5",
+  "P19.F6",
+  "P20.F10",
+  "P20.F11",
+  "P20.F12",
+  "P20.F3",
+  "P20.F6",
+  "P20.F8",
+  "P20.F9",
+  "P21.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Paralympic achievement",
+   "question": "Alex Zanardi, who died in May 2026, was a four-time Paralympic gold medallist in which sport?",
+   "options": [
+    "Para-cycling",
+    "Shooting",
+    "Archery",
+    "Tennis"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F5"
+   ],
+   "explanation": "Alex Zanardi was a four-time Paralympic gold medallist in para-cycling. Shooting, archery and tennis are not the sport associated with this achievement in the stated profile."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First unseeded US singles champion",
+   "question": "In which year did Australian tennis legend Mal Anderson become the first unseeded player to win the US National Championships singles title, now known as the US Open?",
+   "options": [
+    "1957",
+    "1958",
+    "1960",
+    "2000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F6"
+   ],
+   "explanation": "Mal Anderson achieved this distinction in 1957. The year 2000 relates to his induction into the International Tennis Hall of Fame, not his US National Championships victory."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Book author and legal office",
+   "question": "Consider the following statements:\n1. “Better Never Stops” was written by Shyam Srinivasan as a debut leadership memoir.\n2. The Solicitor General is the second-highest law officer after the Attorney General.\n3. “Better Never Stops” was published by Aadhar Prakashan.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F3",
+    "P20.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Shyam Srinivasan wrote the debut leadership memoir, and the Solicitor General ranks after the Attorney General as the second-highest law officer. Statement 3 is incorrect because the publisher was Wyzr Content, not Aadhar Prakashan."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Book gift and library movement",
+   "question": "Match List-I with List-II:\n\nList-I\n a. “Convenient Action: Continuity for Change”\n b. P.N. Panicker as a library-movement figure\n c. National Reading Day\n d. P.N. Panicker’s library contribution\n\nList-II\n i. 6,000+ libraries\n ii. Gifted by Prime Minister Narendra Modi to Sweden’s Crown Princess Victoria\n iii. 19 June\n iv. Father of Kerala’s Library Movement\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F8",
+    "P20.F11"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i. “Convenient Action: Continuity for Change” was gifted to Sweden’s Crown Princess Victoria; P.N. Panicker is regarded as the Father of Kerala’s Library Movement, his death anniversary is linked with 19 June as National Reading Day, and he was associated with 6,000+ libraries."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First woman Additional Solicitor General",
+   "question": "Consider the following statements:\nStatement A: Indira Jaising was India’s first woman Additional Solicitor General in 2009.\nStatement B: She helped shape the Protection of Women from Domestic Violence Act, 2006.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P20.F10"
+   ],
+   "explanation": "Statement A is true: Indira Jaising became India’s first woman Additional Solicitor General in 2009. Statement B is false because the Act was the Protection of Women from Domestic Violence Act, 2005, not 2006."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Headquarters",
+   "question": "Where is Federal Bank headquartered?",
+   "options": [
+    "Aluva",
+    "Bengaluru",
+    "New Delhi",
+    "Bhopal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F12"
+   ],
+   "explanation": "Federal Bank is headquartered at Aluva in Kerala. Bengaluru was associated with the publisher Wyzr Content, while New Delhi and Bhopal are not the bank’s headquarters."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "IIMC establishment and location",
+   "question": "With reference to the Indian Institute of Mass Communication (IIMC), consider the following:\n\nAssertion (A): IIMC was established in 1965.\nReason (R): IIMC is located in New Delhi under the Ministry of Information and Broadcasting.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P21.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: IIMC was established in 1965 and is located in New Delhi under the Ministry of Information and Broadcasting. Its location and administrative affiliation do not explain why it was established in 1965."
+  }
+ ]
+}

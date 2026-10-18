@@ -1,0 +1,275 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  14,
+  15
+ ],
+ "only": [
+  "P14.F10",
+  "P14.F11",
+  "P14.F12",
+  "P14.F13",
+  "P14.F14",
+  "P14.F15",
+  "P14.F16",
+  "P14.F4",
+  "P14.F6",
+  "P14.F7",
+  "P14.F8",
+  "P14.F9",
+  "P15.F1",
+  "P15.F12",
+  "P15.F13",
+  "P15.F14",
+  "P15.F15",
+  "P15.F2",
+  "P15.F3",
+  "P15.F4",
+  "P15.F8",
+  "P15.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Production target",
+   "question": "Under the Mission for Cotton Productivity, what is the targeted cotton production?",
+   "options": [
+    "498 lakh bales",
+    "440 kg/ha",
+    "2,000 ginning factories",
+    "Below 2% trash"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F4",
+    "P14.F5",
+    "P14.F8",
+    "P14.F9"
+   ],
+   "explanation": "The production target under the mission is 498 lakh bales. The other options refer to lint productivity, ginning factories and trash targets, not production."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Farmers and geographical coverage",
+   "question": "Consider the following statements about the targets of the Mission for Cotton Productivity:\n1. The mission aims to benefit approximately 32 lakh farmers.\n2. Its coverage target is 140 districts across 14 States.\n3. It targets 755 ginning factories.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F6",
+    "P14.F7",
+    "P14.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the targets are approximately 32 lakh farmers and coverage of 140 districts in 14 States. Statement 3 is incorrect because the target is 2,000 ginning factories."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Target numbers and units",
+   "question": "Match the targets under the Mission for Cotton Productivity in List-I with their corresponding values in List-II.\n\nList-I\n a. Ginning factories\n b. Trash level\n c. Weight of one bale\n d. Cotton production\n\nList-II\n i. 170 kg\n ii. 498 lakh bales\n iii. Below 2%\n iv. 2,000",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F4",
+    "P14.F8",
+    "P14.F9",
+    "P14.F10"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-i and d-ii: 2,000 ginning factories, below 2% trash, 170 kg per bale and 498 lakh bales. The other codes interchange these target values and units."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cotton area and productivity rank",
+   "question": "India’s cotton position presents which combination of area and productivity ranking highlighted in the context of the Mission for Cotton Productivity?",
+   "options": [
+    "Largest cotton area but 39th in productivity",
+    "39th in cotton area but largest in productivity",
+    "Largest cotton area and first in productivity",
+    "Second-largest cotton area and 14th in productivity"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F11"
+   ],
+   "explanation": "India has the world’s largest cotton area but ranks 39th in productivity. The other combinations reverse or alter these two positions."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Cotton trade trend",
+   "question": "Consider the following statements:\nStatement A: India’s cotton imports increased from $518.4 million in 2023–24 to $1.04 billion in 2024–25.\nStatement B: India’s cotton exports declined from $729.4 million to $660.5 million.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F12"
+   ],
+   "explanation": "Both statements are true: imports rose from $518.4 million to $1.04 billion, while exports fell from $729.4 million to $660.5 million. The tempting contrary interpretation is incorrect because the two trade flows moved in opposite directions."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Bt resistance and GM cotton approval",
+   "question": "Assertion (A): A new genetically modified cotton variety has been approved in India since 2006.\nReason (R): The pink bollworm has developed resistance to Bt cotton.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F13"
+   ],
+   "explanation": "Assertion A is false because no new GM cotton has been approved since 2006, while Reason R is true because the pink bollworm is resistant to Bt cotton. Therefore, the correct option is ‘A is false, but R is true.’"
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Branding, outlay and implementation",
+   "question": "How many of the following statements relating to the Mission for Cotton Productivity are correct?\n1. Kasturi Cotton Bharat, the Cott-Ally app and PM MITRA are associated with its branding and support ecosystem.\n2. The Union Cabinet approved the mission with an outlay of ₹5,659.22 crore.\n3. Digital mandi integration is intended for approximately 32 lakh farmers.\n4. The Textiles Minister associated with the approval was Piyush Goyal.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F14",
+    "P14.F15",
+    "P14.F16"
+   ],
+   "explanation": "Exactly three statements are correct: the branding ecosystem, the ₹5,659.22 crore outlay and digital mandi integration for approximately 32 lakh farmers. Statement 4 is incorrect because the Textiles Minister named in this context was Giriraj Singh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Renewable-energy share",
+   "question": "What approximate share of India’s installed power capacity was attributed to renewable energy in the energy-storage assessment?",
+   "options": [
+    "About 53%",
+    "About 40%",
+    "About 75%",
+    "About 90%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "Renewable energy accounted for approximately 53% of installed capacity. The other percentages do not represent the stated renewable-energy share."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Current and projected storage capacity",
+   "question": "Consider the following statements regarding energy storage in India:\n1. Current storage includes 0.27 GW of BESS and 7.2 GW of pumped hydro.\n2. The CEA projection for 2035–36 places total storage at 174 GW and 888 GWh.\n3. The projected BESS component for 2035–36 is 94 GW and 567 GWh.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2",
+    "P15.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: current storage is 0.27 GW BESS and 7.2 GW pumped hydro, while the 2035–36 projection is 174 GW and 888 GWh. Statement 3 is incorrect because 94 GW and 567 GWh refer to PSP, not BESS."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Non-fossil capacity projection",
+   "question": "According to the energy-storage outlook, India’s non-fossil capacity is projected to rise from what level to what level by 2035–36?",
+   "options": [
+    "283 GW to 786 GW",
+    "174 GW to 888 GW",
+    "150 GW to 283 GW",
+    "532 GW to 786 GW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4",
+    "P15.F3",
+    "P15.F9"
+   ],
+   "explanation": "Non-fossil capacity is projected to increase from 283 GW to 786 GW by 2035–36. The other pairs mix the storage projection or installed-capacity figures with the non-fossil-capacity numbers."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CEA roadmap",
+   "question": "Which plan provides the roadmap for India’s power-generation adequacy up to 2035–36 in the energy-storage context?",
+   "options": [
+    "CEA National Generation Adequacy Plan",
+    "CEA National Storage Deployment Plan",
+    "Power System Development Fund",
+    "Mission for Cotton Productivity"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F8",
+    "P15.F7",
+    "P14.F1"
+   ],
+   "explanation": "The CEA National Generation Adequacy Plan provides the roadmap to 2035–36. The other options refer to a funding scheme, a cotton mission or a plan not identified for this roadmap."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Installed capacity and BESS cost",
+   "question": "Consider the following statements:\nStatement A: India’s installed capacity was approximately 532 GW, including renewable energy capacity of approximately 283 GW and solar capacity of more than 150 GW.\nStatement B: Lithium-ion cells account for approximately 80% of BESS cost.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F9",
+    "P15.F12"
+   ],
+   "explanation": "Both statements are true: installed capacity was approximately 532 GW, renewable energy capacity approximately 283 GW, solar capacity more than 150 GW, and lithium-ion cells account for approximately 80% of BESS cost. The figures in Statement A and the cost share in Statement B relate to different aspects of the storage ecosystem."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Global pumped-storage capacity",
+   "question": "Match the regions or countries with their approximate global pumped-storage capacity figures.\n\nList-I\n a. China\n b. Japan\n c. United States\n d. Europe\n\nList-II\n i. 18.9 GW\n ii. 66 GW\n iii. 28 GW\n iv. 21.8 GW",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F13"
+   ],
+   "explanation": "The correct pairs are China–66 GW, Japan–21.8 GW, United States–18.9 GW and Europe–28 GW. The other codes interchange the country and regional figures."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Global storage technologies and additions",
+   "question": "How many of the following statements about global energy storage are correct?\n1. Global battery storage capacity is approximately 270 GW.\n2. China accounted for approximately 60% of battery-storage additions in 2025.\n3. Other storage technologies include concentrating solar-thermal storage using molten salt, compressed-air, flywheel and gravity storage.\n4. Flywheel storage is not included among the other storage technologies identified.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F14",
+    "P15.F15"
+   ],
+   "explanation": "Exactly three statements are correct: global battery storage is approximately 270 GW, China accounted for approximately 60% of 2025 additions, and the listed other technologies include molten salt, compressed-air, flywheel and gravity storage. Statement 4 is incorrect because flywheel storage is explicitly included."
+  }
+ ]
+}

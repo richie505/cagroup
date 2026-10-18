@@ -1,0 +1,147 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "only": [
+  "P10.F3",
+  "P10.F4",
+  "P11.F3",
+  "P13.F3",
+  "P14.F2",
+  "P14.F4",
+  "P15.F3",
+  "P16.F3",
+  "P8.F4",
+  "P8.F5",
+  "P9.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "The Farakka Barrage, which diverts water to the Hooghly, is located at which place?",
+   "options": [
+    "Murshidabad, West Bengal",
+    "Hooghly",
+    "Bangladesh",
+    "Padma"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4"
+   ],
+   "explanation": "The Farakka Barrage is located in Murshidabad, West Bengal, and diverts water to the Hooghly. Hooghly is the river receiving the diverted water, not the location of the barrage."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Geographical identity",
+   "question": "What is the Padma known as in Bangladesh?",
+   "options": [
+    "Ganga",
+    "Hooghly",
+    "Farakka Barrage",
+    "Mauritian Rupee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "The Padma is the Ganga in Bangladesh. Hooghly is associated with the water diversion from the Farakka Barrage, not the identity of the Padma."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic location",
+   "question": "The Strait of Hormuz lies between which two countries?",
+   "options": [
+    "Iran and Oman",
+    "Iran and Bangladesh",
+    "Oman and Mauritius",
+    "Canada and Oman"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "The Strait of Hormuz lies between Iran and Oman and links the Persian Gulf with the Arabian Sea. The other pairs do not describe the location of this strategic waterway."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Countries in talks and Israeli national details",
+   "question": "With reference to the Abraham Accords, consider the following statements:\n1. Talks have involved Saudi Arabia, Qatar, Pakistan, Türkiye, Egypt and Jordan.\n2. Israel's capital is New Shekel, while its currency is the New Shekel.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4"
+   ],
+   "explanation": "Statement 1 is correct because talks have involved Saudi Arabia, Qatar, Pakistan, Türkiye, Egypt and Jordan. Statement 2 is incorrect because Jerusalem is Israel's capital, while the New Shekel is its currency."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Capital and currency",
+   "question": "What is the capital of Mauritius in the context of the Indian Ocean region?",
+   "options": [
+    "Port Louis",
+    "Ottawa",
+    "Jerusalem",
+    "Mauritian Rupee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "Port Louis is the capital of Mauritius, whose currency is the Mauritian Rupee. Mauritian Rupee is therefore the currency, not the capital."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Nature of the EPC and Canadian currency",
+   "question": "Consider the following statements:\nStatement A: The European Political Community is an institution of the European Union.\nStatement B: Canada's currency is the Mauritian Rupee.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F2",
+    "P14.F4"
+   ],
+   "explanation": "Both statements are false. The European Political Community is not an EU institution, and Canada's currency is the Canadian Dollar, not the Mauritian Rupee."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Certification authorities, hospital capacity and appointments",
+   "question": "How many of the following statements are correct?\n1. MeitY and the STQC Directorate are India's certification authorities.\n2. The BHISHM Cube consists of 72 mini-cubes.\n3. Benjamin Netanyahu is the Australian High Commissioner.\n4. Israel's capital is the New Shekel.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F3",
+    "P15.F3",
+    "P16.F3",
+    "P10.F4"
+   ],
+   "explanation": "Only statements 1 and 2 are correct, so the answer is Only two. India's certification authorities are MeitY and STQC, and the BHISHM Cube has 72 mini-cubes; Benjamin Netanyahu is Israel's Prime Minister, while the New Shekel is Israel's currency rather than its capital."
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Case challenging appointment law",
+   "question": "Which legislation was challenged by the Association for Democratic Reforms in the Supreme Court hearing concerning the appointment of the Chief Election Commissioner and other Election Commissioners?",
+   "options": [
+    "The CEC and Other ECs (Appointment, Conditions of Service and Term of Office) Act, 2023",
+    "The Election Commission Act, 1991",
+    "Article 324(2) of the Constitution",
+    "The Anoop Baranwal interim arrangement of March 2023"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The challenge concerned the CEC and Other ECs (Appointment, Conditions of Service and Term of Office) Act, 2023. The Election Commission Act, 1991 dealt with salaries and tenure, not appointments."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Recent appointments",
+   "question": "With reference to recent appointments in the Election Commission, consider the following statements:\n1. Gyanesh Kumar became Chief Election Commissioner on 19 February 2025 after Rajiv Kumar retired on 18 February 2025.\n2. Vivek Joshi was appointed Chief Election Commissioner.",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "Statement 1 is correct: Gyanesh Kumar became Chief Election Commissioner on 19 February 2025, succeeding Rajiv Kumar. Statement 2 is incorrect because Vivek Joshi was appointed an Election Commissioner, not the Chief Election Commissioner."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Dates and appointment procedure",
+   "question": "How many of the following statements regarding recent Election Commission appointments are correct?\n1. Gyanesh Kumar and Sukhbir Singh Sandhu became Election Commissioners on 14 March 2024.\n2. Arun Goel was appointed Election Commissioner in November 2022 in a single day, an appointment questioned by the Supreme Court.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Both statements are correct, so the answer is Only two. Gyanesh Kumar and Sukhbir Singh Sandhu became Election Commissioners on 14 March 2024, while Arun Goel’s single-day appointment in November 2022 was questioned by the Supreme Court."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Constitutional appointment authority",
+   "question": "Consider the following statements:\nStatement A: Article 324(2) provides that the President appoints the Chief Election Commissioner and Election Commissioners, subject to a law made by Parliament.\nStatement B: Article 324(2) provides that the Supreme Court appoints the Chief Election Commissioner and Election Commissioners, subject to a law made by Parliament.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Statement A is true because Article 324(2) assigns the appointment to the President, subject to parliamentary law. Statement B is false because the appointing authority identified in Article 324(2) is the President, not the Supreme Court."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Removal safeguards",
+   "question": "Assertion (A): Article 324(5) creates different removal safeguards for the Chief Election Commissioner and the other Election Commissioners.\nReason (R): Under Article 324(5), the Chief Election Commissioner is removable like a Supreme Court judge, whereas an Election Commissioner can be removed only on the recommendation of the Chief Election Commissioner.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the Reason correctly explains the difference in safeguards. Article 324(5) provides the Supreme Court judge-like removal standard for the Chief Election Commissioner and requires the Chief Election Commissioner’s recommendation for removal of an Election Commissioner."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scope of Election Commission Act, 1991",
+   "question": "The Election Commission Act, 1991 primarily dealt with which aspects of the Election Commission?",
+   "options": [
+    "Salaries and tenure",
+    "Appointment of the Chief Election Commissioner and Election Commissioners",
+    "Removal of the Chief Election Commissioner like a Supreme Court judge",
+    "The composition of the interim selection panel"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "The Election Commission Act, 1991 dealt with salaries and tenure. Appointment of the Chief Election Commissioner and Election Commissioners was not its subject, making that option the tempting but incorrect choice."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Voting as an expression",
+   "question": "In the Anoop Baranwal context, voting was regarded as part of which constitutional freedom?",
+   "options": [
+    "Freedom of speech and expression under Article 19(1)(a)",
+    "The appointment power under Article 324(2)",
+    "The removal safeguard under Article 324(5)",
+    "The tenure provisions of the Election Commission Act, 1991"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "The Anoop Baranwal position treated voting as part of the expression protected by Article 19(1)(a). Article 324(2) and Article 324(5) concern appointment and removal safeguards, respectively, not the constitutional basis of voting as expression."
+  }
+ ]
+}

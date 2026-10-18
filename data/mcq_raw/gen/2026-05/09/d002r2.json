@@ -1,0 +1,53 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P6.F1",
+  "P6.F3",
+  "P6.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of selected Panchayats",
+   "question": "How many Panchayats were selected for the National Panchayat Awards 2025?",
+   "options": [
+    "42",
+    "34",
+    "8",
+    "17"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "A total of 42 Panchayats were selected for the National Panchayat Awards 2025. The figures 34 and 8 refer to selections under specific award categories, while 17 refers to the States/Union Territories associated with one category."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Award categories and selection",
+   "question": "With reference to the categories of the National Panchayat Awards 2025, consider the following statements:\nStatement A: The Deendayal Upadhyay Panchayat Satat Vikas Puraskar selected 34 Gram Panchayats from 17 States and Union Territories.\nStatement B: The Nanaji Deshmukh Sarvottam Panchayat Satat Vikas Puraskar selected 10 Panchayats.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "Statement A is correct: 34 Gram Panchayats from 17 States and Union Territories were selected for the Deendayal Upadhyay Panchayat Satat Vikas Puraskar. Statement B is incorrect because the Nanaji Deshmukh Sarvottam Panchayat Satat Vikas Puraskar selected 8 Panchayats, not 10."
+  }
+ ]
+}

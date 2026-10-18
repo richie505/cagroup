@@ -1,0 +1,180 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "only": [
+  "P12.F3",
+  "P13.F2",
+  "P13.F3",
+  "P14.F5",
+  "P14.F6",
+  "P15.F4",
+  "P15.F5",
+  "P15.F8",
+  "P15.F9",
+  "P16.F3",
+  "P16.F4",
+  "P16.F5",
+  "P17.F4",
+  "P17.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation",
+   "question": "Which organisation presents the Whitley Awards, popularly known as the “Green Oscars”?",
+   "options": [
+    "UNESCO",
+    "Whitley Fund for Nature",
+    "Academy of Motion Picture Arts and Sciences",
+    "L'Oréal Foundation"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "The Whitley Awards are presented by the UK's Whitley Fund for Nature. UNESCO, the Academy of Motion Picture Arts and Sciences and L'Oréal are associated with other awards or programmes mentioned in the news, not the Whitley Awards."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "World Press Freedom Day",
+   "question": "Consider the following statements:\nStatement A: World Press Freedom Day 2026 was observed on 5 May in Lusaka and online.\nStatement B: UNESCO was established in 1945 and has its headquarters in Geneva.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F2",
+    "P13.F3"
+   ],
+   "explanation": "Both statements are false. World Press Freedom Day 2026 was observed on 4 May, while UNESCO was established in 1945 but its headquarters are in Paris, not Geneva."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Laureate and programme details",
+   "question": "Consider the following statements about the UNESCO–L'Oréal For Women in Science International Awards 2026:\n1. Gordana Vunjak-Novakovic was the laureate associated with the United States.\n2. The jury was chaired by Brigitte L. Kieffer.\n3. The programme was launched in 1999.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F5",
+    "P14.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so the answer is 1 and 2 only. The programme was launched in 1998, not 1999."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Best Actress",
+   "question": "Who won the Best Actress award at the 79th Cannes Film Festival 2026?",
+   "options": [
+    "Virginie Efira and Tao Okamoto",
+    "Emmanuel Machia and Valentin Campegne",
+    "Paweł Pawlikowski",
+    "Javier Ambrossi and Javier Calvo"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4"
+   ],
+   "explanation": "Virginie Efira and Tao Okamoto won the Best Actress award for “All of a Sudden.” Emmanuel Machia and Valentin Campegne won Best Actor, while Paweł Pawlikowski and Javier Ambrossi and Javier Calvo shared Best Director."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cannes awards and history",
+   "question": "Consider the following statements about the 79th Cannes Film Festival 2026:\n1. Emmanuel Machia and Valentin Campegne won Best Actor for “Coward”.\n2. Cristian Mungiu became the 10th director to win the Palme d'Or twice, after an earlier win in 2007.\n3. Cannes was established in 1948 and is one of the “Big Three” film festivals.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F5",
+    "P15.F8",
+    "P15.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Cannes was established in 1946, not 1948; it is nevertheless one of the “Big Three” with Venice and Berlin."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Artificial intelligence rules",
+   "question": "Which of the following statements regarding the new rules for the 99th Academy Awards is incorrect?",
+   "options": [
+    "Films must be predominantly human-made.",
+    "AI-generated characters or performances are eligible for consideration.",
+    "Screenplays must be written by humans.",
+    "The Academy was established in 1927 and is based in Beverly Hills."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P16.F4",
+    "P16.F5"
+   ],
+   "explanation": "The incorrect statement is that AI-generated characters or performances are eligible; they are ineligible under the new rules. The rules require films to be predominantly human-made and screenplays to be written by humans, while the Academy was established in 1927 in Beverly Hills."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "New Oscars rules",
+   "question": "How many of the following are correctly stated features of the new rules for the 99th Academy Awards?\n1. Actors may receive nominations for two films in the same category in one year.\n2. The number of Best Casting statuettes will rise from 2 to 4.\n3. The Cinematography shortlist will contain 20 films.\n4. The Cinematography shortlist will contain 18 films.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P16.F3"
+   ],
+   "explanation": "Only two statements are correct: actors may be nominated for two films in the same category, and the Cinematography shortlist will contain 20 films. Best Casting statuettes increase from 2 to 3, not 4, and the shortlist is 20 films, not 18."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Resignation and country",
+   "question": "Evika Siliņa resigned as Prime Minister of which country in May 2026?",
+   "options": [
+    "Latvia",
+    "Slovenia",
+    "Senegal",
+    "Costa Rica"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F4"
+   ],
+   "explanation": "Evika Siliņa resigned as Prime Minister of Latvia. Slovenia was associated with Janez Janša, while Senegal and Costa Rica had different leadership developments."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment",
+   "question": "Who was appointed the new Prime Minister of Senegal after the dismissal of Ousmane Sonko?",
+   "options": [
+    "Ahmadou Al Aminou Lo",
+    "Jeremiah Manele",
+    "Ali Falih Khadim Al-Zaidi",
+    "Laura Virginia Fernández Delgado"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F7"
+   ],
+   "explanation": "Ahmadou Al Aminou Lo was appointed Prime Minister of Senegal by President Bassirou Diomaye Faye. The other individuals were associated with leadership developments in the Solomon Islands, Iraq and Costa Rica."
+  }
+ ]
+}

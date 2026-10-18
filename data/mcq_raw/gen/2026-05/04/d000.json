@@ -1,0 +1,265 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F13",
+  "P0.F15",
+  "P0.F4",
+  "P0.F5",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F3",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F1",
+  "P2.F2",
+  "P2.F3",
+  "P2.F5",
+  "P2.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "FII outflows",
+   "question": "What was the approximate value of Foreign Institutional Investor outflows from India during January–May 2026?",
+   "options": [
+    "₹1.97 lakh crore",
+    "₹1.98 lakh crore",
+    "₹2.87 lakh crore",
+    "₹2.42 lakh crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "FII outflows during January–May 2026 were approximately ₹1.97 lakh crore. ₹1.98 lakh crore refers to the record net profit of Public Sector Banks, not FII outflows."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rupee exchange rate",
+   "question": "During the economic pressure highlighted in May 2026, the rupee fell below which level against the US dollar?",
+   "options": [
+    "95 per US$",
+    "100 per US$",
+    "89 per US$",
+    "91.97 per US$"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The rupee fell below 95 per US dollar. The figures 100, 89 and 91.97 relate to other economic indicators in the May 2026 data, not the rupee threshold."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "CAD, RBI gold and LRS",
+   "question": "Consider the following statements regarding India's external-sector indicators in May 2026:\n\n1. The current account deficit in the December quarter was $13.2 billion, equivalent to 1.3% of GDP.\n2. RBI gold holdings were approximately 880 tonnes in March 2026, constituting about 16% of reserves.\n3. India's FY25 LRS outflow was $29.56 billion, of which travel accounted for $15.96 billion.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the December-quarter CAD was $13.2 billion or 1.3% of GDP, and RBI gold holdings were about 880 tonnes or 16% of reserves. Statement 3 is incorrect because travel accounted for $16.96 billion of the $29.56 billion LRS outflow, not $15.96 billion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "OMC under-recovery",
+   "question": "Amid the rise in crude prices, what was the approximate monthly under-recovery faced by oil marketing companies?",
+   "options": [
+    "₹30,000 crore",
+    "₹71.98 billion",
+    "$13.2 billion",
+    "$29.56 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "Oil marketing companies faced an approximate under-recovery of ₹30,000 crore per month. The other figures refer to gold imports, the current account deficit and LRS outflows."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Urea price and tourism data",
+   "question": "Consider the following statements:\nStatement A: The price of urea declined from $935 to $508 per tonne.\nStatement B: In 2025, Indian departures were 32.71 million, while foreign tourist arrivals were 9.02 million.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F13"
+   ],
+   "explanation": "Statement A is false because the urea price increased from $508 to $935 per tonne. Statement B is true: Indian departures were 32.71 million and foreign tourist arrivals were 9.02 million in 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sources of edible oils",
+   "question": "Which pair correctly identifies the countries associated with India's palm-oil imports and sunflower-oil imports respectively?",
+   "options": [
+    "Indonesia and Russia",
+    "Russia and Indonesia",
+    "Malaysia and Ukraine",
+    "Ukraine and Malaysia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Palm oil was sourced from Indonesia and Malaysia, while sunflower oil was sourced from Russia and Ukraine. Therefore, Indonesia and Russia is the only option giving one correct source for each oil in the stated order."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CBDT establishment",
+   "question": "The Central Board of Direct Taxes (CBDT), relevant to India's direct-tax administration, was established in which year?",
+   "options": [
+    "1963",
+    "2016",
+    "1998",
+    "2008"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The CBDT was established in 1963. The years 2016, 1998 and 2008 refer respectively to the GST Council, the establishment of the ECB and the establishment of NPCI."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "ECB and euro chronology",
+   "question": "Assertion (A): The European Central Bank was established on 1 June 1999.\nReason (R): The euro was introduced on 1 January 1999.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "Assertion A is false because the ECB was established on 1 June 1998. Reason R is true because the euro began on 1 January 1999, but that fact does not make the incorrect ECB date true."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Eurozone membership",
+   "question": "As of the May 2026 update, which country was the latest addition to the 21-member Eurozone?",
+   "options": [
+    "Bulgaria",
+    "Croatia",
+    "France",
+    "Germany"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "Bulgaria was the latest addition to the 21-member Eurozone in 2026. Croatia was the preceding latest member, having joined in 2023."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Public Sector Banks performance",
+   "question": "With reference to the performance of Public Sector Banks in FY 2025–26, which of the following statements is incorrect?",
+   "options": [
+    "Public Sector Banks recorded a record net profit of ₹1.98 lakh crore and their fourth straight profitable year.",
+    "Their business exceeded ₹283 lakh crore, registering 12.8% growth.",
+    "Their deposits exceeded ₹156 lakh crore, registering 10.6% growth.",
+    "Their Gross Non-Performing Assets stood at 1.39%."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "The incorrect statement is that Gross Non-Performing Assets stood at 1.39%; the correct GNPA figure was 1.93%. The other statements correctly report the record ₹1.98 lakh crore profit, business above ₹283 lakh crore and deposits above ₹156 lakh crore."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sectoral bank credit growth",
+   "question": "In FY 2025–26, which sector recorded the highest growth in Scheduled Commercial Bank credit, at 19%?",
+   "options": [
+    "Services",
+    "Agriculture",
+    "Industry",
+    "Non-food credit overall"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9"
+   ],
+   "explanation": "The services sector recorded the highest credit growth at 19% and accounted for about 28% of lending. Agriculture grew by 15.7%, industry by 15.0%, and overall non-food credit by 15.9%."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "UPI and NPCI",
+   "question": "Consider the following statements regarding digital payments and payment infrastructure in FY 2025–26:\n\n1. UPI recorded transactions worth ₹314 lakh crore.\n2. UPI transaction volume increased from 2 crore in 2016–17 to 24,162 crore.\n3. NPCI was established in 2009 and is headquartered in Mumbai.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "Statements 1 and 2 are correct: UPI recorded ₹314 lakh crore in value and its volume rose from 2 crore to 24,162 crore. Statement 3 is incorrect because NPCI was established in 2008, although it is based in Mumbai."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Remittances and international students",
+   "question": "How many of the following statements regarding India's remittances and international student position are correct?\n\n1. India received US$137 billion in remittances in 2024 and was the world's largest recipient.\n2. Mexico was the next country after India among the listed remittance recipients.\n3. The United States was the largest source of remittances to India.\n4. India ranked third in the number of international students abroad, with approximately 6.2 lakh students.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: India received US$137 billion in 2024 and Mexico followed it among the listed recipients. Statement 3 is incorrect because the United States was the largest source, while Statement 4 is incorrect because India ranked second, not third, with approximately 6.2 lakh students abroad."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "FEMA amendment and IRDAI",
+   "question": "Match List-I with List-II regarding the May 2026 foreign-investment and insurance-regulatory changes.\n\nList-I\n a. FEMA amendments came into force\n b. Shareholding permitted through the Automatic Route from China/Hong Kong\n c. Establishment year of IRDAI\n d. Headquarters of IRDAI\n\nList-II\n i. 1 May 2026\n ii. Up to 10%\n iii. 1999\n iv. Hyderabad",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: the FEMA amendments took effect on 1 May 2026, the permitted shareholding was up to 10%, IRDAI was established in 1999, and its headquarters is in Hyderabad. The other codes interchange these dates, limits and locations."
+  }
+ ]
+}

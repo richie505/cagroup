@@ -1,0 +1,104 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P7.F1",
+  "P7.F2",
+  "P7.F5",
+  "P7.F7",
+  "P7.F8",
+  "P7.F9",
+  "P8.F8",
+  "P9.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch vehicle and venue",
+   "question": "The SMILE mission of ESA and the Chinese Academy of Sciences was launched on 19 May 2026 by which combination?",
+   "options": [
+    "Vega-C from Europe's Spaceport, French Guiana",
+    "Vega-C from Europe's Spaceport, Beijing",
+    "LVM3 from Europe's Spaceport, French Guiana",
+    "Vega-C from Paris, French Guiana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "SMILE was launched on 19 May 2026 on Vega-C from Europe's Spaceport in French Guiana. The other options alter either the launch vehicle or the launch location."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Mission partners and duration",
+   "question": "Consider the following statements about the SMILE mission:\n1. It is a joint mission of ESA and the Chinese Academy of Sciences.\n2. Its mission life is approximately three years.\n3. ESA was established in 1949 and has its headquarters in Paris.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F5",
+    "P7.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: SMILE is a joint ESA–CAS mission with an approximately three-year mission life. Statement 3 is incorrect because ESA was established in 1975, although its headquarters is in Paris."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Space science and launch-system features",
+   "question": "Match List-I with List-II in the context of space science and launch systems.\n\nList-I\n(a) Magnetosphere\n(b) Coronal mass ejections\n(c) Auroras\n(d) LVM3\n\nList-II\n(i) Seen near the poles\n(ii) Region controlled by Earth's magnetic field\n(iii) Three-stage launch vehicle with two solid strap-ons, a liquid core and a cryogenic upper stage\n(iv) Cause space weather\n\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F8",
+    "P7.F9"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. The magnetosphere is controlled by Earth's magnetic field, coronal mass ejections cause space weather, auroras occur near the poles, and LVM3 has the specified three-stage configuration."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Indian Pharmacopoeia and SUGAM portal",
+   "question": "Consider the following statements regarding India's pharmaceutical-sector update:\n\nStatement A: Indian Pharmacopoeia 2026 includes new vaccines and medical devices.\nStatement B: The SUGAM portal is included among the pharmaceutical-sector developments highlighted in the update.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F8"
+   ],
+   "explanation": "Statement A is false because Indian Pharmacopoeia 2026 includes new vaccines and blood products, not medical devices. Statement B is true because the SUGAM portal is among the highlighted pharmaceutical-sector developments."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Event and organising ministry",
+   "question": "How many of the following statements about BIRSA 101 are correct?\n\n1. BIRSA 101 was showcased at Jan Jatiya Gaurav Utsav–2026.\n2. BIRSA 101 was showcased at Jan Jatiya Gaurav Utsav–2025.\n3. The event was organised by the Ministry of Defence.\n4. The event was organised by the Ministry of Science and Technology.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "Only one statement is correct: BIRSA 101 was showcased at Jan Jatiya Gaurav Utsav–2026, organised by the Ministry of Tribal Affairs. Statement 2 changes the year, while statements 3 and 4 change the ministry."
+  }
+ ]
+}

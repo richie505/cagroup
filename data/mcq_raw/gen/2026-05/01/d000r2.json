@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "GSDP growth and size",
+   "question": "According to Andhra Pradesh’s economic indicators for 2025–26, which combination correctly represents the State’s GSDP growth and GSDP size?",
+   "options": [
+    "10.75% growth and ₹17.62 lakh crore GSDP",
+    "15.53% growth and ₹20.36 lakh crore GSDP",
+    "10.75% growth and ₹20.36 lakh crore GSDP",
+    "15.53% growth and ₹17.62 lakh crore GSDP"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Andhra Pradesh recorded 10.75% growth, with its GSDP reaching ₹17.62 lakh crore in 2025–26. The tempting alternative of 15.53% growth and ₹20.36 lakh crore refers to the 2026–27 target, not the 2025–26 performance."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GSDP target and development framework",
+   "question": "With reference to Andhra Pradesh’s GSDP target for 2026–27, consider the following statements:\n\n1. The targeted GSDP is ₹20.36 lakh crore.\n2. The target is associated with the Swarnandhra Vision–2047 framework.\n3. The targeted growth rate is 10.75%.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Andhra Pradesh has targeted a GSDP of ₹20.36 lakh crore for 2026–27 under the Swarnandhra Vision–2047 framework. Statement 3 is incorrect because the target growth rate is 15.53%, while 10.75% describes the 2025–26 growth."
+  }
+ ]
+}

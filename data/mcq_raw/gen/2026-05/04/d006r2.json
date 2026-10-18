@@ -1,0 +1,52 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31
+ ],
+ "only": [
+  "P29.F5",
+  "P29.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Sugarcane production and State share",
+   "question": "According to the sugarcane production data for 2024–25, which combination is correct for India’s total production and the shares of Uttar Pradesh, Maharashtra and Karnataka?",
+   "options": [
+    "444.9 MT; 48.5%, 24.1% and 10.5%, respectively",
+    "406.8 MT; 48.5%, 24.1% and 10.5%, respectively",
+    "444.9 MT; 24.1%, 48.5% and 10.5%, respectively",
+    "444.9 MT; 48.5%, 10.5% and 24.1%, respectively"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F5"
+   ],
+   "explanation": "India’s sugarcane production in 2024–25 was 444.9 MT, with Uttar Pradesh contributing 48.5%, Maharashtra 24.1% and Karnataka 10.5%. The tempting alternative reverses the shares of Uttar Pradesh and Maharashtra, but Uttar Pradesh had the larger share."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Origin of the term sugar",
+   "question": "Consider the following statements:\nStatement A: The word “sugar” is derived from the Sanskrit word “sarkara”.\nStatement B: A Chinese mission travelled to Maharashtra in 647 AD to learn about sugar production.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P29.F6",
+    "P29.F5"
+   ],
+   "explanation": "Statement A is true: “sugar” is derived from the Sanskrit word “sarkara”. Statement B is false because the Chinese mission travelled to Magadha in 647 AD, not Maharashtra; Maharashtra is associated with a 24.1% share of sugarcane production in 2024–25."
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P10.F5",
+  "P10.F6",
+  "P6.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "National and rural–urban inflation",
+   "question": "With reference to CPI inflation in April 2026, consider the following statements:\n1. National CPI inflation was 3.48%.\n2. Rural inflation was higher than urban inflation.\n3. The top four States were all from southern India.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "All three statements are correct: national CPI inflation was 3.48%, rural inflation at 3.74% exceeded urban inflation at 3.16%, and the top four States were all southern States. The tempting option “1 and 2 only” is incorrect because the top four States were also all from southern India."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Forex reserves and monetary policy",
+   "question": "Assertion (A): India’s foreign-exchange reserves comprise foreign currency assets, gold, Special Drawing Rights and the reserve tranche in the IMF.\nReason (R): An expansionary monetary policy by itself does not stop a slide in the rupee.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F5",
+    "P10.F6"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the composition of foreign-exchange reserves does not explain why an expansionary monetary policy by itself cannot stop a rupee slide; the two statements address separate aspects of the economy."
+  }
+ ]
+}

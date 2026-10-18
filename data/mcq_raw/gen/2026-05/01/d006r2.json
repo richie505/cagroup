@@ -1,0 +1,86 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "only": [
+  "P27.F1",
+  "P29.F5",
+  "P30.F4",
+  "P30.F8",
+  "P32.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Campaign coverage",
+   "question": "Operation Clean Sweep, the urban cleanliness drive conducted in Andhra Pradesh in May–June 2026, covered which of the following?",
+   "options": [
+    "All 123 Urban Local Bodies of Andhra Pradesh",
+    "All 110 Urban Local Bodies of Andhra Pradesh",
+    "All 125 Urban Local Bodies of Andhra Pradesh",
+    "All 100 Urban Local Bodies of Andhra Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F1"
+   ],
+   "explanation": "Operation Clean Sweep was a four-week urban cleanliness drive covering all 123 Urban Local Bodies of Andhra Pradesh. The figures 110, 125 and 100 do not represent the campaign’s coverage."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Law regulating emblem use",
+   "question": "Which legislation regulates the use of the State Emblem of India?",
+   "options": [
+    "The State Emblem of India (Prohibition of Improper Use) Act, 2005",
+    "The Andhra Pradesh Land Titling Act, 2025",
+    "The Information Technology Act, 2000",
+    "The POCSO Act, 2012"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F5"
+   ],
+   "explanation": "The State Emblem of India (Prohibition of Improper Use) Act, 2005 regulates the use of the emblem. The Andhra Pradesh Land Titling Act concerns land records, while the Information Technology Act and the POCSO Act address different subjects."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Jobs and training under skill mobility initiative",
+   "question": "With reference to the APSSDC–Japan skill mobility initiative, consider the following statements:\n\n1. The identified jobs included CNC operators, welders, fitters and assembly technicians.\n2. The training included Japanese language and Kaizen.\n3. Kaizen means a restrictive training programme.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P30.F4",
+    "P30.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the jobs included CNC operators, welders, fitters and assembly technicians, and the training included Japanese language and Kaizen. Statement 3 is incorrect because Kaizen means continuous improvement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Year of POCSO Act",
+   "question": "The Protection of Children from Sexual Offences (POCSO) Act referred to in Operation Dandayana was enacted in which year?",
+   "options": [
+    "2012",
+    "2005",
+    "2019",
+    "2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P32.F3"
+   ],
+   "explanation": "The POCSO Act was enacted in 2012. The years 2005, 2019 and 2025 are associated with other legal or policy references in the current-affairs context, not with the enactment of the POCSO Act."
+  }
+ ]
+}

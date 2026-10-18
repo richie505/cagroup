@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F11",
+  "P0.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Day observed",
+   "question": "Which day is observed on 8 May along with World Red Cross and Red Crescent Day?",
+   "options": [
+    "World Thalassemia Day",
+    "World Tuna Day",
+    "International Tea Day",
+    "World Bee Day"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "World Thalassemia Day is observed on 8 May along with World Red Cross and Red Crescent Day. World Tuna Day, International Tea Day and World Bee Day are observed on different dates in May."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Founding year of ITU",
+   "question": "The International Telecommunication Union (ITU), associated with World Telecommunication and Information Society Day, was founded in which year?",
+   "options": [
+    "1865",
+    "1890",
+    "1948",
+    "1969"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "The International Telecommunication Union was founded in 1865. The other options refer to years associated with other observances or institutions in May 2026."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12
+ ],
+ "only": [
+  "P12.F1",
+  "P12.F5",
+  "P12.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Report findings and publisher",
+   "question": "With reference to the UN Global Forest Goals Report 2026, consider the following statements:\n1. Dependence on fuelwood and charcoal is a major driver of forest degradation.\n2. The report was prepared by UN DESA, New York.\n3. Dependence on fuelwood and charcoal is a minor driver of forest degradation.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the report identifies fuelwood and charcoal dependence as a major driver of forest degradation and was prepared by UN DESA, New York. Statement 3 is incorrect because this dependence is described as a major, not minor, driver."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment year",
+   "question": "The UN Forum on Forests (UNFF), referenced in the UN Global Forest Goals Report 2026, was established in which year?",
+   "options": [
+    "1998",
+    "2000",
+    "2002",
+    "2005"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F6"
+   ],
+   "explanation": "The UN Forum on Forests was established in 2000. The other options are different years and do not match the establishment year of the UNFF."
+  }
+ ]
+}

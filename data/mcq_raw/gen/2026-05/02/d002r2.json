@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": [
+  "P4.F15",
+  "P4.F16",
+  "P4.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitutional provision and landmark judgment",
+   "question": "With reference to the constitutional position and judicial interpretation of Indian federalism, consider the following statements:\n\n1. Article 1(1) describes India as “a Union of States”.\n2. In State of Punjab v. Principal Secretary to Governor (2023), the Supreme Court held that Governors may indefinitely delay assent to Bills.\n3. Article 1(1) describes India as a federation of States.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7",
+    "P4.F15"
+   ],
+   "explanation": "Only statement 1 is correct: Article 1(1) states that India, that is Bharat, shall be a Union of States. Statement 2 is incorrect because State of Punjab v. Principal Secretary to Governor (2023) held that Governors cannot indefinitely delay assent, while statement 3 changes “Union” to “federation”."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Commissions on Centre-State relations",
+   "question": "Which of the following pairs consists of commissions on Centre-State relations?",
+   "options": [
+    "Sarkaria and Punchhi",
+    "Sarkaria and Finance Commission",
+    "Punchhi and All India Services Commission",
+    "Sarkaria and President’s Rule Commission"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F16",
+    "P4.F10",
+    "P4.F11",
+    "P4.F12"
+   ],
+   "explanation": "The Sarkaria Commission and the Punchhi Commission are identified as commissions on Centre-State relations. The Finance Commission, All India Services and President’s Rule are subjects associated with constitutional provisions, not the two commissions asked about here."
+  }
+ ]
+}

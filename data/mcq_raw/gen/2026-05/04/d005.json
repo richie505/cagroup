@@ -1,0 +1,292 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24
+ ],
+ "only": [
+  "P16.F3",
+  "P16.F4",
+  "P16.F6",
+  "P16.F7",
+  "P17.F2",
+  "P17.F3",
+  "P17.F4",
+  "P18.F1",
+  "P18.F2",
+  "P18.F3",
+  "P19.F2",
+  "P20.F1",
+  "P20.F2",
+  "P20.F3",
+  "P20.F4",
+  "P20.F5",
+  "P21.F2",
+  "P21.F3",
+  "P21.F4",
+  "P21.F5",
+  "P22.F1",
+  "P22.F4",
+  "P23.F2",
+  "P24.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Record renewable capacity addition",
+   "question": "What was India’s record solar capacity addition in FY 2025–26?",
+   "options": [
+    "44.61 GW",
+    "33,660 crore",
+    "256.1 GW",
+    "21.5 GW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F3"
+   ],
+   "explanation": "India added a record 44.61 GW of solar capacity in FY 2025–26. The figures 33,660 crore and 256.1 GW refer to other facts, while 21.5 GW was the solar share at peak demand."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coal stock and adequacy",
+   "question": "India’s coal stock during the period of peak power demand was approximately how much, providing cover for more than how many days?",
+   "options": [
+    "200 million tonnes and over 83 days",
+    "100 million tonnes and over 50 days",
+    "1.5 billion tonnes and over 100 days",
+    "44.61 million tonnes and over 30 days"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F4"
+   ],
+   "explanation": "Coal stock was approximately 200 million tonnes, sufficient for more than 83 days. The other combinations do not match the reported coal-stock position."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "El Niño and renewable curtailment",
+   "question": "With reference to El Niño and renewable-energy curtailment, consider the following statements:\n1. El Niño involves warming of the central and eastern equatorial Pacific.\n2. La Niña is the opposite phase associated with El Niño.\n3. Renewable curtailment means increasing renewable-energy output despite grid and transmission limits.",
+   "options": [
+    "Exactly two statements are correct",
+    "Only statement 1 is correct",
+    "Only statement 3 is correct",
+    "All three statements are correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F6",
+    "P16.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so exactly two statements are correct. Renewable curtailment means cutting renewable-energy output despite its availability because of grid or transmission limits, making statement 3 incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "BHAVYA outlay and period",
+   "question": "For which period and with what outlay are the BHAVYA guidelines for industrial parks applicable?",
+   "options": [
+    "2026–27 to 2031–32 with an outlay of ₹33,660 crore",
+    "2025–26 to 2030–31 with an outlay of ₹25,530 crore",
+    "2026–27 to 2031–32 with an outlay of ₹1 crore per acre",
+    "2026–27 to 2030–31 with an outlay of ₹12,980 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F2"
+   ],
+   "explanation": "BHAVYA covers 2026–27 to 2031–32 and has an outlay of ₹33,660 crore. ₹1 crore per acre is the support ceiling for another component, while ₹25,530 crore and ₹12,980 crore belong to other schemes or arrangements."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Industrial parks and financial support",
+   "question": "With reference to the BHAVYA guidelines for industrial parks, consider the following statements:\nStatement A: The scheme envisages 150 industrial parks.\nStatement B: The Centre can provide up to 50% of the external infrastructure cost.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P17.F3",
+    "P17.F4"
+   ],
+   "explanation": "Both statements are false. BHAVYA envisages 100 industrial parks, with 50 in the first phase, and the Centre can provide up to 25% of external infrastructure cost; support may be up to ₹1 crore per acre."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Maritime insurance coverage",
+   "question": "The Bharat Maritime Insurance Pool was created primarily to insure Indian vessels operating on which routes?",
+   "options": [
+    "High-risk or war-affected routes in West Asia",
+    "Domestic coastal routes in Mumbai",
+    "Routes carrying foodgrains under SARTHAK-PDS",
+    "Routes involving only approved gold vaults"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F1"
+   ],
+   "explanation": "The pool provides insurance for Indian vessels on high-risk or war-affected routes, particularly in West Asia. The other options refer to unrelated areas such as public distribution, gold receipts or an unspecified domestic route."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Maritime insurance pool figures",
+   "question": "With reference to the Bharat Maritime Insurance Pool, consider the following statements:\n1. The pool is US$1.5 billion.\n2. The sovereign guarantee is US$1.4 billion.\n3. The administrator settles claims up to US$50 million.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "None"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P18.F2",
+    "P18.F3"
+   ],
+   "explanation": "Only two statements are correct: the pool is US$1.5 billion and the sovereign guarantee is US$1.4 billion. GIC Re administers the pool and settles claims up to US$100 million, not US$50 million."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SARTHAK-PDS objective",
+   "question": "Besides modernising the Public Distribution System through technology, what additional change was made under the extended SARTHAK-PDS scheme?",
+   "options": [
+    "Foodgrain transport assistance norms for States and Union Territories were amended",
+    "The number of industrial parks was increased to 100",
+    "Electronic Gold Receipts were made redeemable for gold",
+    "A maritime insurance pool was created"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F2"
+   ],
+   "explanation": "SARTHAK-PDS also amended foodgrain transport assistance norms for States and Union Territories. The other options concern BHAVYA, Electronic Gold Receipts and the Bharat Maritime Insurance Pool."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "UDGAM portal and unclaimed deposits",
+   "question": "Match the following features of the RBI’s UDGAM portal with the corresponding details.\n\nList-I\n(a) Banks integrated with UDGAM\n(b) Institutions involved in building the portal\n(c) Period after which deposits become unclaimed\n(d) Destination of such unclaimed deposits\n\nList-II\n(i) 30 banks\n(ii) ReBIT and IFTAS\n(iii) 10 years of being inoperative\n(iv) Depositor Education and Awareness Fund",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F1",
+    "P20.F2",
+    "P20.F3"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. UDGAM had 30 integrated banks, was built with ReBIT and IFTAS, and treats deposits inoperative for 10 years as unclaimed before transfer to the Depositor Education and Awareness Fund."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "RBI and Supreme Court tenure details",
+   "question": "Match the following institutional details associated with the UDGAM matter.\n\nList-I\n(a) RBI establishment\n(b) RBI headquarters\n(c) RBI Governor\n(d) Chief Justice of India’s tenure mentioned\n\nList-II\n(i) 1935\n(ii) Mumbai\n(iii) Sanjay Malhotra\n(iv) 24 November 2025 to 9 February 2027",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F4",
+    "P20.F5"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The RBI was established in 1935, is headquartered in Mumbai, is headed by Sanjay Malhotra, and the stated Chief Justice of India’s tenure runs from 24 November 2025 to 9 February 2027."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "AIF categories and SEBI profile",
+   "question": "Match the following Alternative Investment Fund categories and SEBI details.\n\nList-I\n(a) Category I AIF\n(b) Category II AIF\n(c) Category III AIF\n(d) SEBI\n\nList-II\n(i) Startups\n(ii) Private equity\n(iii) Hedge funds\n(iv) Established in 1988; statutory status in 1992; chaired by Tuhin Kanta Pandey",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F2",
+    "P21.F4"
+   ],
+   "explanation": "The correct pairs are Category I–startups, Category II–private equity, Category III–hedge funds, and SEBI–the stated establishment, statutory and chairperson details. The other codes interchange the AIF categories or assign SEBI’s profile incorrectly."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Cyber-suraksha.ai and CERT-In",
+   "question": "With reference to SEBI’s Cyber-suraksha.ai Task Force and CERT-In, consider the following statements:\nStatement A: The Cyber-suraksha.ai Task Force was constituted in June 2026 and includes only stock exchanges.\nStatement B: CERT-In was established in 2005.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P21.F3",
+    "P21.F5"
+   ],
+   "explanation": "Both statements are false. The Cyber-suraksha.ai Task Force was formed in May 2026 and includes exchanges, depositories and registrars, while CERT-In was established in 2004."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "PaRRVA launch and SEBI status",
+   "question": "With reference to SEBI’s PaRRVA system, consider the following statements:\nStatement A: PaRRVA became operational from 5 May 2026.\nStatement B: SEBI received statutory status on 30 January 1991.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P22.F1",
+    "P22.F4"
+   ],
+   "explanation": "Both statements are false. PaRRVA began from 4 May 2026, while SEBI became statutory on 30 January 1992."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NSE establishment and headquarters",
+   "question": "Which of the following correctly describes the National Stock Exchange in the context of its Electronic Gold Receipts segment?",
+   "options": [
+    "Established in 1992 and headquartered in Mumbai",
+    "Established in 1988 and headquartered in New Delhi",
+    "Established in 1935 and headquartered in Mumbai",
+    "Established in 2004 and headquartered in Mumbai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F2"
+   ],
+   "explanation": "The NSE was established in 1992 and is headquartered in Mumbai. The other establishment years belong to other institutions or are not the stated details of NSE."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Construction welfare cess administration",
+   "question": "Under the 1% construction welfare cess framework, through which bodies are the collected funds channelled, and who is identified as the Labour Minister?",
+   "options": [
+    "BOCW Welfare Boards; Mansukh Mandaviya",
+    "Depositor Education and Awareness Fund; Sanjay Malhotra",
+    "NICDC; Tuhin Kanta Pandey",
+    "GIC Re; Surya Kant"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F3"
+   ],
+   "explanation": "The funds are channelled through BOCW Welfare Boards, and the Labour Minister identified is Mansukh Mandaviya. The other combinations bring together institutions or office-holders associated with banking, industry, securities regulation or the judiciary."
+  }
+ ]
+}

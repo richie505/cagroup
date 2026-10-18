@@ -1,0 +1,55 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24
+ ],
+ "only": [
+  "P17.F3",
+  "P17.F4",
+  "P17.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Space law and cybersecurity guidelines",
+   "question": "With reference to the legal and regulatory framework for space cybersecurity, consider the following statements:\n1. The Outer Space Treaty of 1967 provides for the peaceful use of outer space and prohibits weapons of mass destruction in orbit.\n2. CERT-In’s 2026 space cybersecurity guidelines adopt a “secure-by-design” approach across the satellite lifecycle.\n3. The Outer Space Treaty of 1967 explicitly regulates cyber operations in outer space.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F4",
+    "P17.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Outer Space Treaty of 1967 addresses peaceful use and weapons of mass destruction in orbit, while CERT-In’s 2026 guidelines require security by design across the satellite lifecycle. Statement 3 is incorrect because the treaty is silent on cyber operations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Space cyberattack and affected network",
+   "question": "The KA-SAT cyberattack of 2022, a significant incident in space cyber warfare, targeted which network and caused what major disruption?",
+   "options": [
+    "The Viasat network, disrupting internet access across Europe",
+    "The Viasat network, disrupting internet access across Asia",
+    "A civilian GPS network, disrupting internet access across Europe",
+    "A civilian GPS network, disrupting internet access across Asia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F3"
+   ],
+   "explanation": "The 2022 KA-SAT cyberattack targeted the Viasat network and disrupted internet across Europe. The tempting alternatives incorrectly change either the affected network or the region of disruption."
+  }
+ ]
+}

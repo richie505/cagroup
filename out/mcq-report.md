@@ -1,41 +1,42 @@
 # CA MCQ report
 
-- MCQs kept: **6708**
-- News pages with at least one question: **2593 / 2629**
-- Facts tested: **12586 / 20515** (61.4%)
-- Answer positions: A 1674, B 1740, C 1810, D 1484
+- MCQs kept: **7279**
+- News pages with at least one question: **2602 / 2629**
+- Facts tested: **13474 / 20515** (65.7%)
+- Answer positions: A 1811, B 1896, C 1947, D 1625
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 708 | 701 | 777 | 632 |
-| Negative / Incorrect Statement | 133 | 134 | 144 | 135 |
-| Assertion-Reason | 138 | 155 | 198 | 172 |
-| Statement-Based (A/B) | 227 | 151 | 206 | 168 |
-| Multi-Statement Correctness | 244 | 251 | 227 | 230 |
+| Direct Recall | 778 | 763 | 848 | 710 |
+| Negative / Incorrect Statement | 141 | 139 | 147 | 136 |
+| Assertion-Reason | 142 | 162 | 209 | 177 |
+| Statement-Based (A/B) | 241 | 166 | 223 | 180 |
+| Multi-Statement Correctness | 259 | 279 | 240 | 251 |
 | Chronological Ordering | 4 | 4 | 2 | 2 |
-| List-Matching | 147 | 140 | 136 | 141 |
-| Count-Based | 73 | 204 | 120 | 4 |
+| List-Matching | 171 | 160 | 151 | 163 |
+| Count-Based | 75 | 223 | 127 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 784 |
-| verify:explanation_contradicts | 117 |
-| verify:not_in_facts | 95 |
-| duplicate | 42 |
-| verify:two_correct | 25 |
-| verify:none_correct | 23 |
-| verify:second reader picked option 2, key 1 | 16 |
+| code | 854 |
+| verify:explanation_contradicts | 134 |
+| verify:not_in_facts | 110 |
+| duplicate | 47 |
+| verify:two_correct | 28 |
+| verify:none_correct | 24 |
+| verify:second reader picked option 2, key 1 | 17 |
 | verify:ambiguous_stem | 6 |
+| verify:garbled | 5 |
 | verify:second reader picked option 1, key 0 | 4 |
-| verify:garbled | 4 |
 | verify:second reader picked option 3, key 0 | 2 |
-| verify:second reader picked option 0, key 1 | 1 |
+| verify:second reader picked option 0, key 1 | 2 |
+| verify:second reader picked option 3, key 2 | 2 |
 | verify:second reader picked option 2, key 0 | 1 |
 | verify:trivial | 1 |
+| verify:second reader picked option 1, key 3 | 1 |
 | verify:second reader picked option 3, key 1 | 1 |
-| verify:second reader picked option 3, key 2 | 1 |
 
 ## Per file
 
@@ -96,17 +97,17 @@
 | 2026-06/09 | Awards, Persons & Appointments | 35 | 63/63 |
 | 2026-06/10 | Sports | 18 | 31/31 |
 | 2026-06/11 | Important Days & Events | 67 | 97/97 |
-| 2026-05/01 | Andhra Pradesh | 60 | 128/262 |
-| 2026-05/02 | Polity & Governance | 33 | 77/172 |
-| 2026-05/03 | Schemes & Social Sector | 22 | 51/110 |
-| 2026-05/04 | Economy, Banking & Budget | 48 | 93/257 |
-| 2026-05/05 | International Relations | 26 | 60/149 |
-| 2026-05/06 | Science, Tech, Space & Defence | 34 | 74/156 |
-| 2026-05/07 | Environment & Geography | 13 | 30/60 |
-| 2026-05/08 | Reports, Indices & Rankings | 19 | 41/110 |
-| 2026-05/09 | Awards, Persons & Appointments | 30 | 60/185 |
-| 2026-05/10 | Sports | 14 | 32/62 |
-| 2026-05/11 | Important Days & Events | 15 | 26/75 |
+| 2026-05/01 | Andhra Pradesh | 142 | 252/262 |
+| 2026-05/02 | Polity & Governance | 90 | 165/172 |
+| 2026-05/03 | Schemes & Social Sector | 61 | 110/110 |
+| 2026-05/04 | Economy, Banking & Budget | 152 | 256/257 |
+| 2026-05/05 | International Relations | 83 | 147/149 |
+| 2026-05/06 | Science, Tech, Space & Defence | 87 | 154/156 |
+| 2026-05/07 | Environment & Geography | 31 | 57/60 |
+| 2026-05/08 | Reports, Indices & Rankings | 65 | 109/110 |
+| 2026-05/09 | Awards, Persons & Appointments | 96 | 182/185 |
+| 2026-05/10 | Sports | 32 | 55/62 |
+| 2026-05/11 | Important Days & Events | 46 | 73/75 |
 | 2026-04/01 | Andhra Pradesh | 66 | 130/306 |
 | 2026-04/02 | Polity & Governance | 39 | 86/211 |
 | 2026-04/03 | Schemes & Social Sector | 16 | 32/71 |
@@ -871,9 +872,45 @@
 - `2026-05/01/c003#5` verify: trivial — The reason almost exactly restates the assertion, giving the item little exam value.
   - Q: Assertion (A): After bifurcation, Andhra Pradesh shifted from Hyderabad’s single-hub agglomeration model towards a multi-node distributed industrial model. / Reason (R): The multi-node model represents 
   - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-05/01/d001#0` verify: explanation_contradicts — Since 5 lakh or more entails both 4 lakh or more and 3 lakh or more, statements 1, 2 and 4 are correct.
+  - Q: Under the Amended BharatNet Programme in Andhra Pradesh, how many of the following statements regarding additional coverage are correct? /  / 1. On-demand villages number 3,942. / 2. Rural home fibre connec
+  - Key: Only one
+- `2026-05/01/d002#1` verify: explanation_contradicts — A target of 160 GW or more is necessarily more than 150 GW, so statement 3 is also correct.
+  - Q: With reference to Andhra Pradesh’s Integrated Clean Energy Policy–2024 and its clean-energy targets, consider the following statements: /  / 1. The policy covers projects such as pumped storage and solar 
+  - Key: 1 and 2 only
+- `2026-05/01/d003#6` verify: not_in_facts — The facts list CBIC but do not define it as the Chennai–Bengaluru Industrial Corridor, so Statement A is undecidable.
+  - Q: Consider the following statements: / Statement A: The Andhra Pradesh industrial ecosystem is associated with the Chennai–Bengaluru Industrial Corridor. / Statement B: The Visakhapatnam–Chennai Industrial 
+  - Key: Statement A is true, Statement B is false
+- `2026-05/01/d003#11` verify: explanation_contradicts — The facts state that six Ministers were trained, making all four statements correct; the explanation incorrectly marks Statement 4 false.
+  - Q: How many of the following statements are correct regarding Andhra Pradesh’s engagement with Singapore? / 1. Andhra Pradesh is the largest aquaculture producer in India. / 2. Andhra Pradesh accounts for 40
+  - Key: Only three
+- `2026-05/01/d004#5` verify: explanation_contradicts — The facts make both statements true, contrary to the explanation's claim that Statement A is false.
+  - Q: Consider the following statements: / Statement A: DWCRA stands for Development of Women and Children in Rural Areas. / Statement B: The loan scheme operates under the DAY-NRLM framework.
+  - Key: Statement A is false, Statement B is true
+- `2026-05/01/d004#6` verify: garbled — List-II defining items i–iv is missing, so the matching codes cannot be evaluated.
+  - Q: Which of the following sets correctly represents the priority sectors identified for DWCRA women under the MSME loan framework? /  / (a) Drumstick and honey / (b) Mushroom and nurseries / (c) Solar drying and
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2026-05/01/d004#8` verify: second reader picked option 3, key 2 — 
+  - Q: How many of the following statements regarding Andhra Pradesh's beach sand minerals are correct? / 1. Zircon is used in ceramics and nuclear reactors. / 2. Sillimanite is used as a refractory for furnace 
+  - Key: Only three
+- `2026-05/01/d006#8` verify: not_in_facts — The facts establish that CNC operators and fitters are job roles but do not distinguish the duplicate job-role labels (i) and (iv).
+  - Q: Match the items in List-I with their descriptions in List-II in the context of the APSSDC–Japan skill-mobility initiative. /  / List-I / (a) CNC operators / (b) Japanese language / (c) Kaizen / (d) Fitters /  / List-
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2026-05/01/d007#2` verify: not_in_facts — The facts identify the three States but do not establish which State corresponds to State 1, State 2, or State 3.
+  - Q: With reference to the annual rotation of representation in the National Biodiversity Authority, match List-I with List-II. /  / List-I /  a. State 1 /  b. State 2 /  c. State 3 /  / List-II /  i. Odisha /  ii. Madhya P
+  - Key: a-ii, b-iii, c-i
 - `2026-05/02/c001#1` verify: explanation_contradicts — The facts support the Article 124(1) wording in option 3, while the explanation incorrectly treats that option as false; the bill’s exact title is also not stated in the facts.
   - Q: Which of the following statements regarding the proposed increase in the strength of the Supreme Court is incorrect?
   - Key: Article 124(1) provides for the Chief Justice of India and judges as Parliament prescribes by law.
+- `2026-05/02/d000r2#1` verify: two_correct — Because List-II repeats Chairperson and Member, both options 0 and 1 represent the same factual matching.
+  - Q: Match the persons in List-I with their position in the specified selection arrangement in List-II. /  / List-I / (a) Prime Minister in the Anoop Baranwal interim arrangement / (b) Prime Minister under the 202
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2026-05/02/d002#12` verify: explanation_contradicts — The repeated case entry should pair with ii, not iv, so none of the listed codes is fully correct.
+  - Q: Match the following with the associated constitutional or institutional issue. /  / List-I /  a. State of Punjab v. Principal Secretary to Governor (2023) /  b. Sarkaria Commission /  c. Punchhi Commission /  d. 
+  - Key: a-ii, b-i, c-iii, d-iv
+- `2026-05/02/d005#2` verify: not_in_facts — The facts identify Arjun Ram Meghwal as Law Minister but do not establish his association with the Samadhan Samaroh–2026 special Lok Adalat.
+  - Q: Assertion (A): Arjun Ram Meghwal is the Law Minister associated with the Samadhan Samaroh–2026 special Lok Adalat. / Reason (R): Arjun Ram Meghwal is the Governor of Sikkim.
+  - Key: A is true, but R is false
 - `2026-05/03/c000#5` verify: garbled — Only three statements are presented, yet one option refers to all four.
   - Q: How many of the following statements about PM-SHRI are correct? / 1. PM-SHRI was launched in 2022. / 2. Its funding pattern is 60:40, 80:20 for the specified special-category regions, and 100% for Union T
   - Key: Only one
@@ -886,27 +923,114 @@
 - `2026-05/03/c003#0` verify: explanation_contradicts — More than 6,000 trained necessarily means more than 5,000, so Statement B is true despite the explanation.
   - Q: Consider the following statements about NHAI Project Saksham: /  / Statement A: NHAI, in association with Vertis Foundation, is undertaking skill development for rural men. / Statement B: Project Saksham ha
   - Key: Both Statement A and Statement B are false
+- `2026-05/03/d000#2` verify: explanation_contradicts — Statements 1 and 2 are correct, so option 1 is available; the explanation incorrectly says the intended answer is unavailable.
+  - Q: Consider the following statements about VB-G RAM G: /  / 1. Allocation is based on the Centre's normative allocation using the 16th Finance Commission horizontal devolution formula. / 2. The scheme provides
+  - Key: Exactly one statement is correct
+- `2026-05/03/d000#14` verify: explanation_contradicts — The facts make both A and R true, although R does not explain A.
+  - Q: Assertion (A): The National Education Policy 2020 provides a 5+3+3+4 structure. / Reason (R): PARAKH is the assessment centre associated with the National Education Policy 2020.
+  - Key: A is true, but R is false
+- `2026-05/03/d001#9` verify: explanation_contradicts — Being the first such department in India entails that it is the first such department in Kerala; the reason is true but does not explain the assertion.
+  - Q: Assertion (A): Kerala is forming the first separate department for elderly welfare in the State. / Reason (R): The Kerala State Elderly Commission, established under the Kerala State Elderly Commission 
+  - Key: A is false, but R is true
+- `2026-05/03/d001#12` verify: second reader picked option 0, key 1 — 
+  - Q: How many of the following statements are correct regarding ageing and senior-citizen welfare in Kerala and India? / 1. About 38% of MGNREGS workers in Kerala are aged 61–80. / 2. The Maintenance and Welfa
+  - Key: Only two
 - `2026-05/04/c003#5` verify: explanation_contradicts — Statements 1 and 4 are correct, so the count is two rather than one.
   - Q: With reference to ECLGS 5.0, how many of the following statements are correct? /  / 1. Coverage for MSMEs is 100%. / 2. Coverage for MSMEs is 90%. / 3. The scheme is valid till 31 March 2026. / 4. Aviation enti
   - Key: Only one
 - `2026-05/04/c004#1` verify: explanation_contradicts — All four statements are supported by the facts, so none is incorrect; the explanation also acknowledges that the cited production target is correct.
   - Q: With reference to the Mission for Cotton Productivity, identify the incorrect statement.
   - Key: The mission has a production target of 498 lakh bales.
+- `2026-05/04/d000#5` verify: two_correct — Both Indonesia–Russia and Malaysia–Ukraine are supported by the stated source countries.
+  - Q: Which pair correctly identifies the countries associated with India's palm-oil imports and sunflower-oil imports respectively?
+  - Key: Indonesia and Russia
+- `2026-05/04/d002#1` verify: explanation_contradicts — The facts state that the top four States were all southern States, so all three statements are correct.
+  - Q: With reference to CPI inflation in April 2026, consider the following statements: /  / 1. National CPI inflation was 3.48%. / 2. Rural inflation was higher than urban inflation. / 3. The top four States were 
+  - Key: 1 and 2 only
+- `2026-05/04/d002#11` verify: explanation_contradicts — The facts explicitly state that Masala Bonds and easier ECB can help, making all four statements correct.
+  - Q: How many of the following statements are correct? /  / 1. Foreign currency assets, gold, SDRs and the reserve tranche in the IMF are components of forex reserves. / 2. Expansionary monetary policy does not 
+  - Key: Only three
+- `2026-05/04/d006#7` verify: explanation_contradicts — The facts support both A and R, but R does not explain the separate historical association in A; the given explanation incorrectly calls A false.
+  - Q: Assertion (A): The Chinese mission to Magadha in 647 AD is associated with the historical context of sugar. / Reason (R): The word “sugar” is derived from the Sanskrit word “sarkara”.
+  - Key: A is false, but R is true
 - `2026-05/05/c002#0` verify: two_correct — The facts state both Strategic Partnership and Enhanced Comprehensive Strategic Partnership, making options 0 and 1 defensible.
   - Q: During President Nikos Christodoulides's visit to India in May 2026, India and Cyprus elevated their bilateral relationship to which status?
   - Key: Strategic Partnership
 - `2026-05/05/c002#3` verify: explanation_contradicts — The Reason describes PHEIC's status but does not explain why this outbreak was declared a PHEIC; thus both are true but R is not the explanation.
   - Q: Assertion (A): The WHO declaration concerning the Ebola outbreak was a Public Health Emergency of International Concern. / Reason (R): PHEIC is the highest WHO alert under the International Health Regul
   - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-05/05/d002#12` verify: explanation_contradicts — The facts make Statement A false and Statement B true, so the correct option is 3, not both false.
+  - Q: Consider the following statements: / Statement A: The Nuclear Non-Proliferation Treaty was opened for signature in 1970. / Statement B: Under the NPT criterion, a nuclear-weapon state is one that tested a
+  - Key: Both Statement A and Statement B are false
+- `2026-05/06/d003#7` verify: explanation_contradicts — Statements 1, 2, and 3 are supported by the facts, so the correct count is only three, not only two.
+  - Q: Consider the following statements: /  / 1. The World Health Assembly adopted the first-ever resolution recognising stroke as a major public health emergency. / 2. Schizophrenia affects about 24 million peop
+  - Key: Only two
+- `2026-05/06/d003r2#4` verify: not_in_facts — The facts establish that India is set to be first, but do not establish or contradict the year 2025.
+  - Q: With reference to Mausam Vani's multilingual AI weather services, consider the following statements: /  / Statement A: India is the second country to have multilingual AI weather services at such scale. / S
+  - Key: Both Statement A and Statement B are false
+- `2026-05/06/d004#0` verify: explanation_contradicts — All three statements are explicitly supported by the facts, including the 2026 CERT-In secure-by-design guideline.
+  - Q: With reference to space cyber warfare and the Outer Space Treaty, consider the following statements: / 1. The KA-SAT cyberattack in 2022 targeted the Viasat network and disrupted internet services acros
+  - Key: 1 and 2 only
+- `2026-05/07/d000#3` verify: second reader picked option 2, key 1 — 
+  - Q: With reference to Saudi Arabia joining the International Big Cat Alliance on 22 May 2026, consider the following statements: / 1. Saudi Arabia joined IBCA on 22 May 2026. / 2. After its entry, IBCA had 27
+  - Key: Only two
+- `2026-05/07/d001#0` verify: not_in_facts — The facts do not establish whether statement 3 about ZSI's COI-gene library is correct.
+  - Q: Consider the following statements about the new discoveries reported in May 2026: / 1. Cordyceps, known as “Himalayan Gold”, is a parasitic fungus found on insect larvae in East Siang, Arunachal Pradesh
+  - Key: 1, 2 and 3
+- `2026-05/07/d001r2#2` verify: not_in_facts — The facts do not identify Lepcha Ru-Som or establish its association with the Khangchendzonga Biosphere Reserve.
+  - Q: Match List-I with List-II in the context of the discoveries and traditional structures reported in May 2026. /  / List-I /  a. Humboldtia nairiana /  b. Lepcha Ru-Som /  c. Cyphostemma annamalaiyi /  d. Melanoser
+  - Key: a-ii, b-i, c-iii, d-iv
 - `2026-05/08/c001#3` verify: explanation_contradicts — The facts support both statements as true, but the explanation incorrectly says Statement A is false.
   - Q: With reference to PLFS 2025, consider the following statements: / Statement A: PLFS 2025 was the first edition to provide monthly coverage of rural and urban areas. / Statement B: PLFS was launched in 201
   - Key: Statement A is false, Statement B is true
 - `2026-05/08/c001#4` verify: explanation_contradicts — The facts support statements 1, 3, and 4, so the correct count is three, not two.
   - Q: With reference to PLFS 2025, how many of the following statements are correct? / 1. The all-ages LFPR increased from 44.7% to 44.9%. / 2. Youth unemployment among those aged 15–29 was 8.9%. / 3. The WPR inc
   - Key: Only two
+- `2026-05/08/d002#9` verify: explanation_contradicts — The facts establish both statements but do not make the 13-year interval a causal explanation for Vietnam's position.
+  - Q: Assertion (A): Vietnam was placed at the top of the concern list in the Special 301 Report. / Reason (R): It was the first time in 13 years that Vietnam occupied that position.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-05/08/d002#12` verify: not_in_facts — The facts do not provide Trinamool Congress's income rank, which is required to determine the matching.
+  - Q: Match the regional parties with their income rank in 2024–25. /  / List-I / (a) Biju Janata Dal / (b) AIADMK / (c) Jana Sena / (d) Trinamool Congress /  / List-II / (i) Rank 7 / (ii) Rank 2 / (iii) Rank 5 / (iv) Rank 6
+  - Key: a-iii, b-iv, c-i, d-ii
+- `2026-05/09/d000#2` verify: not_in_facts — The supplied facts identify S K M Maeilanandhan but do not identify Kallipatti Ramasamy Palaniswamy or his field and State.
+  - Q: Kallipatti Ramasamy Palaniswamy received the Padma Bhushan 2026 for which field from which State?
+  - Key: Medicine — Tamil Nadu
+- `2026-05/09/d000#3` verify: not_in_facts — The facts do not provide the field and State of S K M Maeilanandhan, which is required to complete the matching.
+  - Q: Match the following Padma Bhushan awardees of 2026 with their fields and States. /  / List-I / (a) S K M Maeilanandhan / (b) Shatavadhani R Ganesh / (c) Shibu Soren / (d) Uday Kotak /  / List-II / (i) Trade & Industry 
+  - Key: a-ii, b-iii, c-iv, d-i
+- `2026-05/09/d000#4` verify: not_in_facts — The facts do not establish the claims about V K Malhotra or K Pajanivel, so the incorrect statement cannot be determined.
+  - Q: With reference to the Padma Bhushan awardees of 2026, which statement is incorrect?
+  - Key: K Pajanivel was honoured for Sports from Puducherry.
+- `2026-05/09/d000#14` verify: not_in_facts — The facts identify Ramamurthy Sreedher, not Ramchandra and Suneeta Godbole, so List-I item (d) cannot be matched from the facts.
+  - Q: Match the following Padma Shri awardees with their fields and States. /  / List-I / (a) Padma Gurmet / (b) Budhri Tati / (c) Buddha Rashmi Mani and Narayan Vyas / (d) Ramchandra and Suneeta Godbole /  / List-II / (i) A
+  - Key: a-ii, b-iii, c-i, d-iv
+- `2026-05/09/d000#16` verify: second reader picked option 1, key 3 — 
+  - Q: With reference to the Padma Awards and related constitutional provisions, consider the following statements: /  / 1. Sivasankari received the Padma Shri for Literature & Education from Tamil Nadu. / 2. Arti
+  - Key: 1, 2 and 4
+- `2026-05/09/d000r2#1` verify: not_in_facts — The facts give Karnataka but do not establish that he was a Padma Bhushan awardee, so option 0 is not decidable.
+  - Q: Which of the following statements regarding Shatavadhani R Ganesh is incorrect?
+  - Key: He was associated with Kerala.
+- `2026-05/09/d000r2#8` verify: not_in_facts — The facts establish posthumous status and Andhra Pradesh, but do not establish that the award was a Padma Shri.
+  - Q: Which status applied to Garimella Balakrishna Prasad in the Padma Awards 2026?
+  - Key: Posthumous Padma Shri awardee
+- `2026-05/09/d001#0` verify: two_correct — The facts support both Permanent Chairman of the COSC and Head of the Department of Military Affairs.
+  - Q: Besides serving as the Chief of Defence Staff, which institutional position does the CDS hold?
+  - Key: Permanent Chairman of the Chiefs of Staff Committee
+- `2026-05/09/d002#5` verify: not_in_facts — The facts establish statements 1 and 2 but do not provide the ceremony date needed to decide statement 3.
+  - Q: Regarding the categories of the National Panchayat Awards 2025, consider the following statements: / 1. The Deendayal Upadhyay Panchayat Satat Vikas Puraskar selected 34 Gram Panchayats from 17 States/U
+  - Key: 1 and 2 only
 - `2026-05/10/c000#8` verify: explanation_contradicts — Statements 1 and 3 are correct, so the answer is Only two, not Only one as stated in the explanation.
   - Q: With reference to the 2026 Commonwealth Table Tennis Championships in Delhi, how many of the following statements are correct? / 1. The championships will be the 22nd edition. / 2. The event will involve 
   - Key: Only one
+- `2026-05/10/d000#4` verify: none_correct — Statements 2 and 3 are true, but no option represents 2 and 3 only; the explanation also incorrectly says only statement 2 is correct.
+  - Q: With reference to the Asian Weightlifting Championships 2026, consider the following statements: / 1. The men's event was the 53rd edition. / 2. The championships were conducted under Indian Weightlifting
+  - Key: 2 only
+- `2026-05/10/d000r2#0` verify: explanation_contradicts — The facts support statements 1 and 3, while the explanation incorrectly says statement 3 is incorrect.
+  - Q: With reference to the Asian Weightlifting Championships 2026, consider the following statements: / 1. The championships were the 54th edition for men and the 35th edition for women. / 2. The championships
+  - Key: 1 only
+- `2026-05/11/d001#14` verify: explanation_contradicts — Statements 1, 2, and 3 are correct, so the count is three; the explanation incorrectly says only statements 1 and 2 are correct.
+  - Q: How many of the following statements are correct? / 1. The United States returned 657 antiquities valued at approximately US$14 mn. / 2. The UNESCO Convention of 1970 addresses the illicit import and expo
+  - Key: Only two
 - `2026-04/04/c000#4` verify: explanation_contradicts — The facts say GCC countries account for 60% or more of LNG imports, which satisfies the statement that they account for 40% or more.
   - Q: Consider the following statements about India’s fertilizer supply situation during the Strait of Hormuz disruption: /  / 1. India uses about 39–40 million tonnes of urea annually. / 2. Indian Potash Limited
   - Key: 1 and 2 only
