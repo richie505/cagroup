@@ -1,0 +1,284 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F3",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F15",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18",
+  "P1.F19",
+  "P1.F20",
+  "P1.F21",
+  "P1.F22",
+  "P1.F23",
+  "P1.F24",
+  "P1.F25",
+  "P1.F26",
+  "P1.F27",
+  "P1.F28",
+  "P1.F4",
+  "P1.F5",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Payload satellites",
+   "question": "Besides DRDO's “Anvesh” surveillance satellite, which satellites were included in the payload of the failed PSLV-C62 mission?",
+   "options": [
+    "Dhruva Space satellites",
+    "D4 Counter-Drone satellites",
+    "V-BAT drones",
+    "Suryastra rocket systems"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The payload included satellites developed by Dhruva Space in addition to DRDO’s “Anvesh” surveillance satellite. “Anvesh” was the surveillance satellite, not the name of the Dhruva Space satellites."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Counter-terror operation and drone force",
+   "question": "With reference to the Indian Army’s January 2026 initiatives, consider the following statements:\n1. Operation Trashi–I was a counter-terror operation in Chhatru, Kishtwar.\n2. The Bhairav force is described as drone-centric.\n3. Operation Trashi–I involved the Army, J&K Police’s SOG and the CRPF.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "All three statements are correct: Operation Trashi–I took place in Chhatru, Kishtwar, with the Army, SOG and CRPF, while Bhairav is a drone-centric combat force. The operation’s location and participating forces should not be confused with the Bhairav initiative."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Historic vessel and route",
+   "question": "The reconstructed stitched ship INSV Kaundinya reached which destination from Porbandar under sail?",
+   "options": [
+    "Muscat",
+    "Goa",
+    "Pune",
+    "Hyderabad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "INSV Kaundinya reached Muscat from Porbandar after sailing approximately 1,400 km in 17 days. Goa was associated with the induction of Samudra Pratap, not the destination of this stitched ship."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Pinaka modernisation",
+   "question": "Which of the following statements about the Pinaka modernisation programme is incorrect?",
+   "options": [
+    "Tata Advanced Systems received the order on 6 January 2026 for upgrading battery command posts.",
+    "The upgrade is being undertaken with the 510 Advanced Base Workshop.",
+    "The system has more than 80% indigenous content.",
+    "The guided rockets have ranges of 150 km and 300 km."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F9"
+   ],
+   "explanation": "The incorrect statement changes the guided-rocket ranges: the stated ranges are 120 km and 300 km, not 150 km and 300 km. The order date, workshop association and more-than-80% indigenous content are correct."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Army UAV and anti-tank missile",
+   "question": "Consider the following statements:\nStatement A: The Army placed an order worth ₹186 crore for the MAPS UAV.\nStatement B: The MPATGM is a third-generation man-portable anti-tank guided missile tested at KK Ranges, Ahilyanagar.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "Statement A is false because the MAPS UAV order was worth ₹168 crore, while Statement B is true. The MAPS UAV was also identified as the Army’s first fully solar-powered UAV, whereas MPATGM is a third-generation man-portable anti-tank guided missile."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Pralay missile tests and range",
+   "question": "Assertion (A): Pralay underwent two consecutive tests off Odisha in January 2026.\nReason (R): Pralay has a range of 150–500 km.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F12"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: Pralay underwent two consecutive tests off Odisha and has a range of 150–500 km. However, the missile’s range does not explain why two consecutive tests were conducted."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First indigenous universal launcher",
+   "question": "Which system was described as India’s first indigenous universal multi-calibre rocket launcher?",
+   "options": [
+    "Suryastra",
+    "Pinaka modernisation",
+    "Pralay",
+    "Ramjet 155 mm shells"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13"
+   ],
+   "explanation": "Suryastra was described as India’s first indigenous universal multi-calibre rocket launcher. Its stated ranges were 150 km and 300 km, with a CEP of less than 5 m."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ramjet shells and V-BAT drones",
+   "question": "Consider the following statements regarding January 2026 defence technologies:\n1. The Army is expected to be the first in the world to deploy ramjet 155 mm shells.\n2. Ramjet 155 mm shells work with the M-777 and can increase range by 30–50%.\n3. V-BAT drones are associated with Shield AI’s Hivemind AI.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F14",
+    "P1.F15"
+   ],
+   "explanation": "All three statements are correct. The ramjet shells are linked with the M-777 and a 30–50% range increase, while V-BAT is a Group-3 VTOL drone associated with Shield AI and Hivemind AI."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence contracts value",
+   "question": "The contracts covering CQB carbines and heavyweight torpedoes announced in January 2026 were worth approximately:",
+   "options": [
+    "₹4,666 crore",
+    "₹292.69 crore",
+    "₹168 crore",
+    "USD 90 million"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F16"
+   ],
+   "explanation": "The contracts for CQB carbines and heavyweight torpedoes were valued at ₹4,666 crore. The other figures relate to the Suryastra contract, the MAPS UAV order and the V-BAT plant respectively."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Defence research and institutional facts",
+   "question": "How many of the following statements are correct?\n1. The Drone Shakti Mission is under the Anusandhan National Research Foundation.\n2. Drones under the Drone Shakti Mission are governed by the Drone Rules, 2021.\n3. The Indian Coast Guard was established in 1958.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F18",
+    "P1.F19"
+   ],
+   "explanation": "Only two statements are correct: the Drone Shakti Mission is under the Anusandhan National Research Foundation and drones are governed by the Drone Rules, 2021. The Indian Coast Guard was established in 1978, while 1958 is the establishment year of DRDO."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Aviation manufacturing MoU",
+   "question": "The Adani Defence and Aerospace–Embraer MoU relates to establishing what facility in India?",
+   "options": [
+    "A final assembly line for Embraer commercial jets",
+    "A plant for heavyweight naval torpedoes",
+    "A depot integration logistics platform",
+    "A Sea Water Desalination System laboratory"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F20"
+   ],
+   "explanation": "The MoU concerns a final assembly line in India for Embraer commercial jets. The jets covered can have up to 150 seats, and approximately 50 such jets are in India."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Army–IISc MoU date",
+   "question": "On which date was the Army–IISc MoU for indigenous AI defence systems reported?",
+   "options": [
+    "23 January 2026",
+    "22 January 2026",
+    "8 January 2026",
+    "5 January 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F21"
+   ],
+   "explanation": "The Army–IISc MoU for indigenous AI defence systems was dated 23 January 2026. The other dates refer to the Military Quantum Mission Policy Framework, DIME and the induction of Samudra Pratap."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Navy SATCOM and Rafale procurement",
+   "question": "Consider the following statements:\nStatement A: The Navy SATCOM arrangement between BSNL and Viasat adds C-band to L-band.\nStatement B: The Defence Procurement Board approved procurement of 114 Rafale aircraft from Dassault Aviation.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F22",
+    "P1.F23"
+   ],
+   "explanation": "Statement A is false because the BSNL–Viasat arrangement adds Ka-band to L-band. Statement B is true: the Defence Procurement Board approved procurement of 114 Rafale aircraft from Dassault Aviation."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Defence platforms and initiatives",
+   "question": "Match List-I with List-II regarding January 2026 defence developments.\n\nList-I\n a. DIME\n b. Military Quantum Mission Policy Framework\n c. Haldia naval detachment\n d. SKOCH Gold recognition\n\nList-II\n i. Process begun on the Hooghly River, West Bengal\n ii. First end-to-end logistics integration\n iii. Four pillars including quantum communication and computing\n iv. D4 Counter-Drone System and Dharashakti EW system\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F24",
+    "P1.F25",
+    "P1.F26",
+    "P1.F27"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv. DIME was the first end-to-end logistics integration, the Quantum Mission framework had four pillars, the Haldia process began on the Hooghly River, and the SKOCH Gold recognition covered the D4 and Dharashakti systems."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence laboratory locations",
+   "question": "Which city is associated with the LRDE laboratory mentioned in the January 2026 defence developments?",
+   "options": [
+    "Bengaluru",
+    "Hyderabad",
+    "Dehradun",
+    "Gandhinagar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F28"
+   ],
+   "explanation": "LRDE is located in Bengaluru. DLRL and CHESS are associated with Hyderabad, while IRDE and DEAL are associated with Dehradun."
+  }
+ ]
+}

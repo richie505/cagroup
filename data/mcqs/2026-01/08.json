@@ -327,6 +327,641 @@
    ]
   },
   {
+   "id": "2026-01/08/d000#0",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rank among large states",
+   "question": "In the NITI Aayog Export Preparedness Index 2024, consider the following statements regarding the rankings of large States:\n1. Maharashtra ranked first.\n2. Tamil Nadu ranked second.\n3. Gujarat ranked fourth.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1, 2 and 3",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1 and 2 only"
+   ],
+   "answer": 3,
+   "explanation": "Statements 1 and 2 are correct: Maharashtra ranked first and Tamil Nadu second among large States. Statement 3 is incorrect because Gujarat ranked third, not fourth.",
+   "facts": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F3"
+   ]
+  },
+  {
+   "id": "2026-01/08/d000#1",
+   "format": "Direct Recall",
+   "keyword": "Rank of Andhra Pradesh",
+   "question": "What was Andhra Pradesh’s rank among the large States in the NITI Aayog Export Preparedness Index 2024?",
+   "options": [
+    "Third",
+    "Fourth",
+    "Fifth",
+    "Sixth"
+   ],
+   "answer": 2,
+   "explanation": "Andhra Pradesh ranked fifth among the large States. The tempting fourth-place option belongs to Uttar Pradesh.",
+   "facts": [
+    "P0.F4",
+    "P0.F5"
+   ]
+  },
+  {
+   "id": "2026-01/08/d000#2",
+   "format": "Direct Recall",
+   "keyword": "Rank of Telangana",
+   "question": "Which rank did Telangana secure among the large States in the NITI Aayog Export Preparedness Index 2024?",
+   "options": [
+    "Eighth",
+    "Sixth",
+    "Seventh",
+    "Fifth"
+   ],
+   "answer": 0,
+   "explanation": "Telangana secured the eighth rank and recorded a score of 57.14. The fifth rank was held by Andhra Pradesh.",
+   "facts": [
+    "P0.F6"
+   ]
+  },
+  {
+   "id": "2026-01/08/d000#3",
+   "format": "Direct Recall",
+   "keyword": "State ranking trend",
+   "question": "What was Andhra Pradesh’s rank in the NITI Aayog Export Preparedness Index 2024 after rising from 20th in 2020, 9th in 2021 and 8th in 2022?",
+   "options": [
+    "Fourth",
+    "Seventh",
+    "Sixth",
+    "Fifth"
+   ],
+   "answer": 3,
+   "explanation": "Andhra Pradesh reached the fifth rank in 2024. The sequence ended with a rise from eighth in 2022 to fifth in 2024.",
+   "facts": [
+    "P0.F7"
+   ]
+  },
+  {
+   "id": "2026-01/08/d000#4",
+   "format": "Count-Based",
+   "keyword": "Pillar weight",
+   "question": "How many of the following statements correctly state the weights of the pillars in the NITI Aayog Export Preparedness Index 2024?\n1. Export infrastructure carries a weight of 20%.\n2. Business environment carries a weight of 40%.\n3. Policy and governance carries a weight of 25%.\n4. Export performance carries a weight of 15%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 0,
+   "explanation": "Only one statement is correct: business environment carries a 40% weight. Export infrastructure, policy and governance, and export performance each carry 20%, so statements 3 and 4 are incorrect.",
+   "facts": [
+    "P0.F8"
+   ]
+  },
+  {
+   "id": "2026-01/08/d000#5",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Export target and NITI leadership",
+   "question": "With reference to the NITI Aayog Export Preparedness Index 2024 and its institutional context, consider the following statements:\nStatement A: The goal associated with the export preparedness initiative is USD 500 billion in exports by 2030.\nStatement B: Suman Bery is the Vice-Chairperson of NITI Aayog.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 3,
+   "explanation": "Statement A is false because the goal is USD 1 trillion in exports by 2030. Statement B is true; Suman Bery is the Vice-Chairperson of NITI Aayog.",
+   "facts": [
+    "P0.F9",
+    "P0.F15"
+   ]
+  },
+  {
+   "id": "2026-01/08/d000#6",
+   "format": "Multi-Statement Correctness",
+   "keyword": "State score and top performers",
+   "question": "Regarding the additional findings associated with the NITI Aayog Export Preparedness Index 2024, consider the following statements:\n1. Andhra Pradesh recorded a score of 60.65.\n2. Uttarakhand was among the top performers in the small States, North-Eastern States and Union Territories grouping.\n3. Goa was not included among the top performers in that grouping.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 3 only",
+    "2 and 3 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "Statements 1 and 2 are correct: Andhra Pradesh scored 60.65 and Uttarakhand was among the listed top performers. Statement 3 is incorrect because Goa was also included among the top performers.",
+   "facts": [
+    "P0.F13",
+    "P0.F14"
+   ]
+  },
+  {
+   "id": "2026-01/08/d000#7",
+   "format": "Direct Recall",
+   "keyword": "NITI Aayog CEO",
+   "question": "Who was the Chief Executive Officer of NITI Aayog in the context of the Export Preparedness Index 2024?",
+   "options": [
+    "B. V. R. Subrahmanyam",
+    "Suman Bery",
+    "The Vice-Chairperson of NITI Aayog",
+    "The Chief Secretary of Andhra Pradesh"
+   ],
+   "answer": 0,
+   "explanation": "B. V. R. Subrahmanyam was the CEO of NITI Aayog. Suman Bery held the post of Vice-Chairperson, not CEO.",
+   "facts": [
+    "P0.F15"
+   ]
+  },
+  {
+   "id": "2026-01/08/d000#8",
+   "format": "Direct Recall",
+   "keyword": "Passport ranking leadership",
+   "question": "Which country ranked first in the Henley Passport Index 2026, with access to 192 destinations visa-free or on arrival?",
+   "options": [
+    "Japan",
+    "Denmark",
+    "South Korea",
+    "Singapore"
+   ],
+   "answer": 3,
+   "explanation": "Singapore ranked first with access to 192 destinations. Japan and South Korea jointly ranked second with 188 destinations.",
+   "facts": [
+    "P1.F2"
+   ]
+  },
+  {
+   "id": "2026-01/08/d000#9",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Index coverage and publisher",
+   "question": "Consider the following statements about the Henley Passport Index 2026:\nStatement A: The index covered 200 passports and 227 destinations.\nStatement B: The index used IATA data and was associated with Henley & Partners, based in London.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 3,
+   "explanation": "Statement A is false because the index covered 199 passports, not 200, along with 227 destinations. Statement B is true: it used IATA data and was associated with Henley & Partners of London.",
+   "facts": [
+    "P1.F3"
+   ]
+  },
+  {
+   "id": "2026-01/08/d000#10",
+   "format": "Direct Recall",
+   "keyword": "India’s military power rank",
+   "question": "What was India’s rank in the Global Firepower Index 2026?",
+   "options": [
+    "Second",
+    "Fourth",
+    "Third",
+    "Fifth"
+   ],
+   "answer": 1,
+   "explanation": "India ranked fourth in the Global Firepower Index 2026. The second and third positions were occupied by Russia and China, respectively.",
+   "facts": [
+    "P2.F4"
+   ]
+  },
+  {
+   "id": "2026-01/08/d000#11",
+   "format": "Direct Recall",
+   "keyword": "South Korea’s military power rank",
+   "question": "Which rank did South Korea secure in the Global Firepower Index 2026?",
+   "options": [
+    "Fourth",
+    "Sixth",
+    "Fifth",
+    "Seventh"
+   ],
+   "answer": 2,
+   "explanation": "South Korea ranked fifth in the Global Firepower Index 2026. France followed at sixth place.",
+   "facts": [
+    "P2.F5"
+   ]
+  },
+  {
+   "id": "2026-01/08/d000#13",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Pakistan and Bhutan rankings",
+   "question": "Consider the following statements about the Global Firepower Index 2026:\nStatement A: Pakistan ranked 13th.\nStatement B: Bhutan ranked 145th and was the least-ranked country in the index.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 3,
+   "explanation": "Statement A is false because Pakistan ranked 14th, not 13th. Statement B is true: Bhutan ranked 145th and was the least-ranked country in the index.",
+   "facts": [
+    "P2.F10",
+    "P2.F11"
+   ]
+  },
+  {
+   "id": "2026-01/08/d000r2#1",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Country-wise rankings",
+   "question": "Consider the following statements about the Global Firepower Index 2026:\n1. Japan ranked 7th.\n2. The UK ranked 8th.",
+   "options": [
+    "1 only",
+    "2 only",
+    "Neither 1 nor 2",
+    "1 and 2"
+   ],
+   "answer": 3,
+   "explanation": "Both statements are correct: Japan ranked 7th and the UK ranked 8th in the Global Firepower Index 2026. Therefore, the option containing both statements is correct.",
+   "facts": [
+    "P2.F7",
+    "P2.F8"
+   ]
+  },
+  {
+   "id": "2026-01/08/d001#1",
+   "format": "List-Matching",
+   "keyword": "Country-wise ranks",
+   "question": "Match the countries with their ranks in the Responsible Nations Index 2026.\n\nList-I\n a. India\n b. Japan\n c. United States\n d. China\n\nList-II\n i. 68\n ii. 16\n iii. 38\n iv. 66",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iii, c-iv, d-ii"
+   ],
+   "answer": 2,
+   "explanation": "The correct pairs are India–16, Japan–38, United States–66 and China–68, represented by a-ii, b-iii, c-iv, d-i. The tempting alternative a-ii, b-iv, c-iii, d-i incorrectly assigns Japan 66 and the United States 38.",
+   "facts": [
+    "P3.F6",
+    "P3.F7",
+    "P3.F8",
+    "P3.F9"
+   ]
+  },
+  {
+   "id": "2026-01/08/d001#2",
+   "format": "Direct Recall",
+   "keyword": "Bottom-ranked countries",
+   "question": "Which group of countries occupied the bottom positions in the Responsible Nations Index 2026?",
+   "options": [
+    "United States, China and Syria",
+    "India, Japan and China",
+    "Singapore, Switzerland and Denmark",
+    "Central African Republic, Syria and South Sudan"
+   ],
+   "answer": 3,
+   "explanation": "Central African Republic, Syria and South Sudan were at the bottom of the index. Singapore, Switzerland and Denmark were the top three, while India, Japan and China had higher individual ranks.",
+   "facts": [
+    "P3.F10"
+   ]
+  },
+  {
+   "id": "2026-01/08/d001#3",
+   "format": "Count-Based",
+   "keyword": "Nature finance flows",
+   "question": "According to the UNEP State of Finance for Nature 2026, how many of the following statements are correct?\n1. Nature-negative flows in 2023 were valued at USD 7.3 trillion.\n2. Private nature-related flows amounted to USD 2.4 trillion.\n3. Environmentally harmful subsidies amounted to USD 2.4 trillion per year.\n4. The amount needed by 2030 was USD 571 trillion per year.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 1,
+   "explanation": "Only two statements are correct: nature-negative flows were USD 7.3 trillion and environmentally harmful subsidies were USD 2.4 trillion per year. Private flows were USD 4.9 trillion, and the 2030 requirement was USD 571 billion per year, not USD 571 trillion.",
+   "facts": [
+    "P5.F2",
+    "P5.F3",
+    "P5.F4",
+    "P5.F7"
+   ]
+  },
+  {
+   "id": "2026-01/08/d001#5",
+   "format": "Direct Recall",
+   "keyword": "Change in biodiversity finance",
+   "question": "Which combination correctly describes the changes reported in biodiversity and international public Nature-based Solutions finance?",
+   "options": [
+    "Biodiversity spending rose 55%; international public NbS finance was 11% above 2022 and 22% above 2015",
+    "Biodiversity spending rose 22%; international public NbS finance was 11% above 2022 and 55% above 2015",
+    "Biodiversity spending rose 11%; international public NbS finance was 22% above 2022 and 55% above 2015",
+    "Biodiversity spending rose 11%; international public NbS finance was 55% above 2022 and 22% above 2015"
+   ],
+   "answer": 2,
+   "explanation": "Biodiversity spending increased by 11%, while international public NbS finance was 22% above 2022 and 55% above 2015. The other options interchange these percentages or their reference years.",
+   "facts": [
+    "P5.F8"
+   ]
+  },
+  {
+   "id": "2026-01/08/d001#6",
+   "format": "Direct Recall",
+   "keyword": "Rio Conventions",
+   "question": "Which statement correctly describes the Rio Conventions and their associated environmental commitments?",
+   "options": [
+    "UNCCD is associated with the 30x30 commitment",
+    "UNFCCC is associated with restoring 1.5 billion hectares by 2030",
+    "CBD is associated with restoring 1.5 billion hectares by 2030",
+    "UNCCD is associated with restoring 1.5 billion hectares by 2030"
+   ],
+   "answer": 3,
+   "explanation": "The UNCCD is associated with the commitment to restore 1.5 billion hectares by 2030. The 30x30 commitment is associated with the CBD, not the UNCCD.",
+   "facts": [
+    "P5.F9"
+   ]
+  },
+  {
+   "id": "2026-01/08/d001#7",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Nature transition and disclosures",
+   "question": "Consider the following statements:\nStatement A: India’s Nature-based Solutions background includes CAMPA funds but does not include MISHTI.\nStatement B: The Nature Transition X-Curve and TNFD disclosures are identified in the report’s background material.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 3,
+   "explanation": "Statement A is false because the listed Indian initiatives include both MISHTI and CAMPA funds. Statement B is true because the Nature Transition X-Curve and TNFD disclosures are identified in the background material.",
+   "facts": [
+    "P5.F10",
+    "P5.F11"
+   ]
+  },
+  {
+   "id": "2026-01/08/d001#9",
+   "format": "Direct Recall",
+   "keyword": "Economic burden of diabetes",
+   "question": "According to the Nature Medicine study covering 2020–2050, which country was projected to bear the highest economic burden from diabetes?",
+   "options": [
+    "United States, at USD 16.5 trillion",
+    "China, at USD 11 trillion",
+    "India, at USD 11.4 trillion",
+    "India, at USD 16.5 trillion"
+   ],
+   "answer": 0,
+   "explanation": "The United States was projected to bear the highest burden, at USD 16.5 trillion. India’s projected burden was USD 11.4 trillion and China’s was USD 11 trillion.",
+   "facts": [
+    "P8.F3"
+   ]
+  },
+  {
+   "id": "2026-01/08/d001#10",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Ageing classification",
+   "question": "Which of the following statements regarding the RBI’s classification of states by the share of population aged 60 years and above is incorrect?",
+   "options": [
+    "A state with less than 10% is classified as young.",
+    "A state with 15% or less is classified as ageing.",
+    "A state with more than 15% is classified as ageing.",
+    "A state with 10–15% is classified as intermediate."
+   ],
+   "answer": 1,
+   "explanation": "The incorrect statement is that a state with 15% or less is ageing. The ageing category requires more than 15%; less than 10% is young and 10–15% is intermediate.",
+   "facts": [
+    "P9.F1"
+   ]
+  },
+  {
+   "id": "2026-01/08/d001#11",
+   "format": "Direct Recall",
+   "keyword": "States ageing by 2036",
+   "question": "According to the RBI report on population ageing, which statement is correct?",
+   "options": [
+    "Kerala and Tamil Nadu were intermediate in 2026, and over half of the states are expected to remain young by 2036.",
+    "Kerala and Tamil Nadu were young in 2026, and over half of the states are expected to be ageing by 2036.",
+    "Kerala and Tamil Nadu were already ageing in 2026, but no state is expected to be ageing by 2036.",
+    "Kerala and Tamil Nadu were already ageing in 2026, and over half of the states are expected to be ageing by 2036."
+   ],
+   "answer": 3,
+   "explanation": "Kerala and Tamil Nadu were already ageing in 2026, and by 2036 more than half of the states are expected to be ageing, with none remaining young. The other options reverse or alter these classifications.",
+   "facts": [
+    "P9.F3"
+   ]
+  },
+  {
+   "id": "2026-01/08/d001#12",
+   "format": "Direct Recall",
+   "keyword": "Young states",
+   "question": "Which of the following groups consisted of the states classified as young in the RBI report on population ageing?",
+   "options": [
+    "Bihar, Madhya Pradesh, Uttar Pradesh, Chhattisgarh, Jharkhand and Haryana",
+    "Kerala, Tamil Nadu, Bihar, Madhya Pradesh, Uttar Pradesh and Haryana",
+    "Bihar, Telangana, Uttar Pradesh, Chhattisgarh, Jharkhand and Haryana",
+    "Madhya Pradesh, Uttar Pradesh, Kerala, Chhattisgarh, Jharkhand and Haryana"
+   ],
+   "answer": 0,
+   "explanation": "The young-state group comprised Bihar, Madhya Pradesh, Uttar Pradesh, Chhattisgarh, Jharkhand and Haryana. Kerala and Tamil Nadu were already classified as ageing, while Telangana was not included in this young-state list.",
+   "facts": [
+    "P9.F4"
+   ]
+  },
+  {
+   "id": "2026-01/08/d001r2#0",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Publisher, coverage and methodology",
+   "question": "Consider the following statements about the Responsible Nations Index 2026 and the Asia Manufacturing Index 2026:\n\n1. The Responsible Nations Index 2026 was prepared by the World Intellectual Foundation, New Delhi.\n2. The Responsible Nations Index 2026 covers 154 countries and uses a 0–1 scale.\n3. The Asia Manufacturing Index 2026 is the 3rd edition, prepared by Dezan Shira & Associates of Hong Kong, and covers 11 Asian countries across 8 pillars.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 3,
+   "explanation": "All three statements are correct. The Responsible Nations Index 2026 was prepared by the World Intellectual Foundation in New Delhi, covers 154 countries and follows a 0–1 scale; the Asia Manufacturing Index 2026 is its 3rd edition and covers 11 countries across 8 pillars.",
+   "facts": [
+    "P3.F2",
+    "P7.F1"
+   ]
+  },
+  {
+   "id": "2026-01/08/d001r2#1",
+   "format": "Direct Recall",
+   "keyword": "Informal employment and low-paid workers",
+   "question": "According to the ILO Employment and Social Trends 2026, which combination correctly represents the approximate number of workers earning below USD 3 per day and the number of informal workers?",
+   "options": [
+    "300 million and 2.1 billion, respectively",
+    "2.1 billion and 300 million, respectively",
+    "300 million and 300 million, respectively",
+    "2.1 billion and 2.1 billion, respectively"
+   ],
+   "answer": 0,
+   "explanation": "Approximately 300 million workers earn below USD 3 per day, while around 2.1 billion workers are in informal employment. The most tempting error is to reverse these figures; 2.1 billion refers to informal workers, not workers earning below USD 3 per day.",
+   "facts": [
+    "P6.F2"
+   ]
+  },
+  {
+   "id": "2026-01/08/d002#0",
+   "format": "Multi-Statement Correctness",
+   "keyword": "State-wise findings on cattle-rearing motives",
+   "question": "With reference to the CEEW findings on cattle-rearing households, consider the following statements:\n1. In West Bengal and Himachal Pradesh, over 50% of households do not sell milk.\n2. In Maharashtra and Karnataka, over 30% prioritise dung or draught purposes.\n3. In Himachal Pradesh, Andhra Pradesh and Assam, over 15% cite socio-cultural reasons.",
+   "options": [
+    "1 and 2 only",
+    "1, 2 and 3",
+    "1 and 3 only",
+    "2 only"
+   ],
+   "answer": 1,
+   "explanation": "All three statements are correct. The study reported over 50% not selling milk in West Bengal and Himachal Pradesh, over 30% prioritising dung or draught in Maharashtra and Karnataka, and over 15% citing socio-cultural reasons in Himachal Pradesh, Andhra Pradesh and Assam. Hence, the correct choice is 1, 2 and 3.",
+   "facts": [
+    "P10.F5",
+    "P10.F6",
+    "P10.F7"
+   ]
+  },
+  {
+   "id": "2026-01/08/d002#1",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ownership pattern and smallholder contribution",
+   "question": "According to the CEEW study on cattle-rearing households, consider the following statements:\n1. 50% of households own just 1–2 animals.\n2. 82% of households own only one type of bovine.\n3. Smallholders account for 29% of milk production and 22% of milk sales.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 3,
+   "explanation": "All three statements are correct. Half the households own just 1–2 animals, 82% own only one bovine type, and smallholders contribute 29% of milk production and 22% of sales. Therefore, 1, 2 and 3 is the correct answer.",
+   "facts": [
+    "P10.F8",
+    "P10.F9"
+   ]
+  },
+  {
+   "id": "2026-01/08/d002#2",
+   "format": "Count-Based",
+   "keyword": "Feed constraints and climate impacts",
+   "question": "With reference to the CEEW study, how many of the following statements are correct?\n1. About 75% of households cite feed affordability as a concern.\n2. Adoption of silage or ration-balancing is about 5%.\n3. Climate impacts are reported by 54% of buffalo rearers and 50% of crossbred-cattle rearers.\n4. Climate impacts are reported by 50% of indigenous-cattle rearers.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 2,
+   "explanation": "Only three statements are correct. Feed affordability is cited by about 75%, silage or ration-balancing adoption is about 5%, and the reported climate-impact figures are 54% for buffalo and 50% for crossbred cattle; the indigenous-cattle figure is 41%, not 50%.",
+   "facts": [
+    "P10.F10",
+    "P10.F11"
+   ]
+  },
+  {
+   "id": "2026-01/08/d002#3",
+   "format": "Direct Recall",
+   "keyword": "Dairy sector contribution",
+   "question": "According to the CEEW study, which of the following best describes the contribution of the dairy sector in India?",
+   "options": [
+    "It supports over 80 million livelihoods and contributes about 5% of GDP",
+    "It supports about 30 million livelihoods and contributes about 5% of GDP",
+    "It supports over 80 million livelihoods and contributes about 75% of GDP",
+    "It supports about 5 million livelihoods and contributes over 50% of GDP"
+   ],
+   "answer": 0,
+   "explanation": "The dairy sector supports more than 80 million livelihoods and contributes approximately 5% of GDP. The other options alter either the livelihood figure or the GDP contribution.",
+   "facts": [
+    "P10.F12"
+   ]
+  },
+  {
+   "id": "2026-01/08/d002#4",
+   "format": "List-Matching",
+   "keyword": "Livestock policy, methane and milk production",
+   "question": "Match List-I with List-II in relation to the cattle and livestock background covered in the CEEW study.\n\nList-I\n a. Rashtriya Gokul Mission\n b. Major source of livestock greenhouse gases\n c. Buffaloes\n\nList-II\n i. Produce over 50% of India’s milk despite being fewer than cattle\n ii. Launched in 2014 for indigenous breeds and Gokul Grams\n iii. Enteric fermentation accounts for over 90%; crossbred cattle emit about 43 kg methane annually against 28 kg for indigenous cattle\n\nCodes:",
+   "options": [
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii"
+   ],
+   "answer": 0,
+   "explanation": "The correct pairs are a-ii, b-iii and c-i. The Rashtriya Gokul Mission was launched in 2014 for indigenous breeds and Gokul Grams; enteric fermentation contributes over 90% of livestock greenhouse gases; and buffaloes produce over 50% of India’s milk despite being fewer than cattle.",
+   "facts": [
+    "P10.F13",
+    "P10.F14",
+    "P10.F15"
+   ]
+  },
+  {
+   "id": "2026-01/08/d002#5",
+   "format": "Direct Recall",
+   "keyword": "Global city safety ranking",
+   "question": "Which city topped the global city rankings in the Numbeo Safety Index 2026?",
+   "options": [
+    "Qingdao",
+    "Abu Dhabi",
+    "Doha",
+    "Pretoria"
+   ],
+   "answer": 0,
+   "explanation": "Qingdao ranked first globally in the Numbeo Safety Index 2026 with a score of 89.2. Abu Dhabi ranked second, Doha third, while Pretoria was the least safe among the listed global positions.",
+   "facts": [
+    "P11.F2"
+   ]
+  },
+  {
+   "id": "2026-01/08/d002#6",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Country safety ranking",
+   "question": "Which of the following statements regarding the Numbeo Safety Index 2026 is incorrect?",
+   "options": [
+    "The UAE was ranked the safest country.",
+    "India ranked 70th with a score of 55.8.",
+    "India was ranked the safest country with a score of 55.8.",
+    "Papua New Guinea, Venezuela and Haiti were among the least-safe countries."
+   ],
+   "answer": 2,
+   "explanation": "The incorrect statement is that India was ranked the safest country. The UAE was the safest country, while India ranked 70th with a score of 55.8; Papua New Guinea, Venezuela and Haiti were listed among the least safe.",
+   "facts": [
+    "P11.F3"
+   ]
+  },
+  {
+   "id": "2026-01/08/d002#7",
+   "format": "Direct Recall",
+   "keyword": "Rank and score in City Inclusion Score",
+   "question": "In Avtar’s City Inclusion Score ranking of 125 cities, what were Mumbai’s rank and score?",
+   "options": [
+    "Rank 2 with a score of 44.49",
+    "Rank 4 with a score of 44.49",
+    "Rank 5 with a score of 46.04",
+    "Rank 5 with a score of 44.49"
+   ],
+   "answer": 3,
+   "explanation": "Mumbai ranked fifth with a City Inclusion Score of 44.49. The other options change either Mumbai’s rank or its score.",
+   "facts": [
+    "P14.F5"
+   ]
+  },
+  {
+   "id": "2026-01/08/d002#8",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cities following Mumbai in the ranking",
+   "question": "In the sequence of cities following Mumbai in Avtar’s City Inclusion Score ranking, consider the following statements:\n1. Gurugram is the next city.\n2. Kolkata and Ahmedabad follow Gurugram.\n3. Thiruvananthapuram and Coimbatore are the subsequent cities in the listed sequence.",
+   "options": [
+    "1, 2 and 3",
+    "2 only",
+    "1 and 3 only",
+    "1 and 2 only"
+   ],
+   "answer": 0,
+   "explanation": "All three statements are correct. Mumbai is followed in the listed sequence by Gurugram, Kolkata, Ahmedabad, Thiruvananthapuram and Coimbatore. Hence, the correct answer is 1, 2 and 3.",
+   "facts": [
+    "P14.F5",
+    "P14.F6"
+   ]
+  },
+  {
+   "id": "2026-01/08/d002#10",
+   "format": "Assertion-Reason",
+   "keyword": "Wealth concentration and political power",
+   "question": "Assertion (A): The Oxfam report praised India’s political reservations for SC/ST communities as a model against political inequality.\nReason (R): Rich people had about 4,000 times greater chance of political power, and their wealth fell by USD 18.3 trillion in 2025.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 2,
+   "explanation": "Assertion A is true: Oxfam praised India’s political reservations for SC/ST communities as a model against political inequality. Reason R is false because the wealth of the rich rose by USD 18.3 trillion in 2025, although the report did state that they had about 4,000 times greater chance of political power.",
+   "facts": [
+    "P15.F2",
+    "P15.F3"
+   ]
+  },
+  {
    "id": "2026-01/08/g001#0",
    "format": "Direct Recall",
    "keyword": "Top short-term risk",

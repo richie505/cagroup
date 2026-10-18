@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "only": [
+  "P15.F10",
+  "P15.F6",
+  "P16.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "MSME dues and observance day",
+   "question": "With reference to India’s MSME sector and International MSME Day, consider the following statements:\n\n1. Pending dues on the MSME Samadhaan platform exceed ₹21,000 crore.\n2. International MSME Day is observed on 27 June and was designated by the UN General Assembly in 2017.\n3. International MSME Day is observed on 26 June.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F6",
+    "P15.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: pending dues on MSME Samadhaan exceed ₹21,000 crore, and International MSME Day is observed on 27 June after its designation by the UN General Assembly in 2017. Statement 3 is incorrect because the observance is on 27 June, not 26 June."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Airport bundle",
+   "question": "In the third round of airport privatisation proposed by the Ministry of Civil Aviation, which airports were included in Bundle 4?",
+   "options": [
+    "Raipur–Aurangabad",
+    "Bhubaneswar–Hubli",
+    "Amritsar–Kangra",
+    "Tiruchi–Tirupati"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F6"
+   ],
+   "explanation": "Bundle 4 comprised Raipur and Aurangabad. Bhubaneswar–Hubli, Amritsar–Kangra and Tiruchi–Tirupati were different airport pairings in the proposed bundles."
+  }
+ ]
+}

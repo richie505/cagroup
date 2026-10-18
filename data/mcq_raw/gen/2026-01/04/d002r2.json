@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P8.F2",
+  "P9.F10",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Share in global exports",
+   "question": "What share of global rice exports does India supply?",
+   "options": [
+    "Approximately 40%",
+    "Approximately 65%",
+    "Approximately 25%",
+    "Approximately 10–20%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "India supplies approximately 40% of global rice exports, amounting to over 20 million metric tonnes. The figure of 65% refers to the approximate share of Indians for whom rice is a staple, not India’s share of global exports."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Fisheries organisations and digital platform",
+   "question": "Consider the following statements:\nStatement A: MPEDA is responsible for fisheries infrastructure, while PMMSY promotes seafood exports.\nStatement B: ReALCRaft is a web-based platform for online registration and licensing of fishing vessels.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F8",
+    "P9.F9"
+   ],
+   "explanation": "Statement A is false because MPEDA is associated with export promotion, whereas PMMSY is associated with infrastructure. Statement B is true: ReALCRaft enables online registration and licensing of fishing vessels."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Richest fishing grounds",
+   "question": "The richest fishing grounds are generally found where which of the following conditions occurs?",
+   "options": [
+    "Where warm and cold currents meet",
+    "Where only warm currents flow",
+    "Where only cold currents flow",
+    "Where currents do not meet"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F10"
+   ],
+   "explanation": "The richest fishing grounds occur where warm and cold currents meet. The Grand Banks and the Kuroshio–Oyashio region are examples of such areas; therefore, regions with only one type of current are incorrect."
+  }
+ ]
+}

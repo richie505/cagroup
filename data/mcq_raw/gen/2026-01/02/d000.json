@@ -1,0 +1,285 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F2",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F1",
+  "P1.F3",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P2.F1",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F17",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "1976 freeze and representation gap",
+   "question": "With reference to the historical basis and present context of Lok Sabha delimitation, consider the following statements:\n1. The 42nd Amendment of 1976 froze seats at the 1971 population.\n2. Representation still reflects 1.47 billion people compared with 548 million people.\n3. The 42nd Amendment allowed internal boundary readjustment through the 2001 Census.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F5"
+   ],
+   "explanation": "Statement 1 is correct: the 42nd Amendment of 1976 froze seats at the 1971 population. Statement 2 reverses the comparison, while internal boundary readjustment through the 2001 Census was associated with the 84th Amendment, not the 42nd Amendment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of Delimitation Commissions",
+   "question": "How many Delimitation Commissions had been constituted up to December 2023?",
+   "options": [
+    "Two",
+    "Three",
+    "Four",
+    "Five"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Four Delimitation Commissions had been constituted up to December 2023. The figures two, three and five do not match the recorded number."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Projected State-wise Lok Sabha seats",
+   "question": "Match the States with their projected Lok Sabha seat figures in the projections for an approximately 888-seat House.\n\nList-I\n a. Uttar Pradesh\n b. Bihar\n c. Tamil Nadu\n d. Kerala\n\nList-II\n i. 23\n ii. 151\n iii. 53\n iv. 82\n\nSelect the correct answer using the code below.",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "The correct pairs are Uttar Pradesh–151, Bihar–82, Tamil Nadu–53 and Kerala–23. The other codes interchange the projected figures among these States."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Delimitation formula",
+   "question": "Under the proposed weighted formula for post-Census 2027 representation, what weights were suggested for population and development respectively?",
+   "options": [
+    "Population 70–80% and development 20–30%",
+    "Population 20–30% and development 70–80%",
+    "Population 50% and development 50%",
+    "Population 80–90% and development 10–20%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "The proposed weighted formula assigns 70–80% weight to population and 20–30% to development. The other combinations do not reflect the suggested formula."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Census 2027 status and legal basis",
+   "question": "Which description correctly characterises Census 2027?",
+   "options": [
+    "It is the 16th Census overall and the 8th after Independence, conducted under the Census Act 1948 and Census Rules 1990, with a budget of ₹11,718 crore.",
+    "It is the 15th Census overall and the 7th after Independence, conducted under the Census Act 1948 and Census Rules 1990, with a budget of ₹11,718 crore.",
+    "It is the 16th Census overall and the 8th after Independence, conducted under the Census Act 1948 and Census Rules 1990, with a budget of ₹1,171 crore.",
+    "It is the 16th Census overall and the 8th after Independence, conducted under the Census Act 1948 and Census Rules 1990, with a budget of ₹11,718 lakh."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Census 2027 is the 16th Census overall and the 8th after Independence. It is being conducted under the Census Act 1948 and Census Rules 1990, with a budget of ₹11,718 crore; the other options alter the Census sequence or budget."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Census authority",
+   "question": "Which institution is responsible for Census 2027 under the Ministry of Home Affairs?",
+   "options": [
+    "Office of the Registrar General and Census Commissioner",
+    "Census Management and Monitoring System",
+    "GIS House Listing Block Creator",
+    "Census-as-a-Service"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The Office of the Registrar General and Census Commissioner under the Ministry of Home Affairs is the responsible institution. CMMS, GIS House Listing Block Creator and Census-as-a-Service are digital systems or platforms associated with the Census."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First fully digital Census",
+   "question": "Which feature makes Census 2027 India's first fully digital Census?",
+   "options": [
+    "Use of Android and iOS applications, with self-enumeration permitted up to 15 days before field work",
+    "Use of Android and iOS applications, with self-enumeration permitted up to 15 days after field work",
+    "Use of only web browsers, with self-enumeration permitted up to 15 days before field work",
+    "Use of paper schedules, with self-enumeration permitted up to 15 days before field work"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "Census 2027 is the first fully digital Census, using Android and iOS applications and allowing self-enumeration up to 15 days before field work. The other options change the timing or the digital mode."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Census digital systems",
+   "question": "Which set of systems is associated with the digital architecture of Census 2027?",
+   "options": [
+    "CMMS, GIS House Listing Block Creator and Census-as-a-Service",
+    "Article 176, Article 175 and Article 163",
+    "House Listing and Housing Census, Population Enumeration and Motion of Thanks",
+    "Census Act 1948, Census Rules 1990 and Article 200"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "The digital architecture includes the Census Management and Monitoring System, GIS House Listing Block Creator and Census-as-a-Service. The other options combine constitutional provisions, enumeration phases or legal provisions rather than the named digital systems."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Caste enumeration",
+   "question": "What is a significant feature of caste data collection in Census 2027?",
+   "options": [
+    "It is being collected electronically and constitutes the first caste enumeration since 1931.",
+    "It is being collected manually and constitutes the first caste enumeration since 1931.",
+    "It is being collected electronically and constitutes the first caste enumeration since 1976.",
+    "It is being collected electronically but is not being enumerated as part of Census 2027."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "Caste data in Census 2027 is being collected electronically, marking the first caste enumeration since 1931. The other options alter either the collection method, the historical reference or the fact of enumeration."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Judgments on gubernatorial discretion",
+   "question": "Match the case or commission with the principle associated with it in the controversy over the Governor's role.\n\nList-I\n a. Shamsher Singh (1974)\n b. Nabam Rebia (2016)\n c. State of Tamil Nadu v. Governor of Tamil Nadu (2024)\n d. Sarkaria Commission (1988)\n\nList-II\n i. Governor as the “lynchpin of cooperative federalism”\n ii. Seven-judge bench: Governor is a constitutional head acting on aid and advice\n iii. Discretion cannot stall an elected government\n iv. Five-judge bench: Articles 175 and 176 are exercised on ministerial advice\n\nSelect the correct answer using the code below.",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10",
+    "P2.F11",
+    "P2.F12"
+   ],
+   "explanation": "The correct pairs are Shamsher Singh–seven-judge constitutional-head principle, Nabam Rebia–five-judge ministerial-advice principle, State of Tamil Nadu v. Governor of Tamil Nadu–discretion cannot stall an elected government, and Sarkaria Commission–“lynchpin of cooperative federalism.” The other codes interchange these case or commission principles."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cooperative federalism",
+   "question": "Which body described the Governor as the “lynchpin of cooperative federalism”?",
+   "options": [
+    "Sarkaria Commission",
+    "Punchhi Commission",
+    "Shamsher Singh",
+    "Nabam Rebia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "The Sarkaria Commission in 1988 described the Governor as the “lynchpin of cooperative federalism.” The Punchhi Commission dealt with extra roles such as Chancellor, while Shamsher Singh and Nabam Rebia are judgments."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Governor's extra roles",
+   "question": "Which recommendation is associated with the Punchhi Commission (2007)?",
+   "options": [
+    "Limiting extra roles of the Governor, such as the role of Chancellor",
+    "Describing the Governor as the constitutional head acting on aid and advice",
+    "Holding that discretion cannot stall an elected government",
+    "Describing the Governor as the “lynchpin of cooperative federalism”"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F13"
+   ],
+   "explanation": "The Punchhi Commission (2007) recommended limiting extra roles of the Governor, including roles such as Chancellor. The other options correspond to Shamsher Singh, State of Tamil Nadu v. Governor of Tamil Nadu, and the Sarkaria Commission respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Governor's qualifications and status",
+   "question": "Which one of the following statements about the Governor is incorrect?",
+   "options": [
+    "The Governor must be at least 35 years of age, cannot be an MP or MLA, and an office of profit is a disqualification.",
+    "The Governor has a dual role as the head of the State and a representative of the Union.",
+    "A person below 35 years of age may be appointed Governor if the person is not an MP or MLA.",
+    "Holding an office of profit disqualifies a person from being appointed Governor."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F14"
+   ],
+   "explanation": "The incorrect statement is that a person below 35 years may be appointed Governor. The minimum age is 35; the Governor cannot be an MP or MLA, and holding an office of profit is a disqualification."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Governor's discretionary functions",
+   "question": "Consider the following statements:\nStatement A: The Governor may report for the imposition of President's Rule under Article 356 and reserve Bills under Article 200.\nStatement B: Under Article 174, summoning, proroguing and dissolving the Legislature are to be done only on the advice of the Council of Ministers, with no independent discretion under the principle stated in Nabam Rebia (2016).",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F15",
+    "P2.F16"
+   ],
+   "explanation": "Both statements are true. The Governor has the stated functions under Articles 356 and 200, while Article 174 functions are to be exercised on cabinet advice and do not carry independent discretion under Nabam Rebia (2016)."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Procedural defects in Governor's address",
+   "question": "Assertion (A): Procedural defects in the delivery of the Governor's address do not invalidate the legislative proceedings.\nReason (R): The Rajasthan High Court (1966) and the Syed Habibullah cases held that such procedural defects invalidate all proceedings.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F17"
+   ],
+   "explanation": "Assertion A is true: the cited cases held that procedural defects in delivery do not invalidate proceedings. Reason R is false because it reverses that holding; the Rajasthan High Court (1966) and Syed Habibullah cases did not treat such defects as invalidating all proceedings."
+  }
+ ]
+}

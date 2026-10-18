@@ -1,0 +1,53 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23
+ ],
+ "only": [
+  "P21.F3",
+  "P21.F5",
+  "P23.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Festival aim and attendees",
+   "question": "Consider the following statements about the Amaravati–Avakaya Festival 2026:\n1. The festival aimed to unite Andhra cuisine, the cultural ethos of Amaravati and the legacy of Telugu cinema.\n2. Tourism Minister Kandula Durgesh and EU Ambassador Hervé Delphin attended the festival.\n3. The festival aimed only to promote Andhra cuisine, without linking it to Amaravati’s cultural ethos or Telugu cinema.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F3",
+    "P21.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the festival sought to unite Andhra cuisine, Amaravati’s cultural ethos and Telugu cinema, and was attended by Kandula Durgesh and Hervé Delphin. Statement 3 is incorrect because the festival also connected cuisine with Amaravati’s cultural ethos and the legacy of Telugu cinema."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Research areas",
+   "question": "Which of the following correctly lists the principal research areas of the AP Futuristic Innovation and Research in Science and Technology (AP FIRST) centre at Tirupati?",
+   "options": [
+    "Aerospace, defence, space, AI, cybersecurity, semiconductors, quantum, biotechnology and green energy",
+    "Agriculture, irrigation, textiles, tourism, banking, mining, fisheries, transport and housing",
+    "Marine biology, archaeology, classical music, journalism, law, sports, education and cinema",
+    "Roads, ports, railways, airports, museums, libraries, hospitals, tourism and handicrafts"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F2"
+   ],
+   "explanation": "AP FIRST focuses on aerospace, defence, space, AI, cybersecurity, semiconductors, quantum, biotechnology and green energy. The other options list sectors that are not identified as the centre’s research areas."
+  }
+ ]
+}

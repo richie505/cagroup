@@ -1,0 +1,156 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F9",
+  "P1.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Inflation trend",
+   "question": "With reference to the Economic Survey 2025–26, consider the following statements:\n1. Retail inflation during April–December was 1.7%.\n2. Retail inflation may rise to about 4% in the next year.\n3. Andhra Pradesh's inflation declined from 7.57% to 1.39%.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F14"
+   ],
+   "explanation": "All three statements are correct. Retail inflation was 1.7% during April–December and may rise to about 4% in the next year, while Andhra Pradesh’s inflation declined from 7.57% to 1.39%. The tempting options excluding one statement are incorrect because each of the three statements is supported by the reported figures."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Fiscal deficit",
+   "question": "Which one of the following statements regarding India’s fiscal deficit, as highlighted in the Economic Survey 2025–26, is incorrect?",
+   "options": [
+    "It was 4.8% in 2024–25.",
+    "It declined to 4.4%.",
+    "The figures indicate a reduction between the two periods.",
+    "It increased to 4.1% from 4.8%."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The incorrect statement is that the fiscal deficit increased to 4.1%. The reported figures were 4.8% in 2024–25 and 4.4% thereafter, indicating a decline. Thus, 4.1% is the changed and incorrect figure."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Rupee depreciation and export share",
+   "question": "Consider the following statements:\nStatement A: The rupee appreciated by about 5% to around 91.96 per US dollar.\nStatement B: India’s share in global merchandise exports was 2.8% in 2024.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Both statements are false. The rupee depreciated by about 5% to around 91.96 per US dollar, while India’s share in global merchandise exports was 1.8% in 2024. The traps are the reversal of depreciation and the altered export-share figure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Capital expenditure",
+   "question": "According to the Economic Survey 2025–26, what was the capital expenditure outlay for 2025–26?",
+   "options": [
+    "₹2.63 lakh crore",
+    "₹11.21 lakh crore",
+    "₹15.48 lakh crore",
+    "₹1.60 lakh crore"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "The capital expenditure outlay for 2025–26 was ₹11.21 lakh crore. ₹2.63 lakh crore refers to 2017–18, while ₹15.48 lakh crore is the figure indicated for the current year. The ₹1.60 lakh crore figure belongs to the India Semiconductor Mission."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Remittances",
+   "question": "Assertion (A): India’s remittances in 2024–25 were USD 135.4 billion, the highest in the world.\nReason (R): India’s remittances in 2024–25 were USD 135.4 billion, the lowest in the world.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "Assertion A is true because India recorded USD 135.4 billion in remittances in 2024–25, the highest in the world. Reason R is false because the position was the highest, not the lowest. Therefore, the correct answer is ‘A is true, but R is false.’"
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PLI investment and sectors",
+   "question": "In how many sectors did investment under the Production Linked Incentive scheme exceed ₹2 lakh crore, according to the Economic Survey 2025–26?",
+   "options": [
+    "10 sectors",
+    "12 sectors",
+    "14 sectors",
+    "16 sectors"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "PLI investment exceeded ₹2 lakh crore across 14 sectors. The figures 10 and ₹1.60 lakh crore are associated with the India Semiconductor Mission, not the PLI scheme. Hence, 14 sectors is the correct answer."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Semiconductor Mission, DISCOMs and Telangana inflation",
+   "question": "Consider the following statements:\n1. The India Semiconductor Mission involved 10 projects with an investment of ₹1.60 lakh crore.\n2. DISCOMs recorded their first-ever profit of ₹2,701 crore in 2024–25.\n3. Telangana’s inflation declined from 8.61% in 2022–23 to 0.20% in 2025–26.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12",
+    "P0.F13"
+   ],
+   "explanation": "All statements are correct. The India Semiconductor Mission covered 10 projects involving ₹1.60 lakh crore, DISCOMs recorded a first-ever profit of ₹2,701 crore, and Telangana’s inflation fell from 8.61% to 0.20%. The other options are wrong because they omit one correct statement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Investment attraction rank and share",
+   "question": "According to the Bank of Baroda report based on CMIE data, which State ranked fifth in investment attraction during the first nine months of 2025–26, with a share of 7.1%?",
+   "options": [
+    "Gujarat",
+    "Odisha",
+    "Maharashtra",
+    "Telangana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "Gujarat ranked fifth, with a 7.1% share of investment attraction during the first nine months of 2025–26. The other options were not the State associated with the fifth-place 7.1% share in this report."
+  }
+ ]
+}

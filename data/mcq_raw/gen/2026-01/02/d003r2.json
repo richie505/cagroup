@@ -1,0 +1,53 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "only": [
+  "P14.F2",
+  "P18.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment year of Supreme Courts",
+   "question": "The Supreme Court of India and the Supreme Court of Bhutan were established in which respective years?",
+   "options": [
+    "India — 1950; Bhutan — 2009",
+    "India — 2009; Bhutan — 1950",
+    "India — 1999; Bhutan — 2009",
+    "India — 1950; Bhutan — 1999"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2"
+   ],
+   "explanation": "The Supreme Court of India was established in 1950, while the Supreme Court of Bhutan was established in 2009. The option reversing these years is incorrect because 1950 belongs to India and 2009 to Bhutan."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UIDAI establishment and administrative ministry",
+   "question": "Which combination correctly describes the establishment year and administrative ministry of the Unique Identification Authority of India (UIDAI)?",
+   "options": [
+    "Established in 2009 and under the Ministry of Electronics and Information Technology",
+    "Established in 1999 and under the Ministry of Electronics and Information Technology",
+    "Established in 2009 and under the Ministry of Panchayati Raj",
+    "Established in 1999 and under the Ministry of Panchayati Raj"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F7"
+   ],
+   "explanation": "UIDAI was established in 2009 and functions under the Ministry of Electronics and Information Technology. The 1999 options confuse UIDAI with the establishment year associated with MoSPI, while the Ministry of Panchayati Raj is not UIDAI’s administrative ministry."
+  }
+ ]
+}

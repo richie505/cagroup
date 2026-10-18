@@ -1,0 +1,55 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P2.F2",
+  "P2.F5",
+  "P2.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Agency-wise GDP projection",
+   "question": "Consider the following statements regarding GDP growth projections for India in 2025–26:\nStatement A: The Reserve Bank of India projected GDP growth at 7.5%.\nStatement B: The International Monetary Fund projected GDP growth at 7.2%.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F5"
+   ],
+   "explanation": "Both statements are false. The RBI projected 7.3% growth, while the IMF also projected 7.3% growth for 2025–26. The tempting alternative that Statement A alone is true is incorrect because the RBI projection was 7.3%, not 7.5%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Agency-wise GDP projection",
+   "question": "What GDP growth rate did the OECD project for India in 2025–26?",
+   "options": [
+    "6.7%",
+    "7.3%",
+    "7.5%",
+    "7.2%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F2",
+    "P2.F5",
+    "P2.F4"
+   ],
+   "explanation": "The OECD projected India’s GDP growth at 6.7% for 2025–26. The nearby figures of 7.3%, 7.5% and 7.2% were projections associated with other agencies, not the OECD."
+  }
+ ]
+}

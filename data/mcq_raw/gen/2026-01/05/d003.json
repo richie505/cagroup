@@ -1,0 +1,151 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22
+ ],
+ "only": [
+  "P10.F2",
+  "P11.F2",
+  "P13.F2",
+  "P14.F4",
+  "P15.F2",
+  "P15.F3",
+  "P15.F4",
+  "P18.F2",
+  "P21.F3",
+  "P9.F2",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "River and project type",
+   "question": "With reference to the Wangchhu Hydroelectric Project in Bhutan, consider the following statements:\nStatement A: The Wangchu River, called Raidak in India, is a tributary of the Brahmaputra and the project is located in Chukha District.\nStatement B: The project is a peaking run-of-the-river plant that supplies winter power to India and summer surplus power to Bhutan.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F2",
+    "P9.F4"
+   ],
+   "explanation": "Statement A is correct: the Wangchu, known as Raidak in India, is a tributary of the Brahmaputra and the project is in Chukha District. Statement B is incorrect because winter power is intended for Bhutan and summer surplus for India, not the reverse."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IPOI character and structure",
+   "question": "Which of the following correctly describes the Indo-Pacific Oceans Initiative (IPOI)?",
+   "options": [
+    "It was launched by India at the East Asia Summit in Bangkok in 2019 as a non-treaty, voluntary initiative with seven pillars.",
+    "It was launched by India at the East Asia Summit in New Delhi in 2020 as a treaty-based initiative with five pillars.",
+    "It was launched by Japan at the ASEAN Summit in Bangkok in 2019 as a voluntary initiative with eight pillars.",
+    "It was launched by India at the G20 Summit in Bangkok in 2021 as a treaty-based initiative with seven pillars."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "The IPOI was launched by India at the East Asia Summit in Bangkok in 2019. It is a non-treaty, voluntary initiative organised around seven pillars; the other options alter its venue, year, legal character or number of pillars."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic partnership since",
+   "question": "The strategic partnership between India and France dates back to which year?",
+   "options": [
+    "1991",
+    "1998",
+    "2004",
+    "2007"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "India and France have had a strategic partnership since 1998. The years 1991, 2004 and 2007 do not represent the start of this strategic partnership."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "PAX SILICA partners and guests",
+   "question": "Match the following countries and organisations with their status in PAX SILICA.\n\nList-I\n(a) Japan\n(b) South Korea\n(c) Taiwan\n(d) OECD\n\nList-II\n(i) Partner\n(ii) Partner\n(iii) Guest\n(iv) Guest",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "Japan and South Korea were partners in PAX SILICA, while Taiwan and the OECD were guests. Therefore, the correct matching is a-i, b-ii, c-iii, d-iv; the other codes wrongly classify partners as guests or guests as partners."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "India–Europe engagement",
+   "question": "With reference to India's first-ever engagement with the Weimar Triangle, consider the following statements:\nStatement A: India's External Affairs Minister S. Jaishankar participated in the engagement.\nStatement B: The engagement marked an old phase of India–Europe ties.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F4"
+   ],
+   "explanation": "Statement A is correct because S. Jaishankar is India's External Affairs Minister and took part in the engagement. Statement B is incorrect: the engagement marked a new phase of India–Europe ties, not an old phase."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Operation Swadesh and Iran facts",
+   "question": "Consider the following statements about Operation Swadesh and India’s evacuation from Iran:\n1. Around 10,000 Indians were in Iran, including 2,500–3,000 medical students.\n2. Tehran is Iran’s capital, and the country’s currency is the rial.\n3. Earlier Indian evacuation operations included Operation Vijay, Operation Devi Shakti, Operation Ajay and Operation Kaveri.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2",
+    "P15.F3",
+    "P15.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the estimated Indian population in Iran included around 2,500–3,000 medical students, and Tehran and the rial are Iran’s capital and currency. Statement 3 is incorrect because the earlier operations listed were Ganga, Devi Shakti, Ajay and Kaveri, not Vijay."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "International organisations and capitals",
+   "question": "How many of the following statements are correct?\n1. The World Health Organization was established on 7 April 1948.\n2. The headquarters of the World Health Organization is in Paris.\n3. Suva is the capital of Fiji.\n4. Fiji’s Prime Minister is Sitiveni Rabuka.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P18.F2",
+    "P21.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct: WHO was established on 7 April 1948, and Suva is Fiji’s capital. Statement 2 is incorrect because WHO is headquartered in Geneva, while Statement 4 is incorrect because the fact identifies Fiji’s Prime Minister as Sitiveni Rabuka."
+  }
+ ]
+}

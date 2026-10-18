@@ -1,0 +1,138 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P3.F12",
+  "P3.F13",
+  "P3.F15",
+  "P3.F16",
+  "P3.F21",
+  "P3.F3",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First urban night safari",
+   "question": "Where was India’s first urban night safari established?",
+   "options": [
+    "Kukrail forest, Lucknow",
+    "Khoraj Industrial Estate, Sanand",
+    "Ahmedabad region",
+    "Andaman Sea near North Bay, Sri Vijaya Puram"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "India’s first urban night safari was established in Kukrail forest, Lucknow, along the Kukrail River. Khoraj Industrial Estate is associated with the first private integrated satellite manufacturing facility, not the night safari."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First private satellite manufacturing facility",
+   "question": "Where was India’s first private integrated satellite manufacturing facility established?",
+   "options": [
+    "Khoraj Industrial Estate, Sanand, Gujarat",
+    "Chennai",
+    "GIFT City, Gujarat",
+    "Visakhapatnam station"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "India’s first private integrated satellite manufacturing facility was established at Khoraj Industrial Estate, Sanand, Gujarat, by Azista Space. GIFT City is associated with the first national AI research institution under PPP, not the satellite facility."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First government menopause clinics",
+   "question": "Which State became the first to establish government menopause clinics?",
+   "options": [
+    "Maharashtra",
+    "Assam",
+    "Gujarat",
+    "Tripura"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Maharashtra became the first State to establish government menopause clinics in government hospitals and urban health centres. Assam is associated with the formation of the first 8th State Pay Commission, while Tripura is associated with the first solar-powered mobile ATM van."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Locations of India’s firsts",
+   "question": "Match List-I with List-II regarding India’s firsts in January 2026.\n\nList-I\n a. Assam\n b. Andaman Sea near North Bay, Sri Vijaya Puram\n c. Ahmedabad region\n d. Visakhapatnam station\n\nList-II\n i. First State to form the 8th State Pay Commission\n ii. First open-sea marine aquaculture project\n iii. First LNG–diesel dual-fuel DEMU\n iv. First robot cop in Railways",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8",
+    "P3.F9",
+    "P3.F12",
+    "P3.F13"
+   ],
+   "explanation": "The correct pairs are Assam–first 8th State Pay Commission, Andaman Sea near North Bay–first open-sea marine aquaculture project, Ahmedabad region–first LNG–diesel dual-fuel DEMU, and Visakhapatnam station–first robot cop in Railways. The other codes interchange these distinct firsts."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Legal rights for stingless bees",
+   "question": "Assertion (A): Municipalities in Peru granted legal rights to Amazon stingless bees.\nReason (R): Stingless bees are approximately 80 thousand years old.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F15"
+   ],
+   "explanation": "Assertion A is true: municipalities in Peru granted legal rights to Amazon stingless bees. Reason R is false because stingless bees are described as approximately 80 million years old, not 80 thousand years old."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "First oral pill for thalassemia",
+   "question": "With reference to the first oral pill for thalassemia, consider the following statements:\n\n1. The US FDA approved Mitapivat, marketed as Aquesmy, for alpha and beta thalassemia.\n2. Aquesmy is an oral pill for thalassemia.\n3. Mitapivat was approved for alpha and gamma thalassemia.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F16"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the US FDA approved Mitapivat, marketed as Aquesmy, as an oral pill for alpha and beta thalassemia. Statement 3 is incorrect because beta thalassemia, not gamma thalassemia, is specified."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Largest compressed-air energy storage",
+   "question": "How many of the following statements about the world’s largest compressed-air energy storage facility are correct?\n\n1. It is located in Jiangsu, China.\n2. It has a capacity of 2,400 MWh and 60 MW.\n3. It was developed with Harbin Electric.\n4. It is located in Finland.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F21"
+   ],
+   "explanation": "Only statement 1 is correct: the world’s largest compressed-air energy storage facility is in Jiangsu, China. Its capacity is 2,400 MWh and 600 MW, it was developed with Harbin Electric, and it is not located in Finland."
+  }
+ ]
+}

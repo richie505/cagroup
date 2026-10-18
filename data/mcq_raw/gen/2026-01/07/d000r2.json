@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P3.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Paris Agreement anniversary and India’s climate targets",
+   "question": "Consider the following statements about the Paris Agreement and India’s climate commitments:\n1. The Paris Agreement completed 10 years in November 2025.\n2. Its re-evaluation followed the United States’ exit in early 2025 and COP30 at Belém, Brazil.\n3. India has targeted a 45% cut in emissions intensity from 2005 by 2030 and Net Zero by 2070.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F10"
+   ],
+   "explanation": "All three statements are correct. The Paris Agreement completed 10 years in November 2025, while the United States’ exit and COP30 at Belém prompted re-evaluation; India’s targets include a 45% reduction in emissions intensity from 2005 by 2030 and Net Zero by 2070. The tempting option ‘1 and 2 only’ is incorrect because it omits the stated Indian climate targets."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Species and elevation range",
+   "question": "Paracamptotheca alba, a newly reported ginger from East Siang, was recorded at which elevation range?",
+   "options": [
+    "150–400 m",
+    "45%–50%",
+    "2.5–2.9°C",
+    "2005–2070"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "Paracamptotheca alba was recorded at an elevation of 150–400 m in Miglung, Siang Valley, East Siang. The other options refer to climate-related figures and years, not the elevation range of this ginger."
+  }
+ ]
+}

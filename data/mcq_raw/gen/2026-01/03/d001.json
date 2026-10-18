@@ -1,0 +1,147 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P10.F3",
+  "P10.F4",
+  "P10.F5",
+  "P11.F4",
+  "P12.F2",
+  "P4.F2",
+  "P4.F4",
+  "P5.F1",
+  "P5.F4",
+  "P5.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme objective",
+   "question": "The SHINE Scheme of the Bureau of Indian Standards is intended to achieve which of the following?",
+   "options": [
+    "Place women at the centre of the quality ecosystem through NGOs and SHGs",
+    "Provide pension support to senior citizens through local bodies",
+    "Promote artificial intelligence education through Centres of Excellence",
+    "Coordinate CSR partnerships for women and children"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "SHINE stands for Standards Help Inform & Nurture Empowered Women and places women at the centre of the quality ecosystem through NGOs and SHGs. The other options refer to unrelated social-sector initiatives."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Legal framework",
+   "question": "With reference to the legal basis of the Bureau of Indian Standards, consider the following statements:\nStatement A: The current BIS Act is the BIS Act, 2016.\nStatement B: The current BIS Act is the BIS Act, 1986.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "Statement A is correct because the current BIS Act is the BIS Act, 2016. Statement B is incorrect; 1986 is cited as the establishment year in one account, not as the current BIS Act."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "A 29-year-old man died in Karnataka in January 2026 after contracting which disease?",
+   "options": [
+    "Kyasanur Forest Disease",
+    "Scabies",
+    "Atal Pension Yojana-related illness",
+    "Sukanya Samriddhi Yojana-related illness"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "The reported death of the 29-year-old man in Karnataka was due to Kyasanur Forest Disease. The other options do not identify the disease involved in this report."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Transmission and seasonality",
+   "question": "Which combination correctly describes the transmission and seasonal pattern of Kyasanur Forest Disease?",
+   "options": [
+    "No human-to-human transmission; it starts in October–November and peaks from January–April",
+    "Human-to-human transmission; it starts in January–April and peaks from October–November",
+    "No human-to-human transmission; it starts in January–April and peaks from October–November",
+    "Human-to-human transmission; it starts in October–November and peaks from January–April"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "Kyasanur Forest Disease has no human-to-human transmission. Its season starts in October–November and reaches its peak from January–April; the other options reverse either the transmission feature or the seasonal pattern."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Fatality and treatment",
+   "question": "With reference to Kyasanur Forest Disease, consider the following statements:\n1. Its fatality rate is 5–10%.\n2. There is no antiviral treatment.\n3. A vaccine is available.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "All three statements are correct: Kyasanur Forest Disease has a 5–10% fatality rate, has no antiviral treatment, and a vaccine is available. Therefore, the correct option is 1, 2 and 3."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Eligibility, pension and contribution",
+   "question": "How many of the following statements about the Atal Pension Yojana are correct?\n1. The eligible joining age is 18–40 years.\n2. The pension after 60 years ranges from ₹1,000 to ₹5,000.\n3. For a person joining at 18, the contribution ranges from ₹42 to ₹210.\n4. Income tax payers are eligible to subscribe to the scheme.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4",
+    "P10.F5"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: the joining age is 18–40 years, the pension after 60 is ₹1,000–₹5,000, and the contribution for joining at 18 is ₹42–₹210. Statement 4 is incorrect because income tax payers are not eligible."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Scheme-related numbers",
+   "question": "Match the entries associated with the Sukanya Samriddhi Yojana and Womaniya on GeM in List-I with the corresponding figures in List-II.\n\nList-I\n a. Sukanya Samriddhi Yojana — number of accounts\n b. Sukanya Samriddhi Yojana — deposits\n c. Womaniya on GeM — women-led MSMEs\n d. Womaniya on GeM — value of orders\n\nList-II\n i. 4.53 crore+\n ii. ₹3.33 lakh crore+\n iii. Approximately 2 lakh\n iv. ₹80,000 crore+",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4",
+    "P12.F2"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: Sukanya Samriddhi Yojana had 4.53 crore+ accounts and ₹3.33 lakh crore+ in deposits, while Womaniya on GeM involved approximately 2 lakh women-led MSMEs and ₹80,000 crore+ in orders. The other codes interchange these figures."
+  }
+ ]
+}

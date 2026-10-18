@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F20",
+  "P0.F31"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Summit venue and strategic plan",
+   "question": "With reference to the conclusion of the India–EU Free Trade Agreement, consider the following statements:\n1. The agreement was concluded after a summit in New Delhi.\n2. Ursula von der Leyen described it as the “mother of all deals”.\n3. A five-year strategic action plan was associated with the agreement.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F20"
+   ],
+   "explanation": "All three statements are correct: the agreement was concluded after a summit in New Delhi, Ursula von der Leyen called it the “mother of all deals”, and a five-year strategic action plan was associated with it. The tempting option “1 and 2 only” is incorrect because it omits the five-year strategic action plan."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Year of conclusion",
+   "question": "In which year was the India–EU Free Trade Agreement concluded, described as the “mother of all trade deals”?",
+   "options": [
+    "2021",
+    "2022",
+    "2025",
+    "2026"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F31"
+   ],
+   "explanation": "The India–EU Free Trade Agreement was concluded in 2026 and was described as the “mother of all trade deals”. The nearby year 2025 refers to other agreements in the sequence, not the India–EU FTA."
+  }
+ ]
+}

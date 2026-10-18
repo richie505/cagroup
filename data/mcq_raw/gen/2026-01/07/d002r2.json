@@ -1,0 +1,91 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23
+ ],
+ "only": [
+  "P18.F1",
+  "P20.F2",
+  "P20.F3",
+  "P20.F4",
+  "P23.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Project design",
+   "question": "Regarding the proposed International Dugong Conservation Centre at Manora in Thanjavur district, what did the Expert Appraisal Committee ask Tamil Nadu to do?",
+   "options": [
+    "Revise the design of the centre",
+    "Shift the centre to the Gulf of Mannar",
+    "Convert the centre into a tiger conservation facility",
+    "Complete the centre by 2034"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F1"
+   ],
+   "explanation": "The Expert Appraisal Committee asked Tamil Nadu to revise the design of the International Dugong Conservation Centre at Manora. Shifting its location, converting it into a tiger facility, and completing it by 2034 were not part of the reported decision."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ecological connectivity and rivers",
+   "question": "With reference to Pangolakha Wildlife Sanctuary, consider the following statements:\n1. It is connected to the forests of Bhutan and Neora Valley National Park in West Bengal.\n2. The Rangpo and Jaldhaka rivers originate in the sanctuary.\n3. The Pangolakha range forms part of the Sikkim–Nepal boundary.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F2",
+    "P20.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Pangolakha is connected to Bhutan forests and Neora Valley National Park, and the Rangpo and Jaldhaka rivers originate there. Statement 3 is incorrect because the Pangolakha range forms part of the Sikkim–Bhutan boundary, not the Sikkim–Nepal boundary."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Governor",
+   "question": "Who was the Governor of Sikkim associated with the Pangolakha Wildlife Sanctuary forest-fire situation in January 2026?",
+   "options": [
+    "Om Prakash Mathur",
+    "Mangubhai Patel",
+    "K. T. Parnaik",
+    "Pema Khandu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F4"
+   ],
+   "explanation": "Om Prakash Mathur was the Governor of Sikkim associated with the situation. Mangubhai Patel was associated with Madhya Pradesh, while K. T. Parnaik and Pema Khandu were associated with Arunachal Pradesh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tallest dam in India",
+   "question": "Which distinction is associated with the 260-metre Tehri Dam?",
+   "options": [
+    "It is the tallest dam in India",
+    "It is the first completed dam on the Narmada",
+    "It is the deepest reservoir in India",
+    "It is the only earth and rock-fill dam in India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F3"
+   ],
+   "explanation": "The 260-metre Tehri Dam is the tallest dam in India. The first completed dam on the Narmada refers to Bargi Dam, while the facts do not identify Tehri as India’s deepest reservoir or its only earth and rock-fill dam."
+  }
+ ]
+}

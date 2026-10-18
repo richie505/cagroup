@@ -1,0 +1,84 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19
+ ],
+ "only": [
+  "P16.F2",
+  "P18.F2",
+  "P18.F3",
+  "P18.F4",
+  "P19.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of transplants",
+   "question": "According to Jeevandan 2025, how many organ transplants were recorded in Telangana from 205 donors?",
+   "options": [
+    "763",
+    "205",
+    "41",
+    "96.10%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F2"
+   ],
+   "explanation": "Telangana recorded 763 organ transplants from 205 donors under Jeevandan 2025. The tempting alternative is 205, but that figure refers to donors, not transplants."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Child-marriage legislation and years",
+   "question": "Match the following legal milestones associated with the evolution of child-marriage legislation with their years.\n\nList-I\n\na. Age of Consent Act\nb. Sarada Act\nc. First raising of the prescribed ages\n d. Prohibition of Child Marriage Act\n\nList-II\n\ni. 1891\nii. 1929\niii. 1948\niv. 2006",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F3"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: the Age of Consent Act dates to 1891, the Sarada Act to 1929, the first raising of ages to 1948, and the PCMA to 2006. The later raising of ages occurred in 1978, not in place of these listed milestones."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Legal age and NFHS-5 finding",
+   "question": "Consider the following statements:\nStatement A: Under the child-marriage framework, a girl below 18 and a boy below 21 are treated as children for this purpose.\nStatement B: NFHS-5 reported that 23% of women aged 20–24 had married before attaining 21.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P18.F2",
+    "P18.F4"
+   ],
+   "explanation": "Statement A is true because the specified ages are below 18 for girls and below 21 for boys. Statement B is false: NFHS-5 reported that 23% of women aged 20–24 had married before 18, not before 21."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Languages and manuscripts",
+   "question": "Which of the following correctly describes Grantha Kutir at Rashtrapati Bhavan?",
+   "options": [
+    "Books in 11 classical languages and 50 manuscripts, with colonial-era books moved out",
+    "Books in 50 classical languages and 11 manuscripts, with colonial-era books moved out",
+    "Books in 11 classical languages and 11 manuscripts, with colonial-era books moved out",
+    "Books in 50 classical languages and 50 manuscripts, with colonial-era books moved out"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F5"
+   ],
+   "explanation": "Grantha Kutir houses books in 11 classical languages and 50 manuscripts, while colonial-era books were moved out. The nearest numerical distractor reverses the figures, but 50 refers to manuscripts and 11 to languages."
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P3.F10",
+  "P3.F2",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9",
+  "P5.F10",
+  "P5.F11",
+  "P5.F2",
+  "P5.F3",
+  "P5.F4",
+  "P5.F7",
+  "P5.F8",
+  "P5.F9",
+  "P6.F2",
+  "P7.F1",
+  "P8.F3",
+  "P9.F1",
+  "P9.F3",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coverage and rank",
+   "question": "With reference to the Responsible Nations Index 2026, consider the following statements:\n1. The index covers 154 countries and uses a 0–1 scale.\n2. India ranked 16th with a score of 0.551513.\n3. Japan ranked 66th.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "Statement 2 alone is correct: India ranked 16th with a score of 0.551513. The index covers 154 countries on a 0–1 scale, while Japan ranked 38th, not 66th."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Country-wise ranks",
+   "question": "Match the countries with their ranks in the Responsible Nations Index 2026.\n\nList-I\n a. India\n b. Japan\n c. United States\n d. China\n\nList-II\n i. 68\n ii. 16\n iii. 38\n iv. 66",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F7",
+    "P3.F8",
+    "P3.F9"
+   ],
+   "explanation": "The correct pairs are India–16, Japan–38, United States–66 and China–68, represented by a-ii, b-iii, c-iv, d-i. The tempting alternative a-ii, b-iv, c-iii, d-i incorrectly assigns Japan 66 and the United States 38."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bottom-ranked countries",
+   "question": "Which group of countries occupied the bottom positions in the Responsible Nations Index 2026?",
+   "options": [
+    "Central African Republic, Syria and South Sudan",
+    "India, Japan and China",
+    "Singapore, Switzerland and Denmark",
+    "United States, China and Syria"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F10"
+   ],
+   "explanation": "Central African Republic, Syria and South Sudan were at the bottom of the index. Singapore, Switzerland and Denmark were the top three, while India, Japan and China had higher individual ranks."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Nature finance flows",
+   "question": "According to the UNEP State of Finance for Nature 2026, how many of the following statements are correct?\n1. Nature-negative flows in 2023 were valued at USD 7.3 trillion.\n2. Private nature-related flows amounted to USD 2.4 trillion.\n3. Environmentally harmful subsidies amounted to USD 2.4 trillion per year.\n4. The amount needed by 2030 was USD 571 trillion per year.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3",
+    "P5.F4",
+    "P5.F7"
+   ],
+   "explanation": "Only two statements are correct: nature-negative flows were USD 7.3 trillion and environmentally harmful subsidies were USD 2.4 trillion per year. Private flows were USD 4.9 trillion, and the 2030 requirement was USD 571 billion per year, not USD 571 trillion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Required annual investment",
+   "question": "What annual investment in Nature-based Solutions is needed by 2030 according to the UNEP State of Finance for Nature 2026?",
+   "options": [
+    "USD 220 billion",
+    "USD 571 billion",
+    "USD 2.4 trillion",
+    "USD 7.3 trillion"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F7"
+   ],
+   "explanation": "The report identified a requirement of USD 571 billion per year by 2030. USD 220 billion was the stated Nature-based Solutions investment figure, while USD 2.4 trillion referred to environmentally harmful subsidies."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Change in biodiversity finance",
+   "question": "Which combination correctly describes the changes reported in biodiversity and international public Nature-based Solutions finance?",
+   "options": [
+    "Biodiversity spending rose 11%; international public NbS finance was 22% above 2022 and 55% above 2015",
+    "Biodiversity spending rose 22%; international public NbS finance was 11% above 2022 and 55% above 2015",
+    "Biodiversity spending rose 55%; international public NbS finance was 11% above 2022 and 22% above 2015",
+    "Biodiversity spending rose 11%; international public NbS finance was 55% above 2022 and 22% above 2015"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F8"
+   ],
+   "explanation": "Biodiversity spending increased by 11%, while international public NbS finance was 22% above 2022 and 55% above 2015. The other options interchange these percentages or their reference years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rio Conventions",
+   "question": "Which statement correctly describes the Rio Conventions and their associated environmental commitments?",
+   "options": [
+    "UNCCD is associated with restoring 1.5 billion hectares by 2030",
+    "UNFCCC is associated with restoring 1.5 billion hectares by 2030",
+    "CBD is associated with restoring 1.5 billion hectares by 2030",
+    "UNCCD is associated with the 30x30 commitment"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F9"
+   ],
+   "explanation": "The UNCCD is associated with the commitment to restore 1.5 billion hectares by 2030. The 30x30 commitment is associated with the CBD, not the UNCCD."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Nature transition and disclosures",
+   "question": "Consider the following statements:\nStatement A: India’s Nature-based Solutions background includes CAMPA funds but does not include MISHTI.\nStatement B: The Nature Transition X-Curve and TNFD disclosures are identified in the report’s background material.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F10",
+    "P5.F11"
+   ],
+   "explanation": "Statement A is false because the listed Indian initiatives include both MISHTI and CAMPA funds. Statement B is true because the Nature Transition X-Curve and TNFD disclosures are identified in the background material."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Index publisher and scope",
+   "question": "The Asia Manufacturing Index 2026 was which edition, and who published it?",
+   "options": [
+    "Third edition, by Dezan Shira & Associates (Hong Kong), covering 11 Asian countries and 8 pillars",
+    "First edition, by Dezan Shira & Associates (Hong Kong), covering 11 Asian countries and 8 pillars",
+    "Third edition, by the World Intellectual Foundation (New Delhi), covering 154 countries and 8 pillars",
+    "Third edition, by Dezan Shira & Associates (Hong Kong), covering 11 Asian countries and 10 pillars"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The Asia Manufacturing Index 2026 was the third edition, published by Dezan Shira & Associates of Hong Kong, and covered 11 Asian countries across 8 pillars. The World Intellectual Foundation and 154-country coverage relate to the Responsible Nations Index."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Economic burden of diabetes",
+   "question": "According to the Nature Medicine study covering 2020–2050, which country was projected to bear the highest economic burden from diabetes?",
+   "options": [
+    "India, at USD 11.4 trillion",
+    "China, at USD 11 trillion",
+    "United States, at USD 16.5 trillion",
+    "India, at USD 16.5 trillion"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "The United States was projected to bear the highest burden, at USD 16.5 trillion. India’s projected burden was USD 11.4 trillion and China’s was USD 11 trillion."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Ageing classification",
+   "question": "Which of the following statements regarding the RBI’s classification of states by the share of population aged 60 years and above is incorrect?",
+   "options": [
+    "A state with less than 10% is classified as young.",
+    "A state with 10–15% is classified as intermediate.",
+    "A state with more than 15% is classified as ageing.",
+    "A state with 15% or less is classified as ageing."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "The incorrect statement is that a state with 15% or less is ageing. The ageing category requires more than 15%; less than 10% is young and 10–15% is intermediate."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "States ageing by 2036",
+   "question": "According to the RBI report on population ageing, which statement is correct?",
+   "options": [
+    "Kerala and Tamil Nadu were already ageing in 2026, and over half of the states are expected to be ageing by 2036.",
+    "Kerala and Tamil Nadu were young in 2026, and over half of the states are expected to be ageing by 2036.",
+    "Kerala and Tamil Nadu were already ageing in 2026, but no state is expected to be ageing by 2036.",
+    "Kerala and Tamil Nadu were intermediate in 2026, and over half of the states are expected to remain young by 2036."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "Kerala and Tamil Nadu were already ageing in 2026, and by 2036 more than half of the states are expected to be ageing, with none remaining young. The other options reverse or alter these classifications."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Young states",
+   "question": "Which of the following groups consisted of the states classified as young in the RBI report on population ageing?",
+   "options": [
+    "Bihar, Madhya Pradesh, Uttar Pradesh, Chhattisgarh, Jharkhand and Haryana",
+    "Kerala, Tamil Nadu, Bihar, Madhya Pradesh, Uttar Pradesh and Haryana",
+    "Bihar, Telangana, Uttar Pradesh, Chhattisgarh, Jharkhand and Haryana",
+    "Madhya Pradesh, Uttar Pradesh, Kerala, Chhattisgarh, Jharkhand and Haryana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "The young-state group comprised Bihar, Madhya Pradesh, Uttar Pradesh, Chhattisgarh, Jharkhand and Haryana. Kerala and Tamil Nadu were already classified as ageing, while Telangana was not included in this young-state list."
+  }
+ ]
+}

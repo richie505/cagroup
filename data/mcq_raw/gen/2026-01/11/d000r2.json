@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F18",
+  "P0.F22"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitutional milestone; Constituent Assembly",
+   "question": "With reference to the 77th anniversary of the Constitution coming into force and the Constituent Assembly, consider the following statements:\n\n1. The 77th anniversary of the Constitution coming into force was observed on 26 January 2026.\n2. The Constituent Assembly first met on 9 December 1946.\n3. The Constituent Assembly completed its work in 11 sessions spread over 164 days.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F18"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the 77th anniversary was observed on 26 January 2026, and the Constituent Assembly first met on 9 December 1946. Statement 3 is incorrect because the Assembly held 11 sessions over 165 days, not 164 days."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Best tableau; Republic Day parade 2023",
+   "question": "Which State's tableau was adjudged the best tableau at the Republic Day parade in 2023?",
+   "options": [
+    "Uttarakhand",
+    "Maharashtra",
+    "Gujarat",
+    "Kerala"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F22"
+   ],
+   "explanation": "Uttarakhand's tableau, titled “Manaskhand,” was adjudged the best tableau at the Republic Day parade in 2023. Maharashtra, Gujarat and Kerala are associated with other tableau results or themes in the available current-affairs facts."
+  }
+ ]
+}

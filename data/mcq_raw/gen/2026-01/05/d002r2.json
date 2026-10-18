@@ -1,0 +1,52 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P3.F11",
+  "P6.F2",
+  "P7.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "2026 host",
+   "question": "Which country is designated to host the NATO summit and COP in 2026?",
+   "options": [
+    "Turkey",
+    "China",
+    "France",
+    "United States"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F11"
+   ],
+   "explanation": "Turkey is the 2026 host for both the NATO summit and COP. China, France and the United States are associated with hosting other groupings in 2026, not these two events."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Trade target and Sri Lanka economic ties",
+   "question": "Consider the following statements:\n1. India and the United Arab Emirates have set a target of USD 200 billion in bilateral trade by 2032.\n2. In 2025, India accounted for more than 20% of Sri Lanka's tourists and 40–50% of its foreign direct investment.\n3. The bilateral trade target between India and the United Arab Emirates is set for 2030.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P7.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the India–UAE bilateral trade target is USD 200 billion by 2032, while India contributed more than 20% of Sri Lanka's tourists and 40–50% of its FDI in 2025. Statement 3 is incorrect because the target year is 2032, not 2030."
+  }
+ ]
+}

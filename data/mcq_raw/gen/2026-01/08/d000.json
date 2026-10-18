@@ -1,0 +1,268 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F2",
+  "P1.F3",
+  "P2.F10",
+  "P2.F11",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rank among large states",
+   "question": "In the NITI Aayog Export Preparedness Index 2024, consider the following statements regarding the rankings of large States:\n1. Maharashtra ranked first.\n2. Tamil Nadu ranked second.\n3. Gujarat ranked fourth.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Maharashtra ranked first and Tamil Nadu second among large States. Statement 3 is incorrect because Gujarat ranked third, not fourth."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank of Andhra Pradesh",
+   "question": "What was Andhra Pradesh’s rank among the large States in the NITI Aayog Export Preparedness Index 2024?",
+   "options": [
+    "Third",
+    "Fourth",
+    "Fifth",
+    "Sixth"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Andhra Pradesh ranked fifth among the large States. The tempting fourth-place option belongs to Uttar Pradesh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank of Telangana",
+   "question": "Which rank did Telangana secure among the large States in the NITI Aayog Export Preparedness Index 2024?",
+   "options": [
+    "Fifth",
+    "Sixth",
+    "Seventh",
+    "Eighth"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Telangana secured the eighth rank and recorded a score of 57.14. The fifth rank was held by Andhra Pradesh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State ranking trend",
+   "question": "What was Andhra Pradesh’s rank in the NITI Aayog Export Preparedness Index 2024 after rising from 20th in 2020, 9th in 2021 and 8th in 2022?",
+   "options": [
+    "Fourth",
+    "Fifth",
+    "Sixth",
+    "Seventh"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "Andhra Pradesh reached the fifth rank in 2024. The sequence ended with a rise from eighth in 2022 to fifth in 2024."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Pillar weight",
+   "question": "How many of the following statements correctly state the weights of the pillars in the NITI Aayog Export Preparedness Index 2024?\n1. Export infrastructure carries a weight of 20%.\n2. Business environment carries a weight of 40%.\n3. Policy and governance carries a weight of 25%.\n4. Export performance carries a weight of 15%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "Only one statement is correct: business environment carries a 40% weight. Export infrastructure, policy and governance, and export performance each carry 20%, so statements 3 and 4 are incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Export target and NITI leadership",
+   "question": "With reference to the NITI Aayog Export Preparedness Index 2024 and its institutional context, consider the following statements:\nStatement A: The goal associated with the export preparedness initiative is USD 500 billion in exports by 2030.\nStatement B: Suman Bery is the Vice-Chairperson of NITI Aayog.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F15"
+   ],
+   "explanation": "Statement A is false because the goal is USD 1 trillion in exports by 2030. Statement B is true; Suman Bery is the Vice-Chairperson of NITI Aayog."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State score and top performers",
+   "question": "Regarding the additional findings associated with the NITI Aayog Export Preparedness Index 2024, consider the following statements:\n1. Andhra Pradesh recorded a score of 60.65.\n2. Uttarakhand was among the top performers in the small States, North-Eastern States and Union Territories grouping.\n3. Goa was not included among the top performers in that grouping.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13",
+    "P0.F14"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Andhra Pradesh scored 60.65 and Uttarakhand was among the listed top performers. Statement 3 is incorrect because Goa was also included among the top performers."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NITI Aayog CEO",
+   "question": "Who was the Chief Executive Officer of NITI Aayog in the context of the Export Preparedness Index 2024?",
+   "options": [
+    "Suman Bery",
+    "B. V. R. Subrahmanyam",
+    "The Vice-Chairperson of NITI Aayog",
+    "The Chief Secretary of Andhra Pradesh"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "B. V. R. Subrahmanyam was the CEO of NITI Aayog. Suman Bery held the post of Vice-Chairperson, not CEO."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Passport ranking leadership",
+   "question": "Which country ranked first in the Henley Passport Index 2026, with access to 192 destinations visa-free or on arrival?",
+   "options": [
+    "Japan",
+    "Singapore",
+    "South Korea",
+    "Denmark"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "Singapore ranked first with access to 192 destinations. Japan and South Korea jointly ranked second with 188 destinations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Index coverage and publisher",
+   "question": "Consider the following statements about the Henley Passport Index 2026:\nStatement A: The index covered 200 passports and 227 destinations.\nStatement B: The index used IATA data and was associated with Henley & Partners, based in London.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "Statement A is false because the index covered 199 passports, not 200, along with 227 destinations. Statement B is true: it used IATA data and was associated with Henley & Partners of London."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s military power rank",
+   "question": "What was India’s rank in the Global Firepower Index 2026?",
+   "options": [
+    "Second",
+    "Third",
+    "Fourth",
+    "Fifth"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "India ranked fourth in the Global Firepower Index 2026. The second and third positions were occupied by Russia and China, respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "South Korea’s military power rank",
+   "question": "Which rank did South Korea secure in the Global Firepower Index 2026?",
+   "options": [
+    "Fourth",
+    "Fifth",
+    "Sixth",
+    "Seventh"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "South Korea ranked fifth in the Global Firepower Index 2026. France followed at sixth place."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Global military rankings",
+   "question": "Match the countries with their ranks in the Global Firepower Index 2026.\n\nList-I\n(a) France\n(b) Japan\n(c) United Kingdom\n(d) Germany\n\nList-II\n(i) 8\n(ii) 4\n(iii) 7\n(iv) 6\n\nSelect the correct code:",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-i, b-iii, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7",
+    "P2.F8",
+    "P2.F9"
+   ],
+   "explanation": "The correct pairs are France–6, Japan–7, United Kingdom–8 and Germany–12. Therefore, the code shown in option 1 is correct; the other codes assign these countries incorrect ranks."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Pakistan and Bhutan rankings",
+   "question": "Consider the following statements about the Global Firepower Index 2026:\nStatement A: Pakistan ranked 13th.\nStatement B: Bhutan ranked 145th and was the least-ranked country in the index.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F10",
+    "P2.F11"
+   ],
+   "explanation": "Statement A is false because Pakistan ranked 14th, not 13th. Statement B is true: Bhutan ranked 145th and was the least-ranked country in the index."
+  }
+ ]
+}

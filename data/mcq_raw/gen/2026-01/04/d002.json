@@ -1,0 +1,265 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P10.F3",
+  "P10.F4",
+  "P10.F6",
+  "P8.F10",
+  "P8.F11",
+  "P8.F14",
+  "P8.F2",
+  "P8.F3",
+  "P8.F4",
+  "P8.F5",
+  "P8.F7",
+  "P8.F8",
+  "P8.F9",
+  "P9.F10",
+  "P9.F11",
+  "P9.F12",
+  "P9.F13",
+  "P9.F14",
+  "P9.F7",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Global rice exports",
+   "question": "What share of global rice exports is supplied by India, according to the sustainability-in-rice-production assessment?",
+   "options": [
+    "About 25%, exceeding 10 million metric tonnes",
+    "About 40%, exceeding 20 million metric tonnes",
+    "About 50%, exceeding 15 million metric tonnes",
+    "About 65%, exceeding 25 million metric tonnes"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "India supplies about 40% of global rice exports, amounting to over 20 million metric tonnes. The figure of about 25% is lower than the stated share."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rice importance and leading states",
+   "question": "With reference to rice cultivation and consumption in India, consider the following statements:\n\n1. Rice is a staple for about 65% of Indians.\n2. Rice occupies about 30% of the total cropped area.\n3. Uttar Pradesh, Punjab and West Bengal are among the top rice-producing states.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "The first and third statements are correct: rice is a staple for about 65% of Indians, and Uttar Pradesh, Punjab and West Bengal are the top states listed. Rice covers about 25%, not 30%, of the total cropped area."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Kharif rice conditions",
+   "question": "Which combination of conditions is associated with rice as a kharif crop?",
+   "options": [
+    "Temperature below 20°C and rainfall below 50 cm",
+    "Temperature above 25°C and rainfall above 100 cm",
+    "Temperature above 30°C and rainfall below 75 cm",
+    "Temperature between 15°C and 20°C and rainfall above 150 cm"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "Rice as a kharif crop requires temperature above 25°C and rainfall above 100 cm. The other combinations alter the temperature or rainfall conditions."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Groundwater depletion",
+   "question": "Which of the following statements regarding groundwater stress associated with rice cultivation in Punjab and Haryana is incorrect?",
+   "options": [
+    "The water table fell from about 30 feet to a depth of 80–200 feet.",
+    "Extraction exceeds recharge by 35–57%.",
+    "The water table rose from about 30 feet to a depth of 80–200 feet.",
+    "The figures indicate severe groundwater depletion in the region."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "The incorrect statement says that the water table rose; it fell from about 30 feet to 80–200 feet. The extraction rate exceeds recharge by 35–57%, confirming groundwater stress."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rice-related GHG emissions and subsidies",
+   "question": "Rice cultivation accounts for approximately what share of India’s agricultural greenhouse-gas emissions, mainly through methane?",
+   "options": [
+    "1–5%",
+    "10–20%",
+    "25–35%",
+    "40–50%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F8"
+   ],
+   "explanation": "Rice accounts for about 10–20% of India’s agricultural greenhouse-gas emissions, mainly through methane. The higher ranges in the other options do not match the stated estimate."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate impact on rice yields",
+   "question": "According to the assessment of climate change risks to rice production, by how much may rice yields decline?",
+   "options": [
+    "1–3%",
+    "6–10%",
+    "15–20%",
+    "25–30%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F9"
+   ],
+   "explanation": "Climate change may reduce rice yields by 6–10%. The other ranges either understate or overstate the projected decline."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Sustainable rice solutions",
+   "question": "Match the following rice-production interventions with their associated description:\n\nList-I\n(a) DSR\n(b) AWD\n(c) ICAR NICRA\n(d) Fortified rice\n\nList-II\n(i) Implemented under NFSA and PM-POSHAN\n(ii) Direct Seeded Rice\n(iii) Alternate Wetting and Drying, which cuts methane\n(iv) ICAR programme",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F10",
+    "P8.F11"
+   ],
+   "explanation": "The correct pairs are DSR–Direct Seeded Rice, AWD–methane reduction, ICAR NICRA–ICAR programme, and fortified rice–NFSA and PM-POSHAN. The other codes interchange these interventions and descriptions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ICAR improved crop varieties",
+   "question": "How many improved varieties of crops were released by ICAR in the reported programme?",
+   "options": [
+    "122",
+    "184",
+    "24",
+    "25"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F14"
+   ],
+   "explanation": "ICAR released 184 improved varieties of 25 crops. The figure 122 refers only to cereals, while 24 refers to cotton–jute varieties."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s fish-production rank",
+   "question": "According to the fisheries background data, what is India’s position in global fish production?",
+   "options": [
+    "First, while ranking second in aquaculture",
+    "Second, while ranking third in aquaculture",
+    "Third, while ranking second in aquaculture",
+    "Second, while ranking first in aquaculture"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F7"
+   ],
+   "explanation": "India is the third-largest fish producer and the second-largest aquaculture producer. The option placing India first in fish production reverses the stated ranking."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Fisheries institutions and platforms",
+   "question": "Match the following fisheries-related initiatives with their functions:\n\nList-I\n(a) MPEDA\n(b) PMMSY\n(c) ReALCRaft\n(d) Fisheries infrastructure\n\nList-II\n(i) Online registration and licensing of fishing vessels\n(ii) Export promotion\n(iii) Supported through PMMSY\n(iv) Infrastructure development\n\nChoose the correct code.",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-ii, b-iii, c-i, d-iv"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F8",
+    "P9.F9"
+   ],
+   "explanation": "MPEDA is associated with export promotion, PMMSY with fisheries infrastructure, and ReALCRaft with online registration and licensing of fishing vessels. The fourth pairing identifies infrastructure with PMMSY, as stated in the fisheries context."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Richest fishing grounds",
+   "question": "Assertion (A): The richest fishing grounds are generally found where warm and cold ocean currents meet.\nReason (R): The Grand Banks and the Kuroshio–Oyashio region are examples of such meeting zones.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F10"
+   ],
+   "explanation": "Both the assertion and reason are correct. The Grand Banks and Kuroshio–Oyashio region illustrate the meeting of warm and cold currents, explaining why such areas are rich fishing grounds."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Fisheries decade performance",
+   "question": "With reference to India’s fisheries performance during the reported decade, consider the following statements:\n\n1. Fish production increased from 95.79 lakh tonnes to 197.75 lakh tonnes, registering a 106% rise.\n2. India became the first-largest fish producer and the second-largest aquaculture producer.\n3. Aquaculture productivity was 4.77 tonnes per hectare, while seafood exports in 2024–25 reached 16.98 lakh tonnes and ₹62,408 crore.\n4. Value-added exports rose from ₹4,863.40 crore to ₹7,589.93 crore, accounting for about 15% of fisheries exports.",
+   "options": [
+    "1 and 2 only",
+    "2 and 4 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F11",
+    "P9.F12",
+    "P9.F13",
+    "P9.F14"
+   ],
+   "explanation": "The first and third statements are correct: fish production rose by 106%, and the reported aquaculture and seafood-export figures match. India is the second-largest fish producer, not the first, and value-added exports account for about 11%, not 15%, of fisheries exports."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Farmers’ income and food surplus",
+   "question": "Consider the following statements:\nStatement A: Farmers’ income grew at 10.11% per year from 2014–15 to 2024–25.\nStatement B: India may achieve about 20% food surplus by 2035.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F6"
+   ],
+   "explanation": "Statement A is false because the reported income-growth period ends in 2023–24, not 2024–25. Statement B is correct: about 20% food surplus is considered possible by 2035."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Irrigation, crop insurance and KCC coverage",
+   "question": "How many of the following statements regarding agricultural support indicators are correct?\n\n1. Irrigated area increased from 98 million hectares to 122 million hectares.\n2. PMFBY coverage increased from 3.4 crore farmers to 41 crore farmers.\n3. KCC coverage was 7.75 lakh farmers.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "The first two statements are correct. KCC coverage was 7.75 crore, not 7.75 lakh, so only two statements are correct."
+  }
+ ]
+}

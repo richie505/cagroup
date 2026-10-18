@@ -1,0 +1,77 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22
+ ],
+ "only": [
+  "P11.F2",
+  "P13.F2",
+  "P18.F2",
+  "P21.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic partnership since",
+   "question": "India and France have maintained their strategic partnership since which year?",
+   "options": [
+    "1991",
+    "1998",
+    "2004",
+    "2007"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "India and France have maintained a strategic partnership since 1998. The other years do not represent the year in which this partnership began."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "PAX SILICA participants",
+   "question": "With reference to the US-led PAX SILICA initiative, match the following countries with their participation category.\n\nList-I\n(a) Japan\n(b) Taiwan\n(c) Canada\n(d) United Kingdom\n\nList-II\ni. Guest\nii. Partner\n\na-ii, b-i, c-i, d-ii",
+   "options": [
+    "a-ii, b-i, c-i, d-ii",
+    "a-i, b-ii, c-i, d-ii",
+    "a-ii, b-i, c-ii, d-i",
+    "a-i, b-i, c-ii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "Japan and the United Kingdom were partners in PAX SILICA, while Taiwan and Canada were guests. Therefore, the correct pairs are a-ii, b-i, c-i and d-ii."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "International organisation and capital",
+   "question": "Consider the following statements:\n\n1. The World Health Organization was established on 7 April 1948, is headquartered in Geneva and has 194 members.\n2. Suva is the capital of Fiji, whose Prime Minister is Sitiveni Rabuka.\n3. The headquarters of the World Health Organization is in Brussels.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F2",
+    "P21.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the World Health Organization was established on 7 April 1948, is headquartered in Geneva and has 194 members; Suva is Fiji’s capital and Sitiveni Rabuka is its Prime Minister. Statement 3 is incorrect because the WHO headquarters is in Geneva, not Brussels."
+  }
+ ]
+}

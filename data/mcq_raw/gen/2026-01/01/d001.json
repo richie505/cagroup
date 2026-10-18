@@ -1,0 +1,250 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P2.F2",
+  "P2.F3",
+  "P3.F2",
+  "P3.F3",
+  "P3.F4",
+  "P4.F1",
+  "P4.F10",
+  "P4.F4",
+  "P4.F5",
+  "P4.F6",
+  "P4.F9",
+  "P5.F2",
+  "P5.F3",
+  "P5.F4",
+  "P5.F5",
+  "P5.F6",
+  "P5.F9",
+  "P6.F2",
+  "P6.F3",
+  "P6.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Export category and value",
+   "question": "According to the export preparedness details for Andhra Pradesh, which sector recorded exports of ₹24,679 crore and accounted for approximately 60% of India’s exports in that sector?",
+   "options": [
+    "Marine exports",
+    "Pharmaceutical exports",
+    "Total exports",
+    "Natural farming exports"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Marine exports from Andhra Pradesh were valued at ₹24,679 crore and represented approximately 60% of India’s marine exports. Pharmaceutical exports were ₹18,410 crore, while total exports were ₹1.65 lakh crore."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Report location",
+   "question": "Where are the detailed findings relating to the NITI Aayog Export Preparedness Index 2024 presented?",
+   "options": [
+    "Reports page",
+    "News page",
+    "Economic Survey page",
+    "Investment page"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "The detailed findings relating to the Export Preparedness Index 2024 are presented on the Reports page. The export and investment figures are separate details and do not identify the location of the EPI details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Atlas released by",
+   "question": "Who released the State Cancer Atlas of Andhra Pradesh along with oncologist Dr. Nori Dattatreya?",
+   "options": [
+    "N. Chandrababu Naidu",
+    "Dr. Nori Dattatreya",
+    "K. Pawan Kalyan",
+    "G. Satheesh Reddy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "Chief Minister N. Chandrababu Naidu released the State Cancer Atlas along with oncologist Dr. Nori Dattatreya. Dr. Nori Dattatreya was associated with the release but was not the Chief Minister who released it."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Mandatory reporting and disease notification",
+   "question": "Consider the following statements regarding cancer notification in Andhra Pradesh:\n1. All government and private hospitals must report cancer cases.\n2. Public health is a Union subject.\n3. Malaria was among the diseases earlier notified in the context described.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "Only statement 1 is correct: all government and private hospitals must report cancer cases. Public health is a State subject, and the earlier notified diseases listed were TB, HIV, dengue and COVID-19, not malaria."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ministerial directive",
+   "question": "Who directed that the green-cover initiative be fast-tracked and unclassified mangroves be protected in Andhra Pradesh?",
+   "options": [
+    "K. Pawan Kalyan",
+    "N. Chandrababu Naidu",
+    "Dr. Nori Dattatreya",
+    "G. Satheesh Reddy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The directive was issued by Deputy Chief Minister and Forest & Environment Minister K. Pawan Kalyan. The other personalities are associated with cancer notification or the drone ambulance initiative, not this coastal forest directive."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Flagship programmes and MISHTI",
+   "question": "How many of the following statements about Andhra Pradesh’s green-cover and mangrove initiatives are correct?\n1. The Great Green Wall of Andhra Pradesh is a flagship programme.\n2. The 50% Green Cover Programme is not a flagship programme.\n3. MISHTI was launched in 2023 by the Ministry of Environment, Forest and Climate Change.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F5",
+    "P4.F6"
+   ],
+   "explanation": "Statements 1 and 3 are correct, so the answer is Only two. The 50% Green Cover Programme is also listed as a flagship programme; therefore, statement 2 is incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Green Wall zones and disaster losses",
+   "question": "Which combination correctly describes the Great Green Wall of Andhra Pradesh?",
+   "options": [
+    "Three zones—mangroves at river mouths, windbreaks on canal bunds and roads, and village agroforestry; disaster losses of about ₹2.25 lakh crore in the past 30 years",
+    "Three zones—mangroves on salt pans, windbreaks in ports, and urban forestry; disaster losses of about ₹1.65 lakh crore in the past 30 years",
+    "Two zones—mangroves at river mouths and village agroforestry; disaster losses of about ₹2.25 lakh crore in the past 30 years",
+    "Three zones—mangroves at river mouths, windbreaks on canal bunds and roads, and village agroforestry; disaster losses of about ₹24,679 crore in the past 30 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F9",
+    "P4.F10"
+   ],
+   "explanation": "The Great Green Wall has three zones: mangroves at river mouths, windbreaks on canal bunds and roads, and village agroforestry. The associated disaster losses were estimated at about ₹2.25 lakh crore over the past 30 years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Technical guidance",
+   "question": "Who provided guidance for Andhra Pradesh’s human-carrier drone ambulance initiative?",
+   "options": [
+    "G. Satheesh Reddy",
+    "N. Chandrababu Naidu",
+    "K. Pawan Kalyan",
+    "Dr. Nori Dattatreya"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "Guidance for the human-carrier drone ambulance initiative was provided by G. Satheesh Reddy, former DRDO Chairman and Andhra Pradesh’s Aero Defence Adviser. The other options are associated with different Andhra Pradesh initiatives."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institutional support",
+   "question": "Which institutions are supporting the development of Andhra Pradesh’s human-carrier drone ambulance?",
+   "options": [
+    "Kalam Advanced UAV Research Centre at Anna University and IIT Tirupati",
+    "NITI Aayog and the Economic Survey team",
+    "The Andhra Pradesh Forest Department and MoEFCC",
+    "The State Cancer Atlas team and private hospitals"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The supporting institutions are the Kalam Advanced UAV Research Centre at Anna University and IIT Tirupati. The Forest Department, MoEFCC, cancer institutions and economic bodies are not identified as the supporting institutions for this drone ambulance."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Drone specifications and prototype plan",
+   "question": "Match the features of Andhra Pradesh’s human-carrier drone ambulance with the corresponding details.\n\nList-I\n a. Altitude\n b. Payload\n c. Speed\n d. Prototype demonstration and proposed drone port and hub\n\nList-II\n i. 50–60 kmph\n ii. May 2026; monitoring through Unmanned Traffic Management; Vijayawada\n iii. Up to 150 kg\n iv. About 1,200 feet",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-ii, b-iii, c-i, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F4",
+    "P5.F5",
+    "P5.F6",
+    "P5.F9"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-i and d-ii. The drone’s altitude is about 1,200 feet, its payload is up to 150 kg, its speed is 50–60 kmph, and the prototype demonstration was planned for May 2026 with monitoring through Unmanned Traffic Management and a proposed port and hub at Vijayawada."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Natural farming scale",
+   "question": "What scale of participation and coverage was associated with Andhra Pradesh’s natural farming model showcased at Davos?",
+   "options": [
+    "18 lakh farmers and 20 lakh acres",
+    "20 lakh farmers and 18 lakh acres",
+    "18 lakh farmers and 18 lakh acres",
+    "20 lakh farmers and 20 lakh acres"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "The natural farming model covered 18 lakh farmers and 20 lakh acres. The figures are distinct, so reversing them or making them equal produces an incorrect combination."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Future plans",
+   "question": "Which set of plans was associated with Andhra Pradesh’s natural farming model showcased at the World Economic Forum?",
+   "options": [
+    "International organic certification, export marketing and technology-enabled price discovery",
+    "International cancer certification, marine export marketing and satellite-based mangrove mapping",
+    "Organic certification within Andhra Pradesh, pharmaceutical marketing and drone-based rescue",
+    "Natural farming expansion, State Cancer Atlas publication and coastal forest notification"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "The plans were international organic certification, export marketing and technology-enabled price discovery. The other options combine this agenda with unrelated cancer, mangrove, pharmaceutical or drone-related details."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Sustainable Development Goals",
+   "question": "Consider the following statements:\nStatement A: The natural farming model showcased by Andhra Pradesh was linked with SDGs 2, 12, 13 and 15.\nStatement B: The model was linked with SDGs 2, 12, 13 and 16.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "Statement A is correct because the identified SDGs were 2, 12, 13 and 15. Statement B is incorrect because it changes SDG 15 to SDG 16."
+  }
+ ]
+}

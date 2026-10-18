@@ -1,0 +1,184 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23
+ ],
+ "only": [
+  "P14.F2",
+  "P14.F3",
+  "P15.F2",
+  "P17.F3",
+  "P18.F1",
+  "P19.F5",
+  "P20.F2",
+  "P20.F3",
+  "P20.F4",
+  "P21.F2",
+  "P21.F3",
+  "P21.F4",
+  "P22.F2",
+  "P23.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Location and office-holders",
+   "question": "Consider the following statements regarding Ratapani Tiger Reserve:\n1. It lies in Raisen and Sehore districts, with the Kolar River forming its western boundary.\n2. Mohan Yadav is the Chief Minister of Madhya Pradesh, while Mangubhai Patel is its Governor.\n3. Mohan Yadav is the Governor of Madhya Pradesh.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2",
+    "P14.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Ratapani Tiger Reserve is in Raisen and Sehore districts, and Mohan Yadav and Mangubhai Patel hold the offices of Chief Minister and Governor respectively. Statement 3 is incorrect because Mohan Yadav is the Chief Minister, not the Governor."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "History and location",
+   "question": "Bannerghatta National Park is associated with which of the following geographical and historical descriptions?",
+   "options": [
+    "About 22 km south of Bengaluru; reserved forest in 1970 and national park in 1974",
+    "About 140 km north of Mumbai; reserved forest in 1974 and national park in 1990",
+    "North of the Narmada; reserved forest in 1970 and national park in 2002",
+    "In Thanjavur district; reserved forest in 1974 and national park in 2006"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2"
+   ],
+   "explanation": "Bannerghatta National Park is about 22 km south of Bengaluru in the Anekal hills. It was a reserved forest in 1970 and became a national park in 1974; the other options combine details of different places or events."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation history",
+   "question": "The Indian Skimmer, scientifically known as Rynchops albicollis, is associated with which establishment year of the Bombay Natural History Society (BNHS)?",
+   "options": [
+    "1883",
+    "1975",
+    "2010",
+    "1974"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F3"
+   ],
+   "explanation": "The Bombay Natural History Society was established in 1883. The other years refer to the Padma Shri awarded to Dr. V. S. Wakankar, the launch year of M-STrIPES, and the establishment of Bannerghatta National Park respectively."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Project location and authority",
+   "question": "Assertion (A): The Expert Appraisal Committee asked Tamil Nadu to revise the design of the International Dugong Conservation Centre.\nReason (R): The proposed centre is at Manora in Thanjavur district.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P18.F1"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the Expert Appraisal Committee asked Tamil Nadu to revise the centre’s design, and the centre is at Manora in Thanjavur district. However, the location does not explain why the design was asked to be revised."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State office-holder",
+   "question": "Who was the Chief Minister of Arunachal Pradesh associated with the Lohit Valley forest-fire situation?",
+   "options": [
+    "Pema Khandu",
+    "Mohan Yadav",
+    "Mangubhai Patel",
+    "Om Prakash Mathur"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F5"
+   ],
+   "explanation": "Pema Khandu was the Chief Minister of Arunachal Pradesh. Mohan Yadav and Mangubhai Patel are associated with Madhya Pradesh, while Om Prakash Mathur is the Governor of Sikkim."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Geographical and administrative details",
+   "question": "How many of the following statements about Pangolakha Wildlife Sanctuary are correct?\n1. It is connected to the forests of Bhutan and Neora Valley National Park in West Bengal.\n2. Lakes including Changu (Tsomgo) occur in the sanctuary, and the Rangpo and Jaldhaka rivers originate there.\n3. Om Prakash Mathur is the Governor of Sikkim.\n4. Mangubhai Patel is the Governor of Sikkim.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P20.F2",
+    "P20.F3",
+    "P20.F4"
+   ],
+   "explanation": "Statements 1, 2 and 3 are supported: Pangolakha is linked with Bhutan and Neora Valley, includes lakes such as Changu, is associated with the origins of the Rangpo and Jaldhaka rivers, and has Om Prakash Mathur as Governor of Sikkim. Statement 4 is incorrect because Mangubhai Patel is the Governor of Madhya Pradesh."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Port project details",
+   "question": "Match the following features of the Vadhavan Port Project with the correct details.\n\nList-I\n a. Distance from Mumbai\n b. Natural depth\n c. Project implementing partnership\n d. Year in which Palghar was carved out of Thane\n\nList-II\n i. JNPA and Maharashtra Maritime Board\n ii. 2014\n iii. About 140 km north\n iv. About 20 m\n\nSelect the correct answer using the code below.",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F2",
+    "P21.F3",
+    "P21.F4"
+   ],
+   "explanation": "The correct matching is a-iii, b-iv, c-i and d-ii: Vadhavan is about 140 km north of Mumbai, has a natural depth of about 20 m, is being developed by JNPA and the Maharashtra Maritime Board, and Palghar was carved out of Thane in 2014. The other codes interchange these geographical, institutional and chronological details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "River and dam",
+   "question": "Bargi Dam, which received a safety-related notice, is built on which river?",
+   "options": [
+    "Narmada",
+    "Bhagirathi",
+    "Lohit",
+    "Jaldhaka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P22.F2"
+   ],
+   "explanation": "Bargi Dam is built on the Narmada River. Bhagirathi is associated with Tehri Dam, Lohit is a tributary of the Brahmaputra, and Jaldhaka originates in the Pangolakha region."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Height of dam",
+   "question": "What is the height of Tehri Dam, described as the tallest dam in India?",
+   "options": [
+    "260 m",
+    "262 m",
+    "42 km",
+    "1,000 MW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F3"
+   ],
+   "explanation": "Tehri Dam is 260 m high and is described as the tallest dam in India. The figures 262 m, 42 km and 1,000 MW refer respectively to Tehri Lake’s depth, its length, and one of the dam’s power capacities."
+  }
+ ]
+}

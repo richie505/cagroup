@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13
+ ],
+ "only": [
+  "P13.F17",
+  "P13.F18",
+  "P13.F19"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Biofuel blending and ethanol achievement",
+   "question": "With reference to the biofuel initiatives reviewed by the Ministry of Petroleum & Natural Gas, consider the following statements:\n\n1. SATAT had more than 130 CBG plants by November 2025, and mandatory CBG blending in CNG and PNG was introduced from FY 2025–26.\n2. Ethanol blending reached 19.24% in ESY 2024–25, resulting in forex savings of ₹1.55 lakh crore.\n3. Ethanol blending reached 19.24% in ESY 2025–26, resulting in forex savings of ₹1.55 lakh crore.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F17",
+    "P13.F18"
+   ],
+   "explanation": "Statements 1 and 2 are correct. SATAT had more than 130 CBG plants by November 2025, with mandatory blending from FY 2025–26, while ethanol blending was 19.24% in ESY 2024–25 and generated ₹1.55 lakh crore in forex savings. Statement 3 is incorrect because the reported ethanol-blending figure relates to ESY 2024–25, not ESY 2025–26."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "2G ethanol plant locations",
+   "question": "Under the PM JI-VAN Yojana, at which locations were 2G ethanol plants identified?",
+   "options": [
+    "Panipat and Numaligarh",
+    "Panipat and Panipat",
+    "Numaligarh and Numaligarh",
+    "Panipat only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F19"
+   ],
+   "explanation": "The PM JI-VAN Yojana identified 2G ethanol plants at Panipat and Numaligarh. The options naming only Panipat or only Numaligarh are incomplete because both locations were identified."
+  }
+ ]
+}

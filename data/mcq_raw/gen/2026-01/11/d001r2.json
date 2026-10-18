@@ -1,0 +1,65 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F16",
+  "P1.F4",
+  "P2.F6",
+  "P2.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Earth’s Rotation Day — scientific basis",
+   "question": "Consider the following statements about Earth’s Rotation Day observed on 8 January:\n1. Léon Foucault’s pendulum demonstrated Earth’s rotation in 1851.\n2. The demonstration took place at the Eiffel Tower in Paris.\n3. Earth completes one rotation in 23 hours, 56 minutes and 4.09 seconds.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Léon Foucault’s pendulum demonstrated Earth’s rotation in 1851, and the rotation period is 23 hours, 56 minutes and 4.09 seconds. Statement 2 is incorrect because the demonstration took place at the Panthéon in Paris, not at the Eiffel Tower."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of Data Privacy Day observed on 28 January 2026?",
+   "options": [
+    "Privacy by Design",
+    "Siddha for Global Health",
+    "My India, My Vote",
+    "The Power of Youth in Co-Creating Education"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F16"
+   ],
+   "explanation": "The theme of Data Privacy Day was “Privacy by Design.” “My India, My Vote” was associated with National Voters’ Day, making it the most tempting alternative among the listed January observance themes."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Event details and participation",
+   "question": "Match the events and details associated with the 86th AIPOC and the 28th CSPOC.\n\nList-I\n a. 86th AIPOC\n b. 28th CSPOC\n c. Leadership associated with the 86th AIPOC\n d. Participation in the 28th CSPOC\n\nList-II\n i. Chaired by Om Birla\n ii. Speaker Om Birla, UP Speaker Satish Mahana and Rajya Sabha Deputy Chairman Harivansh\n iii. 61 Speakers from 42 Commonwealth countries and 4 semi-autonomous parliaments\n iv. From 19 January at the Uttar Pradesh Legislative Assembly, Lucknow",
+   "options": [
+    "a-iv, b-i, c-ii, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii",
+    "a-iii, b-ii, c-i, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "The correct pairs are a-iv, b-i, c-ii and d-iii. The 86th AIPOC began on 19 January at the Uttar Pradesh Legislative Assembly in Lucknow, while the 28th CSPOC was chaired by Om Birla and involved 61 Speakers from 42 Commonwealth countries and 4 semi-autonomous parliaments."
+  }
+ ]
+}

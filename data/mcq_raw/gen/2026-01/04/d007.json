@@ -1,0 +1,184 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29
+ ],
+ "only": [
+  "P21.F3",
+  "P21.F4",
+  "P21.F5",
+  "P21.F6",
+  "P23.F3",
+  "P23.F4",
+  "P24.F1",
+  "P24.F3",
+  "P25.F3",
+  "P25.F4",
+  "P26.F4",
+  "P27.F2",
+  "P29.F2",
+  "P29.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Withdrawal limits and eligibility",
+   "question": "Consider the following statements about the NPS Swasthya Pension Scheme pilot:\n1. Subscribers above 40 years of age who are not government employees can transfer up to 25% of their NPS contributions.\n2. Partial withdrawals for medical expenses are permitted up to 25% of the subscriber’s own contribution, with no cap if the corpus is at least ₹50,000.\n3. If inpatient costs exceed 70% of the corpus, withdrawal is permitted up to 70% of the corpus.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P21.F3",
+    "P21.F4",
+    "P21.F5"
+   ],
+   "explanation": "Statement 2 is correct: medical withdrawals can be up to 25% of the subscriber’s own contribution, with no cap when the corpus is at least ₹50,000. Statement 1 changes the permitted transfer from 30% to 25%, while Statement 3 changes the permitted withdrawal from 100% to 70% when inpatient costs exceed 70% of the corpus."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Payment mechanism",
+   "question": "Under the NPS Swasthya Pension Scheme pilot, payments for eligible medical expenses are made directly to which of the following?",
+   "options": [
+    "Hospitals, HBA or TPA",
+    "Only the subscriber’s NPS account",
+    "Only State treasuries",
+    "Only PFRDA committees"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F6"
+   ],
+   "explanation": "The scheme provides for payments directly to hospitals, HBA or TPA. The other options do not describe the payment channels specified for the pilot."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Portal integration and automation",
+   "question": "Consider the following statements about the PAIMANA portal:\nStatement A: PAIMANA is integrated with DPIIT’s IPMP and IIG-PMG through APIs.\nStatement B: It replaced the Online Monitoring System introduced in 2006, follows a “one data, one entry” approach, automates about 60% of updates and is linked with the PMO Monitoring Group.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F3",
+    "P23.F4"
+   ],
+   "explanation": "Both statements are true. PAIMANA is connected to IPMP and IIG-PMG through APIs, and it replaced the 2006 Online Monitoring System while automating about 60% of updates and linking with the PMO Monitoring Group. The alternatives incorrectly treat one or both statements as false."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Sugar production and ISMA",
+   "question": "Match List-I with List-II regarding the sugar-production figures and ISMA information reported for the 2025–26 season as of 15 January.\n\nList-I\n(a) Total sugar production\n(b) Mills operating\n(c) ISMA\n(d) Sugar season\n\nList-II\n(i) October–September\n(ii) 518\n(iii) Indian Sugar and Bio-Energy Manufacturers Association\n(iv) 15.9 million tonnes\n\nSelect the correct code:",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F1",
+    "P24.F3"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i: production was 15.9 million tonnes, 518 mills were operating, ISMA stands for Indian Sugar and Bio-Energy Manufacturers Association, and the season runs from October to September. The other codes interchange these figures and terms."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "State capex and fiscal position",
+   "question": "How many of the following statements are correct regarding State finances?\n1. Cash transfers to women increased from ₹120 billion in 2023 to ₹1.5 trillion in 2026.\n2. The revenue deficit was approximately 0.5% of GSDP.\n3. Maharashtra and Gujarat recorded a capital-expenditure ratio above 3.5%.\n4. Punjab and Rajasthan recorded a capital-expenditure ratio above 3.5%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P25.F3",
+    "P25.F4"
+   ],
+   "explanation": "Three statements are correct: the cash transfers rose from ₹120 billion to ₹1.5 trillion, the revenue deficit was about 0.5% of GSDP, and Maharashtra and Gujarat had a capital-expenditure ratio above 3.5%. Statement 4 is incorrect because Punjab and Rajasthan were burdened by interest, rather than being identified with that capital-expenditure ratio."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First hydropower project under IWT",
+   "question": "Which distinction is associated with the Salal Hydroelectric Project in the context of the Indus Waters Treaty framework?",
+   "options": [
+    "It was the first hydropower project built by India in Kashmir under the IWT framework",
+    "It was the first vertical-lift sea railway bridge in India",
+    "It was India’s first coal-to-SNG project",
+    "It was the first rural road project in Mandi district"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F4"
+   ],
+   "explanation": "Salal was the first hydropower project built by India in Kashmir under the Indus Waters Treaty framework. The vertical-lift bridge, coal-to-SNG project and rural road are separate developments."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scrapping-centre capacity",
+   "question": "According to the NITI Aayog report on end-of-life vehicles, what was the operating condition of most vehicle-scrapping centres?",
+   "options": [
+    "They operated below 20% of capacity",
+    "They operated above 20% of capacity",
+    "They operated at 70% of capacity",
+    "They operated at 100% of capacity"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F2"
+   ],
+   "explanation": "Most vehicle-scrapping centres were operating below 20% of their capacity. The alternatives change the reported level of utilisation and therefore do not reflect the finding of the report."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Road connectivity and length",
+   "question": "The connectivity provided to Tuman village in Mandi district after 78 years involved which road?",
+   "options": [
+    "The 2.7-km Shakled–Tuman road",
+    "The 2.3-km Mandapam–Rameswaram route",
+    "The 150-acre Talaipalli access road",
+    "The 690-MW Salal approach road"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F2"
+   ],
+   "explanation": "Tuman village received road and bus connectivity through the 2.7-km Shakled–Tuman road after 78 years. The other options refer to details associated with the old Pamban bridge, the Talaipalli project or Salal."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Coal-to-SNG project location",
+   "question": "Assertion (A): NTPC’s coal-to-SNG project is located at Talaipalli in Chhattisgarh.\nReason (R): The project is located in Tuman village of Mandi district in Himachal Pradesh.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P29.F2",
+    "P29.F4"
+   ],
+   "explanation": "Assertion A is true: the NTPC coal-to-SNG project is at Talaipalli, Chhattisgarh. Reason R is false because Tuman village in Mandi district is associated with the 2.7-km Shakled–Tuman road and its connectivity after 78 years, not the coal-to-SNG project."
+  }
+ ]
+}

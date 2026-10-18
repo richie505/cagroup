@@ -1,43 +1,43 @@
 # CA MCQ report
 
-- MCQs kept: **8834**
-- News pages with at least one question: **2613 / 2629**
-- Facts tested: **15894 / 20515** (77.5%)
-- Answer positions: A 2198, B 2313, C 2344, D 1979
+- MCQs kept: **9342**
+- News pages with at least one question: **2618 / 2629**
+- Facts tested: **16681 / 20515** (81.3%)
+- Answer positions: A 2334, B 2439, C 2470, D 2099
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 924 | 966 | 1022 | 890 |
-| Negative / Incorrect Statement | 162 | 157 | 165 | 147 |
-| Assertion-Reason | 157 | 186 | 234 | 195 |
-| Statement-Based (A/B) | 291 | 185 | 265 | 212 |
-| Multi-Statement Correctness | 334 | 334 | 299 | 303 |
-| Chronological Ordering | 5 | 4 | 2 | 3 |
-| List-Matching | 236 | 215 | 206 | 223 |
-| Count-Based | 89 | 266 | 151 | 6 |
+| Direct Recall | 989 | 1023 | 1081 | 944 |
+| Negative / Incorrect Statement | 167 | 162 | 171 | 154 |
+| Assertion-Reason | 163 | 190 | 244 | 199 |
+| Statement-Based (A/B) | 307 | 191 | 277 | 227 |
+| Multi-Statement Correctness | 356 | 357 | 318 | 322 |
+| Chronological Ordering | 6 | 5 | 3 | 3 |
+| List-Matching | 252 | 232 | 217 | 244 |
+| Count-Based | 94 | 279 | 159 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 1044 |
-| verify:explanation_contradicts | 179 |
-| verify:not_in_facts | 126 |
-| duplicate | 57 |
-| verify:two_correct | 38 |
+| code | 1107 |
+| verify:explanation_contradicts | 194 |
+| verify:not_in_facts | 133 |
+| duplicate | 65 |
+| verify:two_correct | 39 |
 | verify:none_correct | 31 |
-| verify:second reader picked option 2, key 1 | 20 |
+| verify:second reader picked option 2, key 1 | 21 |
 | verify:ambiguous_stem | 9 |
-| verify:garbled | 8 |
+| verify:garbled | 9 |
 | verify:second reader picked option 1, key 0 | 5 |
 | verify:second reader picked option 3, key 0 | 2 |
 | verify:second reader picked option 0, key 1 | 2 |
+| verify:trivial | 2 |
 | verify:second reader picked option 3, key 2 | 2 |
+| verify:second reader picked option 3, key 1 | 2 |
 | verify:second reader picked option 2, key 0 | 1 |
-| verify:trivial | 1 |
 | verify:second reader picked option 1, key 3 | 1 |
 | verify:second reader picked option 0, key 3 | 1 |
-| verify:second reader picked option 3, key 1 | 1 |
 
 ## Per file
 
@@ -142,17 +142,17 @@
 | 2026-02/09 | Awards, Persons & Appointments | 38 | 74/74 |
 | 2026-02/10 | Sports | 26 | 48/48 |
 | 2026-02/11 | Important Days & Events | 71 | 115/116 |
-| 2026-01/01 | Andhra Pradesh | 42 | 95/193 |
-| 2026-01/02 | Polity & Governance | 29 | 63/137 |
-| 2026-01/03 | Schemes & Social Sector | 26 | 47/81 |
-| 2026-01/04 | Economy, Banking & Budget | 42 | 104/246 |
-| 2026-01/05 | International Relations | 39 | 77/162 |
-| 2026-01/06 | Science, Tech, Space & Defence | 18 | 30/84 |
-| 2026-01/07 | Environment & Geography | 40 | 84/156 |
-| 2026-01/08 | Reports, Indices & Rankings | 19 | 39/98 |
-| 2026-01/09 | Awards, Persons & Appointments | 28 | 57/127 |
-| 2026-01/10 | Sports | 8 | 16/29 |
-| 2026-01/11 | Important Days & Events | 24 | 42/152 |
+| 2026-01/01 | Andhra Pradesh | 105 | 188/193 |
+| 2026-01/02 | Polity & Governance | 79 | 136/137 |
+| 2026-01/03 | Schemes & Social Sector | 50 | 81/81 |
+| 2026-01/04 | Economy, Banking & Budget | 127 | 242/246 |
+| 2026-01/05 | International Relations | 92 | 159/162 |
+| 2026-01/06 | Science, Tech, Space & Defence | 52 | 84/84 |
+| 2026-01/07 | Environment & Geography | 89 | 155/156 |
+| 2026-01/08 | Reports, Indices & Rankings | 55 | 96/98 |
+| 2026-01/09 | Awards, Persons & Appointments | 66 | 125/127 |
+| 2026-01/10 | Sports | 18 | 29/29 |
+| 2026-01/11 | Important Days & Events | 90 | 146/152 |
 | 2025-12/01 | Andhra Pradesh | 29 | 59/168 |
 | 2025-12/02 | Polity & Governance | 14 | 28/88 |
 | 2025-12/03 | Schemes & Social Sector | 6 | 10/46 |
@@ -1356,15 +1356,63 @@
 - `2026-01/01/c000#5` verify: not_in_facts — The facts explicitly exclude conditional patta lands but do not establish whether service inam or freehold lands were removed.
   - Q: How many of the following categories were removed from the prohibited list under Section 22-A? / 1. Lands allotted to former and serving defence personnel / 2. Conditional patta lands / 3. Service inam land
   - Key: Only one
+- `2026-01/01/d001#5` verify: not_in_facts — The facts do not state which programmes are flagship programmes, so statements 1 and 2 cannot be decided.
+  - Q: How many of the following statements about Andhra Pradesh’s green-cover and mangrove initiatives are correct? / 1. The Great Green Wall of Andhra Pradesh is a flagship programme. / 2. The 50% Green Cover 
+  - Key: Only two
+- `2026-01/01/d001r2#0` verify: not_in_facts — The supplied facts do not establish which programmes are flagship programmes or when MISHTI was launched.
+  - Q: With reference to Andhra Pradesh’s coastal forest protection initiatives, consider the following statements: /  / 1. The Great Green Wall of Andhra Pradesh is identified as a flagship programme. / 2. The 50
+  - Key: 1 only
+- `2026-01/01/d002#0` verify: not_in_facts — The facts establish that both Kuppam Area Development Authority and AP Tourism are associated institutions but do not distinguish which maps to (i) versus (iv).
+  - Q: With reference to the proposal to declare Kangundi Andhra Pradesh’s first Heritage Village, match List-I with List-II. /  / List-I / (a) Swachh, Suramya and Sanskrutik framework / (b) Kuppam Area Development 
+  - Key: a-ii, b-i, c-iv, d-iii
+- `2026-01/01/d002#6` verify: explanation_contradicts — Statements 1, 2 and 3 are supported by the facts, so three statements—not two—are correct.
+  - Q: Consider the following statements about the national-level features of Census 2027: / 1. It will be the 16th Census. / 2. Its expenditure is ₹11,718 crore. / 3. It will be the first digital census. / 4. It wi
+  - Key: Only two
+- `2026-01/01/d002#9` verify: not_in_facts — The facts identify 67.27 lakh beneficiaries but do not establish whether they were or were not farmers.
+  - Q: Consider the following statements regarding Andhra Pradesh’s 2025 review: / 1. MoUs at the CII Partnership Summit in Visakhapatnam amounted to ₹13.25 lakh crore and were linked to 16.13 lakh youth jobs.
+  - Key: 1 and 2 only
+- `2026-01/01/d004#7` verify: explanation_contradicts — The facts establish that both statements are true, contradicting the explanation that both are false.
+  - Q: Consider the following statements: / Statement A: The Amaravati–Avakaya Festival aimed to unite Andhra cuisine, the cultural ethos of Amaravati and the legacy of Telugu cinema. / Statement B: The festival
+  - Key: Both Statement A and Statement B are false
 - `2026-01/02/c002#7` verify: explanation_contradicts — The facts state that Ambedkar described Article 32 as the “heart and soul,” so Reason R is true, though it does not explain Assertion A.
   - Q: Assertion (A): Article 32 is available only for violation of fundamental rights. / Reason (R): Dr. B. R. Ambedkar described Article 32 as the “heart and soul of the Constitution.”
   - Key: A is true, but R is false
 - `2026-01/03/c001#5` verify: not_in_facts — The facts define the golden hour but do not establish that the Rah-Veer Scheme highlights it.
   - Q: Assertion (A): The Rah-Veer Scheme highlights the golden hour after a traumatic injury. / Reason (R): The golden hour is the first hour after a traumatic injury.
   - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-01/04/d001#2` verify: not_in_facts — The facts establish only 6.7%; they do not establish that 6.9% is uniquely the incorrect alternative while 7.0% and 7.2% are supported.
+  - Q: Which of the following statements regarding the OECD’s projection for India’s GDP growth in 2025–26 is incorrect?
+  - Key: The OECD projected GDP growth at 6.9%.
+- `2026-01/04/d002#10` verify: explanation_contradicts — The reason gives examples of meeting zones but does not explain why such zones are the richest fishing grounds.
+  - Q: Assertion (A): The richest fishing grounds are generally found where warm and cold ocean currents meet. / Reason (R): The Grand Banks and the Kuroshio–Oyashio region are examples of such meeting zones.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-01/04/d004#4` verify: garbled — The question lists three statements, but one option says “All four.”
+  - Q: How many of the following statements about fuel-retail initiatives are correct? / 1. EV charging stations under FAME-II numbered 8,932. / 2. APNA GHAR facilities numbered 500+. / 3. Door-to-door fuel bowser
+  - Key: Only two
+- `2026-01/04/d004#9` verify: explanation_contradicts — The facts make Statements 1 and 3 true, contrary to the explanation’s treatment of Statement 3 as false.
+  - Q: With reference to biofuels in the Year End Review 2025, consider the following statements: / 1. SATAT had more than 130 CBG plants by November 2025, and mandatory CBG blending in CNG and PNG began from 
+  - Key: 1 only
+- `2026-01/04/d005#11` verify: explanation_contradicts — The facts support all four options, so none is an incorrect statement; the explanation wrongly rejects option 0.
+  - Q: Which of the following statements regarding bank loans to MSMEs is incorrect?
+  - Key: All bank loans to MSMEs qualify as priority sector lending.
 - `2026-01/05/c002#3` verify: not_in_facts — The facts identify Juan Angulo as ambassador but do not establish that he conveyed Chile’s support, nor contradict that claim.
   - Q: With reference to Chile's support for India's permanent membership of the UN Security Council, which of the following statements is incorrect?
   - Key: Chile's support was conveyed by Ambassador Juan Angulo.
+- `2026-01/05/d001#6` verify: trivial — The reason merely restates the assertion rather than testing an explanatory relationship.
+  - Q: Assertion (A): The Kimberley Process is aimed at preventing trade in conflict diamonds. / Reason (R): Preventing trade in conflict diamonds is the purpose associated with the Kimberley Process.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-01/05/d002#12` verify: not_in_facts — The fact that Indian tourists were 20%+ does not establish whether they exceeded 30%.
+  - Q: Consider the following statements about India's economic links with Sri Lanka: / Statement A: Indian tourists accounted for more than 30% of Sri Lanka's tourists in 2025. / Statement B: India contributed 
+  - Key: Statement A is false, Statement B is true
+- `2026-01/05/d003#3` verify: two_correct — Japan and South Korea are both partners, while Taiwan and OECD are both guests, so options 0 and 2 fit the duplicated status labels.
+  - Q: Match the following countries and organisations with their status in PAX SILICA. /  / List-I / (a) Japan / (b) South Korea / (c) Taiwan / (d) OECD /  / List-II / (i) Partner / (ii) Partner / (iii) Guest / (iv) Guest
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2026-01/05/d003#6` verify: explanation_contradicts — The facts state that Sitiveni Rabuka is Fiji's Prime Minister, making statement 4 true despite the explanation claiming it is incorrect.
+  - Q: How many of the following statements are correct? / 1. The World Health Organization was established on 7 April 1948. / 2. The headquarters of the World Health Organization is in Paris. / 3. Suva is the cap
+  - Key: Only two
+- `2026-01/06/d001#11` verify: explanation_contradicts — All four statements are supported by the facts, so the explanation's claim that only three are correct is contradictory.
+  - Q: How many of the following statements about the bio-bitumen technology are correct? / 1. It is produced from rice stubble. / 2. The technology was transferred to 14 companies. / 3. The first road using it wa
+  - Key: Only three
 - `2026-01/07/c000#0` verify: not_in_facts — The facts do not identify which agreement completed 10 years or underwent the stated re-evaluation.
   - Q: Which international climate agreement completed 10 years in November 2025 and came up for re-evaluation after the United States exit in early 2025 and COP30 at Belém?
   - Key: Paris Agreement
@@ -1374,6 +1422,12 @@
 - `2026-01/07/c001#6` verify: explanation_contradicts — The facts establish both A and R, but R gives examples of rangelands rather than explaining why they are grasslands used for grazing.
   - Q: Assertion (A): Rangelands are grasslands used for grazing. / Reason (R): Rangelands include savannas, steppes and prairies.
   - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-01/07/d002#3` verify: not_in_facts — The facts do not identify the centre at Manora as the International Dugong Conservation Centre.
+  - Q: Assertion (A): The Expert Appraisal Committee asked Tamil Nadu to revise the design of the International Dugong Conservation Centre. / Reason (R): The proposed centre is at Manora in Thanjavur district.
+  - Key: Both A and R are true, but R is NOT the correct explanation of A
+- `2026-01/07/d002#5` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements about Pangolakha Wildlife Sanctuary are correct? / 1. It is connected to the forests of Bhutan and Neora Valley National Park in West Bengal. / 2. Lakes including Chan
+  - Key: Only two
 - `2026-01/08/c001#2` verify: explanation_contradicts — The 10-year horizon is true but does not explain why biodiversity loss was ranked most severe; the correct option is 1, not 0.
   - Q: Assertion (A): Biodiversity loss and ecosystem collapse was identified as the most severe long-term risk in the WEF Global Risks Report 2026. / Reason (R): The report assessed risks over a 10-year horiz
   - Key: Both A and R are true, and R is the correct explanation of A
@@ -1383,6 +1437,12 @@
 - `2026-01/08/c002#2` verify: not_in_facts — The fact that over 15% cite socio-cultural reasons does not contradict the possibility that over 25% do.
   - Q: Which of the following statements regarding the CEEW study’s state-level findings is incorrect?
   - Key: In Himachal Pradesh, Andhra Pradesh and Assam, over 25% cite socio-cultural reasons.
+- `2026-01/08/d000#12` verify: explanation_contradicts — Germany is ranked 12th, but rank 12 is absent from List-II; the stated option 1 does not match the facts.
+  - Q: Match the countries with their ranks in the Global Firepower Index 2026. /  / List-I / (a) France / (b) Japan / (c) United Kingdom / (d) Germany /  / List-II / (i) 8 / (ii) 4 / (iii) 7 / (iv) 6 /  / Select the correct code:
+  - Key: a-iv, b-iii, c-i, d-ii
+- `2026-01/08/d001#0` verify: explanation_contradicts — Statements 1 and 2 are supported by the facts, while statement 3 is contradicted; thus statement 2 is not correct alone.
+  - Q: With reference to the Responsible Nations Index 2026, consider the following statements: / 1. The index covers 154 countries and uses a 0–1 scale. / 2. India ranked 16th with a score of 0.551513. / 3. Japan
+  - Key: 2 only
 - `2026-01/09/c000#2` verify: not_in_facts — The facts establish that the Kerala claim is false, but do not establish whether Alka Yagnik received the Padma Bhushan.
   - Q: With reference to the Padma Awards 2026, consider the following: / Assertion (A): Alka Yagnik received the Padma Bhushan in Arts from Kerala. / Reason (R): Alka Yagnik received the Padma Bhushan in Arts a
   - Key: A is false, but R is true
@@ -1401,9 +1461,30 @@
 - `2026-01/10/c000#5` verify: not_in_facts — The facts do not identify the 21-year-old Delhi player by name, so no option is established.
   - Q: Who became India's 92nd Grandmaster after winning the Andranik Margaryan Memorial in Armenia?
   - Key: Aryan Varshney
+- `2026-01/10/d000#0` verify: explanation_contradicts — The facts establish that all three statements are true, but the explanation incorrectly calls Statement 1 false.
+  - Q: With reference to the Khelo India Beach Games 2026, consider the following statements: / 1. The Games featured six medal sports, including Beach Volleyball, Beach Soccer and Open Water Swimming. / 2. Mall
+  - Key: 2 and 3 only
 - `2026-01/10/g000r2#0` verify: not_in_facts — The facts describe the winner but do not name Aryan Varshney.
   - Q: Who became India's 92nd Grandmaster after winning the Andranik Margaryan Memorial in Armenia?
   - Key: Aryan Varshney
+- `2026-01/11/d001#7` verify: explanation_contradicts — The facts identify “Citizen at the Heart of Indian Democracy” as the tagline, making statements 2 and 3 correct; the explanation incorrectly rejects statement 2.
+  - Q: How many of the following statements about January observances are correct? /  / 1. National Voters’ Day is observed on 24 January. / 2. The tagline of National Voters’ Day is “Citizen at the Heart of India
+  - Key: Only one
+- `2026-01/11/d001#10` verify: explanation_contradicts — Statements 1 and 2 are supported by the facts, but the explanation incorrectly says statement 1 is false.
+  - Q: Consider the following statements: /  / 1. The 86th AIPOC began on 19 January at the UP Legislative Assembly in Lucknow. / 2. The 28th CSPOC was chaired by Om Birla. / 3. The 86th AIPOC was held at Yashobhoom
+  - Key: 2 only
+- `2026-01/11/d002#3` verify: explanation_contradicts — The correct matching is option 0, but the explanation identifies option 1.
+  - Q: Match List-I with List-II regarding selected Indian firsts of January 2026. /  / List-I / (a) Azista Space / (b) Maharashtra / (c) Assam / (d) Andaman Sea near North Bay /  / List-II / (i) First open-sea marine aquacul
+  - Key: a-iv, b-ii, c-iii, d-i
+- `2026-01/11/d002#6` verify: explanation_contradicts — The correct matching is option 0, but the explanation identifies option 1.
+  - Q: Match the following January 2026 firsts with their associated descriptions. /  / List-I / (a) LNG–diesel dual-fuel DEMU / (b) ASC Arjun / (c) Legal rights for stingless bees / (d) Mitapivat (Aquesmy) /  / List-II / (i)
+  - Key: a-iii, b-ii, c-iv, d-i
+- `2026-01/11/d002r2#6` verify: explanation_contradicts — Statement 3 is supported by the facts, so statements 1 and 3 are correct rather than only statement 1.
+  - Q: How many of the following statements about the world’s largest compressed-air energy storage facility are correct? /  / 1. It is located in Jiangsu, China. / 2. It has a capacity of 2,400 MWh and 60 MW. / 3. 
+  - Key: Only one
+- `2026-01/11/d003#10` verify: second reader picked option 3, key 1 — 
+  - Q: How many of the following statements about India's digital public services are correct? / 1. MyGov has more than 6 crore users. / 2. eSanjeevani has recorded more than 44 crore consultations. / 3. MyGov has
+  - Key: Only two
 - `2025-12/08/c000#2` verify: none_correct — Statements 2 and 3 are supported by the facts, while statement 1 changes 1.55°C to 1.5°C; no option represents 2 and 3 only, and the explanation's rejection of statement 3 is unsupported.
   - Q: With reference to the key findings of the Global Environment Outlook 2025, consider the following statements: / 1. Global temperature in 2024 reached 1.5°C, the highest ever. / 2. One million of the world
   - Key: 2 only

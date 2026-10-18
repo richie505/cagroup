@@ -1,0 +1,86 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  31,
+  32,
+  33,
+  34,
+  35
+ ],
+ "only": [
+  "P31.F2",
+  "P32.F3",
+  "P33.F2",
+  "P34.F2",
+  "P34.F7",
+  "P34.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place and distance",
+   "question": "Shiveluch volcano, which erupted in Russia in January 2026, is located in which region and at approximately what distances from Petropavlovsk-Kamchatsky and Klyuchi?",
+   "options": [
+    "Kamchatka Peninsula; about 450 km from Petropavlovsk-Kamchatsky and about 50 km from Klyuchi",
+    "Sumatra; about 450 km from Petropavlovsk-Kamchatsky and about 50 km from Klyuchi",
+    "Kamchatka Peninsula; about 50 km from Petropavlovsk-Kamchatsky and about 450 km from Klyuchi",
+    "Aceh Province; about 50 km from Petropavlovsk-Kamchatsky and about 450 km from Klyuchi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P31.F2"
+   ],
+   "explanation": "Shiveluch is situated on the Kamchatka Peninsula, about 450 km from Petropavlovsk-Kamchatsky and about 50 km from Klyuchi. The tempting alternative reverses the two distances, while Sumatra and Aceh Province relate to Indonesia rather than Shiveluch."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Volcano type, height and Red Sea location",
+   "question": "Consider the following statements:\n1. Mount Bur Ni Telong is a stratovolcano with a height of 2,624 m.\n2. Mount Bur Ni Telong is part of the Atlantic Ring of Fire.\n3. The Red Sea lies between Africa and Arabia.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P32.F3",
+    "P33.F2"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Mount Bur Ni Telong is a 2,624 m stratovolcano, and the Red Sea lies between Africa and Arabia. Statement 2 is incorrect because Mount Bur Ni Telong is part of the Pacific Ring of Fire, not the Atlantic Ring of Fire."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Ports and countries bordering the Sea of Japan",
+   "question": "Match List-I with List-II regarding ports associated with the Sea of Japan.\n\nList-I\n(a) Vladivostok\n(b) Chongjin\n(c) Niigata\n(d) Nakhodka\n\nList-II\n(i) Japan\n(ii) Russia\n(iii) North Korea\n(iv) South Korea",
+   "options": [
+    "a-ii, b-iii, c-i, d-ii",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-i, c-iii, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P34.F8"
+   ],
+   "explanation": "The correct pairs are Vladivostok–Russia, Chongjin–North Korea, Niigata–Japan and Nakhodka–Russia. The other codes incorrectly assign one or more of these ports to Japan, South Korea or North Korea."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Deepest point and tides",
+   "question": "How many of the following statements about the Sea of Japan are correct?\n\n1. Its deepest point is Dohoku Seamount.\n2. It has almost no tides.\n3. Its deepest point is Tsugaru Seamount.\n4. It has strong tides.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P34.F7"
+   ],
+   "explanation": "Exactly two statements are correct: the deepest point is Dohoku Seamount and the Sea of Japan has almost no tides. Statements 3 and 4 change these details to Tsugaru Seamount and strong tides, respectively."
+  }
+ ]
+}

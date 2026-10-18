@@ -1,0 +1,87 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F3",
+  "P10.F4",
+  "P13.F1",
+  "P14.F4",
+  "P14.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Artists involved",
+   "question": "In the Bagurumba festival and dance tradition of Assam, watched by the Prime Minister, approximately how many artists performed?",
+   "options": [
+    "More than 10,000",
+    "More than 1,000",
+    "More than 5,000",
+    "More than 20,000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "More than 10,000 artists performed Bagurumba. The figure is not more than 1,000, 5,000 or 20,000."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Largest festival of tribe",
+   "question": "Boda Tyohar is identified as the largest festival of which tribal community in Sirmaur?",
+   "options": [
+    "Hatti",
+    "Bodo",
+    "Gond",
+    "Toda"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "Boda Tyohar is the largest festival of the Hatti tribe in Sirmaur, Himachal Pradesh. Bodo is associated with Bagurumba, while Gond and Toda are not identified with Boda Tyohar here."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Historical interval and place",
+   "question": "Consider the following statements about the Kerala Kumbhamela and Kathputli folk art:\n1. The Kerala Kumbhamela was held at Tirunavaya on the Nila River after a gap of 271 years, with the previous observance in 1755.\n2. In Jaipur, about 250 families preserve Kathputli folk art.\n3. The Kerala Kumbhamela returned after a gap of 171 years.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4",
+    "P13.F1"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Kerala Kumbhamela was held at Tirunavaya on the Nila River after 271 years, and about 250 Jaipur families preserve Kathputli. Statement 3 is incorrect because the gap was 271 years, not 171 years."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Evolution and revival",
+   "question": "Match the following aspects of the bandhgala/Jodhpuri jacket with their associated details:\n\nList-I\n a. Polo\n b. Jacket with breeches\n c. Refinement\n d. Revival\n\nList-II\n i. Jodhpurs\n ii. Savile Row tailors\n iii. 1990s\n iv. Became associated with the jacket\n\nSelect the correct answer using the codes given below.",
+   "options": [
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F4",
+    "P14.F5"
+   ],
+   "explanation": "The correct pairs are a-iv, b-i, c-ii and d-iii: polo was associated with the jacket, the jacket with breeches became Jodhpurs, Savile Row tailors refined it, and its revival occurred in the 1990s. The other codes reverse these associations."
+  }
+ ]
+}

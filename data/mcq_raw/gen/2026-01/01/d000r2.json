@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F19",
+  "P1.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Project capacity distinction",
+   "question": "According to the CARE Daily account, what is the phased capacity of the Kakinada green ammonia project?",
+   "options": [
+    "0.5 MTPA",
+    "1.0 MTPA",
+    "1.5 MTPA",
+    "5 million tonnes"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F19"
+   ],
+   "explanation": "CARE Daily describes the Kakinada project as India's first and the world's largest green ammonia project with a phased capacity of 1.5 MTPA. The 1.0 MTPA figure refers to the Uniper supply plant in the contrasting account, not the project's phased capacity."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Section 22-A land status",
+   "question": "Under the Andhra Pradesh decision concerning Section 22-A of the Registration Act, what was the status of partially disputed survey numbers?",
+   "options": [
+    "Only the disputed portion remains prohibited",
+    "The entire survey number remains prohibited",
+    "Only the undisputed portion remains prohibited",
+    "The entire survey number was removed from the prohibited list"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "For partially disputed survey numbers, only the disputed portion continues to remain prohibited under the Section 22-A review. The entire survey number was not kept prohibited; the restriction was limited to the disputed portion."
+  }
+ ]
+}

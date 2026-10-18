@@ -1,0 +1,216 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30
+ ],
+ "only": [
+  "P24.F2",
+  "P24.F3",
+  "P27.F2",
+  "P27.F3",
+  "P28.F1",
+  "P28.F12",
+  "P28.F15",
+  "P28.F2",
+  "P28.F5",
+  "P28.F7",
+  "P28.F8",
+  "P28.F9",
+  "P29.F1",
+  "P29.F2",
+  "P29.F4",
+  "P30.F2",
+  "P30.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Initiative, launch year and organisation details",
+   "question": "Match List-I with List-II in the context of the JALAJ Livelihood Centres initiative.\n\nList-I\n(a) JALAJ\n(b) Namami Gange\n(c) Wildlife Institute of India\n(d) Wildlife Institute of India headquarters\n\nList-II\n(i) Joint initiative of Namami Gange and WII\n(ii) Launched in 2014\n(iii) Established in 1982\n(iv) Dehradun\n\nCodes:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F2",
+    "P24.F3"
+   ],
+   "explanation": "The correct pairs are JALAJ–joint initiative of Namami Gange and WII, Namami Gange–launched in 2014, WII–established in 1982, and WII headquarters–Dehradun. The tempting second code reverses the initiative and launch-year associations."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Scientific name and ecological traits",
+   "question": "With reference to the rare galaxy frog of the Western Ghats, consider the following statements:\n\n1. Its scientific name is Melanobatrachus indicus.\n2. It lives under rotten stones.\n3. It communicates through vocal calls.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F2",
+    "P27.F3"
+   ],
+   "explanation": "Only statement 1 is correct: the scientific name is Melanobatrachus indicus. The frog lives under rotten logs and communicates without vocal calls, not through vocal calls."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Date and location of extreme weather event",
+   "question": "The bomb cyclone reported on 29 December 2025 affected which location?",
+   "options": [
+    "Northern United States",
+    "Western North Atlantic",
+    "Northwestern Pacific",
+    "Mediterranean"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F1"
+   ],
+   "explanation": "The event occurred on 29 December 2025 in the northern United States, including the Midwest and East Coast. The western North Atlantic, northwestern Pacific and Mediterranean are areas associated with the broader occurrence of bomb cyclones, not the location of this reported event."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Impact figures",
+   "question": "How many of the following impact figures were reported for the bomb cyclone in the northern United States?\n\n1. More than 27,000 power outages\n2. More than one-half of the power outages in Michigan\n3. More than 7,000 flight delays\n4. 988 flight cancellations",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F2"
+   ],
+   "explanation": "Only one statement is correct: the event caused more than 27,000 power outages. The correct figures were over one-third of the outages in Michigan, more than 9,000 flight delays and 889 cancellations."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Formation mechanism",
+   "question": "Assertion (A): A bomb cyclone forms when cold Arctic or Canadian air meets warm, moist air.\nReason (R): The meeting of these contrasting air masses contributes to the development of an intense mid-latitude storm.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F5"
+   ],
+   "explanation": "Both statements are true, and the reason explains the formation mechanism described for a bomb cyclone. The key contrast is between cold Arctic or Canadian air and warm, moist air."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Geographical distribution and statistical study",
+   "question": "Match the features associated with bomb cyclones in List-I with the appropriate descriptions in List-II.\n\nList-I\n(a) Western North Atlantic\n(b) Northwestern Pacific\n(c) Northern Illinois University study\n(d) Average annual occurrence near North America\n\nList-II\n(i) Main region where bomb cyclones occur\n(ii) Another region where bomb cyclones occur\n(iii) 2021 study covering 1979–2019\n(iv) About 18 per year\n\nCodes:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F7",
+    "P28.F8"
+   ],
+   "explanation": "The correct pairs are western North Atlantic–main region, northwestern Pacific–another region, Northern Illinois University study–2021 study covering 1979–2019, and average occurrence–about 18 per year. The other codes interchange the regions, study details and annual figure."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Hazards, season and cyclone structure",
+   "question": "Consider the following statements about bomb cyclones and tropical cyclones:\n\n1. Bomb cyclones may produce winds of 80 kmph or more, blizzards, lakeshore flooding and thundersnow.\n2. Bomb cyclones are most frequent in summer and early autumn.\n3. The eye of a tropical cyclone is colder than its surroundings.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F9",
+    "P28.F12",
+    "P28.F15"
+   ],
+   "explanation": "Only statement 1 is correct because these are listed hazards of bomb cyclones. Fall and winter are the more frequent seasons for bomb cyclones, while the eye of a tropical cyclone is warmer, not colder, than its surroundings."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Urban heat island impact on birds",
+   "question": "Why are urban birds described as early victims of Urban Heat Island conditions during heatwaves?",
+   "options": [
+    "They suffer dehydration and collapse",
+    "They become the only heat-tolerant species to survive",
+    "They live under rotten logs",
+    "They cause lakeshore flooding"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F1"
+   ],
+   "explanation": "Urban birds are early victims because heatwaves in urban heat islands can cause dehydration and collapse. The other options refer to biotic homogenisation, the habitat of the galaxy frog, and a bomb-cyclone hazard respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Urban heat island intensity and studies",
+   "question": "Consider the following statements about urban heat islands and related studies:\n\n1. Urban heat island intensity in India is 2–10°C.\n2. Surface hotspots are 4–6°C hotter.\n3. The cited studies include Bengaluru in 2025, the Western Ghats in 2022 and China in 2023.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P29.F2",
+    "P29.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Indian urban heat island intensity is 2–10°C, and the cited studies include Bengaluru in 2025, the Western Ghats in 2022 and China in 2023. Surface hotspots are 6–8°C hotter, not 4–6°C hotter."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Eruption history and deaths",
+   "question": "Consider the following statements about Mayon volcano:\n\nStatement A: Mayon has recorded eruptions since 1716.\nStatement B: The 1814 eruption caused 79 deaths.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P30.F2"
+   ],
+   "explanation": "Both statements are false. Mayon has recorded eruptions since 1616, and the 1814 eruption caused more than 1,200 deaths; 79 deaths is the figure associated with the 1993 eruption."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "President of the Philippines",
+   "question": "Who is the President of the Philippines mentioned in connection with the Mayon volcano situation?",
+   "options": [
+    "Ferdinand “Bongbong” Marcos Jr.",
+    "The Union Jal Shakti Minister",
+    "The Wildlife Institute of India",
+    "Namami Gange"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P30.F3"
+   ],
+   "explanation": "The President of the Philippines is Ferdinand “Bongbong” Marcos Jr. The other options are an Indian ministerial reference, an institute and an initiative, not the Philippine President."
+  }
+ ]
+}

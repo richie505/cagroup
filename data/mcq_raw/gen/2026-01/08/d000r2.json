@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in index",
+   "question": "In the Global Firepower Index 2026, what was France’s rank?",
+   "options": [
+    "4th",
+    "6th",
+    "7th",
+    "8th"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "France ranked 6th in the Global Firepower Index 2026. The tempting adjacent ranks 7th and 8th were not France’s rank."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Country-wise rankings",
+   "question": "Consider the following statements about the Global Firepower Index 2026:\n1. Japan ranked 7th.\n2. The UK ranked 8th.",
+   "options": [
+    "1 only",
+    "2 only",
+    "Neither 1 nor 2",
+    "1 and 2"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "Both statements are correct: Japan ranked 7th and the UK ranked 8th in the Global Firepower Index 2026. Therefore, the option containing both statements is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in index",
+   "question": "What was Germany’s rank in the Global Firepower Index 2026?",
+   "options": [
+    "9th",
+    "10th",
+    "11th",
+    "12th"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "Germany ranked 12th in the Global Firepower Index 2026. The nearby ranks 9th, 10th and 11th are incorrect."
+  }
+ ]
+}

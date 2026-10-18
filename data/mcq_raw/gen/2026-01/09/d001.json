@@ -1,0 +1,162 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P1.F2",
+  "P1.F5",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F8",
+  "P2.F9",
+  "P4.F10",
+  "P4.F11",
+  "P4.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of gallantry awards",
+   "question": "How many armed forces gallantry awards were announced in the 2026 gallantry awards?",
+   "options": [
+    "70",
+    "68",
+    "72",
+    "75"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "A total of 70 armed forces gallantry awards were announced. The tempting figure 72 is incorrect; the awards included one Ashoka Chakra, three Kirti Chakras and 13 Shaurya Chakras."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institution and eligibility of award",
+   "question": "Which statement correctly describes the Ashoka Chakra and the peacetime gallantry awards in India?",
+   "options": [
+    "Peacetime gallantry awards were instituted in 1952, and the Ashoka Chakra is open to civilians too",
+    "Peacetime gallantry awards were instituted in 1952, but the Ashoka Chakra is restricted to armed forces personnel",
+    "Peacetime gallantry awards were instituted in 1965, and the Ashoka Chakra is open to civilians too",
+    "Peacetime gallantry awards were instituted in 2003, but the Ashoka Chakra is restricted to armed forces personnel"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "India instituted its peacetime gallantry awards in 1952, and the Ashoka Chakra may also be awarded to civilians. The incorrect alternatives either restrict eligibility or change the year of institution."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Appointments to key posts",
+   "question": "Match the persons with their appointments announced in January 2026.\n\nList-I\n(a) Rakesh Agarwal\n(b) Praveen Kumar\n(c) Shatrughanjit Singh Kapur\n(d) Abhishek Dev\n\nList-II\ni. Director General, NIA\nii. Director General, BSF\niii. Director General, ITBP\niv. Chairman, APEDA",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F9",
+    "P2.F10",
+    "P2.F11"
+   ],
+   "explanation": "Rakesh Agarwal was appointed DG, NIA; Praveen Kumar DG, BSF; Shatrughanjit Singh Kapur DG, ITBP; and Abhishek Dev Chairman, APEDA. The other codes interchange these appointments."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Trade and regulatory appointments",
+   "question": "Consider the following statements about appointments announced in January 2026:\n\n1. A. Shaktivel was appointed Chairman of the AEPC for a fifth term.\n2. P. S. Girish was appointed Director (Finance) of the Central Silk Board.\n3. A. V. Girija Kumar was appointed Chairman of the IRDAI Re-Insurance Advisory Committee under Section 101A of the Insurance Act, 1938.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12",
+    "P2.F13",
+    "P2.F14"
+   ],
+   "explanation": "Statements 1 and 2 are correct: A. Shaktivel began a fifth term as AEPC Chairman, and P. S. Girish became Director (Finance) of the Central Silk Board. Statement 3 is incorrect because the committee is constituted under Section 101B, not Section 101A, of the Insurance Act, 1938."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Organisations under MHA and diplomatic representation",
+   "question": "How many of the following statements are correct?\n\n1. The NIA was established in 2009 and functions under the Ministry of Home Affairs.\n2. The BSF was established in 1965 and functions under the Ministry of Home Affairs.\n3. The ITBP was established in 1965 and functions under the Ministry of Home Affairs.\n4. India sends Ambassadors to Commonwealth countries and High Commissioners to other countries.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F15",
+    "P2.F16"
+   ],
+   "explanation": "Only statements 1 and 2 are correct, so the answer is Only two. The ITBP was established in 1962, not 1965, and India sends High Commissioners to Commonwealth countries and Ambassadors to other countries."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news and manner of death",
+   "question": "Which Maharashtra Deputy Chief Minister died in an aircraft accident near Baramati in January 2026?",
+   "options": [
+    "Ajit Pawar",
+    "Madhav Gadgil",
+    "Davinder Singh Garcha",
+    "Manoj Kothari"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8"
+   ],
+   "explanation": "Ajit Pawar, Maharashtra’s Deputy Chief Minister, died in an aircraft accident near Baramati. Madhav Gadgil was known as an ecologist, while Davinder Singh Garcha and Manoj Kothari were associated with hockey and billiards respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Former coach",
+   "question": "Michael Nobbs, who died in January 2026, had served as the coach of which Indian team?",
+   "options": [
+    "India men's hockey team",
+    "India men's cricket team",
+    "India women's hockey team",
+    "India men's football team"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F10"
+   ],
+   "explanation": "Michael Nobbs was the former coach of the India men's hockey team, serving from 2011 and during the 2012 London period. The alternatives incorrectly associate him with cricket, women's hockey or football."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First Indian woman nominated for Nobel Prize in Literature",
+   "question": "Consider the following statements:\nStatement A: Rajkumari Indira Devi Dhanrajgir was the first Indian woman nominated for the Nobel Prize in Literature in 1975.\nStatement B: Rajkumari Indira Devi Dhanrajgir was the first Indian woman nominated for the Nobel Prize in Literature in 1973.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F11"
+   ],
+   "explanation": "Statement B is correct: Rajkumari Indira Devi Dhanrajgir was the first Indian woman nominated for the Nobel Prize in Literature in 1973. Statement A changes the correct year from 1973 to 1975."
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  20
+ ],
+ "only": [
+  "P20.F1",
+  "P20.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Two-child norm",
+   "question": "With reference to the Telangana Assembly bill concerning eligibility for local-body elections, consider the following statements:\n1. The two-child norm was removed.\n2. The removal applies to Panchayat, Mandal and Zilla Praja Parishad polls.\n3. The bar was removed only temporarily.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F1"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Assembly bill permanently removes the two-child bar for Panchayat, Mandal and Zilla Praja Parishad polls. Statement 3 is incorrect because the removal is permanent, not temporary."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Village renaming",
+   "question": "The village of Jainz Tirumalapur in Gopalpeta, Wanaparthy, was renamed as what?",
+   "options": [
+    "Jayanna Tirumalapur",
+    "Jainz Tirumalapur",
+    "Gopalpeta",
+    "Wanaparthy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F2"
+   ],
+   "explanation": "The village was renamed Jayanna Tirumalapur. Jainz Tirumalapur is the former name, while Gopalpeta and Wanaparthy identify the administrative location rather than the new village name."
+  }
+ ]
+}

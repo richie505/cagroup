@@ -1,0 +1,286 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F1",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F15",
+  "P1.F16",
+  "P1.F3",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F9",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F2",
+  "P2.F3",
+  "P2.F4",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme / fact",
+   "question": "Which day observed on 1 January has the associated theme or fact of the UN book “One Day in Peace” and the origin of the word “family” from the Latin term “famulus”?",
+   "options": [
+    "World Family Day",
+    "World Braille Day",
+    "National Youth Day",
+    "Data Privacy Day"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "World Family Day is observed on 1 January, with “One Day in Peace” and the Latin origin “famulus” associated with it. World Braille Day, National Youth Day and Data Privacy Day are observed on other January dates."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of the 9th National Siddha Day observed on 6 January 2026?",
+   "options": [
+    "Siddha for Global Health",
+    "Privacy by Design",
+    "The Power of Youth in Co-Creating Education",
+    "Sadak Suraksha, Jeevan Raksha"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The theme of the 9th National Siddha Day was “Siddha for Global Health.” The other options are associated with Data Privacy Day, International Day of Education and National Road Safety Week respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scientific fact",
+   "question": "According to the fact highlighted on Earth's Rotation Day, how long does Earth take to complete one rotation?",
+   "options": [
+    "23 hours 56 minutes 4.09 seconds",
+    "Approximately 1,610 kilometres per hour",
+    "1851",
+    "One Day in Peace"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "Earth’s rotation period is 23 hours 56 minutes 4.09 seconds. Approximately 1,610 kilometres per hour is the associated rotational speed, while 1851 refers to Léon Foucault’s pendulum demonstration."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Date and associated fact",
+   "question": "Match the January observances in List-I with their associated facts in List-II.\n\nList-I\n a. Pravasi Bharatiya Divas\n b. National Road Safety Week\n\nList-II\n i. 4E model\n ii. Gandhi returned from South Africa\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "Pravasi Bharatiya Divas is associated with Gandhi’s return from South Africa, while National Road Safety Week uses the 4E model. Therefore, the correct pairs are a-ii and b-i."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Day and associated fact",
+   "question": "Match the observances in List-I with their associated facts in List-II.\n\nList-I\n a. National Youth Day\n b. National Startup Day\n\nList-II\n i. Ten years of Startup India\n ii. Birth anniversary of Swami Vivekananda\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F9"
+   ],
+   "explanation": "National Youth Day marks the birth anniversary of Swami Vivekananda, whereas National Startup Day marked ten years of Startup India. Thus, a-ii and b-i is the correct matching."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Date and theme",
+   "question": "Consider the following statements:\nStatement A: Parakram Diwas is observed on 24 January to mark Netaji’s birth anniversary.\nStatement B: The theme of the International Day of Education was “The Power of Youth in Co-Creating Education”.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "Statement A is false because Parakram Diwas is observed on 23 January, marking Netaji’s birth anniversary. Statement B is true because “The Power of Youth in Co-Creating Education” was the theme of the International Day of Education."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Launch year and theme",
+   "question": "Assertion (A): National Girl Child Day was launched in 2008.\nReason (R): The theme of the 77th Republic Day was “150 Years of Vande Mataram”.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F13",
+    "P1.F15"
+   ],
+   "explanation": "Both the assertion and the reason are true: National Girl Child Day was launched in 2008, and the Republic Day theme was “150 Years of Vande Mataram”. However, the Republic Day theme does not explain the launch of National Girl Child Day."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Themes and dates",
+   "question": "How many of the following statements about January observances are correct?\n\n1. National Voters’ Day is observed on 24 January.\n2. The tagline of National Voters’ Day is “Citizen at the Heart of Indian Democracy”.\n3. The theme of Data Privacy Day is “Privacy by Design”.\n4. The first National Voters’ Day was held in 2010.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F14",
+    "P1.F16"
+   ],
+   "explanation": "Only statement 3 is correct: the theme of Data Privacy Day is “Privacy by Design”. National Voters’ Day is observed on 25 January, its tagline is “My India, My Vote”, and the first National Voters’ Day was held in 2011."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Venue and date",
+   "question": "Match the conferences in List-I with their date and venue in List-II.\n\nList-I\n a. BioAsia 2026\n b. National Textiles Ministers’ Conference\n\nList-II\n i. 8–9 January, Guwahati\n ii. 17–18 February, Hyderabad\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "BioAsia 2026 was scheduled for 17–18 February in Hyderabad, while the National Textiles Ministers’ Conference was held on 8–9 January in Guwahati. Hence, a-ii and b-i is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and minister",
+   "question": "Where was the Bharat Electricity Summit scheduled to be held, and which minister was associated with it?",
+   "options": [
+    "Yashobhoomi, New Delhi — Manohar Lal Khattar",
+    "Begumpet Airport, Hyderabad — Duddilla Sridhar Babu",
+    "UP Legislative Assembly, Lucknow — Om Birla",
+    "Bharat Mandapam — Sarbananda Sonowal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "The Bharat Electricity Summit was scheduled at Yashobhoomi, New Delhi, with Minister Manohar Lal Khattar associated with it. The other options combine venues or persons linked to different events."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Conference venue and leadership",
+   "question": "Consider the following statements:\n\n1. The 86th AIPOC began on 19 January at the UP Legislative Assembly in Lucknow.\n2. The 28th CSPOC was chaired by Om Birla.\n3. The 86th AIPOC was held at Yashobhoomi, New Delhi.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "Only statement 2 is correct: the 28th CSPOC was chaired by Om Birla. The 86th AIPOC began on 19 January at the UP Legislative Assembly in Lucknow, not at Yashobhoomi, and statement 1 changes its stated starting date."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Co-chairing organisation",
+   "question": "Which of the following statements about the 16th ADMM-Plus EWG on Counter-Terrorism is incorrect?",
+   "options": [
+    "It began from 14 January in New Delhi.",
+    "It was co-chaired by India and Indonesia.",
+    "It was the 16th edition of the EWG.",
+    "ADMM-Plus was established in 2010."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "The incorrect statement is that the EWG was co-chaired by India and Indonesia. The correct co-chairing countries were India and Malaysia; the other statements correctly describe the event."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Venue, organiser and participants",
+   "question": "Match the events in List-I with the associated details in List-II.\n\nList-I\n a. Bharat Lighthouse Festival 3.0\n b. Second Global Buddhist Summit\n c. BIMSTEC Cancer Care Capacity Building — Phase II\n\nList-II\n i. Theme: “Collective Wisdom, United Voice, and Mutual Coexistence”\n ii. MGM Park, Visakhapatnam\n iii. 35 specialists\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10",
+    "P2.F11"
+   ],
+   "explanation": "Bharat Lighthouse Festival 3.0 was associated with MGM Park, Visakhapatnam; the Second Global Buddhist Summit had the stated theme; and the BIMSTEC cancer-care programme involved 35 specialists. Therefore, a-ii, b-i and c-iii is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and institutional detail",
+   "question": "Where was the 16th IRENA Assembly held?",
+   "options": [
+    "Abu Dhabi",
+    "Bonn",
+    "Masdar City",
+    "New Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "The 16th IRENA Assembly was held in Abu Dhabi. Bonn was associated with the establishment of IRENA, while Masdar City is its headquarters."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Theme and venue",
+   "question": "Consider the following statements:\nStatement A: The theme of the 6th ASEAN–India Digital Ministers’ Meeting was “Shaping Future Governments”.\nStatement B: The World Government Summit 2026 was scheduled for 3–5 February at Madinat Jumeirah, Dubai.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F13",
+    "P2.F14"
+   ],
+   "explanation": "Statement A is false because “Shaping Future Governments” was the theme of the World Government Summit; the ASEAN–India Digital Ministers’ Meeting had a different theme. Statement B is true because the World Government Summit 2026 was scheduled for 3–5 February at Madinat Jumeirah, Dubai."
+  }
+ ]
+}

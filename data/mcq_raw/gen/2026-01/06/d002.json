@@ -1,0 +1,87 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P10.F3",
+  "P11.F3",
+  "P12.F3",
+  "P13.F2",
+  "P8.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Number/achievement; Organisation headquarters",
+   "question": "Consider the following statements:\n1. Under the Chips to Startup programme, chips designed by 56 students were fabricated and more than 75 patents were secured.\n2. Bharat Sanchar Nigam Limited was established in 2000 and is headquartered in New Delhi.\n3. Bharat Sanchar Nigam Limited was established in 2022 and is headquartered in New Delhi.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P10.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: chips designed by 56 students were fabricated with more than 75 patents, and BSNL was established in 2000 with its headquarters in New Delhi. Statement 3 is incorrect because BSNL was established in 2000, not 2022."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Solar maximum",
+   "question": "In the context of solar-cycle studies, what characterises the solar maximum?",
+   "options": [
+    "Peak sunspots, flares and coronal mass ejections",
+    "A complete absence of sunspots and solar flares",
+    "Formation of deuterons in heavy water",
+    "Fabrication of semiconductor chips by students"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "Solar maximum is characterised by peak sunspots, flares and coronal mass ejections. The other options refer to phenomena or achievements unrelated to the defining features of solar maximum."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Applications of deuteron",
+   "question": "Which of the following is a recognised use of the deuteron?",
+   "options": [
+    "Heavy water, fusion fuel and tritium production",
+    "Prediction of solar cycles and measurement of sunspots",
+    "Fabrication of semiconductor chips and patent generation",
+    "Development of self-healing and bioactive materials"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "Deuterons are used in heavy water, as fusion fuel and in tritium production. The other options relate to solar studies, semiconductor design or biomaterials, not to the stated uses of deuterons."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Market size",
+   "question": "What was the approximate size of India’s bioplastics market in 2024?",
+   "options": [
+    "Approximately USD 500 million",
+    "Drop-in biomaterials",
+    "Polylactic acid",
+    "Self-healing materials"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "India’s bioplastics market was approximately USD 500 million in 2024. Drop-in biomaterials, polylactic acid and self-healing materials are categories or examples associated with biomaterials, not the market-size figure."
+  }
+ ]
+}

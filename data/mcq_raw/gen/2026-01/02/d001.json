@@ -1,0 +1,231 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": [
+  "P3.F2",
+  "P3.F3",
+  "P3.F5",
+  "P3.F6",
+  "P4.F10",
+  "P4.F12",
+  "P4.F17",
+  "P4.F18",
+  "P4.F19",
+  "P4.F2",
+  "P4.F20",
+  "P4.F22",
+  "P4.F23",
+  "P4.F24",
+  "P4.F3",
+  "P4.F4",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Conference scale and themes",
+   "question": "With reference to the India International Conference on Democracy and Election Management (IICDEM)–2026, consider the following statements:\n1. It brought together about 100 delegates from about 70 countries.\n2. It was the largest global election conference hosted by India.\n3. It featured 36 thematic groups and showcased the Special Intensive Revision of electoral rolls.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "All three statements are correct. IICDEM–2026 had about 100 delegates from about 70 countries, was the largest global election conference hosted by India, featured 36 thematic groups and showcased the Special Intensive Revision of electoral rolls. The tempting alternatives omit one of these key features."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "ECINET compliance and integration",
+   "question": "Consider the following statements regarding ECINET:\nStatement A: ECINET integrates more than 40 ECI applications and is intended for about one billion voters.\nStatement B: ECINET complies with the Representation of the People Acts of 1950 and 1952.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F6"
+   ],
+   "explanation": "Statement A is true: ECINET integrates more than 40 ECI applications and is meant for about one billion voters. Statement B is false because ECINET complies with the Representation of the People Acts of 1950 and 1951, not 1952."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Conference scale",
+   "question": "Approximately how many delegates participated in IICDEM–2026, which was hosted by the Election Commission of India?",
+   "options": [
+    "About 36",
+    "About 70",
+    "About 100",
+    "More than 40"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "About 100 delegates participated in IICDEM–2026. The figure of about 70 refers to the number of countries represented, while 36 refers to thematic groups and more than 40 refers to ECINET applications."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Electoral-roll revision",
+   "question": "Which electoral process was showcased at IICDEM–2026?",
+   "options": [
+    "Special Intensive Revision of electoral rolls",
+    "Fast Track Immigration – Trusted Traveller Programme",
+    "Vibrant Villages Programme",
+    "Bastar Olympics"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "IICDEM–2026 showcased the Special Intensive Revision of electoral rolls. The other options relate to immigration, border-village development and a Bastar initiative, respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Operation and arrests/surrenders",
+   "question": "Which operation was associated with large-scale arrests and surrenders in the Ministry of Home Affairs Year End Review 2025?",
+   "options": [
+    "Operation Black Forest",
+    "Operation Sindoor",
+    "Operation Mahadev",
+    "Operation Black Forest and Operation Mahadev"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F10"
+   ],
+   "explanation": "Operation Black Forest was associated with large-scale arrests and surrenders. Operation Sindoor and Operation Mahadev were associated with the elimination of the terrorists responsible for the Pahalgam attack, not with this specific description."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bastar initiatives",
+   "question": "Which set of initiatives was associated with Bastar in the Ministry of Home Affairs Year End Review 2025?",
+   "options": [
+    "Bastar Pandum, Bastar Dussehra and Bastar Olympics",
+    "Voter Helpline, cVIGIL and Saksham",
+    "Nyay, Suraksha and Samriddhi",
+    "Convergence, Coordination and Communication"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "Bastar Pandum, Bastar Dussehra and Bastar Olympics were the initiatives associated with Bastar. The other groups refer to ECINET applications or broader principles and strategy pillars."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Abujhmad operation",
+   "question": "What significant development was reported in Abujhmad under the Left-Wing Extremism review?",
+   "options": [
+    "Two Central Committee Members were eliminated",
+    "Twenty-seven Maoists were eliminated in Narayanpur",
+    "Thirty-one Naxalites were eliminated in Karreguttalu Hills",
+    "The most-affected districts increased"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6"
+   ],
+   "explanation": "Two Central Committee Members were eliminated in Abujhmad, and the Bokaro region was freed. The Narayanpur and Karreguttalu Hills figures refer to separate operations, while the number of most-affected districts decreased rather than increased."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "LWE and security initiatives",
+   "question": "Which one of the following statements is incorrect according to the Ministry of Home Affairs Year End Review 2025?",
+   "options": [
+    "The number of most-affected districts decreased.",
+    "Twelve Hurriyat-linked organisations severed ties with separatism, alongside the Watan Ko Jano youth initiative.",
+    "The Immigration and Foreigners Bill, 2025, and a new OCI Portal were among the immigration-related measures.",
+    "The Vibrant Villages Programme focused on urban villages."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F8",
+    "P4.F12",
+    "P4.F17",
+    "P4.F18"
+   ],
+   "explanation": "The incorrect statement is that the Vibrant Villages Programme focused on urban villages. The programme concerned border villages; the other statements correctly describe the decrease in most-affected districts, the Hurriyat-linked organisations and Watan Ko Jano, and the immigration-related measures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SDRF allocation",
+   "question": "Under which fund was an amount of over ₹15,000 crore reported in the Ministry of Home Affairs Year End Review 2025?",
+   "options": [
+    "State Disaster Response Fund",
+    "National Disaster Response Fund",
+    "Urban Flood Risk Management Programme",
+    "OCI Portal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F19"
+   ],
+   "explanation": "Over ₹15,000 crore was provided under the State Disaster Response Fund. ₹2,267 crore was reported under the National Disaster Response Fund, while the Urban Flood Risk Management Programme and OCI Portal are not funds of this type."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "North-East security trends",
+   "question": "By what percentage did civilian casualties in the North-East decline, according to the Ministry of Home Affairs Year End Review 2025?",
+   "options": [
+    "70%",
+    "85%",
+    "95%",
+    "40%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F20"
+   ],
+   "explanation": "Civilian casualties in the North-East declined by 85%. The 70% figure relates to the reduction in violent incidents, while the other percentages do not represent the reported North-East trends."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian languages and Zonal Councils",
+   "question": "Which body was associated with the promotion of Indian languages in the Ministry of Home Affairs Year End Review 2025?",
+   "options": [
+    "Bharatiya Bhasha Anubhag",
+    "Multi-Agency Centre",
+    "National Investigation Agency",
+    "Election Commission of India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F22"
+   ],
+   "explanation": "The Bharatiya Bhasha Anubhag was associated with the promotion of Indian languages. The Multi-Agency Centre, National Investigation Agency and Election Commission of India have different institutional roles."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Governance principles and UNCAC",
+   "question": "Consider the following statements in the context of the Ministry of Home Affairs Year End Review 2025:\n1. The Bharatiya Bhasha Anubhag promotes Indian languages and the Zonal Councils were strengthened.\n2. Nyay, Suraksha and Samriddhi were identified as principles.\n3. The United Nations Convention against Corruption is the first legally binding global anti-corruption instrument, and UNODC assists both UNCAC and UNTOC.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F22",
+    "P4.F23",
+    "P4.F24"
+   ],
+   "explanation": "All three statements are correct. The review referred to the Bharatiya Bhasha Anubhag and strengthened Zonal Councils, identified Nyay, Suraksha and Samriddhi as principles, and described UNCAC as the first legally binding global anti-corruption instrument with UNODC assistance to both UNCAC and UNTOC."
+  }
+ ]
+}

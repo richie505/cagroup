@@ -1,0 +1,57 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P10.F2",
+  "P13.F3",
+  "P9.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Awardee and peacekeeping initiative",
+   "question": "Consider the following statements regarding January 2026 current affairs:\n\n1. Madhav Gadgil won the Tyler Prize in 2015.\n2. “Equal Partners, Lasting Peace” is an initiative promoting gender-responsive peacekeeping.\n3. “Equal Partners, Lasting Peace” is an initiative promoting climate-resilient peacekeeping.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3",
+    "P10.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Madhav Gadgil won the Tyler Prize in 2015, and “Equal Partners, Lasting Peace” focuses on gender-responsive peacekeeping. Statement 3 is incorrect because the initiative concerns gender-responsive peacekeeping, not climate-resilient peacekeeping."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institution and founder of the OBE",
+   "question": "The Order of the British Empire, associated with the damehoods announced in the New Year Honours, was instituted in which year by whom?",
+   "options": [
+    "1917 by King George V",
+    "1916 by King George V",
+    "1918 by King George V",
+    "1920 by King George V"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "The Order of the British Empire was instituted in 1917 by King George V. The tempting alternative of 1918 is incorrect because the recorded year of institution is 1917."
+  }
+ ]
+}

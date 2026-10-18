@@ -1,0 +1,296 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P6.F2",
+  "P6.F3",
+  "P6.F4",
+  "P7.F11",
+  "P7.F12",
+  "P7.F13",
+  "P7.F14",
+  "P7.F16",
+  "P7.F3",
+  "P7.F4",
+  "P7.F5",
+  "P7.F6",
+  "P7.F8",
+  "P8.F3",
+  "P8.F4",
+  "P8.F5",
+  "P8.F6",
+  "P9.F2",
+  "P9.F4",
+  "P9.F5",
+  "P9.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Netaji: birth and organisation",
+   "question": "With reference to Netaji Subhas Chandra Bose, consider the following statements:\n1. He was born on 23 January 1897.\n2. He founded the Forward Bloc in 1939.\n3. He escaped house arrest in 1943.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Netaji was born on 23 January 1897 and founded the Forward Bloc in 1939. Statement 3 is incorrect because he escaped house arrest in 1941, not 1943."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Anniversary year",
+   "question": "The 125th anniversary of Netaji Subhas Chandra Bose's birth anniversary was observed on which date and year?",
+   "options": [
+    "23 January 2020",
+    "23 January 2021",
+    "23 January 2022",
+    "23 January 2023"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "The 125th anniversary of Netaji Subhas Chandra Bose's birth anniversary was observed on 23 January 2022. The adjacent years are incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Azad Hind and Port Blair",
+   "question": "Which of the following correctly describes Netaji Subhas Chandra Bose's activities in 1943?",
+   "options": [
+    "Formation of the Provisional Government of Azad Hind and hoisting of the flag at Port Blair",
+    "Foundation of the Forward Bloc and escape from house arrest",
+    "Formation of the Provisional Government of Azad Hind and establishment of the Forward Bloc",
+    "Escape from house arrest and hoisting of the flag at Port Blair"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "In 1943, Netaji formed the Provisional Government of Azad Hind and hoisted the flag at Port Blair; the Rani Jhansi Regiment was also associated with this period. The Forward Bloc belonged to 1939, while his escape from house arrest took place in 1941."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Digital economy rank",
+   "question": "India was described as the world's which largest digitalised economy in the context of International Data Privacy Day 2026?",
+   "options": [
+    "Second-largest",
+    "Third-largest",
+    "Fourth-largest",
+    "Fifth-largest"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "India was described as the world's third-largest digitalised economy. The second-, fourth- and fifth-largest positions do not match the stated description."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cybersecurity allocation",
+   "question": "What allocation was made for cybersecurity in India's Budget 2025–26?",
+   "options": [
+    "₹782 crore",
+    "₹682 crore",
+    "₹882 crore",
+    "₹982 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "India's Budget 2025–26 provided ₹782 crore for cybersecurity. The other amounts differ from the stated allocation."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Digital connectivity indicators",
+   "question": "Consider the following statements:\nStatement A: India had 101.7 crore broadband subscribers in September 2025.\nStatement B: Mobile data in India cost $0.10 per GB.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "Both statements are true: India had 101.7 crore broadband subscribers in September 2025, and mobile data cost $0.10 per GB. The alternatives incorrectly reject one or both of these indicators."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Cyber-fraud mitigation mechanisms",
+   "question": "Match the following mechanisms associated with the Cyber Fraud Mitigation Centre with their functions:\n\nList-I\n a. Samanvaya\n b. Sahyog\n c. Suspect Registry\n d. Cyber Fraud Mitigation Centre\n\nList-II\n i. Takedowns\n ii. Mule accounts\n iii. Platform\n iv. September 2024 initiative\n\nSelect the correct code.",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F12"
+   ],
+   "explanation": "The correct pairs are Samanvaya—Platform, Sahyog—Takedowns, Suspect Registry—Mule accounts, and Cyber Fraud Mitigation Centre—September 2024 initiative. Therefore, code a-iii, b-i, c-ii, d-iv is correct."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cybersecurity laws and programmes",
+   "question": "Consider the following statements:\n1. The IT Rules were issued in 2021.\n2. I4C was established in 2018 under the Ministry of Home Affairs.\n3. CyTrain was launched in 2024.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F8",
+    "P7.F11",
+    "P7.F13"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the IT Rules date to 2021, and I4C was established in 2018 under the Ministry of Home Affairs. Statement 3 is incorrect because CyTrain dates to 2019."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CERT-In initiative",
+   "question": "Cyber Swachhta Kendra, associated with CERT-In, is primarily concerned with which of the following?",
+   "options": [
+    "Botnet cleaning and malware analysis",
+    "Blocking online content and appointing intermediaries",
+    "Providing telemedicine consultations and broadband access",
+    "Registering mule accounts and conducting public durbars"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F14"
+   ],
+   "explanation": "Cyber Swachhta Kendra is associated with botnet cleaning and malware analysis under CERT-In. The other options refer to unrelated cybersecurity, digital-service or cultural activities."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Data Privacy Day: conflicting year claims",
+   "question": "Assertion (A): CA360 states that Data Privacy Day was initiated in 2007.\nReason (R): The Council of Europe instituted Data Privacy Day in 2007.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F16"
+   ],
+   "explanation": "Assertion A is true because CA360 states that Data Privacy Day was initiated in 2007. Reason R is false because the Council of Europe instituted it in 2006, not 2007."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Digital public services",
+   "question": "How many of the following statements about India's digital public services are correct?\n1. MyGov has more than 6 crore users.\n2. eSanjeevani has recorded more than 44 crore consultations.\n3. MyGov has more than 4 crore users.\n4. eSanjeevani has recorded more than 24 crore consultations.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F6"
+   ],
+   "explanation": "Only two statements are correct: MyGov has more than 6 crore users, and eSanjeevani has recorded more than 44 crore consultations. The altered figures of 4 crore and 24 crore are incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Somnath temple: traditional reconstructions",
+   "question": "Match the yugas with the traditional material and builder associated with the Somnath temple:\n\nList-I\n a. Satya\n b. Treta\n c. Dvapara\n d. Kali\n\nList-II\n i. Stone — Bhimdev Solanki\n ii. Gold — Chandra (Soma)\n iii. Wood — Shri Krishna\n iv. Silver — Ravana\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4",
+    "P8.F5",
+    "P8.F6"
+   ],
+   "explanation": "The correct pairs are Satya—Gold and Chandra (Soma), Treta—Silver and Ravana, Dvapara—Wood and Shri Krishna, and Kali—Stone and Bhimdev Solanki. Hence, code a-ii, b-iv, c-iii, d-i is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Numaish: origin and revenue",
+   "question": "Which statement about the first edition and revenue use of the All India Industrial Exhibition, popularly known as Numaish, is correct?",
+   "options": [
+    "It was first held in 1938 by the 7th Nizam Mir Osman Ali Khan, and its revenue runs 19 educational institutions.",
+    "It was first held in 1939 by the 7th Nizam Mir Osman Ali Khan, and its revenue runs 19 educational institutions.",
+    "It was first held in 1938 by the 7th Nizam Mir Osman Ali Khan, and its revenue runs 9 educational institutions.",
+    "It was first held in 1938 by the 6th Nizam Mir Osman Ali Khan, and its revenue runs 19 educational institutions."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "Numaish was first held in 1938 by the 7th Nizam Mir Osman Ali Khan, and its revenue runs 19 educational institutions. The other options alter either the year, the number of institutions or the Nizam's designation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Largest tribal congregation",
+   "question": "The Sammakka–Saralamma Jatara is regarded as which of the following?",
+   "options": [
+    "Asia's largest tribal congregation, and India's largest after the Kumbh",
+    "Asia's second-largest tribal congregation, and India's largest after the Kumbh",
+    "Asia's largest tribal congregation, and India's second-largest after the Kumbh",
+    "Asia's second-largest tribal congregation, and India's second-largest after the Kumbh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "The Sammakka–Saralamma Jatara is regarded as Asia's largest tribal congregation and the largest in India after the Kumbh. The other options change one or both of these rankings."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Sammakka–Saralamma Jatara: traditions",
+   "question": "Which of the following statements about the Sammakka–Saralamma Jatara is incorrect?",
+   "options": [
+    "It is associated with the Magha full moon.",
+    "It commemorates resistance against Kakatiya taxation.",
+    "Jaggery is offered as gold.",
+    "It commemorates resistance against Mughal taxation."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F5"
+   ],
+   "explanation": "The incorrect statement is that the Jatara commemorates resistance against Mughal taxation. It is associated with resistance against Kakatiya taxation; the festival occurs on the Magha full moon and jaggery is offered as gold."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nagoba Jatara ceremonies",
+   "question": "Which of the following is a feature of the Nagoba Jatara 2026 at Keslapur?",
+   "options": [
+    "Baiting ceremony, Gusadi dance and public durbar",
+    "Baiting ceremony, Bathukamma dance and public durbar",
+    "Gusadi dance, Bonalu procession and public durbar",
+    "Baiting ceremony, Gusadi dance and a private durbar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F7"
+   ],
+   "explanation": "The Nagoba Jatara 2026 featured the baiting ceremony, Gusadi dance and public durbar. The other options replace one of these features with an unrelated dance, procession or type of durbar."
+  }
+ ]
+}

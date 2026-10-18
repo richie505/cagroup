@@ -1,0 +1,217 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P10.F10",
+  "P10.F11",
+  "P10.F12",
+  "P10.F13",
+  "P10.F14",
+  "P10.F15",
+  "P10.F5",
+  "P10.F6",
+  "P10.F7",
+  "P10.F8",
+  "P10.F9",
+  "P11.F2",
+  "P11.F3",
+  "P14.F5",
+  "P14.F6",
+  "P15.F2",
+  "P15.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State-wise findings on cattle-rearing motives",
+   "question": "With reference to the CEEW findings on cattle-rearing households, consider the following statements:\n1. In West Bengal and Himachal Pradesh, over 50% of households do not sell milk.\n2. In Maharashtra and Karnataka, over 30% prioritise dung or draught purposes.\n3. In Himachal Pradesh, Andhra Pradesh and Assam, over 15% cite socio-cultural reasons.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F5",
+    "P10.F6",
+    "P10.F7"
+   ],
+   "explanation": "All three statements are correct. The study reported over 50% not selling milk in West Bengal and Himachal Pradesh, over 30% prioritising dung or draught in Maharashtra and Karnataka, and over 15% citing socio-cultural reasons in Himachal Pradesh, Andhra Pradesh and Assam. Hence, the correct choice is 1, 2 and 3."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ownership pattern and smallholder contribution",
+   "question": "According to the CEEW study on cattle-rearing households, consider the following statements:\n1. 50% of households own just 1–2 animals.\n2. 82% of households own only one type of bovine.\n3. Smallholders account for 29% of milk production and 22% of milk sales.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F8",
+    "P10.F9"
+   ],
+   "explanation": "All three statements are correct. Half the households own just 1–2 animals, 82% own only one bovine type, and smallholders contribute 29% of milk production and 22% of sales. Therefore, 1, 2 and 3 is the correct answer."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Feed constraints and climate impacts",
+   "question": "With reference to the CEEW study, how many of the following statements are correct?\n1. About 75% of households cite feed affordability as a concern.\n2. Adoption of silage or ration-balancing is about 5%.\n3. Climate impacts are reported by 54% of buffalo rearers and 50% of crossbred-cattle rearers.\n4. Climate impacts are reported by 50% of indigenous-cattle rearers.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F10",
+    "P10.F11"
+   ],
+   "explanation": "Only three statements are correct. Feed affordability is cited by about 75%, silage or ration-balancing adoption is about 5%, and the reported climate-impact figures are 54% for buffalo and 50% for crossbred cattle; the indigenous-cattle figure is 41%, not 50%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Dairy sector contribution",
+   "question": "According to the CEEW study, which of the following best describes the contribution of the dairy sector in India?",
+   "options": [
+    "It supports over 80 million livelihoods and contributes about 5% of GDP",
+    "It supports about 30 million livelihoods and contributes about 5% of GDP",
+    "It supports over 80 million livelihoods and contributes about 75% of GDP",
+    "It supports about 5 million livelihoods and contributes over 50% of GDP"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F12"
+   ],
+   "explanation": "The dairy sector supports more than 80 million livelihoods and contributes approximately 5% of GDP. The other options alter either the livelihood figure or the GDP contribution."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Livestock policy, methane and milk production",
+   "question": "Match List-I with List-II in relation to the cattle and livestock background covered in the CEEW study.\n\nList-I\n a. Rashtriya Gokul Mission\n b. Major source of livestock greenhouse gases\n c. Buffaloes\n\nList-II\n i. Produce over 50% of India’s milk despite being fewer than cattle\n ii. Launched in 2014 for indigenous breeds and Gokul Grams\n iii. Enteric fermentation accounts for over 90%; crossbred cattle emit about 43 kg methane annually against 28 kg for indigenous cattle\n\nCodes:",
+   "options": [
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F13",
+    "P10.F14",
+    "P10.F15"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii and c-i. The Rashtriya Gokul Mission was launched in 2014 for indigenous breeds and Gokul Grams; enteric fermentation contributes over 90% of livestock greenhouse gases; and buffaloes produce over 50% of India’s milk despite being fewer than cattle."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global city safety ranking",
+   "question": "Which city topped the global city rankings in the Numbeo Safety Index 2026?",
+   "options": [
+    "Qingdao",
+    "Abu Dhabi",
+    "Doha",
+    "Pretoria"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "Qingdao ranked first globally in the Numbeo Safety Index 2026 with a score of 89.2. Abu Dhabi ranked second, Doha third, while Pretoria was the least safe among the listed global positions."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Country safety ranking",
+   "question": "Which of the following statements regarding the Numbeo Safety Index 2026 is incorrect?",
+   "options": [
+    "The UAE was ranked the safest country.",
+    "India ranked 70th with a score of 55.8.",
+    "Papua New Guinea, Venezuela and Haiti were among the least-safe countries.",
+    "India was ranked the safest country with a score of 55.8."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "The incorrect statement is that India was ranked the safest country. The UAE was the safest country, while India ranked 70th with a score of 55.8; Papua New Guinea, Venezuela and Haiti were listed among the least safe."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank and score in City Inclusion Score",
+   "question": "In Avtar’s City Inclusion Score ranking of 125 cities, what were Mumbai’s rank and score?",
+   "options": [
+    "Rank 5 with a score of 44.49",
+    "Rank 4 with a score of 44.49",
+    "Rank 5 with a score of 46.04",
+    "Rank 2 with a score of 44.49"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F5"
+   ],
+   "explanation": "Mumbai ranked fifth with a City Inclusion Score of 44.49. The other options change either Mumbai’s rank or its score."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cities following Mumbai in the ranking",
+   "question": "In the sequence of cities following Mumbai in Avtar’s City Inclusion Score ranking, consider the following statements:\n1. Gurugram is the next city.\n2. Kolkata and Ahmedabad follow Gurugram.\n3. Thiruvananthapuram and Coimbatore are the subsequent cities in the listed sequence.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F5",
+    "P14.F6"
+   ],
+   "explanation": "All three statements are correct. Mumbai is followed in the listed sequence by Gurugram, Kolkata, Ahmedabad, Thiruvananthapuram and Coimbatore. Hence, the correct answer is 1, 2 and 3."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Political reservations and inequality",
+   "question": "What position did the Oxfam report presented at the 56th WEF Annual Meeting take on India’s political reservations for SC/ST communities?",
+   "options": [
+    "It praised them as a model against political inequality",
+    "It criticised them as a model against political inequality",
+    "It praised them as a model against climate inequality",
+    "It criticised them as a model against political inequality"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2"
+   ],
+   "explanation": "The Oxfam report praised India’s political reservations for SC/ST communities as a model for addressing political inequality. The alternatives reverse the report’s assessment or change the type of inequality."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Wealth concentration and political power",
+   "question": "Assertion (A): The Oxfam report praised India’s political reservations for SC/ST communities as a model against political inequality.\nReason (R): Rich people had about 4,000 times greater chance of political power, and their wealth fell by USD 18.3 trillion in 2025.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F2",
+    "P15.F3"
+   ],
+   "explanation": "Assertion A is true: Oxfam praised India’s political reservations for SC/ST communities as a model against political inequality. Reason R is false because the wealth of the rich rose by USD 18.3 trillion in 2025, although the report did state that they had about 4,000 times greater chance of political power."
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P10.F2",
+  "P12.F2",
+  "P13.F3",
+  "P14.F2",
+  "P15.F3",
+  "P5.F3",
+  "P5.F4",
+  "P5.F5",
+  "P5.F6",
+  "P5.F7",
+  "P5.F8",
+  "P7.F2",
+  "P7.F3",
+  "P9.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Book and launcher/author association",
+   "question": "Match the following books with the persons associated with their launch or authorship:\n\nList-I\n(a) Red Lines Redrawn: Operation Sindoor and India's New Normal\n(b) Chalice of Ambrosia: Ram Janmabhoomi – Challenge and Response\n(c) Palanivelu Guts\n(d) Mukkalaina Swatantryam, Mana Rajyangam – Mana Atmagauravam\n\nList-II\n(i) Gen Upendra Dwivedi\n(ii) Surendra Kumar Pachauri\n(iii) Dr. C. P. Palanivelu\n(iv) M. Venkaiah Naidu",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4",
+    "P5.F5",
+    "P5.F7"
+   ],
+   "explanation": "The correct pairs are Red Lines Redrawn—Gen Upendra Dwivedi, Chalice of Ambrosia—Surendra Kumar Pachauri, Palanivelu Guts—Dr. C. P. Palanivelu, and Mukkalaina Swatantryam, Mana Rajyangam—Mana Atmagauravam—M. Venkaiah Naidu. The other codes interchange the persons associated with these books."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Author, venue and special release of a book",
+   "question": "Consider the following statements:\nStatement A: Agni Sarassulo Vikasinchina Kamalam – Droupadi Murmu was authored by Yarlagadda Lakshmi Prasad, launched at Andhra University and released through a sanitation worker.\nStatement B: Droupadi Murmu is the 14th President of India.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F8"
+   ],
+   "explanation": "Statement A is true: the Telugu book was authored by Yarlagadda Lakshmi Prasad, launched at Andhra University and released through a sanitation worker. Statement B is false because Droupadi Murmu is the 15th President of India, not the 14th."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Institution and cash award",
+   "question": "With reference to the Jeevan Raksha Padak Awards, consider the following statements:\n\n1. The awards were instituted on 30 September 1961.\n2. The cash award for the Sarvottam Jeevan Raksha Padak is ₹1.5 lakh.\n3. The cash award for the Uttam Jeevan Raksha Padak is ₹1 lakh.\n4. The cash award for the Jeevan Raksha Padak is ₹2 lakh.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "Only one statement is correct: the awards were instituted on 30 September 1961. The tempting second statement is incorrect because ₹1.5 lakh is the cash award for the Uttam category; the Sarvottam category carries ₹2 lakh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Previous Indian winner",
+   "question": "Who among the following won the Tyler Prize in 2015?",
+   "options": [
+    "Madhav Gadgil",
+    "Dr. Toby Kiers",
+    "Graça Machel",
+    "Nalini Joshi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "Madhav Gadgil won the Tyler Prize in 2015. Dr. Toby Kiers is associated with the Tyler Prize 2026, while Graça Machel and Nalini Joshi are associated with other honours."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Peacekeeping initiative",
+   "question": "What was the initiative associated with Major Swati Shant Kumar's UN Secretary-General Award 2025 for peacekeeping in Africa?",
+   "options": [
+    "Equal Partners, Lasting Peace",
+    "Operation Sindoor",
+    "Ashoka Chakra series",
+    "Anita and Me"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "The initiative was titled “Equal Partners, Lasting Peace” and focused on gender-responsive peacekeeping. Operation Sindoor, the Ashoka Chakra series and Anita and Me are unrelated to this award initiative."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Publisher headquarters",
+   "question": "Where is Wiley, the organisation associated with the Wiley Research Heroes Award 2025, headquartered?",
+   "options": [
+    "Hoboken, New Jersey",
+    "London",
+    "Panaji",
+    "Andhra University"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2"
+   ],
+   "explanation": "Wiley is headquartered in Hoboken, New Jersey, and was established in 1807. London is associated with the Royal Astronomical Society, while Panaji and Andhra University are connected with book-related news."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Origin of the Order of the British Empire",
+   "question": "The Order of the British Empire, associated with the damehoods discussed in the New Year Honours, was instituted in which year by whom?",
+   "options": [
+    "1917 by King George V",
+    "1997 by King Charles III",
+    "2016 by King George V",
+    "1820 by King Charles III"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "The Order of the British Empire was instituted in 1917 by King George V. The year 1997 is associated with Meera Syal's OBE, while 2016 and 1820 relate to other facts in the awards and institutions category."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Academic distinction and field",
+   "question": "Match the following details concerning Prof. Nalini Joshi:\n\nList-I\n(a) First woman Professor of Mathematics\n(b) Order associated with her distinction\n(c) Year of her distinction as an Officer\n(d) Field of research\n\nList-II\n(i) University of Sydney\n(ii) Order of Australia\n(iii) 2016\n(iv) Integrable systems",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2"
+   ],
+   "explanation": "The correct pairs are First woman Professor of Mathematics—University of Sydney, Order—Order of Australia, year—2016, and field—integrable systems. The other options interchange the university, order, year and research field."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation headquarters and founding",
+   "question": "Which statement correctly describes the Royal Astronomical Society associated with the Gold Medal awarded to Srinivas Kulkarni?",
+   "options": [
+    "It was founded in 1820 and is based in London",
+    "It was founded in 1917 and is based in Hoboken, New Jersey",
+    "It was founded in 1973 and is administered by the University of Southern California",
+    "It was founded in 1807 and is based in Panaji"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F3"
+   ],
+   "explanation": "The Royal Astronomical Society was founded in 1820 and is based in London. The other options combine details belonging to the Order of the British Empire, the Tyler Prize and Wiley."
+  }
+ ]
+}

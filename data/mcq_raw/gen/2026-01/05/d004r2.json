@@ -1,0 +1,56 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34
+ ],
+ "only": [
+  "P23.F2",
+  "P26.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Origin and Indian concentration of Nipah",
+   "question": "Nipah was first identified in which country and year, and in India it is mainly associated with which state?",
+   "options": [
+    "Malaysia, 1998, and Kerala",
+    "India, 1998, and Kerala",
+    "Malaysia, 1998, and India",
+    "Kerala, 1998, and Malaysia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F2"
+   ],
+   "explanation": "Nipah was first identified in Malaysia in 1998 and is mainly found in Kerala in India. The second option incorrectly places the first identification in India, whereas Malaysia is the correct country."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Country profile and leadership",
+   "question": "Which combination correctly describes Indonesia in January 2026?",
+   "options": [
+    "Largest Muslim-majority country; capital—Jakarta; President—Prabowo Subianto",
+    "Largest Muslim-majority country; capital—Prabowo Subianto; President—Jakarta",
+    "Capital—Indonesia; President—Prabowo Subianto; largest Muslim-majority country",
+    "Capital—Jakarta; President—Indonesia; largest Muslim-majority country"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F3"
+   ],
+   "explanation": "Indonesia is the largest Muslim-majority country, its capital is Jakarta, and its President is Prabowo Subianto. The second option is a trap because it swaps the capital and the President."
+  }
+ ]
+}

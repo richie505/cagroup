@@ -1,0 +1,249 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F5",
+  "P1.F6",
+  "P2.F6",
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F3",
+  "P3.F5",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Ten-year milestone and re-evaluation",
+   "question": "Why did the Paris Agreement come under re-evaluation in 2025?",
+   "options": [
+    "It completed 10 years in November 2025, after the US exit in early 2025 and COP30 at Belém",
+    "It completed 5 years in November 2025, after the US exit in early 2025 and COP28",
+    "It completed 10 years in November 2025, after COP24 at Katowice and COP26 at Glasgow",
+    "It completed 15 years in November 2025, after the US exit in early 2025 and COP29"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Paris Agreement completed 10 years in November 2025 and was re-evaluated following the US exit in early 2025 and COP30 at Belém. The tempting alternative involving COP24 and COP26 is incorrect because those conferences are associated with the Paris Rulebook."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rulebook, parties and warming projection",
+   "question": "Consider the following statements about the Paris Agreement:\n1. The Paris Rulebook is associated with COP24 at Katowice and COP26 at Glasgow.\n2. The Paris Agreement has 194 countries and the European Union as parties.\n3. Current NDCs are consistent with warming of 1.5–2°C.\n4. China has a net-zero target for 2070.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only",
+    "3 and 4 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6",
+    "P0.F8",
+    "P0.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Paris Rulebook is linked with COP24 and COP26, and the parties comprise 194 countries plus the European Union. Current NDCs imply 2.5–2.9°C warming, while China’s net-zero target is 2060, not 2070."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Climate finance and national targets",
+   "question": "How many of the following statements regarding the Paris Agreement and India’s climate commitments are correct?\n1. The earlier climate-finance commitment was USD 100 billion per year until 2025.\n2. The NCQG provides for at least USD 300 billion per year by 2035.\n3. The Kyoto Protocol applied to developed nations, while the Paris Agreement followed a top-down approach.\n4. India achieved 50% non-fossil electricity capacity in 2030.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F9",
+    "P0.F11"
+   ],
+   "explanation": "Exactly two statements are correct: the USD 100 billion annual finance commitment ran until 2025, and the NCQG specifies at least USD 300 billion annually by 2035. The Paris Agreement is bottom-up, not top-down, and India achieved 50% non-fossil electricity capacity in 2025, five years early."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Aravalli restoration pilot",
+   "question": "The restoration pilot discussed in the Sankal Foundation study was planned in which location?",
+   "options": [
+    "Four villages around Gurugram",
+    "Four villages around Bageshwar",
+    "Four villages around Ratnagiri",
+    "Four villages around Phek"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "The pilot was planned in four villages around Gurugram and the study was released by Bhupender Yadav. Bageshwar, Ratnagiri and Phek are associated with other species-related facts, not this Aravalli restoration pilot."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Dependence on Aravalli forests",
+   "question": "Consider the following statements about the Aravalli restoration study:\nStatement A: The restoration pilot covered four villages around Gurugram.\nStatement B: About 43% of households depend on Aravalli forests for fodder, fuelwood and medicinal plants.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "Both statements are true. The pilot was located in four villages around Gurugram, and about 43% of households depend on Aravalli forests for fodder, fuelwood and medicinal plants."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NTCA and Project Tiger chronology",
+   "question": "Which combination correctly matches the institutional history of tiger conservation in India?",
+   "options": [
+    "NTCA was established in 2005 under the Wildlife Protection Act, 1972; Project Tiger began in 1973",
+    "NTCA was established in 1973 under the Wildlife Protection Act, 2005; Project Tiger began in 1972",
+    "NTCA was established in 2005 under the Wildlife Protection Act, 1973; Project Tiger began in 1972",
+    "NTCA was established in 1972 under the Wildlife Protection Act, 2005; Project Tiger began in 1973"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "The correct combination is NTCA established in 2005 under the Wildlife Protection Act, 1972, and Project Tiger beginning in 1973. The other options interchange the years or incorrectly attach the year 2005 to the Act."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "New frogs and caecilian diversity",
+   "question": "Consider the following statements about species discoveries and amphibian diversity in India:\n1. Leptobrachium somani and L. mechuka are frogs recorded from Arunachal Pradesh.\n2. The genus Leptobrachium has 39 species, of which only 4 were earlier known from India.\n3. India has 231 caecilians among its 457 amphibians.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the two Leptobrachium species are frogs from Arunachal Pradesh, and the genus has 39 species with only 4 earlier recorded in India. The figures 231 of 8,983 refer to caecilians worldwide, while India has 42 caecilians among 457 amphibians."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First Indian record of a mushroom genus",
+   "question": "Which newly reported mushroom represented the first record of the genus in India?",
+   "options": [
+    "Hemileccinum indicum",
+    "Parasola plicatilis",
+    "Paracamptotheca alba",
+    "Hoya nagensis"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Hemileccinum indicum was reported from Bageshwar, Uttarakhand, and marked the first record of the genus in India. Parasola plicatilis is the Plaited Ink Cap, while Paracamptotheca alba and Hoya nagensis are a ginger and a wax plant respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Elevation range of Paracamptotheca alba",
+   "question": "Paracamptotheca alba, a ginger species from the Siang Valley, was recorded at which elevation range?",
+   "options": [
+    "150–400 m",
+    "Under 65 m",
+    "200–500 m",
+    "400–800 m"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "Paracamptotheca alba was recorded at an elevation of 150–400 m in Miglung, Siang Valley, East Siang. The figure under 65 is associated with the area of occurrence of Lepidagathis konkanensis, not the elevation of this ginger."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Publication and location of Hoya nagensis",
+   "question": "Hoya nagensis, the newly reported wax plant, was associated with which combination?",
+   "options": [
+    "Khavunghou Community Reserved Forest, Phek, and Kew Bulletin",
+    "Miglung, Siang Valley, East Siang, and Zootaxa",
+    "Longding, Arunachal Pradesh, and Kew Bulletin",
+    "Bageshwar, Uttarakhand, and Zootaxa"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9"
+   ],
+   "explanation": "Hoya nagensis was reported from Khavunghou Community Reserved Forest in Phek, Nagaland, and the finding appeared in Kew Bulletin. Zootaxa and the other locations belong to different species reports."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Conservation status and range",
+   "question": "Which description correctly applies to Lepidagathis konkanensis?",
+   "options": [
+    "A wildflower from Ratnagiri in the Konkan, occurring over less than 65 sq km and proposed as Data Deficient",
+    "A wax plant from Phek, occurring over less than 65 sq km and proposed as Data Deficient",
+    "A ginger from East Siang, occurring over 150–400 sq km and proposed as Vulnerable",
+    "A bolete mushroom from Bageshwar, occurring over less than 65 sq km and proposed as Endangered"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F10"
+   ],
+   "explanation": "Lepidagathis konkanensis is a wildflower from Ratnagiri in the Konkan region of Maharashtra. Its known area is less than 65 sq km and it was proposed as Data Deficient; the other options mix its details with other species."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ICAR leadership",
+   "question": "Who was identified as the Director General of ICAR in the species-discovery coverage?",
+   "options": [
+    "Dr. Mangi Lal Jat",
+    "Bhupender Yadav",
+    "Prof. H. T. Lalremsanga",
+    "S. D. Biju"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F11"
+   ],
+   "explanation": "Dr. Mangi Lal Jat was identified as the Director General of ICAR. Bhupender Yadav was associated with releasing the Sankal Foundation study, while Prof. H. T. Lalremsanga and S. D. Biju were linked with species research."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Geographical identity of Siang",
+   "question": "In the geographical context of the new plant discovery, Siang refers to which stretch of a river?",
+   "options": [
+    "The Indian stretch of the Yarlung Tsangpo",
+    "The Indian stretch of the Ganga",
+    "The Indian stretch of the Brahmaputra",
+    "The Indian stretch of the Narmada"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F12"
+   ],
+   "explanation": "Siang is the Indian stretch of the Yarlung Tsangpo. The Ganga, Brahmaputra and Narmada are different river references and do not represent the stated geographical identity of Siang."
+  }
+ ]
+}

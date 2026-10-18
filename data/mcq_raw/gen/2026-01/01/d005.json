@@ -1,0 +1,71 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31
+ ],
+ "only": [
+  "P24.F3",
+  "P27.F5",
+  "P28.F3",
+  "P30.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Term of office",
+   "question": "Under the Right to Information Act, 2005, what is the prescribed term of office for the Information Commissioners of the Andhra Pradesh State Information Commission?",
+   "options": [
+    "A term of 3 years or until attaining the age of 65 years",
+    "A term of 3 years without any age limit",
+    "A term until attaining the age of 65 years without a fixed tenure",
+    "A lifetime term"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F3"
+   ],
+   "explanation": "The Information Commissioners hold office for 3 years or until they attain the age of 65 years. The tempting alternative of a 3-year term without an age limit is incorrect because the age limit of 65 years also applies."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Officials and institutional roles",
+   "question": "Match List-I with List-II in the context of recent Andhra Pradesh developments.\n\nList-I\n(a) Mandipalli Ramprasad Reddy\n(b) Ravinayudu\n(c) Kalikiri Murali Mohan\n(d) AP Endowments Department\n\nList-II\n(i) Sports Minister\n(ii) SAAP Chairman\n(iii) MLA of Puthalapattu\n(iv) Department under which Sri Varasiddhi Vinayaka Temple, Kanipakam, functions",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F5",
+    "P28.F3"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: Mandipalli Ramprasad Reddy is the Sports Minister, Ravinayudu is the SAAP Chairman, Kalikiri Murali Mohan is the Puthalapattu MLA, and Kanipakam temple functions under the AP Endowments Department. The other codes interchange these offices and institutional associations."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Scope of drain-management SOP",
+   "question": "Which of the following statements regarding Andhra Pradesh’s SOP for scientific de-siltation and safe cleaning of urban drains is incorrect?",
+   "options": [
+    "The SOP covers the entire lifecycle of drains, including design, mapping, maintenance and monitoring.",
+    "The SOP covers design and mapping but excludes maintenance and monitoring.",
+    "The SOP includes maintenance and monitoring within its scope.",
+    "The SOP is broader than merely addressing pre-monsoon cleaning."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P30.F5"
+   ],
+   "explanation": "The incorrect statement is that the SOP excludes maintenance and monitoring. It covers the entire lifecycle—design, mapping, maintenance and monitoring—and is not limited to pre-monsoon cleaning."
+  }
+ ]
+}

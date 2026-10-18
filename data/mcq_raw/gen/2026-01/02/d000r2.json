@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F5",
+  "P2.F1",
+  "P2.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Population benchmark for seat freeze",
+   "question": "The 1976 freeze on inter-State Lok Sabha seat distribution was based on which population benchmark?",
+   "options": [
+    "1971 population",
+    "1976 population",
+    "548 million people",
+    "1.47 billion people"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The freeze introduced through the 42nd Amendment in 1976 was based on the 1971 population. 1976 was the year of the freeze, not the population benchmark."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Population-representation disparity",
+   "question": "Which of the following statements regarding the population basis of present Lok Sabha representation is incorrect?",
+   "options": [
+    "The representation continues to reflect 548 million people.",
+    "The comparison is between 548 million people and today's 1.47 billion people.",
+    "The representation continues to reflect 548 billion people.",
+    "Today's population figure in the comparison is 1.47 billion people."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The incorrect statement changes 548 million to 548 billion. Present representation still reflects 548 million people, compared with today's 1.47 billion people."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Origin and controversy of Governor's address",
+   "question": "Match List-I with List-II in the context of the Governor's address to the State Legislature.\n\nList-I\n a. Conduct by Governors in Opposition-ruled States\n b. Historical statutory source\n c. Section associated with the origin\n d. Beginning of the convention\n\nList-II\n i. April 1937\n ii. Section 63\n iii. Walked out or omitted parts of cabinet-approved addresses\n iv. Government of India Act 1935\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F8"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i: Governors in Opposition-ruled States walked out or omitted parts; the origin was Section 63 of the Government of India Act 1935; and the convention began in April 1937. The tempting code a-iv is incorrect because the conduct involved walking out or omitting parts, not the Government of India Act 1935."
+  }
+ ]
+}

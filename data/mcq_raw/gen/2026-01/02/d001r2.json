@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": [
+  "P4.F2",
+  "P4.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Anti-Naxal operation; location and outcome",
+   "question": "With reference to the biggest-ever anti-Naxal operation in the Karreguttalu Hills, consider the following statements:\n1. The operation was conducted along the Chhattisgarh–Telangana border.\n2. It resulted in the elimination of 31 Naxalites in 21 days.\n3. The operation resulted in SF casualties.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Karreguttalu Hills operation took place on the Chhattisgarh–Telangana border and eliminated 31 Naxalites in 21 days. Statement 3 is incorrect because the operation recorded no SF casualties."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "High-level Maoist elimination",
+   "question": "Who was the CPI-Maoist General Secretary eliminated at Narayanpur during the 2025 anti-Naxal operations?",
+   "options": [
+    "Nambala Keshav Rao alias Basavaraju",
+    "Karreguttalu Hills",
+    "Operation Black Forest",
+    "Bastar Dussehra"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "Nambala Keshav Rao, alias Basavaraju, was the CPI-Maoist General Secretary eliminated at Narayanpur. His elimination was described as the first such high-level elimination in three decades; the other options refer to a place, an operation and an event."
+  }
+ ]
+}

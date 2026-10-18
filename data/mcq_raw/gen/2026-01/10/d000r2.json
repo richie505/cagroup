@@ -1,0 +1,52 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Sports and demonstration events",
+   "question": "Consider the following statements about the Khelo India Beach Games 2026:\n1. The Games featured six medal sports, including Beach Volleyball and Open Water Swimming.\n2. Mallakhamb and Tug-of-War were included as demonstration sports.\n3. More than 1,100 athletes from 28 states and Union Territories participated.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Games had six medal sports, including Beach Volleyball and Open Water Swimming, while Mallakhamb and Tug-of-War were demonstration sports. Statement 3 is incorrect because participation was from 30 states and Union Territories, not 28."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mascot",
+   "question": "What was the mascot of the Khelo India Beach Games 2026 held at Ghoghla Beach, Diu?",
+   "options": [
+    "Pearl",
+    "Sheen-e-Shee",
+    "Shan",
+    "Mallakhamb"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Pearl, a dolphin, was the mascot of the Khelo India Beach Games 2026. Sheen-e-Shee and Shan were associated with the Khelo India Winter Games, while Mallakhamb was a demonstration sport at the Beach Games."
+  }
+ ]
+}

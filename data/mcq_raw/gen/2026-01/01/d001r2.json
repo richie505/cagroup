@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P4.F4",
+  "P4.F5",
+  "P4.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Flagship programmes",
+   "question": "With reference to Andhra Pradesh’s coastal forest protection initiatives, consider the following statements:\n\n1. The Great Green Wall of Andhra Pradesh is identified as a flagship programme.\n2. The 50% Green Cover Programme is not identified as a flagship programme.\n3. MISHTI was launched in 2022 by the Ministry of Environment, Forest and Climate Change.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F5"
+   ],
+   "explanation": "Only statement 1 is correct: the Great Green Wall of Andhra Pradesh is listed among the flagship programmes. Statement 2 is incorrect because the 50% Green Cover Programme is also a flagship programme; statement 3 concerns a separate initiative and is not part of the two flagship programmes identified here."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme launch and coverage",
+   "question": "Which initiative was launched in 2023 by the Ministry of Environment, Forest and Climate Change after India joined the Mangrove Alliance for Climate at COP27, and covers coastline and salt pan lands?",
+   "options": [
+    "MISHTI",
+    "Great Green Wall of Andhra Pradesh",
+    "50% Green Cover Programme",
+    "Mangrove Alliance for Climate"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6"
+   ],
+   "explanation": "MISHTI was launched in 2023 by the Ministry of Environment, Forest and Climate Change after India joined the Mangrove Alliance for Climate at COP27, and it covers coastline and salt pan lands. The Mangrove Alliance for Climate is the alliance India joined, not the initiative described."
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "only": [
+  "P11.F10",
+  "P11.F2",
+  "P11.F3",
+  "P11.F8",
+  "P11.F9",
+  "P12.F7",
+  "P14.F3",
+  "P16.F1"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Basin, operator and emergency response",
+   "question": "With reference to the January 2026 gas blowout in Konaseema district, consider the following statements:\n1. The incident occurred in the Krishna–Godavari Basin, and ONGC was the operator.\n2. The area was declared a danger zone for 24 hours.\n3. GAIL was the operator, while ONGC transported the gas.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2",
+    "P11.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the blowout occurred in the Krishna–Godavari Basin under ONGC’s operation, and the area was declared a danger zone for 24 hours. Statement 3 reverses the roles; GAIL was associated with gas transport, not operation."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Past blowouts and pipeline blast details",
+   "question": "Match the incidents in List-I with the associated details in List-II.\n\nList-I\n(a) Nagaram GAIL pipeline blast — casualty detail\n(b) Uppudi blowout — closure detail\n(c) Pasarlapudi blowout — agency detail\n(d) Nagaram GAIL pipeline blast — date\n\nList-II\n(i) 27 June 2014\n(ii) 23 deaths and 16 injured\n(iii) Capped on 4 February 2020\n(iv) Capped by ONGC’s own team after international experts failed\n\nSelect the correct answer using the code below:",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F8",
+    "P11.F9",
+    "P11.F10"
+   ],
+   "explanation": "The correct code is a-ii, b-iii, c-iv, d-i: the Nagaram blast involved 23 deaths and 16 injuries and occurred on 27 June 2014; the Uppudi blowout was capped on 4 February 2020; and Pasarlapudi was capped by ONGC’s own team after international experts failed. The most tempting alternative swaps the Nagaram date and casualty details."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Pallepandaga 2.0 environmental and administrative measures",
+   "question": "Which of the following statements regarding the additional measures associated with Pallepandaga 2.0 is incorrect?",
+   "options": [
+    "The programme includes 28 Swachh Rathas.",
+    "The programme covers 77 DDO offices.",
+    "Kumki elephants and AI are proposed for addressing human–elephant conflict.",
+    "The human–elephant conflict response includes kumki elephants but excludes AI."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F7"
+   ],
+   "explanation": "The incorrect statement is the fourth one. The measures include both kumki elephants and AI for human–elephant conflict; the other statements correctly mention 28 Swachh Rathas and 77 DDO offices."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Implementing department",
+   "question": "Which department is responsible for observing Vadde Obanna’s birth anniversary as a State Festival in Andhra Pradesh?",
+   "options": [
+    "BC Welfare Department",
+    "Water Resources Department",
+    "PM JANMAN",
+    "NREGS"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3"
+   ],
+   "explanation": "The BC Welfare Department is responsible for the State Festival observance of Vadde Obanna’s birth anniversary. Water Resources Department, PM JANMAN and NREGS are not the department specified for this observance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State Festival declaration",
+   "question": "What status did the Andhra Pradesh Cabinet confer on the Jaggannathota Prabhalu Teertham in Konaseema?",
+   "options": [
+    "State Festival",
+    "District Festival",
+    "National Festival",
+    "Mandal Festival"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1"
+   ],
+   "explanation": "The Andhra Pradesh Cabinet declared the Jaggannathota Prabhalu Teertham in Konaseema a State Festival. It was not designated as a district, national or mandal festival."
+  }
+ ]
+}

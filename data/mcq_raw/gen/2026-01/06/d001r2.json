@@ -1,0 +1,52 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P2.F1",
+  "P4.F11",
+  "P5.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation associated with defence display",
+   "question": "Which organisation's Long Range Anti-Ship Missile (LRAShM) was showcased at the Republic Day Parade 2026?",
+   "options": [
+    "DRDO",
+    "Alpha Design Technologies Ltd",
+    "C-DAC",
+    "CSIR-CRRI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "DRDO's LRAShM was showcased at the Republic Day Parade 2026. Alpha Design Technologies Ltd was associated with the Pechora system upgrade, while C-DAC and CSIR-CRRI were associated with other technological developments."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Institution and source of bio-bitumen",
+   "question": "Consider the following statements about the January 2026 science and technology developments:\n\n1. C-DAC was established in 1988 in Pune.\n2. CSIR-CRRI developed bio-bitumen from wheat stubble.\n3. The bio-bitumen technology was transferred to 12 companies.\n\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F11",
+    "P5.F8"
+   ],
+   "explanation": "Only statement 1 is correct: C-DAC was established in 1988 in Pune. Bio-bitumen developed by CSIR-CRRI was made from rice stubble, not wheat stubble, and its technology was transferred to 14 companies, not 12."
+  }
+ ]
+}

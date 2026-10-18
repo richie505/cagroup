@@ -1,0 +1,248 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23
+ ],
+ "only": [
+  "P17.F2",
+  "P17.F4",
+  "P17.F8",
+  "P17.F9",
+  "P18.F2",
+  "P18.F3",
+  "P18.F4",
+  "P19.F2",
+  "P20.F5",
+  "P21.F3",
+  "P21.F5",
+  "P21.F6",
+  "P21.F7",
+  "P22.F1",
+  "P22.F2",
+  "P22.F3",
+  "P22.F4",
+  "P23.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of the Andhra Pradesh leg of the Vande Mataram Coastal Cyclothon–2026?",
+   "options": [
+    "Safe Coasts – Prosperous India",
+    "Clean Rivers – Healthy India",
+    "Green Villages – Digital India",
+    "Strong Borders – Developed India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F2"
+   ],
+   "explanation": "The theme of the Andhra Pradesh leg was “Safe Coasts – Prosperous India.” The other options are not the announced theme of the cyclothon."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Anniversary",
+   "question": "The Vande Mataram Coastal Cyclothon–2026 commemorated which anniversary?",
+   "options": [
+    "150th anniversary",
+    "100th anniversary",
+    "125th anniversary",
+    "75th anniversary"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F9"
+   ],
+   "explanation": "The cyclothon commemorated the 150th anniversary of Vande Mataram. The 100th anniversary is the tempting incorrect option; it does not match the stated anniversary."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Distance and coverage",
+   "question": "What distance and coastal coverage were associated with the Vande Mataram Coastal Cyclothon–2026?",
+   "options": [
+    "Approximately 6,500 km across 9 coastal states",
+    "Approximately 5,600 km across 8 coastal states",
+    "Approximately 6,500 km across 7 coastal states",
+    "Approximately 7,500 km across 9 coastal states"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F4"
+   ],
+   "explanation": "The cyclothon covered approximately 6,500 km across 9 coastal states. The other options alter either the distance or the number of coastal states."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Cultural programmes",
+   "question": "Which of the following statements about the village cultural programmes associated with the Andhra Pradesh leg of the Vande Mataram Coastal Cyclothon–2026 is incorrect?",
+   "options": [
+    "The programmes included Koppili, Uppada, Tallapalem, Ramapuram and Tummalapenta.",
+    "The programmes included Koppili, Uppada, Tallapalem, Ramapuram and Tummalapeta.",
+    "The programmes were conducted in villages.",
+    "The listed villages included Uppada and Ramapuram."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P17.F8"
+   ],
+   "explanation": "The incorrect statement is the second one because the correct village name was Tummalapenta, not Tummalapeta. The other statements accurately reflect the village cultural programmes."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Inscription details",
+   "question": "With reference to the 8th-century pure Telugu inscription discovered in Prakasam district, consider the following statements:\n1. It consists of six vertical lines on a pillar of the Pitikeswara Temple.\n2. It was associated with the Pallavas ruling Renadu.\n3. It records Pranamilli Achari building a new bund.\n\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P18.F2",
+    "P18.F3",
+    "P18.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the inscription has six vertical lines on a temple pillar and records Pranamilli Achari building a new bund. Statement 2 is incorrect because the inscription belongs to the period of the Badami Chalukyas ruling Renadu, not the Pallavas."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Researcher identification",
+   "question": "Who identified the rare Gita Upadesa sculpture at Pushpagiri’s Chennakesava Temple?",
+   "options": [
+    "Bommisetti Ramesh",
+    "Pranamilli Achari",
+    "Kandula Durgesh",
+    "K. Rambabu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F2"
+   ],
+   "explanation": "The sculpture was identified by researcher Bommisetti Ramesh. The other names are associated with different news items and not with the identification of this sculpture."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Governor",
+   "question": "Who was the Chief Guest associated with the Flamingo Festival at Nelapattu Bird Sanctuary?",
+   "options": [
+    "S. Abdul Nazeer",
+    "N. Chandrababu Naidu",
+    "Satyakumar Yadav",
+    "Kandula Durgesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F5"
+   ],
+   "explanation": "The Governor associated with the Flamingo Festival was S. Abdul Nazeer. The other options refer to other Andhra Pradesh public figures mentioned in different contexts."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Festival objective and attendees",
+   "question": "Consider the following statements:\nStatement A: The Amaravati–Avakaya Festival aimed to unite Andhra cuisine, the cultural ethos of Amaravati and the legacy of Telugu cinema.\nStatement B: The festival was attended by the Tourism Minister Kandula Durgesh and EU Ambassador Hervé Delphin.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P21.F3",
+    "P21.F5"
+   ],
+   "explanation": "Both statements are false as worded. The festival’s stated aim did unite Andhra cuisine, Amaravati’s cultural ethos and Telugu cinema, while its attendees included Kandula Durgesh and Hervé Delphin; however, the statements are presented with altered details in the question’s claims."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Telugu cinema legacy",
+   "question": "Assertion (A): The Amaravati–Avakaya Festival presented the legacy of Telugu cinema as a journey from “Bhakta Prahlada” to “Baahubali”.\nReason (R): The festival paid tribute to NTR, ANR and Sobhan Babu, all from Krishna district.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F6"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the tribute to NTR, ANR and Sobhan Babu explains the festival’s presentation of Telugu cinema’s legacy. The other options wrongly treat one of these connected facts as false or unrelated."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Which proposed development was mentioned along with Vijayawada becoming a Dasara destination alongside Mysuru and Kolkata?",
+   "options": [
+    "Visakhapatnam as an AI hub",
+    "Tirupati as a semiconductor hub",
+    "Vijayawada as a quantum hub",
+    "Amaravati as a biotech hub"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F7"
+   ],
+   "explanation": "Visakhapatnam was proposed as an AI hub. The other options substitute different places or technology sectors not associated with this announcement."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Organ donation figures",
+   "question": "How many of the following statements regarding the Jeevan Daan organ donation record are correct?\n1. In 2025, 301 organs were donated by 93 brain-dead donors.\n2. Since 2015, 1,296 organs were donated over 10 years.\n3. In 2025, 301 organs were donated by 83 brain-dead donors.\n4. Since 2015, 1,296 organs were donated over 12 years.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P22.F1",
+    "P22.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so the answer is Only two. Statement 3 changes the number of brain-dead donors from 93 to 83, and Statement 4 changes the period from 10 years to 12 years."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coordinator and legal framework",
+   "question": "Consider the following statements about the Jeevan Daan organ donation programme:\n1. Dr. K. Rambabu was the coordinator.\n2. THOTA was enacted in 1994 and amended in 2012.\n3. THOTA was enacted in 1995 and amended in 2011.\n\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P22.F3",
+    "P22.F4"
+   ],
+   "explanation": "Only Statement 1 is correct: Dr. K. Rambabu was the coordinator. Statements 2 and 3 alter the legal timeline; THOTA dates to 1994 and was amended in 2011."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Research areas",
+   "question": "Which of the following is among the research areas of the AP Futuristic Innovation and Research in Science and Technology (AP FIRST) centre at Tirupati?",
+   "options": [
+    "Quantum technology",
+    "Marine archaeology",
+    "Classical dance",
+    "Tea plantation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F2"
+   ],
+   "explanation": "Quantum technology is one of the research areas of AP FIRST. The other options are not included among its listed focus areas."
+  }
+ ]
+}

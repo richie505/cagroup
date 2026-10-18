@@ -1,0 +1,270 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P3.F10",
+  "P3.F11",
+  "P3.F4",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9",
+  "P4.F4",
+  "P4.F5",
+  "P4.F6",
+  "P4.F7",
+  "P5.F3",
+  "P5.F4",
+  "P5.F5",
+  "P6.F1",
+  "P6.F2",
+  "P6.F3",
+  "P7.F2",
+  "P7.F3",
+  "P8.F2",
+  "P8.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Institutional structure",
+   "question": "Which statement correctly describes the institutional structure of BRICS?",
+   "options": [
+    "BRICS has no permanent headquarters.",
+    "BRICS has a permanent headquarters in Shanghai.",
+    "BRICS has a permanent headquarters in Gurugram.",
+    "BRICS has a permanent headquarters in Paris."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "BRICS has no permanent headquarters and follows a rotational presidency. Shanghai is associated with the New Development Bank, not a permanent BRICS headquarters."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "HQ of institution",
+   "question": "Where is the headquarters of the New Development Bank located?",
+   "options": [
+    "Shanghai",
+    "Gurugram",
+    "Santiago",
+    "Farakka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "The New Development Bank, established in 2014, is headquartered in Shanghai. Gurugram is the headquarters of the International Solar Alliance, while Santiago and Farakka are associated with other facts."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "2026 host country",
+   "question": "Match the groupings with the countries hosting them in 2026.\n\nList-I\n a. SCO\n b. ASEAN\n c. G20\n d. G7\n\nList-II\n i. Kyrgyzstan\n ii. Philippines\n iii. United States\n iv. France",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F7",
+    "P3.F8",
+    "P3.F9"
+   ],
+   "explanation": "The correct pairs are SCO–Kyrgyzstan, ASEAN–Philippines, G20–United States and G7–France. The other codes interchange the host countries among these groupings."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "2026 host country",
+   "question": "Which country will host APEC in 2026?",
+   "options": [
+    "China",
+    "Turkey",
+    "France",
+    "Kyrgyzstan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F10"
+   ],
+   "explanation": "China is the host of APEC in 2026. Turkey is associated with the 2026 NATO summit and COP, while France and Kyrgyzstan host other groupings."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "2026 host country",
+   "question": "Which country is associated with hosting the 2026 NATO summit and COP?",
+   "options": [
+    "Turkey",
+    "China",
+    "Philippines",
+    "United States"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F11"
+   ],
+   "explanation": "Turkey is the host associated with the 2026 NATO summit and COP. China, the Philippines and the United States are hosts of APEC, ASEAN and the G20 respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "UNSC election and India’s representation",
+   "question": "Consider the following statements about the United Nations Security Council and India:\n\n1. Election of non-permanent members requires a two-thirds majority in the UN General Assembly.\n2. India has been a non-permanent member of the Security Council seven times.\n3. The G4 consists of India, Germany, Japan and China.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F5",
+    "P4.F7"
+   ],
+   "explanation": "Only statement 1 is correct: election requires a two-thirds majority in the UN General Assembly. India has served eight times, and the G4 includes Brazil rather than China."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Permanent membership support",
+   "question": "Which country backed India's claim for permanent membership of the United Nations Security Council?",
+   "options": [
+    "Chile",
+    "Germany",
+    "Japan",
+    "Brazil"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6"
+   ],
+   "explanation": "Chile backed India's permanent membership claim, with Ambassador Juan Angulo associated with the support. Germany, Japan and Brazil are members of the G4, but they are not the country identified in this support statement."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Impact and solar capacity",
+   "question": "With reference to the impact of the United States' withdrawal from the International Solar Alliance and India's solar sector, which of the following statements is incorrect?",
+   "options": [
+    "The major risk is to Africa and small developing economies that depend on concessional finance.",
+    "India's module capacity was approximately 25 GW, while its cell capacity was approximately 144 GW.",
+    "China accounted for approximately 70% of global solar cell capacity.",
+    "India imported approximately USD 1.7 billion worth of photovoltaic modules from China in FY25."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4",
+    "P5.F5"
+   ],
+   "explanation": "The incorrect statement reverses India's capacities: module capacity was approximately 144 GW and cell capacity approximately 25 GW. The other statements correctly identify the vulnerable economies, China's global share and India's FY25 imports."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Visit and agreements",
+   "question": "During Sheikh Mohamed bin Zayed Al Nahyan's visit to India, agreements covered which of the following sectors?",
+   "options": [
+    "Nuclear energy, energy, railways, space and artificial intelligence",
+    "Agriculture, fisheries, tourism, textiles and banking",
+    "Defence, education, health, mining and aviation",
+    "Water, shipping, forests, sports and culture"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "The agreements covered nuclear energy, energy, railways, space and artificial intelligence. The other combinations do not represent the sectors identified for the visit."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bilateral trade target",
+   "question": "What bilateral trade target was set between India and the United Arab Emirates for 2032?",
+   "options": [
+    "USD 200 billion",
+    "USD 100 billion",
+    "USD 450 million",
+    "USD 1.7 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "India and the United Arab Emirates set a bilateral trade target of USD 200 billion by 2032. USD 450 million refers to the Sri Lanka assistance package, while USD 1.7 billion refers to India's photovoltaic-module imports from China."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Strategic partnership and CEPA",
+   "question": "Consider the following statements:\nStatement A: The Comprehensive Strategic Partnership between India and the United Arab Emirates began in 2021.\nStatement B: The Comprehensive Strategic Partnership was established in 2017, and the CEPA came into force in 2022.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "Statement A is false because the Comprehensive Strategic Partnership dates to 2017. Statement B is true: the CEPA came into force in 2022."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Relief operation",
+   "question": "What was the name of India's relief operation that delivered more than 1,100 tonnes of relief on the day of Cyclone Ditwah?",
+   "options": [
+    "Operation Sagar Bandhu",
+    "Operation Ganga",
+    "Operation Maitri",
+    "Operation Sahayata"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "Operation Sagar Bandhu delivered more than 1,100 tonnes of relief on the day of Cyclone Ditwah. The other operation names are not associated with this relief effort in the stated information."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Tourism and FDI in Sri Lanka",
+   "question": "Consider the following statements about India's economic links with Sri Lanka:\nStatement A: Indian tourists accounted for more than 30% of Sri Lanka's tourists in 2025.\nStatement B: India contributed 40–50% of Sri Lanka's foreign direct investment.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "Statement A is false because Indian tourists accounted for more than 20%, not more than 30%, of Sri Lanka's tourists in 2025. Statement B is true: India contributed 40–50% of Sri Lanka's FDI."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Treaty provisions and earlier arrangements",
+   "question": "Consider the following statements about the Ganga Water Sharing Treaty:\n\n1. It governs dry-season flows at Farakka in West Bengal.\n2. Earlier temporary arrangements were made in 1977, 1982 and 1986.\n3. The treaty can be renewed without mutual consent.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3"
+   ],
+   "explanation": "Only statement 1 is correct: the treaty governs dry-season flows at Farakka in West Bengal. The earlier temporary arrangements were in 1977, 1982 and 1985, and renewal requires mutual consent."
+  }
+ ]
+}
