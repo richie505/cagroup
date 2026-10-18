@@ -105,12 +105,15 @@ Hard rules — an item that breaks one is thrown away:
 5. Current-affairs stems must stand alone: name the event/scheme/report/place so a candidate who read the news
    knows exactly what is asked (e.g. "Which State topped the India Electric Mobility Index released in September
    2026?"). Never ask "Which of the following is true?" without context.
-6. Ask what an examiner would ask: who/what/where/when/how much/rank/first/theme/venue/winner/launched by/
-   HQ/publisher/purpose. Skip trivia (a minor official's name, a figure with no exam value) — do not test the same
-   fact twice and do not repeat anything in ALREADY ASKED.
-7. Mix formats (use the exact format names): about 35% Direct Recall, 15% Negative / Incorrect Statement,
-   12% Multi-Statement Correctness, 12% List-Matching, 10% Assertion-Reason, 8% Statement-Based (A/B),
-   4% Chronological Ordering, 4% Count-Based. Use a format only when the facts truly support it.
+6. Write exactly the number of questions asked for each PAGE (each page is one news item). Test the news item's
+   headline fact first (what happened / who / where / launched by / rank / winner / theme), then its most
+   exam-worthy detail (a first, a key number, the organisation, the place). Skip minor details and trivia — a
+   current-affairs paper asks 1–3 questions per news item, not one per fact. Do not test the same fact twice and
+   do not repeat anything in ALREADY ASKED.
+7. Mix formats (use the exact format names): about 40% Direct Recall, 15% Negative / Incorrect Statement,
+   12% Multi-Statement Correctness, 10% List-Matching, 8% Assertion-Reason, 8% Statement-Based (A/B),
+   3% Chronological Ordering, 4% Count-Based. Use a format only when the facts truly support it; for a page with
+   one question prefer Direct Recall or Multi-Statement on its headline facts.
    - Assertion-Reason: question "Assertion (A): …\\nReason (R): …"; options EXACTLY, in this order: {ar}
    - Statement-Based (A/B): question "Consider the following statements:\\nStatement A: …\\nStatement B: …";
      options EXACTLY, in this order: {ab}
@@ -127,7 +130,7 @@ Hard rules — an item that breaks one is thrown away:
    why the most tempting wrong option is wrong. For List-Matching give the correct pairs. No "the notes say".
 9. "keyword": the exam angle tested, e.g. "Rank in index", "Launched by", "Venue/host", "First/only", "Theme",
    "HQ/publisher", "Scheme objective", "Number/amount", "Place in news", "Appointment".
-10. Spread the questions over all the pages and facts given, not just the first ones.
+10. Every page gets its questions; do not spend a page's questions on another page.
 """
 
 USER = """Period: {period}. Category: {category}.
@@ -267,6 +270,13 @@ def chunks(data: dict) -> list[list[dict]]:
     return out
 
 
+def quota(page: dict) -> int:
+    """Questions a news page gets: 1 for a short item, 2 for a medium one, 3 for a big one. Current affairs is
+    tested a few questions per news item, not one per fact (the pilot's ~0.6 MCQs per fact was far too heavy)."""
+    n = len(page["facts"])
+    return 0 if n == 0 else 1 if n <= 6 else 2 if n <= 14 else 3
+
+
 def fid(page: dict, f: dict) -> str:
     return f"P{page['i']}.{f['id']}"
 
@@ -274,7 +284,7 @@ def fid(page: dict, f: dict) -> str:
 def facts_text(pages: list[dict], only: set | None = None) -> str:
     parts = []
     for p in pages:
-        lines = [f"PAGE P{p['i']}: {p['title']}"]
+        lines = [f"PAGE P{p['i']} — write {quota(p)} question{'s' if quota(p) > 1 else ''}: {p['title']}"]
         for f in p["facts"]:
             head = f" [{f['head']}]" if f["head"] else ""
             mark = "" if only is None or fid(p, f) in only else " (already tested)"
@@ -437,8 +447,8 @@ def gen_job(folder: str, nn: str, key: str, pages: list[dict], count: int, only:
     if path.exists():
         return 0
     user = USER.format(period=period_of(folder), category=title, count=count,
-                       only=(f"\nWrite questions ONLY for these facts, which no question tests yet: {', '.join(sorted(only))}."
-                             " If a fact is trivial or cannot make a fair exam question, skip it.") if only else "",
+                       only=("\nThese news pages have no question yet: write ONE question for each page, on its headline fact."
+                             if only else ""),
                        keys=key_plan(f"{folder}/{nn}/{key}"), asked=asked_list(asked), facts=facts_text(pages, only))
     system = SYSTEM.format(period=period_of(folder), ar=" | ".join(AR_OPTIONS), ab=" | ".join(AB_OPTIONS))
     res = api(system, user, gen_schema(), "ca_mcqs")
@@ -475,7 +485,7 @@ def cmd_generate(args):
         data = ca_facts.load(folder, nn)
         for k, pages in enumerate(chunks(data)):
             nf = sum(len(p["facts"]) for p in pages)
-            count = max(2, min(18, math.ceil(nf / 2)))
+            count = sum(quota(p) for p in pages)
             jobs.append((gen_job, folder, nn, f"c{k:03d}", pages, count, None, [], data["title"]))
     print(f"{len(jobs)} generate calls to make (finished ones are skipped)")
     run(jobs, args.workers, args.max_calls)
@@ -534,9 +544,18 @@ def cmd_verify(args):
     run(jobs, args.workers, args.max_calls)
 
 
+def page_of(q: dict) -> int:
+    """The page (news item) an MCQ belongs to: the page most of its facts come from."""
+    pages = [int(re.match(r"P(\d+)\.", f).group(1)) for f in q["fact_ids"]]
+    return max(set(pages), key=pages.count)
+
+
 def kept(folder: str, nn: str, facts: dict, bank: Bank, log: list) -> list[dict]:
-    """The file's MCQs that pass the code checks, the second reader and the duplicate check."""
+    """The file's MCQs that pass the code checks, the second reader and the duplicate check — at most the page's
+    quota per news page (the first ones generated win)."""
     ver = verdicts(folder, nn)
+    quotas = {p["i"]: quota(p) for p in ca_facts.load(folder, nn)["pages"]}
+    per_page = {}
     out = []
     for q in candidates(folder, nn):
         p = problems_of(q, facts)
@@ -552,9 +571,14 @@ def kept(folder: str, nn: str, facts: dict, bank: Bank, log: list) -> list[dict]
                                                            if v["answer_index"] != q["answer_index"] else "not exactly one correct")
             log.append((q, f"verify: {why} — {v['note']}"))
             continue
+        pg = page_of(q)
+        if per_page.get(pg, 0) >= quotas.get(pg, 1):
+            log.append((q, "over the page's quota"))
+            continue
         if bank.is_dup(q):
             log.append((q, "duplicate"))
             continue
+        per_page[pg] = per_page.get(pg, 0) + 1
         bank.add(q)
         out.append(place_answer(q, q["qid"]))
     return out
@@ -571,28 +595,31 @@ def cmd_cover(args):
         data = ca_facts.load(folder, nn)
         facts = all_fact_text(data)
         qs = kept(folder, nn, facts, bank, log)
-        tested = {i for q in qs for i in q["fact_ids"]}
+        hit = {page_of(q) for q in qs}
         tried = {i for rec in load_raw("gen", folder, nn).values() if rec.get("only") for i in rec["only"]}
         for k, pages in enumerate(chunks(data)):
-            ids = {fid(p, f) for p in pages for f in p["facts"]}
-            gap = ids - tested - tried
-            if len(gap) >= 1:
-                count = max(1, min(14, math.ceil(len(gap) / 1.5)))
-                asked = [q for q in qs if any(i in ids for i in q["fact_ids"])]
-                jobs.append((gen_job, folder, nn, f"g{k:03d}", pages, count, gap, asked, data["title"]))
-    print(f"{len(jobs)} coverage calls to make (one try per untested fact)")
+            empty = [p for p in pages if p["facts"] and p["i"] not in hit
+                     and not any(fid(p, f) in tried for f in p["facts"])]
+            if empty:
+                gap = {fid(p, f) for p in empty for f in p["facts"]}
+                asked = [q for q in qs if page_of(q) in {p["i"] for p in pages}]
+                jobs.append((gen_job, folder, nn, f"g{k:03d}", empty, len(empty), gap, asked, data["title"]))
+    print(f"{len(jobs)} coverage calls to make (one question for each news page that has none; one try)")
     run(jobs, args.workers, args.max_calls)
 
 
 def cmd_build(args):
     bank, log = Bank(), []
     total = covered = nfacts = 0
+    pages_all = pages_hit = 0
     per = []
     for folder, nn in ordered_files(files(args)):
         data = ca_facts.load(folder, nn)
         facts = all_fact_text(data)
         qs = kept(folder, nn, facts, bank, log)
         tested = {i for q in qs for i in q["fact_ids"]}
+        pages_all += sum(1 for p in data["pages"] if p["facts"])
+        pages_hit += len({page_of(q) for q in qs})
         nfacts += len(facts)
         covered += len(tested)
         total += len(qs)
@@ -603,11 +630,12 @@ def cmd_build(args):
             {"id": q["qid"], "format": q["format"], "keyword": q["keyword"], "question": q["question"], "options": q["options"],
              "answer": q["answer_index"], "explanation": q["explanation"], "facts": q["fact_ids"]} for q in qs]},
             ensure_ascii=False, indent=1), encoding="utf-8")
-    write_report(per, log, total, covered, nfacts)
-    print(f"{total} MCQs kept; facts tested {covered}/{nfacts} ({covered / max(1, nfacts):.1%}); report {REPORT}")
+    write_report(per, log, total, covered, nfacts, pages_hit, pages_all)
+    print(f"{total} MCQs kept; news pages with a question {pages_hit}/{pages_all}; facts tested {covered}/{nfacts} "
+          f"({covered / max(1, nfacts):.1%}); report {REPORT}")
 
 
-def write_report(per, log, total, covered, nfacts):
+def write_report(per, log, total, covered, nfacts, pages_hit=0, pages_all=0):
     from collections import Counter
     reasons = Counter(r.split(" — ")[0].split(":")[0] + (":" + r.split(":")[1].split("—")[0].strip() if r.startswith("verify") else "")
                       for _, r in log)
@@ -616,7 +644,8 @@ def write_report(per, log, total, covered, nfacts):
         for q in json.loads((MCQS / folder / f"{nn}.json").read_text())["mcqs"]:
             pos["ABCD"[q["answer"]]] += 1
             fpos[(q["format"], "ABCD"[q["answer"]])] += 1
-    lines = [f"# CA MCQ report", "", f"- MCQs kept: **{total}**", f"- Facts tested: **{covered} / {nfacts}** ({covered / max(1, nfacts):.1%})",
+    lines = [f"# CA MCQ report", "", f"- MCQs kept: **{total}**",
+             f"- News pages with at least one question: **{pages_hit} / {pages_all}**", f"- Facts tested: **{covered} / {nfacts}** ({covered / max(1, nfacts):.1%})",
              f"- Answer positions: " + ", ".join(f"{k} {pos[k]}" for k in "ABCD"), "",
              "| Format | A | B | C | D |", "|---|---|---|---|---|"] + [
              f"| {f} | " + " | ".join(str(fpos[(f, k)]) for k in "ABCD") + " |" for f in FORMATS] + [
@@ -650,7 +679,7 @@ def cmd_dry(args):
     print(SYSTEM.format(period=period_of(folder), ar=" | ".join(AR_OPTIONS), ab=" | ".join(AB_OPTIONS)))
     print("=" * 60)
     nf = sum(len(p["facts"]) for p in pages)
-    print(USER.format(period=period_of(folder), category=data["title"], count=max(2, min(18, math.ceil(nf / 2))), only="",
+    print(USER.format(period=period_of(folder), category=data["title"], count=sum(quota(p) for p in pages), only="",
                       keys=key_plan(f"{folder}/{nn}/c000"), asked="", facts=facts_text(pages)))
 
 
