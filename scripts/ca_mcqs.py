@@ -347,6 +347,12 @@ def problems_of(q: dict, facts: dict) -> list[str]:
         extra = {n for n in extra if not (len(n) == 1 and n in "1234")}
         if extra:
             out.append(f"numbers not in the cited facts: {sorted(extra)[:5]}")
+    if not out and q["format"] == "Direct Recall":
+        # the stem gives the answer away: a number (year, amount) shared by the stem and the key but no distractor
+        others = set().union(*(nums(o) for i, o in enumerate(opts) if i != q["answer_index"]))
+        given = {n for n in nums(opts[q["answer_index"]]) & nums(q["question"]) if len(n) > 1} - others
+        if given:
+            out.append(f"stem gives the answer away: {sorted(given)}")
     if len(q["explanation"].split()) < 8:
         out.append("explanation too short")
     return out
