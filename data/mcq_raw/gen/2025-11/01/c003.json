@@ -1,0 +1,100 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Notification order",
+   "question": "The Building Penalisation Scheme (BPS) 2025 in Andhra Pradesh was notified through which Government Order?",
+   "options": [
+    "G.O. Ms. 225 of the MA&UD Department",
+    "G.O. Ms. 2019 of the MA&UD Department",
+    "G.O. Ms. 120 of the MA&UD Department",
+    "G.O. Ms. 10,000 of the MA&UD Department"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F3",
+    "P7.F8",
+    "P7.F9"
+   ],
+   "explanation": "BPS 2025 was notified through G.O. Ms. 225 of the Municipal Administration and Urban Development Department. The figures 2019, 120 and ₹10,000 relate respectively to the earlier BPS, the application window and the initial fee, not the notification order."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Scheme provisions and exclusions",
+   "question": "Which of the following statements regarding the Building Penalisation Scheme (BPS) 2025 is incorrect?",
+   "options": [
+    "Applications are to be submitted online within 120 days of notification.",
+    "The initial fee is ₹10,000 per application.",
+    "The penalisation charge is ₹40–₹400 per square foot.",
+    "The Capital City Area of APCRDA is included under the scheme."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F7",
+    "P7.F8",
+    "P7.F9",
+    "P7.F10"
+   ],
+   "explanation": "The incorrect statement is that the Capital City Area of APCRDA is included; it is specifically excluded from BPS 2025. The other statements correctly state the online 120-day window, the ₹10,000 initial fee and the ₹40–₹400 per-square-foot penalisation charge."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Replacement and database coverage",
+   "question": "Consider the following statements about Andhra Pradesh’s Building Penalisation Scheme (BPS) 2025:\n\n1. It replaces the earlier 2019 BPS.\n2. The UCIMS Portal identified 59,041 unauthorised buildings as of 31 August 2025.\n3. It regularises unauthorised constructions up to 31 August 2024.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: BPS 2025 replaces the earlier 2019 scheme, and UCIMS identified 59,041 unauthorised buildings as of 31 August 2025. Statement 3 is incorrect because the regularisation period extends up to 31 August 2025, not 31 August 2024."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Inauguration and allocation",
+   "question": "Consider the following statements about the Chandranna Vidyut Velugulu programme:\n\nStatement A: The programme was inaugurated by MLA Kothamreddy Sridhar Reddy.\nStatement B: The statewide allocation for the programme was ₹50 crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4",
+    "P8.F5"
+   ],
+   "explanation": "Both statements are false. The programme was inaugurated by local farmer Mattepu Ramanaiah Yadav, while MLA Kothamreddy Sridhar Reddy was associated with the inauguration; the statewide allocation was ₹9,139 crore, whereas ₹50 crore was allocated for Nellore Rural."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Programme objective",
+   "question": "Assertion (A): The Chandranna Vidyut Velugulu programme aims to provide 24-hour single-phase uninterrupted power to rural areas.\nReason (R): The programme aims to provide 24-hour three-phase uninterrupted power to rural areas.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "Assertion A is false because the programme aims to provide 24-hour three-phase, not single-phase, uninterrupted power to rural areas. Reason R is true and states the programme’s actual objective."
+  }
+ ]
+}

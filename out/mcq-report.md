@@ -1,31 +1,31 @@
 # CA MCQ report
 
-- MCQs kept: **2923**
-- News pages with at least one question: **2023 / 2629**
-- Facts tested: **6086 / 20515** (29.7%)
-- Answer positions: A 748, B 742, C 789, D 644
+- MCQs kept: **2976**
+- News pages with at least one question: **2048 / 2629**
+- Facts tested: **6204 / 20515** (30.2%)
+- Answer positions: A 767, B 753, C 800, D 656
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 301 | 316 | 312 | 267 |
-| Negative / Incorrect Statement | 79 | 82 | 90 | 83 |
-| Assertion-Reason | 83 | 89 | 111 | 98 |
-| Statement-Based (A/B) | 108 | 64 | 100 | 82 |
-| Multi-Statement Correctness | 115 | 97 | 101 | 95 |
+| Direct Recall | 305 | 321 | 313 | 272 |
+| Negative / Incorrect Statement | 81 | 82 | 91 | 86 |
+| Assertion-Reason | 88 | 90 | 114 | 100 |
+| Statement-Based (A/B) | 109 | 66 | 103 | 84 |
+| Multi-Statement Correctness | 120 | 98 | 104 | 95 |
 | Chronological Ordering | 1 | 0 | 0 | 0 |
-| List-Matching | 25 | 25 | 25 | 17 |
-| Count-Based | 36 | 69 | 50 | 2 |
+| List-Matching | 26 | 25 | 25 | 17 |
+| Count-Based | 37 | 71 | 50 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 302 |
-| verify:explanation_contradicts | 40 |
+| code | 304 |
+| verify:explanation_contradicts | 41 |
 | verify:not_in_facts | 38 |
 | over the page's quota | 20 |
 | duplicate | 11 |
-| verify:none_correct | 8 |
+| verify:none_correct | 9 |
 | verify:two_correct | 8 |
 | verify:second reader picked option 2, key 1 | 5 |
 | verify:garbled | 3 |
@@ -160,14 +160,14 @@
 | 2025-12/08 | Reports, Indices & Rankings | 3 | 2/25 |
 | 2025-12/09 | Awards, Persons & Appointments | 2 | 3/11 |
 | 2025-12/11 | Important Days & Events | 14 | 32/98 |
-| 2025-11/01 | Andhra Pradesh | 0 | 0/148 |
-| 2025-11/02 | Polity & Governance | 0 | 0/73 |
-| 2025-11/04 | Economy, Banking & Budget | 0 | 0/27 |
-| 2025-11/06 | Science, Tech, Space & Defence | 0 | 0/12 |
-| 2025-11/07 | Environment & Geography | 0 | 0/31 |
-| 2025-11/08 | Reports, Indices & Rankings | 0 | 0/10 |
-| 2025-11/09 | Awards, Persons & Appointments | 0 | 0/13 |
-| 2025-11/11 | Important Days & Events | 0 | 0/21 |
+| 2025-11/01 | Andhra Pradesh | 26 | 60/148 |
+| 2025-11/02 | Polity & Governance | 10 | 25/73 |
+| 2025-11/04 | Economy, Banking & Budget | 2 | 4/27 |
+| 2025-11/06 | Science, Tech, Space & Defence | 2 | 3/12 |
+| 2025-11/07 | Environment & Geography | 6 | 15/31 |
+| 2025-11/08 | Reports, Indices & Rankings | 2 | 3/10 |
+| 2025-11/09 | Awards, Persons & Appointments | 2 | 2/13 |
+| 2025-11/11 | Important Days & Events | 3 | 6/21 |
 | 2025-10/01 | Andhra Pradesh | 0 | 0/294 |
 | 2025-10/02 | Polity & Governance | 0 | 0/137 |
 | 2025-10/03 | Schemes & Social Sector | 0 | 0/97 |
@@ -567,3 +567,9 @@
 - `2025-12/08/c000#2` verify: none_correct — Statements 2 and 3 are supported by the facts, while statement 1 changes 1.55°C to 1.5°C; no option represents 2 and 3 only, and the explanation's rejection of statement 3 is unsupported.
   - Q: With reference to the key findings of the Global Environment Outlook 2025, consider the following statements: / 1. Global temperature in 2024 reached 1.5°C, the highest ever. / 2. One million of the world
   - Key: 2 only
+- `2025-11/02/c000#0` verify: none_correct — No option correctly states that the Four Labour Codes replaced 29 Central labour laws; option 1 is malformed and says four laws replaced them.
+  - Q: With effect from 21 November 2025, what did the Four Labour Codes replace?
+  - Key: Four Central labour laws replaced 29 Central labour laws
+- `2025-11/04/c000#2` verify: explanation_contradicts — Statement B is supported by the facts, so the explanation incorrectly says both statements are false.
+  - Q: Consider the following statements: / Statement A: The Draft Seeds Bill, 2025, was introduced by the Ministry of Finance. / Statement B: It proposes to replace the Seeds Act, 1966 and the Seeds (Control) O
+  - Key: Both Statement A and Statement B are false

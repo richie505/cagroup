@@ -1,0 +1,99 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of the Andhra Pradesh pavilion’s participation in the 44th India International Trade Fair 2025?",
+   "options": [
+    "Ek Bharat, Shreshtha Bharat",
+    "Vocal for Local",
+    "One District, One Product",
+    "Make in India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F3"
+   ],
+   "explanation": "The theme of the 44th India International Trade Fair 2025 was “Ek Bharat, Shreshtha Bharat.” The other options are associated with broader national initiatives but were not the stated theme of this event."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "ODOP products and districts",
+   "question": "Match the Andhra Pradesh districts with the ODOP products showcased at the 44th India International Trade Fair 2025.\n\nList-I (District)\na. Tirupati\nb. Kakinada\nc. Visakhapatnam\nd. Chittoor\n\nList-II (Product)\ni. Uppada sarees\nii. Etikoppaka toys\niii. Wooden carvings\niv. Kalamkari and Pen Kalamkari",
+   "options": [
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F6",
+    "P9.F7",
+    "P9.F8",
+    "P9.F9"
+   ],
+   "explanation": "The correct pairs are Tirupati–Kalamkari and Pen Kalamkari, Kakinada–Uppada sarees, Visakhapatnam–Etikoppaka toys, and Chittoor–Wooden carvings. The other codes interchange these district-product associations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "RTE neighbourhood norm and school mergers",
+   "question": "Consider the following statements:\nStatement A: Village protests were triggered by shifting Classes 4–6 to Model Primary Schools.\nStatement B: The RTE Act, 2009 provides for a school within 2 km for Classes 1–5.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F2",
+    "P10.F10"
+   ],
+   "explanation": "Both statements are false. The protests concerned the shifting of Classes 3–5, while the RTE neighbourhood norm specifies a school within 1 km for Classes 1–5; the altered details are “Classes 4–6” and “2 km.”"
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "School restructuring models",
+   "question": "With reference to the two rounds of school restructuring in Andhra Pradesh, consider the following statements:\n\n1. Under the YSRCP government during 2019–24, primary schools retained Classes 1–2, while Classes 3–5 were merged with nearby high schools.\n2. Under the current NDA–TDP government, Model Primary Schools were envisaged at one per panchayat for Classes 3–5, while other schools were downgraded to Classes 1–2.\n3. Both rounds of restructuring were not aligned with NEP 2020.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5",
+    "P10.F6",
+    "P10.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so exactly two statements are correct. Statement 3 is incorrect because both rounds followed NEP 2020-aligned restructuring."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Traffic violation enforcement model",
+   "question": "Assertion (A): First-time traffic violators in Andhra Pradesh are to receive SMS or mobile alerts and warnings, while challans are issued only to repeat offenders.\nReason (R): The enforcement model is to follow the Kerala traffic model, which provides warnings before penalties.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2",
+    "P11.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the Reason correctly explains the enforcement approach. Andhra Pradesh proposed warnings for first-time violators and challans for repeat offenders in line with the Kerala traffic model of warnings before penalties."
+  }
+ ]
+}

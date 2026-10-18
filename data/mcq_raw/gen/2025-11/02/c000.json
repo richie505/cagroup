@@ -1,0 +1,59 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Effective date and scope",
+   "question": "With effect from 21 November 2025, what did the Four Labour Codes replace?",
+   "options": [
+    "Four Central labour laws",
+    "Four Central labour laws replaced 29 Central labour laws",
+    "Nine Central labour laws",
+    "Thirteen Central labour laws"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Four Labour Codes came into force on 21 November 2025 and replaced 29 Central labour laws. The figure of nine refers to laws merged into the Code on Social Security, not the total number of laws replaced."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First legal definition",
+   "question": "Consider the following statements:\nStatement A: The Code on Social Security, 2020, provided the first legal definition of gig and platform workers and created a Social Security Fund.\nStatement B: The Code on Wages, 2019, provided the first legal definition of gig and platform workers and created a Social Security Fund.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "Statement A is correct: these provisions belong to the Code on Social Security, 2020. Statement B is incorrect because the Code on Wages, 2019, is not identified with these provisions."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "National floor wage and overtime",
+   "question": "With reference to the Code on Wages, 2019, consider the following statements:\n1. States cannot fix a minimum wage below the National Floor Wage.\n2. Deductions from wages are capped at 40 percent.\n3. Overtime must be paid at least at 1.5 times the normal rate.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "Only statement 1 is correct: States cannot fix a minimum wage below the National Floor Wage. The Code caps deductions at 50 percent and requires overtime payment of at least twice the normal rate, making statements 2 and 3 incorrect."
+  }
+ ]
+}

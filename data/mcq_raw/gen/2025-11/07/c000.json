@@ -1,0 +1,120 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Cyclone name",
+   "question": "Which cyclone name was associated with the IMD forecast of heavy rain in Coastal Andhra Pradesh and Rayalaseema from 29 November to 2 December 2025?",
+   "options": [
+    "Senyar",
+    "Montha",
+    "Hayli Gubbi",
+    "Kilauea"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "The cyclone was named Senyar, a name suggested by the UAE and meaning “Lion”. Montha was the preceding major post-monsoon Bay of Bengal cyclone of 2025, while Hayli Gubbi and Kilauea are volcanoes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First eruption after long interval",
+   "question": "What was the key significance of the 23 November 2025 eruption of Ethiopia’s Hayli Gubbi volcano?",
+   "options": [
+    "It was the first eruption in nearly 12,000 years",
+    "It was the first eruption in nearly 65,000 years",
+    "It was the first eruption in nearly 70 years",
+    "It was the first eruption in nearly 448 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F11",
+    "P2.F4",
+    "P2.F14"
+   ],
+   "explanation": "Hayli Gubbi in north-eastern Ethiopia erupted on 23 November 2025, marking its first eruption in nearly 12,000 years. The figures 65,000 km, 70 years and 448 sq km refer to other facts, not the volcano’s eruptive interval."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Nature of eruption",
+   "question": "With reference to the eruption of Hayli Gubbi volcano, which of the following statements is incorrect?",
+   "options": [
+    "Hayli Gubbi is located in north-eastern Ethiopia.",
+    "The eruption occurred on 23 November 2025.",
+    "The eruption was explosive and produced ash and gases, with no lava flows.",
+    "The eruption was explosive and produced ash and gases, along with lava flows."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "The incorrect statement is the fourth one: the eruption produced ash and gases but no lava flows. The other three statements correctly describe Hayli Gubbi’s location, eruption date and explosive nature."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Legal and conservation status",
+   "question": "Consider the following statements about the dugong in India:\n1. It is the only herbivorous marine mammal in India.\n2. Under CITES, it is listed in Appendix I.\n3. Under the IUCN listing, it is classified as Endangered.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the dugong is India’s only herbivorous marine mammal and is listed in CITES Appendix I. Statement 3 is incorrect because its IUCN category is Vulnerable, not Endangered."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Dugong Conservation Reserve",
+   "question": "Assertion (A): The Dugong Conservation Reserve was established in Palk Bay in 2022 and covers 448 sq km.\nReason (R): The Dugong Conservation Reserve was established in the Gulf of Kutch in 2022.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F14"
+   ],
+   "explanation": "Assertion A is true: the reserve is in Palk Bay, was established in 2022 and covers 448 sq km. Reason R is false because the reserve is not in the Gulf of Kutch; the Gulf of Kutch is one of the areas where dugongs are found."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Dugong facts",
+   "question": "How many of the following statements about dugongs and their conservation are correct?\n1. Arsenic, cadmium, chromium, mercury and lead were detected in 46 stranded dugongs.\n2. A dugong may consume 30–40 kg of seagrass per day.\n3. The largest dugong population in India is found in the Gulf of Kutch.\n4. World Dugong Day is observed on 29 May.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3",
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "Exactly two statements are correct: the study detected the listed heavy metals in 46 stranded dugongs, and a dugong eats 30–40 kg of seagrass daily. The largest Indian population is in the Gulf of Mannar–Palk Bay region, and World Dugong Day is observed on 28 May."
+  }
+ ]
+}

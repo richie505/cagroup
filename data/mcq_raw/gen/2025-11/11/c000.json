@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Date of observance",
+   "question": "National Constitution Day (Samvidhan Divas) was observed on which date in 2025?",
+   "options": [
+    "9 December 2025",
+    "26 November 2025",
+    "26 January 2025",
+    "11 December 2025"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "National Constitution Day was observed on 26 November 2025, marking 76 years since the adoption of the Constitution. 26 January is the date on which the Constitution came into force, not the date of its adoption."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Status and origin",
+   "question": "With reference to National Constitution Day (Samvidhan Divas), which one of the following statements is incorrect?",
+   "options": [
+    "It was declared in 2015.",
+    "Its declaration coincided with the 125th birth anniversary year of Dr. B.R. Ambedkar.",
+    "It was earlier observed as Law Day.",
+    "It is a public holiday."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "The incorrect statement is that National Constitution Day is a public holiday; it is not a public holiday. The day was declared in 2015, during the 125th birth anniversary year of Dr. B.R. Ambedkar, and it had earlier been observed as Law Day."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitution-making timeline",
+   "question": "Consider the following statements regarding the making of the Constitution of India:\n\n1. The first meeting of the Constituent Assembly was held on 9 December 1946.\n2. The Drafting Committee was constituted on 26 November 1949.\n3. The Constitution was adopted on 26 November 1949.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F6",
+    "P0.F8"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the Constituent Assembly first met on 9 December 1946, and the Constitution was adopted on 26 November 1949. Statement 2 is incorrect because the Drafting Committee was constituted on 29 August 1947, not on 26 November 1949."
+  }
+ ]
+}

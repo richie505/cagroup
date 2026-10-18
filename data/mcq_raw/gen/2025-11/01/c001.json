@@ -1,0 +1,97 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Proposal and location",
+   "question": "The proposal to collaborate with LG AI Research for setting up India’s first AI University relates to which place?",
+   "options": [
+    "Amaravati",
+    "Visakhapatnam",
+    "Anantapur district",
+    "Seoul"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "The proposed AI University is to be established in Amaravati in collaboration with LG AI Research of South Korea. Visakhapatnam was the venue of the CII Partnership Summit, not the proposed university location."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "AI ecosystem partner",
+   "question": "Consider the following statements:\nStatement A: Andhra Pradesh proposed collaborating with LG AI Research to establish India’s first AI University in Amaravati.\nStatement B: The earlier MoU with NVIDIA was for establishing India’s first AI University in Amaravati.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F5"
+   ],
+   "explanation": "Statement A is true because the proposal involves LG AI Research and an AI University in Amaravati. Statement B is false: the earlier MoU with NVIDIA concerned the AI ecosystem and compute infrastructure, not the proposal for India’s first AI University."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place and location",
+   "question": "Where is Sarla Aviation’s proposed ‘Sky Factory’ electric air taxi hub located?",
+   "options": [
+    "Anantapur district",
+    "Kurnool",
+    "Amaravati",
+    "Vijayawada"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "The Sky Factory is proposed in Anantapur district of Rayalaseema, in partnership with Bengaluru-based Sarla Aviation. Kurnool is associated with the proposed aviation MRO hub, while Amaravati and Vijayawada are associated with the Urban Water Metro project."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Announcement venue and project phase",
+   "question": "Assertion (A): Sarla Aviation’s Sky Factory was announced at the CII Partnership Summit in Visakhapatnam on 14–15 November 2025.\nReason (R): The additional 350 acres belong to Phase 1 of the Sky Factory.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F7"
+   ],
+   "explanation": "Assertion A is true because the project was announced at the CII Partnership Summit in Visakhapatnam on 14–15 November 2025. Reason R is false: the additional 350 acres are part of Phase 2, not Phase 1."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Sky Factory phases and timeline",
+   "question": "With reference to Sarla Aviation’s Sky Factory, how many of the following statements are correct?\n1. Phase 1 covers 150 acres.\n2. Phase 2 adds 350 acres.\n3. Commercial manufacturing is scheduled for 2027.\n4. Testing is scheduled for 2029.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F7",
+    "P3.F11",
+    "P3.F12"
+   ],
+   "explanation": "Exactly two statements are correct: Phase 1 covers 150 acres and Phase 2 adds 350 acres. The timeline is reversed in the other two statements: testing is scheduled for 2027, while commercial manufacturing is scheduled for 2029."
+  }
+ ]
+}

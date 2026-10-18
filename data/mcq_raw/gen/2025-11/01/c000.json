@@ -1,0 +1,99 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of districts",
+   "question": "Following the announcement of the three new districts of Polavaram, Markapuram and Madanapalle, how many districts did Andhra Pradesh have?",
+   "options": [
+    "29",
+    "26",
+    "Five",
+    "One"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The number of districts in Andhra Pradesh rose from 26 to 29 after the announcement. The figure 26 refers to the earlier total, while five and one refer to other administrative changes."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "District of new revenue division",
+   "question": "Which one of the following statements regarding the new revenue divisions and mandal announced in Andhra Pradesh is incorrect?",
+   "options": [
+    "Nakkapalli division is in Anakapalli district.",
+    "Addanki division is in Prakasam district.",
+    "Peeleru division is in Markapuram district.",
+    "Peddaharivanam mandal was carved out of Adoni mandal in Kurnool district."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9",
+    "P0.F12"
+   ],
+   "explanation": "The incorrect statement is that Peeleru division is in Markapuram district; it is in Madanapalle district. Nakkapalli, Addanki and Peddaharivanam are correctly associated with Anakapalli, Prakasam and Kurnool respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Person killed in encounter",
+   "question": "Who was killed in the early-hours encounter near Nellooru village in Maredumilli mandal, Alluri Sitharama Raju district, on 18 November 2025?",
+   "options": [
+    "Madvi Hidma",
+    "Basavaraju (Nambala Keshava Rao)",
+    "Madkam Raje (Rajakka)",
+    "N. Chandrababu Naidu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "Madvi Hidma was killed in the encounter near Nellooru village on 18 November 2025. Madkam Raje was also killed in the encounter, whereas Basavaraju was killed in May 2025 and N. Chandrababu Naidu announced the new districts."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Encountering agency",
+   "question": "Assertion (A): Madvi Hidma was killed in the Maredumilli encounter.\nReason (R): The Special Party team of the Alluri Sitharama Raju district police conducted the operation.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "Both statements are true, and the operation by the Special Party team of the Alluri Sitharama Raju district police explains how Madvi Hidma was killed. The encounter took place near Nellooru village in Maredumilli mandal."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Maoist leadership and reward",
+   "question": "With reference to Madvi Hidma, consider the following statements:\n1. He was the head of the Central Military Commission of CPI (Maoist).\n2. A reward of ₹10 lakh was announced for him.\n3. PLGA was the armed wing of CPI (Maoist).\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F9",
+    "P1.F19"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Madvi Hidma headed the Central Military Commission, and PLGA was the armed wing of CPI (Maoist). Statement 2 is incorrect because the reward was ₹50 lakh, not ₹10 lakh."
+  }
+ ]
+}
