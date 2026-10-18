@@ -1,0 +1,181 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F31",
+  "P0.F32",
+  "P0.F33",
+  "P0.F34",
+  "P0.F6",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Announcement date and award year",
+   "question": "The 72nd National Film Awards were announced on 18 July 2026 for films of which year?",
+   "options": [
+    "2024",
+    "2025",
+    "2026",
+    "2023"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The 72nd National Film Awards were announced on 18 July 2026 for films of 2024. The tempting alternative of 2025 is incorrect because the awards were specifically for 2024."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Best Actor",
+   "question": "Who shared the Best Actor award at the 72nd National Film Awards for 2024?",
+   "options": [
+    "Mammootty and Kartik Aaryan",
+    "Yami Gautam and Sachana Namidass",
+    "Sanjay Mishra and Mammootty",
+    "Randeep Hooda and Kartik Aaryan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Mammootty for Bramayugam and Kartik Aaryan for Chandu Champion shared the Best Actor award. Yami Gautam was the Best Actress winner, while Sanjay Mishra won Supporting Actor."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Debut Director and Best Direction",
+   "question": "Match the categories with their winners at the 72nd National Film Awards for 2024:\n\nList-I\n a. Best Debut Director\n b. Best Direction\n c. Best Actor\n d. Best Popular Film\n\nList-II\n i. Rajkumar Periasamy\n ii. Mammootty and Kartik Aaryan\n iii. Randeep Hooda\n iv. Kalki 2898 AD\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F8",
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-ii and d-iv: Randeep Hooda won Best Debut Director, Rajkumar Periasamy won Best Direction, Mammootty and Kartik Aaryan shared Best Actor, and Kalki 2898 AD won Best Popular Film. The other codes interchange these category-winner associations."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Popular Film and social values",
+   "question": "With reference to the 72nd National Film Awards for 2024, consider the following statements:\n\n1. Kalki 2898 AD won Best Popular Film.\n2. Captain Miller won the award for National, Social, Environmental Values.\n3. Kalki 2898 AD won Best Direction.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Kalki 2898 AD won Best Popular Film, while Captain Miller won the award for National, Social, Environmental Values. Statement 3 is incorrect because Best Direction went to Rajkumar Periasamy for Amaran."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Best Children’s Film",
+   "question": "Consider the following statements:\n\nStatement A: 35-Chinna Katha Kaadu won Best Children’s Film.\nStatement B: In the Telugu winners, Kalki 2898 AD was listed as the winner of Best Children’s Film.",
+   "options": [
+    "Statement A is true, Statement B is false",
+    "Both Statement A and Statement B are false",
+    "Both Statement A and Statement B are true",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12",
+    "P0.F31"
+   ],
+   "explanation": "Statement A is true because 35-Chinna Katha Kaadu won Best Children’s Film. Statement B is false; the Telugu winner in this category was also 35-Chinna Katha Kaadu, not Kalki 2898 AD."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Supporting Actor and Supporting Actress",
+   "question": "Match the acting categories with the winners at the 72nd National Film Awards for 2024:\n\nList-I\n a. Supporting Actor\n b. Supporting Actress\n c. Best Actor\n d. Best Actress\n\nList-II\n i. Yami Gautam\n ii. Sachana Namidass and Ropashree Varkady\n iii. Mammootty and Kartik Aaryan\n iv. Sanjay Mishra\n\nSelect the correct code:",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7",
+    "P0.F13",
+    "P0.F14"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i: Sanjay Mishra won Supporting Actor; Sachana Namidass and Ropashree Varkady shared Supporting Actress; Mammootty and Kartik Aaryan shared Best Actor; and Yami Gautam won Best Actress. The nearest trap is to confuse the supporting-actor winner Sanjay Mishra with the Best Actress winner Yami Gautam."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Male Playback",
+   "question": "Who won the Male Playback award at the 72nd National Film Awards for 2024?",
+   "options": [
+    "Abhay Jodhpurkar for Gharat Ganpati",
+    "Vaikom Vijayalakshmi for A.R.M",
+    "Manoj Muntashir for Maidaan",
+    "Vijay Ganguly for Stree 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Abhay Jodhpurkar won the Male Playback award for Gharat Ganpati. Vaikom Vijayalakshmi was associated with Female Playback, while Manoj Muntashir and Vijay Ganguly won awards in other categories."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Telugu winners: child artist and dialogues",
+   "question": "With reference to the Telugu winners at the 72nd National Film Awards, consider the following statements:\n\n1. Arundev Pothula was among the winners of Best Child Artist.\n2. Venky Atluri won Best Dialogues for Lucky Baskhar.\n3. Venky Atluri won Best Dialogues for Pushpa: The Rule Part-02.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F32",
+    "P0.F33"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Arundev Pothula was a Best Child Artist winner, and Venky Atluri won Best Dialogues for Lucky Baskhar. Statement 3 is incorrect because Pushpa: The Rule Part-02 was associated with the Original Screenplay award, not Venky Atluri’s Dialogues award."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Best Telugu Film distinction",
+   "question": "Which of the following statements regarding the Telugu winners at the 72nd National Film Awards is incorrect?",
+   "options": [
+    "Committee Kurrollu was the Best Telugu Film.",
+    "Kalki 2898 AD was not the Best Telugu Film.",
+    "The Best Telugu Film was not Kalki 2898 AD.",
+    "Kalki 2898 AD was the Best Telugu Film."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F25",
+    "P0.F29",
+    "P0.F34"
+   ],
+   "explanation": "The incorrect statement is that Kalki 2898 AD was the Best Telugu Film. Committee Kurrollu won Best Telugu Film, while Kalki 2898 AD won Best Popular Film Providing Wholesome Entertainment; the trap changes the Best Telugu Film winner."
+  }
+ ]
+}

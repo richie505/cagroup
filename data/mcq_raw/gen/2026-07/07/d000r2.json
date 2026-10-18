@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F6",
+  "P1.F22",
+  "P1.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Governor",
+   "question": "Who is identified as the Governor of Andhra Pradesh in the July 2026 current-affairs context?",
+   "options": [
+    "S. Abdul Nazeer",
+    "The Chief Minister of Andhra Pradesh",
+    "The Chief Secretary of Andhra Pradesh",
+    "The Advocate General of Andhra Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "S. Abdul Nazeer is identified as the Governor of Andhra Pradesh. The other options refer to different constitutional or administrative offices and are not identified as the Governor."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Proposed ESA area and endemic species",
+   "question": "With reference to the seventh draft notification for the Western Ghats Eco-Sensitive Area and the region's biodiversity, consider the following statements:\n1. The proposed Eco-Sensitive Area in Tamil Nadu is 6,914 sq km.\n2. Nilgiri Tahr and Lion-tailed Macaque are endemic species of the Western Ghats.\n3. The proposed Eco-Sensitive Area in Tamil Nadu is 1,461 sq km.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F22"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Tamil Nadu's proposed Eco-Sensitive Area is 6,914 sq km, and Nilgiri Tahr and Lion-tailed Macaque are endemic species. Statement 3 is incorrect because 1,461 is not the proposed area stated for Tamil Nadu."
+  }
+ ]
+}

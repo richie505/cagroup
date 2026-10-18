@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9
+ ],
+ "only": [
+  "P9.F21",
+  "P9.F34",
+  "P9.F35"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Social security coverage",
+   "question": "With reference to social security coverage in India, consider the following statements:\n1. More than 100 crore beneficiaries are covered, representing 64% of the population.\n2. EPFO has 8 crore active members, while ESIC covers more than 15 crore beneficiaries.\n3. The e-Shram portal was launched in 2022 and has 31.7 crore workers registered.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F21"
+   ],
+   "explanation": "Statements 1 and 2 are correct: social security coverage exceeds 100 crore beneficiaries, and EPFO and ESIC figures are 8 crore active members and more than 15 crore beneficiaries respectively. Statement 3 is incorrect because e-Shram was launched in 2021, not 2022; therefore, the correct answer is 1 and 2 only."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Scheme launch and objective",
+   "question": "Consider the following statements:\nStatement A: NABARD Gramodyam was launched on July 13, 2026, as a three-year pilot to train 4,000 rural youth entrepreneurs with NSDC.\nStatement B: The Amrut Bharat Station Scheme covers the redevelopment of 1,338 stations, with 75 redeveloped stations inaugurated in July 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F34",
+    "P9.F35"
+   ],
+   "explanation": "Both statements are true. NABARD Gramodyam was launched on July 13, 2026, as a three-year pilot for 4,000 rural youth entrepreneurs, while the Amrut Bharat Station Scheme covers 1,338 stations and included the inauguration of 75 redeveloped stations in July 2026."
+  }
+ ]
+}

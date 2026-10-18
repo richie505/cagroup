@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F12",
+  "P3.F1"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Count-Based",
+   "keyword": "IFA and delayed cord clamping",
+   "question": "With reference to the Anaemia Mukt Bharat Abhiyaan, how many of the following statements are correct?\n1. It provides prophylactic Iron-Folic Acid rather than calcium and promotes delayed cord clamping.\n2. It provides prophylactic Iron-Folic Acid rather than calcium and promotes immediate cord clamping.\n3. It provides prophylactic calcium rather than Iron-Folic Acid and promotes delayed cord clamping.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "Only statement 1 is correct: the Anaemia Mukt Bharat Abhiyaan provides prophylactic Iron-Folic Acid, not calcium, and promotes delayed cord clamping. Statement 2 incorrectly changes delayed cord clamping to immediate cord clamping, while statement 3 incorrectly replaces Iron-Folic Acid with calcium."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Approval and ministry",
+   "question": "Consider the following statements:\nStatement A: The PM Vidyalaxmi Scheme was approved by the Union Cabinet on 6 November 2024 and is associated with the Ministry of Education.\nStatement B: The PM Vidyalaxmi Scheme was approved on 6 November 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "Statement A is correct: the Union Cabinet approved the PM Vidyalaxmi Scheme on 6 November 2024, under the Ministry of Education. Statement B is incorrect because the approval date was 6 November 2024, not 6 November 2025."
+  }
+ ]
+}

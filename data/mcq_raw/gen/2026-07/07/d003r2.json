@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P7.F11",
+  "P7.F2",
+  "P9.F3",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First GI-tagged fruit from a State",
+   "question": "Which product became the first fruit from Haryana to receive a Geographical Indication tag?",
+   "options": [
+    "Sirsa Kinnow",
+    "Kinnauri Apple",
+    "Unjha Cumin",
+    "Jolbhora Sandesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F11"
+   ],
+   "explanation": "Sirsa Kinnow was the first fruit from Haryana to receive a GI tag. Kinnauri Apple is associated with Himachal Pradesh, while Unjha Cumin is from Gujarat and Jolbhora Sandesh is from West Bengal."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Total fauna and megadiversity status",
+   "question": "Consider the following statements:\n1. Animal Discoveries 2025 recorded India’s total fauna as 1,05,953 species.\n2. India is one of 17 megadiverse countries.\n3. Plant Discoveries 2025 recorded India’s total fauna as 1,05,953 species.\nWhich of the statements given above are correct?",
+   "options": [
+    "Only statement 1",
+    "Only statement 2",
+    "Exactly two statements are correct",
+    "All three statements are correct"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Animal Discoveries 2025 recorded total fauna of 1,05,953 species, and India is one of 17 megadiverse countries. Statement 3 is incorrect because the figure of 1,05,953 species belongs to Animal Discoveries 2025, not Plant Discoveries 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "West Bengal GI product",
+   "question": "Which of the following was among the 23 new Geographical Indication tags added in West Bengal in June 2026?",
+   "options": [
+    "Bengal Nolen Gur",
+    "Unjha Fennel",
+    "Salooni Safed Makka",
+    "Sirsa Kinnow"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "Bengal Nolen Gur was among the 23 new GI tags added in West Bengal in June 2026. Unjha Fennel is from Gujarat, Salooni Safed Makka is from Himachal Pradesh, and Sirsa Kinnow is from Haryana."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "New Impatiens species",
+   "question": "Which of the following statements regarding the five new Impatiens species reported in 2025 is incorrect?",
+   "options": [
+    "They were reported from Kerala’s Western Ghats.",
+    "They belong to the family Balsaminaceae.",
+    "The discoveries were recorded in Idukki and Ernakulam.",
+    "They were reported from Kerala’s Eastern Ghats."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F9"
+   ],
+   "explanation": "The incorrect statement is that the species were reported from Kerala’s Eastern Ghats. The five new Impatiens species belong to the family Balsaminaceae and were found in Kerala’s Western Ghats, specifically in Idukki and Ernakulam."
+  }
+ ]
+}

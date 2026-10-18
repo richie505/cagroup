@@ -1,0 +1,85 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "only": [
+  "P13.F2",
+  "P13.F3",
+  "P14.F4",
+  "P15.F5",
+  "P16.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Campaign principle and planning",
+   "question": "With reference to the Catch the Rain campaign conducted in Nandyal, consider the following statements:\n1. It was guided by the principle “Catch the Rain, Where it Falls, When it Falls”.\n2. Planning covered all 489 Gram Panchayats, with works approved by the Gram Sabha.\n3. Planning covered all 498 Gram Panchayats, with works approved by the Gram Sabha.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2",
+    "P13.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the campaign followed the principle “Catch the Rain, Where it Falls, When it Falls” and covered all 489 Gram Panchayats, with Gram Sabha approval of works. Statement 3 is incorrect because the figure was 489 Gram Panchayats, not 498."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Origin of World Population Day",
+   "question": "World Population Day, observed in connection with the Pillale Sampada population programme, was established in 1989 by which organisation?",
+   "options": [
+    "United Nations Development Programme (UNDP)",
+    "Ministry of Rural Development",
+    "Ministry of Food Processing Industries",
+    "National Council for Transgender Persons"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F4"
+   ],
+   "explanation": "World Population Day was established in 1989 by the United Nations Development Programme (UNDP). The Ministry of Rural Development, Ministry of Food Processing Industries and National Council for Transgender Persons are not identified as the organisation that established it."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PMFME launch",
+   "question": "Which ministry launched the PMFME scheme on June 29, 2020?",
+   "options": [
+    "Ministry of Food Processing Industries",
+    "Ministry of Rural Development",
+    "United Nations Development Programme",
+    "National Council for Transgender Persons"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F5"
+   ],
+   "explanation": "The PMFME scheme was launched on June 29, 2020 by the Ministry of Food Processing Industries. The other options are associated with different facts and did not launch PMFME."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Commercial production date",
+   "question": "When did the Swarnagiri Gold Mine begin commercial production?",
+   "options": [
+    "June 24, 2026",
+    "June 24, 2025",
+    "June 24, 2027",
+    "June 24, 2028"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F2"
+   ],
+   "explanation": "The Swarnagiri Gold Mine began commercial production on June 24, 2026. The dates June 24, 2025, June 24, 2027 and June 24, 2028 are incorrect."
+  }
+ ]
+}

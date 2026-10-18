@@ -1,0 +1,231 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": [
+  "P2.F1",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F17",
+  "P2.F18",
+  "P2.F19",
+  "P2.F20",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Conference agenda and venue",
+   "question": "With reference to the 5th BIMSTEC NSAs' Meeting held in July 2026, consider the following statements:\n1. It was held in New Delhi on July 16, 2026.\n2. Cyber issues, counter-terrorism, trafficking and satellites were among the key areas discussed.\n3. It was held in Manila on July 16, 2026.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the 5th BIMSTEC NSAs' Meeting was held in New Delhi on July 16, 2026, and covered cyber issues, counter-terrorism, trafficking and satellites. Statement 3 wrongly changes the venue from New Delhi to Manila."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Membership and institutional numbers",
+   "question": "Match List-I with List-II:\n\nList-I\n a. East Asia Summit\n b. Asia-Pacific Parliamentary Forum\n c. BIMSTEC\n d. National Green Hydrogen Mission\n\nList-II\n i. 7 members\n ii. 18 members\n iii. ₹19,744 crore\n iv. 28 members\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F7",
+    "P2.F12",
+    "P2.F13"
+   ],
+   "explanation": "The correct pairs are East Asia Summit—18 members, Asia-Pacific Parliamentary Forum—28 members, BIMSTEC—7 members, and National Green Hydrogen Mission—₹19,744 crore. The other codes interchange these figures."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Global AI Summit host sequence",
+   "question": "Match the Global AI Summit edition or year with its venue or host:\n\nList-I\n a. 2023\n b. 2024\n c. 2025\n d. 2028\n\nList-II\n i. UAE\n ii. Seoul\n iii. Bletchley Park\n iv. Paris\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-iii, b-iv, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The sequence is Bletchley Park in 2023, Seoul in 2024, Paris in 2025 and UAE in 2028. The other options alter one or more of these host associations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "WHO leadership at Codex",
+   "question": "Who was the Director-General of the WHO associated with the 49th Codex Alimentarius Commission meeting?",
+   "options": [
+    "Tedros Adhanom Ghebreyesus",
+    "Antonio Guterres",
+    "Qu Dongyu",
+    "Ferdinand R. Marcos Jr."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "Tedros Adhanom Ghebreyesus was the WHO Director-General associated with the 49th Codex Alimentarius Commission meeting. Antonio Guterres was the UN Secretary-General, Qu Dongyu was the FAO Director-General, and Ferdinand R. Marcos Jr. was the President of the Philippines."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "APPF origin and membership",
+   "question": "Which statement correctly describes the Asia-Pacific Parliamentary Forum 2026?",
+   "options": [
+    "It originated in 1993 through the Tokyo Declaration and has 28 members.",
+    "It originated in 2005 through the Tokyo Declaration and has 18 members.",
+    "It originated in 1997 through the Dhaka Declaration and has 7 members.",
+    "It originated in 1961 through the Rome Declaration and has 28 members."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "The Asia-Pacific Parliamentary Forum is associated with the 1993 Tokyo Declaration and has 28 members. The other options substitute the origin or membership details of other organisations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Theme and 5F vision",
+   "question": "Consider the following statements:\nStatement A: Bharat Tex 2026 carried the theme “Weaving Indian Textiles Excellence into Fabric of Global Growth”.\nStatement B: Bharat Tex 2026 highlighted the 5F vision.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "Both statements are true. Bharat Tex 2026 used the stated theme and highlighted the 5F vision; neither statement changes a detail of the event."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Leadership and venue of UN AI dialogue",
+   "question": "Assertion (A): India’s delegation at the inaugural UN Global Dialogue on AI Governance in Geneva was led by MoS Kirti Vardhan Singh.\nReason (R): The inaugural dialogue was held in Manila.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "Assertion A is true: India was led by MoS Kirti Vardhan Singh at the inaugural dialogue in Geneva. Reason R is false because the dialogue was held in Geneva, not Manila."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indi Haat inauguration and objective",
+   "question": "Indi Haat 2026 at the National Crafts Museum in New Delhi was inaugurated by whom, and what was its principal focus?",
+   "options": [
+    "Giriraj Singh; promoting handloom and handicrafts for international buyers",
+    "President Murmu; promoting Ayurvedic surgery for international buyers",
+    "Kirti Vardhan Singh; promoting artificial intelligence governance",
+    "Nivedita Shukla Verma; promoting secure digital governance"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "Indi Haat 2026 was inaugurated by Textiles Minister Giriraj Singh and focused on handloom and handicrafts for international buyers, alongside Bharat Tex. The other combinations assign the event to unrelated officials or subjects."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Saushrutam features",
+   "question": "How many of the following statements about Saushrutam 2026 are correct?\n1. It was inaugurated by President Murmu.\n2. It marked Sushruta Jayanti.\n3. It was an international conference on Ayurvedic surgery and featured an AI-based 3 Tesla MRI centre at AIIA.\n4. AIIA was established in 1961.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F11",
+    "P2.F20"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: Saushrutam 2026 was inaugurated by President Murmu, marked Sushruta Jayanti, and concerned Ayurvedic surgery with an AI-based 3 Tesla MRI centre at AIIA. Statement 4 is incorrect because AIIA was established in 2017."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Institutional origins and legislation",
+   "question": "Match List-I with List-II:\n\nList-I\n a. BIMSTEC\n b. National Green Hydrogen Mission\n c. Codex Alimentarius Commission\n d. Consumer Protection Act\n\nList-II\n i. 2019\n ii. 1961\n iii. 1997\n iv. 2023\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12",
+    "P2.F13",
+    "P2.F14",
+    "P2.F16"
+   ],
+   "explanation": "BIMSTEC dates to 1997, the National Green Hydrogen Mission to 2023, the Codex Alimentarius Commission to 1961, and the Consumer Protection Act to 2019. The other codes shift these years among the institutions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s textile production position",
+   "question": "Which of the following correctly describes India’s position in the production of cotton, silk and jute?",
+   "options": [
+    "Second in cotton and silk, and the largest producer of jute",
+    "Second in cotton and silk, and the second-largest producer of jute",
+    "Largest producer of cotton and silk, and second-largest producer of jute",
+    "Second in cotton, largest producer of silk, and second-largest producer of jute"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F15"
+   ],
+   "explanation": "India is second in cotton and silk production and is the largest producer of jute. The other options alter at least one of these production positions."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Consumer affairs, AITIGA and UNCTAD",
+   "question": "Consider the following statements:\n1. The Consumer Protection Act, 2019 replaced the Consumer Protection Act, 1986.\n2. Ferdinand R. Marcos Jr. is the President of the Philippines.\n3. The ASEAN–India Trade in Goods Agreement was signed in 2009 but came into force on January 1, 2011.\n4. The 9th IGE on Consumer Protection was chaired by UNCTAD rather than by India.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F16",
+    "P2.F17",
+    "P2.F18",
+    "P2.F19"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the 2019 Act replaced the 1986 Act, and Ferdinand R. Marcos Jr. is the President of the Philippines. Statement 3 is false because the agreement came into force on January 1, 2010, while Statement 4 is false because the 9th IGE was chaired by India."
+  }
+ ]
+}

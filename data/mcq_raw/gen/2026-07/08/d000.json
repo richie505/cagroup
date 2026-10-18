@@ -1,0 +1,250 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F17",
+  "P0.F18",
+  "P0.F19",
+  "P0.F2",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F24",
+  "P0.F25",
+  "P0.F3",
+  "P1.F3",
+  "P1.F5",
+  "P1.F6",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Origin and announcement",
+   "question": "The Investment Friendliness Index 2026 was announced in which Union Budget, following the Prime Minister’s direction at the 9th Governing Council Meeting in July 2024?",
+   "options": [
+    "Union Budget 2024–25",
+    "Union Budget 2025–26",
+    "Union Budget 2026–27",
+    "Union Budget 2023–24"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The Investment Friendliness Index 2026 was announced in the Union Budget 2025–26, after the Prime Minister’s direction at the 9th Governing Council Meeting in July 2024. The tempting alternative Union Budget 2024–25 is incorrect."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Indicators and methodology",
+   "question": "With reference to the methodology of the Investment Friendliness Index 2026, consider the following statements:\n1. The index uses 84 indicators.\n2. It is based on secondary data and investor perception surveys.\n3. It uses only primary data collected by NITI Aayog.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the index uses 84 indicators and combines secondary data with investor perception surveys. Statement 3 is incorrect because the methodology is not limited to primary data collected by NITI Aayog."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Rank and score",
+   "question": "Match the States in List-I with their rank and score in the Investment Friendliness Index 2026 shown in List-II.\n\nList-I\n a. Goa\n b. Odisha\n c. Gujarat\n d. Maharashtra\n\nList-II\n i. Rank 2; score 53.7\n ii. Rank 5; score 52.4\n iii. Rank 4; score 53.1\n iv. Rank 1; score 56.6\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9",
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "The correct pairs are Goa–iii, Odisha–ii, Gujarat–iv and Maharashtra–i. Goa ranked 4th with 53.1, Odisha 5th with 52.4, Gujarat 1st with 56.6 and Maharashtra 2nd with 53.7."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Lowest-ranked units",
+   "question": "Which Union Territory recorded the lowest score in the Investment Friendliness Index 2026?",
+   "options": [
+    "Ladakh",
+    "Lakshadweep",
+    "Goa",
+    "Delhi"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Lakshadweep recorded the lowest score, at 24.5, in the Investment Friendliness Index 2026. Ladakh was also among the lowest-ranked units but scored 27.0."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "State-level investment insight",
+   "question": "Assertion (A): Gujarat was identified as accounting for 31% of India’s merchandise exports.\nReason (R): Gujarat’s fiscal deficit was about 2.81% of GSDP in FY2024.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F17"
+   ],
+   "explanation": "Both statements are true, and the fiscal position described in the Reason is presented as the supporting insight accompanying Gujarat’s merchandise-export performance. The fiscal-deficit figure is 2.81% of GSDP in FY2024, while the merchandise-export share is 31%."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Investment and MoU conversion",
+   "question": "Match the State with the corresponding insight from the Investment Friendliness Index 2026.\n\nList-I\n a. Maharashtra\n b. Tamil Nadu\n c. Gujarat\n d. Andhra Pradesh and Telangana\n\nList-II\n i. Near-100% MoU conversion\n ii. 35% of PE/VC investment\n iii. Flagged for slow incentive disbursement\n iv. 31% of merchandise exports\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F17",
+    "P0.F18",
+    "P0.F19",
+    "P0.F20"
+   ],
+   "explanation": "The correct pairs are Maharashtra–ii, Tamil Nadu–i, Gujarat–iv and Andhra Pradesh and Telangana–iii. Maharashtra accounted for 35% of PE/VC investment, while Tamil Nadu had near-100% MoU conversion."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "FDI concentration and incentive disbursement",
+   "question": "Which of the following statements regarding the Investment Friendliness Index 2026 is incorrect?",
+   "options": [
+    "Andhra Pradesh and Telangana were flagged for slow incentive disbursement.",
+    "Maharashtra, Karnataka, Gujarat, Delhi and Tamil Nadu together accounted for 85% of FDI.",
+    "The North-Eastern region accounted for 85% of FDI.",
+    "The North-Eastern region accounted for less than 1% of FDI."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F20",
+    "P0.F21"
+   ],
+   "explanation": "The incorrect statement changes the FDI share of the North-Eastern region from less than 1% to 85%. Andhra Pradesh and Telangana were flagged for slow incentive disbursement, while 85% of FDI was concentrated in Maharashtra, Karnataka, Gujarat, Delhi and Tamil Nadu."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Investment rate and GDP growth",
+   "question": "How many of the following statements correctly reflect the macroeconomic insights associated with the Investment Friendliness Index 2026?\n\n1. The investment rate in FY25 was about 29.9% of GDP.\n2. Average GDP growth from FY1992 to FY2025 was 6.9%.\n3. The investment rate in FY25 was about 6.1% of GDP.\n4. Average GDP growth from FY1992 to FY2025 was 29.9%.\n\nSelect the correct answer:",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F22"
+   ],
+   "explanation": "Only one statement is correct: the investment rate in FY25 was about 29.9% of GDP. The average GDP growth from FY1992 to FY2025 was 6.1%, not 6.9% or 29.9%."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Regional fiscal and connectivity indicators",
+   "question": "Match the item in List-I with the corresponding figure or position in List-II.\n\nList-I\n a. Jammu and Kashmir’s fiscal deficit\n b. Jammu and Kashmir’s BTS density\n c. Andhra Pradesh’s rank\n d. Telangana’s rank\n\nList-II\n i. 13th; score 47.3\n ii. About 9% of GSDP\n iii. 8th; score 48.7\n iv. 0.82 per sq km\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F23",
+    "P0.F24"
+   ],
+   "explanation": "The correct pairs are fiscal deficit–ii, BTS density–iv, Andhra Pradesh–iii and Telangana–i. Jammu and Kashmir’s fiscal deficit was about 9% of GSDP and its BTS density was 0.82 per sq km; Andhra Pradesh ranked 8th and Telangana 13th."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Telugu States ranking",
+   "question": "According to the CA360 summary of the Investment Friendliness Index 2026, which position and score did Andhra Pradesh secure?",
+   "options": [
+    "8th position with a score of 48.7",
+    "13th position with a score of 47.3",
+    "5th position with a score of 52.4",
+    "4th position with a score of 53.1"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F24"
+   ],
+   "explanation": "Andhra Pradesh secured 8th position with a score of 48.7. Telangana, by contrast, ranked 13th with a score of 47.3."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Contrasting FDI summaries",
+   "question": "Which of the following statements about the reported concentration of FDI is incorrect?",
+   "options": [
+    "The CA360 summary attributed about 85% of FDI to the top five ranked States.",
+    "The five States listed in the CA360 summary were Gujarat, Maharashtra, Tamil Nadu, Goa and Odisha.",
+    "The PIB summary placed 85% of FDI in Maharashtra, Karnataka, Gujarat, Delhi and Tamil Nadu.",
+    "The CA360 summary placed about 85% of FDI in Maharashtra, Karnataka, Gujarat, Delhi and Tamil Nadu."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F25"
+   ],
+   "explanation": "The incorrect statement changes the CA360 grouping to the five States cited in the PIB summary. CA360 identified Gujarat, Maharashtra, Tamil Nadu, Goa and Odisha as the top five States accounting for about 85% of FDI, whereas the PIB summary used a different group."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Conference, ranking and officials",
+   "question": "Match the items in List-I with the corresponding details in List-II in the Sustainable Development Report 2026 context.\n\nList-I\n a. Hamburg Sustainability Conference\n b. Sweden\n c. Denmark\n d. Germany\n\nList-II\n i. President Frank-Walter Steinmeier and Chancellor Friedrich Merz\n ii. Rank 3; score 85.7\n iii. Annual hybrid conference focused on Global North–South partnerships\n iv. Rank 2; score 86.3\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F5",
+    "P1.F6",
+    "P1.F9"
+   ],
+   "explanation": "The correct pairs are Hamburg Sustainability Conference–iii, Sweden–iv, Denmark–ii and Germany–i. Sweden ranked 2nd with 86.3, Denmark ranked 3rd with 85.7, and the German officials were President Frank-Walter Steinmeier and Chancellor Friedrich Merz."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Strong SDG performance",
+   "question": "In the Sustainable Development Report 2026, India’s strongest performance was reported in which Sustainable Development Goals?",
+   "options": [
+    "SDG 2 and SDG 7",
+    "SDG 7 and SDG 9",
+    "SDG 9 and SDG 2",
+    "SDG 2 alone"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "India’s strong performance was reported in SDG 7, relating to energy, and SDG 9, relating to industry and infrastructure. SDG 2 was identified as a particular challenge, not as one of the strongest areas."
+  }
+ ]
+}

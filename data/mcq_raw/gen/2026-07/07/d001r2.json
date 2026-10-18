@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P2.F3",
+  "P4.F12"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "National animal",
+   "question": "Which of the following is recognised as India’s national animal in the context of tiger conservation?",
+   "options": [
+    "Royal Bengal Tiger",
+    "Snow Leopard",
+    "Asiatic Lion",
+    "Indian Leopard"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "The Royal Bengal Tiger is India’s national animal. The Snow Leopard, Asiatic Lion and Indian Leopard are related wild cats but are not identified as India’s national animal in this context."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Siachen Glacier is located to the north of which valley?",
+   "options": [
+    "Nubra Valley",
+    "Kullu Valley",
+    "Kashmir Valley",
+    "Spiti Valley"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F12"
+   ],
+   "explanation": "Siachen Glacier lies north of the Nubra Valley. Kullu, Kashmir and Spiti valleys are different Himalayan geographical regions."
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9
+ ],
+ "only": [
+  "P8.F26",
+  "P9.F1",
+  "P9.F6",
+  "P9.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rashtriya Gokul Mission — IVF breeds",
+   "question": "Under the Rashtriya Gokul Mission, indigenous IVF technology is used for which pair of breeds?",
+   "options": [
+    "Gir and Kankrej",
+    "Gir and Sahiwal",
+    "Rathi and Hariana",
+    "Ongole and Deoni"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F26",
+    "P8.F27"
+   ],
+   "explanation": "Under the Rashtriya Gokul Mission, IVF is used for Gir and Kankrej. Sahiwal, Rathi, Hariana, Ongole and Deoni are listed among the breeds covered, but they are not the pair specified for IVF in this fact."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Life insurers’ share of Central G-Secs",
+   "question": "According to RBI and IRDAI data, life insurers hold approximately what share of outstanding Central Government dated securities?",
+   "options": [
+    "Nearly one-fourth",
+    "About 19%",
+    "About 63%",
+    "About 3.2%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2",
+    "P9.F6"
+   ],
+   "explanation": "Life insurers hold nearly one-fourth of outstanding Central Government dated securities. The figures 19% and 63% refer to specific aspects of LIC’s holdings, while 3.2% refers to insurance penetration at its pandemic peak."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Insurance penetration benchmarks",
+   "question": "Consider the following statements:\nStatement A: Insurance penetration at its pandemic peak was 3.0% of GDP.\nStatement B: The global average of insurance penetration was 2.7%.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F6",
+    "P9.F8"
+   ],
+   "explanation": "Both statements are false. Insurance penetration at its pandemic peak was 3.2% of GDP, while the global average was about 3.0%; 2.7% was the FY25 value."
+  }
+ ]
+}

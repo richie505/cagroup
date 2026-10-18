@@ -1,0 +1,194 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P2.F1",
+  "P3.F2",
+  "P3.F4",
+  "P3.F5",
+  "P4.F10",
+  "P4.F11",
+  "P4.F12",
+  "P4.F13",
+  "P4.F14",
+  "P4.F15",
+  "P4.F3",
+  "P4.F8",
+  "P4.F9",
+  "P5.F3",
+  "P6.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Report title",
+   "question": "What was the title of the UNCTAD World Investment Report 2026?",
+   "options": [
+    "International Investment in a Turbulent Era",
+    "World Investment in a Changing Era",
+    "Global Investment in a Turbulent World",
+    "International Finance in a Digital Era"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The UNCTAD World Investment Report 2026 was titled “International Investment in a Turbulent Era”. The other titles are not the title of this report."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Global and Indian hunger findings",
+   "question": "With reference to the food security findings reported in SOFI 2026, consider the following statements:\n1. Global hunger in 2025 affected about 645 million people, or 7.8%, down from 8.1%.\n2. India had 142.5 million undernourished people, while 520.1 million people could not afford a healthy diet costing USD 4.11 per day at PPP.\n3. The conflict and energy crisis could cause an additional 9–18 million people to face hunger, with about 500 million potentially facing hunger by 2030.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F4",
+    "P3.F5"
+   ],
+   "explanation": "All three statements are correct. SOFI 2026 reported 645 million hungry people globally, the stated Indian figures, and the projected additional hunger linked to conflict and the energy crisis; therefore, “1, 2 and 3” is correct. The other options omit one or more of these findings."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Concentration of terrorism fatalities",
+   "question": "According to the Global Terrorism Index 2026, in which group of countries did about 70% of terrorism-related deaths occur?",
+   "options": [
+    "Pakistan, Burkina Faso, Nigeria, Niger and DR Congo",
+    "Pakistan, Afghanistan, Bangladesh, Niger and Sudan",
+    "Burkina Faso, Nigeria, Kenya, Mali and Somalia",
+    "Nigeria, Niger, Chad, Ethiopia and DR Congo"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "About 70% of terrorism-related deaths occurred in Pakistan, Burkina Faso, Nigeria, Niger and the Democratic Republic of the Congo. The other combinations substitute countries not included in this finding."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Counter-terrorism framework and laws",
+   "question": "Match List-I with List-II in the context of India's counter-terror architecture.\n\nList-I\n(a) Section 15 of UAPA, 1967\n(b) BNS, 2023\n(c) PRAHAAR Framework\n(d) UAPA, NIA and Arms Amendments, 2019\n\nList-II\n(i) Also associated with the legal definition of a terrorist act\n(ii) Defines a terrorist act under UAPA\n(iii) Intelligence-led, pre-emptive deterrence and decoupling terrorism from religion\n(iv) Legislative amendments concerning terrorism, offences abroad and arms\n\nCodes:",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8",
+    "P4.F9",
+    "P4.F10"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv. Section 15 of UAPA defines a terrorist act, BNS 2023 is also associated with that definition, PRAHAAR is an intelligence-led pre-emptive framework, and the 2019 amendments covered UAPA, NIA and Arms laws. The other codes interchange these legal and operational features."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Police modernisation expenditure",
+   "question": "How much expenditure was allocated for police modernisation during 2021–2026 under India's counter-terror architecture?",
+   "options": [
+    "More than ₹6,300 crore",
+    "More than ₹5,582 crore",
+    "More than ₹4,110 crore",
+    "More than ₹9,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F12"
+   ],
+   "explanation": "Police modernisation expenditure during 2021–2026 was more than ₹6,300 crore. The other figures do not represent the reported police-modernisation allocation."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "Counter-terror operations",
+   "question": "Arrange the following operations in chronological order of occurrence:\n1. Operation Sindoor\n2. Surgical Strikes\n3. Balakot",
+   "options": [
+    "2–3–1",
+    "3–2–1",
+    "1–2–3",
+    "2–1–3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F13"
+   ],
+   "explanation": "The correct sequence is Surgical Strikes in 2016, Balakot in 2019 and Operation Sindoor in 2025. Hence, 2–3–1 is correct; the other sequences disturb this order."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "International counter-terror cooperation",
+   "question": "Consider the following statements about India's counter-terror cooperation and international initiatives:\n1. India has been a member of FATF since 2010.\n2. The No Money for Terror conference was held in 2022, while CCIT was proposed at the UN in 1996.\n3. India has Joint Working Groups with 27 countries and 5 forums, and its initiatives include BHARATPOL 2025 and the Delhi Declaration 2022.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F14"
+   ],
+   "explanation": "All three statements are correct. The reported architecture includes FATF membership since 2010, the 2022 No Money for Terror conference, the 1996 CCIT proposal, cooperation with 27 countries and 5 forums, BHARATPOL 2025 and the Delhi Declaration 2022. The other options omit at least one correct statement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Change in J&K terror incidents",
+   "question": "According to the Global Terrorism Index 2026, how did the number of terror incidents in Jammu and Kashmir change between 2018 and 2025?",
+   "options": [
+    "It fell from 228 to 12",
+    "It fell from 81 to 55",
+    "It rose from 12 to 228",
+    "It fell from 201 to 28"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F15"
+   ],
+   "explanation": "Terror incidents in Jammu and Kashmir declined from 228 in 2018 to 12 in 2025. The other options either use figures from unrelated findings or reverse the reported trend."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Passport index methodology and publisher",
+   "question": "Consider the following statements:\nStatement A: The Global Passport Index assesses travel freedom, investment opportunities and visa-free access.\nStatement B: The Henley Passport Index is published by Global Citizen Solutions.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "Both statements are false. The Global Passport Index criteria are travel freedom, investment opportunities and quality of life, while the Henley Passport Index is associated with Henley & Partners. Thus, the tempting option that treats Statement A as correct is wrong because it replaces quality of life with visa-free access."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "HQ of report organisations",
+   "question": "Where are the headquarters of BIMCO and the International Chamber of Shipping (ICS), respectively, according to the BIMCO–ICS Seafarer Workforce Report 2026?",
+   "options": [
+    "Copenhagen and London",
+    "London and Copenhagen",
+    "Geneva and London",
+    "Copenhagen and Geneva"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "BIMCO is headquartered in Copenhagen and ICS in London. The reversed pairing and the other city combinations are incorrect."
+  }
+ ]
+}

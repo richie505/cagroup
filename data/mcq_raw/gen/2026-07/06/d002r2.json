@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": [
+  "P2.F11",
+  "P2.F17",
+  "P2.F2",
+  "P2.F21"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Route and project timeline",
+   "question": "Consider the following statements about India's first hydrogen train:\n1. It operates on the Jind–Sonipat route covering 89 km.\n2. Work on the project began in May 2022.\n3. The project was sanctioned on May 25, 2026.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F11"
+   ],
+   "explanation": "Only statement 1 is correct: the train operates on the 89-km Jind–Sonipat route. Work began in April 2022 and the project was sanctioned on May 22, 2026, making statements 2 and 3 incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Initiative",
+   "question": "India's first hydrogen train, launched on July 17, 2026, was developed under which Indian Railways initiative?",
+   "options": [
+    "Hydrogen for Heritage",
+    "National Green Hydrogen Mission",
+    "Research Designs and Standards Organisation",
+    "Petroleum and Explosives Safety Organisation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F17"
+   ],
+   "explanation": "The train was developed under Indian Railways' Hydrogen for Heritage initiative. The National Green Hydrogen Mission is a separate mission under MNRE, while RDSO and PESO are organisations associated with railway standards and authorised storage respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "The Jind facility associated with India's first hydrogen train was described as which of the following?",
+   "options": [
+    "India's largest railway hydrogen storage and refuelling centre",
+    "India's largest railway hydrogen manufacturing centre",
+    "India's largest railway hydrogen maintenance centre",
+    "India's largest railway hydrogen testing centre"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F21"
+   ],
+   "explanation": "The Jind facility was described as India's largest railway hydrogen storage and refuelling centre. The descriptions involving manufacturing, maintenance or testing do not match its stated status."
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12
+ ],
+ "only": [
+  "P12.F1",
+  "P12.F2",
+  "P12.F3",
+  "P12.F4",
+  "P12.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "UPI international partnership",
+   "question": "UPI services in Greece were launched through a partnership between which entities?",
+   "options": [
+    "NPCI International Payments Ltd (NIPL) and Eurobank",
+    "NSE Indices and Eurobank",
+    "NIPL and the Asian Development Bank",
+    "NPCI and AMRUT 2.0"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "UPI in Greece was launched through the partnership between NPCI International Payments Ltd (NIPL) and Eurobank. NSE Indices, the Asian Development Bank and AMRUT 2.0 are associated with other developments, not this partnership."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Index methodology and launch",
+   "question": "With reference to the Nifty500 Ahimsa Index launched in July 2026, consider the following statements:\n1. It was launched by NSE Indices on July 10, 2026.\n2. Only companies classified in the Orange category are included in the index.\n3. The index uses free-float market-cap weighting and has April 1, 2016 as its base date with a base value of 1000.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F2"
+   ],
+   "explanation": "Statements 1 and 3 are correct, so the correct answer is 1 and 3 only. The incorrect statement changes the eligible category: only companies classified as Green are included, not Orange companies."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Loan purpose and Greece-related details",
+   "question": "Match List-I with List-II regarding the ADB-supported Chennai project and Greece:\n\nList-I\n a. ADB loan amount\n b. Purpose of the Chennai project\n c. Capital of Greece\n d. President of Greece\n\nList-II\n i. Athens\n ii. USD 230 million\n iii. Water and sanitation\n iv. Konstantinos Tasoulas",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3",
+    "P12.F4"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv: the ADB loan was USD 230 million for water and sanitation in Chennai, while Athens is the capital of Greece and Konstantinos Tasoulas is its President. The other codes incorrectly interchange the loan amount, project purpose or Greek details."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "UPI growth and international reach",
+   "question": "With reference to UPI growth and international reach during 2021–2026, how many of the following statements are correct?\n1. UPI transactions increased by 425%.\n2. The value of UPI transactions increased by 273%.\n3. UPI had 55.49 crore users in July 2026.\n4. UPI was live in 10 countries through 10 international partners.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F5"
+   ],
+   "explanation": "Only statements 1 and 2 are correct, making the answer Only two. The user figure of 55.49 crore refers to June 2026, and UPI was live in 10 countries through 12 international partners, not 10 partners."
+  }
+ ]
+}

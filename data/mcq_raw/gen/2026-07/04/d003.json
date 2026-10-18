@@ -1,0 +1,156 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7
+ ],
+ "only": [
+  "P6.F1",
+  "P6.F10",
+  "P6.F11",
+  "P6.F2",
+  "P6.F3",
+  "P6.F4",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9",
+  "P7.F3",
+  "P7.F4",
+  "P7.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Energy security and biogas composition",
+   "question": "With reference to India’s energy security and compressed biogas, consider the following statements:\n1. India imports about 85% of its crude oil, and about 90% of its LPG imports transit the Strait of Hormuz.\n2. Biogas mainly consists of methane and carbon dioxide, and is produced through anaerobic digestion.\n3. Biogas is produced through aerobic digestion.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct. India imports about 85% of its crude oil, while biogas mainly contains methane and carbon dioxide and is produced by anaerobic digestion. Statement 3 is incorrect because the process is anaerobic, not aerobic."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SATAT progress",
+   "question": "Which option correctly describes the progress of the SATAT initiative as of June 3, 2026?",
+   "options": [
+    "Launched in 2018, it targeted 5,000 CBG plants by 2023, of which 132 had been completed.",
+    "Launched in 2023, it targeted 132 CBG plants by 2026, of which 5,000 had been completed.",
+    "Launched in 2018, it targeted 132 CBG plants by 2023, of which 5,000 had been completed.",
+    "Launched in 2026, it targeted 5,000 CBG plants by 2029, of which 132 had been completed."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "SATAT was launched in 2018 with a target of 5,000 CBG plants by 2023, but only 132 had been completed by June 3, 2026. The other options alter the launch year, target, or completion figure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GOBARdhan allocations",
+   "question": "Which of the following correctly states the financial provisions associated with GOBARdhan?",
+   "options": [
+    "Up to ₹50 lakh per district for community plants, ₹564 crore for biomass machinery and ₹994 crore for pipelines to the gas grid",
+    "Up to ₹564 crore per district for community plants, ₹50 lakh for biomass machinery and ₹994 crore for pipelines to the gas grid",
+    "Up to ₹50 lakh per district for community plants, ₹994 crore for biomass machinery and ₹564 crore for pipelines to the gas grid",
+    "Up to ₹994 crore per district for community plants, ₹564 crore for biomass machinery and ₹50 lakh for pipelines to the gas grid"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "GOBARdhan provides up to ₹50 lakh per district for community plants, ₹564 crore for biomass machinery and ₹994 crore for pipelines to the gas grid. The other options interchange these amounts or apply them to the wrong components."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ethanol blending trajectory",
+   "question": "Consider the following statements:\nStatement A: Ethanol blending increased from 1.5% in 2014 to 20% by December 2025.\nStatement B: The 20% ethanol-blending level was achieved five years after the 2030 target.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F7"
+   ],
+   "explanation": "Statement A is true: ethanol blending rose from 1.5% in 2014 to 20% by December 2025. Statement B is false because the 20% level was achieved five years ahead of the 2030 target, not after it."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Global biogas concentration",
+   "question": "Assertion (A): Europe, China and the USA account for about 90% of global biogas.\nReason (R): Germany’s Renewable Energy Sources Act was enacted in 2000, leading to a maize feedstock boom that was later capped.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F8",
+    "P6.F9"
+   ],
+   "explanation": "Assertion A is true, as Europe, China and the USA account for about 90% of global biogas. Reason R is also true regarding Germany’s 2000 Act and the later capping of its maize feedstock boom, but this specific German development does not explain the overall global concentration."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "International biogas lessons and maize economics",
+   "question": "How many of the following statements are correct?\n1. Denmark targets only biomethane in the gas grid by 2030 and does not use food crops.\n2. Denmark’s 2030 target permits the use of food crops in addition to manure and residues.\n3. Maize yield increased from 2.56 t/ha in FY16 to 3.78 t/ha in FY25.\n4. The maize-ethanol price CAGR was 17.1% during FY22–FY25.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F10",
+    "P6.F11"
+   ],
+   "explanation": "Only statements 1 and 3 are correct. Denmark’s approach uses manure and residues without food crops, while maize yield rose from 2.56 t/ha to 3.78 t/ha; the maize-ethanol price CAGR was 11.7%, not 17.1%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "E20 feedstock",
+   "question": "Which of the following is a set of feedstocks associated with E20 petrol production?",
+   "options": [
+    "Maize, damaged grain and biomass",
+    "Manure, residues and food crops only",
+    "Crude oil, LPG and natural gas",
+    "Coal, lignite and mineral oil"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "The feedstocks associated with E20 include maize, damaged grain and biomass. The other options do not state the feedstock combination identified for E20."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Telangana ethanol districts and concerns",
+   "question": "Which of the following statements regarding Telangana’s ethanol districts and concerns about E20 is incorrect?",
+   "options": [
+    "Medak, Sangareddy, Nizamabad and Peddapalli are Telangana ethanol districts with grain-based distilleries.",
+    "Mileage and compatibility with older vehicles are among the concerns associated with E20.",
+    "Medak, Sangareddy, Karimnagar and Peddapalli are Telangana ethanol districts with grain-based distilleries.",
+    "Compatibility with older vehicles is one of the concerns associated with E20."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F4",
+    "P7.F5"
+   ],
+   "explanation": "The incorrect statement replaces Nizamabad with Karimnagar. The identified Telangana ethanol districts are Medak, Sangareddy, Nizamabad and Peddapalli, while mileage and older-vehicle compatibility are the stated concerns."
+  }
+ ]
+}

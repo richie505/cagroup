@@ -1,0 +1,247 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": [
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F13",
+  "P3.F14",
+  "P3.F16",
+  "P3.F17",
+  "P3.F18",
+  "P3.F19",
+  "P3.F4",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9",
+  "P4.F1",
+  "P4.F11",
+  "P4.F2",
+  "P4.F3",
+  "P4.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Quantum-computing concepts",
+   "question": "Which combination correctly describes the fundamental features associated with a qubit?",
+   "options": [
+    "It can exist as 0, 1 or both through superposition, along with entanglement and interference",
+    "It can exist only as 0 or 1, without entanglement or interference",
+    "It stores information only through magnetic domains and optical reflection",
+    "It operates exclusively through classical bits and transistor switching"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "A qubit may be 0, 1 or both through superposition, and quantum computing also involves entanglement and interference. The tempting alternative that restricts a qubit to only 0 or 1 describes a classical-bit model."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Decoherence and cooling",
+   "question": "Which of the following statements about decoherence in quantum systems is incorrect?",
+   "options": [
+    "Decoherence is the loss of a quantum state due to the environment.",
+    "Quantum systems are cooled near -273°C to help control environmental effects.",
+    "Decoherence is caused by the deliberate creation of entanglement between qubits.",
+    "Cooling near -273°C is associated with efforts to preserve quantum states."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "The incorrect statement is that decoherence is caused by deliberately creating entanglement; decoherence is the loss of a quantum state due to the environment. Cooling near -273°C is associated with controlling such environmental effects."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Quantum versus classical error rates",
+   "question": "Consider the following statements about error rates in quantum and classical computing:\n1. Quantum error rates are in the range of 1%–0.1%.\n2. Classical computing has an error rate of 1%–0.1%.\n3. Classical computing has an error rate of one in a million.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "Only statement 1 is correct: quantum error rates are given as 1%–0.1%. The classical error rate is one in a quintillion, not 1%–0.1% or one in a million."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Quantum error correction",
+   "question": "What is the basic principle of Quantum Error Correction?",
+   "options": [
+    "Combining many physical qubits to form one logical qubit",
+    "Replacing one logical qubit with a single classical bit",
+    "Converting photons directly into semiconductor wafers",
+    "Cooling one physical qubit to room temperature"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Quantum Error Correction uses many physical qubits to create one logical qubit. The alternatives incorrectly substitute classical bits, semiconductor fabrication or room-temperature operation for this principle."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Quantum Key Distribution",
+   "question": "Quantum Key Distribution primarily uses which combination of carriers and principles?",
+   "options": [
+    "Photons, the observer effect and the no-cloning rule",
+    "Charged atoms, magnetic resonance and transistor switching",
+    "Silicon electrons, superposition and semiconductor doping",
+    "Josephson junctions, optical reflection and classical copying"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "QKD uses photons and is based on the observer effect and the no-cloning rule. Charged atoms and Josephson junctions are associated with other qubit approaches, not this description of QKD."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Types of qubits",
+   "question": "Match List-I with List-II regarding types of qubits and their associated features.\n\nList-I\n(a) Superconducting qubit\n(b) Quantum-dot qubit\n(c) Trapped-ion qubit\n(d) Photonic qubit\n\nList-II\n(i) Photons\n(ii) Charged atoms in electromagnetic fields\n(iii) Josephson junctions\n(iv) Semiconductor materials such as silicon, GaAs and germanium",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9",
+    "P3.F10",
+    "P3.F11",
+    "P3.F12"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i. Superconducting qubits use Josephson junctions, quantum-dot qubits use semiconductor materials, trapped-ion qubits involve charged atoms in electromagnetic fields, and photonic qubits use photons."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First quantum-computer demonstration",
+   "question": "Which type of qubit was used in the first quantum-computer demonstration in 1998?",
+   "options": [
+    "NMR qubit",
+    "Photonic qubit",
+    "Trapped-ion qubit",
+    "Quantum-dot qubit"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F13"
+   ],
+   "explanation": "The first quantum-computer demonstration in 1998 used NMR qubits. Photonic, trapped-ion and quantum-dot qubits are distinct qubit types listed for other implementations."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Nobel Physics 2025",
+   "question": "Assertion (A): John Clarke, Michel H. Devoret and John M. Martinis were associated with the Nobel Prize in Physics 2025.\nReason (R): The National Quantum Mission envisages satellite quantum communication over 2,000 km.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F14",
+    "P3.F17"
+   ],
+   "explanation": "Both statements are true: the three scientists were associated with the 2025 Nobel Physics recognition, and the National Quantum Mission envisages satellite quantum communication over 2,000 km. The communication target does not explain the Nobel recognition, so the second option is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Quantum Mission qubit targets",
+   "question": "What qubit-capacity progression is specified for the National Quantum Mission?",
+   "options": [
+    "20–50 qubits in 3 years; 50–100 in 5 years; 50–1000 in 8 years",
+    "50–100 qubits in 3 years; 20–50 in 5 years; 100–500 in 8 years",
+    "20–50 qubits in 3 years; 100–200 in 5 years; 500–1000 in 8 years",
+    "10–20 qubits in 3 years; 50–100 in 5 years; 200–500 in 8 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F16"
+   ],
+   "explanation": "The National Quantum Mission specifies 20–50 qubits in 3 years, 50–100 in 5 years and 50–1000 in 8 years. The other progressions alter one or more of these time-bound targets."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Quantum Mission T-Hubs",
+   "question": "Which institution is designated as the T-Hub for sensing under the National Quantum Mission?",
+   "options": [
+    "IIT Bombay",
+    "IISc Bengaluru",
+    "IIT Madras with C-DOT",
+    "IIT Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F18"
+   ],
+   "explanation": "IIT Bombay is the T-Hub for sensing under the National Quantum Mission. IISc Bengaluru is linked with computing, IIT Madras and C-DOT with communication, and IIT Delhi with materials."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "National Quantum Mission organisational model",
+   "question": "Consider the following statements:\nStatement A: The National Quantum Mission has 15 Technical Groups.\nStatement B: Its network includes 17 States and 3 Union Territories.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F19"
+   ],
+   "explanation": "Both statements are false. The National Quantum Mission follows the Hub-Spoke-Spike model with 14 Technical Groups and includes 17 States and 2 Union Territories."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Semicon 2.0 architecture",
+   "question": "Match the following features of Semicon 2.0 with their descriptions.\n\nList-I\n(a) Overall outlay\n(b) ATMP\n(c) OSAT\n(d) Number of pillars\n\nList-II\n(i) Six\n(ii) ₹1,27,500 crore\n(iii) Assembly, Testing, Marking and Packaging\n(iv) Outsourced Semiconductor Assembly and Test",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F3"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i. Semicon 2.0 has an outlay of ₹1,27,500 crore, ATMP expands to Assembly, Testing, Marking and Packaging, OSAT to Outsourced Semiconductor Assembly and Test, and the programme has six pillars."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Semicon 2.0 and MPMP-S",
+   "question": "Consider the following statements:\n1. Semicon 2.0 is associated with MeitY and Ashwini Vaishnaw.\n2. MPMP-S provides a 2.25–5% incentive on incremental sales.\n3. MPMP-S covers the period from FY 2025–26 to 2029–30.\n4. MPMP-S provides an extra 2.5% incentive for domestic key components.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F11"
+   ],
+   "explanation": "Only two statements are correct: statements 1 and 2. MPMP-S applies from FY 2026–27 to 2030–31 and provides an extra 1.5% incentive for domestic key components, making statements 3 and 4 incorrect."
+  }
+ ]
+}

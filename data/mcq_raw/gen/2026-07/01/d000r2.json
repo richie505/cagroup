@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P1.F1",
+  "P1.F13",
+  "P1.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "DBT disbursal and sanctioned beneficiaries",
+   "question": "With reference to the Talliki Vandanam Scheme 2026, consider the following statements:\n\n1. DBT disbursal began on 22 July 2026, with ₹13,000 credited to mothers or guardians.\n2. For AY 2026–27, ₹10,120.78 crore was sanctioned for 67,47,190 students and 42,70,802 mothers or guardians.\n3. DBT disbursal began on 22 July 2026, with ₹15,000 credited to mothers or guardians.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct. DBT disbursal began on 22 July 2026 with ₹13,000 credited to mothers or guardians, while ₹10,120.78 crore was sanctioned for 67,47,190 students and 42,70,802 mothers or guardians. Statement 3 is incorrect because it changes the credited amount from ₹13,000 to ₹15,000."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Excluded beneficiaries",
+   "question": "Under the Talliki Vandanam Scheme 2026, which category of students was excluded from the scheme?",
+   "options": [
+    "ITI and Polytechnic students",
+    "ITI students only",
+    "Polytechnic students only",
+    "Neither ITI nor Polytechnic students"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13"
+   ],
+   "explanation": "ITI and Polytechnic students were excluded from the Talliki Vandanam Scheme 2026. The other options incorrectly restrict the exclusion to only one category or deny the exclusion altogether."
+  }
+ ]
+}

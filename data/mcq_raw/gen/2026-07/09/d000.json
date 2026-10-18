@@ -1,0 +1,395 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F19",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F24",
+  "P0.F25",
+  "P0.F26",
+  "P0.F27",
+  "P0.F28",
+  "P0.F29",
+  "P0.F30",
+  "P0.F31",
+  "P0.F32",
+  "P0.F33",
+  "P0.F34",
+  "P0.F35",
+  "P0.F36",
+  "P0.F37",
+  "P0.F38",
+  "P0.F39",
+  "P0.F40",
+  "P0.F41",
+  "P0.F42",
+  "P0.F43",
+  "P0.F44",
+  "P0.F45",
+  "P0.F46",
+  "P0.F47",
+  "P0.F48",
+  "P0.F49",
+  "P0.F50",
+  "P0.F51",
+  "P0.F52",
+  "P0.F53",
+  "P0.F54",
+  "P0.F55",
+  "P0.F56",
+  "P0.F57",
+  "P0.F58",
+  "P0.F59",
+  "P0.F6",
+  "P0.F60",
+  "P0.F61",
+  "P0.F62",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Announcement date and award year",
+   "question": "The 72nd National Film Awards announced in July 2026 were awarded for films of which year?",
+   "options": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The 72nd National Film Awards were announced on 18 July 2026 for films of 2024. The tempting option 2025 is incorrect because the awards specifically covered 2024."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Major award winners",
+   "question": "With reference to the 72nd National Film Awards for 2024, consider the following statements:\n1. Mammootty and Kartik Aaryan jointly won Best Actor.\n2. Randeep Hooda won Best Debut Director for Amaran.\n3. Rajkumar Periasamy won Best Direction for Amaran.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "Only statement 1 is correct: Mammootty and Kartik Aaryan jointly won Best Actor. Randeep Hooda won Best Debut Director for Swatantrya Veer Savarkar, while Rajkumar Periasamy won Best Direction for Amaran."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Popular, social and children’s film awards",
+   "question": "With reference to the 72nd National Film Awards for 2024, consider the following statements:\n1. Kalki 2898 AD won Best Popular Film.\n2. Captain Miller won in the National, Social, Environmental Values category.\n3. 35-Chinna Katha Kaadu won Best Children's Film.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Only statement 2 is correct: Captain Miller won in the National, Social, Environmental Values category. Kalki 2898 AD won Best Popular Film and 35-Chinna Katha Kaadu won Best Children's Film, so statements 1 and 3 are false as framed."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Supporting awards and playback singing",
+   "question": "With reference to the 72nd National Film Awards for 2024, consider the following statements:\n1. Sanjay Mishra won Supporting Actor for Bhakshak.\n2. Sachana Namidass alone won Supporting Actress for Maharaja.\n3. Abhay Jodhpurkar won Male Playback for Gharat Ganpati.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F13",
+    "P0.F14",
+    "P0.F15"
+   ],
+   "explanation": "Only statement 3 is correct: Abhay Jodhpurkar won Male Playback for Gharat Ganpati. Supporting Actress was jointly awarded to Sachana Namidass and Ropashree Varkady, while Sanjay Mishra won Supporting Actor for Bhakshak."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Female playback, cinematography and sound design",
+   "question": "With reference to the 72nd National Film Awards for 2024, consider the following statements:\n1. Vaikom Vijayalakshmi won Female Playback for A.R.M.\n2. Shehnad Jalal won Cinematography for Amaran.\n3. Manas Choudhury won Sound Design for Bramayugam.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16",
+    "P0.F17",
+    "P0.F18"
+   ],
+   "explanation": "Only statement 1 is correct: Vaikom Vijayalakshmi won Female Playback for A.R.M. Shehnad Jalal's Cinematography award was for Bramayugam, and Manas Choudhury won Sound Design for Bhool Bhulaiyaa 3."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Editing, music and lyrics",
+   "question": "With reference to the 72nd National Film Awards for 2024, consider the following statements:\n1. R. Kalaivannan won Editing for Article 370.\n2. Shashwat Sachdev and G. V. Prakash Kumar shared the Music awards for songs and background music respectively.\n3. Manoj Muntashir won the Lyrics award for a song from Stree 2.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F19",
+    "P0.F20",
+    "P0.F21"
+   ],
+   "explanation": "Only statement 2 is correct: Shashwat Sachdev won for songs in Article 370 and G. V. Prakash Kumar for background music in Amaran. R. Kalaivannan won Editing for Amaran, and Manoj Muntashir's winning song was Jaane Do from Maidaan."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Choreography, action direction and adapted screenplay",
+   "question": "With reference to the 72nd National Film Awards for 2024, consider the following statements:\n1. Vijay Ganguly won Choreography for Jaane Do from Maidaan.\n2. Anl Arasu won Action Direction for Stree 2.\n3. Yogesh Deshpande won Adapted Screenplay for Swargandharva Sudhir Phadke.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F22",
+    "P0.F23",
+    "P0.F24"
+   ],
+   "explanation": "Only statement 3 is correct: Yogesh Deshpande won Adapted Screenplay for Swargandharva Sudhir Phadke. Vijay Ganguly's winning choreography was Aaj Ki Raat from Stree 2, while Anl Arasu won Action Direction for Maharaja."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Telugu-category awards",
+   "question": "With reference to the Telugu winners at the 72nd National Film Awards, consider the following statements:\n1. Kalki 2898 AD won Best Popular Film Providing Wholesome Entertainment.\n2. Nitin Zihani Choudhary won Best Production Design for Pushpa: The Rule Part-02.\n3. Sukumar won Best Original Screenplay for Kalki 2898 AD.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F25",
+    "P0.F26",
+    "P0.F27"
+   ],
+   "explanation": "Only statement 1 is correct: Kalki 2898 AD won Best Popular Film Providing Wholesome Entertainment. Nitin Zihani Choudhary won Production Design for Kalki 2898 AD, and Sukumar won Original Screenplay for Pushpa: The Rule Part-02."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Telugu winners and category distinction",
+   "question": "With reference to the Telugu winners at the 72nd National Film Awards, consider the following statements:\n1. Deepali Noor and Sheetal Sharma won Best Costume Design for Pushpa 2.\n2. Kalki 2898 AD won Best Telugu Film.\n3. P. Ravi Kumar won Best Make-up for Lucky Baskhar.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F28",
+    "P0.F29",
+    "P0.F30"
+   ],
+   "explanation": "Only statement 1 is correct: Deepali Noor and Sheetal Sharma won Best Costume Design for Pushpa 2. Committee Kurrollu, not Kalki 2898 AD, won Best Telugu Film, and P. Ravi Kumar won Best Make-up for Committee Kurrollu."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Telugu award-category identification",
+   "question": "How many of the following statements about the Telugu winners at the 72nd National Film Awards are correct?\n1. 35-Chinna Katha Kaadu won Best Children's Film.\n2. Arundev Pothula was the sole Child Artist winner.\n3. Venky Atluri won Best Production Design for Lucky Baskhar.\n4. Committee Kurrollu won Best Telugu Film.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F31",
+    "P0.F32",
+    "P0.F33",
+    "P0.F34"
+   ],
+   "explanation": "Only one statement is correct: 35-Chinna Katha Kaadu won Best Children's Film, and Committee Kurrollu won Best Telugu Film. Arundev Pothula was among the Child Artist winners rather than the sole winner, while Lucky Baskhar won Dialogues, not Production Design."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Language-film award mapping I",
+   "question": "Match the language films associated with the 72nd National Film Awards:\n\nList-I\n a. Assamese\n b. Bengali\n c. Gujarati\n d. Hindi\n\nList-II\n i. Srikanth\n ii. Maaran\n iii. Juiphool\n iv. Chalchitra Ekhon",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F35",
+    "P0.F36",
+    "P0.F37",
+    "P0.F38"
+   ],
+   "explanation": "The correct pairs are Assamese–Juiphool, Bengali–Chalchitra Ekhon, Gujarati–Maaran and Hindi–Srikanth. The other codes interchange these language-film associations."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Language-film award mapping II",
+   "question": "Match the language films associated with the 72nd National Film Awards:\n\nList-I\n a. Kannada\n b. Konkani\n c. Malayalam\n d. Manipuri\n\nList-II\n i. Sunita\n ii. Feminichi Fathima\n iii. Mog Asum\n iv. Mithya",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F39",
+    "P0.F40",
+    "P0.F41",
+    "P0.F42"
+   ],
+   "explanation": "The correct pairs are Kannada–Mithya, Konkani–Mog Asum, Malayalam–Feminichi Fathima and Manipuri–Sunita. The alternative codes wrongly attach the films to neighbouring language entries."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Language-film award mapping III",
+   "question": "Match the language films associated with the 72nd National Film Awards:\n\nList-I\n a. Marathi\n b. Odia\n c. Tamil\n d. Garhwali\n\nList-II\n i. Dholi\n ii. Raayan\n iii. Lahari\n iv. Mukkam Post Bombilwadi",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F43",
+    "P0.F44",
+    "P0.F45",
+    "P0.F46"
+   ],
+   "explanation": "The correct pairs are Marathi–Mukkam Post Bombilwadi, Odia–Lahari, Tamil–Raayan and Garhwali–Dholi. Raayan is the Tamil entry and Dholi is the Garhwali entry."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Tulu film, special mentions and non-feature awards",
+   "question": "Match the award-related entries with their associated details:\n\nList-I\n a. Tulu film\n b. Special mention\n c. Debut director, non-feature\n d. Biographical/Historical, non-feature\n\nList-II\n i. Kakori\n ii. Angen — Ravi Raj Murmu\n iii. Dhanush and Suren G.\n iv. IMBU",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F47",
+    "P0.F48",
+    "P0.F49",
+    "P0.F50"
+   ],
+   "explanation": "The correct pairs are Tulu–IMBU, Special mention–Dhanush and Suren G., Debut director–Angen with Ravi Raj Murmu, and Biographical/Historical–Kakori. The other options misplace the film categories and special mentions."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Non-feature award categories",
+   "question": "Match the non-feature award categories with their winners:\n\nList-I\n a. Arts/Culture\n b. Social/Environmental values\n c. Animation\n d. Direction, non-feature\n\nList-II\n i. Statue of Unity – Ekta ka Prateek — Aanand L. Rai\n ii. Touched as Water\n iii. Main Nida\n iv. Piplantri: A Tale of Eco Feminism",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F51",
+    "P0.F52",
+    "P0.F53",
+    "P0.F54"
+   ],
+   "explanation": "The correct pairs are Arts/Culture–Main Nida, Social/Environmental values–Piplantri: A Tale of Eco Feminism, Animation–Touched as Water, and Direction–Statue of Unity – Ekta ka Prateek by Aanand L. Rai. The other codes exchange the non-feature categories."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Cinema writing awards and institutional details",
+   "question": "Match the entries related to writing and cinema awards:\n\nList-I\n a. Best Book on Cinema\n b. Best Film Critic\n c. Writing award\n d. National Film Awards background\n\nList-II\n i. Established in 1954; first awards for films of 1953; presented by the President\n ii. Swarna Kamal plus ₹1,00,000\n iii. Sanjeev Shrivastava, Hindi\n iv. Kannada book by Kenchanuru Pradeep Kumar Shetty",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F55",
+    "P0.F56",
+    "P0.F57",
+    "P0.F58"
+   ],
+   "explanation": "The correct pairs are Best Book on Cinema–the Kannada book by Kenchanuru Pradeep Kumar Shetty, Best Film Critic–Sanjeev Shrivastava, Writing award–Swarna Kamal plus ₹1,00,000, and background–established in 1954 with the first awards for films of 1953. The other codes confuse the award amounts, critic and institutional history."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Beginning of acting awards and jury chair",
+   "question": "Assertion (A): Acting awards under the National Film Awards began in 1968 for films of 1967.\nReason (R): Shaji N. Karun was named as the Feature Film jury chair in the CA360 details.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F59",
+    "P0.F60"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: acting awards began in 1968 for films of 1967, and Shaji N. Karun was named Feature Film jury chair in the CA360 details. The jury-chair information does not explain when acting awards began, so the second option is correct."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Implementing organisation and first Santali award film",
+   "question": "Consider the following statements:\nStatement A: The National Film Awards are implemented by the Ministry of Culture, while the Directorate of Film Festivals organises the NFA and IFFI.\nStatement B: Angen was the first Santali film to win a National Film Award and had a duration of 10 minutes 12 seconds.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F61",
+    "P0.F62"
+   ],
+   "explanation": "Both statements are false. The implementing ministry is the Ministry of I&B, and Angen had a duration of 12 minutes 10 seconds; it was the first Santali film to win a National Film Award."
+  }
+ ]
+}

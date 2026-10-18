@@ -1,0 +1,179 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": [
+  "P5.F1",
+  "P5.F10",
+  "P5.F2",
+  "P5.F3",
+  "P5.F8",
+  "P5.F9",
+  "P6.F10",
+  "P6.F11",
+  "P6.F12",
+  "P6.F13",
+  "P6.F14",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Summit venue and date",
+   "question": "Where and when will the 18th BRICS Summit be held under India’s 2026 Presidency?",
+   "options": [
+    "New Delhi, September 17–19, 2026",
+    "Guwahati, July 6–7, 2026",
+    "Kochi, July 8–9, 2026",
+    "IIT Hyderabad, July 22–23, 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "The 18th BRICS Summit will be held in New Delhi from September 17 to 19, 2026. Guwahati, Kochi and IIT Hyderabad were venues associated with other BRICS meetings."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Summit theme",
+   "question": "What is the theme of the 18th BRICS Summit hosted by India in 2026?",
+   "options": [
+    "Building for Resilience, Innovation, Cooperation and Sustainability (BRICS)",
+    "AI for Sustainable Development and Global South cooperation",
+    "Exchanging Experiences and Best Practices in Criminal Adjudication from the Prosecution's Perspective",
+    "Mission for Healthy Lifestyle"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "The theme is “Building for Resilience, Innovation, Cooperation and Sustainability (BRICS).” “AI for Sustainable Development and Global South cooperation” was associated with the Science Academies Forum, making it the most tempting alternative."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Special guest and BRICS institutions",
+   "question": "With reference to India’s BRICS Presidency in 2026, consider the following statements:\n1. Bangladesh PM Tariq Rahman is the Special Guest at the 18th BRICS Summit.\n2. BRICS has 11 members.\n3. The New Development Bank was established in 2009.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F9",
+    "P5.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Bangladesh PM Tariq Rahman is the Special Guest, and BRICS has 11 members. Statement 3 is incorrect because the New Development Bank was established in 2015, not 2009."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Meeting venue",
+   "question": "Where was the 5th BRICS Geospatial Working Group meeting held in July 2026?",
+   "options": [
+    "IIT Tirupati, Yerpedu",
+    "IIT Hyderabad",
+    "Kochi",
+    "Virtual"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F8"
+   ],
+   "explanation": "The 5th BRICS Geospatial Working Group meeting was held at IIT Tirupati, Yerpedu, from July 20 to 22. IIT Hyderabad hosted the Science Academies Forum, while Kochi hosted the BRICS Women Ministers’ meeting."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "US–Iran conflict timeline",
+   "question": "Assertion (A): The US–Iran conflict concerning the Strait of Hormuz began in January 2026.\nReason (R): An interim US–Iran pact was reached on June 17, 2026, after which more than 90 transits crossed the Strait on June 24.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F5",
+    "P6.F6"
+   ],
+   "explanation": "Assertion A is false because the conflict began in February 2026. Reason R is true: the interim pact was reached on June 17, 2026, and more than 90 transits crossed on June 24."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Geographical location and strategic importance",
+   "question": "The Strait of Hormuz, central to the US–Iran tensions in 2026, lies between which two countries?",
+   "options": [
+    "Iran and Oman",
+    "India and Oman",
+    "Iran and Saudi Arabia",
+    "Brazil and Russia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F7"
+   ],
+   "explanation": "The Strait of Hormuz lies between Iran and Oman and links the Persian Gulf with the Gulf of Oman. The other country-pairs do not describe the location of the Strait of Hormuz."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "India’s energy imports through Hormuz",
+   "question": "Match List-I with List-II regarding India’s energy imports through the Strait of Hormuz.\n\nList-I\n(a) Crude oil imports\n(b) LNG imports\n(c) LPG imports\n(d) Crude oil import dependence\n\nList-II\ni. About 40%\nii. About 60%\niii. About 90%\niv. 88%+\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F8",
+    "P6.F9",
+    "P6.F10",
+    "P6.F11"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: crude oil, LNG and LPG imports through Hormuz account for about 40%, 60% and 90%, respectively, while crude oil import dependence is 88%+. The other codes interchange these percentages and the dependence figure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Annual import volume and price impact",
+   "question": "According to the 2026 assessment of India’s exposure to the Strait of Hormuz, how much crude oil does India import annually, and what is the possible effect of a USD 1 per barrel increase?",
+   "options": [
+    "1.8–2 billion barrels per year; up to USD 2 billion",
+    "88%+ barrels per year; up to USD 9 billion",
+    "40–50 barrels per day; up to USD 48.88 billion",
+    "90 barrels per year; up to USD 1 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F12"
+   ],
+   "explanation": "India imports 1.8–2 billion barrels of crude oil annually, and every USD 1 per barrel increase can add up to USD 2 billion. The other options confuse import volume, transit figures or the possible annual fee."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Economic impact of the proposed fee",
+   "question": "How many of the following statements regarding India’s economic exposure to the proposed Strait of Hormuz fee are correct?\n1. The fee could have added about USD 9 billion annually.\n2. India’s oil imports during March–May 2026 rose 47% to USD 48.88 billion.\n3. The fee could have added about USD 48.88 billion annually.\n4. India’s oil imports during March–May 2026 rose 40%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F13",
+    "P6.F14"
+   ],
+   "explanation": "Exactly two statements are correct: the proposed fee could have added about USD 9 billion annually, and oil imports rose 47% to USD 48.88 billion during March–May 2026. The tempting figures in statements 3 and 4 incorrectly interchange the USD 48.88 billion amount and the 47% increase."
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": [
+  "P1.F15",
+  "P1.F19"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Astronaut and spacecraft",
+   "question": "Which Indian-origin NASA astronaut reached the International Space Station aboard Soyuz MS-29?",
+   "options": [
+    "Anil Menon",
+    "Mahima Rajput",
+    "Bhiravarusu Sriram Sharan",
+    "Gautam Buddha University"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F15"
+   ],
+   "explanation": "Anil Menon, an Indian-origin NASA astronaut, reached the International Space Station aboard Soyuz MS-29. Mahima Rajput and Bhiravarusu Sriram Sharan are associated with other space-related developments, while Gautam Buddha University is an institution."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Mission duration and research",
+   "question": "With reference to Anil Menon's stay aboard the International Space Station, consider the following statements:\nStatement A: Anil Menon is to spend about eight months on the International Space Station.\nStatement B: His work on the station includes artificial intelligence and medical research.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F19"
+   ],
+   "explanation": "Both statements are correct: Anil Menon is to spend about eight months on the International Space Station and undertake artificial intelligence and medical research. The other options are incorrect because they wrongly treat one or both of these details as false."
+  }
+ ]
+}

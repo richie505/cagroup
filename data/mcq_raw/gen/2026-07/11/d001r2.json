@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": [
+  "P1.F10",
+  "P1.F17",
+  "P1.F18",
+  "P1.F2",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Global and regional rank",
+   "question": "Following the inscription of the Ancient Buddhist Site of Sarnath, which statement correctly describes India's position in the World Heritage list?",
+   "options": [
+    "India has 45 World Heritage Sites, ranking 6th globally and 2nd in the Asia-Pacific region.",
+    "India has 45 World Heritage Sites, ranking 2nd globally and 6th in the Asia-Pacific region.",
+    "India has 6 World Heritage Sites, ranking 45th globally and 2nd in the Asia-Pacific region.",
+    "India has 45 World Heritage Sites, ranking 6th globally and 1st in the Asia-Pacific region."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "India now has 45 World Heritage Sites, placing it 6th globally and 2nd in the Asia-Pacific region. The most tempting alternative reverses the global and regional positions, but India's global rank is 6th and its Asia-Pacific rank is 2nd."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Archaeological finds and art",
+   "question": "Which statement correctly describes the important finds associated with the Ancient Buddhist Site of Sarnath?",
+   "options": [
+    "The Mauryan Lion Capital is India's National Emblem, while the Dharmachakrapravartana Buddha is an example of Gupta art.",
+    "The Mauryan Lion Capital is an example of Gupta art, while the Dharmachakrapravartana Buddha is India's National Emblem.",
+    "Both the Mauryan Lion Capital and the Dharmachakrapravartana Buddha are India's National Emblem.",
+    "Both the Mauryan Lion Capital and the Dharmachakrapravartana Buddha are examples of Gupta art."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "The Mauryan Lion Capital is India's National Emblem, and the Dharmachakrapravartana Buddha is associated with Gupta art. The closest distractor reverses these associations."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Museum and Lion Capital features",
+   "question": "Match List-I with List-II in the context of the Sarnath Museum and the Lion Capital.\n\nList-I\n a. Sarnath Museum\n b. Shaft of the Lion Capital\n c. Circular carved abacus\n d. Lower design of the Lion Capital\n\nList-II\n i. 1904\n ii. Stambha-yashti\n iii. Elephant, bull, horse and lion with Dharmachakras\n iv. Inverted lotus petals\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "The Sarnath Museum dates to 1904; the Lion Capital's shaft is the stambha-yashti; its circular abacus depicts an elephant, bull, horse and lion with Dharmachakras; and it has inverted lotus petals. The other codes interchange these museum and Lion Capital features."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State locations of World Heritage sites",
+   "question": "Consider the following statements about selected Indian World Heritage Sites:\n\n1. The Sacred Ensembles of the Hoysalas are located in Karnataka.\n2. The Moidams are located in Telangana.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F17",
+    "P1.F18"
+   ],
+   "explanation": "Statement 1 is correct because the Sacred Ensembles of the Hoysalas are in Karnataka. Statement 2 is incorrect: the Moidams are in Assam and are Ahom burial mounds, not in Telangana."
+  }
+ ]
+}

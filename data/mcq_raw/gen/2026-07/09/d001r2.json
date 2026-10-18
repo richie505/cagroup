@@ -1,0 +1,100 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": [
+  "P1.F10",
+  "P1.F18",
+  "P1.F23",
+  "P1.F24",
+  "P1.F29",
+  "P1.F37",
+  "P1.F38"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Award and project",
+   "question": "Which project received the Gold Award under the National e-Governance Awards 2026 for AI-based mental-health support?",
+   "options": [
+    "ICMR-mINDS",
+    "Samruddh Gram",
+    "BharatNet",
+    "Project Tiger"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "ICMR-mINDS received the Gold Award under the National e-Governance Awards 2026 for AI Clinical Decision Support for mental health. Samruddh Gram was associated with the WSIS Prize 2026, not this award."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Award institution and literary honour",
+   "question": "Consider the following statements:\n1. The Fields Medal is awarded every four years by the International Mathematical Union.\n2. C. Narayana Reddy received the Jnanpith Award in 1988 for Vishwambhara.\n3. C. Narayana Reddy received the Jnanpith Award in 1998 for Vishwambhara.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F18",
+    "P1.F23"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Fields Medal is awarded every four years by the International Mathematical Union, and C. Narayana Reddy received the Jnanpith Award in 1988 for Vishwambhara. Statement 3 is incorrect because the correct year is 1988, not 1998."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Tiger conservation institutions and dates",
+   "question": "How many of the following statements relating to tiger conservation in India are correct?\n1. The National Tiger Conservation Authority was established in 2005.\n2. Project Tiger was launched in 1973.\n3. Parambikulam Tiger Reserve was declared in 2010.\n4. The National Tiger Conservation Authority was established in 2006.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F24"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so the answer is Only two. Parambikulam Tiger Reserve was declared in 2009, and the National Tiger Conservation Authority was established in 2005."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Awarding authority and organisation",
+   "question": "Consider the following statements:\nStatement A: The National e-Governance Awards are given by the Department of Administrative Reforms and Public Grievances.\nStatement B: The Indian Council of Medical Research was established in 1911 and its Director General is Dr. Rajiv Bahl.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F29"
+   ],
+   "explanation": "Both statements are true. The National e-Governance Awards are given by the Department of Administrative Reforms and Public Grievances, while ICMR was established in 1911 and has Dr. Rajiv Bahl as its Director General."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "ICC Hall of Fame",
+   "question": "Assertion (A): The ICC Hall of Fame was launched in 2010.\nReason (R): Thirteen Indians are included among the ICC Hall of Fame inductees.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F37",
+    "P1.F38"
+   ],
+   "explanation": "Assertion A is false because the ICC Hall of Fame was launched in 2009. Reason R is true: 13 Indians are included among the ICC Hall of Fame inductees."
+  }
+ ]
+}

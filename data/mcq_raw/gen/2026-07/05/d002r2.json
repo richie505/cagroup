@@ -1,0 +1,85 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P2.F11",
+  "P2.F17",
+  "P2.F20",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Defence, maritime and counter-terrorism cooperation",
+   "question": "Consider the following statements about the India–New Zealand Strategic Partnership:\n1. It includes an Annual Trade Dialogue and a Maritime Cooperation Arrangement.\n2. A 2025 MoU on Defence Cooperation is among its key provisions.\n3. It provides for NIA–UK Police cooperation.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "Only statement 2 is correct: the partnership includes the 2025 MoU on Defence Cooperation. The relevant maritime provision is an Annual Maritime Security Dialogue, not an Annual Trade Dialogue, and the police cooperation is between the NIA and New Zealand Police, not the UK Police."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Disaster and biofuels cooperation",
+   "question": "Which of the following correctly describes two provisions associated with New Zealand under the India–New Zealand Strategic Partnership?",
+   "options": [
+    "New Zealand joined the Global Biofuels Alliance, and NDMA–NEMA disaster cooperation was included.",
+    "New Zealand joined the Global Biofuels Alliance, and NDMA–NEMA defence cooperation was included.",
+    "New Zealand joined the Global Biofuels Alliance, and NCPOR–University of Canterbury cooperation was included.",
+    "New Zealand expressed interest in the IPOI maritime security pillar, and NDMA–NEMA disaster cooperation was included."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "New Zealand joined the Global Biofuels Alliance, and disaster cooperation was established between India’s NDMA and New Zealand’s NEMA. The other options incorrectly change disaster cooperation to defence cooperation or substitute other partnership provisions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian diaspora",
+   "question": "The Indian diaspora constitutes approximately what share of New Zealand’s population?",
+   "options": [
+    "About 5%",
+    "About 18%",
+    "About 50%",
+    "About 4%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F17"
+   ],
+   "explanation": "The Indian diaspora accounts for about 5% of New Zealand’s population. The figures 18%, 50% and 4% do not represent the diaspora’s share given for New Zealand."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scope and duration of the Roadmap",
+   "question": "According to the India–New Zealand Strategic Partnership, which combination correctly describes the scope of cooperation and the period guided by the Roadmap to 2030?",
+   "options": [
+    "18 areas of cooperation and the next four years",
+    "Six areas of cooperation and the next four years",
+    "18 areas of cooperation and the next six years",
+    "Four areas of cooperation and the next 18 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F20"
+   ],
+   "explanation": "The partnership spans 18 areas, while the Roadmap guides the next four years. The other combinations alter either the number of cooperation areas or the Roadmap’s period."
+  }
+ ]
+}

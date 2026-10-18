@@ -1,0 +1,137 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Date of observance",
+   "question": "Hul Diwas, commemorating the Santal rebellion of 1855, is observed on which date?",
+   "options": [
+    "June 30",
+    "June 29",
+    "July 30",
+    "January 30"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Hul Diwas is observed on June 30, marking the beginning of the Santal rebellion in 1855. June 29 is the most tempting trap, but the correct date is June 30."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Causes of rebellion",
+   "question": "Which of the following statements about the causes of the Santal rebellion is incorrect?",
+   "options": [
+    "Rising rents contributed to the rebellion.",
+    "Moneylender exploitation contributed to the rebellion.",
+    "Land alienation was one of the causes of the rebellion.",
+    "Administrative justice was one of the causes of the rebellion."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The incorrect statement is that administrative justice was a cause; the recorded cause was administrative injustice. Rising rents, moneylender exploitation and land alienation were among the causes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Groups targeted",
+   "question": "The Santal rebellion was directed against which combination of groups and officials?",
+   "options": [
+    "Moneylenders, zamindars and revenue officials, among others",
+    "Only British soldiers",
+    "Only village artisans",
+    "Only forest guards"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "The rebellion was directed against moneylenders, zamindars and revenue officials, too, and not only against the British. The phrase “only British soldiers” is therefore the key trap."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Aftermath and historical record",
+   "question": "Consider the following statements about the aftermath and historical record of the Santal rebellion:\n1. Migration after suppression included destinations such as Assam tea gardens.\n2. W.G. Archer recorded the proverb, “a million Santals have two words.”\n3. About 31,000 Santal Pargana residents were recorded in Assam by 1901.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "Only statement 1 is correct: post-suppression migration included Assam tea gardens. W.G. Archer’s proverb used “a single word,” not “two words,” and the figure of about 31,000 referred to residents in Assam, making statement 3 incorrect in this question’s formulation."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Duration, precursor and State background",
+   "question": "Match List-I with List-II in the context of the Santal rebellion and Jharkhand:\n\nList-I\n a. Duration of the Santal rebellion\n b. Historical significance of the rebellion\n c. Formation of Jharkhand\n d. Capital of Jharkhand\n\nList-II\n i. November 15, 2000\n ii. June 1855–January 1856\n iii. Ranchi\n iv. Precursor of the 1857 revolt",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. The rebellion lasted from June 1855 to January 1856, preceded the 1857 revolt, Jharkhand was formed on November 15, 2000, and Ranchi is its capital."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Ol Chiki script",
+   "question": "Assertion (A): Ol Chiki is associated with Pandit Raghunath Murmu.\nReason (R): The Ol Chiki script was developed in 1930.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "Assertion A is true because Ol Chiki was developed by Pandit Raghunath Murmu. Reason R is false: the year associated with its development is 1925, not 1930."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Santal cultural background and migration",
+   "question": "Consider the following statements:\nStatement A: Hihiri-Pipiri and Sasan Beda are associated with Santal origin narratives.\nStatement B: The Jharkhand Migration Survey 2023 recorded about 50 lakh residents working elsewhere.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F13",
+    "P0.F14"
+   ],
+   "explanation": "Statement A is true: Hihiri-Pipiri and Sasan Beda are Santal origin narratives. Statement B is false because the Jharkhand Migration Survey 2023 recorded about 45 lakh residents working elsewhere, not 50 lakh."
+  }
+ ]
+}

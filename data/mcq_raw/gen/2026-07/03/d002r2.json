@@ -1,0 +1,120 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": [
+  "P4.F13",
+  "P4.F15",
+  "P4.F23",
+  "P5.F11",
+  "P5.F12",
+  "P5.F4",
+  "P5.F5",
+  "P5.F8",
+  "P5.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "FPOs through PACS",
+   "question": "According to the Ministry of Cooperation's July 2026 cooperative-sector review, how many Farmer Producer Organisations (FPOs) were formed through PACS?",
+   "options": [
+    "1,863",
+    "1,117",
+    "1,070",
+    "25,282"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F13"
+   ],
+   "explanation": "A total of 1,117 FPOs were formed through PACS. The figures 1,863 and 1,070 refer to other FPO categories, while 25,282 relates to dairy societies."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "White Revolution 2.0 target",
+   "question": "What is the target of White Revolution 2.0 regarding milk procurement?",
+   "options": [
+    "Raise milk procurement by 50% by 2028–29",
+    "Register 25,282 dairy societies by 2028–29",
+    "Raise milk procurement by 50% through fisheries FPOs",
+    "Raise milk procurement by 25,282% by 2028–29"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F15"
+   ],
+   "explanation": "White Revolution 2.0 aims to raise milk procurement by 50% by 2028–29. The figure 25,282 refers to dairy societies registered, not the procurement target."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Share of agri credit",
+   "question": "With reference to the cooperative-sector review of July 2026, consider the following statements:\nStatement A: Commercial banks have the highest share of agricultural credit.\nStatement B: Cooperatives have the highest share of agricultural credit.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F23"
+   ],
+   "explanation": "Statement A is correct because commercial banks have the highest share of agricultural credit. Statement B reverses this position and is therefore incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Seroprevalence and virus characteristics",
+   "question": "Match the following hepatitis-related entries with the corresponding details:\n\nList-I\n a. Hepatitis B seroprevalence\n b. Hepatitis C seroprevalence\n c. Hepatitis A\n d. Hepatitis E\n\nList-II\n i. 0.85% (1 in 118)\n ii. 0.29% (1 in 345)\n iii. Faecal-oral spread; prevention through sanitation\n iv. Faecal-oral spread; prevention through sanitation; serious in pregnancy",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F4",
+    "P5.F5",
+    "P5.F9"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Hepatitis B has a seroprevalence of 0.85%, Hepatitis C has 0.29%, Hepatitis A spreads through the faecal-oral route, and Hepatitis E is also faecal-oral and serious in pregnancy."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Global hepatitis targets",
+   "question": "With reference to global hepatitis burden and the WHO GHSS 2022–2030 targets, how many of the following statements are correct?\n1. Hepatitis B and C cause about 1.3 million deaths per year.\n2. About 300 million people are living with Hepatitis B and C infection.\n3. The target for 2030 is a 90% cut in incidence compared with 2015.\n4. The target for 2030 is a 60% cut in mortality compared with 2015.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F11",
+    "P5.F12"
+   ],
+   "explanation": "Statements 1 and 3 are correct, so the answer is Only two. The correct global burden is 304 million people living with infection, and the mortality-reduction target is 65%, not 60%."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Hepatitis D transmission and prevention",
+   "question": "Assertion (A): Hepatitis D spreads through the faecal-oral route.\nReason (R): Preventing Hepatitis B prevents Hepatitis D.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F8"
+   ],
+   "explanation": "The assertion is false because Hepatitis D occurs only in Hepatitis B carriers, rather than spreading through the faecal-oral route. The reason is true: preventing Hepatitis B prevents Hepatitis D."
+  }
+ ]
+}

@@ -1,0 +1,263 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7
+ ],
+ "only": [
+  "P7.F1",
+  "P7.F10",
+  "P7.F13",
+  "P7.F14",
+  "P7.F15",
+  "P7.F16",
+  "P7.F18",
+  "P7.F19",
+  "P7.F2",
+  "P7.F20",
+  "P7.F21",
+  "P7.F22",
+  "P7.F23",
+  "P7.F24",
+  "P7.F25",
+  "P7.F3",
+  "P7.F5",
+  "P7.F6",
+  "P7.F7",
+  "P7.F8",
+  "P7.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Announcement and scope",
+   "question": "Who announced the proposed Cooperative Life Insurance Organization in July 2026, through which cooperatives would enter life, health and accident insurance?",
+   "options": [
+    "Amit Shah",
+    "Shivraj Singh Chouhan",
+    "C. R. Patil",
+    "Anil Kumar Lahoti"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "Amit Shah announced the Cooperative Life Insurance Organization, covering life, health and accident insurance through cooperatives. Shivraj Singh Chouhan is associated with the Agriculture Ministry, while C. R. Patil is associated with the Ministry of Jal Shakti."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Policy linkage and ministry details",
+   "question": "With reference to the Cooperative Life Insurance Organization, consider the following statements:\n1. It supports the objective of “Sahakar Se Samriddhi”, is linked to the proposed National Cooperation Policy 2025, and gives PACS a role.\n2. The Ministry of Cooperation was established in 2019.\n3. Amit Shah is the Minister of Cooperation.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the organization supports “Sahakar Se Samriddhi” and is linked to the proposed National Cooperation Policy 2025, while PACS are to play a role; Amit Shah is the Minister of Cooperation. Statement 2 is incorrect because the Ministry of Cooperation was established in 2021, not 2019."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Reason for Paraquat ban",
+   "question": "Which one of the following statements regarding the nationwide ban on Paraquat is incorrect?",
+   "options": [
+    "Paraquat poisoning can cause fatal outcomes among farmers.",
+    "Paraquat has no known antidote.",
+    "Paraquat is a selective contact herbicide.",
+    "Paraquat has already been banned in more than 70 countries."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "The incorrect statement is that Paraquat is a selective contact herbicide; it is a non-selective contact herbicide. The other statements reflect the reported fatal poisoning risk, absence of a known antidote and its ban in more than 70 countries."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Regulatory law and minister",
+   "question": "The import, manufacture, sale and use of pesticides, in the context of the Paraquat ban, are regulated by which legislation?",
+   "options": [
+    "Pesticides Act, 1968",
+    "Drugs and Cosmetics Act, 1940",
+    "Drugs Rules, 1945",
+    "National Cooperation Policy 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F6"
+   ],
+   "explanation": "The Pesticides Act, 1968 regulates the import, manufacture, sale and use of pesticides. The Drugs and Cosmetics Act, 1940 and Drugs Rules, 1945 concern drug regulation, not the stated pesticide framework."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Renamed places",
+   "question": "Match the old names in List-I with their new names or associated descriptions in List-II.\n\nList-I\n a. Jalalabad\n b. Bhadarsa\n c. Parshurampuri\n d. Bharat Nagar\n\nList-II\n i. New name of Jalalabad\n ii. New name of Bhadarsa\n iii. Believed birthplace of Lord Parshuram\n iv. Name associated with Bharata, Lord Rama’s brother\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F7",
+    "P7.F8"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Jalalabad was renamed Parshurampuri, while Bhadarsa was renamed Bharat Nagar; the associated descriptions refer respectively to Lord Parshuram and Bharata."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Station renaming and approval",
+   "question": "Consider the following statements:\nStatement A: The station code of Kathua Railway Station changed from KTHU to MKTU after its renaming.\nStatement B: Such renamings require approval of the State government and the Union Ministry of Home Affairs, with the Survey of India and Indian Railways involved.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F9",
+    "P7.F10"
+   ],
+   "explanation": "Statement A is false because the station code changed from KTHU to MSKT. Statement B is true: approval of the State government and Union Ministry of Home Affairs is required, with the Survey of India and Indian Railways involved."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Technical advisory body",
+   "question": "Under the Drugs and Cosmetics Act, 1940, which body is the highest technical advisory body?",
+   "options": [
+    "Drugs Technical Advisory Board",
+    "Telecom Regulatory Authority of India",
+    "Ministry of Cooperation",
+    "Department of Posts"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F13"
+   ],
+   "explanation": "The Drugs Technical Advisory Board is the highest technical advisory body under the Drugs and Cosmetics Act, 1940. TRAI is associated with telecom regulation, while the Ministry of Cooperation and Department of Posts have different administrative roles."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Kartavya Bhavan Area components",
+   "question": "Match the places or projects in List-I with the corresponding descriptions in List-II.\n\nList-I\n a. Central Vista redevelopment area\n b. Former Rajpath\n c. New PMO complex\n d. Upcoming common secretariat\n\nList-II\n i. Kartavya Bhavan Area\n ii. Kartavya Path\n iii. Seva Teerth\n iv. Common Central Secretariat\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F14",
+    "P7.F15"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The Central Vista redevelopment area is officially the Kartavya Bhavan Area; Rajpath is now Kartavya Path, the new PMO complex is Seva Teerth and the upcoming project is the Common Central Secretariat."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inauguration and implementing agency",
+   "question": "When was the first Kartavya Bhavan inaugurated, and which agency implemented the project?",
+   "options": [
+    "August 2025; CPWD",
+    "July 2026; TRAI",
+    "July 2025; Ministry of Jal Shakti",
+    "August 2026; Department of Posts"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F16"
+   ],
+   "explanation": "The first Kartavya Bhavan was inaugurated in August 2025, and the project was undertaken by CPWD under the Ministry of Housing and Urban Affairs. The other options alter the date or associate the project with unrelated organisations."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Interstate water agreements and committee",
+   "question": "Consider the following statements regarding interstate water matters:\n1. The Sardar Sarovar Project involves an agreement among Madhya Pradesh, Gujarat, Rajasthan and Maharashtra on cost-sharing and rehabilitation.\n2. The Tungabhadra High-Power Committee is a nine-member committee constituted by the Ministry of Jal Shakti to address legal, technical and management issues of the basin.\n3. The Tungabhadra High-Power Committee is an eight-member committee constituted by the Ministry of Cooperation.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F18",
+    "P7.F19"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Sardar Sarovar agreement concerns four States and cost-sharing and rehabilitation, while the Tungabhadra committee has nine members and was constituted by the Ministry of Jal Shakti. Statement 3 is incorrect because the committee has nine members and is associated with the Ministry of Jal Shakti."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ministry establishment and minister",
+   "question": "Which statement correctly describes the Ministry of Jal Shakti?",
+   "options": [
+    "It was established in 2019 and is headed by C. R. Patil.",
+    "It was established in 2021 and is headed by Amit Shah.",
+    "It was established in 1997 and is headed by Anil Kumar Lahoti.",
+    "It was established in 1968 and is headed by Shivraj Singh Chouhan."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F20"
+   ],
+   "explanation": "The Ministry of Jal Shakti was established in 2019, and its Minister is C. R. Patil. The other options combine the establishment years or ministers of other ministries and organisations."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Village telecom survey",
+   "question": "How many of the following statements regarding the Department of Posts–TRAI village telecom survey are correct?\n1. The survey covers 5.68 lakh villages.\n2. More than 1.40 lakh Gramin Dak Sevaks are involved.\n3. The survey is conducted using an iOS application.\n4. The operators assessed include Airtel, Jio, Vodafone Idea and MTNL.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F21",
+    "P7.F22"
+   ],
+   "explanation": "Only two statements are correct: the survey covers 5.68 lakh villages and involves more than 1.40 lakh Gramin Dak Sevaks. The application is Android-based, and the listed fourth operator is incorrect because the assessed operators include BSNL rather than MTNL."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "TRAI leadership and administrative ministry",
+   "question": "Which combination is correct regarding TRAI and India Post?",
+   "options": [
+    "TRAI was established in 1997 and is chaired by Anil Kumar Lahoti; India Post comes under the Ministry of Communications.",
+    "TRAI was established in 2019 and is chaired by C. R. Patil; India Post comes under the Ministry of Cooperation.",
+    "TRAI was established in 2021 and is chaired by Amit Shah; India Post comes under the Ministry of Jal Shakti.",
+    "TRAI was established in 1968 and is chaired by Shivraj Singh Chouhan; India Post comes under the Ministry of Heavy Industries."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F23"
+   ],
+   "explanation": "TRAI was established in 1997 and its Chairman is Anil Kumar Lahoti; India Post is under the Ministry of Communications. The other combinations use details belonging to different ministries or organisations."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Industrial MoUs and institutional roles",
+   "question": "Match the entities or activities in List-I with the corresponding details in List-II.\n\nList-I\n a. BHEL–Thyssenkrupp Nucera collaboration\n b. BHEL headquarters\n c. NIELIT semiconductor Centres of Excellence\n d. NIELIT training focus\n\nList-II\n i. Indigenous Alkaline Water Electrolyzers for green hydrogen\n ii. New Delhi\n iii. Ahmedabad and Guwahati\n iv. OSAT and ATMP under India Semiconductor Mission 2.0\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F24",
+    "P7.F25"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. BHEL and Thyssenkrupp Nucera are associated with indigenous Alkaline Water Electrolyzers at BHEL Hyderabad, while NIELIT’s Centres of Excellence are in Ahmedabad and Guwahati, with training in OSAT and ATMP under India Semiconductor Mission 2.0."
+  }
+ ]
+}

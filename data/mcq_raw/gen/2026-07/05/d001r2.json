@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": [
+  "P1.F15",
+  "P1.F24",
+  "P1.F25",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Investment package and CEPA review",
+   "question": "Which of the following was among the economic outcomes of the 16th India–Japan Annual Summit?",
+   "options": [
+    "A Memorandum of Cooperation for a USD 10 billion package, along with acceleration of the CEPA review",
+    "A Joint Statement on Energy Resilience, along with Japan’s support for India’s IEA membership",
+    "An agreement for about 120 business cooperation partnerships, along with the launch of the LUPEX mission",
+    "A target of 7,000 km of national high-speed rail, along with the 2027 commercial operation of priority sections"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9"
+   ],
+   "explanation": "The summit outcomes included a Memorandum of Cooperation for a USD 10 billion package and an agreement to accelerate the CEPA review. The option referring to 7,000 km of national high-speed rail concerns the high-speed rail vision, not the economic package in this question."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bilateral trade value",
+   "question": "What was the value of bilateral trade between India and Japan in FY 2025–26?",
+   "options": [
+    "USD 27.48 billion",
+    "USD 10 billion",
+    "¥10 trillion",
+    "USD 7,000 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F15"
+   ],
+   "explanation": "Bilateral trade between India and Japan in FY 2025–26 was valued at USD 27.48 billion, comprising exports of USD 6.04 billion and imports of USD 21.44 billion. The ¥10 trillion figure refers to the Japanese investment target, not bilateral trade."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Summit date, investment target and agreements",
+   "question": "Consider the following statements about the 16th India–Japan Annual Summit:\n\n1. The summit date highlighted in the outcomes was July 2, 2026.\n2. Japan set a target of 10 trillion yen in investment over the next decade.\n3. About 100 business cooperation agreements were signed.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F24",
+    "P1.F25"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the summit date was July 2, 2026, and the Japanese investment target was 10 trillion yen over the next decade. Statement 3 is incorrect because about 120, not 100, business cooperation agreements were signed."
+  }
+ ]
+}

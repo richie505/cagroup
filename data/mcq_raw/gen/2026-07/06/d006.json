@@ -1,0 +1,195 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F10",
+  "P10.F2",
+  "P10.F4",
+  "P10.F5",
+  "P10.F6",
+  "P10.F7",
+  "P10.F8",
+  "P10.F9",
+  "P11.F2",
+  "P11.F3",
+  "P11.F4",
+  "P11.F6",
+  "P11.F7",
+  "P12.F2",
+  "P12.F3",
+  "P12.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First oral PCSK9 inhibitor",
+   "question": "Which drug did the US FDA approve as the first oral PCSK9 inhibitor for lowering LDL cholesterol?",
+   "options": [
+    "Lipefendra",
+    "SHETA2",
+    "Vepdegestrant",
+    "HFO-1234yf"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "Lipefendra was approved by the US FDA as the first oral PCSK9 inhibitor for LDL cholesterol. SHETA2 is an oral drug for HPV cervical lesions, while Vepdegestrant and HFO-1234yf belong to different fields."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Research item and key detail",
+   "question": "Match List-I with List-II regarding the health and science research developments reported in July 2026.\n\nList-I\n a. Placenta-on-Chip\n b. SHETA2\n c. Bundibugyo virus test\n d. Zinc-Air battery\n\nList-II\n i. Low-cost rechargeable battery developed by Dr. S. Devaraj at SASTRA\n ii. Oral drug targeting E6 and E7 oncoproteins in HPV cervical lesions\n iii. First molecular test receiving WHO Emergency Use Listing for an Ebola-like virus from fruit bats\n iv. Microfluidic placenta model developed by IIT Bombay and ICMR-NIRRCH",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4",
+    "P10.F5",
+    "P10.F6",
+    "P10.F7"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i. The Placenta-on-Chip is a microfluidic model, SHETA2 targets E6 and E7, the Bundibugyo test received WHO Emergency Use Listing, and the Zinc-Air battery is a low-cost rechargeable battery developed by Dr. S. Devaraj at SASTRA."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "High-oleic groundnut variety",
+   "question": "Which ICRISAT groundnut variety was identified as India's first high-oleic variety, with a 7–12% higher yield?",
+   "options": [
+    "ICGV 181030",
+    "ICGV 201214",
+    "HFO-1234yf",
+    "Rutile oxide"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F8"
+   ],
+   "explanation": "ICGV 181030 was identified as India's first high-oleic groundnut variety and recorded a 7–12% higher yield. ICGV 201214 is another ICRISAT variety mentioned in the same development, but it was not identified as India's first high-oleic variety."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Indigenous refrigerant process",
+   "question": "Which of the following statements regarding HFO-1234yf is incorrect?",
+   "options": [
+    "CSIR-IICT Hyderabad developed India's first indigenous process for HFO-1234yf.",
+    "HFO-1234yf is a low-GWP refrigerant.",
+    "The indigenous process supports the Kigali Amendment.",
+    "CSIR-IICT Bengaluru developed India's first indigenous process for HFO-1234yf."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F9"
+   ],
+   "explanation": "The incorrect statement is that CSIR-IICT Bengaluru developed the process; the correct place is CSIR-IICT Hyderabad. HFO-1234yf is a low-GWP refrigerant, and the indigenous process supports the Kigali Amendment."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Institutional year and headquarters",
+   "question": "Consider the following statements:\nStatement A: ICRISAT was established in 1972 and is located at Patancheru.\nStatement B: WHO was established in 1948 and is headquartered in Geneva.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F10"
+   ],
+   "explanation": "Both statements are true: ICRISAT dates to 1972 and is located at Patancheru, while WHO dates to 1948 and is headquartered in Geneva. The alternatives incorrectly reject one or both of these institutional details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Collaboration and institutional profile",
+   "question": "The Bharat AI & Cyber Innovation Hub for Insurance was associated with which collaboration, and which profile correctly describes SBI Life?",
+   "options": [
+    "SBI Life and IIT Bombay; SBI Life was established in 2001 at Mumbai",
+    "SBI Life and IIT Delhi; SBI Life was established in 1972 at Patancheru",
+    "SBI Life and IIT Kanpur; SBI Life was established in 1948 at Geneva",
+    "SBI Life and IIT Madras; SBI Life was established in 2001 at Hyderabad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2",
+    "P11.F7"
+   ],
+   "explanation": "The hub arose from an SBI Life–IIT Bombay MoU, and SBI Life was established in 2001 at Mumbai. IIT Delhi, IIT Kanpur and IIT Madras are not the collaborating institute in this initiative, and the alternative locations or years are incorrect."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rutile properties and occurrence",
+   "question": "Consider the following statements about rutile and the IIT Delhi study:\n1. IIT Delhi reported that the metal–insulator behaviour of rutile oxides remains unexplained by current models.\n2. Rutile is titanium dioxide, or TiO2, and is used in paints, plastics, paper, ceramics and cosmetics.\n3. Titanium has atomic number 22, and rutile, ilmenite and leucoxene are the main titanium minerals.",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F6"
+   ],
+   "explanation": "All three statements are correct. IIT Delhi studied the unexplained metal–insulator behaviour of rutile oxides; rutile is TiO2 with several industrial uses, and titanium has atomic number 22 while rutile, ilmenite and leucoxene are the main titanium minerals."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cooling technology",
+   "question": "Which cooling technology was developed by IIT Madras using an “Anti-Parallel Arrangement” for electronics and electric vehicles?",
+   "options": [
+    "Flat Plate Pulsating Heat Pipe",
+    "Bharat AI & Cyber Innovation Hub",
+    "Placenta-on-Chip",
+    "Zinc-Air battery"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4"
+   ],
+   "explanation": "IIT Madras developed the Flat Plate Pulsating Heat Pipe using an “Anti-Parallel Arrangement” for cooling electronics and electric vehicles. The Bharat AI hub concerns insurance cyber defence, Placenta-on-Chip is a biological model, and the Zinc-Air battery is an energy-storage technology."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IPhO gold medallists",
+   "question": "Which of the following sets correctly lists the Indian gold medallists at the 56th International Physics Olympiad 2026?",
+   "options": [
+    "Kanishk Jain, Riddhesh Anant Bendale, Rishit Garg, Shresth Suraiya and Swarit Joshi",
+    "Kanishk Jain, Riddhesh Anant Bendale, Rishit Garg, Shresth Suraiya and Homi J. Bhabha",
+    "Kanishk Jain, Riddhesh Anant Bendale, Swarit Joshi, Arvind Pattamatta and Rishit Garg",
+    "Riddhesh Anant Bendale, Rishit Garg, Shresth Suraiya, Swarit Joshi and S. Devaraj"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2"
+   ],
+   "explanation": "The five Indian gold medallists were Kanishk Jain, Riddhesh Anant Bendale, Rishit Garg, Shresth Suraiya and Swarit Joshi. Homi J. Bhabha, Arvind Pattamatta and S. Devaraj were not among the listed gold medallists."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Joint rank and nodal agency",
+   "question": "Consider the following statements regarding India's performance and institutional arrangements at the 56th International Physics Olympiad 2026:\n1. India was jointly first with Russia, China, Kazakhstan, South Korea and Taiwan among 87 nations.\n2. HBCSE, Mumbai, was the nodal agency.\n3. HBCSE is part of TIFR, which was established in 1945 by Homi J. Bhabha.",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F3",
+    "P12.F4"
+   ],
+   "explanation": "All three statements are correct. India shared first place with the five named countries among 87 nations, while HBCSE in Mumbai served as the nodal agency and is part of TIFR, established in 1945 by Homi J. Bhabha."
+  }
+ ]
+}

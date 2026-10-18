@@ -1,0 +1,246 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F19",
+  "P0.F2",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F24",
+  "P0.F26",
+  "P0.F3",
+  "P0.F6",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Second recipient",
+   "question": "During PM Modi’s State Visit to Indonesia in July 2026, he became the second Indian Prime Minister to receive Indonesia’s Bintang Adipurna after whom?",
+   "options": [
+    "Jawaharlal Nehru",
+    "Indira Gandhi",
+    "Rajiv Gandhi",
+    "Atal Bihari Vajpayee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Jawaharlal Nehru was the first Indian Prime Minister to receive Bintang Adipurna, making Narendra Modi the second Indian Prime Minister so honoured. Indira Gandhi is the tempting alternative, but she was not identified as the earlier recipient."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indonesian President",
+   "question": "Who was the President of Indonesia during PM Modi’s State Visit in July 2026?",
+   "options": [
+    "Prabowo Subianto",
+    "Joko Widodo",
+    "Sutan Sjahrir",
+    "Soekarno"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Prabowo Subianto was the Indonesian President during the visit. Joko Widodo, Sutan Sjahrir and Soekarno are associated with Indonesia, but they were not the President identified for this visit."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Visit outcomes and partnership",
+   "question": "With reference to the outcomes and background of PM Modi’s State Visit to Indonesia in July 2026, consider the following statements:\n1. The discussions included critical minerals extraction, wireless and quantum telecom, and medicines supply.\n2. The restoration of the Prambanan Temple Complex was undertaken in Jakarta.\n3. The Comprehensive Strategic Partnership between India and Indonesia dates from 2019.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "Only statement 1 is correct: the outcomes included critical minerals extraction, wireless and quantum telecom, and medicines supply. Prambanan is in Yogyakarta, not Jakarta, and the Comprehensive Strategic Partnership dates from 2018, not 2019."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic resources and location",
+   "question": "Which statement correctly describes Indonesia’s strategic resource and geographical profile?",
+   "options": [
+    "It has about 21% of the world’s nickel reserves, is a top producer of nickel, copper, bauxite and tin, and is near the Strait of Malacca.",
+    "It has about 12% of the world’s nickel reserves, is a top producer of gold and silver, and is near the Strait of Malacca.",
+    "It has about 21% of the world’s nickel reserves, is a top producer of nickel, copper, bauxite and tin, and is near the Strait of Hormuz.",
+    "It has about 30% of the world’s nickel reserves, is a top producer of nickel, copper, bauxite and tin, and is near the Strait of Malacca."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "Indonesia has about 21% of the world’s nickel reserves, is a top producer of nickel, copper, bauxite and tin, and lies near the Strait of Malacca. The other options alter the percentage, the minerals or the strait."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Independence and diplomatic history",
+   "question": "Consider the following statements:\nStatement A: Indonesia declared independence on 18 August 1945.\nStatement B: Biju Patnaik flew Sutan Sjahrir to New Delhi in 1946.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Both statements are false. Indonesia declared independence on 17 August 1945, and Biju Patnaik flew Sutan Sjahrir to New Delhi in 1947, not 1946."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian Division in Indonesia",
+   "question": "Which Indian military formation reached Batavia on 29 September 1945 in the historical context of India–Indonesia relations?",
+   "options": [
+    "The 23rd Indian Division",
+    "The 21st Indian Division",
+    "The 25th Indian Division",
+    "The 33rd Indian Division"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "The 23rd Indian Division reached Batavia on 29 September 1945. The 21st, 25th and 33rd Indian Divisions are altered numerical alternatives."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bandung Conference",
+   "question": "In which year was the Bandung Conference held?",
+   "options": [
+    "1955",
+    "1945",
+    "1950",
+    "1961"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "The Bandung Conference was held in 1955. The years 1945, 1950 and 1961 are different historical milestones and are not the year of the Bandung Conference."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "G20 membership",
+   "question": "How many of the following statements regarding G20 membership are correct?\n1. Indonesia is a member of the G20.\n2. Singapore is not a member of the G20.\n3. Malaysia is not a member of the G20.\n4. Vietnam is a member of the G20.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Exactly three statements are correct: Indonesia is a G20 member, while Singapore and Malaysia are not. Vietnam is also not a G20 member, making statement 4 incorrect."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "Tour itinerary",
+   "question": "Which of the following correctly presents the sequence of countries visited during PM Modi’s six-day tour from 6 to 11 July 2026?",
+   "options": [
+    "Indonesia, Australia, New Zealand",
+    "Australia, Indonesia, New Zealand",
+    "Indonesia, New Zealand, Australia",
+    "New Zealand, Indonesia, Australia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "The itinerary was Indonesia from 6–8 July, Australia from 8–10 July and New Zealand from 10–11 July. Therefore, the correct sequence is Indonesia, Australia and New Zealand."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of agreements",
+   "question": "How many agreements did India and Indonesia sign on 7 July 2026 during PM Modi’s visit?",
+   "options": [
+    "Twelve",
+    "Ten",
+    "Fourteen",
+    "Eighteen"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F17"
+   ],
+   "explanation": "India and Indonesia concluded twelve agreements on 7 July 2026. Ten, fourteen and eighteen are altered figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sabang port and BrahMos Aerospace",
+   "question": "Which option correctly matches the India–Indonesia maritime initiative with the establishment details of BrahMos Aerospace?",
+   "options": [
+    "Joint development of Sabang Deep Sea Port near the Malacca Strait; BrahMos Aerospace was established in 1998 by DRDO and Russia’s NPO Mashinostroyeniya.",
+    "Joint development of Sabang Deep Sea Port near the Strait of Hormuz; BrahMos Aerospace was established in 1970 by DRDO and Russia’s NPO Mashinostroyeniya.",
+    "Joint development of a port near the Malacca Strait; BrahMos Aerospace was established in 1998 by Bharat Dynamics Limited and Russia’s NPO Mashinostroyeniya.",
+    "Joint development of Sabang Deep Sea Port near the Malacca Strait; BrahMos Aerospace was established in 2008 by DRDO and Russia’s NPO Mashinostroyeniya."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F19",
+    "P0.F21"
+   ],
+   "explanation": "The initiative concerned the joint development of Sabang Deep Sea Port near the Malacca Strait, while BrahMos Aerospace was established in 1998 by DRDO and Russia’s NPO Mashinostroyeniya. The other options change the location, year or organisations involved."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Maritime cooperation and institutional details",
+   "question": "Match List-I with List-II regarding India–Indonesia cooperation and related institutional details.\n\nList-I\n a. Location of the Indonesian military liaison officer at IFC-IOR\n b. Additional maritime cooperation\n c. Headquarters of Bharat Dynamics Limited\n d. Currency of Indonesia\n\nList-II\n i. Gurugram\n ii. Joint coast guard patrols\n iii. Hyderabad\n iv. Rupiah\n\nSelect the correct answer using the code given below:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F20",
+    "P0.F22",
+    "P0.F23"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: the liaison officer is at IFC-IOR in Gurugram, maritime cooperation includes joint coast guard patrols, Bharat Dynamics Limited is headquartered in Hyderabad, and Indonesia uses the Rupiah. The other codes interchange these locations, cooperation measures or currency."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Act East Policy and Prambanan details",
+   "question": "Match List-I with List-II in relation to India’s Act East Policy and the Prambanan Temple Complex.\n\nList-I\n a. Launch of the Act East Policy\n b. Period of the Prambanan complex\n c. Dynasty associated with Prambanan\n d. Year of UNESCO World Heritage Site recognition for Prambanan\n\nList-II\n i. 2014\n ii. 9th century\n iii. Sanjaya dynasty\n iv. 1991\n\nSelect the correct answer using the code given below:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F24",
+    "P0.F26"
+   ],
+   "explanation": "The correct matching is a-i, b-ii, c-iii and d-iv. The Act East Policy was launched in 2014; Prambanan is a 9th-century Shaiva complex associated with the Sanjaya dynasty and was recognised as a UNESCO World Heritage Site in 1991."
+  }
+ ]
+}

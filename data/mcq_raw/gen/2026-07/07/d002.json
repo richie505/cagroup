@@ -1,0 +1,139 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": [
+  "P5.F5",
+  "P5.F6",
+  "P5.F7",
+  "P5.F8",
+  "P5.F9",
+  "P6.F10",
+  "P6.F11",
+  "P6.F12",
+  "P6.F13",
+  "P6.F8",
+  "P6.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate change and atmospheric moisture",
+   "question": "A rise of 1°C in temperature is associated with approximately what increase in atmospheric moisture?",
+   "options": [
+    "About 1%",
+    "About 7%",
+    "About 50%",
+    "About 70%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "A 1°C rise in temperature is associated with about 7% more atmospheric moisture. The tempting figure of 1% confuses the temperature increase with the resulting moisture increase."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Flash-flood-prone basin and disaster-management history",
+   "question": "Consider the following statements:\n1. Flash floods are most frequent in the Brahmaputra basin, followed by the Ganga and Krishna basins.\n2. The High Powered Committee on disaster management was established in 1999.\n3. The High Powered Committee on disaster management was established in 2001.\n4. Flash floods are most frequent in the Brahmaputra basin, followed by the Krishna and Ganga basins.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one statement is correct",
+    "Exactly two statements are correct",
+    "Exactly three statements are correct",
+    "All four statements are correct"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the frequency order is Brahmaputra, Ganga and Krishna, and the High Powered Committee was established in 1999. Statements 3 and 4 alter the year and the stated sequence respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Disaster-management institutions and responsibilities",
+   "question": "Match List-I with List-II regarding disaster-management institutions and their associated details.\n\nList-I\n(a) Disaster Management Act\n(b) Constitution of the NDMA\n(c) State Disaster Management Authority\n(d) District Disaster Management Authority\n\nList-II\n(i) District Collector\n(ii) Prime Minister\n(iii) 2005\n(iv) Chief Minister\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F7",
+    "P5.F9"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i: the Act dates to 2005, the NDMA is chaired by the Prime Minister, the SDMA is headed by the Chief Minister, and the DDMA is associated with the District Collector. The main trap is reversing the State and District authorities."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Diet of the white-bellied heron",
+   "question": "What is the principal diet of the white-bellied heron?",
+   "options": [
+    "Fish",
+    "Mature riparian forests",
+    "Atmospheric moisture",
+    "Invasive plant species"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F8"
+   ],
+   "explanation": "The white-bellied heron feeds on fish. Mature riparian forests are part of its habitat, not its diet."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Historical description and conservation status",
+   "question": "Consider the following statements:\nStatement A: The white-bellied heron was first described in 1878 from the Teesta region.\nStatement B: The white-bellied heron is no longer found in the Teesta region and Bhutan has no captive-breeding programme for it.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F9"
+   ],
+   "explanation": "Statement A is true: the species was first described in 1878 from the Teesta region. Statement B is false because Bhutan has captive breeding, although the species is no longer found in the Teesta region."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "IUCN Red List background",
+   "question": "Assertion (A): The IUCN Red List was established in 1964.\nReason (R): Criterion D of the IUCN Red List uses thresholds based on the number of mature individuals, including fewer than 50 for Critically Endangered species, fewer than 250 for Endangered species and fewer than 1,000 for Vulnerable species.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F10",
+    "P6.F11"
+   ],
+   "explanation": "Both the assertion and the reason are true: the IUCN Red List was established in 1964, and Criterion D specifies the stated mature-individual thresholds. The thresholds describe a classification criterion and do not explain the year in which the Red List was established."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "IUCN Criterion E and invasive-species database",
+   "question": "How many of the following statements are correct?\n1. Under Criterion E, a species is Critically Endangered if its extinction probability is at least 50% within 10 years or 3 generations.\n2. The Invasive Species Specialist Group's Global Invasive Species Database belongs to the IUCN Species Survival Commission and was established in 1994.\n3. Under Criterion E, the stated extinction-probability threshold applies to Endangered species rather than Critically Endangered species.\n4. The Global Invasive Species Database is separate from the IUCN Species Survival Commission.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F12",
+    "P6.F13"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so the answer is Only two. Statement 3 changes the category from Critically Endangered to Endangered, while statement 4 incorrectly separates the database from the IUCN Species Survival Commission."
+  }
+ ]
+}

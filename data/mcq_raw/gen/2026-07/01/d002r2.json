@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P5.F6",
+  "P6.F15"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Proposed investment",
+   "question": "What investment was proposed for the Rayalaseema horticulture hub in Andhra Pradesh?",
+   "options": [
+    "₹1 lakh crore",
+    "₹100 crore",
+    "₹4,000 crore",
+    "₹4,100 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "The proposed investment for the Rayalaseema horticulture hub is ₹1 lakh crore. The other amounts do not represent this horticulture-hub proposal."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Correct textile ranking",
+   "question": "Consider the following statements:\nStatement A: Andhra Pradesh is 2nd in silk production.\nStatement B: Andhra Pradesh is not 2nd in cotton production.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F15"
+   ],
+   "explanation": "Both statements are true: Andhra Pradesh is 2nd in silk production, not cotton production. The key distinction is that the 2nd position applies to silk rather than cotton."
+  }
+ ]
+}

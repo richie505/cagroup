@@ -1,0 +1,252 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P10.F3",
+  "P10.F4",
+  "P10.F5",
+  "P10.F6",
+  "P11.F1",
+  "P11.F10",
+  "P11.F11",
+  "P11.F12",
+  "P11.F13",
+  "P11.F14",
+  "P11.F2",
+  "P11.F7",
+  "P11.F9",
+  "P8.F5",
+  "P8.F6",
+  "P8.F7",
+  "P9.F4",
+  "P9.F5",
+  "P9.F6",
+  "P9.F7",
+  "P9.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme objective",
+   "question": "Under the Swayam AP initiative, what is the purpose of the Kalyana Lakshmi scheme operated under Stree Nidhi?",
+   "options": [
+    "Providing low-interest loans for marriage expenses of SHG families",
+    "Providing accident insurance to all SHG members",
+    "Monitoring Velugu Marts",
+    "Providing digital subsidies through the Digital Rupee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "Kalyana Lakshmi under Stree Nidhi provides low-interest loans for marriage expenses of SHG families. Accident insurance is associated with PMSBY, not Kalyana Lakshmi."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Insurance coverage",
+   "question": "Consider the following statements regarding the social-security coverage associated with Swayam AP:\nStatement A: All SHG members are enrolled in PMJJBY for life insurance.\nStatement B: All SHG members are enrolled in PMSBY for accident insurance.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F6"
+   ],
+   "explanation": "Both statements are true: SHG members have 100% enrolment in PMJJBY for life insurance and PMSBY for accident insurance. The misleading alternative is to treat either insurance programme as absent from the coverage."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Monitoring function",
+   "question": "Which activity is specifically associated with the Swayam AP-related institutional work?",
+   "options": [
+    "Monitoring of Velugu Marts",
+    "Replacing the Public Distribution System with private shops",
+    "Mapping coastal erosion using satellite data",
+    "Providing information on heritage sites through NiVU AI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "Monitoring of Velugu Marts is the activity associated with this aspect of Swayam AP. Coastal mapping belongs to the Shoreline Management Plan, while heritage-site information is a feature of NiVU AI."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number/amount",
+   "question": "What price advantage does Mee Mart provide on its daily-use products?",
+   "options": [
+    "₹3–5 below market prices",
+    "₹3–5 above market prices",
+    "₹30–50 below market prices",
+    "₹30–50 above market prices"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "Mee Mart offers more than 250 daily-use items at ₹3–5 below market prices. The higher price differences are not associated with the scheme."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Benefit to FPS dealers",
+   "question": "Which of the following statements about the benefits of Mee Mart is incorrect?",
+   "options": [
+    "About 30,000 FPS dealers receive extra income.",
+    "Fair price shops remain open throughout the month.",
+    "About 30,000 FPS dealers receive no additional income.",
+    "Mee Mart enables FPS dealers to earn extra income."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F5"
+   ],
+   "explanation": "The incorrect statement is that about 30,000 FPS dealers receive no additional income; the correct figure is that about 30,000 dealers get extra income. The other statements reflect the additional-income benefit and the all-month operation of FPS outlets."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Partner and PDS relationship",
+   "question": "With reference to Mee Mart, consider the following statements:\n1. Its partnership is between the AP Civil Supplies Department and NCCF.\n2. Digital Rupee integration is planned for digital subsidies.\n3. Mee Mart replaces the Public Distribution System.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F6",
+    "P9.F7",
+    "P9.F8"
+   ],
+   "explanation": "Only statement 2 is correct: Digital Rupee integration is planned for digital subsidies. The partnership is between the AP Civil Supplies Department and NCCF, and Mee Mart modernises rather than replaces the Public Distribution System."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Rollout and platform features",
+   "question": "With reference to NiVU AI and its proposed tourism rollout, how many of the following statements are correct?\n1. It will cover 30 destinations in the first year.\n2. It will cover more than 100 destinations within two years.\n3. It provides QR-code access without app download, along with voice and text support in 130+ languages and free access.\n4. It is linked to Swarna Andhra Vision-2047.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F4",
+    "P10.F5",
+    "P10.F6"
+   ],
+   "explanation": "Only three statements are correct. NiVU AI is planned for 30 destinations in year one and more than 100 destinations within three years, not within two years; its features and link with Swarna Andhra Vision-2047 are correctly stated."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MoU and partner",
+   "question": "The three-year strategic MoU for NiVU AI was signed between which two organisations?",
+   "options": [
+    "APTDC and Xplorer",
+    "AP Civil Supplies Department and NCCF",
+    "NCCR and the Ministry of Earth Sciences",
+    "Stree Nidhi and PMJJBY"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "The three-year strategic MoU for NiVU AI is between APTDC and Xplorer. The other pairings relate to Mee Mart, the Shoreline Management Plan, or SHG insurance coverage."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Plan and ministry",
+   "question": "Who prepared the Shoreline Management Plan after vulnerable stretches were identified along Andhra Pradesh’s 1,027-km coastline?",
+   "options": [
+    "Ministry of Earth Sciences",
+    "Ministry of Tourism",
+    "AP Civil Supplies Department",
+    "National Cooperative Consumers Federation of India Ltd."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The Shoreline Management Plan was prepared by the Ministry of Earth Sciences. The AP Civil Supplies Department and NCCF are associated with Mee Mart, not coastal planning."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coastal research organisation",
+   "question": "Which organisation mapped erosion and accretion for Andhra Pradesh’s Shoreline Management Plan?",
+   "options": [
+    "National Centre for Coastal Research",
+    "Andhra Pradesh Tourism Development Corporation",
+    "National Cooperative Consumers Federation of India Ltd.",
+    "Self-Help Group federation under Stree Nidhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "The National Centre for Coastal Research mapped erosion and accretion using satellite data from 1990–2022, the 2011 Census and geomorphology. The other organisations are linked to tourism, retail or SHG-related activities."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Erosion share",
+   "question": "What share of Visakhapatnam’s coastline was identified as facing erosion in the AP Shoreline Management Plan?",
+   "options": [
+    "26.85%",
+    "32.14%",
+    "42.71%",
+    "52.54%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F7"
+   ],
+   "explanation": "Visakhapatnam had an erosion share of 26.85%. The other percentages correspond to Srikakulam, Krishna and West Godavari respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Vulnerable coastal stretches",
+   "question": "Match the districts with the vulnerable coastal stretches identified in the AP Shoreline Management Plan.\n\nList-I\n a. Kakinada\n b. Tirupati\n c. Krishna\n d. Srikakulam\n\nList-II\n i. Machilipatnam Beach and Krishna delta\n ii. Kalingapatnam, Vamsadhara and Nagavali river mouths\n iii. Coringa–Uppada coast, Godavari mouth spit near Yanam, Coringa mangroves and Hope Island\n iv. Pulicat Lake and Sriharikota",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F9",
+    "P11.F10",
+    "P11.F11",
+    "P11.F12"
+   ],
+   "explanation": "The correct pairs are Kakinada–iii, Tirupati–iv, Krishna–i and Srikakulam–ii. Pulicat Lake and Sriharikota belong to Tirupati, while Machilipatnam Beach and the Krishna delta belong to Krishna."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Coastal protection measures",
+   "question": "Assertion (A): Pulicat Lake and Sriharikota are among the vulnerable coastal stretches of Visakhapatnam.\nReason (R): The Shoreline Management Plan includes beach nourishment, dune restoration, ecosystem-based protection through mangroves, engineering works and inlet management.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F10",
+    "P11.F13",
+    "P11.F14"
+   ],
+   "explanation": "Assertion A is false because Pulicat Lake and Sriharikota are vulnerable stretches in Tirupati, not Visakhapatnam; Visakhapatnam includes Yarada and Bheemunipatnam. Reason R is true because the plan includes beach nourishment, dune restoration, ecosystem-based protection, engineering works and inlet management."
+  }
+ ]
+}

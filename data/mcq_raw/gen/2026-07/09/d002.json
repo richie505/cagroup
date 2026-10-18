@@ -1,0 +1,100 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": [
+  "P2.F2",
+  "P2.F3",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment as Prime Minister",
+   "question": "Who became the 20th Prime Minister of Lithuania in July 2026?",
+   "options": [
+    "Mindaugas Sinkevičius",
+    "Andy Burnham",
+    "Serhiy Koretsky",
+    "Keiko Fujimori"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Mindaugas Sinkevičius became the 20th Prime Minister of Lithuania from the LSDP. He succeeded Inga Ruginienė, who resigned on July 14, 2026; Andy Burnham was elected UK Labour Party leader, not Lithuania’s Prime Minister."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Party leadership and succession",
+   "question": "Who was elected leader of the UK Labour Party and was to become UK Prime Minister on July 20, 2026?",
+   "options": [
+    "Andy Burnham",
+    "Mindaugas Sinkevičius",
+    "Serhiy Koretsky",
+    "Pedro Sánchez"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "Andy Burnham was elected UK Labour Party leader and was to become UK Prime Minister on July 20, 2026, succeeding Keir Starmer. Mindaugas Sinkevičius became Prime Minister of Lithuania, while Serhiy Koretsky became Prime Minister of Ukraine."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "World leaders and royal succession",
+   "question": "Which of the following statements is incorrect?",
+   "options": [
+    "Serhiy Koretsky became the new Prime Minister of Ukraine and succeeded Yulia Svyrydenko.",
+    "Serhiy Koretsky was formerly the CEO of Naftogaz.",
+    "Princess Leonor is set to become Spain’s first Gen-Z Queen.",
+    "Princess Leonor is set to become Spain’s first female ruler since Isabella I."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6"
+   ],
+   "explanation": "The incorrect statement is that Princess Leonor would be Spain’s first female ruler since Isabella I. The correct historical reference is Isabella II; Serhiy Koretsky became Ukraine’s Prime Minister after serving as CEO of Naftogaz."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Capital, currency and legislature",
+   "question": "Match the items in List-I with the corresponding entries in List-II.\n\nList-I\n a. Capital of Peru\n b. Legislature of Lithuania\n c. Currency of Peru\n d. Membership of the Seimas\n\nList-II\n i. Sol\n ii. Seimas\n iii. Lima\n iv. 141 members\n\nCodes:",
+   "options": [
+    "a-iii, b-ii, c-i, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-i and d-iv: Lima is Peru’s capital, Seimas is Lithuania’s legislature, Sol is Peru’s currency, and the Seimas has 141 members. The other codes interchange these country, currency and institutional details."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "National leaders and national symbols",
+   "question": "Consider the following statements regarding Spain and Ukraine:\n\n1. Felipe VI is the King of Spain.\n2. Kyiv is the capital of Ukraine and the Hryvnia is its currency.\n3. Zelenskyy is the Prime Minister of Ukraine.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Felipe VI is Spain’s King, while Kyiv is Ukraine’s capital and the Hryvnia is its currency. Statement 3 is incorrect because Zelenskyy is the President of Ukraine, not its Prime Minister."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4
+ ],
+ "only": [
+  "P4.F20",
+  "P4.F21",
+  "P4.F22"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "First and location",
+   "question": "Consider the following statements about first-of-their-kind initiatives announced in July 2026:\n\n1. Gwalior in Madhya Pradesh is the site of India’s first Telecom Manufacturing Zone, spread over 350 acres.\n2. The Centre will provide ₹493 crore for Phase 1 of the Telecom Manufacturing Zone, while the State will provide the land.\n3. India’s first Department of Military Medicine was inaugurated at Command Hospital, Lucknow, by Rajnath Singh under the Army DGMS.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F20",
+    "P4.F21"
+   ],
+   "explanation": "All three statements are correct. The first Telecom Manufacturing Zone is in Gwalior, with ₹493 crore allocated by the Centre for Phase 1, and the first Department of Military Medicine was inaugurated at Command Hospital, Lucknow, under the Army DGMS. The other options are incorrect because they omit one of these correct statements."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Location of centre",
+   "question": "Where was the ICMR’s first High-Altitude Medicine and Public Health Research Centre established?",
+   "options": [
+    "Shimla, Himachal Pradesh",
+    "Dharamshala, Himachal Pradesh",
+    "Keylong, Lahaul-Spiti, Himachal Pradesh",
+    "Lucknow, Uttar Pradesh"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F22"
+   ],
+   "explanation": "The ICMR’s High-Altitude Medicine and Public Health Research Centre was established at Keylong in Lahaul-Spiti, Himachal Pradesh. Shimla and Dharamshala are the State’s seasonal capitals, while Lucknow is the location of the Department of Military Medicine."
+  }
+ ]
+}

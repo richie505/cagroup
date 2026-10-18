@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": [
+  "P6.F15",
+  "P6.F16",
+  "P6.F22"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Edition, date and first use",
+   "question": "Consider the following statements regarding major defence exercises conducted in 2026:\n\n1. Pitch Black 2026 was the 45th edition, and the Indian Air Force used Rafale jets for the first time.\n2. RIMPAC 2026 began on June 24, 2026.\n3. RIMPAC 2026 began after June 24, 2026.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F15",
+    "P6.F16"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Pitch Black 2026 was the 45th edition and marked the first use of Rafale jets by the IAF, while RIMPAC 2026 began on June 24, 2026. Statement 3 is incorrect because RIMPAC 2026 began on June 24, 2026, not after that date."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Aircraft and organisation involved",
+   "question": "Under the Adani Defence–DRDO collaboration for AEW&C Mark-2, how many Airbus aircraft are to be equipped for the Indian Air Force?",
+   "options": [
+    "Six Airbus aircraft for the Indian Air Force",
+    "Six Airbus aircraft for the Indian Navy",
+    "Six C-17 aircraft for the Indian Air Force",
+    "Six Rafale jets for the Indian Air Force"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F22"
+   ],
+   "explanation": "Six Airbus aircraft are to be equipped for the Indian Air Force under the Adani Defence–DRDO AEW&C Mark-2 collaboration. The alternatives incorrectly substitute the Navy, C-17 aircraft or Rafale jets."
+  }
+ ]
+}

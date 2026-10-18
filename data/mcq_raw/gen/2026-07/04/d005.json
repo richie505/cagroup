@@ -1,0 +1,353 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F10",
+  "P10.F11",
+  "P10.F12",
+  "P10.F13",
+  "P10.F14",
+  "P10.F15",
+  "P10.F16",
+  "P10.F17",
+  "P10.F18",
+  "P10.F19",
+  "P10.F2",
+  "P10.F20",
+  "P10.F3",
+  "P10.F7",
+  "P10.F8",
+  "P11.F1",
+  "P11.F10",
+  "P11.F11",
+  "P11.F12",
+  "P11.F13",
+  "P11.F16",
+  "P11.F2",
+  "P11.F3",
+  "P11.F4",
+  "P11.F5",
+  "P11.F6",
+  "P11.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Toy exports and trade surplus",
+   "question": "With reference to India's toy ecosystem, consider the following statements:\n1. Toy exports increased from US$152.7 million in 2017–18 to US$384.7 million in 2025–26, registering 151.9% growth.\n2. India recorded a trade surplus of US$152 million in 2025–26, compared with a deficit of US$213.01 million in 2017–18.\n3. The trade surplus in 2025–26 was US$213.01 million, while the deficit in 2017–18 was US$152 million.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Toy exports reached US$384.7 million with 151.9% growth, while the trade position changed from a US$213.01 million deficit to a US$152 million surplus; statement 3 reverses these figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Imports of traditional and educational toys",
+   "question": "By what percentage did imports of traditional and educational toys decline?",
+   "options": [
+    "66%",
+    "60%",
+    "70%",
+    "151.9%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "Imports of traditional and educational toys declined by 66%. The other percentages refer to different toy-sector figures and do not represent this decline."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Toy-sector employment",
+   "question": "Employment under NIC Code 324 increased to what level in 2023–24?",
+   "options": [
+    "17,693",
+    "8,685",
+    "10,000",
+    "56"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F7"
+   ],
+   "explanation": "Employment under NIC Code 324 reached 17,693 in 2023–24, up from 8,685 in 2018–19. The figure 8,685 is the earlier employment level, while 56 is unrelated to employment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Action Plan",
+   "question": "In which year was the National Action Plan for Toys introduced?",
+   "options": [
+    "2020",
+    "2021",
+    "2025",
+    "2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F8"
+   ],
+   "explanation": "The National Action Plan for Toys was introduced in 2020. The years 2021 and 2025 relate to Toycathon initiatives, while 2026 relates to other toy-sector measures."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Toy tariff structure",
+   "question": "Which of the following statements regarding the tariff structure for toys is incorrect?",
+   "options": [
+    "The MFN tariff increased from 20% to 60% in 2020.",
+    "The MFN tariff increased to 70% in 2023.",
+    "The MFN tariff increased from 20% to 60% in 2023.",
+    "Parts of electronic toys under HSN 95030091 attracted a 20% tariff in Budget 2025–26."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F10"
+   ],
+   "explanation": "The incorrect statement is that the MFN tariff increased from 20% to 60% in 2023. The increase to 60% occurred in 2020; the tariff rose to 70% in 2023, while parts of electronic toys were assigned 20% in Budget 2025–26."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GST on toys",
+   "question": "What change was made in the GST rate applicable to toys?",
+   "options": [
+    "It was reduced from 12% to 5%.",
+    "It was increased from 5% to 12%.",
+    "It was reduced from 20% to 5%.",
+    "It was increased from 12% to 18%."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F11"
+   ],
+   "explanation": "GST on toys was reduced from 12% to 5%. The other options either reverse the direction of change or use rates not specified for this measure."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Toycathon timeline",
+   "question": "Consider the following statements:\nStatement A: Toycathon was launched in 2025.\nStatement B: The first e-Toycathon was held in 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F12"
+   ],
+   "explanation": "Statement A is false because Toycathon dates to 2021. Statement B is true because the first e-Toycathon was held in 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "e-Toys Lab",
+   "question": "Which organisation established the e-Toys Lab at C-DAC Noida?",
+   "options": [
+    "MeitY",
+    "BIS",
+    "FAITH",
+    "WTTC"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F13"
+   ],
+   "explanation": "The e-Toys Lab at C-DAC Noida was established by MeitY. BIS is associated with toy standards and Manak Manthan, while FAITH and WTTC are associated with tourism."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Manak Manthan",
+   "question": "Manak Manthan held in April 2026 by BIS focused on which standard?",
+   "options": [
+    "IS 9873 Part 1:2025",
+    "IS 15644",
+    "HSN 95030091",
+    "NIC Code 324"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F14"
+   ],
+   "explanation": "The April 2026 Manak Manthan organised by BIS focused on IS 9873 Part 1:2025. IS 15644 is another toy standard, while HSN 95030091 and NIC Code 324 are classification codes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Exhibition venue and dates",
+   "question": "Where and when was the Toy Biz International B2B Exhibition scheduled in July 2026?",
+   "options": [
+    "New Delhi, 4–7 July 2026",
+    "New Delhi, 7–10 July 2026",
+    "C-DAC Noida, 4–7 July 2026",
+    "New Delhi, 4–7 April 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F15"
+   ],
+   "explanation": "The Toy Biz International B2B Exhibition was scheduled in New Delhi from 4 to 7 July 2026. C-DAC Noida is associated with the e-Toys Lab, and April is associated with Manak Manthan."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "GI-tagged toys and traditional toy heritage",
+   "question": "Match List-I with List-II:\n\nList-I\n(a) Channapatna Toys and Dolls\n(b) Leather Toys of Indore\n(c) Thanjavur Doll\n(d) Traditional toy heritage\n\nList-II\n(i) Karnataka\n(ii) Madhya Pradesh\n(iii) Tamil Nadu\n(iv) About 5,000 years\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F17",
+    "P10.F18",
+    "P10.F19",
+    "P10.F20"
+   ],
+   "explanation": "The correct pairs are Channapatna Toys and Dolls–Karnataka, Leather Toys of Indore–Madhya Pradesh, Thanjavur Doll–Tamil Nadu, and traditional toy heritage–about 5,000 years. The other codes interchange the States or the historical period."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Districts as Export Hubs",
+   "question": "How many of the following statements about the Districts as Export Hubs initiative are correct?\n1. Committees have been formed in 36 States/UTs.\n2. More than 20 districts have toy potential.\n3. Committees have been formed in 23 States.\n4. Exactly 10 districts have toy potential.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F16"
+   ],
+   "explanation": "Only statement 1 is correct: committees were formed in 36 States/UTs. The initiative identified 10+ districts with toy potential, not more than 20 or exactly 10, and the figure 23 does not describe the committees."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tourism contribution and employment",
+   "question": "Approximately what share of GDP does tourism contribute in India, alongside a contribution of more than 9% to employment?",
+   "options": [
+    "About 7% of GDP",
+    "More than 9% of GDP",
+    "14.82% of GDP",
+    "About 60% of GDP"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "Tourism contributes about 7% of India's GDP and more than 9% of employment. More than 9% refers to employment, while 14.82% and 60% relate to other tourism-sector figures."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Tourist arrivals and domestic visits",
+   "question": "Consider the following statements:\n1. International tourist arrivals rose from 17.91 million in 2019 to 20.57 million in 2024, an increase of 14.82%.\n2. Domestic tourist visits during 2014–2024 were 18.6 billion, compared with 6.8 billion during 2004–2013.\n3. International tourist arrivals increased by 19.3% between 2019 and 2024.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2",
+    "P11.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Arrivals reached 20.57 million with a 14.82% increase, and domestic visits were 18.6 billion during 2014–2024; 19.3% is the CAGR given for the sustainable tourism market, not tourist arrivals."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Vision@2047 target",
+   "question": "What target for international visitors has been set under Vision@2047?",
+   "options": [
+    "100 million by 2047",
+    "20.57 million by 2047",
+    "50 million by 2047",
+    "16 million by 2030"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4"
+   ],
+   "explanation": "Vision@2047 targets 100 million international visitors by 2047. The other figures belong to current arrivals, a tourism demand proposal, or the medical tourism projection."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "WTTC tourism projection",
+   "question": "Assertion (A): WTTC projected India to become the 5th-largest tourism economy, with a tourism and travel contribution of USD 523 billion by 2034.\nReason (R): WTTC projected India's tourism and travel contribution at USD 523 billion by 2034 and ranked India as the 4th-largest tourism economy.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F5"
+   ],
+   "explanation": "Assertion A is false because the projected ranking is 4th-largest, not 5th-largest. Reason R is true and states both the USD 523 billion projection and the correct 4th-largest ranking."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Hotel investment and MICE",
+   "question": "Consider the following statements:\n1. Premium hotel occupancy in 2025–26 was 72–74%.\n2. India was the 2nd-largest hotel investment market in Asia-Pacific, with investment of USD 340 million.\n3. MICE stands for Meetings, Incentives, Conferences and Exhibitions.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F6",
+    "P11.F16"
+   ],
+   "explanation": "All three statements are correct. Premium hotel occupancy was 72–74%, India ranked second in Asia-Pacific hotel investment with USD 340 million, and MICE expands to Meetings, Incentives, Conferences and Exhibitions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sustainable tourism market",
+   "question": "The sustainable tourism market is projected to reach what value by 2035?",
+   "options": [
+    "USD 258 million",
+    "USD 44.3 million",
+    "USD 523 billion",
+    "USD 16 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F8"
+   ],
+   "explanation": "The sustainable tourism market is projected to reach USD 258 million by 2035, from USD 44.3 million in 2025. USD 523 billion is the projected tourism and travel contribution, while USD 16 billion relates to medical tourism."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Tourism schemes and targets",
+   "question": "Match List-I with List-II:\n\nList-I\n(a) Swadesh Darshan\n(b) SASCI — Iconic Tourist Centres\n(c) Budget 2026–27 electric buses\n(d) Tourism-sector skilling\n\nList-II\n(i) 4,000 buses for Purvodaya States\n(ii) 5.54 lakh trained and 59,210 placed\n(iii) 40 projects in 23 States\n(iv) 76 projects and about ₹5,290 crore, with 75 completed\n\nSelect the correct code:",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F10",
+    "P11.F11",
+    "P11.F12",
+    "P11.F13"
+   ],
+   "explanation": "The correct matching is Swadesh Darshan–76 projects and about ₹5,290 crore with 75 completed; SASCI–40 projects in 23 States; electric buses–4,000 for Purvodaya States; and skilling–5.54 lakh trained with 59,210 placed. The other codes interchange these programme details."
+  }
+ ]
+}

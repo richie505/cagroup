@@ -1,0 +1,194 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P7.F1",
+  "P7.F10",
+  "P7.F11",
+  "P7.F13",
+  "P7.F14",
+  "P7.F15",
+  "P7.F2",
+  "P7.F3",
+  "P7.F4",
+  "P7.F5",
+  "P7.F7",
+  "P7.F8",
+  "P8.F2",
+  "P9.F3",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "New GI products by State",
+   "question": "Which group of products received new Geographical Indication tags in Himachal Pradesh in July 2026?",
+   "options": [
+    "Seabuckthorn (Charma), Salooni Safed Makka, Chamba Metal Art, Sirmauri Loiya, Kinnauri Topi, Kinnauri Apple, Kinnauri Jewelry and Sepuvadi",
+    "Jolbhora Sandesh, Janai Monohara Sandesh, Mecha Sandesh, Kanakchur Murmura, Santiniketan Batik, Santiniketan Ektara, Krishnanagar Clay Dolls and Sitalpati",
+    "Sirsa Kinnow, Unjha Cumin, Unjha Fennel and Pithora Painting",
+    "Murshidabad Silk, Bengal Nolen Gur, Purulia Lac handicrafts and Nutungram Wooden Dolls"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The Himachal Pradesh GI products included Seabuckthorn (Charma), Salooni Safed Makka, Chamba Metal Art, Sirmauri Loiya, Kinnauri Topi, Kinnauri Apple, Kinnauri Jewelry and Sepuvadi. The other options combine products associated with West Bengal, Haryana or Gujarat."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of new GI tags",
+   "question": "West Bengal received how many new GI tags in June 2026, taking its total to what number?",
+   "options": [
+    "23 new tags, taking the total to 59",
+    "26 new tags, taking the total to 83",
+    "13 new tags, taking the total to 76",
+    "24 new tags, taking the total to 822"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "West Bengal received 23 new GI tags in June 2026, taking its total to 59. The figures 26, 13, 24, 83, 76 and 822 belong to other GI-related details and do not give this combination."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GI products and characteristics",
+   "question": "With reference to the new GI products of Haryana and Gujarat, consider the following statements:\n1. Sirsa Kinnow is a hybrid of King and Willow Leaf mandarin.\n2. Unjha Cumin and Unjha Fennel are GI products of Gujarat.\n3. Pithora Painting dates to the 18th century.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Sirsa Kinnow is a King × Willow Leaf mandarin hybrid, while Unjha Cumin and Unjha Fennel are from Gujarat. Statement 3 is incorrect because Pithora Painting dates to the 13th century, not the 18th century."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "GI protection and geographical origin",
+   "question": "With reference to Geographical Indication protection, consider the following:\nAssertion (A): A GI tag provides intellectual property rights for products having a specific geographical origin.\nReason (R): The qualities or reputation of such products are due to that geographical origin.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F15"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. A GI tag is an IPR for products with a specific geographical origin, and the relevant qualities or reputation arise from that origin; this explains the basis of the protection."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Officials and GI-related identities",
+   "question": "Match List-I with List-II in the context of the July 2026 GI developments.\n\nList-I\n a. Sukhvinder Singh Sukhu\n b. Kavinder Gupta\n c. Kalyan Chakraborty\n d. Jolbhora Sandesh\n\nList-II\n i. Origin in Chandannagar\n ii. Governor of Himachal Pradesh\n iii. Chief Minister of Himachal Pradesh\n iv. West Bengal Minister for Science, Technology and Biotechnology\n\nSelect the correct answer using the codes given below.",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F10",
+    "P7.F13"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i. Sukhvinder Singh Sukhu was the Chief Minister, Kavinder Gupta the Governor of Himachal Pradesh, Kalyan Chakraborty the concerned West Bengal Minister, and Jolbhora Sandesh originated in Chandannagar."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Uses and cultural context of GI products",
+   "question": "How many of the following statements about Kinnow and Pithora Painting are correct?\n1. Kinnow peel oil is used in cosmetics.\n2. Pithora paintings are made on house walls at weddings and festivals.\n3. Kinnow peel oil is used in medicines.\n4. Pithora paintings are made on temple floors at weddings and festivals.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F14"
+   ],
+   "explanation": "Only statements 1 and 2 are correct. Kinnow peel oil is used in cosmetics, and Pithora paintings are made on house walls at weddings and festivals; the altered uses and location in statements 3 and 4 are incorrect."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GI totals and category share",
+   "question": "With reference to GI registrations during 2025–26, consider the following statements:\n1. India added 125 new GI tags, taking the national total to 822.\n2. Uttar Pradesh led the total GI registrations with 83, followed by Tamil Nadu with 76 and then West Bengal.\n3. About 31% of the GI tags were handicrafts and about 53% were agricultural products.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5",
+    "P7.F7",
+    "P7.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 125 new GI tags took the national total to 822, and Uttar Pradesh, Tamil Nadu and West Bengal were the leading States in total registrations in that order. Statement 3 reverses the shares; about 53% were handicrafts and 31% were agricultural products."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Forest and tree cover",
+   "question": "According to the India State of Forest Report 2023, what was India’s combined forest and tree cover?",
+   "options": [
+    "8,27,357 square kilometres, constituting 25.17% of the geographical area",
+    "8,25,912 square kilometres, constituting 24.17% of the geographical area",
+    "8,27,357 square kilometres, constituting 31% of the geographical area",
+    "7,27,357 square kilometres, constituting 25.17% of the geographical area"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "The India State of Forest Report 2023 recorded combined forest and tree cover of 8,27,357 square kilometres, or 25.17% of the area. It was an increase of 1,445 square kilometres over 2021; the other options alter the reported area or percentage."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Total fauna recorded",
+   "question": "What was the total fauna recorded in Animal Discoveries 2025?",
+   "options": [
+    "1,05,953 species",
+    "709 species",
+    "353 species",
+    "98 species"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "Animal Discoveries 2025 recorded total fauna of 1,05,953 species. The figures 709 and 353 refer to new animal and plant taxa respectively, while 98 was the number of animal discoveries associated with Kerala."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Megadiverse status and new Impatiens species",
+   "question": "With reference to India’s biodiversity and the new Impatiens species reported from Kerala’s Western Ghats, consider the following statements:\nStatement A: India is one of the 17 megadiverse countries.\nStatement B: Five new Impatiens species were found in Kerala’s Western Ghats, in Idukki and Ernakulam, belonging to the family Balsaminaceae.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F8",
+    "P9.F9"
+   ],
+   "explanation": "Statement A is true: India is one of the 17 megadiverse countries. Statement B is false because the five new Impatiens species belonged to the family Balsaminaceae, but the fact identifies them as occurring in Kerala’s Western Ghats in Idukki and Ernakulam; the statement as framed is not accepted here because it changes the reported description of the discovery."
+  }
+ ]
+}

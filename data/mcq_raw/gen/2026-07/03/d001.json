@@ -1,0 +1,285 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F17",
+  "P2.F18",
+  "P2.F19",
+  "P2.F20",
+  "P2.F3",
+  "P2.F4",
+  "P2.F5",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F1",
+  "P3.F10",
+  "P3.F11",
+  "P3.F5",
+  "P3.F6",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "7×7×7 framework",
+   "question": "Under the revised Anaemia Mukt Bharat Abhiyaan, consider the following statements:\n1. Low Birth Weight babies aged 0–6 months were added as a beneficiary group.\n2. Eating Right, based on iron-rich and diversified diets, was added as an intervention.\n3. A strengthened Monitoring and Evaluation framework was added as an institutional mechanism.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "All three statements are correct. The revised framework changed 6×6×6 to 7×7×7 by adding Low Birth Weight babies aged 0–6 months, the Eating Right approach, and a strengthened Monitoring and Evaluation framework. The options omitting any one of these additions are therefore incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IV iron therapy",
+   "question": "Which two intravenous iron therapies are specified for severe anaemia or non-responders among pregnant and lactating women under the revised Anaemia Mukt Bharat guidelines?",
+   "options": [
+    "Ferric Carboxymaltose and Iron Sucrose",
+    "Albendazole and Iron-Folic Acid",
+    "Ferric Carboxymaltose and Calcium",
+    "Iron Sucrose and Vitamin A"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "The specified IV iron therapies are Ferric Carboxymaltose and Iron Sucrose. Albendazole is associated with deworming, while the programme provides prophylactic Iron-Folic Acid rather than calcium."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Unified AMB portal",
+   "question": "The Unified AMB Abhiyaan Portal integrates which of the following services?\n1. JANANI for pregnant women\n2. RBSK for child screening\n3. U-WIN for immunisation records",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "All three statements are correct. JANANI covers pregnant women, RBSK supports child screening, and U-WIN contains immunisation records. Hence, the complete combination is 1, 2 and 3."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Launch and approach",
+   "question": "Assertion (A): The Anaemia Mukt Bharat Abhiyaan was launched in 2018 under the National Health Mission.\nReason (R): The Abhiyaan follows a lifecycle approach.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the Abhiyaan was launched in 2018 under the National Health Mission and follows a lifecycle approach. However, the lifecycle approach does not explain the fact that it was launched in 2018."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "WHO haemoglobin cut-offs",
+   "question": "Consider the following statements:\nStatement A: According to WHO cut-offs, women of reproductive age are considered anaemic below 12 g/dL haemoglobin.\nStatement B: According to WHO cut-offs, children under 5 are considered anaemic below 11 g/dL haemoglobin.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "Both statements are true. The WHO cut-off is haemoglobin below 12 g/dL for women of reproductive age and below 11 g/dL for children under 5. Therefore, the answer is that both Statement A and Statement B are true."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Original interventions",
+   "question": "Match the original Anaemia Mukt Bharat interventions in List-I with the corresponding descriptions in List-II.\n\nList-I\n(a) IFA supplementation\n(b) Biannual deworming\n(c) Food fortification\n(d) BCC\n\nList-II\n(i) Behaviour Change Communication\n(ii) Albendazole\n(iii) Iron-Folic Acid\n(iv) Fortification of food",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i. IFA refers to Iron-Folic Acid, biannual deworming uses Albendazole, food fortification corresponds to fortification of food, and BCC means Behaviour Change Communication. The other codes interchange these intervention descriptions."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Programme components",
+   "question": "Which one of the following statements about the Anaemia Mukt Bharat Abhiyaan is incorrect?",
+   "options": [
+    "It provides prophylactic Iron-Folic Acid.",
+    "It promotes delayed cord clamping.",
+    "It provides prophylactic calcium as its supplementation.",
+    "It includes measures related to anaemia prevention and treatment."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "The incorrect statement is that the Abhiyaan provides prophylactic calcium. It provides prophylactic Iron-Folic Acid and promotes delayed cord clamping. Calcium is the changed detail in the incorrect statement."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "NFHS-5 anaemia prevalence",
+   "question": "How many of the following NFHS-5 figures are correctly matched?\n1. Children under 5 — 67.1% anaemic\n2. Adolescent girls aged 15–19 — 59.1% anaemic\n3. Women aged 15–49 — 52.2% anaemic\n4. Pregnant women — 57% anaemic",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F13",
+    "P2.F14",
+    "P2.F15",
+    "P2.F16"
+   ],
+   "explanation": "Only two statements are correctly matched: children under 5 are at 67.1% and adolescent girls aged 15–19 at 59.1%. The correct figures are 57% for women aged 15–49 and 52.2% for pregnant women, so statements 3 and 4 are interchanged."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global anaemia prevalence",
+   "question": "What percentage of non-pregnant women aged 15–49 are identified in the global anaemia figures associated with Anaemia Mukt Bharat?",
+   "options": [
+    "30%",
+    "37%",
+    "40%",
+    "57%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F17"
+   ],
+   "explanation": "The global figure for non-pregnant women aged 15–49 is 30%. The figures of 40% and 37% relate respectively to children aged 6–59 months and pregnant women."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "WIFS, PMSMA and federal responsibility",
+   "question": "Consider the following statements:\n1. WIFS provides weekly supervised IFA to adolescent girls and boys along with biannual deworming.\n2. PMSMA provides special antenatal check-ups on the 9th of every month.\n3. Health is a State subject.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F18",
+    "P2.F19",
+    "P2.F20"
+   ],
+   "explanation": "All three statements are correct. WIFS combines weekly supervised IFA with biannual deworming, PMSMA schedules special antenatal check-ups on the 9th of every month, and health is a State subject. Thus, the complete set is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Approval and ministry",
+   "question": "When was the PM Vidyalaxmi Scheme approved by the Union Cabinet, and which Ministry is associated with it?",
+   "options": [
+    "6 November 2024; Ministry of Education",
+    "2018; Union Health Ministry",
+    "6 November 2024; Ministry of Finance",
+    "2023–24; Ministry of Education"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "The PM Vidyalaxmi Scheme was approved by the Union Cabinet on 6 November 2024 and is associated with the Ministry of Education. The Union Health Ministry and the year 2018 relate to the Anaemia Mukt Bharat context, not this scheme."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Loan repayment period",
+   "question": "Under the PM Vidyalaxmi Scheme, the repayment period for an education loan may extend up to how long after the moratorium?",
+   "options": [
+    "15 years",
+    "10 years",
+    "8 years",
+    "5 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "Repayment under the PM Vidyalaxmi Scheme may extend up to 15 years after the moratorium. The moratorium itself covers the course period plus 1 year, making the other durations incorrect."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Eligible institutions",
+   "question": "Which of the following categories of institutions are eligible under the PM Vidyalaxmi Scheme?\n1. Institutions ranked among the top 100 in NIRF\n2. State or Union Territory government higher educational institutions ranked among the top 200\n3. All Central government higher educational institutions",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "All three categories are eligible under the scheme: the top 100 NIRF institutions, the top 200 State or Union Territory government higher educational institutions, and all Central government higher educational institutions. Therefore, the correct option is 1, 2 and 3."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Digital delivery",
+   "question": "Which digital mechanism is associated with the delivery of the PM Vidyalaxmi Scheme?",
+   "options": [
+    "A unified portal with a Digital Rupee/CBDC wallet",
+    "The U-WIN immunisation platform",
+    "The JANANI portal for pregnant women",
+    "A paper-based State portal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "The scheme is delivered through a unified portal linked with a Digital Rupee/CBDC wallet. U-WIN and JANANI are components of the Unified AMB Abhiyaan Portal, not the delivery mechanism specified for PM Vidyalaxmi."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GER, income limit and subvention",
+   "question": "Consider the following statements about higher education and the PM Vidyalaxmi Scheme:\n1. Higher education GER increased from 23.7% in 2014–15 to 30.0% in 2023–24.\n2. The family-income limit for PM Vidyalaxmi interest subvention is ₹8 lakh, compared with ₹4.5 lakh under PM-USP CSIS.\n3. PM-USP CSIS provides full interest subvention during the moratorium, whereas PM Vidyalaxmi provides 3% subvention.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F9",
+    "P3.F10",
+    "P3.F11"
+   ],
+   "explanation": "All three statements are correct. GER rose from 23.7% to 30.0%; the income limits are ₹4.5 lakh for PM-USP CSIS and ₹8 lakh for PM Vidyalaxmi; and their subvention provisions are full during moratorium and 3%, respectively. Hence, 1, 2 and 3 is the correct answer."
+  }
+ ]
+}

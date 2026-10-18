@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P2.F3",
+  "P4.F7",
+  "P4.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number and amount of foreign contribution",
+   "question": "During 2024–25, approximately how many registered associations received approximately what amount of foreign contribution under the Foreign Contribution (Regulation) Act framework?",
+   "options": [
+    "About 16,200 associations and about ₹22,963 crore",
+    "About 22,963 associations and about ₹16,200 crore",
+    "About 16,200 associations and about ₹16,200 crore",
+    "About 22,963 associations and about ₹22,963 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "During 2024–25, about 16,200 registered associations received about ₹22,963 crore. The tempting alternative reverses the number of associations and the amount, which is not the reported combination."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Legal basis and establishment of the Supreme Court Legal Services Committee",
+   "question": "Consider the following statements:\n1. The Supreme Court Legal Services Committee functions under the Legal Services Authorities Act, 1987.\n2. The Supreme Court was established on January 28, 1950.\n3. The Supreme Court Legal Services Committee was established on January 28, 1950.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7",
+    "P4.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Committee is under the Legal Services Authorities Act, 1987, and the Supreme Court was established on January 28, 1950. Statement 3 incorrectly transfers the establishment date of the Supreme Court to the Committee."
+  }
+ ]
+}

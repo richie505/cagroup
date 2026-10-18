@@ -1,0 +1,283 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9
+ ],
+ "only": [
+  "P8.F10",
+  "P8.F11",
+  "P8.F12",
+  "P8.F14",
+  "P8.F15",
+  "P8.F16",
+  "P8.F19",
+  "P8.F2",
+  "P8.F20",
+  "P8.F21",
+  "P8.F22",
+  "P8.F23",
+  "P8.F24",
+  "P8.F25",
+  "P8.F26",
+  "P8.F27",
+  "P8.F8",
+  "P8.F9",
+  "P9.F1",
+  "P9.F2",
+  "P9.F5",
+  "P9.F6",
+  "P9.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Count-Based",
+   "keyword": "Study dataset",
+   "question": "A study on climate-change impacts on dairy production in Haryana used which of the following data points?\n\n1. The data covered 2004–2019.\n2. The study covered 1,148 villages.\n3. The dataset included 4.66 million cross-bred cattle.\n4. The dataset included 4.66 million indigenous cattle.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "Only three statements are correct: the period was 2004–2019, the study covered 1,148 villages, and it included 4.66 million cross-bred cattle. The number of indigenous cattle was 2.86 million, not 4.66 million."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Stakeholder number",
+   "question": "Approximately how many smallholder dairy farmers are vulnerable to the effects of heat stress on milk production?",
+   "options": [
+    "80 million",
+    "35.56 million",
+    "4.66 million",
+    "2.86 million"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8"
+   ],
+   "explanation": "About 80 million smallholder dairy farmers are associated with the dairy sector affected by heat stress. The other figures refer to cattle populations in the Haryana study dataset."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Milk production indicators",
+   "question": "Consider the following statements regarding India’s milk-production indicators:\n\n1. Milk production increased from 146.3 MMT in 2014-15 to 247.87 MMT in 2024-25, a growth of 69.41%.\n2. Per capita milk availability increased from 319 g/day to 485 g/day, recording growth of 52.03%.\n3. Productivity of bovines recorded growth of 36.63%, and India is the world’s largest milk producer.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F9",
+    "P8.F10",
+    "P8.F11",
+    "P8.F12"
+   ],
+   "explanation": "All three statements are correct. Milk production, per capita availability and bovine productivity recorded the stated growth, and India is the world’s largest milk producer."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Indigenous cattle breeds and origin",
+   "question": "Match the cattle breeds with their origins or associated locations.\n\nList-I\n a. Red Sindhi\n b. Sahiwal\n c. Jersey\n\nList-II\n i. Jersey Island, UK\n ii. Karachi / Hyderabad\n iii. Montgomery\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F14",
+    "P8.F15",
+    "P8.F16"
+   ],
+   "explanation": "The correct pairs are Red Sindhi–Karachi/Hyderabad, Sahiwal–Montgomery and Jersey–Jersey Island, UK. Montgomery is associated with Sahiwal, while Jersey Island is associated with the Jersey breed."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Exotic cattle breeds and origin",
+   "question": "Match the exotic cattle breeds with their origins or distinguishing features.\n\nList-I\n a. Red Dane\n b. Ayrshire\n c. Guernsey\n\nList-II\n i. Golden milk associated with beta-carotene\n ii. Denmark\n iii. Scotland\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F19",
+    "P8.F20",
+    "P8.F21"
+   ],
+   "explanation": "Red Dane originated in Denmark, Ayrshire is associated with Scotland, and Guernsey is known for golden milk associated with beta-carotene. Therefore, the correct code is a-ii, b-iii, c-i."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme launch",
+   "question": "The Rashtriya Gokul Mission was launched in which year by which department?",
+   "options": [
+    "2014 by the Department of Animal Husbandry and Dairying",
+    "2047 by the Department of Animal Husbandry and Dairying",
+    "2014-15 by the Department of Animal Husbandry and Dairying",
+    "2050s by the Department of Animal Husbandry and Dairying"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F22"
+   ],
+   "explanation": "The Rashtriya Gokul Mission was launched in 2014 by the Department of Animal Husbandry and Dairying. The other time references belong to milk-production data or projected impacts, not the scheme’s launch."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Breed improvement interventions",
+   "question": "Consider the following statements:\n\nStatement A: Under the Rashtriya Gokul Mission, sex-sorted semen can produce female calves with up to 90% accuracy, while indigenous technology reduced its cost from ₹800 to ₹250 per dose.\nStatement B: The Accelerated Breed Improvement Programme provides an incentive of up to 50% of the cost on assured pregnancy.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F23",
+    "P8.F24"
+   ],
+   "explanation": "Both statements are true. The mission includes sex-sorted semen with up to 90% accuracy and a reduction in cost from ₹800 to ₹250 per dose, while the Accelerated Breed Improvement Programme offers an incentive of up to 50% of the cost on assured pregnancy."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Acronym expansion",
+   "question": "In the Rashtriya Gokul Mission, what does the acronym MAITRIs stand for?",
+   "options": [
+    "Multi-Purpose AI Technicians in Rural India",
+    "Multi-Purpose Rural AI Technicians in India",
+    "Multi-Purpose AI Technicians for Rural India",
+    "Multi-Purpose Animal Improvement Technicians in Rural India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F25"
+   ],
+   "explanation": "MAITRIs stands for Multi-Purpose AI Technicians in Rural India. The alternatives alter the official expansion by changing or adding words."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IVF cost reduction",
+   "question": "Under the Rashtriya Gokul Mission, indigenous IVF media reduced the embryo cost from:",
+   "options": [
+    "₹5000 to ₹2000",
+    "₹800 to ₹250",
+    "90% to 50%",
+    "₹250 to ₹800"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F26"
+   ],
+   "explanation": "Indigenous IVF media reduced embryo cost from ₹5000 to ₹2000 for IVF involving Gir and Kankrej breeds. The ₹800-to-₹250 reduction relates to sex-sorted semen, not IVF."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Breeds covered",
+   "question": "Which of the following statements regarding breeds covered under the Rashtriya Gokul Mission is incorrect?",
+   "options": [
+    "Gir is among the registered breeds covered.",
+    "Ongole is among the registered breeds covered.",
+    "Jersey is among the registered breeds covered.",
+    "Red Sindhi is among the registered breeds covered."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F27"
+   ],
+   "explanation": "The incorrect statement is that Jersey is among the registered breeds covered. The listed covered breeds include Gir, Ongole and Red Sindhi, whereas Jersey does not appear in that list."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institutional holding of G-Secs",
+   "question": "According to RBI and IRDAI data, life insurers hold approximately what share of outstanding Central Government dated securities?",
+   "options": [
+    "Nearly one-fourth",
+    "About 19%",
+    "About 3.0%",
+    "2.7%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "Life insurers hold nearly one-fourth of outstanding Central Government dated securities. The 19% figure relates specifically to LIC’s holding of Central G-Secs, while 3.0% and 2.7% are insurance-penetration figures."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "LIC investment profile",
+   "question": "Which of the following statements regarding LIC’s holdings is incorrect?",
+   "options": [
+    "LIC holds about 19% of Central Government securities.",
+    "LIC holds ₹20.2 lakh crore in Central Government securities.",
+    "LIC holds more than ₹32.3 lakh crore in Government and Government-guaranteed securities.",
+    "LIC invests 19% of non-linked policyholder funds in sovereign securities."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The incorrect statement changes the share of non-linked policyholder funds invested in sovereign securities. The correct figure is 63%, while LIC holds about 19% of Central G-Secs and ₹20.2 lakh crore in those securities."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Private insurers and ULIPs",
+   "question": "Why do private insurers invest less in government securities compared with life insurers such as LIC?",
+   "options": [
+    "They have more ULIPs",
+    "They hold nearly one-fourth of Central Government dated securities",
+    "They invest 63% of non-linked policyholder funds in sovereign securities",
+    "They provide sex-sorted semen"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F5"
+   ],
+   "explanation": "Private insurers invest less because they have more ULIPs. The other options refer to life-insurer holdings, LIC’s sovereign investment pattern or an animal-husbandry intervention."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Pandemic peak insurance penetration",
+   "question": "At its pandemic peak, insurance penetration in India was recorded at:",
+   "options": [
+    "3.2% of GDP",
+    "2.7% of GDP",
+    "About 3.0% of GDP",
+    "19% of GDP"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F6"
+   ],
+   "explanation": "Insurance penetration reached 3.2% of GDP at its pandemic peak. The 2.7% figure relates to FY25, while about 3.0% is the global average."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global insurance penetration",
+   "question": "What is the approximate global average of insurance penetration mentioned in the comparison?",
+   "options": [
+    "About 3.0%",
+    "3.2%",
+    "2.7%",
+    "19%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F8"
+   ],
+   "explanation": "The approximate global average of insurance penetration is 3.0%. The figures 3.2% and 2.7% refer to India’s pandemic peak and FY25 levels respectively, while 19% is associated with LIC’s Central G-Sec holding."
+  }
+ ]
+}

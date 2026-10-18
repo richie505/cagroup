@@ -1,0 +1,231 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F15",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18",
+  "P1.F19",
+  "P1.F20",
+  "P1.F21",
+  "P1.F22",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Sanctuary location and establishment",
+   "question": "Consider the following statements:\nStatement A: Kolleru Wildlife Sanctuary is located in West Godavari and Krishna districts.\nStatement B: It was established in 1999 under the Wildlife Protection Act, 1972.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Both statements are true. Kolleru Wildlife Sanctuary lies in West Godavari and Krishna districts and was established in 1999 under the Wildlife Protection Act, 1972. The other options incorrectly reject one or both of these details."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ramsar Convention and wetland status",
+   "question": "With reference to Kolleru Lake and the Ramsar Convention, consider the following statements:\n1. Kolleru Lake is a freshwater wetland situated between the Krishna and Godavari deltas.\n2. Kolleru Lake became a Ramsar site in 1971.\n3. The Ramsar Convention was adopted in 1971.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Statements 1 and 3 are correct. Kolleru Lake is a freshwater wetland between the Krishna and Godavari deltas, and the Ramsar Convention dates to 1971. Statement 2 is incorrect because Kolleru Lake became a Ramsar site in 2002, not 1971."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State reorganisation and Governor",
+   "question": "Which option correctly describes Andhra Pradesh in the context of its formation, reorganisation and Governor?",
+   "options": [
+    "Formed on November 1, 1956; reorganised on June 2, 2014; Governor S. Abdul Nazeer",
+    "Formed on June 2, 2014; reorganised on November 1, 1956; Governor S. Abdul Nazeer",
+    "Formed on November 1, 1956; reorganised on June 2, 2014; Governor S. Abdul Nazeer",
+    "Formed on November 1, 1956; reorganised on June 2, 2014; Governor S. Abdul Nazeer"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Andhra Pradesh was formed on November 1, 1956, reorganised on June 2, 2014, and its Governor is S. Abdul Nazeer. The other options alter one of these dates or the Governor’s name."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Proposed ESA area",
+   "question": "Under the seventh draft notification for the Western Ghats Eco-Sensitive Area, what area was proposed for Tamil Nadu?",
+   "options": [
+    "6,914 sq km",
+    "1,461 sq km",
+    "449 sq km",
+    "9,993.7 sq km"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "The proposed Eco-Sensitive Area in Tamil Nadu was 6,914 sq km. The figures 1,461 sq km and 449 sq km refer to Goa and Gujarat respectively, while 9,993.7 sq km refers to Kerala."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Proposed ESA area",
+   "question": "Under the seventh draft notification for the Western Ghats Eco-Sensitive Area, what area was proposed for Goa?",
+   "options": [
+    "1,461 sq km",
+    "6,914 sq km",
+    "449 sq km",
+    "17,340 sq km"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "Goa’s proposed Eco-Sensitive Area was 1,461 sq km. The other figures belong to Tamil Nadu, Gujarat and Maharashtra respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Smallest proposed ESA",
+   "question": "Which of the following statements regarding the State-wise proposed Eco-Sensitive Area in the seventh Western Ghats draft notification is incorrect?",
+   "options": [
+    "The proposed area for Gujarat was 449 sq km.",
+    "Gujarat had the smallest proposed Eco-Sensitive Area among the States listed.",
+    "The proposed area for Gujarat was 449 sq km and it was the smallest.",
+    "The proposed area for Gujarat was 449 sq km and it was the largest."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "The incorrect statement is that Gujarat’s proposed area was the largest. Gujarat was assigned 449 sq km, which was the smallest proposed Eco-Sensitive Area. The other statements correctly describe the figure and its position."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Extension and committee recommendation",
+   "question": "Consider the following statements:\nStatement A: The expert committee constituted in 2022 was extended up to July 2027.\nStatement B: The Gadgil Committee of 2011 recommended treating the entire Western Ghats as sensitive through ESZ-I, ESZ-II and ESZ-III.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "Both statements are true. The 2022 expert committee was extended to July 2027, while the Gadgil Committee’s 2011 approach covered the entire Western Ghats through three sensitivity categories. The remaining options incorrectly reject one or both statements."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Committee recommendations",
+   "question": "Assertion (A): The Kasturirangan Committee recommended that the entire Western Ghats be classified into ESZ-I, ESZ-II and ESZ-III.\nReason (R): The Kasturirangan Committee recommended about 37%, or approximately 60,000 sq km, as an Eco-Sensitive Area.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F12",
+    "P1.F13"
+   ],
+   "explanation": "Assertion A is false, but Reason R is true. The recommendation to classify the entire Western Ghats into ESZ-I, ESZ-II and ESZ-III belonged to the Gadgil Committee, whereas the Kasturirangan Committee proposed about 37%, or approximately 60,000 sq km, as an Eco-Sensitive Area."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Western Ghats geography",
+   "question": "Match List-I with List-II regarding the Western Ghats.\n\nList-I\n a. Sahyadri\n b. Konkan\n c. Thal Ghat\n d. Malabar\n\nList-II\n i. Western Ghats\n ii. Northern coast\n iii. Mumbai–Nashik link\n iv. Southern coast",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F14",
+    "P1.F16",
+    "P1.F17"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Sahyadri is another name for the Western Ghats, Konkan is the northern coast, Thal Ghat links Mumbai and Nashik, and Malabar is the southern coast. The other codes interchange these geographical associations."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Western Ghats passes and connectivity",
+   "question": "Match the Western Ghats passes with the places they link.\n\nList-I\n a. Bhor Ghat\n b. Palghat Gap\n c. Amba Ghat\n d. Amboli Ghat\n\nList-II\n i. Ratnagiri–Kolhapur\n ii. Sawantwadi–Belgaum\n iii. Mumbai–Pune\n iv. Coimbatore–Palakkad",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F18",
+    "P1.F19",
+    "P1.F20",
+    "P1.F21"
+   ],
+   "explanation": "The correct pairs are Bhor Ghat–Mumbai–Pune, Palghat Gap–Coimbatore–Palakkad, Amba Ghat–Ratnagiri–Kolhapur and Amboli Ghat–Sawantwadi–Belgaum. Hence the correct code is a-iii, b-iv, c-i, d-ii. The other options mismatch one or more passes with their linked places."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Endemic fauna",
+   "question": "How many of the following are endemic species of the Western Ghats?\n1. Nilgiri Tahr\n2. Lion-tailed Macaque\n3. Anamudi\n4. Palghat Gap",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F22"
+   ],
+   "explanation": "Only two of the listed entries are endemic species: Nilgiri Tahr and Lion-tailed Macaque. Anamudi is the highest peak of the Western Ghats, while Palghat Gap is a pass, not an endemic species."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Western Ghats spread and Pulicat Lake",
+   "question": "Pulicat Lake, mentioned in the geographical context of the Western Ghats region, is shared by which two States?",
+   "options": [
+    "Andhra Pradesh and Tamil Nadu",
+    "Gujarat and Maharashtra",
+    "Goa and Karnataka",
+    "Kerala and Tamil Nadu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F15"
+   ],
+   "explanation": "Pulicat Lake extends across Andhra Pradesh and Tamil Nadu. The other pairs are among the six States through which the Western Ghats spread, but they do not describe Pulicat Lake’s State association."
+  }
+ ]
+}

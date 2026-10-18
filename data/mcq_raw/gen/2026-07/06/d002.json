@@ -1,0 +1,211 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F17",
+  "P2.F18",
+  "P2.F19",
+  "P2.F2",
+  "P2.F20",
+  "P2.F21",
+  "P2.F22",
+  "P2.F3",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Route and distance",
+   "question": "India’s first hydrogen train operates on which route and distance?",
+   "options": [
+    "Jind–Sonipat — 89 km",
+    "Jind–Sonipat — 356 km",
+    "Sonipat–Jind — 89 km",
+    "Jind–Sonipat — 300 km"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "The hydrogen train operates on the Jind–Sonipat route, covering 89 km. The 356 km figure refers to its daily running, not the route length."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Distinctive global status",
+   "question": "India’s first hydrogen trainset was described as being among which of the following?",
+   "options": [
+    "The world’s longest and most powerful hydrogen trainsets",
+    "The world’s shortest and least powerful hydrogen trainsets",
+    "The world’s first hydrogen passenger train",
+    "The world’s only hydrogen freight trainset"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "The trainset is among the world’s longest and most powerful hydrogen trainsets. The description does not identify it as the world’s first hydrogen passenger train; that distinction belongs to another train."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Daily operation and cost",
+   "question": "How many of the following statements about India’s first hydrogen train are correct?\n1. It is planned to make 2 round trips daily, cover 356 km and use about 300 kg of hydrogen.\n2. Its onboard hydrogen storage capacity is 300 kg.\n3. Its cost is ₹136 lakh.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "None"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "Only statement 1 is correct: the train is planned for 2 round trips, 356 km and about 300 kg of hydrogen daily. Its onboard storage is 440 kg, while its cost is ₹136 crore, not ₹136 lakh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Onboard storage",
+   "question": "What is the onboard hydrogen storage capacity of India’s first hydrogen train?",
+   "options": [
+    "440 kg",
+    "3,000 kg",
+    "300 kg",
+    "2,400 kg"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "The train has onboard hydrogen storage of 440 kg. The 3,000 kg figure relates to the Jind fuelling facility, while about 300 kg is its approximate daily hydrogen use."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Work and sanction timeline",
+   "question": "Which combination correctly describes the work and sanction timeline for India’s first hydrogen train?",
+   "options": [
+    "Work began in April 2022 and sanction was given on May 22, 2026",
+    "Work began in May 22, 2026 and sanction was given in April 2022",
+    "Work began in 2020–21 and sanction was given in April 2022",
+    "Work began in 2023 and sanction was given on July 17, 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "Work began in April 2022, and sanction was given on May 22, 2026. The 2020–21 period relates to the railway undertaking the project, not the work-and-sanction sequence."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Power-pack composition",
+   "question": "Consider the following statements about each power pack of India’s first hydrogen train:\n1. Each power pack has a total power of 300 kW.\n2. It contains a 185 kW fuel cell and a 115 kW Lithium Ferro Phosphate battery.\n3. There are 2 power packs per power car.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "Only statement 1 is correct: each power pack has a total power of 300 kW. The fuel cell is 115 kW and the Lithium Ferro Phosphate battery is 185 kW, and each power car has 4 packs."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Builder, suppliers and facility",
+   "question": "Match List-I with List-II in the context of India’s first hydrogen train.\n\nList-I\n(a) Built by\n(b) Tender awarded to\n(c) Fuel-cell supplier\n(d) Jind facility storage pressure\n\nList-II\n(i) Ballard\n(ii) 200–500 bar\n(iii) Medha\n(iv) Northern Railway",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F13",
+    "P2.F14"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-i and d-ii: Northern Railway built the train, Medha received the tender, Ballard supplied the fuel cells, and the Jind facility stores hydrogen at 200–500 bar. The 3,000 kg figure is the facility’s capacity, not its storage pressure."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Technology and environmental feature",
+   "question": "Consider the following statements about India’s first hydrogen train:\nStatement A: It does not require overhead wires and produces water vapour as a by-product.\nStatement B: It uses Proton Exchange Membrane Fuel Cell technology.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F15",
+    "P2.F18"
+   ],
+   "explanation": "Both statements are true. The train operates without overhead wires, its by-product is water vapour, and it uses Proton Exchange Membrane Fuel Cell technology."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Initiative and facility",
+   "question": "Assertion (A): India’s first hydrogen train was launched under the Indian Railways’ “Hydrogen for Heritage” initiative.\nReason (R): Jind is India’s largest railway hydrogen storage and refuelling centre.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F17",
+    "P2.F21"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. The train was launched under the “Hydrogen for Heritage” initiative, while Jind is the country’s largest railway hydrogen storage and refuelling centre; the latter fact does not explain the initiative under which the train was launched."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Institutions and alternate specifications",
+   "question": "Consider the following statements:\nStatement A: RDSO was established in 1957 at Lucknow, PESO has its headquarters at Nagpur, and Indian Railways was established in 1853.\nStatement B: The alternate specifications list 10 coaches, about 2,600 passengers, 1,200 kW fuel-cell propulsion and a design speed of 110 km/h.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F19",
+    "P2.F20"
+   ],
+   "explanation": "Both statements are true. RDSO is associated with Lucknow and technical standards, PESO is headquartered at Nagpur, and Indian Railways dates to 1853; the alternate specifications are 10 coaches, about 2,600 passengers, 1,200 kW propulsion and a design speed of 110 km/h."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Global first and mission",
+   "question": "How many of the following statements are correct?\n1. The Alstom Coradia iLint of Germany, introduced in 2018, was the world’s first hydrogen passenger train.\n2. The National Green Hydrogen Mission was launched in 2023 with an outlay of ₹19,744 crore under DPIIT.\n3. The Alstom Coradia iLint was the world’s first hydrogen freight train.\n4. The National Green Hydrogen Mission was launched in 2023 with an outlay of ₹19,744 crore under Indian Railways.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F16",
+    "P2.F22"
+   ],
+   "explanation": "Only statement 1 is correct: the Alstom Coradia iLint was the world’s first hydrogen passenger train. The National Green Hydrogen Mission is under MNRE, not DPIIT or Indian Railways."
+  }
+ ]
+}

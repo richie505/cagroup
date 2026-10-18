@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F12",
+  "P0.F7",
+  "P0.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Date and constitutional recognition",
+   "question": "With reference to Hul Diwas and the status of Santali, consider the following statements:\n1. Hul Diwas is observed on June 30 to commemorate the Santal rebellion that began on June 30, 1855.\n2. Santali was included in the Ninth Schedule in 2003.\n3. Hul Diwas commemorates the inclusion of Santali in the Eighth Schedule in 2003.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "2 and 3 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F12"
+   ],
+   "explanation": "Statement 1 is correct: Hul Diwas on June 30 commemorates the Santal rebellion that began on June 30, 1855. Statement 2 is incorrect because Santali was included in the Eighth Schedule, not the Ninth Schedule, while Statement 3 wrongly links Hul Diwas with that constitutional recognition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Migration after suppression",
+   "question": "According to the account of Santal migration after the suppression of the 1855 rebellion, which one of the following combinations is correct for 1901?",
+   "options": [
+    "About 31,000 Santal Pargana residents in Assam and 10,000 in Jalpaiguri",
+    "About 10,000 Santal Pargana residents in Assam and 31,000 in Jalpaiguri",
+    "About 31,000 Santal Pargana residents in Purnea and 10,000 in Malda",
+    "About 10,000 Santal Pargana residents in Assam and 31,000 in Burdwan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "By 1901, about 31,000 Santal Pargana residents were in Assam and 10,000 were in Jalpaiguri. The tempting second option reverses these two figures and places."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Proverb and recorder",
+   "question": "Which proverb about the Santals was recorded by W.G. Archer?",
+   "options": [
+    "“A million Santals have a single word”",
+    "“A million Santals have a single village”",
+    "“A thousand Santals have a single word”",
+    "“A million Santals have a single leader”"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "W.G. Archer recorded the proverb, “a million Santals have a single word.” The other options alter the number or the key term of the proverb."
+  }
+ ]
+}

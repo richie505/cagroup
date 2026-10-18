@@ -1,0 +1,137 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": [
+  "P4.F4",
+  "P4.F5",
+  "P4.F7",
+  "P4.F8",
+  "P5.F1",
+  "P5.F2",
+  "P5.F4",
+  "P5.F5",
+  "P5.F6",
+  "P5.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news; Awards and art form",
+   "question": "Which combination correctly describes Teejan Bai, who died in July 2026?",
+   "options": [
+    "Pandavani singer from Chhattisgarh; born in Durg; recipient of the Padma Shri, Padma Bhushan and Padma Vibhushan",
+    "Pandavani singer from Chhattisgarh; died in Raipur; recipient of the Padma Shri, Padma Bhushan and Padma Vibhushan",
+    "Classical vocalist from South India; born in Durg; recipient of the Padma Shri, Padma Bhushan and Padma Vibhushan",
+    "Pandavani singer from Chhattisgarh; born in Durg; recipient of four National Film Awards and 33 State awards"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F8"
+   ],
+   "explanation": "Teejan Bai was known for singing Pandavani, the Mahabharata ballad tradition of Chhattisgarh; she was born in Durg and received the Padma Shri, Padma Bhushan and Padma Vibhushan. Raipur was her place of death, not her birthplace."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Epithet; Awards and contribution",
+   "question": "S. Janaki, who died in July 2026, was associated with which of the following descriptions?",
+   "options": [
+    "The “Nightingale of South India”; 48,000+ songs in 20 languages; 4 National Film Awards and 33 State awards",
+    "The “Nightingale of South India”; 37,000+ songs in 20 languages; 4 National Film Awards and 33 State awards",
+    "The “Bridge Man of India”; 48,000+ songs in 20 languages; 4 National Film Awards and 33 State awards",
+    "The “Nightingale of South India”; 48,000+ songs in 12 languages; 2 National Film Awards and 33 State awards"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5"
+   ],
+   "explanation": "S. Janaki was popularly known as the “Nightingale of South India” and had recorded 48,000+ songs in 20 languages. She received 4 National Film Awards and 33 State awards; the other options alter her song total, identity or awards."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "HQ and nickname",
+   "question": "The National Security Guard (NSG), associated with the “Black Cats”, has its headquarters at which place?",
+   "options": [
+    "Manesar",
+    "Nagpur",
+    "Raipur",
+    "Kanker"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "The NSG is headquartered at Manesar and is popularly known as the “Black Cats”. Nagpur, Raipur and Kanker are places associated with other entries but are not the NSG headquarters."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Book author and release details",
+   "question": "Match the books in List-I with their corresponding authors or release details in List-II.\n\nList-I\n a. RSS @100: A Century of Service, Unity & Sacrifice — author\n b. RSS @100: A Century of Service, Unity & Sacrifice — released by\n c. UNBROKEN: My Battle with Cancer and the Will to Lead — author\n d. UNBROKEN: My Battle with Cancer and the Will to Lead — unveiled by\n\nList-II\n i. Dr. Jitendra Singh\n ii. Vice-President C. P. Radhakrishnan\n iii. Shyam Jaju and Anupam Trivedi\n iv. Dr. Akhilesh Gupta",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F4"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i: Shyam Jaju and Anupam Trivedi authored RSS @100, which was released by Vice-President C. P. Radhakrishnan, while Dr. Akhilesh Gupta authored UNBROKEN and Dr. Jitendra Singh unveiled it. The other codes interchange the authors and release personalities."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Book specifications; Organisation history",
+   "question": "How many of the following statements correctly describe the books and organisations covered in the July 2026 news?\n\n1. Stamps, Coins, and Banknotes Issued During the Premiership of Shri Narendra Modi is a 200-page coffee table book.\n2. Its first volume covers the period from May 26, 2014 to May 30, 2020.\n3. RSS was established by Mohan Bhagwat.\n4. The Sarsanghchalak of RSS is Dr. K. B. Hedgewar.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F5"
+   ],
+   "explanation": "Only one statement is correct: the Mintage World book is a 200-page coffee table book. Its first volume ends on May 30, 2019, RSS was established by Dr. K. B. Hedgewar, and Mohan Bhagwat is its Sarsanghchalak."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Definitions of numismatics and philately",
+   "question": "Assertion (A): Numismatics is the study of coins.\nReason (R): Philately is the study of coins.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "Assertion A is true because numismatics concerns coins. Reason R is false because philately concerns stamps, including stamps issued by the Department of Posts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment year",
+   "question": "In which year was the Department of Science and Technology (DST) established?",
+   "options": [
+    "1971",
+    "1975",
+    "1925",
+    "1984"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F7"
+   ],
+   "explanation": "The Department of Science and Technology was established in 1971. The other years refer to different organisational or historical details and are not the establishment year of DST."
+  }
+ ]
+}

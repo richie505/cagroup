@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  29,
+  30
+ ],
+ "only": [
+  "P30.F3",
+  "P30.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Operational capability",
+   "question": "With reference to the Undavalli Heliport's approved navigation procedure, consider the following statements:\n1. It enables helicopter operations in adverse weather and low visibility, using Performance-Based Navigation and GAGAN.\n2. It enables helicopter operations only in clear weather and uses Performance-Based Navigation without GAGAN.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P30.F3"
+   ],
+   "explanation": "Statement 1 is correct: the procedure enables helicopter operations in adverse weather and low visibility and uses Performance-Based Navigation and GAGAN. Statement 2 is incorrect because the procedure is not limited to clear weather and does use GAGAN."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Expansion and organisations",
+   "question": "GAGAN, associated with the Undavalli Heliport's navigation procedure, stands for:",
+   "options": [
+    "GPS Aided GEO Augmented Navigation, developed by ISRO and AAI",
+    "GPS Aided GEO Augmented Navigation, developed by DGCA and AAI",
+    "GPS Aided GEO Augmented Navigation, developed by ISRO and ICAO",
+    "GPS Aided GEO Augmented Navigation, developed by DGCA and ICAO"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P30.F4"
+   ],
+   "explanation": "GAGAN stands for GPS Aided GEO Augmented Navigation and is associated with ISRO and AAI. The alternatives incorrectly replace ISRO, AAI, or both with DGCA or ICAO."
+  }
+ ]
+}

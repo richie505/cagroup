@@ -1,0 +1,270 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "only": [
+  "P12.F4",
+  "P12.F5",
+  "P12.F6",
+  "P12.F7",
+  "P12.F8",
+  "P12.F9",
+  "P13.F1",
+  "P13.F10",
+  "P13.F2",
+  "P13.F3",
+  "P13.F4",
+  "P13.F9",
+  "P14.F2",
+  "P14.F4",
+  "P15.F4",
+  "P15.F5",
+  "P15.F7",
+  "P16.F2",
+  "P16.F3",
+  "P16.F4",
+  "P16.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Urban water indicators",
+   "question": "With reference to Andhra Pradesh’s urban water indicators, consider the following statements:\n1. The urban population is about 173.5 lakh.\n2. The water requirement is 2,860 MLD.\n3. The urban water supply is 762 MLD.\n4. The water deficit is 2,098 MLD.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4",
+    "P12.F5",
+    "P12.F6",
+    "P12.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the urban population is about 173.5 lakh and the water requirement is 2,860 MLD. Statements 3 and 4 interchange the supply and deficit figures; supply is 2,098 MLD and the deficit is about 762 MLD."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Wastewater quantity",
+   "question": "What is the estimated quantity of wastewater generated in Andhra Pradesh’s urban areas under the urban water project assessment?",
+   "options": [
+    "2,147+ MLD",
+    "2,860 MLD",
+    "2,098 MLD",
+    "About 711 MLD"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F8"
+   ],
+   "explanation": "The estimated wastewater quantity is 2,147+ MLD. The figures 2,860 MLD and 2,098 MLD refer to water requirement and supply respectively, while about 711 MLD is sewage treatment capacity."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sewage treatment capacity",
+   "question": "The sewage treatment capacity mentioned for Andhra Pradesh’s urban areas is approximately:",
+   "options": [
+    "About 711 MLD",
+    "About 762 MLD",
+    "2,147+ MLD",
+    "2,860 MLD"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F5",
+    "P12.F7",
+    "P12.F8",
+    "P12.F9"
+   ],
+   "explanation": "The sewage treatment capacity is about 711 MLD. About 762 MLD is the water deficit, 2,147+ MLD is wastewater, and 2,860 MLD is the water requirement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Campaign period and district",
+   "question": "The 2026 Catch the Rain campaign referred to in the news was conducted in which district and during which period?",
+   "options": [
+    "Nandyal, 4 July–4 August 2026",
+    "Nandyal, 11 July–4 August 2026",
+    "Anantapur, 4 July–4 August 2026",
+    "Nandyal, 4 August–4 September 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "The campaign was conducted in Nandyal district from 4 July to 4 August 2026. The other options alter either the dates or the district."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Campaign principle and planning",
+   "question": "Consider the following statements:\nStatement A: The Catch the Rain campaign followed the principle “Catch the Rain, Where it Falls, When it Falls.”\nStatement B: Works under the campaign were planned for 489 Gram Panchayats but approved by the district administration rather than the Gram Sabha.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F2",
+    "P13.F3"
+   ],
+   "explanation": "Both statements are false as framed. The campaign did follow the stated principle, but Statement A changes the wording of that principle; works for all 489 Gram Panchayats were approved by the Gram Sabha, not the district administration."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Catch the Rain physical works",
+   "question": "Match the Catch the Rain campaign components in List-I with their corresponding figures in List-II.\n\nList-I\n(a) Works\n(b) Percolation tanks\n(c) Storage restored\n(d) New structures’ additional storage\n\nList-II\n(i) 0.03 TMC\n(ii) 2,103\n(iii) 3.27 TMC\n(iv) 202",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F4",
+    "P13.F9",
+    "P13.F10"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i: 2,103 works, 202 percolation tanks, 3.27 TMC storage restored and 0.03 TMC added by new structures. The other codes interchange these figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme objective",
+   "question": "What is the principal objective of the Pillale Sampada population programme?",
+   "options": [
+    "To tackle declining birth rate and ageing",
+    "To promote rainwater harvesting in Gram Panchayats",
+    "To support women entrepreneurs through business loans",
+    "To provide training for transgender persons"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2"
+   ],
+   "explanation": "Pillale Sampada aims to tackle the declining birth rate and ageing. Rainwater harvesting, women’s entrepreneurship and transgender-person training relate to other initiatives mentioned in the news material."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Origin of World Population Day",
+   "question": "World Population Day, associated with the launch of the Pillale Sampada programme, was established in which year by UNDP?",
+   "options": [
+    "1989",
+    "2019",
+    "2020",
+    "2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F4"
+   ],
+   "explanation": "World Population Day was established in 1989 by UNDP. The years 2019 and 2020 relate to other institutional facts, while 2026 is the year of the programme’s launch event."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "PMFME and DWCRA figures",
+   "question": "Match the Andhra Pradesh women-entrepreneurship facts in List-I with the corresponding figures in List-II.\n\nList-I\n(a) PMFME beneficiaries\n(b) DWCRA loans\n(c) Target for DWCRA loans\n(d) Chief Minister’s target for women entrepreneurs\n\nList-II\n(i) ₹32,000 crore\n(ii) 5 lakh\n(iii) 35,934\n(iv) ₹33,614 crore",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4"
+   ],
+   "explanation": "The correct matching is a-iii, b-iv, c-i and d-ii. Andhra Pradesh had 35,934 PMFME beneficiaries, DWCRA loans of ₹33,614 crore against a ₹32,000 crore target, and a target of 5 lakh women entrepreneurs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PMFME launch",
+   "question": "The Pradhan Mantri Formalisation of Micro Food Processing Enterprises (PMFME) scheme was launched on:",
+   "options": [
+    "June 29, 2020",
+    "July 11, 2026",
+    "4 August 2026",
+    "2019"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F5"
+   ],
+   "explanation": "PMFME was launched on June 29, 2020 by the Ministry of Food Processing Industries. July 11, 2026 is associated with the Pillale Sampada launch, while 2019 is the year of the Transgender Persons (Protection of Rights) Act."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Transgender rights framework",
+   "question": "Consider the following statements:\nStatement A: The Transgender Persons (Protection of Rights) Act was enacted in 2020.\nStatement B: The National Council for Transgender Persons was established in 2019.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F7"
+   ],
+   "explanation": "Both statements are false as framed. The Act is from 2019, while the National Council for Transgender Persons dates from 2020; the two years have been interchanged."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Commercial production date",
+   "question": "When did commercial production begin at the Swarnagiri Gold Mine?",
+   "options": [
+    "June 24, 2026",
+    "June 29, 2020",
+    "July 11, 2026",
+    "2013"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F2"
+   ],
+   "explanation": "Commercial production at the Swarnagiri Gold Mine began on June 24, 2026. June 29, 2020 is the PMFME launch date, July 11, 2026 is associated with Pillale Sampada, and 2013 is the lease year."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Mine location and lease details",
+   "question": "Match the Swarnagiri Gold Mine details in List-I with List-II.\n\nList-I\n(a) Area\n(b) Mandal\n(c) Lease year\n(d) Operator\n\nList-II\n(i) 2013\n(ii) Tuggali\n(iii) Geomysore Services India Pvt Ltd\n(iv) 597.82 ha",
+   "options": [
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-iii, b-ii, c-i, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F3",
+    "P16.F4"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-i and d-iii: the area is 597.82 ha, the mandal is Tuggali, the lease dates from 2013 and the operator is Geomysore Services India Pvt Ltd. The other codes mismatch the mine’s area, location, lease year or operator."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First private-sector gold mine",
+   "question": "Assertion (A): Swarnagiri became the first major private-sector gold mine in India to start commercial production since Independence.\nReason (R): It was the first major public-sector gold mine in India to start commercial production since Independence.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P16.F5"
+   ],
+   "explanation": "The assertion is true: Swarnagiri was the first major private-sector gold mine in India to start commercial production since Independence. The reason is false because it changes “private-sector” to “public-sector,” so it cannot explain the assertion."
+  }
+ ]
+}

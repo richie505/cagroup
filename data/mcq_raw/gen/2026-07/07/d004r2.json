@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11
+ ],
+ "only": [
+  "P10.F10",
+  "P10.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Species and location",
+   "question": "Consider the following statements:\nStatement A: Simonia lawbah is a new spider reported from Assam.\nStatement B: Hamataliwa papikonda is a new spider reported from Kerala.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F9"
+   ],
+   "explanation": "Both statements are false. Simonia lawbah was reported from Meghalaya, while Hamataliwa papikonda was reported from Andhra Pradesh. The locations Assam and Kerala are the incorrect substitutions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Species naming",
+   "question": "Which new damselfly reported from the Western Ghats of Kerala was named after Dr. Muhamed Jafer Palot?",
+   "options": [
+    "Lestes paloti",
+    "Cyttopsis indica",
+    "Rungia masterii",
+    "Microporellus kolhapurensis"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F10"
+   ],
+   "explanation": "Lestes paloti is the new damselfly reported from Kerala’s Western Ghats and named after Dr. Muhamed Jafer Palot. Cyttopsis indica is a deep-sea fish, Rungia masterii is a rediscovered plant, and Microporellus kolhapurensis is a polypore fungus."
+  }
+ ]
+}

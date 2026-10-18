@@ -1,0 +1,84 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F18",
+  "P2.F19",
+  "P2.F20",
+  "P3.F1",
+  "P3.F6",
+  "P3.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "New cooperative societies",
+   "question": "With reference to the expansion and digitisation of cooperative societies, match List-I with List-II.\n\nList-I\n a. Plan to establish new cooperative societies\n b. Cooperative societies registered by 20 January 2026\n c. PACS on ERP by 10 March 2026\n d. Period for implementing the plan\n\nList-II\n i. 32,836\n ii. Five years\n iii. 61,842 of 79,630\n iv. 2 lakh\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F18"
+   ],
+   "explanation": "The plan was to establish 2 lakh new cooperative societies in five years; 32,836 had been registered by 20 January 2026. By 10 March 2026, 61,842 of 79,630 PACS were on ERP. The tempting alternative a-i is incorrect because 32,836 refers to societies registered, not the target under the plan."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "MISS and KCC expansion",
+   "question": "Consider the following statements regarding the Modified Interest Subvention Scheme (MISS) and the Kisan Credit Card:\n\n1. Under MISS, loans are provided at 7%, with 1.5% subvention to lenders and a 3% prompt repayment incentive, making the effective rate 4%.\n2. The Budget 2025–26 raised the KCC MISS limit from ₹3 lakh to ₹5 lakh.\n3. KCC was extended to dairy, fisheries and animal husbandry in 2019, but e-KCC sanction takes about three days.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F19",
+    "P2.F20"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the effective MISS rate is 4%, and the KCC MISS limit was raised from ₹3 lakh to ₹5 lakh. Statement 3 is incorrect because e-KCC sanction takes about two days, although the 2019 extension to dairy, fisheries and animal husbandry is correct. Thus, the most tempting option is 1, 2 and 3, but it includes the incorrect sanction period."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "External debt",
+   "question": "What was India’s external debt in March 2026?",
+   "options": [
+    "USD 762.8 billion",
+    "USD 26.3 billion",
+    "₹72.46 lakh crore",
+    "20.8% of GDP"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "India’s external debt stood at USD 762.8 billion in March 2026, equivalent to about ₹72.46 lakh crore. The figure USD 26.3 billion was the increase in external debt, while 20.8% was the debt-to-GDP ratio."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Polymer notes and global adoption",
+   "question": "Match the following features related to polymer notes with the appropriate details.\n\nList-I\n a. Experimental polymer-note denominations\n b. Country that issued the first polymer notes\n c. Distinctive security features\n d. Printing cost in 2024–25\n\nList-II\n i. ₹10 and ₹20\n ii. Australia\n iii. Transparent windows and micro-optical holograms\n iv. ₹6,372.8 crore\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "The experimental polymer notes were of ₹10 and ₹20 denominations, and Australia issued the first polymer notes. Transparent windows and micro-optical holograms are key features, while printing cost in 2024–25 was ₹6,372.8 crore. The alternative a-ii is incorrect because Australia is associated with the first polymer notes, not the denominations."
+  }
+ ]
+}

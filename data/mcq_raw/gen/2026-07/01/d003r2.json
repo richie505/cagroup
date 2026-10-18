@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P9.F6",
+  "P9.F7",
+  "P9.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Partner and digital integration",
+   "question": "With reference to the Mee Mart initiative in Andhra Pradesh, consider the following statements:\n1. It is a partnership between the AP Civil Supplies Department and the National Cooperative Consumers Federation of India Ltd. (NCCF).\n2. Integration of the Digital Rupee (CBDC) is planned for digital subsidies.\n3. The initiative combines institutional partnership with planned digital-sub­sidy integration.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F6",
+    "P9.F7"
+   ],
+   "explanation": "All three statements are correct: Mee Mart is partnered by the AP Civil Supplies Department and NCCF, and Digital Rupee integration is planned for digital subsidies. Therefore, the correct option is 1, 2 and 3; the other options omit at least one of these features."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Relationship with PDS",
+   "question": "Consider the following statements:\nStatement A: Mee Mart modernises fair price shops into community retail centres.\nStatement B: Mee Mart replaces the Public Distribution System (PDS).",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F8"
+   ],
+   "explanation": "Statement A is true because Mee Mart modernises fair price shops into community retail centres. Statement B is false because Mee Mart does not replace the PDS; it modernises fair price shops."
+  }
+ ]
+}

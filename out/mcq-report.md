@@ -1,36 +1,36 @@
 # CA MCQ report
 
-- MCQs kept: **5489**
-- News pages with at least one question: **2593 / 2629**
-- Facts tested: **10667 / 20515** (52.0%)
-- Answer positions: A 1387, B 1426, C 1484, D 1192
+- MCQs kept: **6201**
+- News pages with at least one question: **2594 / 2629**
+- Facts tested: **11801 / 20515** (57.5%)
+- Answer positions: A 1566, B 1603, C 1669, D 1363
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 582 | 580 | 618 | 494 |
-| Negative / Incorrect Statement | 122 | 123 | 128 | 127 |
-| Assertion-Reason | 131 | 139 | 178 | 153 |
-| Statement-Based (A/B) | 189 | 125 | 182 | 146 |
-| Multi-Statement Correctness | 206 | 201 | 183 | 186 |
-| Chronological Ordering | 3 | 1 | 1 | 1 |
-| List-Matching | 92 | 93 | 96 | 82 |
-| Count-Based | 62 | 164 | 98 | 3 |
+| Direct Recall | 658 | 654 | 700 | 569 |
+| Negative / Incorrect Statement | 126 | 130 | 140 | 130 |
+| Assertion-Reason | 137 | 146 | 187 | 165 |
+| Statement-Based (A/B) | 215 | 137 | 201 | 160 |
+| Multi-Statement Correctness | 229 | 231 | 208 | 210 |
+| Chronological Ordering | 4 | 4 | 2 | 2 |
+| List-Matching | 126 | 117 | 123 | 123 |
+| Count-Based | 71 | 184 | 108 | 4 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 633 |
-| verify:explanation_contradicts | 89 |
-| verify:not_in_facts | 74 |
-| duplicate | 37 |
-| verify:none_correct | 18 |
-| verify:two_correct | 16 |
-| verify:second reader picked option 2, key 1 | 10 |
+| code | 715 |
+| verify:explanation_contradicts | 109 |
+| verify:not_in_facts | 89 |
+| duplicate | 40 |
+| verify:none_correct | 21 |
+| verify:two_correct | 20 |
+| verify:second reader picked option 2, key 1 | 13 |
 | verify:ambiguous_stem | 4 |
 | verify:garbled | 3 |
+| verify:second reader picked option 3, key 0 | 2 |
 | verify:second reader picked option 1, key 0 | 2 |
-| verify:second reader picked option 3, key 0 | 1 |
 | verify:second reader picked option 0, key 1 | 1 |
 | verify:second reader picked option 2, key 0 | 1 |
 | verify:trivial | 1 |
@@ -74,17 +74,17 @@
 | 2026-08/09 | Awards, Persons & Appointments | 49 | 96/96 |
 | 2026-08/10 | Sports | 57 | 102/102 |
 | 2026-08/11 | Important Days & Events | 36 | 59/61 |
-| 2026-07/01 | Andhra Pradesh | 48 | 109/234 |
-| 2026-07/02 | Polity & Governance | 15 | 31/89 |
-| 2026-07/03 | Schemes & Social Sector | 25 | 57/176 |
-| 2026-07/04 | Economy, Banking & Budget | 22 | 45/197 |
-| 2026-07/05 | International Relations | 23 | 48/162 |
-| 2026-07/06 | Science, Tech, Space & Defence | 26 | 46/189 |
-| 2026-07/07 | Environment & Geography | 23 | 55/139 |
-| 2026-07/08 | Reports, Indices & Rankings | 15 | 34/84 |
-| 2026-07/09 | Awards, Persons & Appointments | 13 | 26/158 |
-| 2026-07/10 | Sports | 9 | 16/64 |
-| 2026-07/11 | Important Days & Events | 18 | 29/175 |
+| 2026-07/01 | Andhra Pradesh | 128 | 230/234 |
+| 2026-07/02 | Polity & Governance | 45 | 84/89 |
+| 2026-07/03 | Schemes & Social Sector | 99 | 173/176 |
+| 2026-07/04 | Economy, Banking & Budget | 117 | 191/197 |
+| 2026-07/05 | International Relations | 92 | 158/162 |
+| 2026-07/06 | Science, Tech, Space & Defence | 112 | 186/189 |
+| 2026-07/07 | Environment & Geography | 78 | 137/139 |
+| 2026-07/08 | Reports, Indices & Rankings | 48 | 84/84 |
+| 2026-07/09 | Awards, Persons & Appointments | 83 | 154/158 |
+| 2026-07/10 | Sports | 37 | 60/64 |
+| 2026-07/11 | Important Days & Events | 112 | 175/175 |
 | 2026-06/01 | Andhra Pradesh | 47 | 90/208 |
 | 2026-06/02 | Polity & Governance | 12 | 31/83 |
 | 2026-06/03 | Schemes & Social Sector | 47 | 73/157 |
@@ -126,13 +126,13 @@
 | 2026-03/06 | Science, Tech, Space & Defence | 27 | 55/166 |
 | 2026-03/07 | Environment & Geography | 29 | 55/154 |
 | 2026-03/08 | Reports, Indices & Rankings | 10 | 15/48 |
-| 2026-03/09 | Awards, Persons & Appointments | 22 | 58/122 |
+| 2026-03/09 | Awards, Persons & Appointments | 21 | 56/122 |
 | 2026-03/10 | Sports | 8 | 16/42 |
 | 2026-03/11 | Important Days & Events | 14 | 21/78 |
 | 2026-02/01 | Andhra Pradesh | 42 | 107/236 |
 | 2026-02/02 | Polity & Governance | 36 | 72/198 |
 | 2026-02/03 | Schemes & Social Sector | 14 | 35/73 |
-| 2026-02/04 | Economy, Banking & Budget | 22 | 43/188 |
+| 2026-02/04 | Economy, Banking & Budget | 21 | 43/188 |
 | 2026-02/05 | International Relations | 40 | 96/202 |
 | 2026-02/06 | Science, Tech, Space & Defence | 29 | 63/153 |
 | 2026-02/07 | Environment & Geography | 26 | 61/166 |
@@ -562,27 +562,165 @@
 - `2026-08/10/d001#2` verify: explanation_contradicts — The facts support statement 3 because 2011 is explicitly identified as India’s first women’s-doubles medal.
   - Q: Consider the following statements about India’s performance at the BWF World Badminton Championships 2026: /  / 1. Treesa Jolly–Gayatri Gopichand won a bronze medal in women’s doubles. / 2. Ayush Shetty def
   - Key: 1 and 2 only
+- `2026-07/01/d000#6` verify: explanation_contradicts — The facts support all three statements, contradicting the explanation’s claim that only Statement 1 is correct.
+  - Q: Regarding the Talliki Vandanam Scheme for the academic year 2026–27, consider the following statements: /  / 1. ₹10,120.78 crore was sanctioned. / 2. The scheme covered 67,47,190 students. / 3. The number of 
+  - Key: 1 only
+- `2026-07/01/d001#3` verify: not_in_facts — The facts do not establish that Mumbai is JSW Group's headquarters, so statement 2 is undecidable.
+  - Q: Consider the following statements about the JSW projects inaugurated in Andhra Pradesh: /  / 1. JSW Neo Energy’s solar self-consumption project has a proposed capacity of 3,850 MW and an investment of ₹20
+  - Key: 1 and 2 only
+- `2026-07/01/d001#5` verify: not_in_facts — The facts give the 368 figure for 28 February 2026 but do not establish the figure for 28 February 2025.
+  - Q: How many of the following statements about Special Economic Zones are correct? /  / 1. The SEZ Act was enacted in 2005. / 2. An SEZ is a duty-free enclave treated as outside the customs territory. / 3. There 
+  - Key: Only two
+- `2026-07/01/d001#8` verify: not_in_facts — The facts establish that Boo Young Group was exploring footwear manufacturing but do not establish its inclusion in the outreach.
+  - Q: Assertion (A): Boo Young Group was included in APEX Korea’s footwear investment outreach. / Reason (R): Boo Young Group was exploring footwear manufacturing.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-07/01/d003#5` verify: explanation_contradicts — The facts support statements 1 and 2, while statement 3 is false; therefore option 0 is correct, not option 1.
+  - Q: With reference to Mee Mart, consider the following statements: / 1. Its partnership is between the AP Civil Supplies Department and NCCF. / 2. Digital Rupee integration is planned for digital subsidies. / 3
+  - Key: 2 only
+- `2026-07/01/d004#4` verify: explanation_contradicts — Statement A repeats the stated principle exactly, so it is true; only Statement B is false.
+  - Q: Consider the following statements: / Statement A: The Catch the Rain campaign followed the principle “Catch the Rain, Where it Falls, When it Falls.” / Statement B: Works under the campaign were planned f
+  - Key: Both Statement A and Statement B are false
+- `2026-07/01/d005#9` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements regarding the new building of the Andhra Sahitya Parishad Government Museum and Research Institute, Kakinada, are correct? / 1. The Ministry of Culture released ₹5 c
+  - Key: Only two
 - `2026-07/02/c002#3` verify: explanation_contradicts — Statements 1, 3, and 4 are correct, so the answer is Only three; the given explanation incorrectly says Only two and misstates the Karnataka detail.
   - Q: With reference to the ADR and National Election Watch analysis of sitting Chief Ministers, how many of the following statements are correct? / 1. Fourteen of the thirty-one sitting Chief Ministers decla
+  - Key: Only two
+- `2026-07/02/d001r2#1` verify: not_in_facts — The facts do not establish whether the Committee itself was established on January 28, 1950.
+  - Q: Consider the following statements: / 1. The Supreme Court Legal Services Committee functions under the Legal Services Authorities Act, 1987. / 2. The Supreme Court was established on January 28, 1950. / 3. 
+  - Key: 1 and 2 only
+- `2026-07/02/d002#7` verify: explanation_contradicts — The facts establish that statements 1, 2, and 4 are correct, so the answer is Only three, contrary to the explanation's claim that only 1 and 2 are correct.
+  - Q: How many of the following statements are correct? / 1. The average assets of the sitting Chief Ministers analysed were ₹118.07 crore. / 2. Karnataka Chief Minister D.K. Shivakumar was identified as the we
   - Key: Only two
 - `2026-07/03/c001#1` verify: explanation_contradicts — The facts state that the strengthened Monitoring and Evaluation framework was added as the seventh institutional mechanism, so statements 1 and 3 are correct but no option lists 1 and 3 only.
   - Q: With reference to the revised 7×7×7 framework of the Anaemia Mukt Bharat Abhiyaan, consider the following statements: /  / 1. Low Birth Weight babies aged 0–6 months were added as a beneficiary group. / 2. 
   - Key: 1 only
+- `2026-07/03/d001#6` verify: not_in_facts — The facts establish that calcium is incorrect, but do not explicitly support the statement that the campaign includes both prevention and treatment measures.
+  - Q: Which one of the following statements about the Anaemia Mukt Bharat Abhiyaan is incorrect?
+  - Key: It provides prophylactic calcium as its supplementation.
+- `2026-07/03/d002#8` verify: explanation_contradicts — All four options state that commercial banks have the highest share, so none is an incorrect statement.
+  - Q: Which of the following statements regarding the share of agricultural credit is incorrect?
+  - Key: Commercial banks, rather than cooperative institutions, have the highest share of agricultural credit.
+- `2026-07/03/d002#10` verify: second reader picked option 2, key 1 — 
+  - Q: Assertion (A): Hepatitis B seroprevalence was 0.85%, while Hepatitis C seroprevalence was 0.29%. / Reason (R): Hepatitis B seroprevalence was 1 in 345 and Hepatitis C seroprevalence was 1 in 118.
+  - Key: Both A and R are true, but R is NOT the correct explanation of A
+- `2026-07/03/d002#11` verify: not_in_facts — The facts do not establish whether a Hepatitis E vaccine is included under the Universal Immunisation Programme.
+  - Q: How many of the following statements regarding Hepatitis A, D and E are correct? / 1. Hepatitis A spreads through the faecal-oral route. / 2. Hepatitis D spreads only in Hepatitis B carriers. / 3. Hepatitis
+  - Key: Only two
+- `2026-07/03/d002#13` verify: second reader picked option 3, key 0 — 
+  - Q: With reference to the global hepatitis burden and the WHO Global Health Sector Strategy 2022–2030, consider the following statements: / 1. Hepatitis B and C together cause about 1.3 million deaths annua
+  - Key: 1 and 2 only
+- `2026-07/03/d002r2#4` verify: second reader picked option 2, key 1 — 
+  - Q: With reference to global hepatitis burden and the WHO GHSS 2022–2030 targets, how many of the following statements are correct? / 1. Hepatitis B and C cause about 1.3 million deaths per year. / 2. About 3
+  - Key: Only two
+- `2026-07/03/d005#11` verify: explanation_contradicts — The explanation says exactly two are correct, but statements 1, 2, and 4 are all supported by the facts.
+  - Q: How many of the following statements regarding social security coverage are correct? / 1. Social security coverage exceeds 100 crore beneficiaries. / 2. It covers 64% of the population. / 3. EPFO has 15 cro
+  - Key: Only two
 - `2026-07/04/c000#1` verify: explanation_contradicts — Statement 3 is supported by the facts, but the explanation incorrectly says only statement 1 is correct.
   - Q: With reference to the constitutional framework of GST, consider the following statements: / 1. Article 246A gives Parliament and the States concurrent power to make GST laws, while Parliament has exclus
   - Key: 1 only
 - `2026-07/04/c003#1` verify: none_correct — All four statements are supported by the facts, so no statement is incorrect.
   - Q: Which of the following statements regarding the SATAT and GOBARdhan initiatives is incorrect?
   - Key: Only 132 SATAT CBG plants had been completed by June 3, 2026.
+- `2026-07/04/d001#8` verify: explanation_contradicts — The facts support all four statements, so the explanation incorrectly labels statement 1 as false.
+  - Q: How many of the following statements are correct? / 1. By 20 January 2026, 32,836 new cooperative societies had been registered. / 2. On 10 March 2026, 61,842 of 79,630 PACS were on ERP. / 3. Under MISS, th
+  - Key: Only three
+- `2026-07/04/d001r2#2` verify: two_correct — Both USD 762.8 billion and its stated equivalent of ₹72.46 lakh crore are external-debt values.
+  - Q: What was India’s external debt in March 2026?
+  - Key: USD 762.8 billion
+- `2026-07/04/d002#15` verify: explanation_contradicts — Statement 3 is correct because 41 lakh-plus farmers is more than 32 lakh, so three statements are correct.
+  - Q: How many of the following statements are correct? / 1. The Mission for Cotton Productivity is a five-year mission with an outlay of ₹5,659.22 crore. / 2. The Special Project on Cotton under NFSM has been 
+  - Key: Only two
+- `2026-07/04/d002r2#3` verify: explanation_contradicts — The fact that 41 lakh+ farmers are covered also entails coverage of 40 lakh+ farmers, so Statement A is true as worded.
+  - Q: Consider the following statements: / Statement A: The Kapas Kisan App facilitates MSP slot booking for 40 lakh+ farmers. / Statement B: Kasturi Cotton Bharat involves the Ministry of Textiles, CCI and TEX
+  - Key: Statement A is false, Statement B is true
+- `2026-07/05/d002#1` verify: not_in_facts — The facts do not establish whether the Joint Working Group on Counter-Terrorism was established in 2024.
+  - Q: Consider the following statements about the India–New Zealand Roadmap to 2030: / 1. It provides for an Annual Maritime Security Dialogue. / 2. A 2025 MoU on Defence Cooperation is among its key provisions
+  - Key: 1 and 2 only
+- `2026-07/05/d002#3` verify: not_in_facts — The facts do not establish whether New Zealand joined the International Solar Alliance.
+  - Q: With reference to the India–New Zealand Strategic Partnership, consider the following statements: / 1. New Zealand joined the Global Biofuels Alliance. / 2. NDMA and NEMA are associated with disaster coop
+  - Key: 1 and 2 only
+- `2026-07/05/d002#8` verify: not_in_facts — The fact that both countries are Commonwealth members does not establish that they are not members of ASEAN.
+  - Q: How many of the following statements about the India–New Zealand relationship are correct? / 1. People of Indian origin constitute about 5% of New Zealand’s population. / 2. Cooperation between the two co
+  - Key: Only two
+- `2026-07/05/d002r2#1` verify: two_correct — Options 0 and 3 are both supported because the facts give both NDMA–NEMA disaster cooperation and New Zealand’s interest in the IPOI maritime security pillar.
+  - Q: Which of the following correctly describes two provisions associated with New Zealand under the India–New Zealand Strategic Partnership?
+  - Key: New Zealand joined the Global Biofuels Alliance, and NDMA–NEMA disaster cooperation was included.
 - `2026-07/06/c004#2` verify: not_in_facts — The facts establish Rafale use as first-time but do not establish whether C-17 use was first-time.
   - Q: With reference to Pitch Black 2026, consider the following: / Assertion (A): The Indian Air Force used Rafale jets for the first time in Pitch Black 2026. / Reason (R): The Indian contingent used C-17 air
   - Key: A is true, but R is false
 - `2026-07/06/c005#5` verify: not_in_facts — The facts do not state when the IndiaAI Mission occurred, so the fourth match cannot be decided.
   - Q: How many of the following developments are correctly matched with their years? / 1. 2018 — RBI mandated local storage of financial data / 2. 2020 — Draft National Data Centre Policy / 3. 2022 — DPDP Act / 4. 
   - Key: Only two
+- `2026-07/06/d001#7` verify: explanation_contradicts — The reason supports the stated activities but does not explain the full assertion about reaching the ISS or the approximately eight-month stay.
+  - Q: Assertion (A): Anil Menon reached the ISS aboard Soyuz MS-29 for an approximately eight-month stay involving AI and medical research. / Reason (R): AI and medical research were specified as activities d
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-07/06/d002#8` verify: not_in_facts — The facts say the train was developed under the initiative, but do not establish that it was launched under it.
+  - Q: Assertion (A): India’s first hydrogen train was launched under the Indian Railways’ “Hydrogen for Heritage” initiative. / Reason (R): Jind is India’s largest railway hydrogen storage and refuelling cent
+  - Key: Both A and R are true, but R is NOT the correct explanation of A
+- `2026-07/06/d005#12` verify: explanation_contradicts — The facts identify helium-diluted scuba air as a use that avoids nitrogen narcosis, so all four listed items are supported.
+  - Q: How many of the following are identified uses of helium? / 1. MRI magnets / 2. Semiconductor wafers / 3. Quantum computers / 4. Prevention of nitrogen narcosis in scuba tanks
+  - Key: Only three
+- `2026-07/06/d005r2#2` verify: not_in_facts — The dates for data centres being given infrastructure status are not provided, so options 2 and 3 cannot be fully evaluated.
+  - Q: Which of the following developments occurred in the correct chronological order?
+  - Key: RBI mandated local storage of financial data → Draft National Data Centre Policy
 - `2026-07/07/c003#1` verify: not_in_facts — The facts do not establish that Kinnauri Topi is a GI product of Himachal Pradesh.
   - Q: Which one of the following statements regarding the new GI products of July 2026 is incorrect?
   - Key: Sirsa Kinnow was the first fruit from Punjab to receive a GI tag.
+- `2026-07/07/d000#10` verify: not_in_facts — The facts identify two endemic species but do not establish whether Anamudi and Palghat Gap are non-endemic entries.
+  - Q: How many of the following are endemic species of the Western Ghats? / 1. Nilgiri Tahr / 2. Lion-tailed Macaque / 3. Anamudi / 4. Palghat Gap
+  - Key: Only two
+- `2026-07/07/d001#0` verify: two_correct — Options 0, 2, and 3 each combine facts that correctly identify the tiger.
+  - Q: Which combination correctly identifies the tiger mentioned in the context of India’s tiger conservation model?
+  - Key: Panthera tigris; national animal — Royal Bengal Tiger
+- `2026-07/07/d003#9` verify: explanation_contradicts — The facts support both statements, but the explanation incorrectly rejects Statement B.
+  - Q: With reference to India’s biodiversity and the new Impatiens species reported from Kerala’s Western Ghats, consider the following statements: / Statement A: India is one of the 17 megadiverse countries.
+  - Key: Statement A is true, Statement B is false
+- `2026-07/07/d003r2#1` verify: not_in_facts — The facts establish the fauna figure and megadiversity status but do not identify it as recorded by Animal Discoveries 2025 or address Plant Discoveries 2025.
+  - Q: Consider the following statements: / 1. Animal Discoveries 2025 recorded India’s total fauna as 1,05,953 species. / 2. India is one of 17 megadiverse countries. / 3. Plant Discoveries 2025 recorded India’s 
+  - Key: Exactly two statements are correct
+- `2026-07/08/d000#4` verify: explanation_contradicts — The facts establish that both statements are true but do not establish that the fiscal deficit explains the export share.
+  - Q: Assertion (A): Gujarat was identified as accounting for 31% of India’s merchandise exports. / Reason (R): Gujarat’s fiscal deficit was about 2.81% of GSDP in FY2024.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-07/09/d000#1` verify: none_correct — Statements 1 and 3 are correct, but no option represents 1 and 3 together; the explanation is also incorrect.
+  - Q: With reference to the 72nd National Film Awards for 2024, consider the following statements: / 1. Mammootty and Kartik Aaryan jointly won Best Actor. / 2. Randeep Hooda won Best Debut Director for Amaran.
+  - Key: 1 only
+- `2026-07/09/d000#2` verify: explanation_contradicts — All three statements are supported by the facts, contrary to the explanation.
+  - Q: With reference to the 72nd National Film Awards for 2024, consider the following statements: / 1. Kalki 2898 AD won Best Popular Film. / 2. Captain Miller won in the National, Social, Environmental Values
+  - Key: 2 only
+- `2026-07/09/d000#3` verify: none_correct — Statements 1 and 3 are correct, but no option represents 1 and 3 together; statement 2 is false because the award was joint.
+  - Q: With reference to the 72nd National Film Awards for 2024, consider the following statements: / 1. Sanjay Mishra won Supporting Actor for Bhakshak. / 2. Sachana Namidass alone won Supporting Actress for Ma
+  - Key: 3 only
+- `2026-07/09/d000#9` verify: explanation_contradicts — Statements 1 and 4 are correct, so the count is two, not one.
+  - Q: How many of the following statements about the Telugu winners at the 72nd National Film Awards are correct? / 1. 35-Chinna Katha Kaadu won Best Children's Film. / 2. Arundev Pothula was the sole Child Art
+  - Key: Only one
+- `2026-07/09/d001#4` verify: not_in_facts — The facts identify ICMR-mINDS and its award category but do not establish who developed the project, so option 3 is not contradicted.
+  - Q: Which of the following statements about the National e-Governance Award 2026 is incorrect?
+  - Key: The project was developed by the National Informatics Centre.
+- `2026-07/09/d001#9` verify: explanation_contradicts — The reason is true but does not explain why the medal is awarded every four years.
+  - Q: Assertion (A): The Fields Medal is awarded every four years. / Reason (R): It is awarded by the International Mathematical Union at the International Congress of Mathematicians.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-07/09/d001#13` verify: explanation_contradicts — Statements 1 and 4 are correct, so the count is two rather than one.
+  - Q: How many of the following statements about tiger conservation institutions and sites are correct? /  / 1. Project Tiger was established in 1973. / 2. The National Tiger Conservation Authority was establishe
+  - Key: Only one
+- `2026-07/09/d004#0` verify: two_correct — Option 1 is also fully supported because the facts state that she died in Raipur and received the listed awards.
+  - Q: Which combination correctly describes Teejan Bai, who died in July 2026?
+  - Key: Pandavani singer from Chhattisgarh; born in Durg; recipient of the Padma Shri, Padma Bhushan and Padma Vibhushan
+- `2026-07/10/d000r2#2` verify: not_in_facts — The facts establish Para Games were introduced in 2023, but do not establish the School Games or Youth Games dates needed to validate the other options.
+  - Q: Which of the following statements about the Khelo India games introduced during the period is incorrect?
+  - Key: Para Games were introduced in 2025.
+- `2026-07/11/d000#3` verify: explanation_contradicts — The facts state that about 31,000 Santal Pargana residents were in Assam, so statements 1 and 3 are correct.
+  - Q: Consider the following statements about the aftermath and historical record of the Santal rebellion: / 1. Migration after suppression included destinations such as Assam tea gardens. / 2. W.G. Archer reco
+  - Key: 1 only
+- `2026-07/11/d001#5` verify: explanation_contradicts — The facts explicitly state that the Lion Capital has inverted lotus petals, making Assertion A true.
+  - Q: Assertion (A): The Lion Capital at Sarnath has inverted lotus petals at the top. / Reason (R): Its circular carved abacus includes an elephant, bull, horse and lion with Dharmachakras.
+  - Key: A is false, but R is true
+- `2026-07/11/d005#0` verify: none_correct — Statements 1 and 2 are true while statement 3 reverses the ancestor relationship, but the combination 1 and 2 only is absent.
+  - Q: Consider the following statements about heritage sites: / 1. The Palampet Shiva Temple is in Mulugu district of Telangana and has been declared a Monument of National Importance. / 2. The Borjuli Wild Ric
+  - Key: 1 only
+- `2026-07/11/d005#12` verify: explanation_contradicts — The facts support all three statements, whereas the explanation incorrectly says only statement 1 is correct.
+  - Q: Consider the following statements: / 1. The 2026 theme of the International Day of Cooperatives is “Cooperatives for a Peaceful World”. / 2. National Fish Farmers Day has no official theme in 2026. / 3. Ind
+  - Key: 1 only
 - `2026-06/01/c000#1` verify: second reader picked option 2, key 1 — 
   - Q: With reference to Phase-I of the EESL sustainability programme for Andhra Pradesh MSMEs, how many of the following statements are correct? / 1. Cluster mapping and diagnostic studies cover 15 industrial
   - Key: Only two

@@ -1,0 +1,194 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11
+ ],
+ "only": [
+  "P10.F10",
+  "P10.F11",
+  "P10.F12",
+  "P10.F13",
+  "P10.F7",
+  "P10.F8",
+  "P10.F9",
+  "P11.F1",
+  "P11.F10",
+  "P11.F11",
+  "P11.F4",
+  "P11.F5",
+  "P11.F6",
+  "P11.F7",
+  "P11.F8",
+  "P11.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Species and habitat",
+   "question": "Which newly reported bacterium was isolated from the Ipomoea rhizosphere at Raiganj University and named in honour of Syama Prasad Mukherjee?",
+   "options": [
+    "Micromonospora shyamaprasadii",
+    "Cyttopsis indica",
+    "Lestes paloti",
+    "Simonia lawbah"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F11"
+   ],
+   "explanation": "Micromonospora shyamaprasadii is the new bacterium reported from the Ipomoea rhizosphere at Raiganj University. The other options refer to a deep-sea fish, a damselfly and a spider respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "New solitary bees",
+   "question": "With reference to the new solitary bees reported from Arunachal, consider the following statements:\n1. Elaphropoda triangulata was reported from Arunachal by ATREE.\n2. Habropoda adi honours the Adi tribe.\n3. The two bees were reported from Meghalaya.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Elaphropoda triangulata and Habropoda adi are new solitary bees from Arunachal, reported by ATREE, and Habropoda adi honours the Adi tribe. Statement 3 is incorrect because the bees were reported from Arunachal, not Meghalaya."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Species, institution and personality linkage",
+   "question": "Match List-I with List-II:\n\nList-I\n a. Cyttopsis indica\n b. CMFRI\n c. Syama Prasad Mukherjee\n\nList-II\n i. Founder of the Bharatiya Jana Sangh\n ii. Established in 1947 at Kochi\n iii. Deep-sea fish from the Arabian Sea off Kerala\n\nChoose the correct code:",
+   "options": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-i, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F7",
+    "P10.F12",
+    "P10.F13"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii and c-i. Cyttopsis indica is the deep-sea fish reported off Kerala, CMFRI was established in 1947 at Kochi, and Syama Prasad Mukherjee founded the Bharatiya Jana Sangh."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Name and honour",
+   "question": "Assertion (A): Micromonospora shyamaprasadii was named in honour of Syama Prasad Mukherjee.\nReason (R): Syama Prasad Mukherjee was India's first Prime Minister.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F11",
+    "P10.F13"
+   ],
+   "explanation": "Assertion A is true because the bacterium honours Syama Prasad Mukherjee. Reason R is false; he was India's first Minister for Industry and Supply, not India's first Prime Minister."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Place in news and historical origin",
+   "question": "Consider the following statements:\nStatement A: Indira Point is India's southernmost point, was formerly known as Pygmalion Point and was renamed in 1985.\nStatement B: Ana Sagar Lake was built between 1135 and 1150 AD by Arnoraja Chauhan by damming the Luni River.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F4"
+   ],
+   "explanation": "Both statements are true. Indira Point is India's southernmost point and was renamed in 1985, while Ana Sagar Lake was created by Arnoraja Chauhan through the damming of the Luni River between 1135 and 1150 AD."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "State formation and administration",
+   "question": "Which of the following statements regarding Sikkim and Rajasthan is incorrect?",
+   "options": [
+    "Sikkim became the 22nd State on May 16, 1975.",
+    "Prem Singh Tamang is the Chief Minister of Sikkim.",
+    "Rajasthan was formed on March 30, 1950.",
+    "Bhajan Lal Sharma is the Chief Minister of Rajasthan."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F5",
+    "P11.F6"
+   ],
+   "explanation": "The incorrect statement is the third one. Rajasthan was formed on March 30, 1949, not March 30, 1950; the other statements correctly identify the state-related facts."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Union Territory administration and regulation",
+   "question": "How many of the following statements regarding the Andaman and Nicobar Islands are correct?\n1. Its capital is Port Blair.\n2. Its Lieutenant Governor is Admiral D. K. Joshi (Retd).\n3. The Coastal Regulation Zone notification was issued in 1991 and updated in 2020.\n4. The Coastal Regulation Zone notification was issued in 1992 and updated in 2019.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F7"
+   ],
+   "explanation": "Only two statements are correct: Port Blair is the capital, and Admiral D. K. Joshi (Retd) is the Lieutenant Governor. The notification was issued in 1991 and updated in 2019, making statements 3 and 4 incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Presidents of countries",
+   "question": "Which pair correctly identifies the presidents of Argentina and Taiwan respectively?",
+   "options": [
+    "Javier Milei and Lai Ching-te",
+    "Lai Ching-te and Javier Milei",
+    "Javier Milei and Buenos Aires",
+    "Lai Ching-te and Taipei"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F8",
+    "P11.F9"
+   ],
+   "explanation": "Javier Milei is the President of Argentina, while Lai Ching-te is the President of Taiwan. Buenos Aires and Taipei are the respective capitals, not presidents."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Volcanic eruption detail",
+   "question": "During the minor phreatomagmatic eruption of Taal Volcano in the Philippines, how high did the ash rise?",
+   "options": [
+    "450 m",
+    "70 km",
+    "4,310 m",
+    "35 m"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F10"
+   ],
+   "explanation": "The ash from the minor four-minute phreatomagmatic eruption of Taal Volcano rose 450 m. The other figures are associated with different geographical details and are not the ash height."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Weather system and affected region",
+   "question": "Typhoon Bavi prompted rain and flood alerts in which areas before moving across the East China Sea?",
+   "options": [
+    "Japan's Sakishima Islands and Taiwan",
+    "East Sikkim and Tibet",
+    "Batangas Province and Manila",
+    "Kerala and the Western Ghats"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F11"
+   ],
+   "explanation": "Typhoon Bavi triggered rain and flood alerts in Japan's Sakishima Islands and Taiwan before moving across the East China Sea. Batangas Province and Manila are associated with Taal Volcano, while the other options are unrelated locations."
+  }
+ ]
+}

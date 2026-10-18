@@ -1,0 +1,155 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8
+ ],
+ "only": [
+  "P8.F10",
+  "P8.F11",
+  "P8.F12",
+  "P8.F13",
+  "P8.F14",
+  "P8.F15",
+  "P8.F16",
+  "P8.F17",
+  "P8.F2",
+  "P8.F3",
+  "P8.F8",
+  "P8.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Horizon and pillars",
+   "question": "With reference to the NITI Aayog’s Strategic Roadmap for Making Ayurveda Global, consider the following statements:\n1. The roadmap envisages a phased strategy up to 2047 under Viksit Bharat@2047.\n2. Its three pillars are Availability, Acceptability and Propagation.\n3. Research presence is not cited as a current-status indicator.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3",
+    "P8.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the roadmap extends up to 2047 and is built on Availability, Acceptability and Propagation. Statement 3 is incorrect because research presence, covering about 70 countries, is identified as a current-status indicator."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Phases and key measures",
+   "question": "Match the following measures of the Strategic Roadmap for Making Ayurveda Global with their phases.\n\nList-I\n a. Global Ayurveda Register\n b. Modernise TKDL\n c. WHO-GMP-equivalent certification\n d. Medical Value Travel hubs\n\nList-II\n i. Short-term phase\n ii. Medium-term phase\n iii. Long-term phase\n iv. Current-status assessment",
+   "options": [
+    "a-i, b-ii, c-i, d-ii",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-iii, c-ii, d-i",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F9",
+    "P8.F10"
+   ],
+   "explanation": "The correct matching is a-i, b-ii, c-i and d-ii. The Global Ayurveda Register and WHO-GMP-equivalent certification belong to the short-term phase, while modernising TKDL and establishing Medical Value Travel hubs belong to the medium-term phase."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ministry and competitor",
+   "question": "Consider the following statements:\nStatement A: Unani is no longer part of the Ministry of AYUSH.\nStatement B: Traditional Chinese Medicine is the main competitor to Ayurveda.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F16",
+    "P8.F17"
+   ],
+   "explanation": "Statement A is false because Unani is still part of the Ministry of AYUSH. Statement B is true, as Traditional Chinese Medicine is identified as Ayurveda’s main competitor."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Where is the WHO Global Traditional Medicine Centre located?",
+   "options": [
+    "Jamnagar, Gujarat",
+    "University of Mauritius",
+    "Western Sydney University",
+    "Tamil Nadu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F12"
+   ],
+   "explanation": "The WHO Global Traditional Medicine Centre is located in Jamnagar, Gujarat. University of Mauritius and Western Sydney University are associated with Ayush Chairs, while Tamil Nadu is associated with Siddha."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ICD-11 and coding",
+   "question": "Which traditional medicine systems are included in the ICD-11 Traditional Medicine module, with interventions coded under ICHI?",
+   "options": [
+    "Ayurveda, Siddha and Unani",
+    "Sowa-Rigpa, Siddha and Unani",
+    "Ayurveda, Sowa-Rigpa and Siddha",
+    "Ayurveda, Siddha and Traditional Chinese Medicine"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F13"
+   ],
+   "explanation": "The ICD-11 Traditional Medicine module includes Ayurveda, Siddha and Unani, and their interventions are coded under ICHI. Sowa-Rigpa and Traditional Chinese Medicine are not part of the stated combination."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ayush Chairs",
+   "question": "Ayush Chairs mentioned in the background to the globalisation of Ayurveda are located at which institutions?",
+   "options": [
+    "University of Mauritius and Western Sydney University",
+    "WHO Global Traditional Medicine Centre and University of Mauritius",
+    "Western Sydney University and Jamnagar University",
+    "University of Mauritius and Tamil Nadu University"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F14"
+   ],
+   "explanation": "The Ayush Chairs are at the University of Mauritius and Western Sydney University. Jamnagar is the location of the WHO Global Traditional Medicine Centre, while Tamil Nadu is associated with Siddha."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Traditional systems and heritage",
+   "question": "How many of the following statements are correct regarding traditional systems and Ayurvedic heritage?\n1. Sowa-Rigpa, also called Amchi, is associated with the Himalayan region.\n2. Sowa-Rigpa was recognised in 2010.\n3. Siddha is associated with Tamil Nadu.\n4. Sushruta Samhita is associated with herbal exports.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F15"
+   ],
+   "explanation": "Only three statements are correct: Sowa-Rigpa is Himalayan, it was recognised in 2010, and Siddha is associated with Tamil Nadu. Sushruta Samhita is associated with surgery and Sushruta is known as the Father of Surgery, not with herbal exports."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Long-term phase",
+   "question": "Which phase of the Strategic Roadmap for Making Ayurveda Global includes integration into at least 20 national health systems, insurance in at least 10 countries and International Ayurveda Centres of Excellence?",
+   "options": [
+    "Short-term phase",
+    "Medium-term phase",
+    "Long-term phase",
+    "Current-status phase"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F11"
+   ],
+   "explanation": "These measures belong to the long-term phase, which extends up to 2047. The short-term phase extends up to 2029 and the medium-term phase up to 2035; the roadmap does not identify a current-status phase."
+  }
+ ]
+}

@@ -1,0 +1,301 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F24",
+  "P0.F25",
+  "P0.F26",
+  "P0.F27",
+  "P0.F28",
+  "P0.F29",
+  "P0.F30",
+  "P0.F32",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First private orbital-class rocket stacked at launch pad",
+   "question": "During the early-July preparations for Vikram-I, what significant event occurred at the First Launch Pad of SDSC Sriharikota?",
+   "options": [
+    "The first privately built orbital-class rocket was stacked there",
+    "India's first private launch pad was inaugurated there",
+    "The first private rocket was launched from there",
+    "The first liquid rocket engine was tested there"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The first stage of Vikram-I was stacked at the First Launch Pad of SDSC Sriharikota, making it the first privately built orbital-class rocket stacked there. The event was stacking, not the launch or an engine test."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mission name",
+   "question": "What was the mission name of Skyroot Aerospace's Vikram-I orbital launch?",
+   "options": [
+    "Mission Aagaman",
+    "Mission Dhanush",
+    "Mission Prarambh",
+    "Mission Gaganyaan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Vikram-I's mission was named Mission Aagaman. Dhanush was associated with another private launch-pad context, not the mission name of Vikram-I."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Orbit and payload injection",
+   "question": "Vikram-I injected its payload into which orbit, approximately how long after lift-off?",
+   "options": [
+    "About 450 km LEO, about 15 minutes after lift-off",
+    "About 160 km LEO, about 90 minutes after lift-off",
+    "About 2,000 km LEO, about 120 minutes after lift-off",
+    "About 450 km geostationary orbit, about 15 minutes after lift-off"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "Vikram-I injected its payload into an orbit of about 450 km, classified as LEO, approximately 15 minutes after lift-off. The other options alter the orbit type, altitude or timing."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Private orbital launch capability",
+   "question": "Assertion (A): India became the third country, after the USA and China, with private orbital launch capability.\nReason (R): India became the fourth country, after the USA, China and Russia, with private orbital launch capability.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "The Assertion is correct: India became the third country after the USA and China with private orbital launch capability. The Reason is false because it changes the ranking to fourth and adds Russia."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Vehicle height and upper-stage engine",
+   "question": "Consider the following statements:\nStatement A: Vikram-I was about 23 metres tall.\nStatement B: Its upper-stage engine was RAMAN-I, a 3D-printed liquid engine tested at LPSC.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F9"
+   ],
+   "explanation": "Statement A is false because the daily detail gives Vikram-I's height as about 22 metres. Statement B is true: RAMAN-I was a 3D-printed liquid engine tested at LPSC."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rocket structure and separation-system firsts",
+   "question": "With reference to the structural and technological features of Vikram-I, consider the following statements:\n1. Vikram-I had an all-carbon composite structure.\n2. It used the first 3D-printed solid engine in an Indian rocket.\n3. Its separation system was hydraulic.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F28"
+   ],
+   "explanation": "Only statement 1 is correct: Vikram-I had an all-carbon composite structure. The 3D-printed engine was a liquid engine, and the separation system was pneumatic rather than hydraulic."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Payloads and purposes",
+   "question": "Match the payloads carried by Vikram-I in List-I with their purposes in List-II.\n\nList-I\n(a) SCOPE\n(b) Grahaa / SOLARAS S3\n(c) DCUBED\n(d) Cosmoserve Embrace\n\nList-II\n(i) Robotic arm for debris capture\n(ii) German technology demonstration\n(iii) Skyroot's own satellite for flight data\n(iv) Earth observation / technology",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12",
+    "P0.F13",
+    "P0.F14",
+    "P0.F15"
+   ],
+   "explanation": "The correct pairs are SCOPE–Skyroot's own satellite for flight data, Grahaa / SOLARAS S3–Earth observation / technology, DCUBED–German technology demonstration, and Cosmoserve Embrace–robotic arm for debris capture. Therefore, the correct code is a-iii, b-iv, c-ii, d-i."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Special payloads and commemorative contents",
+   "question": "How many of the following statements about the special payloads and commemorative contents of Vikram-I are correct?\n1. Cosmic Bloom was an art payload.\n2. The 18-karat gold micro-rocket paid tribute to astronauts.\n3. The mission carried miniature sculptures of four Nobel laureates.\n4. The handwritten “Vande Mataram” message was from the President of India.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16",
+    "P0.F17",
+    "P0.F29"
+   ],
+   "explanation": "Only one statement is correct: Cosmic Bloom was an art payload. The gold micro-rocket paid tribute to Indian scientists, the named miniature sculptures were of Vikram Sarabhai, A. P. J. Abdul Kalam and C. V. Raman, and the handwritten message was from PM Modi."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SSLV technology transfer",
+   "question": "In which month and year was the technology transfer of SSLV to HAL recorded?",
+   "options": [
+    "February 2026",
+    "July 2026",
+    "June 2026",
+    "February 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F20"
+   ],
+   "explanation": "The technology transfer of SSLV to HAL took place in February 2026. July 2026 is associated with the Vikram-I news period, not the stated technology-transfer date."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Space-sector policy and opening",
+   "question": "Consider the following statements:\nStatement A: The Indian space sector was opened in 2023.\nStatement B: Indian Space Policy was issued in 2023.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F21"
+   ],
+   "explanation": "Statement A is false because the space sector was opened in 2020. Statement B is true because Indian Space Policy was issued in 2023."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Space-sector ecosystem figures",
+   "question": "Consider the following statements regarding IN-SPACe and NSIL in 2026:\n1. IN-SPACe had more than 4,500 organisations registered and 133 authorisations.\n2. IN-SPACe had 106 authorisations and 133 MoUs.\n3. NSIL had launched 140 satellites, comprising 138 customer satellites and 3 Indian satellites.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F22",
+    "P0.F23"
+   ],
+   "explanation": "Only statement 1 is correct: IN-SPACe had more than 4,500 organisations registered and 133 authorisations. Statement 2 reverses the authorisation and MoU figures, while NSIL's total was 141 satellites, not 140."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Space-sector funding",
+   "question": "Which funding support included a ₹500 crore Technology Adoption Fund that could cover up to 60% of project cost?",
+   "options": [
+    "The IN-SPACe Seed Fund, ₹1,000 crore VC Fund and ₹500 crore Technology Adoption Fund package",
+    "The ₹500 crore VC Fund and ₹1,000 crore Technology Adoption Fund package",
+    "The IN-SPACe Seed Fund and a ₹60 crore Technology Adoption Fund package",
+    "The ₹1,000 crore Seed Fund and ₹500 crore Launch Pad Fund package"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F24"
+   ],
+   "explanation": "The funding measures included the IN-SPACe Seed Fund, a ₹1,000 crore VC Fund and a ₹500 crore Technology Adoption Fund covering up to 60% of project cost. The other options alter the fund names or amounts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "LEO altitude and orbital period",
+   "question": "Which combination correctly describes Low Earth Orbit as specified in the Vikram-I context?",
+   "options": [
+    "160–2,000 km altitude and a 90–120 minute orbital period",
+    "450–2,000 km altitude and a 15-minute orbital period",
+    "160–1,000 km altitude and a 24-hour orbital period",
+    "2,000–4,500 km altitude and a 90–120 minute orbital period"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F25"
+   ],
+   "explanation": "LEO was described as extending from 160 to 2,000 km, with an orbital period of 90–120 minutes. The other combinations change either the altitude range or the orbital period."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Second spaceport",
+   "question": "Where is India's second spaceport located?",
+   "options": [
+    "Kulasekarapattinam, Tamil Nadu",
+    "SDSC Sriharikota, Andhra Pradesh",
+    "Dhanush, Tamil Nadu",
+    "Pulicat Lake, Andhra Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F26"
+   ],
+   "explanation": "India's second spaceport is at Kulasekarapattinam in Tamil Nadu. Sriharikota is the location of SDSC, while Pulicat Lake is noted as being near Sriharikota."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rocket dimensions and stage configuration",
+   "question": "According to the detailed Vikram-I specifications, which combination is correct?",
+   "options": [
+    "About 1.7 m diameter, three solid stages and a liquid Orbital Adjustment Module",
+    "About 22 m diameter, four liquid stages and a solid Orbital Adjustment Module",
+    "About 1.7 m diameter, two solid stages and two liquid upper stages",
+    "About 23 m diameter, three liquid stages and a pneumatic upper stage"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F27"
+   ],
+   "explanation": "The detailed specifications give Vikram-I a diameter of about 1.7 metres, three solid stages and a liquid Orbital Adjustment Module. The other options alter the diameter or stage configuration."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Company background and special payload",
+   "question": "Consider the following statements:\nStatement A: Skyroot Aerospace was established in 2018 in Hyderabad, with founders Pawan Kumar Chandana and Naga Bharath Daka.\nStatement B: Mission Aagaman carried a naturally occurring, spherical platinum object.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F30",
+    "P0.F32"
+   ],
+   "explanation": "Statement A is true: Skyroot Aerospace was established in 2018 in Hyderabad by Pawan Kumar Chandana and Naga Bharath Daka. Statement B is false because Mission Aagaman carried a laboratory-grown, lotus-shaped diamond."
+  }
+ ]
+}

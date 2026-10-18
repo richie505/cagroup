@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P8.F11",
+  "P8.F13",
+  "P9.F3",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scientific use of helium",
+   "question": "Which of the following is an identified application of helium in advanced computing?",
+   "options": [
+    "Quantum computers",
+    "Fertiliser production",
+    "Cement manufacture",
+    "Coal washing"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F11"
+   ],
+   "explanation": "Helium is used in quantum computers, along with applications such as MRI magnets, semiconductor wafers and leak detection. Fertiliser production is the tempting wrong option because it is not listed among helium’s identified uses."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scuba-diving application",
+   "question": "Why is air diluted with helium in scuba tanks?",
+   "options": [
+    "To avoid nitrogen narcosis",
+    "To increase the boiling point of water",
+    "To produce semiconductor wafers",
+    "To pressurise rocket fuel tanks"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F13"
+   ],
+   "explanation": "Air is diluted with helium in scuba tanks to avoid nitrogen narcosis. Rocket fuel-tank pressurisation is also an identified use of helium, but it is unrelated to the purpose of helium in scuba tanks."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "Data-policy timeline",
+   "question": "Which of the following developments occurred in the correct chronological order?",
+   "options": [
+    "RBI mandated local storage of financial data → Draft National Data Centre Policy",
+    "Draft National Data Centre Policy → RBI mandated local storage of financial data",
+    "RBI mandated local storage of financial data → Data centres given infrastructure status → Draft National Data Centre Policy",
+    "Draft National Data Centre Policy → RBI mandated local storage of financial data → Data centres given infrastructure status"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "The RBI mandated local storage of financial data in 2018, followed by the Draft National Data Centre Policy in 2020. The reverse sequence is incorrect because the policy draft came after the 2018 RBI mandate."
+  }
+ ]
+}

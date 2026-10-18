@@ -1,0 +1,82 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11
+ ],
+ "only": [
+  "P10.F14",
+  "P10.F7",
+  "P10.F8",
+  "P11.F1",
+  "P11.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Employment in toy manufacturing",
+   "question": "According to NIC Code 324 data, what change occurred in employment in India's toy sector between 2018–19 and 2023–24?",
+   "options": [
+    "It increased from 8,685 to 17,693",
+    "It decreased from 17,693 to 8,685",
+    "It increased from 8,685 to 17,693 between 2020 and 2025",
+    "It decreased from 17,693 to 8,685 between 2020 and 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F7"
+   ],
+   "explanation": "Employment under NIC Code 324 increased from 8,685 in 2018–19 to 17,693 in 2023–24. The tempting reverse-order option is incorrect because 8,685 is the earlier figure and 17,693 is the later figure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Action Plan",
+   "question": "In which year was the National Action Plan for Toys introduced?",
+   "options": [
+    "2020",
+    "2021",
+    "2025",
+    "2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F8"
+   ],
+   "explanation": "The National Action Plan for Toys was introduced in 2020. The other years do not represent the year of introduction of this plan."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Manak Manthan",
+   "question": "When was the Manak Manthan on IS 9873 Part 1:2025 held?",
+   "options": [
+    "April 2026",
+    "April 2025",
+    "April 2020",
+    "April 2021"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F14"
+   ],
+   "explanation": "The Manak Manthan was held in April 2026 by BIS on IS 9873 Part 1:2025. April 2025 is a tempting distractor because 2025 appears in the standard designation, but it was not the month and year of the event."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Tourism contribution and sustainable tourism market",
+   "question": "Consider the following statements:\nStatement A: Tourism contributes about 7% of GDP and more than 9% of employment.\nStatement B: India's sustainable tourism market is projected to grow from USD 44.3 million in 2025 to USD 258 million by 2035, at a CAGR of 19.3%.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F8"
+   ],
+   "explanation": "Both statements are correct: tourism accounts for about 7% of GDP and more than 9% of employment, while the sustainable tourism market is projected to rise from USD 44.3 million in 2025 to USD 258 million by 2035. The options claiming that either statement is false incorrectly alter these figures or projections."
+  }
+ ]
+}
