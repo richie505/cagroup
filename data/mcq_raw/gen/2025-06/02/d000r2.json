@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F8",
+  "P2.F11",
+  "P2.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Emergency duration and feature",
+   "question": "With reference to the National Emergency declared in India in 1975, consider the following statements:\n1. It was declared on 25 June 1975 under Article 352 on the ground of “internal disturbance”.\n2. Forced sterilisation was one of the features associated with the Emergency.\n3. The Emergency lasted for 24 months, till 21 March 1977.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Emergency was declared on 25 June 1975 under Article 352 on the ground of “internal disturbance”, and forced sterilisation was associated with it. Statement 3 is incorrect because the Emergency lasted 21 months, not 24 months, till 21 March 1977."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Fraudulent registration and appeal",
+   "question": "With reference to refusal and cancellation provisions under the Draft Registration Bill, 2025, which of the following statements is incorrect?",
+   "options": [
+    "Under Sections 58 and 64, refusal may arise in cases such as delay exceeding four months, while wills are exempt.",
+    "Under Section 64(3), the Inspector General can cancel a fraudulent registration.",
+    "An appeal against cancellation of a fraudulent registration can be filed within 30 days.",
+    "The Inspector General can cancel a fraudulent registration, but an appeal must be filed within 60 days."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "The incorrect statement is that the appeal period is 60 days. Section 64(3) provides for an appeal within 30 days against cancellation of a fraudulent registration; the other statements correctly reflect the refusal and cancellation provisions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Concern regarding implementation",
+   "question": "What concern was raised regarding the implementation of the Draft Registration Bill, 2025?",
+   "options": [
+    "Delegation of registration-related work to Common Service Centres (CSCs)",
+    "Delegation of registration-related work to municipal offices",
+    "Delegation of registration-related work to courts",
+    "Delegation of registration-related work to police stations"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "The concern related to delegation to Common Service Centres (CSCs). Municipal offices, courts and police stations were not identified in this context."
+  }
+ ]
+}

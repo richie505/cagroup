@@ -1,0 +1,104 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F3",
+  "P0.F6",
+  "P1.F10",
+  "P1.F12",
+  "P1.F5",
+  "P1.F6",
+  "P2.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Announced by",
+   "question": "Who announced the Amaravati Quantum Valley initiative in Andhra Pradesh?",
+   "options": [
+    "Katamneni Bhaskar",
+    "Nara Lokesh",
+    "Sridhar Chamakuri",
+    "Venkata Jyothirmai Pratapa"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Amaravati Quantum Valley was announced by Katamneni Bhaskar, Secretary, ITE&C, Andhra Pradesh. The other options are associated with different Andhra Pradesh news contexts, not the announcement of AQV."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Quantum technology uses",
+   "question": "Consider the following statements about Amaravati Quantum Valley:\n1. IBM plans logical qubit quantum computers under its Quantum Starling roadmap, with a fault-tolerant system by 2029.\n2. Its listed applications are limited to pharma and EV batteries.",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F6"
+   ],
+   "explanation": "Statement 1 is correct: IBM’s Quantum Starling roadmap envisages logical qubit quantum computers and a fault-tolerant system by 2029. Statement 2 is incorrect because AQV’s uses also include agritech and medtech, logistics, image classification and cybersecurity."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "District achievement and event details",
+   "question": "Match the following Yogandhra-related entries with the corresponding details:\n\nList-I\n a. Annamayya district\n b. Rayachoti event\n c. Chittoor event\n d. Yogandhra certificates\n\nList-II\n i. No. 1 in Yogandhra rankings\n ii. Conducted by Collector Sridhar Chamakuri\n iii. Held at NTR Stadium, Kuppam\n iv. 1.7 crore\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6",
+    "P1.F10"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Annamayya was ranked No. 1, the Rayachoti event was conducted by Collector Sridhar Chamakuri, the Chittoor event was at NTR Stadium in Kuppam, and Yogandhra issued 1.7 crore certificates."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Campaign coverage",
+   "question": "Consider the following statements about the Yogandhra campaign:\nStatement A: The campaign was conducted only for senior citizens.\nStatement B: The campaign covered only urban areas.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F12"
+   ],
+   "explanation": "Both statements are false. Yogandhra was a statewide campaign covering rural and urban areas and all sections, rather than only senior citizens or only urban areas."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Constitutional basis",
+   "question": "With reference to the constitutional basis cited in the Andhra Pradesh High Court ruling concerning a trans woman:\nAssertion (A): The cited constitutional basis included Articles 14, 15 and 21.\nReason (R): Article 14 was one of the constitutional provisions included in that basis.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: Articles 14, 15 and 21 were cited, and Article 14 was among them. However, the Reason merely identifies one component of the constitutional basis and does not explain why the complete set comprised Articles 14, 15 and 21."
+  }
+ ]
+}

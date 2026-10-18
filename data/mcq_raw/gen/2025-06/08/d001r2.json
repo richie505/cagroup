@@ -1,0 +1,82 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F16",
+  "P1.F17",
+  "P1.F2",
+  "P1.F8",
+  "P2.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First entry into top 100",
+   "question": "According to the Sustainable Development Report 2025, which statement correctly describes India’s performance?",
+   "options": [
+    "India scored 67 and entered the top 100 for the first time",
+    "India scored 67 but remained outside the top 100",
+    "India scored 67 and entered the top 50 for the first time",
+    "India scored 67 and entered the top 10 for the first time"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "India scored 67 and ranked 99th, marking its first entry into the top 100. The tempting alternatives incorrectly place India outside the top 100 or claim a first entry into the top 50 or top 10."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "India’s 2025 rank",
+   "question": "With reference to India’s position in the Sustainable Development Report 2025, consider the following statements:\nStatement A: India ranked 99th in 2024.\nStatement B: India ranked 98th in 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "Both statements are false because India ranked 99th in 2025. The trap is the altered year in Statement A and the altered rank in Statement B."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Country rankings",
+   "question": "With reference to the country rankings reported in the Sustainable Development Report 2025, how many of the following statements are correct?\n1. Bangladesh ranked 114th.\n2. Pakistan ranked 140th.\n3. Bangladesh ranked 140th.\n4. Pakistan ranked 114th.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F16",
+    "P1.F17"
+   ],
+   "explanation": "Only two statements are correct: Bangladesh ranked 114th and Pakistan ranked 140th. The tempting option ‘Only three’ is incorrect because Statements 3 and 4 interchange the rankings of Bangladesh and Pakistan."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sectoral weight",
+   "question": "In the Critical and Emerging Technologies Index, what weight was assigned to the space sector?",
+   "options": [
+    "10%",
+    "15%",
+    "30%",
+    "40%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The space sector carried a weight of 15% in the Critical and Emerging Technologies Index. The other percentages do not represent the weight assigned to space in this index."
+  }
+ ]
+}

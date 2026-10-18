@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P5.F1",
+  "P5.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Person and place in news",
+   "question": "Jahnavi Dangeti, who was selected as an astronaut candidate for the Titan Space mission, belongs to which place and district?",
+   "options": [
+    "Palakollu, West Godavari district",
+    "Eluru, West Godavari district",
+    "Jarjapupeta, Vizianagaram district",
+    "Vijayawada, NTR district"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "Jahnavi Dangeti is a 23-year-old from Palakollu in West Godavari district. Eluru is associated with para-swimmer Balaga Ganesh, while Jarjapupeta and Vijayawada relate to other Andhra Pradesh news items."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Youngest Indian and programme completed",
+   "question": "With reference to Jahnavi Dangeti’s earlier astronaut-related achievement, consider the following statements:\n\n1. She completed the Analog Astronaut Programme at AATC, Krakow, in 2022.\n2. She was the youngest Indian to complete the Analog Astronaut Programme.\n3. She completed the Analog Astronaut Programme at AATC, Krakow, in 2026.\n\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Jahnavi Dangeti completed the Analog Astronaut Programme at AATC, Krakow, in 2022 and was the youngest Indian to do so. Statement 3 is incorrect because the programme was completed in 2022, not 2026."
+  }
+ ]
+}

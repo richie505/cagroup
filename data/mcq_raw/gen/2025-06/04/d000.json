@@ -1,0 +1,232 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P1.F4",
+  "P1.F5",
+  "P1.F7",
+  "P1.F8",
+  "P2.F4",
+  "P2.F5",
+  "P2.F8",
+  "P3.F2",
+  "P3.F3",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Deadline, trade-deal sequence and alternatives",
+   "question": "Match List-I with List-II regarding the India–US trade negotiations discussed in June 2025.\n\nList-I\n(a) Deadline for avoiding reciprocal tariffs\n(b) Initial trade arrangement proposed\n(c) Withdrawal of India’s GSP status\n(d) Alternative routes to Hormuz\n\nList-II\n(i) 9 July 2025\n(ii) Mini trade deal followed by the first tranche of the BTA by Fall 2025\n(iii) 2019\n(iv) Chabahar and INSTC",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F3",
+    "P0.F4",
+    "P0.F6"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The United States was due to reimpose reciprocal tariffs on 9 July 2025, while the proposed sequence was a mini trade deal followed by the first BTA tranche by Fall 2025; GSP status had been withdrawn in 2019, and Chabahar and INSTC were identified as alternatives to the Hormuz route."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s unique negotiating position",
+   "question": "In the elaborate India–US trade negotiations discussed in June 2025, which country was described as the only country engaged in such talks with the United States?",
+   "options": [
+    "India",
+    "Pakistan",
+    "Bangladesh",
+    "Nepal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "India was described as the only country engaged in such elaborate talks with the United States. Pakistan, Bangladesh and Nepal were not identified in this context as occupying that position."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "India–Pakistan trade decline and trade-to-GDP",
+   "question": "Consider the following statements regarding South Asian economic indicators:\n1. India–Pakistan trade declined from $2.41 billion in 2018 to $1.2 billion in 2024.\n2. Pakistan’s exports to India declined from $547.5 million in 2019 to $480,000 in 2024.\n3. The trade-to-GDP ratio increased from 42.94% in 2024 to 47.3% in 2022.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: both India–Pakistan trade and Pakistan’s exports to India declined over the stated periods. Statement 3 reverses the direction of the trade-to-GDP movement; the ratio fell from 47.3% in 2022 to 42.94% in 2024."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "2025 triggers and proposed remedies",
+   "question": "Consider the following statements concerning South Asian economic integration in 2025:\nStatement A: The identified 2025 triggers included only the Pahalgam terror attack and not US reciprocal tariffs.\nStatement B: The proposed response was to discontinue the BBIN Motor Vehicle Agreement and avoid reviving SAARC summits.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Both statements are false. The 2025 triggers included US reciprocal tariffs as well as the Pahalgam terror attack, and the suggestions were to revive SAARC summits and pursue the BBIN Motor Vehicle Agreement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mandatory vertical—Critical Operations",
+   "question": "Under SEBI’s proposed governance reforms for Market Infrastructure Institutions, which vertical must be headed by an Executive Director?",
+   "options": [
+    "Critical Operations",
+    "Commercial Interests and Business Development",
+    "Public Relations and Outreach",
+    "Human Resources and Training"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Critical Operations is a mandatory vertical headed by an Executive Director. Commercial Interests and Business Development was a vertical where an Executive Director was at the MII’s discretion, not a mandatory requirement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mandatory regulatory vertical",
+   "question": "Which proposed MII vertical combines Regulatory, Compliance, Risk Management and Investor Grievances under a mandatory Executive Director?",
+   "options": [
+    "Regulatory, Compliance, Risk Management and Investor Grievances",
+    "Commercial Interests and Business Development",
+    "Critical Operations alone",
+    "Market Expansion and Public Relations"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The combined Regulatory, Compliance, Risk Management and Investor Grievances vertical must be headed by an Executive Director. Commercial Interests and Business Development was not subject to the same mandatory requirement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Reporting frequency",
+   "question": "Under SEBI’s proposed governance reforms for Market Infrastructure Institutions, how often must the relevant reports be submitted to the Board and SEBI?",
+   "options": [
+    "Quarterly",
+    "Monthly",
+    "Half-yearly",
+    "Annually"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "The proposed reports must be submitted quarterly to the Board and SEBI. Monthly, half-yearly and annual reporting were not the specified frequency."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "PLI review and headline outcomes",
+   "question": "Consider the following statements about the Production-Linked Incentive schemes review:\n1. The review was conducted by Commerce Minister Piyush Goyal.\n2. Incentives disbursed amounted to ₹21,534 crore.\n3. Production or sales generated under the schemes amounted to ₹1.76 lakh crore.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3",
+    "P3.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Commerce Minister Piyush Goyal reviewed the schemes, and ₹21,534 crore had been disbursed as incentives. Statement 3 confuses investment of ₹1.76 lakh crore with production or sales, which stood at ₹16.5 lakh crore."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Pharmaceutical PLI outcomes",
+   "question": "How many of the following statements about the pharmaceutical sector under the PLI scheme are correct?\n1. Sales over three years were ₹2.66 lakh crore.\n2. FY25 exports were ₹0.67 lakh crore.\n3. Domestic value addition was 78.3%.\n4. 40% of ₹37,306 crore investment went into research and development.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "Statements 1, 2 and 4 are correct, while statement 3 is incorrect. Domestic value addition was 83.7%, not 78.3%, so the correct count is Only three."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Bulk-drug trade balance",
+   "question": "Assertion (A): India became a net exporter of bulk drugs.\nReason (R): The bulk-drug trade position changed from a deficit of ₹1,930 crore in FY22 to a surplus of ₹2,280 crore.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Both the assertion and reason are true, and the reason explains the assertion. The shift from a ₹1,930 crore deficit in FY22 to a ₹2,280 crore surplus indicates that India became a net exporter of bulk drugs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Food-processing PLI investment",
+   "question": "Under the PLI scheme’s food-processing sector highlights, what investment was reported?",
+   "options": [
+    "₹9,032 crore",
+    "₹2.66 lakh crore",
+    "₹21,534 crore",
+    "₹1.76 lakh crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "Investment in food processing was reported at ₹9,032 crore. ₹2.66 lakh crore relates to pharmaceutical sales, ₹21,534 crore to incentives disbursed, and ₹1.76 lakh crore to investment under the broader PLI schemes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PLI sectors covered",
+   "question": "Which of the following was included among the sectors covered by the Production-Linked Incentive schemes?",
+   "options": [
+    "Drones",
+    "Coal mining",
+    "Tourism",
+    "Banking"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9"
+   ],
+   "explanation": "Drones was one of the sectors included among the PLI sectors. Coal mining, tourism and banking were not included in the listed sector set."
+  }
+ ]
+}

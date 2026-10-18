@@ -1,36 +1,36 @@
 # CA MCQ report
 
-- MCQs kept: **10839**
+- MCQs kept: **10939**
 - News pages with at least one question: **2625 / 2629**
-- Facts tested: **19019 / 20515** (92.7%)
-- Answer positions: A 2703, B 2820, C 2858, D 2458
+- Facts tested: **19172 / 20515** (93.5%)
+- Answer positions: A 2725, B 2841, C 2883, D 2490
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 1182 | 1211 | 1255 | 1119 |
-| Negative / Incorrect Statement | 180 | 176 | 186 | 171 |
-| Assertion-Reason | 176 | 207 | 270 | 224 |
-| Statement-Based (A/B) | 350 | 217 | 312 | 264 |
-| Multi-Statement Correctness | 402 | 412 | 385 | 377 |
+| Direct Recall | 1188 | 1221 | 1268 | 1136 |
+| Negative / Incorrect Statement | 182 | 177 | 186 | 173 |
+| Assertion-Reason | 177 | 209 | 271 | 225 |
+| Statement-Based (A/B) | 353 | 220 | 316 | 267 |
+| Multi-Statement Correctness | 407 | 414 | 389 | 381 |
 | Chronological Ordering | 6 | 6 | 4 | 5 |
-| List-Matching | 299 | 279 | 268 | 292 |
-| Count-Based | 108 | 312 | 178 | 6 |
+| List-Matching | 304 | 280 | 270 | 297 |
+| Count-Based | 108 | 314 | 179 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 1342 |
-| verify:explanation_contradicts | 210 |
-| verify:not_in_facts | 149 |
-| duplicate | 74 |
-| verify:two_correct | 45 |
+| code | 1352 |
+| verify:explanation_contradicts | 213 |
+| verify:not_in_facts | 150 |
+| duplicate | 76 |
+| verify:two_correct | 46 |
 | verify:none_correct | 34 |
-| verify:second reader picked option 2, key 1 | 24 |
+| verify:second reader picked option 2, key 1 | 26 |
 | verify:garbled | 14 |
 | verify:ambiguous_stem | 9 |
 | verify:second reader picked option 0, key 1 | 6 |
-| verify:second reader picked option 1, key 0 | 5 |
+| verify:second reader picked option 1, key 0 | 6 |
 | verify:second reader picked option 3, key 0 | 2 |
 | verify:second reader picked option 2, key 0 | 2 |
 | verify:trivial | 2 |
@@ -205,14 +205,14 @@
 | 2025-08/09 | Awards, Persons & Appointments | 8 | 13/13 |
 | 2025-08/10 | Sports | 4 | 7/7 |
 | 2025-08/11 | Important Days & Events | 4 | 8/8 |
-| 2025-06/01 | Andhra Pradesh | 12 | 33/61 |
-| 2025-06/02 | Polity & Governance | 4 | 10/25 |
-| 2025-06/03 | Schemes & Social Sector | 5 | 10/24 |
-| 2025-06/04 | Economy, Banking & Budget | 6 | 13/32 |
-| 2025-06/05 | International Relations | 4 | 10/31 |
-| 2025-06/06 | Science, Tech, Space & Defence | 7 | 13/36 |
-| 2025-06/07 | Environment & Geography | 6 | 12/22 |
-| 2025-06/08 | Reports, Indices & Rankings | 7 | 18/48 |
+| 2025-06/01 | Andhra Pradesh | 30 | 61/61 |
+| 2025-06/02 | Polity & Governance | 15 | 25/25 |
+| 2025-06/03 | Schemes & Social Sector | 14 | 24/24 |
+| 2025-06/04 | Economy, Banking & Budget | 18 | 32/32 |
+| 2025-06/05 | International Relations | 17 | 30/31 |
+| 2025-06/06 | Science, Tech, Space & Defence | 21 | 35/36 |
+| 2025-06/07 | Environment & Geography | 13 | 22/22 |
+| 2025-06/08 | Reports, Indices & Rankings | 23 | 43/48 |
 | 2025-06/09 | Awards, Persons & Appointments | 0 | 0/0 |
 | 2025-06/10 | Sports | 0 | 0/0 |
 | 2025-06/11 | Important Days & Events | 1 | 3/3 |
@@ -1745,9 +1745,33 @@
 - `2025-06/01/c001#1` verify: none_correct — At least four cameras entails at least three, so all four statements are true.
   - Q: Which of the following statements regarding CCTV coverage in NTR district is incorrect?
   - Key: At least three cameras were provided in every inhabited village.
+- `2025-06/01/d001#6` verify: not_in_facts — The facts identify Jahnavi Dangeti but do not state which development she is associated with.
+  - Q: Jahnavi Dangeti, a 23-year-old from Palakollu in West Godavari district, is associated with which development?
+  - Key: Selection as an astronaut candidate
+- `2025-06/01/d001#8` verify: second reader picked option 1, key 0 — 
+  - Q: Assertion (A): In 2022, Jahnavi Dangeti completed the Analog Astronaut Programme at AATC in Krakow, Poland. / Reason (R): She was the youngest Indian to complete the Analog Astronaut Programme.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2025-06/02/d000#9` verify: explanation_contradicts — The facts identify delegation to Common Service Centres as a concern, so all four statements are correct, contradicting the explanation's count of three.
+  - Q: How many of the following statements regarding the Draft Registration Bill, 2025, are correct? /  / 1. Refusal provisions include a delay of over four months, while wills are exempt. / 2. The Inspector Gene
+  - Key: Only three
 - `2025-06/04/c000#6` verify: explanation_contradicts — Statements 1, 2, and 3 are correct, so the count is three rather than two.
   - Q: With reference to the Production-Linked Incentive schemes, how many of the following statements are correct? / 1. Pharma exports in FY25 under the scheme amounted to ₹0.67 lakh crore. / 2. India became a 
   - Key: Only two
+- `2025-06/04/d000#8` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements about the pharmaceutical sector under the PLI scheme are correct? / 1. Sales over three years were ₹2.66 lakh crore. / 2. FY25 exports were ₹0.67 lakh crore. / 3. Domest
+  - Key: Only two
+- `2025-06/05/d000#13` verify: two_correct — The facts identify only whether each item is a sub-committee or shared grouping; they do not distinguish List-II labels i from iii or ii from iv, so multiple codes fit.
+  - Q: Match the India–South Africa defence cooperation items with the appropriate description: /  / List-I /  a. Defence Policy & Military Cooperation /  b. Defence Acquisition, Production, R&D /  c. BRICS and IORA /  
+  - Key: a-iv, b-ii, c-i, d-iii
+- `2025-06/08/d000#7` verify: explanation_contradicts — The facts support statement 2, so statements 1, 2 and 3 are correct, not only 1 and 3.
+  - Q: With reference to extreme weather events in Asia during 2024, consider the following statements: / 1. Lightning in India caused approximately 1,300 deaths. / 2. On 10 July, 72 deaths were reported in Utta
+  - Key: Only two
+- `2025-06/08/d000r2#1` verify: second reader picked option 2, key 1 — 
+  - Q: With reference to extreme-weather events reported in Asia during 2024, how many of the following statements are correct? / 1. Lightning in India caused approximately 1,300 deaths. / 2. On 10 July, 72 ligh
+  - Key: Only two
+- `2025-06/08/d001#4` verify: explanation_contradicts — The facts make Statement A true and Statement B false, so the correct option is 2, not both false.
+  - Q: Consider the following statements: / Statement A: Bangladesh ranked 114th in the Sustainable Development Report 2025. / Statement B: Pakistan ranked 145th in the Sustainable Development Report 2025.
+  - Key: Both Statement A and Statement B are false
 - `2025-05/01/c000#5` verify: second reader picked option 2, key 1 — 
   - Q: How many of the following statements about the Andhra Pradesh MSME park initiative are correct? / 1. Eleven MSME parks were inaugurated at a cost of ₹216 crore. / 2. The Flatted Factory Complex is located
   - Key: Only two

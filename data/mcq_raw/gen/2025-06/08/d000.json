@@ -1,0 +1,159 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Global temperature record",
+   "question": "According to the WMO State of the Climate in Asia 2024, the global temperature in 2024 was the highest since which year, exceeding the 1.45 °C recorded in 2023?",
+   "options": [
+    "1850",
+    "1891",
+    "1949",
+    "1961"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The global temperature in 2024 was the highest since 1850 and exceeded the 1.45 °C recorded in 2023. The other years are associated with different climate-period or event details, not this global temperature record."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Climate warming and sea-level rise",
+   "question": "With reference to the key findings on climate change in the WMO State of the Climate in Asia 2024, consider the following statements:\n1. Global 2024 was the highest-temperature year since 1850.\n2. Warming during 1991–2024 was almost double that during 1961–1990.\n3. Sea-level rise on the Pacific and Indian Ocean sides was below the global average.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 2024 was the highest-temperature year since 1850, and warming during 1991–2024 was almost double that during 1961–1990. Statement 3 is incorrect because sea-level rise on the Pacific and Indian Ocean sides was above the global average."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Glacier mass loss",
+   "question": "How many of the 24 monitored glaciers in the central Himalaya and Tian Shan lost mass, according to the WMO State of the Climate in Asia 2024?",
+   "options": [
+    "23",
+    "16",
+    "24",
+    "10"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "A total of 23 of the 24 monitored glaciers lost mass. The figures 16, 24 and 10 do not represent the reported number of glaciers that lost mass."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Extreme weather events and details",
+   "question": "Match the extreme-weather event in List-I with its reported detail in List-II:\n\nList-I\n a. India heatwaves\n b. Myanmar\n c. Makkah\n d. UAE\n\nList-II\n i. 259.5 mm rainfall in 24 hours\n ii. 49 °C in June\n iii. Over 450 deaths\n iv. 48.2 °C on 28 April 2024\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "The correct pairs are India heatwaves—over 450 deaths, Myanmar—48.2 °C on 28 April 2024, Makkah—49 °C in June, and UAE—259.5 mm in 24 hours. The other codes interchange the event-specific temperature, rainfall and death details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Extreme rainfall in Wayanad",
+   "question": "The Wayanad extreme-weather event in Kerala during 2024 involved which combination of reported impacts?",
+   "options": [
+    "Over 500 mm of rain in 48 hours on 30 July and more than 350 deaths",
+    "259.5 mm of rain in 24 hours and 246 deaths",
+    "Over 450 deaths and 49 °C in June",
+    "4.8 million people affected and 72 deaths"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "Wayanad recorded over 500 mm of rain in 48 hours on 30 July, with more than 350 deaths. The other options combine details from the UAE, Nepal, Makkah, India heatwaves and China drought events."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Nepal floods",
+   "question": "Consider the following statements:\nStatement A: The Nepal floods in September caused 246 deaths.\nStatement B: The Wayanad event involved over 500 mm of rain in 48 hours on 30 July.\n\nWhich one of the following is correct?",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Both statements are true. The Nepal floods in September caused 246 deaths, while the Wayanad event involved over 500 mm of rain in 48 hours on 30 July."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Nepal GLOF location and date",
+   "question": "Assertion (A): The Nepal glacial lake outburst flood occurred on 16 August in the Koshi region, affecting Thame village.\nReason (R): The Nepal glacial lake outburst flood occurred on 16 September in the Koshi region, affecting Thame village.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Assertion A is correct: the Nepal GLOF occurred on 16 August in the Koshi region and affected Thame village. Reason R is false because it changes the date to 16 September."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Lightning and drought impacts",
+   "question": "With reference to extreme weather events in Asia during 2024, consider the following statements:\n1. Lightning in India caused approximately 1,300 deaths.\n2. On 10 July, 72 deaths were reported in Uttar Pradesh, Madhya Pradesh, Maharashtra, Rajasthan and Jharkhand.\n3. The China drought affected 4.8 million people.\n4. The China drought affected 4.8 billion people.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F14",
+    "P0.F15"
+   ],
+   "explanation": "Statements 1 and 3 are correct: lightning caused approximately 1,300 deaths in India, and the China drought affected 4.8 million people. Statement 2 changes the reported 72 deaths on 10 July, while statement 4 changes 4.8 million to 4.8 billion; therefore, only two statements are correct."
+  }
+ ]
+}

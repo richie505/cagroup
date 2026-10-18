@@ -1,0 +1,192 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F3",
+  "P1.F4",
+  "P2.F11",
+  "P2.F3",
+  "P2.F7",
+  "P2.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Duration of Emergency",
+   "question": "The Emergency declared in India on 25 June 1975 continued until which date?",
+   "options": [
+    "21 March 1977",
+    "25 June 2025",
+    "19 June 2025",
+    "23 June 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The Emergency declared on 25 June 1975 lasted for 21 months and ended on 21 March 1977. The other dates relate to events mentioned in June 2025, not the end of the Emergency."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Correct constitutional Article",
+   "question": "With reference to the constitutional provision under which the 1975 Emergency was declared, consider the following statements:\n\n1. It was declared under Article 352, not Article 356.\n2. It was declared under Article 356, not Article 352.\n3. It was declared under Article 360, not Article 352.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Only statement 1 is correct: the Emergency was declared under Article 352, not Article 356. Statements 2 and 3 replace Article 352 with other constitutional provisions."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Emergency type and Article",
+   "question": "Match List-I with List-II regarding constitutional emergency provisions.\n\nList-I\n a. National Emergency\n b. President's Rule\n c. Financial Emergency\n d. Emergency provisions\n\nList-II\n i. Article 352\n ii. Article 356\n iii. Article 360\n iv. Articles 352–360",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. National Emergency is associated with Article 352, President's Rule with Article 356, Financial Emergency with Article 360, and the emergency provisions span Articles 352–360."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "42nd Amendment",
+   "question": "Consider the following statements:\n\nStatement A: The 42nd Amendment of 1976 was described as the ‘Mini-Constitution’.\nStatement B: It added ‘Socialist’ and ‘Secular’ to the Preamble.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "Both statements are true. The 42nd Amendment of 1976 was known as the ‘Mini-Constitution’ and added ‘Socialist’ and ‘Secular’ to the Preamble."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "44th Amendment and Emergency terminology",
+   "question": "Assertion (A): The 44th Amendment changed the expression ‘internal disturbance’ to ‘external aggression’.\nReason (R): The 44th Amendment changed ‘internal disturbance’ to ‘armed rebellion’.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "Assertion A is false because the expression was not changed to ‘external aggression’. Reason R is true: the 44th Amendment changed ‘internal disturbance’ to ‘armed rebellion’."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Turnout upload authority",
+   "question": "During the June 2025 bypolls using ECINET, who was required to upload voter turnout directly before leaving the polling station?",
+   "options": [
+    "Presiding officers",
+    "Returning officers",
+    "Inspectors General of Registration",
+    "Assistant Inspectors General of Registration"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "Presiding officers directly uploaded the turnout figures before leaving the polling station. Returning officers were not the officials specified for this task."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Index Cards",
+   "question": "Which of the following statements about Index Cards associated with ECINET is incorrect?",
+   "options": [
+    "They are non-statutory constituency-level statistical reports.",
+    "They are auto-filled.",
+    "They are published within 72 hours.",
+    "They are published within four months."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "The incorrect statement is that Index Cards are published within four months; they are published within 72 hours. They are non-statutory constituency-level reports and are auto-filled."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Reason for Draft Registration Bill",
+   "question": "The Draft Registration Bill, 2025, was proposed against the background that land and property disputes constitute approximately what share of civil cases?",
+   "options": [
+    "Over two-thirds",
+    "Exactly two-thirds",
+    "Less than two-thirds",
+    "One-third"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "Land and property disputes account for over two-thirds of civil cases, providing a major rationale for the Draft Registration Bill, 2025. The other options do not reflect the stated proportion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "New registration authorities",
+   "question": "Under Section 4(5) of the Draft Registration Bill, 2025, which new posts were proposed?",
+   "options": [
+    "Additional and Assistant Inspectors General of Registration",
+    "Additional and Assistant Returning Officers",
+    "Additional and Assistant District Magistrates",
+    "Additional and Assistant Election Commissioners"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "Section 4(5) proposes new Additional and Assistant Inspectors General of Registration. The other posts are not the authorities identified under this provision."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Registration refusal and CSC concern",
+   "question": "How many of the following statements regarding the Draft Registration Bill, 2025, are correct?\n\n1. Refusal provisions include a delay of over four months, while wills are exempt.\n2. The Inspector General can cancel a fraudulent registration.\n3. An appeal can be filed within 30 days.\n4. Delegation to Common Service Centres is identified as a concern.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F11"
+   ],
+   "explanation": "Exactly three statements are correct: statements 1, 2 and 3 reflect the refusal, cancellation and appeal provisions, while statement 4 correctly identifies the concern about delegation to Common Service Centres. Therefore, the answer is Only three."
+  }
+ ]
+}

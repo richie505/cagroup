@@ -1,0 +1,285 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F3",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F4",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P3.F3",
+  "P3.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Docking schedule",
+   "question": "On the Axiom-4 mission carrying Shubhanshu Shukla to the International Space Station, when was docking targeted after the journey from launch?",
+   "options": [
+    "26 June 2025 at 4:30 PM IST, after a 28-hour journey",
+    "25 June 2025 at 12:01 PM IST, after a 28-hour journey",
+    "29 May 2025 at 4:30 PM IST, after a 14-hour journey",
+    "1 July 2025 at 4:30 PM IST, after a 28-hour journey"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Docking was targeted for 26 June 2025 at 4:30 PM IST, following a 28-hour journey. The tempting alternative of 25 June 2025 at 12:01 PM IST refers to the launch time, not the docking schedule."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Crew composition and roles",
+   "question": "Match the Axiom-4 crew members in List-I with their roles and countries in List-II.\n\nList-I\n(a) Peggy Whitson\n(b) Shubhanshu Shukla\n(c) Sławosz Uznański-Wiśniewski\n(d) Tibor Kapu\n\nList-II\ni. Pilot — India\nii. Mission Specialist — Hungary\niii. Commander — USA\niv. Mission Specialist — Poland",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6",
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii: Peggy Whitson was the USA’s Commander; Shubhanshu Shukla was the Indian Pilot; Sławosz Uznański-Wiśniewski was the Polish Mission Specialist; and Tibor Kapu was the Hungarian Mission Specialist. The other codes interchange either the roles or the countries."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Research participation and experiments",
+   "question": "Consider the following statements about the scientific programme of the Axiom-4 mission:\n\n1. The mission involved 60 studies from 31 countries.\n2. India contributed 7 ISRO-selected microgravity experiments, 5 ISRO–NASA joint studies and 2 in-orbit STEM demonstrations.\n3. The mission involved 31 studies from 60 countries.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the programme covered 60 studies from 31 countries, while India contributed 7 microgravity experiments, 5 joint studies and 2 STEM demonstrations. Statement 3 reverses the figures for studies and countries."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Mission delay and quarantine",
+   "question": "Consider the following statements about the Axiom-4 mission’s postponed launch:\n\nStatement A: The original launch date was 29 May 2025.\nStatement B: Crew quarantine began on the launch date.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "Statement A is true because the original launch date was 29 May 2025. Statement B is false: quarantine began from 25 May, while the postponement was associated with a LOX leak and a Zvezda module snag."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Associated frigates",
+   "question": "Along with INS Tamal, what additional frigate-related development was noted at Goa Shipyard Ltd?",
+   "options": [
+    "Two Triput-class frigates were being built with Russian design support",
+    "Two Krivak-class frigates were being built without foreign design support",
+    "One Talwar-class frigate was being built at Yantar Shipyard",
+    "Four Triput-class frigates were being built with American design support"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "Two Triput-class frigates were being built at Goa Shipyard Ltd with Russian design support. The alternatives change the class, number, shipyard or source of design support."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Technical specifications",
+   "question": "Match the specifications of INS Tamal in List-I with the corresponding details in List-II.\n\nList-I\n(a) Length\n(b) Displacement\n(c) Crew\n\nList-II\ni. Over 250\n ii. 125 m\n iii. 3,900 tonnes",
+   "options": [
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "The correct matching is a-ii, b-iii and c-i: INS Tamal is 125 m long, has a displacement of 3,900 tonnes and carries a crew of over 250. The other codes misassign these three specifications."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fleet strength",
+   "question": "How many ships of similar capability were stated to be spread across four classes in the relevant Indian naval fleet?",
+   "options": [
+    "10 ships",
+    "Eight ships",
+    "Two ships",
+    "Four ships"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "The fleet total was stated as 10 ships of similar capability across four classes. Eight refers to the series position of the frigate, while two and four are figures associated with other details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Weapon system",
+   "question": "Which weapon system is fitted on INS Tamal?",
+   "options": [
+    "BrahMos cruise missiles",
+    "CAR-T cell therapy",
+    "Falcon 9 launch system",
+    "InCART platform"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "INS Tamal is equipped with BrahMos cruise missiles. The other options relate respectively to medical therapy, a space-launch system and an indigenous CAR-T platform, not the frigate’s weapon system."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Indigenous content and BrahMos distinction",
+   "question": "Consider the following statements about INS Tamal:\n\nStatement A: Its indigenous content is 26%, including over 33 Made-in-India systems.\nStatement B: INS Tamal was the first ship fitted with BrahMos cruise missiles.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "Statement A is true: INS Tamal has 26% indigenous content and over 33 Made-in-India systems. Statement B is false because INS Tamal was not the first BrahMos-equipped ship; INS Kolkata and the Talwar-class had already carried it."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CAR-T therapy side effects",
+   "question": "Which pair represents the major side effects associated with CAR-T cell therapy?",
+   "options": [
+    "Cytokine Release Syndrome and ICANS",
+    "LOX leak and Zvezda module snag",
+    "Leukapheresis and genetic modification",
+    "Quarantine and microgravity exposure"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "The major side effects are Cytokine Release Syndrome and ICANS, or neurotoxicity. Leukapheresis and genetic modification are treatment steps, while the other alternatives belong to mission or launch-related contexts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Treatment cost",
+   "question": "What was reported as the approximate cost of CAR-T therapy abroad per patient?",
+   "options": [
+    "Over ₹3–4 crore",
+    "Exactly ₹3–4 crore",
+    "Under ₹3–4 crore",
+    "No monetary cost"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The cost of CAR-T therapy abroad was reported as over ₹3–4 crore per patient. The key distinction is the word “over”; the alternatives either remove or reverse that qualification."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian clinical trials",
+   "question": "Where were the ICMR-funded hospital-based CAR-T therapy trials conducted?",
+   "options": [
+    "CMC Vellore",
+    "Goa Shipyard Ltd",
+    "Tata Memorial Centre alone",
+    "Kennedy Space Center"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "The ICMR-funded trials were conducted at CMC Vellore, with hospital-based manufacture. Goa Shipyard Ltd and Kennedy Space Center are unrelated locations, while Tata Memorial Centre is associated with the InCART platform in another fact."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Indigenous CAR-T initiatives",
+   "question": "Consider the following statements about India’s CAR-T initiatives:\n\nStatement A: IIT Bombay and Tata Memorial Centre developed India’s first cost-effective CAR-T platform, InCART.\nStatement B: The Department of Biotechnology supports an imported CAR-T platform rather than Make-in-India CAR-T.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "Statement A is true: IIT Bombay and Tata Memorial Centre developed the first cost-effective platform, InCART. Statement B is false because DBT supports Make-in-India CAR-T, not an imported platform."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "International copyright precedents",
+   "question": "Which countries were cited for laws requiring technology giants to pay news publishers in the context of AI and copyright?",
+   "options": [
+    "Australia and Canada",
+    "India and Poland",
+    "USA and Hungary",
+    "Russia and India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "Australia and Canada were cited as precedents for laws making technology giants pay publishers. The other country combinations are not the pair identified in this copyright discussion."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Fair use and compensation",
+   "question": "Consider the following statements about fair use in the AI-and-news copyright debate:\n\nStatement A: Fair use does not mandate compensation.\nStatement B: Fair use allows unlimited use of content without permission.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Statement A is true because fair use does not mandate compensation. Statement B is false: fair use permits only limited use without permission, not unlimited use."
+  }
+ ]
+}

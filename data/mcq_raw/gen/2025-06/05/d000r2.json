@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F15",
+  "P1.F4",
+  "P1.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Missile used",
+   "question": "Which missile did Iran use in its retaliation during the June 2025 Iran–Israel conflict?",
+   "options": [
+    "Kheybar Shekan",
+    "GBU-57 MOP",
+    "Tomahawk",
+    "Bunker buster"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Iran used the solid-fuel Kheybar Shekan missile in its retaliation. The GBU-57 MOP, Tomahawk and bunker buster were weapons associated with the US strikes, not Iran’s missile retaliation."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Defence sub-committees and groupings",
+   "question": "With reference to the India–South Africa submarine cooperation pacts discussed at the 9th Joint Defence Committee meeting, consider the following statements:\n\n1. The Defence Policy & Military Cooperation sub-committee was among the relevant sub-committees.\n2. The Defence Acquisition, Production, R&D sub-committee was replaced by the Defence Policy & Military Cooperation sub-committee.\n3. India and South Africa share membership of BRICS, IORA, IBSA and NAM.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the sub-committees included Defence Policy & Military Cooperation, and Defence Acquisition, Production, R&D; India and South Africa share BRICS, IORA, IBSA and NAM. Statement 2 is incorrect because the two sub-committees were separate, not replacements for one another."
+  }
+ ]
+}

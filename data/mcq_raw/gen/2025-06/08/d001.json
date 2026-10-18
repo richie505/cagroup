@@ -1,0 +1,212 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F15",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18",
+  "P1.F19",
+  "P1.F2",
+  "P1.F20",
+  "P1.F8",
+  "P1.F9",
+  "P2.F4",
+  "P2.F5",
+  "P2.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s rank",
+   "question": "In the Sustainable Development Report 2025, what was India’s rank among 167 countries, marking its first entry into the top 100?",
+   "options": [
+    "99th",
+    "109th",
+    "120th",
+    "121st"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F8"
+   ],
+   "explanation": "India ranked 99th among 167 countries in 2025, with a score of 67, entering the top 100 for the first time. The tempting 109th is India’s rank in 2024, not 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Top-ranked countries",
+   "question": "Which group of countries occupied the top three positions in the Sustainable Development Report 2025?",
+   "options": [
+    "Finland, Sweden and Denmark",
+    "Sweden, Denmark and China",
+    "Finland, China and the United States",
+    "Denmark, Norway and Finland"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9"
+   ],
+   "explanation": "Finland, Sweden and Denmark occupied the top three positions. The other combinations incorrectly include countries that were not listed among the top three."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Country rankings",
+   "question": "With reference to country rankings in the Sustainable Development Report 2025, consider the following statements:\n1. Finland, Sweden and Denmark occupied the top three positions.\n2. The United States ranked 44th and was 193rd in commitment to the SDGs.\n3. China ranked 47th with a score of 74.4.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Finland, Sweden and Denmark were the top three, while the United States ranked 44th and was last at 193rd in commitment to the SDGs. Statement 3 is incorrect because China ranked 49th, not 47th, with a score of 74.4."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Country-wise ranks",
+   "question": "Match List-I with List-II regarding country rankings in the Sustainable Development Report 2025.\n\nList-I\n a. Maldives\n b. Bhutan\n c. Nepal\n d. Sri Lanka\n\nList-II\n i. 74th\n ii. 53rd\n iii. 85th\n iv. 93rd\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F12",
+    "P1.F13",
+    "P1.F14",
+    "P1.F15"
+   ],
+   "explanation": "The correct pairs are Maldives–53rd, Bhutan–74th, Nepal–85th and Sri Lanka–93rd, represented by a-ii, b-i, c-iii and d-iv. The other codes interchange these country rankings."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "South Asian country rankings",
+   "question": "Consider the following statements:\nStatement A: Bangladesh ranked 114th in the Sustainable Development Report 2025.\nStatement B: Pakistan ranked 145th in the Sustainable Development Report 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F16",
+    "P1.F17"
+   ],
+   "explanation": "Both statements are false. Bangladesh ranked 114th, but Pakistan ranked 140th, not 145th."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SDG targets on track",
+   "question": "According to the Sustainable Development Report 2025, what proportion of global SDG targets was on track for 2030?",
+   "options": [
+    "17%",
+    "25%",
+    "35%",
+    "50%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F18"
+   ],
+   "explanation": "Only 17% of global SDG targets were on track for 2030. The other percentages do not represent the proportion reported."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Fastest improvers since 2015",
+   "question": "Match the countries with their improvement in the Sustainable Development Report since 2015.\n\nList-I\n a. Benin\n b. Uzbekistan\n c. Nepal\n d. Cambodia\n\nList-II\n i. +12.1\n ii. +10\n iii. +14.5\n iv. +11.1\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F19"
+   ],
+   "explanation": "The correct pairs are Benin–+14.5, Uzbekistan–+12.1, Nepal–+11.1 and Cambodia–+10. These correspond to a-iii, b-i, c-iv and d-ii."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "FfD4 venue and dates",
+   "question": "Where and when was the fourth International Conference on Financing for Development (FfD4) scheduled to be held?",
+   "options": [
+    "Seville, Spain, from 30 June to 3 July 2025",
+    "Madrid, Spain, from 30 June to 3 July 2025",
+    "Seville, Spain, from 25 June to 30 June 2025",
+    "Lisbon, Portugal, from 30 June to 3 July 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F20"
+   ],
+   "explanation": "FfD4 was scheduled in Seville, Spain, from 30 June to 3 July 2025. The other options alter the venue, country or dates."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Biotechnology weight",
+   "question": "In the Critical and Emerging Technologies Index, what weight was assigned to the biotechnology sector?",
+   "options": [
+    "20%",
+    "15%",
+    "25%",
+    "5%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Biotechnology carried a weight of 20% in the index. The other percentages belong to different sectors or weights mentioned in the index."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Space sector weight",
+   "question": "What was the weight assigned to the space sector in the Critical and Emerging Technologies Index?",
+   "options": [
+    "15%",
+    "20%",
+    "25%",
+    "35%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The space sector was assigned a weight of 15%. The other options do not represent the space-sector weight."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Overall ranking",
+   "question": "Which sequence correctly represents the top three positions in the Critical and Emerging Technologies Index?",
+   "options": [
+    "United States, China, Europe",
+    "China, United States, Europe",
+    "United States, Europe, China",
+    "Europe, China, United States"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "The United States ranked first, China second and Europe third; the United States led all five sectors. The other sequences reverse the order of these leading entries."
+  }
+ ]
+}

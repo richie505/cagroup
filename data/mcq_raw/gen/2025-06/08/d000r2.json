@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F14",
+  "P0.F15",
+  "P0.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Glacier mass loss",
+   "question": "According to the WMO State of the Climate in Asia 2024, consider the following statements about monitored glaciers:\n1. Twenty-three of the twenty-four monitored glaciers lost mass.\n2. The monitored glaciers were located in the central Himalaya and the Tian Shan.\n3. Twenty-two of the twenty-four monitored glaciers lost mass.\n\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 23 of 24 monitored glaciers in the central Himalaya and Tian Shan lost mass. Statement 3 is incorrect because the reported figure was 23 of 24, not 22 of 24."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Deaths and affected population",
+   "question": "With reference to extreme-weather events reported in Asia during 2024, how many of the following statements are correct?\n1. Lightning in India caused approximately 1,300 deaths.\n2. On 10 July, 72 lightning deaths were reported across Uttar Pradesh, Madhya Pradesh, Maharashtra and Rajasthan.\n3. The China drought affected 4.8 million people.\n4. The China drought affected 4.6 million people.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F14",
+    "P0.F15"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: lightning in India caused approximately 1,300 deaths, including 72 deaths on 10 July across the stated areas, while the China drought affected 4.8 million people. Statement 4 is incorrect because the reported figure was 4.8 million, not 4.6 million."
+  }
+ ]
+}

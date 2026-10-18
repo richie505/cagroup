@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P3.F6",
+  "P3.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Pharma sector performance under PLI",
+   "question": "With reference to the pharma sector under the Production-Linked Incentive schemes, consider the following statements:\n1. Sales amounted to ₹2.66 lakh crore and exports to ₹1.70 lakh crore over three years.\n2. Exports in FY25 were ₹0.67 lakh crore, approximately 27% of pharma exports.\n3. About 40% of ₹37,306 crore investment went into research and development, while domestic value addition stood at 40%.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: pharma sales and exports over three years were ₹2.66 lakh crore and ₹1.70 lakh crore, while FY25 exports were ₹0.67 lakh crore, approximately 27% of pharma exports. Statement 3 is incorrect because domestic value addition was 83.7%, although 40% of ₹37,306 crore investment went into research and development."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Food-processing sector under PLI",
+   "question": "With reference to the food-processing sector under the Production-Linked Incentive schemes, how many of the following statements are correct?\n1. Investment in the sector amounted to ₹9,032 crore.\n2. Production in the sector amounted to ₹3.8 lakh crore.\n3. The sector generated 3.4 lakh jobs.\n4. The sector generated 2.66 lakh jobs.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "Only three statements are correct. The food-processing sector recorded investment of ₹9,032 crore, production of ₹3.8 lakh crore and 3.4 lakh jobs; 2.66 lakh jobs is incorrect."
+  }
+ ]
+}
