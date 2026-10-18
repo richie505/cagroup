@@ -1,0 +1,82 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P3.F16",
+  "P3.F3",
+  "P3.F5",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Investment amount",
+   "question": "Under the Andhra Pradesh Airport Development Corporation Ltd (APADCL), what investment was earmarked for Sarla Aviation’s Sky Factory electric air taxi hub in Anantapur district?",
+   "options": [
+    "₹1,300 crore",
+    "₹5,300 crore",
+    "₹7,100 crore",
+    "₹1,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "The Sky Factory project received an investment of ₹1,300 crore under APADCL. ₹5,300 crore relates to Carbonatik LLC’s inland waterways project, while ₹7,100 crore relates to its aviation MRO hub."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First/only",
+   "question": "Sarla Aviation’s Sky Factory in Anantapur was described as which of the following?",
+   "options": [
+    "India’s first giga-scale eVTOL ecosystem",
+    "India’s first dedicated AI University",
+    "India’s largest MRO hub",
+    "India’s first Urban Water Metro"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "The Sky Factory was described as India’s first giga-scale eVTOL ecosystem. The other options refer to different proposed projects or facilities and do not describe the Sky Factory."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Aircraft specification",
+   "question": "What type of aircraft is planned for Sarla Aviation’s Sky Factory project?",
+   "options": [
+    "A six-seater electric air taxi for inter-city Urban Air Mobility",
+    "A hybrid VTOL aircraft named Shunya",
+    "A cargo aircraft for inland waterways",
+    "A drone designed exclusively for flight training"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "The project plans a six-seater electric air taxi for inter-city Urban Air Mobility. The hybrid VTOL description refers to the flagship model, while cargo and flight-training uses do not describe this aircraft."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Capacity and investment",
+   "question": "With reference to the Sky Factory and Carbonatik LLC’s inland waterways project, consider the following statements:\n\n1. The Sky Factory is planned to have a capacity of approximately 1,000 eVTOL aircraft per year.\n2. Carbonatik LLC’s inland waterways project involves an investment of ₹5,300 crore.\n3. Carbonatik LLC’s inland waterways project involves an investment of ₹7,100 crore.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9",
+    "P3.F16"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Sky Factory’s planned annual capacity is approximately 1,000 eVTOL aircraft, and Carbonatik LLC’s inland waterways project carries an investment of ₹5,300 crore. Statement 3 is incorrect because ₹7,100 crore is not the investment stated for that project."
+  }
+ ]
+}

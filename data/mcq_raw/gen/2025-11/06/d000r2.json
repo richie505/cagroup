@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Crop trait and training",
+   "question": "With reference to recent genome-editing developments in Indian agriculture, consider the following statements:\n1. Genome-edited mustard is associated with low pungency and disease/pest resistance.\n2. Twelve scientists have already been trained abroad in genome-editing techniques.\n3. Nine scientists have been trained abroad, and twelve more are scheduled for training.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F11"
+   ],
+   "explanation": "Statements 1 and 3 are correct. The genome-edited mustard is associated with low pungency and disease/pest resistance, while nine scientists were trained abroad and twelve more were scheduled for training. Statement 2 reverses these two figures: twelve were scheduled, not already trained."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indigenous genome-editing tool",
+   "question": "Which institution was associated with the team led by Kutubuddin Ali Molla that developed the indigenous TnpB-based mini genome editor?",
+   "options": [
+    "Central Rice Research Institute, Cuttack",
+    "Indian Agricultural Research Institute",
+    "Innovative Genomics Institute",
+    "Genetic Engineering Appraisal Committee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "The indigenous TnpB-based mini editor was developed by a team led by Kutubuddin Ali Molla at the Central Rice Research Institute, Cuttack. The Indian Agricultural Research Institute was associated with training, while the Innovative Genomics Institute supplied newer tools."
+  }
+ ]
+}

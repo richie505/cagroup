@@ -1,0 +1,194 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F11",
+  "P1.F14",
+  "P1.F3",
+  "P1.F4",
+  "P1.F5",
+  "P1.F7",
+  "P1.F8",
+  "P2.F11",
+  "P2.F12",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F2",
+  "P2.F3",
+  "P2.F4",
+  "P2.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Immediate effect and phased implementation",
+   "question": "With reference to the Digital Personal Data Protection Rules, 2025, consider the following statements:\n1. The formation of the Data Protection Board of India and the RTI amendment take immediate effect.\n2. Most provisions, including consent systems, erasure, Data Protection Officers, audits and breach reporting, apply after 12–18 months.\n3. Citizens have rights including erasure, correction, grievance redressal and appointment of a digital nominee after death or incapacity.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "All three statements are correct. The Rules give immediate effect to the Data Protection Board of India and the RTI amendment, phase most provisions after 12–18 months, and provide the listed citizen rights. The tempting option ‘2 and 3 only’ is incorrect because the Board and RTI amendment also take immediate effect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Children’s data protection",
+   "question": "Which of the following statements regarding the Digital Personal Data Protection Rules, 2025, is incorrect?",
+   "options": [
+    "Targeted advertisements to children are restricted.",
+    "A limited exemption permits parents to track a child’s location.",
+    "Children are protected through restrictions on targeted advertising.",
+    "Targeted advertisements to children are permitted without restriction."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "The incorrect statement is that targeted advertisements to children are permitted without restriction. The Rules restrict such advertisements, while allowing a limited exemption for parents to track a child’s location. The other three options reflect these child-protection provisions."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Obligations of Significant Data Fiduciaries",
+   "question": "Assertion (A): Significant Data Fiduciaries are subject to graded obligations under the Digital Personal Data Protection Rules, 2025.\nReason (R): All Significant Data Fiduciaries are subject to identical obligations without grading.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "Assertion A is true because Significant Data Fiduciaries have graded obligations. Reason R is false because the obligations are graded, not identical without grading. Therefore, the correct option is ‘A is true, but R is false.’"
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "RTI amendment",
+   "question": "Which provision of the Right to Information Act, 2005, was amended by removing the public interest override for personal information under the Digital Personal Data Protection Rules, 2025?",
+   "options": [
+    "Section 8(1)(j)",
+    "The provision concerning Consent Managers",
+    "The provision concerning targeted advertisements to children",
+    "The provision concerning appointment of a digital nominee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "Section 8(1)(j) of the RTI Act, 2005, was amended by removing the public interest override for personal information. The other options describe different features of the data-protection framework, not the amended RTI provision."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Privacy as a fundamental right",
+   "question": "Assertion (A): The Puttaswamy judgment of 2017 recognised privacy as a fundamental right under Article 21.\nReason (R): The Puttaswamy judgment of 2017 held that privacy was not a fundamental right.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F14"
+   ],
+   "explanation": "Assertion A is correct: Puttaswamy (2017) recognised privacy as a fundamental right under Article 21. Reason R is false because the judgment recognised, rather than rejected, privacy as a fundamental right. Hence, ‘A is true, but R is false’ is correct."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Status of the Chandigarh proposal",
+   "question": "With reference to the proposal concerning Chandigarh under Article 240, consider the following statements:\nStatement A: The proposal faced backlash in Punjab from the AAP Chief Minister Bhagwant Mann, Congress, SAD and the Punjab BJP chief Sunil Jakhar.\nStatement B: The Ministry of Home Affairs announced a final decision and introduced the Bill in the Winter Session of 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "Statement A is true because the proposal faced backlash in Punjab from the listed political figures and parties. Statement B is false: the Ministry of Home Affairs clarified that there was no final decision and that no Bill would be introduced in the Winter Session of 2025. Therefore, the correct answer is ‘Statement A is true, Statement B is false.’"
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Effect of adding Chandigarh to Article 240",
+   "question": "If Chandigarh were added to Article 240, which of the following effects would follow?",
+   "options": [
+    "Chandigarh would have an independent Administrator or Lieutenant-Governor, and the President could make regulations for it.",
+    "Chandigarh would cease to be administered as a Union Territory and become a State.",
+    "The Governor of Punjab would become the President’s sole law-making authority for Chandigarh.",
+    "The Punjab and Haryana property division would be replaced by a new arrangement."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "If the proposal were passed, Chandigarh would have an independent Administrator or Lieutenant-Governor, and the President could make regulations for Chandigarh. The other options describe changes not stated as an effect of the proposal."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Chandigarh’s historical and administrative details",
+   "question": "Match List-I with List-II regarding Chandigarh.\n\nList-I\n(a) Haryana’s statehood status\n(b) Capital law\n(c) Periphery regulation\n(d) Land acquired for Chandigarh\n\nList-II\n(i) 22 villages of Kharar\n(ii) Punjab New Capital (Periphery) Control Act, 1952 — 16 km radius\n(iii) 17th state\n(iv) Capital of Punjab (Development and Regulation) Act, 1952\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F11",
+    "P2.F12",
+    "P2.F14"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i. Haryana was the 17th state; the relevant capital law is the Capital of Punjab (Development and Regulation) Act, 1952; the periphery law provided a 16 km radius; and the land consisted of 22 villages of Kharar. The other codes interchange these distinct details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Centre’s 1970 position",
+   "question": "What was the Centre’s position on Chandigarh on 29 January 1970?",
+   "options": [
+    "Chandigarh should go to Punjab as a whole.",
+    "Chandigarh should go to Haryana as a whole.",
+    "Chandigarh should be divided equally between Punjab and Haryana.",
+    "Chandigarh should be administered directly by the Ministry of Home Affairs."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F15"
+   ],
+   "explanation": "On 29 January 1970, the Centre said that Chandigarh should go to Punjab as a whole. The alternatives proposing Haryana, equal division or direct Ministry of Home Affairs administration do not reflect that position."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Shelved appointment",
+   "question": "Which proposed appointment as Administrator of Chandigarh was shelved in 2016?",
+   "options": [
+    "K. J. Alphons",
+    "Bhagwant Mann",
+    "Sunil Jakhar",
+    "Rajendra Prasad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F16"
+   ],
+   "explanation": "The proposed appointment of K. J. Alphons as Administrator of Chandigarh was shelved in 2016. Bhagwant Mann and Sunil Jakhar were associated with the Punjab backlash, while Rajendra Prasad was associated with Chandigarh becoming Punjab’s capital."
+  }
+ ]
+}

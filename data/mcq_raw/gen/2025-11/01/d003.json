@@ -1,0 +1,172 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": [
+  "P7.F11",
+  "P7.F12",
+  "P7.F13",
+  "P7.F14",
+  "P7.F15",
+  "P7.F16",
+  "P7.F17",
+  "P7.F5",
+  "P7.F6",
+  "P8.F1",
+  "P8.F6",
+  "P8.F7",
+  "P8.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Demand from organisations",
+   "question": "Which organisations demanded the Building Penalisation Scheme (BPS) 2025 in Andhra Pradesh?",
+   "options": [
+    "CREDAI, NAREDCO and CLESA",
+    "VMRDA, APCRDA and IALA",
+    "NAREDCO, IALA and VK–PCPIR UDA",
+    "CREDAI, APCRDA and VMRDA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "The demand for BPS 2025 came from CREDAI, NAREDCO and CLESA. The other options incorrectly replace one or more of these organisations with development authorities or IALA."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coverage under BPS",
+   "question": "Consider the following statements regarding the coverage of Andhra Pradesh’s Building Penalisation Scheme (BPS) 2025:\n\n1. It covers Municipal Corporations, Municipalities, Nagar Panchayats and Gram Panchayats under Urban Development Authorities.\n2. It covers APCRDA, VMRDA, VK–PCPIR UDA and IALAs.\n3. Its coverage includes both local bodies under Urban Development Authorities and the specified development authorities and IALAs.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F6"
+   ],
+   "explanation": "All three statements correctly describe the coverage of BPS 2025. The scheme covers the listed local bodies under Urban Development Authorities as well as APCRDA, VMRDA, VK–PCPIR UDA and IALAs."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Concession rates",
+   "question": "Which of the following statements regarding the concessions under Andhra Pradesh’s BPS 2025 is incorrect?",
+   "options": [
+    "Buildings constructed before 1997 receive a 25% concession.",
+    "Residential buildings in notified slums receive a 50% concession.",
+    "Buildings constructed before 1997 receive a 50% concession.",
+    "Residential buildings in notified slums receive a 50% concession, while pre-1997 buildings receive a 25% concession."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F11"
+   ],
+   "explanation": "The incorrect statement is that pre-1997 buildings receive a 50% concession. The correct concession for such buildings is 25%; residential buildings in notified slums receive a 50% concession."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Excluded constructions and areas",
+   "question": "Consider the following statements about exclusions under Andhra Pradesh’s BPS 2025:\n\nStatement A: Constructions on public land are excluded from the scheme.\nStatement B: New constructions made after 31 August 2025 are excluded from the scheme.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F12"
+   ],
+   "explanation": "Both statements are true. BPS 2025 excludes constructions on public land and new constructions made after 31 August 2025."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Abbreviations of authorities and organisations",
+   "question": "Match the abbreviations in List-I with their correct full forms in List-II.\n\nList-I\n(a) VMRDA\n(b) VK–PCPIR UDA\n(c) IALA\n(d) CREDAI\n\nList-II\n(i) Confederation of Real Estate Developers' Associations of India\n(ii) Industrial Area Local Authority\n(iii) Visakhapatnam Metropolitan Region Development Authority\n(iv) Visakhapatnam–Kakinada Petroleum, Chemical & Petrochemical Investment Region UDA",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F13",
+    "P7.F14",
+    "P7.F15",
+    "P7.F16"
+   ],
+   "explanation": "The correct pairs are VMRDA–Visakhapatnam Metropolitan Region Development Authority, VK–PCPIR UDA–Visakhapatnam–Kakinada Petroleum, Chemical & Petrochemical Investment Region UDA, IALA–Industrial Area Local Authority and CREDAI–Confederation of Real Estate Developers' Associations of India. The other codes interchange these full forms."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Abbreviation and full form",
+   "question": "What is the full form of NAREDCO in the context of Andhra Pradesh’s BPS 2025?",
+   "options": [
+    "National Real Estate Development Council",
+    "Confederation of Real Estate Developers' Associations of India",
+    "Industrial Area Local Authority",
+    "Visakhapatnam Metropolitan Region Development Authority"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F17"
+   ],
+   "explanation": "NAREDCO stands for National Real Estate Development Council. The other options are the full forms of CREDAI, IALA and VMRDA respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch venue",
+   "question": "The Chandranna Vidyut Velugulu programme was launched at which place?",
+   "options": [
+    "Kodurupadu ST Colony, Nellore Rural",
+    "Bhagat Singh Colony, Nellore Rural",
+    "Kodurupadu ST Colony, Capital City Area of APCRDA",
+    "Kodurupadu ST Colony, VK–PCPIR UDA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "The programme was launched at Kodurupadu ST Colony in Nellore Rural. The other options combine the colony with places or areas not identified as its launch location."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Beneficiary categories",
+   "question": "How many of the following were identified as beneficiary groups under the Chandranna Vidyut Velugulu programme?\n\n1. Farming families\n2. Small traders\n3. Large industries\n4. Tribal families receiving land titles under the Bhagat Singh Colony model",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F6"
+   ],
+   "explanation": "Only two of the listed items are beneficiary groups identified under the programme: farming families and small traders. The stated beneficiary details also include small industries, not large industries; tribal families receiving land titles are mentioned separately in connection with the land-title initiative."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Coverage and completion status",
+   "question": "Consider the following statements about the Chandranna Vidyut Velugulu programme in Nellore Rural:\n\nStatement A: The programme covers 26 areas.\nStatement B: Of these areas, 17 have been completed and 9 are nearing completion.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "Both statements are true. The programme covers 26 areas, with 17 completed and 9 nearing completion."
+  }
+ ]
+}

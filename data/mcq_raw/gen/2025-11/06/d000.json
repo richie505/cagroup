@@ -1,0 +1,119 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GE crop varieties and benefits",
+   "question": "With reference to the genome-edited crop varieties, consider the following statements:\n1. The improved Samba Mahsuri and MTU-1010 are among the GE rice varieties.\n2. Editing the Gn1a gene in Samba Mahsuri resulted in approximately 19% yield gain.\n3. MTU-1010 was edited for disease and pest resistance.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: improved Samba Mahsuri and MTU-1010 are GE rice varieties, and Gn1a editing in Samba Mahsuri increased yield by approximately 19%. Statement 3 is incorrect because MTU-1010 was associated with drought and salt tolerance in saline or alkaline soils, not disease and pest resistance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Trait of GE mustard",
+   "question": "Which of the following best describes the target traits of the low-pungency GE mustard variety being tested?",
+   "options": [
+    "Low pungency with disease and pest resistance",
+    "Drought tolerance with approximately 19% yield gain",
+    "More spikelets with salt tolerance",
+    "Foreign-gene insertion with improved yield"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The GE mustard variety is being developed for low pungency and disease or pest resistance. The options referring to more spikelets and approximately 19% yield gain describe Samba Mahsuri, while salt tolerance is associated with MTU-1010."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Agricultural funding and gene mapping",
+   "question": "Match List-I with List-II regarding agricultural science funding and gene mapping.\n\nList-I\n a. National Agricultural Science Fund\n b. Union Budget 2023–24 allocation\n c. Genes mapped in 24 field crops\n d. Genes mapped in horticultural crops\n\nList-II\n i. Around 2018\n ii. ₹500 crore\n iii. Approximately 178 genes\n iv. 43 genes",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The National Agricultural Science Fund dates to around 2018, the Union Budget 2023–24 provided ₹500 crore, and ICAR mapped approximately 178 genes in 24 field crops and 43 genes in horticultural crops."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Genome-editing tool supplier",
+   "question": "Which organisation supplied the newer genome-editing tools GeoCas9 and CasLambda used in agricultural genome-editing work?",
+   "options": [
+    "Innovative Genomics Institute",
+    "Central Rice Research Institute",
+    "Indian Agricultural Research Institute",
+    "CIMMYT Mexico"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "GeoCas9 and CasLambda were supplied by the Innovative Genomics Institute. The Central Rice Research Institute is associated with the indigenous TnpB-based mini editor, while training was conducted at the Indian Agricultural Research Institute."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indigenous TnpB-based mini editor",
+   "question": "The indigenous TnpB-based mini editor was developed by a team led by Kutubuddin Ali Molla at which institution?",
+   "options": [
+    "Central Rice Research Institute, Cuttack",
+    "Indian Agricultural Research Institute",
+    "Innovative Genomics Institute",
+    "CIMMYT Mexico"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "The indigenous TnpB-based mini editor was developed by a team led by Kutubuddin Ali Molla at the Central Rice Research Institute in Cuttack. The Innovative Genomics Institute supplied GeoCas9 and CasLambda, whereas IARI was the site of training."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Overseas genome-editing training",
+   "question": "How many scientists had been trained abroad in genome-editing tools, before the additional training of 12 scientists scheduled subsequently?",
+   "options": [
+    "9",
+    "12",
+    "24",
+    "43"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "Nine scientists had been trained abroad, with 12 more scheduled for training. The figures 24 and 43 refer to the number of field crops and horticultural-crop genes associated with ICAR mapping, respectively."
+  }
+ ]
+}

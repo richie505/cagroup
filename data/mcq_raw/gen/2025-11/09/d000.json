@@ -1,0 +1,138 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Conviction date",
+   "question": "On which date was Batukeshwar Dutt convicted in the Delhi Assembly Bomb Case?",
+   "options": [
+    "12 June 1929",
+    "8 April 1929",
+    "23 March 1931",
+    "20 July 1965"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Batukeshwar Dutt was convicted in the Delhi Assembly Bomb Case on 12 June 1929. 8 April 1929 was the date of the Central Assembly Bombing, not his conviction."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Jail history",
+   "question": "Which of the following correctly lists the jails in which Batukeshwar Dutt was imprisoned?",
+   "options": [
+    "Multan, Jhelum, Trichinopoly, Salem and Andamans",
+    "Salem, Patna, Hussainiwala, Jhelum and Andamans",
+    "Multan, Kanpur, Trichinopoly, Salem and Patna",
+    "Jhelum, Burdwan, Salem, Andamans and Kanpur"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Batukeshwar Dutt was imprisoned in Multan, Jhelum, Trichinopoly, Salem and the Andamans for 9 years. Patna, Hussainiwala, Kanpur and Burdwan are not included in this list of jails."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Jail and Quit India history",
+   "question": "Consider the following statements about Batukeshwar Dutt:\n1. He was in Salem Jail when Bhagat Singh, Rajguru and Sukhdev were hanged on 23 March 1931.\n2. He was released in 1939 and re-arrested in Quit India in 1942.\n3. After his re-arrest in Quit India in 1942, he underwent 9 more years of imprisonment.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Statement 1 is correct: Dutt was in Salem Jail when Bhagat Singh, Rajguru and Sukhdev were hanged on 23 March 1931. He was released in 1938, not 1939, and served 4 more years after his re-arrest, not 9."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Organisations, association and final places",
+   "question": "Match List-I with List-II in the context of Batukeshwar Dutt.\n\nList-I\n a. HSRA\n b. Kanpur\n c. Patna\n d. Hussainiwala\n\nList-II\n i. Organisation associated with Dutt\n ii. Place where Dutt met Bhagat Singh\n iii. Place where Dutt later settled\n iv. Place of Dutt's cremation\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-iv, c-ii, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: HSRA was an organisation associated with Dutt, he met Bhagat Singh in Kanpur, later settled in Patna, and was cremated at Hussainiwala. The other codes interchange these organisations and places."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Book and author",
+   "question": "Who authored the book 'Bhagat Singh aur Dutt ki Amar Kahani'?",
+   "options": [
+    "Chaman Lal Azad",
+    "Justice Anil Verma",
+    "Bhairav Lal Das",
+    "Manoj Kumar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "‘Bhagat Singh aur Dutt ki Amar Kahani’, published in 1966, was authored by Chaman Lal Azad. Justice Anil Verma and Bhairav Lal Das authored the other listed books, while Manoj Kumar was associated with the film ‘Shaheed’."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Books and authors",
+   "question": "Consider the following statements about books on Batukeshwar Dutt:\n1. ‘Bhagat Singh ke Sahyogi: Batukeshwar Dutt’ was authored by Justice Anil Verma.\n2. ‘Viplvi Batukeshwar Dutt’ was authored by Chaman Lal Azad.\n3. ‘Bhagat Singh ke Sahyogi: Batukeshwar Dutt’ was authored by Bhairav Lal Das.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Only Statement 1 is correct: Justice Anil Verma authored ‘Bhagat Singh ke Sahyogi: Batukeshwar Dutt’. ‘Viplvi Batukeshwar Dutt’ was authored by Bhairav Lal Das, not Chaman Lal Azad, and the latter did not author the Justice Anil Verma book."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Film approved",
+   "question": "Which film did Batukeshwar Dutt approve?",
+   "options": [
+    "Shaheed",
+    "Bhagat Singh aur Dutt ki Amar Kahani",
+    "Bhagat Singh ke Sahyogi: Batukeshwar Dutt",
+    "Viplvi Batukeshwar Dutt"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Batukeshwar Dutt approved Manoj Kumar’s film ‘Shaheed’ in 1965. The other three options are book titles associated with Batukeshwar Dutt, not the film he approved."
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P1.F10",
+  "P1.F15",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "New revenue divisions and districts",
+   "question": "Consider the following statements regarding the new revenue divisions announced in Andhra Pradesh:\nStatement A: Banaganapalle division was assigned to Nandyala district.\nStatement B: Madakasira division was assigned to Sri Sathya Sai district.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "Both statements are true. Banaganapalle division belongs to Nandyala district, while Madakasira division belongs to Sri Sathya Sai district. The alternatives incorrectly reject one or both of these district assignments."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of major attacks",
+   "question": "Approximately how many major attacks were associated with Madvi Hidma during his insurgent career?",
+   "options": [
+    "Approximately 26",
+    "Approximately 22",
+    "Approximately 50",
+    "Approximately 76"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "Approximately 26 major attacks were associated with Madvi Hidma. The other figures do not represent the approximate number of major attacks attributed to him."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Operation Kagar objective",
+   "question": "Assertion (A): Operation Kagar was a Union-led, multi-state anti-Maoist offensive in 2025.\nReason (R): Its target was to end Maoism by March 2025.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F16"
+   ],
+   "explanation": "Assertion A is true: Operation Kagar was a Union-led, multi-state anti-Maoist offensive in 2025. Reason R is false because the target was to end Maoism by March 2026, not March 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Former General Secretary killed in 2025",
+   "question": "Which description correctly identifies Basavaraju, also known as Nambala Keshava Rao?",
+   "options": [
+    "Former General Secretary of CPI (Maoist), killed in May 2025",
+    "Head of the Central Military Commission, killed in November 2025",
+    "Commander of PLGA Battalion No. 1, killed in November 2025",
+    "Youngest and rare tribal member of the Central Committee, killed in November 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F17",
+    "P1.F1",
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Basavaraju, or Nambala Keshava Rao, was the former General Secretary of CPI (Maoist) and was killed in May 2025. The other descriptions refer to distinctions and positions associated with Madvi Hidma."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Decline in Central Committee strength",
+   "question": "How many of the following statements correctly describe the change in the strength of the CPI (Maoist) Central Committee?\n1. It shrank from approximately 42 members in 2004 to approximately 12 in 2025.\n2. It shrank from approximately 42 members in 2004 to approximately 26 in 2025.\n3. It shrank from approximately 50 members in 2004 to approximately 12 in 2025.\n4. It shrank from approximately 42 members in 2004 to approximately 22 in 2025.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F18"
+   ],
+   "explanation": "Only one statement is correct: the Central Committee declined from approximately 42 members in 2004 to approximately 12 in 2025. Statements 2, 3 and 4 alter one of the figures in this comparison."
+  }
+ ]
+}

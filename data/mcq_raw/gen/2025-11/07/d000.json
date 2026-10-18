@@ -1,0 +1,195 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F2",
+  "P1.F10",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F1",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F15",
+  "P2.F16",
+  "P2.F5",
+  "P2.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Low-pressure systems",
+   "question": "According to the IMD forecast associated with Cyclone Senyar, which combination correctly identifies the locations of the two low-pressure systems over the Bay of Bengal region?",
+   "options": [
+    "System 1 over the Strait of Malacca and south Andaman Sea; System 2 near Comorin, southwest Bay of Bengal and Sri Lanka",
+    "System 1 near Comorin and Sri Lanka; System 2 over the Strait of Malacca and south Andaman Sea",
+    "Both systems over the Strait of Malacca and south Andaman Sea",
+    "Both systems near Comorin and Sri Lanka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The first system was over the Strait of Malacca and the south Andaman Sea, while the second was near Comorin, the southwest Bay of Bengal and Sri Lanka. The other options either reverse the systems or place both systems in the same area."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ash plume trajectory and altitude",
+   "question": "Following the eruption of Hayli Gubbi, which route and altitude best describe the ash plume that disrupted flights?",
+   "options": [
+    "Across the Arabian Peninsula and Arabian Sea towards Gujarat, Rajasthan, Delhi, Uttar Pradesh and China at 10–14 km altitude",
+    "Across the Arabian Peninsula and Arabian Sea towards Gujarat and Rajasthan at 2–4 km altitude",
+    "Towards the Gulf of Kutch and Andaman & Nicobar at 10–14 km altitude",
+    "Towards the Strait of Malacca and Sri Lanka at 2–4 km altitude"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "The ash plume travelled via the Arabian Peninsula and Arabian Sea towards Gujarat, Rajasthan, Delhi, Uttar Pradesh and China, reaching 10–14 km altitude. The other options alter either the route or the altitude."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Volcanic ash alerts",
+   "question": "Which centres issue alerts relevant to volcanic ash from eruptions such as Hayli Gubbi?",
+   "options": [
+    "Volcanic Ash Advisory Centres",
+    "MoEFCC Task Force",
+    "IUCN World Conservation Congress",
+    "National Dugong Recovery Programme"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "Volcanic Ash Advisory Centres, or VAACs, issue alerts concerning volcanic ash. The other options relate to dugong conservation or the IUCN Congress rather than volcanic-ash advisories."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Volcano types and examples",
+   "question": "Match the volcano types in List-I with their examples in List-II.\n\nList-I\n a. Active\n b. Dormant\n c. Extinct\n d. Shield\n\nList-II\n i. Dhinodhar Hill\n ii. Kilauea and Santa Maria\n iii. Mount Kilimanjaro\n iv. Mauna Loa",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7",
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "The correct pairs are active–Kilauea and Santa Maria, dormant–Mount Kilimanjaro, extinct–Dhinodhar Hill and shield–Mauna Loa. The other codes interchange these volcano categories and examples."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Composite volcano examples",
+   "question": "Which of the following is identified as an example of a composite or stratovolcano?",
+   "options": [
+    "Mauna Loa",
+    "Dhinodhar Hill",
+    "Mount Kilimanjaro",
+    "Mount Fuji"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "Mount Fuji is listed as an example of a composite or stratovolcano, along with Mayon and Mount Rainier. Mauna Loa is a shield volcano, while Dhinodhar Hill and Mount Kilimanjaro represent other categories."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IUCN assessment and location",
+   "question": "At which IUCN event were threats to Indian dugongs in the Gulf of Kutch and the Andaman & Nicobar region flagged in 2025?",
+   "options": [
+    "IUCN World Conservation Congress at Abu Dhabi",
+    "IUCN World Conservation Congress at Marseille",
+    "World Dugong Day at Palk Bay",
+    "National Dugong Recovery Programme at Gujarat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The threats were flagged at the IUCN World Conservation Congress held in Abu Dhabi in 2025. Marseille was the venue of the previous Congress, while the other options do not identify the event described."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Habitat and legal protection",
+   "question": "Consider the following statements about dugongs in India:\n\n1. Their seagrass includes Cymodocea, Halophila, Thalassia and Halodule.\n2. The seagrass habitat mentioned is at a depth of less than 10 metres.\n3. Under the Wildlife Protection Act, 1972, the dugong is listed in Schedule I.",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F8"
+   ],
+   "explanation": "All three statements are correct: the listed seagrasses are Cymodocea, Halophila, Thalassia and Halodule; the habitat is at less than 10 metres depth; and the dugong is in Schedule I under the Wildlife Protection Act, 1972. Therefore, none of the individual-statement options is sufficient."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Indian dugong distribution",
+   "question": "How many of the following statements about the distribution of dugongs in India are correct?\n\n1. The Andaman & Nicobar population is estimated at fewer than 50.\n2. The Gulf of Kutch population is estimated at fewer than 20.\n3. Dugongs are found along the entire Indian coast.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F11",
+    "P2.F12",
+    "P2.F13"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the estimates are fewer than 50 in Andaman & Nicobar and fewer than 20 in the Gulf of Kutch. Statement 3 is incorrect because dugongs are not found along the entire coast."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Conservation programme",
+   "question": "Which initiative was established by the MoEFCC Task Force in 2010 for dugong conservation?",
+   "options": [
+    "National Dugong Recovery Programme",
+    "Dugong Conservation Reserve",
+    "Volcanic Ash Advisory Centres",
+    "IUCN World Conservation Congress"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F15"
+   ],
+   "explanation": "The MoEFCC Task Force established the National Dugong Recovery Programme in 2010, covering Tamil Nadu, Gujarat and the Andaman & Nicobar region. The Dugong Conservation Reserve is a separate conservation measure, while the other options are unrelated."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "IUCN Congress history",
+   "question": "Assertion (A): The IUCN World Conservation Congress is held every four years and its first edition was in 1948.\nReason (R): The previous Congress was held in Marseille, France, in 2022.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F16"
+   ],
+   "explanation": "Assertion A is true: the Congress is quadrennial and began in 1948. Reason R is false because the previous Congress was held in Marseille, France, in 2021, not 2022."
+  }
+ ]
+}

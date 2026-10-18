@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F5",
+  "P0.F7",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitution-making timeline",
+   "question": "Consider the following statements regarding the timeline of constitution-making in India:\n\n1. Rajendra Prasad was elected President of the Constituent Assembly on 11 December 1946.\n2. The Draft Constitution was introduced on 26 November 1949.\n3. The Draft Constitution was introduced on 4 November 1948.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 3 only"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F7"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Rajendra Prasad was elected President on 11 December 1946, and the Draft Constitution was introduced on 4 November 1948. Statement 2 is incorrect because 26 November 1949 was the date of adoption, not the date of introduction of the Draft Constitution."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Constitution commencement date",
+   "question": "On which date did the Constitution of India come into force?",
+   "options": [
+    "9 December 1946",
+    "4 November 1948",
+    "26 November 1949",
+    "26 January 1950"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "The Constitution of India came into force on 26 January 1950. The dates 9 December 1946, 4 November 1948 and 26 November 1949 relate respectively to the first meeting of the Constituent Assembly, introduction of the Draft Constitution and adoption of the Constitution."
+  }
+ ]
+}

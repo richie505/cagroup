@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F14",
+  "P0.F2",
+  "P0.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Expected exchange-rate band and reserves",
+   "question": "In the context of the rupee episode in November 2025, consider the following statements:\n1. The expected trading band for the rupee was ₹88.9–₹90.2 per US dollar.\n2. India's foreign-exchange reserves were approximately USD 690 billion.\n3. India's foreign-exchange reserves were approximately USD 20.1 billion.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the expected band was ₹88.9–₹90.2 per US dollar and foreign-exchange reserves were approximately USD 690 billion. Statement 3 is incorrect because USD 20.1 billion referred to net spot sales during January–September 2025, not total reserves."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Forex reserve components and ownership",
+   "question": "In the context of RBI support during the rupee episode in November 2025, which statement correctly describes India's foreign-exchange reserves?",
+   "options": [
+    "They comprise FCA, Gold, SDRs and the Reserve Tranche Position; they are held by the RBI and owned by the Government of India.",
+    "They comprise FCA, Gold, SDRs and the Reserve Tranche Position; they are held by the Government of India and owned by the RBI.",
+    "They comprise FCA, Gold, SDRs and the Reserve Tranche Position; they are held by and owned by the RBI.",
+    "They comprise FCA, Gold, SDRs and the Reserve Tranche Position; they are held by and owned by the Government of India."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "India's foreign-exchange reserves comprise FCA, Gold, SDRs and the Reserve Tranche Position; they are held by the RBI but owned by the Government of India. The tempting alternatives incorrectly reverse or alter the holding and ownership relationship."
+  }
+ ]
+}

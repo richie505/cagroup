@@ -1,0 +1,266 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F1",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F4",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F10",
+  "P3.F13",
+  "P3.F14",
+  "P3.F15",
+  "P3.F16",
+  "P3.F17",
+  "P3.F18",
+  "P3.F19",
+  "P3.F3",
+  "P3.F5",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Meeting and official",
+   "question": "At the 30th CII Partnership Summit in Visakhapatnam, whom did Andhra Pradesh Chief Minister N. Chandrababu Naidu meet?",
+   "options": [
+    "Yunjo Ko, Chief Sustainability Strategy Officer of LG Chem",
+    "The head of LG AI Research",
+    "The Chief Sustainability Strategy Officer of NVIDIA",
+    "The head of Google DeepMind"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "N. Chandrababu Naidu met Yunjo Ko, Chief Sustainability Strategy Officer of LG Chem. The meeting was not with the head of LG AI Research, NVIDIA or Google DeepMind."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Focus areas and origin of talks",
+   "question": "With reference to the proposed AI University in Amaravati, consider the following statements:\n1. Its focus areas include Generative AI, AI for governance, language and multimodal AI, and high-performance computing.\n2. The talks began informally at the World Economic Forum in Davos in 2024.\n3. One objective is to establish a Korea–Japan AI Knowledge Corridor.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "Only statement 1 is correct: the listed focus areas include Generative AI, AI for governance, language and multimodal AI, and high-performance computing. The talks began at Davos in 2025, and the proposed corridor is Korea–India, not Korea–Japan."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Next step",
+   "question": "What was the proposed next step in the collaboration between Andhra Pradesh and LG AI Research for the AI University?",
+   "options": [
+    "An official Andhra Pradesh team would visit LG AI Research in Seoul",
+    "LG AI Research would open its headquarters in Amaravati",
+    "An Andhra Pradesh team would visit NVIDIA in California",
+    "LG AI Research would establish a campus in Visakhapatnam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "The proposed next step was for an official Andhra Pradesh team to visit LG AI Research in Seoul. The stated visit was to Seoul, not to California, and no relocation of the headquarters or campus was specified."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Organisation profile",
+   "question": "Match List-I with List-II for LG AI Research.\n\nList-I\n(a) Establishment\n(b) Headquarters\n(c) Institutional role\n(d) Mandate\n\nList-II\n(i) December 2020\n(ii) Seoul\n(iii) Central AI think tank of LG Group\n(iv) AI research for 16 LG Group affiliates\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: LG AI Research was established in December 2020, is headquartered in Seoul, serves as LG Group’s central AI think tank and conducts AI research for 16 affiliates. The other codes interchange these organisational details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "LLM series",
+   "question": "Which statement correctly describes LG’s EXAONE series?",
+   "options": [
+    "EXAONE 1.0 was the first version and EXAONE 4.0 is the latest version",
+    "EXAONE 4.0 was the first version and EXAONE 1.0 is the latest version",
+    "EXAONE 1.0 is the latest version and EXAONE 4.0 was the first version",
+    "EXAONE 1.0 and EXAONE 4.0 are separate AI universities"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "EXAONE 1.0 was the first version of LG’s LLM series, while EXAONE 4.0 is the latest version. The versions are not universities, and their chronological order is not reversed."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and dates",
+   "question": "The 30th CII Partnership Summit associated with the Andhra Pradesh–LG AI Research discussions was held where and when?",
+   "options": [
+    "Visakhapatnam, November 14–15, 2025",
+    "Amaravati, November 14–15, 2025",
+    "Visakhapatnam, December 14–15, 2025",
+    "Seoul, November 14–15, 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "The CII Partnership Summit 2025 was held in Visakhapatnam on November 14–15. Amaravati and Seoul were not the stated venue, and the dates were not December 14–15."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Partner identification",
+   "question": "With reference to the proposal for India’s first AI University in Amaravati, consider the following statements:\n\nStatement A: The proposed partner is Samsung AI Research.\nStatement B: The proposed partner is LG AI Research.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F13"
+   ],
+   "explanation": "Statement A is false and Statement B is true because the proposed partner is LG AI Research. Samsung AI Research was not identified as the partner for this proposal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Investment amount",
+   "question": "What investment was announced under APADCL for Sarla Aviation’s Sky Factory electric air taxi hub?",
+   "options": [
+    "₹1,300 crore",
+    "₹5,300 crore",
+    "₹7,100 crore",
+    "₹1,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "The investment under APADCL was ₹1,300 crore. ₹5,300 crore and ₹7,100 crore relate to separate Carbonatik LLC projects, while ₹1,000 crore was not the stated amount."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "First and key specifications",
+   "question": "How many of the following statements about Sarla Aviation’s Sky Factory are correct?\n1. It is described as India’s first giga-scale eVTOL ecosystem.\n2. Its aircraft is a five-seater electric air taxi.\n3. Its annual capacity is about 900 eVTOL aircraft.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F8",
+    "P3.F9"
+   ],
+   "explanation": "Only one statement is correct: the Sky Factory is described as India’s first giga-scale eVTOL ecosystem. The aircraft is a six-seater and the annual capacity is about 1,000 eVTOL aircraft, not five-seater and 900."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Technology and competition",
+   "question": "Match the Sky Factory-related items in List-I with the corresponding details in List-II.\n\nList-I\n(a) Flagship model\n(b) Hubs on which it is modelled\n(c) Indigenous components\n(d) Global competitors\n\nList-II\n(i) Shunya hybrid VTOL\n(ii) Advanced Air Mobility hubs in California and Munich\n(iii) Electrical harness, landing gear and composite structures\n(iv) Joby, Archer and Lilium\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F10",
+    "P3.F13",
+    "P3.F14",
+    "P3.F15"
+   ],
+   "explanation": "The correct matching is a-i, b-ii, c-iii and d-iv. The flagship model is Shunya hybrid VTOL; the hub is modelled on Advanced Air Mobility hubs in California and Munich; the indigenous components include electrical harness, landing gear and composite structures; and the competitors are Joby, Archer and Lilium."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Waterways project and investment",
+   "question": "Which Carbonatik LLC (USA) MoU project involved inland waterways, Ro-Ro and Urban Water Metro in Amaravati and Vijayawada?",
+   "options": [
+    "A project with an investment of ₹5,300 crore",
+    "An aviation MRO hub at Kurnool with an investment of ₹7,100 crore",
+    "A greenfield port and yacht yard whose site was not finalised",
+    "A six-seater electric air taxi project with an investment of ₹1,300 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F16"
+   ],
+   "explanation": "The inland waterways, Ro-Ro and Urban Water Metro project in Amaravati and Vijayawada involved an investment of ₹5,300 crore. The ₹7,100 crore amount belonged to the Kurnool aviation MRO hub, while the port site was not finalised."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "MRO hub investment and location",
+   "question": "Which of the following statements about the Carbonatik LLC (USA) aviation project is incorrect?",
+   "options": [
+    "The aviation MRO hub is planned at Kurnool.",
+    "The project includes an FTO, cargo terminal, drone/eVTOL manufacturing and simulators.",
+    "The project represents India’s largest MRO.",
+    "The investment announced for the project is ₹5,300 crore."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F17"
+   ],
+   "explanation": "The incorrect statement is the investment figure: the Kurnool aviation MRO hub involves ₹7,100 crore, not ₹5,300 crore. ₹5,300 crore belongs to the inland waterways, Ro-Ro and Urban Water Metro project."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Port project status",
+   "question": "What was stated about the site of Carbonatik LLC’s proposed greenfield port and yacht yard on the Andhra Pradesh coast?",
+   "options": [
+    "The site had not been finalised",
+    "The site was finalised at Kurnool",
+    "The site was finalised at Amaravati",
+    "The site was finalised at Vijayawada"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F18"
+   ],
+   "explanation": "The site of the proposed greenfield port and yacht yard on the Andhra Pradesh coast had not been finalised. Kurnool, Amaravati and Vijayawada were associated with other projects, not the finalised site of this port and yacht yard."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Abbreviations",
+   "question": "In the Carbonatik LLC aviation project, what do MRO and FTO stand for?",
+   "options": [
+    "Maintenance, Repair, Overhaul; Flight Training Organisation",
+    "Multimodal Rail Operations; Flight Technology Office",
+    "Maintenance, Repair, Overhaul; Financial Transport Organisation",
+    "Marine Repair Operations; Flight Training Organisation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F19"
+   ],
+   "explanation": "MRO stands for Maintenance, Repair, Overhaul, and FTO stands for Flight Training Organisation. The alternatives alter one or both of the specified expansions."
+  }
+ ]
+}

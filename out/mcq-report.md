@@ -1,33 +1,33 @@
 # CA MCQ report
 
-- MCQs kept: **9686**
+- MCQs kept: **9827**
 - News pages with at least one question: **2618 / 2629**
-- Facts tested: **17227 / 20515** (84.0%)
-- Answer positions: A 2417, B 2525, C 2554, D 2190
+- Facts tested: **17439 / 20515** (85.0%)
+- Answer positions: A 2455, B 2554, C 2592, D 2226
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 1035 | 1065 | 1124 | 991 |
-| Negative / Incorrect Statement | 171 | 167 | 177 | 159 |
-| Assertion-Reason | 165 | 194 | 250 | 206 |
-| Statement-Based (A/B) | 316 | 196 | 282 | 237 |
-| Multi-Statement Correctness | 364 | 369 | 324 | 333 |
-| Chronological Ordering | 6 | 5 | 3 | 4 |
-| List-Matching | 265 | 244 | 230 | 254 |
-| Count-Based | 95 | 285 | 164 | 6 |
+| Direct Recall | 1051 | 1082 | 1143 | 1011 |
+| Negative / Incorrect Statement | 175 | 168 | 177 | 159 |
+| Assertion-Reason | 165 | 194 | 256 | 208 |
+| Statement-Based (A/B) | 321 | 197 | 284 | 241 |
+| Multi-Statement Correctness | 372 | 371 | 329 | 338 |
+| Chronological Ordering | 6 | 5 | 3 | 5 |
+| List-Matching | 268 | 249 | 235 | 258 |
+| Count-Based | 97 | 288 | 165 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 1159 |
-| verify:explanation_contradicts | 200 |
-| verify:not_in_facts | 134 |
+| code | 1177 |
+| verify:explanation_contradicts | 201 |
+| verify:not_in_facts | 135 |
 | duplicate | 67 |
 | verify:two_correct | 39 |
-| verify:none_correct | 31 |
-| verify:second reader picked option 2, key 1 | 21 |
-| verify:garbled | 10 |
+| verify:none_correct | 32 |
+| verify:second reader picked option 2, key 1 | 22 |
+| verify:garbled | 11 |
 | verify:ambiguous_stem | 9 |
 | verify:second reader picked option 1, key 0 | 5 |
 | verify:second reader picked option 3, key 0 | 2 |
@@ -163,14 +163,14 @@
 | 2025-12/08 | Reports, Indices & Rankings | 18 | 25/25 |
 | 2025-12/09 | Awards, Persons & Appointments | 7 | 11/11 |
 | 2025-12/11 | Important Days & Events | 51 | 94/98 |
-| 2025-11/01 | Andhra Pradesh | 26 | 60/148 |
-| 2025-11/02 | Polity & Governance | 10 | 25/73 |
-| 2025-11/04 | Economy, Banking & Budget | 2 | 4/27 |
-| 2025-11/06 | Science, Tech, Space & Defence | 2 | 3/12 |
-| 2025-11/07 | Environment & Geography | 6 | 15/31 |
-| 2025-11/08 | Reports, Indices & Rankings | 2 | 3/10 |
-| 2025-11/09 | Awards, Persons & Appointments | 2 | 2/13 |
-| 2025-11/11 | Important Days & Events | 3 | 6/21 |
+| 2025-11/01 | Andhra Pradesh | 86 | 146/148 |
+| 2025-11/02 | Polity & Governance | 41 | 73/73 |
+| 2025-11/04 | Economy, Banking & Budget | 17 | 27/27 |
+| 2025-11/06 | Science, Tech, Space & Defence | 7 | 12/12 |
+| 2025-11/07 | Environment & Geography | 16 | 29/31 |
+| 2025-11/08 | Reports, Indices & Rankings | 7 | 10/10 |
+| 2025-11/09 | Awards, Persons & Appointments | 9 | 13/13 |
+| 2025-11/11 | Important Days & Events | 11 | 20/21 |
 | 2025-10/01 | Andhra Pradesh | 56 | 127/294 |
 | 2025-10/02 | Polity & Governance | 25 | 51/137 |
 | 2025-10/03 | Schemes & Social Sector | 18 | 44/97 |
@@ -1512,12 +1512,27 @@
 - `2025-12/08/d000#14` verify: explanation_contradicts — The facts support statements 1, 2, and 3, so the explanation incorrectly says that statements 2 and 3 are false.
   - Q: Consider the following statements: / 1. Andhra Pradesh recorded the lowest literacy rate in the PLFS 2023–24 finding, at 72.6%. / 2. Bihar was the second-lowest state, at 74.3%. / 3. The Container Port Perf
   - Key: 1 only
+- `2025-11/01/d000#5` verify: not_in_facts — The facts establish statements 1 and 2 but do not establish whether statement 3 is true or false.
+  - Q: Consider the following statements regarding the new administrative units in Andhra Pradesh: /  / 1. Banaganapalle division was assigned to Nandyala district. / 2. Madakasira division was assigned to Sri Sat
+  - Key: 1 and 2 only
+- `2025-11/01/d000#11` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements about the Maoist-related developments are correct? /  / 1. Madvi Hidma was associated with approximately 26 major attacks. / 2. Operation Kagar targeted the end of Maois
+  - Key: Only two
+- `2025-11/01/d001#8` verify: garbled — There are three listed statements, but one option refers to all four.
+  - Q: How many of the following statements about Sarla Aviation’s Sky Factory are correct? / 1. It is described as India’s first giga-scale eVTOL ecosystem. / 2. Its aircraft is a five-seater electric air taxi.
+  - Key: Only one
 - `2025-11/02/c000#0` verify: none_correct — No option correctly states that the Four Labour Codes replaced 29 Central labour laws; option 1 is malformed and says four laws replaced them.
   - Q: With effect from 21 November 2025, what did the Four Labour Codes replace?
   - Key: Four Central labour laws replaced 29 Central labour laws
 - `2025-11/04/c000#2` verify: explanation_contradicts — Statement B is supported by the facts, so the explanation incorrectly says both statements are false.
   - Q: Consider the following statements: / Statement A: The Draft Seeds Bill, 2025, was introduced by the Ministry of Finance. / Statement B: It proposes to replace the Seeds Act, 1966 and the Seeds (Control) O
   - Key: Both Statement A and Statement B are false
+- `2025-11/07/d000#7` verify: none_correct — Exactly two statements are correct, but no option represents 'only two.'
+  - Q: How many of the following statements about the distribution of dugongs in India are correct? /  / 1. The Andaman & Nicobar population is estimated at fewer than 50. / 2. The Gulf of Kutch population is esti
+  - Key: Only two
+- `2025-11/07/d000r2#0` verify: explanation_contradicts — Fewer than 20 also means fewer than 50, so statement 3 is correct and statements 1, 2, and 3 are all correct.
+  - Q: With reference to dugong populations in India, consider the following statements: / 1. The Andaman & Nicobar Islands have fewer than 50 dugongs. / 2. The Gulf of Kutch has fewer than 20 dugongs. / 3. The Gu
+  - Key: 1 and 2 only
 - `2025-10/01/c001#2` verify: second reader picked option 3, key 2 — 
   - Q: How many of the following preparedness measures for Cyclone Montha were correct? / 1. APSDMA sanctioned ₹19 crore. / 2. Six NDRF teams were deployed. / 3. Thirteen SDRF teams were deployed. / 4. Fourteen resc
   - Key: Only three

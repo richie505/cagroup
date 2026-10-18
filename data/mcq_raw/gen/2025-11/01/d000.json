@@ -1,0 +1,264 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F13",
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F15",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Cabinet approval and administrative reorganisation",
+   "question": "In the Andhra Pradesh reorganisation involving the creation of new districts, what additional administrative changes were announced?",
+   "options": [
+    "Five new revenue divisions and one new mandal, after Cabinet approval",
+    "Four new revenue divisions and two new mandals, after Assembly approval",
+    "Three new revenue divisions and one new mandal, after Governor approval",
+    "Five new revenue divisions and two new mandals, without Cabinet approval"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The announcement included five new revenue divisions and one new mandal, with notification to follow Cabinet approval. The other options alter the number of units or the approval process."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Unchanged districts",
+   "question": "Which of the following sets consists entirely of districts that remained unchanged in the Andhra Pradesh reorganisation?",
+   "options": [
+    "Vizianagaram, Parvathipuram Manyam, Visakhapatnam, Eluru, Krishna, NTR, Guntur, Palnadu and Anantapur",
+    "Polavaram, Markapuram, Madanapalle, Eluru, Krishna, NTR, Guntur, Palnadu and Anantapur",
+    "Vizianagaram, Parvathipuram Manyam, Visakhapatnam, Polavaram, Markapuram, NTR, Guntur, Palnadu and Anantapur",
+    "Vizianagaram, Visakhapatnam, Eluru, Krishna, NTR, Guntur, Palnadu, Markapuram and Madanapalle"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The unchanged districts were Vizianagaram, Parvathipuram Manyam, Visakhapatnam, Eluru, Krishna, NTR, Guntur, Palnadu and Anantapur. The other options replace one or more of these districts with the newly created districts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Headquarters of new district",
+   "question": "What was designated as the headquarters of the newly created Polavaram district?",
+   "options": [
+    "Rampachodavaram",
+    "Yerragondapalem",
+    "Madanapalle",
+    "Markapuram"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Rampachodavaram was designated as the headquarters of Polavaram district. Yerragondapalem and Markapuram are associated with the Markapuram district, while Madanapalle is associated with the Madanapalle district."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Revenue divisions of Markapuram district",
+   "question": "Which set correctly lists the revenue divisions of the newly created Markapuram district?",
+   "options": [
+    "Yerragondapalem, Markapuram, Kanigiri and Giddaluru",
+    "Rampachodavaram, Chinturu, Kanigiri and Giddaluru",
+    "Madanapalle, Punganuru, Peeleru and Giddaluru",
+    "Banaganapalle, Addanki, Yerragondapalem and Markapuram"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "Markapuram district comprises the revenue divisions of Yerragondapalem, Markapuram, Kanigiri and Giddaluru. Rampachodavaram and Chinturu belong to Polavaram, while Madanapalle, Punganuru and Peeleru belong to Madanapalle district."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Revenue divisions of Madanapalle district",
+   "question": "Which of the following was included among the revenue divisions of the newly created Madanapalle district?",
+   "options": [
+    "Peeleru",
+    "Chinturu",
+    "Giddaluru",
+    "Yerragondapalem"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Peeleru was one of the revenue divisions of Madanapalle district, along with Madanapalle and Punganuru. Chinturu is associated with Polavaram, while Giddaluru and Yerragondapalem are associated with Markapuram."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "New revenue divisions and mandal",
+   "question": "Consider the following statements regarding the new administrative units in Andhra Pradesh:\n\n1. Banaganapalle division was assigned to Nandyala district.\n2. Madakasira division was assigned to Sri Sathya Sai district.\n3. Peddaharivanam mandal was assigned to Kurnool district.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "Banaganapalle division was assigned to Nandyala district, and Madakasira division to Sri Sathya Sai district. The third statement is not part of the tested new-unit details here; Peddaharivanam mandal is a separate context item."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Srisailam mandal merger controversy",
+   "question": "Consider the following statements:\n\nStatement A: The debate over the merger of Srisailam mandal between Nandyala and Markapuram was described as a settled administrative decision.\nStatement B: The Srisailam mandal merger debate was called a “cultural amputation.”",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "The merger was the subject of a debate between Nandyala and Markapuram, not a settled administrative decision. The controversy was described as a “cultural amputation.”"
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Other casualties in encounter",
+   "question": "Apart from Madvi Hidma, who else was killed in the Maredumilli encounter?",
+   "options": [
+    "His wife Madkam Raje (Rajakka) and four other Maoists",
+    "His wife Madkam Raje (Rajakka) and two other Maoists",
+    "Basavaraju and four other Maoists",
+    "His wife Madkam Raje (Rajakka) and four security personnel"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "Madkam Raje, also known as Rajakka, and four other Maoists were also killed. The alternatives change either the number of Maoists or the identity of those killed."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Birthplace and background",
+   "question": "Madvi Hidma was born in which place and belonged to which background?",
+   "options": [
+    "Puvarti/Purvati village, Sukma; tribal",
+    "Nellooru village, Maredumilli; tribal",
+    "Puvarti/Purvati village, Sukma; non-tribal",
+    "Sukma district; urban background"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "Madvi Hidma was born in Puvarti/Purvati village of Sukma and was tribal. Nellooru was associated with the encounter location, not his birthplace."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rise within CPI (Maoist)",
+   "question": "Which sequence correctly describes Madvi Hidma’s rise within the CPI (Maoist)?",
+   "options": [
+    "Bal Sangham cadre in the early 1990s → commander of PLGA Battalion No. 1 → head of the Central Military Commission",
+    "Commander of PLGA Battalion No. 1 → Bal Sangham cadre in the early 1990s → head of the Central Military Commission",
+    "Bal Sangham cadre in the early 1990s → head of the Central Military Commission → commander of PLGA Battalion No. 1",
+    "Head of the Central Military Commission → Bal Sangham cadre in the early 1990s → commander of PLGA Battalion No. 1"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "His rise began as a child cadre in Bal Sangham in the early 1990s, followed by command of PLGA Battalion No. 1 and later leadership of the Central Military Commission. The other options reverse this progression."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Central Committee distinction",
+   "question": "Which distinction was associated with Madvi Hidma in the CPI (Maoist) Central Committee?",
+   "options": [
+    "He was its youngest and only tribal member from Bastar",
+    "He was its oldest and only tribal member from Bastar",
+    "He was its youngest member from Chhattisgarh but not a tribal member",
+    "He was its only member from Telangana but not its youngest"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "Madvi Hidma was described as the youngest and a rare tribal member of the Central Committee, specifically the only tribal Central Committee member from Bastar. The other options alter his age distinction, tribal identity or regional association."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Operational and organisational context",
+   "question": "How many of the following statements about the Maoist-related developments are correct?\n\n1. Madvi Hidma was associated with approximately 26 major attacks.\n2. Operation Kagar targeted the end of Maoism by March 2026.\n3. Basavaraju was killed in June 2025.\n4. The Central Committee shrank from approximately 42 in 2004 to approximately 20 in 2025.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F16",
+    "P1.F17",
+    "P1.F18"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the figure was approximately 26 major attacks, and Operation Kagar targeted the end of Maoism by March 2026. Basavaraju was killed in May 2025, and the Central Committee shrank to approximately 12 in 2025, making statements 3 and 4 incorrect."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "Chronology of major attacks",
+   "question": "Arrange the following attacks associated with Madvi Hidma in chronological order:\n\n1. Minpa–Burkapal ambushes\n2. Jhiram Ghati attack\n3. Dantewada (Tadmetla) attack\n4. Sukma/Burkapal attack",
+   "options": [
+    "3-2-4-1",
+    "2-3-1-4",
+    "3-4-2-1",
+    "4-2-3-1"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11",
+    "P1.F12",
+    "P1.F13",
+    "P1.F14"
+   ],
+   "explanation": "The correct order is Dantewada (Tadmetla) in 2010, Jhiram Ghati in 2013, Sukma/Burkapal in 2017 and Minpa–Burkapal in 2020. The other sequences disturb this chronology."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "2021 attack and casualties",
+   "question": "The 2021 Tekulgudem–Pedagelur attack was associated with the killing of how many security personnel?",
+   "options": [
+    "22",
+    "26",
+    "76",
+    "42"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F15"
+   ],
+   "explanation": "The Tekulgudem–Pedagelur attack in 2021 resulted in the killing of 22 security personnel. The figures 26 and 76 refer to other attack-related facts, while 42 is associated with the earlier Central Committee strength."
+  }
+ ]
+}

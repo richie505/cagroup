@@ -1,0 +1,194 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F11",
+  "P10.F3",
+  "P10.F4",
+  "P10.F8",
+  "P10.F9",
+  "P11.F1",
+  "P11.F4",
+  "P11.F5",
+  "P9.F10",
+  "P9.F11",
+  "P9.F12",
+  "P9.F13",
+  "P9.F2",
+  "P9.F4",
+  "P9.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Pavilion area",
+   "question": "What was the area of the Andhra Pradesh pavilion at the 44th India International Trade Fair 2025?",
+   "options": [
+    "480 sq m",
+    "300 sq m",
+    "3,000 sq m",
+    "15–18 lakh sq m"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The Andhra Pradesh pavilion covered 480 sq m and showcased MSME and ODOP products. The tempting figure of 3,000 refers to the approximate number of exhibitors at the fair, not the pavilion area."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organiser",
+   "question": "Which organisation organised the 44th India International Trade Fair 2025?",
+   "options": [
+    "India Trade Promotion Organisation",
+    "Andhra Pradesh pavilion",
+    "Model Primary Schools",
+    "Women self-help groups"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F5"
+   ],
+   "explanation": "The 44th India International Trade Fair 2025 was organised by the India Trade Promotion Organisation. The Andhra Pradesh pavilion was a participant at the event, not its organiser."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Scale of event",
+   "question": "How many of the following correctly describe the scale of the 44th India International Trade Fair 2025?\n1. Approximately 3,000 exhibitors were associated with the event.\n2. Around 15–18 lakh visitors were expected.\n3. The event had approximately 5,000 exhibitors.\n4. Around 20 lakh visitors were expected.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "Exactly two statements are correct: the fair had approximately 3,000 exhibitors and 15–18 lakh visitors were expected. The figures of 5,000 exhibitors and 20 lakh visitors are incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "ODOP products showcased",
+   "question": "Match the Andhra Pradesh entries with the products showcased at the 44th India International Trade Fair 2025.\n\nList-I\n a. Krishna & Guntur\n b. Nellore\n c. Kadapa\n d. Also showcased\n\nList-II\n i. Pickles & condiments\n ii. Crochet lace\n iii. Handicrafts & mineral-based products\n iv. Millet-based food products",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F10",
+    "P9.F11",
+    "P9.F12",
+    "P9.F13"
+   ],
+   "explanation": "The correct pairs are Krishna & Guntur—pickles and condiments; Nellore—crochet lace; Kadapa—handicrafts and mineral-based products; and also millet-based food products. The other codes interchange these products among the entries."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Impact of restructuring",
+   "question": "What serious disruption to rural schooling was reported in connection with school restructuring and mergers in Andhra Pradesh?",
+   "options": [
+    "Some children missed up to six months of classes",
+    "Students were expected to visit 15–18 lakh schools",
+    "All government schools gained 7% enrolment",
+    "Every child received ₹13,000 per year"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "School restructuring and mergers disrupted rural schooling, with some children missing up to six months of classes. The ₹13,000 figure relates to the annual welfare support per child, not the duration or impact of the disruption."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "UDISE trend",
+   "question": "Consider the following statements:\nStatement A: From 2014 to 2024, government schools in Andhra Pradesh fell by 4%.\nStatement B: From 2014 to 2024, private schools in Andhra Pradesh fell by 7%.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "Statement A is true: government schools fell by 4% between 2014 and 2024. Statement B is false because private schools rose by 7%, rather than falling by 7%."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Model school infrastructure",
+   "question": "Assertion (A): Model Primary Schools had only 1 usable classroom and 3 teachers instead of 5.\nReason (R): Model Primary Schools had 2 usable classrooms and 5 teachers.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F8"
+   ],
+   "explanation": "The assertion is true: the reported gaps included only 1 usable classroom and 3 teachers instead of 5. The reason is false because it changes both figures to 2 usable classrooms and 5 teachers."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Welfare support and education data",
+   "question": "How many of the following statements are correct regarding school restructuring and welfare support in Andhra Pradesh?\n1. Amma Vodi and Thalliki Vandanam provided ₹13,000 per year per child to mothers.\n2. Private schools collected this support, contributing to migration.\n3. UDISE+ stands for Unified District Information System for Employment.\n4. The annual support was ₹12,000 per child.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F9",
+    "P10.F11"
+   ],
+   "explanation": "Exactly two statements are correct: Amma Vodi and Thalliki Vandanam provided ₹13,000 per year per child to mothers, and private schools collected it, contributing to migration. UDISE+ means Unified District Information System for Education, and the amount was not ₹12,000."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Reviewing authority",
+   "question": "Who reviewed the issue of rising road accidents and stampede deaths in Andhra Pradesh?",
+   "options": [
+    "N. Chandrababu Naidu",
+    "India Trade Promotion Organisation",
+    "Kasibugga Temple",
+    "Kerala traffic model"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The review was conducted by Chief Minister N. Chandrababu Naidu. Kasibugga Temple was the stampede cited in the matter, while the Kerala traffic model was the model proposed for traffic enforcement."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Stampede and safety directions",
+   "question": "Consider the following statements:\n1. The Kasibugga Temple incident was cited as a stampede.\n2. The directions included crowd management and early-warning systems for large events, pothole repairs, job melas, and curbing corruption in revenue offices.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4",
+    "P11.F5"
+   ],
+   "explanation": "Only statement 1 is correct: the Kasibugga Temple incident was cited as a stampede. Statement 2 is incorrect because the direction concerned curbing corruption in registration offices, not revenue offices; the other listed directions were included."
+  }
+ ]
+}

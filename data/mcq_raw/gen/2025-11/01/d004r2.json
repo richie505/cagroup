@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F4",
+  "P9.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Pavilion area and focus",
+   "question": "At the 44th India International Trade Fair 2025, what was the area and focus of the Andhra Pradesh pavilion?",
+   "options": [
+    "480 sq m, featuring MSME and ODOP products",
+    "450 sq m, featuring only millet-based food products",
+    "500 sq m, featuring only handicrafts and mineral-based products",
+    "300 sq m, featuring only pickles and condiments"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The Andhra Pradesh pavilion covered 480 sq m and showcased MSME and ODOP products. The other options either alter the pavilion area or incorrectly restrict its focus to particular product categories."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Impact of school mergers",
+   "question": "With reference to the disruption caused by school restructuring and mergers in rural Andhra Pradesh, consider the following statements:\n\n1. Some children missed up to six months of classes.\n2. In Bangaramma Kandriga village, students were asked to walk 2.5 km.\n3. Some children missed up to four months of classes.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: school restructuring disrupted rural schooling, with some children missing up to six months of classes, and Bangaramma Kandriga students being asked to walk 2.5 km. Statement 3 is incorrect because the reported period was six months, not four months."
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Reasons for rank decline",
+   "question": "According to the Climate Change Performance Index (CCPI) 2026, which of the following was identified as a reason for India's decline in performance?",
+   "options": [
+    "Absence of a coal-exit timeline",
+    "Completion of all coal block auctions",
+    "A high share of renewable energy in actual energy use",
+    "Strong carbon pricing"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The CCPI 2026 identified the absence of a coal-exit timeline as one reason for India's performance decline. The other options reverse or contradict the cited concerns, which included new coal block auctions, a low renewable-energy share in actual energy use and weak carbon pricing."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Non-fossil capacity and rooftop solar",
+   "question": "With reference to India's positive developments cited in the Climate Change Performance Index (CCPI) 2026, consider the following statements:\n1. Non-fossil sources accounted for 50% of installed capacity in 2025.\n2. Rooftop solar capacity reached 20.8 GW in September 2025.\n3. India added 9 GW of rooftop solar capacity over two years.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: non-fossil sources formed 50% of installed capacity in 2025, and rooftop solar reached 20.8 GW in September 2025. Statement 3 is incorrect because 9 GW was added in one year, not two years."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Publishers and origin",
+   "question": "With reference to the Climate Change Performance Index (CCPI), consider the following statements:\nStatement A: The CCPI is published by Germanwatch, NewClimate Institute and Climate Action Network.\nStatement B: The CCPI has been published since 2005.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Both statements are true. Germanwatch, NewClimate Institute and Climate Action Network are the publishers of the CCPI, which has been published since 2005."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Categories and rating scale",
+   "question": "Which of the following statements about the Climate Change Performance Index (CCPI) 2026 is incorrect?",
+   "options": [
+    "Its categories include GHG Emissions, Renewable Energy, Energy Use and Climate Policy.",
+    "The top three ranks were left empty.",
+    "No country was rated “very high”.",
+    "Climate Policy was not included among its categories."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "The incorrect statement is that Climate Policy was not included among the categories. Climate Policy was one of the four CCPI categories; the top three ranks were left empty because no country was rated “very high”."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "India programmes cited",
+   "question": "With reference to the India-related programmes cited in the Climate Change Performance Index (CCPI) 2026, consider the following:\nAssertion (A): The PAT mechanism was introduced in 2015.\nReason (R): BEE Appliance Labelling was introduced in 2006.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "Assertion A is false because the PAT mechanism was cited as a 2012 programme, not a 2015 programme. Reason R is true: BEE Appliance Labelling was cited as a 2006 programme."
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P2.F11",
+  "P2.F12",
+  "P2.F13"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Dugong population estimates",
+   "question": "With reference to dugong populations in India, consider the following statements:\n1. The Andaman & Nicobar Islands have fewer than 50 dugongs.\n2. The Gulf of Kutch has fewer than 20 dugongs.\n3. The Gulf of Kutch has fewer than 50 dugongs.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11",
+    "P2.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Andaman & Nicobar Islands have fewer than 50 dugongs, while the Gulf of Kutch has fewer than 20. Statement 3 is incorrect because the estimate for the Gulf of Kutch is fewer than 20, not fewer than 50."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Distribution in India",
+   "question": "Which statement correctly describes the distribution of dugongs along the Indian coast?",
+   "options": [
+    "Dugongs are found along the entire Indian coast.",
+    "Dugongs are not found along the entire Indian coast.",
+    "Dugongs are found only in the Gulf of Kutch.",
+    "Dugongs are found only in the Andaman & Nicobar Islands."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F13"
+   ],
+   "explanation": "Dugongs are not found along the entire Indian coast. The statement that they occur along the entire coast is the most direct contrary claim, while the Gulf of Kutch and the Andaman & Nicobar Islands are only specific areas of their distribution."
+  }
+ ]
+}
