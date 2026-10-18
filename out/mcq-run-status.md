@@ -179,3 +179,53 @@ How many of the above statements are correct?
 
 _Explanation:_ Only three statements are correct. Statement 2 is incorrect because 9.05 crore refers to girls and women married before the age of 15, not before the age of 18; statements 1, 3 and 4 correctly state the reported figures.
 
+
+## Coverage retry
+
+- cover: 58 calls, 68 items; tokens in 100,599 out 24,638
+- verify: 28 calls, 31 items; tokens in 18,239 out 2,980
+- build: 3,795 MCQs kept; news pages with a question 2,588/2,629; facts tested 8,040/20,515 (39.2%)
+
+News pages still without a question (41):
+
+- 2025-04/01 — P2: Reliance to set up 500 Compressed Bio-Gas plants
+- 2025-04/01 — P17: 3% horizontal sports quota in government jobs
+- 2025-09/01 — P9: AP rationalises Dr. NTR Vaidya Seva treatments
+- 2025-09/03 — P11: Rising heart disease among young Indians
+- 2025-10/01 — P26: GST cuts benefit AP fisheries sector — 'Super GST – Super Savings'
+- 2025-10/01 — P36: Unnati Foundation vocational training centre in Kakinada
+- 2025-10/05 — P19: UN at 80 — reviving multilateralism
+- 2026-01/01 — P22: Jeevan Daan organ donation record 2025
+- 2026-01/05 — P6: UAE President's visit — trade target USD 200 billion
+- 2026-01/05 — P32: France to ban social media for under-15s
+- 2026-01/06 — P3: Samudrayaan — Matsya-6000
+- 2026-01/10 — P4: Aryan Varshney — India's 92nd Grandmaster
+- 2026-02/04 — P11: Soil Health Card scheme
+- 2026-02/07 — P15: Cyclone Gezani hits Madagascar
+- 2026-02/08 — P8: National data — organ transplants, students abroad, cyber crime, HIV
+- 2026-03/03 — P0: Jal Jeevan Mission extended till December 2028
+- 2026-03/03 — P1: PM-KISAN 22nd instalment
+- 2026-03/05 — P16: US dollar notes to carry Trump's signature
+- 2026-03/10 — P6: Para athletics — Grand Prix New Delhi and National Championships
+- 2026-04/06 — P8: Defence exports record ₹38,424 crore in 2025–26
+- 2026-04/07 — P6: Solid Waste Management Rules 2026 in force
+- 2026-05/01 — P33: AP Cyber Guard system
+- 2026-05/03 — P3: PM Surya Ghar Muft Bijli Yojana progress
+- 2026-05/04 — P9: Indian Railways — 18-star logo, electrification, CHIRAG
+- 2026-05/04 — P18: Bharat Maritime Insurance Pool
+- 2026-05/04 — P20: RBI UDGAM portal — 30 banks integrated
+- 2026-05/05 — P18: India–Canada trade target and CEPA talks
+- 2026-05/10 — P8: Delhi to host Commonwealth Table Tennis Championships 2026
+- 2026-05/10 — P14: F1 Sim Racing India Open 2026
+- 2026-06/05 — P18: India–Venezuela energy partnership
+- 2026-07/04 — P12: Markets, payments and loans — July 2026
+- 2026-08/03 — P7: Jal Jeevan Mission completes 7 years
+- 2026-09/06 — P14: Google Project Suncatcher — AI computing in space
+- 2026-09/08 — P15: Second-hand smoke deaths in India up ~50% — Lancet
+- 2026-10/03 — P4: Lakshadweep — first UT with 100% literacy under ULLAS
+- 2026-10/04 — P1: GST collections September 2026 — ₹2.03 lakh crore
+- 2026-10/06 — P7: CERVAVAC gets WHO prequalification
+- 2026-10/06 — P30: TakeMe2Space — India's first networked orbital data centre by 2028
+- 2026-10/08 — P11: India's first National Household Travel Survey (NSO)
+- 2026-10/11 — P7: International Day of Rural Women — 15 October
+- 2026-10/11 — P12: President Murmu visits Hidimba Devi Temple, Manali

@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  8
+ ],
+ "only": [
+  "P4.F1",
+  "P4.F2",
+  "P4.F3",
+  "P8.F1",
+  "P8.F2"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Medal tally",
+   "question": "How many medals did India win at the Asian U15 Boxing Championships held in Tashkent, Uzbekistan?",
+   "options": [
+    "27",
+    "14",
+    "13",
+    "9"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2"
+   ],
+   "explanation": "India won 27 medals at the Asian U15 Boxing Championships: 9 gold, 6 silver and 12 bronze. The figures 14 and 13 refer to the medal tallies of the U15 girls’ and boys’ teams respectively, while 9 is only the number of gold medals won by India."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Host city and venue",
+   "question": "Which of the following correctly identifies the location of the 22nd Commonwealth Table Tennis Championships 2026?",
+   "options": [
+    "New Delhi, at Thyagaraj Stadium",
+    "Lausanne, at the ITTF headquarters",
+    "Tashkent, Uzbekistan",
+    "Uzbekistan, at Thyagaraj Stadium"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "The 22nd Commonwealth Table Tennis Championships 2026 will be held at Thyagaraj Stadium in New Delhi from 27 July to 2 August 2026. Lausanne is the location of the ITTF headquarters, while Tashkent, Uzbekistan is associated with the Asian U15 Boxing Championships."
+  }
+ ]
+}

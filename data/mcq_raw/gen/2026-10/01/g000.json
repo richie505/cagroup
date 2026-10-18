@@ -1,0 +1,53 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Target number and timeline",
+   "question": "By the end of 2027, how many greenfield Other Than Major Ports (OTMPs) does Andhra Pradesh plan to make operational?",
+   "options": [
+    "Two",
+    "Three",
+    "Four",
+    "Five"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Andhra Pradesh plans to make four greenfield Other Than Major Ports operational by the end of 2027. Three is the tempting alternative, but it does not match the stated target."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Cargo-handling capacity target",
+   "question": "With reference to Andhra Pradesh’s plan for its greenfield Other Than Major Ports, identify the incorrect statement.",
+   "options": [
+    "The target is to increase OTMP cargo-handling capacity from 100 MTPA to 200 MTPA.",
+    "The planned increase would double the existing OTMP cargo-handling capacity.",
+    "The target cargo-handling capacity is 200 MTPA.",
+    "The target is to increase OTMP cargo-handling capacity from 100 MTPA to 300 MTPA."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The incorrect statement changes the target from 200 MTPA to 300 MTPA. Andhra Pradesh’s plan is to double OTMP cargo-handling capacity from 100 MTPA to 200 MTPA."
+  }
+ ]
+}

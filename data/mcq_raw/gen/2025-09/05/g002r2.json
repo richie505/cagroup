@@ -1,0 +1,33 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F2",
+  "P10.F3",
+  "P10.F4"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Visa fee",
+   "question": "In September 2025, the Trump administration raised the fee for new H-1B visa applicants to what amount?",
+   "options": [
+    "$100,000",
+    "$85,000",
+    "$71,000",
+    "$359,000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2",
+    "P10.F3",
+    "P10.F4"
+   ],
+   "explanation": "The fee for new H-1B applicants was raised to $100,000, approximately six times the earlier fee. The tempting option $85,000 refers to the annual H-1B quota, not the visa fee."
+  }
+ ]
+}

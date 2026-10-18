@@ -1,0 +1,53 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": [
+  "P7.F1",
+  "P7.F2",
+  "P7.F3",
+  "P7.F4",
+  "P7.F5",
+  "P7.F6",
+  "P8.F1",
+  "P8.F2",
+  "P8.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Completion milestone",
+   "question": "Jal Jeevan Mission completed seven years on which date?",
+   "options": [
+    "15 August 2026",
+    "15 August 2019",
+    "December 2028",
+    "2024"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "Jal Jeevan Mission completed seven years on 15 August 2026, having been announced on 15 August 2019. December 2028 is the extended deadline for the mission, while 2024 was the earlier deadline."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Continuation period and outlay",
+   "question": "With reference to the Union Cabinet decision on the continuation of PM-KISAN, consider the following statements:\n\n1. PM-KISAN will continue from 2026–27 to 2030–31.\n2. The approved outlay is ₹3.15 lakh crore.\n3. The scheme provides ₹6,000 a year in three equal instalments through DBT.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F3"
+   ],
+   "explanation": "All three statements are correct. The Union Cabinet approved PM-KISAN for 2026–27 to 2030–31 with an outlay of ₹3.15 lakh crore, while the benefit remains ₹6,000 annually in three equal instalments through DBT."
+  }
+ ]
+}

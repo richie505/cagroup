@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  36,
+  38
+ ],
+ "only": [
+  "P36.F1",
+  "P36.F2",
+  "P38.F1",
+  "P38.F2",
+  "P38.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "The 3rd World AI Summit 2026 in Bengaluru was held in collaboration with which department of the Government of Karnataka?",
+   "options": [
+    "Department of Electronics, IT, BT and S&T",
+    "Ministry of Electronics and Information Technology",
+    "UNESCO AI Ethics Division",
+    "IndiaAI Mission Secretariat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P36.F1"
+   ],
+   "explanation": "The 3rd World AI Summit 2026 was held in Bengaluru with Karnataka’s Department of Electronics, IT, BT and S&T. The Ministry of Electronics and Information Technology is associated with the IndiaAI Mission, but it was not the department identified as the summit’s Karnataka partner."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "Cybertech Asia 2027, described as the first Cybertech Asia event in India, is scheduled to be held at which venue?",
+   "options": [
+    "Jio World Convention Centre",
+    "BKC",
+    "MahaCyber",
+    "CERT-In"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P38.F1",
+    "P38.F2",
+    "P38.F3"
+   ],
+   "explanation": "Cybertech Asia 2027 is scheduled for 17–18 March 2027 at the Jio World Convention Centre in BKC, Mumbai. BKC is the locality, while MahaCyber and CERT-In are cybersecurity-related entities rather than the venue."
+  }
+ ]
+}

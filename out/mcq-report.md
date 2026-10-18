@@ -1,17 +1,17 @@
 # CA MCQ report
 
-- MCQs kept: **3769**
-- News pages with at least one question: **2563 / 2629**
-- Facts tested: **7991 / 20515** (39.0%)
-- Answer positions: A 983, B 962, C 1006, D 818
+- MCQs kept: **3795**
+- News pages with at least one question: **2588 / 2629**
+- Facts tested: **8040 / 20515** (39.2%)
+- Answer positions: A 985, B 970, C 1016, D 824
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 379 | 396 | 392 | 329 |
-| Negative / Incorrect Statement | 107 | 110 | 113 | 113 |
+| Direct Recall | 380 | 404 | 401 | 334 |
+| Negative / Incorrect Statement | 107 | 110 | 114 | 114 |
 | Assertion-Reason | 119 | 113 | 146 | 124 |
 | Statement-Based (A/B) | 143 | 89 | 128 | 110 |
-| Multi-Statement Correctness | 153 | 124 | 133 | 118 |
+| Multi-Statement Correctness | 154 | 124 | 133 | 118 |
 | Chronological Ordering | 2 | 0 | 0 | 0 |
 | List-Matching | 31 | 28 | 30 | 22 |
 | Count-Based | 49 | 102 | 64 | 2 |
@@ -20,13 +20,13 @@
 
 | Reason | Items |
 |---|---|
-| code | 378 |
+| code | 415 |
 | verify:explanation_contradicts | 54 |
-| verify:not_in_facts | 49 |
+| verify:not_in_facts | 52 |
 | over the page's quota | 24 |
-| duplicate | 17 |
+| duplicate | 18 |
 | verify:none_correct | 16 |
-| verify:two_correct | 8 |
+| verify:two_correct | 9 |
 | verify:second reader picked option 2, key 1 | 8 |
 | verify:garbled | 3 |
 | verify:second reader picked option 1, key 0 | 2 |
@@ -41,12 +41,12 @@
 
 | File | Category | MCQs | Facts tested |
 |---|---|---|---|
-| 2026-10/01 | Andhra Pradesh | 21 | 46/136 |
+| 2026-10/01 | Andhra Pradesh | 23 | 48/136 |
 | 2026-10/02 | Polity & Governance | 8 | 16/82 |
 | 2026-10/03 | Schemes & Social Sector | 16 | 29/62 |
-| 2026-10/04 | Economy, Banking & Budget | 26 | 61/145 |
-| 2026-10/05 | International Relations | 16 | 38/63 |
-| 2026-10/06 | Science, Tech, Space & Defence | 47 | 85/197 |
+| 2026-10/04 | Economy, Banking & Budget | 27 | 62/145 |
+| 2026-10/05 | International Relations | 17 | 41/63 |
+| 2026-10/06 | Science, Tech, Space & Defence | 49 | 89/197 |
 | 2026-10/07 | Environment & Geography | 16 | 27/83 |
 | 2026-10/08 | Reports, Indices & Rankings | 19 | 48/110 |
 | 2026-10/09 | Awards, Persons & Appointments | 27 | 54/92 |
@@ -54,24 +54,24 @@
 | 2026-10/11 | Important Days & Events | 14 | 26/80 |
 | 2026-09/01 | Andhra Pradesh | 37 | 77/193 |
 | 2026-09/02 | Polity & Governance | 33 | 66/160 |
-| 2026-09/03 | Schemes & Social Sector | 23 | 47/137 |
+| 2026-09/03 | Schemes & Social Sector | 24 | 48/137 |
 | 2026-09/04 | Economy, Banking & Budget | 31 | 68/173 |
 | 2026-09/05 | International Relations | 41 | 83/198 |
 | 2026-09/06 | Science, Tech, Space & Defence | 42 | 81/294 |
 | 2026-09/07 | Environment & Geography | 17 | 39/104 |
 | 2026-09/08 | Reports, Indices & Rankings | 28 | 58/139 |
-| 2026-09/09 | Awards, Persons & Appointments | 35 | 79/179 |
+| 2026-09/09 | Awards, Persons & Appointments | 36 | 82/179 |
 | 2026-09/10 | Sports | 16 | 30/76 |
 | 2026-09/11 | Important Days & Events | 21 | 45/156 |
 | 2026-08/01 | Andhra Pradesh | 45 | 104/230 |
 | 2026-08/02 | Polity & Governance | 32 | 74/169 |
-| 2026-08/03 | Schemes & Social Sector | 18 | 43/97 |
+| 2026-08/03 | Schemes & Social Sector | 19 | 45/97 |
 | 2026-08/04 | Economy, Banking & Budget | 38 | 82/247 |
 | 2026-08/05 | International Relations | 25 | 50/116 |
 | 2026-08/06 | Science, Tech, Space & Defence | 35 | 77/204 |
 | 2026-08/07 | Environment & Geography | 21 | 44/114 |
 | 2026-08/08 | Reports, Indices & Rankings | 23 | 61/128 |
-| 2026-08/09 | Awards, Persons & Appointments | 20 | 52/96 |
+| 2026-08/09 | Awards, Persons & Appointments | 21 | 54/96 |
 | 2026-08/10 | Sports | 22 | 49/102 |
 | 2026-08/11 | Important Days & Events | 11 | 21/61 |
 | 2026-07/01 | Andhra Pradesh | 48 | 109/234 |
@@ -85,40 +85,40 @@
 | 2026-07/09 | Awards, Persons & Appointments | 13 | 26/158 |
 | 2026-07/10 | Sports | 9 | 16/64 |
 | 2026-07/11 | Important Days & Events | 18 | 29/175 |
-| 2026-06/01 | Andhra Pradesh | 46 | 90/208 |
+| 2026-06/01 | Andhra Pradesh | 48 | 92/208 |
 | 2026-06/02 | Polity & Governance | 12 | 31/83 |
 | 2026-06/03 | Schemes & Social Sector | 47 | 73/157 |
 | 2026-06/04 | Economy, Banking & Budget | 36 | 61/207 |
 | 2026-06/05 | International Relations | 33 | 57/132 |
 | 2026-06/06 | Science, Tech, Space & Defence | 33 | 51/140 |
 | 2026-06/07 | Environment & Geography | 20 | 37/125 |
-| 2026-06/08 | Reports, Indices & Rankings | 25 | 57/124 |
+| 2026-06/08 | Reports, Indices & Rankings | 26 | 61/124 |
 | 2026-06/09 | Awards, Persons & Appointments | 14 | 31/63 |
 | 2026-06/10 | Sports | 8 | 15/31 |
 | 2026-06/11 | Important Days & Events | 40 | 49/97 |
-| 2026-05/01 | Andhra Pradesh | 58 | 126/262 |
+| 2026-05/01 | Andhra Pradesh | 59 | 128/262 |
 | 2026-05/02 | Polity & Governance | 33 | 77/172 |
 | 2026-05/03 | Schemes & Social Sector | 22 | 51/110 |
 | 2026-05/04 | Economy, Banking & Budget | 48 | 93/257 |
 | 2026-05/05 | International Relations | 26 | 60/149 |
 | 2026-05/06 | Science, Tech, Space & Defence | 33 | 75/156 |
 | 2026-05/07 | Environment & Geography | 13 | 30/60 |
-| 2026-05/08 | Reports, Indices & Rankings | 18 | 40/110 |
+| 2026-05/08 | Reports, Indices & Rankings | 19 | 41/110 |
 | 2026-05/09 | Awards, Persons & Appointments | 30 | 60/185 |
-| 2026-05/10 | Sports | 13 | 30/62 |
+| 2026-05/10 | Sports | 14 | 32/62 |
 | 2026-05/11 | Important Days & Events | 15 | 26/75 |
 | 2026-04/01 | Andhra Pradesh | 65 | 129/306 |
 | 2026-04/02 | Polity & Governance | 39 | 86/211 |
 | 2026-04/03 | Schemes & Social Sector | 16 | 32/71 |
 | 2026-04/04 | Economy, Banking & Budget | 26 | 57/116 |
-| 2026-04/05 | International Relations | 23 | 45/92 |
+| 2026-04/05 | International Relations | 24 | 46/92 |
 | 2026-04/06 | Science, Tech, Space & Defence | 20 | 37/129 |
 | 2026-04/07 | Environment & Geography | 33 | 66/152 |
-| 2026-04/08 | Reports, Indices & Rankings | 8 | 16/58 |
+| 2026-04/08 | Reports, Indices & Rankings | 9 | 17/58 |
 | 2026-04/09 | Awards, Persons & Appointments | 13 | 29/49 |
 | 2026-04/10 | Sports | 11 | 19/41 |
 | 2026-04/11 | Important Days & Events | 20 | 30/113 |
-| 2026-03/01 | Andhra Pradesh | 36 | 77/174 |
+| 2026-03/01 | Andhra Pradesh | 37 | 78/174 |
 | 2026-03/02 | Polity & Governance | 32 | 76/159 |
 | 2026-03/03 | Schemes & Social Sector | 10 | 17/47 |
 | 2026-03/04 | Economy, Banking & Budget | 32 | 61/196 |
@@ -134,7 +134,7 @@
 | 2026-02/03 | Schemes & Social Sector | 14 | 35/73 |
 | 2026-02/04 | Economy, Banking & Budget | 22 | 43/188 |
 | 2026-02/05 | International Relations | 40 | 96/202 |
-| 2026-02/06 | Science, Tech, Space & Defence | 28 | 60/153 |
+| 2026-02/06 | Science, Tech, Space & Defence | 29 | 61/153 |
 | 2026-02/07 | Environment & Geography | 25 | 60/166 |
 | 2026-02/08 | Reports, Indices & Rankings | 10 | 23/44 |
 | 2026-02/09 | Awards, Persons & Appointments | 17 | 44/74 |
@@ -142,13 +142,13 @@
 | 2026-02/11 | Important Days & Events | 19 | 37/116 |
 | 2026-01/01 | Andhra Pradesh | 42 | 95/193 |
 | 2026-01/02 | Polity & Governance | 29 | 63/137 |
-| 2026-01/03 | Schemes & Social Sector | 22 | 46/81 |
+| 2026-01/03 | Schemes & Social Sector | 23 | 46/81 |
 | 2026-01/04 | Economy, Banking & Budget | 42 | 104/246 |
 | 2026-01/05 | International Relations | 39 | 77/162 |
 | 2026-01/06 | Science, Tech, Space & Defence | 18 | 30/84 |
 | 2026-01/07 | Environment & Geography | 40 | 84/156 |
 | 2026-01/08 | Reports, Indices & Rankings | 19 | 39/98 |
-| 2026-01/09 | Awards, Persons & Appointments | 27 | 56/127 |
+| 2026-01/09 | Awards, Persons & Appointments | 28 | 57/127 |
 | 2026-01/10 | Sports | 8 | 16/29 |
 | 2026-01/11 | Important Days & Events | 24 | 42/152 |
 | 2025-12/01 | Andhra Pradesh | 29 | 59/168 |
@@ -179,11 +179,11 @@
 | 2025-10/08 | Reports, Indices & Rankings | 10 | 19/54 |
 | 2025-10/09 | Awards, Persons & Appointments | 10 | 24/47 |
 | 2025-10/11 | Important Days & Events | 4 | 7/18 |
-| 2025-09/01 | Andhra Pradesh | 50 | 111/262 |
+| 2025-09/01 | Andhra Pradesh | 51 | 115/262 |
 | 2025-09/02 | Polity & Governance | 28 | 64/138 |
-| 2025-09/03 | Schemes & Social Sector | 16 | 42/91 |
-| 2025-09/04 | Economy, Banking & Budget | 26 | 61/130 |
-| 2025-09/05 | International Relations | 39 | 80/203 |
+| 2025-09/03 | Schemes & Social Sector | 17 | 46/91 |
+| 2025-09/04 | Economy, Banking & Budget | 27 | 64/130 |
+| 2025-09/05 | International Relations | 40 | 84/203 |
 | 2025-09/06 | Science, Tech, Space & Defence | 20 | 45/80 |
 | 2025-09/07 | Environment & Geography | 17 | 36/70 |
 | 2025-09/08 | Reports, Indices & Rankings | 10 | 21/59 |
@@ -253,6 +253,9 @@
 - `2026-10/03/g000#1` verify: not_in_facts — The facts do not identify which Union Territory achieved 100% literacy.
   - Q: Which Union Territory became the first in India to achieve 100% literacy under the ULLAS programme?
   - Key: Lakshadweep
+- `2026-10/03/g000r2#0` verify: not_in_facts — The facts do not identify which Union Territory achieved 100% literacy; Lakshadweep appears only in the given explanation.
+  - Q: Which Union Territory became the first to achieve 100% literacy under the ULLAS programme in October 2026?
+  - Key: Lakshadweep
 - `2026-10/04/c000#4` verify: second reader picked option 2, key 1 — 
   - Q: With reference to the key recommendations of the 57th GST Council meeting, how many of the following are correct? / 1. Arrest provisions under GST were recommended for removal. / 2. The prosecution thresh
   - Key: Only two
@@ -274,6 +277,9 @@
 - `2026-10/11/g002#0` verify: two_correct — The facts associate the temple with both Manali and Kullu, so options 0 and 1 can be defended.
   - Q: President Droupadi Murmu's visit to Hidimba Devi Temple was associated with which place?
   - Key: Manali
+- `2026-10/11/g002r2#0` verify: not_in_facts — The facts identify the Hidimba Devi Temple but do not state that President Murmu visited it.
+  - Q: President Murmu visited which temple in Manali, Himachal Pradesh?
+  - Key: Hidimba Devi (Dhungri) Temple
 - `2026-09/01/c000#5` verify: explanation_contradicts — All four statements are supported by the facts, so none can be identified as incorrect.
   - Q: Which of the following statements regarding the Mazagon Dock merchant shipyard at Dugarajapatnam is incorrect?
   - Key: MDL will invest approximately ₹15,000 crore over 5–7 years, with a capacity of 1.2 million gross tonnes per year and aro
@@ -565,6 +571,9 @@
 - `2026-01/10/c000#5` verify: not_in_facts — The facts do not identify the 21-year-old Delhi player by name, so no option is established.
   - Q: Who became India's 92nd Grandmaster after winning the Andranik Margaryan Memorial in Armenia?
   - Key: Aryan Varshney
+- `2026-01/10/g000r2#0` verify: not_in_facts — The facts describe the winner but do not name Aryan Varshney.
+  - Q: Who became India's 92nd Grandmaster after winning the Andranik Margaryan Memorial in Armenia?
+  - Key: Aryan Varshney
 - `2025-12/08/c000#2` verify: none_correct — Statements 2 and 3 are supported by the facts, while statement 1 changes 1.55°C to 1.5°C; no option represents 2 and 3 only, and the explanation's rejection of statement 3 is unsupported.
   - Q: With reference to the key findings of the Global Environment Outlook 2025, consider the following statements: / 1. Global temperature in 2024 reached 1.5°C, the highest ever. / 2. One million of the world
   - Key: 2 only
@@ -592,6 +601,9 @@
 - `2025-10/05/c001#1` verify: not_in_facts — The facts do not explicitly state that the Terms of Reference for Joint Staff Talks were signed, though they identify the maritime-information wording as incorrect.
   - Q: Which of the following statements regarding the agreements and outcomes of the inaugural Australia–India Defence Ministers' Dialogue is incorrect?
   - Key: An Agreement on Maritime Information Sharing was signed.
+- `2025-10/05/g005r2#0` verify: two_correct — The facts associate the discussion with both the 80th UN anniversary and the 80th UNGA, so the singular stem does not establish one unique answer.
+  - Q: The October 2025 discussion titled “UN at 80 — reviving multilateralism” was held in the context of which milestone?
+  - Key: The 80th anniversary of the United Nations
 - `2025-10/06/c000#2` verify: explanation_contradicts — The reason establishes participation by both carriers but does not explain the historical claim that this was the first-ever such exercise.
   - Q: Assertion (A): Konkan-25 was the first-ever bilateral carrier strike group exercise involving both Indian and UK carrier groups. / Reason (R): India operated INS Vikrant and the UK operated HMS Prince o
   - Key: Both A and R are true, and R is the correct explanation of A

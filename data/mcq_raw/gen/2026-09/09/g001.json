@@ -1,0 +1,32 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F2",
+  "P10.F3",
+  "P10.F4"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Awardee and affiliation",
+   "question": "Which pair correctly identifies the mathematician selected for the SASTRA Ramanujan Prize 2026 and her institution?",
+   "options": [
+    "Sarah Peluse — Stanford University",
+    "Ramanujan — Stanford University",
+    "Sarah Peluse — SASTRA, Kumbakonam",
+    "Ramanujan — Erode"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2",
+    "P10.F3"
+   ],
+   "explanation": "Sarah Peluse of Stanford University was selected for the SASTRA Ramanujan Prize 2026 on September 25, 2026. SASTRA, Kumbakonam, is the venue where the prize will be presented, while Erode is associated with Ramanujan’s birthplace."
+  }
+ ]
+}
