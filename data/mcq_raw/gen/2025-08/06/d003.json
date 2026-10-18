@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11
+ ],
+ "only": [
+  "P11.F6",
+  "P11.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Quantum gravity theory",
+   "question": "Which quantum gravity theory is associated with extra dimensions and gravitons?",
+   "options": [
+    "String Theory",
+    "Loop Quantum Gravity",
+    "Quantum mechanics",
+    "General relativity"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F6"
+   ],
+   "explanation": "String Theory is associated with extra dimensions and gravitons. Loop Quantum Gravity instead describes discrete spacetime at the Planck scale, making it the tempting but incorrect alternative."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Unification of theories",
+   "question": "Consider the following statements:\nStatement A: Quantum mechanics and general relativity have not yet been unified.\nStatement B: Quantum mechanics and general relativity have already been unified.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F7"
+   ],
+   "explanation": "Statement A is correct because quantum mechanics and general relativity are not yet unified. Statement B reverses this position and is therefore false; the absence of a unified theory is the key point."
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": [
+  "P4.F3",
+  "P4.F6",
+  "P4.F7",
+  "P5.F2",
+  "P5.F3",
+  "P5.F4",
+  "P5.F5",
+  "P5.F7",
+  "P5.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Duplicate entries",
+   "question": "In the machine-readable electoral rolls debate, who manually identified 11,965 duplicate entries in Mahadevapura, Bengaluru?",
+   "options": [
+    "Congress",
+    "P.G. Bhat",
+    "Srinivas Kodali",
+    "Rahul Gandhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "Congress manually identified 11,965 duplicate entries in Mahadevapura, Bengaluru. P.G. Bhat and Srinivas Kodali were associated with the broader debate, but they were not identified as the organisation that found these entries."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scale of electoral rolls",
+   "question": "What was the approximate nationwide scale of the electoral rolls discussed in the machine-readable electoral rolls debate?",
+   "options": [
+    "Over 6 crore pages",
+    "Over 6 crore entries",
+    "Image PDFs without voter photos",
+    "The ERONET digital application"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6"
+   ],
+   "explanation": "The electoral rolls covered over 6 crore pages nationwide. Over 6 crore entries refers to the number of entries, while image PDFs and ERONET describe the format and digital application respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Persons in the debate",
+   "question": "Which group of persons was associated with the machine-readable electoral rolls debate?",
+   "options": [
+    "P.G. Bhat, Srinivas Kodali and Rahul Gandhi",
+    "B.R. Gavai, J.B. Pardiwala and R. Mahadevan",
+    "Droupadi Murmu, R.N. Ravi and B.R. Gavai",
+    "Congress, ERONET and the Election Commission"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "The persons associated with the debate were activist P.G. Bhat, transparency advocate Srinivas Kodali and Rahul Gandhi. The other options combine persons or institutions from different aspects of the electoral-roll and Presidential Reference matters."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Bench, trigger and Governor’s Bills",
+   "question": "With reference to the Presidential Reference on timelines for assent to Bills, consider the following statements:\n\n1. The Constitution Bench was led by CJI B.R. Gavai.\n2. The triggering Supreme Court judgment of 8 April 2025 was delivered by CJI B.R. Gavai.\n3. The delay on Tamil Nadu’s 10 re-passed Bills was held legal.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "Only statement 1 is correct: the Constitution Bench was led by CJI B.R. Gavai. The triggering judgment involved Justices J.B. Pardiwala and R. Mahadevan, and the delay on Tamil Nadu’s 10 re-passed Bills was held illegal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First judicially enforceable timelines",
+   "question": "What was the significant first associated with the Presidential Reference concerning assent to Bills?",
+   "options": [
+    "Judicially enforceable timelines were imposed on Governors and the President for the first time",
+    "Advisory opinions under Article 143 became binding for the first time",
+    "Machine-readable electoral rolls were uploaded for the first time",
+    "The Supreme Court refused OCR access for the first time"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "The case marked the first time that judicially enforceable timelines were imposed on Governors and the President. The other options concern advisory opinions, electoral-roll publication or OCR, not the stated development in the Presidential Reference."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Article 143(2) and precedent",
+   "question": "Consider the following statements:\nStatement A: Article 143(2) concerns disputes on pre-Constitution treaties and agreements.\nStatement B: In a Reference, the Supreme Court can directly overrule its own precedent.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F7",
+    "P5.F9"
+   ],
+   "explanation": "Statement A is true because Article 143(2) concerns disputes on pre-Constitution treaties and agreements. Statement B is false: in a Reference, the Supreme Court can only clarify its precedent or suggest a larger bench, not directly overrule it."
+  }
+ ]
+}

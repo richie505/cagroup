@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4
+ ],
+ "only": [
+  "P4.F1",
+  "P4.F4",
+  "P4.F5",
+  "P4.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Summit participation",
+   "question": "Which combination correctly represents the participation at the 1992 UNCED Summit in Rio?",
+   "options": [
+    "125 countries, 100 heads of state and 12,000 delegates",
+    "100 countries, 125 heads of state and 12,000 delegates",
+    "125 countries, 12,000 heads of state and 100 delegates",
+    "12,000 countries, 100 heads of state and 125 delegates"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The 1992 UNCED Summit in Rio brought together 125 countries, 100 heads of state and 12,000 delegates. The tempting second option reverses the figures for countries and heads of state."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "NDCs and climate finance",
+   "question": "Consider the following statements about the post-Rio climate framework:\n1. The Paris Agreement of 2015 marked a shift to voluntary Nationally Determined Contributions.\n2. The promise of climate finance amounting to $100 billion a year remained unmet.\n3. The Paris Agreement marked a shift to binding Nationally Determined Contributions.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the 2015 Paris Agreement shifted to voluntary NDCs, while the $100 billion a year climate-finance promise remained unmet. Statement 3 is incorrect because the shift was to voluntary, not binding, NDCs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation associated with commentators",
+   "question": "Sunita Narain and Anumita Roychowdhury were commentators associated with which organisation in discussions on the Rio Earth Summit's legacy?",
+   "options": [
+    "UNFCCC",
+    "CBDR principle",
+    "G77",
+    "Centre for Science and Environment (CSE)"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F6"
+   ],
+   "explanation": "Sunita Narain and Anumita Roychowdhury were associated with the Centre for Science and Environment (CSE). UNFCCC, the CBDR principle and the G77 are related to the broader Rio and climate context, but they are not the organisation identified with these commentators."
+  }
+ ]
+}

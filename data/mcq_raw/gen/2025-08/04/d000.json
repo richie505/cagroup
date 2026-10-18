@@ -1,0 +1,266 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F1",
+  "P1.F10",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F2",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Announcement/theme",
+   "question": "In the context of the proposed GST rate rationalisation, what did Prime Minister Narendra Modi hint at for Deepavali?",
+   "options": [
+    "A Deepavali gift",
+    "A compensation cess",
+    "A performance-linked transfer",
+    "A flood cess"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "Prime Minister Narendra Modi hinted at a “Deepavali gift” in connection with the GST rate-rationalisation proposal. A compensation cess and performance-linked transfers were discussed in the compensation debate, while a flood cess was cited as an example of an equalisation mechanism."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State concern",
+   "question": "Who demanded compensation for States amid the proposed GST rate rationalisation?",
+   "options": [
+    "K.N. Balagopal, Kerala’s Finance Minister",
+    "Samrat Choudhary, Bihar’s Deputy Chief Minister",
+    "Sanjay Malhotra, RBI Governor",
+    "Narendra Modi, Prime Minister"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "K.N. Balagopal, Kerala’s Finance Minister, demanded compensation for States. Samrat Choudhary chaired the GoM, while Sanjay Malhotra is the RBI Governor mentioned in the tariff-related news."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GST structure and revenue impact",
+   "question": "With reference to the background and revenue implications of the proposed GST rate rationalisation, consider the following statements:\n1. GST was introduced in 2017, and the current slabs are 5%, 12%, 18% and 28%, along with cess.\n2. The average effective GST rate is expected to decline from approximately 11.5% to approximately 10%.\n3. The 18% slab accounts for approximately 70% of GST revenue and was kept unchanged.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10",
+    "P0.F12"
+   ],
+   "explanation": "All three statements are correct: GST was introduced in 2017, the average effective rate is expected to move from approximately 11.5% to approximately 10%, and the 18% slab contributes approximately 70% of GST revenue and was kept unchanged. The other options incorrectly omit one of these connected facts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Revenue impact",
+   "question": "What annual revenue loss was estimated from the proposed GST rate rationalisation, apart from the estimate for FY2025-26?",
+   "options": [
+    "₹60,000–1,00,000 crore, equivalent to 0.2–0.3% of GDP",
+    "₹45,000 crore, equivalent to 0.2–0.3% of GDP",
+    "₹60,000–1,00,000 crore, equivalent to 3–4% of GDP",
+    "₹10,000–20,000 crore, equivalent to 0.2–0.3% of GDP"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "The estimated annual revenue loss was ₹60,000–1,00,000 crore, or 0.2–0.3% of GDP. The ₹45,000 crore figure relates specifically to FY2025-26, while 3–4% refers to a monthly dip following an earlier rate cut."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State-wise impact",
+   "question": "Which group of States was identified as more affected by the proposed GST rate rationalisation, with an earlier rate cut associated with a 3–4% monthly dip?",
+   "options": [
+    "Maharashtra, Karnataka and Tamil Nadu",
+    "Bihar, Uttar Pradesh and the North-East",
+    "Kerala, Bihar and Uttar Pradesh",
+    "Maharashtra, Bihar and the North-East"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Manufacturing and service States such as Maharashtra, Karnataka and Tamil Nadu were identified as more affected. The earlier rate cut was associated with a 3–4% monthly dip; Bihar, Uttar Pradesh and the North-East were identified as less affected agrarian regions."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Agrarian-state impact",
+   "question": "Consider the following statements:\nStatement A: Agrarian States such as Bihar, Uttar Pradesh and the North-East were identified as less affected by the proposed GST rate rationalisation.\nStatement B: Agrarian States such as Bihar, Uttar Pradesh and the North-East were identified as more affected by the proposed GST rate rationalisation.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "Statement A is correct because Bihar, Uttar Pradesh and the North-East were identified as less affected agrarian States. Statement B reverses the reported assessment and is therefore incorrect."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Consensus and compensation options",
+   "question": "Assertion (A): The GST Council works by consensus, and voting is rare.\nReason (R): Compensation options discussed included an equalisation fund, CFI grants and performance-linked transfers.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F16",
+    "P0.F17"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the compensation options do not explain the GST Council’s consensus-based working method, so the Reason is not the correct explanation of the Assertion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Compensation period",
+   "question": "For how long was the original GST compensation arrangement provided from July 2017, and when did it end?",
+   "options": [
+    "5 years; ended in June 2022",
+    "3 years; ended in June 2022",
+    "5 years; ended in July 2025",
+    "10 years; ended in June 2022"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "The original compensation arrangement was provided for 5 years from July 2017 through the compensation cess and ended in June 2022. The alternatives alter either the duration or the end point."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Sector-wise tariff impact",
+   "question": "Match the sectors with their respective tariff changes on exports to the United States:\n\nList-I\n a. Shrimp\n b. Diamonds, gold and jewellery\n c. Carpets\n d. Organic chemicals\n\nList-II\n i. 4% to 54%\n ii. 10% to 60%\n iii. 2.9% to 52.9%\n iv. 2.1% to 52.1%",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "The correct pairs are shrimp—10% to 60%, diamonds, gold and jewellery—2.1% to 52.1%, carpets—2.9% to 52.9%, and organic chemicals—4% to 54%. The other codes interchange the tariff changes among these sectors."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Export exposure",
+   "question": "In the context of the impact of US tariffs on Indian exports, consider the following statements:\n1. Metals exports to the United States were valued at $4.7 billion, with a US share of 17%.\n2. Machinery exports to the United States were valued at $6.7 billion, with a US share of 20%.\n3. Organic chemicals had a US share of 13.2%, not one-third.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7",
+    "P1.F14"
+   ],
+   "explanation": "All three statements are correct. Metals had $4.7 billion in exports and a 17% US share, machinery had $6.7 billion and a 20% share, and organic chemicals had a 13.2% share rather than one-third."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Andhra Pradesh impact",
+   "question": "Following the earlier 25% tariff, by approximately how much did shrimp prices fall in Andhra Pradesh?",
+   "options": [
+    "20%",
+    "13.2%",
+    "25%",
+    "32.4%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "Shrimp prices in Andhra Pradesh fell by approximately 20% after the earlier 25% tariff. The 25% figure refers to the earlier tariff itself, while 13.2% and 32.4% are US-share figures for other trade facts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Affected industrial hubs",
+   "question": "Which set of industrial hubs was identified as being hit by the US tariff increase on Indian exports?",
+   "options": [
+    "Tiruppur, Noida–Gurugram, Ludhiana and Bengaluru",
+    "Maharashtra, Karnataka, Tamil Nadu and Bihar",
+    "Andhra Pradesh, Kerala, Uttar Pradesh and the North-East",
+    "Surat, Tiruppur, Bengaluru and Kerala"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "The identified hubs were Tiruppur, Noida–Gurugram, Ludhiana and Bengaluru. The other options combine States or places mentioned in separate GST and sector-specific contexts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Liquidity support",
+   "question": "Which RBI Governor was reported to be ready with liquidity support in response to the tariff-related disruption?",
+   "options": [
+    "Sanjay Malhotra",
+    "K.N. Balagopal",
+    "Samrat Choudhary",
+    "Narendra Modi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F12"
+   ],
+   "explanation": "RBI Governor Sanjay Malhotra was reported to be ready with liquidity support. K.N. Balagopal and Samrat Choudhary were associated with the GST-related news, while Narendra Modi was associated with the Deepavali-gift hint."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Policy response",
+   "question": "Which response was suggested for Indian sectors affected by the US tariff increase?",
+   "options": [
+    "Diversifying markets and pursuing FTAs with the UAE, Australia and EFTA",
+    "Retaining dependence on the United States and abolishing FTAs",
+    "Introducing a compensation cess for all exports to the United States",
+    "Restricting exports to the UAE, Australia and EFTA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13"
+   ],
+   "explanation": "The suggested response was to diversify markets and pursue FTAs with the UAE, Australia and EFTA. The other options reverse or alter the stated strategy."
+  }
+ ]
+}

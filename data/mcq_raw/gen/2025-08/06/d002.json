@@ -1,0 +1,285 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F3",
+  "P10.F4",
+  "P10.F5",
+  "P6.F2",
+  "P6.F3",
+  "P6.F4",
+  "P7.F6",
+  "P7.F7",
+  "P7.F8",
+  "P8.F1",
+  "P8.F10",
+  "P8.F11",
+  "P8.F12",
+  "P8.F13",
+  "P8.F2",
+  "P8.F3",
+  "P8.F7",
+  "P8.F8",
+  "P8.F9",
+  "P9.F4",
+  "P9.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Dialogue venue and institutional linkage",
+   "question": "With reference to the UN-led Global Dialogue on AI Governance, consider the following statements:\n1. Its sessions are scheduled for July 2026 in Geneva and in 2027 in New York.\n2. It is linked to the Global Digital Compact of September 2024 under the Pact for the Future, with Geneva replaced by New York for the 2026 session.\n3. The UN Secretary-General described it as a “groundbreaking milestone”.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "Statement 1 is correct: the sessions are scheduled for July 2026 in Geneva and in 2027 in New York. Statements 2 and 3 are incorrect because the 2026 venue is Geneva and the description used was “pathbreaking milestone”."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Official description",
+   "question": "How did UN Secretary-General Antonio Guterres describe the launch of the Scientific Panel on AI and the Global Dialogue on AI Governance?",
+   "options": [
+    "A pathbreaking milestone",
+    "A groundbreaking milestone",
+    "A historic scientific report",
+    "A global digital compact"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "Antonio Guterres described the launch as a “pathbreaking milestone”. “Groundbreaking milestone” is the tempting alternative, but it changes the wording of the description."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scientific background",
+   "question": "The Asgard archaea are named after which of the following?",
+   "options": [
+    "Norse gods",
+    "FtsZ genes",
+    "Deep-sea sediments",
+    "Eukaryotes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F6"
+   ],
+   "explanation": "Asgard archaea are named after Norse gods, as in Odin-, Loki- and Thorarchaeota. Deep-sea sediments describe where they are found, while eukaryotes describe their evolutionary relationship."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "FtsZ and tubulin",
+   "question": "Match the terms in List-I with their descriptions in List-II.\n\nList-I\n a. FtsZ\n b. Tubulin\n c. Bacterial division protein\n d. Eukaryotic hallmark\n\nList-II\n i. Eukaryotic hallmark\n ii. FtsZ\n iii. Tubulin\n iv. Bacterial division protein\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F7",
+    "P7.F8"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i. FtsZ is the bacterial division protein forming the Z-ring, whereas tubulin is the eukaryotic hallmark; tubulin is not a bacterial protein."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Cases and fatality rate",
+   "question": "Consider the following statements:\nStatement A: In 2025, three PAM cases were reported in Kozhikode district, including the death of a nine-year-old and infection of a three-month-old.\nStatement B: Kerala’s PAM fatality rate was approximately 25%, compared with approximately 97% globally with early diagnosis.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3"
+   ],
+   "explanation": "Both statements are true. The 2025 Kozhikode episode involved three cases, while the reported Kerala fatality rate was about 25% against about 97% globally with early diagnosis."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Causative organism",
+   "question": "Primary Amoebic Meningoencephalitis (PAM), reported in Kerala, is caused by which organism?",
+   "options": [
+    "Naegleria fowleri",
+    "Odinarchaeota",
+    "FtsZ",
+    "Tubulin"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "PAM is caused by Naegleria fowleri. Odinarchaeota is an Asgard archaeon, while FtsZ and tubulin are proteins or protein-related structures."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "PAM milestones and transmission",
+   "question": "How many of the following statements about PAM are correct?\n1. In 2024, a 14-year-old boy from Kozhikode became the first Indian to survive PAM; there were only 11 survivors globally.\n2. Naegleria fowleri thrives in warm freshwater and soil, up to 46°C.\n3. Infection can occur when water enters the nose and reaches the brain through the olfactory nerve.\n4. PAM is communicable, but it is not spread by drinking contaminated water.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F8",
+    "P8.F9",
+    "P8.F10",
+    "P8.F11"
+   ],
+   "explanation": "Only three statements are correct: statements 1, 2 and 3. Statement 4 is incorrect because PAM is not communicable; it is also not spread by drinking contaminated water."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Case and death milestone",
+   "question": "What were the reported PAM figures in India in 2023?",
+   "options": [
+    "36 cases and 9 deaths",
+    "14 cases and 11 survivors",
+    "8 cases and 3 deaths",
+    "3 cases and 1 death"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "India recorded 36 PAM cases and 9 deaths in 2023. The figures of 14 cases and 11 survivors relate to a different milestone involving 2024 and global survivors."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Time to death",
+   "question": "In untreated or severe PAM, death may occur within which period after the onset of symptoms?",
+   "options": [
+    "5–18 days",
+    "25–97 days",
+    "46–70 days",
+    "3–9 days"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F12"
+   ],
+   "explanation": "Death may occur within 5–18 days of the onset of symptoms. The other ranges use figures associated with PAM fatality, habitat temperature or unrelated case details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Treatment regimen",
+   "question": "Which of the following correctly lists the drugs reported in connection with PAM treatment?",
+   "options": [
+    "Amphotericin B, Azithromycin, Fluconazole, Rifampin, Miltefosine and Dexamethasone",
+    "Amphotericin B, Azithromycin, Fluconazole, Rifampin, Miltefosine and tubulin",
+    "Naegleria fowleri, Azithromycin, Fluconazole, Rifampin, Miltefosine and Dexamethasone",
+    "Amphotericin B, FtsZ, Fluconazole, Rifampin, Miltefosine and Dexamethasone"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F13"
+   ],
+   "explanation": "The listed drugs are Amphotericin B, Azithromycin, Fluconazole, Rifampin, Miltefosine and Dexamethasone. The other options replace one medicine with tubulin, Naegleria fowleri or FtsZ, which are not drugs in this regimen."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Eradication and outbreak history",
+   "question": "Which statement correctly describes the United States’ New World screwworm eradication history?",
+   "options": [
+    "The United States eradicated it in 1966 through the Sterile Insect Technique, followed by a Florida outbreak in 2017.",
+    "The United States eradicated it in the 1970s through the Sterile Insect Technique, followed by a Florida outbreak in 2017.",
+    "The United States eradicated it in 1966 through the Sterile Insect Technique, followed by a Florida outbreak in the 2000s.",
+    "The United States eradicated it in 1966 through the Sterile Insect Technique, followed by a Mexico outbreak in 2017."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "The United States achieved eradication in 1966 through the Sterile Insect Technique, and Florida experienced an outbreak in 2017. The 1970s and 2000s refer to later regional stages in Mexico and Central America, not the US eradication year."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Current outbreak locations",
+   "question": "Which of the following statements about the new New World screwworm outbreaks is incorrect?",
+   "options": [
+    "New outbreaks were reported in Panama, Costa Rica, Nicaragua and Honduras.",
+    "Panama and Costa Rica were among the countries reporting new outbreaks.",
+    "Nicaragua and Honduras were among the countries reporting new outbreaks.",
+    "New outbreaks were reported in Panama, Costa Rica, Nicaragua and Nicaragua."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F5"
+   ],
+   "explanation": "The incorrect statement is the fourth one: it repeats Nicaragua and omits Honduras. The reported countries were Panama, Costa Rica, Nicaragua and Honduras."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Publication and leadership",
+   "question": "Match the details of the study on the quadruple star system UPM J1040−3551 AabBab.\n\nList-I\n a. Journal\n b. Publication month\n c. Study leader\n d. Institution of the leader\n\nList-II\n i. September 2025\n ii. Monthly Notices of the Royal Astronomical Society\n iii. Prof. Zenghua Zhang\n iv. Nanjing University\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2",
+    "P10.F3"
+   ],
+   "explanation": "The study was published in Monthly Notices of the Royal Astronomical Society in September 2025 and was led by Prof. Zenghua Zhang of Nanjing University. Therefore, the correct code is a-ii, b-i, c-iii, d-iv."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Brown dwarf characteristic",
+   "question": "Which description best applies to the two brown dwarfs in the system UPM J1040−3551 AabBab?",
+   "options": [
+    "They are “failed stars” that cannot sustain hydrogen fusion and may have up to 70 times Jupiter’s mass.",
+    "They are the most common stars, forming about 70% of the Milky Way’s stars.",
+    "They are among the hottest and most luminous stars in the Galaxy.",
+    "They are companions with a chance of occurrence greater than 70%."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "Brown dwarfs are called “failed stars” because they cannot sustain hydrogen fusion, and their mass can reach up to 70 times that of Jupiter. The 70% figure describes the share of red dwarfs among Milky Way stars, not brown dwarfs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Red dwarf characteristic",
+   "question": "Which statement about red dwarfs is correct?",
+   "options": [
+    "They constitute about 70% of the Milky Way’s stars and are long-lived.",
+    "They are failed stars unable to sustain hydrogen fusion.",
+    "Their chance of occurring as companions is less than 5%.",
+    "They thrive up to 46°C."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "Red dwarfs are the most common stars, accounting for about 70% of the Milky Way’s stars, and they are long-lived. The failed-star description applies to brown dwarfs, while the less-than-5% figure concerns companion likelihood."
+  }
+ ]
+}

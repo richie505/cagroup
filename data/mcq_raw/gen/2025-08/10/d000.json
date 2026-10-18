@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F3",
+  "P0.F4",
+  "P0.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Transplant history and medal winner",
+   "question": "With reference to the World Transplant Games 2025, consider the following statements:\n1. Nagavasu Naidu Sunkara was diagnosed with liver disease in 2015.\n2. He underwent a liver transplant in 2020, with his mother as the donor.\n3. Raj Sarki won a silver medal in a running event in the kidney-transplant category.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Nagavasu Naidu Sunkara had liver disease in 2015 and received a liver transplant in 2020 from his mother. Statement 3 is incorrect because Raj Sarki won a bronze medal, not a silver medal, in a running event among kidney transplant recipients."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ambassador",
+   "question": "Who was appointed ambassador of the World Transplant Games 2025?",
+   "options": [
+    "Ivan Klasnic",
+    "Raj Sarki",
+    "Nagavasu Naidu Sunkara",
+    "The World Transplant Games Federation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "Ivan Klasnic was the ambassador of the World Transplant Games 2025. He is a former Werder Bremen player and a three-time kidney recipient; Raj Sarki and Nagavasu Naidu Sunkara were participating transplant recipients, while the World Transplant Games Federation organised the Games."
+  }
+ ]
+}

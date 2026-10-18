@@ -1,0 +1,228 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": [
+  "P3.F1",
+  "P3.F12",
+  "P3.F13",
+  "P3.F14",
+  "P3.F15",
+  "P3.F16",
+  "P3.F18",
+  "P3.F19",
+  "P3.F20",
+  "P3.F21",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P4.F5",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Digital Census and interval",
+   "question": "Census 2027 will have which distinction in India's census history?",
+   "options": [
+    "It will be India's first digital Census and the first Census since 2011",
+    "It will be India's first Census based only on medical questions",
+    "It will be India's first Census since 2007",
+    "It will be India's first Census to use only paper records"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "Census 2027 is scheduled to be India's first digital Census and the first Census since 2011. The tempting 2007 option is incorrect because the preceding Census identified in the fact was held in 2011."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UDID coverage",
+   "question": "According to the disability data cited in the context of Census 2027, how many UDID cards had been issued since 2015?",
+   "options": [
+    "About 1 crore",
+    "About 2.21 crore",
+    "About 4.52 crore",
+    "About 15 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "Only 1 crore UDID cards had been issued since 2015. The figures 2.21 crore, 4.52 crore and 15 crore correspond to other prevalence figures, not UDID-card issuance."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Economic cost of disability exclusion",
+   "question": "Assertion (A): Disability-related economic loss in India is estimated at about ₹4.5 lakh crore a year.\nReason (R): This loss is estimated at 2.21% of GDP.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "Assertion A is correct: the estimated economic loss is about ₹4.5 lakh crore a year. Reason R is false because the estimate is 4% of GDP, not 2.21%."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Employment and education indicators",
+   "question": "Consider the following statements about disability inclusion in India:\n1. Among disabled persons aged 15–59, 23.8% were employed, compared with 50% of others.\n2. The private-sector employment figure for disabled persons was 0.4%.\n3. In 2011, 22.5 lakh disabled persons were illiterate.\n4. UDISE+ recorded 46% disabled children enrolled in 2021–22.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7",
+    "P3.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the employment comparison was 23.8% versus 50%, and the private-sector figure was 0.4%. Statements 3 and 4 reverse the education figures: 46% was the illiteracy figure, while 22.5 lakh was the number of disabled children enrolled."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Disability legal framework chronology",
+   "question": "Match the legal or policy measure in List-I with its year in List-II.\n\nList-I\n(a) Rehabilitation Council of India Act\n(b) National Trust Act\n(c) National Policy for Persons with Disabilities\n(d) India ratified the UNCRPD\n\nList-II\n(i) 1999\n(ii) 2007\n(iii) 1992\n(iv) 2006",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F12",
+    "P3.F13",
+    "P3.F14",
+    "P3.F15"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii: the Rehabilitation Council of India Act was from 1992, the National Trust Act from 1999, the National Policy from 2006 and UNCRPD ratification from 2007. The other codes shift these years among the four measures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Accessibility campaign",
+   "question": "In which year was the Accessible India Campaign, also known as Sugamya Bharat Abhiyan, launched?",
+   "options": [
+    "2015",
+    "1999",
+    "2017",
+    "2021"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F16"
+   ],
+   "explanation": "The Accessible India Campaign was associated with 2015. The other years belong to the National Trust Act, Mental Health Care Act and Harmonized Accessibility Guidelines respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "International disability prevalence",
+   "question": "Match each country with the disability prevalence figure cited for it.\n\nList-I\n(a) Canada\n(b) Australia\n(c) United Kingdom\n(d) China\n\nList-II\n(i) 19%\n(ii) 6.34%\n(iii) 22%\n(iv) 18.3%",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F20"
+   ],
+   "explanation": "The correct matching is Canada–22%, Australia–18.3%, United Kingdom–19% and China–6.34%. The most tempting alternative swaps the Canadian and Australian figures and also shifts the United Kingdom and China figures."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Local disability surveys",
+   "question": "Consider the following statements:\nStatement A: The Salem local survey in 2025 used 21 categories.\nStatement B: The Kerala local survey of 2014–15 used 21 categories.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F21"
+   ],
+   "explanation": "Both statements are false because the Salem survey in 2025 and the Kerala survey of 2014–15 each used 22 categories. The changed detail in both statements is 21 instead of 22."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Disability legislation after 2016",
+   "question": "Consider the following statements about India's disability-related legal and accessibility framework:\n1. The Mental Health Care Act was enacted in 2017.\n2. The Harmonized Accessibility Guidelines were issued in 2021.\n3. The Mental Health Care Act was enacted in 2016.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F18",
+    "P3.F19"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Mental Health Care Act is associated with 2017 and the Harmonized Accessibility Guidelines with 2021. Statement 3 is false because it changes the year of the Mental Health Care Act to 2016."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Pharmaceutical sector scale and supply",
+   "question": "Which combination correctly describes India's pharmaceutical sector as cited in the drug-safety context?",
+   "options": [
+    "It is projected to grow from $50 billion to $130 billion by 2030, supplies 40% of US generics, and provides 50–60% of the world's vaccines",
+    "It is projected to grow from $40 billion to $130 billion by 2030, supplies 50–60% of US generics, and provides 40% of the world's vaccines",
+    "It is projected to grow from $50 billion to $130 billion by 2030, supplies 40% of US generics, and provides 19% of the world's vaccines",
+    "It is projected to grow from $50 billion to $2030 billion by 130, supplies 50–60% of US generics, and provides 40% of the world's vaccines"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5"
+   ],
+   "explanation": "The sector is projected to expand from $50 billion to $130 billion by 2030, while supplying 40% of US generics and 50–60% of the world's vaccines. The other options interchange the supply shares or alter the stated market figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cough syrup deaths",
+   "question": "The cough syrup deaths mentioned in the drug-safety context occurred in which countries?",
+   "options": [
+    "Gambia and Uzbekistan",
+    "Gambia and Canada",
+    "Uzbekistan and Australia",
+    "United Kingdom and China"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6"
+   ],
+   "explanation": "The countries identified were Gambia and Uzbekistan. Canada, Australia, the United Kingdom and China appear in other contexts but were not the countries linked to these cough syrup deaths."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Online pharmacies and retail chains",
+   "question": "Consider the following statements about pharmaceutical distribution and retail studies:\n1. A Jaipur study found that 2 of 8 online pharmacies sold medicines without a prescription.\n2. Retail chains were associated with a 5% improvement in quality and a 2% reduction in prices.\n3. The Jaipur study found that 5 of 8 online pharmacies sold medicines without a prescription.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7",
+    "P4.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Jaipur study reported 2 of 8 online pharmacies selling without a prescription, while retail chains showed quality +5% and prices −2%. Statement 3 is false because it changes the Jaipur figure from 2 of 8 to 5 of 8."
+  }
+ ]
+}

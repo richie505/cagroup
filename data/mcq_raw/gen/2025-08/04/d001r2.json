@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P2.F4",
+  "P2.F5",
+  "P2.F8",
+  "P4.F3",
+  "P4.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Solar installations and quarterly record",
+   "question": "With reference to India’s solar-sector performance, consider the following statements:\n1. FY25 solar installations stood at 24 GW, rising 60% year-on-year.\n2. Solar installations in Q1 FY26 reached 11 GW, the highest ever in a quarter.\n3. FY25 solar installations stood at 24 GW, rising 50% year-on-year.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: FY25 installations were 24 GW, up 60% year-on-year, while Q1 FY26 recorded 11 GW, the highest quarterly figure. Statement 3 is incorrect because the increase was 60%, not 50%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Annual solar-capacity requirement",
+   "question": "To remain aligned with India’s target of 500 GW of non-fossil capacity by 2030, how much solar capacity is needed to be added annually through 2030?",
+   "options": [
+    "40–50 GW a year",
+    "500 GW a year",
+    "24 GW a year",
+    "11 GW a year"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "India needs to add 40–50 GW of solar capacity a year through 2030 to support the 500 GW non-fossil-capacity target. The figures of 24 GW and 11 GW refer to specific installation periods, not the annual requirement through 2030."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Earlier cotton-duty exemption",
+   "question": "What was the earlier exemption timeline for the cotton import duty before the withdrawal announced in August 2025?",
+   "options": [
+    "Introduced in April 2022, initially valid until 30 September 2022, and extended to 31 October 2022",
+    "Introduced in April 2022, initially valid until 31 October 2022, and extended to 30 September 2022",
+    "Introduced on 30 September 2022, initially valid until April 2022, and extended to 31 October 2022",
+    "Introduced in April 2022, initially valid until 30 September 2022, and extended to 30 September 2022"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "The earlier exemption began in April 2022, continued initially until 30 September 2022, and was extended to 31 October 2022. The other options reverse or alter the exemption timeline."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cotton-import growth and value",
+   "question": "According to the Global Trade Research Initiative, how did India’s cotton imports change from FY24 to FY25?",
+   "options": [
+    "They rose 107.4%, from $579.2 million to $1.20 billion",
+    "They rose 107.4%, from $1.20 billion to $579.2 million",
+    "They fell 107.4%, from $579.2 million to $1.20 billion",
+    "They rose 60%, from $579.2 million to $1.20 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "Cotton imports rose 107.4%, increasing from $579.2 million in FY24 to $1.20 billion in FY25. The tempting second option reverses the FY24 and FY25 values, while the other options change the direction or rate of growth."
+  }
+ ]
+}

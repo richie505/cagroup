@@ -1,0 +1,86 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "India–France Year of Innovation",
+   "question": "Under the Horizon 2047 roadmap, which year has been designated as the India–France Year of Innovation?",
+   "options": [
+    "2024",
+    "2025",
+    "2026",
+    "2035"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "The India–France Year of Innovation is scheduled for 2026 under the Horizon 2047 roadmap. The tempting option 2025 is incorrect; the designated year is 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AMCA induction target",
+   "question": "The indigenous fifth-generation fighter being developed by the Aeronautical Development Agency is targeted for induction by which year?",
+   "options": [
+    "2027",
+    "2035",
+    "2040",
+    "2047"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "The Aeronautical Development Agency’s indigenous fifth-generation AMCA is targeted for induction by 2035. The year 2040 is associated with the Indian Moon landing milestone, not AMCA induction."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Past engine project",
+   "question": "Which past Indian engine project is mentioned in the context of the development of advanced fighter-aircraft propulsion?",
+   "options": [
+    "Kaveri engine project",
+    "Horizon 2047 roadmap",
+    "AMCA programme",
+    "India–France Year of Innovation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "The Kaveri engine project is identified as a past Indian project in this context. The Horizon 2047 roadmap and the India–France Year of Innovation are cooperation frameworks, while AMCA is the fighter programme."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "India–France cooperation and Gaganyaan milestones",
+   "question": "Consider the following statements:\n1. India–France cooperation includes 36 Rafale aircraft, Scorpene submarines and ISRO–CNES cooperation.\n2. The Bharatiya Antariksh Station is targeted for 2040.\n3. The Indian Moon landing is targeted for 2035.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P3.F8",
+    "P3.F9"
+   ],
+   "explanation": "Statement 1 is correct: the listed India–France cooperation includes 36 Rafale, Scorpene submarines and ISRO–CNES cooperation. Statements 2 and 3 reverse the targets: the Bharatiya Antariksh Station is targeted for 2035, while the Indian Moon landing is targeted for 2040."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F12",
+  "P0.F13",
+  "P0.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Article amended and constitutional provision",
+   "question": "Consider the following statements regarding the Constitution (130th Amendment) Bill, 2025:\nStatement A: The Bill seeks to amend Article 75 of the Constitution.\nStatement B: Article 75 provides that Ministers hold office during the pleasure of the President.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F12"
+   ],
+   "explanation": "Both statements are true. The Constitution (130th Amendment) Bill, 2025 seeks to amend Article 75, which provides that Ministers hold office during the pleasure of the President. The tempting alternative that only Statement A is true is incorrect because the pleasure-of-the-President provision is also part of Article 75."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Constitutional provision for State Ministers",
+   "question": "Under Article 164(1) of the Constitution, State Ministers hold office during the pleasure of whom?",
+   "options": [
+    "The President",
+    "The Governor",
+    "The Prime Minister",
+    "The Chief Minister"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Under Article 164(1), State Ministers hold office during the pleasure of the Governor. The President is the corresponding constitutional authority mentioned in Article 75 for Ministers at the Union level, not for State Ministers under Article 164(1)."
+  }
+ ]
+}

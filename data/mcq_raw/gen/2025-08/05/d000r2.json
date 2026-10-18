@@ -1,0 +1,67 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F8",
+  "P2.F9",
+  "P3.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Count-Based",
+   "keyword": "Global immunization indicators",
+   "question": "Consider the following statements regarding global immunization indicators:\n1. In 2022, 17,865 rubella cases were reported in 78 countries.\n2. In 2024, 14.3 million children missed all vaccines.\n3. In 2024, DTP3 coverage was 84%.\n4. In 2024, measles first-dose coverage was 85%.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F9"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: 2022 recorded 17,865 rubella cases in 78 countries, and 14.3 million children missed all vaccines in 2024. The trap is the reversed coverage figures: DTP3 was 85%, while measles first-dose coverage was 84%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global immunization agenda",
+   "question": "Which of the following is the global immunization framework identified in the August 2025 international-health context?",
+   "options": [
+    "Immunization Agenda 2030",
+    "Congenital Rubella Syndrome",
+    "MMR vaccine",
+    "WHO South-East Asia Region"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "The correct answer is Immunization Agenda 2030. Congenital Rubella Syndrome is a health condition, MMR is a vaccine, and the WHO South-East Asia Region is a geographical grouping rather than the named agenda."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of enclaves after Partition",
+   "question": "According to the India–Bangladesh Land Boundary Agreement context, how many enclaves existed after Partition?",
+   "options": [
+    "Over 160",
+    "111",
+    "51",
+    "14,854"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "More than 160 enclaves, known as Chitmahals, existed after Partition. The tempting figure 111 refers to Indian enclaves transferred to Bangladesh, while 51 refers to Bangladeshi enclaves merged into India."
+  }
+ ]
+}

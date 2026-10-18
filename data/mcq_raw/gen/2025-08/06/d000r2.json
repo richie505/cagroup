@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F16",
+  "P0.F17",
+  "P1.F5",
+  "P1.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Propulsion system",
+   "question": "Which propulsion system is specified for the Project 17A stealth guided-missile frigates INS Udaygiri and INS Himgiri?",
+   "options": [
+    "CODOG",
+    "Humsa (NG) sonar",
+    "Shakti electronic-warfare suite",
+    "28 knots"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "The Project 17A frigates use CODOG propulsion. Humsa (NG) is a sonar system, while Shakti is an electronic-warfare suite and 28 knots is the specified speed."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Crew strength",
+   "question": "What is the specified crew strength of the Project 17A frigates INS Udaygiri and INS Himgiri?",
+   "options": [
+    "Approximately 225",
+    "Approximately 149 metres",
+    "Approximately 6,670 tonnes",
+    "28 knots"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "The specified crew strength of each Project 17A frigate is approximately 225 personnel. The other options refer respectively to length, displacement and speed."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Weapons fit",
+   "question": "Which of the following correctly represents the specified weapons fit of the Project 17A frigates INS Udaygiri and INS Himgiri?",
+   "options": [
+    "8 BrahMos VLS, LRSAM/Barak 8, torpedoes, rocket launchers, a 127 mm gun and 2 AK-630 CIWS",
+    "8 BrahMos VLS, Humsa (NG) sonar, torpedoes, rocket launchers, a 127 mm gun and 2 AK-630 CIWS",
+    "8 BrahMos VLS, LRSAM/Barak 8, Shakti electronic-warfare suite, rocket launchers, a 127 mm gun and 2 AK-630 CIWS",
+    "8 BrahMos VLS, LRSAM/Barak 8, torpedoes, rocket launchers, a 149 m hull and 2 AK-630 CIWS"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "The specified weapons include 8 BrahMos VLS, LRSAM/Barak 8, torpedoes, rocket launchers, a 127 mm gun and 2 AK-630 CIWS. Humsa (NG) and Shakti are sensor or electronic-warfare systems, while 149 metres is the frigates’ length."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Legacy service associations",
+   "question": "Match the legacy ship with an operation or duty associated with it:\n\nList-I\n a. Legacy Udaygiri\n b. Legacy Himgiri\n\nList-II\n i. Operation Pawan (1987)\n ii. Bombay High patrol (1985)\n iii. Operation Cactus\n iv. Gujarat quake relief (2001)",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-iii, b-iv",
+    "a-iv, b-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16",
+    "P0.F17"
+   ],
+   "explanation": "Legacy Udaygiri was associated with Operation Pawan in 1987, while legacy Himgiri undertook Bombay High patrol in 1985. Operation Cactus is listed for both legacy ships, so it is not the distinguishing pair here; Gujarat quake relief is associated with Himgiri."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Test range and participating laboratories",
+   "question": "With reference to the maiden flight tests of the Integrated Air Defence Weapon System (IADWS), consider the following statements:\n\nStatement A: The tests were conducted at the Chandipur Integrated Test Range.\nStatement B: DRDL, Research Centre Imarat and the Centre for High Energy Systems and Sciences (CHESS) were the laboratories associated with the system.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "Both statements are correct: the IADWS tests were conducted at the Chandipur Integrated Test Range, and the associated laboratories were DRDL, Research Centre Imarat and CHESS. The trap is to omit the test range or to identify only DRDL instead of the three listed laboratories."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F4",
+  "P0.F6",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "National score and safety perception",
+   "question": "With reference to the National Annual Report and Index on Women's Safety (NARI) 2025, consider the following statements:\n1. The national score was 65%.\n2. Six in ten women felt safe.\n3. Forty per cent of women felt safe.\nWhich of the statements given above are correct?",
+   "options": [
+    "Exactly two statements are correct",
+    "Exactly one statement is correct",
+    "All three statements are correct",
+    "None of the statements are correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: NARI 2025 recorded a national score of 65%, and six in ten women felt safe. Statement 3 is incorrect because 40% felt not so safe or unsafe, not safe."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Harassment hotspots and age-wise finding",
+   "question": "Which one of the following statements about the harassment findings of NARI 2025 is incorrect?",
+   "options": [
+    "Seven per cent of harassment cases in 2024 were reported in public spaces.",
+    "Fourteen per cent of women under 24 experienced harassment in 2024.",
+    "Neighbourhoods accounted for 38% of harassment hotspots.",
+    "Public transport accounted for 19% of harassment hotspots."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "The incorrect statement is that public transport accounted for 19% of harassment hotspots; the correct figure was 29%. The other findings were 7% in public spaces, 14% among women under 24, and 38% in neighbourhoods."
+  }
+ ]
+}

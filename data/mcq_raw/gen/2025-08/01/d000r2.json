@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F5",
+  "P1.F2",
+  "P1.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Solar project allocation",
+   "question": "As part of the Andhra Pradesh Cabinet decisions, what land allocation and project capacity were approved for Adani Solar Energy in Mylavaram mandal?",
+   "options": [
+    "1,200 acres for a 250 MW solar project",
+    "904 acres for a 160 MW solar project",
+    "12.96 acres for a 52 MW solar project",
+    "972 acres for a 1,200 MW solar project"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The Cabinet approved leasing 1,200 acres in Mylavaram mandal to Adani Solar Energy for a 250 MW solar project. The figures of 904 acres and 160 MW do not describe this decision; they are associated with Amaravati allocations."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Investment and coastline",
+   "question": "With reference to the APMB–APM Terminals pact and Andhra Pradesh’s maritime profile, consider the following statements:\n\n1. The pact involved an investment of ₹9,000 crore.\n2. Andhra Pradesh has a 972-km coastline, the second-longest in India.\n3. The pact involved an investment of over ₹3 lakh crore.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F8",
+    "P1.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the pact involved ₹9,000 crore, and Andhra Pradesh has a 972-km coastline described as the second-longest in India. Statement 3 is incorrect because investment of over ₹3 lakh crore relates to the Maritime India Vision 2030, not this pact."
+  }
+ ]
+}

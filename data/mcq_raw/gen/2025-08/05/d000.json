@@ -1,0 +1,281 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P1.F2",
+  "P1.F3",
+  "P1.F4",
+  "P1.F7",
+  "P1.F8",
+  "P2.F1",
+  "P2.F10",
+  "P2.F3",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F8",
+  "P2.F9",
+  "P3.F2",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Preceding diplomatic event",
+   "question": "The August 2025 White House summit on the Ukraine peace process was preceded by which meeting?",
+   "options": [
+    "Trump–Vladimir Putin meeting in Alaska",
+    "Trump–Volodymyr Zelenskyy meeting in Washington",
+    "European leaders’ meeting in Brussels",
+    "Russia–Ukraine meeting in Donbas"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The White House summit was preceded by a meeting between Donald Trump and Vladimir Putin in Alaska. The Brussels meeting was not identified as the preceding event."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "European security proposal",
+   "question": "With reference to the European position at the August 2025 summit on Ukraine, consider the following statements:\n1. Europe planned a European-led “reassurance force”.\n2. Ukraine’s NATO membership was to be guaranteed.\n3. Europe sought US security guarantees.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Europe planned a European-led “reassurance force” and sought US security guarantees. Statement 2 is incorrect because NATO membership was ruled out for Ukraine."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "US position",
+   "question": "At the August 2025 summit on Ukraine, how did the United States describe Europe’s role in the conflict?",
+   "options": [
+    "The first line of defence",
+    "The final guarantor of peace",
+    "The neutral mediator",
+    "The southern frontline"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The United States described Europe as the “first line of defence”. The other descriptions do not represent the stated US position."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Russian negotiating position",
+   "question": "Which position did Russia reportedly take in discussions on ending the Ukraine war in August 2025?",
+   "options": [
+    "Control over Donbas while freezing the southern frontline",
+    "Withdrawal from Donbas while reopening the southern frontline",
+    "European control over Donbas while freezing the northern frontline",
+    "Ukraine’s NATO membership while retaining the southern frontline"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "Russia demanded control over Donbas and was willing to freeze the southern frontline. The alternatives alter either the territory, the frontline, or the NATO position."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "War commencement",
+   "question": "The Russia–Ukraine war discussed at the August 2025 summit began in which month and year?",
+   "options": [
+    "February 2022",
+    "August 2025",
+    "February 2015",
+    "July 2024"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "The war began in February 2022. August 2025 was the month of the summit, not the beginning of the war."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "India’s diplomatic response",
+   "question": "Which of the following statements regarding India’s response to Nepal’s objection to Lipulekh trade is incorrect?",
+   "options": [
+    "India described Nepal’s objection as not based on historical facts.",
+    "India characterised Nepal’s position as unilateral.",
+    "The response was given by MEA spokesperson Randhir Jaiswal.",
+    "India stated that Nepal’s objection was fully based on historical facts."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The incorrect statement is that India considered Nepal’s objection fully based on historical facts. India said the objection was not based on historical facts and was unilateral; the response was given by Randhir Jaiswal."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Nepal’s territorial claim",
+   "question": "Consider the following statements:\nStatement A: Nepal’s constitutional map places Kalapani, Limpiyadhura and Lipulekh west of the Mahakali River.\nStatement B: Former Nepal Prime Minister K.P. Sharma Oli said the territories would be taken back through military action.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "Both statements are false. Nepal’s constitutional map places the three areas east of the Mahakali River, while K.P. Sharma Oli said the territories would be taken back through dialogue."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Treaty and river dispute",
+   "question": "Assertion (A): The root of the Lipulekh dispute lies in differing claims about the origin of the Mahakali River.\nReason (R): The Sugauli Treaty was concluded in 1815.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the dispute concerns the river’s origin, and the Sugauli Treaty dates to 1815. However, the treaty’s date does not explain the differing claims about the river’s origin."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Disease elimination",
+   "question": "On 18 August 2025, which public-health achievement did the WHO declare for Nepal?",
+   "options": [
+    "Elimination of rubella as a public health problem",
+    "Elimination of Congenital Rubella Syndrome globally",
+    "Elimination of all vaccine-preventable diseases",
+    "Elimination of measles in the WHO South-East Asia Region"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The WHO declared that Nepal had eliminated rubella as a public health problem. The declaration did not concern global CRS elimination, all vaccine-preventable diseases, or regional measles elimination."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "Rubella-control milestones",
+   "question": "Arrange the following Nepal rubella-control measures in chronological order:\n1. More than 95% of children received at least one dose.\n2. Rubella vaccine campaign for children aged 9 months–15 years.\n3. Second dose introduced into routine immunisation.",
+   "options": [
+    "2–3–1",
+    "1–2–3",
+    "3–2–1",
+    "2–1–3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "The correct order is 2–3–1: the vaccine campaign took place in 2012, the second routine dose was introduced in 2016, and over 95% coverage was recorded in early 2024. The other sequences reverse one or more milestones."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Disease burden",
+   "question": "Rubella, also known as German measles, can cause which condition in infants?",
+   "options": [
+    "Congenital Rubella Syndrome",
+    "Diphtheria–tetanus–pertussis syndrome",
+    "Mahakali River syndrome",
+    "Donbas syndrome"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "Rubella can cause Congenital Rubella Syndrome, which affects infants and accounts for about 1,00,000 cases globally each year. The other conditions are unrelated to rubella."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global rubella cases",
+   "question": "According to the reported global data, how many rubella cases were recorded in 2022 across 78 countries?",
+   "options": [
+    "17,865",
+    "14.3 million",
+    "85%",
+    "84%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "There were 17,865 rubella cases in 78 countries in 2022. The figure of 14.3 million refers to children who missed all vaccines in 2024, while 85% and 84% are immunisation coverage figures."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Global immunisation indicators",
+   "question": "How many of the following were part of the reported global immunisation information for 2024?\n1. 14.3 million children missed all vaccines.\n2. DTP3 coverage was 85% and measles first-dose coverage was 84%.\n3. Immunization Agenda 2030 recorded 17,865 rubella cases in 78 countries.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "Only two statements are correct: 14.3 million children missed all vaccines, and the reported DTP3 and measles first-dose coverage was 85% and 84%, respectively. Statement 3 incorrectly combines the 2022 rubella figure with Immunization Agenda 2030."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Enclave history",
+   "question": "How many enclaves existed after Partition in the context of the India–Bangladesh Land Boundary Agreement?",
+   "options": [
+    "Over 160",
+    "111",
+    "51",
+    "14,854"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "More than 160 enclaves, known as Chitmahals, existed after Partition. The figures 111 and 51 refer to the two categories of enclaves exchanged, while 14,854 refers to residents who became Indian citizens."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Enclave exchange and rehabilitation",
+   "question": "Match List-I with List-II regarding the India–Bangladesh Land Boundary Agreement.\n\nList-I\n(a) Indian enclaves in Bangladesh\n(b) Bangladeshi enclaves in India\n(c) One implementation issue\n(d) Banglar Awas Yojana assistance\n\nList-II\n(i) Merged into India\n(ii) Transferred to Bangladesh\n(iii) No land registration\n(iv) ₹1.3 lakh",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8",
+    "P3.F9"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv. The 111 Indian enclaves went to Bangladesh, the 51 Bangladeshi enclaves came to India, lack of land registration was an issue, and Banglar Awas Yojana provided ₹1.3 lakh."
+  }
+ ]
+}

@@ -1,0 +1,211 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F8",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F5",
+  "P1.F6",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Length and displacement",
+   "question": "What are the specified length and displacement of the Project 17A stealth guided-missile frigates INS Udaygiri and INS Himgiri?",
+   "options": [
+    "149 m and approximately 6,670 tonnes",
+    "Approximately 6,670 m and 149 tonnes",
+    "149 tonnes and approximately 6,670 m",
+    "Approximately 6,670 knots and 149 m"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "The Project 17A frigates have a length of 149 m and a displacement of approximately 6,670 tonnes. The other options interchange the units or pair the figures with an incorrect unit."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Maximum speed",
+   "question": "What is the specified speed of the Project 17A frigates INS Udaygiri and INS Himgiri?",
+   "options": [
+    "28 knots",
+    "28 metres",
+    "28 tonnes",
+    "28 crew members"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "The specified speed of the Project 17A frigates is 28 knots. Metres, tonnes and crew members are not units describing their speed."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Propulsion system",
+   "question": "Assertion (A): The Project 17A frigates use CODOG propulsion.\nReason (R): Their crew strength is approximately 225 tonnes.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "Assertion A is true because CODOG is the specified propulsion system. Reason R is false because approximately 225 refers to the crew strength, not a measurement in tonnes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Weapons fit",
+   "question": "Which of the following is included in the weapons fit specified for the Project 17A frigates?",
+   "options": [
+    "Eight BrahMos VLS",
+    "Humsa (NG) sonar",
+    "Shakti electronic warfare suite",
+    "Approximately 225 crew members"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "The weapons fit includes eight BrahMos vertical launch systems, along with other weapons listed for the frigates. Humsa (NG) sonar and the Shakti suite are sensors, while approximately 225 refers to crew strength."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sensors",
+   "question": "Which combination represents the specified sensor systems of the Project 17A frigates?",
+   "options": [
+    "Humsa (NG) sonar and Shakti EW suite",
+    "BrahMos VLS and 127 mm gun",
+    "CODOG and 28 knots",
+    "Torpedoes and rocket launchers"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "The specified sensors are the Humsa (NG) sonar and the Shakti electronic warfare suite. The other options describe weapons, propulsion or speed rather than sensors."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Ship names, commands and mottos",
+   "question": "Match the ship in List-I with its command and motto in List-II.\n\nList-I\n a. INS Udaygiri\n b. INS Himgiri\n\nList-II\n i. Eastern Naval Command — Sanyuktaha Paramojayaha\n ii. Western Naval Command — Adrushyam Ajayam\n\n",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-i, b-i",
+    "a-ii, b-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14",
+    "P0.F15"
+   ],
+   "explanation": "INS Udaygiri belongs to the Eastern Naval Command and carries the motto Sanyuktaha Paramojayaha; INS Himgiri belongs to the Western Naval Command and carries the motto Adrushyam Ajayam. The tempting alternative reverses the commands and mottos of the two ships."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Legacy service associations",
+   "question": "Match each legacy ship with the service association given for it.\n\nList-I\n a. Legacy Udaygiri\n b. Legacy Himgiri\n\nList-II\n i. Operation Pawan\n ii. Bombay High patrol\n iii. Gujarat earthquake relief\n iv. Operation Castor during the tsunami\n\n",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-iv, b-iii",
+    "a-iii, b-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16",
+    "P0.F17"
+   ],
+   "explanation": "Legacy Udaygiri is associated with Operation Pawan, while legacy Himgiri is associated with the Bombay High patrol. Gujarat earthquake relief is linked to legacy Himgiri, and Operation Castor during the tsunami is linked to legacy Udaygiri."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Other 2025 commissionings",
+   "question": "Which combination correctly identifies the other vessels commissioned in 2025 along with INS Udaygiri and INS Himgiri?",
+   "options": [
+    "INS Surat, INS Vaghsheer, INS Arnala and INS Nistar",
+    "INS Nilgiri, INS Udaygiri, INS Himgiri and INS Surat",
+    "INS Vaghsheer, INS Arnala, INS Nistar and INS Nilgiri",
+    "INS Surat, INS Nilgiri, INS Arnala and INS Himgiri"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F18"
+   ],
+   "explanation": "The other 2025 commissionings were INS Surat, INS Vaghsheer, INS Arnala and INS Nistar. INS Nilgiri, INS Udaygiri and INS Himgiri are not the complete combination specified in this fact."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "IADWS test range and laboratories",
+   "question": "Match the facility or organisation with its role in the IADWS maiden flight tests.\n\nList-I\n a. Chandipur Integrated Test Range\n b. DRDL\n c. Research Centre Imarat\n d. Centre for High Energy Systems and Sciences\n\nList-II\n i. Test range\n ii. Laboratory involved in the tests\n iii. Laboratory involved in the tests\n iv. Laboratory involved in the tests\n\n",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "The tests were conducted at the Chandipur Integrated Test Range, while DRDL, Research Centre Imarat and the Centre for High Energy Systems and Sciences were the laboratories involved. The other codes wrongly assign a laboratory role to the test range or interchange the range and laboratory functions."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Long- and medium-range air defence layers",
+   "question": "With reference to India's air-defence layers, consider the following statements:\n\n1. The long-range layer includes Barak-8 and S-400.\n2. The medium-range layer includes Akash and MR-SAM.\n\n",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "Both statements are correct: Barak-8 and S-400 form the listed long-range layer, while Akash and MR-SAM form the listed medium-range layer. The alternatives incorrectly reject one or both of these layer-system pairings."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Short- and very-short-range layers",
+   "question": "Match the air-defence layer with the systems listed for it.\n\nList-I\n a. Short range\n b. Very short range\n\nList-II\n i. QRSAM and Spyder\n ii. VSHORADS and MANPADS\n\n",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-i, b-i",
+    "a-ii, b-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "The short-range layer comprises QRSAM and Spyder, while the very-short-range layer comprises VSHORADS and MANPADS. The other options reverse or duplicate these two layer-system pairings."
+  }
+ ]
+}

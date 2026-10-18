@@ -1,43 +1,45 @@
 # CA MCQ report
 
-- MCQs kept: **10618**
+- MCQs kept: **10839**
 - News pages with at least one question: **2625 / 2629**
-- Facts tested: **18671 / 20515** (91.0%)
-- Answer positions: A 2654, B 2753, C 2797, D 2414
+- Facts tested: **19019 / 20515** (92.7%)
+- Answer positions: A 2703, B 2820, C 2858, D 2458
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 1153 | 1176 | 1235 | 1096 |
-| Negative / Incorrect Statement | 178 | 174 | 182 | 169 |
-| Assertion-Reason | 174 | 203 | 268 | 220 |
-| Statement-Based (A/B) | 347 | 212 | 303 | 262 |
-| Multi-Statement Correctness | 398 | 402 | 369 | 372 |
-| Chronological Ordering | 6 | 5 | 4 | 5 |
-| List-Matching | 292 | 273 | 260 | 284 |
-| Count-Based | 106 | 308 | 176 | 6 |
+| Direct Recall | 1182 | 1211 | 1255 | 1119 |
+| Negative / Incorrect Statement | 180 | 176 | 186 | 171 |
+| Assertion-Reason | 176 | 207 | 270 | 224 |
+| Statement-Based (A/B) | 350 | 217 | 312 | 264 |
+| Multi-Statement Correctness | 402 | 412 | 385 | 377 |
+| Chronological Ordering | 6 | 6 | 4 | 5 |
+| List-Matching | 299 | 279 | 268 | 292 |
+| Count-Based | 108 | 312 | 178 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 1289 |
-| verify:explanation_contradicts | 208 |
-| verify:not_in_facts | 147 |
+| code | 1342 |
+| verify:explanation_contradicts | 210 |
+| verify:not_in_facts | 149 |
 | duplicate | 74 |
-| verify:two_correct | 41 |
+| verify:two_correct | 45 |
 | verify:none_correct | 34 |
-| verify:second reader picked option 2, key 1 | 23 |
+| verify:second reader picked option 2, key 1 | 24 |
 | verify:garbled | 14 |
 | verify:ambiguous_stem | 9 |
+| verify:second reader picked option 0, key 1 | 6 |
 | verify:second reader picked option 1, key 0 | 5 |
 | verify:second reader picked option 3, key 0 | 2 |
-| verify:second reader picked option 0, key 1 | 2 |
 | verify:second reader picked option 2, key 0 | 2 |
 | verify:trivial | 2 |
 | verify:second reader picked option 3, key 2 | 2 |
 | verify:second reader picked option 3, key 1 | 2 |
+| verify:second reader picked option 1, key 2 | 2 |
 | verify:second reader picked option 1, key 3 | 1 |
 | verify:second reader picked option 0, key 3 | 1 |
+| verify:second reader picked option 0, key 2 | 1 |
 
 ## Per file
 
@@ -192,17 +194,17 @@
 | 2025-09/09 | Awards, Persons & Appointments | 22 | 34/39 |
 | 2025-09/10 | Sports | 8 | 12/13 |
 | 2025-09/11 | Important Days & Events | 8 | 16/16 |
-| 2025-08/01 | Andhra Pradesh | 30 | 70/154 |
-| 2025-08/02 | Polity & Governance | 13 | 28/78 |
-| 2025-08/03 | Schemes & Social Sector | 13 | 33/79 |
-| 2025-08/04 | Economy, Banking & Budget | 12 | 21/81 |
-| 2025-08/05 | International Relations | 8 | 16/40 |
-| 2025-08/06 | Science, Tech, Space & Defence | 19 | 42/106 |
-| 2025-08/07 | Environment & Geography | 7 | 16/37 |
-| 2025-08/08 | Reports, Indices & Rankings | 2 | 5/10 |
-| 2025-08/09 | Awards, Persons & Appointments | 2 | 4/13 |
-| 2025-08/10 | Sports | 2 | 4/7 |
-| 2025-08/11 | Important Days & Events | 2 | 5/8 |
+| 2025-08/01 | Andhra Pradesh | 80 | 148/154 |
+| 2025-08/02 | Polity & Governance | 44 | 77/78 |
+| 2025-08/03 | Schemes & Social Sector | 39 | 75/79 |
+| 2025-08/04 | Economy, Banking & Budget | 49 | 80/81 |
+| 2025-08/05 | International Relations | 24 | 39/40 |
+| 2025-08/06 | Science, Tech, Space & Defence | 52 | 98/106 |
+| 2025-08/07 | Environment & Geography | 21 | 37/37 |
+| 2025-08/08 | Reports, Indices & Rankings | 6 | 10/10 |
+| 2025-08/09 | Awards, Persons & Appointments | 8 | 13/13 |
+| 2025-08/10 | Sports | 4 | 7/7 |
+| 2025-08/11 | Important Days & Events | 4 | 8/8 |
 | 2025-06/01 | Andhra Pradesh | 12 | 33/61 |
 | 2025-06/02 | Polity & Governance | 4 | 10/25 |
 | 2025-06/03 | Schemes & Social Sector | 5 | 10/24 |
@@ -1668,6 +1670,36 @@
 - `2025-09/11/d000#5` verify: garbled — The options include “All four” although only three statements are listed.
   - Q: How many of the following statements about Semicon India 2025 are correct? / 1. It took place on 2 September 2025. / 2. A Vikram 32-bit chip was presented. / 3. A Vikram 16-bit chip was presented.
   - Key: Only two
+- `2025-08/01/d001#10` verify: explanation_contradicts — Statements 1 and 3 are correct, so the count is two; the given explanation incorrectly says only statement 3 is correct.
+  - Q: How many of the following statements about the Swarna Naravaripalli project are correct? /  / 1. It is expected to reduce emissions by 4,188 metric tonnes of CO2 a year. / 2. Its linked national target is I
+  - Key: Only one
+- `2025-08/01/d003#0` verify: second reader picked option 0, key 1 — 
+  - Q: The mandatory use of High-Security Registration Plates (HSRP) in India is prescribed under which provision?
+  - Key: The pricing decision of state transport authorities and manufacturers
+- `2025-08/01/d003#1` verify: second reader picked option 1, key 2 — 
+  - Q: Consider the following statements: / Statement A: National HSRP compliance was nearly 60%. / Statement B: HSRP pricing was uniform across all States.
+  - Key: Statement A is true, Statement B is false
+- `2025-08/01/d003#2` verify: second reader picked option 0, key 1 — 
+  - Q: Match the States with their HSRP compliance percentages: /  / List-I / (a) Assam / (b) West Bengal / (c) Odisha / (d) Kerala /  / List-II / (i) 85.3% / (ii) 76% / (iii) 66.4% / (iv) 25.5%
+  - Key: a-ii, b-i, c-iv, d-iii
+- `2025-08/01/d003#3` verify: second reader picked option 1, key 2 — 
+  - Q: Which Union Territory recorded 2.4% HSRP compliance in the reported comparison?
+  - Key: Assam
+- `2025-08/01/d003#7` verify: second reader picked option 0, key 1 — 
+  - Q: In Tirupati’s CVIRMS, digitally recorded visitor identities are linked to which database for instant alerts about persons with a criminal background?
+  - Key: The NCRB database
+- `2025-08/01/d003#8` verify: second reader picked option 0, key 2 — 
+  - Q: How many of the following statements about Tirupati’s CVIRMS are correct? / 1. It covered 644 establishments. / 2. Approximately 75% of the establishments were uploading data. / 3. Its next database linkage
+  - Key: Only three
+- `2025-08/01/d003#9` verify: second reader picked option 0, key 1 — 
+  - Q: The practice of maintaining registers of strangers, travellers and merchants, cited in connection with visitor records, is associated with which ancient work?
+  - Key: City Visitor Information and Record Management System
+- `2025-08/01/d003r2#1` verify: second reader picked option 2, key 1 — 
+  - Q: Assertion (A): Nearly 50% of vehicles nationally had High-Security Registration Plates. / Reason (R): The price of HSRPs is uniform across all States because it is fixed by a central authority.
+  - Key: Both A and R are true, but R is NOT the correct explanation of A
+- `2025-08/01/d004#2` verify: two_correct — The facts associate both the school becoming 100% anaemia-free and students building a cloudburst indicator with her work.
+  - Q: Which notable achievement was associated with the work of Madabathula Thirumala Sridevi's school?
+  - Key: The school became 100% anaemia-free
 - `2025-08/02/c002#3` verify: explanation_contradicts — Statement 3 is supported by the facts, but the explanation incorrectly calls it incorrect.
   - Q: With reference to the Presidential Reference under Article 143, consider the following statements: / 1. Article 143(1) permits the President to refer a question of law or fact of public importance for a
   - Key: 1 and 2 only
@@ -1689,6 +1721,24 @@
 - `2025-08/06/c002#4` verify: explanation_contradicts — All four statements are supported by the facts, contrary to the explanation.
   - Q: How many of the following statements about Primary Amoebic Meningoencephalitis (PAM) are correct? / 1. Naegleria fowleri thrives in warm freshwater and soil, up to 46°C. / 2. The amoeba reaches the brain 
   - Key: Only three
+- `2025-08/06/d000#2` verify: not_in_facts — The facts give a crew strength of approximately 225 but do not establish whether the added unit 'tonnes' makes the Reason false.
+  - Q: Assertion (A): The Project 17A frigates use CODOG propulsion. / Reason (R): Their crew strength is approximately 225 tonnes.
+  - Key: A is true, but R is false
+- `2025-08/06/d000#6` verify: two_correct — Both a-i, b-ii and a-iv, b-iii are supported by the facts.
+  - Q: Match each legacy ship with the service association given for it. /  / List-I /  a. Legacy Udaygiri /  b. Legacy Himgiri /  / List-II /  i. Operation Pawan /  ii. Bombay High patrol /  iii. Gujarat earthquake relief /  i
+  - Key: a-i, b-ii
+- `2025-08/06/d000#8` verify: two_correct — The three laboratory roles are indistinguishable, so options 0 and 2 both fit the facts.
+  - Q: Match the facility or organisation with its role in the IADWS maiden flight tests. /  / List-I /  a. Chandipur Integrated Test Range /  b. DRDL /  c. Research Centre Imarat /  d. Centre for High Energy Systems an
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2025-08/06/d000r2#3` verify: two_correct — Option 2 is also supported because Operation Cactus is associated with Udaygiri and Gujarat quake relief with Himgiri.
+  - Q: Match the legacy ship with an operation or duty associated with it: /  / List-I /  a. Legacy Udaygiri /  b. Legacy Himgiri /  / List-II /  i. Operation Pawan (1987) /  ii. Bombay High patrol (1985) /  iii. Operation Ca
+  - Key: a-i, b-ii
+- `2025-08/06/d001#1` verify: explanation_contradicts — The facts support Statements 1 and 2, contrary to the explanation's claim that only Statement 1 is correct.
+  - Q: With reference to the India–France cooperation framework for the AMCA engine, consider the following statements: / 1. The cooperation is linked with the Horizon 2047 roadmap. / 2. 2026 is designated as th
+  - Key: 1 only
+- `2025-08/08/d000#2` verify: not_in_facts — The facts establish 14% for women under 24, but do not determine whether the figure for women under 25 was also 14%.
+  - Q: Consider the following statements about the findings of NARI 2025: /  / 1. Six in ten women felt safe. / 2. Forty per cent of women were not so safe or unsafe. / 3. Harassment in 2024 was reported by 14% of w
+  - Key: 1 and 2 only
 - `2025-06/01/c001#0` verify: not_in_facts — The facts identify the first district only descriptively and do not name it.
   - Q: Which district became the first in Andhra Pradesh to achieve 100% CCTV coverage?
   - Key: NTR district

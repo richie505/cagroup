@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P5.F10",
+  "P5.F12"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Emission reduction",
+   "question": "The Swarna Naravaripalli solarisation project is expected to reduce carbon-dioxide emissions by how much annually?",
+   "options": [
+    "3,396 metric tonnes",
+    "4,188 metric tonnes",
+    "4.89 million metric tonnes",
+    "3.79 crore metric tonnes"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F10"
+   ],
+   "explanation": "The project is expected to reduce emissions by 4,188 metric tonnes of CO2 a year. The figure 3,396 refers to the project’s capacity in kW, while 4.89 million is the annual power generation figure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Linked national targets",
+   "question": "The Swarna Naravaripalli solarisation project is linked with which of the following national targets?",
+   "options": [
+    "The National Solar Mission and India’s Net-Zero 2070 target",
+    "The PM Surya Ghar Scheme and PM-KUSUM target",
+    "The National Solar Mission and India’s Net-Zero 2030 target",
+    "The PM Surya Ghar Scheme and India’s Net-Zero 2070 target"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F12"
+   ],
+   "explanation": "The project is linked to the National Solar Mission and India’s Net-Zero 2070 target. The other options incorrectly substitute scheme names or change the net-zero target year."
+  }
+ ]
+}

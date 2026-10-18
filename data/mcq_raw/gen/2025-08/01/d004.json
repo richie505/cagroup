@@ -1,0 +1,185 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P13.F3",
+  "P13.F4",
+  "P13.F5",
+  "P14.F10",
+  "P14.F11",
+  "P14.F12",
+  "P14.F2",
+  "P14.F3",
+  "P14.F6",
+  "P14.F7",
+  "P14.F8",
+  "P14.F9",
+  "P15.F4",
+  "P15.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Award presentation",
+   "question": "On which occasion and date was the National Best Teacher Award 2025 presented to Madabathula Thirumala Sridevi?",
+   "options": [
+    "By President Droupadi Murmu on 5 September 2025",
+    "By AP Home Minister V. Anita on 5 September 2025",
+    "By President Droupadi Murmu in 2021",
+    "By HRD Minister Nara Lokesh in 2001"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "The award was presented by President Droupadi Murmu on 5 September 2025, observed as Teachers' Day. The tempting alternative is AP Home Minister V. Anita, who is associated with congratulating DSP Harshitha Manikanta."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Career timeline",
+   "question": "Madabathula Thirumala Sridevi became the headmistress of Pandit Nehru Municipal High School in which year?",
+   "options": [
+    "2001",
+    "2021",
+    "1974",
+    "15"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F4"
+   ],
+   "explanation": "Madabathula Thirumala Sridevi became a headmistress in 2021 after beginning her career as a biology school assistant in 2001. The year 2001 marks the start of her career, not her appointment as headmistress."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "School achievement",
+   "question": "Which notable achievement was associated with the work of Madabathula Thirumala Sridevi's school?",
+   "options": [
+    "The school became 100% anaemia-free",
+    "Students built a cloudburst indicator",
+    "The school completed 50 years as a lead-hero institution",
+    "The school produced over 100 films"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F5"
+   ],
+   "explanation": "The school became 100% anaemia-free as part of the work associated with Madabathula Thirumala Sridevi. Students building a cloudburst indicator was another activity, but it was not the stated school-wide achievement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Congratulatory authority",
+   "question": "Who congratulated AP Police Railways wing DSP Harshitha Manikanta after her Mount Elbrus climb?",
+   "options": [
+    "AP Home Minister V. Anita",
+    "President Droupadi Murmu",
+    "Chittoor SP Manikantha Chandolu",
+    "WBR CEO Santosh Shukla"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2",
+    "P13.F3",
+    "P14.F3",
+    "P15.F3"
+   ],
+   "explanation": "AP Home Minister V. Anita congratulated DSP Harshitha Manikanta. President Droupadi Murmu, Manikantha Chandolu and Santosh Shukla are associated with other facts, not this congratulatory message."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Family association",
+   "question": "Manikantha Chandolu, the husband of DSP Harshitha Manikanta, serves as the SP of which district?",
+   "options": [
+    "Bheemili",
+    "Chittoor",
+    "Hindupur",
+    "Visakhapatnam"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F3",
+    "P13.F1",
+    "P15.F7"
+   ],
+   "explanation": "Manikantha Chandolu is the Chittoor SP and the husband of DSP Harshitha Manikanta. Bheemili and Visakhapatnam are linked with Sridevi's school, while Hindupur is associated with Nandamuri Balakrishna."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Seven Summits: Asia to North America",
+   "question": "Consider the following statements about the continental peaks listed in the Mount Elbrus and Seven Summits background:\n1. Mount Everest is the peak for Asia and has a height of 8,848 metres.\n2. Aconcagua is the peak for South America and has a height of 6,961 metres.\n3. Denali is the peak for North America and has a height of 6,191 metres.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F6",
+    "P14.F7",
+    "P14.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Everest is Asia's peak at 8,848 metres and Aconcagua is South America's peak at 6,961 metres. Statement 3 is incorrect because Denali's height is 6,190 metres, not 6,191 metres."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Seven Summits: Africa to Oceania",
+   "question": "Match List-I with List-II for the continental peaks:\n\nList-I\n a. Africa\n b. Europe\n c. Antarctica\n d. Australia/Oceania\n\nList-II\n i. Kilimanjaro — 5,895 metres\n ii. Elbrus — 5,642 metres\n iii. Vinson Massif — 4,892 metres\n iv. Puncak Jaya (Carstensz) / Kosciuszko — 4,884 metres / 2,228 metres",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F9",
+    "P14.F10",
+    "P14.F11",
+    "P14.F12"
+   ],
+   "explanation": "The correct pairs are Africa–Kilimanjaro, Europe–Elbrus, Antarctica–Vinson Massif and Australia/Oceania–Puncak Jaya (Carstensz) / Kosciuszko. The other codes interchange the continents and peaks."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Reaction to recognition",
+   "question": "Who described Nandamuri Balakrishna's recognition in the World Book of Records, U.K. as a “golden chapter”?",
+   "options": [
+    "Chief Minister Naidu",
+    "HRD Minister Nara Lokesh",
+    "AP Home Minister V. Anita",
+    "President Droupadi Murmu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4",
+    "P14.F2",
+    "P13.F3"
+   ],
+   "explanation": "Chief Minister Naidu described the recognition as a “golden chapter.” HRD Minister Nara Lokesh was also mentioned in the reactions, but the quoted phrase was attributed to Chief Minister Naidu."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Political constituency",
+   "question": "Nandamuri Balakrishna is a TDP MLA from which constituency?",
+   "options": [
+    "Bheemili",
+    "Chittoor",
+    "Hindupur",
+    "Visakhapatnam"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F7",
+    "P13.F1",
+    "P14.F3"
+   ],
+   "explanation": "Nandamuri Balakrishna is a TDP MLA from Hindupur. Bheemili and Visakhapatnam are connected with the school in the Sridevi report, while Chittoor is associated with SP Manikantha Chandolu."
+  }
+ ]
+}

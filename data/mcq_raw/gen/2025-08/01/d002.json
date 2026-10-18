@@ -1,0 +1,193 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P6.F10",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8",
+  "P7.F4",
+  "P7.F5",
+  "P8.F1",
+  "P8.F14",
+  "P8.F15",
+  "P8.F16",
+  "P8.F17",
+  "P8.F5",
+  "P8.F7",
+  "P8.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Pilot quantity and value",
+   "question": "With reference to the 15-day Swachh Ratham pilot, consider the following statements:\n1. The total dry waste collected was 2,599 kg.\n2. Plastic accounted for 1,271 kg of the collected waste.\n3. Commodities worth ₹47,373 were given to villagers.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5",
+    "P6.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the pilot collected 2,599 kg of dry waste, including 1,271 kg of plastic. Statement 3 is incorrect because commodities worth ₹47,604 were given, while ₹47,373 was the value of waste."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Top participating villages",
+   "question": "Which village recorded the highest quantity of dry waste collected during the 15-day Swachh Ratham pilot?",
+   "options": [
+    "Vengalayapalem",
+    "Challavaripalem",
+    "Lalpuram",
+    "Guntur Rural Mandal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F7"
+   ],
+   "explanation": "Vengalayapalem recorded the highest collection, at 801 kg. Challavaripalem collected 788 kg and Lalpuram 331 kg, so neither was the top village."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Policy and official",
+   "question": "Who, as Chairman of the Swachh Andhra Corporation, announced that Andhra Pradesh would adopt a Circular Economy Policy claimed to be the first of its kind in India?",
+   "options": [
+    "Pattabhi Ram Kommareddy",
+    "The Union Finance Ministry",
+    "The SKOCH Group",
+    "The Chief Minister of Andhra Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F8"
+   ],
+   "explanation": "Pattabhi Ram Kommareddy, Chairman of the Swachh Andhra Corporation, announced the adoption of the Circular Economy Policy. The Union Finance Ministry and SKOCH Group are associated with other news items, while the fact identifies the Chairman by name."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Target for fertiliser reduction",
+   "question": "What reduction in chemical fertiliser use did the Andhra Pradesh Chief Minister target for the following year under the Circular Economy Policy plan?",
+   "options": [
+    "4 lakh tonnes",
+    "2 lakh tonnes",
+    "47,373 tonnes",
+    "50 waste processing centres"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F10"
+   ],
+   "explanation": "The target was to reduce chemical fertiliser use by 4 lakh tonnes in the following year. The figures 47,373 and 50 relate to other aspects of the reported initiatives, not this target."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Felicitation venue and date",
+   "question": "When and where were the Andhra Pradesh Revenue Department's SKOCH Awards 2025 achievements felicitated?",
+   "options": [
+    "20 September 2025, New Delhi, at the SKOCH Summit",
+    "20 September 2025, Vijayawada, at the SKOCH Summit",
+    "19 September 2025, New Delhi, at the SKOCH Summit",
+    "20 September 2025, New Delhi, at the Swachh Andhra Summit"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "The felicitation took place on 20 September 2025 in New Delhi at the SKOCH Summit. Vijayawada, 19 September, and the Swachh Andhra Summit do not match the reported venue and date."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Awarding organisation",
+   "question": "Which of the following statements regarding the SKOCH Awards 2025 received by the Andhra Pradesh Revenue Department is incorrect?",
+   "options": [
+    "The awards are given by the SKOCH Group.",
+    "The awards are given by the Government of India.",
+    "The SKOCH Group is an independent think tank.",
+    "The awards were associated with the Andhra Pradesh Revenue Department."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "The incorrect statement is that the awards are given by the Government of India. The SKOCH Awards are given by the SKOCH Group, an independent think tank."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Data coverage and period",
+   "question": "The Union Finance Ministry's comparison of ITR-1 filers for assessment years 2020-21 to 2024-25 covered taxpayers with income up to what limit?",
+   "options": [
+    "₹50 lakh",
+    "₹25 lakh",
+    "₹10 lakh",
+    "₹5 lakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "The data covered ITR-1 filers with income up to ₹50 lakh for assessment years 2020-21 to 2024-25. The other limits are lower thresholds and do not describe the scope of this comparison."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State-wise upper-income shares",
+   "question": "Match the states and income slab with their corresponding shares or shift in the ITR-1 data.\n\nList-I\n(a) Telangana\n(b) Gujarat\n(c) Maharashtra\n(d) ₹15–25 lakh slab\n\nList-II\n(i) 61.5%\n(ii) 2.6% to 7.4%\n(iii) 56.9%\n(iv) 54.9%",
+   "options": [
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5",
+    "P8.F7",
+    "P8.F9",
+    "P8.F14"
+   ],
+   "explanation": "The correct pairs are Telangana–61.5%, Gujarat–56.9%, Maharashtra–54.9%, and the ₹15–25 lakh slab–2.6% to 7.4%. The other codes interchange the state shares and slab figures."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Slab-wise change",
+   "question": "Consider the following statements:\nStatement A: The share of Andhra Pradesh ITR-1 filers in the ₹25–50 lakh slab increased from 0.7% in AY 2020-21 to 2% in AY 2024-25.\nStatement B: The share of this slab increased from 0.7% to 2.7%.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F15"
+   ],
+   "explanation": "Statement A is true: the ₹25–50 lakh slab rose from 0.7% to 2%. Statement B is false because the later share was 2%, not 2.7%."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Growth in ITR-1 filers",
+   "question": "Assertion (A): In one year, approximately 1 lakh Andhra Pradesh ITR-1 filers moved up from the ₹2.5–5 lakh bracket.\nReason (R): The number of ITR-1 filers increased from 11.16 lakh to 13.58 lakh.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F16",
+    "P8.F17"
+   ],
+   "explanation": "Assertion A is false because approximately 2 lakh filers, not 1 lakh, moved up from the ₹2.5–5 lakh bracket in one year. Reason R is true: ITR-1 filers increased from 11.16 lakh to 13.58 lakh."
+  }
+ ]
+}

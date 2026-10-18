@@ -1,0 +1,255 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P2.F4",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F3",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9",
+  "P4.F3",
+  "P4.F4",
+  "P4.F5",
+  "P4.F6",
+  "P5.F10",
+  "P5.F2",
+  "P5.F3",
+  "P5.F5",
+  "P5.F6",
+  "P5.F7",
+  "P5.F8",
+  "P5.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Other bidders",
+   "question": "Apart from Safran, which companies were identified as other bidders for the 120 kN engine associated with the AMCA programme?",
+   "options": [
+    "Rolls Royce and General Electric",
+    "Aeronautical Development Agency and Safran",
+    "ISRO and CNES",
+    "Indian Air Force and DRDO"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Rolls Royce of the UK and General Electric of the USA were the other bidders. The Aeronautical Development Agency is associated with AMCA development, not listed as an engine bidder."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "India–France roadmap",
+   "question": "With reference to the India–France cooperation framework for the AMCA engine, consider the following statements:\n1. The cooperation is linked with the Horizon 2047 roadmap.\n2. 2026 is designated as the India–France Year of Innovation.\n3. 2025 is designated as the India–France Year of Innovation.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "Only Statement 1 is correct because the framework is linked with the Horizon 2047 roadmap. The India–France Year of Innovation is 2026, not 2025, so Statements 2 and 3 as framed are incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AMCA induction",
+   "question": "The indigenous fifth-generation fighter developed by the Aeronautical Development Agency is targeted for induction by which year?",
+   "options": [
+    "2035",
+    "2040",
+    "Q1 2027",
+    "2030"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "The AMCA, developed by the Aeronautical Development Agency, is targeted for induction by 2035. The year 2040 is associated with the Indian Moon landing milestone, while Q1 2027 is the target for the crewed Gaganyaan flight."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Past engine project",
+   "question": "Which past Indian engine project is mentioned in the context of the development of the AMCA engine?",
+   "options": [
+    "Kaveri engine project",
+    "GE-414 engine project",
+    "M88 engine project",
+    "C32-G stage project"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "The Kaveri engine project is identified as the past Indian engine project. GE-414 and M88 are associated with other aircraft-engine contexts, while C32-G is linked with Gaganyaan progress."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence and space cooperation",
+   "question": "Which combination correctly represents the earlier India–France cooperation mentioned alongside the AMCA engine agreement?",
+   "options": [
+    "36 Rafale, Scorpene submarines and ISRO–CNES cooperation",
+    "36 Rafale, SSLV and ISRO–CNES cooperation",
+    "Scorpene submarines, GE-414 and IN-SPACe",
+    "Rafale M88, Kaveri and Bharatiya Antariksh Station"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "The earlier cooperation covered 36 Rafale, Scorpene submarines and ISRO–CNES cooperation. SSLV, GE-414, Kaveri and Bharatiya Antariksh Station belong to different contexts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Participating agencies",
+   "question": "Which group of agencies was associated with ISRO’s Integrated Air Drop Test-1 for Gaganyaan?",
+   "options": [
+    "Indian Air Force, Navy, DRDO and Coast Guard",
+    "Indian Air Force, ISRO, CNES and Coast Guard",
+    "Navy, DRDO, Safran and IN-SPACe",
+    "Coast Guard, ADA, Rolls Royce and General Electric"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "The agencies associated with the test were the Indian Air Force, Navy, DRDO and Coast Guard. Safran, Rolls Royce and General Electric were connected with the AMCA engine context, not this test."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Gaganyaan progress",
+   "question": "Match the following Gaganyaan milestones with the corresponding details.\n\nList-I\n a. Propulsion systems\n b. ECLSS engineering model\n c. TV-D2\n d. Crewed flight\n\nList-II\n i. Next test\n ii. Target Q1 2027\n iii. Completed system\n iv. Completed model",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii: propulsion systems were done, the ECLSS engineering model was done, TV-D2 was next, and the crewed flight was targeted for Q1 2027. The other codes interchange completed work, the next test and the crewed-flight target."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bharatiya Antariksh Station",
+   "question": "By which year is the Bharatiya Antariksh Station targeted as a Gaganyaan-related milestone?",
+   "options": [
+    "2035",
+    "2040",
+    "Q1 2027",
+    "2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "The Bharatiya Antariksh Station is targeted for 2035. The Indian Moon landing is targeted for 2040, while Q1 2027 is the target for the crewed flight."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian Moon landing",
+   "question": "By which year is the Indian Moon landing targeted in the stated Gaganyaan progress milestones?",
+   "options": [
+    "2040",
+    "2035",
+    "Q1 2027",
+    "2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9"
+   ],
+   "explanation": "The Indian Moon landing is targeted for 2040. The year 2035 is associated with the Bharatiya Antariksh Station, and Q1 2027 with the crewed flight."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Launch complex timeline and capacity",
+   "question": "In relation to ISRO’s second launch complex at Kulasekarapattinam, how many of the following statements are correct?\n1. Completion is scheduled for December 2026.\n2. Its capacity is 20–25 launches a year.\n3. The foundation stone was laid by the Prime Minister through video in February 2024.\n4. The SSLV can carry up to 300 kg to LEO.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F4",
+    "P4.F5",
+    "P4.F6"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: completion is scheduled for December 2026, capacity is 20–25 launches a year, and the foundation stone was laid by the Prime Minister through video in February 2024. Statement 4 is incorrect because the SSLV payload is up to 500 kg to LEO, not 300 kg."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Upcoming space milestones and space law",
+   "question": "Consider the following statements:\nStatement A: The upcoming missions and milestones include Gaganyaan, Chandrayaan-3 and the Bharatiya Antariksh Station.\nStatement B: India has not ratified the UN space treaties and also has no comprehensive national space law.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "Both statements are false. The listed upcoming items include Chandrayaan-4, not Chandrayaan-3, and India has ratified the UN space treaties although it has no comprehensive national space law."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Space-sector framework",
+   "question": "Match the Indian space-sector framework with its associated feature.\n\nList-I\n a. Catalogue of Indian Standards for Space Industry\n b. Indian Space Policy\n c. IN-SPACe Norms, Guidelines and Procedures\n d. Outer Space Treaty\n\nList-II\n i. Authorisation of commercial activities\n ii. Safety\n iii. Province of all mankind and state responsibility for private activities\n iv. 2023",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5",
+    "P5.F6",
+    "P5.F7",
+    "P5.F8"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. The Catalogue addresses safety, the Indian Space Policy is from 2023, the NPG provides authorisation of commercial activities, and the Outer Space Treaty describes space as the province of all mankind while assigning state responsibility for private activities."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Space law countries and experts",
+   "question": "Assertion (A): Countries identified as having space laws include Japan, Luxembourg and the UK.\nReason (R): Rossana Deim-Hoffmann leads the UNOOSA Global Space Law Project, Ranjana Kaul is a space law expert, and T.H. Anand Rao is associated with the Indian Space Association.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F9",
+    "P5.F10"
+   ],
+   "explanation": "Assertion A is false because the countries identified are Japan, Luxembourg and the US, not the UK. Reason R is true: Rossana Deim-Hoffmann, Ranjana Kaul and T.H. Anand Rao are associated with the stated space-law and space-industry roles."
+  }
+ ]
+}

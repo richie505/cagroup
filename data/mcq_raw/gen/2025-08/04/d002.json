@@ -1,0 +1,156 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": [
+  "P5.F2",
+  "P5.F3",
+  "P5.F4",
+  "P5.F5",
+  "P5.F6",
+  "P6.F11",
+  "P6.F12",
+  "P6.F2",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Farmer share and input cost",
+   "question": "Consider the following statements:\nStatement A: In India, farmers receive 55–57% of the retail price of milk.\nStatement B: The price of corn in India is ₹15.4 per kg.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F4",
+    "P5.F5"
+   ],
+   "explanation": "Statement A is true: the farmer share of the retail milk price in India is 55–57%. Statement B is false because ₹15.4 per kg is the US corn price, while India’s corn price is ₹22–23 per kg."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Yield per cow",
+   "question": "According to the comparison of dairy-sector indicators, what is India’s annual yield per cow?",
+   "options": [
+    "1.64 tonnes",
+    "4.6 tonnes",
+    "7.33 tonnes",
+    "10.97 tonnes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "India’s yield per cow is 1.64 tonnes per year. The other figures are the yields given for New Zealand, the European Union and the United States respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Farmgate milk price",
+   "question": "What was the farmgate price of cow milk in Maharashtra used in the dairy-sector comparison?",
+   "options": [
+    "₹34 per litre",
+    "₹36.7 per litre",
+    "₹55.6 per litre",
+    "₹44–45 per litre"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "The farmgate cow milk price in Maharashtra was ₹34 per litre, based on 3.5% fat and 8.5% SNF. ₹36.7 and ₹55.6 per litre were the comparison figures for the US and Europe, while ₹44–45 per litre was the cow milk price paid by Amul."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Milk procurement price",
+   "question": "What price does Amul pay for buffalo milk?",
+   "options": [
+    "₹34 per litre",
+    "₹44–45 per litre",
+    "₹65–66 per litre",
+    "₹55.6 per litre"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "Amul pays ₹65–66 per litre for buffalo milk. Its cow milk procurement price is ₹44–45 per litre, which is the closest competing figure."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "UPS gratuity, rules and tax benefits",
+   "question": "Consider the following statements about the Unified Pension Scheme:\n1. Retirement and death gratuity are extended under the scheme.\n2. The applicable rules include the CCS (Pension) Rules, 2021 and the CCS (Extraordinary Pension) Rules, 2023.\n3. Its tax benefits are the same as those under the OPS.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5",
+    "P6.F6",
+    "P6.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: UPS extends retirement and death gratuity and operates under the specified CCS rules. Statement 3 is incorrect because UPS has the same Income Tax Act, 1961 benefits as NPS, not OPS."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Employee contribution and NPS commencement",
+   "question": "Consider the following statements:\nStatement A: Employees contribute under the Unified Pension Scheme.\nStatement B: The National Pension System for government employees began in 2005.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F11",
+    "P6.F12"
+   ],
+   "explanation": "Statement A is true because employee contribution is required under UPS. Statement B is false: the National Pension System for government employees began in 2004."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Deadline and reversibility of switch",
+   "question": "Under the one-time switch from UPS to NPS, which deadline condition is applicable?",
+   "options": [
+    "The switch must be made not later than 1 year before superannuation or 3 months before deemed retirement in the case of VRS, and it is irreversible.",
+    "The switch must be made not later than 3 months before superannuation or 1 year before deemed retirement in the case of VRS, and it is irreversible.",
+    "The switch must be made not later than 1 year before superannuation or 3 months before deemed retirement in the case of VRS, and it may be reversed.",
+    "The switch must be made not later than 3 months before superannuation or 1 year before deemed retirement in the case of VRS, and it may be reversed."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "The switch to NPS must be exercised not later than 1 year before superannuation or 3 months before deemed retirement in the case of VRS, and it is irreversible. The other options interchange the deadlines or incorrectly make the switch reversible."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UPS enrolment",
+   "question": "As of which date had 31,555 employees opted for the Unified Pension Scheme, and what was the last date to enrol?",
+   "options": [
+    "20 July 2025; 30 September 2025",
+    "30 September 2025; 20 July 2025",
+    "20 July 2025; 1 April 2025",
+    "1 April 2025; 30 September 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F8"
+   ],
+   "explanation": "As of 20 July 2025, 31,555 employees had opted for UPS, and the last date to enrol was 30 September 2025. The other options confuse the enrolment deadline with the reporting date or the effective date of UPS."
+  }
+ ]
+}

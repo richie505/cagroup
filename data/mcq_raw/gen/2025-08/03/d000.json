@@ -1,0 +1,231 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F1",
+  "P1.F12",
+  "P1.F2",
+  "P1.F3",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Database-category mapping",
+   "question": "In the NFSA ration-card verification exercise, match List-I with List-II.\n\nList-I\n a. Income Tax Department\n b. MoRTH\n c. MCA\n d. CBDT, CBIC and PM-Kisan\n\nList-II\n i. Taxpayers\n ii. Four-wheeler owners\n iii. Company directors\n iv. Overlaps\n\nSelect the correct answer using the code below:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "The Income Tax Department database identified taxpayers, MoRTH identified four-wheeler owners, MCA identified company directors, and CBDT, CBIC and PM-Kisan data showed overlaps being verified. The tempting second code incorrectly assigns taxpayers to MoRTH and four-wheeler owners to the Income Tax Department."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Enactment and coverage",
+   "question": "Consider the following statements about the National Food Security Act, 2013:\n\n1. It was enacted on 5 July 2013.\n2. It covers 67% of the population, including 75% of the rural population and 50% of the urban population.\n3. Its coverage includes 67% of the population, including 75% of the urban population and 50% of the rural population.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Act was enacted on 5 July 2013 and covers 67% of the population, with different rural and urban shares. Statement 3 reverses the rural and urban coverage figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NFSA foodgrain prices",
+   "question": "Under the National Food Security Act, 2013, what were the prescribed prices through the Targeted Public Distribution System for rice, wheat and coarse grains, respectively?",
+   "options": [
+    "₹3/kg, ₹2/kg and ₹1/kg",
+    "₹2/kg, ₹3/kg and ₹1/kg",
+    "₹1/kg, ₹2/kg and ₹3/kg",
+    "₹3/kg, ₹1/kg and ₹2/kg"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "The prescribed prices were ₹3 per kg for rice, ₹2 per kg for wheat and ₹1 per kg for coarse grains through the Targeted Public Distribution System. The other options interchange these prices among the three grain categories."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Ineligible beneficiary categories",
+   "question": "Which one of the following statements regarding categories treated as ineligible under the NFSA ration-card verification exercise is incorrect?",
+   "options": [
+    "Taxpayers may be treated as ineligible.",
+    "Government employees may be treated as ineligible.",
+    "Households with income of at least ₹1 lakh may be treated as ineligible.",
+    "Households with income below ₹1 lakh may be treated as ineligible."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "The incorrect statement is that households with income below ₹1 lakh may be treated as ineligible; the specified threshold is income of at least ₹1 lakh. Taxpayers and government employees are among the other listed ineligible categories."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Youth demographic",
+   "question": "In the discussion on vocational education and training in India, approximately what share of the population was stated to be below 35 years of age?",
+   "options": [
+    "Nearly 65%",
+    "48%",
+    "63%",
+    "80–90%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Nearly 65% of India’s population was stated to be below 35 years of age. The other figures relate to ITI utilisation or employment comparisons rather than the share of the population below 35."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "ITI capacity and utilisation",
+   "question": "Consider the following statements about Industrial Training Institutes (ITIs):\n\n1. There are over 14,000 ITIs with 25 lakh seats.\n2. Enrolment in 2022 was 12 lakh, representing 48% utilisation.\n3. Enrolment in 2022 was 25 lakh, representing 48% utilisation.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the ITI network had over 14,000 institutes and 25 lakh seats, while 2022 enrolment was 12 lakh with 48% utilisation. Statement 3 wrongly substitutes the total seat capacity for 2022 enrolment."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "ITI instructor vacancies and German model",
+   "question": "Consider the following statements:\n\nStatement A: Over one-half of ITI instructor posts were vacant.\nStatement B: Germany follows a dual system in which vocational education and training is provided at the upper-secondary level with paid apprenticeships.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Statement A is false because the reported vacancy was over one-third of ITI instructor posts, not over one-half. Statement B is true: Germany’s dual system combines upper-secondary VET with paid apprenticeships."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Singapore VET pathways and cited schemes",
+   "question": "Consider the following statements about vocational education and training lessons and schemes:\n\n1. Singapore provides VET-to-university pathways.\n2. SkillsFuture is associated with lifelong upskilling in Singapore.\n3. The ELI Scheme includes a skilling component.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Singapore offers VET-to-university pathways and SkillsFuture supports lifelong upskilling. Statement 3 is incorrect because the ELI Scheme was cited as having no skilling part."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Notifiable disease norm",
+   "question": "According to the present World Health Organization norm discussed in connection with the proposal to declare cancer notifiable, which category of diseases is currently treated as notifiable?",
+   "options": [
+    "Communicable diseases",
+    "Non-communicable diseases",
+    "Tax-related diseases",
+    "Occupational diseases"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "The present norm is that only communicable diseases are notifiable. The proposal concerning cancer would therefore extend notification beyond the existing communicable-disease norm."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Oral cancer incidence",
+   "question": "Approximately how many new oral cancer cases occur each year, according to the discussion on cancer as a notifiable disease?",
+   "options": [
+    "60,000",
+    "12 lakh",
+    "1.17 crore",
+    "5"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The reported estimate was approximately 60,000 new oral cancer cases a year. The other figures refer to vocational enrolment, ration-card holders, or deaths per hour rather than annual oral cancer cases."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Tobacco cess and cancer care",
+   "question": "Assertion (A): A high-risk cess on tobacco was recommended in connection with cancer control.\nReason (R): The proceeds of the cess were proposed to be earmarked for cancer care.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the earmarking of the proceeds for cancer care explains the recommendation for a high-risk tobacco cess. The other choices wrongly treat either the recommendation or its stated purpose as false or unrelated."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Linked programme and SDG",
+   "question": "The discussion on declaring cancer a notifiable disease was linked with which programme and Sustainable Development Goal?",
+   "options": [
+    "NPCDCS and SDG 3",
+    "ELI Scheme and SDG 3",
+    "NPCDCS and SDG 4",
+    "SkillsFuture and SDG 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "The linked programme was NPCDCS and the associated Sustainable Development Goal was SDG 3. The other options substitute schemes or an unrelated Sustainable Development Goal."
+  }
+ ]
+}

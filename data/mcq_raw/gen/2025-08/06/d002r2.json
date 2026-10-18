@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P10.F5",
+  "P8.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Milestone and case count",
+   "question": "According to the reported milestones of Primary Amoebic Meningoencephalitis (PAM) in India, what was recorded in 2023?",
+   "options": [
+    "36 cases and 9 deaths",
+    "8 cases and 9 deaths",
+    "36 cases and 11 deaths",
+    "14 cases and 9 deaths"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "In 2023, India recorded 36 PAM cases and 9 deaths. The figures of 8 cases and 9 deaths, and 14 cases and 9 deaths, do not represent the 2023 milestone; 11 refers to the reported number of global survivors in another context."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Characteristics of red dwarfs",
+   "question": "Which statement correctly describes red dwarfs in the context of the rare quadruple star system UPM J1040−3551 AabBab?",
+   "options": [
+    "They are the most common stars, comprise about 70% of Milky Way stars, and are long-lived",
+    "They are failed stars that cannot sustain hydrogen fusion and can reach 70 times Jupiter’s mass",
+    "They are cold T-type brown dwarfs orbiting a pair of young red dwarfs",
+    "They are among the hottest and most luminous stars"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "Red dwarfs are the most common stars, making up about 70% of the Milky Way’s stars, and they are long-lived. The second and third options describe brown dwarfs, while the fourth describes blue supergiants."
+  }
+ ]
+}

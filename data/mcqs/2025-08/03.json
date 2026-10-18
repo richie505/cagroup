@@ -243,6 +243,464 @@
     "P6.F2",
     "P6.F3"
    ]
+  },
+  {
+   "id": "2025-08/03/d000#0",
+   "format": "List-Matching",
+   "keyword": "Database-category mapping",
+   "question": "In the NFSA ration-card verification exercise, match List-I with List-II.\n\nList-I\n a. Income Tax Department\n b. MoRTH\n c. MCA\n d. CBDT, CBIC and PM-Kisan\n\nList-II\n i. Taxpayers\n ii. Four-wheeler owners\n iii. Company directors\n iv. Overlaps\n\nSelect the correct answer using the code below:",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer": 1,
+   "explanation": "The Income Tax Department database identified taxpayers, MoRTH identified four-wheeler owners, MCA identified company directors, and CBDT, CBIC and PM-Kisan data showed overlaps being verified. The tempting second code incorrectly assigns taxpayers to MoRTH and four-wheeler owners to the Income Tax Department.",
+   "facts": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9",
+    "P0.F10"
+   ]
+  },
+  {
+   "id": "2025-08/03/d000#1",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Enactment and coverage",
+   "question": "Consider the following statements about the National Food Security Act, 2013:\n\n1. It was enacted on 5 July 2013.\n2. It covers 67% of the population, including 75% of the rural population and 50% of the urban population.\n3. Its coverage includes 67% of the population, including 75% of the urban population and 50% of the rural population.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "2 only",
+    "1 and 2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 2 are correct: the Act was enacted on 5 July 2013 and covers 67% of the population, with different rural and urban shares. Statement 3 reverses the rural and urban coverage figures.",
+   "facts": [
+    "P0.F11",
+    "P0.F12"
+   ]
+  },
+  {
+   "id": "2025-08/03/d000#2",
+   "format": "Direct Recall",
+   "keyword": "NFSA foodgrain prices",
+   "question": "Under the National Food Security Act, 2013, what were the prescribed prices through the Targeted Public Distribution System for rice, wheat and coarse grains, respectively?",
+   "options": [
+    "₹1/kg, ₹2/kg and ₹3/kg",
+    "₹2/kg, ₹3/kg and ₹1/kg",
+    "₹3/kg, ₹2/kg and ₹1/kg",
+    "₹3/kg, ₹1/kg and ₹2/kg"
+   ],
+   "answer": 2,
+   "explanation": "The prescribed prices were ₹3 per kg for rice, ₹2 per kg for wheat and ₹1 per kg for coarse grains through the Targeted Public Distribution System. The other options interchange these prices among the three grain categories.",
+   "facts": [
+    "P0.F13"
+   ]
+  },
+  {
+   "id": "2025-08/03/d000#3",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Ineligible beneficiary categories",
+   "question": "Which one of the following statements regarding categories treated as ineligible under the NFSA ration-card verification exercise is incorrect?",
+   "options": [
+    "Taxpayers may be treated as ineligible.",
+    "Government employees may be treated as ineligible.",
+    "Households with income below ₹1 lakh may be treated as ineligible.",
+    "Households with income of at least ₹1 lakh may be treated as ineligible."
+   ],
+   "answer": 2,
+   "explanation": "The incorrect statement is that households with income below ₹1 lakh may be treated as ineligible; the specified threshold is income of at least ₹1 lakh. Taxpayers and government employees are among the other listed ineligible categories.",
+   "facts": [
+    "P0.F14"
+   ]
+  },
+  {
+   "id": "2025-08/03/d000#4",
+   "format": "Direct Recall",
+   "keyword": "Youth demographic",
+   "question": "In the discussion on vocational education and training in India, approximately what share of the population was stated to be below 35 years of age?",
+   "options": [
+    "80–90%",
+    "48%",
+    "63%",
+    "Nearly 65%"
+   ],
+   "answer": 3,
+   "explanation": "Nearly 65% of India’s population was stated to be below 35 years of age. The other figures relate to ITI utilisation or employment comparisons rather than the share of the population below 35.",
+   "facts": [
+    "P1.F1"
+   ]
+  },
+  {
+   "id": "2025-08/03/d000#5",
+   "format": "Multi-Statement Correctness",
+   "keyword": "ITI capacity and utilisation",
+   "question": "Consider the following statements about Industrial Training Institutes (ITIs):\n\n1. There are over 14,000 ITIs with 25 lakh seats.\n2. Enrolment in 2022 was 12 lakh, representing 48% utilisation.\n3. Enrolment in 2022 was 25 lakh, representing 48% utilisation.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "Statements 1 and 2 are correct: the ITI network had over 14,000 institutes and 25 lakh seats, while 2022 enrolment was 12 lakh with 48% utilisation. Statement 3 wrongly substitutes the total seat capacity for 2022 enrolment.",
+   "facts": [
+    "P1.F2",
+    "P1.F3"
+   ]
+  },
+  {
+   "id": "2025-08/03/d000#6",
+   "format": "Statement-Based (A/B)",
+   "keyword": "ITI instructor vacancies and German model",
+   "question": "Consider the following statements:\n\nStatement A: Over one-half of ITI instructor posts were vacant.\nStatement B: Germany follows a dual system in which vocational education and training is provided at the upper-secondary level with paid apprenticeships.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 3,
+   "explanation": "Statement A is false because the reported vacancy was over one-third of ITI instructor posts, not over one-half. Statement B is true: Germany’s dual system combines upper-secondary VET with paid apprenticeships.",
+   "facts": [
+    "P1.F7",
+    "P1.F8"
+   ]
+  },
+  {
+   "id": "2025-08/03/d000#7",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Singapore VET pathways and cited schemes",
+   "question": "Consider the following statements about vocational education and training lessons and schemes:\n\n1. Singapore provides VET-to-university pathways.\n2. SkillsFuture is associated with lifelong upskilling in Singapore.\n3. The ELI Scheme includes a skilling component.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "Statements 1 and 2 are correct: Singapore offers VET-to-university pathways and SkillsFuture supports lifelong upskilling. Statement 3 is incorrect because the ELI Scheme was cited as having no skilling part.",
+   "facts": [
+    "P1.F9",
+    "P1.F12"
+   ]
+  },
+  {
+   "id": "2025-08/03/d000#8",
+   "format": "Direct Recall",
+   "keyword": "Notifiable disease norm",
+   "question": "According to the present World Health Organization norm discussed in connection with the proposal to declare cancer notifiable, which category of diseases is currently treated as notifiable?",
+   "options": [
+    "Non-communicable diseases",
+    "Communicable diseases",
+    "Tax-related diseases",
+    "Occupational diseases"
+   ],
+   "answer": 1,
+   "explanation": "The present norm is that only communicable diseases are notifiable. The proposal concerning cancer would therefore extend notification beyond the existing communicable-disease norm.",
+   "facts": [
+    "P2.F4"
+   ]
+  },
+  {
+   "id": "2025-08/03/d000#9",
+   "format": "Direct Recall",
+   "keyword": "Oral cancer incidence",
+   "question": "Approximately how many new oral cancer cases occur each year, according to the discussion on cancer as a notifiable disease?",
+   "options": [
+    "5",
+    "12 lakh",
+    "1.17 crore",
+    "60,000"
+   ],
+   "answer": 3,
+   "explanation": "The reported estimate was approximately 60,000 new oral cancer cases a year. The other figures refer to vocational enrolment, ration-card holders, or deaths per hour rather than annual oral cancer cases.",
+   "facts": [
+    "P2.F5"
+   ]
+  },
+  {
+   "id": "2025-08/03/d000#10",
+   "format": "Assertion-Reason",
+   "keyword": "Tobacco cess and cancer care",
+   "question": "Assertion (A): A high-risk cess on tobacco was recommended in connection with cancer control.\nReason (R): The proceeds of the cess were proposed to be earmarked for cancer care.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 0,
+   "explanation": "Both the assertion and the reason are true, and the earmarking of the proceeds for cancer care explains the recommendation for a high-risk tobacco cess. The other choices wrongly treat either the recommendation or its stated purpose as false or unrelated.",
+   "facts": [
+    "P2.F6"
+   ]
+  },
+  {
+   "id": "2025-08/03/d000#11",
+   "format": "Direct Recall",
+   "keyword": "Linked programme and SDG",
+   "question": "The discussion on declaring cancer a notifiable disease was linked with which programme and Sustainable Development Goal?",
+   "options": [
+    "SkillsFuture and SDG 3",
+    "ELI Scheme and SDG 3",
+    "NPCDCS and SDG 4",
+    "NPCDCS and SDG 3"
+   ],
+   "answer": 3,
+   "explanation": "The linked programme was NPCDCS and the associated Sustainable Development Goal was SDG 3. The other options substitute schemes or an unrelated Sustainable Development Goal.",
+   "facts": [
+    "P2.F7"
+   ]
+  },
+  {
+   "id": "2025-08/03/d001#2",
+   "format": "Assertion-Reason",
+   "keyword": "Economic cost of disability exclusion",
+   "question": "Assertion (A): Disability-related economic loss in India is estimated at about ₹4.5 lakh crore a year.\nReason (R): This loss is estimated at 2.21% of GDP.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 2,
+   "explanation": "Assertion A is correct: the estimated economic loss is about ₹4.5 lakh crore a year. Reason R is false because the estimate is 4% of GDP, not 2.21%.",
+   "facts": [
+    "P3.F6"
+   ]
+  },
+  {
+   "id": "2025-08/03/d001#3",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Employment and education indicators",
+   "question": "Consider the following statements about disability inclusion in India:\n1. Among disabled persons aged 15–59, 23.8% were employed, compared with 50% of others.\n2. The private-sector employment figure for disabled persons was 0.4%.\n3. In 2011, 22.5 lakh disabled persons were illiterate.\n4. UDISE+ recorded 46% disabled children enrolled in 2021–22.",
+   "options": [
+    "1, 3 and 4 only",
+    "2 and 3 only",
+    "1 and 2 only",
+    "1, 2, 3 and 4"
+   ],
+   "answer": 2,
+   "explanation": "Statements 1 and 2 are correct: the employment comparison was 23.8% versus 50%, and the private-sector figure was 0.4%. Statements 3 and 4 reverse the education figures: 46% was the illiteracy figure, while 22.5 lakh was the number of disabled children enrolled.",
+   "facts": [
+    "P3.F7",
+    "P3.F8"
+   ]
+  },
+  {
+   "id": "2025-08/03/d001#4",
+   "format": "List-Matching",
+   "keyword": "Disability legal framework chronology",
+   "question": "Match the legal or policy measure in List-I with its year in List-II.\n\nList-I\n(a) Rehabilitation Council of India Act\n(b) National Trust Act\n(c) National Policy for Persons with Disabilities\n(d) India ratified the UNCRPD\n\nList-II\n(i) 1999\n(ii) 2007\n(iii) 1992\n(iv) 2006",
+   "options": [
+    "a-iv, b-ii, c-i, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer": 2,
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii: the Rehabilitation Council of India Act was from 1992, the National Trust Act from 1999, the National Policy from 2006 and UNCRPD ratification from 2007. The other codes shift these years among the four measures.",
+   "facts": [
+    "P3.F12",
+    "P3.F13",
+    "P3.F14",
+    "P3.F15"
+   ]
+  },
+  {
+   "id": "2025-08/03/d001#5",
+   "format": "Direct Recall",
+   "keyword": "Accessibility campaign",
+   "question": "In which year was the Accessible India Campaign, also known as Sugamya Bharat Abhiyan, launched?",
+   "options": [
+    "1999",
+    "2015",
+    "2017",
+    "2021"
+   ],
+   "answer": 1,
+   "explanation": "The Accessible India Campaign was associated with 2015. The other years belong to the National Trust Act, Mental Health Care Act and Harmonized Accessibility Guidelines respectively.",
+   "facts": [
+    "P3.F16"
+   ]
+  },
+  {
+   "id": "2025-08/03/d001#6",
+   "format": "List-Matching",
+   "keyword": "International disability prevalence",
+   "question": "Match each country with the disability prevalence figure cited for it.\n\nList-I\n(a) Canada\n(b) Australia\n(c) United Kingdom\n(d) China\n\nList-II\n(i) 19%\n(ii) 6.34%\n(iii) 22%\n(iv) 18.3%",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer": 3,
+   "explanation": "The correct matching is Canada–22%, Australia–18.3%, United Kingdom–19% and China–6.34%. The most tempting alternative swaps the Canadian and Australian figures and also shifts the United Kingdom and China figures.",
+   "facts": [
+    "P3.F20"
+   ]
+  },
+  {
+   "id": "2025-08/03/d001#7",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Local disability surveys",
+   "question": "Consider the following statements:\nStatement A: The Salem local survey in 2025 used 21 categories.\nStatement B: The Kerala local survey of 2014–15 used 21 categories.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 1,
+   "explanation": "Both statements are false because the Salem survey in 2025 and the Kerala survey of 2014–15 each used 22 categories. The changed detail in both statements is 21 instead of 22.",
+   "facts": [
+    "P3.F21"
+   ]
+  },
+  {
+   "id": "2025-08/03/d001#8",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Disability legislation after 2016",
+   "question": "Consider the following statements about India's disability-related legal and accessibility framework:\n1. The Mental Health Care Act was enacted in 2017.\n2. The Harmonized Accessibility Guidelines were issued in 2021.\n3. The Mental Health Care Act was enacted in 2016.",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "Statements 1 and 2 are correct: the Mental Health Care Act is associated with 2017 and the Harmonized Accessibility Guidelines with 2021. Statement 3 is false because it changes the year of the Mental Health Care Act to 2016.",
+   "facts": [
+    "P3.F18",
+    "P3.F19"
+   ]
+  },
+  {
+   "id": "2025-08/03/d001#9",
+   "format": "Direct Recall",
+   "keyword": "Pharmaceutical sector scale and supply",
+   "question": "Which combination correctly describes India's pharmaceutical sector as cited in the drug-safety context?",
+   "options": [
+    "It is projected to grow from $40 billion to $130 billion by 2030, supplies 50–60% of US generics, and provides 40% of the world's vaccines",
+    "It is projected to grow from $50 billion to $130 billion by 2030, supplies 40% of US generics, and provides 50–60% of the world's vaccines",
+    "It is projected to grow from $50 billion to $130 billion by 2030, supplies 40% of US generics, and provides 19% of the world's vaccines",
+    "It is projected to grow from $50 billion to $2030 billion by 130, supplies 50–60% of US generics, and provides 40% of the world's vaccines"
+   ],
+   "answer": 1,
+   "explanation": "The sector is projected to expand from $50 billion to $130 billion by 2030, while supplying 40% of US generics and 50–60% of the world's vaccines. The other options interchange the supply shares or alter the stated market figures.",
+   "facts": [
+    "P4.F5"
+   ]
+  },
+  {
+   "id": "2025-08/03/d001#10",
+   "format": "Direct Recall",
+   "keyword": "Cough syrup deaths",
+   "question": "The cough syrup deaths mentioned in the drug-safety context occurred in which countries?",
+   "options": [
+    "United Kingdom and China",
+    "Gambia and Canada",
+    "Uzbekistan and Australia",
+    "Gambia and Uzbekistan"
+   ],
+   "answer": 3,
+   "explanation": "The countries identified were Gambia and Uzbekistan. Canada, Australia, the United Kingdom and China appear in other contexts but were not the countries linked to these cough syrup deaths.",
+   "facts": [
+    "P4.F6"
+   ]
+  },
+  {
+   "id": "2025-08/03/d001#11",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Online pharmacies and retail chains",
+   "question": "Consider the following statements about pharmaceutical distribution and retail studies:\n1. A Jaipur study found that 2 of 8 online pharmacies sold medicines without a prescription.\n2. Retail chains were associated with a 5% improvement in quality and a 2% reduction in prices.\n3. The Jaipur study found that 5 of 8 online pharmacies sold medicines without a prescription.",
+   "options": [
+    "2 only",
+    "1 and 2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 2 are correct: the Jaipur study reported 2 of 8 online pharmacies selling without a prescription, while retail chains showed quality +5% and prices −2%. Statement 3 is false because it changes the Jaipur figure from 2 of 8 to 5 of 8.",
+   "facts": [
+    "P4.F7",
+    "P4.F8"
+   ]
+  },
+  {
+   "id": "2025-08/03/d002#1",
+   "format": "Direct Recall",
+   "keyword": "Scheme coverage",
+   "question": "The restructured PM SVANidhi scheme expanded its coverage to include which areas?",
+   "options": [
+    "Census towns only",
+    "Census towns and peri-urban areas",
+    "Peri-urban areas only",
+    "Neither census towns nor peri-urban areas"
+   ],
+   "answer": 1,
+   "explanation": "The expanded PM SVANidhi coverage includes both census towns and peri-urban areas. Selecting either one alone misses the two-part expansion specified for the scheme.",
+   "facts": [
+    "P5.F4"
+   ]
+  },
+  {
+   "id": "2025-08/03/d002#2",
+   "format": "List-Matching",
+   "keyword": "Digital benefit and implementing agencies",
+   "question": "Match the following features and institutions associated with the restructured PM SVANidhi scheme.\n\nList-I\n(a) Cashback facility\n(b) UPI-linked RuPay Credit Card\n(c) First implementing institution\n(d) Second implementing institution\n\nList-II\n(i) Up to ₹1,600\n(ii) Available after repayment of the second tranche\n(iii) Ministry of Housing and Urban Affairs\n(iv) Department of Financial Services\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer": 0,
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: cashback is available up to ₹1,600; the UPI-linked RuPay Credit Card follows repayment of the second tranche; and implementation involves the Ministry of Housing and Urban Affairs and the Department of Financial Services. The other codes interchange these benefits or institutions.",
+   "facts": [
+    "P5.F5",
+    "P5.F6"
+   ]
+  },
+  {
+   "id": "2025-08/03/d002#4",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Employment and skilling challenge",
+   "question": "Consider the following statements regarding the employment and skilling concerns associated with India's demographic dividend:\n\n1. By 2030, AI is projected globally to create 170 million jobs and displace 92 million jobs.\n2. About 40–50% of engineering graduates are unemployed or underemployed.\n3. The Skill India target of skilling 400 million people by 2022 was missed.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1, 2 and 3",
+    "1 and 3 only",
+    "2 only"
+   ],
+   "answer": 1,
+   "explanation": "All three statements are correct: the global AI projection is 170 million jobs created and 92 million displaced by 2030, 40–50% of engineering graduates are unemployed or underemployed, and the Skill India target of 400 million by 2022 was missed. Therefore, the correct choice is 1, 2 and 3.",
+   "facts": [
+    "P6.F4",
+    "P6.F5",
+    "P6.F6"
+   ]
+  },
+  {
+   "id": "2025-08/03/d002#5",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Schemes for skilling and entrepreneurship",
+   "question": "Which of the following statements regarding schemes and initiatives associated with addressing India's demographic dividend is incorrect?",
+   "options": [
+    "NEP 2020 and NCrF are included among the listed initiatives.",
+    "NAPS 2.0, NATS and NSDM are included among the listed initiatives.",
+    "PM Vishwakarma, JSS, Atal Tinkering Labs, Start-up India and Digital India are included among the listed initiatives.",
+    "PMKVY, PM-DAKSH and PM Vishwakarma are included among the listed initiatives."
+   ],
+   "answer": 2,
+   "explanation": "The incorrect statement is the fourth one because the listed initiative is Stand-up India, not Digital India. NEP 2020, NCrF, NAPS 2.0, NATS, NSDM, PMKVY, PM-DAKSH, PM Vishwakarma, JSS, Atal Tinkering Labs and Start-up India are included in the stated set.",
+   "facts": [
+    "P6.F7"
+   ]
   }
  ]
 }

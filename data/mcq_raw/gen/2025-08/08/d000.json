@@ -1,0 +1,81 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "National score",
+   "question": "What was the national score recorded in the National Annual Report and Index on Women’s Safety (NARI) 2025?",
+   "options": [
+    "55%",
+    "60%",
+    "65%",
+    "70%"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The national score in NARI 2025 was 65%. The tempting alternative of 60% refers to the finding that 6 in 10 women felt safe, not to the national index score."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Safest and least safe cities",
+   "question": "With reference to the city-wise findings of NARI 2025, match List-I with List-II.\n\nList-I\n(a) Kohima\n(b) Patna\n(c) Visakhapatnam\n(d) Jaipur\n\nList-II\n(i) Safest city\n(ii) Least safe city\n(iii) Safest city\n(iv) Least safe city\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "Kohima and Visakhapatnam were among the safest cities, while Patna and Jaipur were among the least safe cities. Therefore, the correct pairs are a-i, b-ii, c-iii and d-iv; the first option reverses the status of all four cities."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Women’s perception of safety and harassment",
+   "question": "Consider the following statements about the findings of NARI 2025:\n\n1. Six in ten women felt safe.\n2. Forty per cent of women were not so safe or unsafe.\n3. Harassment in 2024 was reported by 14% of women under 25.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 6 in 10 women felt safe, while 40% were not so safe or unsafe. Statement 3 is incorrect because the reported harassment figure was 14% for women under 24, not under 25."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Reporting and trust in authorities",
+   "question": "How many of the following statements correctly describe the reporting-related findings of NARI 2025?\n\n1. Only one in three women reported harassment, and 25% trusted the authorities.\n2. Only one in four women reported harassment.\n3. Thirty-five per cent of women trusted the authorities.\n4. Half of the women trusted the authorities.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "Only statement 1 is correct: just one in three women reported harassment, and 25% trusted the authorities. Statements 2, 3 and 4 alter the reported proportions, making them incorrect."
+  }
+ ]
+}

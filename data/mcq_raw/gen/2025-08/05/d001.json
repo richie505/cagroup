@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4
+ ],
+ "only": [
+  "P4.F1",
+  "P4.F4",
+  "P4.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Visit itinerary",
+   "question": "During his late-August 2025 visit, which itinerary did Prime Minister Narendra Modi follow?",
+   "options": [
+    "Japan followed by China for the SCO summit in Tianjin",
+    "China followed by Japan for the SCO summit in Tianjin",
+    "Japan followed by Australia for the SCO summit in Tianjin",
+    "China followed by the United States for the SCO summit in Tianjin"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "Prime Minister Narendra Modi visited Japan and then China for the SCO summit in Tianjin in late August 2025. The other options alter the order or replace China with another country."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Economic Security Initiative and Quad",
+   "question": "With reference to the India–Japan partnership discussed during the August 2025 visit, consider the following statements:\n1. The Economic Security Initiative covers semiconductors, critical minerals, pharmaceuticals and clean energy.\n2. The Quad comprises India, Japan, Australia and China.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F7"
+   ],
+   "explanation": "Statement 1 is correct: the Economic Security Initiative covers semiconductors, critical minerals, pharmaceuticals and clean energy. Statement 2 is incorrect because the Quad comprises India, Japan, Australia and the United States, not China."
+  }
+ ]
+}

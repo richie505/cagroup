@@ -1,0 +1,120 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": [
+  "P5.F3",
+  "P5.F4",
+  "P5.F5",
+  "P5.F6",
+  "P5.F7",
+  "P6.F4",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Outlay and beneficiaries",
+   "question": "Under the restructured PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi), what are the approved outlay and beneficiary target?",
+   "options": [
+    "₹7,332 crore and 1.15 crore beneficiaries, including 50 lakh new beneficiaries",
+    "₹13,797 crore and 96 lakh beneficiaries, including 68 lakh new beneficiaries",
+    "₹7,332 crore and 50 lakh beneficiaries, including 1.15 crore new beneficiaries",
+    "₹13,797 crore and 1.15 crore beneficiaries, including 68 lakh new beneficiaries"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The restructured PM SVANidhi has an outlay of ₹7,332 crore and targets 1.15 crore beneficiaries, including 50 lakh new beneficiaries. The figures ₹13,797 crore, 96 lakh and 68 lakh relate to the achievement recorded on 30 July 2025, not the approved outlay and target."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme coverage",
+   "question": "The restructured PM SVANidhi scheme expanded its coverage to include which areas?",
+   "options": [
+    "Census towns only",
+    "Peri-urban areas only",
+    "Census towns and peri-urban areas",
+    "Neither census towns nor peri-urban areas"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "The expanded PM SVANidhi coverage includes both census towns and peri-urban areas. Selecting either one alone misses the two-part expansion specified for the scheme."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Digital benefit and implementing agencies",
+   "question": "Match the following features and institutions associated with the restructured PM SVANidhi scheme.\n\nList-I\n(a) Cashback facility\n(b) UPI-linked RuPay Credit Card\n(c) First implementing institution\n(d) Second implementing institution\n\nList-II\n(i) Up to ₹1,600\n(ii) Available after repayment of the second tranche\n(iii) Ministry of Housing and Urban Affairs\n(iv) Department of Financial Services\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F5",
+    "P5.F6"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: cashback is available up to ₹1,600; the UPI-linked RuPay Credit Card follows repayment of the second tranche; and implementation involves the Ministry of Housing and Urban Affairs and the Department of Financial Services. The other codes interchange these benefits or institutions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Achievement",
+   "question": "According to the PM SVANidhi achievement recorded on 30 July 2025, which combination is correct?",
+   "options": [
+    "96 lakh loans, ₹13,797 crore and 68 lakh vendors",
+    "1.15 crore loans, ₹7,332 crore and 50 lakh vendors",
+    "96 lakh loans, ₹7,332 crore and 68 lakh vendors",
+    "68 lakh loans, ₹13,797 crore and 96 lakh vendors"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F7"
+   ],
+   "explanation": "By 30 July 2025, PM SVANidhi had recorded 96 lakh loans amounting to ₹13,797 crore and had covered 68 lakh vendors. The ₹7,332 crore and 1.15 crore figures refer to the scheme's outlay and target, not this achievement."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Employment and skilling challenge",
+   "question": "Consider the following statements regarding the employment and skilling concerns associated with India's demographic dividend:\n\n1. By 2030, AI is projected globally to create 170 million jobs and displace 92 million jobs.\n2. About 40–50% of engineering graduates are unemployed or underemployed.\n3. The Skill India target of skilling 400 million people by 2022 was missed.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F4",
+    "P6.F5",
+    "P6.F6"
+   ],
+   "explanation": "All three statements are correct: the global AI projection is 170 million jobs created and 92 million displaced by 2030, 40–50% of engineering graduates are unemployed or underemployed, and the Skill India target of 400 million by 2022 was missed. Therefore, the correct choice is 1, 2 and 3."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Schemes for skilling and entrepreneurship",
+   "question": "Which of the following statements regarding schemes and initiatives associated with addressing India's demographic dividend is incorrect?",
+   "options": [
+    "NEP 2020 and NCrF are included among the listed initiatives.",
+    "NAPS 2.0, NATS and NSDM are included among the listed initiatives.",
+    "PMKVY, PM-DAKSH and PM Vishwakarma are included among the listed initiatives.",
+    "PM Vishwakarma, JSS, Atal Tinkering Labs, Start-up India and Digital India are included among the listed initiatives."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F7"
+   ],
+   "explanation": "The incorrect statement is the fourth one because the listed initiative is Stand-up India, not Digital India. NEP 2020, NCrF, NAPS 2.0, NATS, NSDM, PMKVY, PM-DAKSH, PM Vishwakarma, JSS, Atal Tinkering Labs and Start-up India are included in the stated set."
+  }
+ ]
+}

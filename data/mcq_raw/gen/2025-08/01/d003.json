@@ -1,0 +1,194 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F4",
+  "P11.F7",
+  "P12.F2",
+  "P12.F3",
+  "P12.F4",
+  "P12.F6",
+  "P9.F1",
+  "P9.F11",
+  "P9.F12",
+  "P9.F3",
+  "P9.F4",
+  "P9.F6",
+  "P9.F7",
+  "P9.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Statutory mandate",
+   "question": "The mandatory use of High-Security Registration Plates (HSRP) in India is prescribed under which provision?",
+   "options": [
+    "Rule 50 of the Central Motor Vehicle Rules, 1989",
+    "The pricing decision of state transport authorities and manufacturers",
+    "Linkage with the VAHAN database",
+    "Linkage with the NCRB database"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "HSRP use is mandated under Rule 50 of the Central Motor Vehicle Rules, 1989. The other options refer to pricing or database linkages, not the statutory mandate for HSRP."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "National compliance and pricing",
+   "question": "Consider the following statements:\nStatement A: National HSRP compliance was nearly 60%.\nStatement B: HSRP pricing was uniform across all States.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "Both statements are false. National compliance was nearly 50%, while HSRP pricing was decided by state transport authorities and manufacturers and was not uniform."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State-wise HSRP compliance",
+   "question": "Match the States with their HSRP compliance percentages:\n\nList-I\n(a) Assam\n(b) West Bengal\n(c) Odisha\n(d) Kerala\n\nList-II\n(i) 85.3%\n(ii) 76%\n(iii) 66.4%\n(iv) 25.5%",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F6",
+    "P9.F7",
+    "P9.F8",
+    "P9.F11"
+   ],
+   "explanation": "The correct pairs are Assam–85.3%, West Bengal–76%, Odisha–66.4% and Kerala–25.5%. The other codes interchange the compliance percentages among these States."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Lowest listed compliance",
+   "question": "Which Union Territory recorded 2.4% HSRP compliance in the reported comparison?",
+   "options": [
+    "Jammu & Kashmir",
+    "Lakshadweep",
+    "Assam",
+    "Kerala"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F12"
+   ],
+   "explanation": "Lakshadweep recorded HSRP compliance of 2.4%. Jammu & Kashmir, Assam and Kerala had higher compliance figures in the comparison."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cities covered by smart vending markets",
+   "question": "The smart street vending markets being developed in Andhra Pradesh are planned for the following locations:\n1. Anantapur, Kurnool and Tadepalli-Mangalagiri\n2. Ongole, Srikakulam and Vijayawada\n3. Kadapa",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 4,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "All three statements are correct: the seven cities are Anantapur, Kurnool, Tadepalli-Mangalagiri, Ongole, Srikakulam, Vijayawada and Kadapa. The tempting option ‘1 and 2 only’ omits Kadapa."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Beneficiaries and dependents",
+   "question": "The smart street vending markets in seven Andhra Pradesh cities are intended to benefit how many vendors and approximately how many dependents?",
+   "options": [
+    "580 vendors and approximately 2,500 dependents",
+    "300 vendors and approximately 1,000 dependents",
+    "1,000 vendors and approximately 580 dependents",
+    "2,500 vendors and approximately 580 dependents"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "The markets are intended to benefit 580 vendors and approximately 2,500 dependents. The other options reverse or alter these reported figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Partner and initiative",
+   "question": "Which organisation entered into a 2025 tie-up with MEPMA to provide electric two- and three-wheelers to more than 1,000 urban SHG women?",
+   "options": [
+    "Ecolastic Products Pvt. Ltd.",
+    "AE Technologies Pvt. Ltd. (Bio Elite)",
+    "City of Terrace Gardens",
+    "Rapido"
+   ],
+   "answer_index": 4,
+   "fact_ids": [
+    "P11.F7"
+   ],
+   "explanation": "MEPMA’s tie-up with Rapido concerned electric two- and three-wheelers for more than 1,000 SHG women. The other organisations were associated with compostable products, compostable water bottles, and terrace or kitchen gardening."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Police database linkage",
+   "question": "In Tirupati’s CVIRMS, digitally recorded visitor identities are linked to which database for instant alerts about persons with a criminal background?",
+   "options": [
+    "The police database",
+    "The NCRB database",
+    "The VAHAN database",
+    "The SHG database"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F2"
+   ],
+   "explanation": "CVIRMS is linked to the police database to generate instant alerts about persons with a criminal background. Linking with the NCRB database was identified as a subsequent step, while VAHAN is associated with vehicle records."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Coverage and expansion of CVIRMS",
+   "question": "How many of the following statements about Tirupati’s CVIRMS are correct?\n1. It covered 644 establishments.\n2. Approximately 75% of the establishments were uploading data.\n3. Its next database linkage was planned with the VAHAN database.\n4. Its expansion was planned for Vijayawada.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F3",
+    "P12.F4"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: CVIRMS covered 644 establishments, with approximately 75% uploading data. The planned next database linkage was with the NCRB database and the expansion was to Srikalahasti, not VAHAN or Vijayawada."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Historical background",
+   "question": "The practice of maintaining registers of strangers, travellers and merchants, cited in connection with visitor records, is associated with which ancient work?",
+   "options": [
+    "Arthashastra",
+    "City Visitor Information and Record Management System",
+    "NCRB database",
+    "VAHAN database"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F6"
+   ],
+   "explanation": "The registers of strangers, travellers and merchants are associated with the Arthashastra of the Mauryan period. CVIRMS and the NCRB and VAHAN databases are modern administrative or digital systems."
+  }
+ ]
+}
