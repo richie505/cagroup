@@ -51,9 +51,9 @@ Indices & Rankings, 09 Awards, Persons & Appointments, 10 Sports and 11 Importan
 | Topic (row) | A category file (for example "Andhra Pradesh") |
 | Page | A `## page`, shown after a grey line such as "Sources: Daily 12 Oct · APPSC CARE monthly · CA-360 · One-liners" |
 
-- **Plan:** a revision plan that starts on **19 Oct 2026**. It goes from the latest month to the oldest. Each
-  month gets 1 day, or 2 days if it has more than 45 pages; Special topics come last, and every 7th day is a
-  weekly review. The plan shows "N days left in plan" and no exam date.
+- **Plan:** a revision plan that starts on **19 Oct 2026**. It goes from the latest month to the oldest at
+  about 60 pages a day (a big month spans several days); Special topics come last, and every 7th day is a
+  weekly review — 63 days in all (54 study, 9 review) for the 2,629 pages. The plan shows "N days left in plan" and no exam date.
 - **MCQs:** there are none yet. Each book has an empty `mcq<id>.json`, and the app hides MCQ practice for
   topics with 0 questions. When MCQs are added in the same format as Rocket Prep's, the practice screens
   appear again.

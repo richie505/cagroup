@@ -12,7 +12,7 @@ reader's progress) when others appear later; they are above APPSC Prep's subject
 read-aloud rules (SpeechText) never apply to them, and Techniques.kt treats every book as current affairs.
 
 There are no MCQs yet: each book gets an empty mcq<id>.json and the app hides MCQ practice when a topic has none.
-plan.json is a revision plan from PLAN_START: latest month first, one month per 1-2 days by its pages, Special
+plan.json is a revision plan from PLAN_START: latest month first, about 60 pages a day (a month over one or more days), Special
 topics last, a weekly review day after every six study days.
 
 Re-runnable: it reads whatever folders/files exist now. A file that does not parse yet (being written) or has no
@@ -37,7 +37,7 @@ ROOT = HERE.parent
 STRUCT = ROOT / "data" / "structured"
 OUT = ROOT / "android" / "app" / "src" / "main" / "assets"
 PLAN_START = dt.date(2026, 10, 19)
-PAGES_PER_DAY = 45  # a month with more pages than this gets two days
+PAGES_PER_DAY = 60  # pages a day: a month gets ceil(pages / 60) days
 
 # (id, first month, last month, title) newest first; months are "YYYY-MM"
 PERIODS = [
@@ -155,9 +155,7 @@ def build_plan(blocks: list) -> dict:
     study = []  # (focus, rows) per study day
     for focus, rows in blocks:
         pages = sum(r[3] for r in rows)
-        cap = 3 if focus == "Special topics" else 2
-        n = max(1, min(cap, math.ceil(pages / PAGES_PER_DAY)))
-        n = min(n, len(rows))
+        n = max(1, min(len(rows), math.ceil(pages / PAGES_PER_DAY)))
         if n == 1:
             study.append((focus, rows))
             continue
