@@ -1,0 +1,184 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Centre of Excellence",
+   "question": "Match the classical languages with their respective Centres of Excellence:\n\nList-I\n(a) Assamese\n(b) Bengali\n(c) Marathi\n(d) Pali\n\nList-II\n(i) Central University of Odisha, Koraput\n(ii) Tezpur University\n(iii) Deccan College PG & Research Institute, Pune\n(iv) Visva-Bharati University",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3",
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "The correct pairs are Assamese–Tezpur University, Bengali–Visva-Bharati University, Marathi–Deccan College PG & Research Institute, Pune, and Pali–Central University of Odisha, Koraput. The tempting second code reverses the Assamese and Bengali centres and assigns the Pali centre incorrectly."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Classical language status",
+   "question": "Following the Ministry of Education's approval of Centres of Excellence for languages granted classical status on 3 October 2024, what was the total number of classical languages?",
+   "options": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The total number of classical languages became 11 after the approval. The nearby figures 9, 10 and 12 are incorrect totals."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First time in India; Theme",
+   "question": "Assertion (A): The World Congress of Gastroenterology 2026 will be held in New Delhi from 1 to 3 October 2026 and is being hosted in India for the first time.\nReason (R): Its theme is “Transforming Gastrointestinal Health, Preserving Heritage”.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "Assertion A is correct: WCOG 2026 is scheduled in New Delhi from 1–3 October 2026 and is the first such congress in India. Reason R is false because the theme ends with “Preserving Nature”, not “Preserving Heritage”."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What is the theme of World Food Day 2026?",
+   "options": [
+    "Innovate today. Nourish tomorrow.",
+    "Transforming Gastrointestinal Health, Preserving Nature",
+    "One Postal Network, Infinite Possibilities",
+    "End child marriage and invest in girls' rights!"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The theme of World Food Day 2026 is “Innovate today. Nourish tomorrow.” The other options are themes associated with the World Congress of Gastroenterology, World Post Day and International Day of the Girl Child."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "UPU foundation and membership",
+   "question": "Consider the following statements about the Universal Postal Union:\n1. It was founded on 9 October 1874 through the Treaty of Bern.\n2. Its headquarters is in Bern.\n3. India joined it on 1 July 1876.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "All three statements are correct. The UPU was founded through the Treaty of Bern on 9 October 1874, is headquartered in Bern, and India joined it on 1 July 1876."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What is the theme of the International Day of the Girl Child 2026?",
+   "options": [
+    "End child marriage and invest in girls' rights!",
+    "Connecting Habitats, Thriving Wildlife",
+    "Rocket Revolution",
+    "Innovate today. Nourish tomorrow."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "The 2026 theme is “End child marriage and invest in girls' rights!” The other options are themes of National Wildlife Week, World Space Week and World Food Day respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Resolution and first observance",
+   "question": "The International Day of Rural Women was established by which UN General Assembly resolution, and when was it first observed?",
+   "options": [
+    "Resolution 62/136; 15 October 2008",
+    "Resolution 66/170; 11 October 2012",
+    "Resolution 62/136; 15 October 2007",
+    "Resolution 66/170; 11 October 2011"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The International Day of Rural Women was established through UNGA Resolution 62/136 and was first observed on 15 October 2008. Resolution 66/170 and 11 October 2012 relate to the International Day of the Girl Child."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "World Space Week facts",
+   "question": "How many of the following statements about World Space Week 2026 are correct?\n1. It is observed from 4 to 10 October.\n2. Its 2026 theme is “Rocket Revolution”.\n3. It was declared by the UN General Assembly in 2001.\n4. Sputnik 1 was launched on 4 October 1967.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F3"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: World Space Week is observed from 4–10 October and its 2026 theme is “Rocket Revolution”. It was declared in 1999, not 2001, and Sputnik 1 was launched on 4 October 1957, not 1967."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What is the theme of National Wildlife Week 2026?",
+   "options": [
+    "Connecting Habitats, Thriving Wildlife",
+    "Rocket Revolution",
+    "Bharat's Cultural Connections Across the Globe",
+    "Transforming Gastrointestinal Health, Preserving Nature"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The theme of National Wildlife Week 2026 is “Connecting Habitats, Thriving Wildlife”. The other options refer to World Space Week, the Brihattar Bharat conference and the World Congress of Gastroenterology."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and dates",
+   "question": "Where and when will the Brihattar Bharat International Conference 2026, themed “Bharat's Cultural Connections Across the Globe”, be held?",
+   "options": [
+    "Vigyan Bhawan, New Delhi, 14–16 October 2026",
+    "New Delhi, 1–3 October 2026",
+    "Vigyan Bhawan, New Delhi, 2–8 October 2026",
+    "Calcutta, 14–16 October 1926"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "The conference will be held at Vigyan Bhawan, New Delhi, from 14 to 16 October 2026. The other options substitute the dates of the World Congress of Gastroenterology, National Wildlife Week, or the founding year and place associated with the Greater India Society."
+  }
+ ]
+}

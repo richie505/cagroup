@@ -1,0 +1,63 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s rank and medal tally",
+   "question": "In the medal table of the 20th Asian Games Aichi–Nagoya 2026, what was India’s position and total medal tally?",
+   "options": [
+    "3rd with 150 medals",
+    "4th with 85 medals",
+    "5th with 70 medals",
+    "6th with 52 medals"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F16",
+    "P0.F17",
+    "P0.F18",
+    "P0.F19"
+   ],
+   "explanation": "India finished 4th with 21 gold, 27 silver and 37 bronze medals, totalling 85. The tempting alternative is Uzbekistan, which ranked 5th with 70 medals."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Host and dates",
+   "question": "Consider the following statements:\nStatement A: The 20th Asian Games Aichi–Nagoya 2026 were hosted by Doha, Qatar.\nStatement B: The Games were held from 19 September to 4 October 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "Statement A is false because the 20th Asian Games were hosted by Aichi Prefecture and Nagoya in Japan. Statement B is true: the Games took place from 19 September to 4 October 2026."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "India’s sport-wise achievements",
+   "question": "Which of the following statements regarding India’s sporting achievements at the 20th Asian Games Aichi–Nagoya 2026 is incorrect?",
+   "options": [
+    "India won double gold in cricket, with the women defeating Sri Lanka and the men defeating Pakistan.",
+    "India won double gold in kabaddi, with both the women’s and men’s teams defeating Iran.",
+    "India’s women’s hockey team defeated China 1–0, securing its first victory over China since 1982.",
+    "India’s men’s hockey team defeated Indonesia 5–1 to win its fifth gold medal."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F23",
+    "P0.F24",
+    "P0.F25"
+   ],
+   "explanation": "The incorrect statement is the fourth: India’s men defeated Malaysia 5–1, not Indonesia, to win the fifth gold medal. The other statements correctly describe India’s cricket, kabaddi and women’s hockey achievements."
+  }
+ ]
+}

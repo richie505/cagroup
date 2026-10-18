@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Place in news; CA|TS accreditation",
+   "question": "Consider the following statements:\nStatement A: Nameri Tiger Reserve is located in West Bengal.\nStatement B: Nameri Tiger Reserve has received CA|TS approval.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Statement A is false because Nameri Tiger Reserve is in Sonitpur, Assam. Statement B is true because Nameri Tiger Reserve is CA|TS Approved."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Year of National Park status; CA|TS origin",
+   "question": "Assertion (A): Nameri Tiger Reserve became a National Park in 2006.\nReason (R): CA|TS was launched at the 1st Asian Parks Congress in Japan in 2013.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "The correct answer is that A is false, but R is true. Nameri became a National Park in 1998, whereas CA|TS was launched at the 1st Asian Parks Congress in Japan in 2013."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "CA|TS structure and Indian partners",
+   "question": "With reference to CA|TS accreditation of Nameri Tiger Reserve, consider the following statements:\n1. Nameri Tiger Reserve is situated in Sonitpur, Assam, and the Jia Bhoroli river is associated with it.\n2. CA|TS has 7 pillars and 17 elements.\n3. GTF and WWF-India work with NTCA as Indian partners.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "All three statements are correct: Nameri is in Sonitpur, Assam, the Jia Bhoroli river is associated with it, CA|TS has 7 pillars and 17 elements, and GTF and WWF-India work with NTCA as Indian partners. The option “1 and 2 only” is incorrect because it omits the correct statement about the Indian partners."
+  }
+ ]
+}

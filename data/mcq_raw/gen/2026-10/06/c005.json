@@ -1,0 +1,217 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Inauguration and venue",
+   "question": "Who inaugurated the 10th India Mobile Congress (IMC) 2026 at Yashobhoomi, New Delhi?",
+   "options": [
+    "Prime Minister Narendra Modi",
+    "Jyotiraditya Scindia",
+    "Devendra Fadnavis",
+    "Sukanta Majumdar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P33.F1",
+    "P33.F5",
+    "P42.F1",
+    "P38.F1"
+   ],
+   "explanation": "Prime Minister Narendra Modi inaugurated the 10th India Mobile Congress 2026 at Yashobhoomi, New Delhi. Jyotiraditya Scindia inaugurated the 3rd International Bharat 6G Symposium, while Sukanta Majumdar inaugurated the NDLI-FERMI platform."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Bharat 6G Symposium",
+   "question": "Consider the following statements about the 3rd International Bharat 6G Symposium held alongside the 10th India Mobile Congress:\n1. It was held from 7–9 October 2026 at Yashobhoomi, Dwarka.\n2. Its theme referred to international partnerships, standards, innovation and trusted ecosystems.\n3. Its 6G framework was designated as IMT-2030 by the ITU.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P33.F5",
+    "P33.F6",
+    "P33.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the symposium was held from 7–9 October 2026 at Yashobhoomi, Dwarka, and its theme included international partnerships, standards, innovation and trusted ecosystems. Statement 3 is incorrect because IMT-2030 is the ITU 6G framework, not the framework of the symposium itself."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launched by",
+   "question": "CAG-BHASHINI Anuvaad, an AI-based multilingual translation initiative for audit reports, was launched by which entities?",
+   "options": [
+    "Digital India BHASHINI Division and CAG",
+    "Telecommunication Engineering Centre and DoT",
+    "MeitY and UNESCO",
+    "CAG and the International Telecommunication Union"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P34.F1",
+    "P34.F2",
+    "P34.F3"
+   ],
+   "explanation": "CAG-BHASHINI Anuvaad was launched by the Digital India BHASHINI Division and the Comptroller and Auditor General. BHASHINI stands for BHASHa INterface for India and is associated with MeitY and Digital India."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India-specific medical tool",
+   "question": "Which institution developed the India-specific sickle cell severity score announced on 2 October 2026?",
+   "options": [
+    "CSIR–CCMB, Hyderabad",
+    "IIT Ropar",
+    "GMC Nagpur",
+    "Mie University"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P35.F1",
+    "P35.F2"
+   ],
+   "explanation": "CSIR–CCMB, Hyderabad, developed the India-specific sickle cell severity score on 2 October 2026. Data from 171 children at GMC Nagpur were used in its development; GMC Nagpur was the data source, not the developer."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and dates",
+   "question": "The 3rd World AI Summit 2026 was held on which dates and at which place?",
+   "options": [
+    "14–15 October 2026, Bengaluru",
+    "7–9 October 2026, Yashobhoomi, Dwarka",
+    "17–18 March 2027, Mumbai",
+    "12 October 2026, Rajarhat, Kolkata"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P36.F1",
+    "P33.F5",
+    "P38.F1",
+    "P42.F1"
+   ],
+   "explanation": "The 3rd World AI Summit 2026 was held on 14–15 October 2026 in Bengaluru. The other options refer to the Bharat 6G Symposium, Cybertech Asia 2027, and the launch of the NDLI-FERMI platform respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "UN partners",
+   "question": "Which of the following statements about the UN Global Initiative on AI for Agri-Food Systems is incorrect?",
+   "options": [
+    "It was organised by the Telecommunication Engineering Centre under the Department of Telecommunications.",
+    "The UN partners included ITU, FAO and IFAD.",
+    "WFP was established in 1977 in Rome.",
+    "IFAD was established in 1977 in Rome."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P37.F1",
+    "P37.F2"
+   ],
+   "explanation": "The incorrect statement is that WFP was established in 1977 in Rome. The correct fact is that IFAD was established in 1977 in Rome, while WFP was established in 1961 in Rome."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First in India and venue",
+   "question": "Cybertech Asia 2027, described as the first Cybertech Asia event in India, is scheduled to be held at which venue?",
+   "options": [
+    "Jio World Convention Centre, BKC, Mumbai",
+    "Yashobhoomi, Dwarka, New Delhi",
+    "IIT KGP Research Park, Rajarhat, Kolkata",
+    "Braga, Portugal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P38.F1",
+    "P33.F5",
+    "P42.F1",
+    "P39.F3"
+   ],
+   "explanation": "Cybertech Asia 2027 is scheduled for 17–18 March 2027 at the Jio World Convention Centre, BKC, Mumbai. Yashobhoomi is associated with the Bharat 6G Symposium, while Rajarhat and Braga relate to other events."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Partnership and partner identity",
+   "question": "Assertion (A): FWDA partnered with a Portuguese entity for the development of AI-enabled drones.\nReason (R): Keydef is a division of Sketchpixel LDA, Portugal.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P39.F1",
+    "P39.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the Reason explains the Assertion. FWDA is an Indian company, while Keydef is a division of Sketchpixel LDA in Portugal; the partnership covers the autonomous UAV Kaal Bhairava and counter-swarm drone YAMA."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AI platform objective",
+   "question": "What is the primary educational purpose of IIT Ropar's AI platform AVNI?",
+   "options": [
+    "Teaching children about plants and crops",
+    "Providing a free GATE–JAM preparation platform",
+    "Translating audit reports into multiple languages",
+    "Supporting semiconductor research and exchanges"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P40.F1",
+    "P42.F2",
+    "P34.F1",
+    "P41.F1"
+   ],
+   "explanation": "AVNI is an AI app developed by IIT Ropar to teach children about plants and crops. It supports Hindi and English and uses computer vision; the other options describe NDLI-FERMI, CAG-BHASHINI Anuvaad and IIT Hyderabad–Mie University cooperation."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Semiconductor cooperation",
+   "question": "Consider the following statements:\nStatement A: IIT Hyderabad and Mie University signed MoUs involving student and faculty exchange and semiconductor research.\nStatement B: The India Semiconductor Mission was launched in 2021 under MeitY.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P41.F1",
+    "P41.F2"
+   ],
+   "explanation": "Both statements are true. The IIT Hyderabad–Mie University MoUs cover student and faculty exchange and semiconductor research, while the India Semiconductor Mission dates to 2021 and is associated with MeitY."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch details and feature",
+   "question": "Which feature of the NDLI-FERMI AI Tutor launched at IIT Kharagpur helps users interact with the platform by scanning content?",
+   "options": [
+    "Scan & Ask",
+    "Computer vision",
+    "IMT-2030",
+    "Bharat 6G Vision"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P42.F1",
+    "P42.F2",
+    "P40.F1",
+    "P33.F7"
+   ],
+   "explanation": "The NDLI-FERMI AI Tutor includes the “Scan & Ask” feature. It was built with Fermi AI and integrated with the National Digital Library of India; computer vision is a feature of IIT Ropar's AVNI platform."
+  }
+ ]
+}

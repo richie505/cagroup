@@ -1,0 +1,116 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "India's rank",
+   "question": "In the Global Innovation Index 2026, what was India's rank among the 139 economies assessed?",
+   "options": [
+    "38th",
+    "39th",
+    "10th",
+    "1st"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F4"
+   ],
+   "explanation": "India ranked 38th in the Global Innovation Index 2026, with a score of 40.1. The 39th position refers to India's rank in 2024, while 10th was China's rank and 1st was Switzerland's rank."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Publisher, theme and regional position",
+   "question": "With reference to the Global Innovation Index 2026, consider the following statements:\n1. It was published by WIPO, headquartered in Geneva, and was the 19th edition.\n2. Its theme was \"Powering Entrepreneurs at the Frontier of Science\".\n3. India ranked first in Central & Southern Asia and first globally in ICT services exports.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F9"
+   ],
+   "explanation": "All three statements are correct. The 2026 edition was WIPO's 19th edition, carried the stated theme, and recorded India's first position in Central & Southern Asia and in global ICT services exports; therefore, the tempting option “1 and 2 only” is incomplete."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State ranking by number of factories",
+   "question": "According to the Annual Survey of Industries 2024–25, which State ranked first in the number of factories?",
+   "options": [
+    "Tamil Nadu",
+    "Gujarat",
+    "Maharashtra",
+    "Andhra Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "Tamil Nadu ranked first with 41,221 factories. Gujarat ranked second, Maharashtra third and Andhra Pradesh sixth, so Gujarat is the closest but incorrect alternative."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Publisher and factory count",
+   "question": "Consider the following statements:\nStatement A: The Annual Survey of Industries 2024–25 was released by MoSPI and covered organised manufacturing.\nStatement B: The number of factories fell from 2.67 lakh to 2.60 lakh.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F8"
+   ],
+   "explanation": "Statement A is true because MoSPI released the survey covering organised manufacturing. Statement B is false: the number of factories increased from 2.60 lakh to 2.67 lakh, rather than falling; hence the first option is incorrect."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "India's growth forecast",
+   "question": "Assertion (A): India was projected to be the fastest-growing major economy in 2026, with GDP growth of 7.3%.\nReason (R): Asia accounted for 59% of global growth.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "Both the assertion and the reason are true: India's projected GDP growth was 7.3% in 2026, and Asia accounted for 59% of global growth. However, the Asian share of global growth is not stated as the explanation for India's specific growth projection, making the second option correct."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Greenfield investment shares",
+   "question": "With reference to the UNCTAD Trade and Development Report 2026, how many of the following statements are correct?\n1. India accounted for 5.7% of global greenfield investment during 2020–25, compared with China's 2.8%.\n2. Malaysia accounted for 4% and Indonesia for 3.8% of global greenfield investment.\n3. In greenfield investment, AI infrastructure accounted for 12.4% and energy transition for 8.1%.\n4. The share of strategic sectors increased from 16% to 34%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so the answer is Only two. Statement 3 is incorrect because energy transition accounted for 7.8%, not 8.1%, and Statement 4 is incorrect because the strategic-sector share rose from 16% to 44%, not 34%."
+  }
+ ]
+}

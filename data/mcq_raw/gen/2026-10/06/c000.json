@@ -1,0 +1,115 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launched by",
+   "question": "Who launched INS Surya (FSS-1), India’s first indigenously designed and built Fleet Support Ship, at Hindustan Shipyard Ltd, Visakhapatnam, on 6 October 2026?",
+   "options": [
+    "Defence Minister Rajnath Singh",
+    "Hindustan Shipyard Ltd",
+    "Indian Navy",
+    "L&T Geostructure"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "Defence Minister Rajnath Singh launched INS Surya at Hindustan Shipyard Ltd, Visakhapatnam, on 6 October 2026. Hindustan Shipyard Ltd was the shipyard involved in the launch, while L&T Geostructure was associated with the Goliath Crane."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Organisation and capability",
+   "question": "Which of the following statements about INS Surya and Hindustan Shipyard Ltd is incorrect?",
+   "options": [
+    "INS Surya is equipped for at-sea replenishment, carrying cargo and fluids, and first-line maintenance.",
+    "The ship has a helicopter deck for a Multi-Role Helicopter and self-defence systems.",
+    "Slipway-4 can accommodate ships up to 45,000 DWT.",
+    "Hindustan Shipyard Ltd functions under the Ministry of Ports & Shipping."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F7"
+   ],
+   "explanation": "The incorrect statement is that Hindustan Shipyard Ltd functions under the Ministry of Ports & Shipping; it is under the Ministry of Defence. The other statements correctly describe INS Surya’s capabilities and Slipway-4’s capacity."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "AUV versus ROV",
+   "question": "Assertion (A): Jaya is an autonomous underwater vehicle.\nReason (R): An AUV operates autonomously, whereas an ROV is remotely operated.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F4"
+   ],
+   "explanation": "Both statements are true, and the reason explains the assertion: Jaya is an indigenous Autonomous Underwater Vehicle, while an AUV is autonomous in contrast to a remotely operated ROV. The distinction concerns the mode of operation."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Status and launch year",
+   "question": "Consider the following statements:\nStatement A: As of September 2026, the National Supercomputing Mission had 40 supercomputers with a combined capacity of 68 petaFLOPS.\nStatement B: The National Supercomputing Mission was launched in April 2015.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F5"
+   ],
+   "explanation": "Both statements are true. The September 2026 status was 40 supercomputers and 68 petaFLOPS, while the Mission was launched in April 2015; the target of 50 systems and more than 123 petaFLOPS should not be confused with the status."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Supercomputer classification",
+   "question": "With reference to the National Supercomputing Mission status in September 2026, consider the following statements:\n1. There were 13 high-end systems with performance above 1 PF.\n2. There were 12 mid-range systems in the 500 TF–1 PF range.\n3. There were 14 systems below 500 TF.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Mission had 13 high-end systems and 12 mid-range systems. Statement 3 is incorrect because the number below 500 TF was 15, not 14."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Mission administration",
+   "question": "How many of the following statements about the National Supercomputing Mission are correct?\n1. It was launched in April 2015.\n2. Its outlay was approximately ₹5,400 crore.\n3. It is steered by the Department of Science and Technology and MeitY.\n4. It is implemented by C-DAC Pune alone.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6",
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "Exactly two statements are correct: the Mission was launched in April 2015 and is steered by DST and MeitY. Its outlay was approximately ₹4,500 crore, and implementation is by C-DAC Pune and IISc Bengaluru, not by C-DAC Pune alone."
+  }
+ ]
+}

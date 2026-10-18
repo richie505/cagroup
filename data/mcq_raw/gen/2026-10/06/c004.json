@@ -1,0 +1,165 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "NSAM 2.0 focus",
+   "question": "Which of the following is a stated focus of NSAM 2.0 under the National Strategy for Additive Manufacturing?",
+   "options": [
+    "Commercialisation of additive-manufacturing technologies",
+    "A target of 5% of the global additive-manufacturing market",
+    "Establishment of 7 Development and Deployment Centres",
+    "Training 1 lakh workers"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F2",
+    "P26.F3",
+    "P26.F5"
+   ],
+   "explanation": "Commercialisation is a stated focus of NSAM 2.0, along with IPR, digital integration, affordable machines and materials, defence, and AM-electronics. The other options are targets or structural features of the National Strategy for Additive Manufacturing, not the focus identified for NSAM 2.0."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "NSAM progress targets",
+   "question": "With reference to the National Strategy for Additive Manufacturing, consider the following statements:\n1. The strategy targets 50 India-specific technologies.\n2. The strategy provides for 7 Development and Deployment Centres.\n3. The strategy targets training 50,000 workers.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F2",
+    "P26.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the targets include 50 India-specific technologies, and the strategy provides for 7 Development and Deployment Centres. Statement 3 is incorrect because the worker-training target is 1 lakh, not 50,000."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "NSAM release",
+   "question": "Which one of the following statements about the National Strategy for Additive Manufacturing is incorrect?",
+   "options": [
+    "It was released by MeitY in February 2022.",
+    "It was released by the Ministry of Heavy Industries in February 2022.",
+    "It targets 5% of the global additive-manufacturing market.",
+    "It seeks to train 1 lakh workers."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P26.F1",
+    "P26.F2"
+   ],
+   "explanation": "The incorrect statement is that the strategy was released by the Ministry of Heavy Industries. It was released by MeitY in February 2022; the strategy also targets 5% of the global additive-manufacturing market and training 1 lakh workers."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First free-space QKD link",
+   "question": "Which organisations partnered to establish India's first 5.56-km free-space Quantum Key Distribution link?",
+   "options": [
+    "QNu Labs, BISAG-N and IIT Gandhinagar",
+    "IIT Delhi, BISAG-N and Satleo Labs",
+    "Space Zone India, QNu Labs and IIT Delhi",
+    "MeitY, Skyroot Aerospace and IIT Gandhinagar"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F1"
+   ],
+   "explanation": "QNu Labs, BISAG-N in Gandhinagar and IIT Gandhinagar partnered to establish India's first 5.56-km free-space QKD link. The other combinations do not match the partners associated with this link."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Quantum and classical data over fibre",
+   "question": "What was the key achievement reported by IIT Delhi in quantum communication?",
+   "options": [
+    "Transmission of conventional data with entangled photons through the same 50-km optical fibre",
+    "Establishment of India's first 5.56-km free-space QKD link",
+    "Transmission of conventional data through a 500-km SSO satellite",
+    "Integration of QKD keys with the Vedic Kavach platform"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F1"
+   ],
+   "explanation": "IIT Delhi transmitted conventional data with entangled photons through the same 50-km optical fibre. The 5.56-km free-space link and Vedic Kavach integration are associated with the QNu Labs, BISAG-N and IIT Gandhinagar initiative."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "TAPAS-1 developer",
+   "question": "Which company developed TAPAS-1, described as India's first private commercial thermal-imaging payload?",
+   "options": [
+    "Satleo Labs, Ahmedabad",
+    "TakeMe2Space",
+    "Space Zone India, Chennai",
+    "Skyroot Aerospace, Hyderabad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F1",
+    "P29.F2"
+   ],
+   "explanation": "TAPAS-1 was developed by Satleo Labs of Ahmedabad and is a 1.5-kg CubeSat payload described as an orbital thermometer. TakeMe2Space, Space Zone India and Skyroot Aerospace are associated with other space initiatives in the news."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Orbital data-centre constellation",
+   "question": "What is the planned size of TakeMe2Space's constellation for India's first networked orbital data-centre mission?",
+   "options": [
+    "6 satellites",
+    "10–15 microsatellites",
+    "2 satellites",
+    "7 satellites"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P30.F1",
+    "P30.F3"
+   ],
+   "explanation": "TakeMe2Space plans a constellation of 6 satellites for its networked orbital data-centre mission by the end of 2028. The 10–15 microsatellite figure belongs to the planned PYRO constellation associated with TAPAS-2, while the other options do not match the stated plan."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rumi Twin Mission",
+   "question": "Which firm launched the Rumi-1 and Rumi-2 hybrid rockets near Mamallapuram on 10 October 2026?",
+   "options": [
+    "Space Zone India",
+    "Satleo Labs",
+    "TakeMe2Space",
+    "Skyroot Aerospace"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P31.F1"
+   ],
+   "explanation": "Chennai-based Space Zone India launched the two hybrid rockets Rumi-1 and Rumi-2 near Mamallapuram, Tamil Nadu, on 10 October 2026. Satleo Labs, TakeMe2Space and Skyroot Aerospace are associated with different space missions and companies."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "TIME100 Next recognition",
+   "question": "Who among the following was named in TIME100 Next–2026?",
+   "options": [
+    "Pawan Kumar Chandana",
+    "Mayilsamy Annadurai",
+    "Shravan Singh Bhati",
+    "Bhaskar Kanseri"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P32.F1"
+   ],
+   "explanation": "Pawan Kumar Chandana, co-founder and CEO of Skyroot Aerospace, was named in TIME100 Next–2026. Mayilsamy Annadurai, Shravan Singh Bhati and Bhaskar Kanseri are associated with other space or quantum-technology developments."
+  }
+ ]
+}

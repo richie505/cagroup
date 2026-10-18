@@ -1,0 +1,166 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Announced by",
+   "question": "Who announced the Indian Army’s “SAMARTH” vision?",
+   "options": [
+    "General Dhiraj Seth",
+    "The President, as Supreme Commander",
+    "ICG DG Paramesh Sivamani",
+    "The Indian Army"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "General Dhiraj Seth announced the Indian Army’s “SAMARTH” vision. The President is the Supreme Commander, while Paramesh Sivamani is associated with the National Maritime Search and Rescue Board meeting."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Expansion of SAMARTH",
+   "question": "With reference to the Indian Army’s “SAMARTH” vision, consider the following statements:\n1. The letter M stands for Modernisation & Mission Readiness.\n2. The letter T stands for Resilience.\n3. The letter H stands for Acceleration.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4",
+    "P9.F6",
+    "P9.F7",
+    "P9.F8"
+   ],
+   "explanation": "Only statement 1 is correct: M stands for Modernisation & Mission Readiness. T stands for Technology and H stands for Human–Machine Teaming, not Resilience or Acceleration."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "Where did the 2nd ASEAN–India Maritime Exercise, AIME-2026, begin on 28 September 2026?",
+   "options": [
+    "Subic Bay, Philippines",
+    "Oskemen, Kazakhstan",
+    "Vladivostok, Russia",
+    "Simon’s Town, South Africa"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "AIME-2026 began at Subic Bay in the Philippines on 28 September 2026. Oskemen was the venue of KAZIND-2026, while Vladivostok and Simon’s Town were associated with other exercises."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Personnel and participation",
+   "question": "With reference to Mountain Guardian 2026, consider the following statements:\nStatement A: The exercise involved 96 personnel, with 46 from each side.\nStatement B: Women personnel were included in the exercise.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "Statement A is false because Mountain Guardian 2026 involved 92 personnel, with 46 from each side. Statement B is true, as women personnel were included in the exercise."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/edition",
+   "question": "KAZIND-2026, the India–Kazakhstan military exercise, was conducted at which place?",
+   "options": [
+    "Oskemen, Kazakhstan",
+    "Chaubattia Foreign Training Node, Uttarakhand",
+    "Subic Bay, Philippines",
+    "Plymouth, United Kingdom"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "The 9th edition of KAZIND-2026 was held at Oskemen, Kazakhstan, from 28 September to 11 October 2026. Chaubattia, Subic Bay and Plymouth were venues associated with other exercises."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Bilateral naval exercise",
+   "question": "Assertion (A): INDRA-2026 is an India–Russia naval exercise.\nReason (R): It involved the Indian ship INS Sahyadri and the Russian corvette Hero of the Russian Federation Aldar Tsydenzhapov.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "Both the assertion and reason are true, and the reason explains the bilateral character of INDRA-2026. The exercise involved INS Sahyadri from India and the Russian corvette Hero of the Russian Federation Aldar Tsydenzhapov."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian ship deployed",
+   "question": "Which Indian ship was sent for IBSAMAR IX-2026?",
+   "options": [
+    "INS Tarkash",
+    "INS Trishul",
+    "INS Sahyadri",
+    "INS Kulish"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "India sent INS Tarkash for IBSAMAR IX-2026, held at Simon’s Town and False Bay in South Africa. INS Trishul was associated with Konkan-2026, while INS Sahyadri and INS Kulish were listed for other exercises."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Commissioning detail",
+   "question": "Which of the following statements about Konkan-2026 is incorrect?",
+   "options": [
+    "It was held off Plymouth in the United Kingdom from 8 to 15 October 2026.",
+    "India participated with INS Trishul.",
+    "INS Trishul is a Talwar-class ship.",
+    "INS Trishul was commissioned on 25 June 2012."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "The incorrect statement is that INS Trishul was commissioned on 25 June 2012. Its correct commissioning date was 25 June 2003; the other statements correctly describe Konkan-2026 and INS Trishul."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Exercise participation and scenario",
+   "question": "With reference to SAREX-2026, how many of the following statements are correct?\n1. It was conducted by the Indian Coast Guard from 7 to 8 October 2026 off Paradip, Odisha.\n2. Its Mass Rescue Operation scenario involved an aircraft ditching with 228 people and a collision with the container vessel MV Zumba.\n3. The exercise deployed 14 ICG ships, 2 Dorniers, 3 ALH and 1 Chetak.\n4. The exercise had 30 observers from 30 countries.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2",
+    "P16.F3"
+   ],
+   "explanation": "Only statements 1 and 2 are correct. SAREX-2026 deployed 15 ICG ships, not 14, and had 32 observers from 30 countries, not 30 observers."
+  }
+ ]
+}

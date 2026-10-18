@@ -1,0 +1,131 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Species and location",
+   "question": "The gecko species Hemidactylus koyaorum, one of the two new gecko species reported from Telangana, was found in which location?",
+   "options": [
+    "Pakhal Wildlife Sanctuary, Warangal",
+    "Nalgonda district",
+    "Shi-Yomi district",
+    "Jawahar Dweep, Mumbai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "Hemidactylus koyaorum was found in Pakhal Wildlife Sanctuary in Warangal and honours the Koya tribe. Nalgonda district is associated with Hemidactylus cairnicola, not Hemidactylus koyaorum."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Taxonomy and namesake",
+   "question": "Consider the following statements:\nStatement A: Didymocarpus nautiyalii was found in Shi-Yomi district of Arunachal Pradesh.\nStatement B: The plant was named after Prof. Sunil Nautiyal, former Director of the G.B. Pant National Institute of Himalayan Environment.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F3"
+   ],
+   "explanation": "Both statements are true. Didymocarpus nautiyalii was found in Shi-Yomi district and was named after Prof. Sunil Nautiyal, former Director of the G.B. Pant National Institute of Himalayan Environment."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First real-time GLOF warning system",
+   "question": "Assertion (A): The Vasundhara Lake system is Uttarakhand's first real-time glacial lake outburst flood early warning system.\nReason (R): The system is solar-powered.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "Both A and R are true, but solar power does not explain why the system is the first real-time GLOF early warning system in Uttarakhand. The system is located at Vasundhara Lake in Chamoli district and is solar-powered."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Plant location and port",
+   "question": "India's first port-based e-methanol plant is associated with which port authority and location?",
+   "options": [
+    "Deendayal Port Authority, Gandhidham–Kandla, Gujarat",
+    "Mumbai Port Authority, Jawahar Dweep, Maharashtra",
+    "Deendayal Port Authority, Namrup, Assam",
+    "Mumbai Port Authority, Gandhidham–Kandla, Gujarat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "India's first port-based e-methanol plant is associated with Deendayal Port Authority at Gandhidham–Kandla in Gujarat. Namrup is the location of Assam Petro-Chemicals Ltd, a partner in the project, while Mumbai Port Authority is linked with Jawahar Dweep."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First plastic-free oil terminal",
+   "question": "Which facility was declared India's first plastic-free oil terminal during Swachhata Abhiyan–2026?",
+   "options": [
+    "Jawahar Dweep Marine Oil Terminal",
+    "Vasundhara Lake monitoring station",
+    "Deendayal Port e-methanol plant",
+    "Indira Dock and Grey Gate"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "Jawahar Dweep Marine Oil Terminal was declared India's first plastic-free oil terminal by the Mumbai Port Authority during Swachhata Abhiyan–2026. Indira Dock and Grey Gate were the venues of the event, not the terminal declared plastic-free."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Glacier significance and ice loss",
+   "question": "With reference to the 2026 melting of Aletsch Glacier, consider the following statements:\n1. Aletsch is the largest and longest glacier in the Alps.\n2. Swiss glaciers lost 5.5% of their remaining ice in 2026.\n3. The ice loss in 2026 was the highest after 2022.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Aletsch is the largest and longest glacier in the Alps, and Swiss glaciers lost 5.5% of their remaining ice in 2026. Statement 3 is incorrect because the 2026 loss was the second-highest after 2022, not the highest after 2022."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Volcano characteristics",
+   "question": "With reference to Mount Kanlaon, consider the following statements:\n1. Kanlaon is an active stratovolcano on Negros Island in the Visayas.\n2. Ash from the eruption reached up to 6 km.\n3. Kanlaon is located in Switzerland.\n4. Kanlaon is India's first plastic-free oil terminal.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F1",
+    "P10.F1"
+   ],
+   "explanation": "Only two statements are correct: Kanlaon is an active stratovolcano on Negros Island in the Visayas, and its ash reached up to 6 km. Switzerland and India's first plastic-free oil terminal are unrelated to Mount Kanlaon."
+  }
+ ]
+}
