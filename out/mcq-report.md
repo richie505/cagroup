@@ -1,32 +1,32 @@
 # CA MCQ report
 
-- MCQs kept: **2791**
-- News pages with at least one question: **1959 / 2629**
-- Facts tested: **5807 / 20515** (28.3%)
-- Answer positions: A 716, B 705, C 758, D 612
+- MCQs kept: **2923**
+- News pages with at least one question: **2023 / 2629**
+- Facts tested: **6086 / 20515** (29.7%)
+- Answer positions: A 748, B 742, C 789, D 644
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 293 | 303 | 306 | 252 |
-| Negative / Incorrect Statement | 72 | 73 | 87 | 83 |
-| Assertion-Reason | 79 | 81 | 104 | 94 |
-| Statement-Based (A/B) | 102 | 63 | 95 | 79 |
-| Multi-Statement Correctness | 111 | 94 | 97 | 85 |
+| Direct Recall | 301 | 316 | 312 | 267 |
+| Negative / Incorrect Statement | 79 | 82 | 90 | 83 |
+| Assertion-Reason | 83 | 89 | 111 | 98 |
+| Statement-Based (A/B) | 108 | 64 | 100 | 82 |
+| Multi-Statement Correctness | 115 | 97 | 101 | 95 |
 | Chronological Ordering | 1 | 0 | 0 | 0 |
-| List-Matching | 25 | 24 | 23 | 17 |
-| Count-Based | 33 | 67 | 46 | 2 |
+| List-Matching | 25 | 25 | 25 | 17 |
+| Count-Based | 36 | 69 | 50 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 288 |
+| code | 302 |
 | verify:explanation_contradicts | 40 |
 | verify:not_in_facts | 38 |
 | over the page's quota | 20 |
-| duplicate | 9 |
+| duplicate | 11 |
+| verify:none_correct | 8 |
 | verify:two_correct | 8 |
-| verify:none_correct | 7 |
 | verify:second reader picked option 2, key 1 | 5 |
 | verify:garbled | 3 |
 | verify:ambiguous_stem | 2 |
@@ -150,16 +150,16 @@
 | 2026-01/09 | Awards, Persons & Appointments | 27 | 56/127 |
 | 2026-01/10 | Sports | 8 | 16/29 |
 | 2026-01/11 | Important Days & Events | 24 | 42/152 |
-| 2025-12/01 | Andhra Pradesh | 0 | 0/168 |
-| 2025-12/02 | Polity & Governance | 0 | 0/88 |
-| 2025-12/03 | Schemes & Social Sector | 0 | 0/46 |
-| 2025-12/04 | Economy, Banking & Budget | 0 | 0/140 |
-| 2025-12/05 | International Relations | 0 | 0/59 |
-| 2025-12/06 | Science, Tech, Space & Defence | 0 | 0/129 |
-| 2025-12/07 | Environment & Geography | 0 | 0/78 |
-| 2025-12/08 | Reports, Indices & Rankings | 0 | 0/25 |
-| 2025-12/09 | Awards, Persons & Appointments | 0 | 0/11 |
-| 2025-12/11 | Important Days & Events | 0 | 0/98 |
+| 2025-12/01 | Andhra Pradesh | 29 | 59/168 |
+| 2025-12/02 | Polity & Governance | 14 | 28/88 |
+| 2025-12/03 | Schemes & Social Sector | 6 | 10/46 |
+| 2025-12/04 | Economy, Banking & Budget | 21 | 39/140 |
+| 2025-12/05 | International Relations | 10 | 22/59 |
+| 2025-12/06 | Science, Tech, Space & Defence | 19 | 48/129 |
+| 2025-12/07 | Environment & Geography | 14 | 36/78 |
+| 2025-12/08 | Reports, Indices & Rankings | 3 | 2/25 |
+| 2025-12/09 | Awards, Persons & Appointments | 2 | 3/11 |
+| 2025-12/11 | Important Days & Events | 14 | 32/98 |
 | 2025-11/01 | Andhra Pradesh | 0 | 0/148 |
 | 2025-11/02 | Polity & Governance | 0 | 0/73 |
 | 2025-11/04 | Economy, Banking & Budget | 0 | 0/27 |
@@ -564,3 +564,6 @@
 - `2026-01/10/c000#5` verify: not_in_facts — The facts do not identify the 21-year-old Delhi player by name, so no option is established.
   - Q: Who became India's 92nd Grandmaster after winning the Andranik Margaryan Memorial in Armenia?
   - Key: Aryan Varshney
+- `2025-12/08/c000#2` verify: none_correct — Statements 2 and 3 are supported by the facts, while statement 1 changes 1.55°C to 1.5°C; no option represents 2 and 3 only, and the explanation's rejection of statement 3 is unsupported.
+  - Q: With reference to the key findings of the Global Environment Outlook 2025, consider the following statements: / 1. Global temperature in 2024 reached 1.5°C, the highest ever. / 2. One million of the world
+  - Key: 2 only

@@ -1,0 +1,92 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Electoral Bonds verdict",
+   "question": "What did the Supreme Court do in February 2024 regarding the Electoral Bonds Scheme?",
+   "options": [
+    "Struck down the Electoral Bonds Scheme for violating Article 19(1)(a)",
+    "Introduced the Electoral Trusts Scheme under Section 80GGB",
+    "Transferred all unencashed electoral bonds to the PMNRF",
+    "Restricted electoral bond eligibility to parties securing at least 1% votes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The Supreme Court struck down the Electoral Bonds Scheme in February 2024, holding that it violated Article 19(1)(a), the right to information. The PMNRF was relevant only to unencashed bonds, not to the judgment itself."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Main lawful funding channel",
+   "question": "Which mechanism became the main lawful channel for corporate political funding in FY 2024–25 after the electoral bonds verdict?",
+   "options": [
+    "Electoral trusts",
+    "Electoral Bonds Scheme",
+    "PMNRF",
+    "Direct corporate donations only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Electoral trusts became the main lawful channel for corporate funding in FY 2024–25. The Electoral Bonds Scheme had been struck down, while PMNRF concerns unencashed bonds rather than the principal corporate funding channel."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Electoral trusts: origin, tax and disclosure",
+   "question": "Consider the following statements about electoral trusts:\n1. The Electoral Trusts Scheme was introduced by CBDT in 2013.\n2. Section 80GGB provides tax benefits to individuals, while Section 80GGC provides them to companies.\n3. Electoral trusts submit an annual report to the ECI containing donor names and amounts, but not the recipient parties.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "Only statement 1 is correct: CBDT introduced the Electoral Trusts Scheme in 2013. Statement 2 reverses the beneficiaries of Sections 80GGB and 80GGC, and statement 3 is false because the annual report also contains the recipient parties."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Breach of privilege notice",
+   "question": "Who was examining the breach of privilege notice against eight Congress members for disruption during the VB-G RAM G Bill, 2025 debate?",
+   "options": [
+    "Lok Sabha Speaker Om Birla",
+    "The Attorney General",
+    "The Committee of Privileges of the Rajya Sabha",
+    "The President"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "Lok Sabha Speaker Om Birla was examining a BJP MP’s breach of privilege notice against eight Congress members. The notice concerned disruption during the VB-G RAM G Bill, 2025 debate; the Attorney General and the President were not identified as the examining authority."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Codification of parliamentary privileges",
+   "question": "Assertion (A): Parliamentary privileges continue to be based on the privileges of the British House of Commons as on 26 January 1950.\nReason (R): No law defining these privileges has been enacted yet.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. Article 105(3) provides that, until privileges are defined by law, they remain those of the British House of Commons as on 26 January 1950; this continuing position follows because no defining law has yet been enacted."
+  }
+ ]
+}

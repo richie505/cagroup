@@ -1,0 +1,42 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Bihar’s non-participation",
+   "question": "Consider the following statements:\nStatement A: ULLAS was launched in 2022 by the Union Education Ministry.\nStatement B: Bihar refused to join ULLAS and runs its own Akshar Anchal scheme for 15 years, focusing on Dalits, Mahadalits, minorities, EBCs and women aged 15–45.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "Both statements are true: ULLAS was launched in 2022 by the Union Education Ministry, while Bihar refused to join it and operates the 15-year Akshar Anchal scheme for the specified groups. The tempting alternative that Statement B is false is incorrect because Bihar’s non-participation and its own scheme are specifically reported."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ULLAS target and certification",
+   "question": "Under the ULLAS literacy scheme, which group is targeted and what is the stated learning-and-certification pathway?",
+   "options": [
+    "Non-literates aged 15 years and above; literacy up to Class 3 level followed by a test and certification",
+    "Children below 15 years; literacy up to Class 5 level followed by a test and certification",
+    "Women aged 15–45 years; literacy up to Class 10 level without certification",
+    "Non-literates aged 15 years and above; vocational training followed by university admission"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "ULLAS targets non-literates aged 15 years and above, provides literacy up to Class 3 level, and follows a test with certification. The other options alter the target age group, educational level or pathway."
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Indoor air quality protocol",
+   "question": "What is the status of Indoor Air Quality (IAQ) regulation in India?",
+   "options": [
+    "India has no uniform IAQ protocol",
+    "India has a uniform national IAQ protocol",
+    "India follows only a WHO-issued IAQ protocol",
+    "India has an IAQ protocol applicable only to rural areas"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F3"
+   ],
+   "explanation": "India has no uniform Indoor Air Quality protocol, despite indoor air sometimes being 2.5 times more polluted than outdoor air. The statement that India has a uniform national protocol is therefore incorrect."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Indoor versus outdoor pollution",
+   "question": "Assertion (A): Indoor air can be 2.5 times more polluted than outdoor air.\nReason (R): India has a uniform Indoor Air Quality protocol.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F3"
+   ],
+   "explanation": "The assertion is true: indoor air can be 2.5 times more polluted than outdoor air. The reason is false because India has no uniform Indoor Air Quality protocol, and it therefore cannot explain the assertion."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Scientific names of air-purifying plants",
+   "question": "Match the air-purifying plants in List-I with their scientific names in List-II.\n\nList-I\n(a) Areca Palm\n(b) Weeping Fig\n(c) Spider Plant\n(d) Peace Lily\n\nList-II\n(i) Dypsis lutescens\n(ii) Ficus benjamina\n(iii) Chlorophytum comosum\n(iv) Spathiphyllum wallisii",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F12",
+    "P4.F13",
+    "P4.F14",
+    "P4.F15"
+   ],
+   "explanation": "The correct pairs are Areca Palm–Dypsis lutescens, Weeping Fig–Ficus benjamina, Spider Plant–Chlorophytum comosum, and Peace Lily–Spathiphyllum wallisii. The other codes interchange the scientific names among these plants."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Bioremediation concept and GM microbes",
+   "question": "Consider the following statements about bioremediation:\n\n1. Bioremediation uses bacteria, fungi, algae and plants to break down pollutants into non-toxic by-products.\n2. GM microbes can be engineered for bioremediation.\n3. Heavy metals such as cadmium and lead can be completely degraded through bioremediation.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F4",
+    "P5.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so exactly two statements are correct. Heavy metals such as cadmium and lead cannot be completely degraded; they can only be transformed or immobilised, making statement 3 incorrect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "India's bioremediation efforts and gaps",
+   "question": "Which one of the following statements regarding India's bioremediation efforts is incorrect?",
+   "options": [
+    "The DBT Clean Technology Programme and CSIR–NEERI projects are among India's bioremediation efforts.",
+    "An IIT developed cotton-based nanocomposite mats to mop up oil spills.",
+    "India has unified national bioremediation standards.",
+    "BCIL and Econirmal Biotech are firms associated with India's bioremediation efforts."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F7",
+    "P5.F8",
+    "P5.F9"
+   ],
+   "explanation": "The incorrect statement is that India has unified national bioremediation standards. India has no unified national bioremediation standards, while the DBT Clean Technology Programme, CSIR–NEERI projects, IIT nanocomposite mats, BCIL and Econirmal Biotech are associated with the stated efforts."
+  }
+ ]
+}

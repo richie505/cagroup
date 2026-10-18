@@ -1,0 +1,115 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Procurement and users",
+   "question": "In the emergency procurement of additional satellite-linked Heron Mk II UAVs after Operation Sindoor, which service was procuring the UAVs for the first time?",
+   "options": [
+    "Indian Army",
+    "Indian Air Force",
+    "Indian Navy",
+    "CISF"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2"
+   ],
+   "explanation": "The Indian Navy was procuring Heron Mk II UAVs for the first time, replacing older Searcher UAVs. The Army and Air Force were placing new orders, but they were not the first-time procurers in this procurement."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Technical specifications",
+   "question": "Which of the following statements about the Heron Mk II UAV is incorrect?",
+   "options": [
+    "It is a MALE UAV.",
+    "It is made by Israel Aerospace Industries.",
+    "Its endurance is 24–45 hours.",
+    "It can operate at altitudes of up to 150 knots."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5",
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "The incorrect statement is that the Heron Mk II can operate at altitudes of up to 150 knots. Its altitude is up to 35,000 ft, while 150 knots is its speed; the UAV is a MALE system made by Israel Aerospace Industries with an endurance of 24–45 hours."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Future co-production",
+   "question": "Consider the following statements:\nStatement A: The Heron Mk II has a payload capacity of up to 50 kg.\nStatement B: India and Israel Aerospace Industries are examining co-production of the Heron Mk II.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F12"
+   ],
+   "explanation": "Statement A is false because the Heron Mk II has a payload capacity of up to 500 kg. Statement B is true, as India and Israel Aerospace Industries are examining co-production; therefore, the fourth option is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ministry and statutory basis",
+   "question": "The Bureau of Port Security (BoPS), constituted as a statutory body in 2025, functions under which Ministry?",
+   "options": [
+    "Ministry of Home Affairs",
+    "Ministry of Ports, Shipping and Waterways",
+    "Ministry of Defence",
+    "Ministry of Civil Aviation"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "The Bureau of Port Security functions under the Ministry of Ports, Shipping and Waterways. It was constituted under Section 13 of the Merchant Shipping Act, 2025; the Ministry of Home Affairs is the principal trap in this question."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Institutional model",
+   "question": "Assertion (A): The Bureau of Port Security is a statutory body constituted under Section 13 of the Merchant Shipping Act, 2025.\nReason (R): The Bureau of Port Security is modelled on the Bureau of Civil Aviation Security.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, being modelled on the Bureau of Civil Aviation Security does not explain the statutory constitution of BoPS under Section 13 of the Merchant Shipping Act, 2025."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Security mandate and designated organisation",
+   "question": "With reference to the Bureau of Port Security, consider the following statements:\n1. It enforces the ISPS Code at major and non-major ports.\n2. The CISF is the designated Recognised Security Organisation.\n3. It is modelled on the Indian Ports Act, 2025.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4",
+    "P3.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: BoPS enforces the ISPS Code at major and non-major ports, and the CISF is the designated Recognised Security Organisation. Statement 3 is incorrect because BoPS is modelled on the Bureau of Civil Aviation Security, not the Indian Ports Act, 2025."
+  }
+ ]
+}

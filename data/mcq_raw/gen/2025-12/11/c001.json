@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of World AIDS Day observed on December 1, 2025?",
+   "options": [
+    "Overcoming disruption, transforming the AIDS response",
+    "End AIDS by 2030",
+    "Test and Treat",
+    "Halt and reverse by 2012"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F14",
+    "P2.F18"
+   ],
+   "explanation": "The theme of World AIDS Day 2025 was “Overcoming disruption, transforming the AIDS response.” “End AIDS by 2030” is the goal under the WHO strategy, while “Halt and reverse by 2012” was associated with NACP III."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "NACP phases and outlay",
+   "question": "Consider the following statements about India’s National AIDS Control Programme:\n1. NACP I, implemented during 1992–1999, was India’s first comprehensive HIV/AIDS programme.\n2. NACP III was implemented during 1999–2006.\n3. NACP V was implemented during 2012–2017 and had an outlay of ₹15,471.94 crore.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F16",
+    "P2.F18",
+    "P2.F20"
+   ],
+   "explanation": "Only Statement 1 is correct: NACP I ran from 1992–1999 and was India’s first comprehensive HIV/AIDS programme. NACP III ran from 2007–2012, while NACP V ran from 2021–2026; therefore Statements 2 and 3 contain incorrect periods."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "NACP V and Mission Sampark",
+   "question": "Assertion (A): NACP V is a Central Sector Scheme implemented during 2021–2026.\nReason (R): NACP V brings back people living with HIV who were lost to follow-up on ART.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F20",
+    "P2.F21"
+   ],
+   "explanation": "Assertion A is true because NACP V is a Central Sector Scheme for 2021–2026. Reason R is false: bringing back people living with HIV who were lost to follow-up on ART is the objective of Mission Sampark, not the stated description of NACP V."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Route and inspiration",
+   "question": "Consider the following statements about INSV Kaundinya’s maiden overseas voyage:\nStatement A: The voyage was from Porbandar in Gujarat to Muscat in Oman.\nStatement B: The vessel was inspired by a ship depicted in the Ajanta Cave paintings of the 5th century CE.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "Both statements are true. INSV Kaundinya undertook its maiden overseas voyage from Porbandar to Muscat, and its design was inspired by a ship shown in the Ajanta Cave paintings of the 5th century CE."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Construction and dimensions",
+   "question": "How many of the following statements about INSV Kaundinya are correct?\n1. It was built by the Ministry of Culture, the Indian Navy and Hodi Innovations.\n2. It used the Tankai method, in which the hull was stitched first and the ribs were added later.\n3. Its length was about 19.6 m.\n4. Its draft was about 6.5 m.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4",
+    "P3.F5",
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "Three statements are correct: the vessel was built by the Ministry of Culture, the Indian Navy and Hodi Innovations; it used the Tankai method; and its length was about 19.6 m. Statement 4 is incorrect because about 6.5 m was its width, whereas its draft was about 3.33 m."
+  }
+ ]
+}

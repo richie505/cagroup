@@ -1,0 +1,93 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Sequence of censuses",
+   "question": "Which sequence correctly describes the planned Population Census and Economic Census announced for 2026–27 and 2027?",
+   "options": [
+    "Two-phase Population Census in 2026–27, followed by the 8th Economic Census in 2027",
+    "8th Economic Census in 2026, followed by a two-phase Population Census in 2027",
+    "Two-phase Population Census in 2025–26, followed by the 7th Economic Census in 2027",
+    "8th Economic Census in 2027, followed by a two-phase Population Census in 2028"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "The announced sequence is a two-phase Population Census in 2026–27, followed by the 8th Economic Census in 2027. The announcement was made by Statistics Secretary Saurabh Garg; the other options alter the sequence, census year or census number."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Economic Census coverage and institutional framework",
+   "question": "With reference to the 8th Economic Census proposed for 2027, consider the following statements:\n1. It will help build a Statistical Business Register, or unified enterprise database.\n2. The Ministry of Statistics and Programme Implementation is the nodal ministry, while the National Statistical Office conducts it with State Directorates of Economics & Statistics.\n3. It covers establishments producing or distributing goods and services, except those meant solely for personal consumption.",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "All three statements are correct. The Economic Census is intended to create a unified enterprise database, is coordinated by MoSPI through NSO and State DES, and covers establishments producing or distributing goods and services other than for sole consumption; the other options omit one or more of these features."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Features of the 2026–27 Population Census",
+   "question": "With reference to the 2026–27 Population Census, identify the incorrect statement.",
+   "options": [
+    "It will be the 16th decennial Census.",
+    "It will be the first fully digital Census with self-enumeration.",
+    "It will have a separate head for transgender-headed households.",
+    "It will be the 15th decennial Census."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "The incorrect statement is that it will be the 15th decennial Census. The correct figure is the 16th decennial Census; the first three statements correctly describe its digital format, self-enumeration and separate head for transgender-headed households."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Notification timeline",
+   "question": "The Banking Laws (Amendment) Act, 2025 was notified in which two stages?",
+   "options": [
+    "1 August and 1 November 2025",
+    "1 July and 1 October 2025",
+    "15 August and 15 November 2025",
+    "1 September and 1 December 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The Banking Laws (Amendment) Act, 2025 was notified in two stages, on 1 August and 1 November 2025. The other options change one or both notification dates."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Acts amended",
+   "question": "Which of the following statements about the Banking Laws (Amendment) Act, 2025 is incorrect?",
+   "options": [
+    "It amends the Reserve Bank of India Act, 1934.",
+    "It amends the Banking Regulation Act, 1949.",
+    "It amends the State Bank of India Act, 1955.",
+    "It amends the State Bank of India Act, 1965."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The incorrect statement gives the State Bank of India Act as 1965. The Act amends the State Bank of India Act, 1955, along with the RBI Act, 1934, the Banking Regulation Act, 1949, and the Banking Companies (Acquisition and Transfer of Undertakings) Acts of 1970 and 1980."
+  }
+ ]
+}

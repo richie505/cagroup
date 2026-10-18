@@ -1,0 +1,133 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Prototype and capacity",
+   "question": "Taramandal, a Visakhapatnam-based space-tech start-up, is developing which prototype?",
+   "options": [
+    "India's first orbital satellite data centre in the 60-kg class",
+    "A 5G smartphone network for 58,204 Anganwadi workers",
+    "A water aerodrome network covering seven locations",
+    "A mobile ICTC van fleet for remote areas"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "Taramandal is developing India's first orbital satellite data centre prototype in the 60-kg class. The other options relate to Anganwadi workers, water aerodromes and HIV testing facilities, not the Taramandal prototype."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Authority and approval",
+   "question": "Which body was allowed to prepare the Terms of Reference for seven proposed water aerodromes in Andhra Pradesh?",
+   "options": [
+    "AP Airports Development Corporation Ltd",
+    "Women and Child Welfare Department",
+    "Indian Navy",
+    "Taramandal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The MoEF&CC Expert Appraisal Committee allowed AP Airports Development Corporation Ltd to prepare the Terms of Reference for seven water aerodromes. The Indian Navy is associated with the requirement for a NOC for the Visakhapatnam site, but it was not the body authorised to prepare the ToR."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Phase 1 locations and conditions",
+   "question": "With reference to the proposed water aerodromes in Andhra Pradesh, consider the following statements:\n\n1. AP Airports Development Corporation Ltd was allowed to prepare the ToR for seven water aerodromes.\n2. Seven locations were identified for Phase 2.\n3. Early public hearings and necessary NOCs, including an Indian Navy NOC for the Visakhapatnam site, were stipulated.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct: ToR preparation was allowed for seven water aerodromes, and early public hearings and NOCs were required. Statement 2 is incorrect because seven locations were identified in Phase 1, while Phase 2 proposed three locations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of beneficiaries and technology",
+   "question": "How many Anganwadi workers, supervisors and block coordinators were to receive 5G smartphones under the Andhra Pradesh Government initiative?",
+   "options": [
+    "58,204",
+    "1.25 lakh",
+    "55,204",
+    "42,000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F3"
+   ],
+   "explanation": "The Andhra Pradesh Government announced 5G smartphones for 58,204 Anganwadi workers, supervisors and block coordinators. The figures 1.25 lakh and 55,204 refer to the wider staff and Anganwadi-centre network, while 42,000 refers to HIV-affected persons receiving pensions."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Cost of smartphone replacement",
+   "question": "Consider the following statements:\n\nStatement A: The Andhra Pradesh Government's 5G smartphone initiative replaces malfunctioning 4G devices.\nStatement B: The initiative involves an expenditure of ₹35 crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "Statement A is true because the 5G smartphones replace malfunctioning 4G devices. Statement B is false: the stated cost is ₹75 crore, not ₹35 crore."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "AIDS-free goal and HIV positivity",
+   "question": "Assertion (A): Andhra Pradesh has set a goal of becoming AIDS-free by 2004.\nReason (R): HIV positivity in Andhra Pradesh has declined from 2.34% earlier to 0.58% now.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F2",
+    "P9.F4"
+   ],
+   "explanation": "Assertion A is false because the announced goal is to achieve an AIDS-free Andhra Pradesh by 2030, not 2004. Reason R is true: HIV positivity declined from 2.34% earlier to 0.58% now."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "HIV-care infrastructure and beneficiaries",
+   "question": "How many of the following statements regarding HIV-related services and indicators in Andhra Pradesh are correct?\n\n1. The state has 59 ART centres.\n2. There are 10 mobile ICTC vans for remote areas.\n3. Current HIV positivity is 0.10%.\n4. About 13,000 HIV-affected persons receive pensions.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4",
+    "P9.F7",
+    "P9.F8",
+    "P9.F9"
+   ],
+   "explanation": "Only statement 1 is correct: Andhra Pradesh has 59 ART centres. The state has 15 mobile ICTC vans, current HIV positivity is 0.58%, and pensions cover about 42,000 HIV-affected persons, making statements 2, 3 and 4 incorrect."
+  }
+ ]
+}

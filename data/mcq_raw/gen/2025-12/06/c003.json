@@ -1,0 +1,114 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Ethics framework",
+   "question": "In 2025, which organisation issued the world's first comprehensive ethical framework for neurotechnology amid the rapid growth of Brain–Computer Interfaces?",
+   "options": [
+    "UNESCO",
+    "BRAIN Initiative",
+    "China Brain Project",
+    "Neuralink"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "UNESCO issued the world's first comprehensive ethical framework for neurotechnology in 2025. The BRAIN Initiative, China Brain Project and Neuralink are associated with other neurotechnology developments, not this framework."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Types of BCI",
+   "question": "Consider the following statements:\nStatement A: Non-invasive Brain–Computer Interfaces include EEG headsets.\nStatement B: Invasive Brain–Computer Interfaces use EEG headsets rather than implanted electrodes.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "Statement A is true because EEG headsets are non-invasive BCI devices. Statement B is false: invasive BCIs use implanted electrodes, not EEG headsets."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Neurotechnology applications",
+   "question": "Consider the following statements about neurotechnology applications:\n1. Deep Brain Stimulation is used for Parkinson's, essential tremor and dystonia.\n2. Transcranial Magnetic Stimulation is used for stroke rehabilitation.\n3. Vagus Nerve Stimulation is used for epileptic seizures.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F12",
+    "P6.F13",
+    "P6.F14"
+   ],
+   "explanation": "The Deep Brain Stimulation and Transcranial Magnetic Stimulation statements are correct. Vagus Nerve Stimulation is associated with treatment-resistant depression, not epileptic seizures."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Cartagena Protocol adoption",
+   "question": "Assertion (A): The Cartagena Protocol on Biosafety was adopted in Cartagena on 29 January 2000.\nReason (R): It is a legally binding protocol under the Convention on Biological Diversity concerning Living Modified Organisms.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F16",
+    "P7.F17"
+   ],
+   "explanation": "Assertion A is false because the Cartagena Protocol was adopted in Montreal on 29 January 2000. Reason R is true: it is legally binding, operates under the Convention on Biological Diversity and concerns Living Modified Organisms."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "India's biosecurity framework",
+   "question": "How many of the following statements about India's biosecurity framework are correct?\n1. The Environment (Protection) Act, 1986 deals with hazardous microorganisms and GMOs.\n2. The Biosafety Rules, 1989 deal with genetically engineered organisms.\n3. The Recombinant DNA Research Guidelines, 2017 criminalise biological weapons.\n4. The WMD Act, 2005 deals with biocontainment.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F5",
+    "P7.F6",
+    "P7.F7",
+    "P7.F8"
+   ],
+   "explanation": "Only the first two statements are correct. The Recombinant DNA Research Guidelines, 2017 concern biocontainment, while the WMD Act, 2005 criminalises biological weapons."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Biosecurity and biosafety concepts",
+   "question": "Which one of the following statements is incorrect?",
+   "options": [
+    "Biosecurity prevents the intentional misuse of biological agents.",
+    "Biosafety prevents accidental release of biological agents.",
+    "India ranks 66th on the Global Health Security Index.",
+    "The Biological Weapons Convention, adopted in 1975, was the first treaty banning the development, production and stockpiling of chemical weapons."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F4"
+   ],
+   "explanation": "The incorrect statement is the last one. The Biological Weapons Convention was the first treaty banning the development, production and stockpiling of bioweapons, not chemical weapons; the other statements correctly describe biosecurity, biosafety and India's 66th rank."
+  }
+ ]
+}

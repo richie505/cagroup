@@ -1,0 +1,92 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Publisher and venue",
+   "question": "The Global Environment Outlook 2025 (GEO-7) was published by which organisation and released at which venue?",
+   "options": [
+    "UNEP; UNEP's 7th session in Nairobi",
+    "World Bank; UNEP's 7th session in Nairobi",
+    "UNEP; World Environment Day in Nairobi",
+    "UNEP; UNEP headquarters in Kenya"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "GEO-7 was published by UNEP and released at UNEP's 7th session in Nairobi. The World Bank was not identified as its publisher, while the other options do not state the reported release venue."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Report identity",
+   "question": "Assertion (A): The Global Environment Outlook 2025 is a UNEP publication.\nReason (R): UNEP is the publisher of the 7th Global Environment Outlook.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Both statements are true because UNEP published the 7th Global Environment Outlook, making GEO-7 a UNEP publication. The publisher detail directly explains the assertion."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Key environmental indicators",
+   "question": "With reference to the key findings of the Global Environment Outlook 2025, consider the following statements:\n1. Global temperature in 2024 reached 1.5°C, the highest ever.\n2. One million of the world's 8 million species are facing extinction.\n3. Degraded land affects 20–40% of land and more than 3 billion people.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Only statement 2 is correct: one million of the world's 8 million species are facing extinction. Statement 1 changes the reported temperature figure of 1.55°C to 1.5°C, while statement 3 incorrectly presents the reported 20–40% range as applying to land rather than degraded land."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Safest city for women",
+   "question": "According to the NARI 2025 Report, which city was identified as the safest city for women in India?",
+   "options": [
+    "Visakhapatnam",
+    "Vijayawada",
+    "Bihar",
+    "Rajasthan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Visakhapatnam was identified as India's safest city for women in the NARI 2025 Report. Vijayawada, Bihar and Rajasthan are not the city named for this result."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Milk production ranking",
+   "question": "With reference to the Basic Animal Husbandry Statistics (BAHS) 2023, which of the following statements is incorrect?",
+   "options": [
+    "Uttar Pradesh ranked first in milk production.",
+    "Rajasthan ranked second in milk production.",
+    "Madhya Pradesh ranked third in milk production.",
+    "Andhra Pradesh ranked fourth in milk production."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The incorrect statement is that Andhra Pradesh ranked fourth; Andhra Pradesh ranked fifth with 6.70%. Gujarat ranked fourth, while Uttar Pradesh, Rajasthan and Madhya Pradesh occupied the first three positions respectively."
+  }
+ ]
+}

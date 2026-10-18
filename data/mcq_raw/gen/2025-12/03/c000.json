@@ -1,0 +1,109 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme replacement",
+   "question": "Which legislation was introduced in 2025 to replace the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005?",
+   "options": [
+    "Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Bill",
+    "National Action Plan on AMR 2.0",
+    "Delhi Declaration on AMR",
+    "Chennai Declaration"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Bill, abbreviated VB-G RAM G, was introduced to replace MGNREGA, 2005. The Delhi Declaration and Chennai Declaration relate to antimicrobial resistance, while NAP-AMR 2.0 is an action plan for 2025–29."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Guaranteed employment days",
+   "question": "Under VB-G RAM G, how many days of employment are guaranteed under Section 5(1)?",
+   "options": [
+    "100 days",
+    "125 days",
+    "150 days",
+    "60 days"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "VB-G RAM G guarantees 125 days of employment under Section 5(1). The figure of 100 days is associated with MGNREGA, while 150 days applies only in special cases under MGNREGA and 60 days refers to the agriculture pause under VB-G RAM G."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Wage funding pattern",
+   "question": "Which of the following statements regarding wage funding under MGNREGA and VB-G RAM G is incorrect?",
+   "options": [
+    "Under MGNREGA, the Centre bears 100% of the wage funding.",
+    "Under VB-G RAM G, the Centre–State funding ratio is 60:40.",
+    "Under VB-G RAM G, the Centre–State funding ratio is 50:50.",
+    "For the North-Eastern and Himalayan States, the VB-G RAM G ratio is 90:10."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The incorrect statement is that VB-G RAM G has a 50:50 Centre–State funding ratio. Its general ratio is 60:40, while the ratio for North-Eastern and Himalayan States is 90:10; MGNREGA provides 100% central wage funding."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Plan launched",
+   "question": "Which plan was launched for 2025–29 as the national action framework on antimicrobial resistance?",
+   "options": [
+    "NAP-AMR 2.0",
+    "NAP-AMR 1.0",
+    "Delhi Declaration on AMR",
+    "Chennai Declaration"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F16",
+    "P1.F17"
+   ],
+   "explanation": "NAP-AMR 2.0 was launched for 2025–29, following NAP-AMR 1.0 of 2017. The Delhi Declaration was a 2017 inter-ministerial commitment, and the Chennai Declaration was a consensus of medical societies on rational antibiotic use."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Governance mechanism",
+   "question": "With reference to the governance provisions of NAP-AMR 2.0, consider the following statements:\n\n1. Inter-sectoral supervision is provided under NITI Aayog through a Coordination & Monitoring Committee.\n2. States have been urged to establish State AMR Cells.\n3. NAP-AMR 2.0 establishes a binding Centre–State mechanism for antimicrobial-resistance control.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: NAP-AMR 2.0 provides inter-sectoral supervision under NITI Aayog and urges States to establish State AMR Cells. Statement 3 is incorrect because there is no binding Centre–State mechanism, and most AMR-related levers are State subjects."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "One Health approach",
+   "question": "Assertion (A): NAP-AMR 2.0 adopts the One Health approach.\nReason (R): Human, animal and environmental health are treated as separate and unrelated domains.\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "Assertion A is true because NAP-AMR 2.0 follows the One Health approach. Reason R is false: this approach recognises that human, animal and environmental health are interlinked, not separate and unrelated."
+  }
+ ]
+}

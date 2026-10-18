@@ -1,0 +1,58 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Cause of flight cancellations",
+   "question": "The cancellation of more than 1,000 IndiGo flights in a single day was primarily attributed to which of the following?",
+   "options": [
+    "Pilot shortage after Phase 2 of the revised FDTL norms",
+    "Temporary, selective exemptions granted by the DGCA",
+    "IndiGo's over 60% share of the domestic market",
+    "Curtailed winter schedule and transfer of slots to other operators"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "IndiGo cancelled more than 1,000 flights in a single day because of a pilot shortage after Phase 2 of the revised FDTL norms. The DGCA exemptions and the winter-schedule curtailment were separate developments, not the stated primary cause."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Revised FDTL norms",
+   "question": "Consider the following statements:\nStatement A: The weekly rest requirement under the revised FDTL norms changed from 36 hours to 42 hours.\nStatement B: The permitted number of night landings changed from 6 to 2.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "Statement A is false because the weekly rest requirement changed from 36 hours to 48 hours, not 42 hours. Statement B is true: the permitted night landings changed from 6 to 2."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Winter schedule and slot allocation",
+   "question": "Assertion (A): IndiGo's winter schedule was curtailed and slots were given to other operators.\nReason (R): The curtailed slots were given to IndiGo.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "The Assertion is true: the Civil Aviation Minister stated that IndiGo's winter schedule was curtailed and slots were given to other operators. The Reason is false because the slots were allocated to other operators, not to IndiGo."
+  }
+ ]
+}

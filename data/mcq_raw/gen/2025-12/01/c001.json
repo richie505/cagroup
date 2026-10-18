@@ -1,0 +1,114 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Policy announcement and timeline",
+   "question": "At the second day of the Collectors' Conference held on 18 December 2025, by when was the Andhra Pradesh Population Management Policy proposed to be introduced?",
+   "options": [
+    "By Ugadi 2026",
+    "By the end of 2025",
+    "By the next monsoon",
+    "By Swarnandhra-2047"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Chief Minister N. Chandrababu Naidu announced that the Andhra Pradesh Population Management Policy would be introduced by Ugadi 2026. Swarnandhra-2047 is the State's vision, not the deadline for introducing this policy."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Purpose of Family Cards",
+   "question": "What is the primary purpose of the Family Cards initiative discussed at the Collectors' Conference in Andhra Pradesh?",
+   "options": [
+    "To digitally integrate details of all welfare beneficiaries",
+    "To record land disputes under Section 22-A of the Registration Act",
+    "To reschedule high-interest loans up to 14%",
+    "To identify habitual offenders for expulsion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F9",
+    "P1.F10",
+    "P1.F12"
+   ],
+   "explanation": "Family Cards are intended to digitally integrate the details of all welfare beneficiaries. Section 22-A concerns land disputes, while loan rescheduling and action against habitual offenders are separate announcements."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Groundwater targets",
+   "question": "Which of the following statements regarding the groundwater targets announced at the Collectors' Conference is incorrect?",
+   "options": [
+    "The target was to reach a groundwater level of 3 metres at the end of the monsoon.",
+    "The groundwater level should not fall below 8 metres before the next monsoon.",
+    "The target was to reach a groundwater level of 8 metres at the end of the monsoon.",
+    "The groundwater level was to be monitored in relation to the next monsoon."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "The incorrect statement is that the end-of-monsoon target was 8 metres; the correct target was 3 metres. The 8-metre figure applies to the level that should not be crossed before the next monsoon."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Overall crime decline",
+   "question": "According to the DGP's data presented at the Chief Minister's crime review, by what percentage did overall crime in Andhra Pradesh decline in 2025 compared with 2024?",
+   "options": [
+    "5.5%",
+    "6.6%",
+    "8.5%",
+    "9.5%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F5",
+    "P2.F7"
+   ],
+   "explanation": "Overall crime in Andhra Pradesh declined by 5.5% in 2025 compared with 2024. The figures 6.6%, 8.5% and 9.5% refer respectively to the rise in economic offences and the rises in Konaseema and Annamayya."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Total cases in 2025",
+   "question": "Which of the following statements regarding the overall crime figures in Andhra Pradesh is incorrect?",
+   "options": [
+    "There were 1,10,111 total cases in 2024.",
+    "There were 1,04,095 total cases in 2025.",
+    "The number of cases fell by 6,016 in 2025.",
+    "The number of cases fell by 6,160 in 2025."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "The incorrect statement changes the decline from 6,016 to 6,160. The total cases fell from 1,10,111 in 2024 to 1,04,095 in 2025, a reduction of 6,016 cases."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "District-wise crime trend",
+   "question": "With reference to the district-wise crime trend in Andhra Pradesh in 2025, consider the following statements:\n\n1. Crime declined in 16 districts and rose in 10 districts.\n2. Annamayya recorded the highest rise, at 9.5%.\n3. Crime rose by 6.5% in both Guntur and Tirupati.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "All three statements are correct: crime fell in 16 districts and rose in 10, Annamayya recorded the highest rise at 9.5%, and Guntur and Tirupati each recorded a 6.5% rise. The 8.5% figure belongs to Konaseema, not to the overall district count or the Guntur–Tirupati figure."
+  }
+ ]
+}

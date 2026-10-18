@@ -1,0 +1,114 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Occasion",
+   "question": "The Rajya Sabha discussion commemorating 150 years of Vande Mataram was held on which occasion?",
+   "options": [
+    "150 years of Vande Mataram",
+    "150 years of Jana Gana Mana",
+    "100 years of Vande Mataram",
+    "75 years of the Constitution"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Rajya Sabha discussion commemorated 150 years of Vande Mataram. The tempting option of 100 years refers to a different anniversary and does not match the occasion of the discussion."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Author and language",
+   "question": "With reference to the origin of Vande Mataram, identify the incorrect statement.",
+   "options": [
+    "Vande Mataram was authored by Bankim Chandra Chattopadhyay.",
+    "Vande Mataram was composed in Sanskrit.",
+    "Vande Mataram was composed in Bengali.",
+    "Vande Mataram was included in the novel Anandamath."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "The incorrect statement is that Vande Mataram was composed in Bengali; it was composed in Sanskrit. Bankim Chandra Chattopadhyay authored it, and it appeared in Anandamath."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "National song and constitutional reference",
+   "question": "Consider the following statements about Vande Mataram:\n1. In 1937, the CWC decided that only its first two stanzas should be sung at national gatherings.\n2. It was designated as the national song by Dr Rajendra Prasad in the Constituent Assembly on 24 January 1950, with equal status to Jana Gana Mana.\n3. Article 51A(a) specifically mentions the national song along with the Flag and the national anthem.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9",
+    "P0.F11"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the 1937 decision concerned the first two stanzas, and Dr Rajendra Prasad designated Vande Mataram as the national song on 24 January 1950. Statement 3 is incorrect because Article 51A(a) mentions the Flag and the national anthem, not the national song."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UNESCO inscription and venue",
+   "question": "At which event and venue was Diwali inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2025?",
+   "options": [
+    "The 20th session of the Intergovernmental Committee at the Red Fort, New Delhi",
+    "The 19th session of the Intergovernmental Committee at the Red Fort, New Delhi",
+    "The 20th session of the Intergovernmental Committee in Mumbai",
+    "The 21st session of the Intergovernmental Committee in New Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3"
+   ],
+   "explanation": "Diwali was inscribed during the 20th session of the Intergovernmental Committee at the Red Fort, New Delhi. The alternatives alter either the session number or the venue."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "India's 16th ICH element",
+   "question": "Assertion (A): Diwali became India's 16th element on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2025.\nReason (R): The Representative List contains about 700 elements from 140 countries.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: Diwali was India's 16th element, while the list had about 700 elements from 140 countries. However, the worldwide size of the list does not explain why Diwali was counted as India's 16th element."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Earlier UNESCO ICH elements",
+   "question": "How many of the following were among India's earlier elements on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity?\n1. Nawrouz — 2024\n2. Garba of Gujarat — 2023\n3. Durga Puja in Kolkata — 2021\n4. Kumbh Mela — 2018",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7",
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "Only three pairs are correct: Nawrouz was inscribed in 2024, Garba of Gujarat in 2023, and Durga Puja in Kolkata in 2021. The incorrect pair is Kumbh Mela — 2018; its year was 2017."
+  }
+ ]
+}

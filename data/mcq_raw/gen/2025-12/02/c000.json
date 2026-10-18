@@ -1,0 +1,97 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Acts replaced",
+   "question": "The SHANTI Bill, 2025, proposes to replace which existing laws?",
+   "options": [
+    "Atomic Energy Act, 1962 and Civil Liability for Nuclear Damage Act, 2010",
+    "Atomic Energy Act, 1948 and Civil Liability for Nuclear Damage Act, 2015",
+    "Atomic Energy Act, 1986 and Electricity Act, 2003",
+    "Atomic Energy Act, 2015 and Disaster Management Act, 2005"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "The SHANTI Bill, 2025, proposes to replace the Atomic Energy Act, 1962 and the Civil Liability for Nuclear Damage Act, 2010. The other options use laws or years not associated with the replacement proposed by the Bill."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Nuclear liability",
+   "question": "With reference to the SHANTI Bill, 2025, which of the following statements is incorrect?",
+   "options": [
+    "Private and foreign firms may build, own, operate and decommission nuclear plants.",
+    "The government retains control over fuel production, heavy water and radioactive waste.",
+    "Supplier liability is removed, while operator liability is capped and linked to reactor capacity.",
+    "Supplier liability is retained, while operator liability is capped and linked to reactor capacity."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F7"
+   ],
+   "explanation": "The incorrect statement is that supplier liability is retained. The SHANTI Bill removes supplier liability, while capping operator liability and linking it to reactor capacity. The first three statements correctly describe the Bill’s provisions."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Nuclear capacity targets",
+   "question": "How many of the following statements regarding the nuclear-energy targets associated with the SHANTI Bill, 2025, are correct?\n\n1. India’s current nuclear capacity is 8.18 GW.\n2. The target for 2032 is 25 GW.\n3. The target for 2047 is 100 GW, requiring ₹15 lakh crore.\n4. At least five indigenous small modular reactors are targeted by 2033.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11",
+    "P0.F12",
+    "P0.F13"
+   ],
+   "explanation": "Only three statements are correct: the current capacity is 8.18 GW, the 2047 target is 100 GW requiring ₹15 lakh crore, and at least five indigenous SMRs are targeted by 2033. Statement 2 is incorrect because the 2032 target is 22 GW, not 25 GW."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Judicial Policy",
+   "question": "Why did Chief Justice of India Surya Kant call for a National Judicial Policy?",
+   "options": [
+    "To reduce divergence across courts",
+    "To replace the National Judicial Appointments Commission",
+    "To remove the requirement of consultation for High Court appointments",
+    "To place the Prime Minister’s election beyond judicial review"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "CJI Surya Kant called for a National Judicial Policy to reduce divergence across courts. The other options concern the NJAC or constitutional provisions and do not state the purpose of the proposed policy."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "NJAC struck down",
+   "question": "Assertion (A): The National Judicial Appointments Commission was struck down in 2015 in the Fourth Judges Case.\nReason (R): Article 124 provides for the appointment of Supreme Court judges by the President.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F9"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. The NJAC was struck down in 2015 in the Fourth Judges Case, while Article 124 concerns appointment of Supreme Court judges by the President; Article 124 does not explain why the NJAC was struck down. Therefore, both are true, but the Reason is not the correct explanation of the Assertion."
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First FTA",
+   "question": "India’s Free Trade Agreement concluded in December 2025 marked its first FTA with which country?",
+   "options": [
+    "New Zealand",
+    "Australia",
+    "China",
+    "Japan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2"
+   ],
+   "explanation": "The agreement concluded in December 2025 was India’s first FTA with New Zealand and was negotiated in a record nine months by a women-led team. Australia, China and Japan are listed as ASEAN FTA partners, but the agreement in question was with New Zealand."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Tariff and services commitments",
+   "question": "With reference to the India–New Zealand Free Trade Agreement, consider the following statements:\n1. New Zealand committed to zero duty on 100% of Indian exports.\n2. India offered tariff relief on 95% of New Zealand imports, with 57% becoming duty-free from day one.\n3. New Zealand made its first-ever commitment on Ayurveda, yoga and traditional medicine services.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4",
+    "P2.F6"
+   ],
+   "explanation": "All three statements are correct. New Zealand committed to zero duty on 100% of Indian exports, while India provided tariff relief on 95% of New Zealand imports and New Zealand made its first-ever commitment on Ayurveda, yoga and traditional medicine services."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Excluded products",
+   "question": "Which of the following statements regarding products excluded by India from the India–New Zealand Free Trade Agreement is incorrect?",
+   "options": [
+    "Dairy products such as milk, cheese, butter and yogurt were excluded.",
+    "Onions were excluded.",
+    "Kiwifruit was excluded.",
+    "Edible oils were excluded."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F9"
+   ],
+   "explanation": "Kiwifruit was not listed among the products excluded by India; it was identified under agricultural cooperation. Dairy products, onions and edible oils were among the exclusions."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Africa and G20",
+   "question": "Consider the following statements:\nStatement A: The African Union became a permanent member of the G20 in 2023 during India’s Presidency.\nStatement B: The African Continental Free Trade Area integrates a 54-country market.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F8"
+   ],
+   "explanation": "Both statements are true. The African Union became a permanent G20 member in 2023 during India’s Presidency, and the African Continental Free Trade Area integrates a 54-country market."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "India–Africa trade position",
+   "question": "Assertion (A): India’s trade with Africa is about $100 billion, making India the 4th-largest partner.\nReason (R): China’s trade with Africa is over $200 billion.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "Both the assertion and the reason are true: India’s trade with Africa is about $100 billion and India is the 4th-largest partner, while China’s trade is over $200 billion. China’s trade figure does not explain India’s trade value or ranking, so the reason is not the correct explanation of the assertion."
+  }
+ ]
+}

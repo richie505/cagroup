@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Price movement",
+   "question": "Following Bitcoin’s record level in October 2025, to what level did its price fall amid fears of a crypto winter?",
+   "options": [
+    "Below $85,000",
+    "$126,000",
+    "$1 trillion",
+    "$500 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "Bitcoin fell below $85,000 after touching a record $126,000 in October 2025. The $1 trillion figure refers to the crypto value wiped out, while $500 billion was wiped out in hours during the October 10 crash."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Reason for Bitcoin slide",
+   "question": "Assertion (A): Bitcoin fell below $85,000 after reaching a record $126,000 in October 2025.\nReason (R): Long-term holders sold 800,000 Bitcoins within a month.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F4"
+   ],
+   "explanation": "Both the assertion and the reason are correct. The sale of 800,000 Bitcoins by long-term holders within a month was cited as a reason for Bitcoin’s decline below $85,000; the $126,000 level was its October 2025 record."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Factors limiting crypto-winter fears",
+   "question": "With reference to factors that may have exaggerated fears of a crypto winter, consider the following statements:\n1. The last Bitcoin halving took place in June 2025.\n2. Bitcoin ETFs were approved in the United States in January 2024 and hold 1.4 million BTC, equal to 6.8% of supply.\n3. The US Bitcoin Reserve executive order was issued in June 2025.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F6",
+    "P8.F7",
+    "P8.F8"
+   ],
+   "explanation": "Only statement 2 is correct: US Bitcoin ETFs were approved in January 2024 and hold 1.4 million BTC, or 6.8% of supply. The last halving was in April 2024, while the US Bitcoin Reserve executive order was issued in March 2025, not June 2025."
+  }
+ ]
+}

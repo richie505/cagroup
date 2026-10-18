@@ -1,0 +1,81 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "GI tag count",
+   "question": "After five Tamil Nadu products received Geographical Indication tags, what was the State's total GI count?",
+   "options": [
+    "74",
+    "10",
+    "1999",
+    "1958"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Tamil Nadu's GI count rose to 74 after five products received GI tags. The other options refer to GI validity, the year of the GI law, and the year of the Lisbon Agreement, not the State's GI count."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Product–place association",
+   "question": "Match the Tamil Nadu products that received GI tags with their associated districts.\n\nList-I\n(a) Woraiyur cotton sari\n(b) Kavindapadi nattu sakkarai\n(c) Namakkal Makkal Pathirangal\n(d) Ambasamudram Choppu Saman\n\nList-II\ni. Erode\nii. Tiruchi\niii. Namakkal\niv. Tirunelveli",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4",
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv: Woraiyur cotton sari–Tiruchi, Kavindapadi nattu sakkarai–Erode, Namakkal Makkal Pathirangal–Namakkal, and Ambasamudram Choppu Saman–Tirunelveli. The other codes interchange these district associations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in methane emissions",
+   "question": "According to satellite evidence on landfill emissions, what was India's position among methane-emitting countries?",
+   "options": [
+    "Largest emitter",
+    "Second-largest emitter",
+    "Third-largest emitter",
+    "Fourth-largest emitter"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "India was identified as the third-largest methane emitter, after China and the USA, with 31 million tonnes per year. The tempting second-largest option is incorrect because China and the USA were placed ahead of India."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Methane and landfill facts",
+   "question": "How many of the following statements are correct regarding methane and Indian landfill emissions?\n\n1. CarbonMapper–Tanager is among the platforms used to study methane emissions.\n2. Pirana landfill is located in Mumbai.\n3. Methane has a global warming potential of 84 times that of carbon dioxide over 100 years.\n4. Methane hydrate is found only under the sea floor.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7",
+    "P3.F8",
+    "P3.F6",
+    "P3.F14"
+   ],
+   "explanation": "Only one statement is correct: CarbonMapper–Tanager is among the platforms used for methane studies. Pirana is in Ahmedabad, methane's 84-times global warming potential applies over 20 years, and methane hydrate is found in both Arctic tundra and under the sea floor."
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Composition of REEs",
+   "question": "How many elements are classified as rare-earth elements (REEs)?",
+   "options": [
+    "15",
+    "17",
+    "18",
+    "21"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "Rare-earth elements comprise 17 elements: 15 lanthanides, together with scandium and yttrium. The options 15 and 18 are traps based on counting only the lanthanides or adding one extra element."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Nature and properties of REEs",
+   "question": "Consider the following statements about rare-earth elements:\n1. Rare-earth elements are not geologically rare; their scarcity is mainly economic and technological because they are difficult to separate.\n2. Lithium, cobalt, gallium and germanium are rare-earth elements.\n3. Their strong magnetism and sharp phosphor emission arise from localised 4f electrons.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F2",
+    "P4.F3",
+    "P4.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct, so exactly two statements are correct. Lithium, cobalt, gallium and germanium are critical minerals, not rare-earth elements; therefore statement 2 is incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "China's REE processing share and reserves",
+   "question": "Consider the following statements:\nStatement A: China accounts for about 94% of global rare-earth separation and refining.\nStatement B: India has 5.7 million tonnes of rare-earth reserves measured as REO.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F13",
+    "P4.F16"
+   ],
+   "explanation": "Both statements are false. China accounts for about 91% of separation and refining, while India has 6.9 million tonnes of reserves; 94% and 5.7 million tonnes are the altered details."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Lunar fission power project",
+   "question": "Assertion (A): The United States plans to place a small fission reactor on the Moon by the early 2030s for NASA's Artemis Base Camp.\nReason (R): It would be the first permanent nuclear power source in Earth orbit.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2"
+   ],
+   "explanation": "Assertion A is true: the Lunar Fission Surface Power Project targets a small lunar reactor by the early 2030s for Artemis Base Camp. Reason R is false because the proposed system would be the first permanent nuclear power source beyond Earth orbit, not in Earth orbit."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Space nuclear technologies",
+   "question": "How many of the following descriptions of space nuclear technologies are correct?\n1. An RTG uses the decay heat of plutonium-238 and produces a few hundred watts.\n2. A compact fission reactor can be shipping-container-sized and provide 10–100 kW; the NASA KRUSTY demonstration reached up to 10 kW.\n3. Nuclear Thermal Propulsion uses a reactor to heat liquid hydrogen and provides low continuous thrust.\n4. Nuclear Electric Propulsion uses reactor electricity to power ion or plasma thrusters and provides low continuous thrust.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4",
+    "P5.F5",
+    "P5.F6"
+   ],
+   "explanation": "Only three descriptions are correct: statements 1, 2 and 4. Statement 3 is incorrect because Nuclear Thermal Propulsion provides high thrust; its reactor heats liquid hydrogen."
+  }
+ ]
+}
