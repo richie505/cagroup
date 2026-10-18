@@ -1,0 +1,133 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in GDP rankings",
+   "question": "According to the IMF GDP rankings for 2025, what was India's position in nominal GDP, with an estimated GDP of about $3.92 trillion?",
+   "options": [
+    "4th",
+    "5th",
+    "6th",
+    "7th"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F7"
+   ],
+   "explanation": "India ranked 6th in nominal GDP in 2025, at approximately $3.92 trillion. The 5th position was held by the UK, while India had been 5th in 2024."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "GDP rank and country",
+   "question": "Which of the following statements regarding the IMF GDP rankings for 2025 is incorrect?",
+   "options": [
+    "The USA ranked 1st with a GDP of $30.8 trillion.",
+    "China ranked 2nd with a GDP of $19.6 trillion.",
+    "Japan ranked 3rd with a GDP of $4.44 trillion.",
+    "The UK ranked 5th with a GDP of $4.0 trillion."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "The incorrect statement is that Japan ranked 3rd. Japan ranked 4th with a GDP of $4.44 trillion; Germany ranked 3rd with $4.7 trillion. The USA, China and the UK held 1st, 2nd and 5th positions respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP growth forecast",
+   "question": "Which agency forecast India's FY2026–27 GDP growth at 6.6%, revising its earlier forecast of 6.3%?",
+   "options": [
+    "Moody's",
+    "World Bank",
+    "ADB",
+    "IMF"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "The World Bank forecast India's FY2026–27 GDP growth at 6.6%, up from its earlier forecast of 6.3%. Moody's forecast 6.0%, while ADB forecast 6.9%."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Revised growth forecast",
+   "question": "Assertion (A): The World Bank lowered its forecast for India's FY2026–27 GDP growth to 6.6% from 6.3%.\nReason (R): The World Bank's forecast for India's FY2026–27 GDP growth was 6.6%.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "Assertion A is false because the World Bank raised its forecast from 6.3% to 6.6%, rather than lowering it. Reason R is true because the revised forecast was 6.6%."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "PAI 2.0 scope and finding",
+   "question": "With reference to the Panchayat Advancement Index (PAI) 2.0, consider the following statements:\n1. It is published by the Ministry of Panchayati Raj.\n2. It uses 150 indicators across 9 Sustainable Development Goals.\n3. No Panchayat reached the 'Achiever' category.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F7"
+   ],
+   "explanation": "All three statements are correct. PAI 2.0 is published by the Ministry of Panchayati Raj, uses 150 indicators across 9 SDGs, and recorded no Panchayat in the 'Achiever' category."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "PAI category score",
+   "question": "Consider the following statements:\nStatement A: Under PAI 2.0, the 'Achiever' category covers scores from 90 to 100.\nStatement B: The 'Front Runner' category covers scores from 75 to 90.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F9"
+   ],
+   "explanation": "Both statements are true. The 'Achiever' category covers scores of 90–100, while the 'Front Runner' category covers scores of 75–90."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "State-wise PAI performance",
+   "question": "With reference to the Panchayat Advancement Index (PAI) 2.0, how many of the following statements are correct?\n1. Tripura had about 80% of its Gram Panchayats in the 'Front Runner' category.\n2. No Panchayat reached the 'Achiever' category.\n3. Kerala had about 9% of its Gram Panchayats in the 'Front Runner' category.\n4. Odisha had about 10% of its Gram Panchayats in the 'Front Runner' category.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4",
+    "P2.F5",
+    "P2.F7"
+   ],
+   "explanation": "Only two statements are correct: Tripura had about 80% of its Gram Panchayats in the 'Front Runner' category, and no Panchayat reached the 'Achiever' category. Kerala's share was about 10%, not 9%, and Odisha's was about 9%, not 10%."
+  }
+ ]
+}

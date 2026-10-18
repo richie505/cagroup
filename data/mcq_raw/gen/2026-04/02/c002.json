@@ -1,0 +1,98 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Bench chairperson",
+   "question": "Who chaired the nine-judge Bench constituted by the Supreme Court to hear the Sabarimala review petitions in Kantaru Rajeevaru v. Indian Young Lawyers Association?",
+   "options": [
+    "Justice Surya Kant",
+    "Justice B.V. Nagarathna",
+    "Justice M.M. Sundresh",
+    "Justice Joymalya Bagchi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F15"
+   ],
+   "explanation": "Justice Surya Kant chaired the nine-judge Bench hearing the Sabarimala review petitions. B.V. Nagarathna, M.M. Sundresh and Joymalya Bagchi were members of the Bench, not its chairperson."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Bench hearing date and constitutional requirement",
+   "question": "Assertion (A): The nine-judge Bench hearing the Sabarimala review petitions began its hearing on April 7, 2026.\nReason (R): Article 145(3) requires at least nine judges to hear substantial questions of constitutional interpretation.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F15",
+    "P3.F17"
+   ],
+   "explanation": "The assertion is true because the hearing began on April 7, 2026. The reason is false: Article 145(3) requires at least five judges for substantial constitutional questions, not nine."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Sabarimala review timeline and Article 26",
+   "question": "Consider the following statements regarding the Sabarimala case:\n1. The 2018 Constitution Bench delivered a 4:1 verdict holding the exclusion unconstitutional.\n2. In 2019, the matter was referred to a larger Bench.\n3. Article 26 grants denominational rights without any limitation relating to public order, morality or health.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9",
+    "P3.F10",
+    "P3.F11"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the 2018 verdict was 4:1 and the matter was referred to a larger Bench in 2019. Statement 3 is incorrect because Article 26 rights are subject to public order, morality and health."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Removal safeguards and establishment of ECI",
+   "question": "Consider the following statements:\nStatement A: The Election Commission of India was established on 26 January 1950.\nStatement B: The Chief Election Commissioner can be removed by an ordinary majority in one House of Parliament.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F6"
+   ],
+   "explanation": "Both statements are false. The Election Commission of India was established on 25 January 1950, while removal of the Chief Election Commissioner requires proved misbehaviour or incapacity and a special majority in both Houses."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "ECI structure, tenure and functions",
+   "question": "How many of the following statements regarding the Election Commission of India are correct?\n1. The Election Commission of India is a constitutional body under Article 324.\n2. The tenure of the Chief Election Commissioner is 6 years or until the age of 65 years, whichever is earlier.\n3. The appointment recommendation committee consists of the Prime Minister, the Leader of the Opposition in the Lok Sabha and the Chief Justice of India.\n4. The Election Commission conducts elections only to Parliament and State Legislatures.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F4",
+    "P4.F5",
+    "P4.F7"
+   ],
+   "explanation": "Only two statements are correct: the Election Commission is constituted under Article 324, and the Chief Election Commissioner’s tenure is 6 years or until 65 years, whichever is earlier. The appointment committee includes a Union Cabinet Minister instead of the Chief Justice of India, and the Election Commission also conducts elections for the President and Vice-President."
+  }
+ ]
+}

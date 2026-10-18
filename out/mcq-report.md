@@ -1,39 +1,39 @@
 # CA MCQ report
 
-- MCQs kept: **1698**
-- News pages with at least one question: **1192 / 2629**
-- Facts tested: **3506 / 20515** (17.1%)
-- Answer positions: A 426, B 434, C 482, D 356
+- MCQs kept: **1972**
+- News pages with at least one question: **1378 / 2629**
+- Facts tested: **4052 / 20515** (19.8%)
+- Answer positions: A 497, B 509, C 556, D 410
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 173 | 188 | 200 | 142 |
-| Negative / Incorrect Statement | 50 | 48 | 46 | 50 |
-| Assertion-Reason | 48 | 50 | 66 | 56 |
-| Statement-Based (A/B) | 56 | 41 | 59 | 47 |
-| Multi-Statement Correctness | 62 | 60 | 66 | 49 |
-| Chronological Ordering | 0 | 0 | 0 | 0 |
-| List-Matching | 15 | 11 | 15 | 10 |
-| Count-Based | 22 | 36 | 30 | 2 |
+| Direct Recall | 204 | 224 | 231 | 163 |
+| Negative / Incorrect Statement | 58 | 55 | 57 | 57 |
+| Assertion-Reason | 53 | 58 | 77 | 66 |
+| Statement-Based (A/B) | 69 | 47 | 66 | 53 |
+| Multi-Statement Correctness | 71 | 68 | 72 | 56 |
+| Chronological Ordering | 1 | 0 | 0 | 0 |
+| List-Matching | 16 | 13 | 17 | 13 |
+| Count-Based | 25 | 44 | 36 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 187 |
-| verify:explanation_contradicts | 27 |
+| code | 211 |
+| verify:explanation_contradicts | 31 |
 | verify:not_in_facts | 24 |
-| over the page's quota | 12 |
+| over the page's quota | 14 |
 | verify:two_correct | 7 |
-| verify:none_correct | 5 |
+| verify:none_correct | 6 |
 | verify:second reader picked option 2, key 1 | 5 |
-| duplicate | 4 |
+| duplicate | 5 |
+| verify:garbled | 2 |
 | verify:second reader picked option 3, key 0 | 1 |
 | verify:second reader picked option 1, key 0 | 1 |
 | verify:second reader picked option 2, key 0 | 1 |
 | verify:ambiguous_stem | 1 |
 | verify:trivial | 1 |
-| verify:garbled | 1 |
 
 ## Per file
 
@@ -105,17 +105,17 @@
 | 2026-05/09 | Awards, Persons & Appointments | 30 | 60/185 |
 | 2026-05/10 | Sports | 13 | 30/62 |
 | 2026-05/11 | Important Days & Events | 15 | 26/75 |
-| 2026-04/01 | Andhra Pradesh | 0 | 0/306 |
-| 2026-04/02 | Polity & Governance | 0 | 0/211 |
-| 2026-04/03 | Schemes & Social Sector | 0 | 0/71 |
-| 2026-04/04 | Economy, Banking & Budget | 0 | 0/116 |
-| 2026-04/05 | International Relations | 0 | 0/92 |
-| 2026-04/06 | Science, Tech, Space & Defence | 0 | 0/129 |
-| 2026-04/07 | Environment & Geography | 0 | 0/152 |
-| 2026-04/08 | Reports, Indices & Rankings | 0 | 0/58 |
-| 2026-04/09 | Awards, Persons & Appointments | 0 | 0/49 |
-| 2026-04/10 | Sports | 0 | 0/41 |
-| 2026-04/11 | Important Days & Events | 0 | 0/113 |
+| 2026-04/01 | Andhra Pradesh | 65 | 129/306 |
+| 2026-04/02 | Polity & Governance | 39 | 86/211 |
+| 2026-04/03 | Schemes & Social Sector | 16 | 32/71 |
+| 2026-04/04 | Economy, Banking & Budget | 26 | 57/116 |
+| 2026-04/05 | International Relations | 23 | 45/92 |
+| 2026-04/06 | Science, Tech, Space & Defence | 20 | 37/129 |
+| 2026-04/07 | Environment & Geography | 33 | 66/152 |
+| 2026-04/08 | Reports, Indices & Rankings | 8 | 16/58 |
+| 2026-04/09 | Awards, Persons & Appointments | 13 | 29/49 |
+| 2026-04/10 | Sports | 11 | 19/41 |
+| 2026-04/11 | Important Days & Events | 20 | 30/113 |
 | 2026-03/01 | Andhra Pradesh | 0 | 0/174 |
 | 2026-03/02 | Polity & Governance | 0 | 0/159 |
 | 2026-03/03 | Schemes & Social Sector | 0 | 0/47 |
@@ -461,3 +461,21 @@
 - `2026-05/10/c000#8` verify: explanation_contradicts — Statements 1 and 3 are correct, so the answer is Only two, not Only one as stated in the explanation.
   - Q: With reference to the 2026 Commonwealth Table Tennis Championships in Delhi, how many of the following statements are correct? / 1. The championships will be the 22nd edition. / 2. The event will involve 
   - Key: Only one
+- `2026-04/04/c000#4` verify: explanation_contradicts — The facts say GCC countries account for 60% or more of LNG imports, which satisfies the statement that they account for 40% or more.
+  - Q: Consider the following statements about India’s fertilizer supply situation during the Strait of Hormuz disruption: /  / 1. India uses about 39–40 million tonnes of urea annually. / 2. Indian Potash Limited
+  - Key: 1 and 2 only
+- `2026-04/05/c002#5` verify: explanation_contradicts — The fact that those born after January 1, 2009 are covered entails that those born after January 1, 2010 are covered, so Statement A is true.
+  - Q: Consider the following statements: / Statement A: Persons born after January 1, 2010 can never legally buy tobacco under the UK Tobacco and Vapes Bill. / Statement B: The Bill becomes law before Royal Ass
+  - Key: Both Statement A and Statement B are false
+- `2026-04/05/c002#7` verify: explanation_contradicts — The facts explicitly support Statement 3: the NDB was established in 2014 in Shanghai and Dilma Rousseff is its head.
+  - Q: With reference to the first BRICS Health Working Group meeting held in New Delhi, consider the following statements: / 1. India’s BRICS chairship used the theme “Building for Resilience, Innovation, Coo
+  - Key: 1 and 2 only
+- `2026-04/06/c000#3` verify: explanation_contradicts — The explanation initially says only two statements are correct before reversing itself and concluding three.
+  - Q: How many of the following statements regarding India's three-stage nuclear programme and the Kalpakkam PFBR are correct? / 1. Stage I uses PHWRs with natural uranium, producing Pu-239 as a by-product. / 2
+  - Key: Only two
+- `2026-04/08/c001#3` verify: garbled — The stem lists three statements, but two options refer to exactly three or all four statements.
+  - Q: With reference to the Climate Risk Index 2026 released by Germanwatch, consider the following statements: / 1. India ranked 9th for the period 1995–2024. / 2. The assessment recorded more than 430 events.
+  - Key: Exactly two statements are correct
+- `2026-04/09/c001#1` verify: none_correct — All four statements are supported by the facts, so none is incorrect.
+  - Q: Which of the following statements about the Sur Jyotsna National Music Awards 2026 is incorrect?
+  - Key: The 13th edition honoured Hindustani vocalist Sumitra Guha and Pandit Lakshman Krishna Rao Pandit.

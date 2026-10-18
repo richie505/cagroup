@@ -1,0 +1,135 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Signatories and venue",
+   "question": "The India–New Zealand Free Trade Agreement signed in April 2026 was signed in New Delhi by whom?",
+   "options": [
+    "Piyush Goyal and Todd McClay",
+    "Piyush Goyal and Christopher Luxon",
+    "Todd McClay and Christopher Luxon",
+    "Piyush Goyal and India's Foreign Secretary"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F8"
+   ],
+   "explanation": "The agreement was signed in New Delhi by India's Piyush Goyal and New Zealand's Trade Minister Todd McClay. Christopher Luxon is New Zealand's Prime Minister, while Wellington is its capital; neither was identified as the signatory in this agreement."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Tariff concessions",
+   "question": "With reference to the India–New Zealand Free Trade Agreement, which of the following statements is incorrect?",
+   "options": [
+    "New Zealand will eliminate tariffs on 100% of goods from India.",
+    "India will remove or reduce tariffs on approximately 100% of imports from New Zealand.",
+    "New Zealand will facilitate approximately $20 billion of investment in India over 15 years.",
+    "The agreement requires ratification by the New Zealand Parliament."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "The incorrect statement is that India will remove or reduce tariffs on approximately 100% of imports from New Zealand; the correct figure is approximately 95%. New Zealand's 100% tariff elimination, its proposed approximately $20 billion investment facilitation, and the ratification requirement are all correct."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Nature and outcome of the 1973 crisis",
+   "question": "Assertion (A): The 1973 Oil Price Crisis was associated with the creation of the International Energy Agency.\nReason (R): The crisis was the first major use of oil as a geopolitical weapon.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F5"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the crisis was followed by the creation of the International Energy Agency and represented the first major use of oil as a geopolitical weapon. However, the latter fact does not explain the institutional creation of the IEA."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Political embargo versus physical disruption",
+   "question": "In the context of the 1973 Oil Price Crisis and the present Strait of Hormuz disruption, consider the following statements:\n1. The 1973 crisis involved a political oil embargo.\n2. The present crisis involves physical disruption of supply routes.\n3. India approached the IMF after the 1973 crisis rather than after the 1979 crisis.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the 1973 crisis was a political embargo, whereas the present crisis involves physical disruption of supply routes. Statement 3 is incorrect because India approached the IMF after the 1979 crisis, not after the 1973 crisis."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic maritime location",
+   "question": "The Strait of Hormuz, central to the disruption of oil flows discussed in April 2026, lies between which two areas?",
+   "options": [
+    "Iran and Oman",
+    "Yemen and Djibouti",
+    "Turkey and the Black Sea",
+    "Southern Chile and the Pacific Ocean"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13",
+    "P1.F14",
+    "P1.F15"
+   ],
+   "explanation": "The Strait of Hormuz lies between Iran and Oman, linking the Persian Gulf with the Gulf of Oman. Yemen and Djibouti are associated with Bab-el-Mandeb, while the other options refer to different maritime locations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Unilateral sanctions and CAATSA",
+   "question": "Consider the following statements:\nStatement A: Unilateral sanctions are imposed without United Nations Security Council approval.\nStatement B: The Countering America's Adversaries Through Sanctions Act was enacted in 2018.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "Statement A is true because unilateral sanctions are imposed without United Nations Security Council approval. Statement B is false because the Countering America's Adversaries Through Sanctions Act was enacted in 2017, not 2018."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Chabahar and INSTC",
+   "question": "With reference to Chabahar, the International North–South Transport Corridor and CAATSA, consider the following statements:\n1. Chabahar is outside the Persian Gulf.\n2. The Shahid Beheshti terminal is run by India Ports Global Limited under a 10-year agreement signed in May 2024.\n3. The International North–South Transport Corridor includes Southeast Asia.\n4. CAATSA concerns Russia, Iran and North Korea.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F6",
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "Only three statements are correct: Statements 1, 2 and 4 accurately describe Chabahar, the Shahid Beheshti terminal and CAATSA. Statement 3 is incorrect because the 7,200-kilometre International North–South Transport Corridor covers India, Iran, Russia, Central Asia and Europe, not Southeast Asia."
+  }
+ ]
+}

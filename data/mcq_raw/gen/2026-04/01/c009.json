@@ -1,0 +1,62 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  39,
+  40,
+  41
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Date and event",
+   "question": "On April 20, 2026, which annual event was held at the Sri Varaha Lakshmi Narasimha Swamy Temple, Simhachalam, in Visakhapatnam?",
+   "options": [
+    "Maharshi Bhagiratha Jayanti",
+    "Appanna Chandanotsavam",
+    "Reconstitution of the PCPNDT State Supervisory Board",
+    "Official celebrations of Bhagiratha Jayanti in Kurnool"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P39.F1",
+    "P39.F2"
+   ],
+   "explanation": "Appanna Chandanotsavam was held at Simhachalam on April 20, 2026, when the sandal paste was removed once a year for nijaroopa darshan. Maharshi Bhagiratha Jayanti was observed on April 23, not April 20."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Policy and coverage",
+   "question": "With reference to the approval of biomass power plants in Andhra Pradesh, consider the following statements:\n1. The projects were approved under the Andhra Pradesh Integrated Clean Energy Policy 2024.\n2. The approved districts include East Godavari, West Godavari, Krishna, Guntur, Bapatla, Eluru, Vizianagaram and Srikakulam.\n3. The national target is 500 GW of non-fossil capacity by 2030.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P40.F1",
+    "P40.F2"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct. The biomass power plants were approved under the Andhra Pradesh Integrated Clean Energy Policy 2024, cover the eight named districts, and relate to the national target of 500 GW non-fossil capacity by 2030; therefore, “1 and 2 only” is incomplete."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "PCPNDT Act and Board reconstitution",
+   "question": "Which of the following statements is incorrect regarding the reconstitution of the Andhra Pradesh PCPNDT State Supervisory Board?",
+   "options": [
+    "The Board was reconstituted under the PCPNDT Act.",
+    "The Board is chaired by the Health Minister.",
+    "The previous term of the Board ended on February 7, 2024.",
+    "The PCPNDT Act was enacted in 1994 and amended in 1994."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P41.F1",
+    "P41.F2"
+   ],
+   "explanation": "The incorrect statement is that the PCPNDT Act was amended in 1994. The Act dates to 1994 and was amended in 2003; it bans sex determination and forms the legal framework under which the Board was reconstituted."
+  }
+ ]
+}

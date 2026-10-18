@@ -1,0 +1,150 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Region-wise crop diversification",
+   "question": "Under the region-specific crop diversification push in Union Budget 2026–27, which group of crops is associated with the Himalayan region?",
+   "options": [
+    "Walnuts, almonds and Chilgoza",
+    "Coconut, cashew, cocoa and sandalwood",
+    "Agarwood only",
+    "Watermelon and cucumber"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F8",
+    "P7.F10"
+   ],
+   "explanation": "Walnuts, almonds and Chilgoza are associated with the Himalayan region under the crop diversification plan. Coconut, cashew, cocoa and sandalwood are linked with the coastal region, while agarwood is associated with the North East."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Horticulture and crop production data",
+   "question": "With reference to horticulture and major crop production in India, consider the following statements:\n1. Horticulture contributes about 37% of the GVO of the crops sub-sector, with production of 370.74 million tonnes in 2024–25.\n2. India is the largest producer of onions and shallots and ranks second in vegetables, fruits and potatoes.\n3. India is the second-largest producer of coconut, accounting for about 30% of world output.",
+   "options": [
+    "Statements 1 and 2 only",
+    "Statements 1 and 3 only",
+    "Statements 2 and 3 only",
+    "All three statements"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct. India’s share of world coconut output is about 22.44%, not 30%, so statement 3 is incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PDS kerosene feature",
+   "question": "What colour is Superior Kerosene Oil distributed through the Public Distribution System dyed to prevent diversion or adulteration of diesel?",
+   "options": [
+    "Blue",
+    "Green",
+    "Red",
+    "Yellow"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "PDS kerosene is dyed blue to prevent diversion or adulteration of diesel. The other colours do not represent the specified identifying colour of PDS kerosene."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "PNG supply-chain sequence",
+   "question": "Which of the following correctly represents the supply-chain sequence for Piped Natural Gas from import to household consumption?",
+   "options": [
+    "LNG import → regasification at coastal terminals → trunk pipelines → City Gate Stations → city network → metered households",
+    "LNG import → City Gate Stations → regasification at coastal terminals → city network → trunk pipelines → metered households",
+    "LNG import → trunk pipelines → regasification at coastal terminals → City Gate Stations → metered households → city network",
+    "LNG import → city network → coastal terminals → trunk pipelines → City Gate Stations → metered households"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "The correct sequence is import of LNG, regasification at coastal terminals, trunk pipelines, City Gate Stations, the steel or polyethylene city network and finally metered households. The other sequences disturb this stated supply-chain order."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Fuel composition and form",
+   "question": "Consider the following statements:\nStatement A: PNG consists of propane and butane supplied as a liquid in cylinders.\nStatement B: LNG is methane supplied through pipelines at ordinary temperature.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F5",
+    "P9.F7",
+    "P9.F8"
+   ],
+   "explanation": "Both statements are false. Propane and butane in liquid cylinders describe LPG, while PNG is methane supplied through pipelines and LNG is natural gas cooled to about –160/–162°C."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Special Category Status criterion",
+   "question": "Assertion (A): Low per capita income is one of the criteria associated with Special Category Status.\nReason (R): High per capita income is one of the criteria associated with Special Category Status.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "Assertion A is true because low per capita income is among the criteria for Special Category Status. Reason R is false because the criterion is low, not high, per capita income."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Bill ministry and institutional framework",
+   "question": "With reference to the Draft Pesticides Management Bill, 2025, identify the incorrect statement.",
+   "options": [
+    "It replaces the Insecticides Act, 1968 and the Insecticides Rules, 1971.",
+    "It is administered under the Ministry of Chemicals and Fertilizers.",
+    "It provides for a Central Pesticides Board and a Registration Committee.",
+    "It includes bio-pesticides within its coverage."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F4"
+   ],
+   "explanation": "The incorrect statement is that the Bill is administered under the Ministry of Chemicals and Fertilizers. It is under the Ministry of Agriculture; the Bill replaces the specified insecticides law and rules, covers bio-pesticides, and provides for the Central Pesticides Board and Registration Committee."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "PRD, patent and regulatory authorities",
+   "question": "How many of the following statements are correct?\n1. Protection of Regulatory Data protects test data.\n2. A patent protects test data for 5–10 years.\n3. Maximum Residue Limits are set by the Central Insecticides Board and Registration Committee.\n4. The Draft Pesticides Management Bill replaces the Insecticides Act, 1971.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F5",
+    "P11.F7"
+   ],
+   "explanation": "Only statement 1 is correct: Protection of Regulatory Data protects test data. Patent protection concerns an invention for 20 years, Maximum Residue Limits are set by FSSAI, and the Bill replaces the Insecticides Act, 1968, not the Insecticides Act, 1971."
+  }
+ ]
+}

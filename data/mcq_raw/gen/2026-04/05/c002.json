@@ -1,0 +1,152 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Co-chairs",
+   "question": "The Foreign Office Consultations held in Berlin on April 14, 2026, to mark 75 years of India–Germany diplomatic relations were co-chaired by whom?",
+   "options": [
+    "Vikram Misri and Geza Andreas von Geyr",
+    "Vikram Misri and Friedrich Merz",
+    "Frank-Walter Steinmeier and Geza Andreas von Geyr",
+    "Christian Stocker and Geza Andreas von Geyr"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F3"
+   ],
+   "explanation": "The consultations were co-chaired by Foreign Secretary Vikram Misri and State Secretary Geza Andreas von Geyr. Friedrich Merz is Germany’s Chancellor, while Frank-Walter Steinmeier is its President."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue",
+   "question": "Where did Prime Minister Narendra Modi and Austrian Chancellor Christian Stocker hold talks on April 16, 2026, after nearly four decades?",
+   "options": [
+    "New Delhi",
+    "Vienna",
+    "Berlin",
+    "Dhaka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F3"
+   ],
+   "explanation": "The talks between Prime Minister Narendra Modi and Chancellor Christian Stocker were held in New Delhi. Vienna is Austria’s capital, whereas Berlin and Dhaka are the capitals of Germany and Bangladesh respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Indian assistance and EIB",
+   "question": "Which of the following statements regarding India’s assistance to Burkina Faso and Seychelles and coaches supplied to Bangladesh is incorrect?",
+   "options": [
+    "Burkina Faso received 1,000 MT of rice from India.",
+    "Seychelles received 250 MT of food grains as part of a $175 million package.",
+    "Bangladesh is to receive 200 broad-gauge coaches by December 2027, financed by the European Investment Bank.",
+    "The European Investment Bank has its headquarters in Brussels."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2",
+    "P12.F3",
+    "P12.F5"
+   ],
+   "explanation": "The incorrect statement is that the European Investment Bank is headquartered in Brussels; its headquarters is in Luxembourg. The other statements correctly give the assistance to Burkina Faso and Seychelles and the coach project for Bangladesh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First bilateral visit",
+   "question": "What was the significance of Vice President C. P. Radhakrishnan’s visit to Sri Lanka on April 19–20, 2026?",
+   "options": [
+    "It was the first bilateral visit at this level",
+    "It marked Sri Lanka’s first visit to India",
+    "It was the first visit by an Indian Prime Minister to Sri Lanka",
+    "It was the first meeting between India and Sri Lanka on regional development"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "The visit was the first bilateral visit to Sri Lanka at the level of Vice President C. P. Radhakrishnan. The visit also included meetings with President Anura Kumara Dissanayake and Prime Minister Harini Amarasuriya, but it was not described as the first visit by an Indian Prime Minister."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Water security target and mechanism",
+   "question": "Assertion (A): The World Bank’s Water Forward programme seeks to advance water security for 1 billion people by 2030.\nReason (R): The programme is implemented through country-led Water Compacts.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "Both the 1-billion target for 2030 and the use of country-led Water Compacts are features of Water Forward. The Water Compacts provide the country-led mechanism through which the programme pursues its water-security objective."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Smoke-free generation",
+   "question": "Consider the following statements:\nStatement A: Persons born after January 1, 2010 can never legally buy tobacco under the UK Tobacco and Vapes Bill.\nStatement B: The Bill becomes law before Royal Assent.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "Both statements are false. The Bill applies to persons born after January 1, 2009, and it becomes law after Royal Assent, not before it."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Age restriction and platform safeguards",
+   "question": "With reference to Turkey’s proposed restrictions on social media use by children, how many of the following statements are correct?\n1. The Bill restricts social media use for children below 15.\n2. Age verification is proposed on YouTube, TikTok, Facebook and Instagram.\n3. The proposal includes parental controls.\n4. Turkey’s capital is Istanbul.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2"
+   ],
+   "explanation": "Exactly three statements are correct: the Bill concerns children below 15, proposes age verification on the listed platforms, and includes parental controls. Turkey’s capital is Ankara, not Istanbul."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "BRICS Health Working Group",
+   "question": "With reference to the first BRICS Health Working Group meeting held in New Delhi, consider the following statements:\n1. India’s BRICS chairship used the theme “Building for Resilience, Innovation, Cooperation and Sustainability”.\n2. Brazil, Russia, India, China and South Africa were among the members present.\n3. The New Development Bank was established in 2014 in Shanghai with Dilma Rousseff as its head.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F2",
+    "P17.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: they state India’s BRICS theme and identify members present at the meeting. Statement 3 is incorrect because the New Development Bank was established in 2014 in Shanghai and has Dilma Rousseff as its head; the fact does not state that it was established with that description in the context of the meeting."
+  }
+ ]
+}

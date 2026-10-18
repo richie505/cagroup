@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  15,
+  17
+ ],
+ "only": [
+  "P15.F1",
+  "P15.F2",
+  "P17.F1",
+  "P17.F2",
+  "P17.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Smoke-free generation",
+   "question": "Under the UK Tobacco and Vapes Bill, which persons would never be legally able to buy tobacco?",
+   "options": [
+    "Persons born after January 1, 2009",
+    "Persons born after January 1, 2010",
+    "Persons born before January 1, 2009",
+    "Persons born after January 1, 2014"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "Persons born after January 1, 2009 can never legally buy tobacco under the UK Tobacco and Vapes Bill. The closest trap is January 1, 2010, but the specified cutoff is January 1, 2009."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of the first BRICS Health Working Group meeting held during India’s BRICS chairship?",
+   "options": [
+    "Building for Resilience, Innovation, Cooperation and Sustainability",
+    "Building for Resilience, Integration, Cooperation and Security",
+    "Building for Recovery, Innovation, Coordination and Sustainability",
+    "Building for Resilience, Innovation, Cooperation and Solidarity"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1"
+   ],
+   "explanation": "The theme was “Building for Resilience, Innovation, Cooperation and Sustainability.” The tempting alternatives change one of the specified terms, such as replacing “Sustainability” with “Security” or “Solidarity.”"
+  }
+ ]
+}

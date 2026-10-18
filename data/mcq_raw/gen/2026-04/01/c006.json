@@ -1,0 +1,110 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  22,
+  23,
+  24
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Milestone",
+   "question": "What milestone did Akshaya Kshetram, the residential home near Tirumala for persons with intellectual disabilities, complete in April 2026?",
+   "options": [
+    "30 years of service",
+    "A 5 km walk",
+    "Two ashrams",
+    "Approximately 100 residents"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P22.F1"
+   ],
+   "explanation": "Akshaya Kshetram completed 30 years of care for persons with intellectual disabilities. The 5 km walk was part of the planned awareness campaign, while the two ashrams and approximately 100 residents are separate details about the institution."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Foundation and beginnings",
+   "question": "Assertion (A): Akshaya Kshetram completed 30 years of care for persons with intellectual disabilities.\nReason (R): It was founded on October 2, 1996, as a residential home.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P22.F1",
+    "P22.F2"
+   ],
+   "explanation": "The assertion is true because Akshaya Kshetram completed 30 years of care. The reason is false because it began as a daycare centre, not as a residential home; it was founded on October 2, 1996."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Which village in Tirupati recorded its first land registration in nearly five decades?",
+   "options": [
+    "Settipalle",
+    "Durgasamudram",
+    "Renigunta",
+    "Polavaram"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F1"
+   ],
+   "explanation": "Settipalle village in Tirupati recorded its first land registration in nearly five decades. Durgasamudram and Renigunta are associated with Akshaya Kshetram, while Polavaram is associated with the rubber plantation proposal."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Land registration law",
+   "question": "Which one of the following statements about land registration and records is incorrect?",
+   "options": [
+    "Section 22A of the Registration Act, 1908, enables States to prohibit registration of certain lands.",
+    "Stamp duty is collected by the States.",
+    "Mutation by itself confers title to land.",
+    "The Digital India Land Records Modernization Programme digitises land records."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P23.F4",
+    "P23.F7"
+   ],
+   "explanation": "The incorrect statement is that mutation by itself confers title; mutation does not confer title. Section 22A concerns prohibition of registration of certain lands, stamp duty is collected by States, and DILRMP digitises land records."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Beneficiary",
+   "question": "The proposed rubber plantations over 3,000 acres in Polavaram district are intended primarily for which tribal community?",
+   "options": [
+    "Konda Reddi tribe",
+    "Rubber Board",
+    "Integrated Tribal Development Agency",
+    "Tirupati Urban Development Authority"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F1"
+   ],
+   "explanation": "The proposed rubber plantations in Polavaram district are intended for the Konda Reddi tribe. The Rubber Board and ITDA are supporting institutions, while TUDA is associated with the proposed township in Tirupati."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rubber Board and crop source",
+   "question": "Consider the following statements about rubber production:\n1. The Rubber Board functions under the Rubber Act, 1947.\n2. The headquarters of the Rubber Board is in Kottayam, Kerala.\n3. Hevea brasiliensis latex is native to India.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F3",
+    "P24.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Rubber Board functions under the Rubber Act, 1947, and its headquarters is in Kottayam, Kerala. Statement 3 is incorrect because Hevea brasiliensis is native to the Amazon."
+  }
+ ]
+}

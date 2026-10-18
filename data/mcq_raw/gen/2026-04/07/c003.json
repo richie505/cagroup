@@ -1,0 +1,203 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Climate adaptation programme and spending",
+   "question": "Consider the following statements regarding climate adaptation in India:\n1. Tamil Nadu’s Climate Resilient Villages Programme covers 11 vulnerable districts and is supported by WRI India.\n2. India’s adaptation spending was about 5.6% of GDP in FY22.\n3. The National Innovations in Climate Resilient Agriculture programme covers 34 districts.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F4",
+    "P8.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Climate Resilient Villages Programme covers 11 vulnerable districts, and India’s adaptation spending was about 5.6% of GDP in FY22. Statement 3 is incorrect because NICRA covers 651 districts, not 34 districts."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Climate adaptation institutions",
+   "question": "Which one of the following statements regarding climate adaptation is incorrect?",
+   "options": [
+    "NICRA stands for National Innovations in Climate Resilient Agriculture.",
+    "NICRA is implemented by ICAR.",
+    "The Climate Resilient Villages Programme of Tamil Nadu is supported by WRI India.",
+    "The Paris Agreement was adopted at COP30 in 2015."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F5",
+    "P8.F8"
+   ],
+   "explanation": "The incorrect statement is that the Paris Agreement was adopted at COP30 in 2015. It was adopted at COP21 in 2015; COP30 emphasised Locally Led Adaptation."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Cause of Earthquake Lights",
+   "question": "Assertion (A): Earthquake Lights are luminous atmospheric phenomena that appear only after an earthquake.\nReason (R): Electrical charges generated under tectonic stress in rocks can ionise the air.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2"
+   ],
+   "explanation": "Assertion A is false because Earthquake Lights may appear before or during earthquakes, not only after them. Reason R is true: electrical charges generated under tectonic stress can ionise the air."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Improved cookstove combustion and pollution",
+   "question": "Consider the following statements:\nStatement A: Secondary aeration in an improved cookstove results in fuller combustion.\nStatement B: Improved cookstoves reduce indoor pollution but do not eliminate it.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F4"
+   ],
+   "explanation": "Both statements are true. Secondary aeration enables fuller combustion, while improved cookstoves reduce but do not eliminate indoor pollution."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Photochemical smog pollutants",
+   "question": "Which combination of pollutants, in sunlight, produces ozone and PAN during photochemical smog formation?",
+   "options": [
+    "NOx and VOCs",
+    "SO₂ and CO",
+    "Ozone and PAN",
+    "Coal and black carbon"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5",
+    "P10.F7"
+   ],
+   "explanation": "NOx and volatile organic compounds produce ozone and PAN in sunlight during photochemical smog formation. Ozone and PAN are secondary pollutants, whereas CO is a primary pollutant."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Mekong basin and rare earth facts",
+   "question": "Match List-I with List-II.\n\nList-I\n(a) Mekong River\n(b) Mekong Delta\n(c) Tonle Sap Lake\n(d) Dysprosium\n\nList-II\ni. Seasonal flow reversal\nii. Rises in the Tibetan Plateau as the Lancang\niii. NdFeB magnets used in EV motors\niv. Rice bowl of Southeast Asia",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2",
+    "P11.F3",
+    "P11.F6"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. The Mekong rises as the Lancang in the Tibetan Plateau, the Mekong Delta is the rice bowl of Southeast Asia, Tonle Sap has seasonal flow reversal, and dysprosium is used in NdFeB magnets for EV motors."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Mekong River Commission membership",
+   "question": "Which one of the following statements regarding the Mekong River Commission is incorrect?",
+   "options": [
+    "The Mekong River Commission was established in 1995.",
+    "Cambodia, Laos, Thailand and Vietnam are its four full members.",
+    "China and Myanmar are dialogue partners.",
+    "China, Myanmar, Laos and Vietnam are its four full members."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F4"
+   ],
+   "explanation": "The incorrect statement is that China, Myanmar, Laos and Vietnam are the four full members. The four full members are Cambodia, Laos, Thailand and Vietnam; China and Myanmar are dialogue partners."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Geo-heritage declaration",
+   "question": "Which organisation declared the Yana Caves near Gokarna in Uttara Kannada a national Geo-heritage site on April 13, 2026?",
+   "options": [
+    "Geological Survey of India",
+    "Ministry of Environment, Forest and Climate Change",
+    "National Biodiversity Authority",
+    "Mekong River Commission"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "The Geological Survey of India declared the Yana Caves a national Geo-heritage site on April 13, 2026. The National Biodiversity Authority and the Ministry of Environment, Forest and Climate Change are different institutions, while the Mekong River Commission is unrelated to the declaration."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Zero-waste cities list",
+   "question": "Which Kerala locality was included in the first list of “20 Cities Towards Zero Waste”?",
+   "options": [
+    "Varkala",
+    "UN-Habitat",
+    "UNEP",
+    "UN Secretary-General’s Advisory Board on Zero Waste"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "Varkala was included in the first list of “20 Cities Towards Zero Waste”. UN-Habitat and UNEP supported the initiative, while the UN Secretary-General’s Advisory Board on Zero Waste led it."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National repository for deep-sea fauna",
+   "question": "Which institution designated the Bhavsagar Referral Centre as the National Repository for Deep Sea Fauna under the Biological Diversity Act, 2002?",
+   "options": [
+    "Ministry of Environment, Forest and Climate Change",
+    "Centre for Marine Living Resources and Ecology",
+    "National Biodiversity Authority",
+    "Geological Survey of India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F3"
+   ],
+   "explanation": "The Ministry of Environment, Forest and Climate Change designated the Bhavsagar Referral Centre as the National Repository for Deep Sea Fauna under the Biological Diversity Act, 2002. The centre belongs to CMLRE, and the National Biodiversity Authority was established in 2003."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Hydropower project district",
+   "question": "The Kalai-II hydropower project, with a capacity of 1,200 MW, is located in which district of Arunachal Pradesh?",
+   "options": [
+    "Anjaw",
+    "Kamle",
+    "Kra Daadi",
+    "Kurung Kumey"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F2"
+   ],
+   "explanation": "The Kalai-II hydropower project is located in Anjaw district and has a capacity of 1,200 MW. Kamle, Kra Daadi and Kurung Kumey are the districts associated with the Kamala project."
+  }
+ ]
+}

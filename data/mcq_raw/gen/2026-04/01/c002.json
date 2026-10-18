@@ -1,0 +1,116 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Proposed by",
+   "question": "Who proposed developing Amaravati as a global creative-economy hub through the Storytelling Corridor at the Hotel Investment Conference South Asia (HICSA) in Mumbai?",
+   "options": [
+    "Kandula Durgesh",
+    "N. Chandrababu Naidu",
+    "Eros International",
+    "Red Bull"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "The proposal was made by Andhra Pradesh Tourism Minister Kandula Durgesh at HICSA, Mumbai. Eros International and Red Bull were private partners in talks, while N. Chandrababu Naidu was associated with the deregulation reforms."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Tourism corridor and heritage",
+   "question": "Consider the following statements:\nStatement A: The Storytelling Corridor connects Amaravati, Visakhapatnam and Tirupati, and Amaravati is situated on the Godavari River.\nStatement B: The Amaravati School of Art used white limestone and featured Jataka narrative panels.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F4",
+    "P5.F5"
+   ],
+   "explanation": "Statement A is false because Amaravati is situated on the Krishna River, although the three places named in the corridor are Amaravati, Visakhapatnam and Tirupati. Statement B is true: the Amaravati School of Art used white limestone and included Jataka narrative panels."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Deregulation scale and safeguards",
+   "question": "Assertion (A): Andhra Pradesh’s Deregulation Phase-2 reforms reduced more than 800 regulations to fewer than 100.\nReason (R): The reforms removed environmental and safety safeguards.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F5"
+   ],
+   "explanation": "The assertion is true: the reforms reduced regulations from more than 800 to fewer than 100. The reason is false because environmental and safety safeguards were retained."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Industrial-clearance reform mechanism",
+   "question": "With reference to Andhra Pradesh’s Deregulation Phase-2 reforms, consider the following statements:\n1. Clearance time was cut by at least 40%.\n2. The reforms were pursued through the Ordinance route.\n3. AWARE 2.0 is a tool used only for centralised data storage and analytics.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F7",
+    "P6.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: clearance time was cut by at least 40%, and the reforms used the Ordinance route. Statement 3 is incorrect because AWARE 2.0 is used for real-time governance and data integration; centralised data storage and analytics are associated with Data Lakes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in micro irrigation",
+   "question": "Which State ranked first in micro-irrigation coverage during 2025–26?",
+   "options": [
+    "Andhra Pradesh",
+    "Gujarat",
+    "Tamil Nadu",
+    "Rajasthan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2"
+   ],
+   "explanation": "Andhra Pradesh ranked first with micro-irrigation coverage of 3.15 lakh hectares during 2025–26. Gujarat, Tamil Nadu and Rajasthan followed with 2.63, 2.62 and 2.42 lakh hectares respectively."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Egg production facts",
+   "question": "How many of the following statements regarding egg production and consumption are correct?\n1. Andhra Pradesh had the highest State share in egg production at 18.37%.\n2. India ranked first in the world in egg production, ahead of China.\n3. Andhra Pradesh’s per capita egg consumption was 516 eggs.\n4. Telangana accounted for 15.63% of India’s egg production.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F5",
+    "P7.F6",
+    "P7.F7",
+    "P7.F11"
+   ],
+   "explanation": "Exactly two statements are correct: Andhra Pradesh had an 18.37% share and its per capita consumption was 516 eggs. India ranked second after China, and the 15.63% share belonged to Tamil Nadu, not Telangana."
+  }
+ ]
+}

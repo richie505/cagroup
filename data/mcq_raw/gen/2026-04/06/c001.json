@@ -1,0 +1,78 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "SHANTI Act — replaced laws",
+   "question": "The SHANTI Act, 2025 replaced which two earlier laws?",
+   "options": [
+    "Atomic Energy Act, 1962 and Civil Liability for Nuclear Damage Act, 2010",
+    "Atomic Energy Act, 1954 and Civil Liability for Nuclear Damage Act, 1987",
+    "Atomic Energy Act, 1983 and Civil Liability for Nuclear Damage Act, 2025",
+    "Atomic Energy Act, 2010 and Civil Liability for Nuclear Damage Act, 1962"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6"
+   ],
+   "explanation": "The SHANTI Act, 2025 replaced the Atomic Energy Act, 1962 and the Civil Liability for Nuclear Damage Act, 2010. The option mentioning 1954 and 1987 is incorrect because those years do not identify the two laws replaced by the Act."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Nuclear capacity target",
+   "question": "Assertion (A): India aims to increase its nuclear capacity from approximately 8,180 MW to 100 GW by 2047.\nReason (R): The nuclear expansion is aligned with Viksit Bharat 2047 and the net zero 2070 goal.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F4"
+   ],
+   "explanation": "Both the capacity target and its alignment with Viksit Bharat 2047 and net zero 2070 are correct. However, the alignment states the broader policy context and does not explain the specific increase from approximately 8,180 MW to 100 GW."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place and developer",
+   "question": "India’s first semiconductor fabrication plant was notified at which location and by which company?",
+   "options": [
+    "Dholera SEZ, Gujarat, by Tata Semiconductor Manufacturing Pvt Ltd",
+    "Dholera SIR, Gujarat, by Digital India Corporation",
+    "A semiconductor zone in Gujarat, by India Semiconductor Mission",
+    "Delhi-Mumbai Industrial Corridor, by Semicon India Programme"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "India’s first semiconductor fabrication plant was notified at Dholera SEZ in Gujarat by Tata Semiconductor Manufacturing Pvt Ltd. Dholera SIR is the broader industrial-region context, while India Semiconductor Mission and the Semicon India Programme are initiatives rather than the company building the plant."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Fab location and area",
+   "question": "Consider the following statements:\nStatement A: India’s first semiconductor fabrication plant was notified at Dholera SEZ in Gujarat.\nStatement B: The semiconductor zone at Dholera covers approximately 76,000 hectares.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "Statement A is true: the plant was notified at Dholera SEZ in Gujarat. Statement B is false because the semiconductor zone is approximately 166 hectares, not 76,000 hectares."
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "RBI repo rate pause",
+   "question": "At what repo rate did the Reserve Bank of India pause its rate-cut cycle in April 2026?",
+   "options": [
+    "4%",
+    "5.25%",
+    "6.5%",
+    "5.50%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F12"
+   ],
+   "explanation": "The RBI paused the repo rate at 5.25% in April 2026, after cuts of about 125 basis points from early 2025. The tempting option 6.5% was the earlier repo rate reached between May 2022 and February 2023, not the April 2026 rate."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sacrifice ratio",
+   "question": "In the context of the cost of bringing down inflation, what does the sacrifice ratio measure?",
+   "options": [
+    "GDP lost per 1 percentage point fall in inflation",
+    "The percentage of crude oil imported by India",
+    "The repo-rate increase required to reduce inflation by 1 percentage point",
+    "The number of rate hikes undertaken by the US Federal Reserve"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F11",
+    "P0.F3"
+   ],
+   "explanation": "The sacrifice ratio measures GDP lost per 1 percentage point fall in inflation. The option referring to crude oil imports describes India’s import dependence, while the other options do not define the sacrifice ratio."
+  }
+ ]
+}

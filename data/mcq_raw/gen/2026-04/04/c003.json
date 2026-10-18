@@ -1,0 +1,158 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Contract award",
+   "question": "In the Lower Arun hydropower project in Nepal, which company received the contract valued at ₹1,593.08 crore?",
+   "options": [
+    "Patel Engineering",
+    "SJVN",
+    "Investment Board Nepal",
+    "National Credit Guarantee Trustee Company"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2",
+    "P17.F1"
+   ],
+   "explanation": "Patel Engineering received the ₹1,593.08 crore contract for the 679 MW Lower Arun project. SJVN is the project developer, while Investment Board Nepal is the associated Nepalese institution; the National Credit Guarantee Trustee Company is linked to the MSME credit-guarantee scheme."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Fund structure and corpus",
+   "question": "Which of the following statements regarding Startup India Fund of Funds 2.0 is incorrect?",
+   "options": [
+    "Its corpus is ₹10,000 crore and its second phase was announced on April 13, 2026.",
+    "It invests through SEBI-registered AIFs rather than directly in startups.",
+    "It invests directly in startups and does not use SEBI-registered AIFs.",
+    "It follows the 2016 Fund of Funds for Startups."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F3"
+   ],
+   "explanation": "The incorrect statement is that the fund invests directly in startups. Startup India Fund of Funds 2.0 invests through SEBI-registered AIFs; the other statements correctly describe its corpus, announcement and relationship with the 2016 fund."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Platform launched by",
+   "question": "Which organisation launched the Kar Saathi AI assistant on the e-filing portal?",
+   "options": [
+    "Income Tax Department",
+    "Central Board of Direct Taxes",
+    "Insurance Regulatory and Development Authority of India",
+    "Ministry of Corporate Affairs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2",
+    "P14.F3"
+   ],
+   "explanation": "The Income Tax Department launched Kar Saathi as an AI assistant on the e-filing portal. CBDT is the department’s associated board, while IRDAI and MCA are connected with insurance regulation and corporate-law notifications respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First enterprise survey",
+   "question": "What is the name of the first Annual Survey of Incorporated Services Sector Enterprises launched by the NSO for 2024–25?",
+   "options": [
+    "ASISSE",
+    "Fund of Funds for Startups 2.0",
+    "Market Intervention Scheme",
+    "Emergency Credit Line Guarantee Scheme"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1",
+    "P16.F1",
+    "P13.F1",
+    "P17.F2"
+   ],
+   "explanation": "The survey is called ASISSE—Annual Survey of Incorporated Services Sector Enterprises. The other options refer to a startup fund, a potato-procurement mechanism and a credit-guarantee scheme, not the NSO’s services-sector enterprise survey."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme under which procurement was approved",
+   "question": "Under which scheme did the Government approve procurement of 20 lakh MT of potatoes under the Market Intervention Scheme?",
+   "options": [
+    "PM-AASHA",
+    "Fund of Funds for Startups",
+    "Emergency Credit Line Guarantee Scheme",
+    "Utkarsh 2029"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1",
+    "P13.F1",
+    "P17.F2",
+    "P19.F2"
+   ],
+   "explanation": "The potato procurement was approved under PM-AASHA, on a State request. Fund of Funds for Startups, ECLGS and Utkarsh 2029 concern startups, MSME credit and RBI strategy respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "MSME credit guarantee",
+   "question": "Consider the following statements:\nStatement A: The proposed MSME scheme provides an 80% government guarantee on loans up to ₹100 crore.\nStatement B: The scheme is modelled on the COVID-era Emergency Credit Line Guarantee Scheme.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F2"
+   ],
+   "explanation": "Statement A is false because the proposed government guarantee is 90%, not 80%, on loans up to ₹100 crore. Statement B is true because the scheme is modelled on the COVID-era ECLGS."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Maritime insurance coverage",
+   "question": "Assertion (A): The Bharat Maritime Insurance Pool was approved to reduce reliance on the International Group of P&I Clubs based in London.\nReason (R): The pool covers Hull & Machinery, Cargo, P&I and War Risk.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F2"
+   ],
+   "explanation": "Both the assertion and the reason are true. By providing coverage for Hull & Machinery, Cargo, P&I and War Risk, the pool is intended to reduce dependence on the London-based International Group of P&I Clubs."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "World Bank loan and RBI strategy",
+   "question": "Consider the following statements regarding the April 2026 Rajasthan highways loan and RBI Utkarsh 2029:\n1. The World Bank approved a $225 million IBRD loan for about 800 km of Rajasthan roads, and it was described as India’s first “Step-Up Loan”.\n2. The loan was described as India’s first “Unified Lending Interface”.\n3. RBI Utkarsh 2029 covers April 2026–March 2029 and includes a 5-year grace period.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F2"
+   ],
+   "explanation": "Only statement 1 is correct: the $225 million IBRD loan covers about 800 km and was described as India’s first “Step-Up Loan”. Statement 2 wrongly substitutes Unified Lending Interface, while the 5-year grace period belongs to the World Bank loan, not RBI Utkarsh 2029."
+  }
+ ]
+}

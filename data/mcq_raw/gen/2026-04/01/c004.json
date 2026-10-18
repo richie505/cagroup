@@ -1,0 +1,131 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of tent cities",
+   "question": "How many temple locations on the banks of the Godavari were approved for tent cities for the Godavari Pushkarams 2027?",
+   "options": [
+    "21",
+    "12",
+    "50,000",
+    "5 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F3",
+    "P14.F4"
+   ],
+   "explanation": "Tent cities were approved at 21 temple locations on the Godavari banks for the Godavari Pushkarams 2027. The figure 12 refers to the Pushkaram cycle and the duration of Adi and Antya Pushkaram, while 50,000 is the homestay-room target."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Pushkaram cycle and divisions",
+   "question": "With reference to the Godavari Pushkarams, consider the following statements:\n1. Pushkarams are held when Jupiter, or Brihaspati, enters the zodiac sign of the river.\n2. The first 12 days are called Adi Pushkaram.\n3. The last 12 days are called Adi Pushkaram.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F4",
+    "P14.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the event is linked to Jupiter entering the river’s zodiac sign, and its first 12 days are Adi Pushkaram. Statement 3 is incorrect because the last 12 days are called Antya Pushkaram."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Foundation date",
+   "question": "On which date was Andhra University established at Visakhapatnam?",
+   "options": [
+    "26 April 1926",
+    "6 April 1926",
+    "8 April 1926",
+    "26 April 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F2"
+   ],
+   "explanation": "Andhra University was established at Visakhapatnam on 26 April 1926. The dates 6–8 April relate to the Shatabdi Mahotsav, while 26 April 2026 marks the culmination of the centenary."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "KOHA workshop and festival schedule",
+   "question": "Consider the following statements:\nStatement A: The Shatabdi Mahotsav was a three-day cultural festival held from April 6 to 8 as the beginning of Andhra University's centenary run-up.\nStatement B: KOHA is an agriculture software package used in the festival's workshop.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F3"
+   ],
+   "explanation": "Statement A is true: the Shatabdi Mahotsav was held from April 6 to 8 as the start of the centenary run-up. Statement B is false because KOHA is an open-source Integrated Library System, not agriculture software."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment of State Election Commissioner",
+   "question": "Who was appointed as the Andhra Pradesh State Election Commissioner in the recent appointment?",
+   "options": [
+    "Retired IAS officer Anil Chandra Punetha",
+    "S. Abdul Nazeer",
+    "Srikakulam",
+    "Visakhapatnam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F2",
+    "P16.F3"
+   ],
+   "explanation": "Retired IAS officer Anil Chandra Punetha was appointed as the Andhra Pradesh State Election Commissioner. Governor S. Abdul Nazeer approved the appointment; Srikakulam and Visakhapatnam were mentioned in connection with voter numbers, not the appointment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Electric-bus procurement target",
+   "question": "How many electric buses did the Andhra Pradesh Government approve for APSRTC over five years?",
+   "options": [
+    "5,746",
+    "500",
+    "903",
+    "8,321"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F2"
+   ],
+   "explanation": "The approved plan includes 5,746 electric buses over five years. The figures 500 and 903 refer respectively to CNG buses and diesel buses, while 8,321 is the number of existing buses proposed for conversion to electric vehicles."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "LFP battery feature and range",
+   "question": "Assertion (A): Lithium Iron Phosphate batteries used in electric buses have thermal stability.\nReason (R): The stated range of these batteries is 150–300 km.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P17.F4"
+   ],
+   "explanation": "Both the assertion and the reason are true: LFP batteries are noted for thermal stability and have a stated range of 150–300 km. However, the range does not explain the batteries’ thermal stability, so the second option is correct."
+  }
+ ]
+}

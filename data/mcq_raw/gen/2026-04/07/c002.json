@@ -1,0 +1,118 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Species and habitat",
+   "question": "Which newly recorded species is a fanged frog known for making underground nests in Namdapha Tiger Reserve?",
+   "options": [
+    "Limnonectes motijheel",
+    "Cyrtodactylus raimonaensis",
+    "Discodoris cebuensis",
+    "Pushkarmema curajae"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "Limnonectes motijheel is the fanged frog found in Namdapha Tiger Reserve, Arunachal Pradesh, and it makes underground nests. Cyrtodactylus raimonaensis is a bent-toed gecko, while Discodoris cebuensis is a sea slug and Pushkarmema curajae is cyanobacteria."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "First record in India",
+   "question": "Which of the following statements about the species discoveries reported in April 2026 is incorrect?",
+   "options": [
+    "Cyrtodactylus raimonaensis is a bent-toed gecko found near Raimona National Park in Kokrajhar, Assam.",
+    "Megalopinus arunachalensis, M. mithun and M. micros are rove beetles reported from Arunachal Pradesh.",
+    "Discodoris cebuensis is a sea slug recorded for the first time in India at Pushkar Lake, Ajmer.",
+    "Pushkarmema curajae is cyanobacteria found in Pushkar Lake, Ajmer."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F7",
+    "P5.F8"
+   ],
+   "explanation": "The incorrect statement is the one placing Discodoris cebuensis at Pushkar Lake. This sea slug was recorded for the first time in India at Haji Ali, Mumbai; Pushkarmema curajae is the cyanobacterium from Pushkar Lake, Ajmer."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Species and place of discovery",
+   "question": "Match the species in List-I with their places of discovery in List-II.\n\nList-I\n(a) Cyrtodactylus raimonaensis\n(b) Megalopinus arunachalensis\n(c) Limnonectes motijheel\n(d) Stauranthera aureoglossa\n\nList-II\n(i) Namdapha Tiger Reserve\n(ii) Kamle and Upper Subansiri\n(iii) Near Raimona National Park, Kokrajhar\n(iv) Arunachal Pradesh\n\n",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii. Cyrtodactylus raimonaensis was found near Raimona National Park, Megalopinus arunachalensis in Arunachal Pradesh, Limnonectes motijheel in Namdapha Tiger Reserve, and Stauranthera aureoglossa in Kamle and Upper Subansiri."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rules and objective",
+   "question": "Which regulatory framework came into force on April 1, 2026, replacing the 2016 rules and aiming at zero landfill and a circular economy?",
+   "options": [
+    "Solid Waste Management Rules, 2026",
+    "Plastic Waste Rules, 2016",
+    "E-Waste Rules, 2022",
+    "Biomedical Waste Rules, 2016"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F5"
+   ],
+   "explanation": "The Solid Waste Management Rules, 2026 came into force on April 1, 2026, replacing the 2016 rules. Their objectives include zero landfill and a circular economy; the other options are related but separate frameworks."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Climate-risk assessment",
+   "question": "Assertion (A): About 40% of districts in India are at high risk from extreme weather.\nReason (R): The National Action Plan on Climate Change was established in 2008 with eight national missions.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F7"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. About 40% of districts face high risk from extreme weather, while the National Action Plan on Climate Change dates from 2008 and contains eight national missions; the latter does not explain the stated district-risk assessment."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Climate policy initiatives",
+   "question": "Consider the following statements about climate change and health responses in India:\n\n1. The National Programme on Climate Change and Human Health was established in 2008 by the Ministry of Health and Family Welfare.\n2. The National Action Plan on Climate Change was established in 2008 and has eight national missions.\n3. Heat Action Plans are coordinated by the Ministry of Health and Family Welfare.\n4. Extreme heat caused the loss of 160 million labour hours in 2021.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F6",
+    "P7.F7",
+    "P7.F8"
+   ],
+   "explanation": "Only one statement is correct: the National Action Plan on Climate Change was established in 2008 and has eight national missions. The National Programme on Climate Change and Human Health dates from 2018, Heat Action Plans are coordinated by NDMA, and the labour-hour loss was 160 billion hours, not 160 million."
+  }
+ ]
+}

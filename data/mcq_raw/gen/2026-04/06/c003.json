@@ -1,0 +1,167 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Military exercise and partner",
+   "question": "Exercise Cyclone-IV, conducted from April 9 to 17 at Anshas, was held with which country as the partner?",
+   "options": [
+    "Egypt",
+    "Uzbekistan",
+    "Sri Lanka",
+    "11 countries"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "Cyclone-IV was conducted with Egypt at Anshas and involved special forces. Uzbekistan was the partner for DUSTLIK, while Sri Lanka was the partner for IN-SLN DIVEX."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Military exercises and partners",
+   "question": "Match the military exercises in List-I with their partners in List-II.\n\nList-I\n(a) Cyclone-IV\n(b) DUSTLIK\n(c) IN-SLN DIVEX\n(d) PRAGATI\n\nList-II\n(i) Egypt\n(ii) Uzbekistan\n(iii) Sri Lanka\n(iv) 11 countries",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F3",
+    "P7.F5"
+   ],
+   "explanation": "The correct pairs are Cyclone-IV–Egypt, DUSTLIK–Uzbekistan, IN-SLN DIVEX–Sri Lanka, and PRAGATI–11 countries. The other codes interchange the partners of these exercises."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence exports record",
+   "question": "What was India's defence export value in 2025–26?",
+   "options": [
+    "₹38,424 crore",
+    "₹21,071 crore",
+    "₹17,353 crore",
+    "₹35,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "India recorded defence exports of ₹38,424 crore in 2025–26, an increase of 62.66%. ₹21,071 crore was the DPSU contribution and ₹17,353 crore was the private-sector contribution; ₹35,000 crore was the DPEPP 2020 target for 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Medical innovation and recommendation",
+   "question": "Which IIT developed HemoQR, a smartphone-based haemoglobin test recommended by ICMR for anaemia screening?",
+   "options": [
+    "IIT Kharagpur",
+    "IIT Kanpur",
+    "IIT Ropar",
+    "IIT (ISM) Dhanbad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "IIT Kharagpur developed HemoQR, a smartphone haemoglobin test recommended by ICMR for anaemia screening. IIT Kanpur worked on pulsar-based distance measurement, IIT Ropar developed ANNAM.AI, and IIT (ISM) Dhanbad developed a plasma reactor for plastic waste."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "IIT innovations",
+   "question": "Match the IITs in List-I with their innovations in List-II.\n\nList-I\n(a) IIT Kharagpur\n(b) IIT Kanpur\n(c) IIT Ropar\n(d) IIT (ISM) Dhanbad\n\nList-II\n(i) HemoQR smartphone haemoglobin test\n(ii) Distance measurement using pulsars\n(iii) ANNAM.AI integrated AI agriculture system\n(iv) Plasma reactor converting plastic waste to hydrogen",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2",
+    "P9.F5",
+    "P9.F6"
+   ],
+   "explanation": "The correct pairs are IIT Kharagpur–HemoQR, IIT Kanpur–pulsar-based distance measurement, IIT Ropar–ANNAM.AI, and IIT (ISM) Dhanbad–the plasma reactor. The other options assign these innovations to the wrong institutes."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "AI model and cybersecurity",
+   "question": "Consider the following statements:\nStatement A: Mythos is an AI model developed by Anthropic that can autonomously identify and exploit software vulnerabilities.\nStatement B: Mythos was shared selectively with critical-infrastructure organisations under Project Glasswing.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2"
+   ],
+   "explanation": "Both statements are true. Mythos can autonomously identify and exploit software vulnerabilities, and it was shared selectively with critical-infrastructure organisations under Project Glasswing rather than being publicly released."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Zero-day vulnerability",
+   "question": "Assertion (A): A zero-day vulnerability is a flaw that has already been patched by developers.\nReason (R): A zero-day vulnerability is unknown to developers and has no patch.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "The assertion is false because a zero-day vulnerability is not already patched. The reason is true: it is a flaw unknown to developers for which no patch exists."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Entanglement in heavier atoms",
+   "question": "Quantum entanglement, earlier shown mainly in photons and electrons, was recently demonstrated in which heavier atom?",
+   "options": [
+    "Helium",
+    "Hydrogen",
+    "Silicon",
+    "Carbon"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "Quantum entanglement was recently demonstrated in heavier atoms such as Helium, extending earlier demonstrations mainly involving photons and electrons. The fact identifies Helium as the relevant heavier atom."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Space-law framework",
+   "question": "Which of the following statements regarding space governance and commercialisation is incorrect?",
+   "options": [
+    "The Outer Space Treaty, 1967, forms the foundation of space law and makes states responsible for national space activities, including those of private entities.",
+    "The Liability Convention, 1972, provides absolute liability for damage on Earth or to aircraft and fault-based liability in outer space.",
+    "IADC and UN COPUOS debris-mitigation guidelines are non-binding and voluntary.",
+    "The Outer Space Treaty, 1967, makes states responsible only for governmental space activities and excludes private entities."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "The incorrect statement is the fourth one. The Outer Space Treaty makes states responsible for national space activities, including activities by private entities; it does not exclude them. The other statements correctly describe the Outer Space Treaty, the Liability Convention, and the voluntary nature of debris-mitigation guidelines."
+  }
+ ]
+}

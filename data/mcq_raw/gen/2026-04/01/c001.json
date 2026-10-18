@@ -1,0 +1,114 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment",
+   "question": "Who appointed Justice Lisa Gill as the Chief Justice of the Andhra Pradesh High Court in April 2026?",
+   "options": [
+    "President Droupadi Murmu",
+    "Justice Dhiraj Singh Thakur",
+    "Governor S. Abdul Nazeer",
+    "Justice Lisa Gill"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "President Droupadi Murmu appointed Justice Lisa Gill as the Chief Justice of the Andhra Pradesh High Court. S. Abdul Nazeer sworn her in as Governor, while Dhiraj Singh Thakur was her predecessor."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Assumption of office",
+   "question": "Assertion (A): Justice Lisa Gill assumed office as Chief Justice of the Andhra Pradesh High Court on April 24, 2026.\nReason (R): President Droupadi Murmu appointed Justice Lisa Gill as Chief Justice of the Andhra Pradesh High Court.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Assertion A is false because Justice Lisa Gill assumed office on April 25, 2026, not April 24, 2026. Reason R is true because President Droupadi Murmu appointed her as Chief Justice."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Transfer of High Court judges",
+   "question": "With reference to the transfer of High Court judges in the context of Justice Lisa Gill's transfer to the Andhra Pradesh High Court, which statement is incorrect?",
+   "options": [
+    "Article 222 requires consultation with the Chief Justice of India for the transfer of a High Court judge.",
+    "The consent of the judge is not required for such a transfer.",
+    "Article 217 governs the transfer of High Court judges.",
+    "Justice Lisa Gill was earlier transferred from the Punjab and Haryana High Court to the Andhra Pradesh High Court."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F6"
+   ],
+   "explanation": "The incorrect statement is that Article 217 governs the transfer of High Court judges. Article 222 deals with transfers, requires consultation with the Chief Justice of India, and does not require the judge's consent."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/launch",
+   "question": "Where were the Bharat Quantum Reference Facilities launched in Andhra Pradesh as India's first quantum hardware test beds?",
+   "options": [
+    "SRM University Amaravati and Medha Towers, Vijayawada",
+    "SRM University Amaravati and Lok Bhavan, Amaravati",
+    "Medha Towers, Vijayawada and Lok Bhavan, Amaravati",
+    "SRM University Amaravati and the Punjab and Haryana High Court"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "The Bharat Quantum Reference Facilities were launched at SRM University Amaravati and Medha Towers in Vijayawada. The facilities were launched by the Chief Minister on World Quantum Day, April 14."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Blue City water network",
+   "question": "With reference to the Amaravati Blue City project, consider the following statements:\n1. The Blue City concept plans the city around natural water systems, including reservoirs, canals and flood control.\n2. Amaravati lies in the Krishna River floodplain and is approximately 14 km from Vijayawada in Guntur district.\n3. The Neerukonda Reservoir has a capacity of 0.1 TMC ft.\n4. The Gravity Canal is 16.5 km long.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only",
+    "3 and 4 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F5",
+    "P4.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Blue City is planned around natural water systems, and Amaravati lies in the Krishna floodplain approximately 14 km from Vijayawada in Guntur district. Statement 3 is incorrect because Neerukonda Reservoir is 0.4 TMC ft, while Statement 4 is incorrect because the Gravity Canal is 7.8 km long."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Water network measurements",
+   "question": "With reference to the water network of the Amaravati Blue City project, how many of the following statements are correct?\n1. The developed stretch of Kondaveeti Vagu is 23.5 km.\n2. Pala Vagu extends 16.5 km from Harischandrapuram to Krishnayapalem.\n3. Penumaka Reservoir has a capacity of 0.03 TMC ft.\n4. Sakhamuru Reservoir has a capacity of 0.1 TMC ft.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F4",
+    "P4.F7",
+    "P4.F8"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: Kondaveeti Vagu has a developed stretch of 23.5 km, and Pala Vagu is 16.5 km long. Penumaka Reservoir is 0.1 TMC ft, while Sakhamuru Reservoir is 0.03 TMC ft, making statements 3 and 4 incorrect."
+  }
+ ]
+}

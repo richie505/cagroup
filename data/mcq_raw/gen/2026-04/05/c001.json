@@ -1,0 +1,164 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Exit from organisation",
+   "question": "Which country announced that it would exit both OPEC and OPEC+ from May 1, 2026?",
+   "options": [
+    "United Arab Emirates",
+    "Saudi Arabia",
+    "Kuwait",
+    "Venezuela"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "The United Arab Emirates announced its exit from OPEC and OPEC+ from May 1, citing dissatisfaction with production limits and strained ties with Saudi Arabia. Saudi Arabia, Kuwait and Venezuela are OPEC members, but the announcement concerned the UAE."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "IAFS-IV and India-Africa ties",
+   "question": "With reference to India–Africa relations and the fourth India-Africa Forum Summit, consider the following statements:\n1. IAFS-IV in 2026 was the first India-Africa Forum Summit in more than a decade.\n2. India has 46 diplomatic missions in Africa.\n3. India is a member of the African Union.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: IAFS-IV was the first such summit in more than a decade, and India has 46 diplomatic missions in Africa. Statement 3 is incorrect because India is not a member of the African Union."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Pan-African e-Network",
+   "question": "Which one of the following statements about the Pan-African e-Network is incorrect?",
+   "options": [
+    "It was established in 2009.",
+    "It provides tele-education and telemedicine services.",
+    "It involves TCIL, universities and hospitals.",
+    "It was operated by ISRO alone."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F5"
+   ],
+   "explanation": "The incorrect statement is that the Pan-African e-Network was operated by ISRO alone. The network, established in 2009, involved TCIL, universities and hospitals and provided tele-education and telemedicine."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Trade target",
+   "question": "India and South Korea set what bilateral trade target for 2030 at their summit?",
+   "options": [
+    "USD 50 billion",
+    "USD 27 billion",
+    "USD 3–5 billion",
+    "USD 15 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "India and South Korea agreed to raise bilateral trade from USD 27 billion to USD 50 billion by 2030. USD 27 billion is the existing trade figure, while USD 3–5 billion is the India–Jordan trade target."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First India–China consultations under SCO",
+   "question": "Assertion (A): The first bilateral India–China consultations on the SCO were held on April 16–17, 2026.\nReason (R): The headquarters of the SCO is in Moscow.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "Assertion A is true: the first bilateral India–China consultations on the SCO were held on April 16–17, 2026. Reason R is false because the SCO headquarters is in Beijing, not Moscow."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue of SCO Defence Ministers' meeting",
+   "question": "The SCO Defence Ministers' meeting attended by Rajnath Singh on April 27–28, 2026, was held in which city?",
+   "options": [
+    "Bishkek",
+    "Seoul",
+    "Vienna",
+    "Gurugram"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The SCO Defence Ministers' meeting was held in Bishkek, Kyrgyzstan, and was attended by Rajnath Singh. Seoul is the capital of South Korea, Vienna is the headquarters of OPEC, and Gurugram is the seat of the International Solar Alliance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nuclear fuel loading",
+   "question": "In which country did uranium fuel loading begin at the Rooppur Nuclear Power Plant in April 2026?",
+   "options": [
+    "Bangladesh",
+    "Jordan",
+    "United Arab Emirates",
+    "Kyrgyzstan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "Uranium fuel loading began at the Rooppur Nuclear Power Plant in Bangladesh, with 163 fuel assemblies loaded in Unit 1. Jordan, the United Arab Emirates and Kyrgyzstan were not identified as the country where this event occurred."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Jordan's membership of international initiatives",
+   "question": "Consider the following statements:\nStatement A: Jordan joined the International Solar Alliance, CDRI and Global Biofuels Alliance in 2019.\nStatement B: The documents for Jordan's joining these initiatives were submitted in New Delhi.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "Statement A is false because Jordan joined the International Solar Alliance, CDRI and Global Biofuels Alliance in April 2026, not 2019. Statement B is true because the documents were submitted in New Delhi."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Founding years and seats of initiatives",
+   "question": "Consider the following statements regarding the International Solar Alliance, CDRI and Global Biofuels Alliance:\n1. The International Solar Alliance was founded in 2015.\n2. CDRI was founded in 2019.\n3. The Global Biofuels Alliance was founded in 2022.\n4. The seat of CDRI is Gurugram.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4",
+    "P9.F5"
+   ],
+   "explanation": "Only two statements are correct: the International Solar Alliance was founded in 2015 and CDRI was founded in 2019. The Global Biofuels Alliance was founded in 2023, and CDRI is headquartered in New Delhi, not Gurugram."
+  }
+ ]
+}

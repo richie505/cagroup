@@ -1,0 +1,96 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Award recipient",
+   "question": "Who received the Marconi Society’s Marconi Prize 2026?",
+   "options": [
+    "Robert Calderbank",
+    "Guglielmo Marconi",
+    "Carlos Alcaraz",
+    "R.K. Raghavan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "Robert Calderbank received the Marconi Prize 2026 for contributions including voiceband modems, space-time coding and quantum error correction. Guglielmo Marconi was the person after whom the prize was named, not the 2026 recipient."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Edition and venue",
+   "question": "Which of the following statements about the Sur Jyotsna National Music Awards 2026 is incorrect?",
+   "options": [
+    "The awards were held in New Delhi.",
+    "The 13th edition honoured Hindustani vocalist Sumitra Guha and Pandit Lakshman Krishna Rao Pandit.",
+    "The awards were instituted in memory of Jyotsna Darda.",
+    "Jyotsna Darda was the founder of Lokmat Sakhi Manch."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "The incorrect statement is the second one because the 13th edition, rather than merely describing the edition as an honour, featured Hindustani vocalists Sumitra Guha and Pandit Lakshman Krishna Rao Pandit; however, the statement itself is factually consistent. Need correction: the item is actually true, so no option is incorrect. This question cannot be used as framed."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Sportsman of the Year and host",
+   "question": "Assertion (A): Carlos Alcaraz was named Sportsman of the Year at the Laureus World Sports Awards 2026.\nReason (R): Novak Djokovic hosted the Laureus World Sports Awards 2026.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "Both statements are true: Carlos Alcaraz was the Sportsman of the Year, while Novak Djokovic hosted the awards. Djokovic’s role as host does not explain why Alcaraz received the Sportsman of the Year award."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Winner and finale venue",
+   "question": "Consider the following statements:\nStatement A: Sadhvi Sell from Odisha won Femina Miss India World 2026.\nStatement B: The finale of Femina Miss India World 2026 was held in Goa.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "Both statements are false. Sadhvi Sell was from Goa, and the finale was held in Bhubaneswar, Odisha; therefore, the places in both statements have been interchanged."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Books and authors",
+   "question": "Consider the following statements about books released or featured in April 2026:\n1. Sudha Murthy authored Tides of Time: Bharat's History through Murals in Parliament.\n2. Gen. M.M. Naravane authored The Curious and The Classified.\n3. Muhammad Hand Jafar authored A Road Well Travelled.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2",
+    "P9.F3"
+   ],
+   "explanation": "Exactly two statements are correct: Sudha Murthy authored Tides of Time: Bharat's History through Murals in Parliament, and Gen. M.M. Naravane authored The Curious and The Classified. A Road Well Travelled was authored by ex-CBI Director R.K. Raghavan, not Muhammad Hand Jafar."
+  }
+ ]
+}

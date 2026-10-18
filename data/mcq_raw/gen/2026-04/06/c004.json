@@ -1,0 +1,59 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Counterfeit medicine in news",
+   "question": "Which cancer medicine was reported to have a counterfeit market in India amid its high cost and weak procurement oversight?",
+   "options": [
+    "Keytruda (Pembrolizumab)",
+    "Artemether–lumefantrine",
+    "CAR-T cell therapy",
+    "Naphthalene diimide nanomaterials"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "Keytruda (Pembrolizumab) was reported to have a counterfeit market in India. Its high cost, exceeding ₹3 lakh per month, and weak procurement oversight were highlighted in the report; artemether–lumefantrine is an infant malaria drug, not the cancer medicine in this news."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Mechanism of action",
+   "question": "Assertion (A): Keytruda directly kills cancer cells.\nReason (R): Keytruda blocks the PD-1 receptor on T-cells and reactivates immunity.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F5",
+    "P13.F6"
+   ],
+   "explanation": "The assertion is false because Keytruda does not directly kill cancer cells. The reason is true: it is a monoclonal antibody and immune checkpoint inhibitor that blocks PD-1 on T-cells, thereby reactivating immunity; the tempting first option wrongly treats direct killing as its mechanism."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Technology and developing organisation",
+   "question": "Bio-bitumen developed from crop residue through pyrolysis was associated with which organisation?",
+   "options": [
+    "CSIR-CRRI",
+    "CSIR-NIIST",
+    "CeNS and JNCASR",
+    "Merck & Co. (MSD)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "Bio-bitumen from crop residue through pyrolysis was developed by CSIR-CRRI. CSIR-NIIST is associated with Designer Rice, while CeNS and JNCASR developed the naphthalene diimide nanomaterials."
+  }
+ ]
+}

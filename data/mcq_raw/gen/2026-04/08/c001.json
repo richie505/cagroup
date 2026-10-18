@@ -1,0 +1,97 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in index",
+   "question": "According to the SIPRI 2025 military expenditure data, what was India's position globally in military spending?",
+   "options": [
+    "5th",
+    "3.2% of world spending",
+    "8.9% increase over 2024",
+    "$92.1 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "India ranked 5th globally, with military expenditure of $92.1 billion, equivalent to 3.2% of world spending. The tempting option $92.1 billion is the amount spent, not India's rank."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Record production",
+   "question": "Which of the following correctly matches a record reported for agriculture and energy during 2024–26?",
+   "options": [
+    "Foodgrains: 357.73 million tonnes in 2024–25",
+    "Wind: 45 GW added in 2025–26",
+    "Solar: 6.05 GW added in 2025–26",
+    "Wind: total capacity of 5.5 GW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F3"
+   ],
+   "explanation": "Foodgrain production reached a record 357.73 million tonnes in 2024–25. The other options confuse the solar addition of about 45 GW, the wind addition of 6.05 GW, and the earlier wind benchmark of 5.5 GW."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Publisher and finding",
+   "question": "Consider the following statements about the Tech Funding FY26 report:\nStatement A: The report was published by the International Labour Organization.\nStatement B: India ranked 5th globally with $11.7 billion in tech funding.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "Both statements are false. The report was published by Tracxn, and India ranked 4th globally with $11.7 billion in tech funding; the traps are the substitution of the ILO and 5th rank."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Climate Risk Index ranking",
+   "question": "With reference to the Climate Risk Index 2026 released by Germanwatch, consider the following statements:\n1. India ranked 9th for the period 1995–2024.\n2. The assessment recorded more than 430 events.\n3. France recorded 964 events in the assessment.",
+   "options": [
+    "Exactly two statements are correct",
+    "Exactly one statement is correct",
+    "Exactly three statements are correct",
+    "All four statements are correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: India ranked 9th for 1995–2024, and the assessment recorded 430+ events. Statement 3 is the trap because France's figure of 964 belongs to the Nagoya Protocol IRCC data, not the Climate Risk Index 2026."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Reports and findings",
+   "question": "How many of the following statements about reports released or highlighted in April 2026 are correct?\n1. The Tech Funding FY26 report recorded 47 IPOs.\n2. India ranked 8th in the Climate Risk Index 2026.\n3. Domestic applicants accounted for 69% of patent filings in 2025.\n4. Women's credit increased 4.6 times since 2017.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F3",
+    "P5.F5",
+    "P5.F8"
+   ],
+   "explanation": "Only two statements are correct: the Tech Funding FY26 report recorded 47 IPOs, and domestic applicants accounted for 69% of patent filings. India ranked 9th, not 8th, in the Climate Risk Index, while women's credit increased 4.8 times, not 4.6 times, since 2017."
+  }
+ ]
+}
