@@ -1,0 +1,160 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "River and project location",
+   "question": "The Sawalkot Mega Hydroelectric Project, associated with India's exit from the Indus Waters Treaty, is being developed on which river in which district?",
+   "options": [
+    "Chenab in Ramban district, J&K",
+    "Ravi in Pathankot district, Punjab",
+    "Pennaiyar in Chikkaballapur district, Karnataka",
+    "Rapti in Balrampur district, Uttar Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F3",
+    "P13.F3",
+    "P13.F8"
+   ],
+   "explanation": "The Sawalkot Mega Hydroelectric Project is located on the Chenab in Ramban district, J&K. The Ravi–Pathankot association belongs to the Shahpur Kandi project, while Pennaiyar and Rapti are associated with separate river-related developments."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First state-specific disaster",
+   "question": "Which State became the first to declare tidal flooding a state-specific disaster?",
+   "options": [
+    "Kerala",
+    "Punjab",
+    "Tamil Nadu",
+    "Uttarakhand"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2"
+   ],
+   "explanation": "Kerala became the first State to declare tidal flooding a state-specific disaster. Relief for such flooding can be provided through the SDRF under the Disaster Management Act, 2005; Punjab, Tamil Nadu and Uttarakhand are not identified with this declaration."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Seas, straits and islands in news",
+   "question": "Match List-I with List-II in the context of places in the news.\n\nList-I\n(a) Lake Victoria\n(b) Takeshima/Dokdo\n(c) Strait of Hormuz\n(d) Chagos Islands\n\nList-II\n(i) Algal bloom and eutrophication\n(ii) Sovereignty dispute involving Japan and South Korea\n(iii) Route carrying about 20% of global crude\n(iv) Diego Garcia and the British Indian Ocean Territory\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2",
+    "P11.F3",
+    "P11.F4"
+   ],
+   "explanation": "The correct pairs are Lake Victoria–algal bloom, Takeshima/Dokdo–the Japan–South Korea sovereignty dispute, Strait of Hormuz–about 20% of global crude, and Chagos Islands–Diego Garcia and the British Indian Ocean Territory. The other codes interchange these place-specific facts."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Volcano characteristics",
+   "question": "How many of the following statements regarding volcanoes in the news are correct?\n\n1. Volcán de Fuego is a basaltic stratovolcano in Guatemala.\n2. Piton de la Fournaise is a basaltic shield volcano on Réunion Island.\n3. Mount Kanlaon is a stratovolcano with a height of 3,763 metres.\n4. The Central American Volcanic Arc contains about 75% of active volcanoes.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2",
+    "P12.F3",
+    "P12.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so the answer is Only two. Mount Kanlaon is 2,465 metres high, not 3,763 metres, and about 75% of active volcanoes are associated with the Pacific Ring of Fire, not the Central American Volcanic Arc."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Inter-State River Water Disputes Tribunal",
+   "question": "Assertion (A): The Supreme Court directed the Centre to constitute an Inter-State River Water Disputes Tribunal for the Pennaiyar dispute within one month.\nReason (R): The Pennaiyar rises in Nandi Hills in Chikkaballapur.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F3"
+   ],
+   "explanation": "Assertion A is true: the Supreme Court directed the Centre to constitute the tribunal within one month in the Tamil Nadu–Karnataka Pennaiyar dispute. Reason R is also a true geographical fact, but it does not explain the Court's direction; therefore, the prescribed answer is not applicable if both are treated as true. To make the assertion–reason pair valid, R is false as a reason for A."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Forest and river rulings",
+   "question": "Consider the following statements about the recent forest and river rulings:\n\n1. The Supreme Court allowed commercial vehicles to use the road through Rajaji National Park.\n2. Guru Shikhar is the highest peak of the Aravalli range.\n3. The Suav is a tributary of the Pennaiyar.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "2 and 3 only"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F6",
+    "P13.F7",
+    "P13.F8"
+   ],
+   "explanation": "Only statement 2 is correct: Guru Shikhar is the highest peak of the Aravalli range. The Supreme Court allowed the road through Rajaji National Park with no commercial vehicles, and the Suav is a tributary of the Rapti, not the Pennaiyar."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Community conservation and bird atlas",
+   "question": "Consider the following statements:\nStatement A: The United Sangtam Likhum Pumji resolved to protect pangolins.\nStatement B: Goa became the second State after Kerala to publish a state bird atlas.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F3"
+   ],
+   "explanation": "Both statements are true. The United Sangtam Likhum Pumji, associated with the Sangtam Naga tribe, adopted the pangolin-protection resolution, while Goa became the second State after Kerala to publish a state bird atlas."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cyclone landfall",
+   "question": "Cyclone Gezani, which struck Madagascar in February 2026, made landfall on the east coast near which port city?",
+   "options": [
+    "Toamasina",
+    "Diego Garcia",
+    "Valpoi",
+    "Pathankot"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1",
+    "P11.F4",
+    "P14.F3",
+    "P9.F3"
+   ],
+   "explanation": "Cyclone Gezani made landfall near Toamasina on Madagascar's east coast. Diego Garcia is associated with the Chagos Islands, Valpoi with the Goa Bird Festival, and Pathankot with the Shahpur Kandi project."
+  }
+ ]
+}

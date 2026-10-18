@@ -1,0 +1,116 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of the World Government Summit 2026 held at Madinat Jumeirah, Dubai, from 3–5 February 2026?",
+   "options": [
+    "Shaping Future Governments",
+    "The Human Code",
+    "Bharat Next",
+    "Evidence-Based AYUSH Interventions in Mind-Body Health"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F4",
+    "P2.F5",
+    "P2.F12"
+   ],
+   "explanation": "The theme of the World Government Summit 2026 was “Shaping Future Governments.” “The Human Code” was the theme of the Human Capability Initiative 2026, not the World Government Summit."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "First-time host",
+   "question": "Which of the following statements about the World Seafood Congress 2026 is incorrect?",
+   "options": [
+    "India hosted the World Seafood Congress for the second time.",
+    "It was held at the Chennai Trade Centre from 9–11 February 2026.",
+    "Its theme was “Sustainable Solutions for Inclusive Growth.”",
+    "It was organised by IAFI, PDA Ventures and NFDB."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "The incorrect statement is that India hosted the World Seafood Congress for the second time. India hosted the event for the first time in 2026; the venue, dates, theme and organising bodies are correctly stated in the other options."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Conference details",
+   "question": "Consider the following statements about conferences and summit-related developments in February 2026:\n\n1. BioAsia 2026 was held in Hyderabad with the theme “TechBio Unleashed: Robotics, Automation and Biology Revolution”.\n2. India’s BRICS chairship in 2026 was its third chairship.\n3. ANVESH 2026 was held at NIFTEM-Kundli from 26–28 February 2026.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F14",
+    "P2.F10"
+   ],
+   "explanation": "Only statement 3 is correct: ANVESH 2026 was held at NIFTEM-Kundli from 26–28 February 2026. BioAsia 2026 used “AI,” not “Robotics,” in its theme, and India’s 2026 BRICS chairship was its fourth, not third."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "MHA guideline",
+   "question": "Consider the following statements regarding the Ministry of Home Affairs guidelines on “Vande Mataram” issued on 6 February 2026:\n\nStatement A: It is mandatory to stand in cinema halls when “Vande Mataram” is played.\nStatement B: If both “Vande Mataram” and the National Anthem are played, “Vande Mataram” is played first.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F4"
+   ],
+   "explanation": "Statement A is false because standing in cinema halls is not mandatory. Statement B is true because the guidelines prescribe “Vande Mataram” first, followed by the National Anthem, when both are played."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Reopening of sanctum",
+   "question": "Assertion (A): The sanctum, or Jagamohan, of the Konark Sun Temple reopened after 122 years.\nReason (R): The restoration work involved the Archaeological Survey of India and IIT Madras.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. The Konark Sun Temple’s sanctum reopened after 122 years, and the work involved the ASI and IIT Madras; however, the stated institutional involvement does not explain the time period of 122 years."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Heritage facts",
+   "question": "How many of the following statements about heritage and archaeology in news are correct?\n\n1. On 16 February 2026, a coin and stamp were issued in New Delhi to mark the Ol Chiki centenary.\n2. The Devnimori site associated with the exhibited relics is located in Fatehabad district of Haryana.\n3. The sanctum of the Konark Sun Temple reopened after 120 years.\n4. The Seva Teerth complex was inspired by the Chennakeshava Temple at Belur.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F3",
+    "P4.F4"
+   ],
+   "explanation": "Only two statements are correct: statements 1 and 4. The Devnimori site is in Aravalli district of Gujarat, not Fatehabad district of Haryana, and the Konark sanctum reopened after 122 years, not 120 years."
+  }
+ ]
+}

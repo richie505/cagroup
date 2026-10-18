@@ -1,0 +1,100 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Private-sector participation",
+   "question": "Under the SHANTI Act, 2025, which of the following activities is permitted for private entities in the nuclear sector?",
+   "options": [
+    "Operating nuclear plants and manufacturing equipment",
+    "Enrichment of U-235 beyond the prescribed limit",
+    "Spent fuel management",
+    "Appearing before the Nuclear Damage Claims Commission"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "The SHANTI Act, 2025 permits private entities to operate plants, manufacture equipment, fabricate fuel and undertake enrichment of U-235 up to the prescribed limit. Enrichment beyond the limit and spent fuel management remain reserved for the Centre. Hence, operating nuclear plants and manufacturing equipment is correct."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Liability cap",
+   "question": "Which one of the following statements regarding operator liability under the SHANTI Act, 2025, is incorrect?",
+   "options": [
+    "The liability cap for a large plant is ₹3,000 crore.",
+    "The liability cap for a medium plant is ₹1,500 crore.",
+    "The liability cap for a Small Modular Reactor is ₹100 crore.",
+    "The liability cap for a Small Modular Reactor is ₹1,500 crore."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "The incorrect statement assigns ₹1,500 crore to a Small Modular Reactor. The correct liability cap for a Small Modular Reactor is ₹100 crore; ₹1,500 crore applies to a medium plant. Therefore, the fourth statement is incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Nuclear plant and State",
+   "question": "Match the nuclear power plants with their respective States:\n\nList-I\n(a) Tarapur\n(b) Rajasthan (Rawatbhata)\n(c) Kakrapar\n(d) Kudankulam\n\nList-II\n(i) Tamil Nadu\n(ii) Gujarat\n(iii) Maharashtra\n(iv) Rajasthan",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F14",
+    "P1.F15",
+    "P1.F16",
+    "P1.F17"
+   ],
+   "explanation": "The correct pairs are Tarapur–Maharashtra, Rajasthan (Rawatbhata)–Rajasthan, Kakrapar–Gujarat and Kudankulam–Tamil Nadu. Thus, the correct code is a-iii, b-iv, c-ii, d-i. The other codes interchange these plant-State associations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First national counter-terrorism policy",
+   "question": "PRAHAAR, released by the Ministry of Home Affairs in February 2026, is notable as which of the following?",
+   "options": [
+    "India’s first-ever national counter-terrorism policy",
+    "India’s first National Policy and Action Plan for Left-Wing Extremism",
+    "India’s first nuclear liability policy",
+    "India’s first policy on prison de-radicalisation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F9"
+   ],
+   "explanation": "PRAHAAR was released by the Ministry of Home Affairs on 23 February 2026 as India’s first-ever national counter-terrorism policy. The National Policy and Action Plan for Left-Wing Extremism was an earlier policy from 2015. Prison de-radicalisation is a provision of PRAHAAR, not the description of the policy itself."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Pillars and release of PRAHAAR",
+   "question": "With reference to PRAHAAR, consider the following statements:\n\n1. It was released by the Ministry of Home Affairs on 23 February 2026.\n2. It is India’s second national counter-terrorism policy.\n3. Prevention and recovery and resilience are among its seven pillars.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct: PRAHAAR was released by the Ministry of Home Affairs on 23 February 2026, and its seven pillars include Prevention and Recovery and resilience. Statement 2 is incorrect because PRAHAAR is India’s first-ever national counter-terrorism policy, not the second."
+  }
+ ]
+}

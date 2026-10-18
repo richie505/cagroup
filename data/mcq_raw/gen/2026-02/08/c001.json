@@ -1,0 +1,43 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Report coverage and rankings",
+   "question": "Consider the following statements:\nStatement A: The Women, Business and the Law 2026 report of the World Bank covered 190 economies.\nStatement B: The Global Residence Programme Index 2026 placed Greece first, while the UAE shared second place with Italy and Switzerland.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "Both statements are true. The Women, Business and the Law 2026 report covered 190 economies, and the Global Residence Programme Index 2026 ranked Greece first with the UAE joint second alongside Italy and Switzerland. The tempting alternative that only one statement is true is incorrect because both report details are accurate."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of organ transplants",
+   "question": "According to the National Organ and Tissue Transplantation Organisation (NOTTO), approximately how many organ transplants were recorded in India in 2025?",
+   "options": [
+    "Approximately 20,000",
+    "Approximately 9.08 lakh",
+    "Approximately 22.68 lakh",
+    "Approximately 10,293"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "India recorded approximately 20,000 organ transplants in 2025, up from fewer than 5,000 in 2013, according to NOTTO. The figure of 9.08 lakh refers to Indian students abroad in 2023, while 22.68 lakh refers to the earlier cyber-crime comparison figure and 10,293 to people on HIV treatment in Meghalaya."
+  }
+ ]
+}

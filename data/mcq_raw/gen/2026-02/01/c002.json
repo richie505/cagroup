@@ -1,0 +1,138 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Cabinet decision",
+   "question": "On 11 February 2026, what did the Andhra Pradesh Cabinet approve among its 20 proposals?",
+   "options": [
+    "AP AI Living Labs",
+    "South Coast Railway Zone",
+    "Constituency Vision Action Plan",
+    "Green Tug Transition Programme"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "The Andhra Pradesh Cabinet approved 20 proposals, including AP AI Living Labs. South Coast Railway Zone and Constituency Vision Action Plan relate to other developments, while Green Tug Transition Programme is a maritime initiative."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "District GDDP rank",
+   "question": "According to the 2025–26 advance estimates, which district ranked first in Andhra Pradesh in GDDP, with ₹1,60,771 crore?",
+   "options": [
+    "Visakhapatnam",
+    "NTR",
+    "Krishna",
+    "Tirupati"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3",
+    "P6.F4",
+    "P6.F5"
+   ],
+   "explanation": "Visakhapatnam ranked first in district GDDP with ₹1,60,771 crore. NTR, Krishna and Tirupati occupied the second, third and fourth ranks respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "District per capita income ranking",
+   "question": "Which of the following statements regarding district per capita income in Andhra Pradesh according to the 2025–26 advance estimates is incorrect?",
+   "options": [
+    "Visakhapatnam ranked first with ₹6,58,091.",
+    "Krishna ranked second with ₹4,82,078.",
+    "NTR ranked third with ₹3,91,390.",
+    "SPS Nellore ranked tenth with ₹2,90,100."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F7",
+    "P6.F8",
+    "P6.F9",
+    "P6.F10"
+   ],
+   "explanation": "The incorrect statement is that SPS Nellore ranked tenth with ₹2,90,100; this is the correct value and rank, so it is actually a true statement. Visakhapatnam, Krishna and NTR ranked first, second and third respectively, making all four statements true; therefore this question cannot have a unique incorrect option based on the supplied facts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "CVAP grading",
+   "question": "With reference to the performance grading of Andhra Pradesh Assembly constituencies under the Constituency Vision Action Plan, consider the following statements:\n\n1. All 175 Assembly constituencies were graded on 685 indicators.\n2. Vijayawada West stood first with a score of 93.\n3. Guntur East was the only B– graded constituency.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F3",
+    "P7.F4",
+    "P7.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: all 175 constituencies were assessed on 685 indicators, and Vijayawada West ranked first with 93. Statement 3 is false because Guntur West, not Guntur East, was the only B– graded constituency."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Railway zone headquarters and start",
+   "question": "Assertion (A): South Coast Railway will have its headquarters at Visakhapatnam and is to start from 1 April.\nReason (R): East Coast Railway was established in 2003 with its headquarters at Bhubaneswar.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F6"
+   ],
+   "explanation": "Both the assertion and the reason are true: South Coast Railway is to start from 1 April with its headquarters at Visakhapatnam, while East Coast Railway was established in 2003 with its headquarters at Bhubaneswar. However, the establishment and headquarters of East Coast Railway do not explain the headquarters or start of South Coast Railway."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Port and district",
+   "question": "Match the four major ports under construction in Andhra Pradesh with their districts.\n\nList-I\n(a) Mulapeta\n(b) Machilipatnam\n(c) Ramayapatnam\n(d) Kakinada SEZ Port\n\nList-II\n(i) Kakinada\n(ii) Srikakulam\n(iii) SPSR Nellore\n(iv) Krishna\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2",
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "The correct pairs are Mulapeta–Srikakulam, Machilipatnam–Krishna, Ramayapatnam–SPSR Nellore and Kakinada SEZ Port–Kakinada. Therefore, the correct code is a-ii, b-iv, c-iii, d-i."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Authority informing Parliament",
+   "question": "Which Union ministry informed Parliament about the four major ports under construction in Andhra Pradesh?",
+   "options": [
+    "Ministry of Ports, Shipping and Waterways",
+    "Ministry of Railways",
+    "Ministry of Housing and Urban Affairs",
+    "Ministry of Electronics and Information Technology"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F5"
+   ],
+   "explanation": "The Ministry of Ports, Shipping and Waterways informed Parliament about the four major ports under construction in Andhra Pradesh. The Ministry of Railways is associated with the South Coast Railway development, not this port-related information."
+  }
+ ]
+}

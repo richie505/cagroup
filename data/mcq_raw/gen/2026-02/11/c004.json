@@ -1,0 +1,61 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "The 39th Surajkund International Crafts Mela was held at which place?",
+   "options": [
+    "Faridabad, Haryana",
+    "Jaisalmer, Rajasthan",
+    "Rusoma, Nagaland",
+    "Begili near Hosur, Krishnagiri"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The 39th Surajkund International Crafts Mela was held in Faridabad, Haryana. Jaisalmer was associated with the Jain Chadar Mahotsav, while Rusoma hosted the Rusoma Orange Festival."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Book and author",
+   "question": "Who authored the book “The Sage Who Reimagined Hinduism” on Sree Narayana Guru?",
+   "options": [
+    "Shashi Tharoor",
+    "Vijay Goel",
+    "Biswabhusan Harichandan",
+    "Gen M.M. Naravane"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3",
+    "P8.F4",
+    "P8.F1"
+   ],
+   "explanation": "“The Sage Who Reimagined Hinduism” was authored by Shashi Tharoor and released by Vice-President C.P. Radhakrishnan. Vijay Goel authored “Atal Bihari Vajpayee: The Eternal Statesman,” while Biswabhusan Harichandan authored “Ae Mati Katha Kahe” and “Buxi Jagabandhu: The Great Commander.”"
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Life and teachings",
+   "question": "Consider the following statements:\nStatement A: Sree Narayana Guru was born on 20 August 1856 at Chempazhanthy.\nStatement B: Sree Narayana Guru died in 1925.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F6"
+   ],
+   "explanation": "Statement A is true: Sree Narayana Guru was born on 20 August 1856 at Chempazhanthy. Statement B is false because he died in 1928, not 1925."
+  }
+ ]
+}

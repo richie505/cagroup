@@ -1,0 +1,114 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Monument and patron",
+   "question": "Bucheshwara Temple at Koravangala, Karnataka, was built in which year in honour of which Hoysala ruler?",
+   "options": [
+    "1173 CE — Veera Ballala II",
+    "c. 1160 CE — Vishnuvardhana",
+    "c. 1250 CE — Vira Someshwara",
+    "1114 CE — Sahaja Devi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F7",
+    "P5.F8",
+    "P5.F9"
+   ],
+   "explanation": "Bucheshwara Temple at Koravangala was built in 1173 CE in honour of Veera Ballala II. The tempting 1114 CE option belongs to Lakshmidevi Temple at Doddagaddavalli, associated with Sahaja Devi."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Monumental details",
+   "question": "Consider the following statements about lesser-known Hoysala monuments of Karnataka:\n1. Nageshwara and Govindeshwara at Koravangala date to 1173 CE.\n2. Bucheshwara at Koravangala dates to 1173 CE and honours Veera Ballala II.\n3. Lakshminarasimha at Javagal is a dvikuta monument associated with Vira Someshwara.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F7",
+    "P5.F8"
+   ],
+   "explanation": "Only statement 2 is correct: Bucheshwara at Koravangala dates to 1173 CE and honours Veera Ballala II. Statement 1 changes the date of Nageshwara and Govindeshwara to 1173 CE instead of c. 1160 CE, while statement 3 changes Lakshminarasimha’s trikuta plan to dvikuta."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Monument, date and plan",
+   "question": "Match the following Hoysala monuments with their associated details.\n\nList-I\n a. Lakshmidevi, Doddagaddavalli\n b. Panchalingeshwara, Mandya\n c. Hulikere Kalyani\n d. Keshava, Somanathapura\n\nList-II\n i. 12th-century stepwell\n ii. 13th-century trikuta Vaishnava monument\n iii. 1114 CE; four shrines\n iv. 13th-century Panchakuta with five Shiva shrines\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F9",
+    "P5.F10",
+    "P5.F12",
+    "P5.F14"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii. Lakshmidevi dates to 1114 CE and has four shrines; Panchalingeshwara is a Panchakuta with five Shiva shrines; Hulikere Kalyani is a 12th-century stepwell; and Keshava at Somanathapura is a 13th-century trikuta Vaishnava monument."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Municipal elections—number of ULBs",
+   "question": "The Telangana municipal elections held in February 2026 covered how many Urban Local Bodies (ULBs)?",
+   "options": [
+    "123",
+    "116",
+    "7",
+    "2,995"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "The Telangana municipal elections covered 123 ULBs—116 municipalities and 7 corporations. The figures 116 and 7 are component figures, while 2,995 refers to wards counted."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Farmer registry—top rank",
+   "question": "With reference to Telangana’s farmer registry, consider the following:\n\nAssertion (A): Telangana topped the farmer registry performance.\nReason (R): Telangana achieved 110% of its target.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F17"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the 110% achievement explains Telangana’s top position in the farmer registry. The alternatives are incorrect because neither statement is false."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First initiative and featured crafts",
+   "question": "With reference to the GI Tag on Wheels initiative of Telangana:\nStatement A: It was the second such initiative in the country.\nStatement B: TSRTC buses displayed six GI crafts, including Pochampally Ikat and Cheriyal painting.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F14"
+   ],
+   "explanation": "Statement A is false because GI Tag on Wheels was the first such initiative. Statement B is true: TSRTC buses displayed six GI crafts, including Pochampally Ikat and Cheriyal painting."
+  }
+ ]
+}

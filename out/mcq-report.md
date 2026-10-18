@@ -1,32 +1,32 @@
 # CA MCQ report
 
-- MCQs kept: **2218**
-- News pages with at least one question: **1537 / 2629**
-- Facts tested: **4556 / 20515** (22.2%)
-- Answer positions: A 551, B 568, C 615, D 484
+- MCQs kept: **2481**
+- News pages with at least one question: **1714 / 2629**
+- Facts tested: **5155 / 20515** (25.1%)
+- Answer positions: A 628, B 625, C 681, D 547
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 224 | 252 | 256 | 191 |
-| Negative / Incorrect Statement | 60 | 61 | 65 | 70 |
-| Assertion-Reason | 60 | 65 | 85 | 76 |
-| Statement-Based (A/B) | 78 | 53 | 72 | 63 |
-| Multi-Statement Correctness | 82 | 75 | 81 | 67 |
+| Direct Recall | 255 | 270 | 277 | 214 |
+| Negative / Incorrect Statement | 65 | 69 | 75 | 77 |
+| Assertion-Reason | 71 | 73 | 94 | 86 |
+| Statement-Based (A/B) | 86 | 58 | 83 | 74 |
+| Multi-Statement Correctness | 97 | 81 | 88 | 78 |
 | Chronological Ordering | 1 | 0 | 0 | 0 |
-| List-Matching | 19 | 15 | 19 | 15 |
-| Count-Based | 27 | 47 | 37 | 2 |
+| List-Matching | 22 | 20 | 22 | 16 |
+| Count-Based | 31 | 54 | 42 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 236 |
-| verify:explanation_contradicts | 32 |
-| verify:not_in_facts | 26 |
-| over the page's quota | 14 |
+| code | 254 |
+| verify:explanation_contradicts | 35 |
+| verify:not_in_facts | 28 |
+| over the page's quota | 17 |
 | verify:two_correct | 8 |
-| verify:none_correct | 6 |
-| duplicate | 6 |
+| duplicate | 8 |
+| verify:none_correct | 7 |
 | verify:second reader picked option 2, key 1 | 5 |
 | verify:ambiguous_stem | 2 |
 | verify:garbled | 2 |
@@ -34,6 +34,7 @@
 | verify:second reader picked option 1, key 0 | 1 |
 | verify:second reader picked option 2, key 0 | 1 |
 | verify:trivial | 1 |
+| verify:second reader picked option 3, key 1 | 1 |
 
 ## Per file
 
@@ -127,17 +128,17 @@
 | 2026-03/09 | Awards, Persons & Appointments | 22 | 58/122 |
 | 2026-03/10 | Sports | 8 | 16/42 |
 | 2026-03/11 | Important Days & Events | 14 | 21/78 |
-| 2026-02/01 | Andhra Pradesh | 0 | 0/236 |
-| 2026-02/02 | Polity & Governance | 0 | 0/198 |
-| 2026-02/03 | Schemes & Social Sector | 0 | 0/73 |
-| 2026-02/04 | Economy, Banking & Budget | 0 | 0/188 |
-| 2026-02/05 | International Relations | 0 | 0/202 |
-| 2026-02/06 | Science, Tech, Space & Defence | 0 | 0/153 |
-| 2026-02/07 | Environment & Geography | 0 | 0/166 |
-| 2026-02/08 | Reports, Indices & Rankings | 0 | 0/44 |
-| 2026-02/09 | Awards, Persons & Appointments | 0 | 0/74 |
-| 2026-02/10 | Sports | 0 | 0/48 |
-| 2026-02/11 | Important Days & Events | 0 | 0/116 |
+| 2026-02/01 | Andhra Pradesh | 42 | 107/236 |
+| 2026-02/02 | Polity & Governance | 35 | 71/198 |
+| 2026-02/03 | Schemes & Social Sector | 14 | 35/73 |
+| 2026-02/04 | Economy, Banking & Budget | 22 | 43/188 |
+| 2026-02/05 | International Relations | 40 | 96/202 |
+| 2026-02/06 | Science, Tech, Space & Defence | 28 | 60/153 |
+| 2026-02/07 | Environment & Geography | 25 | 60/166 |
+| 2026-02/08 | Reports, Indices & Rankings | 10 | 23/44 |
+| 2026-02/09 | Awards, Persons & Appointments | 17 | 44/74 |
+| 2026-02/10 | Sports | 11 | 23/48 |
+| 2026-02/11 | Important Days & Events | 19 | 37/116 |
 | 2026-01/01 | Andhra Pradesh | 0 | 0/193 |
 | 2026-01/02 | Polity & Governance | 0 | 0/137 |
 | 2026-01/03 | Schemes & Social Sector | 0 | 0/81 |
@@ -494,3 +495,24 @@
 - `2026-03/09/c002#0` verify: two_correct — All four listed people are stated in the facts as included in TIME Women of the Year 2026.
   - Q: Who was included in TIME Women of the Year 2026?
   - Key: Safina Hussain
+- `2026-02/01/c002#2` verify: none_correct — All four statements are supported by the supplied facts, so no statement is incorrect.
+  - Q: Which of the following statements regarding district per capita income in Andhra Pradesh according to the 2025–26 advance estimates is incorrect?
+  - Key: SPS Nellore ranked tenth with ₹2,90,100.
+- `2026-02/01/c005#4` verify: explanation_contradicts — The facts make figures 1, 2, and 4 correct, so the answer is Only three, not Only two.
+  - Q: In Operation Vajra Prahar in SPS Nellore district, how many of the following figures are correct? / 1. 69 NDPS cases were registered. / 2. 65 persons were arrested. / 3. 10 vehicles were seized. / 4. 9 habitu
+  - Key: Only two
+- `2026-02/04/c004#6` verify: second reader picked option 3, key 1 — 
+  - Q: Consider the following statements: / Statement A: More than 20 crore Soil Health Cards have been distributed, and cards are issued every three years. / Statement B: The Soil Health Card scheme was launche
+  - Key: Both Statement A and Statement B are false
+- `2026-02/05/c005#7` verify: explanation_contradicts — Statements 1 and 4 are supported by the facts, so two—not one—statements are correct.
+  - Q: With reference to the proposed Gaza reconstruction initiative involving the ‘Peace Council’, how many of the following statements are correct? / 1. Nine countries pledged $70 billion for Gaza. / 2. Gaza h
+  - Key: Only one
+- `2026-02/07/c003#5` verify: not_in_facts — The facts establish statements 1 and 2 but do not explicitly determine whether statements 3 and 4 are false.
+  - Q: How many of the following statements about Dal Lake and Futala Lake are correct? / 1. The Jammu and Kashmir Government cancelled a ₹416.72 crore restoration plan for Dal Lake. / 2. Futala Lake is a man-ma
+  - Key: Only two
+- `2026-02/07/c004#4` verify: explanation_contradicts — Both assertions are true, and the geographic fact does not explain the tribunal direction, so option 1 applies.
+  - Q: Assertion (A): The Supreme Court directed the Centre to constitute an Inter-State River Water Disputes Tribunal for the Pennaiyar dispute within one month. / Reason (R): The Pennaiyar rises in Nandi Hil
+  - Key: A is true, but R is false
+- `2026-02/09/c001#2` verify: not_in_facts — The facts establish the Dalai Lama’s first Grammy and winning category, but do not establish that it was at the 68th Grammy Awards.
+  - Q: Assertion (A): The Dalai Lama received his first Grammy Award at the 68th Grammy Awards. / Reason (R): He won Best Audiobook, Narration & Storytelling for “Meditations: The Reflections of His Holiness t
+  - Key: Both A and R are true, and R is the correct explanation of A

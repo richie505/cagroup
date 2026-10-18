@@ -1,0 +1,131 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "GST collection",
+   "question": "What was the gross GST collection in January 2026?",
+   "options": [
+    "₹1.93 lakh crore, showing a 6.2% rise",
+    "₹2.7 lakh crore, showing a 9.4% rise",
+    "10.4% growth in Agri GVA",
+    "3,577.32 lakh tonnes of foodgrain production"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "The gross GST collection in January 2026 was ₹1.93 lakh crore, registering a 6.2% increase. ₹2.7 lakh crore and 9.4% relate to pharma exports, while 3,577.32 lakh tonnes refers to foodgrain production."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Trade and sector data",
+   "question": "Consider the following statements regarding India’s trade and sectoral performance:\n1. Pharma exports in 2024–25 stood at ₹2.7 lakh crore, registering a 9.4% increase.\n2. Agri GVA recorded 10.4% growth in 2024–25.\n3. Foodgrain production in 2024–25 reached a record 3,577.32 lakh tonnes.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "All three statements are correct: pharma exports were ₹2.7 lakh crore with 9.4% growth, Agri GVA grew 10.4%, and foodgrain production reached 3,577.32 lakh tonnes. The options excluding any one statement are incorrect because each figure is part of the reported sector data."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UDAN first flight",
+   "question": "The first flight under the UDAN scheme operated on which route?",
+   "options": [
+    "Shimla–Delhi",
+    "Noida–Kochi",
+    "Ahmedabad–Delhi",
+    "Telangana–Kochi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F10"
+   ],
+   "explanation": "The first UDAN flight operated on the Shimla–Delhi route on 27 April 2017. 21 October 2016 was the launch date of UDAN, not the date of its first flight."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Aviation sector facts",
+   "question": "Which of the following statements regarding India’s civil aviation sector is incorrect?",
+   "options": [
+    "India is the third-largest domestic aviation market, with demand projected at 715 million by 2030.",
+    "IndiGo has a market share of about 63–65%, while the Air India group has about 27–28%; together they account for about 90%.",
+    "IndiGo is the sole carrier on about 60% of routes.",
+    "The DGCA had issued 19 safety violation notices by late 2025, and nearly half of its pilot posts were vacant."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F5",
+    "P9.F6"
+   ],
+   "explanation": "The incorrect statement is the fourth one because nearly half of the DGCA’s technical posts, not pilot posts, were vacant. The other statements correctly describe India’s market position, projected demand and airline market shares."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "New regional airlines and bases",
+   "question": "Match the airlines in List-I with their bases or associated detail in List-II.\n\nList-I\n(a) Shankh Air\n(b) Al Hind Air\n(c) FlyExpress\n(d) UDAN\n\nList-II\n(i) Noida region\n(ii) Kochi\n(iii) Telangana low-cost\n(iv) Launched on 21 October 2016",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F7",
+    "P9.F8",
+    "P9.F9",
+    "P9.F10"
+   ],
+   "explanation": "The correct pairs are Shankh Air–Noida region, Al Hind Air–Kochi, FlyExpress–Telangana low-cost, and UDAN–launched on 21 October 2016. Therefore, the correct code is a-i, b-ii, c-iii, d-iv."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "SBI CHAKRA sectors",
+   "question": "Assertion (A): SBI CHAKRA is an SBI Centre of Excellence for financing 8 sunrise sectors.\nReason (R): SBI CHAKRA is designed to finance 6 sunrise sectors.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "Assertion A is true because SBI CHAKRA is an SBI Centre of Excellence for financing 8 sunrise sectors. Reason R is false because the number of sectors is 8, not 6."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Soil Health Card status",
+   "question": "Consider the following statements:\nStatement A: More than 20 crore Soil Health Cards have been distributed, and cards are issued every three years.\nStatement B: The Soil Health Card scheme was launched in 2015, and cards are issued every two years.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "Both statements are false. More than 25 crore Soil Health Cards have been distributed, and the cards are issued every two years; the launch year was 2015."
+  }
+ ]
+}

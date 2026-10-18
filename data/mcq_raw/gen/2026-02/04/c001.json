@@ -1,0 +1,82 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP base year",
+   "question": "In the revised GDP series released by MoSPI, which year has been adopted as the new base year?",
+   "options": [
+    "2011–12",
+    "2020–21",
+    "2022–23",
+    "2023–24"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "MoSPI changed the GDP base year from 2011–12 to 2022–23. The year 2011–12 was the earlier base year, making it the most likely trap."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GDP growth estimates",
+   "question": "With reference to the revised GDP estimates for 2023–24 to 2025–26, consider the following statements:\n1. Real GDP growth in 2023–24 was 7.2%.\n2. Nominal GDP growth in 2024–25 was 11%.\n3. Estimated real GDP growth in 2025–26 was 7.6%.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct: real growth was 7.2% in 2023–24 and the estimated real growth for 2025–26 was 7.6%. Statement 2 is incorrect because 11% was the nominal growth for 2023–24, while the nominal growth for 2024–25 was 9.7%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Repo rate",
+   "question": "What repo rate did the RBI keep unchanged under its neutral monetary policy stance in February 2026?",
+   "options": [
+    "5.00%",
+    "5.25%",
+    "5.50%",
+    "3.35%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "The RBI kept the repo rate unchanged at 5.25% under a neutral stance. The 3.35% figure was the reverse repo rate, while 5.00% was the SDF rate and 5.50% was the MSF rate."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "RBI policy rates",
+   "question": "Which of the following statements regarding the RBI’s policy rates is incorrect?",
+   "options": [
+    "The reverse repo rate was 3.35%.",
+    "The SDF rate was 5%.",
+    "The MSF rate was 5.25%.",
+    "The repo rate was 5.25%."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "The incorrect statement is that the MSF rate was 5.25%; it was 5.50%. The repo rate was 5.25%, whereas the reverse repo rate was 3.35% and the SDF rate was 5%."
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "The 70th Filmfare Awards South, covering films of 2024, was held at which venue?",
+   "options": [
+    "Kochi, Kerala",
+    "Pushpa 2: The Rule",
+    "35 Chinna Katha Kaadu",
+    "Committee Kurrolu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P6.F4",
+    "P6.F12"
+   ],
+   "explanation": "The 70th Filmfare Awards South was held in Kochi, Kerala, with Kerala Tourism. Pushpa 2: The Rule, 35 Chinna Katha Kaadu and Committee Kurrolu are films associated with award winners, not the venue."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Award winners",
+   "question": "With reference to the 70th Filmfare Awards South for films of 2024, consider the following statements:\n1. Allu Arjun won Best Actor for Pushpa 2: The Rule.\n2. Sukumar won Best Director for Pushpa 2.\n3. Nivetha Thomas won Best Actress (Critics) for 35 Chinna Katha Kaadu.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Allu Arjun won Best Actor and Sukumar won Best Director. Statement 3 is incorrect because Nivetha Thomas won Best Actress, not Best Actress (Critics), for 35 Chinna Katha Kaadu."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First Grammy",
+   "question": "Assertion (A): The Dalai Lama received his first Grammy Award at the 68th Grammy Awards.\nReason (R): He won Best Audiobook, Narration & Storytelling for “Meditations: The Reflections of His Holiness the Dalai Lama.”",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "Both the assertion and reason are true. The Dalai Lama’s win in Best Audiobook, Narration & Storytelling for “Meditations: The Reflections of His Holiness the Dalai Lama” constituted his first Grammy; Steven Spielberg’s first Grammy was a separate achievement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award winner",
+   "question": "Who was named BBC Indian Sportswoman of the Year 2025 at its 6th edition?",
+   "options": [
+    "Smriti Mandhana",
+    "Divya Deshmukh",
+    "Preeti Paul",
+    "Anjali Bhagwat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "Smriti Mandhana won the BBC Indian Sportswoman of the Year 2025 award. Divya Deshmukh, Preeti Paul and Anjali Bhagwat won the Emerging Player, Para-Sportswoman and Lifetime Achievement awards respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Appointment date and campaign",
+   "question": "Consider the following statements:\nStatement A: Sachin Tendulkar was appointed UN Global Road Safety Champion on 25 February 2026.\nStatement B: The campaign was launched in New Delhi by UN Secretary-General’s Special Envoy for Road Safety Jean Todt.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2"
+   ],
+   "explanation": "Statement A is false because Sachin Tendulkar was appointed on 24 February 2026, not 25 February 2026. Statement B is true: Jean Todt launched the campaign in New Delhi."
+  }
+ ]
+}

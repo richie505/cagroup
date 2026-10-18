@@ -1,0 +1,142 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Host country",
+   "question": "Which country is scheduled to host the BRICS grouping in 2026?",
+   "options": [
+    "India",
+    "Kyrgyzstan",
+    "The Philippines",
+    "The United States"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "India is scheduled to host BRICS in 2026. Kyrgyzstan, the Philippines and the United States are associated with the SCO, ASEAN and G20 respectively, not BRICS."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "G7 venue and invitation",
+   "question": "Which of the following statements regarding the 52nd G7 Summit is incorrect?",
+   "options": [
+    "It is scheduled for 15–17 June 2026 at Évian-les-Bains in Haute-Savoie, France.",
+    "Macron invited Modi during his visit to Mumbai on 17 February 2026.",
+    "The first G6 summit was held at Rambouillet in 1975, and Canada joined in 1976.",
+    "The 52nd G7 Summit is scheduled to be hosted by the United States."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F5",
+    "P8.F9",
+    "P8.F10",
+    "P8.F11"
+   ],
+   "explanation": "The incorrect statement is that the 52nd G7 Summit is to be hosted by the United States; France is the host in 2026. The summit is scheduled at Évian-les-Bains from 15–17 June 2026, while the historical details about Rambouillet and Canada are correct."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Election results",
+   "question": "With reference to the world elections held in February 2026, consider the following statements:\n1. Japan's LDP won 271 of the 465 seats.\n2. Thailand's Bhumjaithai won 194 of 465 seats.\n3. Barbados Labour Party won all 28 seats.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2",
+    "P9.F4"
+   ],
+   "explanation": "Only statement 1 is correct: Japan's LDP won 271 of 465 seats. Thailand's Bhumjaithai won 194 of 500 seats, and Barbados Labour Party won all 30 seats, making statements 2 and 3 incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Youngest Prime Minister",
+   "question": "Who became the youngest Prime Minister in Dutch history in February 2026?",
+   "options": [
+    "Rob Jetten",
+    "Andrey Gurov",
+    "Anutin Charnvirakul",
+    "Tariq Rahman"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2",
+    "P9.F6",
+    "P9.F7",
+    "P9.F3"
+   ],
+   "explanation": "Rob Jetten, a member of D66, became the youngest Prime Minister in Dutch history at the age of 38. Andrey Gurov became Bulgaria's interim Prime Minister, while Anutin Charnvirakul and Tariq Rahman are associated with Thailand and Bangladesh respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Alliance launched",
+   "question": "Which alliance was formed by 15 global technology companies at the Munich Security Conference 2026?",
+   "options": [
+    "Trusted Tech Alliance",
+    "BRICS Industrial Competence Centre",
+    "International Maritime Organization",
+    "World Economic Forum"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2",
+    "P10.F3"
+   ],
+   "explanation": "The Trusted Tech Alliance was formed by 15 global technology companies at the Munich Security Conference 2026. Its aim is to establish joint verifiable standards covering transparency, security, governance and data protection."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "MLC 2006 anniversary",
+   "question": "Assertion (A): The Maritime Labour Convention 2006 is known as the “Seafarers' Bill of Rights.”\nReason (R): It was adopted on 23 February 2006 at the International Labour Conference in London.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2"
+   ],
+   "explanation": "Assertion A is true: the Maritime Labour Convention 2006 is called the “Seafarers' Bill of Rights.” Reason R is false because it was adopted on 23 February 2006 at the International Labour Conference in Geneva, not London."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nodal agency",
+   "question": "Which Indian organisation is the nodal agency for India's participation in the BRICS Industrial Competence Centre?",
+   "options": [
+    "National Productivity Council",
+    "United Nations Industrial Development Organization",
+    "International Labour Organization",
+    "International Maritime Organization"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2",
+    "P12.F3",
+    "P11.F4"
+   ],
+   "explanation": "The National Productivity Council is the nodal agency for India's participation in the BRICS Industrial Competence Centre, which supports manufacturing and MSMEs. UNIDO set up the Centre at its headquarters in Vienna, while the ILO and IMO are separate international organisations."
+  }
+ ]
+}

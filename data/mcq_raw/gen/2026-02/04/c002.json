@@ -1,0 +1,61 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP growth forecast",
+   "question": "According to Goldman Sachs, what is India's revised CY2026 growth forecast after the US tariff cut to 18%?",
+   "options": [
+    "6.7%",
+    "6.9%",
+    "7.3%",
+    "7.4%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F4",
+    "P3.F7"
+   ],
+   "explanation": "Goldman Sachs raised India's CY2026 growth forecast from 6.7% to 6.9% after the US tariff cut to 18%. The 7.3% figure was forecast by the IMF, while 7.4% was listed for Fitch after revision."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Forecast revision and tariff cut",
+   "question": "Consider the following statements:\nStatement A: Goldman Sachs raised India's CY2026 growth forecast from 6.7% to 6.8%.\nStatement B: The US tariff cut referred to in the Goldman Sachs forecast was to 20%.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "Both statements are false. Goldman Sachs raised the CY2026 growth forecast from 6.7% to 6.9%, and the US tariff cut was to 18%, not 20%."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "World GDP shares and ranks",
+   "question": "With reference to the share in world GDP during 1980–2023, consider the following statements:\n1. The USA ranked first with a share of 26.3%.\n2. India ranked fifth with a share of 3.45%.\n3. Japan ranked third with a share of 4.0%.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F18",
+    "P3.F21",
+    "P3.F22"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the USA ranked first with 26.3%, and India ranked fifth with 3.45%. Statement 3 is incorrect because Japan ranked fourth with 4.0%; Germany ranked third with 4.29%."
+  }
+ ]
+}

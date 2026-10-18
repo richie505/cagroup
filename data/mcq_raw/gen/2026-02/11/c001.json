@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First policy",
+   "question": "Consider the following statements:\nStatement A: Karnataka introduced India's first Comprehensive Urban Policy on 13 February 2026.\nStatement B: Kerala introduced India's first Graphene Policy, with the Graphene Innovation Centre at Kalamassery.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "Statement A is false because Kerala, not Karnataka, introduced the first Comprehensive Urban Policy on 13 February 2026. Statement B is true because Kerala's first Graphene Policy included the Graphene Innovation Centre at Kalamassery. The tempting first option is incorrect because it treats the altered State in Statement A as correct."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Musical Road",
+   "question": "Assertion (A): Mumbai's Coastal Road became the site of India's first Musical Road.\nReason (R): The road plays 'Jai Ho' when vehicles travel at 50–60 km/h.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The Assertion is true: the Mumbai Coastal Road between Nariman Point and Worli was India's first Musical Road. The Reason is false because 'Jai Ho' plays at 70–80 km/h, not 50–60 km/h. The first option is therefore incorrect because the speed stated in the Reason is wrong."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "First infrastructure facilities",
+   "question": "Consider the following statements about first-of-their-kind facilities reported in February 2026:\n1. V.O. Chidambaranar Port at Tuticorin became the site of India's first port anti-drone system.\n2. Moran Bypass in Dibrugarh became the first Emergency Landing Facility in the Northeast.\n3. The Gohpur–Numaligarh project is India's first underwater road-cum-rail tunnel under the Ganga.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the first port anti-drone system was installed at V.O. Chidambaranar Port, and the Northeast's first Emergency Landing Facility is at Moran Bypass in Dibrugarh. Statement 3 is incorrect because the Gohpur–Numaligarh tunnel is under the Brahmaputra, not the Ganga. The tempting fourth option is wrong due to this changed river."
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Project location and capacity",
+   "question": "Waaree Energies’ integrated lithium-ion battery gigafactory, described as India’s largest, is being established at which location with a planned capacity of 16 GWh?",
+   "options": [
+    "Rambilli, Anakapalli district",
+    "Poodimadaka, Visakhapatnam district",
+    "Lambasingi, Alluri Sitharama Raju district",
+    "Kuppam, Chittoor district"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2"
+   ],
+   "explanation": "Waaree Energies’ integrated lithium-ion battery gigafactory is being established at Rambilli in Anakapalli district, with a planned capacity of 16 GWh. Poodimadaka is associated with the green urea plant, not this battery project."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Project partners",
+   "question": "India’s first large-scale indigenous green urea plant at the Poodimadaka Green Hydrogen Hub is being established through an MoU between which two organisations?",
+   "options": [
+    "NTPC Green Energy and Asago Industries",
+    "Waaree Energies and Asago Industries",
+    "NTPC Green Energy and e-Motorad",
+    "Waaree Energies and NTPC Green Energy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2"
+   ],
+   "explanation": "The MoU for India’s first large-scale indigenous green urea plant was signed between NTPC Green Energy and Asago Industries. The project site is the Poodimadaka Green Hydrogen Hub near Visakhapatnam."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Guinness World Record",
+   "question": "With reference to the ‘Green & Healthy Kuppam’ initiative, identify the incorrect statement.",
+   "options": [
+    "Kuppam recorded a Guinness World Record for distributing 5,555 electric cycles within 24 hours.",
+    "The initiative was led by Chief Minister N. Chandrababu Naidu.",
+    "The electric cycles were supplied by e-Motorad and assembled at its Kuppam unit.",
+    "The electric cycles had a range of up to 50 km per charge."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2",
+    "P12.F4",
+    "P12.F8"
+   ],
+   "explanation": "The incorrect statement is that the electric cycles had a range of up to 50 km per charge; their range was up to 60 km per charge. Kuppam distributed 5,555 electric cycles within 24 hours under the initiative led by N. Chandrababu Naidu, with e-Motorad as the supplier."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "E-cycle price",
+   "question": "Under the Kuppam electric-cycle initiative, what was the subsidised price of an e-cycle?",
+   "options": [
+    "₹23,999",
+    "₹34,999",
+    "₹8,175 crore",
+    "₹14,000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F6"
+   ],
+   "explanation": "The subsidised price of an e-cycle was ₹23,999. The market price was ₹34,999, making it the tempting alternative; ₹8,175 crore relates to the Waaree battery gigafactory project."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Population policy and development targets",
+   "question": "Consider the following statements regarding Andhra Pradesh’s proposed Population Management Policy and associated development plans:\n1. The P4 model is intended to reduce inequality.\n2. India’s first Cocoa City is planned near Eluru.\n3. Andhra Pradesh has set a target of becoming HIV/AIDS-free by 2027.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "all statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F4",
+    "P13.F7",
+    "P13.F10"
+   ],
+   "explanation": "All three statements are correct. The P4 model is intended to reduce inequality, the first Cocoa City is planned near Eluru, and Andhra Pradesh has set a target of becoming HIV/AIDS-free by 2027."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Policy announcement and review venue",
+   "question": "Assertion (A): Andhra Pradesh announced that it would frame a Population Management Policy.\nReason (R): The review on the policy was held at the Secretariat in Visakhapatnam.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "Assertion (A) is true because the Chief Minister announced that Andhra Pradesh would frame a Population Management Policy. Reason (R) is false: the review was held at the Secretariat in Vijayawada, not Visakhapatnam."
+  }
+ ]
+}

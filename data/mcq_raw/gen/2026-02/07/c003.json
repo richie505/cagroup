@@ -1,0 +1,119 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First national guidelines; policy provision",
+   "question": "Consider the following statements regarding the NDMA guidelines and SOPs for Disaster Victim Identification (DVI):\nStatement A: They are India's first-ever national guidelines and SOPs for DVI.\nStatement B: The guidelines mandate mass autopsies.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F5"
+   ],
+   "explanation": "Statement A is correct because NDMA issued India's first-ever national guidelines and SOPs for DVI. Statement B is incorrect: mass autopsies are discouraged, not mandated."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Species and location",
+   "question": "Which newly discovered species is an orchid recorded from Kanthalloor and Marayur in Idukki, Kerala?",
+   "options": [
+    "Diplocentrum papillosum",
+    "Dicliptera pakhalika",
+    "Impatiens nagorum",
+    "Arisaema siahaense"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F7",
+    "P6.F11",
+    "P6.F13"
+   ],
+   "explanation": "Diplocentrum papillosum is the orchid discovered at Kanthalloor and Marayur in Idukki, Kerala. Dicliptera pakhalika, Impatiens nagorum and Arisaema siahaense are respectively a flowering plant from Telangana, a balsam from Nagaland and a cobra lily from Mizoram."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "New species and discovery location",
+   "question": "Which of the following statements about species discovered in February 2026 is incorrect?",
+   "options": [
+    "Diplocentrum papillosum is an orchid recorded from Kanthalloor and Marayur in Idukki, Kerala.",
+    "Titanidiops kolhapurensis is a trapdoor spider found in the Kolhapur grasslands.",
+    "Polyrhachis garbhangensis is a spiny ant recorded from Garbhanga RF near Guwahati.",
+    "Lepidocampa sikkimensis is the second Diplura described by Indians and was recorded from Ravangla, Sikkim."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F3",
+    "P6.F4",
+    "P6.F8"
+   ],
+   "explanation": "The incorrect statement is the fourth one. Lepidocampa sikkimensis was the first Diplura described by Indians, not the second; it was recorded from Ravangla, Sikkim."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Project Tiger and wildlife census findings",
+   "question": "Consider the following statements about the wildlife updates of 2026:\n1. Project Tiger was launched in 1973.\n2. The lion-tailed macaque study recorded about 900 macaques in 37 groups.\n3. The Odisha Dolphin Census 2026 recorded 756 dolphins.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F5"
+   ],
+   "explanation": "Only statement 1 is correct: Project Tiger was launched in 1973. The lion-tailed macaque study recorded about 800 macaques in 37 groups, and the Odisha Dolphin Census 2026 recorded 765 dolphins."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Odisha Dolphin Census result",
+   "question": "Assertion (A): The Odisha Dolphin Census 2026 recorded 765 dolphins, the highest number in five years.\nReason (R): The census recorded 756 dolphins.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "Assertion A is true because the Odisha Dolphin Census 2026 recorded 765 dolphins, the highest in five years. Reason R is false because the reported count was 765, not 756."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Lake restoration and geographical features",
+   "question": "How many of the following statements about Dal Lake and Futala Lake are correct?\n1. The Jammu and Kashmir Government cancelled a ₹416.72 crore restoration plan for Dal Lake.\n2. Futala Lake is a man-made lake in Nagpur built under Bhonsle rule in the 18th century.\n3. Dal Lake was built under Bhonsle rule in the 18th century.\n4. Futala Lake drains into the Jhelum.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F3"
+   ],
+   "explanation": "Only two statements are correct: the ₹416.72 crore Dal Lake restoration plan was cancelled, and Futala Lake is a man-made Nagpur lake built under Bhonsle rule in the 18th century. The Bhonsle-rule detail belongs to Futala Lake, while Dal Lake drains into the Jhelum; Futala Lake is threatened by sewage."
+  }
+ ]
+}

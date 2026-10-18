@@ -1,0 +1,81 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment",
+   "question": "Who was appointed CEO of NITI Aayog in February 2026, succeeding B.V.R. Subrahmanyam?",
+   "options": [
+    "Nidhi Chhibber",
+    "Deepak Gupta",
+    "Uday Kotak",
+    "Gyaneshwar Kumar Singh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2",
+    "P10.F3",
+    "P10.F6"
+   ],
+   "explanation": "Nidhi Chhibber was appointed CEO of NITI Aayog after B.V.R. Subrahmanyam. Deepak Gupta was appointed CMD of GAIL, while Uday Kotak became Chairman of GIFT City and Gyaneshwar Kumar Singh chaired the IICA EoDB advisory panel."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Committee chairperson",
+   "question": "Consider the following statements:\nStatement A: Ajay Sawhney was appointed chair of the MeitY committee to modernise DigiLocker rules.\nStatement B: Prof. Balaraman Ravindran was appointed chair of the MeitY committee to modernise DigiLocker rules.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F5",
+    "P10.F7"
+   ],
+   "explanation": "Statement A is true: Ajay Sawhney chaired the MeitY committee for modernising DigiLocker rules, including the proposed “Entity Locker”. Statement B is false because Prof. Balaraman Ravindran was appointed to the UN Independent Scientific Committee on AI."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award and work",
+   "question": "Who won the 1983 Oscar for Best Actor for *Tender Mercies*?",
+   "options": [
+    "Robert Duvall",
+    "Catherine O'Hara",
+    "André Béteille",
+    "Hugh Gantzer"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F4",
+    "P11.F5",
+    "P11.F6"
+   ],
+   "explanation": "Robert Duvall won the 1983 Oscar for Best Actor for *Tender Mercies*. Catherine O'Hara was known for *Home Alone*, André Béteille was a sociologist, and Hugh Gantzer was a travel writer and former Navy Commander."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Person in news",
+   "question": "Assertion (A): David J. Farber was 84 years old when he died.\nReason (R): David J. Farber was known as the “grandfather of the internet”.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "Assertion A is false: David J. Farber died at the age of 91. Reason R is true, as he was known as the “grandfather of the internet”; therefore, the correct option is that A is false but R is true."
+  }
+ ]
+}

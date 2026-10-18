@@ -1,0 +1,93 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation conducting census",
+   "question": "The DNA-based Synchronous All-India Population Estimation of elephants for 2021–25 was conducted by which organisation under Project Elephant?",
+   "options": [
+    "Wildlife Institute of India",
+    "Project Elephant",
+    "Indian Space Research Organisation",
+    "npj Natural Hazards"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "The census was conducted by the Wildlife Institute of India under Project Elephant, which began in 1992. Project Elephant is the programme framework, not the organisation that conducted the estimation."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Causes of elephant conflict",
+   "question": "Which of the following statements regarding the causes of the elephant emergency in central India is incorrect?",
+   "options": [
+    "Droughts in 1982–83 and 1986–87 were associated with El Niño.",
+    "Mining in Singhbhum, Keonjhar and Sundargarh contributed to the conflict.",
+    "The Rengali Dam was constructed in 1995 and contributed to the conflict.",
+    "Linear infrastructure was also identified as a cause."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "The incorrect statement changes the year of the Rengali Dam from 1985 to 1995. Droughts, mining, the Rengali Dam and linear infrastructure were identified as causes of elephant conflict."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Population at risk",
+   "question": "A January 2026 study in npj Natural Hazards stated that approximately how many people downstream were at risk from poorly assessed GLOF hazards in the Himalaya–Karakoram?",
+   "options": [
+    "1 million",
+    "5,000",
+    "55",
+    "388"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The study estimated that approximately 1 million people downstream were at risk. The figures 5,000 and 55 refer to deaths in specific GLOF-related events, while 388 refers to recorded GLOF events."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Driver of GLOF risk",
+   "question": "Assertion (A): Elevation-dependent warming is a driver of glacial lake outburst flood risk.\nReason (R): Lake-terminating glaciers retreat slower than other glaciers.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F14"
+   ],
+   "explanation": "Assertion A is true because elevation-dependent warming is identified as a driver of GLOF risk. Reason R is false: lake-terminating glaciers retreat faster, not slower."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GLOF event distribution",
+   "question": "With reference to the recorded GLOF events, consider the following statements:\n1. Pakistan recorded 131 GLOF events.\n2. Moraine-dammed lakes accounted for 163 events.\n3. India recorded 54 GLOF events.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8",
+    "P4.F10",
+    "P4.F11",
+    "P4.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Pakistan recorded 131 events and moraine-dammed lakes accounted for 163 events. Statement 3 is incorrect because India recorded 59 events; 54 events were recorded in Nepal."
+  }
+ ]
+}

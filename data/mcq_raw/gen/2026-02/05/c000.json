@@ -1,0 +1,61 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Tariff cut",
+   "question": "Under the India–US trade deal, what reciprocal tariff will the United States impose on Indian goods?",
+   "options": [
+    "18%",
+    "25%",
+    "20%",
+    "30–35%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The reciprocal US tariff on Indian goods was reduced from 25% to 18%. The tempting figure of 25% was the earlier tariff rate before the deal."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "GSP status and commitments",
+   "question": "Which of the following statements regarding the India–US trade deal is incorrect?",
+   "options": [
+    "The additional 25% punitive duty imposed over Russian oil purchases was removed.",
+    "India has regained Generalised System of Preferences (GSP), which was withdrawn in 2019.",
+    "India is expected to make purchases of up to USD 500 billion of US energy, agriculture, coal and technology.",
+    "Mission 500 aims to raise bilateral trade to USD 500 billion by 2030."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F3",
+    "P0.F4",
+    "P0.F9"
+   ],
+   "explanation": "India has not regained GSP; it was withdrawn in 2019. The other statements correctly describe the removal of the additional 25% duty, expected purchases of up to USD 500 billion, and the Mission 500 target of USD 500 billion by 2030."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Bilateral Trade Agreement access",
+   "question": "With reference to the market-access provisions of the India–US Bilateral Trade Agreement, consider the following statements:\n1. India will receive preferential access to the USD 30-trillion US market.\n2. An 18% rate will apply to USD 900 billion of US imports.\n3. Zero duty will apply to USD 180 billion of US imports.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the agreement provides preferential access to a USD 30-trillion US market and an 18% rate on USD 900 billion of US imports. Statement 3 is incorrect because the zero-duty provision covers USD 150 billion, not USD 180 billion."
+  }
+ ]
+}

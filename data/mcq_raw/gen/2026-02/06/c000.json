@@ -1,0 +1,110 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Inauguration and venue",
+   "question": "Who inaugurated the India AI Impact Expo 2026, and where was it held?",
+   "options": [
+    "Prime Minister Narendra Modi at Bharat Mandapam, New Delhi",
+    "Rajnath Singh at Samudrika Auditorium, Visakhapatnam",
+    "President Droupadi Murmu at the Eastern Naval Command Officers' Mess",
+    "MeitY at India International Convention Centre, New Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Prime Minister Narendra Modi inaugurated the India AI Impact Expo on 16 February 2026 at Bharat Mandapam, New Delhi. Samudrika Auditorium in Visakhapatnam was associated with the inauguration of MILAN 2026, not the AI Expo."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Dates and global character",
+   "question": "With reference to the India AI Impact Summit 2026, consider the following statements:\n1. It was the first global AI summit hosted in the Global South.\n2. The summit was held from 16 to 20 February 2026.\n3. The Expo had 8 pavilions.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F11",
+    "P0.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: it was the first global AI summit hosted in the Global South and was held from 16 to 20 February 2026. Statement 3 is incorrect because the Expo had 10+ pavilions, not 8."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "MANAV Vision",
+   "question": "Assertion (A): MANAV Vision was announced by Prime Minister Narendra Modi as a human-centric AI governance vision.\nReason (R): MANAV includes human-centric AI governance, “AI for All” and data sovereignty.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. MANAV Vision, announced by Prime Minister Narendra Modi, focuses on human-centric AI governance and includes “AI for All” and data sovereignty, which explains the Assertion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme and spirit",
+   "question": "What was the theme or spirit of the International Fleet Review 2026 held at Visakhapatnam?",
+   "options": [
+    "United through Oceans",
+    "Sarvajan Hitaya, Sarvajan Sukhaya",
+    "AI for All",
+    "Act East and SAGAR"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The theme or spirit of the International Fleet Review 2026 was “United through Oceans.” “Sarvajan Hitaya, Sarvajan Sukhaya” was the theme of the India AI Impact Summit 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inaugurated by and venue",
+   "question": "Who inaugurated Exercise MILAN 2026 at Visakhapatnam, and at which venue?",
+   "options": [
+    "Rajnath Singh at Samudrika Auditorium",
+    "Prime Minister Narendra Modi at Bharat Mandapam",
+    "President Droupadi Murmu at the Presidential Yacht INS Sumedha",
+    "Admiral Dinesh K. Tripathi at the Eastern Naval Command Officers' Mess"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Rajnath Singh inaugurated MILAN 2026 at Samudrika Auditorium, Visakhapatnam. Bharat Mandapam was the venue of the India AI Impact Expo, while INS Sumedha was used by the President during the Fleet Review."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Origin and first edition",
+   "question": "Which of the following statements about the origin of Exercise MILAN is incorrect?",
+   "options": [
+    "MILAN was first held in 1995 at Port Blair.",
+    "The first edition involved Indonesia, Singapore, Sri Lanka and Thailand.",
+    "MILAN was born under the Look East Policy.",
+    "MILAN was first held in 2005 at Visakhapatnam."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6"
+   ],
+   "explanation": "The incorrect statement is that MILAN was first held in 2005 at Visakhapatnam. Its first edition was held in 1995 at Port Blair with Indonesia, Singapore, Sri Lanka and Thailand; it originated under the Look East Policy."
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Flagged off by",
+   "question": "Who flagged off the Indian expedition to Mount Aconcagua in New Delhi on 5 February 2026?",
+   "options": [
+    "Rajnath Singh",
+    "Col. Hem Chandra Singh",
+    "Nehru Institute of Mountaineering",
+    "Jammu and Kashmir Institute of Mountaineering and Winter Sports"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "Rajnath Singh flagged off the Indian expedition to Mount Aconcagua in New Delhi on 5 February 2026. Col. Hem Chandra Singh led the six-member team, but he did not flag off the expedition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First/only",
+   "question": "Who became the first Asian para-swimmer to cross Cook Strait?",
+   "options": [
+    "Satendra Singh Lohia",
+    "Munni",
+    "Alpi Akter",
+    "Magnus Carlsen"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P7.F2",
+    "P8.F2"
+   ],
+   "explanation": "Satendra Singh Lohia became the first Asian para-swimmer to cross Cook Strait. Munni was the best goalkeeper in the SAFF U-19 Women’s Championship, while Alpi Akter was its MVP and Magnus Carlsen won the FIDE Freestyle Chess World Championship."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Football tournament results",
+   "question": "With reference to the football events of February 2026, consider the following statements:\n1. Services defeated Kerala 1–0 at Dhakuakhana, Assam, to win their 8th Santosh Trophy title.\n2. India defeated Bangladesh 4–0 at Pokhara, Nepal, in the SAFF U-19 Women’s Championship, and Munni was named the best goalkeeper.\n3. The UAE was included among the six bids for the 2031 AFC Asian Cup.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The UAE withdrew from the 2031 AFC Asian Cup bidding process, so statement 3 is incorrect; the six bids included India, Australia, Indonesia, South Korea, Kuwait and the joint Kyrgyzstan–Tajikistan–Uzbekistan bid."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Medal tally",
+   "question": "Consider the following statements:\nStatement A: India topped the Asian Rifle/Pistol Championship 2026 with 94 medals.\nStatement B: Magnus Carlsen defeated Fabiano Caruana 2.5–1.5 at Gulmarg, India, in the FIDE Freestyle Chess World Championship 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "Statement A is true: India topped the Asian Rifle/Pistol Championship 2026 with 94 medals. Statement B is false because Carlsen defeated Caruana 2.5–1.5 at Weissenhaus, Germany, not Gulmarg."
+  }
+ ]
+}

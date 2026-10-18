@@ -1,0 +1,94 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First-of-its-kind programme",
+   "question": "Which IIT introduced the first-of-its-kind M.Tech programme in Defence Technology for officers of the Army’s Armoured Corps Centre & School?",
+   "options": [
+    "IIT Kanpur",
+    "IIT Delhi",
+    "IIT Ropar",
+    "IIT Hyderabad"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "IIT Ropar introduced the first-of-its-kind M.Tech in Defence Technology for officers of the Army’s Armoured Corps Centre & School. IIT Delhi’s February 2026 development concerned forecasting flows of 208 rivers, not this defence technology programme."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "AI hydrological forecasting",
+   "question": "Assertion (A): IIT Delhi developed an AI-enabled hydrological model to forecast the flows of 208 rivers.\nReason (R): The model was trained using data from 220 gauge stations collected over 20 years.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "Both the assertion and the reason are true. Training the AI and hydrological model on data from 220 gauge stations over 20 years provides the basis for forecasting the flows of 208 rivers; therefore, the first option is correct."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Science and health innovations",
+   "question": "Consider the following statements about innovations reported in February 2026:\n1. The Wave-Propelled Vertical Profiler developed by NIOT Chennai uses wave energy.\n2. Google DeepMind’s AlphaGenome predicts DNA mutations and gene regulation.\n3. Kyasanur Forest Disease is transmitted from person to person.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F4",
+    "P14.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the NIOT Chennai profiler uses wave energy, while AlphaGenome predicts DNA mutations and gene regulation. Statement 3 is incorrect because Kyasanur Forest Disease is not transmitted from person to person; therefore, exactly two statements are correct."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Vaccine launch and programme",
+   "question": "Consider the following statements about the indigenous tetanus and Td vaccines:\nStatement A: They were launched by J.P. Nadda at CRI Kasauli.\nStatement B: They were launched under UIP (1905).",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F5"
+   ],
+   "explanation": "Statement A is true: J.P. Nadda launched the indigenous tetanus and Td vaccines at CRI Kasauli. Statement B is false because the vaccines were launched under UIP (1985), not UIP (1905); 1905 is the establishment year of CRI Kasauli."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "INCOIS ocean services",
+   "question": "How many of the following statements correctly describe INCOIS ocean services and warning facilities reported in February 2026?\n1. JellyAIIP provides AI-based jellyfish alerts.\n2. SAMUDRA 2.0 is an app.\n3. SIVAS is used for ocean data visualisation.\n4. The Indian Tsunami Early Warning Centre provides alerts within 5 minutes.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F2"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: JellyAIIP provides AI jellyfish alerts, SAMUDRA 2.0 is an app, and SIVAS provides ocean data visualisation. Statement 4 is incorrect because the Indian Tsunami Early Warning Centre issues alerts within 10 minutes, so only three statements are correct."
+  }
+ ]
+}

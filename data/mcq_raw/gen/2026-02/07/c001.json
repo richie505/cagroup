@@ -1,0 +1,117 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Verdict",
+   "question": "What was the National Green Tribunal’s decision on the environmental clearance for the Great Nicobar Island Project in its order dated 16 February 2026?",
+   "options": [
+    "It upheld the environmental clearance, observing that adequate safeguards were in place.",
+    "It cancelled the environmental clearance and ordered immediate restoration of the project area.",
+    "It transferred the environmental clearance decision to the Ministry of Tribal Affairs.",
+    "It dismissed the environmental clearance after accepting all fresh petitions."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F13"
+   ],
+   "explanation": "The NGT upheld the environmental clearance for the Great Nicobar Island Project, noting the presence of adequate safeguards. The most tempting wrong option is cancellation of the clearance, but the Tribunal upheld rather than cancelled it."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Project components and conception",
+   "question": "Consider the following statements about the Great Nicobar Island Project:\n1. The project was conceived by NITI Aayog and launched in 2021.\n2. Its components include an International Container Transshipment Terminal and a greenfield international airport.\n3. The island has less than 75% forest cover.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F4",
+    "P1.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the project was conceived by NITI Aayog, launched in 2021, and includes the ICTT and a greenfield international airport. Statement 3 is incorrect because the island’s forest cover is 75% or more."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Geographical features",
+   "question": "Which of the following statements regarding geographical features associated with the Andaman and Nicobar and Lakshadweep island groups is incorrect?",
+   "options": [
+    "The Ten Degree Channel separates the Andaman Islands from the Nicobar Islands.",
+    "The Nine Degree Channel separates Minicoy from the rest of Lakshadweep.",
+    "The Eight Degree Channel separates Minicoy from the Maldives.",
+    "Barren Island is India’s only active volcano and lies approximately 135 km south-east of Port Blair."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "The incorrect statement places Barren Island south-east of Port Blair. Barren Island lies approximately 135 km north-east of Port Blair; the channel descriptions in the other options are correct."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Effective date and waste hierarchy",
+   "question": "With reference to the Solid Waste Management Rules, 2026, consider the following statements:\nStatement A: The Rules come into force on 1 April 2026 and replace the Solid Waste Management Rules, 2022.\nStatement B: The prescribed hierarchy places prevention before reduction, reuse, recycling, recovery and disposal.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F3"
+   ],
+   "explanation": "Statement A is false because the Solid Waste Management Rules, 2026 replace the Solid Waste Management Rules, 2016, not the Rules of 2022. Statement B is true because prevention is followed by reduction, reuse, recycling, recovery and finally disposal."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Four-stream segregation",
+   "question": "With reference to the Solid Waste Management Rules, 2026:\nAssertion (A): The Rules mandate segregation of waste into three streams.\nReason (R): The mandatory streams are wet, dry, sanitary and special-care waste.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5",
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "The assertion is false because the Rules mandate four streams: wet, dry, sanitary and special-care waste. The reason is true and identifies all four mandatory streams, while the earlier framework had three categories."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Four-bin colour coding",
+   "question": "With reference to the four-bin colour coding under the Solid Waste Management Rules, 2026, consider the following statements:\n1. The green bin is meant for wet waste.\n2. The blue bin is meant for sanitary waste.\n3. The red bin is meant for special-care waste.\n4. The black bin is meant for dry waste.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F18",
+    "P2.F19",
+    "P2.F20",
+    "P2.F21"
+   ],
+   "explanation": "Only statement 1 is correct: the green bin is meant for wet waste. Dry waste goes into the blue bin, sanitary waste into the red bin and special-care waste into the black bin, making statements 2, 3 and 4 incorrect."
+  }
+ ]
+}

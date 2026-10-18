@@ -1,0 +1,114 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic partnership",
+   "question": "Andhra Pradesh signed a strategic partnership covering technology, AI, health, education and agriculture with which organisation?",
+   "options": [
+    "Gates Foundation",
+    "Microsoft",
+    "ORF",
+    "AWARE"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Andhra Pradesh signed the strategic partnership with the Gates Foundation, covering technology, AI, health, education and agriculture. Microsoft was associated with the 1997 meeting recalled by the Chief Minister, not the partnership named here."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Swarnandhra Vision-2047 targets",
+   "question": "With reference to the Swarnandhra Vision-2047 targets, consider the following statements:\n1. The economy is targeted to rise from $180 billion to $2.4 trillion.\n2. Per capita income is targeted to rise from $3,400 to $42,000.\n3. Literacy is targeted to rise from 72% to 80%.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4",
+    "P2.F7"
+   ],
+   "explanation": "Exactly two statements are correct: the economy target is $2.4 trillion from $180 billion, and the per capita income target is $42,000 from $3,400. The literacy target is 100%, not 80%."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Technology cluster locations",
+   "question": "Consider the following statements:\nStatement A: The Quantum Valley technology cluster is located in Visakhapatnam.\nStatement B: The Drone City technology cluster is located in Kakinada.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F10",
+    "P2.F12",
+    "P2.F13"
+   ],
+   "explanation": "Both Statement A and Statement B are false. Quantum Valley is located in Amaravati, while Drone City is located in Orvakal; Kakinada is associated with the Green Hydrogen Valley."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Quantum training initiative",
+   "question": "Assertion (A): The APSCHE quantum initiative was aligned with the International Year of Quantum Science and Technology, 2025.\nReason (R): The International Year of Quantum Science and Technology marked 50 years of quantum mechanics.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "The assertion is true: the APSCHE initiative was aligned with the International Year of Quantum Science and Technology, 2025. The reason is false because the year marked 100 years of quantum mechanics, not 50 years."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Hackathon awards and participation",
+   "question": "With reference to the Amaravati Quantum Valley Hackathon 2025, identify the incorrect statement:",
+   "options": [
+    "The hackathon involved 94 institutions and more than 100 teams.",
+    "Every team mandatorily included a girl student.",
+    "There were 10 winners and 10 runners-up.",
+    "120 students were awarded ₹80 lakh."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F6"
+   ],
+   "explanation": "The incorrect statement changes the award amount: 120 students were awarded ₹8 lakh, not ₹80 lakh. The other statements correctly describe the institutions and teams, the 10 winners and 10 runners-up, and the mandatory inclusion of a girl student in every team."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AI–Quantum Centre of Excellence",
+   "question": "At the AI Impact Summit, the proposed AI–Quantum Centre of Excellence with the UN International Computing Centre was to be established by year-end at which location?",
+   "options": [
+    "Amaravati Quantum Valley",
+    "Bharat Mandapam",
+    "Geneva",
+    "Uddandarayunipalem"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F3",
+    "P4.F4"
+   ],
+   "explanation": "The AI–Quantum Centre of Excellence with the UN International Computing Centre was proposed for Amaravati Quantum Valley as an AI–Quantum Digital Embassy. Bharat Mandapam was the venue where the MoUs were signed, while Geneva is associated with the establishment of the UN International Computing Centre."
+  }
+ ]
+}
