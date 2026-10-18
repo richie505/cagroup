@@ -1,0 +1,149 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Chairmanship",
+   "question": "Which country assumed the chairmanship of the Kimberley Process in 2026?",
+   "options": [
+    "India",
+    "GJEPC",
+    "European Union",
+    "Department of Commerce"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F8"
+   ],
+   "explanation": "India assumed the chairmanship of the Kimberley Process in 2026. GJEPC is the nodal agency for India’s diamond sector, while the European Union and Department of Commerce are not the chairing entity mentioned here."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Institutional structure and legal character",
+   "question": "Consider the following statements about the Kimberley Process:\n1. India has been a member of the Kimberley Process since 2003.\n2. The Kimberley Process is legally binding on its participants.\n3. The Kimberley Process has 60 participants, with the European Union counted as one participant.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F4",
+    "P4.F5"
+   ],
+   "explanation": "Statements 1 and 3 are correct: India has been a member since 2003, and the process has 60 participants with the European Union counted as one. Statement 2 is incorrect because the Kimberley Process is voluntary and not legally binding."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Which vessel sank in international waters south of Sri Lanka near Galle in March 2026 after the International Fleet Review 2026?",
+   "options": [
+    "IRIS Dena",
+    "Sri Lankan Navy",
+    "International Fleet Review 2026",
+    "UNCLOS"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "The Iranian Navy frigate IRIS Dena sank south of Sri Lanka near Galle after the International Fleet Review 2026. The Sri Lankan Navy carried out the rescue, while UNCLOS is the convention relevant to the maritime-law context."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Maritime jurisdiction and convention",
+   "question": "Consider the following statements:\nStatement A: The sinking of IRIS Dena occurred outside Sri Lanka’s 12 nm territorial sea but within its Search and Rescue region.\nStatement B: UNCLOS was adopted on 10 December 1982 at Montego Bay, Jamaica.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F4"
+   ],
+   "explanation": "Both statements are true. IRIS Dena sank outside Sri Lanka’s 12 nm territorial sea but within its Search and Rescue region, and UNCLOS was adopted on 10 December 1982 at Montego Bay, Jamaica."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "FATF grey list",
+   "question": "Assertion (A): Kuwait and Papua New Guinea were added to the FATF black list.\nReason (R): The FATF grey list covers jurisdictions with strategic AML/CFT deficiencies under increased monitoring.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F4"
+   ],
+   "explanation": "Assertion A is false, but Reason R is true. Kuwait and Papua New Guinea were added to the FATF grey list, also called the Increased Monitoring List; the black list concerns high-risk jurisdictions that may face sanctions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UNSC reform",
+   "question": "Who called for reform of the United Nations Security Council, arguing that misuse of the veto and the absence of permanent seats for Africa and Latin America undermine its legitimacy?",
+   "options": [
+    "António Guterres",
+    "Dr. Tedros Adhanom Ghebreyesus",
+    "Elisa de Anda Madrazo",
+    "Javier Milei"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "UN Secretary-General António Guterres called for reform of the United Nations Security Council. Dr. Tedros Adhanom Ghebreyesus is the Director-General of WHO, Elisa de Anda Madrazo chaired the FATF Plenary, and Javier Milei is Argentina’s President."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Withdrawal from international organisation",
+   "question": "Which country formally left the World Health Organization in March 2026 after giving one year’s notice?",
+   "options": [
+    "Argentina",
+    "United States of America",
+    "Kuwait",
+    "Papua New Guinea"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F3"
+   ],
+   "explanation": "Argentina formally left the WHO in March 2026 after the required one-year notice. The United States had withdrawn from the WHO in January 2026, while Kuwait and Papua New Guinea were associated with the FATF grey-list development."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First in region",
+   "question": "Which country became the first in Southeast Asia to bar digital-platform use by children under 16?",
+   "options": [
+    "Indonesia",
+    "Argentina",
+    "Kuwait",
+    "Papua New Guinea"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "Indonesia became the first country in Southeast Asia to bar digital-platform use by children under 16. Argentina, Kuwait and Papua New Guinea are not identified with this Southeast Asian digital-platform measure."
+  }
+ ]
+}

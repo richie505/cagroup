@@ -1,0 +1,115 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Public capex trend",
+   "question": "According to the infrastructure financing trends, public capital expenditure increased to what level in 2026–27?",
+   "options": [
+    "₹12.2 lakh crore",
+    "₹2 lakh crore",
+    "~USD 2.2 trillion",
+    "6% of infrastructure investment"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2"
+   ],
+   "explanation": "Public capital expenditure rose to ₹12.2 lakh crore in 2026–27 from ₹2 lakh crore in 2014–15. ~USD 2.2 trillion refers to the infrastructure financing need, while 6% refers to the allocation by insurance and pension funds."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Institutional roles in infrastructure financing",
+   "question": "Match the institutions and instruments with their respective roles in infrastructure financing.\n\nList-I\n(a) NIIF\n(b) NaBFID\n(c) InvITs\n(d) REITs\n\nList-II\n(i) Small investors in real estate\n(ii) Mobilises global and domestic capital\n(iii) Long-term infrastructure finance and ESG financing\n(iv) Monetises completed infrastructure assets",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4",
+    "P12.F5",
+    "P12.F7",
+    "P12.F8"
+   ],
+   "explanation": "The correct pairs are NIIF–mobilises global and domestic capital, NaBFID–long-term infrastructure and ESG financing, InvITs–monetise completed infrastructure assets, and REITs–small investors in real estate. The other codes interchange these institutional roles."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Digital governance and market tools",
+   "question": "Which of the following statements regarding the digital governance and market tools is incorrect?",
+   "options": [
+    "PRARAMBH begins income-tax awareness from 1 April 2026 for the Income Tax Act 2025, which replaces the Income Tax Act 1961, and includes the “Kar Saathi” AI chatbot.",
+    "SEBI’s “Sudarshan” is an in-house AI tool for monitoring finfluencers, and it helped remove 1.20 lakh+ false posts.",
+    "UIDAI’s bug bounty programme concerns Aadhaar security; UIDAI was established in 2009 and its CEO is Bhavesh Kumar.",
+    "Hyped Samvadini is an AICTE indigenous messenger whose “Jeni Keyboard” provides translation in 2009+ languages."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2",
+    "P13.F3",
+    "P13.F4"
+   ],
+   "explanation": "The incorrect statement is the one claiming that Jeni Keyboard supports translation in 2009+ languages. Its stated capability is translation in 55+ languages; the other three statements correctly describe PRARAMBH, SEBI’s Sudarshan, and UIDAI’s bug bounty."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Mission Anveshan and institutional partnership",
+   "question": "Assertion (A): Mission Anveshan uses satellite imagery for oil and gas exploration.\nReason (R): Mission Anveshan is associated with ONGC and Alpha Geo.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: Mission Anveshan uses satellite imagery for oil and gas exploration and is associated with ONGC and Alpha Geo. However, the association with ONGC and Alpha Geo does not explain why satellite imagery is used."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Telangana Budget size and capital expenditure",
+   "question": "Consider the following statements:\nStatement A: The total outlay of the Telangana Budget 2026–27 is ₹3,24,234 crore.\nStatement B: The capital expenditure proposed in the Telangana Budget 2026–27 is ₹47,267 crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "Both statements are true. The Telangana Budget 2026–27 has a total outlay of ₹3,24,234 crore and provides ₹47,267 crore for capital expenditure."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Telangana Budget key numbers",
+   "question": "With reference to the Telangana Budget 2026–27, consider the following statements:\n\n1. The total budget outlay is ₹3,24,234 crore.\n2. Revenue expenditure is ₹47,267 crore.\n3. Capital expenditure is ₹2,34,406 crore.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "Only statement 1 is correct: the total budget outlay is ₹3,24,234 crore. ₹2,34,406 crore is revenue expenditure and ₹47,267 crore is capital expenditure, so statements 2 and 3 interchange these two figures."
+  }
+ ]
+}

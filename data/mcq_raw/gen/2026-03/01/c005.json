@@ -1,0 +1,82 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  26,
+  27,
+  28,
+  29
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Crop rank",
+   "question": "In which crop does Andhra Pradesh rank first in the country, according to the March 2026 agricultural data?",
+   "options": [
+    "Cocoa",
+    "Groundnut",
+    "Coconut",
+    "Samruddhi Centre services"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F1",
+    "P26.F2",
+    "P26.F3"
+   ],
+   "explanation": "Andhra Pradesh ranks first in cocoa cultivation, accounting for about 41% of the area mentioned. Groundnut ranks second and coconut ranks fourth, so those are not the correct choices."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Scheme and connectivity",
+   "question": "Assertion (A): The Samruddhi Centre pilot at Nara Koduru is delivered through BharatNet under the CSC scheme.\nReason (R): The CSC scheme is implemented through BharatNet.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F1",
+    "P27.F2"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the reason explains the connectivity arrangement of the Nara Koduru pilot. Nara Koduru is one of the three pilot Samruddhi Centres, while the CSC scheme operates through BharatNet."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Appointments and programmes",
+   "question": "With reference to recent appointments and programmes in Andhra Pradesh, consider the following statements:\n1. Justice Lisa Gill is the Executive Chairperson of the State Legal Services Authority.\n2. Vetukuri AVSN Raju is the Chairman of the Andhra Pradesh State Commission for Protection of Child Rights.\n3. The “Jan Sunwai” programme of the Andhra Pradesh State Women’s Commission was held from March 9 to 13, 2026, in 12 districts.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F1",
+    "P28.F2",
+    "P28.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Justice Lisa Gill holds the Executive Chairperson post of the State Legal Services Authority, and Vetukuri AVSN Raju chairs the AP SCPCR. Statement 3 is incorrect because “Jan Sunwai” was held in 13 districts, not 12 districts."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Inscription and dynasty",
+   "question": "Consider the following statements:\nStatement A: The Gajapati-era Telugu inscription was found at the Lakshmi Narasimha Swamy Temple in Ramachandrapuram Agraharam, Kakinada district.\nStatement B: The Gajapati Empire was founded by Kapilendra Deva and had Guntur as its capital.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P29.F1",
+    "P29.F2"
+   ],
+   "explanation": "Both statements are false. The inscription was found in Guntur district, not Kakinada district, and the Gajapati Empire had Cuttack as its capital, not Guntur."
+  }
+ ]
+}

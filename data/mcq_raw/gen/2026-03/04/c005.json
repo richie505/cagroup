@@ -1,0 +1,92 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Grid congestion",
+   "question": "In the Rajasthan example of stranded renewable power, which pairing correctly describes the installed renewable-energy capacity and the evacuation capacity?",
+   "options": [
+    "Installed renewable-energy capacity was about 23 GW, while evacuation capacity was about 18.9 GW",
+    "Installed renewable-energy capacity was about 18.9 GW, while evacuation capacity was about 23 GW",
+    "Installed renewable-energy capacity was about 6,000 MW, while evacuation capacity was 600–1,000 MW",
+    "Installed renewable-energy capacity was 600–1,000 MW, while evacuation capacity was about 6,000 MW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "Rajasthan had about 23 GW of installed renewable-energy capacity against evacuation capacity of about 18.9 GW, creating grid congestion. The tempting reverse pairing is incorrect because 23 GW refers to installed capacity, while 18.9 GW refers to evacuation capacity."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Transmission corridor utilisation and cost",
+   "question": "Assertion (A): Rajasthan’s 765 kV double-circuit transmission corridors designed for about 6,000 MW operated at more than 20% utilisation.\nReason (R): Each such corridor costs ₹4,000–5,000 crore.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "Assertion A is false because the corridors operated at only 600–1,000 MW, below 20% utilisation, despite being designed for about 6,000 MW. Reason R is true: each corridor costs ₹4,000–5,000 crore; therefore, the correct choice is that A is false but R is true."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Largest rice producer",
+   "question": "According to the 2024–25 rice production figures, which country did India surpass to become the world’s largest rice producer, with production of 150 million tonnes?",
+   "options": [
+    "China",
+    "Vietnam",
+    "Thailand",
+    "India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "India surpassed China to become the world’s largest rice producer in 2024–25, with production of 150 million tonnes. Vietnam and Thailand are listed as major rice exporters, while India is the country that achieved the production lead."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rice export leadership and volumes",
+   "question": "Consider the following statements about India’s rice exports in 2024–25:\n1. India exported 21.69 million tonnes of rice.\n2. India exported 8.06 million tonnes of rice.\n3. India was not the largest rice exporter since 2011–12.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F4"
+   ],
+   "explanation": "Only statement 1 is correct: India exported 21.69 million tonnes in 2024–25 and has been the largest rice exporter since 2011–12. The figure of 8.06 million tonnes belongs to Vietnam, and statement 3 contradicts India’s export leadership."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Basmati cultivation and irrigation",
+   "question": "Consider the following statements:\nStatement A: Basmati rice earns 2–2.5 times less per kilogram than non-basmati rice.\nStatement B: Basmati rice is transplanted in July during the monsoon, requiring less irrigation.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F9",
+    "P11.F10"
+   ],
+   "explanation": "Statement A is false because basmati earns 2–2.5 times more per kilogram than non-basmati rice. Statement B is true: basmati is transplanted in July during the monsoon, which requires less irrigation; hence, the correct answer is Statement A is false, Statement B is true."
+  }
+ ]
+}

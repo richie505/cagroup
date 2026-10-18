@@ -1,0 +1,153 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Oil-export significance",
+   "question": "Which island in the Persian Gulf handles approximately 90% of Iran’s oil exports?",
+   "options": [
+    "Kharg Island",
+    "Qeshm Island",
+    "South Pars",
+    "Natanz"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "Kharg Island handles approximately 90% of Iran’s oil exports, with terminals having a capacity of about 7 mb/d. Qeshm Island is associated with a desalination-plant attack, while South Pars is a gas field and Natanz is an enrichment complex."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "World’s largest gas field",
+   "question": "South Pars, attacked in March 2026, is best described as which of the following?",
+   "options": [
+    "The world’s largest gas field, shared with Qatar’s North Dome",
+    "Iran’s enrichment complex in Isfahan Province",
+    "Iran’s largest island near the Strait of Hormuz",
+    "An island handling approximately 90% of Iran’s oil exports"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F3",
+    "P12.F4"
+   ],
+   "explanation": "South Pars is the world’s largest gas field and is shared with Qatar’s North Dome; it also supplies about 80% of Iran’s domestic gas. Natanz is the enrichment complex, Qeshm is the largest island near Hormuz, and Kharg handles most of Iran’s oil exports."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Chokepoint geography",
+   "question": "With reference to the Bab-el-Mandeb, identify the incorrect statement.",
+   "options": [
+    "It links the Red Sea to the Gulf of Aden.",
+    "It lies between Yemen, Djibouti and Eritrea.",
+    "Its name means “Gate of Tears”.",
+    "It accounts for approximately 6% of maritime trade."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2",
+    "P13.F4"
+   ],
+   "explanation": "The incorrect statement is that Bab-el-Mandeb accounts for approximately 6% of maritime trade. It carries about 12% of global trade and about 10% of oil and LNG; approximately 6% is the figure associated with the Panama Canal."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Earthquake magnitude and geyser facts",
+   "question": "Consider the following statements regarding geological events reported abroad:\n1. The earthquake in the South Shetland Islands had a magnitude of 6.7.\n2. The Tonga earthquake had a magnitude of 7.6.\n3. Echinus Geyser has a pH range of 6.3–6.6.\nHow many of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2",
+    "P14.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the South Shetland Islands event measured 6.7 and the Tonga event measured 7.6. Statement 3 is incorrect because Echinus Geyser has a pH range of 3.3–3.6."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Confirmed asteroid impact",
+   "question": "Silverpit Crater, reported in the North Sea, is associated with which finding?",
+   "options": [
+    "A confirmed asteroid impact",
+    "A flooded caldera on Deception Island",
+    "A NASA Mars-simulation site",
+    "The world’s largest acidic geyser"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F3",
+    "P14.F4",
+    "P14.F5"
+   ],
+   "explanation": "Silverpit Crater is a confirmed asteroid-impact structure located about 700 m below the seabed and approximately 80 miles off Yorkshire. Deception Island has a flooded caldera, Devon Island is a NASA Mars-simulation site, and Echinus Geyser is the acidic geyser."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Largest tulip garden in Asia",
+   "question": "Which garden in Srinagar is recognised as Asia’s largest tulip garden?",
+   "options": [
+    "Indira Gandhi Memorial Tulip Garden",
+    "Silent Valley National Park",
+    "Upemba National Park",
+    "Nilgiri Biosphere Reserve"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F2",
+    "P15.F3"
+   ],
+   "explanation": "The Indira Gandhi Memorial Tulip Garden at the foothills of the Zabarwan Range by Dal Lake is Asia’s largest tulip garden. Silent Valley is a national park in Kerala, Upemba is in the Democratic Republic of the Congo, and the Nilgiri Biosphere Reserve is a biosphere reserve."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Forest-loss monitoring system",
+   "question": "Consider the following statements about the Anavaran forest-loss alert portal:\nStatement A: The Forest Survey of India’s Anavaran portal has operated since January 2024.\nStatement B: It sends forest-cover-loss alerts to States every 15 days.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1"
+   ],
+   "explanation": "Both statements are true. Anavaran has operated since January 2024 and uses satellite and machine-learning detection to send forest-cover-loss alerts to States every 15 days."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "GI administration",
+   "question": "Assertion (A): The GI Registry is the implementing agency for geographical indications, while DPIIT is located at Chennai.\nReason (R): DPIIT is the implementing agency for the GI Act, 1999, and the GI Registry is located at Chennai.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F3"
+   ],
+   "explanation": "Assertion A is false, but Reason R is true. DPIIT is the implementing agency for the GI Act, 1999, while the GI Registry is located at Chennai; the Assertion reverses these two roles."
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Extension of mission",
+   "question": "Until when was the Jal Jeevan Mission extended by the Union Cabinet?",
+   "options": [
+    "December 2028",
+    "December 2024",
+    "March 2026",
+    "February 2019"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Jal Jeevan Mission was extended until December 2028. December 2024 was associated with the end of Phase I, not the extended deadline."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Instalment amount and release",
+   "question": "What was the total amount released through the 22nd instalment of PM-KISAN on 13 March 2026?",
+   "options": [
+    "₹18,640 crore",
+    "₹2,000 crore",
+    "₹6,000 crore",
+    "₹4.27 lakh crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The 22nd PM-KISAN instalment involved a total release of ₹18,640 crore to approximately 9.32 crore farmers. ₹2,000 was the amount per farmer, while ₹6,000 is the annual benefit under the scheme."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Objective of vaccination programme",
+   "question": "The nationwide HPV vaccination programme launched at Ajmer in March 2026 aims primarily to prevent which disease?",
+   "options": [
+    "Cervical cancer",
+    "Tuberculosis",
+    "Mental illness",
+    "COPD and asthma"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The nationwide HPV vaccination programme was launched to prevent cervical cancer. Tuberculosis and COPD/asthma are unrelated disease areas mentioned in other health contexts, while mental illness is addressed through Tele-MANAS."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Date and theme",
+   "question": "With reference to World Tuberculosis Day 2026, consider the following statements:\n1. World Tuberculosis Day is observed on March 24.\n2. The theme for 2026 is “Yes! We Can End TB”.\n3. The day marks the discovery of the TB bacterium by Robert Koch in 1997.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: World Tuberculosis Day is observed on March 24 and the 2026 theme is “Yes! We Can End TB”. Statement 3 is incorrect because Robert Koch’s discovery of the TB bacterium was in 1882, not 1997."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "TB burden and mortality",
+   "question": "Assertion (A): Tuberculosis is the leading single infectious killer.\nReason (R): More than 10 million people fall ill with TB and more than 1 million die from it each year.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the large annual burden of more than 10 million illnesses and more than 1 million deaths explains TB’s position as the leading single infectious killer. The figures in the reason therefore support the assertion."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Women-centric initiatives",
+   "question": "Consider the following statements:\nStatement A: The SHINE app was launched by Indian Railways on 8 March 2026 for sexual-harassment complaints through HRMS and Internal Complaints Committees.\nStatement B: Nirbhaya Nisha is a Kerala Police initiative for women’s night safety.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2",
+    "P4.F3"
+   ],
+   "explanation": "Both statements are true. SHINE is the Indian Railways app launched on 8 March 2026 for handling sexual-harassment complaints, while Nirbhaya Nisha is the Kerala Police initiative focused on women’s night safety."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Digital and health services",
+   "question": "Which of the following statements about selected health and digital services is incorrect?",
+   "options": [
+    "Tele-MANAS operates through the helpline number 14416.",
+    "Blue Voice is a Puducherry University app providing weather alerts for fishermen.",
+    "The Samruddh Gram Digital Services pilot includes Umri in Madhya Pradesh, Narakoduru in Andhra Pradesh and Chaurawala in Uttarakhand.",
+    "RISA: Timeless Tribal is implemented by the Ministry of Agriculture through TRIFED."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "The incorrect statement is the fourth one: RISA: Timeless Tribal is associated with the Ministry of Tribal Affairs through TRIFED, not the Ministry of Agriculture. The other three statements correctly identify the Tele-MANAS helpline, Blue Voice and the pilot locations."
+  }
+ ]
+}

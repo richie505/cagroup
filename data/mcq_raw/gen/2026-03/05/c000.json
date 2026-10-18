@@ -1,0 +1,94 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Permission for passage",
+   "question": "During Iran's selective blockade of the Strait of Hormuz, passage was announced for which group of countries?",
+   "options": [
+    "India, China, Russia, Iraq and Pakistan",
+    "The United States, Israel and their allies",
+    "Iran, Iraq, Kuwait, Qatar, Saudi Arabia and the UAE",
+    "Hezbollah, Hamas and the Houthis"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F12"
+   ],
+   "explanation": "Iran announced passage for India, China, Russia, Iraq and Pakistan, describing them as friendly nations. The United States, Israel and their allies were in the group for which the strait was closed."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Toll-booth system",
+   "question": "Which one of the following statements about Iran's reported toll-booth system in the Strait of Hormuz is incorrect?",
+   "options": [
+    "It involves geopolitical vetting, a clearance code and an escort.",
+    "The charge can be up to $2 million per ship.",
+    "Some payments were reported to be in yuan, although Iran denied this.",
+    "The charge can be up to $1 million per ship."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The incorrect statement is that the charge can be up to $1 million per ship; the reported maximum was up to $2 million. The other statements describe the vetting, clearance, escort and disputed yuan-payment features of the system."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Geography of the Strait of Hormuz",
+   "question": "Consider the following statements about the Strait of Hormuz:\n\n1. It lies between Iran to the north and Oman and the UAE to the south.\n2. It links the Persian Gulf with the Arabian Sea.\n3. Its narrowest point is approximately 50 km wide.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the strait lies between Iran and Oman and the UAE, and links the Persian Gulf with the Arabian Sea. Statement 3 is incorrect because approximately 50 km is its width at entry, while its narrowest point is approximately 33 km."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Operation name",
+   "question": "Assertion (A): The US action against Iran in February 2026 was officially named Operation Lion's Roar.\nReason (R): The US Department of Defense officially named the action Operation Epic Fury, coordinated with Israel.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F12"
+   ],
+   "explanation": "Assertion A is false, but Reason R is true. Operation Epic Fury was the US action officially named by the US Department of Defense, while Operation Lion's Roar was the Israeli operation."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "India's energy dependence",
+   "question": "Consider the following statements:\n\nStatement A: India imports 85–88% of its crude.\nStatement B: India has large strategic reserves for LPG and LNG.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "Statement A is true: India imports 85–88% of its crude. Statement B is false because India lacks large strategic reserves for LPG and LNG, although it has such reserves for crude."
+  }
+ ]
+}

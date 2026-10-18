@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Event focus",
+   "question": "What aspect of artificial intelligence was highlighted at the India–AI Impact Summit 2026?",
+   "options": [
+    "AI for inclusive rural development",
+    "AI for replacing all human labour",
+    "AI exclusively for urban transport",
+    "AI exclusively for defence applications"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "The India–AI Impact Summit 2026 highlighted AI for inclusive rural development. The summit was not described as focusing exclusively on urban transport, defence applications or the replacement of all human labour."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "AI governance framework",
+   "question": "Which one of the following statements about the India AI Governance Guidelines is incorrect?",
+   "options": [
+    "They were issued by MeitY in November 2025.",
+    "They contain 6 guiding principles, known as Sutras, and 7 pillars.",
+    "They include India-specific risk assessment.",
+    "They are delivered through Digital Public Infrastructure."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "The incorrect statement is that the Guidelines contain 6 Sutras and 7 pillars. Their correct structure is 7 guiding principles, called Sutras, and 6 pillars; the other statements correctly describe the Guidelines."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rural governance platforms",
+   "question": "Consider the following statements about digital platforms supporting rural governance:\n1. SabhaSaar generates AI minutes of Gram Sabha and Panchayat meetings from audio or video, with BHASHINI support in 14 languages.\n2. eGramSwaraj was launched in April 2020 under the e-Panchayat Mission Mode Project for planning, budgeting, accounting and payments.\n3. Gram Manchitra is a national repository containing 7,500-plus datasets and 273 AI models.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4",
+    "P6.F5",
+    "P6.F6",
+    "P6.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so exactly two statements are correct. The national repository with 7,500-plus datasets and 273 AI models is AIKosh, whereas Gram Manchitra is used for GIS-based planning of GPDPs."
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and date",
+   "question": "The WTO’s 14th Ministerial Conference (MC14) was scheduled to be held at which venue during March 2026?",
+   "options": [
+    "Yaoundé, Cameroon, from March 26–29",
+    "Barcelona, from March 2–5",
+    "Yashobhoomi, New Delhi, from March 19–22",
+    "Sunder Nursery, from March 18–30"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "WTO MC14 was scheduled at Yaoundé, Cameroon, from March 26–29. Barcelona was the venue of MWC 2026, while Yashobhoomi hosted the India Electricity Summit 2026."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Theme and organisation",
+   "question": "Consider the following statements:\nStatement A: The theme of MWC 2026 was “The IQ Era”.\nStatement B: MWC 2026 was associated with GSMA.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Both statements are correct: MWC 2026 had the theme “The IQ Era” and was associated with GSMA. The India Electricity Summit had a different theme and venue, making it a tempting but incorrect association."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Heritage discoveries",
+   "question": "Consider the following statements:\n1. The oldest rock art referred to a hand stencil in a limestone cave in Indonesia, dating to approximately 67,800 years ago.\n2. The dinosaur nest discovered at Santa Cruz Beach in Portugal contained 10 eggs and dated to approximately 150 million years ago.\n3. Golestan Palace in Tehran was a UNESCO World Heritage Site and served as a residence of the Qajar dynasty.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "All three statements are correct. The Indonesian hand stencil, the Upper Jurassic dinosaur nest in Portugal, and Golestan Palace in Tehran are the respective heritage discoveries and sites described."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Festivals and traditions",
+   "question": "Which of the following statements about festivals in news is incorrect?",
+   "options": [
+    "Nowruz is the Parsi/Persian New Year meaning “New Day” and is recognised as UNESCO Intangible Cultural Heritage.",
+    "Gangaur procession was held at Tripolia Bazaar in Jaipur on March 21, 2026, beginning from Janani Deodi.",
+    "Sarhul is a Jharkhand tribal festival involving worship of the Sal tree, with Sama Maa as the deity.",
+    "Chapchar Kut is a Mizoram spring festival held after planting for jhum cultivation."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F10",
+    "P3.F11",
+    "P3.F12",
+    "P3.F13"
+   ],
+   "explanation": "The incorrect statement is the fourth option. Chapchar Kut is held after clearing for jhum cultivation, not after planting; the other three statements correctly describe Nowruz, Gangaur and Sarhul."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Festival and associated feature",
+   "question": "Match List-I with List-II:\n\nList-I\n(a) Nowruz\n(b) Gangaur\n(c) Sarhul\n(d) Chapchar Kut\n\nList-II\n(i) Mizoram spring festival after clearing for jhum\n(ii) Rajasthan festival with procession at Tripolia Bazaar, Jaipur\n(iii) Deity Sama Maa\n(iv) Parsi/Persian New Year meaning “New Day”",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F10",
+    "P3.F11",
+    "P3.F12",
+    "P3.F13"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i. Nowruz means “New Day”, Gangaur is associated with Rajasthan and Tripolia Bazaar, Sama Maa is linked with Sarhul, and Chapchar Kut follows clearing for jhum."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Legal provision and national importance",
+   "question": "Under which provision was Palampet Gollalagudi in Mulugu district, Telangana, proposed to be brought under the protection of the Archaeological Survey of India?",
+   "options": [
+    "Section 4(1) of the AMASR Act, 1958",
+    "The establishment provision of the ASI, 1861",
+    "The draft notification of the Ministry of Culture without reference to the AMASR Act",
+    "The Mulugu district administrative provision"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "Palampet Gollalagudi was proposed as a monument of national importance under Section 4(1) of the AMASR Act, 1958, through a Ministry of Culture draft notification. The other options refer to the ASI’s establishment or omit the specific statutory provision."
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Voter turnout gender gap",
+   "question": "In which Lok Sabha election was the voter turnout gender gap recorded as 1.5 percentage points?",
+   "options": [
+    "2009",
+    "2014",
+    "2019",
+    "2024"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4",
+    "P10.F5"
+   ],
+   "explanation": "The voter turnout gender gap was 1.5 percentage points in the 2014 Lok Sabha election. In 2009, the gap was 4.4 points, while 2019 and 2024 recorded near parity."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Women MPs and turnout gap",
+   "question": "With reference to women's political participation in India, consider the following statements:\n1. The voter turnout gender gap was 4.4 percentage points in the 2009 Lok Sabha election.\n2. Women MPs in the Lok Sabha numbered 78 in 2019.\n3. The voter turnout gender gap in 2014 was 4.4 percentage points.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4",
+    "P10.F11"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the 2009 gap was 4.4 points and women MPs numbered 78 in 2019. Statement 3 is incorrect because the 2014 gap was 1.5 points, not 4.4 points."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Highest representation of women MPs",
+   "question": "Which one of the following statements regarding women's representation in the Lok Sabha is incorrect?",
+   "options": [
+    "Women MPs numbered 22 in 1952.",
+    "Women MPs numbered 59 in 2009.",
+    "Women MPs numbered 78 in 2019, the highest among the listed years.",
+    "Women MPs numbered 74 in 2014."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F7",
+    "P10.F9",
+    "P10.F10",
+    "P10.F11",
+    "P10.F12"
+   ],
+   "explanation": "The incorrect statement is that women MPs numbered 74 in 2014; the correct figure for 2014 was 62. The figure of 74 applied to 2024, while 2019 recorded the highest figure among these years at 78."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Constitutional safeguard against untouchability",
+   "question": "Assertion (A): Article 17 is part of the Right to Freedom.\nReason (R): Article 17 abolishes untouchability and is part of the Right to Equality.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F6",
+    "P11.F9"
+   ],
+   "explanation": "The correct answer is that A is false, but R is true. Article 17 abolishes untouchability and forms part of the Right to Equality under Articles 14–18, not the Right to Freedom."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State-wise NCRB cases",
+   "question": "According to the NCRB Crime in India 2023 data, how many of the 180 cases involving denial of access to public spaces to Scheduled Castes were reported in Uttar Pradesh?",
+   "options": [
+    "12",
+    "173",
+    "180",
+    "300"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F3",
+    "P11.F4"
+   ],
+   "explanation": "Uttar Pradesh accounted for 173 of the 180 cases recorded in 2023. The figure 12 refers to cases recorded nationally in 2017, while 300 of 305 relates to Uttar Pradesh in 2022."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Parliamentary committees and functions",
+   "question": "Match List-I with List-II regarding parliamentary committees.\n\nList-I\n a. Committee on Privileges\n b. Public Accounts Committee\n c. Estimates Committee\n d. Committee on Public Undertakings\n\nList-II\n i. 30 members, Lok Sabha only\n ii. 22 members, comprising 15 Lok Sabha and 7 Rajya Sabha members\n iii. Constituted by the Speaker\n iv. Examines CAG reports",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F3",
+    "P12.F4",
+    "P12.F5"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii. The Committee on Privileges was constituted by the Speaker; the PAC examines CAG reports; the Estimates Committee has 30 Lok Sabha members; and the Committee on Public Undertakings has 22 members, 15 from the Lok Sabha and 7 from the Rajya Sabha."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NCBC constitutional status",
+   "question": "Consider the following statements:\nStatement A: The National Commission for Backward Classes received statutory status in 2018.\nStatement B: The NCBC has constitutional status under Article 338B through the 102nd Amendment.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "Statement A is false, while Statement B is true. The NCBC was statutory in 1993 and received constitutional status in 2018 under Article 338B through the 102nd Amendment."
+  }
+ ]
+}

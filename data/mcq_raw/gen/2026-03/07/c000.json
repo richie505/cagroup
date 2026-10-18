@@ -1,0 +1,61 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Approval and communication",
+   "question": "What did the Union Cabinet approve in connection with India’s climate commitments in March 2026?",
+   "options": [
+    "India’s updated Nationally Determined Contribution (NDC), to be communicated to the UNFCCC",
+    "India’s accession to the Paris Agreement",
+    "The UNEP Emissions Gap Report titled “Off Target”",
+    "The National Generation Adequacy Plan of the Central Electricity Authority"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Union Cabinet approved India’s updated NDC, which is to be communicated to the UNFCCC. The Paris Agreement is a separate international agreement adopted at COP21, while the other options refer to a report and an electricity-sector plan."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "NDC parameter",
+   "question": "Which of the following statements regarding India’s updated NDC for 2035 is incorrect?",
+   "options": [
+    "The target for non-fossil installed capacity is 60% by 2035.",
+    "The emissions-intensity reduction target is 47% against the 2005 level.",
+    "The carbon-sink target is 3.5–4 billion tonnes of CO₂e.",
+    "The target for non-fossil installed capacity is 50% by 2035."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "The incorrect statement is the fourth one: the updated target for non-fossil installed capacity is 60% by 2035, not 50%. The 50% figure was India’s 2022 NDC target for 2030; the updated emissions-intensity and carbon-sink targets are 47% and 3.5–4 billion tonnes of CO₂e."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Updated NDC targets",
+   "question": "Consider the following statements about India’s updated NDC for 2035:\n\n1. The target for non-fossil installed capacity is 60% by 2035.\n2. The emissions-intensity reduction target is 45% against the 2005 level.\n3. The carbon-sink target is 3.5–4 billion tonnes of CO₂e.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the updated NDC sets 60% non-fossil installed capacity and a carbon-sink target of 3.5–4 billion tonnes of CO₂e. Statement 2 is incorrect because the updated emissions-intensity reduction target is 47%; 45% was the 2022 NDC target."
+  }
+ ]
+}

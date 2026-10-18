@@ -1,38 +1,38 @@
 # CA MCQ report
 
-- MCQs kept: **1972**
-- News pages with at least one question: **1378 / 2629**
-- Facts tested: **4052 / 20515** (19.8%)
-- Answer positions: A 497, B 509, C 556, D 410
+- MCQs kept: **2218**
+- News pages with at least one question: **1537 / 2629**
+- Facts tested: **4556 / 20515** (22.2%)
+- Answer positions: A 551, B 568, C 615, D 484
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 204 | 224 | 231 | 163 |
-| Negative / Incorrect Statement | 58 | 55 | 57 | 57 |
-| Assertion-Reason | 53 | 58 | 77 | 66 |
-| Statement-Based (A/B) | 69 | 47 | 66 | 53 |
-| Multi-Statement Correctness | 71 | 68 | 72 | 56 |
+| Direct Recall | 224 | 252 | 256 | 191 |
+| Negative / Incorrect Statement | 60 | 61 | 65 | 70 |
+| Assertion-Reason | 60 | 65 | 85 | 76 |
+| Statement-Based (A/B) | 78 | 53 | 72 | 63 |
+| Multi-Statement Correctness | 82 | 75 | 81 | 67 |
 | Chronological Ordering | 1 | 0 | 0 | 0 |
-| List-Matching | 16 | 13 | 17 | 13 |
-| Count-Based | 25 | 44 | 36 | 2 |
+| List-Matching | 19 | 15 | 19 | 15 |
+| Count-Based | 27 | 47 | 37 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 211 |
-| verify:explanation_contradicts | 31 |
-| verify:not_in_facts | 24 |
+| code | 236 |
+| verify:explanation_contradicts | 32 |
+| verify:not_in_facts | 26 |
 | over the page's quota | 14 |
-| verify:two_correct | 7 |
+| verify:two_correct | 8 |
 | verify:none_correct | 6 |
+| duplicate | 6 |
 | verify:second reader picked option 2, key 1 | 5 |
-| duplicate | 5 |
+| verify:ambiguous_stem | 2 |
 | verify:garbled | 2 |
 | verify:second reader picked option 3, key 0 | 1 |
 | verify:second reader picked option 1, key 0 | 1 |
 | verify:second reader picked option 2, key 0 | 1 |
-| verify:ambiguous_stem | 1 |
 | verify:trivial | 1 |
 
 ## Per file
@@ -116,17 +116,17 @@
 | 2026-04/09 | Awards, Persons & Appointments | 13 | 29/49 |
 | 2026-04/10 | Sports | 11 | 19/41 |
 | 2026-04/11 | Important Days & Events | 20 | 30/113 |
-| 2026-03/01 | Andhra Pradesh | 0 | 0/174 |
-| 2026-03/02 | Polity & Governance | 0 | 0/159 |
-| 2026-03/03 | Schemes & Social Sector | 0 | 0/47 |
-| 2026-03/04 | Economy, Banking & Budget | 0 | 0/196 |
-| 2026-03/05 | International Relations | 0 | 0/133 |
-| 2026-03/06 | Science, Tech, Space & Defence | 0 | 0/166 |
-| 2026-03/07 | Environment & Geography | 0 | 0/154 |
-| 2026-03/08 | Reports, Indices & Rankings | 0 | 0/48 |
-| 2026-03/09 | Awards, Persons & Appointments | 0 | 0/122 |
-| 2026-03/10 | Sports | 0 | 0/42 |
-| 2026-03/11 | Important Days & Events | 0 | 0/78 |
+| 2026-03/01 | Andhra Pradesh | 36 | 77/174 |
+| 2026-03/02 | Polity & Governance | 32 | 76/159 |
+| 2026-03/03 | Schemes & Social Sector | 10 | 17/47 |
+| 2026-03/04 | Economy, Banking & Budget | 32 | 61/196 |
+| 2026-03/05 | International Relations | 26 | 53/133 |
+| 2026-03/06 | Science, Tech, Space & Defence | 27 | 55/166 |
+| 2026-03/07 | Environment & Geography | 29 | 55/154 |
+| 2026-03/08 | Reports, Indices & Rankings | 10 | 15/48 |
+| 2026-03/09 | Awards, Persons & Appointments | 22 | 58/122 |
+| 2026-03/10 | Sports | 8 | 16/42 |
+| 2026-03/11 | Important Days & Events | 14 | 21/78 |
 | 2026-02/01 | Andhra Pradesh | 0 | 0/236 |
 | 2026-02/02 | Polity & Governance | 0 | 0/198 |
 | 2026-02/03 | Schemes & Social Sector | 0 | 0/73 |
@@ -479,3 +479,18 @@
 - `2026-04/09/c001#1` verify: none_correct — All four statements are supported by the facts, so none is incorrect.
   - Q: Which of the following statements about the Sur Jyotsna National Music Awards 2026 is incorrect?
   - Key: The 13th edition honoured Hindustani vocalist Sumitra Guha and Pandit Lakshman Krishna Rao Pandit.
+- `2026-03/01/c000#2` verify: not_in_facts — The facts establish that the payment is one-time, but do not explicitly state that the incentive is intended to encourage childbirth.
+  - Q: Which of the following statements about the birth incentive under Andhra Pradesh’s draft Population Management Policy 2026 is incorrect?
+  - Key: The incentive is paid monthly for the first five years.
+- `2026-03/01/c002#1` verify: ambiguous_stem — The facts describe ₹2,300 crore as a rounded figure but give ₹2,387.81 crore as the precise investment, so Statement A depends on whether rounding is accepted.
+  - Q: Consider the following statements: / Statement A: The semiconductor ATMP centre near Visakhapatnam involves an investment of ₹2,300 crore. / Statement B: The centre is being established at Taruvada, Anand
+  - Key: Statement A is false, Statement B is true
+- `2026-03/05/c003#3` verify: not_in_facts — The facts identify the parties and location but do not explicitly establish that a Postal MoU was signed.
+  - Q: Consider the following statements regarding the India–Bhutan postal cooperation announced in March 2026: / 1. The Postal MoU was signed in Thimphu between Bhutan Post Corporation Ltd and the Department 
+  - Key: 1 only
+- `2026-03/06/c002#0` verify: explanation_contradicts — The facts support statement 2, so all three statements are correct despite the explanation marking statement 2 incorrect.
+  - Q: With reference to the expanded Integrated Air and Missile Defence (IAMD) network against Iran, consider the following statements: / 1. The network involves the United States, Israel and the UAE. / 2. Duri
+  - Key: 1 and 3 only
+- `2026-03/09/c002#0` verify: two_correct — All four listed people are stated in the facts as included in TIME Women of the Year 2026.
+  - Q: Who was included in TIME Women of the Year 2026?
+  - Key: Safina Hussain

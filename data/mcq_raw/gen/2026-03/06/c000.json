@@ -1,0 +1,96 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Approval amount and acquisitions",
+   "question": "The Defence Acquisition Council approved which amount for five additional S-400 Triumph systems and 60 medium transport aircraft?",
+   "options": [
+    "₹2.38 lakh crore",
+    "₹5,083 crore",
+    "₹25.90 crore",
+    "₹2,901 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F4"
+   ],
+   "explanation": "The Defence Acquisition Council approved ₹2.38 lakh crore for five more S-400 Triumph systems and 60 medium transport aircraft. ₹5,083 crore was the Coast Guard allocation, while ₹25.90 crore related to the Army’s telescopic handlers procurement through GeM."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Army procurement through GeM",
+   "question": "With reference to the Army’s first capital procurement through the Government e-Marketplace, identify the incorrect statement.",
+   "options": [
+    "It involved 93 telescopic handlers.",
+    "The equipment was procured from JCB India.",
+    "The procurement was valued at ₹25.90 crore.",
+    "The procurement was made from Shoft Shipyard, Thane."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "The incorrect statement is that the procurement was made from Shoft Shipyard, Thane. The Army procured 93 telescopic handlers from JCB India for ₹25.90 crore; Shoft Shipyard supplied four self-propelled fuel barges to the Navy."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Coastal security drill",
+   "question": "Consider the following statements:\nStatement A: Sagar Kavach is a Coast Guard-led multi-agency coastal security drill conducted off Maharashtra.\nStatement B: The drill has been held since the 2008 Mumbai attacks.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "Both statements are true. Sagar Kavach is conducted off Maharashtra under Coast Guard leadership with multiple agencies, and it has been held since the 2008 Mumbai attacks. The drill is not described as a Navy-only exercise or as beginning in 2019."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Operation Sankalp commencement",
+   "question": "Assertion (A): Operation Sankalp began on 19 June 2020.\nReason (R): Operation Sankalp escorts Indian-flagged ships in the Strait of Hormuz, the Gulf of Oman and the Gulf of Aden.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "Assertion A is false because Operation Sankalp began on 19 June 2019, not 2020. Reason R is true: the operation escorts Indian-flagged ships in the Strait of Hormuz, the Gulf of Oman and the Gulf of Aden."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "ISRO space-technology developments",
+   "question": "Consider the following statements regarding space-technology developments in March 2026:\n1. The CE-20 cryogenic engine was tested for 165 seconds at IPRC Mahendragiri.\n2. The Akasha300 3D printer was delivered to ISRO by a Kerala startup.\n3. BEL and Bellatrix Aerospace signed an MoU for very-low-Earth-orbit satellites operating at 150–450 km.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "All three statements are correct. The CE-20 test lasted 165 seconds at IPRC Mahendragiri, Akasha300 was delivered to ISRO by a Kerala startup, and the BEL–Bellatrix Aerospace MoU concerns very-low-Earth-orbit satellites at 150–450 km. The engine test was for LVM3, while the printer and satellite MoU were separate developments."
+  }
+ ]
+}

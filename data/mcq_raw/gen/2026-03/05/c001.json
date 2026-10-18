@@ -1,0 +1,114 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Agreement partner",
+   "question": "During Canadian Prime Minister Mark Carney's visit to India, which organisation signed a deal with the Department of Atomic Energy (DAE)?",
+   "options": [
+    "Cameco",
+    "Kazatomprom",
+    "UCIL",
+    "DAE"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F3"
+   ],
+   "explanation": "Cameco signed the uranium-related deal with the DAE during Canadian Prime Minister Mark Carney's visit. Kazatomprom was involved in an earlier deal with India, while UCIL and the DAE are Indian nuclear-sector entities."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Uranium supply deal",
+   "question": "Which of the following statements about the India–Cameco uranium supply agreement is incorrect?",
+   "options": [
+    "The agreement covers the supply of 22 million pounds of uranium.",
+    "The supply period is from 2027 to 2035.",
+    "The agreement is valued at $1.9 billion, or C$2.6 billion.",
+    "The supply period is from 2026 to 2035."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2"
+   ],
+   "explanation": "The incorrect statement is that the supply period begins in 2026; it begins in 2027 and continues through 2035. The agreement covers 22 million pounds of uranium and is valued at $1.9 billion, or C$2.6 billion."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Nuclear capacity and import dependence",
+   "question": "Consider the following statements:\nStatement A: India aims to increase its nuclear power capacity from 9 GW to 100 GW by 2047.\nStatement B: India imports less than 70% of its uranium requirements.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "Statement A is true because India's nuclear capacity target is 100 GW by 2047 from 9 GW. Statement B is false: India has more than 70% import dependence for its uranium needs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Chief Guest",
+   "question": "Who was the Chief Guest at the Raisina Dialogue 2026 during the state visit to India from 4 to 7 March 2026?",
+   "options": [
+    "President Alexander Stubb",
+    "Prime Minister Petteri Orpo",
+    "Prime Minister Mark Carney",
+    "Sauli Niinistö"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F4",
+    "P3.F17"
+   ],
+   "explanation": "Finnish President Alexander Stubb was the Chief Guest at the Raisina Dialogue 2026. Petteri Orpo attended the AI Impact Summit 2026, while Mark Carney was the Canadian Prime Minister associated with the India visit."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Strategic partnership and working groups",
+   "question": "Assertion (A): India and Finland elevated their ties to a Strategic Partnership in Digitalization and Sustainability.\nReason (R): The two countries established Joint Working Groups on Digitalization and Renewable Energy.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F6"
+   ],
+   "explanation": "Assertion A is true: India and Finland elevated their ties to a Strategic Partnership in Digitalization and Sustainability. Reason R is false because the two Joint Working Groups were on Digitalization and Sustainability, not Renewable Energy."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "India–Finland cooperation",
+   "question": "Consider the following statements about India–Finland relations:\n1. India and Finland agreed to double bilateral trade by 2030.\n2. Finland backed India's permanent seat on the UN Security Council.\n3. Finland joined NATO in April 2024.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F8",
+    "P3.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the countries agreed to double bilateral trade by 2030, and Finland backed India's permanent UN Security Council seat. Statement 3 is false because Finland joined NATO in April 2023, not April 2024."
+  }
+ ]
+}

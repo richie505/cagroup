@@ -1,0 +1,94 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Export value",
+   "question": "What was the value of India's total exports during April–January 2025-26?",
+   "options": [
+    "USD 720.76 billion",
+    "USD 387.5 billion",
+    "USD 354.13 billion",
+    "USD 188.8 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2"
+   ],
+   "explanation": "India's total exports during April–January 2025-26 were valued at USD 720.76 billion. USD 387.5 billion refers to services exports in FY25, while USD 354.13 billion was the services export value during April–January 2025-26."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Manufacturing push",
+   "question": "Which one of the following was NOT listed among the manufacturing measures in the Union Budget 2026-27?",
+   "options": [
+    "Biopharma SHAKTI",
+    "India Semiconductor Mission 2.0",
+    "Rare Earth Corridors",
+    "PM E-DRIVE"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F5",
+    "P4.F7"
+   ],
+   "explanation": "PM E-DRIVE was not listed among the manufacturing measures; it is associated with the automobile sector. Biopharma SHAKTI, India Semiconductor Mission 2.0 and Rare Earth Corridors were included among the Budget 2026-27 manufacturing measures."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "PLFS reference periods",
+   "question": "Consider the following statements:\nStatement A: Under the Current Weekly Status, the reference period is the last 30 days.\nStatement B: Under Usual Status, the reference period is the last 7 days.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "Both statements are false. Current Weekly Status uses the last 7 days, whereas Usual Status uses the last 365 days; a subsidiary status uses a period of 30 days or more."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "LFPR definition",
+   "question": "Assertion (A): The Labour Force Participation Rate is expressed using the labour force in relation to the population.\nReason (R): LFPR is calculated as labour force divided by population.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the Reason correctly explains the Assertion. LFPR is defined as the labour force divided by the population."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Unemployment and sectoral share",
+   "question": "With reference to the PLFS Annual Report 2025, consider the following statements:\n1. Rural unemployment rate was 2.4%.\n2. Urban unemployment rate was 4.8%.\n3. Agriculture's share increased from 44.8% to 43.0%.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F8",
+    "P5.F9",
+    "P5.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: rural unemployment was 2.4% and urban unemployment was 4.8%. Statement 3 is incorrect because agriculture's share declined from 44.8% to 43.0%, although it remained the largest sector."
+  }
+ ]
+}

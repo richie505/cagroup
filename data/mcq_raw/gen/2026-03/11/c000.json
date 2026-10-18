@@ -1,0 +1,109 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of Zero Discrimination Day observed on March 1, 2026?",
+   "options": [
+    "People First",
+    "Mathematics and Hope",
+    "Forests and Economies",
+    "Water and Gender"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The 2026 theme of Zero Discrimination Day was “People First.” “Mathematics and Hope” was associated with International Mathematics Day, making it the most tempting alternative."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Themes of important days",
+   "question": "Consider the following statements about important days observed in March 2026:\n\n1. World Wildlife Day on March 3 had the theme “Medicinal and Aromatic Plants: Conserving Health, Heritage and Livelihoods”.\n2. International Women’s Day on March 8 had the theme “Rights. Justice. Action For ALL Women and Girls”.\n3. International Day of Forests on March 21 had the theme “Forests and Economies”.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F6",
+    "P0.F11"
+   ],
+   "explanation": "All three statements are correct: the stated themes were assigned to World Wildlife Day, International Women’s Day and International Day of Forests respectively. The option “1 and 2 only” is incorrect because “Forests and Economies” was also the theme of International Day of Forests."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Date and observance period",
+   "question": "Assertion (A): March 4 marks the beginning of the National Safety observance in 2026.\nReason (R): Safety Week is observed from March 4 to March 11.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. National Safety Day is observed on March 4, and Safety Week runs from March 4 to March 11, making the Reason the explanation for the beginning of the observance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Location of first facility",
+   "question": "Where was India’s first OTEC-based desalination plant established?",
+   "options": [
+    "Kavaratti, Lakshadweep",
+    "Sanand, Gujarat",
+    "Dighi, Maharashtra",
+    "Onkareshwar, Madhya Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "India’s first OTEC-based desalination plant was established at Kavaratti in Lakshadweep by NIOT Chennai. The other locations are associated with different firsts, not this desalination plant."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "First riverine lighthouses",
+   "question": "Which one of the following statements about India’s first riverine lighthouses is incorrect?",
+   "options": [
+    "Four riverine lighthouses were established on NW-2, the Brahmaputra.",
+    "They are located at Bogibeel, Pandu, Silghat and Bishwanath Ghat.",
+    "The lighthouses are 20 metres high, solar-powered and involved an expenditure of ₹84 crore.",
+    "They are 30 metres high and solar-powered, with an expenditure of ₹84 crore."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "The incorrect statement changes the height from 20 metres to 30 metres; the lighthouses are 20 metres high. The locations, solar-powered design and expenditure of ₹84 crore are correct details of the project."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First State Innovation Mission and AI skill census",
+   "question": "Consider the following statements:\nStatement A: India’s first State Innovation Mission was launched in Tripura by Ashish Shelar under AIM 2.0.\nStatement B: The first AI-based skill census, “Saksham”, was conducted in the Mumbai H-East ward by Minister Ashish Shelar.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "Both statements are false. The State Innovation Mission in Tripura was launched by Dr. Jitendra Singh, while “Saksham” was conducted in Mumbai’s H-West ward; the swapped details are the traps."
+  }
+ ]
+}

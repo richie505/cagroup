@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Strategic vulnerability",
+   "question": "The LPG shortage during the West Asia conflict exposed India's dependence on which maritime chokepoint, through which more than 85% of India's LPG imports pass?",
+   "options": [
+    "Strait of Hormuz–Persian Gulf",
+    "Bab-el-Mandeb–Red Sea",
+    "Strait of Malacca–Andaman Sea",
+    "Strait of Sunda–Java Sea"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F17"
+   ],
+   "explanation": "More than 85% of India's LPG imports pass through the Strait of Hormuz, linking it with the Persian Gulf. The Bab-el-Mandeb, Malacca and Sunda pairs are other maritime routes, but they are not the chokepoint identified for India's LPG imports."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Storage weakness",
+   "question": "Consider the following statements:\nStatement A: More than 85% of India's LPG imports pass through the Bab-el-Mandeb Strait.\nStatement B: The International Energy Agency flagged lack of storage as a key weakness during the LPG shortage.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Statement A is false because more than 85% of India's LPG imports pass through the Strait of Hormuz, not Bab-el-Mandeb. Statement B is true because the International Energy Agency identified lack of storage as a key weakness."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Storage gap and consumption",
+   "question": "Assertion (A): India's total underground LPG cavern capacity is less than two days of consumption.\nReason (R): India consumes approximately 80,000 tonnes of LPG per day.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F8"
+   ],
+   "explanation": "Both the Assertion and Reason are true: total underground LPG cavern capacity is 1.4 lakh tonnes, which is less than two days of consumption, while daily consumption is approximately 80,000 tonnes. The daily consumption figure explains why 1.4 lakh tonnes provides less than two days of coverage."
+  }
+ ]
+}

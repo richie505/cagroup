@@ -1,0 +1,187 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Meaning of Observed Exposure",
+   "question": "In Anthropic’s labour-market study on AI and jobs, what does the term “Observed Exposure” measure?",
+   "options": [
+    "Actual workplace use of AI",
+    "Theoretical capability of AI to perform tasks",
+    "The number of AI patents filed by companies",
+    "The total number of workers laid off by AI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "“Observed Exposure” measures actual workplace use of AI, rather than merely its theoretical capability. Theoretical capability is a related but different concept examined separately in the study."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "AI exposure findings",
+   "question": "Which of the following statements regarding Anthropic’s study on AI exposure and employment is incorrect?",
+   "options": [
+    "LLMs can theoretically perform about 94% of tasks in computer and mathematics jobs, while actual use is about 33%.",
+    "Entry of 22–25-year-olds into exposed jobs declined by about 14% since 2022.",
+    "Exposed workers were 54.4% female, highly educated and had an average age of about 42.9 years.",
+    "Legal work was identified among the least exposed occupations."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4",
+    "P8.F5",
+    "P8.F6",
+    "P8.F7"
+   ],
+   "explanation": "The incorrect statement is that legal work was among the least exposed occupations. Legal work was listed among the most exposed occupations; construction, agriculture, protective services and personal care were among the least exposed."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Gut microbiome gene count",
+   "question": "How does the gene count of the human gut microbiome compare with that of humans?",
+   "options": [
+    "The microbiome has about 2–20 million microbial genes, compared with about 20,000 human genes.",
+    "The microbiome has about 20,000 microbial genes, compared with about 2–20 million human genes.",
+    "The microbiome has about 90% microbial genes, compared with 10% human genes.",
+    "The microbiome has about 2,000 microbial genes, compared with about 20,000 human genes."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2",
+    "P9.F3"
+   ],
+   "explanation": "The gut microbiome contains about 2–20 million microbial genes, whereas humans have about 20,000 genes. The figures of about 2,000 and 90% refer to other microbiome-related facts, not the microbial gene count."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Gut microbiome functions and digestion",
+   "question": "How many of the following statements about the gut microbiome and digestion are correct?\n1. The gut microbiome contains about 20,000 microbial genes.\n2. Most gut microbes are located in the small intestine.\n3. Short-chain fatty acids can reduce inflammation.\n4. Proteins are digested by lipases.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2",
+    "P9.F4",
+    "P9.F9"
+   ],
+   "explanation": "Only statement 3 is correct: short-chain fatty acids reduce inflammation. The microbiome has about 2–20 million microbial genes, most microbes are in the colon, and proteins are digested by trypsin and chymotrypsin rather than lipases."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Where is Elon Musk’s Terrafab semiconductor project being developed?",
+   "options": [
+    "Austin, Texas",
+    "Barcelona, Spain",
+    "Nagpur, India",
+    "Pune, India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "Terrafab is a semiconductor project in Austin, Texas, involving Tesla, SpaceX and xAI. Barcelona is associated with the MWC venue in another March 2026 news item, not with Terrafab."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Recognition category",
+   "question": "At MWC Barcelona 2026, in which category was C-DOT’s Fraud Pro named a finalist?",
+   "options": [
+    "Best Network Security and Fraud Prevention",
+    "Best Green Hydrogen Innovation",
+    "Best Semiconductor Manufacturing Project",
+    "Best Coastal Erosion Protection Technology"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "C-DOT’s AI-based telecom fraud-detection tool, Fraud Pro, was a finalist for “Best Network Security and Fraud Prevention” at GLOMO 2026. The other categories concern unrelated technology areas."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "IIT Guwahati innovations",
+   "question": "Consider the following statements regarding innovations associated with IIT Guwahati:\n1. It developed radiation-shielding cement mortar for nuclear facilities.\n2. It developed a material for hydrogen production by electrolysis and solar desalination.\n3. It became nodal for the NER–Japan Academic and Research Consortium.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "All three statements are correct. IIT Guwahati was associated with the radiation-shielding mortar, the hydrogen and solar-desalination material, and the nodal role for the NER–Japan Academic and Research Consortium."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Institution–innovation matching",
+   "question": "Match List-I with List-II regarding selected March 2026 innovations.\n\nList-I\n a. IIT Indore\n b. IIT Jodhpur\n c. ISA–IIT Delhi\n d. HCL Tech–IIT Kanpur\n\nList-II\n i. “Framework for Action” for MSTEC training\n ii. MICP-based bio-shield against coastal erosion\n iii. Flexible semiconductor health-monitoring sensors\n iv. MoU for deep tech for GCCs",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4",
+    "P12.F5",
+    "P12.F6",
+    "P12.F7"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv. IIT Indore worked on the MICP bio-shield, IIT Jodhpur on flexible semiconductor sensors, ISA–IIT Delhi on the “Framework for Action”, and HCL Tech–IIT Kanpur on the GCC deep-tech MoU."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Noise barrier innovation",
+   "question": "Assertion (A): CSIR-NEERI developed the C-NOBAR compact green noise barrier.\nReason (R): CSIR-NEERI is located in Nagpur and was established in 1958.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F4"
+   ],
+   "explanation": "Both the assertion and the reason are true: CSIR-NEERI, Nagpur, established in 1958, developed C-NOBAR. Its location and year of establishment identify the laboratory but do not explain why it developed the noise barrier."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Research-lab innovation",
+   "question": "Consider the following statements:\nStatement A: CSIR-NCL, Hyderabad, worked on scaling Dimethyl Ether fuel.\nStatement B: CSIR-CRRI and IIF worked on using Waste Foundry Sand in road construction.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F5",
+    "P13.F6"
+   ],
+   "explanation": "Statement A is false because CSIR-NCL is located in Pune, not Hyderabad, and it worked on scaling Dimethyl Ether fuel. Statement B is true: CSIR-CRRI and IIF worked on Waste Foundry Sand in road construction."
+  }
+ ]
+}

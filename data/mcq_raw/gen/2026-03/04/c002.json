@@ -1,0 +1,94 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "SPR storage level",
+   "question": "According to the March 2026 update on India's Strategic Petroleum Reserves, how much crude was stored against the total capacity?",
+   "options": [
+    "3.37 MMT against 5.33 MMT",
+    "5.33 MMT against 3.37 MMT",
+    "2.5 MMT against 5.33 MMT",
+    "1.98 MMT against 3.37 MMT"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "India's SPRs held 3.37 MMT of crude against a total capacity of 5.33 MMT, or approximately 64%. The tempting option of 5.33 MMT reverses the stored quantity and the capacity."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "SPR sites and capacities",
+   "question": "With reference to India's Strategic Petroleum Reserve sites, which of the following statements is incorrect?",
+   "options": [
+    "Visakhapatnam is located in Andhra Pradesh and has a capacity of 1.33 MMT.",
+    "Mangalore is located in Karnataka and has a capacity of 1.5 MMT.",
+    "Padur is located in Karnataka and has a capacity of 2.5 MMT.",
+    "Padur is located in Odisha and has a capacity of 2.5 MMT."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "The incorrect statement places Padur in Odisha; Padur is located in Karnataka and has a capacity of 2.5 MMT. Visakhapatnam and Mangalore are correctly paired with Andhra Pradesh and Karnataka, respectively."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Growth in registered companies",
+   "question": "Assertion (A): The number of active registered companies increased by 27% between 2020–21 and 2025–26.\nReason (R): Active registered companies rose from 1.55 lakh in 2020–21 to 1.98 lakh in 2025–26.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "Both statements are true, and the increase from 1.55 lakh to 1.98 lakh explains the reported 27% rise. The other options incorrectly treat either the assertion or the supporting figures as false."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Minimum Alternate Tax",
+   "question": "Consider the following statements:\nStatement A: The reform reduced the Minimum Alternate Tax rate from 15% to 13%.\nStatement B: The Minimum Alternate Tax rate was reduced from 15% to 14%.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F12"
+   ],
+   "explanation": "Statement A is false because the rate was reduced from 15% to 14%, not 13%. Statement B correctly states the reform detail."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Key business reforms",
+   "question": "Consider the following statements about the reforms highlighted in the Ease of Doing Business report:\n1. CGTMSE provides collateral-free loans up to ₹10 crore.\n2. The Jan Vishwas Act, 2023 decriminalised 138 provisions, while the 2025 Bill proposed 355 more.\n3. RBI consolidation reduced more than 9,000 circulars to 283 Master Directions.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F7",
+    "P3.F9"
+   ],
+   "explanation": "Only statement 1 is correct: CGTMSE provides collateral-free loans up to ₹10 crore. Statement 2 changes the correct figure of 183 provisions to 138, while statement 3 changes the correct figure of 238 Master Directions to 283."
+  }
+ ]
+}

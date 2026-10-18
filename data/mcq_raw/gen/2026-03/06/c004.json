@@ -1,0 +1,59 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Launch and structure",
+   "question": "Consider the following statements:\nStatement A: Digital India was launched by the Ministry of Electronics and Information Technology in July 2015.\nStatement B: Digital India has three vision areas and eight pillars.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "Statement A is correct: Digital India was launched by MeitY in July 2015. Statement B is incorrect because the programme has three vision areas and nine pillars, not eight."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Optical-fibre expansion",
+   "question": "Assertion (A): India's optical-fibre route length increased from 19.35 lakh route km in 2019 to 42.36 lakh route km in 2025.\nReason (R): India's optical-fibre route length in 2025 was 19.35 lakh route km.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "Assertion A is correct because optical-fibre route length rose from 19.35 lakh route km in 2019 to 42.36 lakh route km in 2025. Reason R is false: 19.35 lakh route km was the 2019 figure, while the 2025 figure was 42.36 lakh route km."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Digital connectivity indicators",
+   "question": "With reference to India's digital connectivity indicators, consider the following statements:\n1. By December 2025, 5G services covered 99.9% of districts and there were more than 5.18 lakh BTS.\n2. Broadband subscriptions crossed 100 crore in November 2025, compared with 13.15 crore a decade earlier.\n3. Data cost declined from ₹269 per GB in 2014 to ₹10–15 per GB.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4",
+    "P7.F5",
+    "P7.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 5G covered 99.9% of districts with more than 5.18 lakh BTS by December 2025, and broadband subscriptions crossed 100 crore in November 2025. Statement 3 is incorrect because data cost fell from ₹269 per GB in 2014 to ₹8–10 per GB, not ₹10–15 per GB."
+  }
+ ]
+}

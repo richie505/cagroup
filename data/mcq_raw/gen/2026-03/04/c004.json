@@ -1,0 +1,115 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme allocation",
+   "question": "Under the BHAVYA scheme, what financial allocation has been provided for developing plug-and-play industrial parks?",
+   "options": [
+    "₹33,660 crore",
+    "₹497 crore",
+    "₹20,000 crore",
+    "₹1,800 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "BHAVYA, or Bharat Udyogik Vikas Yojana, has an allocation of ₹33,660 crore. The ₹497 crore figure belongs to RELIEF, while ₹20,000 crore relates to CGSMFI-2.0 and ₹1,800 crore to IVFRT extension."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Target under UDAN",
+   "question": "What is the principal airport and aviation infrastructure target announced under UDAN for the period 2026–27 to 2035–36?",
+   "options": [
+    "100 new airports, heliports and water aerodromes",
+    "200 new airports, heliports and water aerodromes",
+    "441 new airports, heliports and water aerodromes",
+    "10 new airports, heliports and water aerodromes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "UDAN targets 100 new airports, heliports and water aerodromes during 2026–27 to 2035–36. The figures 200 and 441 refer to additional heliports or water aerodromes and aerodromes covered by separate allocations, respectively."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "WTO trade forecast",
+   "question": "Assertion (A): The WTO Global Trade Outlook 2026 projects goods trade growth of 1.9% in 2026.\nReason (R): World GDP growth is projected at 1.9% in 2026.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "Assertion A is true: the WTO projects goods trade growth of 1.9% in 2026. Reason R is false because projected world GDP growth for 2026 is 2.8%, not 1.9%."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Trade and currency arrangement",
+   "question": "Consider the following statements:\nStatement A: India–EU MFN status will apply to each other for five years from GST implementation.\nStatement B: The RBI–Bank of Japan currency swap has been renewed up to $50 million.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F5",
+    "P8.F6",
+    "P8.F8"
+   ],
+   "explanation": "Both statements are false. India–EU MFN status is for five years from FTA implementation, not GST implementation, and the RBI–Bank of Japan swap was renewed up to $75 billion, not $50 million."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Electric cooking and demand response",
+   "question": "With reference to the electrification of household cooking and electricity demand management, consider the following statements:\n1. Electric cooking is now cheaper than non-subsidised LPG.\n2. Induction cooking has an efficiency of about 85%, compared with about 40% for an LPG burner.\n3. OpenADR is a two-way standard that can reduce peak demand by 7–24%.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4",
+    "P9.F8"
+   ],
+   "explanation": "All three statements are correct. Electric cooking is cheaper than non-subsidised LPG, induction is about 85% efficient compared with 40% for an LPG burner, and OpenADR is a two-way standard associated with a 7–24% peak reduction."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "LPG imports and subsidy",
+   "question": "How many of the following statements regarding LPG use and household cooking in India are correct?\n1. India’s LPG import bill is $26.4 billion.\n2. About 50% of LPG is imported.\n3. Electric cooking accounts for about 40% of cooking.\n4. The annual LPG subsidy is about ₹50,000 crore.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2",
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "Only statement 1 is correct: India’s LPG import bill is $26.4 billion. About 60% of LPG is imported, electric cooking has a share of only about 5%, and the annual LPG subsidy is about ₹40,000 crore."
+  }
+ ]
+}

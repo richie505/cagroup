@@ -1,0 +1,98 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Atomic clock failure",
+   "question": "In March 2026, what happened to the atomic clock on the NavIC satellite IRNSS-1F?",
+   "options": [
+    "It stopped on 13 March 2026, ending positioning data but continuing broadcast messaging",
+    "It stopped on 10 March 2016, ending broadcast messaging but continuing positioning data",
+    "It stopped in 2023, ending both positioning data and broadcast messaging",
+    "It stopped in 2018, but positioning data continued normally"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F17"
+   ],
+   "explanation": "The atomic clock on IRNSS-1F stopped on 13 March 2026. The satellite ceased providing positioning data but continued broadcast messaging. The 10 March 2016 date refers to its launch, not the clock failure."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "NavIC configuration and satellite life",
+   "question": "Consider the following statements about NavIC and its new-generation satellites:\n1. IRNSS-1F was launched in March 2016 and completed its 10-year design life.\n2. The official name of NavIC is IRNSS, and its planned constellation has seven satellites.\n3. New-generation NVS satellites have a design life of 10 years.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F4",
+    "P3.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: IRNSS-1F was launched in March 2016 and completed its 10-year design life, while IRNSS is the official name and the planned constellation has seven satellites. Statement 3 is incorrect because NVS satellites have a 12-year life, not a 10-year life."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Effect of clock failure",
+   "question": "Assertion (A): After its atomic clock stopped, IRNSS-1F continued broadcast messaging.\nReason (R): After the clock stopped, IRNSS-1F continued providing positioning data.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "Assertion A is true because IRNSS-1F continued broadcast messaging after its atomic clock stopped. Reason R is false: the satellite no longer provided positioning data. Therefore, A is true but R is false."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mission profile",
+   "question": "What is the principal mission profile of NASA's Artemis II mission?",
+   "options": [
+    "A crewed lunar flyby using the Orion spacecraft, without a landing",
+    "An uncrewed Orion mission around the Moon",
+    "A crewed lunar landing at the South Pole",
+    "A permanent lunar-base mission with a landing every six months"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F4",
+    "P4.F5",
+    "P4.F8"
+   ],
+   "explanation": "Artemis II will carry four astronauts around the Moon and back in the Orion spacecraft without landing, making it a crewed lunar flyby. Artemis I was the uncrewed Orion mission, while the landing is associated with Artemis III. The permanent lunar-base objective is a broader Artemis aim, not the Artemis II mission profile."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Artemis mission sequence",
+   "question": "Consider the following statements:\nStatement A: Artemis II is planned as an uncrewed Orion mission around the Moon.\nStatement B: Artemis III is planned as a crewed lunar flyby.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F5",
+    "P4.F6"
+   ],
+   "explanation": "Both statements are false. The uncrewed Orion mission around the Moon was Artemis I, while Artemis II is the crewed flyby and Artemis III is planned for a lunar landing. Thus, the statements interchange the profiles of the Artemis missions."
+  }
+ ]
+}

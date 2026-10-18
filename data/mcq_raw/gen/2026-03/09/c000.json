@@ -1,0 +1,118 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Awardee",
+   "question": "Who was selected for the 2025 Jnanpith Award?",
+   "options": [
+    "R. Vairamuthu",
+    "Vinod Kumar Shukla",
+    "Gulzar",
+    "Damodar Mauzo"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F5",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Tamil poet-lyricist R. Vairamuthu was selected for the 2025 Jnanpith Award. Vinod Kumar Shukla, Gulzar and Damodar Mauzo were associated with earlier editions."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Other awards and honours",
+   "question": "Which of the following statements about R. Vairamuthu is incorrect?",
+   "options": [
+    "He received the National Film Award for Best Lyricist seven times.",
+    "He was awarded the Padma Shri in 2003.",
+    "He was awarded the Padma Bhushan in 2003.",
+    "He was awarded the Padma Bhushan in 2014."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The incorrect statement is that R. Vairamuthu received the Padma Bhushan in 2003. He received the Padma Shri in 2003 and the Padma Bhushan in 2014; the tempting error changes the year of the Padma Bhushan."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Telugu awardee and work",
+   "question": "Who won the Telugu Sahitya Akademi Award 2025 for the work “Animesha”?",
+   "options": [
+    "Nandini Sidda Reddy",
+    "Penugonda Lakshminarayana",
+    "Tallavajjhala Patanjali Sastry",
+    "Madhurantakam Narendra"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F5",
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "Nandini Sidda Reddy received the Telugu Sahitya Akademi Award 2025 for “Animesha” in poetry. The other names are Telugu awardees associated with earlier years and different works."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ceremony and award categories",
+   "question": "With reference to the Sahitya Akademi Awards 2025, consider the following statements:\n1. The award ceremony is scheduled for 31 March 2026 in New Delhi.\n2. Poetry accounts for 6 awards.\n3. The first Sahitya Akademi Awards were given in 1954.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F4"
+   ],
+   "explanation": "Only statement 1 is correct: the ceremony is scheduled for 31 March 2026 in New Delhi. Poetry accounts for 8 awards, while the first awards were given in 1955, making statements 2 and 3 incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ambassadorial appointment",
+   "question": "Who was appointed Ambassador to China in the March 2026 appointments?",
+   "options": [
+    "Vikram K. Doraiswami",
+    "V. Periyasami Kumaran",
+    "Deepak Gupta",
+    "Ashok Kumar Panda"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "Vikram K. Doraiswami was appointed Ambassador to China after serving as High Commissioner to the UK. V. Periyasami Kumaran was appointed High Commissioner to the UK, while Deepak Gupta and Ashok Kumar Panda were associated with appointments in GAIL and SAIL."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Institution and appointment",
+   "question": "Assertion (A): Jagdish Kumar Mamidala was appointed Chairman of the Board of Governors of IIM Calcutta.\nReason (R): IIM Calcutta was established in 1961.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Both the assertion and the reason are true: Jagdish Kumar Mamidala became Chairman of the Board of Governors of IIM Calcutta, and IIM Calcutta was established in 1961. The establishment year does not explain the appointment, so the reason is not the correct explanation of the assertion."
+  }
+ ]
+}

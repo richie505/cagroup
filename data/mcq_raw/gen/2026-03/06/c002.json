@@ -1,0 +1,59 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Expanded IAMD network",
+   "question": "With reference to the expanded Integrated Air and Missile Defence (IAMD) network against Iran, consider the following statements:\n1. The network involves the United States, Israel and the UAE.\n2. During the Twelve-Day War in June 2025, Iran fired 500+ ballistic missiles and twice as many suicide drones.\n3. The UAE deployed the South Korean Cheongung II over the Gulf.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the expanded IAMD network includes the United States, Israel and the UAE, while the UAE deployed South Korean Cheongung II over the Gulf. Statement 2 is incorrect because Iran fired twice as many suicide drones as ballistic missiles, not the same number."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Primary defence against drone swarms",
+   "question": "Assertion (A): Israel uses Iron Beam as the primary defence against drone swarms.\nReason (R): Iron Beam is intended to conserve Patriot PAC-3 MSE and THAAD interceptors.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "Assertion A is true because Iron Beam is used as the primary defence against drone swarms. Reason R is false: Iron Beam is intended to conserve Arrow 3 and Stunner, not Patriot PAC-3 MSE and THAAD interceptors."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Cheongung II radar and launch system",
+   "question": "Consider the following statements:\nStatement A: Older Patriot radars scanned a 360° cone.\nStatement B: Cheongung II uses hit-to-kill interception and provides 360° firing through a Vertical Launch System and a rotating multi-function radar.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F14",
+    "P5.F15"
+   ],
+   "explanation": "Statement A is false because older Patriot radars scanned only a 120° cone and the Patriot radar was stationary. Statement B is true: Cheongung II combines hit-to-kill interception with 360° firing through a Vertical Launch System and a rotating multi-function radar."
+  }
+ ]
+}
