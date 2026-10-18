@@ -1,41 +1,42 @@
 # CA MCQ report
 
-- MCQs kept: **7279**
-- News pages with at least one question: **2602 / 2629**
-- Facts tested: **13474 / 20515** (65.7%)
-- Answer positions: A 1811, B 1896, C 1947, D 1625
+- MCQs kept: **7769**
+- News pages with at least one question: **2604 / 2629**
+- Facts tested: **14227 / 20515** (69.3%)
+- Answer positions: A 1935, B 2028, C 2074, D 1732
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 778 | 763 | 848 | 710 |
-| Negative / Incorrect Statement | 141 | 139 | 147 | 136 |
-| Assertion-Reason | 142 | 162 | 209 | 177 |
-| Statement-Based (A/B) | 241 | 166 | 223 | 180 |
-| Multi-Statement Correctness | 259 | 279 | 240 | 251 |
-| Chronological Ordering | 4 | 4 | 2 | 2 |
-| List-Matching | 171 | 160 | 151 | 163 |
-| Count-Based | 75 | 223 | 127 | 6 |
+| Direct Recall | 829 | 829 | 892 | 763 |
+| Negative / Incorrect Statement | 149 | 146 | 156 | 139 |
+| Assertion-Reason | 144 | 167 | 222 | 181 |
+| Statement-Based (A/B) | 259 | 173 | 235 | 188 |
+| Multi-Statement Correctness | 281 | 298 | 263 | 267 |
+| Chronological Ordering | 5 | 4 | 2 | 2 |
+| List-Matching | 187 | 179 | 168 | 186 |
+| Count-Based | 81 | 232 | 136 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 854 |
-| verify:explanation_contradicts | 134 |
-| verify:not_in_facts | 110 |
-| duplicate | 47 |
-| verify:two_correct | 28 |
-| verify:none_correct | 24 |
-| verify:second reader picked option 2, key 1 | 17 |
-| verify:ambiguous_stem | 6 |
-| verify:garbled | 5 |
-| verify:second reader picked option 1, key 0 | 4 |
+| code | 933 |
+| verify:explanation_contradicts | 153 |
+| verify:not_in_facts | 116 |
+| duplicate | 50 |
+| verify:two_correct | 31 |
+| verify:none_correct | 28 |
+| verify:second reader picked option 2, key 1 | 18 |
+| verify:ambiguous_stem | 8 |
+| verify:garbled | 6 |
+| verify:second reader picked option 1, key 0 | 5 |
 | verify:second reader picked option 3, key 0 | 2 |
 | verify:second reader picked option 0, key 1 | 2 |
 | verify:second reader picked option 3, key 2 | 2 |
 | verify:second reader picked option 2, key 0 | 1 |
 | verify:trivial | 1 |
 | verify:second reader picked option 1, key 3 | 1 |
+| verify:second reader picked option 0, key 3 | 1 |
 | verify:second reader picked option 3, key 1 | 1 |
 
 ## Per file
@@ -108,17 +109,17 @@
 | 2026-05/09 | Awards, Persons & Appointments | 96 | 182/185 |
 | 2026-05/10 | Sports | 32 | 55/62 |
 | 2026-05/11 | Important Days & Events | 46 | 73/75 |
-| 2026-04/01 | Andhra Pradesh | 66 | 130/306 |
-| 2026-04/02 | Polity & Governance | 39 | 86/211 |
-| 2026-04/03 | Schemes & Social Sector | 16 | 32/71 |
-| 2026-04/04 | Economy, Banking & Budget | 27 | 57/116 |
-| 2026-04/05 | International Relations | 24 | 46/92 |
-| 2026-04/06 | Science, Tech, Space & Defence | 20 | 37/129 |
-| 2026-04/07 | Environment & Geography | 33 | 66/152 |
-| 2026-04/08 | Reports, Indices & Rankings | 9 | 17/58 |
-| 2026-04/09 | Awards, Persons & Appointments | 13 | 29/49 |
-| 2026-04/10 | Sports | 11 | 19/41 |
-| 2026-04/11 | Important Days & Events | 20 | 30/113 |
+| 2026-04/01 | Andhra Pradesh | 176 | 297/306 |
+| 2026-04/02 | Polity & Governance | 112 | 203/211 |
+| 2026-04/03 | Schemes & Social Sector | 39 | 69/71 |
+| 2026-04/04 | Economy, Banking & Budget | 63 | 113/116 |
+| 2026-04/05 | International Relations | 53 | 88/92 |
+| 2026-04/06 | Science, Tech, Space & Defence | 80 | 127/129 |
+| 2026-04/07 | Environment & Geography | 89 | 150/152 |
+| 2026-04/08 | Reports, Indices & Rankings | 35 | 58/58 |
+| 2026-04/09 | Awards, Persons & Appointments | 25 | 48/49 |
+| 2026-04/10 | Sports | 25 | 41/41 |
+| 2026-04/11 | Important Days & Events | 72 | 111/113 |
 | 2026-03/01 | Andhra Pradesh | 37 | 78/174 |
 | 2026-03/02 | Polity & Governance | 32 | 76/159 |
 | 2026-03/03 | Schemes & Social Sector | 10 | 17/47 |
@@ -157,7 +158,7 @@
 | 2025-12/03 | Schemes & Social Sector | 6 | 10/46 |
 | 2025-12/04 | Economy, Banking & Budget | 21 | 39/140 |
 | 2025-12/05 | International Relations | 10 | 22/59 |
-| 2025-12/06 | Science, Tech, Space & Defence | 19 | 48/129 |
+| 2025-12/06 | Science, Tech, Space & Defence | 18 | 45/129 |
 | 2025-12/07 | Environment & Geography | 14 | 36/78 |
 | 2025-12/08 | Reports, Indices & Rankings | 3 | 2/25 |
 | 2025-12/09 | Awards, Persons & Appointments | 2 | 3/11 |
@@ -1031,24 +1032,138 @@
 - `2026-05/11/d001#14` verify: explanation_contradicts — Statements 1, 2, and 3 are correct, so the count is three; the explanation incorrectly says only statements 1 and 2 are correct.
   - Q: How many of the following statements are correct? / 1. The United States returned 657 antiquities valued at approximately US$14 mn. / 2. The UNESCO Convention of 1970 addresses the illicit import and expo
   - Key: Only two
+- `2026-04/01/d001#2` verify: not_in_facts — The facts establish A but do not state whether removal is by the Governor on the Chief Justice's recommendation.
+  - Q: Assertion (A): A High Court judge can be removed on the ground of proved misbehaviour or incapacity. / Reason (R): A High Court judge can be removed by the Governor on the recommendation of the Chief Ju
+  - Key: A is true, but R is false
+- `2026-04/01/d003#1` verify: explanation_contradicts — The facts establish that statements 1 and 2 are true, contrary to the explanation.
+  - Q: Consider the following statements about fertilisers: / 1. Urea contains 46% nitrogen. / 2. The ideal N:P:K ratio is 4:2:1. / 3. MOP is a phosphatic fertiliser. /  / Which of the statements given above is correc
+  - Key: 1 only
+- `2026-04/01/d003#9` verify: explanation_contradicts — All four statements are supported by the facts, so none is an incorrect statement.
+  - Q: With reference to India’s gold production and mining framework, identify the incorrect statement.
+  - Key: The MMDR Act was enacted in 1957 and amended in 2015 and 2021.
+- `2026-04/01/d003r2#4` verify: garbled — There are three statements, but one option incorrectly refers to all four.
+  - Q: With reference to the ACC PLI scheme and Andhra Pradesh’s Rabi paddy procurement in 2026, how many of the following statements are correct? / 1. The ACC PLI scheme was launched in 2021. / 2. About 4.5 cro
+  - Key: Only one
+- `2026-04/01/d004#6` verify: not_in_facts — The facts support the Godavari, Eastern Ghats and gorge statements but do not explicitly establish that Papi Kondalu is in Andhra Pradesh.
+  - Q: Which of the following statements about Papi Kondalu is incorrect?
+  - Key: It is located along the Krishna River.
+- `2026-04/01/d004r2#0` verify: explanation_contradicts — The facts support all three statements, but no option lists 1, 2 and 3 and the explanation rejects statements 1 and 2.
+  - Q: With reference to festivals of Andhra Pradesh, consider the following statements: / 1. Lepakshi Utsav is associated with Lepakshi and is held in February. / 2. Visakha Utsav is associated with Visakhapatn
+  - Key: 3 only
+- `2026-04/01/d005#9` verify: not_in_facts — The fact establishes the largest cattle population, but does not establish whether India has the largest buffalo population.
+  - Q: Assertion (A): India has the largest buffalo population in the world. / Reason (R): India has the largest cattle population in the world according to the Livestock Census.
+  - Key: A is false, but R is true
+- `2026-04/01/d006#14` verify: explanation_contradicts — The facts make statements 1, 2 and 3 correct, so the answer is only three, not only one.
+  - Q: How many of the following statements about rubber-related schemes are correct? / 1. NE Mitra aims to expand rubber over 2 lakh hectares in the North-East. / 2. The Rubber Plantation Development Scheme con
+  - Key: Only one
+- `2026-04/01/d008#4` verify: explanation_contradicts — The facts support b-iii and c-i, but the explanation reverses those two pairs.
+  - Q: Match List-I with List-II regarding the recognitions associated with Andhra Pradesh: /  / List-I /  a. Kuppam Mandal /  b. Swachh Andhra /  c. D. Dasharadharami /  d. Amaravati Secretariat /  / List-II /  i. Recipient 
+  - Key: a-ii, b-i, c-iii, d-iv
+- `2026-04/02/d001#7` verify: explanation_contradicts — The facts establish that Statement A is true, but the explanation incorrectly says both statements are false.
+  - Q: Consider the following statements: / Statement A: The reservation is linked to delimitation after the first Census after 2026 and is unlikely to be implemented before 2032–33. / Statement B: The Delimitat
+  - Key: Both Statement A and Statement B are false
+- `2026-04/02/d001#8` verify: explanation_contradicts — Statement 3 is supported by the facts, so three statements—not two—are correct.
+  - Q: How many of the following statements about the proposed women's reservation mechanism are correct? /  / 1. The reservation is proposed to last for 15 years. / 2. Reserved seats would rotate after each delim
+  - Key: Only two
+- `2026-04/02/d002#10` verify: not_in_facts — The facts establish the first three case-holding pairs but do not establish the holding associated with Kantaru Rajeevaru.
+  - Q: Match the Supreme Court cases with the corresponding holdings. /  / List-I / (a) Mohinder Singh Gill (1978) / (b) T.N. Seshan v. Union of India (1995) / (c) Anoop Baranwal v. Union of India (2023) / (d) Kantaru R
+  - Key: a-ii, b-iii, c-i, d-iv
+- `2026-04/02/d003#0` verify: explanation_contradicts — The facts support both statements 1 and 2, whereas the explanation incorrectly treats statement 2 as referring to a different measure.
+  - Q: With reference to Jan Vishwas 2.0, consider the following statements: / 1. The measure covers 79 Central Acts and decriminalises about 717 provisions. / 2. The measure covers about 80 Central Acts and rat
+  - Key: Exactly one statement is correct
+- `2026-04/02/d003r2#1` verify: two_correct — Options 1, 2, and 3 are all incorrect relative to the stated 79 Acts and approximately 717 provisions, so the negative question has no unique answer.
+  - Q: Which of the following statements regarding Jan Vishwas 2.0 is incorrect?
+  - Key: It amends 79 Central Acts and decriminalises approximately 717 provisions.
+- `2026-04/02/d005#3` verify: explanation_contradicts — Both listed statements are supported by the facts, but the explanation says only one is correct.
+  - Q: How many of the following statements are correct? /  / 1. The Ministry of Panchayati Raj has no national data on reserved and unreserved wins in Panchayat elections. / 2. Article 21 applies to non-citizens 
+  - Key: Only one
 - `2026-04/04/c000#4` verify: explanation_contradicts — The facts say GCC countries account for 60% or more of LNG imports, which satisfies the statement that they account for 40% or more.
   - Q: Consider the following statements about India’s fertilizer supply situation during the Strait of Hormuz disruption: /  / 1. India uses about 39–40 million tonnes of urea annually. / 2. Indian Potash Limited
   - Key: 1 and 2 only
+- `2026-04/04/d001#5` verify: ambiguous_stem — The facts contain conflicting reports about whether E20 had been fully achieved, making the status-based statements ambiguous.
+  - Q: Consider the following statements: / Statement A: India achieved E20 in 2024. / Statement B: India achieved E20 in 2026.
+  - Key: Both Statement A and Statement B are false
+- `2026-04/04/d001r2#0` verify: two_correct — The facts present both E20 achieved in 2025 and not yet fully achieved with a 2025–26 target as defensible assessments.
+  - Q: According to the assessment of ethanol blending in India, which statement correctly describes the status of E20?
+  - Key: E20 was achieved in 2025
 - `2026-04/05/c002#5` verify: explanation_contradicts — The fact that those born after January 1, 2009 are covered entails that those born after January 1, 2010 are covered, so Statement A is true.
   - Q: Consider the following statements: / Statement A: Persons born after January 1, 2010 can never legally buy tobacco under the UK Tobacco and Vapes Bill. / Statement B: The Bill becomes law before Royal Ass
   - Key: Both Statement A and Statement B are false
 - `2026-04/05/c002#7` verify: explanation_contradicts — The facts explicitly support Statement 3: the NDB was established in 2014 in Shanghai and Dilma Rousseff is its head.
   - Q: With reference to the first BRICS Health Working Group meeting held in New Delhi, consider the following statements: / 1. India’s BRICS chairship used the theme “Building for Resilience, Innovation, Coo
   - Key: 1 and 2 only
+- `2026-04/05/d000#0` verify: explanation_contradicts — Statements 1 and 3 are true, but no option gives 1 and 3 only; the explanation incorrectly says only statement 3 is correct.
+  - Q: With reference to the distinction between a Free Trade Agreement and a Customs Union, consider the following statements: / 1. Members of an FTA retain an independent external trade policy. / 2. Members of
+  - Key: 3 only
+- `2026-04/05/d001#1` verify: none_correct — All three statements are supported by the facts, but no option represents all three correct statements.
+  - Q: With reference to OPEC+ and crude-oil production, consider the following statements: / 1. OPEC+ comprises 12 OPEC countries and 10 non-OPEC countries. / 2. OPEC+ accounts for approximately 59% of global c
+  - Key: Exactly two statements are correct
+- `2026-04/05/d001#3` verify: second reader picked option 0, key 3 — 
+  - Q: With reference to India–Africa relations, consider the following statements: / 1. Africa supplies approximately 15–20% of India's crude, with Nigeria and Angola among the examples mentioned. / 2. ITEC pro
+  - Key: Exactly two statements are correct
+- `2026-04/05/d001#6` verify: not_in_facts — The facts do not establish that Kyrgyzstan hosted the SCO Defence Ministers' meeting.
+  - Q: Match the following with the correct descriptions. /  / List-I /  a. Kyrgyzstan's currency /  b. Kyrgyzstan's President /  c. Kyrgyzstan /  d. Belarus /  / List-II /  i. Som /  ii. Sadyr Japarov /  iii. Host country of the
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2026-04/05/d001#8` verify: none_correct — All three statements are supported, but no option states that all three are correct.
+  - Q: With reference to the Rooppur Nuclear Power Plant, consider the following statements: / 1. Its two units together have a capacity of 2,400 MW. / 2. It is expected to meet approximately 10% of Bangladesh's
+  - Key: Exactly two statements are correct
+- `2026-04/05/d001#11` verify: explanation_contradicts — Statements 1, 2 and 3 are correct, so the count is three, not one as claimed in the explanation.
+  - Q: How many of the following statements are correct? / 1. PHWRs use natural uranium and heavy water. / 2. Deep-space craft use RTGs based on decay, not fission. / 3. Food irradiation uses Cobalt-60. / 4. PHWRs u
+  - Key: Only one
+- `2026-04/05/d001#13` verify: explanation_contradicts — Statement A is true according to the stated ISA target, contrary to the explanation's claim that both statements are false.
+  - Q: Consider the following statements: / Statement A: The International Solar Alliance targets 50% renewable electricity by 2030. / Statement B: Jordan's capital is Aqaba and its currency is the Jordanian Din
+  - Key: Both Statement A and Statement B are false
+- `2026-04/05/d001r2#6` verify: second reader picked option 1, key 0 — 
+  - Q: With reference to the Rooppur Nuclear Power Plant, consider the following statements: /  / 1. The plant has a total capacity of 2 × 1,000 MW. / 2. Bangladesh became the 33rd country to use nuclear power. / 3.
+  - Key: Only one
+- `2026-04/05/d002#1` verify: ambiguous_stem — Semiconductors and quantum are both merely described as areas of focus, so their assignments to identical descriptions i and ii are not distinguishable.
+  - Q: Match the subjects associated with the India–Austria talks with their corresponding descriptions. /  / List-I /  a. Semiconductors /  b. Quantum /  c. IIT Delhi /  d. Working Holiday Programme /  / List-II /  i. An are
+  - Key: a-i, b-ii, c-iii, d-iv
 - `2026-04/06/c000#3` verify: explanation_contradicts — The explanation initially says only two statements are correct before reversing itself and concluding three.
   - Q: How many of the following statements regarding India's three-stage nuclear programme and the Kalpakkam PFBR are correct? / 1. Stage I uses PHWRs with natural uranium, producing Pu-239 as a by-product. / 2
   - Key: Only two
+- `2026-04/06/d000#2` verify: not_in_facts — The facts do not establish that India joins without a lunar-base condition or that de-orbit burn occurs before splashdown.
+  - Q: Consider the following statements: / Statement A: India would join the USA, Russia and China with an independent human spaceflight capability only after establishing a lunar base. / Statement B: In the Ga
+  - Key: Both Statement A and Statement B are false
+- `2026-04/06/d002#15` verify: explanation_contradicts — Statements 1, 2 and 3 are supported by the facts, so the count is three, not one.
+  - Q: How many of the following statements are correct? /  / 1. TRAWL assemblies worth ₹975 crore are intended for mine-breaching by T-72 and T-90 tanks. / 2. Radio Highway is an Assam Rifles community radio init
+  - Key: Only one
+- `2026-04/06/d003#7` verify: explanation_contradicts — Statements 1 and 3 are supported by the facts, so the count is two, not one.
+  - Q: How many of the following statements are correct? / 1. Pulsars were discovered in 1967 by Jocelyn Bell Burnell and Antony Hewish. / 2. Anaemia Mukt Bharat was launched in 2020. / 3. PM VIKAS was launched in
+  - Key: Only one
+- `2026-04/06/d004#2` verify: two_correct — Because both entries are simply described as other immunotherapies, options 0 and 1 can both swap the assignments of CAR-T therapy and mRNA cancer vaccines.
+  - Q: Match the entries related to Keytruda and cancer immunotherapy in List-I with the correct details in List-II. /  / List-I / (a) Developer of Keytruda / (b) US FDA approval year / (c) Other immunotherapy / (d) Oth
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2026-04/07/d002#13` verify: explanation_contradicts — Statements 1, 2, and 4 are correct, so the count is three rather than two.
+  - Q: How many of the following statements are correct? /  / 1. Ninety-five per cent of Heat Action Plans lack vulnerability assessment, and 67% focus only on daytime heat. / 2. The Global Stocktake under the Par
+  - Key: Only two
+- `2026-04/07/d002r2#1` verify: explanation_contradicts — Statements 1 and 3 are correct, while statement 2 is false because the facts specify daytime heat.
+  - Q: Consider the following statements about Heat Action Plans and climate-related disaster financing in India: /  / 1. About 95% of Heat Action Plans lack vulnerability assessment. / 2. About 67% of Heat Action
+  - Key: Exactly one statement is correct
 - `2026-04/08/c001#3` verify: garbled — The stem lists three statements, but two options refer to exactly three or all four statements.
   - Q: With reference to the Climate Risk Index 2026 released by Germanwatch, consider the following statements: / 1. India ranked 9th for the period 1995–2024. / 2. The assessment recorded more than 430 events.
   - Key: Exactly two statements are correct
+- `2026-04/08/d000#9` verify: explanation_contradicts — The facts support pairs 1, 2 and 3, while the explanation claims only pair 1 is correct; pair 4 is not addressed by the facts.
+  - Q: How many of the following category-score pairs under the Panchayat Advancement Index 2.0 are correctly matched? /  / 1. Performer — 60–75 / 2. Aspirant — 40–60 / 3. Beginner — below 40 / 4. Performer — 75–90
+  - Key: Only one
 - `2026-04/09/c001#1` verify: none_correct — All four statements are supported by the facts, so none is incorrect.
   - Q: Which of the following statements about the Sur Jyotsna National Music Awards 2026 is incorrect?
   - Key: The 13th edition honoured Hindustani vocalist Sumitra Guha and Pandit Lakshman Krishna Rao Pandit.
+- `2026-04/10/d001#3` verify: second reader picked option 2, key 1 — 
+  - Q: The Mumbai Cricket Association introduced annual contracts for domestic players. Consider the following statements: / 1. Category A players receive ₹12–20 lakh. / 2. Category B players receive ₹8–12 lakh.
+  - Key: Only two
+- `2026-04/11/d000#5` verify: explanation_contradicts — The facts make statements 1, 2, and 3 correct, so the count is three, contrary to the explanation's claim of two.
+  - Q: How many of the following statements about April 2026 observances are correct? / 1. World Malaria Day had the theme “Driven to End Malaria: Now We Can. Now We Must.” / 2. World Malaria Day was associated 
+  - Key: Only two
+- `2026-04/11/d000#9` verify: none_correct — All four statements are supported by the facts, so none is an incorrect statement.
+  - Q: Which of the following statements about India’s first operational alkaline battery unit is incorrect?
+  - Key: It was established by Eveready.
+- `2026-04/11/d002#8` verify: none_correct — All four statements are supported by the facts, so no statement is incorrect; the explanation also contradicts the stated 38.44% share.
+  - Q: Which one of the following statements about Telangana's engineering exports is incorrect?
+  - Key: Engineering exports accounted for 38.44% of the State's exports.
+- `2026-04/11/d002#10` verify: explanation_contradicts — The facts state April 12, so all four statements are correct; the explanation incorrectly treats statement 4 as false.
+  - Q: How many of the following statements regarding the Gobar Dhan CBG project at Narmetta are correct? / 1. The project is located in Narmetta village, Siddipet. / 2. Ten plants of 10 TPD each together provid
+  - Key: Only three
 - `2026-03/01/c000#2` verify: not_in_facts — The facts establish that the payment is one-time, but do not explicitly state that the incentive is intended to encourage childbirth.
   - Q: Which of the following statements about the birth incentive under Andhra Pradesh’s draft Population Management Policy 2026 is incorrect?
   - Key: The incentive is paid monthly for the first five years.

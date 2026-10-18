@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P11.F1",
+  "P8.F1"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Gazette notification issuer",
+   "question": "Which Union ministry issued the gazette notification for distribution of Superior Kerosene Oil through the Public Distribution System in 21 States/UTs, including Delhi and Gujarat?",
+   "options": [
+    "Ministry of Petroleum and Natural Gas",
+    "Ministry of Agriculture",
+    "Ministry of Chemicals and Fertilizers",
+    "Ministry of Finance"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "The Ministry of Petroleum and Natural Gas issued the gazette notification for Superior Kerosene Oil distribution through the Public Distribution System in 21 States/UTs, including Delhi and Gujarat. The Ministry of Agriculture is associated with the pesticides legislation, not this notification."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Protection of Regulatory Data",
+   "question": "With reference to CropLife India’s concerns over the draft Pesticides Management Bill, 2025, identify the incorrect statement.",
+   "options": [
+    "CropLife India sought changes in the draft Pesticides Management Bill, 2025.",
+    "CropLife India highlighted an innovation gap.",
+    "CropLife India demanded 5-year Protection of Regulatory Data.",
+    "CropLife India did not seek any changes in the draft Pesticides Management Bill, 2025."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The incorrect statement is that CropLife India did not seek changes in the draft Bill. CropLife India sought changes, citing an innovation gap and demanding 5-year Protection of Regulatory Data; the tempting error reverses its stated position."
+  }
+ ]
+}

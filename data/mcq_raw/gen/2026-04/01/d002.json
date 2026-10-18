@@ -1,0 +1,212 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P5.F3",
+  "P5.F6",
+  "P5.F7",
+  "P5.F8",
+  "P5.F9",
+  "P6.F1",
+  "P6.F10",
+  "P6.F11",
+  "P6.F12",
+  "P6.F4",
+  "P6.F6",
+  "P6.F9",
+  "P7.F10",
+  "P7.F3",
+  "P7.F4",
+  "P7.F8",
+  "P7.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Private partners",
+   "question": "Which private partners were reported to be in talks for content creation and destination promotion under the proposed Amaravati Storytelling Corridor?",
+   "options": [
+    "Eros International and Red Bull",
+    "CFMS and AWARE 2.0",
+    "Nagarjuna and the Ikshvaku dynasty",
+    "Gandhara and Amaravati schools of art"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "Eros International and Red Bull were in talks for content creation and destination promotion. CFMS and AWARE 2.0 are digital governance tools, not the private partners identified for the corridor."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Schools of art and material",
+   "question": "With reference to the Amaravati and Gandhara schools of art, consider the following statements:\n1. The Amaravati School used white limestone.\n2. The Gandhara School used grey schist.\n3. The Gandhara School was indigenous in influence.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Amaravati is associated with white limestone and Gandhara with grey schist. Statement 3 is incorrect because Gandhara had Greco-Roman influence, while indigenous influence is associated with the Amaravati School."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Buddhist sites",
+   "question": "Regarding Buddhist sites in Andhra Pradesh, consider the following statements:\n1. Nagarjunakonda had Ikshvaku patronage.\n2. Nagarjunakonda was linked to Nagarjuna of the Mahayana tradition.\n3. Salihundam is situated near the Krishna River.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F8",
+    "P5.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Nagarjunakonda had Ikshvaku patronage and was linked to Nagarjuna of the Mahayana tradition. Statement 3 is incorrect because Salihundam is near the Vamsadhara River, not the Krishna River."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Reform leadership",
+   "question": "Who directed Andhra Pradesh’s Deregulation Phase-2 reforms for industrial clearances?",
+   "options": [
+    "N. Chandrababu Naidu",
+    "Kandula Durgesh",
+    "Nagarjuna",
+    "N. Chandrababu Naidu and Red Bull jointly"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "Chief Minister N. Chandrababu Naidu directed the Deregulation Phase-2 reforms. Kandula Durgesh was associated with the Storytelling Corridor proposal, while the other options do not identify the reform leader."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Deregulation measures",
+   "question": "Which of the following statements regarding Andhra Pradesh’s Deregulation Phase-2 reforms is incorrect?",
+   "options": [
+    "The reforms shifted several processes towards self-declaration or intimation.",
+    "The reforms merged approvals, ended double licensing and provided for third-party inspections.",
+    "The reforms removed colonial laws.",
+    "The reforms retained colonial laws."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "The incorrect statement is that the reforms retained colonial laws. The stated measures included removing colonial laws, along with shifting to self-declaration or intimation, merging approvals, ending double licensing and using third-party inspections."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Digital governance tool",
+   "question": "What is the full form of CFMS, one of the digital tools associated with Andhra Pradesh’s governance reforms?",
+   "options": [
+    "Comprehensive Financial Management System",
+    "Citizen Facilitation Monitoring Service",
+    "Centralised Farm Management Scheme",
+    "Comprehensive Field Monitoring Structure"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F6"
+   ],
+   "explanation": "CFMS stands for Comprehensive Financial Management System. The other expansions are not the stated meaning of CFMS in the Andhra Pradesh reforms."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Citizen-service interface",
+   "question": "Which digital tool was identified as a citizen-service interface in Andhra Pradesh’s governance reforms?",
+   "options": [
+    "WhatsApp Governance",
+    "CFMS",
+    "Data Lakes",
+    "Per Drop More Crop"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F9"
+   ],
+   "explanation": "WhatsApp Governance was identified as the citizen-service interface. CFMS is the Comprehensive Financial Management System, while Data Lakes concern centralised data storage and analytics."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "AP economy and infrastructure",
+   "question": "Consider the following statements about Andhra Pradesh’s economy and infrastructure:\n1. Andhra Pradesh is a leading State in inland aquaculture.\n2. Visakhapatnam Port is the largest port in Andhra Pradesh by cargo.\n3. The Polavaram Project is intended only for hydropower generation.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F10",
+    "P6.F11",
+    "P6.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Andhra Pradesh leads in inland aquaculture, and Visakhapatnam Port is the State’s largest by cargo. Statement 3 is incorrect because Polavaram is multipurpose, covering irrigation, inter-basin transfer, flood control and hydropower."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Drip and sprinkler irrigation",
+   "question": "Under Andhra Pradesh’s micro-irrigation performance during 2025–26, how many farmers were covered under drip irrigation and sprinkler irrigation respectively?",
+   "options": [
+    "92,505 and 15,638",
+    "15,638 and 92,505",
+    "1,08,143 and 92,505",
+    "2.68 lakh and 18,585"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "Drip irrigation covered 92,505 farmers, while sprinkler irrigation covered 15,638 farmers. The figures 2.68 lakh and 18,585 refer to area, not the corresponding farmer counts."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Micro-irrigation subsidy pattern",
+   "question": "Assertion (A): Under the stated micro-irrigation subsidy pattern, SC/ST farmers receive a higher State contribution than Centre contribution.\nReason (R): For SC/ST farmers, the contribution pattern is Centre 55% and State 100%.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "Both the assertion and reason are correct. The SC/ST subsidy pattern specifies 55% from the Centre and 100% from the State, which directly explains why the State contribution is higher."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "State share in egg production",
+   "question": "How many of the following statements regarding State shares in India’s egg production during 2024–25 are correct?\n1. Telangana’s share was 12.98%.\n2. West Bengal’s share was 10.72%.\n3. Karnataka’s share was 6.76%.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F8",
+    "P7.F9",
+    "P7.F10"
+   ],
+   "explanation": "Only two statements are correct: Telangana accounted for 12.98% and West Bengal for 10.72%. Karnataka’s share was 6.67%, not 6.76%."
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F3",
+  "P10.F6",
+  "P11.F1",
+  "P11.F5",
+  "P11.F7",
+  "P12.F2",
+  "P12.F3",
+  "P13.F2",
+  "P14.F2",
+  "P15.F3",
+  "P8.F2",
+  "P8.F3",
+  "P8.F6",
+  "P8.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Climate-risk losses and rank",
+   "question": "Consider the following statements regarding India's climate-risk position and extreme-event losses:\n1. India suffered losses of about $170 billion from 430 extreme events during 1995–2024.\n2. These events affected approximately 1.3 billion people.\n3. India ranked 9th in the Germanwatch Climate Risk Index.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "All three statements are correct. India recorded about $170 billion in losses from 430 extreme events during 1995–2024, affected about 1.3 billion people, and ranked 9th in the Germanwatch Climate Risk Index."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Adaptation finance gap",
+   "question": "According to the UNEP Adaptation Gap Report 2025, what is the estimated annual adaptation-finance gap of developing countries up to 2035?",
+   "options": [
+    "$284–339 billion",
+    "$170 billion",
+    "$5.6 billion",
+    "$1.3 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "The estimated annual adaptation-finance gap is $284–339 billion up to 2035. The other figures do not represent this developing-country adaptation-finance gap."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SAPCC coverage",
+   "question": "Which of the following correctly describes the status of State Action Plans on Climate Change (SAPCCs) in India?",
+   "options": [
+    "SAPCCs have been prepared by 34 States/UTs, while Delhi is revising its SAPCC",
+    "SAPCCs have been prepared by 34 districts, while Delhi has completed its SAPCC",
+    "SAPCCs have been prepared only by Delhi, while 34 States/UTs are revising theirs",
+    "SAPCCs have been prepared by 11 States/UTs, while Delhi has withdrawn its SAPCC"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F6"
+   ],
+   "explanation": "SAPCCs have been prepared by 34 States/UTs, and Delhi is revising its SAPCC. The alternatives change either the coverage, the unit, or Delhi's status."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Locally Led Adaptation",
+   "question": "What adaptation approach was emphasised at COP30?",
+   "options": [
+    "Locally Led Adaptation",
+    "Article 6 carbon markets",
+    "Global Goal on Adaptation",
+    "National Innovations in Climate Resilient Agriculture"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "COP30 emphasised Locally Led Adaptation. The other options refer to different climate-policy or climate-resilience concepts, not the approach identified with COP30."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Efficiency, cost and pollutant source",
+   "question": "How many of the following statements are correct?\n1. The thermal efficiency of a traditional chulha is approximately 10%.\n2. The thermal efficiency of an improved cookstove is approximately 10%.\n3. A household improved cookstove can cost up to ₹20,000.\n4. Sulphur dioxide mainly originates from natural-gas power plants.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2",
+    "P10.F3",
+    "P10.F6"
+   ],
+   "explanation": "Only statement 1 is correct: a traditional chulha has thermal efficiency of about 10%. Improved cookstoves have 38–45% efficiency, a household model costs less than ₹2,000, and sulphur dioxide mainly comes from coal thermal power plants."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Rare-earth mining and composition",
+   "question": "Match List-I with List-II in the context of rare-earth mining and processing affecting the Mekong tributaries.\n\nList-I\n(a) Unregulated rare-earth mining in Myanmar and Laos\n(b) Rare-earth elements\n(c) Monazite\n(d) Froth flotation\n\nList-II\n(i) 17 elements\n(ii) Heavy metals entering the Sai and Ruak tributaries and then the Mekong\n(iii) Contains thorium and uranium\n(iv) Cannot separate individual rare-earth elements",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F5",
+    "P11.F7"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv. Unregulated mining introduces heavy metals into the Sai and Ruak tributaries, rare earths comprise 17 elements, monazite contains thorium and uranium, and froth flotation cannot separate individual rare-earth elements."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Age and geological processes",
+   "question": "Consider the following statements regarding the Yana Caves:\nStatement A: The Yana Caves are approximately 2,700 million years old and lie in the Eastern Ghats.\nStatement B: The caves were formed through tectonic and volcanic processes.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F2"
+   ],
+   "explanation": "Both statements are false. The Yana Caves are approximately 2,700 million years old and lie in the Western Ghats; their formation involved tectonic and karst processes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GSI establishment",
+   "question": "The Geological Survey of India, associated with the declaration of Yana Caves as a national Geo-heritage site, was established in which year?",
+   "options": [
+    "1851",
+    "1972",
+    "1998",
+    "2003"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "The Geological Survey of India was established in 1851. The other years are not the establishment year of the Geological Survey of India."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Headquarters of UN bodies",
+   "question": "Where are the headquarters of both UN-Habitat and UNEP located?",
+   "options": [
+    "Kolkata",
+    "Kochi",
+    "Nairobi",
+    "Chennai"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "Both UN-Habitat and UNEP have their headquarters in Nairobi. The other locations are not the common headquarters of these two organisations."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Deep-sea repository and Arunachal Pradesh",
+   "question": "Match List-I with List-II in the context of the Bhavsagar Referral Centre and Arunachal Pradesh's hydropower sector.\n\nList-I\n(a) Geo-referenced specimens at the Bhavsagar Referral Centre\n(b) UN Decade of Ocean Science\n(c) Arunachal Pradesh's approximate hydropower potential\n(d) Year of Arunachal Pradesh statehood\n\nList-II\n(i) 1987\n(ii) 2021–2030\n(iii) 50,000 MW\n(iv) 3,500+\n\nOptions:",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2",
+    "P15.F3"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i. The Bhavsagar Referral Centre holds 3,500+ geo-referenced specimens, the UN Decade of Ocean Science runs from 2021–2030, Arunachal Pradesh has about 50,000 MW of hydropower potential, and the State attained statehood in 1987."
+  }
+ ]
+}

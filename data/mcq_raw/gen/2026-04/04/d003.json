@@ -1,0 +1,71 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "only": [
+  "P12.F3",
+  "P12.F4",
+  "P13.F2",
+  "P18.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Project sequence and institutional facts",
+   "question": "Regarding SJVN's Lower Arun hydropower project in Nepal, consider the following statements:\n1. Lower Arun is SJVN's second project in Nepal after Arun-3.\n2. SJVN was established in 1988 at Shimla.\n3. Nepal's President is Ram Chandra Paudel, and the Koshi is known as the “Sorrow of Bengal.”",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3",
+    "P12.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Lower Arun is SJVN's second Nepal project after Arun-3, and SJVN dates to 1988 at Shimla. Statement 3 is incorrect because the Koshi is known as the “Sorrow of Bihar,” not the “Sorrow of Bengal.”"
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Investment selection mechanism",
+   "question": "Under Startup India Fund of Funds 2.0, which body selects the investments in the identified focus areas?",
+   "options": [
+    "Venture Capital Investment Committee",
+    "Department for Promotion of Industry and Internal Trade",
+    "SEBI-registered Alternative Investment Funds",
+    "Startup India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "The Venture Capital Investment Committee selects investments under Startup India Fund of Funds 2.0. SEBI-registered AIFs serve as the investment route, while the other options do not perform the stated selection function."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Administrative ministry",
+   "question": "The Bharat Maritime Insurance Pool approved in April 2026 comes under which Union Ministry?",
+   "options": [
+    "Ministry of Ports, Shipping and Waterways",
+    "Insurance Regulatory and Development Authority of India",
+    "Ministry of Corporate Affairs",
+    "Ministry of Finance"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F3"
+   ],
+   "explanation": "The Bharat Maritime Insurance Pool comes under the Ministry of Ports, Shipping and Waterways. IRDAI is the regulator, whereas the Ministry of Corporate Affairs and the Ministry of Finance are not identified as its administering ministry."
+  }
+ ]
+}

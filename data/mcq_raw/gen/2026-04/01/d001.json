@@ -1,0 +1,264 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F2",
+  "P2.F4",
+  "P2.F5",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F2",
+  "P3.F3",
+  "P4.F10",
+  "P4.F11",
+  "P4.F12",
+  "P4.F13",
+  "P4.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Predecessor",
+   "question": "Whom did Justice Lisa Gill succeed as Chief Justice of the Andhra Pradesh High Court?",
+   "options": [
+    "Justice Dhiraj Singh Thakur",
+    "Justice S. Abdul Nazeer",
+    "Justice Lisa Gill",
+    "Justice Arthur Cotton"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Justice Lisa Gill succeeded Justice Dhiraj Singh Thakur as Chief Justice of the Andhra Pradesh High Court. Justice Dhiraj Singh Thakur had retired on April 24, before her assuming office."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitutional articles",
+   "question": "With reference to the constitutional provisions concerning High Courts, consider the following statements:\n1. Article 214 provides for a High Court for each State.\n2. Article 217 provides for the transfer of High Court judges.\n3. Article 235 deals with the High Court’s control over subordinate courts.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5",
+    "P2.F8"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Article 214 provides for a High Court for each State, while Article 235 concerns High Court control over subordinate courts. Statement 2 is incorrect because Article 217 concerns appointment, whereas transfer is dealt with under Article 222."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Removal of High Court judges",
+   "question": "Assertion (A): A High Court judge can be removed on the ground of proved misbehaviour or incapacity.\nReason (R): A High Court judge can be removed by the Governor on the recommendation of the Chief Justice of the High Court.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "Assertion (A) is true: removal is on the ground of proved misbehaviour or incapacity. Reason (R) is false because the stated constitutional provision does not provide for removal by the Governor on such a recommendation."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Eligibility for appointment",
+   "question": "Assertion (A): A person eligible for appointment as a High Court judge must have held judicial office for 10 years or been an advocate of a High Court for 10 years.\nReason (R): The eligibility requirement is 5 years of judicial office or 5 years of practice as a High Court advocate.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "Assertion (A) is true because the eligibility requirement is 10 years of judicial office or 10 years as a High Court advocate. Reason (R) is false; the period is 10 years, not 5 years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Retirement age",
+   "question": "What is the retirement age of a High Court judge in India?",
+   "options": [
+    "62 years",
+    "65 years",
+    "60 years",
+    "61 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "A High Court judge retires at the age of 62 years. The age of 65 years applies to a Supreme Court judge, making it the most likely trap."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Judicial appointments and removal",
+   "question": "Match List-I with List-II regarding the higher judiciary.\n\nList-I\n(a) Collegium system\n(b) Motion for removal in the Lok Sabha\n(c) Motion for removal in the Rajya Sabha\n(d) Inquiry under the Judges Inquiry Act\n\nList-II\n(i) Judges Inquiry Act, 1968\n(ii) 100 members\n(iii) Evolved through the Second and Third Judges Cases\n(iv) 50 members",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11",
+    "P2.F12"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i. The Collegium evolved through the Second and Third Judges Cases; a removal motion requires 100 Lok Sabha members or 50 Rajya Sabha members, and the inquiry is under the Judges Inquiry Act, 1968."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Oath-taking venue",
+   "question": "Where did Governor S. Abdul Nazeer administer the oath to Justice Lisa Gill as Chief Justice of the Andhra Pradesh High Court?",
+   "options": [
+    "Lok Bhavan, Amaravati",
+    "The Andhra Pradesh High Court building",
+    "The State Secretariat, Amaravati",
+    "The Governor’s residence in Vijayawada"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F13"
+   ],
+   "explanation": "Governor S. Abdul Nazeer administered the oath to Justice Lisa Gill at Lok Bhavan in Amaravati. The oath was in the form prescribed in the Third Schedule."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Writ jurisdiction and Court of Record",
+   "question": "Consider the following statements:\nStatement A: Under Article 215, a High Court is a Court of Record and has the power of contempt.\nStatement B: Under Article 226, a High Court can issue writs only for the enforcement of Fundamental Rights.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F14"
+   ],
+   "explanation": "Statement A is true: Article 215 recognises the High Court as a Court of Record, including contempt power. Statement B is false because Article 226 permits writs for Fundamental Rights and other legal rights, making it wider than Article 32."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Resignation of High Court judge",
+   "question": "To whom must a High Court judge submit a written resignation?",
+   "options": [
+    "The President",
+    "The Governor of the State",
+    "The Chief Justice of India",
+    "The Chief Justice of the concerned High Court"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F15"
+   ],
+   "explanation": "A High Court judge resigns by writing to the President. Resignation is therefore not addressed to the Governor or to either of the Chief Justices listed in the other options."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First woman Chief Justice",
+   "question": "Justice Lisa Gill’s appointment marked which distinction in the history of the Andhra Pradesh High Court?",
+   "options": [
+    "First woman Chief Justice after the 2019 reorganisation",
+    "First woman judge of the Supreme Court",
+    "First Chief Justice appointed before the 2019 reorganisation",
+    "First woman Governor of Andhra Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F16"
+   ],
+   "explanation": "Justice Lisa Gill became the first woman Chief Justice of the Andhra Pradesh High Court after the 2019 reorganisation. The distinction relates specifically to the post-reorganisation Andhra Pradesh High Court."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Quantum computing technology",
+   "question": "How many of the following statements about the quantum hardware test beds in Amaravati are correct?\n1. The facilities included two small indigenous quantum computers developed by startup Qubit Force.\n2. The computers were developed by a startup other than Qubit Force.\n3. Qubit uses superposition but not entanglement.\n4. The facilities included three small indigenous quantum computers.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "Only statement 1 is correct: the facilities included two small indigenous quantum computers developed by Qubit Force. Qubit uses both superposition and entanglement, and the number of computers was two rather than three."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Quantum principles",
+   "question": "Which two quantum phenomena are associated with Qubit in the Bharat Quantum Reference Facilities?",
+   "options": [
+    "Superposition and entanglement",
+    "Reflection and refraction",
+    "Fission and fusion",
+    "Conduction and induction"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "Qubit uses superposition and entanglement. The other options name phenomena from optics, nuclear science or electricity rather than the two quantum principles specified for Qubit."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "River and water-management facts",
+   "question": "Match the following Amaravati and Krishna-basin features with the associated details.\n\nList-I\n(a) Planned reservoirs of the Amaravati project\n(b) Krishna River\n(c) Tungabhadra\n(d) Dowleswaram Barrage\n\nList-II\n(i) Sir Arthur Cotton\n(ii) Lam, Pedaparimi and Vykuntapuram\n(iii) Formed by the Tunga and Bhadra rivers\n(iv) Second-largest east-flowing peninsular river after the Godavari",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F9",
+    "P4.F10",
+    "P4.F11",
+    "P4.F12"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i. The planned reservoirs are Lam, Pedaparimi and Vykuntapuram; the Krishna is the second-largest east-flowing peninsular river after the Godavari; Tungabhadra is formed by the Tunga and Bhadra; and Dowleswaram Barrage is associated with Sir Arthur Cotton."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coastal canal",
+   "question": "The Buckingham Canal runs parallel to which coast?",
+   "options": [
+    "Coromandel Coast",
+    "Malabar Coast",
+    "Konkan Coast",
+    "Odisha Coast"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F13"
+   ],
+   "explanation": "The Buckingham Canal runs parallel to the Coromandel Coast through Andhra Pradesh and Tamil Nadu. It is not a Krishna–Narmada link, which is the misleading association in the context of this canal."
+  }
+ ]
+}

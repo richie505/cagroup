@@ -1,0 +1,268 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F12",
+  "P0.F2",
+  "P0.F3",
+  "P0.F5",
+  "P0.F6",
+  "P0.F8",
+  "P0.F9",
+  "P1.F3",
+  "P1.F4",
+  "P1.F5",
+  "P1.F7",
+  "P1.F8",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F2",
+  "P2.F5",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Global production share",
+   "question": "India is the world’s second-largest fish producer and contributes approximately what share of global fish production?",
+   "options": [
+    "About 8%",
+    "About 7.43%",
+    "About 10%",
+    "About 5%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "India is the second-largest fish producer and accounts for approximately 8% of world production. The figure 7.43% refers to fisheries’ share in Agricultural GVA, not global fish production."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Fish production and fisheries geography",
+   "question": "Consider the following statements about India’s fisheries sector:\n1. Fish production increased from 95.79 lakh tonnes in 2013–14 to 197.75 lakh tonnes in 2024–25.\n2. Inland waters cover approximately 31.5 lakh hectares.\n3. India’s coastline extends for 24 lakh kilometres.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: production rose from 95.79 lakh tonnes to 197.75 lakh tonnes, and inland waters cover 31.5 lakh hectares. Statement 3 is incorrect because 24 lakh is the area of the EEZ in square kilometres, while the coastline is 11,099 kilometres."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Fisheries schemes and techniques",
+   "question": "Match the following fisheries initiatives or techniques with their key features:\n\nList-I\n(a) Blue Revolution\n(b) National Fisheries Digital Platform\n(c) FIDF\n(d) Biofloc and RAS\n\nList-II\n(i) Digital identity and targeted delivery\n(ii) Scientific aquaculture\n(iii) Fisheries and aquaculture infrastructure\n(iv) Aquaculture techniques",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F8",
+    "P0.F9",
+    "P0.F12"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv. Blue Revolution promoted scientific aquaculture; NFDP provides digital identity and targeted delivery; FIDF supports infrastructure; and Biofloc and RAS are aquaculture techniques."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Article 341 procedure",
+   "question": "Under Article 341, who specifies the Scheduled Castes for each State or Union Territory after consultation with the Governor?",
+   "options": [
+    "The President",
+    "Parliament",
+    "The Governor",
+    "The Ministry of Social Justice and Empowerment"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The President specifies the Scheduled Castes for each State or Union Territory after consulting the Governor. The SC list can be modified only by Parliament, so Parliament is not the authority that initially specifies it."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Constitutional provisions on SC status and reservation",
+   "question": "Match the following constitutional provisions or instruments with the associated feature:\n\nList-I\n(a) Article 341\n(b) Constitution (Scheduled Castes) Order, 1950\n(c) Articles 330 and 332\n(d) Reservation in private-sector jobs\n\nList-II\n(i) No reservation\n(ii) Presidential specification of SCs after consulting the Governor\n(iii) Originally for Hindus; later extended to Sikhs and Buddhists\n(iv) Reservation in legislatures\n\nOptions:",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i. Article 341 concerns Presidential specification, the 1950 Order was extended from Hindus to Sikhs and Buddhists, Articles 330 and 332 concern legislative reservation, and there is no reservation in private-sector jobs."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Commission composition and chairperson",
+   "question": "Consider the following statements about the Commission of Inquiry on the status of converted Dalits:\n1. It was set up on October 6, 2022, with Justice K.G. Balakrishnan, Prof. Sagarambal Krishnan and ex-IAS officer Rajita Singh as members.\n2. K.G. Balakrishnan was the 37th Chief Justice of India during 2007–2010 and the first Dalit Chief Justice of India.\n3. Rajita Singh was a former Chief Justice of India.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Rajita Singh was identified as an ex-IAS officer, not as a former Chief Justice of India, making statement 3 incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Context of UGC Equity Regulations",
+   "question": "The Supreme Court’s interim stay on the UGC Promotion of Equity in Higher Education Institutions Regulations, 2026 arose amid concerns primarily relating to which issue?",
+   "options": [
+    "Caste discrimination and student suicides",
+    "Fisheries infrastructure and cold storage",
+    "Reservation in private-sector jobs",
+    "Scientific aquaculture and fish production"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "The context included caste discrimination and student suicides, including the Abeda Salim Tadvi case. Fisheries infrastructure, private-sector job reservation and scientific aquaculture are unrelated to the stated context of these Regulations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Grievance-redressal mechanism",
+   "question": "Which feature was provided as part of the grievance system under the UGC Promotion of Equity in Higher Education Institutions Regulations, 2026?",
+   "options": [
+    "A 24/7 system with helplines, portals, Equity Officers and Equity Squads",
+    "A system limited to bi-annual public reports",
+    "A system available only through private-sector employers",
+    "A system restricted to legislative reservation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The Regulations provided a 24/7 grievance system involving helplines, portals, Equity Officers and Equity Squads. Bi-annual public reports are a separate compliance-related provision and do not describe the grievance system."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Definition and penalty for caste discrimination",
+   "question": "Which of the following statements regarding caste discrimination under the UGC Equity Regulations, 2026 is incorrect?",
+   "options": [
+    "Caste discrimination is defined as discrimination against SC, ST and OBC persons.",
+    "The Regulations explicitly prescribe a penalty for false complaints.",
+    "The Regulations contain no explicit penalty for false complaints.",
+    "The absence of an explicit penalty for false complaints was a concern regarding the Regulations."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "The incorrect statement is that the Regulations explicitly prescribe a penalty for false complaints. The stated provision defines caste discrimination against SC, ST and OBC persons but contains no explicit penalty for false complaints."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Article 15(1)",
+   "question": "Consider the following statements:\nStatement A: Article 15(1) prohibits discrimination by the State against citizens.\nStatement B: Article 15(1) lists descent as a ground of discrimination.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "Statement A is true because Article 15(1) prohibits discrimination by the State against citizens. Statement B is false because descent is not listed as a ground under the stated provision."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Articles 15(2) to 15(5)",
+   "question": "Match the following constitutional provisions with their features:\n\nList-I\n(a) Article 15(2)\n(b) Article 15(3)\n(c) Article 15(4)\n(d) Article 15(5)\n\nList-II\n(i) Special provisions for women and children\n(ii) SEBCs, SCs and STs\n(iii) Applies to the State and private establishments such as shops, hotels and public places\n(iv) Reservation in educational institutions, including private institutions",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10",
+    "P2.F11"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-ii and d-iv. Article 15(2) covers the State and private public-access establishments; Article 15(3) concerns women and children; Article 15(4) covers SEBCs, SCs and STs; and Article 15(5) concerns educational institutions, including private institutions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "EWS reservation",
+   "question": "The 103rd Constitutional Amendment provided what under Articles 15(6) and 16(6)?",
+   "options": [
+    "10% reservation for EWS",
+    "Reservation in promotion for SC/ST",
+    "Reservation for SEBCs, SCs and STs",
+    "Reservation in legislatures up to 2030"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "The 103rd Amendment of 2019 provided 10% reservation for Economically Weaker Sections under Articles 15(6) and 16(6). Reservation in promotion for SC/ST is associated with Article 16(4A), not these provisions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Reservation in promotion",
+   "question": "The 77th Constitutional Amendment, 1995 inserted Article 16(4A) relating to which provision?",
+   "options": [
+    "Reservation in promotion for SC/ST",
+    "10% reservation for EWS",
+    "Special provisions for women and children",
+    "Reservation in educational institutions including private institutions"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F13"
+   ],
+   "explanation": "The 77th Amendment of 1995 inserted Article 16(4A), concerning reservation in promotion for SC/ST. EWS reservation is linked to the 103rd Amendment and Articles 15(6) and 16(6)."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Creamy layer and promotion-quota conditions",
+   "question": "Assertion (A): Indra Sawhney prescribed the creamy-layer principle for OBCs only.\nReason (R): M. Nagaraj laid down the requirement of quantifiable data for conditions relating to promotion quota.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F14"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: Indra Sawhney concerned the creamy layer for OBCs only, while M. Nagaraj concerned quantifiable-data conditions for promotion quota. The M. Nagaraj principle does not explain the creamy-layer rule from Indra Sawhney, so the second option is correct."
+  }
+ ]
+}

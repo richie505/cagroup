@@ -1,0 +1,148 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38
+ ],
+ "only": [
+  "P28.F2",
+  "P28.F3",
+  "P28.F6",
+  "P28.F8",
+  "P29.F2",
+  "P30.F2",
+  "P32.F2",
+  "P34.F6",
+  "P34.F7",
+  "P35.F2",
+  "P36.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Environmental concerns and river geography",
+   "question": "Consider the following statements regarding sand extraction and the Bahuda River in Andhra Pradesh:\n1. Similar sand extraction has been reported in the Bahuda River near the Andhra Pradesh–Odisha border.\n2. The major concerns include coastal erosion, groundwater depletion and marine biodiversity loss.\n3. The Sustainable Sand Mining Management Guidelines, 2016 were issued by MoEFCC and require a District Survey Report.\n4. The Bahuda River is a tributary of the Godavari.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P28.F2",
+    "P28.F3",
+    "P28.F6",
+    "P28.F8"
+   ],
+   "explanation": "Statements 1 and 3 are correct: extraction was reported near the AP–Odisha border, and the 2016 guidelines require a District Survey Report. Statement 2 is incorrect because the specified groundwater concern is salinisation, not depletion; statement 4 is incorrect because the Bahuda is an independent east-flowing river to the Bay of Bengal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Handloom sector observance",
+   "question": "India’s handloom sector is associated with which date as National Handloom Day?",
+   "options": [
+    "August 7",
+    "April 1",
+    "April 24",
+    "October 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F2"
+   ],
+   "explanation": "National Handloom Day is observed on August 7. April 1 relates to the commencement of the Andhra Pradesh electricity scheme, while April 24 is National Panchayati Raj Day."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Project funding",
+   "question": "What funding pattern was announced for the Hello Kidney AI project in Andhra Pradesh?",
+   "options": [
+    "Initial funding of ₹5 crore and planned statewide expansion funding of ₹50 crore",
+    "Initial funding of ₹50 crore and planned statewide expansion funding of ₹5 crore",
+    "Initial funding of ₹5 crore and planned statewide expansion funding of ₹5 crore",
+    "Initial funding of ₹50 crore and planned statewide expansion funding of ₹50 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P30.F2"
+   ],
+   "explanation": "Hello Kidney received initial funding of ₹5 crore, with ₹50 crore planned for statewide expansion. The alternatives reverse or equalise the two specified funding amounts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award recipient",
+   "question": "At the 4th UNIDO Gender Equality Mobilisation Award 2026 event in Vienna, who received the award on behalf of Guntur Municipal Corporation?",
+   "options": [
+    "Olga Rataj",
+    "Tarja Halonen",
+    "Gerd Muller",
+    "D. Dasharadharami"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P32.F2"
+   ],
+   "explanation": "Olga Rataj received the award in the presence of Tarja Halonen. Tarja Halonen was present at the event, while Gerd Muller and D. Dasharadharami are associated with other details in the Andhra Pradesh current-affairs record."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Awards and recipients",
+   "question": "Match List-I with List-II regarding the recognitions associated with Andhra Pradesh:\n\nList-I\n a. Kuppam Mandal\n b. Swachh Andhra\n c. D. Dasharadharami\n d. Amaravati Secretariat\n\nList-II\n i. Recipient of the SKOCH Gold Award 2025\n ii. Third position in the Nanaji Deshmukh award category\n iii. SKOCH Gold Award 2025\n iv. Made plastic-free\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P34.F6",
+    "P34.F7"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv: Kuppam Mandal secured third position in the Nanaji Deshmukh category; Swachh Andhra received the SKOCH Gold Award 2025; D. Dasharadharami received it; and Amaravati Secretariat was made plastic-free. The other codes interchange these award and recipient details."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Launch and nodal agency",
+   "question": "Assertion (A): The Aspirational Districts Programme was launched in 2015.\nReason (R): NITI Aayog is the nodal agency for the Aspirational Districts Programme.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P35.F2"
+   ],
+   "explanation": "Assertion A is false because the Aspirational Districts Programme was launched in 2018, whereas Reason R is true because NITI Aayog is its nodal agency. Therefore, the correct option is ‘A is false, but R is true.’"
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "MGNREGA enactment and social audit",
+   "question": "Consider the following statements about MGNREGA:\nStatement A: MGNREGA was enacted in 2005 and implemented in 2005.\nStatement B: Social audits under MGNREGA are voluntary.\n\nWhich one of the following is correct?",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P36.F2"
+   ],
+   "explanation": "Both statements are false. MGNREGA was enacted in 2005 but implemented in 2006, and social audits are mandatory rather than voluntary."
+  }
+ ]
+}

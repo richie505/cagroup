@@ -1,0 +1,84 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P4.F13",
+  "P6.F4",
+  "P6.F5",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Jet speed measured",
+   "question": "The jet speed of which astronomical object was measured for the first time in April 2026?",
+   "options": [
+    "Cygnus X-1",
+    "PACE satellite",
+    "Curiosity rover",
+    "Nancy Grace Roman Telescope"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F13"
+   ],
+   "explanation": "Cygnus X-1 was the object whose jet speed was measured for the first time. The speed was estimated at 540 million km/h, approximately half the speed of light. PACE, Curiosity and the Nancy Grace Roman Telescope are associated with other space-science developments."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Developer and vehicle types",
+   "question": "Consider the following statements:\n1. The two military vehicles were developed by DRDO's Vehicle Research and Development Establishment at Ahilyanagar, with one tracked and one wheeled vehicle.\n2. Both military vehicles were wheeled vehicles.\n3. The two military vehicles were developed by Hindustan Aeronautics Limited.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "Only statement 1 is correct: DRDO's VRDE at Ahilyanagar developed two vehicles, one tracked and one wheeled. Statement 2 wrongly describes both as wheeled, while statement 3 wrongly identifies HAL as the developer."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MRO agreement",
+   "question": "The IAF–GE Aerospace agreement concerning the F404 engine depot primarily provides for which activity?",
+   "options": [
+    "MRO of F404-IN20 engines used in Tejas",
+    "Delivery of four maritime helicopters to the Coast Guard",
+    "Development of mine-breaching assemblies for T-72 and T-90 tanks",
+    "Development of an AI satellite imaging system for the Ministry of Home Affairs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F7"
+   ],
+   "explanation": "The agreement provides for maintenance, repair and overhaul of F404-IN20 engines used in Tejas. It includes provision for 20 engines by December 2026. The other options refer to separate helicopter, armament and satellite-imaging developments."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Defence equipment and community radio",
+   "question": "How many of the following statements are correct?\n1. TRAWL assemblies were contracted for ₹975 crore for mine-breaching operations involving T-72 and T-90 tanks.\n2. Radio Highway is an Assam Rifles community radio initiative at Pallel in Manipur, known as “Pallel ki Vaani” and associated with Operation Sadbhavana.\n3. TRAWL assemblies were contracted for ₹1,950 crore for mine-breaching operations involving T-72 and T-90 tanks.\n4. Radio Highway is known as “Operation Sadbhavana.”",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F8",
+    "P6.F9"
+   ],
+   "explanation": "Exactly two statements are correct: statements 1 and 2. The TRAWL assemblies were valued at ₹975 crore, not ₹1,950 crore; and “Pallel ki Vaani” is the name associated with Radio Highway, whereas Operation Sadbhavana is the associated operation."
+  }
+ ]
+}

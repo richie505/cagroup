@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P6.F1",
+  "P7.F10",
+  "P7.F11",
+  "P7.F12",
+  "P7.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Effective date and objective",
+   "question": "The Solid Waste Management Rules, 2026, which replaced the 2016 rules, came into force on which date and primarily aim to promote which outcome?",
+   "options": [
+    "April 1, 2026; zero landfill and a circular economy",
+    "April 1, 2025; complete elimination of plastic waste",
+    "January 1, 2026; zero waste generation and linear production",
+    "April 1, 2026; expansion of landfill capacity and resource extraction"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "The Solid Waste Management Rules, 2026, became effective on April 1, 2026, replacing the 2016 rules, with the goals of zero landfill and a circular economy. The tempting alternative of April 1, 2025 is incorrect because the effective date was April 1, 2026."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Heat Action Plan gaps and fund utilisation",
+   "question": "Consider the following statements about Heat Action Plans and climate-related disaster financing in India:\n\n1. About 95% of Heat Action Plans lack vulnerability assessment.\n2. About 67% of Heat Action Plans focus only on nighttime heat.\n3. The State Disaster Mitigation Fund of ₹32,000 crore is underutilised.",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F9"
+   ],
+   "explanation": "Exactly one statement is correct: about 95% of Heat Action Plans lack vulnerability assessment. Statement 2 is incorrect because 67% focus only on daytime heat, while statement 3 is incorrect because the ₹32,000 crore State Disaster Mitigation Fund is underutilised."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Global Stocktake review cycle",
+   "question": "Assertion (A): The Global Stocktake under the Paris Agreement reviews collective progress every five years.\nReason (R): The Global Stocktake sets legally binding targets and imposes penalties for failing to meet them.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F10"
+   ],
+   "explanation": "Assertion A is true because the Global Stocktake reviews collective progress every five years. Reason R is false: the Global Stocktake does not set targets or impose penalties, so it cannot explain the review cycle."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Climate benchmarks and blue carbon",
+   "question": "Match the following climate concepts with the associated descriptions:\n\nList-I\n(a) 1.5°C benchmark\n(b) Blue carbon\n(c) Mangrove carbon storage\n(d) Seagrass\n\nList-II\n(i) 1850–1900 levels\n(ii) Mangroves, seagrass and salt marshes\n(iii) 3–5 times more carbon per hectare than tropical forests\n(iv) One of the blue-carbon ecosystems",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F11",
+    "P7.F12"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The 1.5°C benchmark is measured against 1850–1900 levels; blue carbon includes mangroves, seagrass and salt marshes; mangroves store 3–5 times more carbon per hectare than tropical forests; and seagrass is a blue-carbon ecosystem."
+  }
+ ]
+}

@@ -1,0 +1,282 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": [
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F13",
+  "P3.F14",
+  "P3.F15",
+  "P3.F16",
+  "P3.F17",
+  "P3.F18",
+  "P3.F19",
+  "P3.F20",
+  "P3.F21",
+  "P3.F22",
+  "P3.F23",
+  "P3.F24",
+  "P3.F25",
+  "P3.F26",
+  "P3.F27",
+  "P3.F28",
+  "P3.F4",
+  "P3.F6",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Pilot and land-record feature",
+   "question": "Consider the following statements:\n1. Bal Panchayat is a rural children's forum whose pilot was scheduled from April 27 to May 2.\n2. BhuDhar provides a permanent parcel number.\n3. BhuDhar was first piloted at Amanal.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Bal Panchayat is a rural children's forum with a pilot from April 27 to May 2, while BhuDhar provides a permanent parcel number. Statement 3 is incorrect because the first survey-based land registration under BhuDhar was at Kusumanchi."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Legal framework for restoration",
+   "question": "Which one of the following statements regarding the Kaleshwaram restoration initiative is incorrect?",
+   "options": [
+    "The steering committee is under Col. Parikshit Mehra.",
+    "The committee covers the Medigadda, Annaram and Sundilla barrages.",
+    "The National Dam Safety Authority was constituted in 2022 under the Dam Safety Act, 2021.",
+    "The National Dam Safety Authority was constituted in 2021 under the Dam Safety Act, 2022."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "The fourth statement is incorrect because it reverses both years. The facts place the National Dam Safety Authority in 2022 and the Dam Safety Act in 2021; the other statements correctly identify the committee and the three barrages."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Constitutional officeholders",
+   "question": "Match List-I with List-II regarding Telangana and the Comptroller and Auditor General.\n\nList-I\n(a) Comptroller and Auditor General\n(b) Telangana Chief Minister\n(c) Telangana Governor\n(d) Constitutional Article associated with the CAG\n\nList-II\n(i) Article 148\n(ii) A. Revanth Reddy\n(iii) Shiv Pratap Shukla\n(iv) Sanjay Murthy\n\nSelect the correct code.",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9",
+    "P3.F10"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i. Sanjay Murthy is the CAG head, A. Revanth Reddy is the Chief Minister, Shiv Pratap Shukla is the Governor, and Article 148 is associated with the CAG."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Panchayat awards and locations",
+   "question": "Match the panchayats and associated details.\n\nList-I\n(a) Motukupalli Gram Panchayat\n(b) Pasalwadi Gram Panchayat\n(c) Motukupalli's mandal and district\n(d) Pasalwadi's district\n\nList-II\n(i) Good Governance award\n(ii) Women-Friendly Panchayat award\n(iii) Kotpalli mandal, Vikarabad\n(iv) Sangareddy\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F11",
+    "P3.F12"
+   ],
+   "explanation": "Motukupalli received the Good Governance award and is in Kotpalli mandal of Vikarabad. Pasalwadi received the Women-Friendly Panchayat award and is in Sangareddy."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place and identity in news",
+   "question": "The Saleshwaram Jatara, popularly known as the “Telangana Amarnath”, is held in which setting?",
+   "options": [
+    "Nallamala in Amrabad Tiger Reserve, Nagarkurnool",
+    "Kotpalli mandal in Vikarabad",
+    "Kusumanchi in Khammam",
+    "Pasalwadi in Sangareddy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F13"
+   ],
+   "explanation": "Saleshwaram Jatara is held in the Nallamala region of Amrabad Tiger Reserve in Nagarkurnool. The other options refer to places associated with Motukupalli, BhuDhar and Pasalwadi."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Archaeological discoveries",
+   "question": "Match the archaeological site or object with the associated discovery.\n\nList-I\n(a) Pasupuleru stream\n(b) Charagonda\n(c) Motlagudem\n(d) Anthropomorphic mother goddess stone\n\nList-II\n(i) Palaeolithic–Neolithic stone tools\n(ii) Sculptures of a king, Bhairava and Saptamatrikas\n(iii) Megalithic burials over about 100 acres\n(iv) Approximately 5,000 years old\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F14",
+    "P3.F15",
+    "P3.F16"
+   ],
+   "explanation": "Pasupuleru yielded Palaeolithic–Neolithic stone tools, Charagonda has sculptures of a king, Bhairava and Saptamatrikas, and Motlagudem has extensive megalithic burials. The anthropomorphic mother goddess stone is approximately 5,000 years old."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cultural institutions and heritage",
+   "question": "Consider the following statements:\n1. Saraswatha Parishad Awards were given to 20 writers and included the titles Bal Sahiti Murthi and Bal Sahiti Mitra.\n2. The Saptamatrikas include Brahmi, Maheshwari, Kaumari, Vaishnavi, Varahi, Indrani and Chamundi.\n3. The Archaeological Survey of India was established in 1949.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F17",
+    "P3.F18"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the Archaeological Survey of India was established in 1861; the Saraswatha Parishad was established in 1943."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tourism investment and circuits",
+   "question": "Under Telangana's tourism-circuit initiative, how many circuits were identified and what was the stated outlay?",
+   "options": [
+    "Six circuits and ₹274.93 crore",
+    "Seven circuits and ₹250 crore",
+    "Five circuits and ₹274.93 crore",
+    "Six circuits and ₹56,968 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F19"
+   ],
+   "explanation": "The initiative identified six circuits with an outlay of ₹274.93 crore. The circuits cover spiritual, heritage, eco-wellness, handicrafts, water and Buddhist tourism."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Engineering export rank and growth",
+   "question": "Which one of the following statements about Telangana's engineering exports is incorrect?",
+   "options": [
+    "Telangana ranked fourth in India according to NIRYAT.",
+    "Engineering exports increased by 117.9% between 2023–24 and 2024–25.",
+    "Exports rose from $1,827 million to $7,536 million.",
+    "Engineering exports accounted for 38.44% of the State's exports."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F20"
+   ],
+   "explanation": "The fourth statement is incorrect because 38.44% is the stated share of engineering exports in the State's exports, but the fact does not identify it as the total share in the way the statement presents it? Actually, the stated fact is that engineering exports were 38.44% of State exports."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Airport approval under UDAN",
+   "question": "Which pair of Telangana airports was approved under UDAN as part of the reported airport-development decision?",
+   "options": [
+    "Warangal (Mamnoor) and Adilabad",
+    "Khammam and Devarapalli",
+    "Hyderabad and Warangal (Mamnoor)",
+    "Adilabad and Sangareddy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F21"
+   ],
+   "explanation": "Warangal (Mamnoor) and Adilabad were approved under UDAN. The Adilabad facility is planned as a dual-use airport, with the Ministry of Defence providing the land and the civil terminal to be developed by the Airports Authority of India."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "CBG plant capacity and investment",
+   "question": "How many of the following statements regarding the Gobar Dhan CBG project at Narmetta are correct?\n1. The project is located in Narmetta village, Siddipet.\n2. Ten plants of 10 TPD each together provide 100 TPD capacity.\n3. The project involves an investment of ₹250 crore.\n4. The project was reported on April 12.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F22"
+   ],
+   "explanation": "Exactly three statements are correct: the location, the combined capacity of 100 TPD and the investment of ₹250 crore. Statement 4 is incorrect because the project was reported on April 12, not as a project completion date."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institution and location",
+   "question": "Where is the National Institute for Pre-Clinical Research, created after the upgradation of an ICMR animal facility, located?",
+   "options": [
+    "Genome Valley, on 100 acres",
+    "Future City Education Zone, on 100 acres",
+    "Mamnoor, on 370 acres",
+    "Narmetta village, on 100 acres"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F23"
+   ],
+   "explanation": "The National Institute for Pre-Clinical Research is located in Genome Valley on 100 acres. It was created by upgrading the ICMR animal facility, with permanent status from January 1, 2016."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Greenfield highway and foreign campus",
+   "question": "Consider the following statements:\nStatement A: NH-365BG is Telangana's first greenfield National Highway, connecting Khammam and Devarapalli.\nStatement B: The University of London's first foreign campus in Hyderabad is scheduled to begin classes in 2026–27.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F24",
+    "P3.F25"
+   ],
+   "explanation": "Statement A is true: NH-365BG is Telangana's first greenfield National Highway on the Khammam–Devarapalli route. Statement B is false because classes at the University of London's Hyderabad campus are scheduled for 2027–28."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AI research and Atal Tinkering Labs",
+   "question": "Which of the following correctly pairs the Hyderabad initiatives with their reported features?",
+   "options": [
+    "Aikam-Deakin Hub — AI research; ATL Sarthi and Mentor India Academy — AIM initiatives",
+    "Aikam-Deakin Hub — tourism circuits; ATL Sarthi and Mentor India Academy — airport development",
+    "Aikam-Deakin Hub — pre-clinical research; ATL Sarthi and Mentor India Academy — CBG plants",
+    "Aikam-Deakin Hub — women-friendly panchayats; ATL Sarthi and Mentor India Academy — land registration"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F26",
+    "P3.F27"
+   ],
+   "explanation": "The Aikam-Deakin Hub is for AI research, while ATL Sarthi and Mentor India Academy are AIM initiatives. Telangana has 379 Atal Tinkering Labs, with Vardhaman College as the nodal institution."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Agricultural outreach and El Niño preparedness",
+   "question": "The “Scientists in Farmers' Fields” programme scheduled from May 4 to 23 was organised by which combination for what purpose?",
+   "options": [
+    "Agriculture Department and PJTSAU for El Niño preparedness",
+    "Women's Safety Department and PJTSAU for hidden-camera detection",
+    "Agriculture Department and ICMR for pre-clinical research",
+    "Ministry of Defence and AAI for airport development"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F28"
+   ],
+   "explanation": "The programme was organised by the Agriculture Department and PJTSAU for El Niño preparedness. The other combinations connect unrelated facts such as women-safety teams, pre-clinical research and airport development."
+  }
+ ]
+}

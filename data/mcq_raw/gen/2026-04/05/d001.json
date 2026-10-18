@@ -1,0 +1,269 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P3.F2",
+  "P3.F3",
+  "P3.F4",
+  "P3.F5",
+  "P3.F6",
+  "P4.F3",
+  "P4.F6",
+  "P4.F7",
+  "P5.F2",
+  "P5.F3",
+  "P5.F4",
+  "P7.F2",
+  "P7.F3",
+  "P8.F2",
+  "P8.F3",
+  "P8.F4",
+  "P8.F5",
+  "P8.F6",
+  "P9.F2",
+  "P9.F6",
+  "P9.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Membership since",
+   "question": "The United Arab Emirates has been a member of OPEC since which year?",
+   "options": [
+    "1960",
+    "1967",
+    "2015",
+    "2023"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "The UAE has been an OPEC member since 1967. The year 1960 refers to OPEC's founding, not the UAE's membership."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "OPEC+ composition and crude share",
+   "question": "With reference to OPEC+ and crude-oil production, consider the following statements:\n1. OPEC+ comprises 12 OPEC countries and 10 non-OPEC countries.\n2. OPEC+ accounts for approximately 59% of global crude.\n3. The UAE's output fell from 3.60 million barrels per day to 2.34 million barrels per day, while Saudi Arabia's output fell from 10.40 to 7.80 million barrels per day.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "Exactly two statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "All three statements accurately describe OPEC+ composition, its approximate share of global crude, and the reported output changes of the UAE and Saudi Arabia. Therefore, the option stating that exactly two statements are correct is incorrect; the correct conclusion is that all three are correct."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Organisation and country profile",
+   "question": "Which one of the following statements is incorrect?",
+   "options": [
+    "OPEC was founded in 1960 and has its headquarters in Vienna, Austria.",
+    "Saudi Arabia, Iraq, Iran and the UAE are among the listed OPEC members.",
+    "The UAE has Abu Dhabi as its capital and uses the Dirham as its currency.",
+    "The UAE's President is Mohammed bin Zayed Al Nahyan and its capital is Dubai."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F5",
+    "P3.F6"
+   ],
+   "explanation": "The incorrect statement is that the UAE's capital is Dubai; its capital is Abu Dhabi. The other statements correctly reflect OPEC's founding and headquarters, listed OPEC members, and the UAE's currency and President."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Resource ties and cooperation framework",
+   "question": "With reference to India–Africa relations, consider the following statements:\n1. Africa supplies approximately 15–20% of India's crude, with Nigeria and Angola among the examples mentioned.\n2. ITEC provides scholarships and training, and India's engagement is associated with the SAGAR vision and the roots of the Bandung Conference and NAM.\n3. India is Africa's largest trading partner, while China is among the top five.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "Exactly two statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F6",
+    "P4.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Africa supplies approximately 15–20% of India's crude, and ITEC, SAGAR, Bandung and NAM are identified with India's engagement. Statement 3 reverses the trade-partner position: China is Africa's largest trading partner and India is among the top five."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Agreements and cooperation mechanisms",
+   "question": "Match the following India–South Korea summit items in List-I with their descriptions in List-II.\n\nList-I\n a. Agreements signed at the summit\n b. Joint vision document\n c. Maritime cooperation framework\n d. Economic security dialogue\n\nList-II\n i. One of the additional summit outcomes\n ii. Fifteen agreements covering areas including energy security, defence and rare minerals\n iii. One of the summit's cooperation outcomes\n iv. A separately identified summit outcome",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv. The summit produced 15 agreements, along with a joint vision document, a maritime cooperation framework and an economic security dialogue among its other outcomes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CEPA and capital",
+   "question": "From which year has the India–South Korea Comprehensive Economic Partnership Agreement (CEPA) been in force, and what is South Korea's capital?",
+   "options": [
+    "2010 and Seoul",
+    "2015 and Seoul",
+    "2010 and Busan",
+    "2019 and Seoul"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "The India–South Korea CEPA has been in force since 2010, and Seoul is South Korea's capital. Busan is not the capital, while 2015 and 2019 are not the stated CEPA year."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Country profile and SCO membership",
+   "question": "Match the following with the correct descriptions.\n\nList-I\n a. Kyrgyzstan's currency\n b. Kyrgyzstan's President\n c. Kyrgyzstan\n d. Belarus\n\nList-II\n i. Som\n ii. Sadyr Japarov\n iii. Host country of the SCO Defence Ministers' meeting\n iv. An SCO member\n\nOptions:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: Kyrgyzstan uses the Som, its President is Sadyr Japarov, Bishkek in Kyrgyzstan hosted the meeting, and Belarus is an SCO member. The other codes misassign the currency, President, host country or member status."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Plant location and agencies",
+   "question": "The Rooppur Nuclear Power Plant is located at which place, and which organisations are associated with its construction and operation?",
+   "options": [
+    "Ishwardi in Pabna district; Bangladesh Atomic Energy Commission and Rosatom",
+    "Amman in Jordan; International Solar Alliance and Rosatom",
+    "Bishkek in Kyrgyzstan; Bangladesh Atomic Energy Commission and Rosatom",
+    "Abu Dhabi in the UAE; Bangladesh Atomic Energy Commission and Rosatom"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "Rooppur is located at Ishwardi in Pabna district on the Padma River, with the Bangladesh Atomic Energy Commission and Rosatom associated with it. Amman, Bishkek and Abu Dhabi are not the stated location of the plant."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Capacity and reactor technology",
+   "question": "With reference to the Rooppur Nuclear Power Plant, consider the following statements:\n1. Its two units together have a capacity of 2,400 MW.\n2. It is expected to meet approximately 10% of Bangladesh's power demand.\n3. It uses VVER-1200 Generation III+ reactors with a core catcher and double containment.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "Exactly two statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "All three statements are correct: the plant has two 1,200 MW units, a total capacity of 2,400 MW, an expected contribution of approximately 10% of power demand, and VVER-1200 Generation III+ technology with a core catcher and double containment. Hence, the option saying exactly two statements are correct is not the factual conclusion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nuclear-power milestone",
+   "question": "With the commissioning-related fuel-loading development at Rooppur, Bangladesh became the world's which country to use nuclear power?",
+   "options": [
+    "33rd",
+    "25th",
+    "46th",
+    "10th"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4"
+   ],
+   "explanation": "Bangladesh became the 33rd country to use nuclear power. The figures 25th, 46th and 10th do not represent this milestone."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Fission and fusion",
+   "question": "Assertion (A): Fission involves splitting heavy nuclei.\nReason (R): Fusion involves splitting heavy nuclei to release energy.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "Assertion A is true because fission is the splitting of heavy nuclei. Reason R is false because fusion combines light nuclei, including deuterium–tritium, rather than splitting heavy nuclei."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Nuclear applications and fuel technologies",
+   "question": "How many of the following statements are correct?\n1. PHWRs use natural uranium and heavy water.\n2. Deep-space craft use RTGs based on decay, not fission.\n3. Food irradiation uses Cobalt-60.\n4. PHWRs use Cobalt-60 as their reactor fuel.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F6"
+   ],
+   "explanation": "Only one statement is correct: food irradiation uses Cobalt-60. PHWRs use natural uranium and heavy water, while deep-space craft use RTGs based on decay; Cobalt-60 is not their reactor fuel."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bilateral trade target",
+   "question": "What trade target was set for India and Jordan in the context of their 75 years of diplomatic ties?",
+   "options": [
+    "USD 3–5 billion",
+    "USD 27–50 billion",
+    "USD 1–2 billion",
+    "USD 50 billion by 2030"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "India and Jordan set a bilateral trade target of USD 3–5 billion, against the background of 75 years of diplomatic ties. USD 27–50 billion belongs to the India–South Korea trade target, not India–Jordan relations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Renewable-energy target and country profile",
+   "question": "Consider the following statements:\nStatement A: The International Solar Alliance targets 50% renewable electricity by 2030.\nStatement B: Jordan's capital is Aqaba and its currency is the Jordanian Dinar.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F6",
+    "P9.F7"
+   ],
+   "explanation": "Both statements are false. The stated ISA target is 50% renewable electricity by 2030, but Jordan's capital is Amman, while the Jordanian Dinar is its currency."
+  }
+ ]
+}

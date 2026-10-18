@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": [
+  "P15.F10",
+  "P15.F11",
+  "P15.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Festival place and season",
+   "question": "With reference to festivals of Andhra Pradesh, consider the following statements:\n1. Lepakshi Utsav is associated with Lepakshi and is held in February.\n2. Visakha Utsav is associated with Visakhapatnam and is held in December–January.\n3. Lepakshi Utsav is associated with art and tourism.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "3 only",
+    "1 only",
+    "2 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F9",
+    "P15.F10"
+   ],
+   "explanation": "Statement 3 is correct because Lepakshi Utsav is associated with art and tourism. Statement 1 changes the correct month of Lepakshi Utsav, while Statement 2 changes the correct season associated with Visakha Utsav; therefore, 3 only is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Geographical feature",
+   "question": "The Papi Kondalu gorge is formed by which river flowing through which hill range?",
+   "options": [
+    "Godavari river through the Eastern Ghats",
+    "Godavari river through Lepakshi",
+    "Visakha Utsav through the Eastern Ghats",
+    "Lepakshi Utsav through the Godavari river"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F11"
+   ],
+   "explanation": "The Papi Kondalu gorge is formed by the Godavari river passing through the Eastern Ghats. Lepakshi and Visakha Utsav are festival-related entries, not the river and hill-range combination identifying Papi Kondalu."
+  }
+ ]
+}

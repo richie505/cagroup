@@ -1,0 +1,234 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F2",
+  "P10.F3",
+  "P11.F1",
+  "P11.F2",
+  "P11.F6",
+  "P7.F5",
+  "P7.F6",
+  "P7.F7",
+  "P7.F9",
+  "P8.F1",
+  "P8.F2",
+  "P8.F3",
+  "P8.F4",
+  "P8.F6",
+  "P9.F1",
+  "P9.F2",
+  "P9.F4",
+  "P9.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Use of agarwood",
+   "question": "Agarwood, highlighted in the Union Budget 2026–27 crop-diversification push, is primarily used for which product?",
+   "options": [
+    "Oud",
+    "Chilgoza",
+    "Cocoa",
+    "Mustard"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "Agarwood is used for Oud. Chilgoza, cocoa and mustard are not identified as the principal use of agarwood in this context."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Region-wise crop diversification",
+   "question": "With reference to the region-specific crop-diversification focus in Union Budget 2026–27, consider the following statements:\n1. Coconut, cashew, cocoa and sandalwood are associated with the coastal region.\n2. Agarwood is associated with the North East.\n3. FPOs are excluded from the institutional support framework mentioned for this initiative.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F6",
+    "P7.F7",
+    "P7.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the coastal region is associated with coconut, cashew, cocoa and sandalwood, while the North East is associated with agarwood. Statement 3 is incorrect because FPOs are included among the institutions mentioned."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institutional support",
+   "question": "Which of the following is included among the institutions associated with the region-specific high-value crop-diversification initiative in Union Budget 2026–27?",
+   "options": [
+    "Coconut Development Board",
+    "Food Safety and Standards Authority of India",
+    "Central Pesticides Board",
+    "Registration Committee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F9"
+   ],
+   "explanation": "The Coconut Development Board is among the institutions listed for the initiative. The Central Pesticides Board and Registration Committee relate to pesticides regulation, while FSSAI is associated with MRLs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coverage of PDS kerosene",
+   "question": "According to the Ministry of Petroleum and Natural Gas gazette notification, Superior Kerosene Oil was to be distributed through the Public Distribution System in how many States and Union Territories?",
+   "options": [
+    "21",
+    "18–22",
+    "35–40",
+    "12–18"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "The notification covered 21 States and Union Territories, including Delhi and Gujarat. The ranges 18–22, 35–40 and 12–18 refer to other technical figures or unrelated regulatory details."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Purpose and technical features of SKO",
+   "question": "How many of the following statements regarding Superior Kerosene Oil distributed through the Public Distribution System are correct?\n1. Its aim is to provide energy access where LPG or electricity access is limited.\n2. It is a highly refined middle distillate of crude oil with low sulphur and aromatics.\n3. Its smoke point is 18–22 mm and its flash point is above 35–40°C.\n4. Its principal listed use is as a transport fuel.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3",
+    "P8.F4",
+    "P8.F6"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect because SKO is used in wick and pressure stoves, lamps and as a solvent; similar fractions may be refined into Aviation Turbine Fuel."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "PNG expansion and gas allocation",
+   "question": "Assertion (A): The Ministry of Petroleum and Natural Gas reviewed PNG network expansion amid Malacca Strait disruptions.\nReason (R): Gas allocation was prioritised for households and essential services under the Essential Commodities Act.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2"
+   ],
+   "explanation": "Assertion A is false because the review took place amid Strait of Hormuz disruptions, not Malacca Strait disruptions. Reason R is true: allocation was prioritised for households and essential services under the Essential Commodities Act."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PNG and PM Gati Shakti",
+   "question": "The planning of PNG network expansion was integrated with which initiative and formed part of which broader distribution system?",
+   "options": [
+    "PM Gati Shakti and City Gas Distribution",
+    "Essential Commodities Act and Public Distribution System",
+    "Coconut Development Board and City Gas Distribution",
+    "Central Pesticides Board and national registry"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "PNG network planning was integrated with PM Gati Shakti and formed part of City Gas Distribution. The other combinations link unrelated petroleum, crop-diversification or pesticides-regulation facts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CNG composition and use",
+   "question": "Which statement correctly describes Compressed Natural Gas (CNG) in the fuel comparison associated with the gas-based economy?",
+   "options": [
+    "Methane compressed at high pressure, used as a transport fuel",
+    "Methane supplied through pipelines, used in homes and industry",
+    "Propane and butane in liquid form in cylinders, used for household cooking",
+    "Natural gas cooled to about –160/–162°C, used as a shipping and storage form"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F6"
+   ],
+   "explanation": "CNG is methane compressed at high pressure and is used as a transport fuel. Methane through pipelines describes PNG, propane and butane in cylinders describes LPG, and cooled natural gas describes LNG."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Gadgil-Mukherjee criteria",
+   "question": "How many of the following are criteria associated with Special Category Status under the Gadgil-Mukherjee framework?\n1. Hilly and difficult terrain\n2. Low population density or a sizeable tribal population\n3. Strategic location along international borders\n4. High population density in urban areas",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2",
+    "P10.F3"
+   ],
+   "explanation": "Statements 1, 2 and 3 are criteria associated with Special Category Status. Statement 4 is incorrect because the criterion concerns low population density or a sizeable tribal population."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Protection of Regulatory Data",
+   "question": "What period of Protection of Regulatory Data did CropLife India demand in connection with the Draft Pesticides Management Bill, 2025?",
+   "options": [
+    "5 years",
+    "10 years",
+    "12–18 months",
+    "20 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "CropLife India demanded 5-year Protection of Regulatory Data. The periods 10 years, 12–18 months and 20 years refer to other figures or concepts in the pesticides-regulation material, not the demand stated here."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Minister and proposed legislation",
+   "question": "Who stated that an amended Seeds and Pesticide Management Bill would be brought in the upcoming session?",
+   "options": [
+    "Shivraj Singh Chouhan",
+    "CropLife India",
+    "Coconut Development Board",
+    "Ministry of Petroleum and Natural Gas"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "The statement was made by Agriculture Minister Shivraj Singh Chouhan. CropLife India sought changes to the draft, while the Coconut Development Board and the Ministry of Petroleum and Natural Gas are associated with other subjects."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CIBRC and toxicity classification",
+   "question": "Which body functions under the Agriculture Ministry and classifies pesticides into four toxicity classes based on LD50?",
+   "options": [
+    "CIBRC",
+    "FSSAI",
+    "Central Pesticides Board",
+    "Registration Committee"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F6"
+   ],
+   "explanation": "CIBRC functions under the Agriculture Ministry and classifies pesticides into four toxicity classes by LD50. FSSAI sets MRLs, while the Central Pesticides Board and Registration Committee have separate roles under the pesticides framework."
+  }
+ ]
+}

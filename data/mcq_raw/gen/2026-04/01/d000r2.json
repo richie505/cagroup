@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F12",
+  "P0.F6",
+  "P1.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitutional basis and amended provision",
+   "question": "Consider the following statements regarding the Andhra Pradesh Reorganisation Act, 2014 and the 2026 amendment:\n\n1. The Andhra Pradesh Reorganisation Act, 2014, was enacted under Article 3.\n2. The 2026 amendment was made to Section 5 of the 2014 Act.\n3. The Andhra Pradesh Reorganisation Act, 2014, created Andhra Pradesh.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the 2014 Act was enacted under Article 3, and the 2026 amendment modified Section 5. Statement 3 is incorrect because the Act created Telangana, not Andhra Pradesh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Planned capacity",
+   "question": "What long-term digital infrastructure capacity is planned in connection with Google's hyperscale AI data-centre project at Tarluvada near Visakhapatnam?",
+   "options": [
+    "A long-term digital hub of 6.5 GW",
+    "No long-term expansion was planned",
+    "Only a short-term expansion was planned",
+    "A long-term expansion was planned without a digital hub"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "The project includes a planned long-term 6.5 GW digital hub. The other options incorrectly deny or alter the long-term digital-hub expansion."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P2.F4",
+  "P2.F5",
+  "P2.F7",
+  "P2.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitutional articles",
+   "question": "Consider the following statements regarding High Courts in India:\n1. Article 214 provides for a High Court for each State.\n2. Article 217 provides for appointment of High Court judges by the President after consulting the Chief Justice of India and the Governor.\n3. Article 214 deals with the transfer of High Court judges from one High Court to another.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Article 214 provides for a High Court for each State, while Article 217 concerns appointment by the President after consultation with the Chief Justice of India and the Governor. Statement 3 is incorrect because transfer of High Court judges is dealt with under Article 222, not Article 214."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Grounds for removal",
+   "question": "Under Article 217(1)(b) read with Article 124(4), a High Court judge may be removed only on the ground of",
+   "options": [
+    "proved misbehaviour or incapacity",
+    "appointment by the President after consultation",
+    "control over subordinate courts",
+    "provision of a High Court for each State"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "A High Court judge may be removed for proved misbehaviour or incapacity under Article 217(1)(b) read with Article 124(4). The other options describe appointment, administrative control, or the establishment of High Courts, not grounds for removal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Control over subordinate courts",
+   "question": "Which constitutional provision gives the High Court control over subordinate courts?",
+   "options": [
+    "Article 235",
+    "Article 214",
+    "Article 217",
+    "Article 124(4)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "Article 235 provides for High Court control over subordinate courts. Article 214 concerns a High Court for each State, while Article 217 concerns appointment and Article 124(4) concerns removal for proved misbehaviour or incapacity."
+  }
+ ]
+}

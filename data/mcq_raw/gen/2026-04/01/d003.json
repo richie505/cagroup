@@ -1,0 +1,270 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F3",
+  "P11.F4",
+  "P13.F1",
+  "P13.F2",
+  "P13.F3",
+  "P13.F4",
+  "P13.F7",
+  "P8.F3",
+  "P8.F4",
+  "P8.F5",
+  "P8.F6",
+  "P8.F7",
+  "P8.F8",
+  "P8.F9",
+  "P9.F10",
+  "P9.F3",
+  "P9.F5",
+  "P9.F6",
+  "P9.F7",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Enforcement action",
+   "question": "During Rabi 2025–26, what enforcement action was reported in Andhra Pradesh against irregularities in fertiliser distribution?",
+   "options": [
+    "More than 18,500 samples were tested, stocks worth over ₹58 crore were detained, over ₹6 crore seized, and 84 licences suspended",
+    "More than 15,000 samples were tested, stocks worth over ₹58 crore were detained, over ₹6 crore seized, and 14 licences suspended",
+    "More than 18,500 samples were tested, stocks worth over ₹6 crore were detained, over ₹58 crore seized, and 84 licences suspended",
+    "More than 18,500 samples were tested, stocks worth over ₹58 crore were detained, over ₹6 crore seized, and 14 licences suspended"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "Andhra Pradesh tested more than 18,500 samples, detained stocks worth over ₹58 crore, seized stocks worth over ₹6 crore and suspended 84 licences. The tempting option with 14 suspended licences is incorrect; 14 was the earlier figure, while the reported figure was 84."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Fertilizer composition and ratio",
+   "question": "Consider the following statements about fertilisers:\n1. Urea contains 46% nitrogen.\n2. The ideal N:P:K ratio is 4:2:1.\n3. MOP is a phosphatic fertiliser.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F5",
+    "P8.F6"
+   ],
+   "explanation": "Only statement 1 is correct: urea contains 46% nitrogen. The ideal N:P:K ratio is 4:2:1, but MOP is potassic rather than phosphatic, making statements 2 and 3 incorrect as framed."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Nutrients and chlorophyll",
+   "question": "Assertion (A): Nitrogen and magnesium are associated with chlorophyll.\nReason (R): Phosphorus is the nutrient responsible for chlorophyll formation.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "Assertion A is true because chlorophyll is associated with nitrogen and magnesium. Reason R is false; phosphorus is associated with roots and flowering, not chlorophyll."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Biofertilizer and nitrate pollution",
+   "question": "How many of the following statements are correct?\n1. Rhizobium is associated with legumes.\n2. Zinc sulphate is a biofertilizer.\n3. Excess nitrates are associated with neither Blue Baby Syndrome nor eutrophication.\n4. Neem-coated urea and Soil Health Cards are causes of excess nitrate pollution.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8",
+    "P8.F9"
+   ],
+   "explanation": "Only one statement is correct: Rhizobium is associated with legumes. Zinc sulphate is a chemical micronutrient fertiliser, excess nitrates can cause Blue Baby Syndrome and eutrophication, and neem-coated urea and Soil Health Cards are remedies rather than causes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mushroom Mission subsidy and classification",
+   "question": "Under Andhra Pradesh’s proposed Mushroom Mission, what subsidy and classification are envisaged?",
+   "options": [
+    "About ₹5,184 crore, with mushrooms classified as agricultural produce and Self-Help Groups playing a central role",
+    "About ₹13,000 crore, with mushrooms classified as industrial produce and Self-Help Groups playing a central role",
+    "About ₹5,184 crore, with mushrooms classified as agricultural produce and only private companies playing a central role",
+    "About ₹2,600 crore, with mushrooms classified as agricultural produce and Self-Help Groups playing a central role"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "The proposed subsidy is about ₹5,184 crore, or approximately 40%, with funding from the Centre and State. Mushrooms are to be classified as agricultural produce, and Self-Help Groups are central; ₹13,000 crore refers to the Mission’s overall outlay, not the subsidy."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Mushroom varieties and production biology",
+   "question": "Match List-I with List-II regarding mushroom cultivation.\n\nList-I\n a. Paddy straw mushroom\n b. Button mushroom\n c. Spawn\n d. Fruiting trigger\n\nList-II\n i. Pure culture of fungal mycelium\n ii. Fast-growing and associated with paddy regions\n iii. Lower carbon dioxide and more oxygen\n iv. High demand, controlled environment and dominance in global trade\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F5",
+    "P9.F6",
+    "P9.F8"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. Paddy straw mushroom is fast-growing and suited to paddy regions, while button mushroom requires a controlled environment and has high demand; spawn is pure fungal mycelium and fruiting is triggered by lower carbon dioxide and more oxygen."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Mushroom biology and unit estimate",
+   "question": "Consider the following statements:\nStatement A: Mushrooms are heterotrophic fungi.\nStatement B: CARE’s monthly estimate placed the number of production units at approximately 1.62 lakh.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F7",
+    "P9.F9"
+   ],
+   "explanation": "Both statements are true. Mushrooms are heterotrophic fungi, and the CARE monthly estimate cited approximately 1.62 lakh production units; the alternative figure of 62 lakh belonged to a different daily-page estimate."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mushroom pioneers",
+   "question": "Which of the following group was identified as India’s mushroom pioneers?",
+   "options": [
+    "Jitendra Kumar Singh, Dr Dayaram and S.S. Saini",
+    "N. Chandrababu Naidu, Jitendra Kumar Singh and Dr Dayaram",
+    "Dr Dayaram, S.S. Saini and Geomysore",
+    "Jitendra Kumar Singh, S.S. Saini and Thriveni"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F10"
+   ],
+   "explanation": "The identified pioneers are Jitendra Kumar Singh, Dr Dayaram and S.S. Saini. The other options introduce persons or organisations associated with different Andhra Pradesh current-affairs items."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Developer and commissioning",
+   "question": "Who is developing the Jonnagiri gold project, and when is its commissioning expected?",
+   "options": [
+    "Geomysore with Thriveni and Deccan Gold Mines; May 2026",
+    "Waaree Energy Storage Systems with Thriveni and Deccan Gold Mines; July 2027",
+    "Geomysore with Thriveni and Deccan Gold Mines; April 2026",
+    "Geomysore with ReNew and Deccan Gold Mines; May 2027"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "The project is being developed by Geomysore with Thriveni and Deccan Gold Mines, with commissioning expected in May 2026. July 2027 is associated with Phase 1 of the Waaree battery project, not Jonnagiri."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Gold production and mining law",
+   "question": "With reference to India’s gold production and mining framework, identify the incorrect statement.",
+   "options": [
+    "India imports approximately 800 tonnes of gold per year.",
+    "Hutti produces approximately 1.5 tonnes of gold per year.",
+    "Kolar Gold Fields closed in 2000.",
+    "The MMDR Act was enacted in 1957 and amended in 2015 and 2021."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "The incorrect statement is the fourth one. The MMDR Act dates to 1957 and was amended in 2015 and 2021; the other statements correctly refer to India’s imports, Hutti’s production and Kolar Gold Fields’ closure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ACC PLI launch",
+   "question": "In which year was the ACC Production Linked Incentive scheme linked to the Waaree battery project launched?",
+   "options": [
+    "2021",
+    "2024",
+    "2026",
+    "2027"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4"
+   ],
+   "explanation": "The ACC PLI scheme was launched in 2021. The years 2024, 2026 and 2027 do not represent its launch year."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Rabi procurement target and centres",
+   "question": "Consider the following statements about Andhra Pradesh’s Rabi paddy procurement in 2026:\nStatement A: The procurement target was 23 lakh metric tonnes, beginning on April 4, 2026.\nStatement B: The State planned 1,917 procurement centres with payment within 24 hours.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "Both statements are true. Andhra Pradesh set a target of 23 lakh metric tonnes from April 4, 2026, and planned 1,917 procurement centres with payment within 24 hours."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Procurement logistics",
+   "question": "Which combination correctly describes the logistics planned for Andhra Pradesh’s Rabi paddy procurement in 2026?",
+   "options": [
+    "About 5.4 crore gunny sacks and GPS tracking of 17,200 lorries",
+    "About 5.4 lakh gunny sacks and GPS tracking of 17,200 lorries",
+    "About 5.4 crore gunny sacks and GPS tracking of 7,200 lorries",
+    "About 5.4 crore gunny sacks and GPS tracking of 1,917 lorries"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "The plan involved approximately 5.4 crore gunny sacks and GPS tracking of 17,200 lorries. The figures 5.4 lakh, 7,200 and 1,917 do not match the reported logistics; 1,917 refers to procurement centres."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Previous procurement and crop examples",
+   "question": "Match List-I with List-II in the context of Andhra Pradesh’s paddy procurement and seasonal crops.\n\nList-I\n a. Previous Kharif paddy procured\n b. Amount paid in the previous Kharif procurement\n c. Rabi crop example\n d. Kharif crop example\n\nList-II\n i. ₹11,300 crore\n ii. Wheat, barley, mustard and gram\n iii. Approximately 51 lakh metric tonnes\n iv. Rice, maize, cotton and soybean\n\nSelect the correct code.",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F4",
+    "P13.F7"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-ii and d-iv. The previous Kharif procurement was approximately 51 lakh metric tonnes with ₹11,300 crore paid, while wheat, barley, mustard and gram are Rabi examples and rice, maize, cotton and soybean are Kharif examples."
+  }
+ ]
+}

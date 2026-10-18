@@ -1,0 +1,52 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P4.F3",
+  "P9.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Ministry establishment and minister",
+   "question": "With reference to the Ministry of New and Renewable Energy, which of the following is correct?",
+   "options": [
+    "Established in 1992; Minister Pralhad Joshi",
+    "Established in 1998; Minister Pralhad Joshi",
+    "Established in 1992; Minister Yogesh Singh",
+    "Established in 2010; Minister Pralhad Joshi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "The Ministry of New and Renewable Energy was established in 1992, and Pralhad Joshi is its Minister. The other options incorrectly alter the establishment year, the minister, or both."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "C-DAC and ISEA programme",
+   "question": "Which of the following correctly describes the Centre for Development of Advanced Computing (C-DAC) and the ISEA programme?",
+   "options": [
+    "C-DAC was established in 1988 at Pune, and the ISEA programme was launched in 2005.",
+    "C-DAC was established in 1992 at Pune, and the ISEA programme was launched in 2005.",
+    "C-DAC was established in 1988 at Pune, and the ISEA programme was launched in 2010.",
+    "C-DAC was established in 1988 at Mumbai, and the ISEA programme was launched in 2005."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "C-DAC was established in 1988 at Pune, and the ISEA programme was launched in 2005. The other options change either the establishment year, the location, or the launch year."
+  }
+ ]
+}

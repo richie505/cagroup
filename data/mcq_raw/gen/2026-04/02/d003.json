@@ -1,0 +1,176 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P5.F10",
+  "P5.F11",
+  "P5.F2",
+  "P5.F8",
+  "P5.F9",
+  "P6.F10",
+  "P6.F3",
+  "P6.F4",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9",
+  "P7.F3",
+  "P7.F4",
+  "P8.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coverage and amendments",
+   "question": "With reference to Jan Vishwas 2.0, consider the following statements:\n1. The measure covers 79 Central Acts and decriminalises about 717 provisions.\n2. The measure covers about 80 Central Acts and rationalises more than 1,000 provisions.\n3. The Jan Vishwas Act, 2023 amended 79 Central laws.\nWhich of the statements given above is correct?",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F8",
+    "P5.F9"
+   ],
+   "explanation": "Exactly one statement is correct: statement 1 describes Jan Vishwas 2.0 as amending 79 Central Acts and decriminalising about 717 provisions. Statement 2 refers to the broader coverage of about 80 Acts and more than 1,000 provisions, while the Jan Vishwas Act, 2023 amended 42 Central laws, not 79."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coverage of Central Acts",
+   "question": "The Jan Vishwas (Amendment of Provisions) Bill, 2026 is reported to rationalise provisions across approximately how many Central Acts?",
+   "options": [
+    "About 80 Central Acts",
+    "79 Central Acts",
+    "42 Central Acts",
+    "More than 1,000 Central Acts"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "The Bill is reported to cover approximately 80 Central Acts and rationalise more than 1,000 provisions. The figures 79 and 42 refer to other descriptions of Jan Vishwas 2.0 and the 2023 Act, respectively; more than 1,000 refers to provisions, not Acts."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "B-READY framework and regulatory concern",
+   "question": "Assertion (A): Jan Vishwas 2.0 is linked to the World Bank’s B-READY framework.\nReason (R): Concerns have been raised about regulatory capture and fines becoming a cost of doing business.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F11"
+   ],
+   "explanation": "Both the assertion and the reason are true. The B-READY linkage is a framework connection, whereas regulatory capture and fines as a cost of business are concerns about the reform; the reason does not explain the linkage."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Grounds for disqualification",
+   "question": "With reference to the grounds of disqualification under the anti-defection law, identify the incorrect statement.",
+   "options": [
+    "A member voluntarily giving up membership of a political party can attract disqualification.",
+    "Defying the party whip can attract disqualification if the conduct is not condoned within 15 days.",
+    "An independent member joining a political party can attract disqualification.",
+    "A nominated member joining a political party within 6 months can attract disqualification."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "The incorrect statement is the fourth one. A nominated member attracts disqualification on joining a political party after 6 months, not within 6 months; the other three statements correctly describe the specified grounds."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Merger protection",
+   "question": "Under the anti-defection law, what is the position of members who do not join the merged party but continue to remain separate?",
+   "options": [
+    "They are also protected",
+    "They are automatically disqualified",
+    "They lose their membership after 6 months",
+    "They can remain separate only with the Election Commission’s approval"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "Members who do not join the merged party and remain separate are also protected under the stated position of the anti-defection law. Automatic disqualification, a 6-month limit, and Election Commission approval do not describe this protection."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defection inferred from conduct",
+   "question": "What principle was laid down in Ravi S. Naik (1994) in the context of defection?",
+   "options": [
+    "Defection may be inferred from conduct",
+    "A decision must be made within 3 months",
+    "An independent tribunal must decide every case",
+    "The Speaker’s decision is subject to judicial review"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F7"
+   ],
+   "explanation": "Ravi S. Naik (1994) held that defection can be inferred from conduct. The 3-month timeline and independent tribunal suggestion are associated with Keisham Meghachandra Singh, while judicial review relates to the stated principle from Kihoto Hollohan."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Judicial decisions on timely adjudication",
+   "question": "Consider the following statements:\nStatement A: Keisham Meghachandra Singh (2020) held that anti-defection cases should be decided within 6 months.\nStatement B: Padi Kaushik Reddy v Telangana (2025) held that reforms were needed for decisions within 3 months.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F8",
+    "P6.F9"
+   ],
+   "explanation": "Both statements are false. Keisham Meghachandra Singh held that cases should be decided within 3 months and suggested an independent tribunal, while Padi Kaushik Reddy v Telangana called for reforms for timely decisions without specifying a 3-month deadline."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Rajya Sabha composition and constitutional provisions",
+   "question": "With reference to the Rajya Sabha and the office of its Deputy Chairman, consider the following statements:\n1. Article 89(1) deals with the election of the Deputy Chairman.\n2. Article 80 provides for 12 nominated members.\n3. The Rajya Sabha has a maximum strength of 245 and a current strength of 250.\n4. The Rajya Sabha was established in 1950.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "Only two statements are correct: Articles 89(1) and 80 relate to the election of the Deputy Chairman and 12 nominated members, respectively. The Rajya Sabha has a maximum strength of 250 and a current strength of 245, and it was established in 1952."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Assembly strength",
+   "question": "The Bihar legislature is bicameral. How many seats does the Bihar Legislative Assembly have?",
+   "options": [
+    "243",
+    "250",
+    "245",
+    "12"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "The Bihar Legislative Assembly has 243 seats. The other figures refer to the maximum or current strength of the Rajya Sabha and its nominated membership, not to the Bihar Assembly."
+  }
+ ]
+}

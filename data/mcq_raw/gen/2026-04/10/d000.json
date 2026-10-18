@@ -1,0 +1,181 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P0.F5",
+  "P0.F6",
+  "P0.F8",
+  "P2.F1",
+  "P2.F3",
+  "P4.F2",
+  "P4.F3",
+  "P4.F4",
+  "P5.F2",
+  "P6.F2",
+  "P6.F4",
+  "P7.F1",
+  "P7.F3",
+  "P7.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State rank and medals",
+   "question": "Consider the following statements regarding Andhra Pradesh and Telangana at the Khelo India Tribal Games 2026:\n1. Andhra Pradesh ranked 16th with 5 medals.\n2. Telangana ranked 17th with 5 medals.\n3. Andhra Pradesh ranked 17th with 5 medals.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Andhra Pradesh ranked 16th with 5 medals, while Telangana ranked 17th with 5 medals. Statement 3 is incorrect because Andhra Pradesh ranked 16th, not 17th."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Institution and year or office-bearer",
+   "question": "Match List-I with List-II in the context of Indian sports institutions and organisations:\n\nList-I\n a. Khelo India\n b. Sports Authority of India\n c. Indian Olympic Association\n d. President of the Indian Olympic Association\n\nList-II\n i. P.T. Usha\n ii. 2018\n iii. 1984\n iv. 1927\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "The correct pairs are Khelo India—2018, Sports Authority of India—1984, Indian Olympic Association—1927, and P.T. Usha—President of the Indian Olympic Association. Therefore, code a-ii, b-iii, c-iv, d-i is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Medal-tally leader",
+   "question": "Which country topped the medal tally at the 43rd Badminton Asia Championships 2026 held in Ningbo, China?",
+   "options": [
+    "China",
+    "India",
+    "South Korea",
+    "Ningbo"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "South Korea topped the Badminton Asia Championships 2026 medal tally with 3 gold, 1 silver and 1 bronze medal. China finished second and India fourth, so neither is the correct answer."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation headquarters",
+   "question": "Badminton Asia, established in 1959, has its headquarters at which place?",
+   "options": [
+    "1959 — Kuala Lumpur",
+    "1959 — Dubai",
+    "1959 — Hong Kong",
+    "1959 — Ningbo"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "Badminton Asia was established in 1959 and is headquartered in Kuala Lumpur. Dubai and Hong Kong are associated with other sports organisations in the April 2026 sports news, while Ningbo hosted the championships."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Wisden awardees",
+   "question": "Consider the following statements regarding the Wisden Awards:\n1. The Wisden Five comprised Shubman Gill, Mohammed Siraj, Rishabh Pant, Ravindra Jadeja and Haseeb Hameed.\n2. Mitchell Starc was named Men's Cricketer in the World.\n3. Mitchell Starc was included in the Wisden Five.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2",
+    "P4.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Wisden Five included the five named players, while Mitchell Starc was Men's Cricketer in the World. Statement 3 is incorrect because Starc received the latter honour and was not listed among the Wisden Five."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Publication history and headquarters",
+   "question": "Which combination is correct regarding the Wisden Almanack and the International Cricket Council?",
+   "options": [
+    "Wisden Almanack first published in 1909; ICC headquarters in the UK",
+    "Wisden Almanack first published in 1864; ICC headquarters in Dubai",
+    "Wisden Almanack first published in 1864; ICC headquarters in Kuala Lumpur",
+    "Wisden Almanack first published in 1909; ICC headquarters in Dubai"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "The Wisden Almanack was first published in 1864 and is known as the ‘Bible of Cricket’; the ICC has its headquarters in Dubai. The other options incorrectly change either the publication year or the ICC headquarters."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Governing official",
+   "question": "Who was the Chairman of the International Cricket Council during the inaugural ICC Women's T20I Challenge Trophy 2026?",
+   "options": [
+    "Jay Shah",
+    "Luciano Rossi",
+    "Arkady Dvorkovich",
+    "P.T. Usha"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "Jay Shah was the Chairman of the International Cricket Council during the inaugural ICC Women's T20I Challenge Trophy 2026. Luciano Rossi, Arkady Dvorkovich and P.T. Usha are associated with other sporting organisations or offices."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Wrestling and boxing champions",
+   "question": "Match the athletes or organisation in List-I with the corresponding detail in List-II:\n\nList-I\n a. Sujeet Kalkal\n b. Abhimanyu Mandwal\n c. Vishwanath Suresh\n d. Asian Boxing Confederation\n\nList-II\n i. 50 kg boxing category\n ii. 65 kg freestyle wrestling category\n iii. 70 kg freestyle wrestling category\n iv. Headquarters in Dubai\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F4"
+   ],
+   "explanation": "Sujeet Kalkal won gold in the 65 kg freestyle category, Abhimanyu Mandwal in the 70 kg freestyle category, and Vishwanath Suresh competed in the 50 kg boxing category. The Asian Boxing Confederation has its headquarters in Dubai, making a-ii, b-iii, c-i, d-iv correct."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Sports organisations and event results",
+   "question": "How many of the following statements regarding the shooting, squash and archery highlights of April 2026 are correct?\n1. India topped the ISSF Junior World Cup in Cairo with 16 medals, including 5 gold, 6 silver and 5 bronze.\n2. At the Asia Squash Federation Awards, Abhay Singh was named Asia's Best Male Player 2025, Anahat Singh was Best Female (Junior), and India's boys' team was Best Team.\n3. The ISSF was established in 1975 and has its headquarters in Hong Kong.\n4. The World Squash Federation was established in 1977.\n",
+   "options": [
+    "Only two",
+    "Only one",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F3",
+    "P7.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so exactly two statements are correct. Statement 3 is incorrect because the ISSF dates to 1907 and is headquartered in Munich; statement 4 is incorrect because the World Squash Federation dates to 1967."
+  }
+ ]
+}

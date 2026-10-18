@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14
+ ],
+ "only": [
+  "P13.F3",
+  "P13.F4",
+  "P13.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Projected cancer burden and approval year",
+   "question": "Consider the following statements about Keytruda (Pembrolizumab):\n\n1. India’s cancer burden is projected to reach 24.5 lakh cases by 2045.\n2. Keytruda received US FDA approval in 2015.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F4"
+   ],
+   "explanation": "Statement 1 is correct: India’s cancer burden is projected to reach 24.5 lakh cases by 2045. Statement 2 is incorrect because Keytruda received US FDA approval in 2014, not 2015."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Other immunotherapies",
+   "question": "Which of the following pair comprises other immunotherapies mentioned alongside Keytruda (Pembrolizumab)?",
+   "options": [
+    "CAR-T cell therapy and mRNA cancer vaccines",
+    "Bio-bitumen and Designer Rice",
+    "Artemether–lumefantrine and nano-disks",
+    "Pyrolysis and low-GI rice"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F8"
+   ],
+   "explanation": "CAR-T cell therapy and mRNA cancer vaccines are the other immunotherapies mentioned alongside Keytruda. The other options refer to unrelated innovations, a malaria medicine, or technological processes."
+  }
+ ]
+}

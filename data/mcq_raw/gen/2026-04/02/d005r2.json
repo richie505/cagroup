@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P11.F3",
+  "P12.F10",
+  "P12.F3",
+  "P12.F8",
+  "P12.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Data limitation",
+   "question": "Which statement correctly describes the Ministry of Panchayati Raj’s data limitation regarding women’s representation in Panchayati Raj Institutions?",
+   "options": [
+    "The Ministry has national data on reserved and unreserved wins, but no data on the Sarpanch Pati issue.",
+    "The Ministry has no national data distinguishing reserved-seat wins from unreserved-seat wins; the Sarpanch Pati issue is a proxy problem.",
+    "The Ministry has no national data distinguishing reserved-seat wins from unreserved-seat wins; the Sarpanch Pati issue is not a proxy problem.",
+    "The Ministry has no national data distinguishing reserved-seat wins from unreserved-seat wins; the issue is officially termed Sarpanch Patni."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "The Ministry of Panchayati Raj has no national data on reserved versus unreserved wins, and the Sarpanch Pati phenomenon is identified as a proxy problem. The most tempting wrong option is the third, but the Sarpanch Pati issue is specifically recognised as a proxy problem."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Golden Triangle",
+   "question": "The Supreme Court’s decision in Maneka Gandhi (1978) is associated with which of the following?",
+   "options": [
+    "The Golden Triangle of Articles 14, 19 and 21, and reviewability of the Passport Act.",
+    "The Golden Triangle of Articles 14, 19 and 21, but the Passport Act was held non-reviewable.",
+    "The Golden Triangle of Articles 14, 19 and 20, and reviewability of the Passport Act.",
+    "The Golden Triangle of Articles 14, 19 and 22, and non-reviewability of the Passport Act."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F8"
+   ],
+   "explanation": "Maneka Gandhi (1978) linked Articles 14, 19 and 21 as the ‘Golden Triangle’ and held the Passport Act reviewable. The closest trap is the second option, which incorrectly states that the Passport Act was non-reviewable."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Scope and suspension of Article 21",
+   "question": "With reference to Article 21, consider the following statements:\nStatement A: Article 21 applies to non-citizens.\nStatement B: Article 21 can be suspended during an Emergency.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F9"
+   ],
+   "explanation": "Article 21 applies to non-citizens, so Statement A is true. Following the 44th Amendment, Article 21 cannot be suspended during an Emergency, making Statement B false."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Landmark constitutional judgments",
+   "question": "With reference to landmark Supreme Court judgments, consider the following statements:\n1. Indra Sawhney recognised 27% OBC reservation, the 50% cap and the creamy-layer principle.\n2. S.R. Bommai dealt with judicial review of Article 356 and the floor test.\n3. Indra Sawhney removed the 50% ceiling on reservation.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Indra Sawhney is associated with 27% OBC reservation, the 50% cap and the creamy layer, while S.R. Bommai concerned Article 356 judicial review and the floor test. Statement 3 is incorrect because Indra Sawhney is associated with the 50% cap, not its removal."
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F3",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Mission profile",
+   "question": "What is the planned profile of India's first human spaceflight mission, Gaganyaan?",
+   "options": [
+    "Three astronauts to low Earth orbit at about 400 km for up to three days",
+    "Two astronauts to geostationary orbit for up to seven days",
+    "Four astronauts to lunar orbit for up to three days",
+    "Three astronauts to low Earth orbit at about 1,500 km for up to five days"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Gaganyaan is India's first human spaceflight mission and is planned to carry three astronauts to low Earth orbit at about 400 km for up to three days. The other options alter the crew size, orbit or mission duration."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Orbital Module and humanoid robot",
+   "question": "With reference to the Orbital Module and Vyommitra in the Gaganyaan programme, consider the following statements:\n1. The Crew Module is pressurised, habitable and equipped with thermal protection.\n2. Vyommitra is a female humanoid robot intended for uncrewed missions.\n3. The Service Module is pressurised and remains attached during re-entry.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Crew Module is pressurised, habitable and thermally protected, while Vyommitra is a female humanoid robot for uncrewed missions. Statement 3 is incorrect because the Service Module is unpressurised and separates before re-entry."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "International significance and return sequence",
+   "question": "Consider the following statements:\nStatement A: India would join the USA, Russia and China with an independent human spaceflight capability only after establishing a lunar base.\nStatement B: In the Gaganyaan return sequence, the de-orbit burn takes place after splashdown.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Both statements are false. India would join the USA, Russia and China with an independent human spaceflight capability, without the stated lunar-base condition; moreover, de-orbit burn is a step in the return sequence before splashdown."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Thermal protection during re-entry",
+   "question": "Assertion (A): The Gaganyaan Crew Module requires thermal protection during re-entry.\nReason (R): The heat encountered during this phase is below 1500°C.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "Assertion A is true because the re-entry heat is above 1500°C, making thermal protection essential. Reason R is false because it reverses the stated temperature condition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Parachute deployment",
+   "question": "At approximately what altitude are the main parachutes of the Gaganyaan Crew Module deployed?",
+   "options": [
+    "About 12 km",
+    "About 4 km",
+    "About 40 km",
+    "About 120 km"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "The parachute sequence involves pilot and drogue parachutes followed by the main parachutes, which are deployed at approximately 12 km altitude. The other altitudes do not match the stated deployment level."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Splashdown and impact absorption",
+   "question": "Where is the planned splashdown region for the Gaganyaan Crew Module, and what impact does the sea absorb?",
+   "options": [
+    "Bay of Bengal; about 7–9 m/s",
+    "Arabian Sea; about 1–2 m/s",
+    "Bay of Bengal; about 1–2 m/s",
+    "Indian Ocean; about 12–15 m/s"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "The Crew Module is planned to splash down in the Bay of Bengal, where the sea absorbs an impact of about 7–9 m/s. The 1–2 m/s figure applies to land impact, not the stated sea impact."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Recovery assets and validation tests",
+   "question": "Match the Gaganyaan recovery or testing item in List-I with the corresponding description in List-II.\n\nList-I\n a. Recovery ships\n b. Recovery helicopters\n c. Recovery divers\n d. IADT\n\nList-II\n i. Indian Navy surface vessels\n ii. Indian Navy air assets\n iii. Indian Navy underwater personnel\n iv. Integrated Air Drop Test",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F12",
+    "P0.F13"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The Indian Navy recovery plan uses ships, helicopters and divers, while IADT expands to Integrated Air Drop Test."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Solar observatory and L1",
+   "question": "Which statement correctly describes Aditya-L1?",
+   "options": [
+    "It is India's first solar observatory, positioned at L1 about 1.5 million km away, with an approximately 125-day journey",
+    "It is India's second solar observatory, positioned at L2 about 1.5 million km away, with an approximately 300-day journey",
+    "It is India's first solar observatory, positioned in low Earth orbit about 400 km away, with an approximately 12-day journey",
+    "It is India's first solar observatory, positioned at L1 about 15 million km away, with an approximately 125-day journey"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "Aditya-L1 is India's first solar observatory and travels to L1, about 1.5 million km away, in approximately 125 days. The other options alter its observatory status, destination, distance or travel duration."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fast breeder reactor characteristics",
+   "question": "Which combination correctly describes a fast breeder reactor in the context of India's nuclear programme?",
+   "options": [
+    "It produces more fissile fuel than it consumes, uses fast neutrons without a moderator, and uses plutonium-based MOX fuel",
+    "It consumes more fissile fuel than it produces, uses slow neutrons with a moderator, and uses only natural uranium",
+    "It produces more fissile fuel than it consumes, uses fast neutrons with a moderator, and uses only thorium fuel",
+    "It consumes more fissile fuel than it produces, uses fast neutrons without a moderator, and uses only U-233 fuel"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "An FBR produces more fissile fuel than it consumes, operates with fast neutrons without a moderator, and uses plutonium-based MOX fuel. The other options reverse or alter these defining characteristics."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Nuclear concepts and chain reaction",
+   "question": "How many of the following statements are correct?\n1. A fast breeder reactor uses fast neutrons and no moderator.\n2. Critical mass depends only on the quantity of material and not on its shape.\n3. The chain reaction idea is associated with Leo Szilard in 1935.\n4. A fast breeder reactor uses a moderator to slow its neutrons.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "Only statement 1 is correct. Critical mass also depends on shape, density and purity, the chain reaction idea is associated with Leo Szilard in 1933, and a fast breeder reactor operates without a moderator."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Three-stage nuclear programme",
+   "question": "Match the stages of India's three-stage nuclear programme with their reactor and fuel combinations.\n\nList-I\n a. Stage I\n b. Stage II\n c. Stage III\n d. Stage I fuel pathway\n\nList-II\n i. FBR with plutonium-based MOX fuel\n ii. Thorium reactors with Th-232 to U-233\n iii. PHWR with natural uranium\n iv. Natural uranium yielding Pu-239 as a by-product",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-i, c-ii, d-iv",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "The correct pairs are Stage I–PHWR with natural uranium, Stage II–FBR with plutonium-based MOX, Stage III–thorium reactors converting Th-232 to U-233, and the Stage I pathway–natural uranium yielding Pu-239 as a by-product. Therefore, the correct code is a-iii, b-i, c-ii, d-iv."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nuclear power plants and Kalpakkam institutions",
+   "question": "Which pair of institutions is associated with Kalpakkam in India's three-stage nuclear programme context?",
+   "options": [
+    "MAPS and IGCAR",
+    "Tarapur and Narora",
+    "Kakrapar and Kaiga",
+    "Kudankulam and Rajasthan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "Kalpakkam has MAPS and IGCAR. Tarapur, Rajasthan, Narora, Kakrapar, Kaiga and Kudankulam are other entries in the listed set of nuclear power plant locations, not the pair associated with Kalpakkam in this fact."
+  }
+ ]
+}

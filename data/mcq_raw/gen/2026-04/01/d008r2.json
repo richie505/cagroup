@@ -1,0 +1,74 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38
+ ],
+ "only": [
+  "P29.F2",
+  "P32.F2",
+  "P34.F6",
+  "P34.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Minister concerned",
+   "question": "Who is the Union Minister associated with India's handloom sector in the context of the Andhra Pradesh free electricity scheme for weavers and powerloom workers?",
+   "options": [
+    "Giriraj Singh",
+    "J.P. Nadda",
+    "K. Krishnateja",
+    "Olga Rataj"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F2"
+   ],
+   "explanation": "Giriraj Singh is the Textiles Minister associated with India's handloom sector. J.P. Nadda is identified with the National Policy for Rare Diseases, while K. Krishnateja and Olga Rataj are associated with other Andhra Pradesh-related initiatives."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Award reception",
+   "question": "In connection with the 4th UNIDO Gender Equality Mobilisation Award 2026 won by Guntur Municipal Corporation, consider the following statements:\nStatement A: The award was received by Olga Rataj.\nStatement B: The award was presented in the presence of Tarja Halonen.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P32.F2"
+   ],
+   "explanation": "Both statements are correct: Olga Rataj received the award, and the presentation took place in the presence of Tarja Halonen. Neither name should be confused with Gerd Muller, who is identified as the Director-General of UNIDO."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Award category and recognition",
+   "question": "With reference to Andhra Pradesh's National Panchayat Awards and SKOCH recognition, how many of the following statements are correct?\n1. Kuppam Mandal received the third position in the Nanaji Deshmukh award category.\n2. Kuppam Mandal received the second position in the Nanaji Deshmukh award category.\n3. Swachh Andhra received the SKOCH Gold Award 2025 for making Amaravati Secretariat plastic-free.\n4. Swachh Andhra received the SKOCH Silver Award 2025 for making Amaravati Secretariat plastic-free.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P34.F6",
+    "P34.F7"
+   ],
+   "explanation": "Only two statements are correct: Kuppam Mandal secured third place in the Nanaji Deshmukh award category, and Swachh Andhra received the SKOCH Gold Award 2025 for making Amaravati Secretariat plastic-free. The incorrect statements change third place to second and Gold Award to Silver Award."
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P5.F2",
+  "P5.F3",
+  "P7.F2",
+  "P8.F2",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Technology impact and organisational identity",
+   "question": "Consider the following statements about the Marconi Society and the Marconi Prize 2026:\n1. The technologies associated with the award are used in more than 1 billion devices.\n2. The Marconi Society was named after Guglielmo Marconi.\n3. The Marconi Society was established in 1975.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the associated technologies are used in more than 1 billion devices, and the Society was named after Guglielmo Marconi. Statement 3 is incorrect because the Marconi Society was established in 1974, not 1975."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment and first awards",
+   "question": "The Laureus World Sports Awards, described as the “Oscars of Sports”, were established in which year, with their first awards held in which year?",
+   "options": [
+    "1999 and 2000",
+    "2000 and 1999",
+    "1998 and 1999",
+    "2001 and 2002"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "The Laureus World Sports Awards were established in 1999, and the first awards were held in 2000. The other options reverse or alter these years."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Miss World organisation",
+   "question": "Which of the following statements about the Miss World organisation is incorrect?",
+   "options": [
+    "Miss World was established in 1951.",
+    "Eric Morley was associated with the establishment of Miss World.",
+    "The headquarters of Miss World is in London.",
+    "Julia Morley is the Chairperson and President of Miss World."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "The fourth statement is incorrect because Julia Morley is the Chairperson and CEO, not the President, of Miss World. The organisation was established in 1951, associated with Eric Morley, and has its headquarters in London."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Book and author",
+   "question": "Who authored the book *Rashid Khan: From Streets to Stardom*?",
+   "options": [
+    "Muhammad Hand Jafar",
+    "Gen. M.M. Naravane",
+    "R.K. Raghavan",
+    "Sudha Murthy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "*Rashid Khan: From Streets to Stardom* was authored by Muhammad Hand Jafar. Gen. M.M. Naravane, R.K. Raghavan and Sudha Murthy are associated with other books listed in the April 2026 book releases."
+  }
+ ]
+}

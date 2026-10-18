@@ -1,0 +1,195 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F14",
+  "P0.F17",
+  "P0.F18",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F9",
+  "P1.F3",
+  "P2.F7",
+  "P3.F1",
+  "P3.F4",
+  "P4.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Chair of UN CESCR",
+   "question": "Who was re-elected to the United Nations Committee on Economic, Social and Cultural Rights and is its current Chair?",
+   "options": [
+    "Preeti Saran",
+    "Pranay Verma",
+    "S. Somnath",
+    "Ashok Lahiri"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Preeti Saran was re-elected to the UN CESCR for a three-year term from 2027 and is its current Chair. Pranay Verma is Ambassador to Belgium and the EU, while S. Somnath is President of the Aeronautical Society of India."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Appointment and office-bearers",
+   "question": "Consider the following statements regarding the Aeronautical Society of India:\n1. Dr. S. Somnath became its President.\n2. D.K. Sunil is the next President.\n3. Sangeetha Rao Achari is its Secretary-General.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "All three statements are correct: Dr. S. Somnath is the President, D.K. Sunil is the next President, and Sangeetha Rao Achari is the Secretary-General. The statements distinguish the current President, the next President and the Secretary-General."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Appointments to public-sector and regulatory bodies",
+   "question": "Consider the following statements:\nStatement A: Burra Vamsi Ram Mohan became CMD of POWERGRID from April 1, 2026.\nStatement B: Veer Vikram Yadav became Chief of the DGCA.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Both statements are true. Burra Vamsi Ram Mohan took charge as CMD of POWERGRID from April 1, 2026, and Veer Vikram Yadav became Chief of the DGCA."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Institutional appointments",
+   "question": "Consider the following statements regarding recent institutional appointments:\n1. Srikant Velamakanni became Chairman of NASSCOM and Kishore Patil became its Vice-Chairman.\n2. Srikant Velamakanni succeeded Sindhu Gangadharan as Chairman of NASSCOM.\n3. S. Krishnan chairs MeitY's Technology and Policy Expert Committee on AI governance, whose members include Prof. B. Ravindran and Prof. Rajat Moona.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "All three statements are correct. Srikant Velamakanni succeeded Sindhu Gangadharan as NASSCOM Chairman, with Kishore Patil as Vice-Chairman, while S. Krishnan heads MeitY's AI governance committee with Prof. B. Ravindran and Prof. Rajat Moona as members."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Institutional establishment years and headquarters",
+   "question": "Consider the following statements:\n1. NITI Aayog was established on January 1, 2015, and its CEO is Nidhi Chibber.\n2. POWERGRID was established in 1989 at Gurugram, while the DGCA was established in 1958.\n3. BPCL was nationalised in 1976, NASSCOM was established in 1988, the ICESCR was adopted in 1966, and the CESCR was established in 1985.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "All three statements are correct. They collectively identify the establishment or adoption years, the headquarters detail for POWERGRID, and the CEO of NITI Aayog."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "World leaders and appointments",
+   "question": "Consider the following statements regarding April 2026 developments involving world leaders:\n1. In Iraq, Kurdish leader Nizar Amidi was elected President and Mohammed Shia Al Sudani was Prime Minister.\n2. In Vietnam, To Lam was elected President and Le Minh Hung was Prime Minister.\n3. In Myanmar, Senior General Min Aung Hlaing was elected President.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F14",
+    "P0.F17",
+    "P0.F18"
+   ],
+   "explanation": "All three statements are correct. Nizar Amidi became Iraq's President, To Lam became Vietnam's President with Le Minh Hung as Prime Minister, and Senior General Min Aung Hlaing was elected President of Myanmar."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First recipient of award",
+   "question": "Who was the first recipient of the Lata Deenanath Mangeshkar Award in 2022?",
+   "options": [
+    "Kailash Satyarthi",
+    "Narendra Modi",
+    "Malala Yousafzai",
+    "Master Deenanath Mangeshkar"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "Narendra Modi was the first recipient of the Lata Deenanath Mangeshkar Award in 2022. Kailash Satyarthi was selected for the 2026 award, while Malala Yousafzai was associated with Kailash Satyarthi's Nobel Peace Prize."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Founder and headquarters of award",
+   "question": "Who established the Goldman Environmental Prize, headquartered in San Francisco?",
+   "options": [
+    "Richard and Rhoda Goldman",
+    "Yulyelis Natalia Morales Blanco",
+    "Sarah Finch",
+    "Theonila Roka Matbob"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "The Goldman Environmental Prize was established in 1989 by Richard and Rhoda Goldman and is headquartered in San Francisco. The other options are among the grassroots activists who won the 2026 prize."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Obituary and biographical details",
+   "question": "Consider the following statements about notable persons who died in April 2026:\n1. Asha Bhosle was a singer who died at the age of 92 and recorded more than 12,000 songs.\n2. Asha Bhosle received the Dadasaheb Phalke Award and the Padma Vibhushan and was born on September 8, 1933.\n3. Chandrikapersad Santokhi, of Indian descent and belonging to the VHP, was the ninth President of Suriname and served from 2020 to 2025.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F4"
+   ],
+   "explanation": "All three statements are correct. Asha Bhosle was a celebrated singer with more than 12,000 songs and major national honours, while Chandrikapersad Santokhi was Suriname's ninth President from 2020 to 2025 and was associated with the VHP."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and establishment year",
+   "question": "The US Army War College, associated with its International Hall of Fame, was established in which year and at which place?",
+   "options": [
+    "1989, Gurugram",
+    "1958, New Delhi",
+    "1901, Carlisle, Pennsylvania",
+    "1985, San Francisco"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "The US Army War College was established in 1901 at Carlisle, Pennsylvania. Gurugram is associated with POWERGRID, while 1958 and 1985 refer to the establishment years of the DGCA and CESCR respectively."
+  }
+ ]
+}

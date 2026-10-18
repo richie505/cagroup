@@ -1,0 +1,267 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F4",
+  "P10.F5",
+  "P10.F6",
+  "P10.F7",
+  "P11.F1",
+  "P11.F3",
+  "P12.F4",
+  "P12.F5",
+  "P7.F4",
+  "P7.F6",
+  "P7.F7",
+  "P7.F8",
+  "P8.F1",
+  "P8.F2",
+  "P9.F10",
+  "P9.F3",
+  "P9.F4",
+  "P9.F7",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Exercise details",
+   "question": "With reference to the military exercises Brahmastra, Dwip Shakti and Jal Rahat, consider the following statements:\n1. Brahmastra was conducted at Pokhran.\n2. Dwip Shakti is a bilateral exercise with a foreign partner.\n3. Jal Rahat involves the Army along with NDRF, SDRF and SSB.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F4",
+    "P7.F6",
+    "P7.F7"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Brahmastra was conducted at Pokhran, while Jal Rahat involves the Army, NDRF, SDRF and SSB. Statement 2 is incorrect because Dwip Shakti is a tri-service exercise, not a bilateral exercise with a foreign partner."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Exercise framework and Navy leadership",
+   "question": "The DIVEX exercise held under the MAHASAGAR framework was associated with which Navy Chief?",
+   "options": [
+    "Admiral Dinesh K. Tripathi",
+    "Admiral R. Hari Kumar",
+    "Admiral Karambir Singh",
+    "Admiral Sunil Lanba"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F8"
+   ],
+   "explanation": "DIVEX was conducted under the MAHASAGAR framework with Navy Chief Admiral Dinesh K. Tripathi. The other names do not match the Navy Chief associated with this exercise."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Military equipment",
+   "question": "The Brahmastra exercise featured which aircraft, described as ‘tanks in the sky’?",
+   "options": [
+    "AH-64E Apache",
+    "C-17 Globemaster III",
+    "Tejas fighter aircraft",
+    "CH-47F Chinook"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "The AH-64E Apache featured in Exercise Brahmastra and was described as ‘tanks in the sky’. The C-17, Tejas and CH-47F Chinook are not the aircraft identified in this exercise."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence exports record",
+   "question": "What was the value of India's defence exports in 2025–26?",
+   "options": [
+    "₹38,424 crore",
+    "₹35,000 crore",
+    "₹21,071 crore",
+    "₹17,353 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "India's defence exports reached ₹38,424 crore in 2025–26, an increase of 62.66%. ₹21,071 crore was the DPSU contribution and ₹17,353 crore was the private-sector contribution."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Defence production policy",
+   "question": "Consider the following statements:\nStatement A: The DPEPP 2020 target was ₹35,000 crore in defence exports by 2025.\nStatement B: DAP 2020 includes the procurement category Buy (Indian-IDDM).",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "Both statements are correct. DPEPP 2020 set a ₹35,000 crore defence-export target by 2025, and DAP 2020 includes Buy (Indian-IDDM); therefore neither statement is the incorrect alternative."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "IIT innovations and collaborations",
+   "question": "Match List-I with List-II regarding the April 2026 IIT innovations and collaborations.\n\nList-I\n(a) IIT Madras and Herbalife India\n(b) IIT Madras and FedEx\n(c) IIT Madras\n(d) IIT Hyderabad\n\nList-II\n(i) Indigenous silicon photonics solutions\n(ii) India's first urban drone delivery test flights\n(iii) India's first Centre of Excellence on Plant Cell Fermentation\n(iv) MoU with Sammakka-Saralamma Central Tribal University",
+   "options": [
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-i, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4",
+    "P9.F7",
+    "P9.F8"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-i and d-iv. Herbalife India partnered with IIT Madras for the plant-cell-fermentation CoE, FedEx partnered for urban drone delivery test flights, IIT Madras developed indigenous silicon photonics solutions, and IIT Hyderabad signed the specified MoU."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Training under PM VIKAS",
+   "question": "Under its MoU with the Ministry of Minority Affairs under PM VIKAS, IIT Patna will train how many minority youth of Bihar?",
+   "options": [
+    "600",
+    "500",
+    "1,000",
+    "300"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F9"
+   ],
+   "explanation": "IIT Patna's MoU under PM VIKAS provides for training 600 minority youth of Bihar. The other figures are not the number specified for this programme."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Important institutional milestones",
+   "question": "How many of the following statements are correct?\n1. Pulsars were discovered in 1967 by Jocelyn Bell Burnell and Antony Hewish.\n2. Anaemia Mukt Bharat was launched in 2020.\n3. PM VIKAS was launched in 2024, and the Sammakka-Saralamma Central Tribal University was established in 2023.\n4. IITM Research Park is India's second university research park.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F10"
+   ],
+   "explanation": "Only statement 1 is correct: pulsars were discovered in 1967 by Jocelyn Bell Burnell and Antony Hewish. Anaemia Mukt Bharat dates to 2018, PM VIKAS was launched in 2024 but the paired statement is therefore not wholly correct because the stated institutional detail is not the applicable combined fact, and IITM Research Park is India's first university research park, not its second."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cybersecurity concepts",
+   "question": "Consider the following statements about cybersecurity and artificial-intelligence terminology:\n1. Bug bounties reward ethical disclosure.\n2. XAI stands for Explainable Automation.\n3. Adversarial attacks, data poisoning and deepfakes are among the relevant AI and cybersecurity concerns.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F4",
+    "P10.F6"
+   ],
+   "explanation": "Statements 1 and 3 are correct: bug bounties reward ethical disclosure, and adversarial attacks, data poisoning and deepfakes are identified AI and cybersecurity concerns. Statement 2 is incorrect because XAI means Explainable AI, not Explainable Automation."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "LLM architecture and controls",
+   "question": "Assertion (A): Large language models use transformer architecture.\nReason (R): Tokenization decides the architecture of a large language model.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "The assertion is true because LLMs use transformer architecture. The reason is false: tokenization divides text into words, subwords or characters; it does not decide the model's architecture."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cyber-threat monitoring",
+   "question": "Which Indian organisation uses AI tools for threat monitoring?",
+   "options": [
+    "CERT-In",
+    "ICMR",
+    "DPSU",
+    "UN COPUOS"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F7"
+   ],
+   "explanation": "CERT-In uses AI tools for threat monitoring in India. ICMR, DPSUs and UN COPUOS are not the organisation identified for this function."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Quantum nonlocality",
+   "question": "Consider the following statements:\nStatement A: Quantum entanglement involves particles sharing a quantum state, such that measuring a property of one fixes the corresponding property of its partner regardless of distance.\nStatement B: Nonlocality is a quantum feature, whereas classical physics is based on locality.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F3"
+   ],
+   "explanation": "Both statements are true. Entanglement links the quantum states of particles regardless of distance, and nonlocality is described as a quantum feature in contrast with the locality of classical physics."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Space-debris risk",
+   "question": "What does the Kessler Syndrome refer to in the context of outer-space activities?",
+   "options": [
+    "A chain reaction of debris collisions making orbits unusable",
+    "Absolute liability for damage caused by space objects on Earth",
+    "A voluntary guideline for space-debris mitigation",
+    "A rule requiring de-orbiting within 25 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "Kessler Syndrome is a chain reaction of debris collisions that can make orbits unusable. The other options refer to liability, debris-mitigation guidelines and the 25-year de-orbit rule, not the syndrome."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tracking and de-orbiting rule",
+   "question": "Which statement correctly reflects the space-debris monitoring and de-orbiting position described for low Earth orbit?",
+   "options": [
+    "Only objects larger than 10 cm are consistently tracked, and the de-orbit rule is 25 years",
+    "All objects smaller than 10 cm are consistently tracked, and the de-orbit rule is 10 years",
+    "Only objects larger than 25 cm are consistently tracked, and the de-orbit rule is 50 years",
+    "Objects of every size are consistently tracked, and no de-orbit rule exists"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F5"
+   ],
+   "explanation": "Only objects larger than 10 cm in low Earth orbit are consistently tracked, and the stated de-orbit rule is 25 years. The alternatives alter either the tracking threshold or the de-orbit period, or deny the existence of such a rule."
+  }
+ ]
+}

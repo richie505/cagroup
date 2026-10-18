@@ -1,0 +1,143 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P11.F3",
+  "P11.F5",
+  "P11.F7",
+  "P11.F8",
+  "P12.F10",
+  "P12.F11",
+  "P12.F2",
+  "P12.F3",
+  "P12.F8",
+  "P12.F9",
+  "P14.F1",
+  "P14.F2",
+  "P14.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Three-tier structure and tenure of Panchayats",
+   "question": "With reference to the constitutional framework of Panchayati Raj Institutions, consider the following statements:\n\n1. The intermediate tier is optional for States having a population below 20 lakh.\n2. A Panchayat has a six-year term, and fresh elections after dissolution need not be held if the remainder is less than six months.",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F5",
+    "P11.F7"
+   ],
+   "explanation": "Statement 1 is correct because the intermediate tier is optional for States with a population below 20 lakh. Statement 2 is incorrect: the normal term is five years, though elections need not be held when the remaining period after dissolution is less than six months."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State Election Commission and State Finance Commission",
+   "question": "Under the 73rd Constitutional Amendment, which of the following correctly matches the constitutional provisions relating to Panchayati Raj Institutions?",
+   "options": [
+    "Article 243K—State Election Commission; Article 243I—State Finance Commission, constituted every five years",
+    "Article 243I—State Election Commission; Article 243K—State Finance Commission, constituted every five years",
+    "Article 243K—State Finance Commission; Article 243I—State Election Commission, constituted every five years",
+    "Article 243I—State Finance Commission; Article 243K—State Finance Commission, constituted every five years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F8"
+   ],
+   "explanation": "Article 243K provides for the State Election Commission, while Article 243I provides for the State Finance Commission, constituted every five years. The tempting second option reverses the two constitutional provisions."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Highway safety restrictions",
+   "question": "In the Supreme Court’s directions concerning safe travel on National Highways, identify the incorrect statement.",
+   "options": [
+    "New dhabas, eateries, fuel points and commercial structures within the right-of-way of National Highways were banned, and heavy vehicles were restricted to designated bays.",
+    "New eateries, fuel points and commercial structures within the right-of-way of National Highways were prohibited, and heavy vehicles were restricted to designated bays.",
+    "Within the right-of-way of National Highways, new dhabas, eateries, fuel points and commercial structures were banned, while heavy vehicles could use only designated bays.",
+    "Existing dhabas, eateries, fuel points and commercial structures within the right-of-way of National Highways were banned, and heavy vehicles were restricted to designated bays."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F2"
+   ],
+   "explanation": "The incorrect statement is the fourth one because the Supreme Court’s direction concerned new, not existing, dhabas, eateries, fuel points and commercial structures. The other statements accurately describe the restriction and the requirement that heavy vehicles use designated bays."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Article 21 and Panchayat data",
+   "question": "How many of the following statements are correct?\n\n1. The Ministry of Panchayati Raj has no national data on reserved and unreserved wins in Panchayat elections.\n2. Article 21 applies to non-citizens and cannot be suspended during an Emergency.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3",
+    "P12.F9"
+   ],
+   "explanation": "Only one statement is correct. The Ministry of Panchayati Raj lacks national data on reserved versus unreserved wins, while the second statement correctly describes the application and emergency protection of Article 21."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Article 21 judgments",
+   "question": "Consider the following statements:\nStatement A: Vishaka (1997) concerned workplace harassment, and NALSA (2014) recognised the third gender.\nStatement B: Navtej Johar (2018) concerned the right to speedy trial.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F11"
+   ],
+   "explanation": "Statement A is true: Vishaka concerned workplace harassment and NALSA concerned the third gender. Statement B is false because Navtej Johar concerned Section 377, not the right to speedy trial."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Article 21 jurisprudence and constitutional cases",
+   "question": "Which of the following correctly matches the two cases with their associated constitutional principles?",
+   "options": [
+    "Indra Sawhney—27% OBC reservation, 50% cap and creamy layer; S.R. Bommai—judicial review of Article 356 and floor test",
+    "Indra Sawhney—judicial review of Article 356 and floor test; S.R. Bommai—27% OBC reservation, 50% cap and creamy layer",
+    "Indra Sawhney—right to privacy; S.R. Bommai—right to livelihood",
+    "Indra Sawhney—workplace harassment; S.R. Bommai—third gender"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F10"
+   ],
+   "explanation": "Indra Sawhney is associated with 27% OBC reservation, the 50% cap and the creamy layer, whereas S.R. Bommai is associated with judicial review of Article 356 and the floor test. The other options attach principles from unrelated Article 21 judgments or reverse the correct pairing."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Stampede incident and crowd-crush data",
+   "question": "With reference to the stampede at Maa Sheetla Mandir in Nalanda and crowd-related incidents in India, consider the following statements:\n\n1. The incident occurred at Maghra village in Nalanda district, Bihar, where eight women died after barricades collapsed.\n2. India recorded approximately 400 stampede incidents in the last three decades.\n3. Approximately 900 deaths occurred in crowd-crush incidents in 2025.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2",
+    "P14.F4"
+   ],
+   "explanation": "Only Statement 1 is correct: the Nalanda incident occurred at Maa Sheetla Mandir, Maghra village, and eight women died after barricades collapsed. The correct figures are approximately 4,000 stampede incidents over three decades and approximately 90 crowd-crush deaths in 2025."
+  }
+ ]
+}

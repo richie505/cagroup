@@ -1,0 +1,268 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F8",
+  "P1.F1",
+  "P1.F2",
+  "P1.F3",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "GDP rank and country",
+   "question": "With reference to the IMF GDP rankings for 2025, match List-I with List-II.\n\nList-I\n(a) United States of America\n(b) China\n(c) Germany\n(d) Japan\n\nList-II\n(i) 3rd\n(ii) 1st\n(iii) 4th\n(iv) 2nd\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "The correct matching is United States of America–1st, China–2nd, Germany–3rd and Japan–4th. The code beginning a-ii, b-iv, c-i, d-iii is therefore correct; the other codes interchange the reported ranks."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP rank and amount",
+   "question": "In the IMF GDP rankings for 2025, what were the United Kingdom's rank and nominal GDP?",
+   "options": [
+    "5th and $4.0 trillion",
+    "4th and $4.44 trillion",
+    "6th and $3.92 trillion",
+    "3rd and $4.7 trillion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "The United Kingdom ranked 5th with a nominal GDP of $4.0 trillion. The $4.44 trillion figure belongs to Japan, while $3.92 trillion and $4.7 trillion correspond to India and Germany respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Projected GDP rank",
+   "question": "According to the IMF projection associated with the 2025 GDP rankings, what are India's projected nominal GDP and rank for 2031?",
+   "options": [
+    "$6.79 trillion and 3rd",
+    "$4.58 trillion and 4th",
+    "$3.92 trillion and 6th",
+    "$4.0 trillion and 5th"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "India is projected to reach $6.79 trillion and rank 3rd in 2031. The $4.58 trillion projection with 4th rank refers to 2027, not 2031."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Growth forecast revisions",
+   "question": "With reference to the India GDP growth forecasts for FY2026–27, consider the following statements:\n\n1. Moody's forecast was 6.0%, revised from 6.8%.\n2. Morgan Stanley's forecast was 6.2%, revised from 6.5%.\n3. Fitch Solutions' forecast was 6.9%, revised from 7.7%.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Moody's forecast was 6.0% from 6.8%, and Morgan Stanley's was 6.2% from 6.5%. Statement 3 is incorrect because Fitch Solutions forecast 7.0%, not 6.9%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Forecast agency headquarters",
+   "question": "Which agency, while forecasting India's FY2026–27 growth at 7.0% from 7.7%, has its headquarters in London?",
+   "options": [
+    "Fitch Solutions",
+    "Moody's",
+    "Morgan Stanley",
+    "S&P Global"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "Fitch Solutions made the 7.0% forecast, revised from 7.7%, and its headquarters is in London. Moody's and Morgan Stanley are associated with the other forecasts listed, while S&P Global had a crude-price-linked forecast."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ADB forecast and institutional detail",
+   "question": "Which combination correctly describes the Asian Development Bank in the April 2026 India growth-forecast table?",
+   "options": [
+    "Forecast of 6.9%; established in 1966; headquarters in Manila; President Masato Kanda",
+    "Forecast of 6.6%; established in 1947; headquarters in Bangkok; President Masato Kanda",
+    "Forecast of 6.5%; established in 1966; headquarters in Manila; President Masato Kanda",
+    "Forecast of 6.9%; established in 1947; headquarters in Bangkok; President Masato Kanda"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "The Asian Development Bank forecast India's FY2026–27 growth at 6.9%; it was established in 1966, is based in Manila and has Masato Kanda as President. The alternatives mix these details with the UN ESCAP or IMF entries."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Crude-price-linked forecast",
+   "question": "Consider the following statements:\n\nStatement A: S&P Global forecast India's growth at 6.3% when crude was at $130, and 7.1% when crude was at $85.\nStatement B: SBI Research placed the fiscal deficit at 4.8–4.9%.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "Statement A is true: S&P Global gave 6.3% at $130 crude and 7.1% at $85. Statement B is false because SBI Research placed the fiscal deficit at 4.5–4.6%, not 4.8–4.9%."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Agency forecast and institutional detail",
+   "question": "Match the institutions with the associated details from the India GDP growth forecast table.\n\nList-I\n(a) UN ESCAP — 2026 forecast\n(b) UN ESCAP — 2027 forecast\n(c) IMF — 2026 forecast for India\n(d) IMF — global forecast for 2026\n\nList-II\n(i) 3.1%\n(ii) 6.4%\n(iii) 6.5%\n(iv) 6.6%\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "UN ESCAP forecast 6.4% for 2026 and 6.6% for 2027, while the IMF forecast 6.5% for India and 3.1% globally in 2026. Hence the correct code is a-ii, b-iv, c-iii, d-i."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Lagging States in PAI 2.0",
+   "question": "With reference to the Panchayat Advancement Index 2.0, identify the incorrect statement.",
+   "options": [
+    "Uttar Pradesh was among the lagging States.",
+    "Bihar was among the lagging States.",
+    "Rajasthan was among the lagging States.",
+    "Haryana was among the lagging States."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "The incorrect statement is that Haryana was among the lagging States. The listed lagging States were Uttar Pradesh, Bihar, Rajasthan and Punjab; Haryana replaces Punjab in the incorrect option."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "PAI 2.0 category scores",
+   "question": "How many of the following category-score pairs under the Panchayat Advancement Index 2.0 are correctly matched?\n\n1. Performer — 60–75\n2. Aspirant — 40–60\n3. Beginner — below 40\n4. Performer — 75–90",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10",
+    "P2.F11",
+    "P2.F12"
+   ],
+   "explanation": "Only one pair is correct: Performer covers scores from 60 to 75. Aspirant covers 40–60 and Beginner covers below 40, while 75–90 belongs to the Front Runner category, so statements 2, 3 and 4 are incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Constitutional provision for Panchayats",
+   "question": "Which constitutional provision assigns village panchayats to the Directive Principles of State Policy in the context of Panchayati Raj?",
+   "options": [
+    "Article 40",
+    "Article 243H",
+    "Article 243ZD",
+    "Article 243G"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F13"
+   ],
+   "explanation": "Article 40 of the Constitution concerns village panchayats under the Directive Principles of State Policy. Article 243H concerns Panchayat taxation, while Article 243ZD concerns the District Planning Committee."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "PESA and Sixth Schedule areas",
+   "question": "Assertion (A): The Panchayati Raj constitutional provisions are not applicable to Nagaland, Meghalaya and Mizoram.\nReason (R): Scheduled Areas are governed through the Sixth Schedule under PESA.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F14"
+   ],
+   "explanation": "Assertion A is true because the provisions are not applicable to Nagaland, Meghalaya and Mizoram. Reason R is false: Scheduled Areas are addressed through PESA, not through the Sixth Schedule."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Panchayati Raj committee recommendation",
+   "question": "Who recommended the three-tier Panchayati Raj system in 1957?",
+   "options": [
+    "Balwant Rai Mehta",
+    "Ashok Mehta",
+    "Masato Kanda",
+    "The Ministry of Panchayati Raj"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F15"
+   ],
+   "explanation": "Balwant Rai Mehta recommended the three-tier Panchayati Raj system in 1957. Ashok Mehta is associated with the two-tier recommendation of 1978, making him the most tempting alternative."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Municipal structure and DPC",
+   "question": "Regarding the 74th Constitutional Amendment, identify the incorrect statement.",
+   "options": [
+    "It provides for Nagar Panchayats.",
+    "It provides for Municipal Councils.",
+    "It provides for Municipal Corporations.",
+    "It provides for a District Planning Committee under Article 243H."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F16"
+   ],
+   "explanation": "The incorrect statement is that the District Planning Committee is under Article 243H. The District Planning Committee is under Article 243ZD, while the 74th Amendment provides for Nagar Panchayat, Municipal Council and Municipal Corporation."
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": [
+  "P11.F2",
+  "P12.F4",
+  "P14.F2",
+  "P14.F3",
+  "P14.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Focus and institutional outcome",
+   "question": "The India–Austria talks in April 2026 were associated with which of the following combinations?",
+   "options": [
+    "Semiconductors, quantum and biotechnology; an MoU between IIT Delhi and Montan University; nursing opportunities and the Working Holiday Programme",
+    "Nursing opportunities, the Working Holiday Programme and an MoU between IIT Delhi and Montan University; focus on semiconductors, quantum and biotechnology was absent",
+    "Semiconductors, quantum and biotechnology; an MoU between IIT Delhi and Montan University; no discussion of nursing opportunities or the Working Holiday Programme",
+    "Nursing opportunities and the Working Holiday Programme; an MoU between IIT Delhi and Montan University, with no focus on semiconductors, quantum or biotechnology"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "The talks focused on semiconductors, quantum technology and biotechnology, and included an MoU between IIT Delhi and Montan University, along with nursing opportunities and the Working Holiday Programme. The most tempting alternative is the third option, but it incorrectly excludes the nursing opportunities and Working Holiday Programme."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number and gauge of railway equipment",
+   "question": "Bangladesh’s additional railway procurement plan included which of the following?",
+   "options": [
+    "260 more coaches, 46 broad-gauge locomotives and 50 metre-gauge locomotives",
+    "200 more coaches, 46 broad-gauge locomotives and 50 metre-gauge locomotives",
+    "260 more coaches, 50 broad-gauge locomotives and 46 metre-gauge locomotives",
+    "260 more coaches, 46 metre-gauge locomotives and 50 broad-gauge locomotives"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "Bangladesh planned 260 more coaches, 46 broad-gauge locomotives and 50 metre-gauge locomotives. The closest trap is the second option, which substitutes 200 for the correct figure of 260."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Borrowers’ Platform and IMF profile",
+   "question": "With reference to the Borrowers’ Platform launched at the IMF–World Bank Spring Meetings 2026, consider the following statements:\n\n1. It was launched by developing countries as a coordination forum for debtor nations.\n2. The IMF has its headquarters in New York City.\n3. The Borrowers’ Platform is a debt restructuring mechanism.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2",
+    "P14.F3"
+   ],
+   "explanation": "Only statement 1 is correct: developing countries launched the Borrowers’ Platform as a coordination forum for debtor nations to strengthen debt management. The IMF is headquartered in Washington, D.C., and the Borrowers’ Platform is not a debt restructuring mechanism."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Membership of World Bank Group",
+   "question": "Which institution had 189 members in the institutional background associated with the Water Forward programme?",
+   "options": [
+    "World Bank Group",
+    "International Bank for Reconstruction and Development",
+    "International Development Association",
+    "International Finance Corporation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F4"
+   ],
+   "explanation": "The World Bank Group had 189 members. The other three options—IBRD, IDA and IFC—are constituent institutions of the World Bank Group, not the institution identified with the 189-member figure."
+  }
+ ]
+}

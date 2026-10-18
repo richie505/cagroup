@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F13",
+  "P0.F2",
+  "P0.F24"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Proposed Lok Sabha strength",
+   "question": "Under the proposal for inter-State redistribution of Lok Sabha seats based on the 2011 Census, which combination is correct?",
+   "options": [
+    "A fresh delimitation on the 2011 Census with the Lok Sabha expanded to about 850 seats",
+    "A fresh delimitation on the 1971 Census with the Lok Sabha expanded to about 850 seats",
+    "A constitutional amendment without fresh delimitation, while expanding the Lok Sabha to about 850 seats",
+    "A constitutional amendment and fresh delimitation without any proposed expansion of the Lok Sabha"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The proposal involved a Constitutional Amendment, fresh delimitation on the 2011 Census and an expansion of the Lok Sabha to about 850 seats. The tempting alternative is the second option, but the proposal was based on the 2011 Census, not the 1971 Census."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Existing Census basis",
+   "question": "At present, what Census basis is used for inter-State allocation of Lok Sabha seats and for constituency boundaries, respectively?",
+   "options": [
+    "1971 Census for inter-State allocation and 2001 Census for constituency boundaries",
+    "2001 Census for inter-State allocation and 1971 Census for constituency boundaries",
+    "1971 Census for both inter-State allocation and constituency boundaries",
+    "2001 Census for both inter-State allocation and constituency boundaries"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Inter-State allocation of Lok Sabha seats is based on the 1971 Census, while constituency boundaries are based on the 2001 Census. The most tempting trap is reversing these two Census bases."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Anglo-Indian nomination provisions",
+   "question": "Match the constitutional provisions and related details concerning the discontinuation of Anglo-Indian nomination:\n\nList-I\n a. Article 333\n b. Article 331\n c. 104th Amendment\n d. 2019\n\nList-II\n i. Anglo-Indian nomination under Article 333\n ii. Two Anglo-Indian Lok Sabha nominees\n iii. Amendment associated with abolition or discontinuation\n iv. Year associated with the amendment\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F13",
+    "P0.F24"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: Article 333 concerned Anglo-Indian nomination, Article 331 concerned two Anglo-Indian Lok Sabha nominees, and the 104th Amendment in 2019 discontinued these provisions. The first option incorrectly reverses Articles 333 and 331 and also mismatches the amendment and year."
+  }
+ ]
+}

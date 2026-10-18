@@ -1,0 +1,180 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P3.F2",
+  "P3.F3",
+  "P4.F3",
+  "P4.F6",
+  "P4.F7",
+  "P5.F4",
+  "P7.F2",
+  "P7.F3",
+  "P8.F3",
+  "P8.F4",
+  "P8.F6",
+  "P9.F2",
+  "P9.F6",
+  "P9.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Membership and composition",
+   "question": "With reference to the United Arab Emirates and OPEC+, consider the following statements:\n\n1. The UAE has been a member of OPEC since 1967.\n2. OPEC+ consists of 12 OPEC countries and 10 non-OPEC countries.\n3. OPEC+ accounts for approximately 59% of global crude production.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "All three statements are correct. The UAE joined OPEC in 1967, while OPEC+ comprises 12 OPEC and 10 non-OPEC countries and represents approximately 59% of global crude production. The tempting option ‘1 and 2 only’ is incorrect because the 59% share is also correct."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "African resource linkages",
+   "question": "Match the African resource with the associated country or countries:\n\nList-I\n a. Crude oil\n b. Natural gas\n c. Cobalt\n d. Phosphates\n\nList-II\n i. Democratic Republic of the Congo\n ii. Nigeria and Angola\n iii. Morocco\n iv. Mozambique and Tanzania\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. Africa supplies India with crude from Nigeria and Angola, gas from Mozambique and Tanzania, cobalt from the Democratic Republic of the Congo, and phosphates from Morocco. The other codes interchange at least one of these resource-country linkages."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Capacity-building instrument",
+   "question": "Which India-led instrument provides scholarships and training as part of India’s engagement with Africa?",
+   "options": [
+    "ITEC",
+    "SAGAR",
+    "Pan-African e-Network",
+    "AfCFTA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6"
+   ],
+   "explanation": "ITEC provides scholarships and training. SAGAR is a vision, while the Pan-African e-Network is associated with tele-education and telemedicine; AfCFTA is not an India-led training instrument."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Trade position in Africa",
+   "question": "Assertion (A): China is Africa’s largest trading partner.\nReason (R): India is among Africa’s top five trading partners.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, but India’s position among Africa’s top five trading partners does not explain China’s position as the largest trading partner. Therefore, the second option is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CEPA and national identifiers",
+   "question": "Which of the following correctly describes the India–South Korea Comprehensive Economic Partnership Agreement and South Korea?",
+   "options": [
+    "The CEPA has been in force since 2010; Seoul is the capital and the Won is the currency.",
+    "The CEPA has been in force since 2015; Seoul is the capital and the Won is the currency.",
+    "The CEPA has been in force since 2010; Busan is the capital and the Won is the currency.",
+    "The CEPA has been in force since 2010; Seoul is the capital and the Yen is the currency."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "The India–South Korea CEPA has been in force since 2010. Seoul is South Korea’s capital and the Won is its currency. The other options alter either the year, the capital or the currency."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Country identifiers and SCO membership",
+   "question": "Match the following with the correct description:\n\nList-I\n a. Kyrgyzstan’s currency\n b. President of Kyrgyzstan\n c. SCO member\n d. Another SCO member\n\nList-II\n i. Iran\n ii. Som\n iii. Belarus\n iv. Sadyr Japarov\n\nSelect the correct answer using the code given below.",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. Kyrgyzstan uses the Som and its President is Sadyr Japarov; Iran and Belarus are SCO members. The remaining codes misidentify at least one currency, office-holder or member."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Nuclear power and reactor technology",
+   "question": "With reference to the Rooppur Nuclear Power Plant, consider the following statements:\n\n1. The plant has a total capacity of 2 × 1,000 MW.\n2. Bangladesh became the 33rd country to use nuclear power.\n3. The VVER-1200 reactor is a Generation II design.\n4. Food irradiation is associated with Cobalt-60.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4",
+    "P8.F6"
+   ],
+   "explanation": "Only one statement is correct: Bangladesh became the 33rd country to use nuclear power. Rooppur’s total capacity is 2 × 1,200 MW, the VVER-1200 is Generation III+, and food irradiation uses Cobalt-60."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "India–Jordan relations",
+   "question": "Which one of the following statements about India–Jordan relations is incorrect?",
+   "options": [
+    "India and Jordan have maintained diplomatic ties for 75 years.",
+    "The bilateral trade target is USD 3–5 billion.",
+    "India and Jordan have maintained diplomatic ties for 50 years.",
+    "The bilateral trade target is expressed in United States dollars."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The incorrect statement is that diplomatic ties have lasted 50 years. India and Jordan have had diplomatic ties for 75 years, with a bilateral trade target of USD 3–5 billion. The other statements are consistent with these bilateral-relations facts."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "ISA target and Jordanian identifiers",
+   "question": "Consider the following statements:\n\nStatement A: The International Solar Alliance targets 40% renewable electricity by 2030.\nStatement B: Jordan’s capital is Amman, its currency is the Jordanian Dinar, and its King is Abdullah II.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F6",
+    "P9.F7"
+   ],
+   "explanation": "Statement A is false because the International Solar Alliance target is 50% renewable electricity by 2030. Statement B is true: Jordan’s capital is Amman, its currency is the Jordanian Dinar, and its King is Abdullah II."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P4.F12",
+  "P5.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "E20 status",
+   "question": "According to the assessment of ethanol blending in India, which statement correctly describes the status of E20?",
+   "options": [
+    "E20 was achieved in 2025",
+    "E20 was achieved in 2024",
+    "E20 was achieved in 2026",
+    "E20 was not yet fully achieved, with the target set for 2025–26"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F12"
+   ],
+   "explanation": "The assessment states that E20 was achieved in 2025. The tempting alternative is that E20 was not yet fully achieved with a 2025–26 target, but that represents the contrary assessment mentioned in the fact."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Higher ethanol blends for aviation and mobility",
+   "question": "Which ethanol blends is India exploring for flex-fuel vehicles?",
+   "options": [
+    "E85 alone",
+    "E100 alone",
+    "E85 and E100",
+    "E20 and E85"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F7"
+   ],
+   "explanation": "India is exploring both E85 and E100 for flex-fuel vehicles. E85 alone and E100 alone are incomplete, while E20 and E85 is not the stated combination."
+  }
+ ]
+}

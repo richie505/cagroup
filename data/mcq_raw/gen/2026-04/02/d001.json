@@ -1,0 +1,191 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F14",
+  "P1.F15",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18",
+  "P1.F19",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Women representation",
+   "question": "Under the proposal for expanding the Lok Sabha, what level of women's representation is envisaged compared with the current level?",
+   "options": [
+    "From approximately 14% to approximately 33%",
+    "From approximately 33% to approximately 14%",
+    "From approximately 14% to approximately 50%",
+    "From approximately 33% to approximately 50%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "The proposal seeks to raise women's representation in the Lok Sabha from approximately 14% to approximately 33%. The figure of approximately 50% is not part of the proposal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Basis of allocation",
+   "question": "In the initial phase of the proposed Lok Sabha expansion, on which basis would the state-wise share of seats continue to be maintained?",
+   "options": [
+    "The 1971 Census basis",
+    "The 2011 Census basis",
+    "The 2026 Census basis",
+    "The 1881 Census basis"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "The initial state-wise allocation would continue on the basis of the 1971 Census. The 2011, 2026 and 1881 Census bases are not specified for this initial phase."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Delimitation",
+   "question": "Which one of the following statements regarding the proposed temporary bypass of delimitation is incorrect?",
+   "options": [
+    "The proposal would temporarily bypass the mandatory delimitation requirement for changing seat distribution.",
+    "The current arrangement treats delimitation as mandatory for changing the seat distribution.",
+    "The proposal would make delimitation permanently unnecessary for all future changes in seat distribution.",
+    "The proposed arrangement is described as a temporary bypass of delimitation."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "The incorrect statement is that delimitation would become permanently unnecessary; the proposal only seeks to temporarily bypass it. Delimitation is currently mandatory for a change in seat distribution, while the proposed bypass is temporary."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Constitutional provisions",
+   "question": "Match the constitutional provisions with their respective subjects in the context of the proposed Lok Sabha expansion.\n\nList-I\n(a) Article 81\n(b) Article 82\n\nList-II\n(i) Readjustment or delimitation after each Census\n(ii) Composition of the Lok Sabha\n\nCodes:",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "The correct matching is Article 81 with the composition of the Lok Sabha and Article 82 with readjustment or delimitation after each Census. Article 81 is therefore not the provision dealing with delimitation."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Constitutional amendment majority",
+   "question": "Assertion (A): Raising the number of Lok Sabha seats would require a constitutional amendment passed by a special majority.\nReason (R): The required special majority consists of two-thirds of the members present and voting plus a majority of the total membership.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "Both statements are true, and the stated special-majority requirement explains why the proposal needs a constitutional amendment. The required combination is two-thirds of members present and voting together with a majority of the total membership."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Seat freeze",
+   "question": "Until when does the seat-allocation freeze based on the 1971 Census continue?",
+   "options": [
+    "Until after 2026, following the first Census after 2026",
+    "Until after 2011, following the first Census after 2011",
+    "Until after 2029, following the first Census after 2029",
+    "Until after 2032, following the first Census after 2032"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F12"
+   ],
+   "explanation": "The seat freeze based on the 1971 Census continues until after 2026, when the first Census after 2026 is completed. The years 2011, 2029 and 2032 do not describe the stated freeze period."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Women's Reservation Act provisions",
+   "question": "Match the provisions inserted by the Women's Reservation Act with the institutions or purpose associated with them.\n\nList-I\n(a) Article 330A\n(b) Article 332A\n(c) Article 334A\n\nList-II\n(i) State Assemblies\n(ii) Lok Sabha\n(iii) Commencement and duration\n\nCodes:",
+   "options": [
+    "a-ii, b-i, c-iii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F14"
+   ],
+   "explanation": "Article 330A relates to the Lok Sabha, Article 332A to State Assemblies, and Article 334A to commencement and duration. The other codes interchange these constitutional subjects."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Implementation roadmap",
+   "question": "Consider the following statements:\nStatement A: The reservation is linked to delimitation after the first Census after 2026 and is unlikely to be implemented before 2032–33.\nStatement B: The Delimitation Commission is appointed by Parliament, and its orders are subject to judicial review.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F16",
+    "P1.F17"
+   ],
+   "explanation": "Both statements are false. Implementation is linked to delimitation after the first Census after 2026 and is unlikely before 2032–33, but the Delimitation Commission is appointed by the President and its orders are not subject to judicial review."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Duration and allocation mechanism",
+   "question": "How many of the following statements about the proposed women's reservation mechanism are correct?\n\n1. The reservation is proposed to last for 15 years.\n2. Reserved seats would rotate after each delimitation.\n3. Approximately 273 extra women's seats would be allotted to parties by vote share in the last general election.\n4. The mechanism is intended to be permanent and unrelated to delimitation.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F15",
+    "P1.F19"
+   ],
+   "explanation": "Only two statements are correct: the proposed duration is 15 years, and reserved seats would rotate after each delimitation. Approximately 273 extra women's seats are proposed to be allotted by vote share, while the mechanism is temporary for one or two cycles rather than permanent."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Census legal framework and historical continuity",
+   "question": "Which combination correctly describes the legal framework and historical background of Census 2027?",
+   "options": [
+    "Census Act 1948 and Census Rules 1990; first Census in 1872 and first complete Census in 1881",
+    "Census Act 1990 and Census Rules 1948; first Census in 1881 and first complete Census in 1872",
+    "Census Act 1948 and Census Rules 1990; first Census in 2011 and first complete Census in 2026",
+    "Census Act 2027 and Census Rules 1948; first Census in 1872 and first complete Census in 2011"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Census 2027 operates under the Census Act 1948 and Census Rules 1990; the first Census was held in 1872 and the first complete Census in 1881. The other combinations alter one or more of these legal or historical details."
+  }
+ ]
+}

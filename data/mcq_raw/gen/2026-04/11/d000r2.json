@@ -1,0 +1,65 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F9",
+  "P1.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Historical event commemorated",
+   "question": "National Maritime Day, observed on April 5, commemorates which event?",
+   "options": [
+    "The sailing of SS Loyalty from Mumbai to London on April 5, 1919",
+    "The launch of Aryabhata on April 19, 1975",
+    "The enactment of the 73rd Amendment on April 24, 1993",
+    "The founding of WHO in 1948"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "National Maritime Day commemorates the sailing of SS Loyalty from Mumbai to London on April 5, 1919. The launch of Aryabhata and the 73rd Amendment are associated with other observances, while 1948 relates to the founding of WHO."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Themes and key figures of important days",
+   "question": "Consider the following statements regarding important days observed in April 2026:\n\n1. World Malaria Day was observed on April 25 with the theme “Driven to End Malaria: Now We Can. Now We Must.”\n2. The number of malaria-free countries was 47.\n3. The International Day of Plant Health highlighted locally adapted seeds and community seed systems.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "All three statements are correct. World Malaria Day had the stated theme and was associated with 47 malaria-free countries, while the International Day of Plant Health highlighted locally adapted seeds and community seed systems. The tempting option “1 and 3 only” is wrong because statement 2 is also correct."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "India’s first operational alkaline battery unit",
+   "question": "Which of the following statements regarding India’s first operational alkaline battery unit is incorrect?",
+   "options": [
+    "It was established by Eveready.",
+    "It is located at Samba in Jammu.",
+    "It was inaugurated by Lieutenant Governor Manoj Sinha.",
+    "It was established at Info Valley in Bhubaneswar."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The incorrect statement is that the unit was established at Info Valley in Bhubaneswar. India’s first operational alkaline battery unit was established by Eveready at Samba in Jammu and was inaugurated by Lieutenant Governor Manoj Sinha; “Ultima Alkaline” is its product name."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F6",
+  "P0.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "FTA versus Customs Union",
+   "question": "In the context of the India–New Zealand Free Trade Agreement, consider the following statements:\n1. Members of a Free Trade Agreement retain independent external trade policies.\n2. A Free Trade Agreement requires members to adopt a common external tariff.\n3. A Customs Union allows members to retain independent external trade policies.",
+   "options": [
+    "Exactly one statement is correct",
+    "Only statements 1 and 2 are correct",
+    "Only statements 1 and 3 are correct",
+    "All three statements are correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Statement 1 is correct: members of a Free Trade Agreement retain independent external trade policies. Statements 2 and 3 are incorrect because a common external tariff is associated with a Customs Union, whereas a Customs Union is more integrated than an FTA. Therefore, exactly one statement is correct."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Rules of Origin and non-tariff barriers",
+   "question": "With reference to the India–New Zealand Free Trade Agreement, consider the following statements:\nStatement A: Rules of Origin create trade deflection between member countries.\nStatement B: Sanitary and phytosanitary measures and technical barriers to trade are tariff barriers.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "Both statements are false. Rules of Origin prevent trade deflection, while sanitary and phytosanitary measures and technical barriers to trade are non-tariff barriers, not tariff barriers."
+  }
+ ]
+}

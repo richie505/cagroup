@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8
+ ],
+ "only": [
+  "P8.F2",
+  "P8.F6",
+  "P8.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "FIFA development programme; sports-body leadership",
+   "question": "With reference to recent international sports developments, consider the following statements:\n1. India was among the 12 countries selected under FIFA Women's Football Development.\n2. Mithun Manhas is the President of the BCCI.\n3. The OCA is associated with 1982 and Kuwait City, while the IPC is associated with 1989 and Bonn; Andrew Parsons is the IPC President and Gianni Infantino is the FIFA President.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F7"
+   ],
+   "explanation": "All three statements are correct. India was among the 12 selected countries, Mithun Manhas is the BCCI President, and the stated organisational details and presidencies are associated with the OCA, IPC and FIFA. The tempting option “1 and 3 only” is incorrect because statement 2 is also correct."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "First annual contracts; domestic-player remuneration",
+   "question": "The Mumbai Cricket Association introduced its first annual contracts for domestic players. Match List-I with List-II.\n\nList-I\n a. Category A\n b. Category B\n c. Category C\n\nList-II\n i. ₹12–20 lakh\n ii. ₹8–12 lakh\n iii. ₹8 lakh",
+   "options": [
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii",
+    "a-iii, b-ii, c-i",
+    "a-i, b-iii, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F6"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii and c-iii: Category A received ₹12–20 lakh, Category B ₹8–12 lakh and Category C ₹8 lakh. The tempting second code wrongly exchanges the remuneration ranges for Categories A and B."
+  }
+ ]
+}

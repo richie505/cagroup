@@ -1,0 +1,120 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14
+ ],
+ "only": [
+  "P13.F2",
+  "P13.F3",
+  "P13.F4",
+  "P13.F7",
+  "P13.F8",
+  "P14.F2",
+  "P14.F3",
+  "P14.F4",
+  "P14.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Patient Access Programme",
+   "question": "In the reported counterfeit Keytruda market in India, what benefit was offered under the company’s Patient Access Programme?",
+   "options": [
+    "Buy 5 doses and receive 30 free",
+    "Buy 30 doses and receive 5 free",
+    "Buy 5 doses and receive 5 free",
+    "Buy 3 doses and receive 20 free"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "The Patient Access Programme offered 30 free doses on the purchase of 5 doses. The tempting option of 5 free doses changes the number of free doses from 30 to 5."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Projected cancer burden",
+   "question": "India’s cancer burden is projected to reach how many cases by 2045?",
+   "options": [
+    "24.5 lakh",
+    "14.5 lakh",
+    "34.5 lakh",
+    "20.4 lakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "India’s projected cancer burden by 2045 is 24.5 lakh cases. The figure 14.5 lakh is incorrect because it changes the projected total."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Developer, approval and immunotherapies",
+   "question": "Match the entries related to Keytruda and cancer immunotherapy in List-I with the correct details in List-II.\n\nList-I\n(a) Developer of Keytruda\n(b) US FDA approval year\n(c) Other immunotherapy\n(d) Other immunotherapy\n\nList-II\n(i) Merck & Co. (MSD)\n(ii) 2014\n(iii) CAR-T cell therapy\n(iv) mRNA cancer vaccines",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F4",
+    "P13.F8"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: Keytruda was developed by Merck & Co. (MSD), received US FDA approval in 2014, and CAR-T cell therapy and mRNA cancer vaccines are other immunotherapies. The other codes interchange these developer, year and therapy details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Diseases treated",
+   "question": "Which of the following is among the cancers treated with Keytruda according to the reported science and health information?",
+   "options": [
+    "Triple-negative breast cancer",
+    "Prostate cancer",
+    "Ovarian cancer",
+    "Leukaemia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F7"
+   ],
+   "explanation": "Keytruda is reported to treat triple-negative breast cancer, along with lung, cervical and renal cell carcinoma. Prostate cancer, ovarian cancer and leukaemia are not among the listed cancers."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Science and health innovations",
+   "question": "Consider the following statements about science and health innovations reported in April 2026:\n\n1. Designer Rice was associated with CSIR-NIIST, Thiruvananthapuram, and has about three times the protein content.\n2. WHO prequalified artemether–lumefantrine for newborns and infants.\n3. Naphthalene diimide nanomaterials show about a seven-fold increase in conductivity on heating.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2",
+    "P14.F3",
+    "P14.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Designer Rice was associated with CSIR-NIIST, Thiruvananthapuram, and artemether–lumefantrine received WHO prequalification for newborns and infants. Statement 3 is incorrect because conductivity drops about seven-fold on heating, rather than increasing."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation and official",
+   "question": "Who was identified as the Director General of the Council of Scientific and Industrial Research in the April 2026 science and health innovations context?",
+   "options": [
+    "Dr. N. Kalaiselvi",
+    "Dr. N. Chandrasekharan",
+    "Dr. N. Ramesh",
+    "Dr. N. Srinivasan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F5"
+   ],
+   "explanation": "Dr. N. Kalaiselvi was identified as the CSIR Director General. The other names are incorrect because they do not match the official identified in the report."
+  }
+ ]
+}

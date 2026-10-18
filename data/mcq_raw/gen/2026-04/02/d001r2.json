@@ -1,0 +1,103 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F12",
+  "P1.F15",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18",
+  "P1.F19",
+  "P1.F5",
+  "P1.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Women representation and allocation basis",
+   "question": "With reference to the proposal for Lok Sabha expansion and women's reservation, consider the following statements:\n1. Women's representation is proposed to rise from about 14% to about 33%.\n2. The initial allocation of seats is proposed to retain the 1971 Census basis.\n3. The seat freeze based on the 1971 Census is to continue until after 2026, the first Census after 2026.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6",
+    "P1.F12"
+   ],
+   "explanation": "All three statements are correct: the proposal raises women's representation from about 14% to about 33%, retains the 1971 Census basis initially, and continues the seat freeze until after 2026. The other options are incorrect because each omits one of these features."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Implementation timeline",
+   "question": "Consider the following statements:\nStatement A: Implementation of the Women's Reservation Act is linked to delimitation after the first Census after 2026 and is unlikely before 2032–33.\nStatement B: Implementation of the Women's Reservation Act is likely before 2032–33.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F16"
+   ],
+   "explanation": "Statement A is true because implementation is linked to delimitation after the first Census after 2026 and is unlikely before 2032–33. Statement B reverses this timeline and is therefore false."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Duration and delimitation framework",
+   "question": "Match List-I with List-II in the context of the Women's Reservation Act and delimitation.\n\nList-I\n(a) Duration of women's reservation\n(b) Sub-reservation\n(c) Authority appointing the Delimitation Commission\n(d) Judicial status of delimitation orders\n\nList-II\n(i) 15 years\n(ii) SC/ST women\n(iii) President\n(iv) Not subject to judicial review",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F15",
+    "P1.F17"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: the reservation lasts 15 years, includes sub-reservation for SC/ST women, the President appoints the Delimitation Commission, and its orders are not subject to judicial review. The other codes interchange these constitutional features."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Seat allocation freeze",
+   "question": "Which amendment is associated with the freeze on seat allocation until after 2026 in the context of the Women's Reservation Act roadmap?",
+   "options": [
+    "84th Amendment",
+    "106th Constitutional Amendment Act, 2023",
+    "42nd Amendment",
+    "73rd Amendment"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F18"
+   ],
+   "explanation": "The seat allocation freeze until after 2026 is associated with the 84th Amendment. The 106th Constitutional Amendment Act, 2023 concerns women's reservation, while the other options do not represent the stated seat-allocation freeze."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Proposed allocation mechanism",
+   "question": "Under the proposed temporary mechanism for additional women's seats in the Lok Sabha, how would approximately 273 seats be allotted to political parties?",
+   "options": [
+    "According to their vote share in the last general election from pre-declared lists",
+    "Equally among all political parties",
+    "According to the population of each State",
+    "Through rotation after each delimitation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F19"
+   ],
+   "explanation": "Approximately 273 additional women's seats are proposed to be allotted to parties according to their vote share in the last general election from pre-declared lists. Equal distribution, State-population allocation and rotation after each delimitation are not the proposed temporary mechanism."
+  }
+ ]
+}

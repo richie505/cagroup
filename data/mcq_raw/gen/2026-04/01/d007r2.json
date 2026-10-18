@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  25,
+  26,
+  27
+ ],
+ "only": [
+  "P25.F7",
+  "P26.F5",
+  "P27.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Anti-defection law",
+   "question": "With reference to the anti-defection provisions under the Tenth Schedule of the Constitution, consider the following statements:\n1. The provisions apply to elected members.\n2. The provisions apply to nominated members after six months.\n3. Disqualification under the provisions is decided by the Election Commission of India.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P25.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the anti-defection provisions apply to elected members and to nominated members after six months. Statement 3 is incorrect because the decision is made by the Speaker or Chairman, not the Election Commission of India. The tempting option “1, 2 and 3” is therefore wrong."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Constitutional environmental right and local-body reservation",
+   "question": "Consider the following statements:\nStatement A: Articles 243D and 243T provide one-half reservation for women in Panchayats and Municipalities, respectively.\nStatement B: Article 21, as recognised in Subhash Kumar v Bihar, is associated with the right to a clean environment.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P26.F5",
+    "P27.F3"
+   ],
+   "explanation": "Statement A is false because Articles 243D and 243T provide one-third reservation for women in Panchayats and Municipalities, respectively. Statement B is true: the right to a clean environment is associated with Article 21 and Subhash Kumar v Bihar. The tempting first option is wrong because the reservation figure in Statement A is incorrect."
+  }
+ ]
+}

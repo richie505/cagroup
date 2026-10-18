@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F6",
+  "P0.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Independent human spaceflight capability",
+   "question": "With the successful realization of Gaganyaan, which group of countries would India join in possessing an independent human spaceflight capability?",
+   "options": [
+    "USA, Russia and China",
+    "USA and Russia only",
+    "Russia and China only",
+    "USA and China only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "India would join the USA, Russia and China in possessing an independent human spaceflight capability. The other options omit one of these three countries."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "De-orbit burn and module separation",
+   "question": "In the planned return sequence of the Gaganyaan Crew Module, what occurs during the de-orbit burn?",
+   "options": [
+    "The Crew Module separates from the Service Module",
+    "The Service Module separates from the Crew Module",
+    "The Crew Module remains permanently attached to the Service Module",
+    "The Crew Module separates from the Service Module before the de-orbit burn"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "During the de-orbit burn, the Crew Module separates from the Service Module. The reverse separation described in the second option is incorrect, while the remaining options misstate the timing or occurrence of separation."
+  }
+ ]
+}

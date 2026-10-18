@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8
+ ],
+ "only": [
+  "P8.F10",
+  "P8.F2",
+  "P8.F3",
+  "P8.F5",
+  "P8.F6",
+  "P8.F7",
+  "P8.F8",
+  "P8.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Selection in development programme",
+   "question": "Under FIFA’s Women’s Football Development programme, how many countries were selected, including India?",
+   "options": [
+    "2",
+    "12",
+    "13",
+    "20"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "India was among the 12 countries selected under FIFA’s Women’s Football Development programme. The figures 2, 13 and 20 do not represent the number of selected countries in this programme."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Recognition and steering committee",
+   "question": "Consider the following statements about the Volleyball Federation of India:\n1. FIVB revoked its recognition.\n2. The steering committee was formed by FIVB and OCA.\n3. FIVB retained recognition of the Volleyball Federation of India.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "Only statement 1 is correct: FIVB revoked recognition of the Volleyball Federation of India. The steering committee was an FIVB–IOA committee, and recognition was revoked rather than retained."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Host cities and decision timeline",
+   "question": "Match List-I with List-II regarding the proposed 2038 Asian Games.\n\nList-I\n a. India’s proposal for the 2038 Asian Games\n b. OCA decision on the 2038 Asian Games\n c. 2030 Asian Games\n d. 2034 Asian Games\n\nList-II\n i. Expression of Interest submitted by India\n ii. Decision in 2028\n iii. Doha\n iv. Riyadh\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: India submitted an Expression of Interest, the OCA decision is due in 2028, Doha is scheduled for 2030 and Riyadh for 2034. The other codes interchange these dates, places and proposal details."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Domestic player contract slabs",
+   "question": "The Mumbai Cricket Association introduced annual contracts for domestic players. Consider the following statements:\n1. Category A players receive ₹12–20 lakh.\n2. Category B players receive ₹8–12 lakh.\n3. Category C players receive ₹12 lakh.\n4. Category C players receive ₹8 lakh.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F6"
+   ],
+   "explanation": "Only two statements are correct: Category A players receive ₹12–20 lakh and Category B players receive ₹8–12 lakh. Category C players receive ₹8 lakh, not ₹12 lakh."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Sports obituaries and achievements",
+   "question": "Consider the following statements about recently deceased sports personalities:\n1. C.D. Gopinath was the last surviving member of India’s first Test win.\n2. Gurbux Singh Grewal won a hockey silver medal at the 1968 Mexico Olympics.\n3. Oscar Schmidt was an India basketball legend and was inducted into the Hall of Fame in 2013.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8",
+    "P8.F9",
+    "P8.F10"
+   ],
+   "explanation": "Only statement 1 is correct: C.D. Gopinath was the last surviving member of India’s first Test win. Gurbux Singh Grewal won a hockey bronze at the 1968 Mexico Olympics, while Oscar Schmidt was a Brazil basketball legend inducted into the Hall of Fame in 2013."
+  }
+ ]
+}

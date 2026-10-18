@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P1.F3",
+  "P2.F7",
+  "P4.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Award institution and first recipient; prize background",
+   "question": "Consider the following statements regarding the Lata Deenanath Mangeshkar Award 2026 and the Goldman Environmental Prize:\n1. The first recipient of the Lata Deenanath Mangeshkar Award, in 2022, was Narendra Modi.\n2. The Lata Deenanath Mangeshkar Award is presented by the Master Deenanath Mangeshkar Smruti Pratishthan.\n3. The Goldman Environmental Prize was established in 1989 by Richard and Rhoda Goldman and is known as the “Green Nobel Prize.”",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F3",
+    "P2.F7"
+   ],
+   "explanation": "All three statements are correct. Narendra Modi was the first recipient of the Lata Deenanath Mangeshkar Award in 2022, while the award is presented by the Master Deenanath Mangeshkar Smruti Pratishthan. The Goldman Environmental Prize was established in 1989 by Richard and Rhoda Goldman and is called the “Green Nobel Prize”; therefore, the tempting partial combinations are incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institution founding year and location",
+   "question": "The US Army War College, associated with General Upendra Dwivedi’s induction into its International Hall of Fame, was established in which year and place?",
+   "options": [
+    "1901, Carlisle, Pennsylvania",
+    "1901, Vidisha",
+    "1901, San Francisco",
+    "1901, Magdalena River"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "The US Army War College was established in 1901 at Carlisle, Pennsylvania. San Francisco is associated with the headquarters of the Goldman Environmental Prize, not the US Army War College."
+  }
+ ]
+}

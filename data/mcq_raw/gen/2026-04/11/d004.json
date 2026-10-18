@@ -1,0 +1,100 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11
+ ],
+ "only": [
+  "P11.F1",
+  "P11.F2",
+  "P11.F4",
+  "P11.F6",
+  "P11.F7",
+  "P11.F8",
+  "P11.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Collection identity",
+   "question": "Which item was presented as a CCIC designer heritage collection during April 24–May 10?",
+   "options": [
+    "Soul Threads",
+    "CANS Technology plant",
+    "BIRAC-Bionest centre",
+    "DD–ICCR MoU"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "Soul Threads was the CCIC designer heritage collection scheduled from April 24–May 10. The CANS Technology plant, BIRAC-Bionest centre and DD–ICCR MoU refer to different national miscellany items."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "At which place was the CANS Technology semiconductor unit inaugurated?",
+   "options": [
+    "Sanand, Gujarat",
+    "Mysuru",
+    "Jawahar Vyapar Bhavan",
+    "April 17, 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "The CANS Technology semiconductor unit was inaugurated at Sanand, Gujarat. Mysuru was associated with the BIRAC-Bionest centre, while Jawahar Vyapar Bhavan was associated with Soul Threads."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Location of centre",
+   "question": "Which of the following statements about the BIRAC-Bionest centre is incorrect?",
+   "options": [
+    "The centre is at CSIR-CFTRI, Mysuru.",
+    "CSIR-CFTRI, Mysuru, houses the BIRAC-Bionest centre.",
+    "The BIRAC-Bionest centre is located at Mysuru in CSIR-CFTRI.",
+    "The centre is at CSIR-CFTRI, Sanand."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F4"
+   ],
+   "explanation": "The incorrect statement places the BIRAC-Bionest centre at Sanand. Its correct location is CSIR-CFTRI, Mysuru; Sanand, Gujarat, was the location of the CANS Technology semiconductor unit."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "MoU purpose and date",
+   "question": "Consider the following statements about the DD–ICCR and MSME–NLDSL initiatives:\n1. The DD–ICCR MoU concerns cultural diplomacy.\n2. The MSME–NLDSL MoU concerns logistics data through NICDC.\n3. The MSME–NLDSL MoU concerns cultural diplomacy.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F6",
+    "P11.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the DD–ICCR MoU concerns cultural diplomacy, while the MSME–NLDSL MoU concerns logistics data through NICDC. Statement 3 is incorrect because cultural diplomacy belongs to the DD–ICCR MoU, not the MSME–NLDSL MoU."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Important days and themes",
+   "question": "Match List-I with List-II regarding Sadhana Saptah and Poshan Pakhwada.\n\nList-I\n a. Sadhana Saptah\n b. Mission Karmayogi\n c. 8th Poshan Pakhwada\n d. Theme of the 8th Poshan Pakhwada\n\nList-II\n i. April 9–23, 2026\n ii. April 2–8, 2026\n iii. September 2020\n iv. Maximizing Brain Development in the First Six Years of Life\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-ii, c-iv, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F8",
+    "P11.F9"
+   ],
+   "explanation": "The correct matching is a-ii, b-iii, c-i and d-iv. Sadhana Saptah was observed from April 2–8, 2026; Mission Karmayogi dates to September 2020; the 8th Poshan Pakhwada ran from April 9–23, 2026, with the stated brain-development theme."
+  }
+ ]
+}

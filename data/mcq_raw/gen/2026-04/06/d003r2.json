@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P12.F4",
+  "P9.F10"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Count-Based",
+   "keyword": "Key dates and milestones",
+   "question": "Consider the following statements related to science and technology developments:\n1. Pulsars were discovered in 1967 by Jocelyn Bell Burnell and Antony Hewish, and Anaemia Mukt Bharat was launched in 2018.\n2. Sammakka-Saralamma Central Tribal University was established in 2023, and PM VIKAS was launched in 2024.\n3. IIT Madras Research Park was established in 2011.\n4. IIT Madras Research Park was established in 2010, and PM VIKAS was launched in 2023.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: pulsars were discovered in 1967, Anaemia Mukt Bharat was launched in 2018, SSCTU was established in 2023, and PM VIKAS was launched in 2024. Statement 3 is incorrect because IIT Madras Research Park dates to 2010, while Statement 4 changes the PM VIKAS launch year to 2023."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Space-debris phenomenon",
+   "question": "What does the Kessler Syndrome refer to in the context of outer-space governance and orbital safety?",
+   "options": [
+    "A chain reaction of debris collisions making orbits unusable",
+    "Compensation for damage caused by space objects",
+    "Voluntary guidelines for debris mitigation",
+    "State responsibility for private space activities"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "Kessler Syndrome is a chain reaction of debris collisions that can make orbits unusable. Compensation for damage, voluntary debris-mitigation guidelines and state responsibility for private activities are associated with other elements of the space-law framework, not the Kessler Syndrome."
+  }
+ ]
+}

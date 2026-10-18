@@ -1,0 +1,136 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": [
+  "P2.F1",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Festival months and significance",
+   "question": "With reference to the major Bihu festivals of Assam, consider the following statements:\n1. Rongali (Bohag) Bihu marks the Assamese New Year and is observed in April.\n2. Kati (Kongali) Bihu is observed in October.\n3. Magh (Bhogali) Bihu is observed in January.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "All three statements are correct: Rongali (Bohag) Bihu marks the Assamese New Year in April, Kati (Kongali) Bihu is observed in October, and Magh (Bhogali) Bihu is observed in January. The other options incorrectly omit one of these correct festival-month associations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Heritage manuscript and exhibition",
+   "question": "Consider the following statements about the Shikshapatri:\nStatement A: A Bodleian Library, Oxford exhibition marking 200 years featured the Shikshapatri.\nStatement B: The Shikshapatri contains 212 Sanskrit verses.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Both statements are true. The Shikshapatri was featured in a 200-year exhibition at the Bodleian Library, Oxford, and it contains 212 Sanskrit verses."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation associated with memorial",
+   "question": "Which organisation added the names of 33,000 Indian soldiers of the First World War to the Basra Memorial in Iraq?",
+   "options": [
+    "Archaeological Survey of India",
+    "Bodleian Library",
+    "Hunter Commission",
+    "Commonwealth War Graves Commission"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The Commonwealth War Graves Commission added the names of 33,000 Indian First World War soldiers to the Basra Memorial. The Archaeological Survey of India is associated with the discovery at Elephanta Island, while the Bodleian Library and Hunter Commission relate to other historical items."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ancient civilisation and astronomical structure",
+   "question": "The astronomical structure at Áspero in Peru is associated with which ancient civilisation?",
+   "options": [
+    "Norte Chico/Caral-Supe civilisation",
+    "Konyak Naga civilisation",
+    "Swaminarayan tradition",
+    "Gharapuri civilisation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "Áspero’s astronomical structure is associated with the Norte Chico, or Caral-Supe, civilisation, dated to approximately 3000–1800 BCE. The other options refer to unrelated cultural or historical contexts."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Place, inauguration, birth and anniversary dates",
+   "question": "Match List-I with List-II.\n\nList-I\n a. Elephanta Island\n b. Guru Bhairavaikya Mandir\n c. Raja Ravi Varma\n d. Champaran Satyagraha\n\nList-II\n i. Born at Kilimanoor on April 29, 1848\n ii. 1,500-year-old T-shaped stepwell found by the ASI\n iii. Began on April 10, 1917\n iv. Inaugurated on April 15, 2026 at Adichunchanagiri, Mandya, by Prime Minister Modi",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8",
+    "P2.F9",
+    "P2.F11"
+   ],
+   "explanation": "The correct matching is a-ii, b-iv, c-i and d-iii. The ASI found the T-shaped stepwell at Elephanta Island; Guru Bhairavaikya Mandir was inaugurated at Adichunchanagiri; Raja Ravi Varma was born at Kilimanoor; and Champaran Satyagraha began on April 10, 1917."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Jallianwala Bagh incident and Hunter Commission",
+   "question": "Assertion (A): The Jallianwala Bagh incident occurred on April 13, 1919, during a protest against the Rowlatt Act.\nReason (R): The Hunter Commission was formed in April 1919.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "Assertion A is true: the Jallianwala Bagh incident took place on April 13, 1919, in the context of the Rowlatt Act protest. Reason R is false because the Hunter Commission was constituted in October 1919, not April 1919."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Jyotirao Phule bicentenary details",
+   "question": "How many of the following statements regarding the Jyotirao Phule bicentenary observance are correct?\n1. It is associated with a 126-member committee chaired by Prime Minister Modi.\n2. The observance runs from April 11, 2026 to April 11, 2028.\n3. Jyotirao Phule was born on April 11, 1828.\n4. Phule established the first girls’ school in 1873.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "Only two statements are correct: the observance involves a 126-member committee chaired by Prime Minister Modi, and it runs from April 11, 2026 to April 11, 2028. Phule was born on April 11, 1827, and the first girls’ school associated with him dates to 1848, not 1873."
+  }
+ ]
+}

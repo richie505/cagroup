@@ -1,0 +1,85 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P5.F10",
+  "P5.F2",
+  "P5.F8",
+  "P5.F9",
+  "P6.F10",
+  "P6.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Coverage of legislation",
+   "question": "The Jan Vishwas (Amendment of Provisions) Bill, 2026 covers approximately how many Central Acts and provisions?",
+   "options": [
+    "Approximately 80 Central Acts and more than 1,000 provisions",
+    "Approximately 80 Central Acts and fewer than 1,000 provisions",
+    "More than 80 Central Acts and more than 1,000 provisions",
+    "Fewer than 80 Central Acts and fewer than 1,000 provisions"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "The Bill covers approximately 80 Central Acts and rationalises more than 1,000 provisions. The alternatives suggesting fewer provisions or a different number of Acts do not match its reported coverage."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Jan Vishwas 2.0 details",
+   "question": "Which of the following statements regarding Jan Vishwas 2.0 is incorrect?",
+   "options": [
+    "It amends 79 Central Acts and decriminalises approximately 717 provisions.",
+    "It amends 79 Central Acts and decriminalises more than 717 provisions.",
+    "It amends fewer than 79 Central Acts and decriminalises approximately 717 provisions.",
+    "It amends more than 79 Central Acts and decriminalises fewer than 717 provisions."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F8"
+   ],
+   "explanation": "The correct statement is that Jan Vishwas 2.0 amends 79 Central Acts and decriminalises approximately 717 provisions. The other statements alter one or both of these figures, whereas the reported details specify 79 Acts and approximately 717 provisions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Earlier Jan Vishwas legislation",
+   "question": "How many Central laws were amended by the Jan Vishwas Act, 2023?",
+   "options": [
+    "42 Central laws",
+    "79 Central laws",
+    "Approximately 80 Central laws",
+    "More than 1,000 Central laws"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F9"
+   ],
+   "explanation": "The Jan Vishwas Act, 2023 amended 42 Central laws. The figures 79 and approximately 80 relate to later Jan Vishwas reform descriptions, while more than 1,000 refers to provisions rather than Central laws."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Merger protection and parliamentary offices",
+   "question": "Consider the following statements:\n1. Members who do not join the merged party and remain separate are also protected under the anti-defection provision.\n2. The President is the ex-officio Chairman of the Rajya Sabha and has only a casting vote.\n3. The Rajya Sabha Chairman certifies Money Bills.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4",
+    "P6.F10"
+   ],
+   "explanation": "Statement 1 is correct because members who stay separate after a merger are also protected. Statement 2 is incorrect because the Vice-President, not the President, is the ex-officio Chairman of the Rajya Sabha; Statement 3 is also incorrect because the Lok Sabha Speaker certifies Money Bills."
+  }
+ ]
+}

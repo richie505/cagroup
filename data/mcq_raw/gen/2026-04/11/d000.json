@@ -1,0 +1,341 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F15",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18",
+  "P1.F19",
+  "P1.F2",
+  "P1.F21",
+  "P1.F22",
+  "P1.F23",
+  "P1.F3",
+  "P1.F4",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "National Day fact",
+   "question": "National Maritime Day is observed on which date, commemorating the voyage of SS Loyalty?",
+   "options": [
+    "April 5",
+    "April 6",
+    "April 10",
+    "April 14"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "National Maritime Day is observed on April 5, commemorating SS Loyalty’s Mumbai–London voyage on April 5, 1919. April 6 is associated with the International Day of Sport for Development and Peace."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of World Homoeopathy Day in April 2026?",
+   "options": [
+    "Homoeopathy for Sustainable Health",
+    "Together for health. Stand with science.",
+    "Sport: Building Bridges, Breaking Barriers",
+    "Driven to End Malaria: Now We Can. Now We Must."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The theme of World Homoeopathy Day was “Homoeopathy for Sustainable Health.” “Together for health. Stand with science.” was the World Health Day theme."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation and initiative",
+   "question": "What was the significant development associated with World Quantum Day in April 2026?",
+   "options": [
+    "AP quantum test beds were launched",
+    "A quantum clock was installed at Kashi Vishwanath Temple",
+    "A semiconductor fab was approved at Dholera",
+    "A permanent nuclear waste repository was opened in Finland"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "AP quantum test beds were launched in connection with World Quantum Day. The Kashi Vishwanath Temple fact concerns the Vikramaditya Vedic Clock, while the semiconductor fab concerns Dholera."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme and organisation",
+   "question": "Which organisation was associated with World Heritage Day and the 2026 theme “Emergency Response for Living Heritage in Contexts of Conflicts and Disasters”?",
+   "options": [
+    "ICOMOS",
+    "ILO",
+    "WHO",
+    "UNESCO"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "ICOMOS was associated with World Heritage Day and the stated 2026 theme. ILO was associated with the World Day for Safety and Health at Work."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Historical milestone",
+   "question": "Satellite Technology Day commemorates the launch of which satellite on April 19, 1975?",
+   "options": [
+    "Aryabhata",
+    "SS Loyalty",
+    "Onkalo",
+    "Vikramaditya Vedic Clock"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "Satellite Technology Day commemorates the launch of Aryabhata on April 19, 1975. SS Loyalty is linked with National Maritime Day, while Onkalo is a nuclear waste repository."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Themes and figures",
+   "question": "How many of the following statements about April 2026 observances are correct?\n1. World Malaria Day had the theme “Driven to End Malaria: Now We Can. Now We Must.”\n2. World Malaria Day was associated with 47 malaria-free countries.\n3. International Day of Plant Health had the theme “Locally adapted seeds, community seed systems.”\n4. International Day of Plant Health had the theme “Homoeopathy for Sustainable Health.”",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "Exactly two statements are correct: statements 1 and 3. The malaria-related figure was 47 malaria-free countries, while “Homoeopathy for Sustainable Health” was the World Homoeopathy Day theme."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Organisation",
+   "question": "Consider the following statements:\nStatement A: The International Labour Organization was associated with the World Day for Safety and Health at Work.\nStatement B: The World Day for Safety and Health at Work was associated with ICOMOS.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F11"
+   ],
+   "explanation": "Statement A is true because the International Labour Organization was associated with the World Day for Safety and Health at Work. Statement B is false because ICOMOS was associated with World Heritage Day."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Maritime and institutional facts",
+   "question": "Match List-I with List-II regarding the April 2026 current-affairs facts.\n\nList-I\n a. India’s coastline\n b. Major ports in India\n c. Sagarmala\n d. Director-General of UNESCO\n\nList-II\n i. Khaled El Enany\n ii. 13\n iii. 7,516 km\n iv. 2015",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i: India’s coastline is 7,516 km, there are 13 major ports, Sagarmala dates to 2015, and Khaled El Enany is the UNESCO Director-General. The other codes interchange these facts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First in India and location",
+   "question": "Where was India’s first water-neutral railway depot established?",
+   "options": [
+    "Kankaria coaching depot, Ahmedabad",
+    "Samba, Jammu",
+    "Info Valley, Bhubaneswar",
+    "Bhopal Regional Passport Office"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "India’s first water-neutral railway depot was established at the Kankaria coaching depot in Ahmedabad. Samba was the location of the alkaline battery unit, while Info Valley was the location of the 3D semiconductor packaging unit."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "First unit and inaugurator",
+   "question": "Which of the following statements about India’s first operational alkaline battery unit is incorrect?",
+   "options": [
+    "It was established by Eveready.",
+    "It is located in Samba, Jammu.",
+    "It was inaugurated by LG Manoj Sinha.",
+    "Its product is called “Ultima Alkaline”."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The incorrect statement is that it was established by Eveready; the fact identifies Eveready as the organisation, so this statement is actually correct. Therefore, this option set does not contain a false statement and is invalid."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Investment and location",
+   "question": "India’s first advanced 3D semiconductor chip packaging unit is being established at which place?",
+   "options": [
+    "Info Valley, Bhubaneswar",
+    "Dholera, Gujarat",
+    "Amaravati",
+    "Lakhanpur, Jharsuguda"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "India’s first advanced 3D semiconductor chip packaging unit is being established at Info Valley, Bhubaneswar. Dholera is associated with the first semiconductor fab or semiconductor SEZ, while Amaravati is associated with quantum hardware test beds."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "India’s firsts and locations",
+   "question": "Match the firsts with their locations.\n\nList-I\n a. Quantum hardware test beds\n b. Private gold mine\n c. Semiconductor fab or semiconductor SEZ\n d. Coal-to-ammonium nitrate project\n\nList-II\n i. Lakhanpur, Jharsuguda\n ii. Dholera, Gujarat\n iii. Amaravati\n iv. Jonnagiri, Kurnool",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7",
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i: quantum hardware test beds are at Amaravati, the private gold mine is at Jonnagiri, the semiconductor fab is at Dholera, and the coal-to-ammonium nitrate project is at Lakhanpur. The other options interchange these locations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Technology and institution",
+   "question": "Consider the following statements:\nStatement A: NARIT AI is a RAG-based AI narcotics investigation tool of the Gujarat Police.\nStatement B: Pay Point India Network received direct RTGS and NEFT access without its own IFSC.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "Statement A is true: NARIT AI is a RAG-based AI narcotics investigation tool of the Gujarat Police. Statement B is false because Pay Point India Network had direct RTGS and NEFT access with its own IFSC."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Accessibility and institutional firsts",
+   "question": "Match the firsts with their institutions or locations.\n\nList-I\n a. Braille and sign language services at a passport office\n b. UNESCO Chair on Gender Inclusion and Skill Development\n c. CCRAS institute with ISO 15189:2022\n\nList-II\n i. CARI, Bengaluru\n ii. Bhopal Regional Passport Office\n iii. Symbiosis Skills and Professional University, Pune",
+   "options": [
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F12",
+    "P1.F13",
+    "P1.F14"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii and c-i. The Bhopal Regional Passport Office provided Braille and sign language services, the UNESCO Chair was at Symbiosis Skills and Professional University, Pune, and the CCRAS institute was CARI, Bengaluru."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Corporate first",
+   "question": "Which Indian organisation became the first Indian FMCG company to record a turnover of ₹1 lakh crore in FY26?",
+   "options": [
+    "AMUL",
+    "Eveready",
+    "Rocklink India",
+    "Pay Point India Network"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F15"
+   ],
+   "explanation": "AMUL became the first Indian FMCG company to record a turnover of ₹1 lakh crore in FY26. GCMMF’s revenue was ₹73,450 crore, a separate figure associated with AMUL."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Social and sporting firsts",
+   "question": "Match the person with the distinction.\n\nList-I\n a. Divya Singh\n b. Menaka Guruswamy\n\nList-II\n i. First openly queer MP\n ii. First Indian woman to cycle to Everest Base Camp",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F16",
+    "P1.F17"
+   ],
+   "explanation": "Divya Singh was the first Indian woman to cycle to Everest Base Camp, while Menaka Guruswamy was the first openly queer MP. The other options reverse or duplicate these distinctions."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "World firsts and technology",
+   "question": "Match the world firsts with their locations or associated details.\n\nList-I\n a. Vikramaditya Vedic Clock\n b. Upper 6 GHz network, “10 Giga Nation”\n\nList-II\n i. UAE\n ii. Kashi Vishwanath Temple, Varanasi",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F18",
+    "P1.F19"
+   ],
+   "explanation": "The Vikramaditya Vedic Clock is at Kashi Vishwanath Temple, Varanasi, while the world’s first upper 6 GHz network, called “10 Giga Nation,” is in the UAE. The alternatives interchange or duplicate the locations."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Infrastructure and historical facts",
+   "question": "Match the firsts or milestones with the corresponding details.\n\nList-I\n a. First air taxi station\n b. World’s largest hydropower project\n c. Ladakh became a Union Territory\n d. Indian Railways began in\n\nList-II\n i. 1853\n ii. Dubai, near DXB\n iii. October 31, 2019\n iv. China, on the Yarlung Tsangpo in Tibet",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F21",
+    "P1.F22",
+    "P1.F23"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i. The first air taxi station is planned near DXB in Dubai, the largest hydropower project is in China on the Yarlung Tsangpo, Ladakh became a Union Territory on October 31, 2019, and Indian Railways began in 1853."
+  }
+ ]
+}
