@@ -56,6 +56,7 @@ API = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1")
 MODEL = os.environ.get("OPENAI_MODEL", "gpt-5.6-luna")
 CHUNK_FACTS = 36  # facts per generate call (small pages are grouped up to this)
 VERIFY_BATCH = 12  # MCQs per verify call
+COVER_TRIES = 3  # coverage calls per news page that still has no question
 VERIFY_VERSION = 2  # bump when VERIFY_SYSTEM changes: older verdicts are ignored and items are verified again
 
 FORMATS = [
@@ -602,15 +603,21 @@ def cmd_cover(args):
         facts = all_fact_text(data)
         qs = kept(folder, nn, facts, bank, log)
         hit = {page_of(q) for q in qs}
-        tried = {i for rec in load_raw("gen", folder, nn).values() if rec.get("only") for i in rec["only"]}
+        gens = load_raw("gen", folder, nn)
+        tries = {}  # page -> coverage calls already made for it
+        for rec in gens.values():
+            if rec.get("only"):
+                for pg in {int(re.match(r"P(\d+)\.", i).group(1)) for i in rec["only"]}:
+                    tries[pg] = tries.get(pg, 0) + 1
         for k, pages in enumerate(chunks(data)):
-            empty = [p for p in pages if p["facts"] and p["i"] not in hit
-                     and not any(fid(p, f) in tried for f in p["facts"])]
+            empty = [p for p in pages if p["facts"] and p["i"] not in hit and tries.get(p["i"], 0) < COVER_TRIES]
             if empty:
                 gap = {fid(p, f) for p in empty for f in p["facts"]}
                 asked = [q for q in qs if page_of(q) in {p["i"] for p in pages}]
-                jobs.append((gen_job, folder, nn, f"g{k:03d}", empty, len(empty), gap, asked, data["title"]))
-    print(f"{len(jobs)} coverage calls to make (one question for each news page that has none; one try)")
+                rnd = max(tries.get(p["i"], 0) for p in empty)
+                key = f"g{k:03d}" + (f"r{rnd + 1}" if rnd else "")
+                jobs.append((gen_job, folder, nn, key, empty, len(empty), gap, asked, data["title"]))
+    print(f"{len(jobs)} coverage calls to make (one question for each news page that has none; up to {COVER_TRIES} tries)")
     run(jobs, args.workers, args.max_calls)
 
 
