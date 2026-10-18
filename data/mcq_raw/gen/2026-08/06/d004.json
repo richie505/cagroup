@@ -1,0 +1,198 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  17,
+  18,
+  19,
+  20
+ ],
+ "only": [
+  "P17.F2",
+  "P17.F3",
+  "P17.F4",
+  "P18.F2",
+  "P19.F5",
+  "P19.F6",
+  "P20.F10",
+  "P20.F11",
+  "P20.F12",
+  "P20.F13",
+  "P20.F4",
+  "P20.F5",
+  "P20.F6",
+  "P20.F8",
+  "P20.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "System integration and ERSS",
+   "question": "Consider the following statements about Telangana’s AI-enabled integrated Dial 112 system:\n1. It integrates police, fire, ambulance, women and child safety, and disaster services.\n2. Its 24x7 centre has 164 personnel and 900 SIP channels, while its intelligent features increased from 118 to 236.\n3. Dial 112 is part of the National Emergency Response Support System under the Ministry of Home Affairs.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F2",
+    "P17.F3",
+    "P17.F4"
+   ],
+   "explanation": "All three statements correctly describe Telangana’s integrated Dial 112 system. It combines multiple emergency services, operates through a 24x7 centre with the stated capacity, and forms part of the MHA’s National Emergency Response Support System."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Designed by and approved by",
+   "question": "For India’s first Required Navigation Performance–Category H helicopter approach at HAL Airport, Bengaluru, which organisation designed the procedure?",
+   "options": [
+    "AAI",
+    "HAL test pilots",
+    "DGCA",
+    "MHA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F2"
+   ],
+   "explanation": "The procedure was designed by the Airports Authority of India. HAL test pilots validated it, while the Directorate General of Civil Aviation approved it; therefore, DGCA was not the designing organisation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Centre of Excellence",
+   "question": "The Centre of Excellence for advanced steel announced in August 2026 was established through collaboration between IIT Hyderabad and which organisation?",
+   "options": [
+    "Jindal Steel",
+    "South Central Railway",
+    "CSIR-IICT Hyderabad",
+    "Crimson Energy Experts"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F5"
+   ],
+   "explanation": "The Centre of Excellence for advanced steel is a collaboration between IIT Hyderabad and Jindal Steel at the Kandi campus. South Central Railway was associated with a different IIT Bombay MoU, making it the tempting but incorrect choice."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AI platform for alloy discovery",
+   "question": "Which IIT developed the Alloy Tatvasar AI platform for alloy discovery by mining more than 10,000 papers with large language models?",
+   "options": [
+    "IIT Madras",
+    "IIT Delhi",
+    "IIT Hyderabad",
+    "IIT Guwahati"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F6"
+   ],
+   "explanation": "IIT Madras developed Alloy Tatvasar, an AI platform for alloy discovery that mined more than 10,000 papers using large language models. IIT Delhi, IIT Hyderabad and IIT Guwahati were associated with other developments."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Cancer drug candidate",
+   "question": "Assertion (A): RK-251 is a smart targeted cancer drug candidate.\nReason (R): RK-251 was developed from Gymnema sylvestre, also known as Gurmar.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P20.F4",
+    "P20.F5",
+    "P20.F12"
+   ],
+   "explanation": "The assertion is true: RK-251 is a smart targeted cancer drug candidate. The reason is false because Gymnema sylvestre, or Gurmar, is associated with the diabetic foot ulcer drug from CSIR-IICT Hyderabad, not RK-251."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Drug source and readiness",
+   "question": "Consider the following statements:\nStatement A: The diabetic foot ulcer drug developed by CSIR-IICT Hyderabad is derived from Gymnema sylvestre.\nStatement B: The drug is IND-ready.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F5"
+   ],
+   "explanation": "Both statements are true. The CSIR-IICT Hyderabad drug is derived from Gymnema sylvestre, commonly called Gurmar, and is IND-ready."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Drug, institution, platform and catalogue associations",
+   "question": "Match List-I with List-II in the context of science and technology developments reported in August 2026.\n\nList-I\n a. Zaynich\n b. Karolinska Institutet\n c. MutAIverse\n d. eROSITA DR2\n\nList-II\n i. Approximately 2 million X-ray sources\n ii. Nobel Assembly that picks the Physiology/Medicine prize\n iii. US FDA approval\n iv. NIPER-Guwahati as an additional partner",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F6",
+    "P20.F8",
+    "P20.F11",
+    "P20.F13"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i. Zaynich received US FDA approval, Karolinska Institutet’s Nobel Assembly selects the Physiology/Medicine prize, NIPER-Guwahati is a MutAIverse partner, and eROSITA DR2 contains approximately 2 million X-ray sources."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Space telescope launch",
+   "question": "The Nancy Grace Roman Space Telescope, launched on 30 August 2026, was a mission of which organisation?",
+   "options": [
+    "NASA",
+    "SpaceX",
+    "European Space Agency",
+    "Kennedy Space Center"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F9"
+   ],
+   "explanation": "The Nancy Grace Roman Space Telescope is a NASA mission. It was launched on SpaceX’s Falcon Heavy from Kennedy Space Center toward the Sun–Earth L2 point, so SpaceX and Kennedy Space Center were involved in the launch but were not the mission organisation."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Space-rice crew and X-ray survey facts",
+   "question": "How many of the following statements are correct?\n1. The Shenzhou-23 crew that harvested the space-grown rice included Zhu Yangzhu, Zhang Jiuyuan and Lai Ka-ying.\n2. The harvested rice included normal seeds and space-lineage seeds from the 2022 Tiangong crop.\n3. Tiangong has been operational since 2019.\n4. The Magellanic Bridge links the Large Magellanic Cloud and the Milky Way.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P20.F10",
+    "P20.F11"
+   ],
+   "explanation": "Only statements 1 and 2 are correct. Tiangong has been operational since 2022, not 2019, and the Magellanic Bridge links the Large and Small Magellanic Clouds, not the Large Magellanic Cloud and the Milky Way."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Alternative name of Gurmar",
+   "question": "CSIR-IICT Hyderabad developed a diabetic foot ulcer drug from Gymnema sylvestre. By which other name is this plant known?",
+   "options": [
+    "Podapatri",
+    "Zaynich",
+    "AnuGyan",
+    "PASTA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F5",
+    "P20.F12"
+   ],
+   "explanation": "Gymnema sylvestre is also known as Podapatri, and it is the source of the CSIR-IICT Hyderabad diabetic foot ulcer drug. Zaynich is a separate antibiotic, while AnuGyan and PASTA refer to different scientific developments."
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F2",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F14",
+  "P2.F15",
+  "P2.F16",
+  "P2.F17",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F2",
+  "P3.F4",
+  "P3.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Recommendations on forest-fire management",
+   "question": "Which of the following recommendations were made for addressing forest fires in the Himalayan region?\n1. Use of a geostationary satellite for 24x7 fire monitoring.\n2. Establishment of at least two NDRF centres for Himalayan fires.\n3. Formulation of a National Pine-Needle Utilisation Policy.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "All three were among the recommendations: a geostationary satellite for continuous monitoring, at least two NDRF centres, and a National Pine-Needle Utilisation Policy. Therefore, 1, 2 and 3 are correct."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Forest-fire vulnerability categories",
+   "question": "According to the Forest Survey of India’s vulnerability assessment, how many of the following statements are correct?\n1. About 54.40% of the area experiences occasional fires.\n2. About 7.49% faces moderately frequent fires.\n3. About 2.40% is largely unaffected by fires.\n4. About 35.71% faces high fire vulnerability.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 54.40% experiences occasional fires and 7.49% experiences moderately frequent fires. Statements 3 and 4 interchange the categories; 2.40% is the high-vulnerability category, while 35.71% is largely unaffected."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Pirul and forest-fire risk",
+   "question": "Which of the following statements about Chir pine needles is incorrect?",
+   "options": [
+    "They are locally known as “Pirul”.",
+    "They are resin-rich and inflammable.",
+    "They are non-inflammable because of their low resin content.",
+    "Their accumulation contributes to forest-fire vulnerability."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "The incorrect statement is that Pirul is non-inflammable. Chir pine needles are resin-rich and inflammable, which makes them relevant to forest-fire risk."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fire-line classification",
+   "question": "In forest-fire management, what is a pucca fire line?",
+   "options": [
+    "A clear-felled strip",
+    "A strip where only undergrowth is cleared",
+    "A satellite-based fire-monitoring zone",
+    "A naturally occurring river boundary"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "A pucca fire line is a clear-felled strip created to check the spread of fire. A kachha fire line, by contrast, involves clearing undergrowth."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Disaster-management institutional framework",
+   "question": "Consider the following statements:\nStatement A: The National Disaster Management Authority functions under the Disaster Management Act, 2005, and is chaired by the Prime Minister.\nStatement B: The National Disaster Response Force functions under the Ministry of Environment, Forest and Climate Change.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F12",
+    "P1.F13"
+   ],
+   "explanation": "Statement A is correct: NDMA was established under the Disaster Management Act, 2005, and is chaired by the Prime Minister. Statement B is incorrect because the NDRF functions under the Ministry of Home Affairs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Funding convergence",
+   "question": "Under the Small River Rejuvenation Framework, funding is proposed through convergence with which set of programmes?",
+   "options": [
+    "VB-G RAM G, Swachh Bharat Mission and Namami Gange",
+    "National Pine-Needle Utilisation Policy, Namami Gange and Coastal Shipping Act",
+    "Swachh Bharat Mission, River Cruise Tourism Roadmap 2047 and NDRF",
+    "VB-G RAM G, National Waterways programme and Betwa Canal System"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "The proposed convergence includes VB-G RAM G, Swachh Bharat Mission and Namami Gange. The other options combine these programmes with unrelated policies, laws or projects."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Degraded rivers and associated cities",
+   "question": "Match the degraded rivers with the cities associated with them.\n\nList-I\n(a) Sahibi\n(b) Mithi\n(c) Musi\n(d) Cooum\n\nList-II\n(i) Chennai\n(ii) Hyderabad\n(iii) Delhi\n(iv) Mumbai",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6",
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "The correct pairs are Sahibi–Delhi, Mithi–Mumbai, Musi–Hyderabad and Cooum–Chennai. Thus, the correct code is a-iii, b-iv, c-ii, d-i."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Degraded rivers and associated cities",
+   "question": "Match the degraded rivers with the cities associated with them.\n\nList-I\n(a) Vrishabhavathi\n(b) Bharalu and Bahini\n(c) Varuna and Assi\n(d) Mula and Mutha\n\nList-II\n(i) Pune\n(ii) Varanasi\n(iii) Bengaluru\n(iv) Guwahati",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10",
+    "P2.F11",
+    "P2.F12"
+   ],
+   "explanation": "Vrishabhavathi is associated with Bengaluru, Bharalu and Bahini with Guwahati, Varuna and Assi with Varanasi, and Mula and Mutha with Pune. Hence, a-iii, b-iv, c-ii, d-i is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "One District–One River initiative",
+   "question": "Which pair of States is associated with the listed rivers under the One District–One River initiative?",
+   "options": [
+    "Uttar Pradesh and Kerala",
+    "Maharashtra and Karnataka",
+    "Delhi and Telangana",
+    "Assam and Tamil Nadu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F13"
+   ],
+   "explanation": "The listed rivers include Noon, Sakarni, Ghurari, Manorama and Tamsa in Uttar Pradesh, and Chithari and Kammalamkudi in Kerala. Therefore, the correct pair is Uttar Pradesh and Kerala."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Transport cost and freight share",
+   "question": "How many of the following statements on inland transport are correct?\n1. The cost per tonne-km for waterways is ₹1.06.\n2. The cost per tonne-km for rail is ₹1.36.\n3. The cost per tonne-km for road is ₹2.05.\n4. Road transport accounts for about 61% of freight share.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F14",
+    "P2.F15"
+   ],
+   "explanation": "Statements 1 and 2 are correct: waterways cost ₹1.06 per tonne-km and rail costs ₹1.36. The correct road cost is ₹2.50 and the road freight share is about 71%, making statements 3 and 4 incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Waterways",
+   "question": "Which statement correctly describes India’s National Waterways framework?",
+   "options": [
+    "There are 111 National Waterways, of which 32 are operational.",
+    "There are 106 National Waterways, of which 23 are operational.",
+    "There are 111 National Waterways, of which 5 are operational.",
+    "There are 32 National Waterways, of which 20 are planned for operation."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F16"
+   ],
+   "explanation": "India has 111 National Waterways, including 5 existing and 106 new waterways, and 32 are operational. The Budget 2026–27 also envisages making 20 more operational in five years."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Inland-waterway laws and roadmap",
+   "question": "Match the inland-waterway instruments with their years or descriptions.\n\nList-I\n(a) IWAI Act\n(b) Inland Vessels Act\n(c) Coastal Shipping Act\n(d) River Cruise Tourism Roadmap\n\nList-II\n(i) 2024\n(ii) 1986\n(iii) 2025\n(iv) 2021",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F17"
+   ],
+   "explanation": "The IWAI Act dates to 1986, the Inland Vessels Act to 2021, the Coastal Shipping Act to 2025, and the River Cruise Tourism Roadmap 2047 to 2024. Therefore, a-ii, b-iv, c-iii, d-i is the correct code."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Location and river",
+   "question": "Parichha Weir, recognised as an ICID World Heritage Irrigation Structure in August 2026, is located in which setting?",
+   "options": [
+    "Jhansi, Uttar Pradesh, on the Betwa River",
+    "Varanasi, Uttar Pradesh, on the Ganga River",
+    "Pune, Maharashtra, on the Mula River",
+    "Hyderabad, Telangana, on the Musi River"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "Parichha Weir is located in Jhansi, Uttar Pradesh, on the Betwa River as part of the Betwa Canal System. It irrigates areas in Uttar Pradesh and Madhya Pradesh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Operational history and regional first",
+   "question": "Which statement correctly describes Parichha Weir’s historical status?",
+   "options": [
+    "It has been operational since 1886 and is the second such structure in the region after Sukwa–Dukwan Weir.",
+    "It has been operational since 1855 and was the first such structure in the region.",
+    "It has been operational since 1881 and preceded Sukwa–Dukwan Weir by 40 years.",
+    "It has been operational since 2022 and is the second such structure after Betwa Weir."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Parichha Weir has been operational since 1886 and is the second such structure in the region, after Sukwa–Dukwan Weir, which was recognised in 2022. The other options alter its operational year or regional sequence."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Construction history and cost",
+   "question": "Which statement about the construction history of Parichha Weir is correct?",
+   "options": [
+    "The canal was proposed by Captain Strachey in 1855; construction began in 1881 at an approximate cost of ₹40 lakh.",
+    "The canal was proposed in 1886; construction began in 1855 at an approximate cost of ₹14 lakh.",
+    "The canal was proposed by Captain Strachey in 1881; construction began in 1855 at an approximate cost of ₹40 lakh.",
+    "The canal was proposed in 2022; construction began in 1886 at an approximate cost of ₹140 lakh."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "Captain Strachey proposed the canal in 1855, construction began in 1881, and the approximate cost was ₹40 lakh. The other options change one or more of these historical details."
+  }
+ ]
+}

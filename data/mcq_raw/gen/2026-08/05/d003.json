@@ -1,0 +1,231 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  15,
+  16,
+  17,
+  18
+ ],
+ "only": [
+  "P15.F10",
+  "P15.F11",
+  "P15.F12",
+  "P15.F13",
+  "P15.F14",
+  "P15.F15",
+  "P15.F16",
+  "P15.F17",
+  "P15.F8",
+  "P15.F9",
+  "P16.F2",
+  "P16.F3",
+  "P17.F4",
+  "P17.F5",
+  "P17.F6",
+  "P17.F7",
+  "P17.F8",
+  "P17.F9",
+  "P18.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Venue and dates of ministerial meetings",
+   "question": "Consider the following statements about India's BRICS Presidency meetings in August 2026:\n1. The 13th Education Ministers' Meeting was held in Bhubaneswar from 5–7 August 2026.\n2. The 2nd Anti-Corruption Working Group meeting was held in Pune from 4–5 August 2026.\n3. The Youth and Sports Ministers' Meeting was held in Visakhapatnam from 22–23 August 2026 and chaired by Dr Jitendra Singh.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F8",
+    "P15.F9",
+    "P15.F10"
+   ],
+   "explanation": "Statement 1 is correct: the 13th Education Ministers' Meeting was held in Bhubaneswar from 5–7 August 2026. Statement 2 wrongly gives Pune instead of Hyderabad, while Statement 3 wrongly names Dr Jitendra Singh instead of Mansukh Mandaviya."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and dignitary",
+   "question": "The Science, Technology and Innovation meeting during India's BRICS Presidency was held in which city, where Dr Jitendra Singh welcomed the delegates?",
+   "options": [
+    "Chennai",
+    "Bhopal",
+    "Hyderabad",
+    "Visakhapatnam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F11"
+   ],
+   "explanation": "The Science, Technology and Innovation meeting was held in Chennai, where Dr Jitendra Singh welcomed the delegates. Bhopal hosted the Culture Ministers' Meeting, Hyderabad hosted the Anti-Corruption Working Group, and Visakhapatnam hosted the Youth and Sports Ministers' Meeting."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "India's BRICS Presidency theme",
+   "question": "Which of the following statements about India's BRICS Presidency theme is incorrect?",
+   "options": [
+    "The theme was “Building for Resilience, Innovation, Cooperation and Sustainability.”",
+    "The theme ended with the word “Sustainability.”",
+    "The theme began with the words “Building for Resilience.”",
+    "The theme was “Building for Resilience, Innovation, Collaboration and Sustainability.”"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P15.F12"
+   ],
+   "explanation": "The incorrect statement changes “Cooperation” to “Collaboration.” The official theme was “Building for Resilience, Innovation, Cooperation and Sustainability,” while the other statements accurately reproduce details of that theme."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "BRICS composition and associated events",
+   "question": "How many of the following statements are correct?\n1. The Culture Ministers' Meeting included 11 members and 4 partner countries.\n2. The 13th Education Ministers' Meeting also included the 3rd Senior Officials' Meeting.\n3. BRICS had 10 members in 2026.\n4. The 8th BRICS Youth Energy Summit was held virtually on 17 August 2026 with the theme “Energy for All.”",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F13",
+    "P15.F14",
+    "P15.F17"
+   ],
+   "explanation": "Three statements are correct: Statements 1, 2 and 4. Statement 3 is incorrect because BRICS had 11 members in 2026, not 10."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "NCPOR and Antarctic stations",
+   "question": "Match List-I with List-II in the context of NCPOR and India's Antarctic stations.\n\nList-I\n a. Dakshin Gangotri\n b. Maitri\n c. Bharati\n d. NCPOR\n\nList-II\n i. Established in 1998 at Vasco da Gama, Goa\n ii. Antarctic station established in 1989\n iii. Antarctic station established in 2012\n iv. Antarctic station established in 1983–84 and later closed",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F16"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i. Dakshin Gangotri dates to 1983–84 and was later closed, Maitri was established in 1989, Bharati in 2012, and NCPOR was established in 1998 at Vasco da Gama, Goa."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "India–China talks and next meeting",
+   "question": "Assertion (A): The 25th India–China Special Representatives talks reviewed the Kailash Mansarovar Yatra and border trade.\nReason (R): The 26th meeting of the mechanism is scheduled to be held in India in 2027.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P16.F2",
+    "P16.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. The 25th talks reviewed the Kailash Mansarovar Yatra and border trade, while the 26th meeting is to be held in India in 2027; the future meeting does not explain the subjects reviewed at the 25th talks."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Syrian court and Assad case",
+   "question": "Which of the following statements about the Syrian case involving Bashar al-Assad is incorrect?",
+   "options": [
+    "A Damascus court sentenced Bashar al-Assad and his brother to death for crimes against humanity.",
+    "The sentence was issued by the Damascus Fourth Criminal Court.",
+    "Bashar al-Assad fell from power in December 2024 and received asylum in Russia.",
+    "The sentence was issued by the Damascus Third Criminal Court."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F4",
+    "P17.F9"
+   ],
+   "explanation": "The incorrect statement names the Damascus Third Criminal Court. The sentence was issued by the Damascus Fourth Criminal Court; the other statements correctly describe the death sentence, the alleged crimes against humanity, and Assad's fall in December 2024 followed by asylum in Russia."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Iranian leadership",
+   "question": "Who were the Supreme Leader and President of Iran respectively in August 2026?",
+   "options": [
+    "Mojtaba Khamenei and Masoud Pezeshkian",
+    "Masoud Pezeshkian and Mojtaba Khamenei",
+    "Péter Magyar and András Baka",
+    "Hakainde Hichilema and Edgar Lungu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F5"
+   ],
+   "explanation": "Mojtaba Khamenei was the Supreme Leader of Iran and Masoud Pezeshkian was its President. The other pairs refer to leaders or political figures associated with Hungary and Zambia, not Iran's two offices."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Bangladesh presidential election",
+   "question": "Consider the following statements:\nStatement A: BNP leader Mirza Fakhrul Islam Alamgir was elected Bangladesh's 23rd President on 20 August 2026 with 255 votes.\nStatement B: It was the first contested presidential election in Bangladesh's Parliament in 35 years, and Tarique Rahman was Prime Minister.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F6"
+   ],
+   "explanation": "Both statements are true. Mirza Fakhrul Islam Alamgir won the 23rd presidential election on 20 August 2026 with 255 votes, and the election was the first contested presidential election in Parliament in 35 years while Tarique Rahman was Prime Minister."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Zambian presidential election",
+   "question": "Who was re-elected President of Zambia with 61.4% of approximately 5 million votes in 2026?",
+   "options": [
+    "Hakainde Hichilema",
+    "Edgar Lungu",
+    "Mirza Fakhrul Islam Alamgir",
+    "Lenín Moreno"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F7"
+   ],
+   "explanation": "Hakainde Hichilema was re-elected President of Zambia with 61.4% of approximately 5 million votes, securing a second term. Edgar Lungu was the candidate he defeated in 2021, while Mirza Fakhrul Islam Alamgir and Lenín Moreno were associated with Bangladesh and Ecuador respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Legal case and hydro project",
+   "question": "Former Ecuadorian President Lenín Moreno was sentenced to 5 years in the Sinohydro case involving bribes over which project?",
+   "options": [
+    "Coca Codo Sinclair hydro project",
+    "Kailash Mansarovar Yatra",
+    "Dakshin Gangotri station",
+    "Coca-Cola River project"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F8"
+   ],
+   "explanation": "The Sinohydro case concerned bribes over the Coca Codo Sinclair hydro project, for which former President Lenín Moreno was sentenced to 5 years. The Kailash Mansarovar Yatra and Dakshin Gangotri were unrelated subjects in the other international-relations developments."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Signing occasion and IOCL headquarters",
+   "question": "The India–Mauritius energy agreements were signed during whose visit to Mauritius on 20–21 August 2026?",
+   "options": [
+    "Petroleum Minister Hardeep Singh Puri",
+    "Piyush Goyal",
+    "Mansukh Mandaviya",
+    "Dr Jitendra Singh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F2"
+   ],
+   "explanation": "The agreements were signed during Petroleum Minister Hardeep Singh Puri's visit to Mauritius on 20–21 August 2026. The other names were associated with India's BRICS ministerial meetings, not this visit."
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F24",
+  "P0.F25",
+  "P0.F26",
+  "P0.F27",
+  "P0.F28",
+  "P0.F29",
+  "P0.F30",
+  "P0.F31"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s long-term climate-risk rank",
+   "question": "According to the Climate Risk Index 2026, what was India’s position among the countries most affected by climate-related events over the 30-year period from 1995 to 2024?",
+   "options": [
+    "9th",
+    "7th",
+    "8th",
+    "10th"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F21"
+   ],
+   "explanation": "India was the 9th most affected country over the period 1995–2024. The tempting alternatives 7th, 8th and 10th do not represent India’s reported position in this index."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Top-ranked country",
+   "question": "Which country ranked first in the Climate Risk Index 2026?",
+   "options": [
+    "Dominica",
+    "Myanmar",
+    "Honduras",
+    "Libya"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F22",
+    "P0.F23",
+    "P0.F24",
+    "P0.F25"
+   ],
+   "explanation": "Dominica ranked first in the Climate Risk Index 2026. Myanmar, Honduras and Libya occupied the subsequent positions, not the top rank."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Ranks 2–4",
+   "question": "Match the countries with their ranks in the Climate Risk Index 2026.\n\nList-I\n a. Myanmar\n b. Honduras\n c. Libya\n\nList-II\n i. 2\n ii. 3\n iii. 4\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii",
+    "a-iii, b-ii, c-i",
+    "a-i, b-iii, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F23",
+    "P0.F24",
+    "P0.F25"
+   ],
+   "explanation": "The correct pairs are Myanmar–2, Honduras–3 and Libya–4. The other codes interchange the reported ranks of these three countries."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Ranks 5–7",
+   "question": "Match the countries with their ranks in the Climate Risk Index 2026.\n\nList-I\n a. Haiti\n b. Grenada\n c. Philippines\n\nList-II\n i. 5\n ii. 6\n iii. 7\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-ii, c-iii",
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii",
+    "a-i, b-iii, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F26",
+    "P0.F27",
+    "P0.F28"
+   ],
+   "explanation": "The correct matching is Haiti–5, Grenada–6 and Philippines–7. The other options wrongly shift one or more of these countries to a different rank."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank 8",
+   "question": "Which country stood at rank 8 in the Climate Risk Index 2026?",
+   "options": [
+    "Nicaragua",
+    "India",
+    "The Bahamas",
+    "Philippines"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F28",
+    "P0.F29",
+    "P0.F30",
+    "P0.F31"
+   ],
+   "explanation": "Nicaragua ranked eighth in the Climate Risk Index 2026. India ranked ninth and The Bahamas tenth, while the Philippines ranked seventh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s rank in the index",
+   "question": "What was India’s rank in the Climate Risk Index 2026?",
+   "options": [
+    "9th",
+    "8th",
+    "10th",
+    "7th"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F28",
+    "P0.F29",
+    "P0.F30",
+    "P0.F31"
+   ],
+   "explanation": "India ranked 9th in the Climate Risk Index 2026. Nicaragua was eighth and The Bahamas was tenth, making both nearby alternatives incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Lowest-ranked country",
+   "question": "Which country ranked 10th in the Climate Risk Index 2026?",
+   "options": [
+    "The Bahamas",
+    "India",
+    "Nicaragua",
+    "Grenada"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F27",
+    "P0.F28",
+    "P0.F29",
+    "P0.F30",
+    "P0.F31"
+   ],
+   "explanation": "The Bahamas occupied rank 10 in the Climate Risk Index 2026. India ranked ninth, Nicaragua eighth and Grenada sixth."
+  }
+ ]
+}

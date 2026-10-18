@@ -1,0 +1,158 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": [
+  "P10.F4",
+  "P11.F10",
+  "P11.F11",
+  "P11.F12",
+  "P11.F13",
+  "P11.F14",
+  "P11.F8",
+  "P11.F9",
+  "P8.F3",
+  "P8.F4",
+  "P8.F7",
+  "P9.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scientific name",
+   "question": "What is the scientific name of the Indian elephant highlighted in the Gaj Gaurav Awards 2026 context?",
+   "options": [
+    "Elephas maximus indicus",
+    "Sarvottam Jeevan Raksha Padak",
+    "Geological Survey of India",
+    "Nabhah Sprisham Diptam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "The Indian elephant is scientifically identified as Elephas maximus indicus. The other options refer to a bravery award, an organisation and the IAF motto, respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Award and associated activity",
+   "question": "With reference to the Sarvottam Jeevan Rakaksha Padak awarded to rat-hole miners, consider the following statements:\n1. Twelve rat-hole miners received the award.\n2. The award was conferred by the Union Road Transport Minister.\n3. Rat-hole mining is associated with coal in a State other than Meghalaya.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 12 rat-hole miners received the Sarvottam Jeevan Raksha Padak, and it was conferred by the Union Road Transport Minister. Statement 3 is incorrect because rat-hole mining is associated with Meghalaya coal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "HQ and parent ministry",
+   "question": "The Geological Survey of India, established in 1851, has its headquarters in which city?",
+   "options": [
+    "Visakhapatnam",
+    "Kolkata",
+    "Gwalior",
+    "Meghalaya"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "The headquarters of the Geological Survey of India is in Kolkata, under the Ministry of Mines. Visakhapatnam, Gwalior and Meghalaya are not its headquarters."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Motto and establishment",
+   "question": "With reference to the Indian Air Force, consider the following statements:\nStatement A: The Indian Air Force was established on 8 October 1932.\nStatement B: Its motto is “Elephas maximus indicus”.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "Statement A is true: the Indian Air Force was established on 8 October 1932. Statement B is false because its motto is “Nabhah Sprisham Diptam”; Elephas maximus indicus is the scientific name of the Indian elephant."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Institutional background",
+   "question": "Match List-I with List-II regarding important Indian institutions.\n\nList-I\n(a) Reserve Bank of India\n(b) Central Vigilance Commission\n(c) Doordarshan\n\nList-II\n(i) Established on 1 April 1935; nationalised on 1 January 1949\n(ii) Established in 1964 and made statutory under the CVC Act 2003\n(iii) Launched on 15 September 1959 under Prasar Bharati\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iii",
+    "a-i, b-ii, c-iii",
+    "a-iii, b-ii, c-i",
+    "a-i, b-iii, c-ii"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F8",
+    "P11.F10",
+    "P11.F11"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii and c-iii. The RBI was established on 1 April 1935 and nationalised on 1 January 1949; the CVC dates from 1964 and became statutory under the CVC Act 2003; Doordarshan was launched on 15 September 1959 under Prasar Bharati."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tenure of office",
+   "question": "What is the normal tenure of the Director of the Enforcement Directorate, subject to extensions?",
+   "options": [
+    "One year",
+    "Two years",
+    "Three years",
+    "Four years"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F12"
+   ],
+   "explanation": "The normal tenure of the Enforcement Directorate Director is two years, extendable a year at a time. Three years is not the normal tenure specified for the post."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Institutional roles",
+   "question": "Assertion (A): T.V. Somanathan became the 33rd Cabinet Secretary from 30 August 2024.\nReason (R): The Appointments Committee of the Cabinet is chaired by the Prime Minister.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F9",
+    "P11.F14"
+   ],
+   "explanation": "Both the assertion and the reason are true: T.V. Somanathan became the 33rd Cabinet Secretary from 30 August 2024, and the ACC is chaired by the Prime Minister. However, the chairpersonship of the ACC does not explain his numbered position as Cabinet Secretary."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Service background and tenure",
+   "question": "With reference to former CVC Praveen Kumar Srivastava, how many of the following statements are correct?\n1. He belonged to the 1988 batch of the Indian Administrative Service.\n2. His cadre was Assam–Meghalaya.\n3. His tenure ended on 2 August 2026.\n4. He belonged to the 1993 batch of the Indian Revenue Service.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F13"
+   ],
+   "explanation": "Only three statements are correct: Praveen Kumar Srivastava was an IAS officer of the 1988 Assam–Meghalaya cadre, and his tenure ended on 2 August 2026. Statement 4 is incorrect because it changes his service and batch to the 1993 Indian Revenue Service."
+  }
+ ]
+}

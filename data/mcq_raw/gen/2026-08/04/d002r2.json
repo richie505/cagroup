@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F5",
+  "P3.F12",
+  "P3.F13",
+  "P3.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Competitiveness Incentive Support",
+   "question": "Under the PM MITRA mega textile parks scheme, what is the Competitiveness Incentive Support available per park?",
+   "options": [
+    "₹300 crore per park",
+    "₹4,445 crore per park",
+    "₹13,537 crore per park",
+    "₹68,590 crore per park"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The Competitiveness Incentive Support is ₹300 crore per park, subject to a ceiling of up to 3% of turnover. The figures ₹4,445 crore, ₹13,537 crore and ₹68,590 crore relate to other scheme-level outlays or investment figures, not the per-park incentive."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Ship-breaking credit",
+   "question": "Assertion (A): Under the Ship-breaking Credit Note, the credit is equal to 40% of the scrap value.\nReason (R): The credit covers up to 5% of a new Indian-built ship.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F12"
+   ],
+   "explanation": "Both the 40% credit against scrap value and the coverage of up to 5% of a new Indian-built ship are correct. However, the 5% coverage limit is a separate feature and does not explain why the credit is fixed at 40% of scrap value."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ex-INS Viraat service history",
+   "question": "Which one of the following correctly describes a service detail of ex-INS Viraat?",
+   "options": [
+    "It served the Royal Navy for 30 years.",
+    "It served the Indian Navy for 27 years.",
+    "It was decommissioned in September 2020.",
+    "It reached Alang in March 2017."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F13"
+   ],
+   "explanation": "Ex-INS Viraat served the Royal Navy for 27 years and the Indian Navy for 30 years; it was decommissioned in March 2017 and reached Alang in September 2020. Therefore, the first option incorrectly swaps the two service periods, while the other two options interchange the decommissioning and Alang dates."
+  }
+ ]
+}

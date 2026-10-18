@@ -1,0 +1,270 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P6.F1",
+  "P6.F2",
+  "P6.F3",
+  "P6.F4",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8",
+  "P7.F1",
+  "P7.F10",
+  "P7.F11",
+  "P7.F12",
+  "P7.F13",
+  "P7.F2",
+  "P7.F3",
+  "P7.F4",
+  "P7.F7",
+  "P8.F3",
+  "P8.F4",
+  "P9.F10",
+  "P9.F11",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Trend in malaria cases",
+   "question": "According to the Ministry of Health, what was the approximate decline in malaria cases in India between 2015 and 2025?",
+   "options": [
+    "Nearly 80%",
+    "From 155 districts to 33 districts",
+    "160 districts reported no indigenous cases",
+    "India exited the WHO High Burden to High Impact group"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "Malaria cases declined by nearly 80% between 2015 and 2025. The other options refer to the reduction in high-burden districts, districts reporting no indigenous cases, and India’s exit from the WHO group, respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Malaria progress indicators",
+   "question": "With reference to India’s malaria-control progress during 2015–2025, consider the following statements:\n1. Malaria cases declined by nearly 80%.\n2. India exited the WHO’s High Burden to High Impact group.\n3. The number of high-burden districts increased from 33 to 155.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P6.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: malaria cases fell by nearly 80%, and India exited the WHO High Burden to High Impact group. Statement 3 reverses the actual trend, in which high-burden districts fell from 155 to 33."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Malaria-control strategy",
+   "question": "Which of the following correctly describes the strategy used in India’s malaria-control efforts?",
+   "options": [
+    "Active surveillance, Test, Treat and Track, insecticide-treated nets and indoor residual spraying",
+    "Principal Component Analysis, Test, Treat and Track, and vocational courses",
+    "Learning with Earning, indoor residual spraying and solar photovoltaic manufacturing",
+    "Sub-Centre, PHC, CHC and structured vocational courses"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "The strategy comprises active surveillance, Test, Treat and Track, insecticide-treated nets and indoor residual spraying. Principal Component Analysis and the other education- or infrastructure-related terms belong to different contexts."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Malaria cause, vector and species",
+   "question": "Match List-I with List-II in the context of malaria.\n\nList-I\n(a) Causative parasite\n(b) Vector\n(c) Most severe species\n(d) Another malaria species\n\nList-II\n(i) Infected female Anopheles mosquito\n(ii) Plasmodium\n(iii) P. falciparum\n(iv) P. vivax\n\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F6"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv. Malaria is caused by the Plasmodium parasite, transmitted by an infected female Anopheles mosquito, while P. falciparum is the most severe species and P. vivax is another listed species."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Malaria framework and observance",
+   "question": "Consider the following statements:\nStatement A: The National Framework for Malaria Elimination was established in 2016.\nStatement B: World Malaria Day is observed on 24 April.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F7",
+    "P6.F8"
+   ],
+   "explanation": "Statement A is true because the National Framework for Malaria Elimination dates to 2016. Statement B is false: World Malaria Day is observed on 25 April, not 24 April."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Top ranks in Rural Health Infrastructure Index",
+   "question": "In the Rural Health Infrastructure Index covering 28 States, match the State with its rank.\n\nList-I\n(a) Arunachal Pradesh\n(b) Kerala\n(c) Meghalaya\n(d) Mizoram\n\nList-II\n(i) Rank 3\n(ii) Rank 1\n(iii) Rank 4\n(iv) Rank 2\n\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "The correct pairs are Arunachal Pradesh–Rank 1, Kerala–Rank 2, Meghalaya–Rank 3 and Mizoram–Rank 4. Therefore, the code is a-ii, b-iv, c-i, d-iii; the other codes interchange these leading positions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Index methodology",
+   "question": "Which statistical method was used for the Rural Health Infrastructure Index based on Health Dynamics of India–Infrastructure and Human Resources 2022–23?",
+   "options": [
+    "Principal Component Analysis",
+    "Test, Treat and Track",
+    "Learning with Earning",
+    "Indoor residual spraying"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F10"
+   ],
+   "explanation": "The index used Principal Component Analysis on Health Dynamics of India–Infrastructure and Human Resources 2022–23. Test, Treat and Track and indoor residual spraying are malaria-control measures, while Learning with Earning is a skilling approach."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Indicators and rural health tiers",
+   "question": "Consider the following statements regarding the Rural Health Infrastructure Index:\n1. CHCs per lakh population were among the indicators used.\n2. The indicators included pharmacists, radiologists and lab technicians, but not doctors and nurses per 1,000.\n3. The rural health tier proceeds from Sub-Centre to PHC to CHC.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F11",
+    "P7.F13"
+   ],
+   "explanation": "Statements 1 and 3 are correct. The index also included doctors and nurses per 1,000, so statement 2 is incorrect; the rural health hierarchy is Sub-Centre, PHC and CHC."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "State ranking pattern",
+   "question": "Which one of the following statements regarding the Rural Health Infrastructure Index is incorrect?",
+   "options": [
+    "Gujarat, Maharashtra, Punjab, Karnataka and Haryana were among the relatively low-ranked richer States.",
+    "Gujarat, Maharashtra, Punjab, Karnataka and Tamil Nadu were among the relatively low-ranked richer States.",
+    "Richer States were not uniformly placed at the top of the index.",
+    "The index highlighted relatively low rankings for certain richer States."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F12"
+   ],
+   "explanation": "The incorrect statement replaces Haryana with Tamil Nadu. The States identified as relatively low-ranked richer States were Gujarat, Maharashtra, Punjab, Karnataka and Haryana."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Assessment criteria",
+   "question": "The NITI Aayog report on positioning India as a global manufacturing hub assessed sectors on which of the following sets of criteria?",
+   "options": [
+    "Market potential, competitiveness, infrastructure, technology readiness, jobs and GVC position",
+    "Active surveillance, insecticide-treated nets, indoor residual spraying and malaria species",
+    "Pharmacists, radiologists, lab technicians and CHCs per lakh population",
+    "Entrepreneurship, vocational certification, NEP 2020 and PMKVY"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "The report assessed market potential, competitiveness, infrastructure, technology readiness, jobs and GVC position. The other options combine malaria-control, rural-health or skilling-related elements rather than the report’s assessment criteria."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "NITI Aayog institutional facts",
+   "question": "Assertion (A): NITI Aayog was established on 1 January 2015.\nReason (R): The Prime Minister is the Chairperson of NITI Aayog.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F4"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: NITI Aayog was established on 1 January 2015 and its Chairperson is the Prime Minister. However, the Prime Minister’s position does not explain the date of establishment, so the second option is correct."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "School vocational recommendations",
+   "question": "Match the school stage with the corresponding recommendation in the skilling recommendations.\n\nList-I\n(a) Class 10\n(b) Classes 11–12\n(c) Class 6\n(d) Class 9\n\nList-II\n(i) Structured vocational courses in mainstream education\n(ii) State boards to certify vocational education\n(iii) Employability and entrepreneurship as a separate subject\n(iv) Entrepreneurship and basic employability training begins\n\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F5",
+    "P9.F6",
+    "P9.F8",
+    "P9.F9"
+   ],
+   "explanation": "The correct pairs are Class 10–State boards to certify vocational education, Classes 11–12–employability and entrepreneurship as a separate subject, Class 6–entrepreneurship and basic employability training, and Class 9–structured vocational courses. Hence, the correct code is a-ii, b-iii, c-iv, d-i."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NEP 2020 structure",
+   "question": "Consider the following statements:\nStatement A: The National Education Policy 2020 replaced the National Policy on Education 1986.\nStatement B: NEP 2020 introduced a 5+3+3+3 school structure.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F10"
+   ],
+   "explanation": "Statement A is true: NEP 2020 replaced NPE 1986. Statement B is false because the school structure is 5+3+3+4, not 5+3+3+3."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PMKVY ministry and year",
+   "question": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY) was launched in which year under which ministry?",
+   "options": [
+    "2015, Ministry of Skill Development and Entrepreneurship",
+    "2016, Ministry of Health",
+    "2020, NITI Aayog",
+    "2014, Planning Commission"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F11"
+   ],
+   "explanation": "PMKVY dates to 2015 and is associated with the Ministry of Skill Development and Entrepreneurship. The other year-ministry combinations do not match the stated PMKVY fact."
+  }
+ ]
+}

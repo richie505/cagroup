@@ -1,0 +1,142 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P10.F2",
+  "P11.F2",
+  "P12.F10",
+  "P12.F6",
+  "P12.F7",
+  "P12.F8",
+  "P12.F9",
+  "P13.F3",
+  "P13.F4",
+  "P13.F5",
+  "P14.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Proposed institutions",
+   "question": "Which combination of institutions was proposed in NITI Aayog’s report “Reimagining Care: Strategies for Empowering Caregivers in Viksit Bharat@2047”?",
+   "options": [
+    "National Caregiving Council, National Caregiving Qualification Framework and National Caregiver Registry",
+    "National Caregiving Council, National Caregiving Services Framework and National Caregiver Registry",
+    "National Caregiving Board, National Caregiving Qualification Framework and National Caregiver Registry",
+    "National Caregiving Council, National Caregiving Qualification Framework and National Senior Citizen Registry"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "The report proposed the National Caregiving Council, National Caregiving Qualification Framework and National Caregiver Registry. The other options alter one institutional name, such as replacing the Qualification Framework with a Services Framework or the Caregiver Registry with a Senior Citizen Registry."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Index parameters",
+   "question": "Which set of parameters is assessed by NITI Aayog’s School Education Quality Index 2026?",
+   "options": [
+    "Learning outcomes, access, infrastructure, equity, governance and teachers",
+    "Learning outcomes, access, infrastructure, health, governance and teachers",
+    "Learning outcomes, equity, infrastructure, governance, teachers and taxation",
+    "Access, infrastructure, equity, governance, teachers and organ donation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "The School Education Quality Index assesses learning outcomes, access, infrastructure, equity, governance and teachers. The other options replace one of these education-related parameters with an unrelated or unlisted item."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Non-fossil capacity composition",
+   "question": "Match the non-fossil power sources with their installed capacities as on 31 July 2026.\n\nList-I\n(a) Large + small hydro\n(b) Bio-power\n(c) Nuclear\n\nList-II\n(i) 57.24 GW\n(ii) 11.75 GW\n(iii) 8.78 GW\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-ii, c-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F6",
+    "P12.F7",
+    "P12.F8"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii and c-iii: large and small hydro stood at 57.24 GW, bio-power at 11.75 GW and nuclear power at 8.78 GW. The tempting second code wrongly assigns 57.24 GW to bio-power and 11.75 GW to hydro."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ministers responsible",
+   "question": "With reference to India crossing 300 GW of non-fossil capacity in July 2026, consider the following statements:\nStatement A: Manohar Lal was the Minister of Power and Pralhad Joshi was the Minister of MNRE.\nStatement B: Pralhad Joshi was the Minister of Power and Manohar Lal was the Minister of MNRE.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F9"
+   ],
+   "explanation": "Statement A is correct: Manohar Lal was the Minister of Power and Pralhad Joshi was the Minister of MNRE. Statement B reverses their ministerial portfolios, making it the false statement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NDC framework",
+   "question": "The target of 500 GW of non-fossil capacity by 2030 is associated with India’s Nationally Determined Contribution under which framework?",
+   "options": [
+    "Paris Agreement 2015",
+    "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+    "Transplantation of Human Organs and Tissues Act, 1994",
+    "NOTTO establishment framework of 2014"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F10"
+   ],
+   "explanation": "The non-fossil capacity commitment is an NDC under the Paris Agreement 2015. The other options refer to senior-citizen welfare, organ transplantation legislation or the establishment year of NOTTO, not the NDC framework."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ageing and support ratio",
+   "question": "With reference to demographic ageing in rural India, consider the following statements:\n\n1. The number of working-age adults per elderly person declined from 8.4 in 2001 to 5.2 in 2026.\n2. India is ageing at a lower income level than developed countries did.\n3. A senior citizen is defined as a person aged 65 years or above, and the relevant legislation is administered by the Ministry of Health.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F4",
+    "P13.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the support ratio fell from 8.4 in 2001 to 5.2 in 2026, and India is ageing at a lower income level than developed countries did. Statement 3 is incorrect because a senior citizen is 60 or above and the Maintenance and Welfare of Parents and Senior Citizens Act, 2007 is associated with the Ministry of Social Justice and Empowerment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NOTTO establishment and legal basis",
+   "question": "Which of the following correctly describes the National Organ and Tissue Transplant Organisation (NOTTO)?",
+   "options": [
+    "Established in 2014 in New Delhi under the Ministry of Health; governed by the Transplantation of Human Organs and Tissues Act, 1994, amended in 2011",
+    "Established in 2013 in New Delhi under the Ministry of Health; governed by the Transplantation of Human Organs and Tissues Act, 1994, amended in 2011",
+    "Established in 2014 in New Delhi under the Ministry of Social Justice and Empowerment; governed by the Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+    "Established in 2014 outside New Delhi under the Ministry of Health; governed by the Transplantation of Human Organs and Tissues Act, 1994, amended in 2011"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F7"
+   ],
+   "explanation": "NOTTO was established in 2014 in New Delhi under the Ministry of Health, with the Transplantation of Human Organs and Tissues Act, 1994, amended in 2011, as the relevant legislation. The other options change its establishment year, ministry, location or legal basis."
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F3",
+  "P10.F4",
+  "P11.F2",
+  "P12.F3",
+  "P8.F1",
+  "P8.F10",
+  "P8.F11",
+  "P8.F12",
+  "P8.F13",
+  "P8.F15",
+  "P8.F16",
+  "P8.F17",
+  "P8.F4",
+  "P8.F6",
+  "P8.F9",
+  "P9.F2",
+  "P9.F4",
+  "P9.F5",
+  "P9.F6",
+  "P9.F7",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "State allocation",
+   "question": "Under the regional action plan for human–elephant conflict, how much funding was allocated to Andhra Pradesh over five years?",
+   "options": [
+    "₹169.98 crore",
+    "₹999.87 crore",
+    "₹140 crore",
+    "₹29,254 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "Andhra Pradesh was allocated ₹169.98 crore over five years under the regional action plan. ₹999.87 crore was the combined amount for four States, while ₹140 crore and ₹29,254 crore relate to other projects."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State-wise plan allocation",
+   "question": "Consider the following statements regarding the regional action plan for human–elephant conflict:\n1. The plan covers Andhra Pradesh, Karnataka, Kerala and Tamil Nadu.\n2. Tamil Nadu has a 25% share of the plan.\n3. The total allocation for the four States is ₹999.87 crore.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F6"
+   ],
+   "explanation": "All three statements are correct: the plan covers four States, Tamil Nadu’s share is 25%, and the total allocation is ₹999.87 crore. The ₹169.98 crore figure refers specifically to Andhra Pradesh, not to all four States."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Andhra Pradesh is described as a relatively new elephant range because elephants returned to the State from which forests in the 1980s?",
+   "options": [
+    "Hosur–Dharmapuri forests",
+    "Koundinya Wildlife Sanctuary",
+    "Chittoor forests",
+    "Godavari Valley"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F9"
+   ],
+   "explanation": "Elephants returned to Andhra Pradesh from the Hosur–Dharmapuri forests in the 1980s. Koundinya Wildlife Sanctuary is identified as critical habitat, while Chittoor and the Godavari Valley are not the stated source forests."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Population trend",
+   "question": "What was the elephant population in Andhra Pradesh in 2023, compared with 65 in 2017?",
+   "options": [
+    "142",
+    "65",
+    "735",
+    "600"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F10"
+   ],
+   "explanation": "The elephant population in Andhra Pradesh rose to 142 in 2023 from 65 in 2017. The figures 735 and 600 relate to other details and are not elephant population counts."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Elephant distribution and threats",
+   "question": "Match the elephant-related features in Andhra Pradesh with the corresponding descriptions.\n\nList-I\n(a) Main concentration areas\n(b) Areas with small groups\n(c) Critical habitat\n(d) Major threats\n\nList-II\n(i) Chittoor, Tirupati and Annamayya\n(ii) Srikakulam and Parvathipuram Manyam\n(iii) Koundinya Wildlife Sanctuary\n(iv) Live-wire fencing, crude explosives and linear infrastructure",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F11",
+    "P8.F12",
+    "P8.F13"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Chittoor, Tirupati and Annamayya are the main concentration areas; Koundinya Wildlife Sanctuary is the critical habitat; and live-wire fencing, crude explosives, NH-716, the Bengaluru–Chennai Expressway and railway doubling in Tirupati are listed threats."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Species status and protection",
+   "question": "Consider the following statements about the Asian elephant:\n\nStatement A: The Asian elephant is scientifically known as *Elephas maximus*.\nStatement B: The Asian elephant is included in Schedule I and CITES Appendix I and is recognised as India’s National Heritage Animal.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F15"
+   ],
+   "explanation": "Both statements are true. The Asian elephant is *Elephas maximus*, enjoys Schedule I and CITES Appendix I status, and is recognised as India’s National Heritage Animal."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Project Elephant status",
+   "question": "Assertion (A): Project Elephant is a State Sponsored scheme.\nReason (R): Project Elephant is a Centrally Sponsored scheme introduced during 1991–92.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F16"
+   ],
+   "explanation": "The assertion is false because Project Elephant is Centrally Sponsored, not State Sponsored. The reason is true: Project Elephant dates to 1991–92 and is a Centrally Sponsored scheme."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award and event",
+   "question": "Which award was given at the Visakhapatnam event associated with World Elephant Day in 2026?",
+   "options": [
+    "Gaj Gaurav Awards",
+    "Project Elephant Awards",
+    "National Heritage Animal Awards",
+    "CITES Appendix I Awards"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F17"
+   ],
+   "explanation": "The Gaj Gaurav Awards 2026 were given at the same Visakhapatnam event. Project Elephant and CITES Appendix I are associated with elephant conservation status or programmes, not the award named in the event."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Project partners",
+   "question": "The Orvakal Drone City project is being developed through a partnership between the Andhra Pradesh Government and which Union ministry?",
+   "options": [
+    "Union Ministry of Civil Aviation",
+    "Union Ministry of Coal",
+    "Union Ministry of Ports, Shipping and Waterways",
+    "Union Ministry of Mines"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The partners are the Andhra Pradesh Government and the Union Ministry of Civil Aviation. The Ministry of Coal, the Ministry of Ports, Shipping and Waterways, and the Ministry of Mines are associated with other subjects in the facts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Investment secured",
+   "question": "How much investment has been secured for Orvakal Drone City?",
+   "options": [
+    "Approximately ₹130 crore",
+    "Up to ₹5,000 crore",
+    "₹140 crore",
+    "₹2.73 lakh crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "Orvakal Drone City has secured investment of approximately ₹130 crore. Up to ₹5,000 crore is its potential, while ₹140 crore and ₹2.73 lakh crore refer to other initiatives."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Potential investment",
+   "question": "What is the potential investment associated with Orvakal Drone City?",
+   "options": [
+    "Up to ₹5,000 crore",
+    "Approximately ₹130 crore",
+    "₹999.87 crore",
+    "₹29,254 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F5"
+   ],
+   "explanation": "The potential investment in Orvakal Drone City is up to ₹5,000 crore. Approximately ₹130 crore is the investment already secured, whereas ₹999.87 crore and ₹29,254 crore relate to other projects or plans."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Project indicators and industry demands",
+   "question": "How many of the following statements regarding Orvakal Drone City are correct?\n1. India’s requirement is more than 6 lakh drones, against approximately 40,000 available.\n2. The project is expected to create approximately 5,000 direct and 25,000 indirect jobs.\n3. In Phase 1, 12 plots were identified, 8 were allotted and approximately 55 acres were given to firms.\n4. A special committee was asked to act on industry demands within 6 months.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F6",
+    "P9.F7",
+    "P9.F8",
+    "P9.F9"
+   ],
+   "explanation": "Only three statements are correct. The industry-related special committee was to act within 3 months, not 6 months; the other three statements accurately give the drone requirement, employment potential and Phase 1 details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Investment and phases",
+   "question": "What investment has been proposed for the integrated Underground Coal Gasification complex in Eluru district?",
+   "options": [
+    "Approximately ₹2.73 lakh crore over 30 years in 3 phases",
+    "Approximately ₹29,254 crore over 30 years in 3 phases",
+    "₹169.98 crore over 5 years",
+    "₹140 crore in 3 phases"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "The proposed investment is approximately ₹2.73 lakh crore over 30 years, to be implemented in 3 phases. ₹29,254 crore is associated with the Dugarajapatnam cluster, ₹169.98 crore with the elephant plan, and ₹140 crore with mineral exploration."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coal blocks and UCG process",
+   "question": "Consider the following statements about the proposed Underground Coal Gasification complex in Eluru district:\n1. The Chintalapudi and Recharla blocks contain approximately 3,130.61 MT of coal.\n2. The coal blocks are deeper than 600 metres in the Godavari Valley.\n3. Underground Coal Gasification converts coal in situ into syngas containing hydrogen and carbon monoxide.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4"
+   ],
+   "explanation": "All three statements are correct. The identified blocks are Chintalapudi and Recharla, with approximately 3,130.61 MT of coal deeper than 600 metres in the Godavari Valley; UCG converts coal in situ into syngas containing H₂ and CO."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "SPV and exploration funding",
+   "question": "Match the entities and financial details connected with the Dugarajapatnam shipbuilding cluster and the AP–CSIR-NGRI pact.\n\nList-I\n(a) Special Purpose Vehicle for the shipbuilding cluster\n(b) Andhra Pradesh Maritime Board\n(c) Cost of the lithium and gallium exploration pact\n(d) National Mineral Exploration Trust\n\nList-II\n(i) Established in 2019\n(ii) Visakhapatnam Port Authority + Andhra Pradesh Maritime Board\n(iii) Established in 2015\n(iv) ₹140 crore",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2",
+    "P12.F3"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iv and d-iii. The shipbuilding cluster’s SPV comprises the Visakhapatnam Port Authority and the Andhra Pradesh Maritime Board; the Board was established in 2019, the pact costs ₹140 crore, and the National Mineral Exploration Trust was established in 2015."
+  }
+ ]
+}

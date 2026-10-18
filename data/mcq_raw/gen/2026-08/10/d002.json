@@ -1,0 +1,200 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F3",
+  "P11.F3",
+  "P11.F4",
+  "P12.F3",
+  "P13.F2",
+  "P13.F3",
+  "P14.F3",
+  "P14.F5",
+  "P14.F6",
+  "P14.F7",
+  "P14.F8",
+  "P14.F9",
+  "P15.F3",
+  "P17.F3",
+  "P17.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Event, venue, score and medal winners",
+   "question": "Match the following features of the 10th Senior Aerobic Gymnastics Asian Championships with the correct particulars:\n\nList-I\n(a) Event\n(b) Venue\n(c) Ariha Pangambam's score\n(d) Silver and bronze medallists\n\nList-II\n(i) 19.100\n(ii) Chanyapit Manee and Mahiro Kishibe\n(iii) Tagaytay City Velodrome, Philippines\n(iv) 5–7 August 2026\n\nChoose the correct code:",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2",
+    "P10.F3"
+   ],
+   "explanation": "The correct matching is event–5–7 August 2026, venue–Tagaytay City Velodrome, score–19.100, and silver and bronze medallists–Chanyapit Manee and Mahiro Kishibe. The tempting second code incorrectly treats the dates as the venue and reverses the medal details."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Wrestling medallists and federation headquarters",
+   "question": "Consider the following statements about the U-20 World Wrestling Championships:\n\n1. Tanu Sharma won silver in the 72 kg category after losing 3–5 to Chisato Yoshida.\n2. Savita won silver in the 62 kg category after losing to Sakura Onishi of Japan.\n3. United World Wrestling is headquartered in Corsier-sur-Vevey, Switzerland.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F4"
+   ],
+   "explanation": "All three statements are correct: Tanu Sharma and Savita won the stated silver medals, and United World Wrestling has its headquarters in Corsier-sur-Vevey, Switzerland. The other options omit at least one correct statement."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "World Athletics: headquarters and history",
+   "question": "Which of the following correctly describes World Athletics and its U-20 Championships?",
+   "options": [
+    "Established in 1912, headquartered in Monaco, with the U-20 Championships first held in 1986",
+    "Established in 1926, headquartered in Lausanne, with the U-20 Championships first held in 1986",
+    "Established in 1912, headquartered in Monaco, with the U-20 Championships first held in 2025",
+    "Established in 1986, headquartered in Monaco, with the U-20 Championships first held in 1912"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "World Athletics was established in 1912 and is headquartered in Monaco; its U-20 Championships were first held in 1986. The most tempting alternative changes the organisation's establishment year and headquarters to those associated with another sports body."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Ad-hoc committee and governing code",
+   "question": "Assertion (A): The IOA was to form an ad-hoc committee and consult the ITTF following the suspension of TTFI recognition.\nReason (R): The National Sports Development Code of India, 2011 governs sports federations.\n\nChoose the correct answer:",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F2",
+    "P13.F3"
+   ],
+   "explanation": "Both the IOA action and the governing role of the National Sports Development Code of India, 2011 are correct. However, the Code's governing role does not explain the IOA's decision to form an ad-hoc committee and consult the ITTF."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Sports funding allocation",
+   "question": "Match the funding heads for 2026–27 to 2030–31 with their amounts:\n\nList-I\n(a) Total\n(b) Athlete training\n(c) Events\n(d) CWG 2030\n\nList-II\n(i) Approximately ₹3,150 crore\n(ii) ₹2,500 crore\n(iii) ₹7,386 crore\n(iv) ₹4,236.74 crore\n\nChoose the correct code:",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F5",
+    "P14.F6",
+    "P14.F7",
+    "P14.F8"
+   ],
+   "explanation": "The correct pairs are Total–₹7,386 crore, Athlete training–₹4,236.74 crore, Events–approximately ₹3,150 crore, and CWG 2030–₹2,500 crore. The other codes interchange the total, training, events and CWG allocations."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Upcoming international sporting events and venues",
+   "question": "With reference to the upcoming sporting events listed for the period, consider the following pairs:\n\n1. Asian Games 2026 — Aichi–Nagoya\n2. Olympics 2028 — Los Angeles\n3. CWG 2030 — Ahmedabad\n4. Olympics 2032 — Brisbane\n\nHow many of the above pairs are correctly matched?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F9"
+   ],
+   "explanation": "All four pairs are correctly matched: the 2026 Asian Games are associated with Aichi–Nagoya, the 2028 Olympics with Los Angeles, the 2030 Commonwealth Games with Ahmedabad, and the 2032 Olympics with Brisbane. The tempting answer 'Only three' wrongly treats one of these four listed venues as incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Proposed composition of NCAB",
+   "question": "Which of the following represents the proposed membership of the National Coach Accreditation Board?",
+   "options": [
+    "IOA President, Sports Secretary, an eminent personality and a pedagogy expert",
+    "IOA President, Sports Secretary, a district athlete and a university registrar",
+    "Sports Secretary, an eminent personality, a pedagogy expert and a federation treasurer",
+    "IOA President, a pedagogy expert, a university registrar and a district athlete"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3"
+   ],
+   "explanation": "The proposed members are the IOA President, Sports Secretary, an eminent personality and a pedagogy expert. The other options replace one or more of these proposed members with figures not included in the stated composition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "International sports education MoU",
+   "question": "The Young India Physical Education and Sports University of Telangana signed a five-year MoU with which institution?",
+   "options": [
+    "Korea National Sport University, Seoul",
+    "United World Wrestling, Corsier-sur-Vevey",
+    "International Tennis Hall of Fame, Newport",
+    "Sports Authority of India, Monaco"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F3"
+   ],
+   "explanation": "The five-year MoU was signed with Korea National Sport University in Seoul. The other options combine institutions or locations associated with different sports-related facts."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Origin and ministry of Khelo India",
+   "question": "Consider the following statements:\nStatement A: Khelo India was launched in 2019.\nStatement B: Khelo India is administered by the Ministry of Education.\n\nChoose the correct answer:",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P17.F4"
+   ],
+   "explanation": "Both statements are false: Khelo India was launched in 2018 and is associated with the Ministry of Youth Affairs and Sports. The first statement changes the launch year, while the second changes the ministry."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NCAB role in Khelo India",
+   "question": "Under the restructured Khelo India Scheme, what role was assigned to the National Coach Accreditation Board?",
+   "options": [
+    "To standardise coaching",
+    "To form an ad-hoc committee for TTFI",
+    "To govern sports federations under the 2011 Code",
+    "To conduct the 8th Khelo India Youth Games"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F3"
+   ],
+   "explanation": "The National Coach Accreditation Board was included to standardise coaching under the restructured Khelo India Scheme. The other options refer to unrelated federation, regulatory or sporting-event functions."
+  }
+ ]
+}

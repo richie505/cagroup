@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F6",
+  "P0.F7",
+  "P0.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Eligibility to apply",
+   "question": "Under the Geographical Indications framework, who can apply for registration of a geographical indication?",
+   "options": [
+    "An association of producers, an organisation or an authority established by law",
+    "Only an individual producer",
+    "Only a State government department",
+    "Only an international organisation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "An association of producers, an organisation or an authority established by law can apply for registration of a geographical indication. The application is not restricted only to individual producers, State government departments or international organisations."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GI numbers and growth since 2014",
+   "question": "With reference to the growth of geographical indications in India, consider the following statements:\n1. India has more than 800 geographical indications.\n2. Since 2015, 607 geographical indications have been added.\n3. India has more than 700 geographical indications.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "Only statement 1 is correct: India has more than 800 geographical indications. Since 2014, the number added is 607, not since 2015; statement 3 also changes the reported total of more than 800 to more than 700."
+  }
+ ]
+}

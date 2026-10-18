@@ -1,0 +1,104 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F3",
+  "P10.F4",
+  "P10.F6",
+  "P11.F3",
+  "P11.F4",
+  "P11.F5",
+  "P12.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Wildlife safari features",
+   "question": "With reference to the wildlife initiatives approved in August 2026, consider the following statements:\n1. The day zoo at the Desert Zoological Park is supported by six night-safari enclosures.\n2. India's first guided high-altitude wildlife safari was approved by Ladakh and covers Hemis National Park, Changthang and Karakoram Wildlife Sanctuary.\n3. The high-altitude safari is to be run by trained central government officials.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F2",
+    "P10.F3"
+   ],
+   "explanation": "Only statement 2 is correct. The safari approved by Ladakh covers Hemis National Park, Changthang and Karakoram Wildlife Sanctuary; it is to be run by trained local youth, not central government officials. The Desert Zoological Park has five, not six, night-safari enclosures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment and legal basis",
+   "question": "The Central Zoo Authority, associated with the regulation of zoos in India, was established in which year under which law?",
+   "options": [
+    "1992 under the Wildlife Protection Act, 1972",
+    "1968 under the Wildlife Protection Act, 1972",
+    "1992 under the Insecticides Act, 1968",
+    "1968 under the Insecticides Act, 1968"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "The Central Zoo Authority was established in 1992 under the Wildlife Protection Act, 1972. The alternatives incorrectly substitute 1968 or the Insecticides Act, 1968 for the establishment details."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Hangul reproductive calendar",
+   "question": "Match List-I with List-II in the context of the first Hangul reproductive calendar.\n\nList-I\n(a) CSIR-CCMB LaCONES\n(b) Wildlife Trust of India\n(c) 1,172\n(d) Dachigam National Park\n\nList-II\n(i) Collaborating organisation\n(ii) Number of faecal samples\n(iii) Organisation associated with the calendar\n(iv) Study location\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F6"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-ii and d-iv. CSIR-CCMB LaCONES was associated with the calendar, Wildlife Trust of India was the collaborating organisation, 1,172 faecal samples were used, and the samples came from Dachigam National Park. The other codes interchange these roles and details."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Pesticide regulation framework",
+   "question": "Consider the following statements regarding the regulatory framework connected with the proposed carbosulfan ban:\n1. The Registration Committee was consulted under the Insecticides Act, 1968.\n2. The Insecticides Act, 1968 regulates import, manufacture, sale, transport, distribution and use.\n3. The Central Insecticides Board and Registration Committee function under the Ministry of Agriculture.\n4. The Insecticides Act, 1968 regulates only manufacture and sale.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F4",
+    "P11.F5"
+   ],
+   "explanation": "Only statements 1 and 2 are correct, so the answer is Only two. The Registration Committee was consulted under the Insecticides Act, 1968, and that Act covers import, manufacture, sale, transport, distribution and use. The Central Insecticides Board and Registration Committee are under the Ministry of Agriculture, while the Act is not limited to manufacture and sale."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "BRO headquarters and ministry",
+   "question": "Consider the following statements about the Border Roads Organisation:\nStatement A: The Border Roads Organisation was established in 1960 and has its headquarters in Mumbai.\nStatement B: The Border Roads Organisation functions under the Ministry of Defence.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "Statement A is false because the Border Roads Organisation has its headquarters in New Delhi, not Mumbai; its establishment year is 1960. Statement B is true because the organisation functions under the Ministry of Defence."
+  }
+ ]
+}

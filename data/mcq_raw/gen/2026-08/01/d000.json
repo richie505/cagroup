@@ -1,0 +1,227 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F2",
+  "P1.F1",
+  "P1.F10",
+  "P1.F11",
+  "P1.F2",
+  "P1.F3",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Project cost",
+   "question": "What is the cost of Phase I of the Veligonda Project?",
+   "options": [
+    "₹10,200 crore",
+    "₹17,849 crore",
+    "₹4,750 crore",
+    "₹2,387 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "Phase I of the Veligonda Project has a cost of ₹10,200 crore. ₹17,849 crore refers to the total value of projects associated with the Bhogapuram programme, not the Veligonda Project."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "District-wise ayacut and canal",
+   "question": "Match the following components associated with Phase I of the Veligonda Project:\n\nList-I\n(a) Prakasam district ayacut\n(b) Nellore district ayacut\n(c) Kadapa district ayacut\n(d) Feeder canal\n\nList-II\n(i) 3.36 lakh acres\n(ii) 84,000 acres\n(iii) 27,200 acres\n(iv) 21.8 km\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "The correct pairs are Prakasam–3.36 lakh acres, Nellore–84,000 acres, Kadapa–27,200 acres and feeder canal–21.8 km. The other codes interchange the district figures and the canal length."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Linked development plans",
+   "question": "Which of the following statements regarding plans linked with the Veligonda Project are correct?\n\n1. A Rayalaseema–Prakasam horticulture hub is planned with an outlay of ₹1 lakh crore.\n2. The Bengaluru–Amaravati Highway is among the linked plans.\n3. The Ramayapatnam Port is among the linked plans.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "All three statements are correct: the linked plans include the Rayalaseema–Prakasam horticulture hub, the Bengaluru–Amaravati Highway and the Ramayapatnam Port. Therefore, the correct option is 1, 2 and 3."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Inauguration and water release",
+   "question": "Assertion (A): Phase I of the Veligonda Project was inaugurated by Chief Minister N. Chandrababu Naidu on 31 August 2026.\nReason (R): Krishna water was released at Nallamala Sagar.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "The Assertion is true: Chief Minister N. Chandrababu Naidu inaugurated Phase I on 31 August 2026. The Reason is false because Krishna water was released at Ghantavanipalli in Dornala Mandal, Markapuram district, not at Nallamala Sagar."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "River origin and tributaries",
+   "question": "Consider the following statements:\nStatement A: The Krishna River rises near Srisailam Reservoir.\nStatement B: The Godavari is among the tributaries of the Krishna River.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "Both statements are false. The Krishna rises near Mahabaleshwar, and its listed tributaries include Bhima, Tungabhadra, Ghataprabha, Malaprabha and Musi."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rehabilitation and resettlement",
+   "question": "Approximately how much was paid to families displaced by the Veligonda Project?",
+   "options": [
+    "₹762 crore",
+    "₹752 crore",
+    "₹926 crore",
+    "₹468 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Approximately ₹762 crore was paid to the displaced families under rehabilitation and resettlement. ₹752 crore was the cost of the Recharla–Guravayigudem expressway, making it the closest numerical trap."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Airport inauguration",
+   "question": "Who inaugurated the Alluri Sitarama Raju International Airport at Bhogapuram?",
+   "options": [
+    "Prime Minister Narendra Modi",
+    "Chief Minister N. Chandrababu Naidu",
+    "GMR Visakhapatnam International Airport Ltd",
+    "APACT Co."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Prime Minister Narendra Modi inaugurated the Alluri Sitarama Raju International Airport at Bhogapuram. GMR Visakhapatnam International Airport Ltd is the developer, while the other options are not identified as the inaugurating authority."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Airport location, developer and capacity",
+   "question": "Match the following airport details with the correct particulars:\n\nList-I\n(a) Location\n(b) Developer\n(c) Cost\n(d) Phase I capacity\n\nList-II\n(i) Bhogapuram, Vizianagaram district\n(ii) GMR Visakhapatnam International Airport Ltd\n(iii) ₹4,750 crore\n(iv) 60 lakh passengers per year\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "The correct pairs are Bhogapuram, Vizianagaram district–location; GMR Visakhapatnam International Airport Ltd–developer; ₹4,750 crore–cost; and 60 lakh passengers per year–Phase I capacity. The other codes shift these particulars among the airport’s location, developer, cost and capacity."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cultural record",
+   "question": "Which cultural performance at the Bhogapuram airport event was associated with a Guinness World Records achievement?",
+   "options": [
+    "Thimsa dance",
+    "Odia folk song",
+    "Rayalaseema–Prakasam horticulture hub",
+    "GMR Aero City"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "The Thimsa dance performance was associated with the Guinness World Records achievement. Thimsa is described as a tribal folk dance of North Andhra and Odisha; the other options are not the recorded dance performance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation headquarters and establishment",
+   "question": "Where and when was Guinness World Records established?",
+   "options": [
+    "London in 1955",
+    "London in 1988",
+    "Bhogapuram in 2021",
+    "Visakhapatnam in 1996"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "Guinness World Records was established in London in 1955. The other combinations use places or years appearing in connection with different projects and organisations."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Project components and implementing organisation",
+   "question": "How many of the following statements related to the projects associated with the Bhogapuram airport programme are correct?\n\n1. The airport project accounted for ₹5,641 crore among the inaugurated projects.\n2. The Kurnool-4 Renewable Energy Zone transmission project formed part of the foundation projects at a cost of ₹5,550 crore.\n3. The ASIP semiconductor unit formed part of the foundation projects at a cost of ₹468 crore.\n4. The National Highways Authority of India was established in 1988.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "Only three statements are correct. The ASIP semiconductor unit was listed at ₹468 crore, not ₹486 crore; the airport figure, Kurnool-4 transmission figure and NHAI establishment year are correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Semiconductor unit location",
+   "question": "Where is Andhra Pradesh’s first semiconductor packaging unit being established?",
+   "options": [
+    "Tarluvada, Anandapuram Mandal, Visakhapatnam district",
+    "Bhogapuram, Vizianagaram district",
+    "Ghantavanipalli, Dornala Mandal, Markapuram district",
+    "Penchalakona–Yerrapadu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "The unit is being established at Tarluvada in Anandapuram Mandal of Visakhapatnam district. Bhogapuram is the airport location, while Ghantavanipalli and Penchalakona–Yerrapadu refer to locations associated with other projects."
+  }
+ ]
+}

@@ -334,6 +334,601 @@
    ]
   },
   {
+   "id": "2026-08/03/d000#1",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Government and private school trends",
+   "question": "With reference to the changing pattern of school enrolment and school numbers in India, consider the following statements:\n\n1. The government share of enrolment declined from 71% in 2005 to 49.24% in 2024-25.\n2. The number of government schools declined from 11.07 lakh in 2014-15 to 10.17 lakh in 2023-24.\n3. The number of private schools declined from 2.88 lakh to 3.31 lakh.",
+   "options": [
+    "1 and 3 only",
+    "2 and 3 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "Statements 1 and 2 are correct: the government enrolment share fell to 49.24%, and government schools fell to 10.17 lakh. Statement 3 is incorrect because private schools increased from 2.88 lakh to 3.31 lakh.",
+   "facts": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F4"
+   ]
+  },
+  {
+   "id": "2026-08/03/d000#2",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "State-wise school decline",
+   "question": "With reference to the decline of government schools in Uttar Pradesh, identify the incorrect statement.",
+   "options": [
+    "The number of schools fell from 1.63 lakh to 1.22 lakh in one year.",
+    "Uttar Pradesh recorded a decline of more than 25,000 schools.",
+    "The later figure for Uttar Pradesh was 1.38 lakh schools.",
+    "The number of schools fell from 1.63 lakh to 1.38 lakh in one year."
+   ],
+   "answer": 0,
+   "explanation": "The incorrect statement changes the later figure to 1.22 lakh. The reported decline in Uttar Pradesh was from 1.63 lakh to 1.38 lakh in one year, a fall of more than 25,000 schools.",
+   "facts": [
+    "P0.F5"
+   ]
+  },
+  {
+   "id": "2026-08/03/d000#3",
+   "format": "Count-Based",
+   "keyword": "Worst-affected regions and drop-out data",
+   "question": "How many of the following statements regarding Madhya Pradesh and Jammu and Kashmir are correct?\n\n1. In Madhya Pradesh, government schools declined from 1.22 lakh in 2018-19 to 99,411.\n2. Madhya Pradesh recorded 11.83 lakh children in the “Drop Box” category.\n3. In Jammu and Kashmir, the number declined from 23,167 in 2020-21 to 18,785 in 2022-23.\n4. Jammu and Kashmir had about 30,000 vacant teaching posts.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 3 are correct. The correct Madhya Pradesh “Drop Box” figure is 11.38 lakh, not 11.83 lakh, and Jammu and Kashmir had about 13,000 vacant teaching posts, not 30,000.",
+   "facts": [
+    "P0.F6",
+    "P0.F7"
+   ]
+  },
+  {
+   "id": "2026-08/03/d000#4",
+   "format": "List-Matching",
+   "keyword": "Constitutional provisions on education",
+   "question": "Match the constitutional Articles with their respective provisions:\n\nList-I\n(a) Article 28\n(b) Article 30\n(c) Article 41\n(d) Article 350A\n\nList-II\n(i) Instruction in the mother tongue at the primary stage\n(ii) Minorities’ right to run educational institutions\n(iii) Religious instruction in educational institutions\n(iv) Right to work, education and public assistance",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer": 1,
+   "explanation": "The correct pairs are Article 28–religious instruction, Article 30–minorities’ right to run educational institutions, Article 41–right to work, education and public assistance, and Article 350A–instruction in the mother tongue at the primary stage. Therefore, a-iii, b-ii, c-iv, d-i is the correct code.",
+   "facts": [
+    "P0.F11",
+    "P0.F12",
+    "P0.F13",
+    "P0.F16"
+   ]
+  },
+  {
+   "id": "2026-08/03/d000#5",
+   "format": "Direct Recall",
+   "keyword": "Full form",
+   "question": "What is the full form of GOBARdhan under the National Circular Bioenergy Scheme?",
+   "options": [
+    "Generating Organic Biofuel and Agricultural Renewable Dhan",
+    "Green Organic Biomass and Renewable Development Network",
+    "Galvanising Organic Bio-Agro Resources Dhan",
+    "Global Organic Biogas and Agro Resources Development"
+   ],
+   "answer": 2,
+   "explanation": "GOBARdhan stands for Galvanising Organic Bio-Agro Resources Dhan. The other expansions are not the stated full form of the scheme.",
+   "facts": [
+    "P1.F2"
+   ]
+  },
+  {
+   "id": "2026-08/03/d000#6",
+   "format": "Direct Recall",
+   "keyword": "Ministry",
+   "question": "Which Union Ministry administers the GOBARdhan National Circular Bioenergy Scheme?",
+   "options": [
+    "Ministry of New and Renewable Energy",
+    "Ministry of Petroleum and Natural Gas",
+    "Ministry of Rural Development",
+    "Ministry of Agriculture and Farmers Welfare"
+   ],
+   "answer": 1,
+   "explanation": "The GOBARdhan scheme is administered by the Ministry of Petroleum and Natural Gas. The other ministries listed are not identified as the administering ministry for this scheme.",
+   "facts": [
+    "P1.F3"
+   ]
+  },
+  {
+   "id": "2026-08/03/d000#7",
+   "format": "Assertion-Reason",
+   "keyword": "Scheme objective",
+   "question": "Assertion (A): The GOBARdhan scheme aims to raise Compressed Biogas output about ten times.\nReason (R): The scheme aims to raise Compressed Biogas output about five times.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 2,
+   "explanation": "Assertion A is true because the scheme aims to raise CBG output about ten times. Reason R is false because the stated target is about ten times, not about five times.",
+   "facts": [
+    "P1.F4"
+   ]
+  },
+  {
+   "id": "2026-08/03/d000#8",
+   "format": "Direct Recall",
+   "keyword": "Viability support",
+   "question": "Which of the following is a viability measure provided under the GOBARdhan scheme for CBG projects?",
+   "options": [
+    "Credit guarantee only for private schools and road construction support",
+    "Free electricity for all CBG plants and railway freight support",
+    "Credit guarantee for MSME CBG projects and pipeline support",
+    "Abolition of pipeline support and withdrawal of MSME assistance"
+   ],
+   "answer": 2,
+   "explanation": "The scheme provides a credit guarantee for MSME CBG projects along with pipeline support. The other options either introduce unsupported measures or reverse the stated support.",
+   "facts": [
+    "P1.F8"
+   ]
+  },
+  {
+   "id": "2026-08/03/d000#9",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Existing bioenergy initiatives",
+   "question": "Consider the following statements:\nStatement A: More than 200 CBG plants were commissioned under the GOBARdhan scheme itself.\nStatement B: Existing initiatives associated with the bioenergy effort include SATAT, Market Development Assistance, Biomass Aggregation Machinery and the National Bioenergy Programme.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 3,
+   "explanation": "Statement A is false because more than 200 CBG plants were listed as commissioned under the existing initiatives, not specifically as plants commissioned under GOBARdhan itself. Statement B is true and correctly names SATAT, Market Development Assistance, Biomass Aggregation Machinery and the National Bioenergy Programme.",
+   "facts": [
+    "P1.F9"
+   ]
+  },
+  {
+   "id": "2026-08/03/d000#10",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Biogas composition and production stages",
+   "question": "Consider the following statements regarding biogas and Compressed Biogas:\n\n1. Biogas contains 55–65% methane and 35–44% carbon dioxide.\n2. CBG is upgraded to about 98% methane and is similar to CNG.\n3. The stages of anaerobic digestion are Methanogenesis, Acetogenesis, Acidogenesis and Hydrolysis, in that order.",
+   "options": [
+    "2 only",
+    "1 and 2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 2 are correct: biogas has 55–65% methane and 35–44% carbon dioxide, while upgraded CBG has about 98% methane and is similar to CNG. Statement 3 is incorrect because the stated sequence is Hydrolysis, Acidogenesis, Acetogenesis and Methanogenesis.",
+   "facts": [
+    "P1.F10",
+    "P1.F11"
+   ]
+  },
+  {
+   "id": "2026-08/03/d000#11",
+   "format": "Direct Recall",
+   "keyword": "Cabinet approval date",
+   "question": "On which date was the Union Cabinet approval of the GOBARdhan scheme recorded?",
+   "options": [
+    "6 September 2026",
+    "6 August 2025",
+    "16 August 2026",
+    "6 August 2026"
+   ],
+   "answer": 3,
+   "explanation": "The Cabinet approval date was 6 August 2026. The other dates alter the stated day, month or year.",
+   "facts": [
+    "P1.F12"
+   ]
+  },
+  {
+   "id": "2026-08/03/d000#12",
+   "format": "Count-Based",
+   "keyword": "Registered and commissioned CBG plants",
+   "question": "How many of the following statements regarding CBG and Bio-CNG plants in August 2026 are correct?\n\n1. There were 1,929 registered plants.\n2. There were 217 commissioned plants.\n3. There were 357 plants under construction.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 2,
+   "explanation": "All three statements are correct: 1,929 plants were registered, 217 were commissioned and 357 were under construction in August 2026. Since exactly three statements are listed and all are correct, the answer is Only three.",
+   "facts": [
+    "P1.F13"
+   ]
+  },
+  {
+   "id": "2026-08/03/d000r2#0",
+   "format": "Direct Recall",
+   "keyword": "Government school closures",
+   "question": "According to the NITI Aayog report, approximately how many government schools closed over a decade in India?",
+   "options": [
+    "About 25",
+    "About 94,000",
+    "About 2.26 crore",
+    "About 10.17 lakh"
+   ],
+   "answer": 1,
+   "explanation": "The NITI Aayog report recorded the closure of about 94,000 government schools over a decade, equivalent to nearly 25 schools a day. The figure of 2.26 crore refers to the decline in enrolment, not the number of schools closed.",
+   "facts": [
+    "P0.F1"
+   ]
+  },
+  {
+   "id": "2026-08/03/d001#0",
+   "format": "Direct Recall",
+   "keyword": "Motto and vision",
+   "question": "What are the motto and vision of Bharat Taxi, India's cooperative-based ride-hailing platform?",
+   "options": [
+    "“Jai Jawan, Jai Kisan” and “Atmanirbhar Bharat”",
+    "“Sahkar se Samriddhi” and “Saarthi Hi Maalik”",
+    "“Sabka Saath, Sabka Vikas” and “Digital India”",
+    "“Saarthi Hi Maalik” and “Sahkar se Samriddhi”"
+   ],
+   "answer": 3,
+   "explanation": "Bharat Taxi’s motto is “Saarthi Hi Maalik” and its vision is “Sahkar se Samriddhi.” The second option reverses the motto and vision, making it incorrect.",
+   "facts": [
+    "P2.F2"
+   ]
+  },
+  {
+   "id": "2026-08/03/d001#1",
+   "format": "Direct Recall",
+   "keyword": "Scale of platform",
+   "question": "As of 25 July 2026, approximately how many Sarathis and customers did Bharat Taxi have?",
+   "options": [
+    "8 lakh Sarathis and 41 lakh customers",
+    "41 lakh Sarathis and 8 lakh customers",
+    "8 lakh Sarathis and 25 lakh customers",
+    "25 lakh Sarathis and 41 lakh customers"
+   ],
+   "answer": 0,
+   "explanation": "As of 25 July 2026, Bharat Taxi had approximately 8 lakh Sarathis and 41 lakh customers. The other options interchange or alter these figures.",
+   "facts": [
+    "P2.F4"
+   ]
+  },
+  {
+   "id": "2026-08/03/d001#2",
+   "format": "Direct Recall",
+   "keyword": "Cities of operation",
+   "question": "Which of the following cities is included among the places where Bharat Taxi operates?",
+   "options": [
+    "Jaipur",
+    "Bengaluru",
+    "Hyderabad",
+    "Bhopal"
+   ],
+   "answer": 0,
+   "explanation": "Jaipur is among the listed Bharat Taxi cities, along with Delhi-NCR, Gujarat, Lucknow, Chandigarh, Mumbai, Kanpur and Pune. Bengaluru, Hyderabad and Bhopal are not included in the listed locations.",
+   "facts": [
+    "P2.F5"
+   ]
+  },
+  {
+   "id": "2026-08/03/d001#3",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Cooperative ownership model",
+   "question": "Consider the following statements about Bharat Taxi:\nStatement A: Each share is priced at ₹50, and ownership is obtained with ₹500.\nStatement B: Of the earnings, 90% is shared according to kilometres and 10% is credited as Sarathis’ capital.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 1,
+   "explanation": "Both statements are false. Bharat Taxi shares are ₹100 each, with ownership at ₹500, while 20% of earnings is credited as Sarathis’ capital and 80% is shared according to kilometres.",
+   "facts": [
+    "P2.F6",
+    "P2.F7"
+   ]
+  },
+  {
+   "id": "2026-08/03/d001#5",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Livestock census and identification system",
+   "question": "Consider the following statements regarding livestock disease-control infrastructure and data:\n1. The 20th Livestock Census 2019 recorded 535.78 million livestock.\n2. Of these, 302.79 million were bovines.\n3. The Bharat Pashudhan Portal provides a 10-digit tag ID, while Mobile Veterinary Units can be reached through toll-free number 1962.",
+   "options": [
+    "1, 2 and 3",
+    "2 only",
+    "1 and 3 only",
+    "1 and 2 only"
+   ],
+   "answer": 3,
+   "explanation": "Statements 1 and 2 are correct: the census recorded 535.78 million livestock, including 302.79 million bovines. Statement 3 is incorrect because the Bharat Pashudhan Portal provides a 12-digit tag ID; the toll-free number for Mobile Veterinary Units is 1962.",
+   "facts": [
+    "P3.F6",
+    "P3.F7"
+   ]
+  },
+  {
+   "id": "2026-08/03/d001#6",
+   "format": "Direct Recall",
+   "keyword": "Registrations and languages",
+   "question": "What was the status of the e-Shram portal’s registrations and language availability on 18 August 2026?",
+   "options": [
+    "More than 31.89 crore registrations and availability in 12 languages",
+    "More than 22 crore registrations and availability in 31 languages",
+    "More than 31.89 crore registrations and availability in 22 languages",
+    "More than 18.26 crore registrations and availability in 22 languages"
+   ],
+   "answer": 2,
+   "explanation": "The e-Shram portal had more than 31.89 crore registrations and was available in 22 languages on 18 August 2026. The other options alter either the registration figure or the number of languages.",
+   "facts": [
+    "P5.F3"
+   ]
+  },
+  {
+   "id": "2026-08/03/d001#7",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coverage and scheme integration",
+   "question": "Consider the following statements about the e-Shram portal:\n1. It covers migrant, construction, gig and platform workers.\n2. Benefits registered through the portal are not portable.\n3. Fifteen schemes are integrated with it, including PMJJBY, PMSBY, PM Shram Yogi Maandhan, National Career Service and Skill India Digital Hub.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "Statements 1 and 3 are correct: e-Shram covers migrant, construction, gig and platform workers, and integrates 15 schemes including the five listed schemes. Statement 2 is incorrect because the portal supports portability of benefits.",
+   "facts": [
+    "P5.F4",
+    "P5.F5"
+   ]
+  },
+  {
+   "id": "2026-08/03/d001#8",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Launch and implementing department",
+   "question": "Consider the following statements about the Pradhan Mantri Jan Dhan Yojana:\n1. It was launched on 28 August 2014 and completed 12 years on 28 August 2026.\n2. It is implemented by the Department of Financial Services, Ministry of Finance.\n3. It is implemented by the Department of Revenue, Ministry of Finance.",
+   "options": [
+    "1, 2 and 3",
+    "2 only",
+    "1 and 3 only",
+    "1 and 2 only"
+   ],
+   "answer": 3,
+   "explanation": "Statements 1 and 2 are correct: the Pradhan Mantri Jan Dhan Yojana was launched on 28 August 2014 and is implemented by the Department of Financial Services, Ministry of Finance. Statement 3 is incorrect because the implementing department is not the Department of Revenue.",
+   "facts": [
+    "P6.F1",
+    "P6.F2"
+   ]
+  },
+  {
+   "id": "2026-08/03/d001r2#0",
+   "format": "Direct Recall",
+   "keyword": "Digital integration",
+   "question": "Bharat Taxi signed an MoU with the National e-Governance Division (NeGD) for integration with which digital platforms?",
+   "options": [
+    "DigiLocker, UMANG and API Setu",
+    "PMJJBY, PMSBY and Skill India Digital Hub",
+    "Bharat Pashudhan Portal, MAITRIs and Mobile Veterinary Units",
+    "National Career Service, RuPay and DBT"
+   ],
+   "answer": 0,
+   "explanation": "The MoU between Bharat Taxi and NeGD covers DigiLocker, UMANG and API Setu. The other combinations refer to welfare, livestock or financial-inclusion services rather than the platforms named in this MoU.",
+   "facts": [
+    "P2.F9"
+   ]
+  },
+  {
+   "id": "2026-08/03/d001r2#1",
+   "format": "Direct Recall",
+   "keyword": "Welfare benefit",
+   "question": "Which welfare arrangement is associated with Bharat Taxi’s Sarathis?",
+   "options": [
+    "e-Shram registration enables AB-PMJAY coverage up to ₹3 lakh, along with ₹3 lakh accident cover from IFFCO Tokio",
+    "e-Shram registration enables AB-PMJAY coverage up to ₹5 lakh, along with ₹5 lakh accident cover from IFFCO Tokio",
+    "e-Shram registration enables AB-PMJAY coverage up to ₹5 lakh, along with ₹5 lakh accident cover from NABARD",
+    "e-Shram registration enables AB-PMJAY coverage up to ₹10 lakh, along with ₹10 lakh accident cover from IFFCO Tokio"
+   ],
+   "answer": 1,
+   "explanation": "Bharat Taxi’s welfare arrangement links e-Shram registration with AB-PMJAY coverage up to ₹5 lakh and provides ₹5 lakh accident cover through IFFCO Tokio. The tempting alternatives change either the coverage amount or the organisation providing the accident cover.",
+   "facts": [
+    "P2.F10"
+   ]
+  },
+  {
+   "id": "2026-08/03/d002#1",
+   "format": "List-Matching",
+   "keyword": "Coverage, service standard and deadline",
+   "question": "Match the following aspects of the Jal Jeevan Mission with the corresponding figures or standard:\n\nList-I\n(a) Rural households covered\n(b) Rural household coverage in 2026\n(c) Functional Household Tap Connection standard\n(d) Extended deadline\n\nList-II\n(i) 55 litres per person per day\n(ii) December 2028\n(iii) 15.91 crore+\n(iv) 82%+\n\nSelect the correct code.",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer": 1,
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii: 15.91 crore+ households, 82%+ coverage, 55 litres per person per day, and December 2028. The other codes interchange the coverage figures, service standard and deadline.",
+   "facts": [
+    "P7.F2",
+    "P7.F3",
+    "P7.F4"
+   ]
+  },
+  {
+   "id": "2026-08/03/d002#2",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Implementing agency and funding pattern",
+   "question": "With reference to the Jal Jeevan Mission, consider the following statements:\n\n1. It is implemented by the Department of Drinking Water and Sanitation under the Ministry of Jal Shakti.\n2. Himalayan and North-Eastern States receive funding in the ratio of 90:10, while other States receive funding in the ratio of 50:50.\n3. Union Territories receive funding in the ratio of 50:50.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "Statements 1 and 2 are correct. Union Territories receive 100% Central funding, not funding in the ratio of 50:50, so statement 3 is incorrect.",
+   "facts": [
+    "P7.F5",
+    "P7.F6"
+   ]
+  },
+  {
+   "id": "2026-08/03/d002#4",
+   "format": "Direct Recall",
+   "keyword": "Outlay and employment impact",
+   "question": "What were the reported outlay and formal-employment impact of the PM-Viksit Bharat Rozgar Yojana after one year?",
+   "options": [
+    "₹99,446 crore and 2 lakh+ first-time workers",
+    "₹4.47 lakh crore and 72 lakh+ first-time workers",
+    "₹99,446 crore and 72 lakh+ first-time workers",
+    "₹7,200 crore and 72 lakh+ first-time workers"
+   ],
+   "answer": 2,
+   "explanation": "The scheme had an outlay of ₹99,446 crore and enabled more than 72 lakh first-time workers to enter formal employment. The other options substitute figures associated with PM-KISAN, PM-AASHA or Jal Jeevan Mission.",
+   "facts": [
+    "P9.F2"
+   ]
+  },
+  {
+   "id": "2026-08/03/d002#5",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Two-part design",
+   "question": "Consider the following statements:\nStatement A: The Employee part of the PM-Viksit Bharat Rozgar Yojana supports first-time entrants.\nStatement B: The Employer part provides support specifically to first-time entrants rather than incentivising additional jobs.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 2,
+   "explanation": "Statement A is true because the Employee part supports first-time entrants. Statement B is false: the Employer part incentivises the creation of additional jobs.",
+   "facts": [
+    "P9.F4"
+   ]
+  },
+  {
+   "id": "2026-08/03/d002#6",
+   "format": "Direct Recall",
+   "keyword": "Launch and outlay",
+   "question": "The Pradhan Mantri Annadata Aay SanraksHan Abhiyan, or PM-AASHA, was launched in which year and provided what allocation for 2026–27?",
+   "options": [
+    "September 2018 and ₹7,200 crore",
+    "September 2019 and ₹7,200 crore",
+    "September 2018 and ₹99,446 crore",
+    "September 2020 and ₹3.15 lakh crore"
+   ],
+   "answer": 0,
+   "explanation": "PM-AASHA was launched in September 2018 and received ₹7,200 crore for 2026–27. The other options alter either the launch year or the allocation by using figures from other schemes.",
+   "facts": [
+    "P10.F1"
+   ]
+  },
+  {
+   "id": "2026-08/03/d002#7",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Components and MSP recommendation",
+   "question": "With reference to PM-AASHA and the Minimum Support Price, consider the following statements:\n\n1. PM-AASHA has four components: PSS, PSF, PDPS and MIS.\n2. MSP is recommended by the Commission for Agricultural Costs and Prices.\n3. MSP is administered by the Ministry of Rural Development.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1, 2 and 3",
+    "2 only",
+    "1 and 3 only",
+    "1 and 2 only"
+   ],
+   "answer": 3,
+   "explanation": "Statements 1 and 2 are correct: the four components are PSS, PSF, PDPS and MIS, and MSP is recommended by CACP. Statement 3 is incorrect because the relevant ministry is the Ministry of Agriculture and Farmers Welfare.",
+   "facts": [
+    "P10.F2",
+    "P10.F4"
+   ]
+  },
+  {
+   "id": "2026-08/03/d002#8",
+   "format": "Direct Recall",
+   "keyword": "Launch venue and organisation",
+   "question": "Yashoda AI and She Serves were launched by the National Commission for Women at which location?",
+   "options": [
+    "New Delhi",
+    "Jalandhar, Punjab",
+    "Budhni, Madhya Pradesh",
+    "Dewas, Madhya Pradesh"
+   ],
+   "answer": 1,
+   "explanation": "The National Commission for Women launched the initiatives in Jalandhar, Punjab, under the chairpersonship of Vijaya Rahatkar. New Delhi is associated with several other initiatives, while Budhni and Dewas were pilot locations of Mission Samriddh Gaon.",
+   "facts": [
+    "P11.F1"
+   ]
+  },
+  {
+   "id": "2026-08/03/d002#9",
+   "format": "Direct Recall",
+   "keyword": "Mission objective",
+   "question": "Which of the following correctly describes the aims of Mission Samriddh Gaon?",
+   "options": [
+    "Delivering a maternal-care course through Ayurveda",
+    "Providing organ matching and allocation for hospitals",
+    "Promoting careers in the Armed Forces for young women",
+    "Creating poverty-free villages and curbing distress migration"
+   ],
+   "answer": 3,
+   "explanation": "Mission Samriddh Gaon aims to create poverty-free villages and curb distress migration. The other options describe e-Pratyaropan, She Serves and Garbhini Mitra respectively.",
+   "facts": [
+    "P12.F3"
+   ]
+  },
+  {
+   "id": "2026-08/03/d002#10",
+   "format": "Direct Recall",
+   "keyword": "Language and subject coverage",
+   "question": "Jago AI Assistant, launched by the Ministry of Tribal Affairs, provides an AI-based conversational interface on Scheduled Tribe welfare schemes in which languages?",
+   "options": [
+    "English and Hindi",
+    "Hindi and Punjabi",
+    "English and Tamil",
+    "Hindi and Marathi"
+   ],
+   "answer": 0,
+   "explanation": "Jago AI Assistant covers Scheduled Tribe welfare schemes through an AI conversational assistant available in English and Hindi. The other language combinations are not the language pair specified for the assistant.",
+   "facts": [
+    "P14.F1"
+   ]
+  },
+  {
+   "id": "2026-08/03/d002r2#0",
+   "format": "Direct Recall",
+   "keyword": "Anniversary/date",
+   "question": "The Jal Jeevan Mission, announced on 15 August 2019, completed how many years on 15 August 2026?",
+   "options": [
+    "5 years",
+    "7 years",
+    "6 years",
+    "8 years"
+   ],
+   "answer": 1,
+   "explanation": "The Jal Jeevan Mission completed 7 years on 15 August 2026, having been announced on 15 August 2019. Six years is the tempting alternative, but it does not match the stated anniversary.",
+   "facts": [
+    "P7.F1"
+   ]
+  },
+  {
+   "id": "2026-08/03/d002r2#2",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Launch participation and campaign objective",
+   "question": "With reference to the Nasha Mukt Yuva for Viksit Bharat Sankalp Abhiyan, consider the following statements:\n1. On the launch day, more than 1 crore youth took the pledge at approximately 10,000 centres, with more than 125 spiritual organisations joining.\n2. The campaign aims at youth participation, drug prevention and the goal of Viksit Bharat–2047.\n3. MY Bharat was launched in 2023, while the National Service Scheme was established in 1970 and has the motto “Not Me But You”.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "Statements 1 and 2 are correct: the launch involved more than 1 crore youth at approximately 10,000 centres, and the campaign focuses on youth participation, drug prevention and Viksit Bharat–2047. Statement 3 is incorrect because the National Service Scheme dates to 1969, not 1970; its motto is “Not Me But You”.",
+   "facts": [
+    "P16.F2",
+    "P16.F4",
+    "P16.F5"
+   ]
+  },
+  {
    "id": "2026-08/03/g002r2#1",
    "format": "Multi-Statement Correctness",
    "keyword": "Continuation period and outlay",

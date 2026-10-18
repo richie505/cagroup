@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": [
+  "P1.F13",
+  "P1.F14"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Mobile connectivity",
+   "question": "With reference to mobile connectivity under the development measures in Left-Wing Extremism-affected areas, consider the following statements:\n\n1. A total of 9,497 mobile towers were established, connecting about 96% of villages.\n2. A total of 9,497 mobile towers were established, connecting about 89% of villages.\n3. A total of 8,497 mobile towers were established, connecting about 96% of villages.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "2 and 3 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13"
+   ],
+   "explanation": "Statement 1 is correct: 9,497 mobile towers were established and about 96% of villages were connected. Statement 2 wrongly changes the connectivity figure to 89%, while Statement 3 changes the number of towers to 8,497."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Banking infrastructure",
+   "question": "During the 2015–2026 period of development measures in Left-Wing Extremism-affected areas, how many bank branches were reported?",
+   "options": [
+    "1,804",
+    "1,321",
+    "74,720",
+    "6,025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F14"
+   ],
+   "explanation": "The reported number of bank branches was 1,804 during 2015–2026. The figure 1,321 refers to ATMs, while 74,720 refers to banking correspondents and 6,025 to post offices."
+  }
+ ]
+}

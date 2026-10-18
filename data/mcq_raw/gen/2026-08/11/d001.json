@@ -1,0 +1,281 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P3.F1",
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F15",
+  "P3.F16",
+  "P3.F17",
+  "P3.F18",
+  "P3.F19",
+  "P3.F3",
+  "P3.F4",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9",
+  "P4.F1",
+  "P4.F3",
+  "P4.F4",
+  "P4.F5",
+  "P5.F1"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Visitor footfall",
+   "question": "Under the Adopt a Heritage 2.0 scheme, how many visitors were recorded in FY25?",
+   "options": [
+    "13.59 million",
+    "30 million",
+    "76 million",
+    "53 million"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "Adopt a Heritage 2.0 recorded 13.59 million visitors in FY25. The figures 30, 76 and 53 relate respectively to MoUs under Adopt a Heritage 2.0, projects under Swadesh Darshan and projects under Swadesh Darshan 2.0."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Tourism scheme comparison",
+   "question": "Consider the following statements regarding India’s tourism and heritage schemes:\n1. Swadesh Darshan comprises 15 thematic circuits, with 76 projects, of which 75 have been completed.\n2. Swadesh Darshan 2.0 is circuit-centric and has 53 projects.\n3. Challenge Based Destination Development was launched in March 2023.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4",
+    "P3.F5"
+   ],
+   "explanation": "Only statement 1 is correct: Swadesh Darshan has 15 thematic circuits, 76 projects and 75 completed projects. Swadesh Darshan 2.0 is destination-centric, while Challenge Based Destination Development was launched in March 2024, not March 2023."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme end date",
+   "question": "The HRIDAY scheme, covering 12 heritage cities, ended on which date?",
+   "options": [
+    "31 March 2019",
+    "March 2024",
+    "March 2026",
+    "September 2023"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F5",
+    "P3.F1"
+   ],
+   "explanation": "HRIDAY ended on 31 March 2019 after covering 12 heritage cities. March 2024 is associated with Challenge Based Destination Development, while September 2023 is associated with the launch of Adopt a Heritage 2.0."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "ASI and NMMA data",
+   "question": "Match List-I with List-II regarding the Archaeological Survey of India and the National Mission on Monuments and Antiquities.\n\nList-I\n a. Approximate ASI circles\n b. Centrally protected monuments under ASI\n c. Monuments documented by NMMA\n d. Antiquities documented by NMMA\n\nList-II\n i. 17.20 lakh\n ii. Approximately 38\n iii. 3,686\n iv. 1.84 lakh\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7",
+    "P3.F8"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i: ASI has approximately 38 circles and 3,686 centrally protected monuments, while NMMA documented 1.84 lakh monuments and 17.20 lakh antiquities. The other codes interchange these figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Relic repatriation",
+   "question": "The Piprahwa relics of Buddha were returned to India in 2025 after how many years?",
+   "options": [
+    "127 years",
+    "108 years",
+    "1,800 years",
+    "615 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9",
+    "P3.F10",
+    "P3.F11",
+    "P3.F4"
+   ],
+   "explanation": "The Piprahwa relics of Buddha were returned in 2025 after 127 years. The figure 108 years refers to the Annapurna idol returned from Canada; 615 refers to antiquities retrieved in five years."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Repatriated artefacts",
+   "question": "Consider the following statements:\nStatement A: The Annapurna idol was returned from the United Kingdom in 2021 after 108 years.\nStatement B: The Rama-Sita-Lakshmana bronzes were returned from Canada in 2020.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F10"
+   ],
+   "explanation": "Both statements are false. The Annapurna idol was returned from Canada in 2021 after 108 years, while the Rama-Sita-Lakshmana bronzes were returned from the United Kingdom in 2020."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Relic diplomacy and retrieval",
+   "question": "How many of the following statements regarding India’s repatriation and Buddha relic diplomacy are correct?\n1. India retrieved 615 antiquities in the five years up to 30 June 2026.\n2. The Buddha relic exposition in Vietnam in 2025 drew more than 15 million visitors.\n3. The Piprahwa relics of Buddha were returned in 2024 after 127 years.\n4. The Annapurna idol was returned from the United Kingdom in 2021 after 108 years.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F9",
+    "P3.F10",
+    "P3.F11",
+    "P3.F12"
+   ],
+   "explanation": "Only two statements are correct: statements 1 and 2. The Piprahwa relics were returned in 2025, not 2024, and the Annapurna idol was returned from Canada, not the United Kingdom."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Manuscript survey",
+   "question": "What number of manuscripts was reported under the National Manuscript Survey launched in March 2026?",
+   "options": [
+    "1.19 crore",
+    "8 lakh+",
+    "3,75,707",
+    "4,88,983"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F15",
+    "P3.F16"
+   ],
+   "explanation": "The National Manuscript Survey reported 1.19 crore manuscripts, with more than 8 lakh digitised. The figures 3,75,707 and 4,88,983 relate to artefacts digitised and recorded through JATAN."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Digital heritage platforms",
+   "question": "Match the following digital heritage initiatives with their descriptions.\n\nList-I\n a. JATAN\n b. BHASHINI\n c. BharatGen\n d. Adi-Vaani\n\nList-II\n i. 22 scheduled languages\n ii. C-DAC, Pune\n iii. Tribal languages including Santali, Bhili, Mundari and Gondi\n iv. 22 voice languages and 36 text languages\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iii, b-ii, c-iv, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F16",
+    "P3.F17"
+   ],
+   "explanation": "The correct pairs are JATAN–C-DAC, Pune; BHASHINI–22 voice and 36 text languages; BharatGen–22 scheduled languages; and Adi-Vaani–tribal languages. The other options interchange the platforms and their language or institutional details."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Cultural digitisation initiatives",
+   "question": "Match List-I with List-II.\n\nList-I\n a. Vedic Heritage Portal\n b. National Film Heritage Mission\n c. National Museum of Indian Cinema\n d. Rigveda manuscripts\n\nList-II\n i. 2019 and ₹140.61 crore\n ii. March 2023 and IGNCA\n iii. 2015 and 1,469 titles digitised\n iv. Memory of the World Register\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F18",
+    "P3.F19"
+   ],
+   "explanation": "The correct matching is a-ii, b-iii, c-i and d-iv. The Vedic Heritage Portal dates to March 2023 and is associated with IGNCA; the National Film Heritage Mission digitised 1,469 titles, and the Rigveda manuscripts are in the Memory of the World Register."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Event inauguration",
+   "question": "Who inaugurated the Aranmula Uthrattathi boat race?",
+   "options": [
+    "Vice-President C. P. Radhakrishnan",
+    "President",
+    "Khurda ruler Bir Kishore",
+    "Somavanshi king Yayati Keshari"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P5.F1"
+   ],
+   "explanation": "The Aranmula Uthrattathi boat race was inaugurated by Vice-President C. P. Radhakrishnan. The President and the rulers named in the other options are associated with the Dhabaleswar Temple account, not the inauguration of this race."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Boat type and participation",
+   "question": "Which boats are used in the Aranmula Uthrattathi boat race, with each carrying more than 100 oarsmen?",
+   "options": [
+    "Palliyodams",
+    "Thematic circuits",
+    "Bronzes",
+    "Antiquities"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3",
+    "P3.F3",
+    "P3.F10",
+    "P3.F11"
+   ],
+   "explanation": "The race uses Palliyodams, or snake boats, each carrying more than 100 oarsmen. The other options refer to tourism circuits, repatriated bronzes and retrieved antiquities."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Aranmula heritage association",
+   "question": "Assertion (A): The Aranmula Uthrattathi boat race is linked to the Parthasarathy Temple, which is approximately 1,200 years old.\nReason (R): The race is linked to the Parthasarathy Temple, which is approximately 1,800 years old.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "Assertion A is false, but Reason R is true: the Parthasarathy Temple linked to the race is approximately 1,800 years old. The incorrect figure in the assertion is 1,200 years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Temple heritage and presidential visit",
+   "question": "Which statement correctly describes the Dhabaleswar Temple?",
+   "options": [
+    "It is a Shiva temple on an island in the Mahanadi near Cuttack and was visited by the President.",
+    "It is a temple linked to the Parthasarathy Temple and was inaugurated by the Vice-President.",
+    "It is a shrine along the Cauvery that honours Amman and water.",
+    "It is a heritage city covered under HRIDAY that ended on 31 March 2019."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P4.F1",
+    "P4.F4",
+    "P3.F6"
+   ],
+   "explanation": "Dhabaleswar Temple is a Shiva temple on an island in the Mahanadi near Cuttack and was visited by the President. The other options combine details of the Aranmula event, Aadi Perukku and the HRIDAY scheme."
+  }
+ ]
+}

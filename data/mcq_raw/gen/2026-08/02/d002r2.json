@@ -1,0 +1,102 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": [
+  "P2.F15",
+  "P2.F21",
+  "P2.F22",
+  "P2.F23",
+  "P2.F24",
+  "P2.F25",
+  "P3.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "AI earmark",
+   "question": "Under Phase III of the e-Courts Mission Mode Project, what amount was earmarked for artificial intelligence for High Courts through 2027?",
+   "options": [
+    "₹53.57 crore",
+    "No separate earmark was made",
+    "₹53.57 crore for District Courts",
+    "₹53.57 crore for police departments"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F15"
+   ],
+   "explanation": "₹53.57 crore was earmarked for artificial intelligence for High Courts through 2027. The amount was not specified for District Courts or police departments."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Digital justice platforms and functions",
+   "question": "Consider the following statements regarding platforms associated with the e-Courts and justice systems:\n\n1. CCTNS links a police FIR to the charge-sheet.\n2. ITSSO tracks investigations of sexual offences.\n3. e-Sakshya is used for medico-legal and postmortem reports.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F21",
+    "P2.F22",
+    "P2.F23",
+    "P2.F24"
+   ],
+   "explanation": "Statements 1 and 2 are correct: CCTNS covers the police FIR-to-charge-sheet process, while ITSSO tracks sexual-offence investigations. Statement 3 is incorrect because medico-legal and postmortem reports are the purpose of MedLEaPR, not e-Sakshya."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Platform purpose",
+   "question": "Which platform is associated with medico-legal and postmortem reports?",
+   "options": [
+    "MedLEaPR",
+    "e-Sakshya",
+    "NAFIS",
+    "ITSSO"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F24"
+   ],
+   "explanation": "MedLEaPR is associated with medico-legal and postmortem reports. e-Sakshya concerns digital evidence, NAFIS is a national fingerprint database, and ITSSO tracks sexual-offence investigations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National fingerprint database",
+   "question": "Which platform serves as the national fingerprint database?",
+   "options": [
+    "NAFIS",
+    "CCTNS",
+    "MedLEaPR",
+    "e-Sakshya"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F25"
+   ],
+   "explanation": "NAFIS serves as the national fingerprint database. CCTNS links the police FIR to the charge-sheet, while MedLEaPR deals with medico-legal and postmortem reports."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Maintainability under Article 32",
+   "question": "In the context of the petitions seeking application of the creamy-layer principle to SC/ST reservations, what was the Centre's position under Article 32?",
+   "options": [
+    "The petition was not maintainable",
+    "The petition was automatically maintainable",
+    "The petition had to be decided by Parliament first",
+    "The petition had to be transferred to a High Court"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8"
+   ],
+   "explanation": "The Centre stated that the petition was not maintainable under Article 32. The position was not that the petition was automatically maintainable or that it had to be transferred to a High Court."
+  }
+ ]
+}

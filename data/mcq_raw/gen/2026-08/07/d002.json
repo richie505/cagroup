@@ -1,0 +1,141 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P4.F10",
+  "P4.F15",
+  "P4.F5",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8",
+  "P4.F9",
+  "P7.F3",
+  "P8.F3",
+  "P8.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Ramsar site additions",
+   "question": "Which pair of Ramsar sites was added in December 2025?",
+   "options": [
+    "Siliserh Lake and Kopra Reservoir",
+    "Gogabeel Lake and Gokul Reservoir",
+    "Menar and Khichan",
+    "Sakkarakottai and Therthangal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5"
+   ],
+   "explanation": "Siliserh Lake in Rajasthan and Kopra Reservoir in Chhattisgarh were added in December 2025. Gogabeel Lake belongs to October 2025, making it the most tempting incorrect option."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Ramsar site date",
+   "question": "Which one of the following statements regarding the Ramsar site addition of Gogabeel Lake is incorrect?",
+   "options": [
+    "Gogabeel Lake is in Bihar.",
+    "Gogabeel Lake was added in October 2025.",
+    "Gogabeel Lake was added in December 2025.",
+    "Gogabeel Lake is a Ramsar site addition associated with India’s recent expansion."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F6"
+   ],
+   "explanation": "The incorrect statement changes the addition date to December 2025; Gogabeel Lake was added in October 2025. December 2025 was associated with Siliserh Lake and Kopra Reservoir, not Gogabeel Lake."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ramsar site location",
+   "question": "Gokul Reservoir and Udaipur Jheel were among the Ramsar sites added in September 2025. In which State are they located?",
+   "options": [
+    "Bihar",
+    "Uttar Pradesh",
+    "Rajasthan",
+    "Jharkhand"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "Gokul Reservoir in Buxar and Udaipur Jheel in West Champaran were added in September 2025, and both are in Bihar. Uttar Pradesh is associated with other recent sites such as Surha Tal and Shekha Jheel."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Ramsar site location",
+   "question": "Match the Ramsar sites added in 2025 with their associated location:\n\nList-I\n a. Menar (5 June 2025)\n b. Khichan (5 June 2025)\n c. Khecheopalri (2 February 2025)\n d. Udhwa Lake (2 February 2025)\n\nList-II\n i. Udaipur\n ii. Phalodi\n iii. Sikkim\n iv. Jharkhand",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8",
+    "P4.F9"
+   ],
+   "explanation": "The correct pairs are Menar–Udaipur, Khichan–Phalodi, Khecheopalri–Sikkim and Udhwa Lake–Jharkhand. Khichan is not associated with Udaipur, and Khecheopalri is not in Jharkhand."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ramsar Convention and growth",
+   "question": "With reference to India’s Ramsar-site expansion and the Ramsar Convention, consider the following statements:\n\n1. India had 101 Ramsar sites covering approximately 13.88 lakh hectares.\n2. The number of Indian Ramsar sites increased from 26 in 2012 to 100 in June 2026.\n3. The Ramsar Convention was adopted in 1971 in Iran, and India joined it on 1 February 1975.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F10",
+    "P4.F15"
+   ],
+   "explanation": "Statements 1 and 2 are correct: India had 101 sites covering approximately 13.88 lakh hectares, and the number rose from 26 in 2012 to 100 in June 2026. Statement 3 is incorrect because India joined the Convention on 1 February 1982, not 1 February 1975."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State leadership",
+   "question": "Who were the Chief Minister and Governor of Meghalaya when Mission Clouded Leopard was launched?",
+   "options": [
+    "Conrad K. Sangma and C.H. Vijayashankar, respectively",
+    "C.H. Vijayashankar and Conrad K. Sangma, respectively",
+    "Conrad K. Sangma as Governor and C.H. Vijayashankar as Chief Minister",
+    "C.H. Vijayashankar as both Chief Minister and Governor"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "Conrad K. Sangma was the Chief Minister of Meghalaya and C.H. Vijayashankar was the Governor. The second option reverses their constitutional positions, which is the principal trap."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "ZSI and Lepidoptera classification",
+   "question": "Match the following with the corresponding fact related to the Zoological Survey of India’s Lepidoptera checklist:\n\nList-I\n a. Geometroidea\n b. Establishment of ZSI\n c. Headquarters of ZSI\n d. Director of ZSI\n\nList-II\n i. 2,205 moth species\n ii. 1916\n iii. Kolkata\n iv. Dr Dhriti Banerjee",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "Geometroidea accounts for 2,205 moth species; ZSI was established in 1916, is headquartered in Kolkata, and is headed by Dr Dhriti Banerjee. The alternative codes interchange these institutional and classification details."
+  }
+ ]
+}

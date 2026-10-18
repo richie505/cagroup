@@ -1,0 +1,106 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P2.F5",
+  "P2.F6",
+  "P4.F5",
+  "P5.F3",
+  "P5.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rank and share in milk production",
+   "question": "With reference to the milk production rankings reported for 2024–25, consider the following statements:\n1. Maharashtra ranked fifth among the States in milk production.\n2. The top five States together accounted for 54.09% of national milk output.\n3. The top five States together accounted for 55.09% of national milk output.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Maharashtra ranked fifth, and the top five States contributed 54.09% of national milk output. Statement 3 is incorrect because the reported share was 54.09%, not 55.09%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global position in milk production",
+   "question": "According to the Basic Animal Husbandry Statistics 2025, which description correctly reflects India’s position in global milk production?",
+   "options": [
+    "India is the world’s largest milk producer, contributing roughly one-fourth of global output",
+    "India is the world’s second-largest milk producer, contributing roughly one-fifth of global output",
+    "India is the world’s largest milk producer, contributing roughly one-third of global output",
+    "India is the world’s third-largest milk producer, contributing roughly one-fourth of global output"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "India is the world’s largest milk producer and contributes roughly one-fourth of global milk output. The other options alter either India’s global rank or its share of world production."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Resources and objective of deep-sea fishery report",
+   "question": "With reference to the National Report on Deep-Sea and Distant-Water Fishery Resources of the Indian EEZ, consider the following statements:\nStatement A: The report covers Antarctic krill among the resources discussed.\nStatement B: The report aims at sustainable fisheries, deep-sea fishing and coastal tourism.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6"
+   ],
+   "explanation": "Statement A is true because Antarctic krill is among the resources covered by the report. Statement B is false: the stated aim includes sustainable fisheries, deep-sea fishing and the Blue Economy, not coastal tourism."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "HQ and establishment of ACI",
+   "question": "The Airports Council International, in the context of the first-half 2026 international passenger rankings, was established in which year and has its headquarters where?",
+   "options": [
+    "Established in 1991; headquartered in Montreal",
+    "Established in 1945; headquartered in Paris",
+    "Established in 2020; headquartered in New Delhi",
+    "Established in 1970; headquartered in Anand"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5"
+   ],
+   "explanation": "Airports Council International was established in 1991 and is headquartered in Montreal. Paris, New Delhi and Anand correspond to other organisations or locations, not the stated details of ACI."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coverage and institutional framework of financial fraud data",
+   "question": "With reference to financial fraud cases reported for 2023–24 to 2025–26, consider the following statements:\n1. The reported coverage included banking, digital payments, UPI, cards and loans.\n2. The Indian Cyber Crime Coordination Centre was established in 2020 under the Ministry of Home Affairs.\n3. The National Cyber Crime Reporting Portal is under the Ministry of Finance.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the data covered banking, digital payments, UPI, cards and loans, while I4C was established in 2020 under the Ministry of Home Affairs. Statement 3 is incorrect because the National Cyber Crime Reporting Portal is associated with the Ministry of Home Affairs, not the Ministry of Finance."
+  }
+ ]
+}

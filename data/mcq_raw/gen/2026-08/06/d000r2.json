@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F16",
+  "P0.F4",
+  "P0.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Space start-up ecosystem and authorisations",
+   "question": "With reference to the growth of India’s private space ecosystem, consider the following statements:\n\n1. Space start-ups increased from 1 in 2014 to approximately 440 in 2026.\n2. Authorisations declined from 113 to 52 NGEs, including 18 start-ups.\n3. Authorisations increased from 113 to 52 NGEs, including 18 start-ups.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: space start-ups rose from 1 in 2014 to approximately 440 in 2026, while authorisations changed from 113 to 52 NGEs, including 18 start-ups. Statement 3 is incorrect because the authorisations declined, rather than increased, from 113 to 52."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NSIL revenue",
+   "question": "What revenue did NewSpace India Limited (NSIL) record in FY25?",
+   "options": [
+    "₹3,000+ crore",
+    "₹1,200 crore",
+    "₹1,000 crore",
+    "₹500 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "NSIL recorded revenue of more than ₹3,000 crore in FY25. The other figures refer to different space-sector commitments or funds, not NSIL’s FY25 revenue."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NavIC coverage",
+   "question": "How far beyond India does NavIC provide coverage?",
+   "options": [
+    "Up to 1,500 km beyond India",
+    "Up to 1,500 km within India",
+    "Up to 1,000 km beyond India",
+    "Up to 2,000 km beyond India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "NavIC provides coverage up to 1,500 km beyond India. The alternatives either place the coverage within India or use ranges associated with other space-sector details."
+  }
+ ]
+}

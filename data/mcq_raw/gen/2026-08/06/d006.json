@@ -1,0 +1,155 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  23
+ ],
+ "only": [
+  "P23.F10",
+  "P23.F11",
+  "P23.F12",
+  "P23.F14",
+  "P23.F15",
+  "P23.F16",
+  "P23.F17",
+  "P23.F18",
+  "P23.F3",
+  "P23.F5",
+  "P23.F7",
+  "P23.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "MoU duration and AI platform",
+   "question": "The Ministry of Ayush–IndiaAI MoU provides for which of the following arrangements?",
+   "options": [
+    "A 1-year MoU with access to IndiaAI Compute only",
+    "A 2-year, extendable MoU involving de-identified health data, AI models on AIKosh and access to IndiaAI Compute",
+    "A 3-year MoU for digitising medical manuscripts",
+    "A 5-year MoU for multilingual voice-first AI under BHASHINI"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P23.F3"
+   ],
+   "explanation": "The Ministry of Ayush and IndiaAI signed a 2-year, extendable MoU covering de-identified health data, AI models on AIKosh and access to IndiaAI Compute. The 1-year duration is incorrect; the arrangement is for 2 years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MoU partners and purpose",
+   "question": "Which organisation entered into an MoU with CSIR-IICT for plastic chemical recycling, industrial wastewater, bio-based chemicals and carbon capture?",
+   "options": [
+    "Re Sustainability",
+    "UNDP India",
+    "Drone Federation India",
+    "IndiaAI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F5"
+   ],
+   "explanation": "CSIR-IICT, Hyderabad, partnered with Re Sustainability for plastic chemical recycling, industrial wastewater, bio-based chemicals and carbon capture. UNDP India, Drone Federation India and IndiaAI were not the partner in this MoU."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Partnership objectives and targets",
+   "question": "With reference to the next phase of the UNDP India–HUL partnership, consider the following statements:\n1. It covers Project Circular Bharat and Project Utthaan.\n2. By 2028, it aims to cover 50 cities or ULBs and 50,000 Safai Mitras, while supporting SBM-Urban 2.0.\n3. UNDP India was established in 1965 and has its headquarters in New Delhi.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F7",
+    "P23.F11",
+    "P23.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the partnership includes Project Circular Bharat and Project Utthaan and has the stated 2028 targets. Statement 3 is incorrect because UNDP was established in 1965 but its headquarters is in New York, not New Delhi."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Electric seaplane fleet numbers",
+   "question": "With reference to SkyHop Aviation’s proposed electric seaplane fleet, how many of the following statements are correct?\n1. SkyHop plans to acquire or lease 10 electric seaplanes from Noemi Aerospace by 2029–30, with an option for 5 more.\n2. Its fleet is expected to reach 40 aircraft by 2030, with 20–25% being electric or hybrid.\n3. One-liners describe the plan as up to 20 electric or hybrid seaplanes by 2030.\n4. The initial aircraft are 29-seat Twin Otter seaplanes.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P23.F9",
+    "P23.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so the answer is Only two. The stated one-liner figure is up to 15, not 20, and the initial Twin Otter seaplanes have 19 seats, not 29."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Mission and ministry timeline",
+   "question": "Consider the following statements:\nStatement A: The IndiaAI Mission was launched in 2024 with an allocation of ₹10,371.92 crore.\nStatement B: The Ministry of Ayush was established in 2014.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F14"
+   ],
+   "explanation": "Both statements are true. The IndiaAI Mission dates to 2024 with an allocation of ₹10,371.92 crore, while the Ministry of Ayush was established in 2014."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "CISF establishment and status",
+   "question": "Which of the following statements regarding the Central Industrial Security Force (CISF) is incorrect?",
+   "options": [
+    "The CISF was established on 10 March 1969 under the CISF Act, 1968.",
+    "The CISF functions under the Ministry of Home Affairs and is a Central Armed Police Force.",
+    "The CISF was established on 10 March 1968 under the CISF Act, 1968.",
+    "The CISF is a Central Armed Police Force under the Ministry of Home Affairs."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P23.F15"
+   ],
+   "explanation": "The incorrect statement is that the CISF was established on 10 March 1968. Its correct establishment date is 10 March 1969; the CISF Act dates to 1968."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Place and drone attribution",
+   "question": "Match the entities in List-I with the associated descriptions in List-II.\n\nList-I\n(a) Lakshadweep\n(b) NIKA2 Kisan Medium Drone\n(c) Shivraj Singh Chouhan\n(d) Akin Analytics\n\nList-II\n(i) Unveiled the NIKA2 Kisan Medium Drone\n(ii) Capital is Kavaratti\n(iii) Founder and builder associated with the drone\n(iv) India’s smallest Union Territory by area",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F16",
+    "P23.F17"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii: Lakshadweep’s capital is Kavaratti; NIKA2 is associated with India’s smallest Union Territory by area; Shivraj Singh Chouhan unveiled it; and Akin Analytics’ founder, Janaki Pulaparthi, built it. The other codes interchange these associations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Drone capacity and operation",
+   "question": "What is the stated capacity of the NIKA2 Kisan Medium Drone?",
+   "options": [
+    "16 litres of liquid or 13 kg of fertiliser or seed",
+    "13 litres of liquid or 16 kg of fertiliser or seed",
+    "19 litres of liquid or 10 kg of fertiliser or seed",
+    "10 litres of liquid or 19 kg of fertiliser or seed"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F18"
+   ],
+   "explanation": "The NIKA2 Kisan Medium Drone can carry 16 litres of liquid or 13 kg of fertiliser or seed. The alternatives reverse or alter these stated capacities."
+  }
+ ]
+}

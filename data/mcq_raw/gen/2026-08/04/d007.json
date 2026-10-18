@@ -1,0 +1,127 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21
+ ],
+ "only": [
+  "P14.F3",
+  "P14.F4",
+  "P15.F4",
+  "P16.F3",
+  "P16.F4",
+  "P16.F5",
+  "P16.F6",
+  "P17.F4",
+  "P21.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Number and regulatory body",
+   "question": "Match the following in the context of India's domestic PNG sector:\n\nList-I\n(a) India's domestic PNG connections\n(b) PNGRB\n\nList-II\n(i) Estimated 2006\n(ii) Approximately 1.74 crore\n\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3",
+    "P14.F4"
+   ],
+   "explanation": "India had approximately 1.74 crore domestic PNG connections, while PNGRB was established in 2006 under the PNGRB Act 2006. Therefore, the correct pairs are a-ii and b-i; the other options interchange or duplicate these associations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "GST origin and legal basis",
+   "question": "Consider the following statements:\nStatement A: GST was introduced in India from 1 July 2017.\nStatement B: GST was introduced through the 101st Amendment Act, 2017.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F4"
+   ],
+   "explanation": "Statement A is true because GST came into effect on 1 July 2017. Statement B is false: the relevant legislation was the 101st Amendment Act, 2016, not the 101st Amendment Act, 2017."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "RBI forecast revisions and risks",
+   "question": "With reference to the RBI's 2026–27 policy projections and identified risks, consider the following statements:\n\n1. The core inflation forecast was revised from 4.7% to 4.3%.\n2. The GDP growth forecast was revised from 6.6% to 6.8%.\n3. The identified risks included monsoon, El Niño, geopolitics and GST policy.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F3",
+    "P16.F4",
+    "P16.F5"
+   ],
+   "explanation": "Only statement 1 is correct: the core inflation forecast was revised from 4.7% to 4.3%. The GDP growth forecast was revised to 6.7%, not 6.8%, and the identified risk was trade policy, not GST policy."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Current account surplus and FDI",
+   "question": "Assertion (A): India recorded a current account surplus of US$2.8 billion during April–May 2026.\nReason (R): India's FDI inflow was US$30.7 billion during April–May 2026.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P16.F6"
+   ],
+   "explanation": "Assertion A is true: the current account surplus during April–May 2026 was US$2.8 billion. Reason R is false because FDI was US$30.7 billion in Q1, not specifically during April–May 2026."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Meaning of Goldilocks economy",
+   "question": "In the RBI Survey of Professional Forecasters, 101st round, how many of the following statements correctly describe the projected 'Goldilocks' economy?\n\n1. The economy was characterised as Goldilocks.\n2. Goldilocks means growth is neither overheating nor slowing.\n3. Goldilocks means the economy is overheating.\n4. Goldilocks means the economy is slowing.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P17.F4"
+   ],
+   "explanation": "Only two statements are correct: the survey described the economy as Goldilocks, meaning growth was neither overheating nor slowing. Overheating and slowing are contrary to this description."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IVF process sequence",
+   "question": "In the world's first IVF female calf of the indigenous Lakhimi breed, which sequence correctly represents the IVF steps?",
+   "options": [
+    "Egg collection → maturation → fertilisation → embryo development → embryo transfer",
+    "Maturation → egg collection → fertilisation → embryo transfer → embryo development",
+    "Egg collection → fertilisation → maturation → embryo development → embryo transfer",
+    "Egg collection → maturation → embryo transfer → fertilisation → embryo development"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F2"
+   ],
+   "explanation": "The correct sequence is egg collection, maturation, fertilisation, embryo development and embryo transfer. The other options alter the order of maturation, fertilisation, embryo development or embryo transfer."
+  }
+ ]
+}

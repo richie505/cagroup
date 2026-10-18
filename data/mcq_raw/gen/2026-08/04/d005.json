@@ -1,0 +1,304 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P6.F11",
+  "P6.F12",
+  "P6.F13",
+  "P6.F14",
+  "P6.F15",
+  "P6.F16",
+  "P6.F17",
+  "P6.F18",
+  "P6.F19",
+  "P6.F2",
+  "P6.F20",
+  "P6.F3",
+  "P6.F4",
+  "P6.F5",
+  "P6.F9",
+  "P7.F1",
+  "P7.F3",
+  "P7.F4",
+  "P7.F5",
+  "P8.F1",
+  "P8.F2",
+  "P8.F3",
+  "P8.F5",
+  "P8.F6",
+  "P8.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coconut-sector indicators",
+   "question": "Consider the following statements about India's coconut sector:\n1. India ranks 3rd in coconut-growing area.\n2. Coconut production in 2024–25 was 20,301.22 million nuts.\n3. The area under coconut cultivation was 2.19 million hectares.\n4. Coconut productivity was 12,027 nuts per hectare.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3",
+    "P6.F4",
+    "P6.F5"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: India ranked 3rd in area, production was 20,301.22 million nuts, and area was 2.19 million hectares. Statement 4 is incorrect because productivity was 9,249 nuts per hectare, not 12,027 nuts per hectare."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coconut Development Board role",
+   "question": "Besides its other functions, what specialised role does the Coconut Development Board perform for coconut products?",
+   "options": [
+    "It serves as the Export Promotion Council for coconut products except husk and fibre",
+    "It serves as the Export Promotion Council for all agricultural products",
+    "It procures ball copra for NAFED and NCCF",
+    "It operates the National Research Centre for Makhana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F9"
+   ],
+   "explanation": "The Coconut Development Board is the Export Promotion Council for coconut products except husk and fibre. The other options refer to functions or institutions not assigned to the Board in this context."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ball copra MSP",
+   "question": "What Minimum Support Price was fixed for ball copra in 2026?",
+   "options": [
+    "₹12,027 per quintal",
+    "₹12,500 per quintal",
+    "₹56,000 per hectare",
+    "₹54,000 per hectare"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F11"
+   ],
+   "explanation": "The 2026 MSP for ball copra was ₹12,500 per quintal. ₹12,027 per quintal was the MSP for milling copra, while the other two figures relate to coconut-area support."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Coconut schemes and assistance",
+   "question": "Match the coconut-sector scheme or activity in List-I with the corresponding provision in List-II.\n\nList-I\n a. Coconut Promotion Scheme\n b. PICCS\n c. Area expansion\n d. Replanting\n\nList-II\n i. Assistance up to ₹54,000 per hectare\n ii. Part of the ₹350 crore allocation for high-value agriculture\n iii. ₹42,000 per hectare\n iv. ₹56,000 per hectare",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F12",
+    "P6.F13",
+    "P6.F14"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i. The Coconut Promotion Scheme formed part of the ₹350 crore high-value agriculture allocation; PICCS provided ₹42,000 per hectare, area expansion ₹56,000 per hectare, and replanting up to ₹54,000 per hectare."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coconut-sector support initiatives",
+   "question": "Which of the following correctly identifies the coconut-sector initiatives associated with climbers, skill development, insurance and sap production?",
+   "options": [
+    "Friends of Coconut Tree, Cocomitra, Kera Kaushal Kendra, Kera Suraksha Insurance and Neera",
+    "Pani Bachao, Paisa Kamao, Mera Pani Meri Virasat and Neera",
+    "PICCS, Cocomitra, Kera Kaushal Kendra and ball copra",
+    "Friends of Coconut Tree, National Makhana Board, Kera Suraksha Insurance and Neera"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F15"
+   ],
+   "explanation": "The listed coconut-sector initiatives are Friends of Coconut Tree, Cocomitra, Kera Kaushal Kendra and Kera Suraksha Insurance. Neera is unfermented, zero-alcohol sap; the other options mix in water-saving schemes, copra or makhana institutions."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Coconut taxonomy and cultivation",
+   "question": "Assertion (A): Coconut is scientifically known as Cocos nucifera and belongs to the family Arecaceae.\nReason (R): Coconut requires rainfall of 3,000–5,000 mm.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F16"
+   ],
+   "explanation": "Assertion A is correct: coconut is Cocos nucifera of the family Arecaceae. Reason R is incorrect because the stated rainfall requirement is 1,000–3,000 mm, not 3,000–5,000 mm."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Coconut export value",
+   "question": "What was the value of India's coconut exports in 2025–26 in US-dollar terms?",
+   "options": [
+    "US$794.70 million",
+    "₹7,038.35 crore",
+    "₹4,349.03 crore",
+    "US$192.96 million"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F17"
+   ],
+   "explanation": "India's coconut exports in 2025–26 were valued at US$794.70 million. ₹4,349.03 crore was the previous year's value, while ₹7,038.35 crore is another reported export-value figure and US$192.96 million relates to a different agricultural product."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Coconut livelihoods and expansion",
+   "question": "Match the coconut-sector indicator in List-I with the corresponding figure or description in List-II.\n\nList-I\n a. People dependent on coconut livelihoods\n b. Farmers included in this livelihood estimate\n c. Kerala's output\n d. New area and rejuvenation during 2025–26\n\nList-II\n i. About 5,149.87 million nuts\n ii. About 3 crore people\n iii. About 1 crore farmers\n iv. 2,175 hectares of new area and rejuvenation on 1,672 hectares",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F18",
+    "P6.F19",
+    "P6.F20"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv. About 3 crore people, including about 1 crore farmers, depend on coconut; Kerala's output was about 5,149.87 million nuts, while 2,175 hectares were newly added and 1,672 hectares rejuvenated in 2025–26."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PM-KUSUM 2.0",
+   "question": "Which statement correctly describes the status of PM-KUSUM and PM-KUSUM 2.0 in the context of solar irrigation?",
+   "options": [
+    "PM-KUSUM installed more than 2.5 million solar pumps in five years, and PM-KUSUM 2.0 was being prepared",
+    "PM-KUSUM installed more than 25 million solar pumps in five years, and PM-KUSUM 2.0 was being prepared",
+    "PM-KUSUM installed more than 2.5 million solar pumps in one year, and PM-KUSUM 2.0 was completed",
+    "PM-KUSUM installed more than 2.5 million solar pumps in five years, and PM-KUSUM 2.0 was abandoned"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "PM-KUSUM installed more than 2.5 million solar pumps in five years, while PM-KUSUM 2.0 was being prepared. The other options alter either the number, the period or the status of PM-KUSUM 2.0."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Solar irrigation economics and emissions",
+   "question": "Consider the following statements:\nStatement A: Under Bangladesh's fee-for-service model, solar irrigation was 20–30% more expensive than diesel.\nStatement B: Groundwater irrigation causes 45–62 million tonnes of CO₂ emissions a year, while farm power subsidies exceed ₹1 lakh crore a year.\nWhich of the following is correct?",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "Both statements are false. Solar irrigation under Bangladesh's fee-for-service model was 20–30% cheaper than diesel, and the reported emissions figure was 45–62 million tonnes of CO₂ a year; Statement B incorrectly changes the subsidy fact into a true statement but combines it with the altered emissions claim."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Water-saving irrigation schemes",
+   "question": "Which pairing of water-saving irrigation schemes with their States is correct?",
+   "options": [
+    "Punjab—Pani Bachao, Paisa Kamao; Haryana—Mera Pani Meri Virasat",
+    "Punjab—Mera Pani Meri Virasat; Haryana—Pani Bachao, Paisa Kamao",
+    "Punjab—Suryashakti Kisan Yojana; Haryana—Mera Pani Meri Virasat",
+    "Punjab—Pani Bachao, Paisa Kamao; Haryana—Suryashakti Kisan Yojana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "Punjab implemented Pani Bachao, Paisa Kamao, while Haryana implemented Mera Pani Meri Virasat. Suryashakti Kisan Yojana is associated with Gujarat and is not the Haryana scheme in this pairing."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Makhana identity and production",
+   "question": "Consider the following statements about makhana:\n1. Makhana is Euryale ferox, an aquatic crop, and its edible part is the seed.\n2. Bihar, West Bengal and Assam are among the principal makhana-producing States.\n3. Bihar accounts for about 80–85% of India's output.\n4. Makhana accounts for about 40% of Bihar's output.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 4 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F3"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: makhana is Euryale ferox, the edible part is the seed, the principal States include Bihar, West Bengal and Assam, and Bihar supplies about 80–85% of global production. Statement 4 is incorrect because about 40% of makhana output is exported, not because it represents Bihar's output."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Makhana output and price",
+   "question": "Which statement correctly describes the output, export share and price movement of makhana?",
+   "options": [
+    "Output exceeded 0.6 lakh MT; about 40% was exported; price rose from about ₹500 per kg in 2020–22 to about ₹1,250 per kg in 2025",
+    "Output exceeded 0.6 lakh MT; about 40% was exported; price fell from about ₹1,250 per kg in 2020–22 to about ₹500 per kg in 2025",
+    "Output exceeded 0.6 lakh MT; about 20% was exported; price rose from about ₹500 per kg in 2020–22 to about ₹1,250 per kg in 2025",
+    "Output was 0.6 lakh MT; about 40% was exported; price rose from about ₹500 per kg in 2020–22 to about ₹1,250 per kg in 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "Makhana output exceeded 0.6 lakh MT, about 40% was exported, and its price increased from about ₹500 per kg in 2020–22 to about ₹1,250 per kg in 2025. The other options alter the export share, price direction or the fact that output exceeded 0.6 lakh MT."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Central Sector Scheme for Makhana",
+   "question": "What allocation was provided under the Central Sector Scheme for Makhana for 2025–26 to 2030–31?",
+   "options": [
+    "₹476.03 crore",
+    "₹350 crore",
+    "₹42,000 crore",
+    "₹192.96 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "The Central Sector Scheme for Makhana was allocated ₹476.03 crore for 2025–26 to 2030–31. ₹350 crore relates to high-value agriculture including coconut, while the other figures refer to different sectoral amounts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Makhana HSN classification",
+   "question": "Which development enabled separate customs classification for makhana in 2025?",
+   "options": [
+    "DGFT assigned separate HSN codes to makhana",
+    "The Coconut Development Board assigned separate HSN codes to makhana",
+    "The National Research Centre for Makhana assigned separate HSN codes to makhana",
+    "The Central Sector Scheme assigned separate HSN codes to makhana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F6"
+   ],
+   "explanation": "The Directorate General of Foreign Trade assigned separate HSN codes to makhana in 2025. The other options name institutions or a scheme that did not perform this classification function."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Research Centre for Makhana",
+   "question": "Which of the following is associated with the National Research Centre for Makhana?",
+   "options": [
+    "Development of varieties, makhana-cum-fish farming and popping machines",
+    "Assignment of separate HSN codes and export promotion",
+    "Solar-pump installation and groundwater-emission monitoring",
+    "Procurement of milling copra and ball copra"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8"
+   ],
+   "explanation": "The National Research Centre for Makhana works on varieties, makhana-cum-fish farming and popping machines. HSN-code assignment is associated with DGFT, while the other options concern solar irrigation or copra procurement."
+  }
+ ]
+}

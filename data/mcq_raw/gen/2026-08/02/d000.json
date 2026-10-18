@@ -1,0 +1,193 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F19",
+  "P0.F20",
+  "P0.F21",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Pendency",
+   "question": "As on 1 January 2026, approximately how many cases were pending before the Supreme Court?",
+   "options": [
+    "92,101",
+    "75,410",
+    "65,615",
+    "5.5 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Approximately 92,101 cases were pending before the Supreme Court on 1 January 2026. The figures 75,410 and 65,615 relate to fresh and disposed cases during 2025, while over 5.5 crore refers to the backlog across all courts."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Fresh and disposed cases",
+   "question": "Which one of the following statements regarding Supreme Court cases in 2025 is incorrect?",
+   "options": [
+    "The Court received 75,410 fresh cases.",
+    "The Court disposed of 65,615 cases.",
+    "The Court received 65,615 fresh cases.",
+    "The number of fresh cases exceeded the number of disposed cases."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "The incorrect statement is that the Court received 65,615 fresh cases; the correct figure was 75,410. The figure 65,615 represented cases disposed of during 2025."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Judicial pendency and judge-population ratio",
+   "question": "With reference to judicial pendency and the availability of judges in India, consider the following statements:\n1. A Constitution Bench consists of at least 5 judges.\n2. The backlog across all courts was over 5.5 crore cases.\n3. The India Justice Report 2025 placed the number of judges at about 50 per million.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: a Constitution Bench has at least 5 judges, and the backlog across all courts was over 5.5 crore cases. Statement 3 is incorrect because the India Justice Report 2025 figure was about 15.9 judges per million; 50 per million was the Law Commission recommendation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Evolution of Supreme Court strength",
+   "question": "Which of the following correctly represents the sanctioned strength of the Supreme Court, including the Chief Justice of India, in 1950 and 1956 respectively?",
+   "options": [
+    "1950: 8; 1956: 11",
+    "1950: 11; 1956: 14",
+    "1950: 8; 1956: 14",
+    "1950: 14; 1956: 11"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "The Supreme Court’s strength, including the Chief Justice of India, was 8 in 1950 and 11 in 1956. The figures 14 and 18 belong to 1960 and 1978 respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Evolution of Supreme Court strength",
+   "question": "Consider the following statements:\nStatement A: In 1960, the strength of the Supreme Court, including the Chief Justice of India, was 18.\nStatement B: In 1978, the strength of the Supreme Court, including the Chief Justice of India, was 18.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F13",
+    "P0.F14"
+   ],
+   "explanation": "Statement A is false because the Supreme Court’s strength was 14 in 1960. Statement B is true because the strength was 18 in 1978."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Evolution of Supreme Court strength",
+   "question": "Assertion (A): In 1986, the strength of the Supreme Court, including the Chief Justice of India, was 26.\nReason (R): In 2009, the strength of the Supreme Court, including the Chief Justice of India, was 31.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F15",
+    "P0.F16"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the strength was 26 in 1986 and 31 in 2009. However, the 2009 figure does not explain the 1986 figure; they are separate stages in the evolution of strength."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Recent Supreme Court strength",
+   "question": "How many of the following statements regarding the strength of the Supreme Court, including the Chief Justice of India, are correct?\n1. In 2019, the strength was 34.\n2. In 2026, the strength was 38.\n3. In 2019, the strength was 31.\n4. In 2026, the strength was 34.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F17",
+    "P0.F18"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: the strength was 34 in 2019 and 38 in 2026. The figures 31 and 34 in statements 3 and 4 do not correspond to those respective years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Article 128",
+   "question": "Under which constitutional provision can the Chief Justice of India, with the President’s consent, request a retired Supreme Court judge to sit and act as a judge of the Court?",
+   "options": [
+    "Article 128",
+    "Article 137",
+    "Article 215",
+    "Article 123"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F19"
+   ],
+   "explanation": "Article 128 enables the Chief Justice of India, with the President’s consent, to request a retired Supreme Court judge to sit and act as a judge. Article 137 concerns the Supreme Court’s review power, while Article 123 concerns the President’s ordinance power."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Constitutional provisions",
+   "question": "Which of the following pairs is correctly matched?",
+   "options": [
+    "Article 137 — Supreme Court’s power of review; Article 215 — High Courts as courts of record",
+    "Article 137 — High Courts as courts of record; Article 215 — Supreme Court’s power of review",
+    "Article 137 — President’s ordinance power; Article 215 — retired Supreme Court judges sitting",
+    "Article 137 — retired Supreme Court judges sitting; Article 215 — President’s ordinance power"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F20"
+   ],
+   "explanation": "Article 137 deals with the Supreme Court’s review power, while Article 215 recognises High Courts as courts of record. The other options interchange these provisions with Articles 123 and 128-related matters."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "President’s ordinance power",
+   "question": "Which constitutional provision deals with the President’s power to promulgate ordinances?",
+   "options": [
+    "Article 123",
+    "Article 128",
+    "Article 137",
+    "Article 215"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F21"
+   ],
+   "explanation": "Article 123 provides for the President’s ordinance power. Articles 128, 137 and 215 concern retired Supreme Court judges sitting, the Supreme Court’s review power and High Courts as courts of record respectively."
+  }
+ ]
+}

@@ -1,0 +1,348 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F18",
+  "P0.F19",
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F24",
+  "P0.F25",
+  "P0.F26",
+  "P0.F27",
+  "P0.F28",
+  "P0.F29",
+  "P0.F30",
+  "P0.F31",
+  "P0.F32",
+  "P0.F33",
+  "P0.F34",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Rank in index",
+   "question": "With reference to the Environmental Performance Index 2026, match List-I with List-II.\n\nList-I (Rank)\na. 1\nb. 2\nc. 3\nd. 4\n\nList-II (Country)\ni. Finland\nii. United Kingdom\niii. Estonia\niv. Luxembourg",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "The correct pairs are 1–Estonia, 2–Luxembourg, 3–United Kingdom and 4–Finland. The tempting second code incorrectly places Luxembourg at rank 1 and Estonia at rank 2."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Rank in index",
+   "question": "With reference to the Environmental Performance Index 2026, match List-I with List-II.\n\nList-I (Rank)\na. 5\nb. 6\nc. 7\nd. 8\n\nList-II (Country)\ni. Norway\nii. France\niii. Netherlands\niv. Germany",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9",
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "The correct pairs are 5–Netherlands, 6–Germany, 7–France and 8–Norway. The second code reverses the positions of Netherlands and Germany and also misplaces Norway."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Rank in index",
+   "question": "With reference to the Environmental Performance Index 2026, match List-I with List-II.\n\nList-I (Rank)\na. 9\nb. 10\n\nList-II (Country)\ni. Austria\nii. Sweden",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12",
+    "P0.F13"
+   ],
+   "explanation": "Sweden ranked 9th and Austria ranked 10th. The tempting second option reverses these two countries."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Index methodology weights",
+   "question": "In the Climate Change Performance Index 2026, what were the weights assigned to greenhouse-gas emissions, renewable energy, energy use and climate policy, respectively?",
+   "options": [
+    "40%, 20%, 20% and 20%",
+    "20%, 40%, 20% and 20%",
+    "40%, 20%, 30% and 10%",
+    "30%, 20%, 20% and 30%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F18"
+   ],
+   "explanation": "The weights were 40% for greenhouse-gas emissions and 20% each for renewable energy, energy use and climate policy. The second option incorrectly gives renewable energy the highest weight."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "CCPI rank and vacant positions",
+   "question": "With reference to the Climate Change Performance Index 2026, consider the following statements:\n1. Denmark ranked 4th.\n2. The United Kingdom ranked 5th.\n3. Morocco ranked 7th.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F19"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Denmark ranked 4th and the United Kingdom 5th. Statement 3 is incorrect because Morocco ranked 6th, not 7th."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate risk rank of India",
+   "question": "According to the Climate Risk Index 2026, what was India's position among the countries most affected over the 30-year period from 1995 to 2024?",
+   "options": [
+    "9th",
+    "8th",
+    "10th",
+    "7th"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F21"
+   ],
+   "explanation": "India was the 9th most affected country over 1995–2024. The nearby alternatives 8th and 10th are ranks associated with other entries in the index, not India’s position."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate risk rank",
+   "question": "Which country ranked 1st in the Climate Risk Index 2026?",
+   "options": [
+    "Dominica",
+    "Myanmar",
+    "Honduras",
+    "Grenada"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F22"
+   ],
+   "explanation": "Dominica ranked 1st in the Climate Risk Index 2026. Myanmar ranked 2nd, Honduras 3rd and Grenada 6th, making them plausible but incorrect alternatives."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate risk rank",
+   "question": "Which country ranked 2nd in the Climate Risk Index 2026?",
+   "options": [
+    "Myanmar",
+    "Dominica",
+    "Honduras",
+    "Haiti"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F23"
+   ],
+   "explanation": "Myanmar ranked 2nd in the Climate Risk Index 2026. Dominica was 1st, Honduras 3rd and Haiti 5th."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate risk rank",
+   "question": "Which country ranked 3rd in the Climate Risk Index 2026?",
+   "options": [
+    "Honduras",
+    "Libya",
+    "Myanmar",
+    "Nicaragua"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F24"
+   ],
+   "explanation": "Honduras ranked 3rd. Libya ranked 4th, Myanmar 2nd and Nicaragua 8th, so each is an adjacent or related but incorrect choice."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate risk rank",
+   "question": "Which country ranked 4th in the Climate Risk Index 2026?",
+   "options": [
+    "Libya",
+    "Honduras",
+    "Haiti",
+    "The Bahamas"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F25"
+   ],
+   "explanation": "Libya ranked 4th in the Climate Risk Index 2026. Honduras was 3rd, Haiti 5th and The Bahamas 10th."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate risk rank",
+   "question": "Which country ranked 5th in the Climate Risk Index 2026?",
+   "options": [
+    "Haiti",
+    "Libya",
+    "Grenada",
+    "The Bahamas"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F26"
+   ],
+   "explanation": "Haiti ranked 5th. Libya occupied rank 4, Grenada rank 6 and The Bahamas rank 10."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate risk rank",
+   "question": "Which country ranked 6th in the Climate Risk Index 2026?",
+   "options": [
+    "Grenada",
+    "Haiti",
+    "Philippines",
+    "Nicaragua"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F27"
+   ],
+   "explanation": "Grenada ranked 6th in the Climate Risk Index 2026. Haiti ranked 5th, the Philippines 7th and Nicaragua 8th."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate risk rank",
+   "question": "Which country ranked 7th in the Climate Risk Index 2026?",
+   "options": [
+    "Philippines",
+    "Grenada",
+    "Nicaragua",
+    "India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F28"
+   ],
+   "explanation": "The Philippines ranked 7th. Grenada was 6th, Nicaragua 8th and India 9th."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate risk rank",
+   "question": "Which country ranked 8th in the Climate Risk Index 2026?",
+   "options": [
+    "Nicaragua",
+    "Philippines",
+    "India",
+    "The Bahamas"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F29"
+   ],
+   "explanation": "Nicaragua ranked 8th in the Climate Risk Index 2026. The Philippines ranked 7th, India 9th and The Bahamas 10th."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate risk rank",
+   "question": "Which country ranked 9th in the Climate Risk Index 2026?",
+   "options": [
+    "India",
+    "Nicaragua",
+    "The Bahamas",
+    "Haiti"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F30"
+   ],
+   "explanation": "India ranked 9th in the Climate Risk Index 2026. Nicaragua ranked 8th, The Bahamas 10th and Haiti 5th."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate risk rank",
+   "question": "Which country ranked 10th in the Climate Risk Index 2026?",
+   "options": [
+    "The Bahamas",
+    "India",
+    "Nicaragua",
+    "Libya"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F31"
+   ],
+   "explanation": "The Bahamas ranked 10th. India was 9th, Nicaragua 8th and Libya 4th."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "India’s sub-ranks",
+   "question": "Consider the following statements:\nStatement A: In the Environmental Performance Index 2026, India's weakest area was air quality at 141st.\nStatement B: India's biodiversity rank was 174th.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F32"
+   ],
+   "explanation": "Statement A is false because India's air-quality rank was 174th, not 141st. Statement B is true: biodiversity was also ranked 174th."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Top score in index",
+   "question": "Among the top three scores reported for the Environmental Performance Index 2026, which country stood second?",
+   "options": [
+    "Luxembourg",
+    "Estonia",
+    "United Kingdom",
+    "Austria"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F33"
+   ],
+   "explanation": "Luxembourg stood second among the top three scores, with 73.88. Estonia led with 74.79 and the United Kingdom followed Luxembourg with 71.89."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "History and edition number",
+   "question": "Assertion (A): The Environmental Performance Index was first released in 2002.\nReason (R): The 2026 edition was the 10th edition.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F34"
+   ],
+   "explanation": "Both the assertion and the reason are true: the index was first released in 2002 and 2026 was its 10th edition. However, the fact that 2026 was the 10th edition does not explain the historical fact that the first edition was released in 2002."
+  }
+ ]
+}

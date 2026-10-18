@@ -1,0 +1,87 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F15",
+  "P0.F2",
+  "P1.F10",
+  "P1.F5",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Project cost and rehabilitation",
+   "question": "Consider the following statements about Phase I of the Poola Subbaiah Veligonda Project:\n1. The cost of Phase I is ₹10,200 crore.\n2. Approximately ₹10,200 crore was paid to displaced families as rehabilitation and resettlement assistance.\n3. The tunnels pass through the Nallamala Hills.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F15"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Phase I cost ₹10,200 crore and the tunnels pass through the Nallamala Hills. Statement 2 is incorrect because approximately ₹762 crore, not ₹10,200 crore, was paid to displaced families."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Airport-linked development",
+   "question": "Which urban development has been proposed in connection with the Alluri Sitarama Raju International Airport at Bhogapuram?",
+   "options": [
+    "GMR Aero City",
+    "40 check-in counters",
+    "10 immigration counters",
+    "The airport's 45-km distance from Visakhapatnam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "GMR Aero City has been proposed in connection with the Bhogapuram airport. The other options are airport details—check-in counters, immigration counters and distance—not proposed urban developments."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Project cost and classification",
+   "question": "Match the projects associated with the ₹17,849 crore programme with their respective amounts.\n\nList-I\n(a) Airport\n(b) Kurnool-4 Renewable Energy Zone transmission\n(c) Recharla–Guravayigudem expressway\n(d) ASIP semiconductor unit\n\nList-II\n(i) ₹5,550 crore\n(ii) ₹468 crore\n(iii) ₹5,641 crore\n(iv) ₹752 crore",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii: the airport cost ₹5,641 crore, Kurnool-4 transmission ₹5,550 crore, the expressway ₹752 crore and the ASIP semiconductor unit ₹468 crore. The other codes interchange these project amounts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NHAI establishment year",
+   "question": "The National Highways Authority of India (NHAI), associated with the road projects in the ₹17,849 crore programme, was established in which year?",
+   "options": [
+    "1988",
+    "1955",
+    "2021",
+    "1996"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F7",
+    "P1.F13",
+    "P0.F1"
+   ],
+   "explanation": "NHAI was established in 1988. The tempting alternatives refer to other dates in the related current-affairs context: Guinness World Records was established in 1955, the India Semiconductor Mission dates to 2021, and the Veligonda Project foundation stone was laid in 1996."
+  }
+ ]
+}

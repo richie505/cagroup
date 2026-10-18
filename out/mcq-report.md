@@ -1,31 +1,31 @@
 # CA MCQ report
 
-- MCQs kept: **4931**
-- News pages with at least one question: **2592 / 2629**
-- Facts tested: **9802 / 20515** (47.8%)
-- Answer positions: A 1245, B 1291, C 1325, D 1070
+- MCQs kept: **5489**
+- News pages with at least one question: **2593 / 2629**
+- Facts tested: **10667 / 20515** (52.0%)
+- Answer positions: A 1387, B 1426, C 1484, D 1192
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 508 | 522 | 543 | 439 |
-| Negative / Incorrect Statement | 117 | 118 | 127 | 124 |
-| Assertion-Reason | 128 | 130 | 166 | 147 |
-| Statement-Based (A/B) | 170 | 115 | 163 | 136 |
-| Multi-Statement Correctness | 183 | 185 | 169 | 160 |
-| Chronological Ordering | 3 | 0 | 1 | 0 |
-| List-Matching | 77 | 74 | 73 | 62 |
-| Count-Based | 59 | 147 | 83 | 2 |
+| Direct Recall | 582 | 580 | 618 | 494 |
+| Negative / Incorrect Statement | 122 | 123 | 128 | 127 |
+| Assertion-Reason | 131 | 139 | 178 | 153 |
+| Statement-Based (A/B) | 189 | 125 | 182 | 146 |
+| Multi-Statement Correctness | 206 | 201 | 183 | 186 |
+| Chronological Ordering | 3 | 1 | 1 | 1 |
+| List-Matching | 92 | 93 | 96 | 82 |
+| Count-Based | 62 | 164 | 98 | 3 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 538 |
-| verify:explanation_contradicts | 76 |
-| verify:not_in_facts | 68 |
-| duplicate | 32 |
-| verify:none_correct | 17 |
-| verify:two_correct | 15 |
+| code | 633 |
+| verify:explanation_contradicts | 89 |
+| verify:not_in_facts | 74 |
+| duplicate | 37 |
+| verify:none_correct | 18 |
+| verify:two_correct | 16 |
 | verify:second reader picked option 2, key 1 | 10 |
 | verify:ambiguous_stem | 4 |
 | verify:garbled | 3 |
@@ -63,17 +63,17 @@
 | 2026-09/09 | Awards, Persons & Appointments | 100 | 178/179 |
 | 2026-09/10 | Sports | 47 | 76/76 |
 | 2026-09/11 | Important Days & Events | 86 | 155/156 |
-| 2026-08/01 | Andhra Pradesh | 46 | 106/230 |
-| 2026-08/02 | Polity & Governance | 32 | 74/169 |
-| 2026-08/03 | Schemes & Social Sector | 19 | 45/97 |
-| 2026-08/04 | Economy, Banking & Budget | 38 | 82/247 |
-| 2026-08/05 | International Relations | 25 | 50/116 |
-| 2026-08/06 | Science, Tech, Space & Defence | 37 | 79/204 |
-| 2026-08/07 | Environment & Geography | 21 | 44/114 |
-| 2026-08/08 | Reports, Indices & Rankings | 23 | 61/128 |
-| 2026-08/09 | Awards, Persons & Appointments | 21 | 54/96 |
-| 2026-08/10 | Sports | 22 | 49/102 |
-| 2026-08/11 | Important Days & Events | 11 | 21/61 |
+| 2026-08/01 | Andhra Pradesh | 123 | 225/230 |
+| 2026-08/02 | Polity & Governance | 90 | 161/169 |
+| 2026-08/03 | Schemes & Social Sector | 53 | 96/97 |
+| 2026-08/04 | Economy, Banking & Budget | 135 | 241/247 |
+| 2026-08/05 | International Relations | 68 | 116/116 |
+| 2026-08/06 | Science, Tech, Space & Defence | 116 | 202/204 |
+| 2026-08/07 | Environment & Geography | 66 | 111/114 |
+| 2026-08/08 | Reports, Indices & Rankings | 61 | 123/128 |
+| 2026-08/09 | Awards, Persons & Appointments | 49 | 96/96 |
+| 2026-08/10 | Sports | 57 | 102/102 |
+| 2026-08/11 | Important Days & Events | 36 | 59/61 |
 | 2026-07/01 | Andhra Pradesh | 48 | 109/234 |
 | 2026-07/02 | Polity & Governance | 15 | 31/89 |
 | 2026-07/03 | Schemes & Social Sector | 25 | 57/176 |
@@ -85,7 +85,7 @@
 | 2026-07/09 | Awards, Persons & Appointments | 13 | 26/158 |
 | 2026-07/10 | Sports | 9 | 16/64 |
 | 2026-07/11 | Important Days & Events | 18 | 29/175 |
-| 2026-06/01 | Andhra Pradesh | 48 | 92/208 |
+| 2026-06/01 | Andhra Pradesh | 47 | 90/208 |
 | 2026-06/02 | Polity & Governance | 12 | 31/83 |
 | 2026-06/03 | Schemes & Social Sector | 47 | 73/157 |
 | 2026-06/04 | Economy, Banking & Budget | 36 | 61/207 |
@@ -472,15 +472,72 @@
 - `2026-08/01/c005#4` verify: none_correct — Facts establish that statements 1 and 2 are correct, but no option lists 1 and 2 only; the explanation incorrectly rejects statement 2.
   - Q: With reference to the satellite transponders fitted on Andhra Pradesh fishing boats, consider the following statements: / 1. The transponders are linked to smartphones through Bluetooth. / 2. They provide
   - Key: 1 only
+- `2026-08/01/d005#3` verify: explanation_contradicts — The explanation incorrectly says both statements are false while also correctly noting that Statement B is true.
+  - Q: With reference to India’s first non-GMO, high-expansion popcorn maize hybrids launched at Musunuru, consider the following statements: / Statement A: The hybrids were genetically modified. / Statement B: 
+  - Key: Both Statement A and Statement B are false
+- `2026-08/01/d006#8` verify: explanation_contradicts — The facts support all four statements, but the explanation incorrectly claims that only three are correct.
+  - Q: How many of the following statements about pangolin species and their protection are correct? / 1. There are eight pangolin species, comprising four African and four Asian species. / 2. The Indian Pangoli
+  - Key: Only three
+- `2026-08/02/d001#4` verify: explanation_contradicts — The facts support statements 1 and 2, but no option represents that combination and the explanation incorrectly rejects statement 2.
+  - Q: With reference to development measures in Left-Wing Extremism-affected areas, consider the following statements: /  / 1. A total of 9,497 mobile towers were established, connecting about 96% of villages. / 
+  - Key: 1 only
 - `2026-08/03/c001#1` verify: explanation_contradicts — All four statements are supported by the facts, while the explanation incorrectly calls the first statement incorrect.
   - Q: Which of the following statements about the Bharat Taxi model is incorrect?
   - Key: Bharat Taxi follows a zero-commission and surge-free model.
+- `2026-08/03/d001#4` verify: two_correct — The three NeGD pair labels are indistinguishable, so multiple permutations of DigiLocker, UMANG and API Setu can be defended.
+  - Q: Match List-I with List-II in the context of Bharat Taxi. /  / List-I /  a. DigiLocker /  b. UMANG /  c. API Setu /  d. AB-PMJAY /  / List-II /  i. Benefit of up to ₹5 lakh after e-Shram registration /  ii. Included in th
+  - Key: a-ii, b-iii, c-iv, d-i
+- `2026-08/03/d002#11` verify: not_in_facts — Statement 4 cannot be judged because the facts do not identify the ministry conducting the campaign.
+  - Q: How many of the following statements about the Nasha Mukt Yuva for Viksit Bharat Sankalp Abhiyan are correct? /  / 1. On the launch day, more than 1 crore youth took the pledge at approximately 10,000 cen
+  - Key: Only two
+- `2026-08/04/d001#4` verify: explanation_contradicts — The facts make Statement A true and Statement B false, but the explanation incorrectly says both are false.
+  - Q: Consider the following statements: / Statement A: The MMDR Act was enacted in 1957 and amended in 2023. / Statement B: The Centre cannot auction critical minerals under the amended framework.
+  - Key: Both Statement A and Statement B are false
+- `2026-08/04/d001#8` verify: explanation_contradicts — All three listed statements are supported by the facts, not only two.
+  - Q: How many of the following statements about State revenue from mining are correct? / 1. States account for approximately 90% of mining revenue. / 2. State mining revenue increased by 354% since 2014. / 3. St
+  - Key: Only two
+- `2026-08/04/d002r2#2` verify: none_correct — Every option reverses or misstates the service dates or durations given in the facts.
+  - Q: Which one of the following correctly describes a service detail of ex-INS Viraat?
+  - Key: It served the Royal Navy for 30 years.
+- `2026-08/04/d003#1` verify: explanation_contradicts — The facts show statements 1 and 3 are true; more than 70% of electricity is also more than 60%.
+  - Q: With reference to India’s energy position in 2026, consider the following statements: /  / 1. India is the second-largest coal producer and consumer. / 2. India is the third-largest crude refiner. / 3. Coal m
+  - Key: 1 only
+- `2026-08/04/d005#9` verify: explanation_contradicts — Statement B is supported by the facts, so the correct option is 3 rather than the explanation's claim that both statements are false.
+  - Q: Consider the following statements: / Statement A: Under Bangladesh's fee-for-service model, solar irrigation was 20–30% more expensive than diesel. / Statement B: Groundwater irrigation causes 45–62 milli
+  - Key: Both Statement A and Statement B are false
+- `2026-08/04/d005#11` verify: explanation_contradicts — The facts give Bihar about 80–85% of global supply, not India's output; they state about three-quarters of India's output.
+  - Q: Consider the following statements about makhana: / 1. Makhana is Euryale ferox, an aquatic crop, and its edible part is the seed. / 2. Bihar, West Bengal and Assam are among the principal makhana-producin
+  - Key: 1, 2 and 3
+- `2026-08/04/d007#3` verify: not_in_facts — The facts establish FDI of US$30.7 billion in Q1, but do not establish whether it occurred during April–May 2026 specifically.
+  - Q: Assertion (A): India recorded a current account surplus of US$2.8 billion during April–May 2026. / Reason (R): India's FDI inflow was US$30.7 billion during April–May 2026.
+  - Key: A is true, but R is false
 - `2026-08/06/c001#2` verify: explanation_contradicts — Statement 4 is also supported by the facts, so all four statements are correct.
   - Q: Consider the following statements about India’s defence self-reliance indicators: / 1. Defence production in 2025–26 reached a record ₹1.78 lakh crore, with the public sector accounting for 76%. / 2. Defe
   - Key: Only three
+- `2026-08/06/d000#2` verify: explanation_contradicts — The fact sequence and explanation conflict about whether the figures changed from 113 to 52 or from 52 to 113, making more than one statement potentially incorrect.
+  - Q: Which of the following statements regarding authorisations for non-government entities in the space sector is incorrect?
+  - Key: Authorisations increased from 52 to 113 NGEs.
+- `2026-08/06/d005#5` verify: not_in_facts — The facts say the venue and dates were confirmed after the meeting, not that India’s participation was confirmed then.
+  - Q: Assertion (A): India is to join Talisman Sabre 2027. / Reason (R): India’s participation was confirmed after the 2nd India–Australia Defence Ministers’ Meeting.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-08/06/d006#6` verify: not_in_facts — The facts do not explicitly associate the NIKA2 drone with India’s smallest Union Territory by area.
+  - Q: Match the entities in List-I with the associated descriptions in List-II. /  / List-I / (a) Lakshadweep / (b) NIKA2 Kisan Medium Drone / (c) Shivraj Singh Chouhan / (d) Akin Analytics /  / List-II / (i) Unveiled the NI
+  - Key: a-ii, b-iv, c-i, d-iii
 - `2026-08/07/c002#5` verify: not_in_facts — The facts establish the species and its listings but do not establish that it is Meghalaya's State Animal.
   - Q: Assertion (A): The clouded leopard is classified as Endangered by the IUCN. / Reason (R): The clouded leopard is Meghalaya's State Animal, scientifically known as Neofelis nebulosa, and is included in S
   - Key: A is false, but R is true
+- `2026-08/07/d000#1` verify: explanation_contradicts — The fact that India has 800+ GIs also establishes that it has more than 700, so statement 3 is correct.
+  - Q: How many of the following statements regarding India’s Geographical Indications are correct? / 1. India has more than 800 registered GIs. / 2. As a since-2014 figure, 607 GIs are recorded. / 3. India has mo
+  - Key: Only two
+- `2026-08/07/d000r2#1` verify: explanation_contradicts — More than 800 also entails more than 700, so statements 1 and 3 are correct; statement 2 is false because the fact says since 2014.
+  - Q: With reference to the growth of geographical indications in India, consider the following statements: / 1. India has more than 800 geographical indications. / 2. Since 2015, 607 geographical indications h
+  - Key: 1 only
+- `2026-08/07/d001#2` verify: not_in_facts — The facts support that Pirul is resin-rich and inflammable but do not establish that its accumulation contributes to fire vulnerability.
+  - Q: Which of the following statements about Chir pine needles is incorrect?
+  - Key: They are non-inflammable because of their low resin content.
+- `2026-08/07/d003#3` verify: explanation_contradicts — The facts state that the Central Insecticides Board and Registration Committee function under the Ministry of Agriculture, making statements 1, 2 and 3 correct.
+  - Q: Consider the following statements regarding the regulatory framework connected with the proposed carbosulfan ban: / 1. The Registration Committee was consulted under the Insecticides Act, 1968. / 2. The I
+  - Key: Only two
 - `2026-08/08/c002#4` verify: explanation_contradicts — Statements 1 and 3 are supported, while Statement 2 is contradicted by the facts.
   - Q: With reference to NITI Aayog’s report “Key Sectors to Position India as a Global Manufacturing Hub”, consider the following statements: / 1. The report was released on 13 August 2026. / 2. Chemicals was e
   - Key: 1 only
@@ -499,6 +556,12 @@
 - `2026-08/10/c002#5` verify: second reader picked option 2, key 1 — 
   - Q: Consider the following statements about sports funding for 2026–27 to 2030–31: / 1. The total allocation is ₹7,386 crore. / 2. Athlete training has an allocation of ₹4,236.74 crore. / 3. The allocation for 
   - Key: Only two
+- `2026-08/10/d000#8` verify: not_in_facts — The facts support the 2026 Scottish hosting but do not establish that the Games were hosted in Glasgow.
+  - Q: Which of the following statements regarding the 23rd Commonwealth Games 2026 is incorrect?
+  - Key: Scotland hosted the Commonwealth Games in 1970, 1986, 2014 and 2030.
+- `2026-08/10/d001#2` verify: explanation_contradicts — The facts support statement 3 because 2011 is explicitly identified as India’s first women’s-doubles medal.
+  - Q: Consider the following statements about India’s performance at the BWF World Badminton Championships 2026: /  / 1. Treesa Jolly–Gayatri Gopichand won a bronze medal in women’s doubles. / 2. Ayush Shetty def
+  - Key: 1 and 2 only
 - `2026-07/02/c002#3` verify: explanation_contradicts — Statements 1, 3, and 4 are correct, so the answer is Only three; the given explanation incorrectly says Only two and misstates the Karnataka detail.
   - Q: With reference to the ADR and National Election Watch analysis of sitting Chief Ministers, how many of the following statements are correct? / 1. Fourteen of the thirty-one sitting Chief Ministers decla
   - Key: Only two

@@ -1,0 +1,198 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P2.F3",
+  "P2.F4",
+  "P2.F5",
+  "P3.F3",
+  "P3.F4",
+  "P3.F5",
+  "P3.F6",
+  "P5.F3",
+  "P6.F3",
+  "P6.F4",
+  "P7.F5",
+  "P7.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Award background and distinction",
+   "question": "The Ramon Magsaysay Award, instituted in 1957, is popularly known by which distinction?",
+   "options": [
+    "The Nobel Prize of Asia",
+    "The Nobel Prize of Africa",
+    "The Commonwealth Prize of Asia",
+    "The Manila Prize for Public Service"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The Ramon Magsaysay Award is popularly called the “Nobel Prize of Asia.” It was instituted in 1957, with the first awards presented in 1958; the Manila-based award carries a prize of US$50,000."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Announcement date and first Indian organisation",
+   "question": "Consider the following statements:\nStatement A: The 68th Ramon Magsaysay Awards 2026 were announced on 31 August 2026.\nStatement B: Educate Girls became the first Indian organisation to win the award in 2025 after reaching more than 2 million girls in over 30,000 villages.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "Both statements are correct. The 2026 awards were announced on 31 August 2026, while Educate Girls won in 2025 as the first Indian organisation and had reached more than 2 million girls in over 30,000 villages."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Field of work",
+   "question": "Deepak Dhar’s work recognised by the 2026 Dirac Medal is associated primarily with which field?",
+   "options": [
+    "Statistical mechanics",
+    "Community empowerment",
+    "Human-rights advocacy",
+    "Public service"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "Deepak Dhar was recognised for work in statistical mechanics, including sandpile models and self-organised criticality. Community empowerment, human-rights advocacy and public service are not the field stated for his work."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Medal institution and prize",
+   "question": "With reference to the Dirac Medal, consider the following statements:\n1. The medal was instituted in 1985.\n2. The medal carries a prize of US$5,000.\n3. The International Centre for Theoretical Physics was established in 1965.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Dirac Medal was instituted in 1985 and carries US$5,000. Statement 3 is incorrect because the ICTP was established in 1964, not 1965."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scientific work and instrument",
+   "question": "Which instrument is associated with Annapurni Subramaniam’s research on stellar populations, blue straggler stars and galaxy evolution?",
+   "options": [
+    "UVIT on AstroSat",
+    "The COSPAR Scientific Assembly",
+    "The International Science Council",
+    "A Tamrapatra"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "Annapurni Subramaniam’s research includes stellar populations, blue straggler stars and galaxy evolution using UVIT on AstroSat. The other options refer to an assembly, an organisation and an award-related item rather than the instrument associated with this work."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Frequency and awarding organisations",
+   "question": "How is the COSPAR Vikram Sarabhai Medal awarded?",
+   "options": [
+    "Jointly by COSPAR and ISRO every two years at the COSPAR Scientific Assembly",
+    "Annually by COSPAR alone at its headquarters in Paris",
+    "Every two years by ISRO alone at the Indian Institute of Astrophysics",
+    "Jointly by the International Science Council and ISRO every five years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "The medal is given jointly by COSPAR and ISRO every two years at the COSPAR Scientific Assembly. It is not an annual COSPAR-only award or a five-yearly award of the International Science Council and ISRO."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Earlier Indian winners and institutional background",
+   "question": "Match List-I with List-II in the context of the COSPAR Vikram Sarabhai Medal and COSPAR:\n\nList-I\n a. R. Rao\n b. Gurbax Singh Lakhina\n c. Anil Bhardwaj\n d. Establishment of COSPAR\n\nList-II\n i. 1996\n ii. 2014\n iii. 2024\n iv. 1958",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F6"
+   ],
+   "explanation": "The correct pairs are R. Rao—1996, Gurbax Singh Lakhina—2014, Anil Bhardwaj—2024 and COSPAR establishment—1958. The other codes interchange the years or the establishment year."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment and UN recognition",
+   "question": "Which description correctly relates to Dr Anuradha Reddy’s international recognition?",
+   "options": [
+    "She became an ambassador of the UN Women’s Empowerment Principles, launched in 2010 with seven principles, and received the Lifetime Achievement Award and WEP Hall of Fame recognition on UN Public Service Day.",
+    "She became an ambassador of the UN Women’s Empowerment Principles, launched in 2011 with seven principles, and received the awards on National Handloom Day.",
+    "She became an ambassador of the UN Women’s Empowerment Principles, launched in 2010 with five principles, and received the awards on 23 August.",
+    "She became an ambassador of the UN Women’s Empowerment Principles, launched in 2010 with ten principles, and received the awards on the COSPAR Scientific Assembly."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "Dr Anuradha Reddy became an ambassador of the UN Women’s Empowerment Principles, which were launched in 2010 with seven principles. She also received the Lifetime Achievement Award and WEP Hall of Fame recognition on UN Public Service Day."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Miss Universe venue and Indian winners",
+   "question": "With reference to Miss Universe 2026 and India’s Miss Universe winners, how many of the following statements are correct?\n1. The 75th Miss Universe is scheduled to be held in Puerto Rico in November 2026.\n2. Sushmita Sen won the Miss Universe title for India in 1994.\n3. Lara Dutta won the title in 2001.\n4. Harnaaz Sandhu won the title in 2020.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "Exactly two statements are correct: the 75th Miss Universe is scheduled in Puerto Rico in November 2026, and Sushmita Sen won for India in 1994. Lara Dutta won in 2000 and Harnaaz Sandhu in 2021, making statements 3 and 4 incorrect."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Commemorative stamps and National Handloom Day",
+   "question": "Assertion (A): The National Handloom and Sant Kabir Handloom Awards 2025 were accompanied by four commemorative stamps and the presentation of “Earth. Root. Thread – Aal Dyed Handloom Textiles of Central India”.\nReason (R): National Handloom Day was first observed in 2016 and commemorates the Swadeshi Movement of 7 August 1905.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F5",
+    "P7.F6"
+   ],
+   "explanation": "Assertion A is true because four commemorative stamps and the specified handloom textile presentation were also part of the event. Reason R is false: National Handloom Day was first observed in 2015, although it commemorates the Swadeshi Movement of 7 August 1905."
+  }
+ ]
+}

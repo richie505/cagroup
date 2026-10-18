@@ -1,0 +1,126 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P11.F3",
+  "P7.F2",
+  "P7.F3",
+  "P7.F4",
+  "P7.F5",
+  "P8.F3",
+  "P8.F4",
+  "P9.F1",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Maritime heritage site and ministerial roundtable",
+   "question": "Consider the following statements regarding India–Singapore relations in August 2026:\n1. The National Maritime Heritage Complex associated with the maritime heritage initiative is located at Lothal in Gujarat.\n2. Lothal is associated with a Harappan dockyard site.\n3. The 4th India–Singapore Ministerial Roundtable was held in Singapore in August 2026.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3",
+    "1 and 3 only"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "All three statements are correct. The National Maritime Heritage Complex is at Lothal in Gujarat, a Harappan dockyard site, and the 4th India–Singapore Ministerial Roundtable was held in Singapore in August 2026. The options omitting one statement are therefore incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Milestone in bilateral relations",
+   "question": "India and Singapore upgraded their relationship to a Comprehensive Strategic Partnership in which year?",
+   "options": [
+    "2015",
+    "2022",
+    "2024",
+    "1965"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "India and Singapore established diplomatic ties in 1965, a Strategic Partnership in 2015, and a Comprehensive Strategic Partnership in 2024. Therefore, 2024 is the correct answer; 2015 refers to the earlier Strategic Partnership."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Semiconductor cooperation mechanism",
+   "question": "Under which initiative are India and Singapore cooperating on semiconductors?",
+   "options": [
+    "Green Lane Initiative",
+    "Comprehensive Strategic Partnership",
+    "India–Singapore Ministerial Roundtable",
+    "National Maritime Heritage Complex"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "Semiconductor cooperation between India and Singapore is being pursued under the Green Lane Initiative. The other options refer to a broader partnership, a ministerial forum, and a maritime heritage complex, respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Export resumption and design origin",
+   "question": "With reference to India's supply of LHB coaches to Bangladesh Railway, consider the following statements:\nStatement A: Exports of LHB coaches to Bangladesh resumed after approximately five years.\nStatement B: The LHB design originated in Germany.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "Statement A is false because exports resumed after approximately 10 years, not five years. Statement B is true because the LHB design originated in Germany."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Talks venue and Bhutanese identifiers",
+   "question": "Match List-I with List-II in the context of the India–Bhutan Development Cooperation Talks and Bhutan:\n\nList-I\n a. 5th India–Bhutan Development Cooperation Talks\n b. Venue of the talks\n c. King of Bhutan\n d. Currency of Bhutan\n\nList-II\n i. Ngultrum\n ii. Thimphu\n iii. 5th Development Cooperation Talks\n iv. Jigme Khesar Namgyel Wangchuck",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F4"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i. The 5th talks were held in Thimphu; Bhutan's King is Jigme Khesar Namgyel Wangchuck and its currency is the Ngultrum. The other codes interchange these venue, leadership and currency details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate-finance citizenship programme",
+   "question": "Which programme did Nauru launch as a non-debt climate-finance mechanism?",
+   "options": [
+    "Nauru Economic and Climate Resilience Citizenship Program",
+    "Green Lane Initiative",
+    "Comprehensive Strategic Partnership",
+    "Maritime Defence Alliance"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "Nauru launched the Nauru Economic and Climate Resilience Citizenship Program as a non-debt climate-finance mechanism. The other options relate to India–Singapore cooperation or a maritime-security grouping, not Nauru's programme."
+  }
+ ]
+}

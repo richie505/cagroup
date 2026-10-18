@@ -1,0 +1,213 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P4.F1",
+  "P4.F7",
+  "P4.F8",
+  "P5.F10",
+  "P5.F11",
+  "P5.F12",
+  "P5.F13",
+  "P5.F5",
+  "P5.F6",
+  "P5.F7",
+  "P5.F8",
+  "P5.F9",
+  "P6.F1",
+  "P6.F10",
+  "P6.F3",
+  "P6.F4",
+  "P7.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Case name",
+   "question": "Which case concerned the custodial death probe in Andhra Pradesh in the Supreme Court ruling on police custody under the Bharatiya Nagarik Suraksha Sanhita, 2023?",
+   "options": [
+    "State of Andhra Pradesh vs Suda Suresh Veera Venkata Naga Raju",
+    "Prevention of Insults to National Honour (Amendment) Act, 2026",
+    "Kerala (Alteration of Name) Bill, 2026",
+    "31st Southern Zonal Council meeting"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The case was State of Andhra Pradesh vs Suda Suresh Veera Venkata Naga Raju, concerning a custodial death probe in Andhra Pradesh. The other options refer to a national-honour law, a name-alteration Bill and a Zonal Council meeting."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Default bail period",
+   "question": "Consider the following statements:\nStatement A: Under Section 187(3) of the BNSS, detention may extend to 90 days in cases involving death, life imprisonment or imprisonment of 10 years or more, and to 60 days in other cases, after which default bail follows.\nStatement B: Under Section 167 of the CrPC, police custody was generally available during the first 40 or 60 days.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F7",
+    "P4.F8"
+   ],
+   "explanation": "Statement A is correct: Section 187(3) provides the 90-day or 60-day detention periods followed by default bail. Statement B is incorrect because Section 167 of the CrPC generally placed the 15-day police-custody period in the first 15 days, not the first 40 or 60 days."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Passage of amendment",
+   "question": "The Prevention of Insults to National Honour (Amendment) Act, 2026 was passed by the Lok Sabha on which date?",
+   "options": [
+    "29 July 2026",
+    "30 July 2026",
+    "24 July 2026",
+    "23 December 1971"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "The Lok Sabha passed the amendment on 30 July 2026. The Rajya Sabha passed it on 29 July 2026, while it was introduced there on 24 July 2026."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Vande Mataram history",
+   "question": "Match List-I with List-II regarding the history and legal background of Vande Mataram.\n\nList-I\n a. Prevention of Insults to National Honour Act\n b. Vande Mataram\n c. Rabindranath Tagore and the Swadeshi movement\n d. CWC decision\n\nList-II\n i. Enacted on 23 December 1971; Section 2 concerns the Flag and Constitution\n ii. Composed by Bankim Chandra Chatterjee; first published in Bangadarshan on 7 November 1875 and included in Anandamath in 1882\n iii. Tagore sang it at the 1896 INC session in Calcutta; it became a slogan on 7 August 1905\n iv. In October 1937, only the first two stanzas were prescribed for official gatherings",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F7",
+    "P5.F8",
+    "P5.F9"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. The Act was enacted on 23 December 1971, Vande Mataram was composed and published as stated, Tagore sang it in 1896, and the CWC decision in October 1937 limited official gatherings to the first two stanzas."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Equal honour",
+   "question": "Who accorded Vande Mataram equal honour with Jana Gana Mana on 24 January 1950?",
+   "options": [
+    "Rabindranath Tagore",
+    "Bankim Chandra Chatterjee",
+    "Rajendra Prasad",
+    "Droupadi Murmu"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F10"
+   ],
+   "explanation": "Rajendra Prasad accorded Vande Mataram equal honour with Jana Gana Mana on 24 January 1950. Bankim Chandra Chatterjee was its composer, Rabindranath Tagore sang it at the 1896 INC session, and Droupadi Murmu gave assent to the 2026 amendment."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Judicial protection and anniversary",
+   "question": "With reference to Vande Mataram, consider the following statements:\n1. In Bijoe Emmanuel v. State of Kerala, silence by Jehovah's Witness students was protected under Articles 19(1)(a) and 25.\n2. The year 2026 marks the 150th anniversary of Vande Mataram.\n3. The Bijoe Emmanuel ruling required the Jehovah's Witness students to sing Vande Mataram.",
+   "options": [
+    "1 and 2 only",
+    "1 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F11",
+    "P5.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Bijoe Emmanuel ruling protected the students' silence, and 2026 marks the 150th anniversary of Vande Mataram. Statement 3 is incorrect because the ruling protected silence rather than requiring the students to sing."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Presidential assent",
+   "question": "Who gave assent to the Prevention of Insults to National Honour (Amendment) Act, 2026?",
+   "options": [
+    "Rajendra Prasad",
+    "Droupadi Murmu",
+    "Rabindranath Tagore",
+    "Amit Shah"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F13"
+   ],
+   "explanation": "President Droupadi Murmu gave assent to the Prevention of Insults to National Honour (Amendment) Act, 2026. Rajendra Prasad is associated with according equal honour to Vande Mataram and Jana Gana Mana in 1950."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Venue, chair and membership",
+   "question": "With reference to the 31st Southern Zonal Council meeting, consider the following statements:\n1. It was held at Mahabalipuram, Tamil Nadu, on 20 August 2026, under the chairmanship of Union Home Minister Amit Shah.\n2. The Southern Zonal Council comprises Andhra Pradesh, Karnataka, Kerala, Tamil Nadu, Telangana and Puducherry.\n3. The meeting was held at Chennai, Tamil Nadu, on 20 August 2026.",
+   "options": [
+    "1 and 2 only",
+    "1 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The meeting was held at Mahabalipuram under Amit Shah, and the Southern Zonal Council includes the six listed members; Chennai is the incorrect substitute for Mahabalipuram."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Vice-chairmanship and secretariat",
+   "question": "Consider the following statements regarding the Southern Zonal Council:\nStatement A: Its Vice-Chairman is a member-State Chief Minister selected by annual rotation.\nStatement B: Its secretariat is the North Eastern Council Secretariat.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "Statement A is correct because the Vice-Chairman is a member-State Chief Minister chosen by annual rotation. Statement B is incorrect: the secretariat is the Inter-State Council Secretariat under the Ministry of Home Affairs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Special invitees",
+   "question": "Which places are special invitees to the Southern Zonal Council despite being outside any Zonal Council?",
+   "options": [
+    "Andaman and Nicobar and Lakshadweep",
+    "Andhra Pradesh and Puducherry",
+    "Assam and Meghalaya",
+    "Goa and Maharashtra"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F10"
+   ],
+   "explanation": "Andaman and Nicobar and Lakshadweep are in no Zonal Council and attend the Southern Zonal Council as special invitees. Andhra Pradesh and Puducherry are members of the Southern Zonal Council, while Assam and Meghalaya belong to the North Eastern Council."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Legislative sequence",
+   "question": "Which sequence correctly describes the parliamentary consideration of the Kerala (Alteration of Name) Bill, 2026?",
+   "options": [
+    "Rajya Sabha first, followed by Lok Sabha",
+    "Lok Sabha first, followed by Rajya Sabha",
+    "State Assembly first, followed by Lok Sabha and then Rajya Sabha",
+    "Rajya Sabha and Lok Sabha considered it simultaneously"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "The Bill was passed first by the Lok Sabha and then by the Rajya Sabha. The State proposal had been sent in June 2024 after a unanimous Assembly resolution, but the parliamentary sequence began with the Lok Sabha."
+  }
+ ]
+}

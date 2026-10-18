@@ -1,0 +1,236 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F2",
+  "P10.F4",
+  "P11.F1",
+  "P12.F3",
+  "P14.F1",
+  "P16.F2",
+  "P16.F4",
+  "P16.F5",
+  "P7.F1",
+  "P7.F2",
+  "P7.F3",
+  "P7.F4",
+  "P7.F5",
+  "P7.F6",
+  "P8.F2",
+  "P9.F2",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Completion milestone",
+   "question": "The Jal Jeevan Mission, announced on 15 August 2019, completed how many years on 15 August 2026?",
+   "options": [
+    "5 years",
+    "6 years",
+    "7 years",
+    "8 years"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The Jal Jeevan Mission completed 7 years on 15 August 2026 after its announcement on 15 August 2019. The tempting answer of 6 years is incorrect because the period from 2019 to 2026 is seven years."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Coverage, service standard and deadline",
+   "question": "Match the following aspects of the Jal Jeevan Mission with the corresponding figures or standard:\n\nList-I\n(a) Rural households covered\n(b) Rural household coverage in 2026\n(c) Functional Household Tap Connection standard\n(d) Extended deadline\n\nList-II\n(i) 55 litres per person per day\n(ii) December 2028\n(iii) 15.91 crore+\n(iv) 82%+\n\nSelect the correct code.",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii: 15.91 crore+ households, 82%+ coverage, 55 litres per person per day, and December 2028. The other codes interchange the coverage figures, service standard and deadline."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Implementing agency and funding pattern",
+   "question": "With reference to the Jal Jeevan Mission, consider the following statements:\n\n1. It is implemented by the Department of Drinking Water and Sanitation under the Ministry of Jal Shakti.\n2. Himalayan and North-Eastern States receive funding in the ratio of 90:10, while other States receive funding in the ratio of 50:50.\n3. Union Territories receive funding in the ratio of 50:50.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F5",
+    "P7.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Union Territories receive 100% Central funding, not funding in the ratio of 50:50, so statement 3 is incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Amount already transferred",
+   "question": "Under the continuation of PM-KISAN, what amount had already been transferred to beneficiaries?",
+   "options": [
+    "₹3.15 lakh crore+",
+    "₹4.47 lakh crore+",
+    "₹7,200 crore",
+    "₹99,446 crore"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "More than ₹4.47 lakh crore had already been transferred under PM-KISAN. ₹3.15 lakh crore is the outlay for the continuation period, while ₹7,200 crore and ₹99,446 crore relate to other schemes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Outlay and employment impact",
+   "question": "What were the reported outlay and formal-employment impact of the PM-Viksit Bharat Rozgar Yojana after one year?",
+   "options": [
+    "₹99,446 crore and 72 lakh+ first-time workers",
+    "₹4.47 lakh crore and 72 lakh+ first-time workers",
+    "₹99,446 crore and 2 lakh+ first-time workers",
+    "₹7,200 crore and 72 lakh+ first-time workers"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The scheme had an outlay of ₹99,446 crore and enabled more than 72 lakh first-time workers to enter formal employment. The other options substitute figures associated with PM-KISAN, PM-AASHA or Jal Jeevan Mission."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Two-part design",
+   "question": "Consider the following statements:\nStatement A: The Employee part of the PM-Viksit Bharat Rozgar Yojana supports first-time entrants.\nStatement B: The Employer part provides support specifically to first-time entrants rather than incentivising additional jobs.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "Statement A is true because the Employee part supports first-time entrants. Statement B is false: the Employer part incentivises the creation of additional jobs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch and outlay",
+   "question": "The Pradhan Mantri Annadata Aay SanraksHan Abhiyan, or PM-AASHA, was launched in which year and provided what allocation for 2026–27?",
+   "options": [
+    "September 2018 and ₹7,200 crore",
+    "September 2019 and ₹7,200 crore",
+    "September 2018 and ₹99,446 crore",
+    "September 2020 and ₹3.15 lakh crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "PM-AASHA was launched in September 2018 and received ₹7,200 crore for 2026–27. The other options alter either the launch year or the allocation by using figures from other schemes."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Components and MSP recommendation",
+   "question": "With reference to PM-AASHA and the Minimum Support Price, consider the following statements:\n\n1. PM-AASHA has four components: PSS, PSF, PDPS and MIS.\n2. MSP is recommended by the Commission for Agricultural Costs and Prices.\n3. MSP is administered by the Ministry of Rural Development.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2",
+    "P10.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the four components are PSS, PSF, PDPS and MIS, and MSP is recommended by CACP. Statement 3 is incorrect because the relevant ministry is the Ministry of Agriculture and Farmers Welfare."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch venue and organisation",
+   "question": "Yashoda AI and She Serves were launched by the National Commission for Women at which location?",
+   "options": [
+    "Jalandhar, Punjab",
+    "New Delhi",
+    "Budhni, Madhya Pradesh",
+    "Dewas, Madhya Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The National Commission for Women launched the initiatives in Jalandhar, Punjab, under the chairpersonship of Vijaya Rahatkar. New Delhi is associated with several other initiatives, while Budhni and Dewas were pilot locations of Mission Samriddh Gaon."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mission objective",
+   "question": "Which of the following correctly describes the aims of Mission Samriddh Gaon?",
+   "options": [
+    "Creating poverty-free villages and curbing distress migration",
+    "Providing organ matching and allocation for hospitals",
+    "Promoting careers in the Armed Forces for young women",
+    "Delivering a maternal-care course through Ayurveda"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "Mission Samriddh Gaon aims to create poverty-free villages and curb distress migration. The other options describe e-Pratyaropan, She Serves and Garbhini Mitra respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Language and subject coverage",
+   "question": "Jago AI Assistant, launched by the Ministry of Tribal Affairs, provides an AI-based conversational interface on Scheduled Tribe welfare schemes in which languages?",
+   "options": [
+    "English and Hindi",
+    "Hindi and Punjabi",
+    "English and Tamil",
+    "Hindi and Marathi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "Jago AI Assistant covers Scheduled Tribe welfare schemes through an AI conversational assistant available in English and Hindi. The other language combinations are not the language pair specified for the assistant."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Campaign participation, aim and background",
+   "question": "How many of the following statements about the Nasha Mukt Yuva for Viksit Bharat Sankalp Abhiyan are correct?\n\n1. On the launch day, more than 1 crore youth took the pledge at approximately 10,000 centres, with 125+ spiritual organisations joining.\n2. The campaign aims at youth participation, drug prevention and Viksit Bharat–2047.\n3. MY Bharat was launched in 2023; NSS was established in 1969, but its motto is “Service Before Self”.\n4. The campaign is conducted through the Ministry of Rural Development.\n\nSelect the correct answer.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P16.F2",
+    "P16.F4",
+    "P16.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the NSS motto is “Not Me But You”, and statement 4 is incorrect because the campaign is associated with the Ministry of Youth Affairs and Sports through MY Bharat."
+  }
+ ]
+}

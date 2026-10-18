@@ -1,0 +1,127 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F3",
+  "P10.F4",
+  "P12.F2",
+  "P4.F3",
+  "P5.F7",
+  "P6.F2",
+  "P6.F4",
+  "P9.F2",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Propellant and application",
+   "question": "Astrobase Space Technologies’ “Everest” engine, unveiled in Bengaluru in August 2026, uses which propellants and is intended for which application?",
+   "options": [
+    "Liquid oxygen and liquid methane; reusable medium-to-heavy launchers",
+    "Liquid oxygen and liquid hydrogen; reusable medium-to-heavy launchers",
+    "Liquid oxygen and liquid methane; submarine rescue vehicles",
+    "Liquid nitrogen and liquid methane; reusable medium-to-heavy launchers"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "The Everest engine uses liquid oxygen and liquid methane, known as methalox, and is intended for reusable medium-to-heavy launchers. The tempting alternative involving liquid hydrogen changes the stated propellant."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence procurement category",
+   "question": "In the procurement of ICGS Ajit, the Buy–IDDM category refers to preference for products that are:",
+   "options": [
+    "Indigenously Designed, Developed and Manufactured",
+    "Indigenously Developed, Imported and Manufactured",
+    "Internationally Designed, Developed and Marketed",
+    "Indigenously Designed, Deployed and Maintained"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F7"
+   ],
+   "explanation": "Buy–IDDM gives preference to products that are Indigenously Designed, Developed and Manufactured. The other options alter the meaning of the procurement category."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Technology transfer agreements",
+   "question": "With reference to the technology-transfer agreements signed by the Naval Science and Technological Laboratory at Visakhapatnam in August 2026, consider the following statements:\n\n1. NSTL signed two technology-transfer licences.\n2. LM2500 gas-turbine fabrication and installation technology was transferred to Vertex Engineering Systems, Hyderabad.\n3. LM2500 gas-turbine fabrication and installation technology was transferred to Bharat Dynamics Ltd.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: NSTL signed two technology-transfer licences, and the LM2500 technology was transferred to Vertex Engineering Systems, Hyderabad. Statement 3 is incorrect because the recipient was Vertex Engineering Systems, not Bharat Dynamics Ltd."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "AI fighter programme and loitering munition",
+   "question": "With reference to FWD Supreme Light and the loitering munition reported in August 2026, match List-I with List-II.\n\nList-I\n a. Proposed endurance of FWD Supreme Light\n b. Proposed range of FWD Supreme Light\n c. Approximate mass of its demonstrator\n d. Loitering munition\n\nList-II\n i. Approximately 3,000 km\n ii. Destroyed with its warhead on impact\n iii. Up to 30 hours\n iv. Approximately 250 kg\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2",
+    "P9.F4"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii. FWD Supreme Light was proposed with endurance up to 30 hours, a range of approximately 3,000 km and a demonstrator of about 250 kg; a loitering munition destroys itself with its warhead on impact."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Parachute test parameters and indigenous systems",
+   "question": "How many of the following statements about the Military Combat Parachute System test in Ladakh are correct?\n\n1. The jump was made from 22,000 ft and deployment took place at 20,000 ft.\n2. The jumpers landed at approximately 12,700 ft.\n3. An indigenous para computer, oxygen system and jumpsuits were also tested.\n4. The parachute was deployed at 21,000 ft after a jump from 22,000 ft.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4"
+   ],
+   "explanation": "Only statements 1 and 3 are correct, so the answer is Only two. The landing altitude was approximately 13,700 ft, not 12,700 ft, and deployment took place at 20,000 ft, not 21,000 ft."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "DRDO establishment and leadership",
+   "question": "Assertion (A): The Defence Research and Development Organisation was established in 1958.\nReason (R): Rajesh Kumar Singh is the Chairman of DRDO.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F2"
+   ],
+   "explanation": "Both the assertion and the reason are true: DRDO was established in 1958, and its Chairman is Rajesh Kumar Singh. However, the Chairman’s identity does not explain the organisation’s establishment year, so the second option is correct."
+  }
+ ]
+}

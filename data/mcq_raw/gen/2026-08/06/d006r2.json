@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  23
+ ],
+ "only": [
+  "P23.F16",
+  "P23.F17"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Capital and status of Lakshadweep",
+   "question": "Consider the following statements:\nStatement A: Kavaratti is the capital of Lakshadweep, which is India's smallest Union Territory by area.\nStatement B: Lakshadweep is India's smallest Union Territory by area.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F16"
+   ],
+   "explanation": "Both statements are true: Kavaratti is the capital of Lakshadweep, and Lakshadweep is India's smallest Union Territory by area. The other options incorrectly reject one or both of these facts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Unveiled by",
+   "question": "Who unveiled the NIKA2 Kisan Medium Drone?",
+   "options": [
+    "Shivraj Singh Chouhan",
+    "Janaki Pulaparthi",
+    "Prataprao Jadhav",
+    "The founder of Akin Analytics"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F17"
+   ],
+   "explanation": "Shivraj Singh Chouhan unveiled the NIKA2 Kisan Medium Drone. Janaki Pulaparthi is identified as its builder and founder of Akin Analytics, while Prataprao Jadhav and the generic description are not the unveiling authority."
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29
+ ],
+ "only": [
+  "P24.F4",
+  "P29.F10",
+  "P29.F5",
+  "P29.F6",
+  "P29.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Event venue and participation",
+   "question": "The Amaravati Chitrakala Veedhi held in August 2026 was organised at which place, and approximately how many artists participated?",
+   "options": [
+    "Guntur; about 700 artists from 10 States",
+    "Vijayawada; about 500 artists from 8 States",
+    "Visakhapatnam; about 700 artists from 12 States",
+    "Amaravati; about 1,000 artists from 10 States"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F4"
+   ],
+   "explanation": "The Amaravati Chitrakala Veedhi was held in Guntur on 8–9 August 2026, with approximately 700 artists from 10 States. The other options alter the venue, number of artists or number of States."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Number and classification of species",
+   "question": "With reference to the eight pangolin species, how many of the following statements are correct?\n\n1. There are eight pangolin species in total.\n2. Four of them are African species.\n3. Four of them are Asian species.\n4. Five of them are Asian species.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P29.F5"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: the eight species are divided into four African and four Asian species. Statement 4 is incorrect because the Asian group contains four species, not five."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Geographical range",
+   "question": "The Indian Pangolin is reported to occur in which of the following geographical ranges?",
+   "options": [
+    "India, Nepal, Sri Lanka and Bangladesh",
+    "India, Bhutan, Myanmar and Thailand",
+    "India, Nepal, China and Pakistan",
+    "Sri Lanka, Bangladesh, Indonesia and the Philippines"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F6"
+   ],
+   "explanation": "The Indian Pangolin's range includes India, Nepal, Sri Lanka and Bangladesh. The other options substitute countries not included in the stated range."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Legal and conservation status",
+   "question": "With reference to the conservation status and legal protection of pangolins, consider the following statements:\n\n1. The Indian Pangolin and the Chinese Pangolin are both found in India.\n2. Both the Indian Pangolin and the Chinese Pangolin are listed in Schedule I of the Wildlife (Protection) Act, 1972.\n3. All eight pangolin species are listed in CITES Appendix II.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F9",
+    "P29.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: both species occur in India and both have Schedule I protection under the Wildlife (Protection) Act, 1972. Statement 3 is incorrect because all eight pangolin species are listed in CITES Appendix I, not Appendix II."
+  }
+ ]
+}

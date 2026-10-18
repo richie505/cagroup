@@ -1,0 +1,200 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P2.F3",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9",
+  "P3.F2",
+  "P3.F3",
+  "P4.F3",
+  "P4.F6",
+  "P5.F5",
+  "P7.F2",
+  "P7.F3",
+  "P8.F3",
+  "P9.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Women’s singles winner",
+   "question": "Who won the women’s singles title at the BWF World Badminton Championships 2026 in New Delhi?",
+   "options": [
+    "Akane Yamaguchi",
+    "An Se-young",
+    "Baek Ha-na",
+    "Delphine Delrue"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "An Se-young of South Korea won the women’s singles title and secured her 2nd title. Akane Yamaguchi was the runner-up, while Baek Ha-na and Delphine Delrue competed in doubles events."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Event-wise winners",
+   "question": "Match the events of the BWF World Badminton Championships 2026 with their winners.\n\nList-I\n(a) Men’s doubles\n(b) Women’s doubles\n(c) Mixed doubles\n\nList-II\n(i) Baek Ha-na–Lee So-hee\n(ii) Thom Gicquel–Delphine Delrue\n(iii) Liang Weikeng–Wang Chang\n\nChoose the correct code:",
+   "options": [
+    "a-iii, b-i, c-ii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-iii, c-i",
+    "a-iii, b-ii, c-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5",
+    "P2.F6"
+   ],
+   "explanation": "The correct pairs are men’s doubles—Liang Weikeng–Wang Chang, women’s doubles—Baek Ha-na–Lee So-hee, and mixed doubles—Thom Gicquel–Delphine Delrue. The other codes interchange the champions between events."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "India’s performance",
+   "question": "Consider the following statements about India’s performance at the BWF World Badminton Championships 2026:\n\n1. Treesa Jolly–Gayatri Gopichand won a bronze medal in women’s doubles.\n2. Ayush Shetty defeated world No. 1 Shi Yuqi.\n3. India won its first World Championships medal in women’s doubles in 2011.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct. India’s first World Championships medal came through Prakash Padukone’s bronze in 1983, not through women’s doubles in 2011; 2011 was the year of India’s first women’s doubles medal."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "BWF organisation",
+   "question": "Which one of the following statements about the Badminton World Federation is incorrect?",
+   "options": [
+    "The BWF was established in 1934.",
+    "Its headquarters are in Kuala Lumpur.",
+    "Khunying Patama Leeswadtrakul is its President.",
+    "The first World Championships were held in 1978."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "The incorrect statement is that the first World Championships were held in 1978. The first World Championships were held in 1977; the BWF was established in 1934, is headquartered in Kuala Lumpur, and is headed by Khunying Patama Leeswadtrakul."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Women’s World Cup identity and governing body",
+   "question": "Consider the following statements about the FIH Hockey Women’s World Cup 2026:\n\nStatement A: Argentina’s women’s hockey team is nicknamed Las Leonas.\nStatement B: The FIH was established in 1924 and is headquartered in Lausanne.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "Both statements are true. Argentina’s women’s team is known as Las Leonas, while the FIH was established in 1924 and has its headquarters in Lausanne."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Chess career detail",
+   "question": "Assertion (A): R. Praggnanandhaa won both rapid games against Fabiano Caruana.\nReason (R): R. Praggnanandhaa received the Grandmaster title in 2019.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F6"
+   ],
+   "explanation": "The assertion is true: Praggnanandhaa won both rapid games against Caruana. The reason is false because he received the Grandmaster title in 2018, not 2019."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Test cricket record",
+   "question": "Which Australian player is listed with 100 Test sixes in the record associated with Rishabh Pant’s milestone?",
+   "options": [
+    "Ben Stokes",
+    "Brendon McCullum",
+    "Adam Gilchrist",
+    "Rishabh Pant"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "Adam Gilchrist of Australia is listed with 100 Test sixes. Ben Stokes, Brendon McCullum and Rishabh Pant are the other players associated with different figures in the record."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Durand Cup history",
+   "question": "Consider the following statements about the Durand Cup after the 2026 final:\n\n1. East Bengal FC and Mohun Bagan Super Giant have 17 titles each.\n2. The Durand Cup was started in 1888.\n3. The tournament is India’s oldest football tournament, was named after Sir Mortimer Durand, and is run by the TTFI.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The Durand Cup is India’s oldest football tournament, was named after Sir Mortimer Durand, and is run by the Armed Forces, not the TTFI."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fencing weapons",
+   "question": "Which of the following correctly lists the fencing weapons represented at the Commonwealth Fencing Championships?",
+   "options": [
+    "Foil, Épée and Sabre; fencing has been an Olympic sport since 1896",
+    "Foil, Cricket and Sabre; fencing has been an Olympic sport since 1896",
+    "Foil, Épée and Hockey; fencing has been an Olympic sport since 1896",
+    "Épée, Sabre and Tennis; fencing has been an Olympic sport since 1900"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "The three fencing weapons are Foil, Épée and Sabre, and fencing has been an Olympic sport since 1896. Cricket, Hockey and Tennis are not fencing weapons, and 1900 is not the stated year."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation and president",
+   "question": "Which pairing is correct for the organisation associated with the Commonwealth Table Tennis Championships?",
+   "options": [
+    "TTFI — established in 1926; President: Meghna Ahlawat",
+    "FIH — established in 1926; President: Meghna Ahlawat",
+    "TTFI — established in 1924; President: Khunying Patama Leeswadtrakul",
+    "BWF — established in 1926; President: Meghna Ahlawat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "The correct pairing is TTFI, established in 1926, with Meghna Ahlawat as President. FIH and BWF are different sporting organisations, while 1924 is associated with the establishment of FIH."
+  }
+ ]
+}

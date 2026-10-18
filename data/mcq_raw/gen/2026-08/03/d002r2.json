@@ -1,0 +1,91 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "only": [
+  "P16.F2",
+  "P16.F4",
+  "P16.F5",
+  "P7.F1",
+  "P8.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Anniversary/date",
+   "question": "The Jal Jeevan Mission, announced on 15 August 2019, completed how many years on 15 August 2026?",
+   "options": [
+    "5 years",
+    "6 years",
+    "7 years",
+    "8 years"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The Jal Jeevan Mission completed 7 years on 15 August 2026, having been announced on 15 August 2019. Six years is the tempting alternative, but it does not match the stated anniversary."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Funds transferred",
+   "question": "By the time of the Union Cabinet’s decision to continue PM-KISAN up to 2030–31, how much had already been transferred under the scheme?",
+   "options": [
+    "₹2.47 lakh crore+",
+    "₹3.15 lakh crore+",
+    "₹4.47 lakh crore+",
+    "₹5.47 lakh crore+"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "More than ₹4.47 lakh crore had already been transferred under PM-KISAN. ₹3.15 lakh crore refers to the approved outlay for continuation, not the amount already transferred."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Launch participation and campaign objective",
+   "question": "With reference to the Nasha Mukt Yuva for Viksit Bharat Sankalp Abhiyan, consider the following statements:\n1. On the launch day, more than 1 crore youth took the pledge at approximately 10,000 centres, with more than 125 spiritual organisations joining.\n2. The campaign aims at youth participation, drug prevention and the goal of Viksit Bharat–2047.\n3. MY Bharat was launched in 2023, while the National Service Scheme was established in 1970 and has the motto “Not Me But You”.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F2",
+    "P16.F4",
+    "P16.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the launch involved more than 1 crore youth at approximately 10,000 centres, and the campaign focuses on youth participation, drug prevention and Viksit Bharat–2047. Statement 3 is incorrect because the National Service Scheme dates to 1969, not 1970; its motto is “Not Me But You”."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch-day participation",
+   "question": "At the launch of the Nasha Mukt Yuva for Viksit Bharat Sankalp Abhiyan, how many spiritual organisations were reported to have joined?",
+   "options": [
+    "More than 75",
+    "More than 100",
+    "More than 125",
+    "More than 150"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P16.F2"
+   ],
+   "explanation": "More than 125 spiritual organisations joined the campaign on its launch day. The figures of more than 100 and more than 150 do not match the reported participation."
+  }
+ ]
+}

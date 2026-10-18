@@ -1,0 +1,140 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  21,
+  22
+ ],
+ "only": [
+  "P21.F1",
+  "P21.F10",
+  "P21.F11",
+  "P21.F12",
+  "P21.F13",
+  "P21.F14",
+  "P21.F4",
+  "P21.F6",
+  "P21.F7",
+  "P21.F8",
+  "P22.F6",
+  "P22.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First indigenous system / organisation",
+   "question": "Which organisation developed the first wave-propulsion Vertical Profiling System reported in August 2026?",
+   "options": [
+    "NIOT, Chennai",
+    "QpiAI, Bengaluru",
+    "Hindalco, Belagavi",
+    "Samtel HAL Display Systems, Gurugram"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F1"
+   ],
+   "explanation": "NIOT, Chennai developed the first wave-propulsion Vertical Profiling System. It is intended for waters off Chennai at depths of 500–3,000 m; QpiAI, Hindalco and Samtel HAL Display Systems were associated with different firsts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Largest AI facility / location",
+   "question": "Which organisation, in collaboration with Vyoma, established India’s largest single-cluster AI facility with about 10,000 NVIDIA B300 GPUs for Together AI?",
+   "options": [
+    "L&T-NxT, Chennai",
+    "QpiAI, Bengaluru",
+    "NIOT, Chennai",
+    "Hindalco, Belagavi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F4"
+   ],
+   "explanation": "L&T-NxT, with Vyoma, established the single-cluster AI facility in Chennai with about 10,000 NVIDIA B300 GPUs for Together AI. QpiAI was associated with the QPU fabrication facility, while NIOT and Hindalco were linked to other firsts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Indigenous SoC and eco-educational hub",
+   "question": "With reference to the ‘Vihaan’ SoC and Prakriti Gyan Dham, consider the following statements:\n\n1. ‘Vihaan’ is a broadband SoC developed by Ahisa Digital Innovations on C-DAC VEGA.\n2. Prakriti Gyan Dham is the first CSIR–NBRI eco-educational hub at Banthra, Lucknow.\n3. ‘Vihaan’ was developed by QpiAI, Bengaluru.\n4. Prakriti Gyan Dham was established at Kanpur.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only",
+    "3 and 4 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F7",
+    "P21.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: ‘Vihaan’ is Ahisa Digital Innovations’ broadband SoC on C-DAC VEGA, and Prakriti Gyan Dham is the first CSIR–NBRI eco-educational hub at Banthra, Lucknow. Statements 3 and 4 change the organisations or locations associated with these firsts."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Defence and national mission institutions",
+   "question": "Match List-I with List-II regarding the firsts and institutional details reported in August 2026.\n\nList-I\n(a) Samtel HAL Display Systems\n(b) ‘Jiangling’\n(c) National Quantum Mission\n(d) National Green Hydrogen Mission\n\nList-II\n(i) Nodal department: Department of Science and Technology\n(ii) India’s first public–private JV in defence avionics\n(iii) China’s world-first tunnel boring–blasting machine with a 4.5 m cutting head\n(iv) 5 MMT annual target by 2030 under the mission\n\nOptions:",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F10",
+    "P21.F11",
+    "P21.F12",
+    "P21.F13"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv. Samtel HAL Display Systems is India’s first public–private JV in defence avionics; ‘Jiangling’ has a 4.5 m cutting head; DST is nodal for the National Quantum Mission; and the National Green Hydrogen Mission targets 5 MMT a year by 2030."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Investment, production-cycle reduction and certification",
+   "question": "How many of the following statements correctly describe the LASPL–Massivit large-format 3D-printing initiative and the related certification detail?\n\n1. The LASPL–Massivit initiative involves US$8–10 million over 1–2 years.\n2. It cuts production cycles by up to 80%.\n3. The investment is spread over 3–4 years.\n4. VOC Port was certified by the International Register Quality Systems.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F14"
+   ],
+   "explanation": "Only statement 1 is correct: the LASPL–Massivit initiative involves US$8–10 million over 1–2 years. The reduction is up to 90%, the period is 1–2 years, and VOC Port was certified by Indian Register Quality Systems, making statements 2, 3 and 4 incorrect."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Exercise participation and confirmation",
+   "question": "Assertion (A): India is to join Talisman Sabre 2027.\nReason (R): India’s participation was confirmed after the 2nd India–Australia Defence Ministers’ Meeting.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P22.F6"
+   ],
+   "explanation": "Both A and R are true, and the confirmation after the 2nd India–Australia Defence Ministers’ Meeting explains India’s participation in Talisman Sabre 2027. The exercise is co-hosted by Australia and the USA and is scheduled in Australia from 9–22 August 2027."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Venue and establishment year",
+   "question": "Consider the following statements:\nStatement A: The 7th ICG–Vietnam Coast Guard High-Level Meeting was held at Kochi on 25 August 2026.\nStatement B: The Indian Coast Guard was established on 1 February 1978.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P22.F7"
+   ],
+   "explanation": "Both statements are false. The 7th ICG–Vietnam Coast Guard High-Level Meeting was held at Chennai on 25 August 2026, and the Indian Coast Guard was established on 1 February 1977; 1978 refers to the Coast Guard Act."
+  }
+ ]
+}

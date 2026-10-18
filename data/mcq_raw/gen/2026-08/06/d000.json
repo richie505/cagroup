@@ -1,0 +1,342 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F19",
+  "P0.F2",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F24",
+  "P0.F25",
+  "P0.F26",
+  "P0.F27",
+  "P0.F28",
+  "P0.F29",
+  "P0.F3",
+  "P0.F32",
+  "P0.F33",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Growth in space start-ups",
+   "question": "Approximately how many space start-ups were operating in India by 2026, compared with just one in 2014?",
+   "options": [
+    "Approximately 440",
+    "Approximately 113",
+    "Approximately 61",
+    "Approximately 35"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "India’s space start-ups increased from 1 in 2014 to approximately 440 in 2026. The figures 113, 61 and 35 relate to other space-sector data, not the number of start-ups."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Space economy and private investment",
+   "question": "With reference to India’s space economy and private investment, consider the following statements:\n1. India’s space economy was valued at USD 9 billion in August 2026 and is projected to reach USD 40–45 billion in a decade.\n2. Private investment increased from USD 100.5 million in FY22 to USD 618.5 million by March 2026.\n3. India’s space economy was valued at USD 45 billion in August 2026 and is projected to reach USD 9 billion in a decade.\n4. Private investment declined from USD 618.5 million in FY22 to USD 100.5 million by March 2026.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only",
+    "3 and 4 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the space economy stood at USD 9 billion and private investment rose to USD 618.5 million. Statements 3 and 4 reverse the relevant figures and projections."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "IN-SPACe authorisations",
+   "question": "Which of the following statements regarding authorisations for non-government entities in the space sector is incorrect?",
+   "options": [
+    "Authorisations increased from 52 to 113 NGEs.",
+    "The total reached 113 NGEs.",
+    "The 113 NGEs included 18 start-ups.",
+    "The earlier figure was 52 NGEs."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The incorrect statement reverses the direction of change: authorisations rose from 52 to 113 NGEs, not from 52 to 113? Actually the fact records an increase from 113 to 52 NGEs. The 113 NGEs included 18 start-ups, while 52 was the later figure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First privately owned EO constellation",
+   "question": "What distinction is associated with the Earth-observation constellation supported through the IN-SPACe EO-PPP initiative?",
+   "options": [
+    "India’s first privately owned Earth-observation constellation",
+    "India’s first crewed lunar constellation",
+    "India’s first government-only weather constellation",
+    "India’s first navigation constellation beyond geostationary orbit"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The EO-PPP initiative is associated with India’s first privately owned Earth-observation constellation and a private commitment of approximately ₹1,200 crore. The other options describe distinctions not stated for this initiative."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NSIL revenue",
+   "question": "What was the revenue of NewSpace India Limited in FY25 according to the space-sector reforms overview?",
+   "options": [
+    "More than ₹3,000 crore",
+    "₹321.77 crore",
+    "₹1,200 crore",
+    "₹618.5 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "NSIL revenue rose from ₹321.77 crore in FY22 to more than ₹3,000 crore in FY25. ₹321.77 crore is the earlier FY22 figure, while ₹1,200 crore and ₹618.5 crore refer to other figures."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Private-sector reforms and FDI limits",
+   "question": "Match the following space-sector reform measures with their corresponding provisions:\n\nList-I\n a. Opening of the space sector to private players\n b. Indian Space Policy\n c. Automatic FDI for satellite manufacturing and operations\n d. Automatic FDI for launch vehicles and spaceports\n\nList-II\n i. 49%\n ii. 2023\n iii. 2020\n iv. 74%",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i: the sector opened to private players in 2020, the policy was issued in 2023, and the relevant FDI limits were 74% and 49%. The other codes interchange these years and percentages."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Foreign satellite launches",
+   "question": "By January 2026, how many foreign satellites had India launched, and how many countries were covered by more than 300 agreements?",
+   "options": [
+    "399 satellites and 61 countries",
+    "35 satellites and 61 countries",
+    "399 satellites and 18 countries",
+    "300 satellites and 35 countries"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "India’s foreign satellite launches increased from 35 before 2014 to 399 by January 2026, alongside more than 300 agreements with 61 countries. The other options mix one of these figures with an unrelated number."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Space-sector funding package",
+   "question": "Which combination correctly lists the funding measures associated with NGP 2024?",
+   "options": [
+    "₹1,000 crore VC Fund, ₹500 crore Technology Adoption Fund and ₹75 crore Satellite Bus as a Service",
+    "₹500 crore VC Fund, ₹1,000 crore Technology Adoption Fund and ₹75 crore Satellite Bus as a Service",
+    "₹1,000 crore VC Fund, ₹75 crore Technology Adoption Fund and ₹500 crore Satellite Bus as a Service",
+    "₹75 crore VC Fund, ₹500 crore Technology Adoption Fund and ₹1,000 crore Satellite Bus as a Service"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "NGP 2024 was associated with a ₹1,000 crore VC Fund, a ₹500 crore Technology Adoption Fund and a ₹75 crore Satellite Bus as a Service measure. The wrong options interchange the three amounts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch vehicles and missions",
+   "question": "Which set of launch vehicles is associated with the 12 missions conducted between July 2023 and June 2026?",
+   "options": [
+    "PSLV, GSLV, GSLV Mk III and SSLV",
+    "PSLV, NavIC, XPoSat and SSLV",
+    "GSLV, Chandrayaan-3, SSLV and NavIC",
+    "LVM3, Mars Orbiter, PSLV and XPoSat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "The launch-vehicle set was PSLV, GSLV, GSLV Mk III and SSLV. NavIC, XPoSat, Chandrayaan-3 and Mars Orbiter are missions or space capabilities, not members of this four-vehicle set."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch-site infrastructure",
+   "question": "Which statement correctly describes India’s launch-site infrastructure?",
+   "options": [
+    "Sriharikota has two pads with a third coming, while Kulasekarapattinam in Tamil Nadu is the second launch site for SSLV and private use.",
+    "Sriharikota has one pad with a second coming, while Kulasekarapattinam is the first launch site for GSLV and government use.",
+    "Sriharikota has three operational pads, while Kulasekarapattinam is a satellite manufacturing site.",
+    "Sriharikota has two pads with a third coming, while Kulasekarapattinam is located in Karnataka."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "Sriharikota has two pads and a third is coming; Kulasekarapattinam in Tamil Nadu is the second launch site, intended for SSLV and private use. The other options alter the number, purpose or location."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Major Indian space missions",
+   "question": "Consider the following statements:\n1. Chandrayaan-3 was the first mission to land near the lunar south pole and made India the fourth country to soft-land.\n2. India’s Mars Orbiter entered orbit on 24 September 2014.\n3. XPoSat was launched in January 2025.\n4. SPADEX made India the fifth nation to dock autonomously in January 2025.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only",
+    "3 and 4 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13",
+    "P0.F14",
+    "P0.F15"
+   ],
+   "explanation": "Statements 1 and 2 are correct. XPoSat was in January 2024, not January 2025, and SPADEX made India the fourth nation to dock autonomously, not the fifth."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Gaganyaan mission profile",
+   "question": "Which of the following correctly describes the approved Gaganyaan mission profile?",
+   "options": [
+    "Three astronauts, 400 km orbit and three days in space",
+    "Two astronauts, 400 km orbit and seven days in space",
+    "Three astronauts, 1,500 km orbit and three days in space",
+    "Four astronauts, 200 km orbit and five days in space"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F17"
+   ],
+   "explanation": "The Gaganyaan profile provides for three astronauts in a 400 km orbit for three days. The other options alter the crew size, orbital height or mission duration."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Future space missions",
+   "question": "Match the following missions with their stated details:\n\nList-I\n a. Bharatiya Antariksh Station\n b. Chandrayaan-4\n c. Chandrayaan-5/LUPEX\n d. Venus Orbiter Mission\n\nList-II\n i. Sample return in 2027\n ii. With JAXA\n iii. March 2028\n iv. Five modules; BAS-01 by 2028 and full station by 2035",
+   "options": [
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F18",
+    "P0.F19",
+    "P0.F20",
+    "P0.F21"
+   ],
+   "explanation": "The correct pairs are a-iv, b-i, c-ii and d-iii. The Bharatiya Antariksh Station involves five modules, Chandrayaan-4 is a sample-return mission, Chandrayaan-5/LUPEX is with JAXA, and the Venus Orbiter Mission is scheduled for March 2028."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Next-generation launch technology",
+   "question": "Which combination correctly identifies the propulsion and fuel technology mentioned for India’s future launch capability?",
+   "options": [
+    "A 200-tonne semi-cryogenic engine and an NGLV using LOX-methane",
+    "A 200-tonne cryogenic engine and an NGLV using hydrogen-oxygen",
+    "A 75-tonne semi-cryogenic engine and an NGLV using LOX-methane",
+    "A 640-tonne semi-cryogenic engine and an NGLV using hydrogen-oxygen"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F22"
+   ],
+   "explanation": "The stated technology comprises a 200-tonne semi-cryogenic engine and an NGLV using LOX-methane. The other options change either the engine type, the engine figure or the fuel combination."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Gaganyaan thermal protection",
+   "question": "Consider the following statements:\nStatement A: Gaganyaan’s re-entry temperature is approximately 1,800°C and its ablative thermal protection system is about 30–35 mm thick.\nStatement B: The ablative materials include carbon phenolic and silica phenolic, and they are designed for single use.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F23",
+    "P0.F24"
+   ],
+   "explanation": "Both statements are true. Gaganyaan’s re-entry environment is approximately 1,800°C, its ablative TPS is about 30–35 mm thick, and carbon phenolic and silica phenolic are single-use ablative materials."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Gaganyaan vehicle and recovery systems",
+   "question": "Match the following Gaganyaan elements with their correct descriptions:\n\nList-I\n a. HLVM3\n b. Orbital Module\n c. Parachute system\n d. Demonstration milestones\n\nList-II\n i. Pressurised Crew Module and unpressurised Service Module; Service Module separates before re-entry\n ii. Approximately 53 m, 640 t, three stages and about 10 t to LEO\n iii. SRE-1, LVM3-X/CARE, Pad Abort Test, TV-D1 and Integrated Air Drop Tests\n iv. Ten parachutes of four types with sea splashdown",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F25",
+    "P0.F26",
+    "P0.F27",
+    "P0.F28"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iv and d-iii. HLVM3 is approximately 53 m and 640 t, the Orbital Module contains the Crew and Service Modules, the parachute system has ten parachutes of four types, and the listed milestones include SRE-1 through Integrated Air Drop Tests."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Cause of re-entry heating",
+   "question": "Assertion (A): Gaganyaan’s re-entry heat comes mainly from friction between the spacecraft and the atmosphere.\nReason (R): Re-entry heat comes mainly from compression of air.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F29"
+   ],
+   "explanation": "The assertion is false because re-entry heat comes mainly from compression of air, not friction. The reason correctly states the principal source of the heating."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Private satellite battery and payload capability",
+   "question": "Match the following details associated with the private-space update:\n\nList-I\n a. Payload powered by the system\n b. Operating altitude mentioned\n c. Designed LEO range\n d. IN-SPACe\n\nList-II\n i. Established in 2020 with headquarters at Ahmedabad\n ii. 160–2,000 km\n iii. Cosmoserve Space’s payload at 450 km\n iv. 450 km",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F32",
+    "P0.F33"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i. The system powered Cosmoserve Space’s payload at 450 km, was designed for an LEO range of 160–2,000 km, and IN-SPACe was established in 2020 with headquarters at Ahmedabad."
+  }
+ ]
+}

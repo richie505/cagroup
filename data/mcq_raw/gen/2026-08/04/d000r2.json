@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F23",
+  "P0.F37",
+  "P0.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Environmental and employment benefits; RPO target",
+   "question": "With reference to the PM Surya Sarovar Yojana and the renewable purchase obligation target, consider the following statements:\n1. The PM Surya Sarovar Yojana is expected to reduce carbon dioxide emissions by about 10 million tonnes annually.\n2. The scheme is expected to generate 16,000–17,000 full-time-equivalent jobs.\n3. The RPO target for 2026–27 is 35.59%.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F23"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the scheme is expected to cut about 10 million tonnes of carbon dioxide annually and generate 16,000–17,000 full-time-equivalent jobs. Statement 3 is incorrect because the RPO target for 2026–27 is 35.95%, not 35.59%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cabinet approval; CFA per MW",
+   "question": "Under the Cabinet approval details of the PM Surya Sarovar Yojana, what Central Financial Assistance (CFA) is provided for each MW of sanctioned capacity?",
+   "options": [
+    "₹1 crore per MW",
+    "₹1 crore per project",
+    "₹1 crore per State",
+    "₹1 crore per year"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F37"
+   ],
+   "explanation": "The PM Surya Sarovar Yojana provides CFA of ₹1 crore per MW. The trap is the unit: the assistance is linked to each MW, not to each project, State or year."
+  }
+ ]
+}

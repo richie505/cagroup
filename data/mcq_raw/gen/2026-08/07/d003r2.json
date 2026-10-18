@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F4",
+  "P11.F3",
+  "P11.F4",
+  "P11.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment and legal basis",
+   "question": "The Central Zoo Authority (CZA), relevant to wildlife regulation in India, was established in which year under which legislation?",
+   "options": [
+    "1992 under the Wildlife Protection Act, 1972",
+    "1960 under the Insecticides Act, 1968",
+    "1972 under the Wildlife Protection Act, 1992",
+    "1968 under the Insecticides Act, 1972"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "The Central Zoo Authority was established in 1992 under the Wildlife Protection Act, 1972. The other options interchange the years or cite the Insecticides Act, which is unrelated to the CZA’s legal basis."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Consultation and regulatory scope",
+   "question": "With reference to the draft notification proposing action against carbosulfan, consider the following statements:\nStatement A: The proposal was made after consultation with the Registration Committee under the Insecticides Act, 1968.\nStatement B: The Insecticides Act, 1968 regulates only the manufacture and sale of insecticides.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F4"
+   ],
+   "explanation": "Statement A is true: consultation took place with the Registration Committee under the Insecticides Act, 1968. Statement B is false because the Act regulates import, manufacture, sale, transport, distribution and use, not only manufacture and sale."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Administrative ministry",
+   "question": "The Central Insecticides Board and the Registration Committee are under which ministry?",
+   "options": [
+    "Ministry of Agriculture",
+    "Central Insecticides Board",
+    "Registration Committee",
+    "Insecticides Act, 1968"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F5"
+   ],
+   "explanation": "The Central Insecticides Board and the Registration Committee are under the Ministry of Agriculture. The other options are the names of the institutions or legislation, not the ministry administering them."
+  }
+ ]
+}

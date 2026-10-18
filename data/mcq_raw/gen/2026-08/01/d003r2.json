@@ -1,0 +1,104 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F2",
+  "P8.F1",
+  "P8.F10",
+  "P8.F4",
+  "P8.F6",
+  "P9.F4",
+  "P9.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Allocation under action plan",
+   "question": "Under the regional action plan for human–elephant conflict in Andhra Pradesh, what amount was allocated to the State over five years?",
+   "options": [
+    "₹169.98 crore",
+    "₹999.87 crore",
+    "₹500 crore",
+    "₹2.73 lakh crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "Andhra Pradesh was allocated ₹169.98 crore over five years under the regional action plan. ₹999.87 crore is the combined allocation for four States, while ₹500 crore represents the Central share of that total."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State-wise allocation and Tamil Nadu share",
+   "question": "With reference to the regional action plan for human–elephant conflict covering four States, consider the following statements:\n\n1. The total allocation for the four States is ₹999.87 crore, including ₹500 crore from the Centre.\n2. Tamil Nadu accounts for 20% of the allocation.\n3. Tamil Nadu accounts for 38% of the allocation.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F6"
+   ],
+   "explanation": "Only statement 1 is correct: the four-State plan totals ₹999.87 crore, including a ₹500 crore Central share. Tamil Nadu’s share is 25%, not 20% or 38%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Elephant population change",
+   "question": "According to the regional assessment of elephants in Andhra Pradesh, how did the State’s elephant population change between 2017 and 2023?",
+   "options": [
+    "It increased from 65 to 142",
+    "It increased from 65 to 132",
+    "It increased from 75 to 142",
+    "It declined from 142 to 65"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F10"
+   ],
+   "explanation": "The elephant population in Andhra Pradesh increased from 65 in 2017 to 142 in 2023. The figures 132 and 75 are not the reported population values, and the trend was an increase rather than a decline."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Investment and potential of Drone City",
+   "question": "Consider the following statements about the Orvakal Drone City project:\n\nStatement A: Investment of approximately ₹130 crore has been secured.\nStatement B: The project has potential of up to ₹5,000 crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4",
+    "P9.F5"
+   ],
+   "explanation": "Both statements are correct. Orvakal Drone City has secured approximately ₹130 crore in investment and has potential of up to ₹5,000 crore."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Investment, duration and phases",
+   "question": "Which of the following statements regarding the proposed integrated Underground Coal Gasification complex in Eluru district is incorrect?",
+   "options": [
+    "The proposal involves an investment of approximately ₹2.73 lakh crore over 30 years in three phases.",
+    "The proposal involves an investment of approximately ₹2.73 lakh crore over 30 years in two phases.",
+    "The project is planned with an investment of approximately ₹2.73 lakh crore and a 30-year implementation period.",
+    "The proposed investment is approximately ₹2.73 lakh crore, with implementation divided into three phases over 30 years."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "The second statement is incorrect because the proposal is planned in three phases, not two. Its stated investment is approximately ₹2.73 lakh crore over 30 years."
+  }
+ ]
+}

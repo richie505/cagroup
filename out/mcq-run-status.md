@@ -351,3 +351,4 @@ Which of the following statements regarding September 2026 GST growth in the sou
 
 _Explanation:_ The incorrect statement is that Andhra Pradesh recorded 11% growth. Andhra Pradesh recorded 6%; 11% was Kerala’s growth, while Telangana recorded the highest southern growth at 18%.
 - **2026-09** — deepen 64 calls, 718 items, in 179,620/out 255,427; verify 60 calls, 659 items, in 178,995/out 39,190; deepen r2 48 calls, 110 items, in 152,976/out 62,679; verify 13 calls, 86 items, in 26,197/out 6,223 — build: 4931 MCQs kept, facts tested 9802/20515 (47.8%); this folder 1032 MCQs, facts 1769/1809 (97.8%)
+- **2026-08** — deepen 51 calls, 580 items, in 146,964/out 198,633; verify 48 calls, 509 items, in 137,302/out 29,405; deepen r2 39 calls, 99 items, in 127,053/out 47,267; verify 13 calls, 75 items, in 21,282/out 4,386 — build: 5489 MCQs kept, facts tested 10667/20515 (52.0%); this folder 854 MCQs, facts 1532/1564 (98.0%)

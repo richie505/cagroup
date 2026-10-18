@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F11",
+  "P0.F12",
+  "P0.F19",
+  "P0.F20",
+  "P0.F21",
+  "P0.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Judicial pendency",
+   "question": "According to the rationale for increasing the strength of the Supreme Court in 2026, approximately how many cases were pending on 1 January 2026?",
+   "options": [
+    "About 92,101",
+    "About 75,410",
+    "About 65,615",
+    "About 5.5 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Approximately 92,101 cases were pending in the Supreme Court on 1 January 2026. The figures 75,410 and 65,615 relate to fresh and disposed cases in 2025, while over 5.5 crore refers to the backlog in all courts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Evolution of judicial strength; retired judges",
+   "question": "Consider the following statements:\n1. In 1950, the strength of the Supreme Court, including the Chief Justice of India, was 8.\n2. In 1956, the strength of the Supreme Court, including the Chief Justice of India, was 11.\n3. Under Article 128, the Chief Justice of India, with the consent of the President, can request a retired Supreme Court judge to sit.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12",
+    "P0.F19"
+   ],
+   "explanation": "All three statements are correct: the Supreme Court’s strength was 8 in 1950 and 11 in 1956, and Article 128 permits the Chief Justice of India, with the President’s consent, to request a retired Supreme Court judge to sit. The other options omit one of these correct statements."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Constitutional provisions on courts",
+   "question": "Consider the following statements:\nStatement A: Article 137 confers review power on the Supreme Court.\nStatement B: Article 215 declares High Courts to be courts of appeal.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F20"
+   ],
+   "explanation": "Statement A is true because Article 137 concerns the Supreme Court’s review power. Statement B is false: Article 215 identifies High Courts as courts of record, not courts of appeal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ordinance-making power",
+   "question": "Which Article of the Constitution deals with the President’s ordinance-making power?",
+   "options": [
+    "Article 123",
+    "Article 128",
+    "Article 137",
+    "Article 215"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F21"
+   ],
+   "explanation": "Article 123 deals with the President’s ordinance power. Article 128 concerns the sitting of a retired Supreme Court judge, while Articles 137 and 215 concern the Supreme Court’s review power and High Courts as courts of record, respectively."
+  }
+ ]
+}

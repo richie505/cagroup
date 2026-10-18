@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "only": [
+  "P13.F11",
+  "P13.F12",
+  "P14.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Scheme outlay and domestic value addition",
+   "question": "Consider the following statements about production-linked incentive schemes relevant to electric vehicles:\n1. PLI-Auto, introduced in 2021, requires a minimum of 50% domestic value addition.\n2. PLI-ACC Battery, introduced in 2021, has an outlay of ₹18,100 crore for 50 GWh.\n3. PLI-ACC Battery, introduced in 2021, has an outlay of ₹18,100 crore for 35–40 GWh.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F11",
+    "P13.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct. PLI-Auto requires a minimum of 50% domestic value addition, while PLI-ACC Battery has an outlay of ₹18,100 crore for 50 GWh. Statement 3 is incorrect because the capacity is 50 GWh, not 35–40 GWh; 35–40% refers to the share of batteries in EV cost."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First complete DNA genome sequenced",
+   "question": "In the history of genome research associated with the ΦX174-like bacteriophage experiment, in which year was the first complete DNA genome sequenced?",
+   "options": [
+    "1977",
+    "1970s",
+    "2000s",
+    "2010s"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F4"
+   ],
+   "explanation": "The first complete DNA genome was sequenced in 1977, and it was the ΦX174 genome. The 1970s, 2000s and 2010s refer to broader stages in genome capability, not the specific year of this sequencing milestone."
+  }
+ ]
+}

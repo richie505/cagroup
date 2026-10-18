@@ -1,0 +1,160 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P10.F5",
+  "P11.F3",
+  "P11.F4",
+  "P11.F5",
+  "P12.F4",
+  "P12.F5",
+  "P12.F6",
+  "P13.F2",
+  "P13.F4",
+  "P13.F5",
+  "P8.F3",
+  "P8.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Prospective application and legislative merger",
+   "question": "Consider the following statements about the Supreme Court’s ruling refining the legal definition of ‘industry’ under the Industrial Relations Code, 2020:\n1. The definition of ‘industry’ contained in the 1947 law cannot be applied unchanged under the Industrial Relations Code, 2020, and the ruling is prospective.\n2. The Industrial Relations Code, 2020 merged the Industrial Disputes Act, 1926, the Trade Unions Act, 1926, and the Industrial Employment (Standing Orders) Act, 1946.",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Both 1 and 2 are incorrect"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "Statement 1 is correct: the 1947 definition cannot be applied unchanged under the Industrial Relations Code, 2020, and the ruling operates prospectively. Statement 2 is incorrect because the Industrial Relations Code merged the Industrial Disputes Act, 1947, along with the Trade Unions Act, 1926, and the Industrial Employment (Standing Orders) Act, 1946."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Standard Meridian",
+   "question": "Under the Legal Metrology (Indian Standard Time) Rules, 2026, which longitude is recognised as India’s Standard Meridian, near Mirzapur in Uttar Pradesh?\n",
+   "options": [
+    "82°30′ E",
+    "75°30′ E",
+    "90°30′ E",
+    "68°30′ E"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "India’s Standard Meridian is 82°30′ E, near Mirzapur in Uttar Pradesh. The other longitudes are not the Standard Meridian specified for India."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Punishment for examination leaks",
+   "question": "Under the Public Examinations (Prevention of Unfair Means) Amendment Act, 2026, what punishment applies to involvement in examination leaks?\n",
+   "options": [
+    "5–10 years’ imprisonment and a fine up to ₹50 lakh",
+    "7 years’ imprisonment and a fine up to ₹10 crore",
+    "5–10 years’ imprisonment and a fine up to ₹10 crore",
+    "7 years’ imprisonment and a fine up to ₹50 lakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "Involvement in examination leaks attracts imprisonment of 5–10 years and a fine up to ₹50 lakh. The punishment of 7 years and a fine up to ₹10 crore relates to organised crime, not the general leak-involvement provision."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Coverage and enhanced penalty provision",
+   "question": "With reference to the Public Examinations (Prevention of Unfair Means) Amendment Act, 2026, how many of the following statements are correct?\n1. One-liners describe organised leaks as punishable by up to 10 years and ₹10 crore.\n2. The Act covers 15 forms of malpractice, including paper leaks and OMR tampering.\n3. The Act covers 14 forms of malpractice.\n4. Fake websites are excluded from the forms of malpractice covered by the Act.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F4",
+    "P11.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so the answer is Only two. The Act covers 15 forms of malpractice, including paper leaks, OMR tampering, fake websites and fake ID cards; therefore, the claims of 14 forms and exclusion of fake websites are incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Disaster-management administration and SDRF",
+   "question": "Consider the following statements regarding the notified-disaster framework for 2026–2031:\nStatement A: The Disaster Management Act, 2005 is administered through the Ministry of Home Affairs as the nodal ministry.\nStatement B: The State Disaster Response Fund is the primary State fund for notified disasters, with contributions made by the Centre and States in set ratios.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4",
+    "P12.F5"
+   ],
+   "explanation": "Both statements are true. The Ministry of Home Affairs is the nodal ministry under the Disaster Management Act, 2005, while the SDRF is the primary State fund for notified disasters with Centre–State contributions in set ratios."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Role of NDRF Fund",
+   "question": "What is the principal role of the National Disaster Response Fund in the notified-disaster framework?\n",
+   "options": [
+    "It provides additional aid for disasters of severe nature",
+    "It serves as the primary State fund for notified disasters",
+    "It functions as the nodal ministry for disaster management",
+    "It provides prior approval for renewable-energy projects"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F6"
+   ],
+   "explanation": "The NDRF Fund provides additional aid for disasters of severe nature. The SDRF, not the NDRF, is the primary State fund for notified disasters."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Border security clearance and foreign nationals",
+   "question": "Consider the following statements about the Ministry of Home Affairs rules for renewable-energy projects near India’s borders:\nStatement A: Construction of a new solar, wind or hybrid renewable-energy project within 20 km of the International Border requires a Ministry of Defence no-objection certificate.\nStatement B: Nationals of Pakistan, Bangladesh and China cannot work on such projects without the Centre’s approval.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2",
+    "P13.F4"
+   ],
+   "explanation": "Both statements are true. Within 20 km of the International Border, construction requires a Ministry of Defence NOC, and nationals of Pakistan, Bangladesh and China require the Centre’s approval to work on such projects."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Meaning of LoC and LAC",
+   "question": "Assertion (A): The Line of Control (LoC) denotes the India–China border in Jammu and Kashmir.\nReason (R): The Line of Actual Control (LAC) denotes the India–China boundary.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F5"
+   ],
+   "explanation": "Assertion A is false: the LoC is associated with India and Pakistan in Jammu and Kashmir. Reason R is true because the LAC refers to India and China."
+  }
+ ]
+}

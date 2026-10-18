@@ -1,0 +1,183 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29
+ ],
+ "only": [
+  "P24.F2",
+  "P24.F3",
+  "P24.F4",
+  "P26.F2",
+  "P26.F3",
+  "P26.F4",
+  "P26.F6",
+  "P27.F2",
+  "P27.F3",
+  "P27.F4",
+  "P28.F2",
+  "P29.F10",
+  "P29.F5",
+  "P29.F6",
+  "P29.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Organisation and launch year",
+   "question": "With reference to the Urban Challenge Fund and HUDCO, consider the following statements:\n1. HUDCO was established in 1970.\n2. The Urban Challenge Fund was announced in the Union Budget 2024–25.\n3. HUDCO functions under the Ministry of Culture.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F2",
+    "P24.F3"
+   ],
+   "explanation": "Only statement 1 is correct: HUDCO was established in 1970. The Urban Challenge Fund was announced in Budget 2025–26, not 2024–25, and HUDCO is associated with the Ministry of Housing and Urban Affairs, not the Ministry of Culture."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Participating States",
+   "question": "The Amaravati Chitrakala Veedhi held in Guntur on 8–9 August 2026 brought together approximately how many artists from different States?",
+   "options": [
+    "Approximately 700 artists from 8 States",
+    "Approximately 700 artists from 9 States",
+    "Approximately 700 artists from 10 States",
+    "Approximately 700 artists from 11 States"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P24.F4"
+   ],
+   "explanation": "Amaravati Chitrakala Veedhi brought together approximately 700 artists from 10 States. The nearby alternatives of 8, 9 and 11 States are incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Awardee and field",
+   "question": "Match the Sangeet Natak Akademi awardees for 2024 with their fields:\n\nList-I\n a. Gummadi Gopalakrishna\n b. Durmetti Ramaiah\n c. Oleti Rangamani\n d. Suryanarayana Kumar\n\nList-II\n i. Theatre\n ii. Telangana folk dance\n iii. Dance\n iv. Kuchipudi\n\nSelect the correct answer using the code below.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F2"
+   ],
+   "explanation": "The correct pairs are Gummadi Gopalakrishna–Theatre, Durmetti Ramaiah–Telangana folk dance, Oleti Rangamani–Dance and Suryanarayana Kumar–Kuchipudi. The other codes interchange these fields."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award distinction and prize",
+   "question": "Which distinction is the highest Sangeet Natak Akademi honour and carries a prize of ₹3 lakh?",
+   "options": [
+    "Fellowship (Akademi Ratna)",
+    "Akademi Award",
+    "Theatre",
+    "Kuchipudi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F4"
+   ],
+   "explanation": "The Fellowship, also called Akademi Ratna, is the highest distinction and carries ₹3 lakh. The Akademi Award carries ₹1 lakh, while Theatre and Kuchipudi are fields of artistic recognition rather than the highest distinction."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fellowship recipient",
+   "question": "Which Kuchipudi exponent received the Sangeet Natak Akademi Fellowship?",
+   "options": [
+    "Pasumarthi Rattayya Sarma",
+    "Pantula Rama",
+    "D. Srinivas",
+    "Sindhe Chidambara Rao"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F3",
+    "P26.F6"
+   ],
+   "explanation": "The Sangeet Natak Akademi Fellowship was conferred on Kuchipudi exponent Pasumarthi Rattayya Sarma. Pantula Rama, D. Srinivas and Sindhe Chidambara Rao were listed among the 2025 awardees in other fields or categories."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Project scale and present level",
+   "question": "With reference to the Amaravati educational and cultural academy at Abburaajupalem, consider the following statements:\n1. The project is estimated to cost ₹25 crore, has a built-up area of about 1 lakh sq ft, and is planned for about 2,500 students up to Grade 12.\n2. It currently runs from Grade 1 to Grade 5.\n3. Its planned capacity is about 2,000 students.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F2",
+    "P27.F3"
+   ],
+   "explanation": "Only statement 1 is correct: the project costs ₹25 crore, has about 1 lakh sq ft of built-up area and can accommodate about 2,500 students up to Grade 12. It currently runs from nursery to Grade 5, and its stated capacity is not 2,000 students."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Developer",
+   "question": "Who is developing the Amaravati educational and cultural academy at Abburaajupalem?",
+   "options": [
+    "DAV Amaravati Rythu Vidyalaya Vedantam Group",
+    "Farmers of Thullur Mandal",
+    "AECA",
+    "Thullur Mandal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F4"
+   ],
+   "explanation": "The developer is DAV Amaravati Rythu Vidyalaya Vedantam Group, established by farmers of Thullur Mandal, with donors including AECA. The other options identify associated farmers, a donor and a locality rather than the developer."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Wildlife-surveillance technology",
+   "question": "Which combination of technologies is proposed for the quadruped robotic dog being evaluated by TTD for wildlife surveillance along the Alipiri–Tirumala footpath?",
+   "options": [
+    "Optical and thermal-imaging cameras, 360-degree LiDAR and AI classification",
+    "Field Test Kits, geo-tagging of water resources and sound deterrence",
+    "Optical cameras, 55 lpcd monitoring and annual-plan preparation",
+    "Thermal cameras, 10–15-member committees and culture-and-sports planning"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F2",
+    "P25.F1",
+    "P25.F2"
+   ],
+   "explanation": "The robotic dog is proposed to use optical and thermal-imaging cameras, 360-degree LiDAR and AI classification, along with geo-tagged alerts and sound and light deterrence. Field Test Kits, 55 lpcd and Gram Sabha committees belong to rural drinking-water or PESA-related measures, not the robotic dog’s technology package."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Species, range and protection status",
+   "question": "How many of the following statements about pangolin species and their protection are correct?\n1. There are eight pangolin species, comprising four African and four Asian species.\n2. The Indian Pangolin occurs in India, Nepal, Sri Lanka and Bangladesh.\n3. The Indian Pangolin and Chinese Pangolin are both included in Schedule I of the Wildlife (Protection) Act, 1972.\n4. All eight pangolin species are listed in CITES Appendix I.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P29.F5",
+    "P29.F6",
+    "P29.F9",
+    "P29.F10"
+   ],
+   "explanation": "Only three statements are correct. There are eight species, the Indian Pangolin has the stated range, both Indian and Chinese Pangolins are in Schedule I, and all eight species are in CITES Appendix I; the incorrect statement is the one that changes the stated species count."
+  }
+ ]
+}

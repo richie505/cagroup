@@ -1,0 +1,250 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": [
+  "P1.F1",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F15",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18",
+  "P1.F19",
+  "P1.F22",
+  "P1.F23",
+  "P1.F25",
+  "P1.F26",
+  "P1.F27",
+  "P1.F29",
+  "P1.F3",
+  "P1.F31",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of critical minerals",
+   "question": "How many critical minerals has India identified?",
+   "options": [
+    "15",
+    "30",
+    "50",
+    "90"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "India has identified 30 critical minerals, including lithium, cobalt, nickel, graphite, copper and rare earths. The tempting figure 15 relates to a separate production target under the National Critical Mineral Mission, not the number of identified minerals."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Refining concentration and demand projection",
+   "question": "With reference to critical minerals and mineral security, consider the following statements:\n1. The share of the top three refiners in copper, lithium, nickel, cobalt, graphite and rare earths increased from 82% in 2020 to 86% in 2024.\n2. The European Union's 2030 targets include 10% extraction, 40% processing and 25% recycling.\n3. India's net-zero demand for minerals is projected at approximately 169 million tonnes by 2070.",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "All three statements are correct. The top-three refiners' share rose from 82% to 86%, the European Union specified its 2030 extraction, processing and recycling targets, and India's net-zero demand is projected at approximately 169 million tonnes by 2070. The other options omit at least one correct statement."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Mineral potential",
+   "question": "Match the minerals in List-I with their estimated potential in India in List-II.\n\nList-I\n(a) Cobalt\n(b) Copper\n(c) Graphite\n(d) Nickel\n\nList-II\n(i) Approximately 189 MT\n(ii) Approximately 44.9 MT\n(iii) Approximately 211.6 MT\n(iv) Approximately 163.9 MT",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9",
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i: cobalt approximately 44.9 MT, copper approximately 163.9 MT, graphite approximately 211.6 MT and nickel approximately 189 MT. The other codes interchange the estimated potentials among these minerals."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Mineral occurrence",
+   "question": "Match the minerals in List-I with their identified locations or associated States in List-II.\n\nList-I\n(a) Lithium\n(b) Rare earths\n(c) Monazite sands\n(d) Karnataka\n\nList-II\n(i) Andhra Pradesh, Karnataka, Odisha and Kerala\n(ii) A location associated with lithium potential\n(iii) Associated with rare earth occurrence\n(iv) Jammu and Kashmir, along with Karnataka, as a location of lithium potential",
+   "options": [
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F12",
+    "P1.F13"
+   ],
+   "explanation": "Lithium potential has been identified in Karnataka and Jammu and Kashmir, while rare earths are associated with Andhra Pradesh, Karnataka, Odisha and Kerala, including monazite sands. Thus, the complete matching is a-iv, b-i, c-iii and d-ii; the other codes misplace the mineral locations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "MMDR amendment and auction power",
+   "question": "Consider the following statements:\nStatement A: The MMDR Act was enacted in 1957 and amended in 2023.\nStatement B: The Centre cannot auction critical minerals under the amended framework.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F15"
+   ],
+   "explanation": "Both statements are false as framed. The MMDR Act dates to 1957 and was amended in 2023, while the Centre can auction critical minerals; therefore, Statement A incorrectly reverses the amendment detail and Statement B incorrectly denies the Centre's power."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Overseas lithium asset",
+   "question": "KABIL acquired how much area in Catamarca, Argentina, for lithium?",
+   "options": [
+    "15,703 hectares",
+    "15,703 acres",
+    "1,570 hectares",
+    "157,030 hectares"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F16"
+   ],
+   "explanation": "KABIL acquired 15,703 hectares in Catamarca, Argentina, for lithium. The tempting alternatives alter the unit or the magnitude of the area."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rare earth corridors and international framework",
+   "question": "Regarding India's critical-mineral initiatives in 2026, consider the following statements:\n1. The Budget 2026–27 rare earth corridors cover Odisha, Kerala, Andhra Pradesh and Tamil Nadu.\n2. The India–US critical minerals and rare earths framework was signed in May 2026.\n3. Critical minerals are linked with Sustainable Development Goals 7, 9 and 13.",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F17",
+    "P1.F18",
+    "P1.F19"
+   ],
+   "explanation": "All three statements are correct. The Budget 2026–27 corridors include Odisha, Kerala, Andhra Pradesh and Tamil Nadu; the India–US framework was signed in May 2026; and the relevant Sustainable Development Goals are 7, 9 and 13. Each partial-combination option leaves out a correct statement."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Mineral taxation rationale",
+   "question": "Assertion (A): Iron ore exports were valued at approximately ₹15,136 crore in the context of uniform mineral taxation.\nReason (R): Mineral imports were valued at approximately ₹15,136 crore in 2025–26.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F22"
+   ],
+   "explanation": "Assertion A is true: iron ore exports were approximately ₹15,136 crore. Reason R is false because mineral imports were approximately ₹10.12 lakh crore in 2025–26, not ₹15,136 crore; hence R cannot explain A."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "State mining revenue",
+   "question": "How many of the following statements about State revenue from mining are correct?\n1. States account for approximately 90% of mining revenue.\n2. State mining revenue increased by 354% since 2014.\n3. State mining revenue was approximately ₹1.14 lakh crore in 2025–26.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F23"
+   ],
+   "explanation": "Only two statements are correct: States account for approximately 90% of mining revenue, and revenue increased by 354% since 2014; it was approximately ₹1.14 lakh crore in 2025–26. The first two statements are the correct revenue characteristics, while the altered detail in the remaining statement is not present."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Mining royalty, premium and output",
+   "question": "Match the items in List-I with the corresponding figures in List-II.\n\nList-I\n(a) Royalty from approximately 1,200 mines\n(b) Odisha's auction premium\n(c) Iron ore output in 2025–26\n(d) Limestone output in 2025–26\n\nList-II\n(i) 484 MT\n(ii) Approximately ₹87,000 crore\n(iii) Approximately ₹2.32 lakh crore\n(iv) 313 MT",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F25",
+    "P1.F26"
+   ],
+   "explanation": "The correct matching is a-iii, b-ii, c-iv and d-i: royalty was approximately ₹2.32 lakh crore, Odisha's auction premium was approximately ₹87,000 crore, iron ore output was 313 MT and limestone output was 484 MT. The other codes exchange these figures between royalty, premium and mineral output."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India's mineral production rank",
+   "question": "India holds which rank in global limestone production?",
+   "options": [
+    "2nd",
+    "3rd",
+    "4th",
+    "5th"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F27"
+   ],
+   "explanation": "India ranks 2nd in limestone production. The other ranks listed correspond to India's positions in zinc, iron ore and bauxite, not limestone."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Recycling scheme and processing parks",
+   "question": "Which statement correctly describes the critical-mineral recycling and processing-park initiatives?",
+   "options": [
+    "A ₹1,500-crore recycling scheme was introduced in October 2025, and processing parks were planned in Andhra Pradesh, Gujarat, Odisha and Maharashtra.",
+    "A ₹2,600-crore recycling scheme was introduced in January 2025, and processing parks were planned in Odisha, Kerala, Andhra Pradesh and Tamil Nadu.",
+    "A ₹1,500-crore recycling scheme was introduced in October 2025, and processing parks were planned only in Odisha and Maharashtra.",
+    "A ₹210-crore recycling scheme was introduced in October 2025, and processing parks were planned in Gujarat, Kerala, Odisha and Tamil Nadu."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F29"
+   ],
+   "explanation": "The recycling scheme was worth ₹1,500 crore and began in October 2025; Critical Mineral Processing Parks were identified in Andhra Pradesh, Gujarat, Odisha and Maharashtra. The other options substitute figures, dates or States from different initiatives."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Digital mining governance",
+   "question": "Which digital platform is associated with the District Mineral Foundations (DMFs)?",
+   "options": [
+    "Unified Mining Portal",
+    "National Critical Mineral Mission",
+    "KABIL",
+    "Critical Mineral Processing Parks"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F31"
+   ],
+   "explanation": "The Unified Mining Portal is associated with the District Mineral Foundations, of which there are 656, including 106 in aspirational districts. The other options refer to a mission, an overseas mining company and processing infrastructure rather than the portal."
+  }
+ ]
+}

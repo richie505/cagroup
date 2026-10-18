@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P2.F5",
+  "P2.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence exports by sector",
+   "question": "In India's defence exports, what share was contributed by Defence Public Sector Undertakings (DPSUs)?",
+   "options": [
+    "54.84%",
+    "45.16%",
+    "₹21,071 crore",
+    "₹17,353 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "DPSUs contributed 54.84% of India's defence exports, valued at ₹21,071 crore. The 45.16% share and ₹17,353 crore were associated with private-sector exports, not DPSU exports."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Defence R&D allocation",
+   "question": "With reference to India's defence research and development (R&D) allocation, consider the following statements:\nStatement A: Defence R&D allocation increased to ₹29,100.25 crore in 2026–27.\nStatement B: 25% of defence R&D was opened to industry since 2023–24.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "Statement A is true: defence R&D allocation reached ₹29,100.25 crore in 2026–27. Statement B is false because 25% was opened to industry since 2022–23, not 2023–24."
+  }
+ ]
+}

@@ -381,6 +381,686 @@
    ]
   },
   {
+   "id": "2026-08/08/d000#0",
+   "format": "List-Matching",
+   "keyword": "Rank in index",
+   "question": "With reference to the Environmental Performance Index 2026, match List-I with List-II.\n\nList-I (Rank)\na. 1\nb. 2\nc. 3\nd. 4\n\nList-II (Country)\ni. Finland\nii. United Kingdom\niii. Estonia\niv. Luxembourg",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer": 2,
+   "explanation": "The correct pairs are 1–Estonia, 2–Luxembourg, 3–United Kingdom and 4–Finland. The tempting second code incorrectly places Luxembourg at rank 1 and Estonia at rank 2.",
+   "facts": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F6",
+    "P0.F7"
+   ]
+  },
+  {
+   "id": "2026-08/08/d000#1",
+   "format": "List-Matching",
+   "keyword": "Rank in index",
+   "question": "With reference to the Environmental Performance Index 2026, match List-I with List-II.\n\nList-I (Rank)\na. 5\nb. 6\nc. 7\nd. 8\n\nList-II (Country)\ni. Norway\nii. France\niii. Netherlands\niv. Germany",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer": 0,
+   "explanation": "The correct pairs are 5–Netherlands, 6–Germany, 7–France and 8–Norway. The second code reverses the positions of Netherlands and Germany and also misplaces Norway.",
+   "facts": [
+    "P0.F8",
+    "P0.F9",
+    "P0.F10",
+    "P0.F11"
+   ]
+  },
+  {
+   "id": "2026-08/08/d000#2",
+   "format": "List-Matching",
+   "keyword": "Rank in index",
+   "question": "With reference to the Environmental Performance Index 2026, match List-I with List-II.\n\nList-I (Rank)\na. 9\nb. 10\n\nList-II (Country)\ni. Austria\nii. Sweden",
+   "options": [
+    "a-i, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-ii, b-i"
+   ],
+   "answer": 3,
+   "explanation": "Sweden ranked 9th and Austria ranked 10th. The tempting second option reverses these two countries.",
+   "facts": [
+    "P0.F12",
+    "P0.F13"
+   ]
+  },
+  {
+   "id": "2026-08/08/d000#3",
+   "format": "Direct Recall",
+   "keyword": "Index methodology weights",
+   "question": "In the Climate Change Performance Index 2026, what were the weights assigned to greenhouse-gas emissions, renewable energy, energy use and climate policy, respectively?",
+   "options": [
+    "30%, 20%, 20% and 30%",
+    "20%, 40%, 20% and 20%",
+    "40%, 20%, 30% and 10%",
+    "40%, 20%, 20% and 20%"
+   ],
+   "answer": 3,
+   "explanation": "The weights were 40% for greenhouse-gas emissions and 20% each for renewable energy, energy use and climate policy. The second option incorrectly gives renewable energy the highest weight.",
+   "facts": [
+    "P0.F18"
+   ]
+  },
+  {
+   "id": "2026-08/08/d000#4",
+   "format": "Multi-Statement Correctness",
+   "keyword": "CCPI rank and vacant positions",
+   "question": "With reference to the Climate Change Performance Index 2026, consider the following statements:\n1. Denmark ranked 4th.\n2. The United Kingdom ranked 5th.\n3. Morocco ranked 7th.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "Statements 1 and 2 are correct: Denmark ranked 4th and the United Kingdom 5th. Statement 3 is incorrect because Morocco ranked 6th, not 7th.",
+   "facts": [
+    "P0.F19"
+   ]
+  },
+  {
+   "id": "2026-08/08/d000#16",
+   "format": "Statement-Based (A/B)",
+   "keyword": "India’s sub-ranks",
+   "question": "Consider the following statements:\nStatement A: In the Environmental Performance Index 2026, India's weakest area was air quality at 141st.\nStatement B: India's biodiversity rank was 174th.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 3,
+   "explanation": "Statement A is false because India's air-quality rank was 174th, not 141st. Statement B is true: biodiversity was also ranked 174th.",
+   "facts": [
+    "P0.F32"
+   ]
+  },
+  {
+   "id": "2026-08/08/d000#17",
+   "format": "Direct Recall",
+   "keyword": "Top score in index",
+   "question": "Among the top three scores reported for the Environmental Performance Index 2026, which country stood second?",
+   "options": [
+    "Austria",
+    "Estonia",
+    "United Kingdom",
+    "Luxembourg"
+   ],
+   "answer": 3,
+   "explanation": "Luxembourg stood second among the top three scores, with 73.88. Estonia led with 74.79 and the United Kingdom followed Luxembourg with 71.89.",
+   "facts": [
+    "P0.F33"
+   ]
+  },
+  {
+   "id": "2026-08/08/d000#18",
+   "format": "Assertion-Reason",
+   "keyword": "History and edition number",
+   "question": "Assertion (A): The Environmental Performance Index was first released in 2002.\nReason (R): The 2026 edition was the 10th edition.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 1,
+   "explanation": "Both the assertion and the reason are true: the index was first released in 2002 and 2026 was its 10th edition. However, the fact that 2026 was the 10th edition does not explain the historical fact that the first edition was released in 2002.",
+   "facts": [
+    "P0.F34"
+   ]
+  },
+  {
+   "id": "2026-08/08/d000r2#1",
+   "format": "Direct Recall",
+   "keyword": "Top-ranked country",
+   "question": "Which country ranked first in the Climate Risk Index 2026?",
+   "options": [
+    "Honduras",
+    "Myanmar",
+    "Dominica",
+    "Libya"
+   ],
+   "answer": 2,
+   "explanation": "Dominica ranked first in the Climate Risk Index 2026. Myanmar, Honduras and Libya occupied the subsequent positions, not the top rank.",
+   "facts": [
+    "P0.F22",
+    "P0.F23",
+    "P0.F24",
+    "P0.F25"
+   ]
+  },
+  {
+   "id": "2026-08/08/d000r2#2",
+   "format": "List-Matching",
+   "keyword": "Ranks 2–4",
+   "question": "Match the countries with their ranks in the Climate Risk Index 2026.\n\nList-I\n a. Myanmar\n b. Honduras\n c. Libya\n\nList-II\n i. 2\n ii. 3\n iii. 4\n\nSelect the correct code.",
+   "options": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii",
+    "a-i, b-ii, c-iii",
+    "a-i, b-iii, c-ii"
+   ],
+   "answer": 2,
+   "explanation": "The correct pairs are Myanmar–2, Honduras–3 and Libya–4. The other codes interchange the reported ranks of these three countries.",
+   "facts": [
+    "P0.F23",
+    "P0.F24",
+    "P0.F25"
+   ]
+  },
+  {
+   "id": "2026-08/08/d000r2#4",
+   "format": "Direct Recall",
+   "keyword": "Rank 8",
+   "question": "Which country stood at rank 8 in the Climate Risk Index 2026?",
+   "options": [
+    "The Bahamas",
+    "India",
+    "Nicaragua",
+    "Philippines"
+   ],
+   "answer": 2,
+   "explanation": "Nicaragua ranked eighth in the Climate Risk Index 2026. India ranked ninth and The Bahamas tenth, while the Philippines ranked seventh.",
+   "facts": [
+    "P0.F28",
+    "P0.F29",
+    "P0.F30",
+    "P0.F31"
+   ]
+  },
+  {
+   "id": "2026-08/08/d000r2#5",
+   "format": "Direct Recall",
+   "keyword": "India’s rank in the index",
+   "question": "What was India’s rank in the Climate Risk Index 2026?",
+   "options": [
+    "8th",
+    "9th",
+    "10th",
+    "7th"
+   ],
+   "answer": 1,
+   "explanation": "India ranked 9th in the Climate Risk Index 2026. Nicaragua was eighth and The Bahamas was tenth, making both nearby alternatives incorrect.",
+   "facts": [
+    "P0.F28",
+    "P0.F29",
+    "P0.F30",
+    "P0.F31"
+   ]
+  },
+  {
+   "id": "2026-08/08/d001#0",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rank and share in milk production",
+   "question": "With reference to the milk production rankings reported for 2024–25, consider the following statements:\n1. Maharashtra ranked fifth among the States in milk production.\n2. The top five States together accounted for 54.09% of national milk output.\n3. The top five States together accounted for 55.09% of national milk output.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "Statements 1 and 2 are correct: Maharashtra ranked fifth, and the top five States contributed 54.09% of national milk output. Statement 3 is incorrect because the reported share was 54.09%, not 55.09%.",
+   "facts": [
+    "P1.F5",
+    "P1.F6"
+   ]
+  },
+  {
+   "id": "2026-08/08/d001#1",
+   "format": "Direct Recall",
+   "keyword": "Global position in milk production",
+   "question": "According to the Basic Animal Husbandry Statistics 2025, which description correctly reflects India’s position in global milk production?",
+   "options": [
+    "India is the world’s largest milk producer, contributing roughly one-third of global output",
+    "India is the world’s second-largest milk producer, contributing roughly one-fifth of global output",
+    "India is the world’s largest milk producer, contributing roughly one-fourth of global output",
+    "India is the world’s third-largest milk producer, contributing roughly one-fourth of global output"
+   ],
+   "answer": 2,
+   "explanation": "India is the world’s largest milk producer and contributes roughly one-fourth of global milk output. The other options alter either India’s global rank or its share of world production.",
+   "facts": [
+    "P1.F7"
+   ]
+  },
+  {
+   "id": "2026-08/08/d001#2",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Resources and objective of deep-sea fishery report",
+   "question": "With reference to the National Report on Deep-Sea and Distant-Water Fishery Resources of the Indian EEZ, consider the following statements:\nStatement A: The report covers Antarctic krill among the resources discussed.\nStatement B: The report aims at sustainable fisheries, deep-sea fishing and coastal tourism.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 2,
+   "explanation": "Statement A is true because Antarctic krill is among the resources covered by the report. Statement B is false: the stated aim includes sustainable fisheries, deep-sea fishing and the Blue Economy, not coastal tourism.",
+   "facts": [
+    "P2.F5",
+    "P2.F6"
+   ]
+  },
+  {
+   "id": "2026-08/08/d001#3",
+   "format": "Direct Recall",
+   "keyword": "HQ and establishment of ACI",
+   "question": "The Airports Council International, in the context of the first-half 2026 international passenger rankings, was established in which year and has its headquarters where?",
+   "options": [
+    "Established in 1991; headquartered in Montreal",
+    "Established in 1945; headquartered in Paris",
+    "Established in 2020; headquartered in New Delhi",
+    "Established in 1970; headquartered in Anand"
+   ],
+   "answer": 0,
+   "explanation": "Airports Council International was established in 1991 and is headquartered in Montreal. Paris, New Delhi and Anand correspond to other organisations or locations, not the stated details of ACI.",
+   "facts": [
+    "P4.F5"
+   ]
+  },
+  {
+   "id": "2026-08/08/d001#4",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coverage and institutional framework of financial fraud data",
+   "question": "With reference to financial fraud cases reported for 2023–24 to 2025–26, consider the following statements:\n1. The reported coverage included banking, digital payments, UPI, cards and loans.\n2. The Indian Cyber Crime Coordination Centre was established in 2020 under the Ministry of Home Affairs.\n3. The National Cyber Crime Reporting Portal is under the Ministry of Finance.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "Statements 1 and 2 are correct: the data covered banking, digital payments, UPI, cards and loans, while I4C was established in 2020 under the Ministry of Home Affairs. Statement 3 is incorrect because the National Cyber Crime Reporting Portal is associated with the Ministry of Home Affairs, not the Ministry of Finance.",
+   "facts": [
+    "P5.F3",
+    "P5.F4"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#0",
+   "format": "Direct Recall",
+   "keyword": "Trend in malaria cases",
+   "question": "According to the Ministry of Health, what was the approximate decline in malaria cases in India between 2015 and 2025?",
+   "options": [
+    "India exited the WHO High Burden to High Impact group",
+    "From 155 districts to 33 districts",
+    "160 districts reported no indigenous cases",
+    "Nearly 80%"
+   ],
+   "answer": 3,
+   "explanation": "Malaria cases declined by nearly 80% between 2015 and 2025. The other options refer to the reduction in high-burden districts, districts reporting no indigenous cases, and India’s exit from the WHO group, respectively.",
+   "facts": [
+    "P6.F1"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#1",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Malaria progress indicators",
+   "question": "With reference to India’s malaria-control progress during 2015–2025, consider the following statements:\n1. Malaria cases declined by nearly 80%.\n2. India exited the WHO’s High Burden to High Impact group.\n3. The number of high-burden districts increased from 33 to 155.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1, 2 and 3",
+    "2 only",
+    "1 and 3 only",
+    "1 and 2 only"
+   ],
+   "answer": 3,
+   "explanation": "Statements 1 and 2 are correct: malaria cases fell by nearly 80%, and India exited the WHO High Burden to High Impact group. Statement 3 reverses the actual trend, in which high-burden districts fell from 155 to 33.",
+   "facts": [
+    "P6.F1",
+    "P6.F2",
+    "P6.F3"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#2",
+   "format": "Direct Recall",
+   "keyword": "Malaria-control strategy",
+   "question": "Which of the following correctly describes the strategy used in India’s malaria-control efforts?",
+   "options": [
+    "Active surveillance, Test, Treat and Track, insecticide-treated nets and indoor residual spraying",
+    "Principal Component Analysis, Test, Treat and Track, and vocational courses",
+    "Learning with Earning, indoor residual spraying and solar photovoltaic manufacturing",
+    "Sub-Centre, PHC, CHC and structured vocational courses"
+   ],
+   "answer": 0,
+   "explanation": "The strategy comprises active surveillance, Test, Treat and Track, insecticide-treated nets and indoor residual spraying. Principal Component Analysis and the other education- or infrastructure-related terms belong to different contexts.",
+   "facts": [
+    "P6.F4"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#3",
+   "format": "List-Matching",
+   "keyword": "Malaria cause, vector and species",
+   "question": "Match List-I with List-II in the context of malaria.\n\nList-I\n(a) Causative parasite\n(b) Vector\n(c) Most severe species\n(d) Another malaria species\n\nList-II\n(i) Infected female Anopheles mosquito\n(ii) Plasmodium\n(iii) P. falciparum\n(iv) P. vivax\n\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer": 2,
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv. Malaria is caused by the Plasmodium parasite, transmitted by an infected female Anopheles mosquito, while P. falciparum is the most severe species and P. vivax is another listed species.",
+   "facts": [
+    "P6.F6"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#4",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Malaria framework and observance",
+   "question": "Consider the following statements:\nStatement A: The National Framework for Malaria Elimination was established in 2016.\nStatement B: World Malaria Day is observed on 24 April.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 2,
+   "explanation": "Statement A is true because the National Framework for Malaria Elimination dates to 2016. Statement B is false: World Malaria Day is observed on 25 April, not 24 April.",
+   "facts": [
+    "P6.F7",
+    "P6.F8"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#5",
+   "format": "List-Matching",
+   "keyword": "Top ranks in Rural Health Infrastructure Index",
+   "question": "In the Rural Health Infrastructure Index covering 28 States, match the State with its rank.\n\nList-I\n(a) Arunachal Pradesh\n(b) Kerala\n(c) Meghalaya\n(d) Mizoram\n\nList-II\n(i) Rank 3\n(ii) Rank 1\n(iii) Rank 4\n(iv) Rank 2\n\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer": 2,
+   "explanation": "The correct pairs are Arunachal Pradesh–Rank 1, Kerala–Rank 2, Meghalaya–Rank 3 and Mizoram–Rank 4. Therefore, the code is a-ii, b-iv, c-i, d-iii; the other codes interchange these leading positions.",
+   "facts": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F3",
+    "P7.F4"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#6",
+   "format": "Direct Recall",
+   "keyword": "Index methodology",
+   "question": "Which statistical method was used for the Rural Health Infrastructure Index based on Health Dynamics of India–Infrastructure and Human Resources 2022–23?",
+   "options": [
+    "Test, Treat and Track",
+    "Principal Component Analysis",
+    "Learning with Earning",
+    "Indoor residual spraying"
+   ],
+   "answer": 1,
+   "explanation": "The index used Principal Component Analysis on Health Dynamics of India–Infrastructure and Human Resources 2022–23. Test, Treat and Track and indoor residual spraying are malaria-control measures, while Learning with Earning is a skilling approach.",
+   "facts": [
+    "P7.F10"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#7",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Indicators and rural health tiers",
+   "question": "Consider the following statements regarding the Rural Health Infrastructure Index:\n1. CHCs per lakh population were among the indicators used.\n2. The indicators included pharmacists, radiologists and lab technicians, but not doctors and nurses per 1,000.\n3. The rural health tier proceeds from Sub-Centre to PHC to CHC.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 only",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 3 are correct. The index also included doctors and nurses per 1,000, so statement 2 is incorrect; the rural health hierarchy is Sub-Centre, PHC and CHC.",
+   "facts": [
+    "P7.F11",
+    "P7.F13"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#8",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "State ranking pattern",
+   "question": "Which one of the following statements regarding the Rural Health Infrastructure Index is incorrect?",
+   "options": [
+    "Gujarat, Maharashtra, Punjab, Karnataka and Haryana were among the relatively low-ranked richer States.",
+    "Richer States were not uniformly placed at the top of the index.",
+    "Gujarat, Maharashtra, Punjab, Karnataka and Tamil Nadu were among the relatively low-ranked richer States.",
+    "The index highlighted relatively low rankings for certain richer States."
+   ],
+   "answer": 2,
+   "explanation": "The incorrect statement replaces Haryana with Tamil Nadu. The States identified as relatively low-ranked richer States were Gujarat, Maharashtra, Punjab, Karnataka and Haryana.",
+   "facts": [
+    "P7.F12"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#9",
+   "format": "Direct Recall",
+   "keyword": "Assessment criteria",
+   "question": "The NITI Aayog report on positioning India as a global manufacturing hub assessed sectors on which of the following sets of criteria?",
+   "options": [
+    "Entrepreneurship, vocational certification, NEP 2020 and PMKVY",
+    "Active surveillance, insecticide-treated nets, indoor residual spraying and malaria species",
+    "Pharmacists, radiologists, lab technicians and CHCs per lakh population",
+    "Market potential, competitiveness, infrastructure, technology readiness, jobs and GVC position"
+   ],
+   "answer": 3,
+   "explanation": "The report assessed market potential, competitiveness, infrastructure, technology readiness, jobs and GVC position. The other options combine malaria-control, rural-health or skilling-related elements rather than the report’s assessment criteria.",
+   "facts": [
+    "P8.F3"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#10",
+   "format": "Assertion-Reason",
+   "keyword": "NITI Aayog institutional facts",
+   "question": "Assertion (A): NITI Aayog was established on 1 January 2015.\nReason (R): The Prime Minister is the Chairperson of NITI Aayog.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 1,
+   "explanation": "Both the Assertion and the Reason are true: NITI Aayog was established on 1 January 2015 and its Chairperson is the Prime Minister. However, the Prime Minister’s position does not explain the date of establishment, so the second option is correct.",
+   "facts": [
+    "P8.F4"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#11",
+   "format": "List-Matching",
+   "keyword": "School vocational recommendations",
+   "question": "Match the school stage with the corresponding recommendation in the skilling recommendations.\n\nList-I\n(a) Class 10\n(b) Classes 11–12\n(c) Class 6\n(d) Class 9\n\nList-II\n(i) Structured vocational courses in mainstream education\n(ii) State boards to certify vocational education\n(iii) Employability and entrepreneurship as a separate subject\n(iv) Entrepreneurship and basic employability training begins\n\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer": 0,
+   "explanation": "The correct pairs are Class 10–State boards to certify vocational education, Classes 11–12–employability and entrepreneurship as a separate subject, Class 6–entrepreneurship and basic employability training, and Class 9–structured vocational courses. Hence, the correct code is a-ii, b-iii, c-iv, d-i.",
+   "facts": [
+    "P9.F5",
+    "P9.F6",
+    "P9.F8",
+    "P9.F9"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#12",
+   "format": "Statement-Based (A/B)",
+   "keyword": "NEP 2020 structure",
+   "question": "Consider the following statements:\nStatement A: The National Education Policy 2020 replaced the National Policy on Education 1986.\nStatement B: NEP 2020 introduced a 5+3+3+3 school structure.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 2,
+   "explanation": "Statement A is true: NEP 2020 replaced NPE 1986. Statement B is false because the school structure is 5+3+3+4, not 5+3+3+3.",
+   "facts": [
+    "P9.F10"
+   ]
+  },
+  {
+   "id": "2026-08/08/d002#13",
+   "format": "Direct Recall",
+   "keyword": "PMKVY ministry and year",
+   "question": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY) was launched in which year under which ministry?",
+   "options": [
+    "2020, NITI Aayog",
+    "2016, Ministry of Health",
+    "2015, Ministry of Skill Development and Entrepreneurship",
+    "2014, Planning Commission"
+   ],
+   "answer": 2,
+   "explanation": "PMKVY dates to 2015 and is associated with the Ministry of Skill Development and Entrepreneurship. The other year-ministry combinations do not match the stated PMKVY fact.",
+   "facts": [
+    "P9.F11"
+   ]
+  },
+  {
+   "id": "2026-08/08/d003#0",
+   "format": "Direct Recall",
+   "keyword": "Proposed institutions",
+   "question": "Which combination of institutions was proposed in NITI Aayog’s report “Reimagining Care: Strategies for Empowering Caregivers in Viksit Bharat@2047”?",
+   "options": [
+    "National Caregiving Council, National Caregiving Services Framework and National Caregiver Registry",
+    "National Caregiving Council, National Caregiving Qualification Framework and National Caregiver Registry",
+    "National Caregiving Board, National Caregiving Qualification Framework and National Caregiver Registry",
+    "National Caregiving Council, National Caregiving Qualification Framework and National Senior Citizen Registry"
+   ],
+   "answer": 1,
+   "explanation": "The report proposed the National Caregiving Council, National Caregiving Qualification Framework and National Caregiver Registry. The other options alter one institutional name, such as replacing the Qualification Framework with a Services Framework or the Caregiver Registry with a Senior Citizen Registry.",
+   "facts": [
+    "P10.F2"
+   ]
+  },
+  {
+   "id": "2026-08/08/d003#1",
+   "format": "Direct Recall",
+   "keyword": "Index parameters",
+   "question": "Which set of parameters is assessed by NITI Aayog’s School Education Quality Index 2026?",
+   "options": [
+    "Learning outcomes, access, infrastructure, equity, governance and teachers",
+    "Learning outcomes, access, infrastructure, health, governance and teachers",
+    "Learning outcomes, equity, infrastructure, governance, teachers and taxation",
+    "Access, infrastructure, equity, governance, teachers and organ donation"
+   ],
+   "answer": 0,
+   "explanation": "The School Education Quality Index assesses learning outcomes, access, infrastructure, equity, governance and teachers. The other options replace one of these education-related parameters with an unrelated or unlisted item.",
+   "facts": [
+    "P11.F2"
+   ]
+  },
+  {
+   "id": "2026-08/08/d003#3",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ministers responsible",
+   "question": "With reference to India crossing 300 GW of non-fossil capacity in July 2026, consider the following statements:\nStatement A: Manohar Lal was the Minister of Power and Pralhad Joshi was the Minister of MNRE.\nStatement B: Pralhad Joshi was the Minister of Power and Manohar Lal was the Minister of MNRE.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 2,
+   "explanation": "Statement A is correct: Manohar Lal was the Minister of Power and Pralhad Joshi was the Minister of MNRE. Statement B reverses their ministerial portfolios, making it the false statement.",
+   "facts": [
+    "P12.F9"
+   ]
+  },
+  {
+   "id": "2026-08/08/d003#4",
+   "format": "Direct Recall",
+   "keyword": "NDC framework",
+   "question": "The target of 500 GW of non-fossil capacity by 2030 is associated with India’s Nationally Determined Contribution under which framework?",
+   "options": [
+    "Transplantation of Human Organs and Tissues Act, 1994",
+    "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+    "Paris Agreement 2015",
+    "NOTTO establishment framework of 2014"
+   ],
+   "answer": 2,
+   "explanation": "The non-fossil capacity commitment is an NDC under the Paris Agreement 2015. The other options refer to senior-citizen welfare, organ transplantation legislation or the establishment year of NOTTO, not the NDC framework.",
+   "facts": [
+    "P12.F10"
+   ]
+  },
+  {
+   "id": "2026-08/08/d003#5",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ageing and support ratio",
+   "question": "With reference to demographic ageing in rural India, consider the following statements:\n\n1. The number of working-age adults per elderly person declined from 8.4 in 2001 to 5.2 in 2026.\n2. India is ageing at a lower income level than developed countries did.\n3. A senior citizen is defined as a person aged 65 years or above, and the relevant legislation is administered by the Ministry of Health.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "Statements 1 and 2 are correct: the support ratio fell from 8.4 in 2001 to 5.2 in 2026, and India is ageing at a lower income level than developed countries did. Statement 3 is incorrect because a senior citizen is 60 or above and the Maintenance and Welfare of Parents and Senior Citizens Act, 2007 is associated with the Ministry of Social Justice and Empowerment.",
+   "facts": [
+    "P13.F3",
+    "P13.F4",
+    "P13.F5"
+   ]
+  },
+  {
+   "id": "2026-08/08/d003#6",
+   "format": "Direct Recall",
+   "keyword": "NOTTO establishment and legal basis",
+   "question": "Which of the following correctly describes the National Organ and Tissue Transplant Organisation (NOTTO)?",
+   "options": [
+    "Established in 2013 in New Delhi under the Ministry of Health; governed by the Transplantation of Human Organs and Tissues Act, 1994, amended in 2011",
+    "Established in 2014 in New Delhi under the Ministry of Health; governed by the Transplantation of Human Organs and Tissues Act, 1994, amended in 2011",
+    "Established in 2014 in New Delhi under the Ministry of Social Justice and Empowerment; governed by the Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+    "Established in 2014 outside New Delhi under the Ministry of Health; governed by the Transplantation of Human Organs and Tissues Act, 1994, amended in 2011"
+   ],
+   "answer": 1,
+   "explanation": "NOTTO was established in 2014 in New Delhi under the Ministry of Health, with the Transplantation of Human Organs and Tissues Act, 1994, amended in 2011, as the relevant legislation. The other options change its establishment year, ministry, location or legal basis.",
+   "facts": [
+    "P14.F7"
+   ]
+  },
+  {
+   "id": "2026-08/08/d003r2#1",
+   "format": "Statement-Based (A/B)",
+   "keyword": "Non-fossil capacity sources",
+   "question": "With reference to the sources contributing to India’s non-fossil capacity on 31 July 2026, consider the following statements:\nStatement A: Bio-power contributed 8.78 GW.\nStatement B: Nuclear power contributed 8.78 GW.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 3,
+   "explanation": "Statement A is false because bio-power contributed 11.75 GW, whereas Statement B is true because nuclear power contributed 8.78 GW. The figures for bio-power and nuclear power have been interchanged in Statement A.",
+   "facts": [
+    "P12.F7",
+    "P12.F8"
+   ]
+  },
+  {
    "id": "2026-08/08/g002#0",
    "format": "Direct Recall",
    "keyword": "Rank in index",

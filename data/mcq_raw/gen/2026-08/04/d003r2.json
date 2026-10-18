@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4
+ ],
+ "only": [
+  "P4.F10",
+  "P4.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Global rank in coal sector",
+   "question": "India is recognised as which of the following in the global coal sector?",
+   "options": [
+    "The 2nd-largest coal producer and consumer",
+    "The 3rd-largest coal producer and consumer",
+    "The 4th-largest coal producer and consumer",
+    "The 2nd-largest coal producer but 4th-largest coal consumer"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8"
+   ],
+   "explanation": "India is the 2nd-largest coal producer and the 2nd-largest coal consumer. The other options alter one or both of these rankings; the 3rd and 4th positions mentioned in the energy context relate to renewable capacity, wind and crude refining, not to both coal measures."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Coal’s share in energy and electricity",
+   "question": "Which of the following statements regarding coal’s contribution to India’s energy and electricity sectors is incorrect?",
+   "options": [
+    "Coal meets approximately 55% of primary energy demand and supplies more than 70% of electricity.",
+    "Coal’s contribution is approximately 55% of primary energy, while it supplies over 70% of electricity.",
+    "Coal supplies more than 70% of electricity and accounts for approximately 55% of primary energy.",
+    "Coal meets approximately 70% of primary energy demand and supplies more than 55% of electricity."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F10"
+   ],
+   "explanation": "The incorrect statement is the fourth: it changes coal’s shares to approximately 70% of primary energy and more than 55% of electricity. The correct figures are approximately 55% of primary energy and more than 70% of electricity."
+  }
+ ]
+}

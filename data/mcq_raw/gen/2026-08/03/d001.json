@@ -1,0 +1,178 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F2",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F9",
+  "P3.F6",
+  "P3.F7",
+  "P5.F3",
+  "P5.F4",
+  "P5.F5",
+  "P6.F1",
+  "P6.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Motto and vision",
+   "question": "What are the motto and vision of Bharat Taxi, India's cooperative-based ride-hailing platform?",
+   "options": [
+    "“Saarthi Hi Maalik” and “Sahkar se Samriddhi”",
+    "“Sahkar se Samriddhi” and “Saarthi Hi Maalik”",
+    "“Sabka Saath, Sabka Vikas” and “Digital India”",
+    "“Jai Jawan, Jai Kisan” and “Atmanirbhar Bharat”"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Bharat Taxi’s motto is “Saarthi Hi Maalik” and its vision is “Sahkar se Samriddhi.” The second option reverses the motto and vision, making it incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scale of platform",
+   "question": "As of 25 July 2026, approximately how many Sarathis and customers did Bharat Taxi have?",
+   "options": [
+    "8 lakh Sarathis and 41 lakh customers",
+    "41 lakh Sarathis and 8 lakh customers",
+    "8 lakh Sarathis and 25 lakh customers",
+    "25 lakh Sarathis and 41 lakh customers"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "As of 25 July 2026, Bharat Taxi had approximately 8 lakh Sarathis and 41 lakh customers. The other options interchange or alter these figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cities of operation",
+   "question": "Which of the following cities is included among the places where Bharat Taxi operates?",
+   "options": [
+    "Jaipur",
+    "Bengaluru",
+    "Hyderabad",
+    "Bhopal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Jaipur is among the listed Bharat Taxi cities, along with Delhi-NCR, Gujarat, Lucknow, Chandigarh, Mumbai, Kanpur and Pune. Bengaluru, Hyderabad and Bhopal are not included in the listed locations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Cooperative ownership model",
+   "question": "Consider the following statements about Bharat Taxi:\nStatement A: Each share is priced at ₹50, and ownership is obtained with ₹500.\nStatement B: Of the earnings, 90% is shared according to kilometres and 10% is credited as Sarathis’ capital.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "Both statements are false. Bharat Taxi shares are ₹100 each, with ownership at ₹500, while 20% of earnings is credited as Sarathis’ capital and 80% is shared according to kilometres."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Digital integration and welfare benefits",
+   "question": "Match List-I with List-II in the context of Bharat Taxi.\n\nList-I\n a. DigiLocker\n b. UMANG\n c. API Setu\n d. AB-PMJAY\n\nList-II\n i. Benefit of up to ₹5 lakh after e-Shram registration\n ii. Included in the MoU with NeGD\n iii. Included in the MoU with NeGD\n iv. Included in the MoU with NeGD",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "DigiLocker, UMANG and API Setu were covered under Bharat Taxi’s MoU with NeGD, while e-Shram registration enables AB-PMJAY benefits of up to ₹5 lakh. Therefore, the correct pairing is a-ii, b-iii, c-iv, d-i."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Livestock census and identification system",
+   "question": "Consider the following statements regarding livestock disease-control infrastructure and data:\n1. The 20th Livestock Census 2019 recorded 535.78 million livestock.\n2. Of these, 302.79 million were bovines.\n3. The Bharat Pashudhan Portal provides a 10-digit tag ID, while Mobile Veterinary Units can be reached through toll-free number 1962.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the census recorded 535.78 million livestock, including 302.79 million bovines. Statement 3 is incorrect because the Bharat Pashudhan Portal provides a 12-digit tag ID; the toll-free number for Mobile Veterinary Units is 1962."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Registrations and languages",
+   "question": "What was the status of the e-Shram portal’s registrations and language availability on 18 August 2026?",
+   "options": [
+    "More than 31.89 crore registrations and availability in 22 languages",
+    "More than 22 crore registrations and availability in 31 languages",
+    "More than 31.89 crore registrations and availability in 12 languages",
+    "More than 18.26 crore registrations and availability in 22 languages"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The e-Shram portal had more than 31.89 crore registrations and was available in 22 languages on 18 August 2026. The other options alter either the registration figure or the number of languages."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coverage and scheme integration",
+   "question": "Consider the following statements about the e-Shram portal:\n1. It covers migrant, construction, gig and platform workers.\n2. Benefits registered through the portal are not portable.\n3. Fifteen schemes are integrated with it, including PMJJBY, PMSBY, PM Shram Yogi Maandhan, National Career Service and Skill India Digital Hub.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F4",
+    "P5.F5"
+   ],
+   "explanation": "Statements 1 and 3 are correct: e-Shram covers migrant, construction, gig and platform workers, and integrates 15 schemes including the five listed schemes. Statement 2 is incorrect because the portal supports portability of benefits."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Launch and implementing department",
+   "question": "Consider the following statements about the Pradhan Mantri Jan Dhan Yojana:\n1. It was launched on 28 August 2014 and completed 12 years on 28 August 2026.\n2. It is implemented by the Department of Financial Services, Ministry of Finance.\n3. It is implemented by the Department of Revenue, Ministry of Finance.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Pradhan Mantri Jan Dhan Yojana was launched on 28 August 2014 and is implemented by the Department of Financial Services, Ministry of Finance. Statement 3 is incorrect because the implementing department is not the Department of Revenue."
+  }
+ ]
+}
