@@ -56,6 +56,7 @@ API = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1")
 MODEL = os.environ.get("OPENAI_MODEL", "gpt-5.6-luna")
 CHUNK_FACTS = 36  # facts per generate call (small pages are grouped up to this)
 VERIFY_BATCH = 12  # MCQs per verify call
+VERIFY_VERSION = 2  # bump when VERIFY_SYSTEM changes: older verdicts are ignored and items are verified again
 
 FORMATS = [
     "Direct Recall",
@@ -67,7 +68,7 @@ FORMATS = [
     "List-Matching",
     "Count-Based",
 ]
-FIXED_OPTION_FORMATS = {"Assertion-Reason", "Statement-Based (A/B)", "Count-Based", "Multi-Statement Correctness"}
+FIXED_OPTION_FORMATS = {"Assertion-Reason", "Statement-Based (A/B)", "Count-Based"}
 AR_OPTIONS = [
     "Both A and R are true, and R is the correct explanation of A",
     "Both A and R are true, but R is NOT the correct explanation of A",
@@ -99,7 +100,8 @@ Hard rules — an item that breaks one is thrown away:
 3. Exactly ONE option is correct; the other three are clearly wrong by the facts, yet plausible (adjacent year,
    neighbouring state/district, a related scheme/organisation/person — ideally another entry from the same facts).
    Four distinct options. Never "All/None/Both of the above".
-4. Write like a real exam paper: never mention notes, facts, fact ids, sheet, passage, "given text" or "source".
+4. Write like a real exam paper: never mention notes, facts, fact ids, sheet, passage, "given text" or "source",
+   and never write the format name ("Direct Recall", "[Multi-Statement Correctness]" …) in the question.
 5. Current-affairs stems must stand alone: name the event/scheme/report/place so a candidate who read the news
    knows exactly what is asked (e.g. "Which State topped the India Electric Mobility Index released in September
    2026?"). Never ask "Which of the following is true?" without context.
@@ -129,7 +131,7 @@ Hard rules — an item that breaks one is thrown away:
 """
 
 USER = """Period: {period}. Category: {category}.
-Write {count} MCQs from the facts below.{only}{asked}
+Write {count} MCQs from the facts below.{only}{keys}{asked}
 
 {facts}
 """
@@ -137,10 +139,15 @@ Write {count} MCQs from the facts below.{only}{asked}
 VERIFY_SYSTEM = """You check exam MCQs against facts. For each MCQ, answer it using ONLY the facts given with it
 (not memory), then judge the item. Be strict:
 - "answer_index": the option the facts make correct (0-3), or -1 if none is.
-- "exactly_one_correct": true only if exactly one option is correct by the facts and every other option is wrong by the facts
-  (an option the facts neither confirm nor refute counts as a flaw).
-- "issue": "none", or one of: "two_correct", "none_correct", "not_in_facts" (needs knowledge beyond the facts),
-  "ambiguous_stem", "garbled", "explanation_contradicts", "trivial".
+- "exactly_one_correct": true if the facts establish exactly one option as the answer to the question asked.
+  For "which/what/where/who" questions the facts naming the answer is enough: the other options are wrong because the
+  facts give a different answer — they need not be refuted one by one. For "incorrect statement" questions the key
+  statement must be contradicted by the facts and the other three supported by them. For statement / count /
+  matching questions every statement or pair must be decidable from the facts. For Assertion-Reason, judge whether
+  R explains A with ordinary reasoning from the facts.
+- "issue": "none", or one of: "two_correct" (two options can be defended), "none_correct", "not_in_facts" (the KEY
+  or a statement needs knowledge the facts do not give), "ambiguous_stem", "garbled", "explanation_contradicts"
+  (the explanation disagrees with the key or the facts), "trivial" (no exam value).
 - "note": one short sentence when issue is not "none".
 Return one verdict per MCQ, in order, with its "qid"."""
 
@@ -335,6 +342,14 @@ def problems_of(q: dict, facts: dict) -> list[str]:
     return out
 
 
+FORMAT_PREFIX = re.compile(r"^\s*[\[(]?\s*(?:" + "|".join(re.escape(f) for f in FORMATS) + r")\s*[\])]?\s*[:.\-–]?\s*", re.I)
+
+
+def clean(q: dict) -> dict:
+    """Drops a format label the model put in front of the stem."""
+    return {**q, "question": FORMAT_PREFIX.sub("", q["question"], count=1).strip()}
+
+
 def dup_key(q: dict) -> tuple[str, set]:
     stem = norm(q["question"])
     return stem, content_words(q["question"] + " " + q["options"][q["answer_index"]])
@@ -396,6 +411,27 @@ def asked_list(qs: list[dict], limit: int = 60) -> str:
             + "\n".join("- " + q["question"][:150].replace("\n", " / ") for q in qs[-limit:]))
 
 
+KEY_PLANS = {
+    "Statement-Based (A/B)": AB_OPTIONS,
+    "Assertion-Reason": AR_OPTIONS,
+    "Multi-Statement Correctness": ["exactly one statement is correct", "exactly two statements are correct",
+                                    "all statements are correct", "exactly two statements are correct"],
+    "Count-Based": ["Only one", "Only two", "Only three", "Only two"],
+}
+
+
+def key_plan(seed: str) -> str:
+    """Which answer each fixed-order format must have in this call, rotated by a hash of the call, so that
+    "both true", "all of them" and option A do not become a pattern a candidate can guess."""
+    h = int(hashlib.sha1(seed.encode()).hexdigest(), 16)
+    how = {"Assertion-Reason": "choose A and R from the facts so that this is right; a false A or R changes one detail of a true fact"}
+    lines = [f"- {fmt}: make the correct answer \"{opts[(h >> (3 * i)) % len(opts)]}\" ("
+             + how.get(fmt, "a false statement changes one detail of a true fact") + ")"
+             for i, (fmt, opts) in enumerate(KEY_PLANS.items())]
+    return ("\n\nANSWER PLAN for this call — if you write one of these formats, its correct answer MUST be as below "
+            "(a second one of the same format may use any other answer):\n" + "\n".join(lines))
+
+
 def gen_job(folder: str, nn: str, key: str, pages: list[dict], count: int, only: set | None, asked: list[dict], title: str):
     path = raw_path("gen", folder, nn, key)
     if path.exists():
@@ -403,7 +439,7 @@ def gen_job(folder: str, nn: str, key: str, pages: list[dict], count: int, only:
     user = USER.format(period=period_of(folder), category=title, count=count,
                        only=(f"\nWrite questions ONLY for these facts, which no question tests yet: {', '.join(sorted(only))}."
                              " If a fact is trivial or cannot make a fair exam question, skip it.") if only else "",
-                       asked=asked_list(asked), facts=facts_text(pages, only))
+                       keys=key_plan(f"{folder}/{nn}/{key}"), asked=asked_list(asked), facts=facts_text(pages, only))
     system = SYSTEM.format(period=period_of(folder), ar=" | ".join(AR_OPTIONS), ab=" | ".join(AB_OPTIONS))
     res = api(system, user, gen_schema(), "ca_mcqs")
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -450,7 +486,7 @@ def candidates(folder: str, nn: str) -> list[dict]:
     out = []
     for key, rec in load_raw("gen", folder, nn).items():
         for k, q in enumerate(rec["mcqs"]):
-            out.append({**q, "qid": f"{folder}/{nn}/{key}#{k}"})
+            out.append({**clean(q), "qid": f"{folder}/{nn}/{key}#{k}"})
     return out
 
 
@@ -473,7 +509,9 @@ def ver_job(folder: str, nn: str, key: str, items: list[dict], facts: dict):
 
 def verdicts(folder: str, nn: str) -> dict:
     out = {}
-    for rec in load_raw("ver", folder, nn).values():
+    for name, rec in load_raw("ver", folder, nn).items():
+        if not name.startswith(f"v{VERIFY_VERSION}-"):
+            continue  # made with an older verify prompt
         for v in rec["verdicts"]:
             out[v["qid"]] = v
     return out
@@ -489,7 +527,7 @@ def cmd_verify(args):
         done_keys = set(load_raw("ver", folder, nn))
         for b in range(0, len(todo), VERIFY_BATCH):
             items = todo[b:b + VERIFY_BATCH]
-            key = "v" + hashlib.sha1("|".join(q["qid"] for q in items).encode()).hexdigest()[:12]
+            key = f"v{VERIFY_VERSION}-" + hashlib.sha1("|".join(q["qid"] for q in items).encode()).hexdigest()[:12]
             if key not in done_keys:
                 jobs.append((ver_job, folder, nn, key, items, facts))
     print(f"{len(jobs)} verify calls to make")
@@ -609,7 +647,7 @@ def cmd_dry(args):
     print("=" * 60)
     nf = sum(len(p["facts"]) for p in pages)
     print(USER.format(period=period_of(folder), category=data["title"], count=max(2, min(18, math.ceil(nf / 2))), only="",
-                      asked="", facts=facts_text(pages)))
+                      keys=key_plan(f"{folder}/{nn}/c000"), asked="", facts=facts_text(pages)))
 
 
 def main():
