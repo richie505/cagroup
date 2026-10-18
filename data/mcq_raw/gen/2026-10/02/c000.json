@@ -1,0 +1,59 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Centenary date",
+   "question": "The Union Public Service Commission completed 100 years on which date in 2026?",
+   "options": [
+    "1 October 2026",
+    "26 January 1950",
+    "22 August 1949",
+    "1 October 1926"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Union Public Service Commission completed 100 years on 1 October 2026. 26 January 1950 marks the date when the Public Service Commission became UPSC, while 1 October 1926 marks the constitution of India's first Public Service Commission."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Headquarters and origin",
+   "question": "With reference to the centenary of the Union Public Service Commission, consider the following statements:\nStatement A: The headquarters of the UPSC is at Metcalfe House, Delhi.\nStatement B: The first Public Service Commission was set up at Metcalfe House, Delhi.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F8"
+   ],
+   "explanation": "Statement A is false because the UPSC headquarters is at Dholpur House, New Delhi. Statement B is true because the first Public Service Commission was set up at Metcalfe House, Delhi."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Annual report and expenditure",
+   "question": "With reference to the constitutional framework governing the Union Public Service Commission, consider the following:\nAssertion (A): Article 323 provides for the annual report of the UPSC to be submitted to the Chief Justice of India.\nReason (R): Article 322 provides that UPSC expenses are charged on the Consolidated Fund of India.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F20",
+    "P0.F21"
+   ],
+   "explanation": "Assertion A is false because Article 323 provides for the annual report to be submitted to the President and laid before Parliament, not to the Chief Justice of India. Reason R is true because Article 322 deals with expenses charged on the Consolidated Fund of India."
+  }
+ ]
+}

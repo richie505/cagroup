@@ -1,0 +1,153 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Repo rate",
+   "question": "According to the RBI Monetary Policy Committee decision of 7 October 2026, what was the new repo rate after the hike?",
+   "options": [
+    "5.50%",
+    "5.25%",
+    "5.75%",
+    "5.00%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F4"
+   ],
+   "explanation": "The RBI raised the repo rate from 5.25% to 5.50% by 25 basis points on 7 October 2026. The 5.25% figure is the SDF rate, while 5.75% is the MSF/Bank Rate."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "MPC decision and stance",
+   "question": "Which of the following statements regarding the RBI’s 7 October 2026 monetary policy decision is incorrect?",
+   "options": [
+    "The MPC decision was unanimous.",
+    "The policy stance changed from Neutral to Calibrated Tightening.",
+    "It was the first repo-rate hike since February 2023.",
+    "The MPC decision was chaired by Deputy Governor Sanjay Malhotra."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "The incorrect statement is that the decision was chaired by Deputy Governor Sanjay Malhotra. It was chaired by Governor Sanjay Malhotra; the decision was unanimous, changed the stance to Calibrated Tightening, and marked the first hike since February 2023."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GST collections",
+   "question": "What was the gross GST collection in India during September 2026?",
+   "options": [
+    "₹2,03,521 crore",
+    "₹1,76,520 crore",
+    "₹1,37,996 crore",
+    "₹65,525 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3"
+   ],
+   "explanation": "Gross GST collection in September 2026 was ₹2,03,521 crore. ₹1,76,520 crore was the net GST collection after refunds, while ₹1,37,996 crore and ₹65,525 crore were domestic and import collections respectively."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "GST Council voting requirement",
+   "question": "Assertion (A): Decisions of the GST Council require a two-thirds majority of weighted votes.\nReason (R): The Centre has one-third of the weighted votes and the States have two-thirds.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "Assertion A is false because GST Council decisions require three-fourths of the weighted votes, not two-thirds. Reason R is true: the Centre has one-third and the States have two-thirds of the weighted votes."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "GST reform recommendations",
+   "question": "With reference to the key recommendations of the 57th GST Council meeting, how many of the following are correct?\n1. Arrest provisions under GST were recommended for removal.\n2. The prosecution threshold was recommended to be raised from ₹1 crore to ₹5 crore.\n3. Interception of goods in transit was recommended to be entirely random and without authorisation.\n4. Simpler registration was recommended for small e-commerce sellers.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "Statements 1, 2 and 4 are correct, while statement 3 is incorrect. Interception of goods in transit was recommended to be intelligence-based and subject to authorised approval, so three statements are correct."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Revised GDP growth",
+   "question": "Consider the following statements about the National Accounts Statistics 2026:\n1. Real GDP growth for 2025–26 was 7.8%.\n2. Nominal GDP growth for 2024–25 was 8.6%.\n3. The new base year 2011–12 replaced 2022–23.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3",
+    "P3.F4",
+    "P3.F6"
+   ],
+   "explanation": "Only statement 1 is correct: real GDP growth for 2025–26 was 7.8%. Nominal GDP growth for 2024–25 was 9.4%, and 2022–23 was introduced as the new base year, replacing 2011–12."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National Accounts Statistics release",
+   "question": "Which organisation released the National Accounts Statistics 2026 on 31 August 2026?",
+   "options": [
+    "MoSPI",
+    "IMF",
+    "GST Council",
+    "RBI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "The National Accounts Statistics 2026 was released by MoSPI on 31 August 2026. The IMF, GST Council and RBI are associated with other economic, fiscal or monetary functions but were not the releasing organisation for this publication."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "IMF growth projection and drivers",
+   "question": "Consider the following statements regarding the IMF World Economic Outlook October 2026:\nStatement A: India’s projected growth for FY 2026–27 was revised from 7.0% to 6.4%.\nStatement B: Domestic demand and services were identified as growth drivers.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F3"
+   ],
+   "explanation": "Statement A is false because India’s FY 2026–27 growth projection was raised from 6.4% to 7.0%, not revised downward. Statement B is true, as domestic demand and services were identified as growth drivers."
+  }
+ ]
+}

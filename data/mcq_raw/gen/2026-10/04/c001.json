@@ -1,0 +1,119 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Growth forecast",
+   "question": "What FY 2026–27 real GDP growth forecast for India did the World Bank raise in October 2026?",
+   "options": [
+    "7.1%",
+    "6.6%",
+    "7.8%",
+    "2022–23"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "The World Bank raised India’s FY 2026–27 growth forecast to 7.1%, from 6.6% in April 2026. The 7.8% figure refers to Q1 growth, while 2022–23 is the base year used for GDP estimates by the NSO."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "CPI inflation and state ranking",
+   "question": "Which of the following statements regarding India’s CPI inflation in September 2026 is incorrect?",
+   "options": [
+    "CPI inflation stood at 5.54% in September 2026.",
+    "The September 2026 CPI figure was the highest since 6.25% in October 2024.",
+    "The inflation rate was above the 4% target but within the 2–6% band.",
+    "Uttar Pradesh recorded CPI inflation of 6.70%, the highest among the cited States."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "The incorrect statement is that Uttar Pradesh recorded 6.70%; its CPI inflation was 6.81%, the highest among the cited States. Odisha recorded 6.70%, while September 2026 CPI inflation overall was 5.54%."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Net FDI",
+   "question": "Which of the following statements regarding India’s net FDI in July 2026 is incorrect?",
+   "options": [
+    "Net FDI stood at USD 7.35 billion.",
+    "It was the highest net FDI level since USD 8.80 billion in May 2021.",
+    "Net FDI increased by 64% year-on-year.",
+    "The figure was reported in the RBI Monthly Bulletin of August 2026."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2"
+   ],
+   "explanation": "The incorrect statement changes the bulletin month: the figure was reported in the RBI Monthly Bulletin of September 2026, not August 2026. Net FDI in July 2026 was USD 7.35 billion, the highest since USD 8.80 billion in May 2021, and it rose 64% year-on-year."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First dedicated storage component",
+   "question": "Assertion (A): PM-DHARA was approved by the Union Cabinet on 30 September 2026.\nReason (R): Green Energy Corridor Phase-III included the first dedicated battery-storage component in the Green Energy Corridor.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F7",
+    "P8.F16"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: PM-DHARA received Cabinet approval on 30 September 2026, and it marked the first dedicated battery-storage component in the Green Energy Corridor. However, the storage-component detail does not explain the date of Cabinet approval."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Outlay and transmission capacity",
+   "question": "With reference to PM-DHARA and Green Energy Corridor Phase-III, consider the following statements:\n1. The scheme provides for evacuation of up to 135 GW of renewable energy.\n2. The total outlay of the scheme is ₹1,86,405 crore.\n3. The 50 GWh BESS component has an outlay of ₹54,082 crore.\n4. The overall implementing agencies are State Governments.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3",
+    "P8.F5",
+    "P8.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: PM-DHARA will facilitate evacuation of up to 135 GW and has a total outlay of ₹1,86,405 crore. The 50 GWh BESS component is allocated ₹50,000 crore, and the overall implementing agencies are State Transmission Utilities, not State Governments."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Implementation model and GEC Phase-II context",
+   "question": "How many of the following statements about PM-DHARA and the associated transmission context are correct?\n1. Greenfield projects will use Tariff-Based Competitive Bidding under the BOOM model.\n2. Brownfield projects will be implemented on a Cost Plus Basis.\n3. Green Energy Corridor Phase-II covered 5 States.\n4. Approximately 8,133 GWh of clean power was restricted in FY 2025–26.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F8",
+    "P8.F9",
+    "P8.F11",
+    "P8.F12",
+    "P8.F13"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: Greenfield projects use TBCB under the BOOM model, while brownfield projects follow the Cost Plus Basis. Phase-II covered 7 States, and approximately 6,900 GWh was restricted in FY 2025–26; approximately 8,133 GWh of solar power was curtailed during April–June 2026."
+  }
+ ]
+}
