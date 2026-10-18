@@ -54,7 +54,7 @@ Indices & Rankings, 09 Awards, Persons & Appointments, 10 Sports and 11 Importan
 - **Plan:** a revision plan that starts on **19 Oct 2026**. It goes from the latest month to the oldest at
   about 60 pages a day (a big month spans several days); Special topics come last, and every 7th day is a
   weekly review — 63 days in all (54 study, 9 review) for the 2,629 pages. The plan shows "N days left in plan" and no exam date.
-- **MCQs:** 3,769 exam-style MCQs, 1–3 per news item (2,563 of 2,629 pages have at least one), made with the
+- **MCQs:** 3,795 exam-style MCQs, 1–3 per news item (2,588 of 2,629 pages have at least one), made with the
   OpenAI API by `scripts/ca_mcqs.py` from the facts of each page (`scripts/ca_facts.py`). Each question cites
   the facts it tests ("From your notes"); a second, independent API call must reach the same key with exactly
   one correct option, or the item is dropped. Safeguards, per-format answer spread and the dropped items:
