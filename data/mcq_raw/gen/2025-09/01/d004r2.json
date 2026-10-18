@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19,
+  20
+ ],
+ "only": [
+  "P16.F5",
+  "P18.F5",
+  "P19.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Health allocation and scheme beneficiaries",
+   "question": "With reference to the Andhra Pradesh District Collectors’ Conference and the PM Surya Ghar scheme, consider the following statements:\n\n1. A health allocation of ₹20,000 crore was announced.\n2. PM Surya Ghar is a State scheme providing free rooftop solar for SC/ST households.\n3. PM Surya Ghar provides free rooftop solar for OBC households.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F5",
+    "P18.F5"
+   ],
+   "explanation": "Statement 1 is correct because the health allocation was ₹20,000 crore. Statement 2 is incorrect because PM Surya Ghar is a Union scheme, while Statement 3 wrongly changes the beneficiaries from SC/ST households to OBC households."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SCADA Centre location and coverage",
+   "question": "The APTRANSCO SCADA Centre mentioned in the September 2025 power-system update is located where, and what does it monitor?",
+   "options": [
+    "Visakhapatnam; 110 substations",
+    "Vijayawada; 110 substations",
+    "Visakhapatnam; 110 generating units",
+    "Vijayawada; 110 generating units"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F4"
+   ],
+   "explanation": "The SCADA Centre is located in Visakhapatnam and monitors 110 substations. Vijayawada is the tempting alternative, but it is specifically not the location of this SCADA Centre."
+  }
+ ]
+}

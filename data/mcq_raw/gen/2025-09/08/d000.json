@@ -1,0 +1,287 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F1",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P2.F10",
+  "P2.F11",
+  "P2.F3",
+  "P2.F5",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Publisher",
+   "question": "Who published the Global Peace Index 2025?",
+   "options": [
+    "Institute for Economics & Peace (IEP), Sydney",
+    "World Economic Forum, Geneva",
+    "United Nations Development Programme, New York",
+    "International Monetary Fund, Washington, D.C."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Global Peace Index 2025 was published by the Institute for Economics & Peace (IEP), Sydney. The World Economic Forum was not the publisher of this index."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Finding in index",
+   "question": "What major conflict-related finding was highlighted in the Global Peace Index 2025?",
+   "options": [
+    "State-based conflicts were at their highest level since World War II, with 3 new conflicts this year",
+    "State-based conflicts were at their lowest level since World War II, with 3 new conflicts this year",
+    "State-based conflicts were at their highest level since World War I, with 5 new conflicts this year",
+    "State-based conflicts were at their highest level since World War II, with 2 new conflicts this year"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The index reported that state-based conflicts had reached their highest level since World War II and that 3 new conflicts had emerged that year. The alternatives alter either the historical comparison or the number of new conflicts."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Top-ranked countries",
+   "question": "Match the ranks in the Global Peace Index 2025 with the corresponding countries.\n\nList-I\n a. Rank 1\n b. Rank 2\n c. Rank 3\n d. Rank 4\n\nList-II\n i. Austria\n ii. Iceland\n iii. New Zealand\n iv. Ireland",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6",
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "The correct pairs are 1-Iceland, 2-Ireland, 3-New Zealand and 4-Austria. The other codes interchange these top-ranked countries."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Ranks 5 to 8",
+   "question": "Match the ranks in the Global Peace Index 2025 with the corresponding countries.\n\nList-I\n a. Rank 5\n b. Rank 6\n c. Rank 7\n d. Rank 8\n\nList-II\n i. Portugal\n ii. Denmark\n iii. Switzerland\n iv. Singapore",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10",
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "The correct pairs are 5-Switzerland, 6-Singapore, 7-Portugal and 8-Denmark. The other options shift one or more countries to adjacent ranks."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ranks 9 and 10; Asian representation",
+   "question": "Consider the following statements regarding the Global Peace Index 2025:\n\n1. Slovenia was ranked 9th.\n2. Finland was ranked 10th.\n3. Singapore was ranked 7th.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F13",
+    "P0.F14"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Slovenia ranked 9th and Finland ranked 10th. Statement 3 is incorrect because Singapore ranked 6th."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Crude Birth Rate",
+   "question": "According to the SRS Statistical Report 2023, what was India’s Crude Birth Rate in 2023, compared with 2022?",
+   "options": [
+    "18.4 in 2023, down from 19.1 in 2022",
+    "19.1 in 2023, down from 18.4 in 2022",
+    "18.4 in 2023, up from 19.1 in 2022",
+    "19.1 in both 2023 and 2022"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "India’s Crude Birth Rate was 18.4 in 2023, compared with 19.1 in 2022. The incorrect choices reverse the years or the direction of change."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "States and UTs below replacement fertility",
+   "question": "How many States and Union Territories were reported to be below replacement fertility in the SRS Statistical Report 2023?",
+   "options": [
+    "18",
+    "15",
+    "21",
+    "25"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "The report recorded 18 States and Union Territories below replacement fertility. The other numbers do not represent the reported count."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State demographic extremes",
+   "question": "Match the demographic indicators with their reported State extremes in the SRS Statistical Report 2023.\n\nList-I\n a. Highest Crude Birth Rate\n b. Lowest Crude Birth Rate\n c. Highest Total Fertility Rate\n d. Lowest elderly share\n\nList-II\n i. Delhi\n ii. Bihar\n iii. Assam, Delhi and Jharkhand\n iv. Tamil Nadu",
+   "options": [
+    "a-ii, b-iv, c-ii, d-iii",
+    "a-iv, b-ii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "The correct pairs are highest CBR-Bihar, lowest CBR-Tamil Nadu, highest TFR-Bihar and lowest elderly share-Assam, Delhi and Jharkhand. Delhi is the lowest-TFR entry, not the lowest-CBR entry."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian air-quality standard",
+   "question": "According to the Air Quality Life Index 2025, what proportion of India’s population lives in areas where the Indian PM2.5 standard of 40 µg/m³ is breached?",
+   "options": [
+    "About 46%",
+    "About 40.8%",
+    "About 12%",
+    "About 9.4%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "About 46% of India’s population lives in areas where even the Indian standard of 40 µg/m³ is breached. The other figures refer to different air-quality findings and are not the reported Indian population share."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Life-expectancy gain",
+   "question": "Assertion (A): Delhi would gain 9.4 years of life expectancy if the WHO PM2.5 limit were met.\nReason (R): The cleanest regions of India would gain 9.4 months of life expectancy if the WHO PM2.5 limit were met.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Assertion A is false because Delhi’s largest potential gain was 8.2 years. Reason R is true because the cleanest regions of India were associated with a gain of 9.4 months."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "China air-quality trend",
+   "question": "What change in China’s air quality was reported in the Air Quality Life Index 2025?",
+   "options": [
+    "China was 40.8% cleaner than in 2014 despite a 2.8% rise in 2023",
+    "China was 40.8% cleaner than in 2014 despite a 2.8% fall in 2023",
+    "China was 2.8% cleaner than in 2014 despite a 40.8% rise in 2023",
+    "China was 40.8% more polluted than in 2014 despite a 2.8% rise in 2023"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "China was reported to be 40.8% cleaner than in 2014, even though pollution rose by 2.8% in 2023. The incorrect options reverse or interchange these two figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Country entering the top 10",
+   "question": "Which country entered the top 10 most polluted countries for the first time since 2010, according to the Air Quality Life Index 2025?",
+   "options": [
+    "Bolivia",
+    "China",
+    "Cameroon",
+    "Democratic Republic of the Congo"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "Bolivia entered the top 10 most polluted countries for the first time since 2010. China, Cameroon and the Democratic Republic of the Congo were associated with other findings in the index."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Cause of North American pollution spike",
+   "question": "Which of the following statements regarding the Air Quality Life Index 2025 is incorrect?",
+   "options": [
+    "North America experienced a pollution spike in 2023 due to wildfires.",
+    "North America experienced a pollution spike in 2023 due to floods.",
+    "North America experienced a pollution spike in 2023.",
+    "Wildfires were identified as the reason for North America’s pollution spike in 2023."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "The incorrect statement attributes North America’s 2023 pollution spike to floods; the reported cause was wildfires. The other statements preserve the reported 2023 North American spike and its cause."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Comparative health threat",
+   "question": "In which two places was air pollution reported to be a greater threat than HIV/AIDS and malaria in the Air Quality Life Index 2025?",
+   "options": [
+    "Cameroon and the Democratic Republic of the Congo",
+    "Bolivia and China",
+    "Delhi and the Indo-Gangetic Plain",
+    "Bangladesh and Gazipur"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "The report identified Cameroon and the Democratic Republic of the Congo as places where air pollution posed a greater threat than HIV/AIDS and malaria. The other pairs combine locations linked to different air-quality findings."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Indian air-pollution programmes",
+   "question": "Consider the following statements:\nStatement A: The National Clean Air Programme (NCAP) was identified as an Indian air-pollution programme.\nStatement B: The Graded Response Action Plan (GRAP) was identified for the Delhi NCR region.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F11"
+   ],
+   "explanation": "Both statements are true: NCAP is an Indian air-pollution programme, while GRAP applies to the Delhi NCR region. The alternatives incorrectly reject one or both of these programme-region associations."
+  }
+ ]
+}

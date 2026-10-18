@@ -1,0 +1,159 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P5.F3",
+  "P5.F4",
+  "P5.F5",
+  "P6.F3",
+  "P6.F4",
+  "P6.F5",
+  "P7.F4",
+  "P7.F5",
+  "P8.F1",
+  "P8.F4",
+  "P9.F3",
+  "P9.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Participants",
+   "question": "Which of the following groups correctly represents the participants in Exercise Bright Star 2025?",
+   "options": [
+    "India, Egypt, US, Saudi Arabia, Qatar, Greece, Cyprus and Italy",
+    "India, Egypt, US, France, Qatar, Greece, Cyprus and Italy",
+    "India, Egypt, Germany, Saudi Arabia, Qatar, Greece, Cyprus and Italy",
+    "India, Egypt, US, Saudi Arabia, Qatar, Spain, Cyprus and Italy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "Exercise Bright Star 2025 included India, Egypt, the US, Saudi Arabia, Qatar, Greece, Cyprus and Italy. France, Germany and Spain were not listed among the participants."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Origin and bilateral partnership",
+   "question": "With reference to Exercise Bright Star and India–Egypt relations, identify the incorrect statement.",
+   "options": [
+    "Exercise Bright Star originated in 1980 as a US–Egypt bilateral exercise.",
+    "India–Egypt strategic partnership was upgraded in 2023.",
+    "Exercise Bright Star originated in 2005 as a US–Egypt bilateral exercise.",
+    "The origin of Exercise Bright Star involved the United States and Egypt bilaterally."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F4",
+    "P5.F5"
+   ],
+   "explanation": "The incorrect statement is that Exercise Bright Star originated in 2005. Its origin dates to 1980 as a US–Egypt bilateral exercise, while the India–Egypt strategic partnership was upgraded in 2023."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Submarine classes and projects",
+   "question": "Match the following submarine-related entries associated with Project 75(I) contract talks and earlier MDL work.\n\nList-I\n a. Type 214\n b. Type 218\n c. Scorpene-class\n d. Project 75\n\nList-II\n i. One of the submarine types for which TKMS is known\n ii. Another submarine type for which TKMS is known\n iii. Class built earlier by MDL with France\n iv. Project under which MDL earlier worked with France",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "The correct pairs are Type 214–one of the submarine types associated with TKMS, Type 218–another TKMS submarine type, Scorpene-class–the class earlier built by MDL with France, and Project 75–the earlier project involving MDL and France."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence cooperation agreement",
+   "question": "In which year was the India–Germany Defence Cooperation Agreement concluded in the context of Project 75(I) contract talks?",
+   "options": [
+    "2019",
+    "2023",
+    "2025–26",
+    "2047"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "The India–Germany Defence Cooperation Agreement dates to 2019. The other options refer to different years or a budget period and are not the year of this agreement."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Cybersecurity and space weather measures",
+   "question": "Consider the following statements:\nStatement A: CERT-In guidelines issued in 2025, IN-SPACe licensing and lessons from the 2022 Viasat cyberattack are associated with cybersecurity measures for India’s space sector.\nStatement B: Aditya-L1 and CESSI of IISER Kolkata are associated with monitoring or studying space weather.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F4",
+    "P7.F5"
+   ],
+   "explanation": "Both statements are true. The cybersecurity measures include CERT-In guidelines, IN-SPACe licensing and the lesson from the 2022 Viasat cyberattack, while Aditya-L1 and CESSI are linked with space-weather efforts."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Nuclear Energy Mission target and private participation",
+   "question": "Assertion (A): The Nuclear Energy Mission for Viksit Bharat targets 100 GW by 2047 from 100 GW.\nReason (R): NTPC is in talks with foreign firms, while laws are being amended to enable private participation in the nuclear sector.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F4"
+   ],
+   "explanation": "Assertion A is false because the Nuclear Energy Mission targets 100 GW by 2047 from 8.8 GW, not from 100 GW. Reason R is true: NTPC is in talks with foreign firms and laws are being amended for private participation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Journal of publication",
+   "question": "In which journal was the ESA–NASA Solar Orbiter study tracing the origin of solar energetic electrons published?",
+   "options": [
+    "Astronomy and Astrophysics",
+    "ESA–NASA Solar Orbiter",
+    "Parker Solar Probe",
+    "Aditya-L1"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "The study was published in Astronomy and Astrophysics. ESA–NASA Solar Orbiter, Parker Solar Probe and Aditya-L1 are missions, not the journal named for publication."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Solar magnetic cycle",
+   "question": "What is the duration of the Sun’s magnetic cycle referred to in the context of solar energetic-electron studies?",
+   "options": [
+    "11-year magnetic cycle",
+    "2020–2022 cycle",
+    "February 2020 cycle",
+    "2018 magnetic cycle"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F7"
+   ],
+   "explanation": "The Sun’s magnetic cycle is an 11-year cycle. The other options refer to mission dates or the study period rather than the duration of the solar magnetic cycle."
+  }
+ ]
+}

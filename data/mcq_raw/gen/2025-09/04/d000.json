@@ -1,0 +1,250 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P1.F1",
+  "P1.F10",
+  "P1.F11",
+  "P1.F2",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "GST rate on health insurance",
+   "question": "Under the GST 2.0 changes effective 22 September 2025, what was the new GST treatment of individual health insurance?",
+   "options": [
+    "Nil GST",
+    "5% GST",
+    "18% GST",
+    "40% GST"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Individual health insurance was placed under Nil GST. The 5%, 18% and 40% rates were not the new rate for this item."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GST rate on cancer drugs",
+   "question": "Under the GST 2.0 reforms, what was the GST rate prescribed for life-saving cancer drugs?",
+   "options": [
+    "Nil GST",
+    "5% GST",
+    "18% GST",
+    "40% GST"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "Life-saving cancer drugs were exempted from GST, meaning the rate was Nil. The 5%, 18% and 40% slabs applied to other categories of goods and services, not this item."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inverted duty structure",
+   "question": "Which measure was included among the economic implications of the GST 2.0 restructuring?",
+   "options": [
+    "Correction of the inverted duty structure",
+    "Introduction of an inverted duty structure",
+    "Abolition of all GST slabs",
+    "Continuation of all earlier GST slabs without correction"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "The GST 2.0 restructuring included correction of the inverted duty structure. The other options describe measures that were not part of the stated decision."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Revenue and tax-rate implications",
+   "question": "With reference to the economic implications of the GST 2.0 restructuring, consider the following statements:\n1. GST rates were changed for 546 goods, with over 80% witnessing cuts and around 20% witnessing increases.\n2. The shift from 28% to 40% for some goods represented a real increase in the tax burden in every case.\n3. Exempt goods do not provide Input Tax Credit.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12",
+    "P0.F13",
+    "P0.F14"
+   ],
+   "explanation": "Statements 1 and 3 are correct. The 28% to 40% movement for some goods reflected the merger of compensation cess and was not a real hike in every case."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nominal GDP and direct taxes",
+   "question": "In the economic assessment associated with the GST 2.0 changes, what was the Q1 nominal GDP growth figure, compared with the projected figure?",
+   "options": [
+    "8.8% against a projection of 10.1%",
+    "7.8% against a projection of 6.5%",
+    "2.7% against a projection of 1.61%",
+    "4.3% against a projection of 5.5%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Q1 nominal GDP was reported at 8.8%, below the projected 10.1%; direct taxes also declined by 4.3%. The other combinations confuse these figures with other economic indicators."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Revenue foregone and GST Bachat Utsav",
+   "question": "Assertion (A): The revenue foregone from the GST changes, along with income-tax reforms, was estimated at approximately ₹1 lakh crore.\nReason (R): The changes were described by Prime Minister Narendra Modi as the “GST Bachat Utsav”.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F16",
+    "P0.F17"
+   ],
+   "explanation": "Both the approximate revenue-foregone estimate of ₹1 lakh crore and the description “GST Bachat Utsav” are correct. However, the title does not explain the calculation of revenue foregone."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GST classification of breads",
+   "question": "Which classification decision was taken under the GST 2.0 reforms for Indian breads?",
+   "options": [
+    "Roti, paratha and khakhra were exempt",
+    "Only roti was exempt",
+    "Only packaged paratha was exempt",
+    "All breads were placed in the 40% slab"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F18"
+   ],
+   "explanation": "All Indian breads, including roti, paratha and khakhra, were exempt. The other options incorrectly narrow or reverse the classification decision."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Zero-GST insurance coverage",
+   "question": "Which of the following was included in the zero-GST insurance changes effective 22 September 2025?",
+   "options": [
+    "Reinsurance",
+    "Non-ICU hospital rooms above ₹5,000 per day",
+    "ICU services only",
+    "Sugary drinks"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The reform provided zero GST on individual health and life insurance and reinsurance. The other options concern hospital services or goods covered under different GST treatments."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Insurance penetration",
+   "question": "According to the health-care reform context, India’s insurance penetration was what share of GDP, compared with the world figure?",
+   "options": [
+    "3.7% of GDP compared with the world’s 6.8%",
+    "6.8% of GDP compared with the world’s 3.7%",
+    "5.5% of GDP compared with the world’s 2.7%",
+    "8.8% of GDP compared with the world’s 10.1%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "India’s insurance penetration was 3.7% of GDP, compared with 6.8% globally. The reversed figures and the other pairs do not represent the stated comparison."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GST on life-saving drugs",
+   "question": "What GST rate was prescribed for life-saving drugs under the health-care reforms effective 22 September 2025?",
+   "options": [
+    "0%",
+    "5%",
+    "18%",
+    "40%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "Life-saving drugs were assigned a 0% GST rate. The 5%, 18% and 40% rates applied to other categories in the health-care and sin-goods changes."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "GST rates on medicines, wellness and sin goods",
+   "question": "Consider the following statements regarding the health-care-related GST changes effective 22 September 2025:\n1. Most medicines, devices and diagnostics were placed at 5% GST, and the CT scan machine rate was reduced from 18% to 5%.\n2. Gyms, yoga, salons and wellness services were reduced from 18% to 5% GST.\n3. Personal-care products such as soap, shampoo and toothpaste were placed at 12% GST.\n4. Sugary drinks were placed in the 28% sin slab.\n5. Cigarettes attracted 28% GST plus cess, with the effective burden ranging from 52% to 88%.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8",
+    "P1.F9",
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "Statements 1, 2 and 5 are correct, while statements 3 and 4 are incorrect. Personal-care products were reduced to 5%, and sugary drinks were placed in the 40% sin slab; therefore, the correct count is three, not two."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "US tariff on Indian goods",
+   "question": "In the RBI Monetary Policy Committee preview for 29 September–1 October 2025, what US tariff on Indian goods was cited?",
+   "options": [
+    "50%",
+    "40%",
+    "25 basis points",
+    "4–4.25%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The cited US tariff on Indian goods was 50%. The other options refer to the sin slab, a rate-cut magnitude, and the US Federal Reserve rate."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "RBI projections and loan-rate transmission",
+   "question": "Assertion (A): The FY26 GDP projection cited in the RBI Monetary Policy Committee preview was 6.5%.\nReason (R): EBLR-linked loans would remain unchanged if the repo rate remained unchanged, while MCLR-linked loans might change.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "The FY26 GDP projection was 6.5%, and the stated transmission distinction between EBLR and MCLR loans is also correct. The loan-rate transmission point does not explain the GDP projection."
+  }
+ ]
+}

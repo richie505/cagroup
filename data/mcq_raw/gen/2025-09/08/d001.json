@@ -1,0 +1,178 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P3.F2",
+  "P3.F3",
+  "P3.F4",
+  "P3.F6",
+  "P4.F3",
+  "P4.F4",
+  "P4.F5",
+  "P6.F1",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9",
+  "P7.F3",
+  "P7.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Survey coverage and evaluation criteria",
+   "question": "With reference to the Swachh Vayu Sarvekshan 2025, consider the following statements:\n1. The survey covered 130 cities under the National Clean Air Programme.\n2. The award ceremony was held at Vigyan Bhavan, New Delhi.\n3. The evaluation criteria included solid waste management, mechanised sweeping, dust suppression, construction and demolition waste, vehicular and industrial emissions, and river cleaning.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "Statement 1 is correct: the survey covered 130 cities under NCAP. Statement 2 is incorrect because the ceremony was held at Ganga Auditorium, Indira Gandhi Bhavan, New Delhi; Statement 3 changes the stated criterion of green energy to river cleaning."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Evaluator and ministry",
+   "question": "The Swachh Vayu Sarvekshan 2025 was evaluated by which organisation under which Union ministry?",
+   "options": [
+    "Central Pollution Control Board under the Ministry of Environment, Forest and Climate Change",
+    "Bureau of Energy Efficiency under the Ministry of Power",
+    "Alliance for an Energy Efficiency Economy under the Ministry of Environment, Forest and Climate Change",
+    "Union Environment Ministry under the Central Pollution Control Board"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "The Central Pollution Control Board evaluated the survey, while the Ministry of Environment, Forest and Climate Change was the concerned ministry. The Bureau of Energy Efficiency and AEEE were associated with the State Energy Efficiency Index, not this survey."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State category in SEEI 2024",
+   "question": "Match the States with their categories in the State Energy Efficiency Index 2024.\n\nList-I\n a. Maharashtra\n b. Assam\n c. Tripura\n d. Andhra Pradesh\n\nList-II\n i. Aspirant\n ii. Achiever\n iii. Front Runner\n iv. Contender\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F3"
+   ],
+   "explanation": "The correct pairs are Maharashtra–Front Runner, Assam–Contender, Tripura–Aspirant and Andhra Pradesh–Achiever. The other codes interchange the categories assigned to these States."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "National energy-efficiency outcomes",
+   "question": "With reference to the national energy-efficiency outcomes reported in the State Energy Efficiency Index 2024, consider the following:\n1. Energy saved was 53 Mtoe.\n2. Electricity saved was 321.06 billion units.\n3. Carbon dioxide avoided was 321.06 billion tonnes.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: energy savings were 53 Mtoe and electricity savings were 321.06 billion units. Statement 3 is incorrect because the reported carbon dioxide avoided was 321.06 million tonnes, not billion tonnes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Implementing agencies and focus",
+   "question": "Which combination correctly identifies an agency involved in the national energy-efficiency outcomes and the stated technological focus?",
+   "options": [
+    "Energy Efficiency Services Limited and Carbon Capture and Storage",
+    "Bureau of Energy Efficiency and Carbon Capture and Storage",
+    "Energy Efficiency Services Limited and construction-and-demolition waste management",
+    "Alliance for an Energy Efficiency Economy and green energy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5"
+   ],
+   "explanation": "Energy Efficiency Services Limited was among the agencies involved, and Carbon Capture and Storage was the stated focus. BEE and AEEE were associated with preparing the index, while construction-and-demolition waste and green energy were criteria mentioned for the air-quality survey."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Countries and Production Gap Report findings",
+   "question": "Match the countries with the developments described in the Production Gap Report 2025.\n\nList-I\n a. China\n b. Nigeria\n c. Brazil\n d. Colombia\n\nList-II\n i. Country identified as aligning with the required transition\n ii. Country identified as expanding fossil-fuel production\n iii. 2030 oil target doubled\n iv. 2030 oil target increased by 47%\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F6",
+    "P6.F8"
+   ],
+   "explanation": "China was among the countries expanding fossil-fuel production, Nigeria doubled its 2030 oil target, Brazil increased its target by 47%, and Colombia was identified as aligning with the required transition. The other codes misassign these country-specific findings."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Required fossil-fuel reduction and ICJ observation",
+   "question": "Assertion (A): The Production Gap Report 2025 indicated that coal should approach phase-out by 2040, while oil and gas should decline by 75% by 2050 compared with 2020.\nReason (R): The International Court of Justice indicated that failure to curb fossil-fuel expansion may constitute an internationally wrongful act.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F7",
+    "P6.F9"
+   ],
+   "explanation": "Both the recommended fossil-fuel reductions and the ICJ observation are correct. However, the ICJ observation is a separate legal implication and does not explain the specific phase-out and reduction pathway in the Assertion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "States at risk in just transition",
+   "question": "According to the AIGCC Place-Based Just Transition Report 2025, which group of States was identified as being at risk in the coal transition?",
+   "options": [
+    "Jharkhand, Chhattisgarh and Odisha",
+    "Maharashtra, Assam and Tripura",
+    "Colombia, Germany and Brazil",
+    "China, the United States and Saudi Arabia"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "Jharkhand, Chhattisgarh and Odisha were identified as the at-risk coal States. The other groups refer to categories or countries mentioned in the State Energy Efficiency Index and Production Gap Report contexts."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Just-transition recommendations",
+   "question": "Consider the following statements:\nStatement A: The AIGCC Place-Based Just Transition Report 2025 recommended State-level plans, reskilling and dedicated transition funds.\nStatement B: The report recommended social dialogue and mandatory relocation of affected workers.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "Both statements are false. The recommendations were district-level plans, reskilling, dedicated transition funds and social dialogue; State-level plans and mandatory relocation are changed details."
+  }
+ ]
+}

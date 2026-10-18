@@ -1,0 +1,84 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P2.F7",
+  "P2.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Arguments before Presidential Reference Bench",
+   "question": "In the Presidential Reference under Article 143(1) concerning gubernatorial action on Bills, consider the following statements:\n1. The Centre argued that the Governor is not merely a “postman” and that judicially prescribed timelines would amount to a judicial amendment.\n2. The Government of India Act, 1935, gave the Governor an absolute veto.\n3. Andhra Pradesh opposed the right of States to approach the Supreme Court.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10",
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: these were the Centre’s argument and the position under the Government of India Act, 1935. Statement 3 is incorrect because Andhra Pradesh defended the right of States to approach the Supreme Court."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Stand of Andhra Pradesh",
+   "question": "Assertion (A): Andhra Pradesh defended the right of States to approach the Supreme Court in the Presidential Reference under Article 143(1).\nReason (R): Andhra Pradesh opposed the right of States to approach the Supreme Court.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F12"
+   ],
+   "explanation": "Assertion (A) is true because Andhra Pradesh defended the right of States to approach the Supreme Court. Reason (R) is false because Andhra Pradesh did not oppose that right."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Protected monuments under Waqf law",
+   "question": "With reference to the Supreme Court’s decision on the Waqf (Amendment) Act, 2025, identify the incorrect statement regarding protected monuments.",
+   "options": [
+    "The Court held that religious practice continues in relation to protected monuments.",
+    "The decision referred to Section 5(6) of the AMASR Act, 1958.",
+    "The Court recognised the continuation of religious practice under the applicable provision.",
+    "The Court held that religious practice ceases in relation to protected monuments."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "The incorrect statement is that religious practice ceases; the Court held that religious practice continues. The decision referred to Section 5(6) of the AMASR Act, 1958, making the third option consistent with the ruling."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tribal areas restriction",
+   "question": "What was the Supreme Court’s decision on the tribal-areas restriction under the Waqf (Amendment) Act, 2025?",
+   "options": [
+    "It upheld the restriction, in line with the JPC view.",
+    "It stayed the restriction pending a verification mechanism.",
+    "It declared the restriction totally unconstitutional.",
+    "It rejected the restriction and directed its removal."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "The Supreme Court upheld the tribal-areas restriction, in line with the JPC view. The other options incorrectly describe the restriction as stayed, unconstitutional, or directed to be removed."
+  }
+ ]
+}

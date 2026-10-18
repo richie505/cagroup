@@ -1,0 +1,104 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F6",
+  "P0.F7",
+  "P1.F10",
+  "P1.F11",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "GST rate exemption",
+   "question": "With reference to the GST 2.0 changes effective 22 September 2025, consider the following statements:\nStatement A: Individual health insurance was placed under Nil GST.\nStatement B: Life-saving cancer drugs were placed under Nil GST.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Both statements are true: individual health insurance and life-saving cancer drugs were assigned Nil GST under the GST 2.0 changes. The alternatives are incorrect because neither item was assigned a positive GST rate in these decisions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GST rate on life-saving drugs",
+   "question": "Under the GST 2.0 health-care reforms effective 22 September 2025, what GST rate was prescribed for life-saving drugs?",
+   "options": [
+    "0%",
+    "5%",
+    "18%",
+    "40%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "Life-saving drugs were placed under 0% GST from 22 September 2025. The 5% rate applied to most medicines, devices and diagnostics, while 18% and 40% were not the prescribed rates for life-saving drugs."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Health-care GST rate changes",
+   "question": "Match List-I with List-II regarding the GST changes in the health-care and wellness sectors effective 22 September 2025.\n\nList-I\n(a) Most medicines, devices and diagnostics\n(b) CT scan machine\n(c) Gyms, yoga, salons and wellness services\n(d) Personal-care products such as soap, shampoo and toothpaste\n\nList-II\n(i) GST reduced to 5%\n(ii) GST reduced from 18% to 5%\n(iii) GST reduced from 18% to 5%\n(iv) GST reduced from 12–18% to 5%",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Most medicines, devices and diagnostics were assigned 5% GST; CT scan machines moved from 18% to 5%, wellness services from 18% to 5%, and personal-care products from 12–18% to 5%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sin/demerit GST slab",
+   "question": "Under the GST 2.0 health-care reform package, what GST rate was imposed on sugary drinks effective 22 September 2025?",
+   "options": [
+    "40%",
+    "5%",
+    "18%",
+    "28%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "Sugary drinks were placed in the 40% sin slab. The 5% and 18% rates applied to several other goods and services, while 28% was not the rate specified for sugary drinks in this reform."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "GST and cess on cigarettes",
+   "question": "Which of the following statements regarding the GST treatment of cigarettes under the health-care reform package is incorrect?",
+   "options": [
+    "Cigarettes attracted 28% GST along with cess.",
+    "The effective burden on cigarettes was stated as 52–88%.",
+    "Cigarettes were placed under the 40% sin slab without the specified 28% GST and cess structure.",
+    "The cigarette-related change was effective from 22 September 2025."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "The incorrect statement is that cigarettes were placed under a 40% sin slab without the 28% GST-and-cess structure. The specified treatment was 28% GST plus cess, producing an effective burden of 52–88%, with the change effective from 22 September 2025."
+  }
+ ]
+}

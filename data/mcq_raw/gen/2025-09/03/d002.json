@@ -1,0 +1,199 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F4",
+  "P11.F1",
+  "P11.F2",
+  "P12.F2",
+  "P13.F1",
+  "P13.F2",
+  "P13.F3",
+  "P7.F1",
+  "P7.F3",
+  "P7.F6",
+  "P7.F7",
+  "P7.F8",
+  "P7.F9",
+  "P9.F4",
+  "P9.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Definition of UHC",
+   "question": "Which committee defined universal health care as providing care to all people irrespective of their ability to pay?",
+   "options": [
+    "Bhore Committee",
+    "National Health Policy Committee",
+    "Central Licensing Authority",
+    "National Health Authority"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The Bhore Committee in 1946 defined universal health care as care for all, irrespective of ability to pay. The National Health Policy Committee is not the committee identified with this definition."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "PMJAY coverage and health spending",
+   "question": "Consider the following statements regarding public health insurance and spending in India:\n1. During 2023–24, PMJAY covered 58.8 crore people.\n2. Pending dues under the scheme exceeded ₹12,000 crore, and 609 hospitals opted out.\n3. Public health spending in India was 1.3% of GDP in 2022, compared with a world average of 6.1%.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F6",
+    "P7.F7"
+   ],
+   "explanation": "All three statements are correct: PMJAY covered 58.8 crore people, pending dues exceeded ₹12,000 crore with 609 hospitals opting out, and public health spending was 1.3% of GDP against the 6.1% world average. The option omitting statement 3 is incorrect because the GDP comparison is part of the reported health-spending data."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "UHC models and spending target",
+   "question": "Match the items related to universal health care and public health policy:\n\nList-I\n(a) Canada\n(b) Thailand\n(c) National Health Policy\n(d) Public health spending target\n\nList-II\n(i) UHC model\n(ii) UHC model\n(iii) 2017\n(iv) 2.5% of GDP",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F8",
+    "P7.F9"
+   ],
+   "explanation": "The correct pairs are Canada–UHC model, Thailand–UHC model, National Health Policy–2017, and public health spending target–2.5% of GDP. The other codes interchange the two UHC models or mismatch the policy year and spending target."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Triple burden of malnutrition",
+   "question": "Which development is highlighted as part of the triple burden of malnutrition in India?",
+   "options": [
+    "Obesity is overtaking underweight",
+    "Underweight is replacing obesity",
+    "Obesity has been eliminated",
+    "Only micronutrient deficiency remains"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "The triple burden of malnutrition includes the trend of obesity overtaking underweight. The alternatives reverse or exaggerate the reported development."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "NCD programme and prevention measures",
+   "question": "Which of the following statements regarding India’s response to non-communicable diseases is incorrect?",
+   "options": [
+    "NP-NCD is a programme associated with the response to NCDs.",
+    "An HPV vaccine rollout was planned.",
+    "Front-of-pack labelling follows the Singapore model.",
+    "Front-of-pack labelling follows the Thailand model."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F5"
+   ],
+   "explanation": "The incorrect statement is that front-of-pack labelling follows the Thailand model; the cited model is Singapore. NP-NCD, the planned HPV vaccine rollout, and front-of-pack labelling are the reported measures."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Demographic ageing and cited schemes",
+   "question": "Consider the following statements:\nStatement A: The share of elderly people aged 60 years and above is projected to rise from 10% now to about 20% by 2050.\nStatement B: The schemes cited in the discussion of ageing were NPS Vatsalya and NP-NCD.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F4"
+   ],
+   "explanation": "Statement A is true: the elderly share is expected to rise from 10% to about 20% by 2050. Statement B is false because the schemes cited were NPS Vatsalya and AB PM-JAY, not NP-NCD."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Young heart-attack patients and lifestyle risk",
+   "question": "Assertion (A): About 50% of heart-attack patients were under 40 according to hospital data for 2020–2023.\nReason (R): In 2024, 50% of Indians could identify heart symptoms.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2"
+   ],
+   "explanation": "Assertion A is true, while Reason R is false. The Health of the Nation 2025 report stated that only 25% of Indians could identify heart symptoms in 2024, not 50%; therefore it cannot explain the hospital finding."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Pulses consumption gap",
+   "question": "What did the ‘Thali’ framework identify as a major gap between the poorest and richest households?",
+   "options": [
+    "Pulses consumption, while PDS subsidy favours cereals",
+    "Fruit consumption, while PDS subsidy favours milk",
+    "Milk consumption, while PDS subsidy favours pulses",
+    "Cereal consumption, while PDS subsidy favours vegetables"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2"
+   ],
+   "explanation": "The framework identified a pulses consumption gap between the poorest and richest households, while the PDS subsidy favours cereals. The other options change both the food category and the subsidy pattern."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Trigger and types of assisted dying",
+   "question": "Match the persons and terms associated with the assisted-dying debate:\n\nList-I\n(a) Ruth Posner\n(b) Michael\n(c) Physician-assisted suicide\n(d) Voluntary active euthanasia\n\nList-II\n(i) Actress whose death at a Swiss clinic triggered debate\n(ii) Husband of Ruth Posner\n(iii) PAS\n(iv) VAE",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "The correct pairs are Ruth Posner–actress whose death triggered the debate, Michael–her husband, physician-assisted suicide–PAS, and voluntary active euthanasia–VAE. The other codes wrongly interchange the individuals or the two assisted-dying terms."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "UK assisted-dying bill",
+   "question": "Consider the following statements about the UK’s Terminally Ill Adults (End of Life) Bill:\n1. It was a 2024 Bill.\n2. It applied only to terminally ill adults.\n3. It excluded mental illness and disability.\n4. It required Supreme Court approval.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "Three statements are correct: the Bill was from 2024, applied only to terminally ill adults, and excluded mental illness and disability. Statement 4 is incorrect because the stated requirement was High Court approval, not Supreme Court approval."
+  }
+ ]
+}

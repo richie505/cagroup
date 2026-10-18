@@ -1,0 +1,104 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  28,
+  29,
+  30
+ ],
+ "only": [
+  "P28.F2",
+  "P28.F3",
+  "P28.F4",
+  "P29.F2",
+  "P29.F3",
+  "P29.F4",
+  "P29.F5",
+  "P30.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Term popularisation and earlier use",
+   "question": "With reference to the term ‘Axis of Upheaval’, consider the following statements:\n1. The term was popularised in April 2024 through Foreign Affairs by Andrea Kendall-Taylor and Richard Fontaine of the Center for a New American Security.\n2. The term had been used earlier in 2009 by historian Niall Ferguson for unstable states.\n3. The term was first used in 2024 by NATO.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F2",
+    "P28.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the term was popularised in April 2024 in Foreign Affairs by Andrea Kendall-Taylor and Richard Fontaine of CNAS, while Niall Ferguson had used it earlier in 2009. Statement 3 is incorrect because the earlier use was in 2009, not first by NATO in 2024."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation and year",
+   "question": "Which organisation hosted a panel on the ‘Axis of Upheaval’ in 2024?",
+   "options": [
+    "NATO",
+    "Foreign Affairs",
+    "Center for a New American Security",
+    "Shanghai Cooperation Organisation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F4"
+   ],
+   "explanation": "NATO hosted a panel on the ‘Axis of Upheaval’ in 2024. Foreign Affairs was associated with the term’s popularisation, while CNAS was the organisation of the two authors; neither is identified as the host of this panel."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Political alignment",
+   "question": "In the discussion on polarisation in Western democracies, which movement was described as aligning with British nationalism?",
+   "options": [
+    "MAGA",
+    "The Great Replacement",
+    "USAID",
+    "Voice of America"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F2"
+   ],
+   "explanation": "MAGA was described as aligning with British nationalism. The Great Replacement is a theory, while USAID and Voice of America were organisations associated with the Trump administration’s actions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisations dismantled",
+   "question": "Which set of organisations was dismantled by the Trump administration in the context of polarisation in Western democracies?",
+   "options": [
+    "USAID, NPR and Voice of America",
+    "IOM, UNHCR and NATO",
+    "Foreign Affairs, CNAS and NPR",
+    "MAGA, USAID and the Great Replacement"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F3"
+   ],
+   "explanation": "The Trump administration dismantled USAID, NPR and Voice of America. IOM and UNHCR were identified as agencies connected with climate-induced forced migration, not with this action."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Populist discourse, editorial and climate migration",
+   "question": "Consider the following statements in relation to the discussion on polarisation and migration:\n1. The ‘Great Replacement’ theory moved into mainstream populist discourse.\n2. The editorial associated with this discussion was by C. Raja Mohan.\n3. Climate change is expected to drive large forced migration, with NATO and UNHCR identified as the relevant agencies.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F4",
+    "P29.F5",
+    "P30.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the ‘Great Replacement’ theory entered mainstream populist discourse, and the editorial was by C. Raja Mohan. Statement 3 is incorrect because the agencies identified in connection with climate-induced forced migration were IOM and UNHCR, not NATO and UNHCR."
+  }
+ ]
+}

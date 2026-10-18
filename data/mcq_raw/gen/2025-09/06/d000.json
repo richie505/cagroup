@@ -1,0 +1,180 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P1.F3",
+  "P2.F3",
+  "P2.F5",
+  "P2.F6",
+  "P3.F4",
+  "P3.F5",
+  "P3.F7",
+  "P4.F10",
+  "P4.F11",
+  "P4.F4",
+  "P4.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Prototype chips",
+   "question": "How many prototype chips from various Indian technical institutions were also shown during Semicon India 2025?",
+   "options": [
+    "31",
+    "32",
+    "16",
+    "20"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "A total of 31 prototype chips from IIT Jammu, IIT Roorkee, IIT Dhanbad, IIT Ropar, NIT Durgapur and NIT Calicut were shown. The other numbers do not represent the number of prototype chips displayed."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "India Semiconductor Mission",
+   "question": "Consider the following statements about the India Semiconductor Mission:\n1. It was launched in December 2021 under the Ministry of Electronics and Information Technology.\n2. Five fab units were under construction, one pilot line had been completed, and two more were to start soon.\n3. India has 25% of the world's chip design engineers, while the global semiconductor market is expected to reach $1 trillion by 2030–35.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the mission was launched in December 2021 under MeitY, and its construction status was five fab units, one completed pilot line and two more planned. Statement 3 is incorrect because India has 20%, not 25%, of the world's chip design engineers; the $1 trillion projection is for 2030–35."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Mature semiconductor nodes",
+   "question": "Which of the following statements regarding India's semiconductor focus is incorrect?",
+   "options": [
+    "India is focusing on mature nodes for automotive applications.",
+    "India is focusing on mature nodes for telecom applications.",
+    "India is focusing on mature nodes for industrial electronics.",
+    "India is focusing on mature nodes ranging from 22 nm to 65 nm."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The incorrect statement is the fourth one. India's stated focus is on mature nodes from 28 nm to 65 nm, not 22 nm to 65 nm; the applications listed in the first three statements are correct."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Malaria burden and vaccine stability",
+   "question": "How many of the following statements are correct regarding AdFalciVax and India's malaria burden?\n1. AdFalciVax remains stable for over 9 months at room temperature.\n2. India accounts for 1.4% of global malaria cases and 0.9% of global malaria deaths.\n3. About 95% of India's population lives in endemic zones, while 70% of cases occur in tribal, hilly and remote areas.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F5",
+    "P2.F6"
+   ],
+   "explanation": "Only statements 1 and 2 are correct. Statement 3 changes the reported 80% of cases in tribal, hilly and remote areas to 70%; the 95% endemic-zone figure is correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IASV Triveni leadership",
+   "question": "Who among the following was identified as the Lieutenant Commander associated with the IASV Triveni circumnavigation expedition?",
+   "options": [
+    "Lt Cdr Priyanka Gusain",
+    "Lt Col Anuja Varudkar",
+    "Sqn Ldr Shraddha Raju",
+    "Ashwini Vaishnaw"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Lt Cdr Priyanka Gusain was one of the officers identified in the leadership details of the IASV Triveni expedition. Lt Col Anuja Varudkar and Sqn Ldr Shraddha Raju were also associated with the expedition, but they held different designations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Expedition distance and ports",
+   "question": "Consider the following statements about the IASV Triveni circumnavigation expedition:\nStatement A: The expedition covers 21,600 nautical miles over 8–9 months and is scheduled to return to Mumbai by May 2026.\nStatement B: The announced overseas ports include Australia, New Zealand, Argentina and South Africa.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F7"
+   ],
+   "explanation": "Both statements are true. The expedition is planned for 21,600 nautical miles over 8–9 months, with a return to Mumbai by May 2026, and its listed ports include Australia, New Zealand, Argentina and South Africa."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Exercise Yudh Abhyas focus",
+   "question": "Which of the following statements regarding Exercise Yudh Abhyas 2025 is incorrect?",
+   "options": [
+    "The exercise included high-altitude and mountain warfare.",
+    "The exercise included heliborne operations.",
+    "The exercise included UAS and counter-UAS operations.",
+    "The exercise included humanitarian relief operations instead of UN peacekeeping."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "The fourth statement is incorrect because UN peacekeeping, not humanitarian relief operations, was among the exercise's areas of focus. High-altitude and mountain warfare, heliborne operations, and UAS and counter-UAS operations were all included."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Exercise history and naval visit",
+   "question": "Consider the following statements regarding India–US defence cooperation:\nStatement A: Exercise Yudh Abhyas began in 2004 and is conducted annually with alternating venues.\nStatement B: USS Frank Cable visited Chennai in August 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5",
+    "P4.F10"
+   ],
+   "explanation": "Both statements are true. Yudh Abhyas began in 2004 and follows an annual alternating-venue pattern, while USS Frank Cable visited Chennai in August 2025."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Defence procurements and quantities",
+   "question": "Match the following defence procurements with the corresponding quantity or technology-transfer detail:\n\nList-I\n a. MH-60R helicopters\n b. M777 howitzers\n c. MQ-9B drones\n d. GE F-414 engines for LCA Mk-2\n\nList-II\n i. 145\n ii. 80% technology transfer\n iii. 24\n iv. 31",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F11"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii: 24 MH-60R helicopters, 145 M777 howitzers, 31 MQ-9B drones and GE F-414 engines with 80% technology transfer. The other codes interchange the quantities and technology-transfer detail."
+  }
+ ]
+}

@@ -1,0 +1,220 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  17,
+  18,
+  19,
+  20,
+  21
+ ],
+ "only": [
+  "P17.F2",
+  "P17.F3",
+  "P17.F4",
+  "P17.F5",
+  "P18.F2",
+  "P18.F3",
+  "P18.F4",
+  "P18.F5",
+  "P18.F6",
+  "P19.F4",
+  "P19.F5",
+  "P20.F2",
+  "P20.F3",
+  "P20.F5",
+  "P21.F2",
+  "P21.F3",
+  "P21.F4",
+  "P21.F5",
+  "P21.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "India-Pakistan counter-terrorism context",
+   "question": "With reference to developments concerning Pakistan and India in 2025, consider the following statements:\n1. The Pahalgam attack of 22 April 2025 was followed by India's Operation Sindoor.\n2. Pakistan announced ₹14 crore compensation to the families of terrorists, including the kin of Masood Azhar.\n3. The IMF provided Pakistan a $1 billion loan under a $7 billion facility.\n4. Pakistan was removed from the FATF grey list in October 2022.",
+   "options": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F2",
+    "P17.F3",
+    "P17.F4",
+    "P17.F5"
+   ],
+   "explanation": "All four statements are correct. Operation Sindoor followed the Pahalgam attack, Pakistan announced ₹14 crore compensation, the IMF loan was $1 billion under a $7 billion facility, and Pakistan left the FATF grey list in October 2022."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place of protest",
+   "question": "Where did Nepal's Gen Z protest begin on 8 September 2025 before the Parliament complex was stormed?",
+   "options": [
+    "Near the Mandala monument at Maitighar, Kathmandu",
+    "At Nankana Sahib in Pakistan's Punjab",
+    "Near Katchatheevu in the Palk Strait",
+    "At Colombo's Parliament complex"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F2"
+   ],
+   "explanation": "The protest began near the Mandala monument at Maitighar in Kathmandu. Nankana Sahib, Katchatheevu and Colombo were not the place where this protest began."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Protest casualties",
+   "question": "Which of the following statements regarding Nepal's Gen Z protests is incorrect?",
+   "options": [
+    "At least 19 people were killed.",
+    "More than 400 people were injured.",
+    "The toll included at least 19 killed and 400+ injured.",
+    "At least 15 people were killed."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P18.F3"
+   ],
+   "explanation": "The incorrect statement is that at least 15 people were killed. The reported toll was at least 19 killed and 400+ injured."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Protest organisation and resignations",
+   "question": "Match List-I with List-II in the context of Nepal's Gen Z protests.\n\nList-I\n a. Hami Nepal\n b. “Nepo babies”\n c. Ramesh Lekhak\n d. K.P. Sharma Oli\n\nList-II\n i. Organisation that coordinated the protests\n ii. Slogan targeted by the protesters\n iii. Home Minister who resigned\n iv. Prime Minister who resigned\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P18.F4",
+    "P18.F5",
+    "P18.F6"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Hami Nepal coordinated the protests, “nepo babies” was a slogan, Ramesh Lekhak was the Home Minister who resigned, and K.P. Sharma Oli was the Prime Minister who resigned."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Organisation behind protest",
+   "question": "Assertion (A): Hami Nepal coordinated Nepal's Gen Z protests.\nReason (R): The protests were coordinated by the Nepal Telecommunication Authority.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F4"
+   ],
+   "explanation": "A is true because Hami Nepal coordinated the protests. R is false because the Nepal Telecommunication Authority was told to deactivate the blocked platforms; it was not identified as the protest coordinator."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Youth unemployment and protest demographics",
+   "question": "Consider the following statements:\nStatement A: Nepal's Gen Z accounted for 40% of the country's population.\nStatement B: India's youth unemployment rate among those aged 20–24 was 35.9%, according to CMIE in July 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F4",
+    "P19.F5"
+   ],
+   "explanation": "Both statements are true. Nepal's Gen Z constituted 40% of the population, while CMIE reported 35.9% unemployment among India's 20–24 age group in July 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fisheries regulation",
+   "question": "Which fisheries practice was banned by Sri Lanka in 2017 in the India–Sri Lanka fisheries dispute?",
+   "options": [
+    "Bottom trawling",
+    "Deep-sea longlining",
+    "Gill-net fishing",
+    "Purse-seine fishing"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F2"
+   ],
+   "explanation": "Sri Lanka banned bottom trawling in 2017. The other fishing practices listed were not identified as the practice banned in the stated context."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Visit by Indian Prime Minister",
+   "question": "When did Prime Minister Narendra Modi visit Colombo in the context of India–Sri Lanka relations in 2025?",
+   "options": [
+    "April 2025",
+    "May 2025",
+    "June 2025",
+    "September 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F3"
+   ],
+   "explanation": "Prime Minister Modi visited Colombo in April 2025. May, June and September 2025 are not the month given for that visit."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Legal and diplomatic precedents",
+   "question": "Which of the following correctly identifies the precedents and model cited in the India–Sri Lanka fisheries dispute context?",
+   "options": [
+    "Minquiers and Ecrehos case (1953), Rann of Kutch Arbitration (1968), and Baltic Sea Fisheries Convention as the model",
+    "Minquiers and Ecrehos case (1968), Rann of Kutch Arbitration (1953), and Baltic Sea Fisheries Convention as the model",
+    "Minquiers and Ecrehos case (1953), Rann of Kutch Arbitration (1968), and Simla Agreement as the model",
+    "Minquiers and Ecrehos case (1953), Rann of Kutch Arbitration (1968), and 1974 Protocol on Visits to Religious Shrines as the model"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F5"
+   ],
+   "explanation": "The correct combination is the Minquiers and Ecrehos case of 1953, the Rann of Kutch Arbitration of 1968, and the Baltic Sea Fisheries Convention as the model. The Simla Agreement and the 1974 Protocol are separate frameworks in the religious-visit context."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Kartarpur Corridor status",
+   "question": "What was the status of the Kartarpur Corridor after Operation Sindoor in May 2025?",
+   "options": [
+    "It was suspended.",
+    "It was opened in 2019.",
+    "It was transferred to the United Nations.",
+    "It was declared a non-binding protocol."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F2"
+   ],
+   "explanation": "The Kartarpur Corridor, which had opened in 2019, was suspended after Operation Sindoor in May 2025. The 2019 opening is its earlier status, not the post-Operation Sindoor development."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Religious sites and bilateral frameworks",
+   "question": "How many of the following statements regarding the Nankana Sahib issue and India–Pakistan religious-visit framework are correct?\n1. Nankana Sahib, in Pakistan's Punjab, is the birthplace of Guru Nanak, who was born in 1469.\n2. The Simla Agreement of 1972 contains an exchanges clause described as non-binding.\n3. The 1974 Protocol on Visits to Religious Shrines is non-binding and covers Nankana Sahib and Ajmer Sharif.\n4. Katas Raj is in Sindh, while Shadani Darbar is in Punjab.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P21.F3",
+    "P21.F4",
+    "P21.F5",
+    "P21.F9"
+   ],
+   "explanation": "Only three statements are correct. Statements 1, 2 and 3 correctly describe Nankana Sahib and the two frameworks; statement 4 reverses the locations, since Katas Raj is in Punjab and Shadani Darbar is in Sindh."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P3.F11",
+  "P6.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Milestone and date",
+   "question": "In which month and year did Pullampara become Kerala’s first fully digitally literate panchayat?",
+   "options": [
+    "September 2021",
+    "September 2022",
+    "September 2023",
+    "September 2024"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F11"
+   ],
+   "explanation": "Pullampara became Kerala’s first fully digitally literate panchayat in September 2022. September 2021 is the tempting incorrect option; the milestone was recorded one year later."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PwD population",
+   "question": "According to the Census figure cited in the context of the Unique Disability ID system, what is the approximate population of persons with disabilities in India?",
+   "options": [
+    "2.68 crore",
+    "11 lakh",
+    "40%",
+    "60%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "The Census figure places India’s population of persons with disabilities at approximately 2.68 crore. The figure of 11 lakh refers to pending UDID applications, while 40% and 60% are percentages associated with UDID coverage and pending applications."
+  }
+ ]
+}

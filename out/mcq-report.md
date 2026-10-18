@@ -1,41 +1,41 @@
 # CA MCQ report
 
-- MCQs kept: **10247**
-- News pages with at least one question: **2623 / 2629**
-- Facts tested: **18090 / 20515** (88.2%)
-- Answer positions: A 2565, B 2653, C 2696, D 2333
+- MCQs kept: **10618**
+- News pages with at least one question: **2625 / 2629**
+- Facts tested: **18671 / 20515** (91.0%)
+- Answer positions: A 2654, B 2753, C 2797, D 2414
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 1106 | 1128 | 1188 | 1063 |
-| Negative / Incorrect Statement | 176 | 170 | 181 | 162 |
-| Assertion-Reason | 169 | 198 | 263 | 212 |
-| Statement-Based (A/B) | 334 | 205 | 292 | 257 |
-| Multi-Statement Correctness | 386 | 387 | 351 | 358 |
-| Chronological Ordering | 6 | 5 | 3 | 5 |
-| List-Matching | 284 | 263 | 248 | 270 |
-| Count-Based | 104 | 297 | 170 | 6 |
+| Direct Recall | 1153 | 1176 | 1235 | 1096 |
+| Negative / Incorrect Statement | 178 | 174 | 182 | 169 |
+| Assertion-Reason | 174 | 203 | 268 | 220 |
+| Statement-Based (A/B) | 347 | 212 | 303 | 262 |
+| Multi-Statement Correctness | 398 | 402 | 369 | 372 |
+| Chronological Ordering | 6 | 5 | 4 | 5 |
+| List-Matching | 292 | 273 | 260 | 284 |
+| Count-Based | 106 | 308 | 176 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 1243 |
-| verify:explanation_contradicts | 204 |
-| verify:not_in_facts | 143 |
-| duplicate | 71 |
+| code | 1289 |
+| verify:explanation_contradicts | 208 |
+| verify:not_in_facts | 147 |
+| duplicate | 74 |
 | verify:two_correct | 41 |
-| verify:none_correct | 33 |
-| verify:second reader picked option 2, key 1 | 22 |
-| verify:garbled | 13 |
+| verify:none_correct | 34 |
+| verify:second reader picked option 2, key 1 | 23 |
+| verify:garbled | 14 |
 | verify:ambiguous_stem | 9 |
 | verify:second reader picked option 1, key 0 | 5 |
 | verify:second reader picked option 3, key 0 | 2 |
 | verify:second reader picked option 0, key 1 | 2 |
+| verify:second reader picked option 2, key 0 | 2 |
 | verify:trivial | 2 |
 | verify:second reader picked option 3, key 2 | 2 |
 | verify:second reader picked option 3, key 1 | 2 |
-| verify:second reader picked option 2, key 0 | 1 |
 | verify:second reader picked option 1, key 3 | 1 |
 | verify:second reader picked option 0, key 3 | 1 |
 
@@ -181,17 +181,17 @@
 | 2025-10/08 | Reports, Indices & Rankings | 33 | 54/54 |
 | 2025-10/09 | Awards, Persons & Appointments | 24 | 47/47 |
 | 2025-10/11 | Important Days & Events | 11 | 18/18 |
-| 2025-09/01 | Andhra Pradesh | 50 | 112/262 |
-| 2025-09/02 | Polity & Governance | 28 | 64/138 |
-| 2025-09/03 | Schemes & Social Sector | 17 | 46/91 |
-| 2025-09/04 | Economy, Banking & Budget | 27 | 64/130 |
-| 2025-09/05 | International Relations | 41 | 86/203 |
-| 2025-09/06 | Science, Tech, Space & Defence | 20 | 45/80 |
-| 2025-09/07 | Environment & Geography | 17 | 36/70 |
-| 2025-09/08 | Reports, Indices & Rankings | 10 | 21/59 |
-| 2025-09/09 | Awards, Persons & Appointments | 6 | 11/39 |
-| 2025-09/10 | Sports | 3 | 4/13 |
-| 2025-09/11 | Important Days & Events | 2 | 6/16 |
+| 2025-09/01 | Andhra Pradesh | 141 | 255/262 |
+| 2025-09/02 | Polity & Governance | 77 | 137/138 |
+| 2025-09/03 | Schemes & Social Sector | 44 | 89/91 |
+| 2025-09/04 | Economy, Banking & Budget | 67 | 125/130 |
+| 2025-09/05 | International Relations | 112 | 201/203 |
+| 2025-09/06 | Science, Tech, Space & Defence | 42 | 80/80 |
+| 2025-09/07 | Environment & Geography | 36 | 68/70 |
+| 2025-09/08 | Reports, Indices & Rankings | 35 | 59/59 |
+| 2025-09/09 | Awards, Persons & Appointments | 22 | 34/39 |
+| 2025-09/10 | Sports | 8 | 12/13 |
+| 2025-09/11 | Important Days & Events | 8 | 16/16 |
 | 2025-08/01 | Andhra Pradesh | 30 | 70/154 |
 | 2025-08/02 | Polity & Governance | 13 | 28/78 |
 | 2025-08/03 | Schemes & Social Sector | 13 | 33/79 |
@@ -1623,15 +1623,51 @@
 - `2025-09/01/c003#4` verify: explanation_contradicts — The Reason lists other mandate components but does not explain why the council has a five-year roadmap.
   - Q: Assertion (A): The 360° Global Capability Centres Advisory Council has a five-year roadmap as part of its mandate. / Reason (R): Monitoring the IT & GCC Policy 4.0 and undertaking a three-month global r
   - Key: Both A and R are true, and R is the correct explanation of A
+- `2025-09/01/d002#12` verify: explanation_contradicts — The facts make statement 4 true, so three statements are correct; the explanation incorrectly treats it as false.
+  - Q: How many of the following statements about Anaemia Mukt Bharat are correct? /  / 1. Children aged 6–59 months receive 1 ml of IFA syrup twice a week. / 2. The programme is linked with SDG 2 and SDG 3. / 3. Th
+  - Key: Only two
+- `2025-09/01/d002r2#0` verify: explanation_contradicts — The explanation says pregnant women also had the highest coverage, conflicting with the fact identifying lactating mothers as the highest category.
+  - Q: In the Andhra Pradesh performance review under Anaemia Mukt Bharat for Q1 2025–26, which category recorded the highest coverage for the State among the following?
+  - Key: Lactating mothers
+- `2025-09/02/d000#8` verify: none_correct — Statements 1 and 2 are correct, but no option lists exactly statements 1 and 2 only.
+  - Q: Consider the following statements regarding the submissions in the Presidential Reference: / 1. Under the Government of India Act, 1935, the Governor had an absolute veto. / 2. Andhra Pradesh defended the
+  - Key: 1 only
+- `2025-09/02/d000#13` verify: explanation_contradicts — The facts establish statements 1 and 2 as correct, so option 2 is right; the explanation incorrectly says only statement 1 is correct.
+  - Q: Consider the following statements about the provisions of the Waqf (Amendment) Act, 2025: / 1. In relation to protected monuments, religious practice continues under Section 5(6) and the AMASR Act, 1958
+  - Key: 1 only
+- `2025-09/04/d000#10` verify: second reader picked option 2, key 1 — 
+  - Q: Consider the following statements regarding the health-care-related GST changes effective 22 September 2025: / 1. Most medicines, devices and diagnostics were placed at 5% GST, and the CT scan machine r
+  - Key: Only two
+- `2025-09/04/d000r2#2` verify: not_in_facts — List-II entries (ii) and (iii) are identical, so the facts do not distinguish the CT-scan and wellness-service pair labels.
+  - Q: Match List-I with List-II regarding the GST changes in the health-care and wellness sectors effective 22 September 2025. /  / List-I / (a) Most medicines, devices and diagnostics / (b) CT scan machine / (c) Gym
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2025-09/04/d002#7` verify: second reader picked option 2, key 0 — 
+  - Q: How many of the following statements associated with Uttar Pradesh’s Women’s Economic Empowerment Index are correct? / 1. Women contribute 18% of GDP. / 2. The female labour force participation rate is 41
+  - Key: Only one
 - `2025-09/05/c004#1` verify: not_in_facts — The fact that injuries were 400+ does not establish that they were not more than 500.
   - Q: With reference to the Gen Z protests in Nepal in September 2025, identify the incorrect statement.
   - Key: The protests resulted in at least 19 deaths and more than 500 injuries.
+- `2025-09/07/d001#4` verify: not_in_facts — The facts establish that (a) and (b) are the two origin theories but do not specify which is labeled (i) versus (ii).
+  - Q: Match the following descriptions related to offshore aquifers and freshwater demand: /  / List-I / (a) Ice Age recharge / (b) Connection to onshore aquifers / (c) Clay cap rock / (d) UN projection for 2030 /  / List-
+  - Key: a-i, b-ii, c-iii, d-iv
 - `2025-09/08/c000#1` verify: none_correct — All four statements are supported by the facts, so none is incorrect.
   - Q: With reference to the Global Peace Index 2025, identify the incorrect statement.
   - Key: It was published by the Institute for Economics & Peace, Sydney.
 - `2025-09/08/c000#3` verify: second reader picked option 1, key 0 — 
   - Q: With reference to the SRS Statistical Report 2023, how many of the following statements are correct? /  / 1. India’s Crude Birth Rate declined from 19.1 in 2022 to 18.4 in 2023. / 2. Eighteen States and Uni
   - Key: Only one
+- `2025-09/09/d000#2` verify: not_in_facts — The facts identify the incorrect statement, but do not establish the other statements required for this negative question.
+  - Q: Which of the following statements about the Ramon Magsaysay Award is incorrect?
+  - Key: It is known as the “Nobel Prize of Europe”.
+- `2025-09/09/d000#4` verify: explanation_contradicts — The complete matching is option 0, but the explanation incorrectly says option 1.
+  - Q: Match the Indian Ramon Magsaysay Award recipients in List-I with their years in List-II. /  / List-I / (a) Arvind Kejriwal / (b) Bezwada Wilson / (c) Sonam Wangchuk / (d) Ravish Kumar /  / List-II / (i) 2006 / (ii) 2016 / 
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2025-09/09/d000r2#3` verify: not_in_facts — The facts establish statements 1 and 2 but do not determine whether statement 3 is false.
+  - Q: Consider the following statements: / 1. Arvind Kejriwal received the Ramon Magsaysay Award in 2006. / 2. Bezwada Wilson received the Ramon Magsaysay Award in 2016. / 3. Arvind Kejriwal received the Ramon Ma
+  - Key: 1 and 2 only
+- `2025-09/11/d000#5` verify: garbled — The options include “All four” although only three statements are listed.
+  - Q: How many of the following statements about Semicon India 2025 are correct? / 1. It took place on 2 September 2025. / 2. A Vikram 32-bit chip was presented. / 3. A Vikram 16-bit chip was presented.
+  - Key: Only two
 - `2025-08/02/c002#3` verify: explanation_contradicts — Statement 3 is supported by the facts, but the explanation incorrectly calls it incorrect.
   - Q: With reference to the Presidential Reference under Article 143, consider the following statements: / 1. Article 143(1) permits the President to refer a question of law or fact of public importance for a
   - Key: 1 and 2 only

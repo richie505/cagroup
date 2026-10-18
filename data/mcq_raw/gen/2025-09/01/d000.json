@@ -1,0 +1,302 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F5",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F1",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F15",
+  "P1.F16",
+  "P1.F17",
+  "P1.F18",
+  "P1.F19",
+  "P1.F2",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Hospital network and procedures",
+   "question": "Under Andhra Pradesh’s Universal Health Policy, what are the approved hospital network and number of procedures?",
+   "options": [
+    "2,493 hospitals and 3,257 procedures",
+    "3,257 hospitals and 2,493 procedures",
+    "2,493 hospitals and 2,493 procedures",
+    "3,257 hospitals and 3,257 procedures"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The policy covers a network of 2,493 hospitals and 3,257 procedures. The figures in the second, third and fourth options interchange or duplicate these two numbers."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Pre-authorisation time",
+   "question": "What is the prescribed time limit for pre-authorisation under Andhra Pradesh’s Universal Health Policy?",
+   "options": [
+    "Within 6 hours",
+    "Within 12 hours",
+    "Within 24 hours",
+    "Within 48 hours"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "Pre-authorisation under the policy is to be completed within 6 hours. The other options give longer periods and do not match the prescribed limit."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "New medical colleges",
+   "question": "How many new medical colleges did the Andhra Pradesh Cabinet decide to establish through the public-private partnership model?",
+   "options": [
+    "10",
+    "16",
+    "18",
+    "24"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "The Cabinet decided to establish 10 new medical colleges through PPP. The other numbers are figures associated with unrelated Cabinet decisions in the same set of decisions."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Cabinet decision details",
+   "question": "Match the following Andhra Pradesh Cabinet decisions with their details.\n\nList-I\n a. Building-height decision\n b. Deepam-2\n c. Green tax\n d. AP Private Universities Act amendment\n\nList-II\n i. Mandatory joint degree certification removed\n ii. Residential limit raised from 18 metres to 24 metres\n iii. 5 kg LPG users upgraded to 14.2 kg\n iv. ₹1,500 for tractors and ₹3,000 for trailers",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10",
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i. The other codes shift the details among the four Cabinet decisions; in particular, the 18-to-24 metre change belongs to building height and the ₹1,500/₹3,000 amounts belong to green tax."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mangalagiri Gold Cluster",
+   "question": "The 78-acre Gem and Jewellery Park approved under the Mangalagiri Gold Cluster is located in which village?",
+   "options": [
+    "Atmakur village, Guntur",
+    "Amalapuram village, Guntur",
+    "Atmakur village, Nandyal",
+    "Penukonda village, Guntur"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "The 78-acre Gem and Jewellery Park is located at Atmakur village in Guntur. Amalapuram and Penukonda are among the places associated with the medical-college decision, while Nandyal is not the stated location."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Stamp-duty exemption",
+   "question": "Which of the following statements regarding the Andhra Pradesh Cabinet’s stamp-duty decision is incorrect?",
+   "options": [
+    "Stamp duty is exempt for education and health institutions allotted Amaravati land after 1 January 2025.",
+    "The exemption applies to education and health institutions.",
+    "The land concerned is allotted in Amaravati.",
+    "The exemption applies to institutions allotted Amaravati land before 1 January 2025."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "The incorrect statement changes the qualifying date: the exemption applies to institutions allotted Amaravati land after 1 January 2025, not before that date. The other three statements correctly describe the institutions, location and nature of the exemption."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Krishna river terminology",
+   "question": "What new term was approved for “desilting sand” near Prakasam Barrage on the Krishna river?",
+   "options": [
+    "Desilting the riverfront",
+    "Desilting the riverbed",
+    "Riverfront sand reclamation",
+    "Krishna sand management"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "The term “desilting sand” was renamed “desilting the riverfront” near Prakasam Barrage. The other phrases are not the approved terminology."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Quarterly GSDP growth",
+   "question": "What was Andhra Pradesh’s GSDP growth in the first quarter of 2025–26?",
+   "options": [
+    "10.50%",
+    "9.58%",
+    "8.8%",
+    "17.1%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Andhra Pradesh recorded 10.50% GSDP growth in Q1 of 2025–26. The figures 9.58% and 8.8% refer respectively to the previous year’s growth and national GDP growth, while 17.1% is the target for 2026–27."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GVA value",
+   "question": "What was Andhra Pradesh’s Gross Value Added in the first quarter of 2025–26?",
+   "options": [
+    "₹3,57,894 crore",
+    "₹18.65 lakh crore",
+    "₹92,843 crore",
+    "₹81,496 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The GVA reported for Q1 2025–26 was ₹3,57,894 crore. ₹18.65 lakh crore is the full-year GSDP target, while ₹92,843 crore and ₹81,496 crore are sectoral values reported separately."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Tourism, air travel and livestock indicators",
+   "question": "Consider the following statements:\n\n1. Tourist arrivals increased from 6.89 crore to 8.07 crore, a rise of 17.08%.\n2. Air passengers increased from 13.09 lakh to 15.85 lakh, a rise of 21.8%.\n3. Meat production increased from 3.15 lakh MT to 3.41 lakh MT, while eggs increased from 62,157 lakh to 67,450 lakh.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 3 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Statements 1 and 3 are correct: tourist arrivals rose by 17.08%, and the stated meat and egg figures increased as specified. Statement 2 is incorrect because the rise in air passengers was 21.1%, not 21.8%."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Sectoral GVA figures",
+   "question": "Match the sectors with the figures reported for Andhra Pradesh in the 16 September 2025 report.\n\nList-I\n a. Agriculture and allied\n b. Industry\n c. Services\n\nList-II\n i. 10.7%, above the national 8.8%\n ii. ₹92,843 crore and 11.9%, above the national 6.8%\n iii. ₹81,496 crore and 9.6%, above the national 3.2%\n iv. ₹3,57,894 crore and 10.50%",
+   "options": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iv, b-ii, c-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10",
+    "P1.F11"
+   ],
+   "explanation": "Agriculture and allied corresponds to a-iii, industry to b-ii and services to c-i. The fourth figure, ₹3,57,894 crore and 10.50%, is the overall GVA and GSDP-related figure rather than one of these three sectoral matches."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "District-level GDDP monitoring",
+   "question": "What was notable about Gross District Domestic Product monitoring in Andhra Pradesh’s Q1 2025–26 review?",
+   "options": [
+    "It was undertaken for the first time at the district level",
+    "It was undertaken for the first time at the mandal level",
+    "It covered only five districts",
+    "It recorded 19.2% of the annual target in the full financial year"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F12"
+   ],
+   "explanation": "The review marked the first time that district-level GDDP monitoring was undertaken. The figure 19.2% refers to the annual target achieved in Q1, and the five named districts exceeded 20%; neither describes the introduction of monitoring."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GSDP target",
+   "question": "What GSDP target was set for Andhra Pradesh for 2025–26 under Swarna Andhra Vision 2047?",
+   "options": [
+    "₹18.65 lakh crore",
+    "₹3,57,894 crore",
+    "₹92,843 crore",
+    "₹81,496 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13"
+   ],
+   "explanation": "The FY 2025–26 GSDP target under Swarna Andhra Vision 2047 is ₹18.65 lakh crore. The other figures are the overall Q1 GVA or sectoral values, not the annual GSDP target."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "KPI framework size",
+   "question": "The Andhra Pradesh KPI framework initially covered how many KPIs across how many departments?",
+   "options": [
+    "512 KPIs across 28 departments",
+    "600 KPIs across 28 departments",
+    "512 KPIs across 19 departments",
+    "600 KPIs across 19 departments"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F14"
+   ],
+   "explanation": "The framework covered 512 KPIs across 28 departments, with plans to expand to more than 600 KPIs. The options using 600 do not represent the initial framework."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Department performance categories",
+   "question": "How many of the following department-performance statements are correct?\n\n1. Housing was in the top A+ category with a score of 100.\n2. Secondary Education was in the top A+ category with a score of 97.\n3. Revenue was in the mid A category with a score of 81.\n4. BC Welfare was in the low C category with a score of 27.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F15",
+    "P1.F16",
+    "P1.F17"
+   ],
+   "explanation": "Exactly two statements are correct: Housing scored 100 in the A+ category and Secondary Education scored 97 in the A+ category. Revenue scored 82, not 81, and BC Welfare scored 25, not 27."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "District and mandal KPI leaders",
+   "question": "Match the following places with their reported KPI scores.\n\nList-I\n a. West Godavari\n b. Nandyal\n c. Anantapur Urban\n d. Pedabayalu\n\nList-II\n i. 64\n ii. 64\n iii. 82\n iv. 49",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F18",
+    "P1.F19"
+   ],
+   "explanation": "West Godavari and Nandyal led the districts with scores of 64, while Anantapur Urban was the best mandal with 82 and Pedabayalu the lowest with 49. Therefore the correct pairs are a-i, b-ii, c-iii and d-iv."
+  }
+ ]
+}

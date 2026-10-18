@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  22,
+  23,
+  24,
+  25,
+  26,
+  27
+ ],
+ "only": [
+  "P25.F6",
+  "P26.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "ICC arrest warrant",
+   "question": "Since March 2023, an arrest warrant issued by the International Criminal Court has been pending against which person?",
+   "options": [
+    "Vladimir Putin",
+    "Abiy Ahmed",
+    "Shehbaz Sharif",
+    "Muhammad Yunus"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P25.F6"
+   ],
+   "explanation": "The ICC arrest warrant against Vladimir Putin has been in force since March 2023. Abiy Ahmed, Shehbaz Sharif and Muhammad Yunus are not the person identified in this ICC fact."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "CEDAW ratification",
+   "question": "What was the key call made at the Beijing+30 High-Level Meeting on women's rights?",
+   "options": [
+    "Universal ratification of CEDAW",
+    "Withdrawal from the International Criminal Court",
+    "Creation of an Arab-Islamic task force",
+    "Issuance of an ICC arrest warrant"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F5"
+   ],
+   "explanation": "The meeting called for universal ratification of CEDAW. The other options refer to unrelated international developments and do not represent the call made at the meeting."
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P10.F13",
+  "P10.F14",
+  "P10.F15",
+  "P10.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Category-wise performance",
+   "question": "In the Andhra Pradesh performance review under Anaemia Mukt Bharat for Q1 2025–26, which category recorded the highest coverage for the State among the following?",
+   "options": [
+    "Pregnant women",
+    "Lactating mothers",
+    "Children aged 5–9 years",
+    "Adolescents aged 10–19 years"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F9"
+   ],
+   "explanation": "Andhra Pradesh recorded the highest coverage in the lactating mothers category. Pregnant women also had the highest coverage, but the specific category identified here is lactating mothers."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "IFA dosage schedule",
+   "question": "With reference to the dosage provisions under Anaemia Mukt Bharat, consider the following statements:\n\n1. Children aged 6–59 months are provided 1 ml of IFA syrup twice a week.\n2. Children aged 5–9 years and adolescents aged 10–19 years are provided 4 IFA tablets per month.\n3. Pregnant and lactating women are provided 180 IFA tablets free of cost.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F13"
+   ],
+   "explanation": "All three statements correctly describe the Anaemia Mukt Bharat dosage provisions. The programme specifies 1 ml of IFA syrup twice weekly for children aged 6–59 months, 4 tablets per month for the 5–19 years groups, and 180 free tablets for pregnant and lactating women."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Funding pattern and SDG linkage",
+   "question": "Consider the following statements:\n\nStatement A: Anaemia Mukt Bharat is not fully centrally funded and follows a 60:40 Centre–State sharing pattern.\nStatement B: Anaemia Mukt Bharat is linked with SDG 2 (Zero Hunger) and SDG 4 (Quality Education).",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F14",
+    "P10.F15"
+   ],
+   "explanation": "Statement A is correct because Anaemia Mukt Bharat follows a 60:40 Centre–State funding pattern and is not fully centrally funded. Statement B is incorrect: the programme is linked with SDG 2 (Zero Hunger) and SDG 3 (Good Health), not SDG 4."
+  }
+ ]
+}

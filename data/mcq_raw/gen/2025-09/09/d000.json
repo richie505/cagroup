@@ -1,0 +1,195 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F5",
+  "P0.F6",
+  "P0.F8",
+  "P0.F9",
+  "P1.F3",
+  "P1.F4",
+  "P2.F2",
+  "P2.F3",
+  "P2.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Award establishment",
+   "question": "The Ramon Magsaysay Award was established in 1957 by which of the following?",
+   "options": [
+    "Rockefeller Brothers Fund (USA) with the Philippine government",
+    "The Government of India with the United Nations",
+    "The Philippine government alone",
+    "The Rockefeller Foundation with the Government of India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The Ramon Magsaysay Award was established in 1957 by the Rockefeller Brothers Fund of the USA with the Philippine government. The Philippine government alone did not establish it."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Award namesake",
+   "question": "Consider the following statements:\nStatement A: Ramon Magsaysay was born in Manila on 31 August 1907.\nStatement B: Ramon Magsaysay died in an air crash on 17 March 1957.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "Statement A is false because Ramon Magsaysay was born in Iba, not Manila, on 31 August 1907. Statement B is true: he died in an air crash on 17 March 1957."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Award epithet",
+   "question": "Which of the following statements about the Ramon Magsaysay Award is incorrect?",
+   "options": [
+    "It is called the “Nobel Prize of Asia”.",
+    "It is associated with Ramon Magsaysay.",
+    "It is known as the “Nobel Prize of Europe”.",
+    "It is an internationally recognised award named after a Philippine president."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "The incorrect statement is that the award is known as the “Nobel Prize of Europe”. Its accepted description is the “Nobel Prize of Asia”."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Indian recipients and years",
+   "question": "Consider the following statements about Indian recipients of the Ramon Magsaysay Award:\n1. Vinoba Bhave received it in 1958.\n2. Mother Teresa received it in 1962.\n3. Jayaprakash Narayan received it in 1974.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10",
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Vinoba Bhave received the award in 1958 and Mother Teresa in 1962. Statement 3 is incorrect because Jayaprakash Narayan received it in 1965; 1974 was the year associated with M.S. Subbulakshmi."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Indian recipients and years",
+   "question": "Match the Indian Ramon Magsaysay Award recipients in List-I with their years in List-II.\n\nList-I\n(a) Arvind Kejriwal\n(b) Bezwada Wilson\n(c) Sonam Wangchuk\n(d) Ravish Kumar\n\nList-II\n(i) 2006\n(ii) 2016\n(iii) 2018\n(iv) 2019",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13",
+    "P0.F14",
+    "P0.F15",
+    "P0.F16"
+   ],
+   "explanation": "The correct pairs are Arvind Kejriwal–2006, Bezwada Wilson–2016, Sonam Wangchuk–2018 and Ravish Kumar–2019. Therefore, option 1 gives the complete correct matching."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Birth, death and burial details",
+   "question": "Where was Carlo Acutis buried?",
+   "options": [
+    "Assisi",
+    "Milan",
+    "London",
+    "St. Peter’s Square, Vatican"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "Carlo Acutis was buried in Assisi. Milan was where he was raised, while London was his birthplace."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Other canonised person",
+   "question": "Assertion (A): Pier Giorgio Frassati died at the age of 25 from polio.\nReason (R): Pier Giorgio Frassati was Italian and died in 1925 at the age of 24 from polio.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "The assertion is false because Pier Giorgio Frassati died aged 24, not 25. The reason is true: he was Italian and died in 1925 from polio at the age of 24."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Record achieved",
+   "question": "At the “Checkmate Marathon”, what record did Nara Devaansh achieve?",
+   "options": [
+    "Solving 175 progressively harder checkmate puzzles in the fastest time",
+    "Solving 175 chess endgames in the longest time",
+    "Solving 157 progressively harder checkmate puzzles in the fastest time",
+    "Solving 175 chess openings in the fastest time"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Nara Devaansh solved 175 progressively harder checkmate puzzles in the fastest time at the “Checkmate Marathon”. The record concerned checkmate puzzles, not endgames or openings."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Book used for puzzles",
+   "question": "The puzzles solved by Nara Devaansh were taken from which book?",
+   "options": [
+    "“5,334 Problems, Combinations, and Games” by László Polgár",
+    "“5,334 Problems, Combinations, and Games” by K. Rajashekar Reddy",
+    "“5,343 Problems, Combinations, and Games” by László Polgár",
+    "“175 Checkmate Puzzles” by László Polgár"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "The puzzles came from “5,334 Problems, Combinations, and Games” by László Polgár. K. Rajashekar Reddy was Nara Devaansh’s coach, not the book’s author."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Coach and parents",
+   "question": "How many of the following statements about Nara Devaansh are correct?\n1. K. Rajashekar Reddy was his coach.\n2. Nara Lokesh and Brahmani were his parents.\n3. K. Rajashekar Reddy was one of his parents.\n4. Nara Lokesh and Brahmani were his coaches.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: K. Rajashekar Reddy was the coach, while Nara Lokesh and Brahmani were the parents. Statements 3 and 4 interchange these roles."
+  }
+ ]
+}

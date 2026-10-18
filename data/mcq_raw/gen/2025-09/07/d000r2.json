@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P0.F2",
+  "P2.F4",
+  "P3.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Number of expanding glacial lakes; Environmental law",
+   "question": "Consider the following statements:\n1. The Central Water Commission found that 432 out of 681 glacial lakes in India were expanding.\n2. The Wildlife (Protection) Act, 1972 has been criticised as reactive rather than proactive in the context of saltwater crocodile conservation.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F2",
+    "P2.F4"
+   ],
+   "explanation": "Both statements are correct. The CWC report recorded expansion in 432 of 681 glacial lakes, while the Wildlife (Protection) Act, 1972 was criticised as reactive rather than proactive. The tempting answer “1 only” is incorrect because the criticism of the 1972 Act is also a stated conservation concern."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Projected plastic production",
+   "question": "According to the data on the global plastic pollution crisis, what is the projected volume of plastic production by 2060?",
+   "options": [
+    "500 million tonnes",
+    "400 million tonnes",
+    "1.2 billion tonnes",
+    "460 million tonnes"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "Global plastic production is projected to reach 1.2 billion tonnes by 2060. The figures of 500 million tonnes and 400 million tonnes refer to production and waste, respectively, in 2024, while 460 million tonnes was the production figure for 2019."
+  }
+ ]
+}

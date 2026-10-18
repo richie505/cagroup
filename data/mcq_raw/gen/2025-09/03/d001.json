@@ -1,0 +1,196 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": [
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F13",
+  "P3.F14",
+  "P3.F3",
+  "P3.F4",
+  "P3.F5",
+  "P3.F8",
+  "P3.F9",
+  "P4.F3",
+  "P4.F8",
+  "P4.F9",
+  "P5.F5",
+  "P6.F4",
+  "P6.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coverage and evaluation",
+   "question": "With reference to the implementation of Digi Kerala, consider the following statements:\n1. 21.87 lakh persons were certified out of 21.88 lakh identified persons.\n2. The programme involved 2.57 lakh volunteers, and master trainers were trained at KILA.\n3. The Economics & Statistics Department functioned as an internal evaluator rather than a third-party evaluator.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F4",
+    "P3.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 21.87 lakh of 21.88 lakh identified persons were certified, and 2.57 lakh volunteers were involved with master trainers trained at KILA. Statement 3 is incorrect because the Economics & Statistics Department acted as a third-party evaluator."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Pullampara model and achievement",
+   "question": "Consider the following statements:\nStatement A: Digi Pullampara was started in 2021 in Pullampara panchayat of Thiruvananthapuram district.\nStatement B: In the Pullampara model, 3,917 persons were trained while 3,300 were identified as digitally illiterate.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F8",
+    "P3.F9"
+   ],
+   "explanation": "Statement A is true: the Pullampara model began in 2021 in Pullampara panchayat of Thiruvananthapuram district. Statement B is false because 3,917 were identified as digitally illiterate and 3,300 were trained."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Volunteer organisations",
+   "question": "Which combination of organisations and community groups served as volunteers in the Digi Pullampara model?",
+   "options": [
+    "NSS, Kudumbashree, SC/ST promoters and library council",
+    "KILA, Economics & Statistics Department, NSS and TRIFED",
+    "Kudumbashree, KFON, K-SMART and library council",
+    "SC/ST promoters, IIT Delhi, NSS and KILA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F10"
+   ],
+   "explanation": "The volunteer network comprised NSS, Kudumbashree, SC/ST promoters and the library council. KILA and the Economics & Statistics Department had other roles, while KFON, K-SMART and IIT Delhi were not listed as Pullampara volunteers."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Digi Kerala 2.0 and K-SMART",
+   "question": "Assertion (A): Digi Kerala 2.0 included service access as one of its objectives.\nReason (R): K-SMART was intended to digitise all services of local self-government bodies.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F12",
+    "P3.F14"
+   ],
+   "explanation": "Both statements are true, and the K-SMART objective explains the service-access component of Digi Kerala 2.0. Digi Kerala 2.0 was announced by Chief Minister Pinarayi Vijayan, while K-SMART concerned digitisation of all local self-government services."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Digi Kerala 2.0 components",
+   "question": "How many of the following statements regarding Digi Kerala 2.0 are correct?\n1. KFON provided free internet to 14,000 BPL families.\n2. KFON had 74,203 commercial connections.\n3. K-SMART covered the digitisation of all local self-government services.\n4. K-SMART was limited to only selected local self-government services.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F13",
+    "P3.F14"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: the KFON figures were 14,000 BPL families and 74,203 commercial connections, while K-SMART covered all local self-government services. Statement 4 is incorrect because the stated scope of K-SMART was all such services."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Developer and cost",
+   "question": "Who led the consortium that developed the beta version of Adi Vaani, and at what approximate cost compared with commercial AI?",
+   "options": [
+    "IIT Delhi; approximately one-tenth of the cost of commercial AI",
+    "BITS Pilani; approximately one-tenth of the cost of commercial AI",
+    "IIIT Hyderabad; approximately one-half of the cost of commercial AI",
+    "IIIT Nava Raipur; approximately the same cost as commercial AI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "Adi Vaani was developed by a consortium led by IIT Delhi, with other institutions and Tribal Research Institutes participating, at approximately one-tenth of the cost of commercial AI. BITS Pilani, IIIT Hyderabad and IIIT Nava Raipur were participating institutions, not the lead institution."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Languages and linkages",
+   "question": "How many of the following statements about Adi Vaani are correct?\n1. Kui and Garo were under development.\n2. India has over 750 tribal languages.\n3. The platform was linked with PM JANMAN and the Adi Karmayogi Abhiyan.\n4. The platform was linked with PM JANMAN and Digi Kerala.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F8",
+    "P4.F9"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: Kui and Garo were under development, India has over 750 tribal languages, and Adi Vaani was linked with PM JANMAN and the Adi Karmayogi Abhiyan. Statement 4 is incorrect because Digi Kerala was not the stated linkage; Adi Karmayogi Abhiyan was."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Companion translation app",
+   "question": "Which languages were covered by the Adi Vaani translation app accompanying the Adi Sanskriti platform?",
+   "options": [
+    "Gondi, Bhili, Santali and Mundari",
+    "Kui, Garo, Santali and Mundari",
+    "Gondi, Bhili, Kui and Garo",
+    "Santali, Mundari, Kui and Garo"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "The companion Adi Vaani translation app covered Gondi, Bhili, Santali and Mundari. Kui and Garo were identified as languages under development for Adi Vaani, not as the listed companion-app set."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UDID funding trend",
+   "question": "Which statement correctly describes the funding pattern of the UDID sub-scheme?",
+   "options": [
+    "Its funding was reduced during 2019–2023.",
+    "Its funding increased during 2019–2023.",
+    "Its funding remained unchanged during 2019–2023.",
+    "The sub-scheme was introduced during 2019–2023."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "Funding for the UDID sub-scheme was reduced during 2019–2023. The alternatives incorrectly describe the direction of change or the introduction of the sub-scheme."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PwD population",
+   "question": "According to the Census figure cited in the UDID context, what was the approximate population of persons with disabilities in India?",
+   "options": [
+    "2.68 crore",
+    "11 lakh",
+    "60% of the population",
+    "40% of the population"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "The Census figure for the population of persons with disabilities was approximately 2.68 crore. The figures of 11 lakh and 60% relate to other UDID coverage or application details, while 40% does not represent the PwD population."
+  }
+ ]
+}

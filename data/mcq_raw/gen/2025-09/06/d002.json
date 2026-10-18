@@ -1,0 +1,105 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P10.F3",
+  "P10.F4",
+  "P10.F5",
+  "P10.F6",
+  "P10.F7",
+  "P10.F8",
+  "P13.F2",
+  "P13.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Weight-loss percentage",
+   "question": "According to the September 2025 WHO update on GLP-1 receptor agonists for obesity, what weight loss can these drugs produce?",
+   "options": [
+    "1 in 8% of body weight",
+    "10–25% of body weight",
+    "44–26% of body weight",
+    "3 trillion% of body weight"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "GLP-1 receptor agonists can produce weight loss of 10–25% of body weight. The other figures refer to obesity prevalence, India’s obese population, or projected cost, not weight-loss efficacy."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Biosimilars and side effects",
+   "question": "Consider the following statements:\nStatement A: Dr. Reddy's, Cipla and Biocon are preparing biosimilars of GLP-1 weight-loss drugs after patent expiry around 2025–26.\nStatement B: Gastroparesis, pancreatitis and thyroid cancer risk are reported side effects or risks associated with these drugs.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4",
+    "P10.F5"
+   ],
+   "explanation": "Both statements are true. The three Indian pharmaceutical companies are preparing biosimilars after patent expiry around 2025–26, while gastroparesis, pancreatitis and thyroid cancer risk are listed among the side effects or risks."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Global and Indian obesity data",
+   "question": "With reference to obesity-related data reported in the WHO's September 2025 update, how many of the following statements are correct?\n1. In 2022, 1 in 8 adults worldwide were obese, representing 890 million adults and 160 million adolescents.\n2. India had 44 million obese women and 26 million obese men.\n3. The projected cost associated with obesity is $3 billion by 2030.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "None of these"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F6",
+    "P10.F7",
+    "P10.F8"
+   ],
+   "explanation": "Only statements 1 and 2 are correct. The projected cost is $3 trillion by 2030, not $3 billion; hence statement 3 is incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Countries and remuneration",
+   "question": "The hidden human labour behind AI involves data annotators in which group of countries, with some earning as little as $2 per hour?",
+   "options": [
+    "Kenya, India, Pakistan, China and the Philippines",
+    "Kenya, India, China and the Philippines only",
+    "India, Pakistan, China and the Philippines only",
+    "Kenya, Pakistan, China and the Philippines only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "Data annotators in Kenya, India, Pakistan, China and the Philippines were reported to earn as little as $2 per hour. The other options omit one of the five countries, especially Pakistan or India."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "In 2024, AI workers from which country wrote to Joe Biden describing their working conditions as “modern-day slavery”?",
+   "options": [
+    "Kenya",
+    "India",
+    "Pakistan",
+    "China"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "Kenyan AI workers wrote to Joe Biden in 2024 and described their conditions as “modern-day slavery.” India, Pakistan and China were among the countries associated with data-annotation work, but the letter in this event was from Kenyan workers."
+  }
+ ]
+}

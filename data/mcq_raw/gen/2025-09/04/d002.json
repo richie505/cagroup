@@ -1,0 +1,199 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P11.F4",
+  "P11.F5",
+  "P11.F6",
+  "P11.F7",
+  "P11.F8",
+  "P12.F1",
+  "P12.F3",
+  "P14.F3",
+  "P14.F4",
+  "P15.F4",
+  "P15.F5",
+  "P9.F10",
+  "P9.F2",
+  "P9.F3",
+  "P9.F4",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Crop acreage and fertiliser shift",
+   "question": "With reference to the fertiliser situation during Kharif 2025, consider the following statements:\n1. Rice acreage reached 420.4 lakh hectares, registering a 7.6% increase.\n2. Maize acreage reached 93.3 lakh hectares, registering an 11.7% increase.\n3. DAP sales fell by 12.8%, while farmers shifted towards 20:20:0:13 complex and SSP.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F2",
+    "P9.F3"
+   ],
+   "explanation": "All three statements are correct. Rice and maize acreage increased to 420.4 lakh hectares and 93.3 lakh hectares respectively, while DAP sales fell 12.8% and farmers shifted towards 20:20:0:13 complex and SSP."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Fertiliser ranking and record production",
+   "question": "Which of the following statements regarding 20:20:0:13 complex fertiliser is incorrect?",
+   "options": [
+    "Its production reached an all-time high of 69.7 lakh tonnes in 2024–25.",
+    "It was the second-largest fertiliser after urea and DAP.",
+    "It ranked as the third-largest fertiliser after urea and DAP.",
+    "Its record production was reported for 2024–25."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "The incorrect statement is that 20:20:0:13 was the second-largest fertiliser after urea and DAP. It was the third-largest fertiliser, with an all-time-high production of 69.7 lakh tonnes in 2024–25."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fertiliser stocks",
+   "question": "What was the urea stock position on 1 August 2025 during the Kharif fertiliser situation?",
+   "options": [
+    "37.2 lakh tonnes, compared with 86.4 lakh tonnes earlier",
+    "69.7 lakh tonnes, compared with 37.2 lakh tonnes earlier",
+    "20.5 lakh tonnes, compared with 23 lakh tonnes earlier",
+    "93.6 lakh tonnes, compared with 102.1 lakh tonnes earlier"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F9"
+   ],
+   "explanation": "Urea stocks stood at 37.2 lakh tonnes on 1 August 2025, against 86.4 lakh tonnes earlier. The figure of 69.7 lakh tonnes refers to the record production of 20:20:0:13 complex, not urea stocks."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ammonium sulphate composition",
+   "question": "Consider the following statements:\nStatement A: Ammonium sulphate contains 20.5% nitrogen and 23% sulphur.\nStatement B: Ammonium sulphate was suggested as a substitute for urea because it contains 23% nitrogen and 20.5% sulphur.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F10"
+   ],
+   "explanation": "Statement A is true: ammonium sulphate contains 20.5% nitrogen and 23% sulphur. Statement B reverses these two percentages; it was suggested as a substitute for urea, but its nitrogen and sulphur content is 20.5% and 23% respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Global procurement models",
+   "question": "Match the countries with the global procurement models associated with them:\n\nList-I\n(a) Germany\n(b) USA\n(c) South Korea\n(d) EU\n\nList-II\n(i) SBIR\n(ii) High-Tech Strategy and KOINNO\n(iii) Pre-commercial procurement\n(iv) Joint Procurement Agreement",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4",
+    "P11.F5",
+    "P11.F6",
+    "P11.F7"
+   ],
+   "explanation": "The correct pairs are Germany–High-Tech Strategy and KOINNO, USA–SBIR, South Korea–pre-commercial procurement, and EU–Joint Procurement Agreement. Therefore, the correct code is a-ii, b-i, c-iii, d-iv."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mission-oriented procurement",
+   "question": "Who is associated with the concept of mission-oriented procurement in the discussion of research procurement reforms?",
+   "options": [
+    "KOINNO",
+    "Mariana Mazzucato",
+    "SBIR",
+    "Joint Procurement Agreement"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F8"
+   ],
+   "explanation": "Mission-oriented procurement is associated with Mariana Mazzucato. KOINNO, SBIR and the Joint Procurement Agreement are procurement models or initiatives associated with Germany, the USA and the EU respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State manufacturing and infrastructure index",
+   "question": "Regarding the State Manufacturing and Infrastructure Index being developed by NITI Aayog, consider the following statements:\n1. It is intended to benchmark States on manufacturing and infrastructure.\n2. Policies, logistics and approvals are among the areas covered by the benchmarking exercise.\n3. The Indian Ocean Region initiative identifies the Malacca Strait and the Red Sea as chokepoints.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F3"
+   ],
+   "explanation": "All three statements are correct. NITI Aayog is developing the index to benchmark States on manufacturing and infrastructure using areas such as policies, logistics and approvals; the identified chokepoints are the Malacca Strait and the Red Sea."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Women’s economic empowerment data and target",
+   "question": "How many of the following statements associated with Uttar Pradesh’s Women’s Economic Empowerment Index are correct?\n1. Women contribute 18% of GDP.\n2. The female labour force participation rate is 41.7%.\n3. 196 million employable women are already part of the workforce.\n4. The target is to achieve a 30 trillion dollar Indian economy by 2047.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3",
+    "P14.F4"
+   ],
+   "explanation": "Only one statement is correct: women contribute 18% of GDP. The female labour force participation rate is 41.7%, 196 million employable women are outside the workforce, and the target is a 30 trillion dollar economy by 2047."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tea production and refinery expansion",
+   "question": "Which statement correctly describes the North-East’s tea sector and the expansion of Numaligarh Refinery?",
+   "options": [
+    "The North-East, mainly Assam, accounts for over 50% of India’s tea, and Numaligarh Refinery is expanding to 9 MMT.",
+    "The North-East accounts for 0.13% of India’s tea, and Numaligarh Refinery is expanding to 5,400 MMT.",
+    "The North-East, mainly Assam, accounts for 25% of India’s tea, and Numaligarh Refinery is expanding to 9 lakh tonnes.",
+    "The North-East accounts for over 50% of India’s tea, while Numaligarh Refinery expansion has been stalled."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4"
+   ],
+   "explanation": "The North-East, mainly Assam, produces over 50% of India’s tea, and Numaligarh Refinery is expanding to 9 MMT. The figures 0.13% and 5,400+ km relate to the North-East’s export and border context, not its tea share or refinery capacity."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Export planning and connectivity",
+   "question": "Which statement correctly describes the North-East’s position in the 2024 export plan and the India–Myanmar–Thailand Trilateral Highway?",
+   "options": [
+    "The DGFT 2024 export plan had no North-East section, and the Trilateral Highway had stalled.",
+    "The DGFT 2024 export plan included a dedicated North-East section, and the Trilateral Highway was completed.",
+    "The DGFT 2024 export plan had no North-East section, and the Trilateral Highway was expanded to 9 MMT.",
+    "The DGFT 2024 export plan included a North-East section, while the Trilateral Highway was scrapped in 2024."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F5"
+   ],
+   "explanation": "The DGFT 2024 export plan had no section for the North-East, and the India–Myanmar–Thailand Trilateral Highway had stalled. The 2024 date is associated with the scrapping of the Free Movement Regime, not with the Trilateral Highway."
+  }
+ ]
+}

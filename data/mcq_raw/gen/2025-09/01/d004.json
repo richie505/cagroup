@@ -1,0 +1,251 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19,
+  20
+ ],
+ "only": [
+  "P16.F1",
+  "P16.F2",
+  "P16.F4",
+  "P16.F5",
+  "P16.F6",
+  "P17.F1",
+  "P17.F2",
+  "P17.F4",
+  "P17.F5",
+  "P17.F6",
+  "P18.F5",
+  "P19.F2",
+  "P19.F3",
+  "P19.F4",
+  "P19.F5",
+  "P20.F3",
+  "P20.F4",
+  "P20.F5",
+  "P20.F7",
+  "P20.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Conference venue and initiatives",
+   "question": "With reference to the District Collectors' Conference 2025 in Andhra Pradesh, consider the following statements:\n1. The conference was held at the AP Secretariat, Velagapudi.\n2. Overall crime increased by 16%.\n3. “One Family – One Entrepreneur” was among the initiatives discussed.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2",
+    "P16.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the conference was held at the AP Secretariat, Velagapudi, and “One Family – One Entrepreneur” was one of the initiatives. Statement 2 is incorrect because overall crime fell by 4%; the 16% rise referred to cybercrime."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Health allocation",
+   "question": "What health allocation was highlighted at the District Collectors' Conference 2025 in Andhra Pradesh?",
+   "options": [
+    "₹5,500 crore",
+    "₹20,000 crore",
+    "₹30,000 crore",
+    "₹1.15 crore"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P16.F5"
+   ],
+   "explanation": "The health allocation highlighted at the conference was ₹20,000 crore. ₹5,500 crore relates to APTRANSCO works, while ₹30,000 crore refers to annual cybercrime losses."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Green initiatives",
+   "question": "Consider the following statements:\nStatement A: Rooftop solar was proposed for police buildings.\nStatement B: The conference promoted electric vehicles and a linear economy.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P16.F6"
+   ],
+   "explanation": "Statement A is true because rooftop solar on police buildings was identified as a green initiative. Statement B is false because the initiative referred to a circular economy, not a linear economy."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Legacy-waste target",
+   "question": "What quantity of legacy waste was Andhra Pradesh targeting to clear by the end of 2025?",
+   "options": [
+    "85.90 lakh MT",
+    "1.15 crore MT",
+    "30 lakh MT",
+    "1.15 lakh MT"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P17.F1"
+   ],
+   "explanation": "Andhra Pradesh set a target of clearing 1.15 crore MT of legacy waste by the end of 2025. The figures 85.90 lakh MT and 30 lakh MT were specified as separate stages of the planned clearance."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Waste processing and ISWM infrastructure",
+   "question": "Match List-I with List-II regarding Andhra Pradesh’s legacy-waste management measures.\n\nList-I\n a. Recovered soil\n b. Refuse-Derived Fuel\n c. ISWM clusters\n d. Rural Material Recovery Facilities\n\nList-II\n i. 417\n ii. 72\n iii. Compost\n iv. Cement factories\n\nSelect the correct code.",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F2",
+    "P17.F4"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i. Recovered soil is used for compost, RDF is sent to cement factories, ISWM covers 72 clusters, and there are 417 rural Material Recovery Facilities."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "STPs and single-use plastic-free timeline",
+   "question": "Consider the following statements regarding Andhra Pradesh’s environmental initiatives:\n1. There are 142 Sewage Treatment Plants on 199 acres.\n2. The AP Secretariat was declared single-use plastic-free on 15 September 2025.\n3. All collectorates and offices were to become single-use plastic-free by December 2025.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P17.F5",
+    "P17.F6"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Andhra Pradesh has 142 Sewage Treatment Plants on 199 acres, and all collectorates and offices were to be single-use plastic-free by December 2025. Statement 2 is incorrect because the AP Secretariat was declared single-use plastic-free on 15 August 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Union scheme and beneficiaries",
+   "question": "Under which Union scheme was free rooftop solar provided for Scheduled Caste and Scheduled Tribe households in Andhra Pradesh?",
+   "options": [
+    "PM Surya Ghar",
+    "AP Integrated Clean Energy Policy–2024",
+    "One Family – One Entrepreneur",
+    "Swachh Andhra Corporation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F5"
+   ],
+   "explanation": "The free rooftop solar provision for SC/ST households was associated with PM Surya Ghar. The AP Integrated Clean Energy Policy–2024 is a policy framework, while the other options refer to a livelihood initiative and an agency."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Substation capacity and construction",
+   "question": "Match the following APTRANSCO power-system categories with the corresponding numbers.\n\nList-I\n a. Existing 400 kV substations\n b. Existing 220 kV substations\n c. Existing 132 kV substations\n d. High-capacity substations under construction\n\nList-II\n i. 14\n ii. 18\n iii. 113\n iv. 244\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F2",
+    "P19.F3"
+   ],
+   "explanation": "The correct matching is a-ii, b-iii, c-iv and d-i: 18 existing 400 kV substations, 113 existing 220 kV substations, 244 existing 132 kV substations and 14 high-capacity substations under construction. The other codes interchange these capacity categories and figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "New 33 kV substations",
+   "question": "How many new 33 kV substations were reported to be under construction in the APTRANSCO update?",
+   "options": [
+    "14",
+    "63",
+    "68",
+    "110"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P19.F3"
+   ],
+   "explanation": "The update reported 63 new 33 kV substations under construction. The figure 14 referred to high-capacity substations, while 68 was the number of project locations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SCADA Centre location and monitoring",
+   "question": "Where is the APTRANSCO SCADA Centre located, and how many substations does it monitor?",
+   "options": [
+    "Visakhapatnam; 110 substations",
+    "Vijayawada; 110 substations",
+    "Visakhapatnam; 63 substations",
+    "Guntur; 14 substations"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F4"
+   ],
+   "explanation": "The APTRANSCO SCADA Centre is located in Visakhapatnam and monitors 110 substations. Vijayawada is the trap location, while 63 and 14 are figures associated with other power-system works."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Electricity demand growth",
+   "question": "What annual growth in electricity demand was indicated in the APTRANSCO update?",
+   "options": [
+    "4–6%",
+    "6–8%",
+    "8–10%",
+    "15–16%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P19.F5"
+   ],
+   "explanation": "Electricity demand was indicated to be growing by 6–8% a year. The other ranges do not represent the demand-growth figure reported in the update."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "IKS Centre focus and scale",
+   "question": "Consider the following statements about the Indian Knowledge Systems Centre at National Sanskrit University, Tirupati:\n1. Its focus includes political, economic and strategic sciences.\n2. Its textual and scientific areas include the Arthashastra, Dharmashastras, Mahabharata, Ashwa-shastra and Gava-ayurveda.\n3. It was part of a total of six IKS centres sanctioned across premier institutions.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F3",
+    "P20.F4",
+    "P20.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Centre covers political, economic and strategic sciences and includes the listed texts and veterinary sciences. Statement 3 is incorrect because the total number of IKS centres sanctioned across premier institutions was eight."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Legal conclave date, venue and theme",
+   "question": "The legal conclave organised by the Valmiki Research Centre affiliated to National Sanskrit University was held when and where, and what was its broad theme?",
+   "options": [
+    "20 September at the Vizianagaram campus; ethical and constitutional lessons from the Valmiki Ramayana",
+    "15 August at the AP Secretariat; single-use plastic-free governance",
+    "2 October at Tirupati; Indian Knowledge Systems and agriculture",
+    "December 2025 at Vijayawada; electricity demand and clean energy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F7",
+    "P20.F8"
+   ],
+   "explanation": "The conclave was held on 20 September at the Vizianagaram campus, with a theme centred on ethical and constitutional lessons from the Valmiki Ramayana. Its theme included governance, dharma, ADR and mediation, and gender justice; the other options combine unrelated dates, venues or subjects."
+  }
+ ]
+}

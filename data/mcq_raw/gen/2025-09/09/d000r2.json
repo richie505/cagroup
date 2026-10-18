@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Award epithet",
+   "question": "The Ramon Magsaysay Award is popularly known by which epithet?",
+   "options": [
+    "Nobel Prize of Asia",
+    "Nobel Prize of Europe",
+    "Nobel Prize of Africa",
+    "Nobel Prize of America"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "The Ramon Magsaysay Award is popularly called the “Nobel Prize of Asia.” The other options incorrectly associate the award with Europe, Africa or America."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian recipient and year",
+   "question": "In which year did Sonam Wangchuk receive the Ramon Magsaysay Award?",
+   "options": [
+    "2018",
+    "2019",
+    "2016",
+    "2006"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Sonam Wangchuk received the Ramon Magsaysay Award in 2018. The years 2019, 2016 and 2006 are associated with other Indian recipients listed in the award’s Indian recipient record."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian recipient and year",
+   "question": "Ravish Kumar received the Ramon Magsaysay Award in which year?",
+   "options": [
+    "2019",
+    "2018",
+    "2016",
+    "2006"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16"
+   ],
+   "explanation": "Ravish Kumar received the Ramon Magsaysay Award in 2019. The other years refer to Sonam Wangchuk, Bezwada Wilson and Arvind Kejriwal, respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Indian recipients and award years",
+   "question": "Consider the following statements:\n1. Arvind Kejriwal received the Ramon Magsaysay Award in 2006.\n2. Bezwada Wilson received the Ramon Magsaysay Award in 2016.\n3. Arvind Kejriwal received the Ramon Magsaysay Award in 2018.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13",
+    "P0.F14"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Arvind Kejriwal received the award in 2006 and Bezwada Wilson in 2016. Statement 3 is incorrect because 2018 is associated with Sonam Wangchuk, not Arvind Kejriwal."
+  }
+ ]
+}

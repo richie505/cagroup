@@ -1,0 +1,138 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P1.F1",
+  "P1.F10",
+  "P1.F11",
+  "P1.F4",
+  "P1.F5",
+  "P1.F7",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Patient-safety harm",
+   "question": "According to the patient-safety data associated with World Patient Safety Day, consider the following statements:\n1. Harm affects 1 in 10 hospitalised patients.\n2. Harm affects 4 in 10 hospitalised patients.\n3. Harm affects 1 in 5 patients in outpatient care.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "Statement 1 is correct: harm affects 1 in 10 hospitalised patients. Statements 2 and 3 change the stated figures and care setting; the outpatient figure is 4 in 10, not 1 in 5."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NABH accreditation",
+   "question": "In India, what proportion of hospitals were fully accredited by NABH according to the patient-safety facts for 2025?",
+   "options": [
+    "Fewer than 5%",
+    "Exactly 5%",
+    "More than 10%",
+    "50%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Fewer than 5% of hospitals were fully accredited by NABH. The figures 5%, more than 10% and 50% do not match the stated accreditation status."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Patient Advisory Councils",
+   "question": "Which body recommends Patient Advisory Councils (PACs) under its Global Patient Safety Action Plan?",
+   "options": [
+    "WHO",
+    "NABH",
+    "Society of Pharmacovigilance, India",
+    "National Patient Safety Implementation Framework"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The WHO Global Patient Safety Action Plan recommends Patient Advisory Councils. NABH, the Society of Pharmacovigilance, India and the National Patient Safety Implementation Framework are related patient-safety references but are not the recommending body in this fact."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Days and associated events",
+   "question": "Match List-I with List-II regarding important days and events observed or organised in 2025.\n\nList-I\n a. International Literacy Day 2025\n b. Gandhi Jayanti\n c. Swachha Andhra Day\n d. Central Silk Board Foundation Day\n\nList-II\n i. Every third Saturday in Andhra Pradesh\n ii. First Swachha Andhra Awards ceremony\n iii. Himachal Pradesh declared fully literate at Shimla\n iv. 20 September 2025, Bengaluru\n\nSelect the correct code.",
+   "options": [
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F4",
+    "P1.F5",
+    "P1.F7"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-i and d-iv. International Literacy Day was linked with Himachal Pradesh being declared fully literate at Shimla; Gandhi Jayanti featured the first Swachha Andhra Awards ceremony; Swachha Andhra Day is observed every third Saturday in Andhra Pradesh; and the Central Silk Board Foundation Day was held on 20 September 2025 in Bengaluru."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "UNGA and Sri Ramayana Sankharavam",
+   "question": "Consider the following statements:\nStatement A: The 79th session of the United Nations General Assembly was held in 2025.\nStatement B: Sri Ramayana Sankharavam was a legal conclave held on 21 September in Vizianagaram.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "Both statements are false. The relevant session was the 80th UNGA session in 2025, while Sri Ramayana Sankharavam was a legal conclave held on 20 September in Vizianagaram."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Semicon India 2025 details",
+   "question": "How many of the following statements about Semicon India 2025 are correct?\n1. It took place on 2 September 2025.\n2. A Vikram 32-bit chip was presented.\n3. A Vikram 16-bit chip was presented.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "Only two statements are correct: Semicon India 2025 took place on 2 September 2025, and a Vikram 32-bit chip was presented. The chip was not described as a 16-bit chip."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian patient-safety organisation",
+   "question": "Which organisation is specifically associated with the Indian patient-safety context along with the National Patient Safety Implementation Framework and NABH accreditation?",
+   "options": [
+    "Society of Pharmacovigilance, India",
+    "WHO Global Patient Safety Action Plan",
+    "Patient Advisory Councils",
+    "Central Silk Board"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The Society of Pharmacovigilance, India is associated with the Indian patient-safety context in this reference. The WHO Global Patient Safety Action Plan and Patient Advisory Councils are global patient-safety references, while the Central Silk Board is unrelated to this issue."
+  }
+ ]
+}

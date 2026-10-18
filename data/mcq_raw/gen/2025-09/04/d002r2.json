@@ -1,0 +1,70 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P14.F3",
+  "P14.F4",
+  "P15.F4",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Fertiliser stock position",
+   "question": "With reference to fertiliser stocks on 1 August 2025, consider the following statements:\n1. Urea stocks stood at 37.2 lakh tonnes, compared with 86.4 lakh tonnes earlier.\n2. Only SSP stocks showed an improvement.\n3. Stocks of all major fertilisers improved.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: urea stocks were 37.2 lakh tonnes against 86.4 lakh tonnes, and only SSP stocks improved. Statement 3 is incorrect because the improvement was limited to SSP stocks."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Women’s economic participation and 2047 target",
+   "question": "With reference to Uttar Pradesh’s Women’s Economic Empowerment Index and its wider economic context, consider the following statements:\n1. Women contribute 18% of GDP, the female labour force participation rate is 41.7%, and 196 million employable women remain outside the workforce.\n2. India is targeting a $30 trillion economy by 2047.\n3. India is targeting a $30 trillion economy by 2035.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3",
+    "P14.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The stated target is a $30 trillion economy by 2047, not by 2035; therefore, statement 3 is incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tea share and refinery expansion",
+   "question": "Which of the following correctly describes the North-East’s tea contribution and the expansion of Numaligarh Refinery?",
+   "options": [
+    "The North-East, mainly Assam, produces over 50% of India’s tea, while Numaligarh Refinery is expanding to 9 MMT.",
+    "The North-East, mainly Assam, produces over 50% of India’s tea, while Numaligarh Refinery is expanding to 7 MMT.",
+    "The North-East, mainly Assam, produces 25% of India’s tea, while Numaligarh Refinery is expanding to 9 MMT.",
+    "The North-East, mainly Assam, produces 25% of India’s tea, while Numaligarh Refinery is expanding to 7 MMT."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4"
+   ],
+   "explanation": "The North-East, mainly Assam, accounts for over 50% of India’s tea, and Numaligarh Refinery is expanding to 9 MMT. The other options alter either the tea share, the refinery capacity, or both."
+  }
+ ]
+}

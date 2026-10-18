@@ -1,0 +1,162 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F7",
+  "P12.F3",
+  "P12.F5",
+  "P5.F4",
+  "P5.F5",
+  "P6.F4",
+  "P8.F4",
+  "P8.F5",
+  "P8.F6",
+  "P8.F8",
+  "P9.F1",
+  "P9.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Regional solar radiation trend and solar capacity",
+   "question": "Consider the following statements about India’s solar-radiation outlook and power capacity:\n1. The Indo-Gangetic Plains and the North-East may see a marginal increase in surface solar radiation under low emissions.\n2. North-west India is projected to be the most unstable region in terms of surface solar radiation.\n3. India’s solar capacity was 123,130.13 MW on 31 August 2025, while renewables accounted for about 18% of total capacity.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F4",
+    "P5.F5"
+   ],
+   "explanation": "Statement 1 is correct: the Indo-Gangetic Plains and the North-East may experience a marginal increase under low emissions. Statement 2 reverses the finding about north-west India, and Statement 3 reverses the shares of renewable capacity and generation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Biofuel plant output",
+   "question": "In the isobutanol–diesel blending pilot context, which combination correctly describes the feedstocks and output of a 150 klpd plant?",
+   "options": [
+    "Sugarcane syrup, B-heavy molasses and grains; about 125 klpd ethanol and 20 klpd isobutanol",
+    "Sugarcane syrup, B-heavy molasses and grains; about 20 klpd ethanol and 125 klpd isobutanol",
+    "Sugarcane syrup and grains; about 125 klpd ethanol and 20 klpd isobutanol",
+    "B-heavy molasses and grains; about 20 klpd ethanol and 125 klpd isobutanol"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "The reported feedstocks are sugarcane syrup, B-heavy molasses and grains, and a 150 klpd plant is expected to produce about 125 klpd ethanol and 20 klpd isobutanol. The tempting alternatives interchange the two output figures or omit one of the listed feedstocks."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Freshwater share of offshore aquifers",
+   "question": "Assertion (A): Offshore aquifers account for about 10% of terrestrial freshwater.\nReason (R): Offshore aquifers contain approximately 1 million km³ of freshwater.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "Both statements are true, and the approximate 1 million km³ volume explains the estimate that offshore aquifers constitute about 10% of terrestrial freshwater. The other options incorrectly treat one of these linked figures as false or deny their explanatory relationship."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scientist quoted",
+   "question": "Which scientist from the Colorado School of Mines was quoted in the report on the offshore freshwater aquifer beneath the Atlantic Ocean?",
+   "options": [
+    "Brandon Dugan",
+    "Ashwin Jadhav",
+    "Rohini Bhawar",
+    "Nitin Gadkari"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4"
+   ],
+   "explanation": "Brandon Dugan of the Colorado School of Mines was the scientist quoted in the report. Ashwin Jadhav and Rohini Bhawar were associated with the solar-radiation study, while Nitin Gadkari announced the isobutanol–diesel pilot."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Origin, geological retention and global water outlook",
+   "question": "Match the following descriptions related to offshore aquifers and freshwater demand:\n\nList-I\n(a) Ice Age recharge\n(b) Connection to onshore aquifers\n(c) Clay cap rock\n(d) UN projection for 2030\n\nList-II\n(i) One theory for the origin of offshore freshwater\n(ii) Another theory for the origin of offshore freshwater\n(iii) Geological feature associated with retaining the water\n(iv) Freshwater demand expected to exceed supply by 40%",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F6",
+    "P8.F8"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Ice Age recharge and connection to onshore aquifers are proposed origins, clay cap rock is associated with retaining the water, and the UN projection concerns demand exceeding supply by 40% by 2030."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Himalayan population and disaster locations",
+   "question": "Match the Himalayan population or disaster reference with the corresponding description:\n\nList-I\n(a) Himalayan region\n(b) Dharali, Uttarkashi\n(c) Mandi\n(d) Jammu and Kashmir\n\nList-II\n(i) Home to more than 210 million people across 7 countries\n(ii) Flash flood\n(iii) Landslides\n(iv) Floods",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2"
+   ],
+   "explanation": "The correct matching is a-i, b-ii, c-iii and d-iv. The Himalayas are home to more than 210 million people across seven countries; Dharali was associated with a flash flood, Mandi with landslides, and Jammu and Kashmir with floods."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate-resilient urban initiatives",
+   "question": "Which set correctly matches the examples cited for climate-resilient urban action in India?",
+   "options": [
+    "Kolkata—flood forecasting; Chennai—stormwater management; Ahmedabad—Heat Action Plan",
+    "Kolkata—stormwater management; Chennai—Heat Action Plan; Ahmedabad—flood forecasting",
+    "Kolkata—Heat Action Plan; Chennai—flood forecasting; Ahmedabad—stormwater management",
+    "Kolkata—flood forecasting; Chennai—Heat Action Plan; Ahmedabad—stormwater management"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F7"
+   ],
+   "explanation": "The cited examples are Kolkata flood forecasting, Chennai stormwater management and Ahmedabad’s Heat Action Plan. The other options interchange the city-specific initiatives."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Water wives and women’s participation in water governance",
+   "question": "How many of the following statements about the gendered impact of water crises and institutional responses are correct?\n1. ‘Water wives’ refers to polygamy for water collection in drought-hit Maharashtra.\n2. Village Water and Sanitation Committees were suggested with less than 50% women members.\n3. Jal Jeevan Mission and AMRUT 2.0 were excluded from the suggested institutional responses.\n4. ‘Water wives’ refers to polygamy for water collection in non-drought-hit Maharashtra.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3",
+    "P12.F5"
+   ],
+   "explanation": "Only Statement 1 is correct: ‘water wives’ describes polygamy for water collection in drought-hit Maharashtra. Statement 2 changes the suggested threshold from at least 50% women to less than 50%, Statement 3 wrongly excludes Jal Jeevan Mission and AMRUT 2.0, and Statement 4 changes the setting from drought-hit to non-drought-hit Maharashtra."
+  }
+ ]
+}

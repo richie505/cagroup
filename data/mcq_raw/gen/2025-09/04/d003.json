@@ -1,0 +1,158 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19
+ ],
+ "only": [
+  "P16.F2",
+  "P16.F3",
+  "P16.F4",
+  "P17.F4",
+  "P17.F5",
+  "P17.F7",
+  "P18.F3",
+  "P18.F4",
+  "P18.F5",
+  "P19.F3",
+  "P19.F5",
+  "P19.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Project leadership",
+   "question": "Who is the Chief Minister associated with the 55-km Musi stretch within HMDA limits under the Musi Riverfront Development Project?",
+   "options": [
+    "A. Revanth Reddy",
+    "Vishnu Deo Sai",
+    "The Central Water Commission",
+    "The Asian Development Bank"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F2"
+   ],
+   "explanation": "A. Revanth Reddy is the Chief Minister associated with the 55-km Musi stretch within HMDA limits. Vishnu Deo Sai is associated with the Chhattisgarh approval for the Sammakkasagar barrage, not the Musi Riverfront project."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Project components and locations",
+   "question": "Match the components of the Musi Riverfront Development Project with their locations:\n\nList-I\n a. Gateway of Hyderabad\n b. Gandhi Sarovar\n c. Shiva temple\n d. Charminar mosque\n\nList-II\n i. Bapu Ghat\n ii. Manchirevula\n iii. Kothwalguda\n iv. Heritage restoration\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F3",
+    "P16.F4"
+   ],
+   "explanation": "The correct pairs are Gateway of Hyderabad–Kothwalguda, Gandhi Sarovar–Bapu Ghat, Shiva temple–Manchirevula, and Charminar mosque–heritage restoration. The other codes interchange these project components and locations."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Irrigation and drinking-water benefits",
+   "question": "With reference to the benefits proposed under the Sammakkasagar barrage project, consider the following statements:\n\n1. It seeks to stabilise 1.78 lakh hectares under Sriramsagar Project Stage-II.\n2. It proposes new irrigation for 12,146 hectares under the Ramappa–Pakhal Link Canal.\n3. It is intended to provide drinking water to fluoride-affected Nalgonda and Warangal.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F4",
+    "P17.F5"
+   ],
+   "explanation": "Statements 1, 2 and 3 are all correct. The project covers stabilisation under Sriramsagar Project Stage-II, new irrigation under the Ramappa–Pakhal Link Canal, and drinking-water needs in fluoride-affected Nalgonda and Warangal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tunnel design",
+   "question": "In the Sammakkasagar barrage proposal, what is the diameter specified for each of the four tunnels?",
+   "options": [
+    "8 metres",
+    "90 km",
+    "182 cumecs",
+    "3 pump houses"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F7"
+   ],
+   "explanation": "Each of the four proposed tunnels has a diameter of 8 metres. The 90 km figure refers to the tunnel length, while 182 cumecs refers to capacity and three refers to the pump houses."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Regional concentration and gender participation",
+   "question": "Consider the following statements:\n\nStatement A: East and North-Eastern India account for two-thirds of India's bioeconomy value.\nStatement B: Women account for only 11% of rooftop solar jobs.\n\nSelect the correct answer.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P18.F3",
+    "P18.F4"
+   ],
+   "explanation": "Statement A is false, while Statement B is true. Maharashtra, Karnataka, Telangana, Gujarat and Andhra Pradesh together account for two-thirds of bioeconomy value, whereas women hold only 11% of rooftop solar jobs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Projected green employment",
+   "question": "How many green jobs are projected for India by 2030 in the landscape approach to the green economy?",
+   "options": [
+    "35 million",
+    "2.5 lakh",
+    "11%",
+    "Under 6%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F5"
+   ],
+   "explanation": "The projection is 35 million green jobs by 2030. The figure of 2.5 lakh refers to PRIs, while 11% concerns women's share of rooftop solar jobs."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of EV makers",
+   "question": "Approximately how many electric-vehicle makers operate in China, according to the discussion on involution in the country's EV sector?",
+   "options": [
+    "120–130",
+    "17%–18.8%",
+    "40%–50%",
+    "75%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F3"
+   ],
+   "explanation": "China has approximately 120–130 EV makers. The other numerical ranges or percentage figures relate to tariffs or the share of Chinese EVs in sales growth, not the number of manufacturers."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Policy response and overseas expansion",
+   "question": "Assertion (A): China's response to EV price wars was to withdraw the draft Pricing Law overhaul.\nReason (R): BYD has plants in Hungary and Turkiye.\n\nSelect the correct answer:",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P19.F5",
+    "P19.F6"
+   ],
+   "explanation": "Assertion A is false because the response included a draft Pricing Law overhaul, an orderly exit of capacity and the MIIT's ‘war on price wars’. Reason R is true: BYD has plants in Hungary and Turkiye, but this does not explain the policy response."
+  }
+ ]
+}

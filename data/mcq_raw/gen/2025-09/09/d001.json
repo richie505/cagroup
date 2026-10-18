@@ -1,0 +1,155 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": [
+  "P3.F1",
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F13",
+  "P3.F14",
+  "P3.F4",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Election to constitutional office",
+   "question": "Who was elected Vice-President of India in September 2025 on the NDA ticket?",
+   "options": [
+    "C.P. Radhakrishnan",
+    "B. Sudershan Reddy",
+    "Arindam Bagchi",
+    "Navinchandra Ramgoolam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "C.P. Radhakrishnan was elected Vice-President of India on the NDA ticket. He defeated B. Sudershan Reddy; the other names are associated with different news developments."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Visit and place",
+   "question": "Navinchandra Ramgoolam, the Prime Minister of Mauritius, visited which Indian city on 11 September 2025?",
+   "options": [
+    "Varanasi",
+    "Tokyo",
+    "Geneva",
+    "Ladakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Mauritius Prime Minister Navinchandra Ramgoolam visited Varanasi on 11 September 2025. Tokyo, Geneva and Ladakh were linked to other persons or events in the September 2025 current-affairs coverage."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Summit and host city",
+   "question": "Who was the Japanese Prime Minister associated with the 15th India–Japan Summit held in Tokyo?",
+   "options": [
+    "Shigeru Ishiba",
+    "Abiy Ahmed",
+    "Masoud Pezeshkian",
+    "Gilbert F. Houngbo"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "Shigeru Ishiba was the Japanese Prime Minister associated with the 15th India–Japan Summit in Tokyo. Abiy Ahmed, Masoud Pezeshkian and Gilbert F. Houngbo were associated with separate international developments."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inauguration",
+   "question": "Who inaugurated the Grand Ethiopian Renaissance Dam (GERD)?",
+   "options": [
+    "Abiy Ahmed",
+    "Shigeru Ishiba",
+    "Bezalel Smotrich",
+    "C.P. Radhakrishnan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "Ethiopian Prime Minister Abiy Ahmed inaugurated the Grand Ethiopian Renaissance Dam. Shigeru Ishiba, Bezalel Smotrich and C.P. Radhakrishnan were linked to different events."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "International statement",
+   "question": "Which Iranian President described the UN snapback sanctions as “unjust and illegal”?",
+   "options": [
+    "Masoud Pezeshkian",
+    "Abiy Ahmed",
+    "K.P. Sharma Oli",
+    "Navinchandra Ramgoolam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Iranian President Masoud Pezeshkian called the UN snapback sanctions “unjust and illegal.” The other options refer to persons associated with Ethiopia, Nepal and Mauritius, respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Treaty, organisation and diplomatic appointment",
+   "question": "Consider the following statements:\n1. Bezalel Smotrich signed the India–Israel Bilateral Investment Treaty.\n2. Gilbert F. Houngbo is the Director-General of the ILO and was associated with the India–ILO MoU.\n3. Arindam Bagchi is India's Permanent Representative in Geneva.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F8",
+    "P3.F9",
+    "P3.F10"
+   ],
+   "explanation": "All three statements are correct. Bezalel Smotrich signed the India–Israel BIT, Gilbert F. Houngbo is the ILO Director-General associated with the India–ILO MoU, and Arindam Bagchi is India's Permanent Representative in Geneva."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Persons in protests and public affairs",
+   "question": "Consider the following statements:\nStatement A: Sonam Wangchuk was in the news for a hunger strike and protests in Ladakh.\nStatement B: Charlie Kirk, a US conservative activist, was murdered in Utah.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F11",
+    "P3.F12"
+   ],
+   "explanation": "Both statements are true. Sonam Wangchuk was associated with the Ladakh hunger strike and protests, while Charlie Kirk was a US conservative activist who was murdered in Utah."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Person-event association",
+   "question": "Which of the following pairs is correctly matched?",
+   "options": [
+    "Ruth Posner — assisted death in Switzerland; Safeena Husain — Founder of Educate Girls and Ramon Magsaysay Award recipient",
+    "Ruth Posner — Founder of Educate Girls; Safeena Husain — assisted death in Switzerland",
+    "Ruth Posner — Ramon Magsaysay Award recipient; Safeena Husain — actress",
+    "Ruth Posner — climate activist in Ladakh; Safeena Husain — India's Permanent Representative in Geneva"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F13",
+    "P3.F14"
+   ],
+   "explanation": "Ruth Posner was the actress who underwent assisted death in Switzerland, while Safeena Husain was the founder of Educate Girls and a Ramon Magsaysay Award recipient. The other options interchange or assign unrelated descriptions to the two persons."
+  }
+ ]
+}

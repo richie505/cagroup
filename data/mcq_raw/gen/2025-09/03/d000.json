@@ -1,0 +1,159 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F6",
+  "P0.F7",
+  "P1.F10",
+  "P1.F11",
+  "P1.F3",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F2",
+  "P2.F3",
+  "P2.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Groundwater extraction data",
+   "question": "With reference to the CGWB 2024 groundwater assessment, consider the following statements:\n1. Over-exploited blocks accounted for 11.13%.\n2. India was not the largest groundwater user globally.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Statement 1 is correct: over-exploited blocks accounted for 11.13% in the CGWB 2024 data. Statement 2 is incorrect because India was the largest groundwater user, accounting for about 25% of global extraction."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Mission Indradhanush coverage",
+   "question": "By 2023, what was the reported achievement of the 12 phases of Mission Indradhanush and Intensified Mission Indradhanush in terms of beneficiaries covered?",
+   "options": [
+    "5.46 crore children and 1.32 crore pregnant women",
+    "1.32 crore children and 5.46 crore pregnant women",
+    "2.6 crore children and 2.9 crore pregnant women",
+    "34.8 crore children and 1.32 crore pregnant women"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "By 2023, 12 phases of Mission Indradhanush and Intensified Mission Indradhanush had covered 5.46 crore children and 1.32 crore pregnant women. The other options interchange the figures or use coverage figures associated with other immunisation facts."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Immunisation milestones and dates",
+   "question": "Match the following immunisation milestones with their years or date:\n\nList-I\n(a) Maternal and neonatal tetanus eliminated\n(b) Yaws-free status\n(c) Measles-Rubella campaign\n(d) Measles and Rubella Champion Award\n\nList-II\n(i) 2015\n(ii) 2016\n(iii) 2017–2019\n(iv) 6 March 2024",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6",
+    "P1.F7",
+    "P1.F10"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: maternal and neonatal tetanus was eliminated in 2015, India became yaws-free in 2016, the MR campaign ran from 2017–2019, and the Measles and Rubella Champion Award was received on 6 March 2024. The other codes shift these milestones to the wrong years or date."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Digital immunisation platform",
+   "question": "Which digital platform under India’s immunisation ecosystem caters to pregnant women and children up to 16 years?",
+   "options": [
+    "U-WIN",
+    "CO-WIN",
+    "eVIN",
+    "NCCMIS"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "U-WIN caters to pregnant women and children up to 16 years. CO-WIN, eVIN and NCCMIS are other digital systems listed in the immunisation ecosystem, making them plausible but incorrect alternatives."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "COVID vaccination timeline and coverage",
+   "question": "Consider the following statements:\nStatement A: India’s COVID vaccination began on 16 January 2021.\nStatement B: More than 220 crore doses had been administered by January 2023, and Vaccine Maitri was associated with the vaccination initiative.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9"
+   ],
+   "explanation": "Both statements are correct. COVID vaccination in India began on 16 January 2021, crossed 220 crore doses by January 2023, and included the Vaccine Maitri initiative; therefore, the alternatives incorrectly reject one or both statements."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Recent immunisation initiatives",
+   "question": "How many of the following statements regarding recent immunisation initiatives are correct?\n1. IMI 5.0 was introduced in 2023.\n2. The Zero MR Elimination Campaign was introduced in 2023.\n3. IMI 5.0 was not introduced in 2023.\n4. The Zero MR Elimination Campaign was not introduced in 2025.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "Only one statement is correct: IMI 5.0 was introduced in 2023. The Zero MR Elimination Campaign was the 2025 initiative, so statements 2 and 4 are incorrect, while statement 3 contradicts the reported year of IMI 5.0."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "ULLAS full form",
+   "question": "The programme associated with Himachal Pradesh’s literacy achievement and the ULLAS Mela is officially known as:",
+   "options": [
+    "New India Literacy Programme",
+    "Mission Indradhanush",
+    "Universal Immunisation Programme",
+    "Zero MR Elimination Campaign"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "ULLAS stands for the New India Literacy Programme. The other options are immunisation-related programmes and are not the literacy programme associated with ULLAS."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Literacy criteria and social indicators",
+   "question": "Consider the following statements:\nStatement A: Himachal Pradesh’s literacy level rose from about 7% at Independence, and the State ranked first in student-teacher ratio.\nStatement B: ULLAS considers literacy of at least 95% among people aged 15 years and above, including digital and financial literacy.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F5"
+   ],
+   "explanation": "Both statements are correct. Himachal Pradesh progressed from about 7% literacy at Independence and ranked first in student-teacher ratio, while ULLAS uses a 95% literacy benchmark for those aged 15 years and above and includes digital and financial literacy."
+  }
+ ]
+}

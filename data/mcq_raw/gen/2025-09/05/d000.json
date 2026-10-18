@@ -1,0 +1,228 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F2",
+  "P0.F4",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F2",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Date and venue of declaration",
+   "question": "When and where was the Tianjin Declaration of the SCO Summit 2025 adopted?",
+   "options": [
+    "1 September 2025 in Tianjin, China",
+    "31 August 2025 in Beijing, China",
+    "1 September 2025 in Moscow, Russia",
+    "29 April 1954 in Tianjin, China"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Tianjin Declaration was adopted on 1 September 2025 in Tianjin, China, at the 10-member SCO Summit. The tempting alternative of 31 August 2025 refers to the Modi–Xi meeting, not the adoption of the declaration."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Condemnation of terrorist attacks",
+   "question": "With reference to the Tianjin Declaration of the SCO Summit 2025, consider the following statements:\n1. It condemned the 22 April Pahalgam attack in Jammu and Kashmir.\n2. It condemned the Jaffer Express attack in Pakistan.\n3. It condemned the Khuzdar attacks in Pakistan.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "All three statements are correct: the declaration condemned the 22 April Pahalgam attack and the Jaffer Express and Khuzdar attacks. The alternatives are incorrect because they omit one of the attacks specifically condemned."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Chinese proposals at SCO Summit",
+   "question": "Match the proposals associated with China at the SCO Summit 2025 with their details.\n\nList-I\n(a) Global Governance Initiative\n(b) Grants to SCO countries\n(c) Loans to SCO Interbank Consortium\n(d) SCO Development Bank\n\nList-II\n(i) Agreed in principle\n(ii) ¥2 billion in 2025\n(iii) ¥10 billion over 3 years\n(iv) Proposal by Xi Jinping\n\nSelect the correct code:",
+   "options": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-iii and d-i. The Global Governance Initiative was proposed by Xi Jinping, the grants amounted to ¥2 billion in 2025, the loans amounted to ¥10 billion over three years, and the SCO Development Bank was agreed in principle."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Iran-related condemnation",
+   "question": "What position on Iran was recorded in the Tianjin Declaration of the SCO Summit 2025?",
+   "options": [
+    "It condemned the US–Israel strikes on Iran’s nuclear facilities and reaffirmed UNSC Resolution 2231",
+    "It endorsed the US–Israel strikes and rejected UNSC Resolution 2231",
+    "It condemned the Pahalgam attack and reaffirmed the Bandung principles",
+    "It supported the Belt and Road Initiative and rejected UNSC Resolution 2231"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "The declaration condemned the US–Israel strikes on Iran’s nuclear facilities in June 2025 and reaffirmed United Nations Security Council Resolution 2231. The other options reverse or replace these positions with unrelated issues."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "India’s position in the declaration",
+   "question": "How many of the following statements correctly describe India’s position reflected in the Tianjin Declaration?\n1. India refused to endorse the Belt and Road Initiative.\n2. India endorsed the Belt and Road Initiative, including CPEC through PoK.\n3. India’s position on Ukraine was expressed as “it is humanity’s call”.\n4. India’s position on Ukraine was expressed as “it is sovereignty’s call”.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "Two statements are correct: India refused to endorse the Belt and Road Initiative, including CPEC through PoK, and Modi described the Ukraine issue as “it is humanity’s call”. Statements 2 and 4 change the declared position or the quoted wording."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "SCO membership categories",
+   "question": "Match the countries with their SCO membership category as reflected in the Tianjin Summit context.\n\nList-I\n(a) India\n(b) Belarus\n(c) Turkey\n(d) Laos\n\nList-II\n(i) Partner\n(ii) Full member\n(iii) Partner\n(iv) Full member\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-iii, b-i, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "India and Belarus are full members, while Turkey and Laos are partners; therefore the correct code is a-ii, b-iv, c-i, d-iii. The distractors interchange the full-member and partner categories."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Meeting outcomes",
+   "question": "Which outcome was associated with the Modi–Xi meeting on the sidelines of the SCO Summit 2025 in Tianjin?",
+   "options": [
+    "Revival of Panchsheel principles and resumption of direct India–China flights after about five years",
+    "Admission of Laos as a full SCO member and creation of the SCO Development Bank",
+    "Suspension of direct flights and rejection of Panchsheel principles",
+    "Signing of the Panchsheel Agreement and establishment of RATS"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The meeting was associated with the revival of Panchsheel principles and the resumption of direct flights between India and China after about five years. The other options either reverse the outcomes or combine them with unrelated SCO developments."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "India–China flight suspension",
+   "question": "Which of the following statements regarding India–China air connectivity is incorrect?",
+   "options": [
+    "More than 80 weekly flights operated before 2020.",
+    "Direct flights were suspended from January 2020.",
+    "The suspension was linked to COVID-19 and later Galwan-related tensions in 2020.",
+    "Before 2020, fewer than 20 weekly flights operated between India and China."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "The incorrect statement is that fewer than 20 weekly flights operated before 2020; the correct figure was over 80 weekly flights. The suspension began in January 2020 and was linked first to COVID-19 and later to Galwan-related tensions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "US tariffs on Indian goods",
+   "question": "Who imposed 50% tariffs on Indian goods, citing India’s purchase of Russian oil?",
+   "options": [
+    "Donald Trump",
+    "Xi Jinping",
+    "Narendra Modi",
+    "The SCO Interbank Consortium"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "Donald Trump imposed 50% tariffs on Indian goods, citing India’s purchase of Russian oil. Xi Jinping and Narendra Modi were associated with the SCO meeting, while the SCO Interbank Consortium is a financial institution rather than the imposing authority."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "SCO expansion chronology",
+   "question": "Which of the following correctly arranges the two events in chronological order?",
+   "options": [
+    "SCO founded by six countries — India and Pakistan became full members",
+    "India and Pakistan became full members — SCO founded by six countries",
+    "Both events occurred in the same year",
+    "The SCO was founded after India and Pakistan became full members"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "The SCO was founded in 2001 by China, Russia, Kazakhstan, Kyrgyzstan, Tajikistan and Uzbekistan; India and Pakistan became full members in 2017. Thus, its founding preceded the 2017 expansion."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "SCO and Panchsheel background",
+   "question": "Match the following institutions or events with the associated detail.\n\nList-I\n(a) RATS\n(b) Panchsheel principles\n(c) Bandung Conference\n(d) UNGA resolution on peaceful coexistence\n\nList-II\n(i) 1957\n(ii) Tashkent\n(iii) 1955\n(iv) Five principles\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-iii, b-ii, c-i, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F10",
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "RATS is located in Tashkent; Panchsheel consists of five principles; the Bandung Conference reference is from 1955; and the UNGA resolution on peaceful coexistence is from 1957. Hence, the correct code is a-ii, b-iv, c-iii, d-i."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "UNGA resolution and NAM chronology",
+   "question": "Assertion (A): The UNGA rejected a Panchsheel-based resolution in 1957.\nReason (R): The Belgrade NAM Conference of 1961 treated Panchsheel as the principled core of NAM.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F13",
+    "P1.F14"
+   ],
+   "explanation": "Assertion A is false because the UNGA adopted, rather than rejected, a Panchsheel-based resolution in 1957. Reason R is true because the 1961 Belgrade NAM Conference treated Panchsheel as the principled core of NAM."
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F2",
+  "P0.F3",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F3",
+  "P2.F3",
+  "P2.F4",
+  "P3.F10",
+  "P3.F11",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P3.F9",
+  "P4.F2",
+  "P4.F3",
+  "P4.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of expanding lakes",
+   "question": "According to the Central Water Commission's 2025 monitoring report, how many of the 681 glacial lakes monitored in India were expanding?",
+   "options": [
+    "432",
+    "681",
+    "197",
+    "120"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The report recorded expansion in 432 of the 681 monitored glacial lakes. The figures 197 and 120 refer to expanding lakes in Arunachal Pradesh and Ladakh respectively, not the national total."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Percentage rise in lake area",
+   "question": "The total area of the monitored expanding glacial lakes increased from 1,917 hectares in 2011 to 2,508 hectares in 2025. What was the percentage rise?",
+   "options": [
+    "30.83%",
+    "50%",
+    "19%",
+    "22%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The area increased by 30.83% between 2011 and 2025. The 50% option is an overstatement and is not the reported rise."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State-wise expanding lakes",
+   "question": "Match the Himalayan regions with the number of expanding glacial lakes reported for them.\n\nList-I\n(a) Jammu and Kashmir\n(b) Sikkim\n(c) Himachal Pradesh\n(d) Uttarakhand\n\nList-II\n(i) 47\n(ii) 57\n(iii) 5\n(iv) 6\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "The correct pairs are Jammu and Kashmir–57, Sikkim–47, Himachal Pradesh–6, and Uttarakhand–5. The other codes interchange the reported state-wise figures."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Himalayan monitoring and GLOF projections",
+   "question": "With reference to the Central Water Commission's glacial-lake monitoring findings and related glacial lake outburst flood evidence, consider the following statements:\n\n1. Across the Himalaya, 2,843 lakes were monitored; 1,435 increased, 1,008 decreased, 108 remained unchanged and 292 were unanalysed.\n2. Past GLOF events cited include Dig Tsho in Nepal in 1985, South Lhonak in Sikkim in 2023 and the Kedarnath event of 2013.\n3. The IPCC AR6 projects that about one-third of Himalayan glaciers may vanish by 2100 under high emissions.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct. IPCC AR6 indicates that approximately two-thirds, not one-third, of Himalayan glaciers may vanish by 2100 under high emissions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sacred site at Varkala",
+   "question": "Which sacred site associated with Sree Narayana Guru is located at Varkala?",
+   "options": [
+    "Sivagiri Mutt",
+    "Janardana Swamy temple",
+    "Karkidaka Vavu",
+    "Arabian Sea"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "Sree Narayana Guru's Sivagiri Mutt is the sacred site associated with him at Varkala. The Janardana Swamy temple and Karkidaka Vavu are separately associated with the sacred-site traditions of Varkala."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Ecological role of saltwater crocodile",
+   "question": "Assertion (A): The saltwater crocodile is an apex predator and hypercarnivore, and serves as an indicator of mangrove health.\nReason (R): The saltwater crocodile does not tolerate wide variations in salinity.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "The assertion is true: the saltwater crocodile is an apex predator and hypercarnivore and indicates mangrove health. The reason is false because the species tolerates wide salinity."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Wildlife protection law",
+   "question": "Which law is associated with the legal protection of the saltwater crocodile in the Sundarban context, though its approach has been criticised as reactive rather than proactive?",
+   "options": [
+    "Wildlife (Protection) Act, 1972",
+    "Coastal Regulation Zone norms",
+    "Extended Producer Responsibility",
+    "UNEA-5 plastics treaty process"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "The relevant law is the Wildlife (Protection) Act, 1972, which has been criticised as reactive rather than proactive. Coastal Regulation Zone norms, Extended Producer Responsibility and the UNEA-5 process address different environmental concerns."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Projected plastic production",
+   "question": "According to the global plastic pollution assessment, what volume of plastic production is projected for 2060?",
+   "options": [
+    "1.2 billion tonnes",
+    "500 million tonnes",
+    "400 million tonnes",
+    "200 million tonnes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "Plastic production is projected to reach 1.2 billion tonnes by 2060. The figures 500 million tonnes and 400 million tonnes refer to production and waste in 2024, while 200 million tonnes refers to plastic already in the oceans."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Plastic entering oceans annually",
+   "question": "How much plastic enters the oceans each year, according to the Ocean Conservancy estimate?",
+   "options": [
+    "11 million tonnes",
+    "200 million tonnes",
+    "400 million tonnes",
+    "1.2 billion tonnes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "The Ocean Conservancy estimate places the annual flow of plastic into the oceans at 11 million tonnes. Approximately 200 million tonnes is the estimated quantity already present in the oceans, not the annual addition."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Plastic emissions and carbon budget",
+   "question": "Assertion (A): Plastics account for 3.4% of global greenhouse-gas emissions.\nReason (R): Plastics could account for 19% of the carbon budget by 2040.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Both the assertion and the reason are stated projections concerning plastics and climate change. However, the 2040 carbon-budget projection does not explain the present 3.4% share of emissions, so the second option is correct."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Global responses to plastic pollution",
+   "question": "Match the global initiative or response with its associated detail.\n\nList-I\n(a) Health letter\n(b) UNEA-5\n(c) UNEP aim\n(d) EPR\n\nList-II\n(i) Extended Producer Responsibility\n(ii) Cut plastic waste by 80% in two decades\n(iii) Signed by 18 million health professionals across 88 countries\n(iv) All 193 members agreed to negotiate a legally binding plastics treaty\n\nSelect the correct code.",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-ii, c-iv, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F8",
+    "P3.F9",
+    "P3.F10",
+    "P3.F11"
+   ],
+   "explanation": "The correct pairs are health letter–18 million health professionals across 88 countries, UNEA-5–negotiation of a legally binding treaty by all 193 members, UNEP aim–80% reduction in two decades, and EPR–Extended Producer Responsibility. The other codes interchange these global responses and their details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ecological impact of Minicoy waste fire",
+   "question": "Which environmental impacts were reported in connection with the fire involving dry waste at Minicoy?",
+   "options": [
+    "Porites coral bleaching, leachate and harm to fisheries",
+    "Erosion, tourism and floods",
+    "Plastic treaty negotiations and carbon-budget pressure",
+    "Glacial-lake expansion and GLOFs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "The reported impacts were bleaching of Porites corals, leachate and effects on fisheries. The other options refer to threats at Varkala, global plastic responses, or Himalayan glacial hazards."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Governance and environmental regulation at Minicoy",
+   "question": "Which of the following statements regarding governance and environmental regulation in Minicoy is incorrect?",
+   "options": [
+    "Elected panchayats were replaced by appointed officials.",
+    "The National Green Tribunal monitored the matter.",
+    "The National Green Tribunal halted tourism on the island.",
+    "Coastal Regulation Zone norm violations were reported."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F4"
+   ],
+   "explanation": "The incorrect statement is that the National Green Tribunal halted tourism; monitoring did not halt tourism. The reported facts were replacement of elected panchayats by appointed officials, NGT monitoring and violations of Coastal Regulation Zone norms."
+  }
+ ]
+}

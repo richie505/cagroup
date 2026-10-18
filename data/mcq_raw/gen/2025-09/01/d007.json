@@ -1,0 +1,179 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  33,
+  34,
+  35,
+  36,
+  37,
+  38
+ ],
+ "only": [
+  "P33.F2",
+  "P33.F3",
+  "P33.F5",
+  "P34.F10",
+  "P34.F4",
+  "P34.F5",
+  "P34.F9",
+  "P35.F4",
+  "P35.F5",
+  "P36.F4",
+  "P36.F5",
+  "P37.F2",
+  "P38.F3",
+  "P38.F4"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Scale and supply-chain monitoring",
+   "question": "With reference to Annamayya district being declared illicit liquor-free under Navodayam 2.0, consider the following statements:\n1. Earlier, 71 villages were affected, 650 offenders were identified and 494 offenders were rehabilitated.\n2. 65 jaggery merchants were questioned and monitored.\n3. 65 jaggery merchants were given rehabilitation loans.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P33.F2",
+    "P33.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 71 villages had been affected, 650 offenders were identified, 494 were rehabilitated, and 65 jaggery merchants were questioned and monitored. Statement 3 is incorrect because the merchants were monitored, not described as recipients of rehabilitation loans."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Officials leading district initiative",
+   "question": "Who led the initiative through which Annamayya district was declared illicit liquor-free under Navodayam 2.0?",
+   "options": [
+    "Collector Sridhar Chamakuri and SP V. Vidyasagar Naidu",
+    "Collector Sridhar Chamakuri and SP Sai Pradeep",
+    "Collector V. Vidyasagar Naidu and SP Sridhar Chamakuri",
+    "Collector C. R. Rao and SP V. Vidyasagar Naidu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P33.F5"
+   ],
+   "explanation": "The initiative was led by Collector Sridhar Chamakuri and SP V. Vidyasagar Naidu. The other options interchange or replace the officials with names associated with other news items."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Threats and distribution of sacred groves",
+   "question": "With reference to sacred groves and the Thimmappakonda study, consider the following statements:\n1. Temple modernisation, grazing, invasive species and loss of cultural protection are identified threats.\n2. India has over 13,000 documented sacred groves, with an estimate of 1–1.5 lakh.\n3. The local name for sacred groves in Meghalaya is Sarpa Kavu.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P34.F4",
+    "P34.F5",
+    "P34.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The threats include temple modernisation, grazing, invasives and loss of cultural protection, while India has over 13,000 documented sacred groves and an estimate of 1–1.5 lakh; Meghalaya's name is Law Lyngdoh, not Sarpa Kavu."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Sacred groves abroad",
+   "question": "Which of the following countries was mentioned among the countries outside India associated with sacred groves?",
+   "options": [
+    "Ghana",
+    "Nepal",
+    "Bhutan",
+    "Sri Lanka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P34.F10"
+   ],
+   "explanation": "Ghana was mentioned along with Senegal, Sumatra and Bangladesh in connection with sacred groves outside India. Nepal, Bhutan and Sri Lanka were not included in that list."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Wildlife law and conservation network",
+   "question": "Consider the following statements:\nStatement A: All cetaceans are placed in Schedule II under the Wildlife Protection Act, 1972.\nStatement B: The Marine Mammal Research and Conservation Network of India is associated with marine-mammal conservation.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P35.F4",
+    "P35.F5"
+   ],
+   "explanation": "Statement A is false because all cetaceans are in Schedule I under the Wildlife Protection Act, 1972. Statement B is true: the relevant network is the Marine Mammal Research and Conservation Network of India."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Processing units and location",
+   "question": "Approximately how many cashew processing units are located in Palasa-Kasibugga of Srikakulam district?",
+   "options": [
+    "350",
+    "700",
+    "500",
+    "1.2 lakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P36.F4"
+   ],
+   "explanation": "About 350 of Andhra Pradesh's approximately 700 processing units are located in Palasa-Kasibugga, Srikakulam. The figure of 700 refers to the approximate total number of processing units, not those at Palasa-Kasibugga."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "RCN imports and Cambodia visit",
+   "question": "With reference to the raw cashew nut supply chain connected with Andhra Pradesh, consider the following statements:\n1. Raw cashew nuts are imported from Ghana, Ivory Coast, Benin, Tanzania and Indonesia.\n2. Cambodia is the second-largest raw cashew nut producer.\n3. A delegation of APEDA and AICA did not visit Cambodia.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P36.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the listed import sources include Ghana, Ivory Coast, Benin, Tanzania and Indonesia, and Cambodia is the second-largest raw cashew nut producer. Statement 3 is incorrect because a delegation of APEDA and AICA visited Cambodia."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fields of the Data Science Centre",
+   "question": "Which combination of fields is associated with the Data Science Centre established by the Tirupati chapter of ISPS?",
+   "options": [
+    "Statistics, Artificial Intelligence and Machine Learning",
+    "Genetics, Anthropology and Marine Biology",
+    "Probability, Botany and Geology",
+    "Agriculture, Cashew Processing and Artificial Intelligence"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P37.F2"
+   ],
+   "explanation": "The centre focuses on Statistics, Artificial Intelligence and Machine Learning, with interdisciplinary applications including genetics and anthropology. The other combinations introduce fields not identified as its core fields."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Family and programme objective",
+   "question": "With reference to Sai Pradeep's selection as a Google Student Ambassador, consider the following statements:\n1. His brother Sai Sandeep is Chairman of Sparks Software Company.\n2. The programme trains students as campus AI ambassadors to promote Google Gemini AI tools.\n3. The programme trains students to promote only conventional software tools.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P38.F3",
+    "P38.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Sai Sandeep is Chairman of Sparks Software Company, and the programme trains campus AI ambassadors to promote Google Gemini AI tools. Statement 3 is incorrect because the programme specifically concerns Gemini AI tools."
+  }
+ ]
+}

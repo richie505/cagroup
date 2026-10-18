@@ -1,0 +1,215 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P3.F1",
+  "P3.F3",
+  "P3.F4",
+  "P3.F5",
+  "P4.F4",
+  "P4.F5",
+  "P5.F4",
+  "P5.F8",
+  "P6.F2",
+  "P6.F4",
+  "P6.F5",
+  "P7.F2",
+  "P7.F3",
+  "P8.F2",
+  "P8.F7",
+  "P8.F8",
+  "P8.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Subsidy, eligibility and nodal ministry",
+   "question": "With reference to the guidelines released on 28 September 2025 under PM E-DRIVE, consider the following statements:\n1. Up to 100% subsidy is available for EV charging, battery swapping and battery charging stations.\n2. Central ministries through CPSEs, specified PSUs and State/UT nodal agencies are eligible.\n3. The Ministry of Heavy Industries is the nodal ministry.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F3",
+    "P3.F5"
+   ],
+   "explanation": "All three statements are correct. The guidelines provide up to 100% subsidy, include government-linked implementing agencies and PSUs among the eligible entities, and designate the Ministry of Heavy Industries as the nodal ministry. The narrower eligibility suggested by the first option is incorrect because State/UT nodal agencies are also included."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Priority locations",
+   "question": "Under the PM E-DRIVE guidelines for EV charging infrastructure, which of the following is included among the priority locations?",
+   "options": [
+    "Cities with a population exceeding 1 million according to Census 2011",
+    "Only villages with a population below 1 million",
+    "Only the seven metropolitan cities and no satellite towns",
+    "Only State capitals and no highways"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Cities with a population exceeding 1 million as per Census 2011 are among the priority locations. The priority list also includes smart cities, satellite towns of seven metros, State capitals, NCAP cities and highways, so the restrictive alternatives are incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "FPI outflow",
+   "question": "Approximately how much did foreign portfolio investors sell in Indian equities since July 2025, as cited in the SEBI proposal concerning commodity derivatives?",
+   "options": [
+    "₹60,679 crore",
+    "₹36,057 crore",
+    "₹22,040 crore",
+    "₹89,375 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "The cited FPI outflow from equities since July 2025 was approximately ₹60,679 crore. The other figures relate to regulatory-asset amounts associated with electricity distribution entities, not the FPI equity outflow."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Automatic window for foreign investors",
+   "question": "With reference to SEBI’s proposal concerning foreign portfolio investors, consider the following statements:\nStatement A: The proposal included a single automatic window for foreign investors.\nStatement B: The proposal included two separate automatic windows for foreign investors.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F5"
+   ],
+   "explanation": "Statement A is true because the proposal included a single automatic window for foreign investors. Statement B is false: the proposal specified one automatic window, not two."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "QCO compliance and certification reforms",
+   "question": "Regarding Quality Control Orders and related reforms, consider the following statements:\n1. A draft Quality Control Order is hosted on the WTO TBT website.\n2. The usual period provided for compliance is six months.\n3. Under the reforms, certification was targeted within 30 days for more than 750 products, and about 80% of 50,753 certificates went to MSMEs.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F4",
+    "P5.F8"
+   ],
+   "explanation": "All three statements are correct. The QCO process involves hosting the draft on the WTO TBT website and usually allows six months for compliance, while the reforms targeted 30-day certification for more than 750 products and reported about 80% of 50,753 certificates going to MSMEs. Therefore, each partial combination omits a correct detail."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Coal capacity distribution and operating horizon",
+   "question": "Match the descriptions relating to the planned coal-capacity addition with the correct figures or period.\n\nList-I\n a. Coal capacity in renewable-rich States\n b. Coal capacity in other areas\n c. Planned total new coal capacity\n d. Intended operating period of the plants\n\nList-II\n i. 27 GW\n ii. Till 2050\n iii. 70 GW\n iv. 97 GW by 2035",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii: 70 GW is assigned to renewable-rich States, 27 GW to other areas, 97 GW is the planned addition by 2035, and the plants are intended to run till 2050. The tempting second option reverses the allocations between renewable-rich States and other areas."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Pumped hydro and alternative storage",
+   "question": "With reference to planned storage capacity and technologies, consider the following statements:\n1. Pumped-hydro capacity is projected to rise from 4.7 GW to about 60 GW by 2033, and the potential estimate rises from 94 GW to 214 GW.\n2. Pumped-hydro additions listed for 2025 and 2026 are 2.6 GW and 2.8 GW, respectively.\n3. The pumped-hydro addition listed for 2027 is 2.6 GW.\n4. Sodium-ion, sodium-sulphur and CO₂-based long-duration storage are identified as alternative storage options.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F4",
+    "P6.F5"
+   ],
+   "explanation": "Only two statements are correct: statements 1 and 4. The listed additions are 2.8 GW in 2025, 2.6 GW in 2026 and 13 GW in 2027, so statements 2 and 3 change the stated figures."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Battery-storage tender and capacity targets",
+   "question": "Regarding battery storage at coal plants, consider the following statements:\n1. The tender covers 1.7 GW of battery storage across 11 coal plants.\n2. The targets include 500 GW of non-fossil capacity by 2030 and an addition of 97 GW of coal capacity by 2035.\n3. The projected total coal capacity after the addition is about 307 GW, with a net-zero target of 2070.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "All three statements are correct. The tender covers 1.7 GW across 11 coal plants, while the stated targets include 500 GW of non-fossil capacity by 2030, 97 GW of additional coal capacity by 2035, about 307 GW in total and net zero by 2070. The partial options omit one of these linked details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Definition of regulatory asset",
+   "question": "In the context of the Supreme Court’s directions concerning DISCOMs, what is a regulatory asset?",
+   "options": [
+    "A gap arising when ACS exceeds ARR and deferred for later recovery with interest",
+    "A compulsory reserve created when ARR exceeds ACS and immediately refunded without interest",
+    "A subsidy paid by the Ministry of Heavy Industries for EV charging stations",
+    "A battery-storage tender covering 1.7 GW across coal plants"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "A regulatory asset is the gap that arises when Average Cost of Supply exceeds Annual Revenue Requirement and is deferred for later recovery with interest. The other options describe EV infrastructure or battery-storage matters, or reverse the ACS–ARR relationship."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First documented regulatory-asset case",
+   "question": "Which DISCOM or electricity distribution entity was associated with the first documented case of regulatory assets, amounting to ₹487 crore in 2003-04?",
+   "options": [
+    "Punjab",
+    "BSES Rajdhani",
+    "BSES Yamuna",
+    "Tamil Nadu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "Punjab was associated with the first documented case, involving regulatory assets of ₹487 crore in 2003-04. BSES Rajdhani, BSES Yamuna and Tamil Nadu are associated with different regulatory-asset entries."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "FPPCA and UK regulatory models",
+   "question": "Match the terms with their corresponding descriptions in the discussion on regulatory assets and electricity regulation.\n\nList-I\n a. FPPCA\n b. RAB\n c. RIIO\n d. UK models\n\nList-II\n i. Revenue = Incentives + Innovation + Outputs\n ii. Fuel and Power Purchase Cost Adjustment\n iii. Regulated Asset Base\n iv. Context in which RAB and RIIO are cited\n\nOptions:",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8",
+    "P8.F9"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv: FPPCA means Fuel and Power Purchase Cost Adjustment, RAB means Regulated Asset Base, and RIIO expands to Revenue = Incentives + Innovation + Outputs; RAB and RIIO are cited as UK models. The second option incorrectly assigns the FPPCA expansion to RAB."
+  }
+ ]
+}
