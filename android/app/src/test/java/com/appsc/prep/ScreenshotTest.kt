@@ -92,7 +92,7 @@ class ScreenshotTest {
         rule.onNodeWithText(repo.index.first().title).assertExists()
     }
 
-    /** A topic (category file) of the newest month: its pages, and no MCQ practice while it has no questions. */
+    /** A topic (category file) of the newest month: its pages, and MCQ practice exactly when it has questions. */
     @Test fun section() {
         val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
         runBlocking { app.repo.book(firstBook); app.repo.mcq(firstBook) }
@@ -100,7 +100,8 @@ class ScreenshotTest {
         rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { SectionScreen(firstBook, 0, nav) } } }
         rule.mainClock.advanceTimeBy(3000)
         rule.onNodeWithText(repo.index.first().rows[0].title).assertExists()
-        rule.onAllNodesWithText("Practice", substring = true).assertCountEquals(0)
+        if (repo.index.first().rows[0].questionCount > 0) rule.onAllNodesWithText("Practice", substring = true)[0].assertExists()
+        else rule.onAllNodesWithText("Practice", substring = true).assertCountEquals(0)
         rule.onRoot().captureRoboImage("screenshots/4_section.png")
         rule.mainClock.autoAdvance = true
     }
