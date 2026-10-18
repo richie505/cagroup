@@ -11,7 +11,8 @@ Only books with notes are written. Book ids are fixed per period (11..16), so a 
 reader's progress) when others appear later; they are above APPSC Prep's subject ids 1-6, so the subject-specific
 read-aloud rules (SpeechText) never apply to them, and Techniques.kt treats every book as current affairs.
 
-There are no MCQs yet: each book gets an empty mcq<id>.json and the app hides MCQ practice when a topic has none.
+MCQs: data/mcqs/<folder>/<NN>.json (scripts/ca_mcqs.py build) -> mcq<id>.json, each question filed under the page
+most of its tested facts come from; "From your notes" shows those facts. A topic with no MCQs has its practice hidden.
 plan.json is a revision plan from PLAN_START: latest month first, about 60 pages a day (a month over one or more days), Special
 topics last, a weekly review day after every six study days.
 
@@ -21,6 +22,7 @@ Afterwards it runs build_key_terms.py on the assets.
 """
 import calendar
 import datetime as dt
+import hashlib
 import json
 import math
 import re
@@ -30,11 +32,13 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
+import ca_facts  # noqa: E402
 import structured_md  # noqa: E402
 from check_notes import parse, problems  # noqa: E402
 
 ROOT = HERE.parent
 STRUCT = ROOT / "data" / "structured"
+MCQS = ROOT / "data" / "mcqs"
 OUT = ROOT / "android" / "app" / "src" / "main" / "assets"
 PLAN_START = dt.date(2026, 10, 19)
 PAGES_PER_DAY = 60  # pages a day: a month gets ceil(pages / 60) days
@@ -130,7 +134,8 @@ def collect():
     for bid, first, last, title in PERIODS:
         units = []
         for ym in (m for m in months if first <= m <= last):
-            rows = [topic_row(ym, *f) for f in (load_file(p) for p in sorted((STRUCT / ym).glob("[0-9][0-9].md"))) if f]
+            rows = [dict(topic_row(ym, *f), _ref=(ym, p.stem)) for p, f in
+                    ((p, load_file(p)) for p in sorted((STRUCT / ym).glob("[0-9][0-9].md"))) if f]
             if rows:
                 units.append((month_name(ym), ym, rows))
         if units:
@@ -140,7 +145,8 @@ def collect():
         print(f"  warning: folder {m} is outside the periods in PERIODS - not in the app")
     sp = STRUCT / "special"
     if sp.is_dir():
-        rows = [topic_row("special", *f) for f in (load_file(p) for p in sorted(sp.glob("[0-9][0-9].md"))) if f]
+        rows = [dict(topic_row("special", *f), _ref=("special", p.stem)) for p, f in
+                ((p, load_file(p)) for p in sorted(sp.glob("[0-9][0-9].md"))) if f]
         if rows:
             books.append((SPECIAL_ID, "Special topics (budgets, awards, reports ...)", "Special topics", [("Special topics", "special", rows)]))
     return books
@@ -214,6 +220,30 @@ def build_plan(blocks: list) -> dict:
     return {"start": PLAN_START.isoformat(), "exam": end.isoformat(), "examLabel": "APPSC Group 2", "days": out, "buffer": []}
 
 
+def row_mcqs(folder: str, nn: str, secs: list) -> tuple[list, list]:
+    """The kept MCQs of one category file (data/mcqs, written by ca_mcqs.py build) in the app's format, and for
+    each the page (section index) it belongs to: the page most of its tested facts come from."""
+    path = MCQS / folder / f"{nn}.json"
+    if not path.exists():
+        return [], []
+    facts = ca_facts.load(folder, nn)
+    page_title = {p["i"]: p["title"] for p in facts["pages"]}
+    fact_text = {f"P{p['i']}.{f['id']}": (f["text"], p["title"]) for p in facts["pages"] for f in p["facts"]}
+    sec_of = {s["t"]: i for i, s in enumerate(secs)}
+    period = "Special topics" if folder == "special" else month_name(folder)
+    qs, subs = [], []
+    for q in json.loads(path.read_text(encoding="utf-8"))["mcqs"]:
+        pages = [int(re.match(r"P(\d+)\.", f).group(1)) for f in q["facts"]]
+        main_page = max(set(pages), key=pages.count)
+        subs.append(sec_of.get(page_title.get(main_page), 0))
+        qs.append({
+            "id": "ca" + hashlib.sha1(q["id"].encode()).hexdigest()[:12], "s": q["question"], "o": q["options"], "a": q["answer"],
+            "x": q["explanation"], "tq": f"{q['format']} · tests the “{q['keyword']}” angle",
+            "n": [f"{fact_text[f][0]} [{period} · {fact_text[f][1]}]" for f in q["facts"] if f in fact_text],
+        })
+    return qs, subs
+
+
 def save(name: str, obj) -> None:
     (OUT / name).write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
@@ -228,23 +258,27 @@ def main() -> None:
             old.unlink()
     index_books, blocks = [], []
     for bid, title, short, units in books:
-        book_units, idx_rows = [], []
+        book_units, idx_rows, mcq_rows, mcq_subs = [], [], {}, {}
         for ui, (utitle, folder, rows) in enumerate(units):
-            book_units.append({"code": "", "title": utitle, "rows": rows})
             month_rows = []
             for r in rows:
                 ri = len(idx_rows)
+                qs, subs = row_mcqs(*r.pop("_ref"), r["secs"])
+                if qs:
+                    mcq_rows[str(ri)], mcq_subs[str(ri)] = qs, subs
                 idx_rows.append({"u": ui, "codes": [], "title": r["title"], "tag": "", "pyq": "", "p1": 0, "p2": 0,
-                                 "n": len(r["secs"]), "q": 0})
+                                 "n": len(r["secs"]), "q": len(qs)})
                 label = f"{utitle} · {r['title']}" if bid != SPECIAL_ID else r["title"]
                 month_rows.append((bid, ri, label, len(r["secs"])))
+            book_units.append({"code": "", "title": utitle, "rows": rows})
             blocks.append((utitle, month_rows))
         pages = sum(r["n"] for r in idx_rows)
         save(f"book{bid}.json", {"id": bid, "title": title, "short": short, "pages": pages, "units": book_units})
-        save(f"mcq{bid}.json", {"rows": {}, "units": {}, "subs": {}})
+        save(f"mcq{bid}.json", {"rows": mcq_rows, "units": {}, "subs": mcq_subs})
         index_books.append({"id": bid, "title": title, "short": short, "pages": pages,
                             "units": [{"code": "", "title": u[0]} for u in units], "rows": idx_rows, "uq": {}})
-        print(f"book{bid} {short:18} {len(units):2} units {len(idx_rows):3} topics {pages:4} pages")
+        print(f"book{bid} {short:18} {len(units):2} units {len(idx_rows):3} topics {pages:4} pages "
+              f"{sum(len(v) for v in mcq_rows.values()):5} MCQs")
     save("index.json", {"books": index_books})
     plan = build_plan(blocks)
     save("plan.json", plan)
