@@ -1,0 +1,99 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Full name and inauguration",
+   "question": "Which project had its Phase I inaugurated at Markapuram on 31 August 2026?",
+   "options": [
+    "Poola Subbaiah Veligonda Project",
+    "Nallamala Sagar Project",
+    "Ramayapatnam Port Project",
+    "Bengaluru–Amaravati Highway Project"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F13"
+   ],
+   "explanation": "Phase I of the Poola Subbaiah Veligonda Project was inaugurated at Markapuram on 31 August 2026. Nallamala Sagar is the destination of the water, while Ramayapatnam Port and the Bengaluru–Amaravati Highway are linked plans."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Conveyance and water allocation",
+   "question": "With reference to Phase I of the Veligonda Project, which of the following statements is incorrect?",
+   "options": [
+    "Water is conveyed by gravity through twin tunnels measuring 18.8 km.",
+    "The project has an allocation of 10.70 TMC.",
+    "The source is the Krishna on the foreshore of the Srisailam Reservoir.",
+    "The destination of the water is the Srisailam Reservoir."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "The incorrect statement identifies the Srisailam Reservoir as the destination; the correct destination is Nallamala Sagar. The Srisailam Reservoir foreshore is the source, and the conveyance is by gravity through twin tunnels measuring 18.8 km."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Phase I allocation and benefits",
+   "question": "Consider the following statements about Phase I of the Veligonda Project:\n1. It has an allocation of 10.70 TMC.\n2. It provides irrigation to 4.47 lakh acres.\n3. It provides drinking water to 23 lakh people.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "Only statement 1 is correct: Phase I has an allocation of 10.70 TMC. The Phase I figures are 1.19 lakh acres for irrigation and drinking water for 4 lakh people; 4.47 lakh acres and about 23 lakh people refer to the broader project particulars."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Value of projects",
+   "question": "What was the total value of the projects inaugurated or taken up through foundation-stone laying during the Bhogapuram airport programme?",
+   "options": [
+    "₹17,849 crore",
+    "₹11,849 crore",
+    "₹6,000 crore",
+    "₹5,641 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "The total value of the projects was ₹17,849 crore, comprising ₹11,849 crore worth of inaugurated projects and ₹6,000 crore worth of foundation projects. ₹5,641 crore was the listed cost of the airport within the inaugurated-project component."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Semiconductor unit and OSAT status",
+   "question": "Consider the following statements:\nStatement A: Andhra Pradesh's first semiconductor packaging unit is being established by ASIP Technologies with South Korea's APACT Co. at a cost of ₹4,750 crore.\nStatement B: The unit is the first OSAT centre in South India under the India Semiconductor Mission (2021).",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F12",
+    "P1.F13"
+   ],
+   "explanation": "Statement A is false because the semiconductor packaging unit costs ₹2,387 crore, not ₹4,750 crore. Statement B is true: it is the first OSAT centre in South India under the India Semiconductor Mission (2021)."
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "EV sales growth",
+   "question": "According to PIB data, approximately how many electric vehicles were sold in India in 2025, and how did this compare with 2016?",
+   "options": [
+    "About 23 lakh, nearly 46 times the 2016 figure",
+    "About 50,000, nearly 46 times the 2016 figure",
+    "About 23 lakh, nearly 8.26 times the 2016 figure",
+    "About 10,000, nearly 30 times the 2016 figure"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "India’s EV sales rose to approximately 23 lakh in 2025 from about 50,000 in 2016, representing nearly 46 times growth. The figure of 50,000 refers to 2016, not 2025."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "EV charging infrastructure and taxation",
+   "question": "Consider the following statements about India’s electric-vehicle ecosystem:\n1. India had 52,718 public charging stations in July 2026.\n2. India had approximately 4,000 EV startups.\n3. GST on electric vehicles was 12%.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F6",
+    "P13.F7",
+    "P13.F13"
+   ],
+   "explanation": "Only Statement 1 is correct: India had 52,718 public charging stations in July 2026. The number of EV startups was approximately 400, and GST on EVs was 5%, not 12%."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "PM E-DRIVE allocation",
+   "question": "Which of the following statements about PM E-DRIVE is incorrect?",
+   "options": [
+    "It was introduced in 2024 by the Ministry of Heavy Industries.",
+    "The scheme has an outlay of ₹10,900 crore.",
+    "₹4,391 crore was allocated for e-buses.",
+    "₹2,100 crore was allocated for charging infrastructure."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F9"
+   ],
+   "explanation": "The incorrect statement is that ₹2,100 crore was allocated for charging infrastructure. The correct allocation was ₹2,000 crore; the other statements accurately describe PM E-DRIVE."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AI-designed bacteriophages",
+   "question": "In the Stanford University–Arc Institute experiment, what was the outcome of testing AI-designed complete genomes of ΦX174-like bacteriophages?",
+   "options": [
+    "285 designs were tested in E. coli, of which 16 were functional",
+    "16 designs were tested in E. coli, of which 285 were functional",
+    "285 designs were tested in E. coli, all of which were functional",
+    "50 designs were tested in E. coli, of which 16 were functional"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2"
+   ],
+   "explanation": "The experiment tested 285 AI-designed bacteriophage genomes in E. coli, and 16 were functional. The AI models proposed the designs, while synthesis and testing were carried out by humans."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Human synthesis and testing of AI designs",
+   "question": "Assertion (A): The AI-designed bacteriophage genomes in the experiment were synthesised and tested by humans.\nReason (R): The AI itself synthesised and tested the bacteriophage genomes.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F2",
+    "P14.F3"
+   ],
+   "explanation": "Assertion A is true because humans synthesised and tested the AI-proposed blueprints. Reason R is false because the AI proposed the designs; it did not synthesise or test them."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Launch and objective",
+   "question": "Consider the following statements about the Gnani Artha sovereign AI stack:\nStatement A: It was launched by Vice-President C. P. Radhakrishnan in New Delhi on 28 August 2026.\nStatement B: Its aim is to develop an indigenous sovereign AI stack and large language models while ensuring data sovereignty.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F2"
+   ],
+   "explanation": "Both statements are true. Gnani AI developed the stack, which was launched by Vice-President C. P. Radhakrishnan in New Delhi on 28 August 2026 to advance indigenous sovereign AI and data sovereignty."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Hackathon launch and institutional linkages",
+   "question": "With reference to Cyber Kushti 2026, consider the following statements:\n1. It was launched on 15 August 2026 by NIELIT under MeitY.\n2. It was the technical part of the National Conference on Cyber Security, Digital Forensics and Intelligence 2026, held with the CERT-In Foundation.\n3. CERT-In was established in 2005 under the IT Act 2000.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "None"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2",
+    "P16.F3"
+   ],
+   "explanation": "Only one statement is correct: Cyber Kushti 2026 was launched on 15 August 2026 by NIELIT under MeitY. The conference was associated with the ISAC Foundation, and CERT-In was established in 2004 under the IT Act 2000."
+  }
+ ]
+}

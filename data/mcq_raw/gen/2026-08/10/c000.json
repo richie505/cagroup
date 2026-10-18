@@ -1,0 +1,116 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Committee chairperson",
+   "question": "Who chaired the committee associated with the announcement of the National Sports Awards 2025?",
+   "options": [
+    "Justice (Retd.) Arun Kumar Mishra",
+    "Donald Rukare",
+    "Mirabai Chanu",
+    "Dharmendra Singh Yadav"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F8",
+    "P0.F16"
+   ],
+   "explanation": "Justice (Retd.) Arun Kumar Mishra chaired the committee for the National Sports Awards 2025 announcement. Donald Rukare is associated with Commonwealth Sport, while Dharmendra Singh Yadav was a Dronacharya Award recipient."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Arjuna Award sport mapping",
+   "question": "Which of the following statements regarding the Arjuna Award recipients in the National Sports Awards 2025 is incorrect?",
+   "options": [
+    "Tejaswin Shankar received the award for athletics.",
+    "Narender received the award for boxing.",
+    "Vidit Gujrathi received the award for chess.",
+    "Dhanush Srikanth received the award for para athletics."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5",
+    "P0.F6"
+   ],
+   "explanation": "The incorrect statement is that Dhanush Srikanth received the award for para athletics. His sport was deaf shooting; Ekta Bhyan was the Arjuna Award recipient associated with para athletics."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Award categories and recipients",
+   "question": "With reference to the National Sports Awards 2025, consider the following statements:\n1. No Khel Ratna was awarded for 2025.\n2. Parveer Singh was named for the regular Dronacharya Award.\n3. The Rashtriya Khel Protsahan Puruskar was awarded to Army Paralympic Node, Mumbai.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F15",
+    "P0.F17"
+   ],
+   "explanation": "Statements 1 and 2 are correct. No Khel Ratna was awarded for 2025, and Parveer Singh was among the regular Dronacharya Award recipients; the Army Paralympic Node associated with the Rashtriya Khel Protsahan Puruskar was in Pune, not Mumbai."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "Which city hosted the 23rd Commonwealth Games 2026?",
+   "options": [
+    "Glasgow",
+    "Birmingham",
+    "Ahmedabad",
+    "New Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F7"
+   ],
+   "explanation": "The 23rd Commonwealth Games 2026 were held in Glasgow, Scotland. Birmingham hosted the previous edition, Ahmedabad is the next host, and New Delhi hosted the Games in 2010."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First under King Charles III",
+   "question": "Assertion (A): The 23rd Commonwealth Games 2026 were the first Commonwealth Games held under King Charles III.\nReason (R): The ceremonies of the Games were held at Hampden Park.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F5"
+   ],
+   "explanation": "Assertion A is true because Glasgow 2026 was the first Commonwealth Games under King Charles III. Reason R is false: the ceremonies were held at Scotstoun Stadium, not Hampden Park."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Motto, mascot and event format",
+   "question": "With reference to the 23rd Commonwealth Games 2026, how many of the following statements are correct?\n1. The motto was “Sport is just the Beginning”.\n2. The mascot was named Fergus.\n3. The Games featured 215 events in 10 sports.\n4. They were the first Commonwealth Games since 1994 with 12 sports.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "Only two statements are correct: the motto was “Sport is just the Beginning”, and the Games featured 215 events in 10 sports. The mascot was Finnie, not Fergus, and the Games had 10 sports, not 12."
+  }
+ ]
+}

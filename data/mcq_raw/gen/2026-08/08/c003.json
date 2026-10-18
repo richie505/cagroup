@@ -1,0 +1,136 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Report objective",
+   "question": "What is the principal aim of NITI Aayog’s report “Reimagining Care: Strategies for Empowering Caregivers in Viksit Bharat@2047”?",
+   "options": [
+    "To make caregiving a regulated and dignified profession and position India as a global caregiving-services hub",
+    "To establish only a National Caregiver Registry without professionalising caregiving",
+    "To assess learning outcomes, access and infrastructure in school education",
+    "To increase India’s installed power capacity to 874 GW by 2031–32"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2"
+   ],
+   "explanation": "The report aims to make caregiving a regulated, dignified profession and to develop India as a global caregiving-services hub. The National Caregiver Registry is only one of the proposed bodies, while 874 GW relates to installed power capacity, not caregiving."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in index",
+   "question": "Which State topped NITI Aayog’s School Education Quality Index 2026?",
+   "options": [
+    "Punjab",
+    "27th position",
+    "2nd position",
+    "1st position"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "Punjab ranked first in NITI Aayog’s School Education Quality Index 2026. The figure 27th refers to Punjab’s position in 2020, not its position in the 2026 index."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Target installed capacity",
+   "question": "What installed power-capacity target has been set for 2031–32?",
+   "options": [
+    "874 GW",
+    "300.50 GW",
+    "548.86 GW",
+    "500 GW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "The target is 874 GW of installed capacity by 2031–32. The figures 300.50 GW and 548.86 GW refer to non-fossil capacity and installed capacity at different points in 2026, while 500 GW is the non-fossil target for 2030."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Non-fossil capacity target",
+   "question": "With reference to India’s power-capacity position in 2026, consider the following statements:\n1. The target is to reach 874 GW of installed capacity by 2031–32.\n2. Non-fossil capacity of 300.50 GW represented over 60% of the 500 GW target for 2030.\n3. Solar power accounted for 58.14 GW of non-fossil capacity.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F3",
+    "P12.F4",
+    "P12.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the installed-capacity target is 874 GW by 2031–32, and 300.50 GW was over 60% of the 500 GW non-fossil target for 2030. Statement 3 is incorrect because 58.14 GW was the wind component; solar accounted for 164.59 GW."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Demographic projection",
+   "question": "Consider the following statements:\nStatement A: By 2050, one in five Indians is projected to be aged 60 years or above.\nStatement B: About 70% of this elderly population is projected to live in urban areas.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "Statement A is true: by 2050, one in five Indians is projected to be aged 60 or above. Statement B is false because about 70% of the elderly population is projected to live in rural areas, not urban areas."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Record number of transplants",
+   "question": "According to the NOTTO report, how many organ transplants were recorded in 2025?",
+   "options": [
+    "20,138",
+    "18,911",
+    "4,990",
+    "3,526"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2",
+    "P14.F3",
+    "P14.F4"
+   ],
+   "explanation": "India recorded 20,138 organ transplants in 2025, the highest figure listed in the report. The figures 18,911 and 4,990 correspond to 2024 and 2013 total transplants respectively, while 3,526 denotes deceased-donor transplants in 2025."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "State-wise organ-transplant ranking",
+   "question": "Which of the following statements regarding Tamil Nadu’s performance in organ donation and transplantation is incorrect?",
+   "options": [
+    "Tamil Nadu ranked first in deceased donors, with 266 donors.",
+    "Tamil Nadu ranked second after Delhi in total transplants, with 2,796 transplants.",
+    "Tamil Nadu ranked second in deceased donors, with 266 donors.",
+    "The NOTTO Mobile App was among the initiatives mentioned in the report."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F5",
+    "P14.F6"
+   ],
+   "explanation": "The incorrect statement is that Tamil Nadu ranked second in deceased donors. Tamil Nadu ranked first in deceased donors with 266 donors, and it ranked second after Delhi in total transplants with 2,796 transplants; the NOTTO Mobile App was also an initiative mentioned in the report."
+  }
+ ]
+}

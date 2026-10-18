@@ -1,0 +1,63 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "India's rank and score",
+   "question": "In the Environmental Performance Index 2026, what were India's rank and score among 177 countries?",
+   "options": [
+    "176th with a score of 22.46",
+    "180th with a score of 22.46",
+    "176th with a score of 31.81",
+    "23rd with a score of 61.31"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F3",
+    "P0.F20"
+   ],
+   "explanation": "India ranked 176th out of 177 countries in the Environmental Performance Index 2026, with a score of 22.46. The 180th rank relates to India's position in 2022, while 23rd and 61.31 belong to India's Climate Change Performance Index 2026 result."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "EPI publishers",
+   "question": "Assertion (A): The Environmental Performance Index 2026 was published by the Yale Center for Environmental Law & Policy, Columbia University's CIESIN and the Yale Center for Geospatial Solutions.\nReason (R): The Environmental Performance Index 2026 was published by Germanwatch.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F15",
+    "P0.F16",
+    "P0.F17"
+   ],
+   "explanation": "Assertion A is true because these three organisations published the Environmental Performance Index 2026. Reason R is false: Germanwatch is associated with the Climate Change Performance Index and the Climate Risk Index, not the Environmental Performance Index."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "EPI rank, leaders and methodology",
+   "question": "With reference to the Environmental Performance Index 2026, consider the following statements:\n1. India ranked 176th out of 177 countries with a score of 22.46.\n2. Estonia was the bottom-ranked country, while Laos topped the index.\n3. The index assessed 45 metrics across 12 issue categories and three objectives.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "No statement is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F14"
+   ],
+   "explanation": "Exactly one statement is correct: Statement 1 accurately gives India's rank and score. Statement 2 reverses the positions of Estonia and Laos, while Statement 3 changes the correct figure of 47 metrics to 45."
+  }
+ ]
+}

@@ -1,33 +1,33 @@
 # CA MCQ report
 
-- MCQs kept: **550**
-- News pages with at least one question: **413 / 2629**
-- Facts tested: **1137 / 20515** (5.5%)
-- Answer positions: A 139, B 143, C 148, D 120
+- MCQs kept: **838**
+- News pages with at least one question: **609 / 2629**
+- Facts tested: **1790 / 20515** (8.7%)
+- Answer positions: A 208, B 209, C 237, D 184
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 58 | 65 | 60 | 44 |
-| Negative / Incorrect Statement | 11 | 17 | 15 | 17 |
-| Assertion-Reason | 23 | 18 | 20 | 15 |
-| Statement-Based (A/B) | 18 | 8 | 19 | 23 |
-| Multi-Statement Correctness | 22 | 18 | 18 | 17 |
+| Direct Recall | 82 | 91 | 98 | 67 |
+| Negative / Incorrect Statement | 20 | 25 | 25 | 25 |
+| Assertion-Reason | 28 | 24 | 30 | 33 |
+| Statement-Based (A/B) | 24 | 16 | 33 | 29 |
+| Multi-Statement Correctness | 36 | 29 | 27 | 25 |
 | Chronological Ordering | 0 | 0 | 0 | 0 |
-| List-Matching | 4 | 2 | 6 | 3 |
-| Count-Based | 3 | 15 | 10 | 1 |
+| List-Matching | 8 | 3 | 7 | 4 |
+| Count-Based | 10 | 21 | 17 | 1 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 75 |
-| verify:not_in_facts | 6 |
-| over the page's quota | 4 |
-| verify:explanation_contradicts | 4 |
-| verify:two_correct | 3 |
-| verify:none_correct | 2 |
+| code | 98 |
+| verify:not_in_facts | 12 |
+| verify:explanation_contradicts | 9 |
+| over the page's quota | 7 |
+| verify:two_correct | 4 |
+| verify:second reader picked option 2, key 1 | 4 |
+| verify:none_correct | 3 |
 | duplicate | 2 |
-| verify:second reader picked option 2, key 1 | 1 |
 | verify:second reader picked option 3, key 0 | 1 |
 | verify:second reader picked option 1, key 0 | 1 |
 
@@ -35,7 +35,7 @@
 
 | File | Category | MCQs | Facts tested |
 |---|---|---|---|
-| 2026-10/01 | Andhra Pradesh | 23 | 50/136 |
+| 2026-10/01 | Andhra Pradesh | 21 | 46/136 |
 | 2026-10/02 | Polity & Governance | 8 | 16/82 |
 | 2026-10/03 | Schemes & Social Sector | 16 | 29/62 |
 | 2026-10/04 | Economy, Banking & Budget | 26 | 61/145 |
@@ -57,17 +57,17 @@
 | 2026-09/09 | Awards, Persons & Appointments | 35 | 79/179 |
 | 2026-09/10 | Sports | 16 | 30/76 |
 | 2026-09/11 | Important Days & Events | 21 | 45/156 |
-| 2026-08/01 | Andhra Pradesh | 0 | 0/230 |
-| 2026-08/02 | Polity & Governance | 0 | 0/169 |
-| 2026-08/03 | Schemes & Social Sector | 0 | 0/97 |
-| 2026-08/04 | Economy, Banking & Budget | 0 | 0/247 |
-| 2026-08/05 | International Relations | 0 | 0/116 |
-| 2026-08/06 | Science, Tech, Space & Defence | 0 | 0/204 |
-| 2026-08/07 | Environment & Geography | 0 | 0/114 |
-| 2026-08/08 | Reports, Indices & Rankings | 0 | 0/128 |
-| 2026-08/09 | Awards, Persons & Appointments | 0 | 0/96 |
-| 2026-08/10 | Sports | 0 | 0/102 |
-| 2026-08/11 | Important Days & Events | 0 | 0/61 |
+| 2026-08/01 | Andhra Pradesh | 45 | 104/230 |
+| 2026-08/02 | Polity & Governance | 32 | 74/169 |
+| 2026-08/03 | Schemes & Social Sector | 18 | 43/97 |
+| 2026-08/04 | Economy, Banking & Budget | 38 | 82/247 |
+| 2026-08/05 | International Relations | 25 | 50/116 |
+| 2026-08/06 | Science, Tech, Space & Defence | 35 | 77/204 |
+| 2026-08/07 | Environment & Geography | 21 | 44/114 |
+| 2026-08/08 | Reports, Indices & Rankings | 23 | 61/128 |
+| 2026-08/09 | Awards, Persons & Appointments | 20 | 52/96 |
+| 2026-08/10 | Sports | 22 | 49/102 |
+| 2026-08/11 | Important Days & Events | 11 | 21/61 |
 | 2026-07/01 | Andhra Pradesh | 0 | 0/234 |
 | 2026-07/02 | Polity & Governance | 0 | 0/89 |
 | 2026-07/03 | Schemes & Social Sector | 0 | 0/176 |
@@ -289,3 +289,51 @@
 - `2026-09/11/c003#7` verify: not_in_facts — The facts establish the venue and dates but do not establish that it was the 17th festival.
   - Q: Assertion (A): The 17th Kathakali Festival was held at Kalakshetra, Thiruvanmiyur, Chennai, from September 18 to 20, 2026. / Reason (R): The Kalakshetra Foundation was established in 1936 by Rukmini Dev
   - Key: Both A and R are true, but R is NOT the correct explanation of A
+- `2026-08/01/c002#2` verify: two_correct — The facts identify both Chirala and Kothapeta as the launch location, making the location contradictory.
+  - Q: The Nethannala Sevalo scheme for handloom weavers was launched at which place on 7 August 2026?
+  - Key: Kothapeta, Vetapalem Mandal, Bapatla district
+- `2026-08/01/c002#5` verify: explanation_contradicts — Both A and R are stated, but comparison with only 2025–26 does not by itself explain the claim of the highest allocation since 2014.
+  - Q: Assertion (A): Andhra Pradesh received its highest annual National AYUSH Mission allocation in 2026–27 since the mission began. / Reason (R): The allocation for 2026–27 was ₹185.75 crore, higher than th
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-08/01/c002#6` verify: second reader picked option 2, key 1 — 
+  - Q: With reference to the Andhra Pradesh AYUSH plan for 2026–27, how many of the following statements are correct? / 1. The plan includes 19 mobile medical units in 9 ITDA areas. / 2. It provides for modernis
+  - Key: Only two
+- `2026-08/01/c003#5` verify: not_in_facts — The facts establish the UCG complex in Eluru but do not establish that Reliance proposed it.
+  - Q: Assertion (A): Reliance has proposed India’s first integrated Underground Coal Gasification complex in Eluru district. / Reason (R): Underground Coal Gasification converts coal in situ into syngas consi
+  - Key: Both A and R are true, but R is NOT the correct explanation of A
+- `2026-08/01/c003#6` verify: not_in_facts — The facts give the location and cost but do not identify the approved project as a greenfield shipbuilding cluster.
+  - Q: Which project received in-principle approval from the Centre at Dugarajapatnam in Tirupati district?
+  - Key: A greenfield shipbuilding cluster costing about ₹29,254 crore
+- `2026-08/01/c003#7` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements about the Andhra Pradesh–CSIR-NGRI pact on lithium and gallium exploration are correct? /  / 1. The pact was signed on 12 August 2026 between the Andhra Pradesh Govern
+  - Key: Only two
+- `2026-08/01/c005#4` verify: none_correct — Facts establish that statements 1 and 2 are correct, but no option lists 1 and 2 only; the explanation incorrectly rejects statement 2.
+  - Q: With reference to the satellite transponders fitted on Andhra Pradesh fishing boats, consider the following statements: / 1. The transponders are linked to smartphones through Bluetooth. / 2. They provide
+  - Key: 1 only
+- `2026-08/03/c001#1` verify: explanation_contradicts — All four statements are supported by the facts, while the explanation incorrectly calls the first statement incorrect.
+  - Q: Which of the following statements about the Bharat Taxi model is incorrect?
+  - Key: Bharat Taxi follows a zero-commission and surge-free model.
+- `2026-08/06/c001#2` verify: explanation_contradicts — Statement 4 is also supported by the facts, so all four statements are correct.
+  - Q: Consider the following statements about India’s defence self-reliance indicators: / 1. Defence production in 2025–26 reached a record ₹1.78 lakh crore, with the public sector accounting for 76%. / 2. Defe
+  - Key: Only three
+- `2026-08/07/c002#5` verify: not_in_facts — The facts establish the species and its listings but do not establish that it is Meghalaya's State Animal.
+  - Q: Assertion (A): The clouded leopard is classified as Endangered by the IUCN. / Reason (R): The clouded leopard is Meghalaya's State Animal, scientifically known as Neofelis nebulosa, and is included in S
+  - Key: A is false, but R is true
+- `2026-08/08/c002#4` verify: explanation_contradicts — Statements 1 and 3 are supported, while Statement 2 is contradicted by the facts.
+  - Q: With reference to NITI Aayog’s report “Key Sectors to Position India as a Global Manufacturing Hub”, consider the following statements: / 1. The report was released on 13 August 2026. / 2. Chemicals was e
+  - Key: 1 only
+- `2026-08/09/c000#4` verify: not_in_facts — The facts establish the award and conference details but do not identify the recipient as Gurucharan Das.
+  - Q: Who became the first Indian writer to receive the Lifetime Libertarian Award of Liberty International?
+  - Key: Gurucharan Das at the 40th World Conference in Kathmandu
+- `2026-08/09/g000#0` verify: not_in_facts — The facts do not identify the writer by name or link the listed works to Gurucharan Das.
+  - Q: Who became the first Indian writer to receive the Lifetime Libertarian Award of Liberty International at its 40th World Conference in Kathmandu on 8 August 2026?
+  - Key: Gurucharan Das
+- `2026-08/10/c001#1` verify: explanation_contradicts — Statements 1 and 3 are supported by the facts, so exactly two statements are correct, not exactly one.
+  - Q: Consider the following statements about the BWF World Badminton Championships 2026: / 1. India hosted the Championships for the second time. / 2. Alex Lanier became the second French champion in men's sin
+  - Key: Exactly one statement is correct
+- `2026-08/10/c001#6` verify: not_in_facts — The facts establish the 4–1 victory but do not establish that it occurred in the 2026 final, so R cannot be judged true.
+  - Q: Assertion (A): East Bengal FC last won the Durand Cup in 2006. / Reason (R): East Bengal FC defeated Mohun Bagan Super Giant 4–1 in the 2026 final.
+  - Key: A is false, but R is true
+- `2026-08/10/c002#5` verify: second reader picked option 2, key 1 — 
+  - Q: Consider the following statements about sports funding for 2026–27 to 2030–31: / 1. The total allocation is ₹7,386 crore. / 2. Athlete training has an allocation of ₹4,236.74 crore. / 3. The allocation for 
+  - Key: Only two

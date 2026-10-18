@@ -1,0 +1,62 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of judges",
+   "question": "After the Supreme Court (Number of Judges) Amendment Bill, 2026, what is the sanctioned strength of the Supreme Court, including the Chief Justice of India?",
+   "options": [
+    "31",
+    "34",
+    "37",
+    "38"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "The sanctioned strength of the Supreme Court was raised to 38, including the Chief Justice of India. The figure 37 refers only to puisne judges, while 34 was the earlier total strength."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Constitutional basis for strength",
+   "question": "Consider the following statements:\nStatement A: The Supreme Court (Number of Judges) Amendment Bill, 2026 increased the number of puisne judges from 33 to 36.\nStatement B: Article 124(1) enables Parliament to fix the number of Supreme Court judges by law.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Statement A is false because the number of puisne judges was increased from 33 to 37. Statement B is true: Article 124(1) allows Parliament to determine the number of Supreme Court judges by law."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Bill and increase in strength",
+   "question": "With reference to the Supreme Court (Number of Judges) Amendment Bill, 2026, consider the following statements:\n1. It amends the Supreme Court (Number of Judges) Act, 1956.\n2. It marks the first increase in the Supreme Court's strength since 2019.\n3. It raises the total strength, including the Chief Justice of India, to 38.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "All three statements are correct. The Bill amends the 1956 Act, represents the first increase since the 2019 rise from 31 to 34, and raises the total strength to 38; therefore, the options omitting any one statement are incorrect."
+  }
+ ]
+}

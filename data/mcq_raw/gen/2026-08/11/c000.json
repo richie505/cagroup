@@ -1,0 +1,119 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of World Photography Day observed on 19 August 2026?",
+   "options": [
+    "HOME",
+    "Healing through Memory",
+    "#ActForHumanity",
+    "Different Contexts, Common Aspirations"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12",
+    "P0.F13",
+    "P0.F14",
+    "P0.F8"
+   ],
+   "explanation": "The theme of World Photography Day was “HOME.” “Healing through Memory” was associated with Victims of Terrorism Remembrance Day, while “#ActForHumanity” and “Different Contexts, Common Aspirations” belonged to other observances."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Date and theme",
+   "question": "With reference to the important days observed in August 2026, identify the incorrect statement.",
+   "options": [
+    "World Biofuel Day was observed on 10 August, with the observance in India since 2015 under the Ministry of Petroleum and Natural Gas.",
+    "International Youth Day was observed on 12 August with the theme “Different Contexts, Common Aspirations.”",
+    "World Elephant Day was observed on 12 August, with the national event held at Visakhapatnam.",
+    "World Humanitarian Day was observed on 21 August with the theme “#ActForHumanity.”"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9",
+    "P0.F13"
+   ],
+   "explanation": "The incorrect statement changes the date of World Humanitarian Day: it was observed on 19 August, not 21 August. The theme “#ActForHumanity” is correct, while 21 August is associated with Victims of Terrorism Remembrance Day."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Dates and observances",
+   "question": "Consider the following statements about important days observed in August 2026:\n1. Hiroshima Day was observed on 6 August and commemorates the atomic bombing of 6 August 1945.\n2. Quit India Day, also known as August Kranti, was associated with the Quit India resolution at the Bombay AICC session on 8 August 1942.\n3. Nagasaki Day was observed on 9 August and is associated with the atomic bombing of 9 August 1945.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "All three statements are correct. Hiroshima Day, Quit India Day and Nagasaki Day were respectively associated with 6 August, 8 August and 9 August, with the historical events stated in the question."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Anniversary dates",
+   "question": "On which dates will Telangana officially observe the birth anniversary and death anniversary of Panduga Sayanna?",
+   "options": [
+    "22 October and 10 December",
+    "10 December and 22 October",
+    "29 August and 10 December",
+    "22 October and 15 August"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Telangana will observe Panduga Sayanna’s birth anniversary on 22 October and death anniversary on 10 December. Panduga Sayanna is revered as a historical figure by the Mudiraj community."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Conference venue and theme",
+   "question": "Where was the 9th India Medical Device 2026 scheduled to be held, and what was its theme?",
+   "options": [
+    "Vigyan Bhawan — “Towards Viksit Bharat: Advancing India as a Global Hub for Quality Medical Devices”",
+    "Yashobhoomi, Dwarka — “Silicon to Systems: Building the Ecosystem”",
+    "Mysuru — “Charting the Roadmap Towards Maritime India Vision 2030 and Maritime Amrit Kaal Vision 2047”",
+    "Dr Ambedkar International Centre — “IIHTs: Weaving the Future of the Indian Handloom Sector – Educate. Innovate”"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "The 9th India Medical Device 2026 was scheduled at Vigyan Bhawan with the theme “Towards Viksit Bharat: Advancing India as a Global Hub for Quality Medical Devices.” The other venues and themes refer to SEMICON India, Sagar Samvad and IIHT Sutra respectively."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Host of UNCCD COP-17",
+   "question": "Assertion (A): UNCCD COP-17 was hosted by New Delhi, India.\nReason (R): The host of UNCCD COP-17 was Ulaanbaatar, Mongolia.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "Assertion A is false because UNCCD COP-17 was hosted by Ulaanbaatar, Mongolia. Reason R is true and gives the correct host, so the appropriate answer is that A is false but R is true."
+  }
+ ]
+}

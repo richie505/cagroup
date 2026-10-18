@@ -1,0 +1,134 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Project proposal and amount",
+   "question": "Under the second tranche of the Urban Challenge Fund, which pairing correctly describes Andhra Pradesh’s proposal?",
+   "options": [
+    "₹5,940 crore for 4 cities and 59 municipalities",
+    "₹2,085 crore for 4 cities and 59 municipalities",
+    "₹5,940 crore for Visakhapatnam and Mangalagiri–Tadepalli",
+    "₹2,085 crore for Visakhapatnam and Mangalagiri–Tadepalli"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P24.F1"
+   ],
+   "explanation": "Andhra Pradesh proposed projects worth ₹5,940 crore covering 4 cities and 59 municipalities under the second tranche. The ₹2,085 crore proposal related to the earlier projects for Visakhapatnam and Mangalagiri–Tadepalli."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Objectives and implementation details",
+   "question": "With reference to the Shakti programme for PESA Gram Sabhas and the JJM 2.0 rural drinking-water maintenance plan, consider the following statements:\n\n1. The Shakti programme aims to strengthen Gram Sabhas under the PESA Act 1996.\n2. The committees formed under the Shakti programme are to have 50% women.\n3. The first annual plan under the JJM 2.0 action plan is to be prepared within 60 days.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P25.F1",
+    "P25.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Shakti strengthens PESA Gram Sabhas and provides for 50% women in the committees. Statement 3 is incorrect because the first annual plan is to be prepared within 90 days, not 60 days."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Award ceremony and Akademi profile",
+   "question": "Assertion (A): Eleven artists from Andhra Pradesh and Telangana received Sangeet Natak Akademi honours from President Droupadi Murmu in New Delhi.\nReason (R): The Sangeet Natak Akademi was established in 1952 in New Delhi under the Ministry of Culture.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P26.F1",
+    "P26.F5"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the Akademi’s establishment details do not explain why the eleven artists received the honours from the President; they are separate facts."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Project site and institutional status",
+   "question": "Consider the following statements:\nStatement A: The Amaravati educational and cultural academy at Abburaajupalem is being developed on a 5-acre site.\nStatement B: The project is being implemented under the AP School Education Corporation.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P27.F1",
+    "P27.F5"
+   ],
+   "explanation": "Both statements are false. The project is located on a 3-acre site near the E3–N14 Junction, and it is specifically not under the AP School Education Corporation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Status and role of robotic dog",
+   "question": "What is the present status of the quadruped robotic dog being considered by TTD for wildlife surveillance along the Alipiri–Tirumala footpath?",
+   "options": [
+    "It is being evaluated and is intended to supplement camera traps and foot patrols",
+    "It has been approved for permanent use and will replace camera traps",
+    "It has been approved for permanent use and will replace foot patrols",
+    "It is being evaluated to replace both camera traps and foot patrols"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F1",
+    "P28.F3"
+   ],
+   "explanation": "TTD is evaluating the robotic dog for wildlife monitoring, and it will supplement rather than replace camera traps and foot patrols. Permanent use has not yet been approved."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Release location",
+   "question": "The pangolin rescued in Kamalapuram municipal area of Kadapa district was released in which location?",
+   "options": [
+    "The forest in the Mydukur range",
+    "The Kundu River basin",
+    "The Kamalapuram municipal area",
+    "The Alipiri–Tirumala footpath"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F1",
+    "P29.F2"
+   ],
+   "explanation": "The rescued pangolin was released in the forest in the Mydukur range. Kamalapuram was the rescue location, while the Kundu River basin was considered its likely route of arrival."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Pangolin characteristics and conservation status",
+   "question": "How many of the following statements about pangolins are correct?\n\n1. Pangolins are nocturnal mammals with hard scales.\n2. Pangolins curl into a ball when threatened.\n3. The Indian Pangolin is classified as IUCN Critically Endangered.\n4. The Chinese Pangolin is classified as IUCN Endangered.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P29.F3",
+    "P29.F4",
+    "P29.F7",
+    "P29.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct, so the answer is Only two. The Indian Pangolin is IUCN Endangered, while the Chinese Pangolin is IUCN Critically Endangered; statements 3 and 4 reverse these statuses."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  23
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Purpose and parties of MoUs",
+   "question": "Consider the following statements:\nStatement A: NIIMH Hyderabad and SEMIRI, Thiruvananthapuram, entered into an understanding to digitise hundreds of rare medical manuscripts and prepare a descriptive catalogue.\nStatement B: C-DAC, established in 1851 at Pune, partnered with GSI, established in 1988 at Kolkata, for next-generation computing in geosciences, mineral exploration and disaster management.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P23.F1",
+    "P23.F2"
+   ],
+   "explanation": "Both statements are false. SEMIRI is located at Kumaranalloor, Kottayam, while C-DAC was established in 1988 at Pune and GSI in 1851 at Kolkata. The tempting option that Statement A alone is true is incorrect because the location of SEMIRI was changed."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "MoU purpose and first route",
+   "question": "Assertion (A): SkyHop Aviation and Noemi Aerospace signed an MoU for electric seaplanes serving India and South Asia, with the first links planned for the Andaman Islands.\nReason (R): The partnership provides for the first electric-seaplane links to Lakshadweep.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P23.F4"
+   ],
+   "explanation": "The Assertion is false, but the Reason is true. The partnership concerns electric seaplanes for India and South Asia, with the first links planned for Lakshadweep, not the Andaman Islands. The changed location is the trap in the Assertion."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "BHASHINI partnership and institutional details",
+   "question": "With reference to the August 2026 partnerships involving BHASHINI and related organisations, consider the following statements:\n1. DIBD under BHASHINI and NITI Aayog signed a Statement of Intent for “BHASHINI for Seva/Sanchalan”, focusing on multilingual voice-first AI.\n2. CISF and Drone Federation India signed their partnership at CISF Headquarters in Mumbai.\n3. BHASHINI stands for Bhasha Interface for India, was launched in 2022, and functions under Digital India Corporation, MeitY.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P23.F6",
+    "P23.F8",
+    "P23.F13"
+   ],
+   "explanation": "Statements 1 and 3 are correct, while statement 2 is incorrect. The CISF–Drone Federation India partnership was signed at CISF Headquarters in New Delhi, not Mumbai. Therefore, the correct choice is 1 and 3 only."
+  }
+ ]
+}

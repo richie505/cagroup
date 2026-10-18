@@ -1,0 +1,109 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Production rank",
+   "question": "What is India's position in global coconut production, accounting for 31.24% of world production?",
+   "options": [
+    "1st",
+    "2nd",
+    "3rd",
+    "4th"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "India ranks 1st in global coconut production, with a 31.24% share of world production. The 3rd position refers to India's rank in area under coconut cultivation, not production."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "State-wise coconut indicators",
+   "question": "Which of the following statements about State-wise coconut indicators in India is incorrect?",
+   "options": [
+    "Kerala has the largest area under coconut cultivation.",
+    "Tamil Nadu has the highest coconut production.",
+    "Andhra Pradesh has the highest coconut productivity.",
+    "West Bengal has the highest coconut productivity."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F6"
+   ],
+   "explanation": "The incorrect statement is that West Bengal has the highest coconut productivity; Andhra Pradesh has the highest productivity. West Bengal ranks after Andhra Pradesh in productivity, followed by Tamil Nadu."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Exports and Coconut Development Board",
+   "question": "Consider the following statements about India's coconut sector:\n1. Coconut exports in 2025–26 were valued at ₹7,038.35 crore.\n2. The headquarters of the Coconut Development Board is in Kochi.\n3. The 2026 milling copra MSP was ₹12,500 per quintal.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F7",
+    "P6.F8",
+    "P6.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: exports were valued at ₹7,038.35 crore and the Coconut Development Board is headquartered in Kochi. Statement 3 is incorrect because ₹12,500 per quintal was the MSP for ball copra, while milling copra had an MSP of ₹12,027 per quintal."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Feed-in tariff and farmer earnings",
+   "question": "Assertion (A): Farmers under Gujarat's Suryashakti Kisan Yojana earned approximately ₹21,900 a year.\nReason (R): The scheme provided a feed-in tariff of approximately ₹7 per unit.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "Both the assertion and the reason are true. Gujarat's Suryashakti Kisan Yojana offered a feed-in tariff of approximately ₹7 per unit, enabling farmers to earn approximately ₹21,900 a year."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Announcement and launch of National Makhana Board",
+   "question": "Consider the following statements:\nStatement A: The National Makhana Board was announced in the Union Budget 2026–27.\nStatement B: The National Makhana Board was launched in West Bengal on 15 September 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F4"
+   ],
+   "explanation": "Both statements are false. The Board was announced in the Union Budget 2025–26 and launched in Bihar on 15 September 2025; the years and place in the statements are incorrect."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Makhana exports and markets",
+   "question": "How many of the following statements about India's makhana exports in 2025–26 are correct?\n1. Makhana exports were 7,264.89 MT.\n2. The United States accounted for 40% of exports.\n3. Germany recorded the highest unit price at $26 per kg.\n4. The United Kingdom accounted for 20% of exports.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "Exactly three statements are correct: export volume was 7,264.89 MT, the United States accounted for 40%, and Germany had the highest unit price at $26 per kg. The United Kingdom accounted for 10%, not 20%, of exports."
+  }
+ ]
+}

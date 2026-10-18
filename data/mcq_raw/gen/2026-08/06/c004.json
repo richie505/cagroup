@@ -1,0 +1,97 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  17,
+  18,
+  19,
+  20
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Inaugurated by",
+   "question": "Who inaugurated Telangana’s first next-generation AI-enabled integrated Dial 112 system in Hyderabad?",
+   "options": [
+    "DGP C.V. Anand",
+    "Ministry of Home Affairs",
+    "Airports Authority of India",
+    "Directorate General of Civil Aviation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1"
+   ],
+   "explanation": "DGP C.V. Anand inaugurated Telangana’s first next-generation AI-enabled integrated Dial 112 system in Hyderabad. The Ministry of Home Affairs is associated with the National Emergency Response Support System, while AAI and DGCA are associated with the helicopter approach described elsewhere."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First implementation of RNP-H",
+   "question": "At which facility was India’s first Required Navigation Performance–Category H helicopter approach implemented on 7 August 2026?",
+   "options": [
+    "HAL Airport, Bengaluru",
+    "AAI headquarters",
+    "HAL test-pilot centre",
+    "DGCA headquarters"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F1"
+   ],
+   "explanation": "HAL Airport, Bengaluru, became the first facility in India to implement the Required Navigation Performance–Category H helicopter approach. AAI designed the approach, HAL test pilots validated it, and DGCA approved it; these organisations were not the facility where it was implemented."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "IIT innovation and technology detail",
+   "question": "Which of the following statements about the IIT innovations highlighted in August 2026 is incorrect?",
+   "options": [
+    "IIT Delhi’s PARAM Pragya AI supercomputer was inaugurated at the Sonipat campus by the Prime Minister on 8 August 2026.",
+    "IIT Hyderabad conducted the first AnuGyan nuclear technology orientation programme with Crimson Energy Experts for 3 months.",
+    "IIT Guwahati developed the E-Eye portable device for detecting toxic heavy metals.",
+    "IIT Bombay’s low-cost green hydrogen catalyst uses platinum and iridium."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F2",
+    "P19.F3",
+    "P19.F4"
+   ],
+   "explanation": "The incorrect statement is that IIT Bombay’s catalyst uses platinum and iridium. Its low-cost green hydrogen catalyst uses cobalt, nickel, phosphate and graphite, without platinum or iridium."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Space-grown rice",
+   "question": "Where was China’s first rice crop grown in space, harvested on 5 August 2026?",
+   "options": [
+    "Tiangong",
+    "Shenzhou-23",
+    "eROSITA",
+    "Sun–Earth L2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F1"
+   ],
+   "explanation": "China harvested its first rice crop grown in space on the Tiangong space station. Shenzhou-23 was the spacecraft associated with the mission, while eROSITA and Sun–Earth L2 relate to other space-science facts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Global and Indian science discoveries",
+   "question": "Consider the following statements about science discoveries and tools reported in August 2026:\n\n1. IUCAA Pune made the first detection of an X-ray binary in the Magellanic Bridge, involving a white dwarf feeding on a massive star.\n2. MutAIverse is a generative-AI platform linking chemicals to cancer DNA damage, developed by IIIT-Delhi and CSIR-IGIB.\n3. PASTA is a tool for determining the biological age of tissues, developed by Karolinska Institutet and Stockholm University.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F2",
+    "P20.F3",
+    "P20.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct. PASTA is a tool for determining the biological age of cells, not tissues, so Statement 3 is incorrect."
+  }
+ ]
+}

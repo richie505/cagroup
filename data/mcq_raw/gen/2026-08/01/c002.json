@@ -1,0 +1,138 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "University approval and location",
+   "question": "India’s first dedicated Quantum and AI University campus, approved on 27 August 2026, is being established at which place?",
+   "options": [
+    "Amaravati",
+    "Guntur",
+    "Vijayawada",
+    "Kadapa"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F7"
+   ],
+   "explanation": "The first dedicated Quantum and AI University campus in India was approved for Amaravati. Guntur is associated with the interim classes at Acharya Nagarjuna University, while Vijayawada and Kadapa are not the campus location in this context."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "First feeder-level solar project",
+   "question": "With reference to the first feeder-level mini solar project connected under PM-KUSUM in Andhra Pradesh, identify the incorrect statement.",
+   "options": [
+    "It has a capacity of 3 MW.",
+    "It is located at Nehru Nagar Thanda in Palnadu district.",
+    "It provides free daytime power to farmers.",
+    "It was connected by NIELIT."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F4",
+    "P5.F8"
+   ],
+   "explanation": "The incorrect statement is that the project was connected by NIELIT. The first feeder-level mini solar project was connected by APCPDCL; NIELIT is the developer of the Quantum–AI University. The project has a capacity of 3 MW and supplies free daytime power to farmers."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme launch details",
+   "question": "The Nethannala Sevalo scheme for handloom weavers was launched at which place on 7 August 2026?",
+   "options": [
+    "Kothapeta, Vetapalem Mandal, Bapatla district",
+    "Chirala, Bapatla district",
+    "Mangalagiri, Guntur district",
+    "Ponduru, Srikakulam district"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F15"
+   ],
+   "explanation": "Nethannala Sevalo was launched by Chief Minister Chandrababu Naidu at Kothapeta in Vetapalem Mandal of Bapatla district. Chirala was the broader location associated with the National Handloom Day programme, but the launch details specify Kothapeta."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Weaver support amounts and coverage",
+   "question": "Consider the following statements about support measures for handloom weavers in Andhra Pradesh:\n1. Nethannala Sevalo provides ₹25,000 a year to loom-owning families.\n2. Free power for handloom units is available up to 200 units per month.\n3. NTR Pension Bharosa provides ₹4,000 per month to 62,541 weavers.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F5",
+    "P6.F7",
+    "P6.F16"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the scheme provides ₹25,000 annually to loom-owning families, and free handloom power is available up to 200 units per month. Statement 3 is incorrect because NTR Pension Bharosa covers 85,000 weavers; 62,541 families is the figure for free handloom power."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Beneficiary amount and launch occasion",
+   "question": "Consider the following statements about the Nethannala Sevalo scheme:\nStatement A: The scheme provides ₹25,000 a year to 62,541 loom-owning families.\nStatement B: It was launched on the 12th National Handloom Day, 7 August 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P6.F5",
+    "P6.F15",
+    "P6.F16"
+   ],
+   "explanation": "Statement A is false because Nethannala Sevalo provides ₹25,000 a year to loom-owning families, while 62,541 families is the figure for free handloom power. Statement B is true because the scheme was launched on 7 August 2026, the 12th National Handloom Day."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Highest annual AYUSH allocation",
+   "question": "Assertion (A): Andhra Pradesh received its highest annual National AYUSH Mission allocation in 2026–27 since the mission began.\nReason (R): The allocation for 2026–27 was ₹185.75 crore, higher than the ₹165.66 crore allocated in 2025–26.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F4",
+    "P7.F5"
+   ],
+   "explanation": "Both the assertion and reason are true. The 2026–27 allocation was ₹185.75 crore, exceeding the ₹165.66 crore allocation in 2025–26 and constituting the highest annual allocation since the National AYUSH Mission began."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "AYUSH plan components",
+   "question": "With reference to the Andhra Pradesh AYUSH plan for 2026–27, how many of the following statements are correct?\n1. The plan includes 19 mobile medical units in 9 ITDA areas.\n2. It provides for modernisation of 58 dispensaries.\n3. It includes digitisation of 601 dispensaries.\n4. It includes 126 Ayushman Arogya Mandirs.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F6",
+    "P7.F7",
+    "P7.F8"
+   ],
+   "explanation": "Statements 1, 3 and 4 are correct: the plan includes 19 mobile medical units, digitises 601 dispensaries and provides 126 Ayushman Arogya Mandirs. Statement 2 is incorrect because 64 dispensaries, not 58, are to be modernised; therefore, exactly three statements are correct."
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Government school closures",
+   "question": "According to the NITI Aayog report, approximately how many government schools closed over a decade?",
+   "options": [
+    "About 94,000",
+    "About 89,000",
+    "About 25,000",
+    "About 22,600"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "About 94,000 government schools closed over a decade, equivalent to nearly 25 schools a day. About 89,000 refers to the fall in the number of government schools between 2014-15 and 2023-24, while the other figures relate to specific States."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "RTE Act and legislative list",
+   "question": "Which of the following statements regarding the Right to Education framework is incorrect?",
+   "options": [
+    "The RTE Act was enacted in 2009 and came into force in 2010.",
+    "The RTE Act provides free and compulsory education for children aged 6–14 years.",
+    "Education is included in the Concurrent List.",
+    "Education is included in the State List."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "The incorrect statement is that education is included in the State List. Education is in the Concurrent List, and the RTE Act 2009 came into force in 2010 for free and compulsory education of children aged 6–14 years."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Constitutional provisions on education",
+   "question": "With reference to constitutional provisions related to education, consider the following statements:\n1. Article 21A provides the Right to Education as a Fundamental Right.\n2. Article 45 deals with early childhood care and education below 6 years as a Directive Principle of State Policy.\n3. Article 51A(k) prescribes religious instruction in educational institutions.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F14",
+    "P0.F15"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Article 21A concerns the Right to Education, while Article 45 concerns early childhood care and education below 6 years. Statement 3 is incorrect because Article 51A(k) concerns the parent’s duty to educate a child of 6–14 years."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Approval by Union Cabinet",
+   "question": "With reference to the GOBARdhan National Circular Bioenergy Scheme, consider the following:\nAssertion (A): GOBARdhan is a Union Cabinet-approved scheme.\nReason (R): The Union Cabinet approved GOBARdhan.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the Reason correctly explains the Assertion. The Union Cabinet approved GOBARdhan, making it a Union Cabinet-approved scheme."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "CBG blending obligation and administered price",
+   "question": "With reference to the viability measures under the GOBARdhan scheme, how many of the following statements are correct?\n1. The CBG blending obligation is 3% for 2026-27.\n2. The CBG blending obligation is 4% for 2027-28.\n3. Capital aid is available up to ₹2.5 crore per tonne per day of capacity.\n4. The administered price is ₹2,010 per MMBTU.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6",
+    "P1.F7"
+   ],
+   "explanation": "Only two statements are correct: the blending obligations are 3% for 2026-27 and 4% for 2027-28. Capital aid is available up to ₹2 crore per tonne per day, and the administered price is ₹2,110 per MMBTU."
+  }
+ ]
+}

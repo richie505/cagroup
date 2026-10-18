@@ -1,0 +1,132 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Reservation percentage",
+   "question": "What reservation percentage for Backward Classes did the Andhra Pradesh Cabinet approve for Urban Local Body elections?",
+   "options": [
+    "25%",
+    "33.33%",
+    "40%",
+    "50%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "The Andhra Pradesh Cabinet approved 33.33% reservation for Backward Classes in Urban Local Body elections. The tempting 25% option is incorrect because the approved reservation is 33.33%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Performance ranking",
+   "question": "Which State generated the highest number of person-days under VB-G RAM G during its first 45 days?",
+   "options": [
+    "Rajasthan",
+    "Uttar Pradesh",
+    "Andhra Pradesh",
+    "Assam"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2"
+   ],
+   "explanation": "Andhra Pradesh ranked first with 2.10 crore person-days during the first 45 days of VB-G RAM G. Rajasthan followed with 2.03 crore person-days, while Uttar Pradesh recorded 1.63 crore."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Climate adaptation targets",
+   "question": "With reference to the energy-sector adaptation measures suggested under the Andhra Pradesh State Action Plan on Climate Change 2025–30, consider the following statements:\n1. The target is to raise renewable energy's share to 40% of the energy mix.\n2. One lakh fast and slow EV charging stations are proposed.\n3. The measures are linked to Sustainable Development Goal 7.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P15.F3",
+    "P15.F6",
+    "P15.F11"
+   ],
+   "explanation": "All three statements are correct. The plan targets a 40% renewable share, one lakh EV charging stations, and alignment with SDG 7, which concerns affordable and clean energy."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Vulnerable energy region and target",
+   "question": "Consider the following statements:\nStatement A: The energy sector in northern and central Andhra Pradesh was identified as the most vulnerable.\nStatement B: The target for green hydrogen hubs is 120 GW.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F2",
+    "P15.F4",
+    "P15.F5"
+   ],
+   "explanation": "Statement A is true because the energy sector in northern and central Andhra Pradesh was identified as the most vulnerable. Statement B is false: the target is two green hydrogen hubs with a combined capacity of 60 MW; 120 GW is the target for renewable-energy projects."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "UNESCO Tentative List and features",
+   "question": "Regarding the proposal to secure UNESCO World Heritage status for Lepakshi and Gandikota, identify the incorrect statement.",
+   "options": [
+    "Lepakshi is already on UNESCO's Tentative List.",
+    "Gandikota is not yet on UNESCO's Tentative List.",
+    "Lepakshi is noted for temple architecture, murals and sculpture.",
+    "Gandikota is noted for temple architecture, murals and sculpture."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P16.F2",
+    "P16.F3"
+   ],
+   "explanation": "The incorrect statement is that Gandikota is noted for temple architecture, murals and sculpture. Those features are associated with Lepakshi, whereas Gandikota is known for its fort and gorge landscape."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India and World Heritage Convention",
+   "question": "On which date did India sign the World Heritage Convention?",
+   "options": [
+    "14 November 1977",
+    "15 August 1975",
+    "26 January 1972",
+    "14 November 1972"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F6"
+   ],
+   "explanation": "India signed the World Heritage Convention on 14 November 1977. The Convention was adopted in 1972 and entered into force in 1975, but neither of those years is the date on which India signed it."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Earliest reference to Guntur",
+   "question": "Assertion (A): The antiquity of Guntur is evidenced by the earliest reference found in the Pune copper plates.\nReason (R): The Pune copper plates belong to Eastern Chalukya king Vishnuvardhana II and refer to his first regnal year, 669 CE.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the Reason explains the Assertion. The Pune copper plates of Vishnuvardhana II provide the earliest reference to Guntur, dating to his first regnal year, 669 CE."
+  }
+ ]
+}

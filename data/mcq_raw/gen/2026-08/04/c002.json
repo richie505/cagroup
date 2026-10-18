@@ -1,0 +1,97 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Full form",
+   "question": "The PM MITRA scheme is the abbreviation for which of the following?",
+   "options": [
+    "PM Mega Integrated Textile Region and Apparel Parks",
+    "PM Mega Integrated Textile Region and Apparel Park",
+    "PM Integrated Textile Region and Apparel Parks",
+    "PM Mega Integrated Textile and Apparel Parks"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "PM MITRA stands for PM Mega Integrated Textile Region and Apparel Parks, implemented by the Ministry of Textiles. The singular form and the versions omitting “Region” are incorrect expansions."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Scheme scale and employment",
+   "question": "With reference to the PM MITRA mega textile parks, consider the following statements:\n1. Seven parks have been provided for, with an outlay of ₹4,445 crore for 2021-22 to 2027-28.\n2. MoUs have been signed with all seven States, with 100% land availability; the DPRs amount to ₹13,537 crore and investment interest to ₹68,590 crore.\n3. Each park is expected to generate about 2 lakh direct and 1 lakh indirect jobs.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Each park is expected to generate about 1 lakh direct and 2 lakh indirect jobs, so statement 3 reverses the two employment figures."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Park location and type",
+   "question": "Which of the following statements regarding the locations and types of PM MITRA parks is NOT correctly matched?",
+   "options": [
+    "Madhya Pradesh — Dhar — Greenfield — investment interest of ₹19,846 crore, the highest among the parks",
+    "Telangana — Warangal — Brownfield — investment interest of ₹3,800 crore",
+    "Maharashtra — Amravati — Greenfield — investment interest of ₹12,000 crore",
+    "Gujarat — Navsari — Greenfield — investment interest of ₹13,094 crore"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F10",
+    "P2.F11",
+    "P2.F13",
+    "P2.F15"
+   ],
+   "explanation": "The incorrect statement is the Maharashtra entry because the Amravati park is Brownfield, not Greenfield; its investment interest is ₹12,000 crore. The Dhar, Warangal and Navsari pairings and figures are correct."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Rank and share in ship recycling",
+   "question": "In the context of India's position in global ship recycling in 2025:\nAssertion (A): India's share of global ship recycling was 30.1% in 2025.\nReason (R): India's ship-recycling volume increased from 1.86 million gross tons to 2.99 million gross tons.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "Assertion A is false because the share was 30.1% in 2024 and 35.4% in 2025. Reason R is true: the volume rose from 1.86 million gross tons to 2.99 million gross tons."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ship-recycling law and authority",
+   "question": "With reference to India's ship-recycling regulatory framework, consider the following statements:\nStatement A: The Hong Kong Convention became binding from 26 June 2025.\nStatement B: Under the Ship Recycling Act, 2019, the National Authority is the Ministry of Textiles.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F8",
+    "P3.F9"
+   ],
+   "explanation": "Statement A is true: the Hong Kong Convention became binding from 26 June 2025. Statement B is false because the National Authority under the Ship Recycling Act, 2019 is the Directorate General of Shipping, not the Ministry of Textiles."
+  }
+ ]
+}

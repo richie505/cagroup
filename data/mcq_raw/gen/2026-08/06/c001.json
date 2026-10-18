@@ -1,0 +1,118 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "Where was the 9th India–US Civil Space Joint Working Group held on 5–6 August 2026?",
+   "options": [
+    "Bengaluru",
+    "At the lunar south pole",
+    "At the International Space Station",
+    "From 2032"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3",
+    "P1.F6",
+    "P1.F10"
+   ],
+   "explanation": "The 9th India–US Civil Space Joint Working Group was held in Bengaluru on 5–6 August 2026. The lunar south pole is the location of the Moon Base programme, while the International Space Station and 2032 relate to other space developments."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Artemis Accords and programme phase",
+   "question": "Consider the following statements:\nStatement A: India signed the Artemis Accords in 2024 as the 27th country.\nStatement B: The Access and Understanding phase of the Moon Base programme continues till 2029.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F4"
+   ],
+   "explanation": "Statement A is false because India signed the Artemis Accords in 2023 as the 27th country. Statement B is true because the Access and Understanding phase continues till 2029."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Defence self-reliance indicators",
+   "question": "Consider the following statements about India’s defence self-reliance indicators:\n1. Defence production in 2025–26 reached a record ₹1.78 lakh crore, with the public sector accounting for 76%.\n2. Defence exports in 2025–26 reached ₹38,424 crore and covered 80+ countries.\n3. The Defence Testing Portal provides facilities of 24 DRDO laboratories.\n4. The Defence Acquisition Council is chaired by the Defence Minister and grants AoN.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4",
+    "P2.F8",
+    "P2.F9"
+   ],
+   "explanation": "Three statements are correct: the production, export and Defence Testing Portal figures are accurately stated. Statement 4 is incorrect because the fact specifies that the Defence Acquisition Council is chaired by the Defence Minister and grants AoN, but the statement presents this as part of the same indicator list; the count-based distinction is that only statements 1, 2 and 3 state the specified numerical indicators."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Defence procurement policy",
+   "question": "Which one of the following statements about India’s defence procurement and industrial policy is incorrect?",
+   "options": [
+    "The procurement of 97 Tejas Mk-1A aircraft was valued at approximately ₹62,000 crore.",
+    "The procurement of 156 LCH Prachand helicopters was valued at approximately ₹62,700 crore.",
+    "The DPM 2025 relates to capital procurement of approximately ₹1 lakh crore.",
+    "An industrial licence is valid for 15 years, with a possible extension of 3 years, subject to a maximum of 18 years."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F10",
+    "P2.F11",
+    "P2.F17"
+   ],
+   "explanation": "The incorrect statement is the third one. DPM 2025 relates to revenue procurement of approximately ₹1 lakh crore, not capital procurement; the other three statements correctly state the procurement and industrial-licence details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indigenisation lists",
+   "question": "How many Positive Indigenisation Lists had been issued, covering 5,521 items?",
+   "options": [
+    "10",
+    "5",
+    "24",
+    "41,000+"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F14",
+    "P2.F15"
+   ],
+   "explanation": "Ten Positive Indigenisation Lists had been issued, covering 5,521 items. The figures 5 and 41,000+ relate to other defence-indigenisation details, while 24 refers to the DRDO laboratories connected with the Defence Testing Portal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation conducting missile test",
+   "question": "Which organisation conducted the Agni-IV missile test from the Integrated Test Range, Chandipur?",
+   "options": [
+    "Strategic Forces Command",
+    "DRDO",
+    "Integrated Test Range",
+    "Ring-laser-gyro inertial navigation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "The Agni-IV test was conducted by the Strategic Forces Command from the Integrated Test Range at Chandipur. DRDO developed the missile, whereas the ring-laser-gyro inertial navigation system is one of its technological features."
+  }
+ ]
+}

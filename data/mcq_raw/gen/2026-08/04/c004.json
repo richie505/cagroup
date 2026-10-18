@@ -1,0 +1,59 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Award/recognition",
+   "question": "Which State's natural farming initiative won the Food Planet Prize 2026?",
+   "options": [
+    "Andhra Pradesh",
+    "Sri Lanka",
+    "National Mission on Natural Farming",
+    "PM-PRANAM"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F8"
+   ],
+   "explanation": "Andhra Pradesh natural farming won the Food Planet Prize 2026. Sri Lanka is associated with the lesson of a sudden fertiliser ban, while the National Mission on Natural Farming and PM-PRANAM are policy initiatives, not the award-winning State initiative."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Reason for policy appeal",
+   "question": "Assertion (A): The Prime Minister appealed for a shift towards natural farming.\nReason (R): The appeal was made amid fertiliser and El Niño risks.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "Both the appeal for a shift towards natural farming and its context of fertiliser and El Niño risks are correct. The fertiliser and El Niño risks explain why the shift was advocated, making Reason the correct explanation of Assertion."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Natural farming practices",
+   "question": "Consider the following statements about natural farming practices:\n1. Jeevamrutha is a fermented microbial solution prepared using cow dung, urine, jaggery, pulse flour and soil.\n2. Bijamrutha is used for seed treatment and contains dung, urine, lime and soil.\n3. Acchadana refers to mulching.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4",
+    "P5.F5"
+   ],
+   "explanation": "All three statements are correct: Jeevamrutha is the fermented microbial solution, Bijamrutha is the seed-treatment input, and Acchadana means mulching. The options excluding statement 2 or statement 3 are incorrect because those statements accurately describe the respective natural farming practices."
+  }
+ ]
+}

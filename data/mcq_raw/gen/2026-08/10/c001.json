@@ -1,0 +1,173 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Winner and first achievement",
+   "question": "Who won the men's singles title at the BWF World Badminton Championships 2026 in New Delhi and became the first French champion in the event?",
+   "options": [
+    "Alex Lanier",
+    "Kodai Naraoka",
+    "An Se-young",
+    "Liang Weikeng"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2"
+   ],
+   "explanation": "Alex Lanier of France won the men's singles title after defeating Kodai Naraoka. He became the first French champion in the event; An Se-young won the women's singles title."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Hosting and Indian medal milestone",
+   "question": "Consider the following statements about the BWF World Badminton Championships 2026:\n1. India hosted the Championships for the second time.\n2. Alex Lanier became the second French champion in men's singles.\n3. Treesa Jolly and Gayatri Gopichand won India's first women's doubles medal in 15 years.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "All three statements are incorrect"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F7"
+   ],
+   "explanation": "Exactly one statement is correct: India hosted the Championships for the second time, while Treesa Jolly and Gayatri Gopichand won India's first women's doubles medal in 15 years. Alex Lanier was the first, not the second, French champion in men's singles."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Men's World Cup winner",
+   "question": "Which team won the men's title at the FIH Hockey World Cup 2026?",
+   "options": [
+    "Germany",
+    "Spain",
+    "Argentina",
+    "Netherlands"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "Germany won the men's FIH Hockey World Cup 2026 by defeating Spain 1–0. Argentina won the bronze medal after defeating the Netherlands."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First Indian achievement",
+   "question": "R. Praggnanandhaa created which landmark achievement at the Grand Chess Tour Finals in St. Louis in 2026?",
+   "options": [
+    "He became the first Indian to win the Grand Chess Tour",
+    "He became the first Indian to win the Canissa Open",
+    "He became the first Indian to win the Esports World Cup chess title",
+    "He became the first Indian to win the St. Louis Rapid & Blitz"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F4",
+    "P4.F5"
+   ],
+   "explanation": "R. Praggnanandhaa became the first Indian to win the Grand Chess Tour after defeating Fabiano Caruana 15–13 in the finals. The Canissa Open was won by M. Pranesh, while Magnus Carlsen won the Esports World Cup chess title."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Test cricket record",
+   "question": "Who became the first Indian and the fourth player to hit 100 Test sixes?",
+   "options": [
+    "Rishabh Pant",
+    "Ben Stokes",
+    "Brendon McCullum",
+    "Adam Gilchrist"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "Rishabh Pant became the first Indian and the fourth player to reach 100 Test sixes, doing so in his 51st Test against Sri Lanka. Ben Stokes, Brendon McCullum and Adam Gilchrist were the other players listed with 100 or more Test sixes."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First Indian woman since 2008",
+   "question": "Consider the following statements about Tanvi Sharma's Taipei Open victory:\nStatement A: Tanvi Sharma was 18 years old when she won the women's singles title.\nStatement B: She became the first Indian woman since Saina Nehwal in 2008 to win the Taipei Open.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "Statement A is false because Tanvi Sharma was 17 when she won the title. Statement B is true: she became the first Indian woman since Saina Nehwal in 2008 to win the Taipei Open."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Durand Cup winner and final result",
+   "question": "Assertion (A): East Bengal FC last won the Durand Cup in 2006.\nReason (R): East Bengal FC defeated Mohun Bagan Super Giant 4–1 in the 2026 final.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "Assertion A is false because East Bengal FC last won the Durand Cup in 2004. Reason R is true: East Bengal defeated Mohun Bagan Super Giant 4–1 in the 2026 final."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Medal tally and venue",
+   "question": "How many of the following statements about India's performance at the Commonwealth Fencing Championships 2026 are correct?\n1. India won 13 gold medals.\n2. India won 8 silver medals.\n3. India won 14 bronze medals.\n4. The Championships were held at Thyagaraj Stadium, New Delhi.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "Only three statements are correct: India won 13 gold, 8 silver and 14 bronze medals. The Championships were held in Lagos, Nigeria, not at Thyagaraj Stadium, New Delhi."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Team titles and venue",
+   "question": "Which of the following statements about the 22nd Commonwealth Table Tennis Championships is incorrect?",
+   "options": [
+    "The event was held at Thyagaraj Stadium, New Delhi.",
+    "The Championships were held from 27 July to 2 August 2026.",
+    "India defeated Malaysia 3–0 in the men's team final.",
+    "India defeated Malaysia 3–0 in the women's team final."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2",
+    "P9.F3"
+   ],
+   "explanation": "The incorrect statement is that India defeated Malaysia 3–0 in the men's team final. The men's final ended 3–2, while the women's team defeated Malaysia 3–0; the event was held at Thyagaraj Stadium from 27 July to 2 August 2026."
+  }
+ ]
+}

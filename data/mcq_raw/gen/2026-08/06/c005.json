@@ -1,0 +1,80 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  21,
+  22
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First facility and organisation",
+   "question": "Which organisation established India’s first QPU fabrication facility for superconducting quantum processors?",
+   "options": [
+    "QpiAI, Bengaluru",
+    "Ahisa Digital Innovations, Bengaluru",
+    "L&T-NxT with Vyoma, Chennai",
+    "Hindalco, Belagavi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F2"
+   ],
+   "explanation": "QpiAI, Bengaluru established India’s first QPU fabrication facility for superconducting quantum processors. Ahisa Digital Innovations is associated with the Vihaan broadband SoC, while L&T-NxT with Vyoma established a single-cluster AI facility."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Industry and research firsts",
+   "question": "With reference to industry and research firsts reported in August 2026, consider the following statements:\n1. The first utility-scale indigenous Iron–Air battery pilot was established at NTPC Simhadri STPS, Visakhapatnam.\n2. Hindalco’s superfine PPT ATH plant is located at Belagavi in Karnataka.\n3. V.O. Chidambaranar Port obtained 95% of its power from renewables during 2025–26.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F3",
+    "P21.F5",
+    "P21.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Iron–Air battery pilot is at NTPC Simhadri STPS, Visakhapatnam, and Hindalco’s plant is at Belagavi. Statement 3 is incorrect because V.O. Chidambaranar Port obtained 93.89% of its power from renewables during 2025–26, not 95%."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Military exercise and participating countries",
+   "question": "Assertion (A): Exercise Udara Shakti 2026 is being conducted between India and Malaysia.\nReason (R): Exercise Maitree-XV is being conducted between India and Thailand.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P22.F1",
+    "P22.F2"
+   ],
+   "explanation": "Both statements are true: Udara Shakti 2026 involves India and Malaysia, while Maitree-XV involves India and Thailand. However, Maitree-XV does not explain the participating countries of Udara Shakti 2026."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Military exercise details",
+   "question": "With reference to military and maritime exercises conducted in August 2026, consider the following statements:\n1. Maitree-XV was held at Vibhavadi Rangsit Camp, Surat Thani.\n2. The 8th IN–USN EOD Exercise was held at Chennai.\n3. Sahyog Hop Tac was first conducted in 2019.\n4. Rotor Clap-3 focused on counter-ship operations.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P22.F2",
+    "P22.F3",
+    "P22.F4",
+    "P22.F5"
+   ],
+   "explanation": "Only one statement is correct: Maitree-XV was held at Vibhavadi Rangsit Camp, Surat Thani. The IN–USN EOD Exercise was held at Kochi, Sahyog Hop Tac was first conducted in 2018, and Rotor Clap-3 focused on counter-UAS operations."
+  }
+ ]
+}

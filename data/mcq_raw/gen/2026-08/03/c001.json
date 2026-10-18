@@ -1,0 +1,138 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First cooperative ride-hailing platform",
+   "question": "Which platform was established as India's first cooperative-based ride-hailing platform under the Multi-State Cooperative Societies Act, 2002?",
+   "options": [
+    "Bharat Taxi",
+    "Sarathi Didi",
+    "Bike Didi",
+    "National Cooperative Export Ltd"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F3",
+    "P2.F8"
+   ],
+   "explanation": "Bharat Taxi is India's first cooperative-based ride-hailing platform, set up on 6 June 2025 under the Multi-State Cooperative Societies Act, 2002. Sarathi Didi and Bike Didi are service models associated with Bharat Taxi, while National Cooperative Export Ltd is one of its founding organisations."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Cooperative business model",
+   "question": "Which of the following statements about the Bharat Taxi model is incorrect?",
+   "options": [
+    "Bharat Taxi follows a zero-commission and surge-free model.",
+    "Twenty per cent of earnings is credited as Sarathis' capital, while 80% is shared according to kilometres.",
+    "A 7% charge is levied only at airport prepaid booths.",
+    "Members contribute ₹100 each and obtain ownership with a contribution of ₹500."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "The incorrect statement is the first one because Bharat Taxi is described as zero-commission and surge-free; the option changes the model by presenting it as a general commission-based arrangement. The other statements correctly describe the earnings distribution, airport prepaid-booth charge and ownership contribution."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Launch and implementing ministry",
+   "question": "Assertion (A): The National Animal Disease Control Programme was launched in September 2019.\nReason (R): The National Animal Disease Control Programme was launched in September 2024.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F8"
+   ],
+   "explanation": "Assertion A is true because NADCP was launched in September 2019 by the Ministry of Fisheries, Animal Husbandry and Dairying. Reason R is false; 2024 relates to the Pandemic Fund Project, not the launch of NADCP."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Disease-control strategy and umbrella programme",
+   "question": "Consider the following statements about the National Animal Disease Control Programme:\n1. Foot and Mouth Disease has serotypes O, A and Asia-1, with vaccination planned for 100% of eligible livestock twice a year.\n2. Brucellosis is caused by Brucella abortus, with one-time vaccination for female calves aged 4–8 months.\n3. The Livestock Health and Disease Control Programme has an allocation of ₹2,010 crore for 2024–25.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3",
+    "P3.F4",
+    "P3.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: NADCP targets FMD and Brucellosis through the stated vaccination strategies. Statement 3 is incorrect because the ₹2,010 crore allocation for the Livestock Health and Disease Control Programme is for 2026–27, not 2024–25."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Misleading food claims",
+   "question": "Which of the following statements regarding the FSSAI action against misleading food claims is incorrect?",
+   "options": [
+    "FSSAI issued more than 150 notices concerning misleading advertisements, false claims and labelling.",
+    "Mondelez India withdrew health and nutrient-comparison claims on Bournvita.",
+    "In May 2025, FSSAI advised stopping the use of the expression “Energy Drink” on labels.",
+    "The action covered labels, advertisements, e-commerce listings and delivery platforms."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F3",
+    "P4.F4",
+    "P4.F5"
+   ],
+   "explanation": "The third statement is incorrect because in May 2025 FSSAI advised stopping the use of “100%” on labels. “Energy Drink” was dropped by Amway India from XS, not identified as the expression covered by that May 2025 advisory."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Five-year milestone and database identity",
+   "question": "Consider the following statements about the e-Shram portal:\nStatement A: It is India's first Aadhaar-authenticated National Database of Unorganised Workers, and each worker receives a 12-digit UAN.\nStatement B: The portal was launched on 26 August 2021 and completed five years on 26 August 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2"
+   ],
+   "explanation": "Both statements are true. e-Shram is India's first Aadhaar-authenticated National Database of Unorganised Workers with a 12-digit UAN, and its launch on 26 August 2021 marked five years on 26 August 2026."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Jan Dhan account features and scale",
+   "question": "How many of the following statements about the Pradhan Mantri Jan Dhan Yojana are correct?\n1. Jan Dhan accounts have no minimum-balance requirement.\n2. The scheme provides a RuPay debit card and insurance facilities.\n3. It forms part of the JAM trinity and enables Direct Benefit Transfer.\n4. The average balance is approximately ₹3.17 lakh per account.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "Only three statements are correct: statements 1, 2 and 3 accurately describe Jan Dhan features and its role in the JAM trinity. Statement 4 is incorrect because ₹3.17 lakh crore refers to aggregate deposits, while the average is ₹5,356 per account."
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Winners and fields",
+   "question": "With reference to the 68th Ramon Magsaysay Awards 2026, consider the following statements:\n1. Tommy Koh of Singapore received the award for public service.\n2. Runa Khan of India received the award for community empowerment.\n3. Bo Kyi of Thailand received the award for human-rights advocacy.",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "No statement is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "Exactly one statement is correct: Tommy Koh of Singapore received the award for public service. Runa Khan is from Bangladesh, not India, and Bo Kyi is from Myanmar, not Thailand."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Highest civilian honour",
+   "question": "The Oliy Darajali Do'stlik Order conferred on Prime Minister Narendra Modi by Uzbekistan is best described as which of the following?",
+   "options": [
+    "Uzbekistan's highest civilian honour",
+    "Uzbekistan's highest military honour",
+    "Uzbekistan's highest judicial honour",
+    "Uzbekistan's highest literary honour"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "The Oliy Darajali Do'stlik Order is Uzbekistan's highest civilian honour. It was conferred by President Shavkat Mirziyoyev in Tashkent, and “Do'stlik” means friendship."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Announcement and co-recipients",
+   "question": "Assertion (A): The 2026 Dirac Medal was announced by the Abdus Salam ICTP on 9 August 2026.\nReason (R): Deepak Dhar shared the medal with Bernard Derrida, Marc Mézard and Haim Sompolinsky.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2"
+   ],
+   "explanation": "Assertion A is false because the 2026 Dirac Medal was announced on 8 August 2026. Reason R is true: Deepak Dhar shared it with Bernard Derrida, Marc Mézard and Haim Sompolinsky."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First Indian woman recipient",
+   "question": "What distinction did Prof. Annapurni Subramaniam achieve through the COSPAR Vikram Sarabhai Medal 2026?",
+   "options": [
+    "She became the first Indian woman and third woman globally to receive it",
+    "She became the first Indian man and third man globally to receive it",
+    "She became the first Indian woman and second woman globally to receive it",
+    "She became the first Indian woman and fourth woman globally to receive it"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "Prof. Annapurni Subramaniam became the first Indian woman and the third woman globally to receive the COSPAR Vikram Sarabhai Medal. She is the Director of the Indian Institute of Astrophysics, Bengaluru."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First Indian recipient and venue",
+   "question": "Who became the first Indian writer to receive the Lifetime Libertarian Award of Liberty International?",
+   "options": [
+    "Gurucharan Das at the 40th World Conference in Kathmandu",
+    "Gurucharan Das at the 40th World Conference in Colombo",
+    "Gurucharan Das at the 30th World Conference in Kathmandu",
+    "Gurucharan Das at the 40th World Conference in Bengaluru"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "Gurucharan Das became the first Indian writer to receive the Lifetime Libertarian Award of US-based Liberty International. The award was presented at its 40th World Conference in Kathmandu on 8 August 2026."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "International honours to Indians",
+   "question": "Consider the following statements:\nStatement A: Dr L. Subramaniam received Sri Lanka's highest civilian honour in Kathmandu.\nStatement B: Gen. Dhiraj Seth was made honorary General of the Sri Lankan Army.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2"
+   ],
+   "explanation": "Both statements are false. Dr L. Subramaniam received Sri Lanka's highest civilian honour in Colombo, while Gen. Dhiraj Seth was appointed honorary General of the Nepali Army."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Winner and state",
+   "question": "Who won Miss Universe India 2026 at the pageant held in Jaipur?",
+   "options": [
+    "Kazia Liz Mejo of Kerala",
+    "Vaishnavi Ganesh of Tamil Nadu",
+    "Anushree Satavlekar of Gujarat",
+    "Sushmita Sen of West Bengal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "Kazia Liz Mejo, a law student from Kerala, won Miss Universe India 2026 in Jaipur on 23 August 2026. Vaishnavi Ganesh was the first runner-up, while Anushree Satavlekar was the second runner-up."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Number and composition of awards",
+   "question": "With reference to the National Handloom and Sant Kabir Handloom Awards 2025, how many of the following statements are correct?\n1. The awards were presented by President Droupadi Murmu.\n2. The event comprised 22 awards, including 3 Sant Kabir and 19 National Handloom Awards.\n3. The Sant Kabir Handloom Award carried a prize of ₹3.50 lakh.\n4. The National Handloom Award carried a prize of ₹3 lakh.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "Only three statements are correct. The awards were presented by President Droupadi Murmu, comprised 22 awards, and the Sant Kabir Handloom Award carried ₹3.50 lakh; the National Handloom Award carried ₹2 lakh, not ₹3 lakh."
+  }
+ ]
+}

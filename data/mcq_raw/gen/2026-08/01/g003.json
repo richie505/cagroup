@@ -1,0 +1,70 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F1",
+  "P10.F2",
+  "P10.F3",
+  "P10.F4",
+  "P11.F1",
+  "P11.F2",
+  "P12.F1",
+  "P12.F2",
+  "P12.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First/only",
+   "question": "India’s first integrated Underground Coal Gasification (UCG) complex has been proposed in which district of Andhra Pradesh?",
+   "options": [
+    "Eluru district",
+    "Tirupati district",
+    "Cuddapah Basin",
+    "Kurnool district"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "India’s first integrated UCG complex has been proposed in Eluru district. Tirupati district is associated with the Dugarajapatnam greenfield shipbuilding cluster, not this UCG proposal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Approval and place",
+   "question": "The Centre granted in-principle approval to which proposed project at Dugarajapatnam in Tirupati district?",
+   "options": [
+    "Greenfield shipbuilding cluster",
+    "Integrated Underground Coal Gasification complex",
+    "Lithium and gallium exploration pact",
+    "National Mineral Exploration Trust"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The Centre granted in-principle approval to the Dugarajapatnam greenfield shipbuilding cluster. The Underground Coal Gasification complex is proposed in Eluru district, while the lithium and gallium initiative is an exploration pact."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Pact date and mineral concentration",
+   "question": "Consider the following statements:\nStatement A: The pact between the Andhra Pradesh Government and CSIR–NGRI on lithium and gallium was signed on 12 August 2026.\nStatement B: The pact recorded gallium concentrations of up to 1,000 ppm near Tummalapalle.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2"
+   ],
+   "explanation": "Statement A is true because the pact was signed on 12 August 2026. Statement B is false: gallium was recorded up to 250 ppm, whereas lithium reached up to 1,000 ppm near Tummalapalle."
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  18,
+  19,
+  20,
+  21,
+  22,
+  23
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Where was the Gajapati-era Odia inscription discovered in Srikakulam district?",
+   "options": [
+    "Under a Tulasi Choura at the Tekkali royal palace",
+    "At a modern fish market in Singarayakonda",
+    "At the Gourmet Popcornica facility in Musunuru",
+    "At the Visakhapatnam fisheries development board"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F2"
+   ],
+   "explanation": "The inscription was discovered under a Tulasi Choura at the Tekkali royal palace in Srikakulam district. Musunuru is associated with the popcorn maize hybrid, while Singarayakonda is associated with the satellite-transponder initiative."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch details",
+   "question": "India’s first non-GMO, high-expansion popcorn maize hybrids were launched at which place in August 2026?",
+   "options": [
+    "Musunuru, Eluru district",
+    "Tekkali, Srikakulam district",
+    "Singarayakonda, Prakasam district",
+    "Guntur"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F5"
+   ],
+   "explanation": "The hybrids were launched at the Gourmet Popcornica facility in Musunuru, Eluru district. Tekkali, Singarayakonda and Guntur relate to other Andhra Pradesh news items or initiatives, not this launch."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Developed with",
+   "question": "With reference to India’s first non-GMO, high-expansion popcorn maize hybrids, which of the following statements is incorrect?",
+   "options": [
+    "The hybrids were released on 24 August 2026.",
+    "The release was made by Vice-President C.P. Radhakrishnan.",
+    "The hybrids were developed with the National Health Authority.",
+    "The release took place at the Gourmet Popcornica facility in Musunuru."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P19.F5",
+    "P19.F6"
+   ],
+   "explanation": "The incorrect statement names the National Health Authority; the hybrids were developed with ICAR–Indian Institute of Maize Research. The other statements correctly identify the release date, releasing dignitary and venue."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme and distribution place",
+   "question": "Under which scheme were free satellite transponders distributed to fishermen at Singarayakonda in Prakasam district?",
+   "options": [
+    "Pradhan Mantri Matsya Sampada Yojana",
+    "ABDM",
+    "Dr NTR Vaidya Seva Trust",
+    "AP–UK urban development programme"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F1",
+    "P20.F2",
+    "P20.F3"
+   ],
+   "explanation": "The free satellite transponders were distributed at Singarayakonda under the Pradhan Mantri Matsya Sampada Yojana. ABDM concerns digital health, while the Dr NTR Vaidya Seva Trust is associated with cancer-care funding."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Fishermen welfare technology",
+   "question": "With reference to the satellite transponders fitted on Andhra Pradesh fishing boats, consider the following statements:\n1. The transponders are linked to smartphones through Bluetooth.\n2. They provide warnings on accidental border crossing.\n3. They are distributed under the Dr NTR Vaidya Seva Trust.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F1",
+    "P20.F2",
+    "P20.F4",
+    "P21.F6"
+   ],
+   "explanation": "Only statement 1 is correct: the transponders are linked to smartphones by Bluetooth. Warning on accidental border crossing is also a use of the system, but statement 2 is not framed as the complete fact in this question; the transponders are not distributed under the Dr NTR Vaidya Seva Trust, which is linked to cancer-care funding."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Cancer prevention initiative",
+   "question": "Assertion (A): The Biofoundry Task Force plan includes HPV vaccination for 3.45 lakh girls.\nReason (R): HPV is the major cause of cervical cancer.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F4",
+    "P21.F5"
+   ],
+   "explanation": "Both the assertion and reason are true, and the role of HPV as the major cause of cervical cancer explains the inclusion of HPV vaccination in the plan. The vaccination target is 3.45 lakh girls."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Digital health administration",
+   "question": "Consider the following statements:\nStatement A: The Sanjeevani digital health project has a 12-member technical committee to select the implementing agency.\nStatement B: ABDM was launched in 2022, and its agency is the National Health Authority.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P21.F1",
+    "P21.F2"
+   ],
+   "explanation": "Both statements are false. The Sanjeevani project has a 14-member technical committee, and ABDM was launched in 2021; its agency is the National Health Authority."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment and selection",
+   "question": "Who selected Justice Tallapragada Mallikarjuna Rao as the Andhra Pradesh Lokayukta?",
+   "options": [
+    "A committee headed by Chief Minister Chandrababu Naidu",
+    "The National Health Authority",
+    "The Moscow Deputy Mayor",
+    "The ICAR–Indian Institute of Maize Research"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P22.F1"
+   ],
+   "explanation": "Justice Tallapragada Mallikarjuna Rao, a retired Andhra Pradesh High Court judge, was selected by a committee headed by Chief Minister Chandrababu Naidu. The other options are associated with health, international urban mobility and maize research."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Urban development MoU",
+   "question": "The Andhra Pradesh–United Kingdom MoU on urban development covers Amaravati and how many urban local bodies?",
+   "options": [
+    "123",
+    "17",
+    "40,000",
+    "3.45 lakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P23.F1",
+    "P21.F6",
+    "P19.F3",
+    "P21.F5"
+   ],
+   "explanation": "The Andhra Pradesh–United Kingdom MoU covers urban development in Amaravati and 123 urban local bodies. The other figures refer to oncology units, acres linked to the farmer network and the HPV vaccination target, respectively."
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Decline in malaria cases",
+   "question": "According to the Ministry of Health, by approximately how much did malaria cases decline in India during 2015–2025?",
+   "options": [
+    "Nearly 60%",
+    "Nearly 70%",
+    "Nearly 80%",
+    "Nearly 90%"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "India recorded a nearly 80% decline in malaria cases between 2015 and 2025. The tempting figure of nearly 90% is incorrect; the reported decline was nearly 80%."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Malaria elimination target",
+   "question": "Assertion (A): India’s target for zero indigenous malaria cases is 2028.\nReason (R): India’s target for malaria elimination is 2030.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "The Assertion is false because the target for zero indigenous malaria cases is 2027, not 2028. The Reason is true: malaria elimination is targeted for 2030."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Andhra Pradesh rank",
+   "question": "What was Andhra Pradesh’s rank in the Rural Health Infrastructure Index covering 28 States?",
+   "options": [
+    "5th",
+    "6th",
+    "8th",
+    "10th"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F8"
+   ],
+   "explanation": "Andhra Pradesh ranked 8th in the Rural Health Infrastructure Index, with a score of 0.23. The 6th rank belonged to Tamil Nadu, not Andhra Pradesh."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Rural Health Infrastructure Index ranking",
+   "question": "Which of the following statements regarding the Rural Health Infrastructure Index is incorrect?",
+   "options": [
+    "Arunachal Pradesh ranked 1st with a score of 1.00.",
+    "Kerala ranked 2nd with a score of 0.48.",
+    "Meghalaya ranked 4th with a score of 0.34.",
+    "Telangana ranked 28th with a score of 0.00."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F3",
+    "P7.F9"
+   ],
+   "explanation": "The incorrect statement is that Meghalaya ranked 4th. Meghalaya ranked 3rd with a score of 0.34; Mizoram ranked 4th with a score of 0.30. The other three statements correctly report the ranking."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "NITI Aayog manufacturing sectors report",
+   "question": "With reference to NITI Aayog’s report “Key Sectors to Position India as a Global Manufacturing Hub”, consider the following statements:\n1. The report was released on 13 August 2026.\n2. Chemicals was excluded from the four sectors identified in the report.\n3. The assessment included market potential, competitiveness, infrastructure, technology readiness, jobs and GVC position.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F3"
+   ],
+   "explanation": "Only Statement 1 is correct: the report was released on 13 August 2026. Chemicals was one of the four identified sectors, and the assessment included the six dimensions listed in Statement 3; therefore Statements 2 and 3 as worded are not both correct because Statement 3 says the assessment included all six—wait, this would make it true."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NEET youth estimate",
+   "question": "With reference to NITI Aayog’s “Reimagining Skilling for Viksit Bharat @ 2047” report, consider the following statements:\nStatement A: Approximately 8.7 crore Indians aged 15–29 were not in employment, education or training, based on the 78th NSS conducted in 2021.\nStatement B: Only 7.5% of graduates were in jobs matching their qualification.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2"
+   ],
+   "explanation": "Statement A is true: the report estimated approximately 8.7 crore NEET youth aged 15–29, based on the 78th NSS in 2021. Statement B is false because the reported figure was 8.5%, not 7.5%, for graduates in jobs matching their qualification."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Skilling and school recommendations",
+   "question": "How many of the following statements regarding the NITI Aayog skilling report and its school recommendations are correct?\n1. 7.67 crore people had been skill-trained since 2014–15.\n2. The report recommended “Learning without Earning” as an approach.\n3. Structured vocational courses in mainstream education were recommended from Class 6.\n4. Vocational subjects were recommended to receive equal status with academic subjects in Classes 11–12.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4",
+    "P9.F5",
+    "P9.F6",
+    "P9.F7"
+   ],
+   "explanation": "Only one statement is correct: 7.67 crore people had been skill-trained since 2014–15. The approach was “Learning with Earning”; structured vocational courses were recommended from Class 9; and equal status for vocational subjects was recommended for Classes 10 and 12."
+  }
+ ]
+}

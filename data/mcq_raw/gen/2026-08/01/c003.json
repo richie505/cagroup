@@ -1,0 +1,151 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "State allocation",
+   "question": "Under the regional action plan for human–elephant conflict, how much funding has been allocated to Andhra Pradesh over five years?",
+   "options": [
+    "₹169.98 crore",
+    "₹999.87 crore",
+    "₹500 crore",
+    "₹130 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "Andhra Pradesh has been allocated ₹169.98 crore over five years under the regional action plan. The ₹999.87 crore figure is the combined allocation for four States, while ₹500 crore is the Central share of that total."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Assessment and report release",
+   "question": "Consider the following statements regarding the regional action plan for human–elephant conflict in Andhra Pradesh:\n\n1. The assessment was undertaken by the Project Elephant Division of MoEFCC and the Wildlife Institute of India.\n2. The report was released in Visakhapatnam on World Elephant Day.\n3. Andhra Pradesh received the largest State share of the plan, at 20%.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3",
+    "P8.F5",
+    "P8.F7",
+    "P8.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the assessment involved the Project Elephant Division and the Wildlife Institute of India, and the report was released in Visakhapatnam on World Elephant Day. Statement 3 is incorrect because Kerala received 20%, while Andhra Pradesh received 17%; Karnataka had the largest share at 38%."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Conflict-mitigation measures",
+   "question": "Which of the following statements regarding measures for mitigating human–elephant conflict in Andhra Pradesh is incorrect?",
+   "options": [
+    "The Gaja Praja app enables reporting of elephant movement and filing of compensation claims.",
+    "The State has planned 735 km of elephant-proof trenches.",
+    "Solar fencing is included among the measures.",
+    "The State has planned 573 km of elephant-proof trenches."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F14"
+   ],
+   "explanation": "The incorrect statement is the one mentioning 573 km. The plan provides for 735 km of elephant-proof trenches, along with the Elephant Task Force, the Gaja Praja app and solar fencing."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Project location and role",
+   "question": "What is the proposed role of Orvakal Drone City in Kurnool district?",
+   "options": [
+    "A national hub for drone manufacturing, research and development, testing and training",
+    "A national hub for shipbuilding, port operations, testing and training",
+    "A national hub for coal gasification, mining, testing and training",
+    "A national hub for lithium extraction, refining, testing and training"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "Orvakal Drone City in Kurnool district is planned as a national hub for drone manufacturing, research and development, testing and training. Shipbuilding, coal gasification and lithium extraction are associated with other Andhra Pradesh projects, not this initiative."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Project land",
+   "question": "Consider the following statements about Orvakal Drone City:\nStatement A: The project has identified 600 acres of land.\nStatement B: The project has identified 300 acres of land.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "Statement A is true because Orvakal Drone City has a land indicator of 600 acres. Statement B is false; 300 acres is not the identified land value for the project."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First integrated UCG complex",
+   "question": "Assertion (A): Reliance has proposed India’s first integrated Underground Coal Gasification complex in Eluru district.\nReason (R): Underground Coal Gasification converts coal in situ into syngas consisting of hydrogen and carbon monoxide.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F4"
+   ],
+   "explanation": "Both the assertion and the reason are true. The proposal is for India’s first integrated UCG complex in Eluru district, while the reason describes the UCG process; it does not explain why this project is the first integrated complex."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "In-principle approval and cost",
+   "question": "Which project received in-principle approval from the Centre at Dugarajapatnam in Tirupati district?",
+   "options": [
+    "A greenfield shipbuilding cluster costing about ₹29,254 crore",
+    "An underground coal gasification complex costing about ₹2.73 lakh crore",
+    "A drone city requiring about ₹130 crore of secured investment",
+    "A lithium and gallium exploration project costing ₹140 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P10.F2",
+    "P9.F4",
+    "P12.F3"
+   ],
+   "explanation": "The Centre gave in-principle approval for a greenfield shipbuilding cluster at Dugarajapatnam, with an estimated cost of about ₹29,254 crore. The other options refer to the Eluru UCG proposal, Orvakal Drone City and the lithium–gallium exploration pact."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Pact details",
+   "question": "How many of the following statements about the Andhra Pradesh–CSIR-NGRI pact on lithium and gallium exploration are correct?\n\n1. The pact was signed on 12 August 2026 between the Andhra Pradesh Government and CSIR-NGRI.\n2. CSIR-NGRI was established in 1961.\n3. The National Mineral Exploration Trust was established in 2016.\n4. The exploration project has a cost of ₹140 crore.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "Only two statements are correct: the pact was signed on 12 August 2026 between the Andhra Pradesh Government and CSIR-NGRI, and its cost is ₹140 crore. CSIR-NGRI was established in 1961, while the National Mineral Exploration Trust was established in 2015, not 2016."
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Himalayan share of forest fires",
+   "question": "According to the Parliamentary Standing Committee’s observations on forest fires, approximately what share of India’s forest fire incidents occurs in the Himalayas?",
+   "options": [
+    "17%",
+    "24%",
+    "54.40%",
+    "57%"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3"
+   ],
+   "explanation": "The Himalayas account for approximately 57% of forest fire incidents despite covering about 17% of the landmass. The tempting option 17% refers to the Himalayan share of landmass, not the share of fire incidents."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Forest-fire monitoring and types",
+   "question": "Which of the following statements regarding forest fires and their monitoring in India is incorrect?",
+   "options": [
+    "The peak forest-fire season is March to May.",
+    "AQUA and Suomi-NPP are foreign polar-orbiting satellites currently used for monitoring.",
+    "Crown fires are common in India.",
+    "Setting forests on fire is punishable under the Bharatiya Nyaya Sanhita, 2023."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F8",
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "The incorrect statement is that crown fires are common in India; crown fires are rare in India. The other statements correctly identify the peak season, satellites used for monitoring, and the legal provision under the Bharatiya Nyaya Sanhita, 2023."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Framework objective",
+   "question": "The Small River Rejuvenation Framework unveiled under the National Mission for Clean Ganga primarily proposes which approach?",
+   "options": [
+    "Nature-based, low-cost restoration",
+    "Only geomorphological correction through concrete channels",
+    "Only pollution control through inland waterways",
+    "High-cost restoration through a single dedicated fund"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F3"
+   ],
+   "explanation": "The framework proposes nature-based, low-cost restoration, including interventions for pollution, climate, connectivity and geomorphological correction. The other options wrongly restrict the framework to one intervention or introduce a funding approach not specified for it."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Definition and interventions for small rivers",
+   "question": "With reference to the Small River Rejuvenation Framework, consider the following statements:\n1. A small river is generally about 50–150 km long and lies within 1–2 districts.\n2. The framework includes connectivity among wetlands and floodplains.\n3. Geomorphological correction is among the proposed interventions.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "All three statements are correct. The framework defines small rivers as approximately 50–150 km long within 1–2 districts and includes wetland–floodplain connectivity and geomorphological correction among its interventions."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Definition of small river",
+   "question": "Assertion (A): Under the Small River Rejuvenation Framework, a small river generally extends for about 150–200 km.\nReason (R): The framework adopts a nature-based, low-cost restoration approach.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2"
+   ],
+   "explanation": "The assertion is false because a small river is defined as approximately 50–150 km long, not 150–200 km. The reason is true because the framework proposes nature-based, low-cost restoration."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Recognition by ICID",
+   "question": "Which organisation recognised Parichha Weir as a World Heritage Irrigation Structure on 13 August 2026?",
+   "options": [
+    "International Commission on Irrigation and Drainage",
+    "National Disaster Management Authority",
+    "National Mission for Clean Ganga",
+    "National Disaster Response Force"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F3"
+   ],
+   "explanation": "Parichha Weir was recognised on 13 August 2026 by the International Commission on Irrigation and Drainage (ICID). ICID was established in 1950 and has its headquarters in New Delhi; the other organisations are not the recognising body for this structure."
+  }
+ ]
+}
