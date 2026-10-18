@@ -1,0 +1,265 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F19",
+  "P0.F7",
+  "P0.F9",
+  "P1.F1",
+  "P1.F2",
+  "P1.F3",
+  "P1.F4",
+  "P2.F10",
+  "P2.F2",
+  "P2.F3",
+  "P2.F4",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Company acquisition",
+   "question": "In the Q1 FY26 highlights of India's power sector, which company acquired O2 Power?",
+   "options": [
+    "JSW Energy",
+    "Suzlon",
+    "Tata Power",
+    "ReNew Energy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7"
+   ],
+   "explanation": "JSW Energy acquired O2 Power in Q1 FY26. Suzlon, Tata Power and ReNew Energy were associated with other reported highlights, not this acquisition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rooftop systems",
+   "question": "How many rooftop systems did Tata Power report in its Q1 FY26 highlight?",
+   "options": [
+    "45,500",
+    "444",
+    "1.6 GW",
+    "2,716 MW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "Tata Power reported 45,500 rooftop systems in its Q1 FY26 highlight. The figures 444, 1.6 GW and 2,716 MW relate to other power companies or indicators."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Company highlights",
+   "question": "Match the companies with their Q1 FY26 highlights:\n\nList-I\n a. ReNew Energy\n b. ReNew Energy\n c. Borosil Renewables\n d. Borosil Renewables\n\nList-II\n i. Scope 1 and 2 emissions cut by 18% in FY25\n ii. Revenue increased by 70%\n iii. Slipped into loss\n iv. German arm filed for insolvency\n\nChoose the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "The correct pairs are ReNew Energy–18% emissions reduction, ReNew Energy–70% revenue growth, Borosil Renewables–loss, and Borosil Renewables’ German arm–insolvency filing. The other codes interchange these reported company highlights."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Net income leader",
+   "question": "Among the companies listed in the Q1 FY26 power-sector financial highlights, which recorded the highest net income?",
+   "options": [
+    "State Bank of India (₹216.3 billion)",
+    "Power Finance Corporation (₹89.8 billion)",
+    "Coal India (₹87.3 billion)",
+    "NTPC (₹61.1 billion)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "State Bank of India recorded the highest net income at ₹216.3 billion. Power Finance Corporation, Coal India and NTPC had lower reported net incomes of ₹89.8 billion, ₹87.3 billion and ₹61.1 billion respectively."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Loan-book growth",
+   "question": "Assertion (A): IREDA's loan book increased by 26% year-on-year.\nReason (R): PFC's loan book stood at ₹5.5 billion.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Assertion A is true: IREDA's loan book grew by 26% year-on-year. Reason R is false because PFC's loan book was ₹5.5 trillion, not ₹5.5 billion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Transmission order book",
+   "question": "What was the transmission order book of Adani Energy Solutions in the Q1 FY26 power-sector highlights?",
+   "options": [
+    "₹593 billion",
+    "₹5.5 trillion",
+    "₹89.8 billion",
+    "₹216.3 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "Adani Energy Solutions had a transmission order book of ₹593 billion. ₹5.5 trillion refers to PFC's loan book, while ₹89.8 billion and ₹216.3 billion are reported net-income figures for other entities."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Policy measures",
+   "question": "Consider the following statements regarding the policy backdrop for India's power sector:\n\n1. Viability Gap Funding was provided for 30 GWh of battery storage across 15 states.\n2. The pumped hydro target was set at 50 GW within eight years.\n3. Market coupling in the Day-Ahead Market was scheduled to begin in January 2027.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15",
+    "P0.F16",
+    "P0.F17"
+   ],
+   "explanation": "Only statement 1 is correct: the VGF provision covered 30 GWh of battery storage across 15 states. The pumped hydro target was 50 GW within six years, and Day-Ahead Market coupling was scheduled from January 2026."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Sector outlook and institutional status",
+   "question": "Consider the following statements:\nStatement A: India's electricity demand is expected to double by 2032, with capacity exceeding 1,000 GW and investment needs above US$500 billion.\nStatement B: IREDA is a Public Limited Government Company and an NBFC.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F18",
+    "P0.F19"
+   ],
+   "explanation": "Both statements are true. The power-sector outlook projected doubled demand by 2032, capacity above 1,000 GW and investment needs above US$500 billion; IREDA is a Public Limited Government Company and an NBFC."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Digital economy target",
+   "question": "What digital-economy target is associated with the cyber-fraud concerns highlighted in October 2025?",
+   "options": [
+    "US$1 trillion by 2030",
+    "US$500 billion by 2032",
+    "₹1 lakh crore by 2030",
+    "US$5.5 trillion by 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The target is a US$1 trillion digital economy by 2030. The other figures do not represent the stated digital-economy target."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cyber-fraud methods and mule accounts",
+   "question": "Consider the following statements about cyber frauds affecting India's digital economy:\n\n1. Phishing and remote access are among the identified fraud types.\n2. Mule accounts generally involve complete and genuine KYC and are used to layer stolen funds.\n3. “Digital arrests” involve impersonating police or customs officials.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct: phishing or remote access is a fraud method, and digital arrests involve impersonating police or customs officials. Statement 2 is incorrect because mule accounts involve incomplete or fake KYC and are used to layer stolen funds."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cyber-fraud case",
+   "question": "In the cited example of cyber fraud, how much did a retired banker lose through 21 transfers?",
+   "options": [
+    "₹23 crore",
+    "₹13,800 crore",
+    "₹9,000 crore",
+    "₹75,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "The retired banker lost ₹23 crore through 21 transfers. The other amounts relate to unclaimed financial assets, not this cyber-fraud example."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Campaign duration and strategy",
+   "question": "Consider the following statements about the “Your Capital, Your Right” campaign:\n\n1. It was scheduled from October to December 2025.\n2. It was led by the Reserve Bank of India.\n3. Its strategy was based on the 3 A's—Awareness, Accessibility and Action.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct: the campaign ran from October to December 2025 and followed the 3 A's of Awareness, Accessibility and Action. Statement 2 is incorrect because the campaign was led by the Department of Financial Services."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Campaign partners",
+   "question": "Which of the following was identified as a partner in the “Your Capital, Your Right” campaign?",
+   "options": [
+    "RRB Gujarat Gramin Bank",
+    "Coal India",
+    "Adani Energy Solutions",
+    "Institute for Energy Economics and Financial Analysis"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "RRB Gujarat Gramin Bank was among the partners in the campaign, along with RBI, SEBI, IRDAI, PFRDA and IEPFA. The other organisations are associated with power-sector reporting or company highlights, not the listed campaign partnership."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Unclaimed assets",
+   "question": "Consider the following statements regarding unclaimed financial assets identified in August 2025:\nStatement A: Approximately 172 crore shares were moved to the Investor Education and Protection Fund.\nStatement B: The total potential of the identified unclaimed financial assets was over ₹1 lakh crore.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "Both statements are true. Approximately 172 crore shares were moved to the IEPF, while the total potential of the identified unclaimed financial assets exceeded ₹1 lakh crore."
+  }
+ ]
+}

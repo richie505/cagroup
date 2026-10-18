@@ -1,0 +1,121 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": [
+  "P5.F11",
+  "P5.F12",
+  "P5.F3",
+  "P5.F4",
+  "P5.F5",
+  "P5.F6",
+  "P5.F7",
+  "P5.F8",
+  "P6.F3"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Agreements signed",
+   "question": "Which of the following statements regarding the agreements signed at the inaugural Australia–India Defence Ministers' Dialogue is correct?\n\n1. An Agreement on Information Sharing was signed.\n2. An MoU on Submarine Search and Rescue Cooperation was signed.\n3. The Agreement on Information Sharing was itself an MoU on Submarine Search and Rescue Cooperation.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the agreements included an Agreement on Information Sharing and an MoU on Submarine Search and Rescue Cooperation. Statement 3 incorrectly treats these as the same agreement."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Terms of Reference",
+   "question": "Consider the following statements:\nStatement A: The Terms of Reference for Joint Staff Talks was an MoU on Submarine Search and Rescue Cooperation.\nStatement B: Terms of Reference for Joint Staff Talks were among the three agreements signed at the inaugural Australia–India Defence Ministers' Dialogue.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F4",
+    "P5.F5"
+   ],
+   "explanation": "Statement A is false because the MoU concerned Submarine Search and Rescue Cooperation, whereas the Terms of Reference concerned Joint Staff Talks. Statement B is true because the Terms of Reference were one of the three agreements signed."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Roadmap",
+   "question": "What was the maritime-security outcome announced at the inaugural Australia–India Defence Ministers' Dialogue in Canberra?",
+   "options": [
+    "Joint Maritime Security Collaboration Roadmap",
+    "Agreement on Information Sharing",
+    "Terms of Reference for Joint Staff Talks",
+    "MoU on Submarine Search and Rescue Cooperation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "The maritime-security outcome was the Joint Maritime Security Collaboration Roadmap. The other options refer to agreements signed at the dialogue rather than the roadmap outcome."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence exercise invitation",
+   "question": "To which Australian submarine rescue exercise was India invited following the inaugural Australia–India Defence Ministers' Dialogue?",
+   "options": [
+    "Black Carillon",
+    "Talisman Sabre",
+    "Austrahind",
+    "Puk Puk"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F7"
+   ],
+   "explanation": "India was invited to Australia's submarine rescue exercise Black Carillon. Talisman Sabre, Austrahind and Puk Puk were mentioned as exercises, but the invitation specifically concerned Black Carillon."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Defence cooperation outcomes",
+   "question": "How many of the following statements regarding Australia–India defence cooperation are correct?\n\n1. The Air-to-Air Refuelling Agreement of 2024 was being operationalised.\n2. The third edition of AUSTRAHIND was held in November 2024 in Gujarat.\n3. Australia–India–Indonesia cooperation was described as the Quad.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F8",
+    "P5.F11",
+    "P5.F12"
+   ],
+   "explanation": "Only statement 1 is correct: the Air-to-Air Refuelling Agreement of 2024 was being operationalised. The third edition of AUSTRAHIND was held in November 2024 in Maharashtra, while Australia–India–Indonesia was identified as a trilateral and the Quad was separately mentioned."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defence cooperation amount",
+   "question": "Under the UK–India defence cooperation announced during the October 2025 visit, what was the value of the Implementing Arrangement for naval electric engines?",
+   "options": [
+    "£250 million",
+    "£350 million",
+    "£100 million",
+    "£1.3 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "The Implementing Arrangement for naval electric engines was worth £250 million. The £350 million figure related to the Lightweight Multirole Missiles deal, while £100 million and £1.3 billion referred to other investment figures."
+  }
+ ]
+}

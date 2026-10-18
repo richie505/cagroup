@@ -1,0 +1,195 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P6.F1",
+  "P6.F10",
+  "P6.F7",
+  "P6.F9",
+  "P7.F1",
+  "P7.F5",
+  "P7.F9",
+  "P8.F10",
+  "P8.F11",
+  "P8.F3",
+  "P8.F4",
+  "P8.F5",
+  "P8.F6",
+  "P8.F7",
+  "P8.F8",
+  "P8.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Implementing department and leadership",
+   "question": "The Great Green Wall of Andhra Pradesh, a coastal ecological shield, is being undertaken by which department under whose leadership?",
+   "options": [
+    "Department of Environment, Forests, Science & Technology under Deputy CM K. Pawan Kalyan",
+    "Ministry of Electronics and Information Technology under the Union Government",
+    "Andhra Pradesh State Road Transport Corporation under the Chief Minister",
+    "Department of Environment, Forests, Science & Technology under the Union Minister for Electronics"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "The project is being undertaken by the Department of Environment, Forests, Science & Technology under Deputy CM K. Pawan Kalyan. The other options incorrectly associate it with electronics, transport or the Union Government."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Funding and coastal vulnerability",
+   "question": "With reference to the Great Green Wall of Andhra Pradesh, consider the following statements:\n1. Its funding sources include MGNREGS, CAMPA, the MoEFCC Green Credit Program, District Mineral Funds and international climate finance.\n2. Andhra Pradesh is the fourth most affected state by coastal erosion, with 32% of its coastline eroding.\n3. Extreme sea-level rise may affect 282 villages.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F7",
+    "P6.F9",
+    "P6.F10"
+   ],
+   "explanation": "All three statements are correct. The project draws on the listed funding sources, Andhra Pradesh is fourth most affected by coastal erosion with 32% of its coastline eroding, and extreme sea-level rise may affect 282 villages."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Company",
+   "question": "Which company is establishing the integrated PCB and materials project at Naidupeta?",
+   "options": [
+    "Syrma SGS Technology Ltd",
+    "MeitY",
+    "Syrma Strategic Electronics Policy",
+    "Andhra Pradesh Electronics Components Manufacturing Policy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The company is Syrma SGS Technology Ltd, also described as Syrma Strategic Electronics. MeitY is associated with the Electronics Component Manufacturing Scheme, while the other options are not the company name."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Land allocation and policy target",
+   "question": "Consider the following statements:\nStatement A: The Syrma SGS project received 12.56 acres at 50% subsidised cost.\nStatement B: The National Policy on Electronics 2019 set a target of $400 billion by 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F5",
+    "P7.F9"
+   ],
+   "explanation": "Statement A is false because the land was provided at 75% subsidised cost, not 50%. Statement B is true: NPE 2019 set a $400 billion target by 2025."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Initial uptake and subsidy",
+   "question": "Assertion (A): More than 12 lakh women used the Stree Shakti bus-travel facility during its first 30 hours.\nReason (R): The daily subsidy for the scheme increased from ₹7.76 crore to ₹10.86 crore.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F6"
+   ],
+   "explanation": "Both statements are true: more than 12 lakh women used the facility in the first 30 hours, and the daily subsidy rose from ₹7.76 crore to ₹10.86 crore. However, the subsidy increase does not explain the specific first-30-hour usage figure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Usage by 31 August",
+   "question": "How many women had used the Stree Shakti free bus-travel facility by 31 August 2025?",
+   "options": [
+    "19.6 lakh",
+    "12 lakh plus",
+    "28.3 lakh",
+    "1,942 lakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4"
+   ],
+   "explanation": "By 31 August, 19.6 lakh women had used the facility. The figures of 12 lakh plus and 28.3 lakh relate to the first 30 hours and 6 October respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Usage by 6 October",
+   "question": "According to the October 2025 update on Stree Shakti buses, how many women had used the facility by 6 October?",
+   "options": [
+    "28.3 lakh",
+    "19.6 lakh",
+    "12 lakh plus",
+    "10.86 lakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "By 6 October, the number of women users was 28.3 lakh. The other figures refer to the 31 August count, the first 30 hours or the daily subsidy."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of Stree Shakti buses",
+   "question": "The number of Stree Shakti buses increased from which figure to which figure?",
+   "options": [
+    "85 to 121",
+    "121 to 85",
+    "700 to 2,500",
+    "2,500 to 9,000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "The number of Stree Shakti buses increased from 85 to 121. The figures 700, 2,500 and 9,000 relate to other transport-related details, not this increase."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Annual cost",
+   "question": "What is the annual cost of the Stree Shakti scheme, with a monthly cost of ₹162 crore?",
+   "options": [
+    "₹1,942 crore",
+    "₹162 crore",
+    "₹7.76 crore",
+    "₹10.86 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8"
+   ],
+   "explanation": "The annual cost of the scheme is ₹1,942 crore, equivalent to ₹162 crore per month. ₹7.76 crore and ₹10.86 crore are the earlier and later daily subsidy figures."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Transport-related measures and demands",
+   "question": "How many of the following statements regarding measures and demands connected with the Stree Shakti scheme are correct?\n1. The plan includes 700 electric buses and replacement of all diesel buses with electric buses.\n2. The Auto Mitra Scheme provides ₹15,000 per year to auto and maxi-cab drivers, while drivers demand ₹30,000.\n3. The union demanded 2,500 buses and 9,000 staff and supported the Gross Cost Contract model.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All three"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F9",
+    "P8.F10",
+    "P8.F11"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the union opposed, rather than supported, the Gross Cost Contract model; hence only two statements are correct."
+  }
+ ]
+}

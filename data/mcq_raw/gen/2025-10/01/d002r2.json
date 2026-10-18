@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P8.F4",
+  "P8.F5",
+  "P8.F7",
+  "P8.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Scheme usage indicators",
+   "question": "With reference to the Stree Shakti scheme in Andhra Pradesh, consider the following statements:\n1. By 31 August 2025, 19.6 lakh women had benefited from the scheme.\n2. By 6 October 2025, the number of women beneficiaries had reached 28.3 lakh.\n3. By 6 October 2025, the number of women beneficiaries had reached 26.3 lakh.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the figures were 19.6 lakh women by 31 August and 28.3 lakh by 6 October. Statement 3 is incorrect because the 6 October figure was 28.3 lakh, not 26.3 lakh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of Stree Shakti buses",
+   "question": "The number of buses operating under the Stree Shakti scheme in Andhra Pradesh increased from which figure to which figure?",
+   "options": [
+    "85 to 121",
+    "121 to 85",
+    "85 to 100",
+    "100 to 121"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "The number of Stree Shakti buses increased from 85 to 121. The reverse order and the figures 100 are incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Annual cost of scheme",
+   "question": "What was the annual cost of the Stree Shakti scheme in Andhra Pradesh?",
+   "options": [
+    "₹1,942 crore",
+    "₹856 crore",
+    "₹765 crore",
+    "₹2,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8"
+   ],
+   "explanation": "The annual cost of the Stree Shakti scheme was ₹1,942 crore, equivalent to ₹162 crore per month. ₹856 crore and ₹765 crore relate to other projects, while ₹2,000 crore was not the scheme's annual cost."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  15,
+  16,
+  17,
+  18
+ ],
+ "only": [
+  "P16.F3",
+  "P17.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Project cost, land and technology",
+   "question": "The proposed Chelam Hill thermal power project in Srikakulam involves which of the following combinations?",
+   "options": [
+    "₹30,000 crore, approximately 1,200 acres, with technology from L&T and BHEL",
+    "₹30,000 crore, approximately 3,200 acres, with technology from L&T and BHEL",
+    "₹3,200 crore, approximately 1,200 acres, with technology from L&T and BHEL",
+    "₹30,000 crore, approximately 1,200 acres, with technology from CESL and BHEL"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F3"
+   ],
+   "explanation": "The Chelam Hill project is estimated to cost ₹30,000 crore, require approximately 1,200 acres and use technology from L&T and BHEL. The tempting second option is incorrect because the land requirement is approximately 1,200 acres, not 3,200 acres."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ministerial portfolio",
+   "question": "In the Andhra Pradesh Group of Ministers formed to oversee and regulate social media platforms, which portfolio is held by Kolusu Parthasarathy?",
+   "options": [
+    "Housing and I&PR",
+    "IT and HRD",
+    "Medical and Health",
+    "Civil Supplies"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F6"
+   ],
+   "explanation": "Kolusu Parthasarathy holds the Housing and I&PR portfolio in the Group of Ministers. IT and HRD is associated with Nara Lokesh, making it the most likely trap."
+  }
+ ]
+}

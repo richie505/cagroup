@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  18
+ ],
+ "only": [
+  "P18.F6",
+  "P18.F8",
+  "P18.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Focus and country",
+   "question": "Under the Kunming Biodiversity Fund grants announced in October 2025, which country received support for strengthening the resilience of Lake Eğirdir?",
+   "options": [
+    "Turkey",
+    "Nepal",
+    "Sri Lanka",
+    "Uganda"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F6"
+   ],
+   "explanation": "Turkey received support for the Lake Eğirdir resilience focus. Nepal was associated with invasive species management, while Sri Lanka was associated with border biosecurity."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Biodiversity finance commitments",
+   "question": "Consider the following statements:\nStatement A: Target 19 of the Kunming-Montreal Global Biodiversity Framework envisages $200 billion per year for biodiversity by 2030, including $30 billion in international finance.\nStatement B: Under the Cali Fund, 50% of the contributions from digital sequence information users is allocated to Indigenous Peoples.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F8",
+    "P18.F9"
+   ],
+   "explanation": "Both statements are true. Target 19 specifies $200 billion per year, including $30 billion in international finance, while the Cali Fund provides 50% of its contributions from digital sequence information users to Indigenous Peoples. The alternatives incorrectly reject one or both of these commitments."
+  }
+ ]
+}

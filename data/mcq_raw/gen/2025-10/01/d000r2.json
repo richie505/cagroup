@@ -1,0 +1,66 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F5",
+  "P0.F6",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Land allocation and location",
+   "question": "For Google’s proposed AI hub in Andhra Pradesh, which statement correctly describes the land allocation?",
+   "options": [
+    "480 acres at two sites in Visakhapatnam district and one in Anakapalli",
+    "480 acres at one site in Visakhapatnam district and two in Anakapalli",
+    "480 acres at two sites in Anakapalli and one in Visakhapatnam district",
+    "480 acres at three sites in Visakhapatnam district"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The project’s land allocation is 480 acres, spread across two sites in Visakhapatnam district and one site in Anakapalli. The other options alter the distribution of the sites between Visakhapatnam district and Anakapalli."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SIPB-cleared investment",
+   "question": "What investment amount was associated with the Google AI hub project in the State Investment Promotion Board (SIPB) proposal?",
+   "options": [
+    "₹87,520 crore",
+    "₹15 billion",
+    "₹1.25 lakh crore",
+    "₹2,245 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "The SIPB investment amount for the project was ₹87,520 crore. ₹15 billion and approximately ₹1.25 lakh crore refer to the broader project investment framing, while ₹2,245 crore relates to SGST reimbursement."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Data-centre capacity and competitive federalism",
+   "question": "With reference to Google’s proposed AI hub in Andhra Pradesh, consider the following statements:\n\n1. The planned data centre has a capacity of 1 GW.\n2. The project’s move from Karnataka to Andhra Pradesh triggered a political tussle described in terms of competitive federalism.\n3. The project’s investment is approximately ₹1.25 lakh crore when expressed in Indian currency.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "All three statements are correct: the planned data centre has a capacity of 1 GW, the move from Karnataka to Andhra Pradesh triggered a political tussle described as competitive federalism, and the $15 billion investment is approximately ₹1.25 lakh crore. Therefore, the correct answer is 1, 2 and 3."
+  }
+ ]
+}

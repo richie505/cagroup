@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": [
+  "P13.F6",
+  "P13.F7",
+  "P17.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "GSI establishment and headquarters; Mud-volcano belts",
+   "question": "Match List-I with List-II in the context of the Geological Survey of India and known mud-volcano belts.\n\nList-I\n(a) Year of GSI founding\n(b) Ministry under which GSI functions\n(c) GSI headquarters\n(d) Mud-volcano belts mentioned in the context\n\nList-II\n(i) Kolkata\n(ii) Azerbaijan, Sidoarjo and Makran\n(iii) 1851\n(iv) Ministry of Mines\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F6",
+    "P13.F7"
+   ],
+   "explanation": "The correct matching is a-iii, b-iv, c-i and d-ii: GSI was founded in 1851, functions under the Ministry of Mines, and has its headquarters in Kolkata; Azerbaijan, Sidoarjo and Makran are other mud-volcano belts. The tempting alternative a-iv, b-iii, c-ii, d-i incorrectly interchanges the year, ministry, headquarters and belt locations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number/amount; Fossil-fuel output increase",
+   "question": "According to Oil Change International’s “Planet Wreckers” report, by how much did global oil and gas output increase between 2015 and 2024?",
+   "options": [
+    "14 million barrels of oil equivalent per day",
+    "11 million barrels of oil equivalent per day",
+    "40 million barrels of oil equivalent per day",
+    "77 million barrels of oil equivalent per day"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F2"
+   ],
+   "explanation": "Global oil and gas output increased by 14 million barrels of oil equivalent per day between 2015 and 2024, a rise of 40%. The figure of 11 million barrels of oil equivalent per day refers to the USA’s share of the net global increase, not the total increase."
+  }
+ ]
+}

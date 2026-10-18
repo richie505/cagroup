@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P12.F1",
+  "P13.F5",
+  "P13.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Medical college expansion",
+   "question": "With reference to Andhra Pradesh’s plan for new medical colleges announced in 2020, consider the following statements:\n1. The YSRCP announced 17 new medical colleges.\n2. The estimated cost of the plan was ₹8,480 crore.\n3. Only 5 colleges were functional by 2025.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 17 new medical colleges were announced at an estimated cost of ₹8,480 crore. Statement 3 is incorrect because only 5 colleges were functional by 2024, not 2025."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "AYUSH scheme link and dispensary upgrade",
+   "question": "With reference to the AYUSH projects approved for Andhra Pradesh, consider the following statements:\nStatement A: The project provides for upgrading 276 AYUSH dispensaries at a cost of ₹47.96 crore.\nStatement B: The projects are linked to the National Education Mission.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F5",
+    "P13.F7"
+   ],
+   "explanation": "Both statements are false. The project involves upgrading 276 AYUSH dispensaries at a cost of ₹49.76 crore and is linked to the National AYUSH Mission. The tempting figures and scheme name in the statements alter the stated details."
+  }
+ ]
+}

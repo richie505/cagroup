@@ -1,0 +1,181 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  25,
+  26,
+  27,
+  28,
+  29,
+  30
+ ],
+ "only": [
+  "P25.F3",
+  "P26.F1",
+  "P26.F2",
+  "P26.F3",
+  "P26.F4",
+  "P26.F5",
+  "P26.F6",
+  "P27.F3",
+  "P27.F4",
+  "P27.F5",
+  "P27.F6",
+  "P28.F8",
+  "P29.F3",
+  "P30.F2",
+  "P30.F4",
+  "P30.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Sectoral impact",
+   "question": "The Australian development concerning Indian prawns was reported as a boost to which sector in Andhra Pradesh?",
+   "options": [
+    "Coastal AP aquaculture",
+    "Inland textile production",
+    "Rayalaseema automobile manufacturing",
+    "Urban information technology services"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P25.F3"
+   ],
+   "explanation": "The development was reported as a boost for coastal Andhra Pradesh aquaculture. The other options refer to sectors not identified in this context."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisation acronym",
+   "question": "What does APSADA stand for in the context of support for Andhra Pradesh aqua farmers?",
+   "options": [
+    "Andhra Pradesh State Aquaculture Development Agency",
+    "Andhra Pradesh State Agricultural Development Authority",
+    "Andhra Pradesh Small Aqua Development Association",
+    "Andhra Pradesh State Fisheries and Dairies Agency"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F5"
+   ],
+   "explanation": "APSADA stands for Andhra Pradesh State Aquaculture Development Agency. The other three expansions are incorrect versions of the organisation's name."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "GST awareness programme and rate cut",
+   "question": "With reference to the ‘Super GST – Super Savings’ programme of the Andhra Pradesh Fisheries Department, consider the following statements:\n\n1. The programme was conducted at Narendrapuram village.\n2. GST on key fisheries items was reduced from 12% to 5%.\n3. The covered items included marine products, processed fish, shrimp and aquaculture equipment.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P26.F1",
+    "P26.F2"
+   ],
+   "explanation": "All three statements are correct: the programme was held at Narendrapuram, and GST on key fisheries items was reduced from 12% to 5%, covering items such as marine products, processed fish, shrimp and aquaculture equipment. The options omitting one statement are therefore incorrect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Customs duty direction",
+   "question": "Which one of the following statements regarding the aquaculture support measures in Budget 2025–26 is incorrect?",
+   "options": [
+    "Customs duty on shrimp feed, fish feed and other aquaculture inputs was reduced.",
+    "The Budget measure was intended to support the aquaculture sector.",
+    "The customs-duty change covered fish and shrimp feed.",
+    "Customs duty on fish and shrimp feed was increased."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P26.F4",
+    "P26.F6"
+   ],
+   "explanation": "The incorrect statement is that customs duty was increased; it was reduced under Budget 2025–26. The other statements correctly describe the reduction covering fish feed, shrimp feed and other aquaculture inputs."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Shrimp insurance and institutional background",
+   "question": "How many of the following statements relating to the AIC–APGB shrimp insurance initiative are correct?\n\n1. The cover includes shrimp losses caused by diseases, cyclones and poor water quality.\n2. The future plan is to introduce crop insurance.\n3. Andhra Pradesh accounts for 30–35% of India’s shrimp production.\n4. The Agriculture Insurance Company of India functions under the Ministry of Agriculture and implements only PMFBY.\n\nSelect the correct answer.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F3",
+    "P27.F4",
+    "P27.F5"
+   ],
+   "explanation": "Only statement 1 is correct: the insurance covers shrimp losses from diseases, cyclones and poor water quality. The future plan concerns livestock insurance, Andhra Pradesh’s share is 35–40%, and AIC is under the Ministry of Finance and implements PMFBY and WBCIS."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Committee mandate",
+   "question": "What was the principal mandate assigned to the committee examining the grievances of fishermen in Uppada and nearby coastal villages?",
+   "options": [
+    "To examine grievances, recommend compensation and suggest alternative livelihoods",
+    "To fix GST rates on marine products and shrimp",
+    "To conduct judicial transfers in the Andhra Pradesh High Court",
+    "To approve customs duty on aquaculture inputs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F8"
+   ],
+   "explanation": "The committee was mandated to examine the fishermen’s grievances, recommend compensation and suggest alternative livelihoods. GST rates, judicial transfers and customs duty were outside this mandate."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Gazette notification",
+   "question": "Who issued the Gazette notification dated 14 October 2025 concerning the appointment of Justice Subhendu Samanta to the Andhra Pradesh High Court?",
+   "options": [
+    "President Droupadi Murmu",
+    "The Chief Justice of the Andhra Pradesh High Court",
+    "The Union Finance Minister",
+    "The Andhra Pradesh Fisheries Department"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F3"
+   ],
+   "explanation": "The Gazette notification dated 14 October 2025 was issued by President Droupadi Murmu. The other authorities listed did not issue this notification."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Classical-language year and institutional status",
+   "question": "Consider the following statements:\nStatement A: Telugu was recognised as a classical language in 2010.\nStatement B: The Centre of Excellence for Studies in Classical Telugu functions under the Central Institute of Indian Languages and operates from a temporary building.\n\nSelect the correct answer.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P30.F2",
+    "P30.F4"
+   ],
+   "explanation": "Statement A is false because Telugu was recognised as a classical language in 2008. Statement B is true because the Centre functions under the Central Institute of Indian Languages and operates from a temporary building."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Publication and translation",
+   "question": "Assertion (A): The Centre of Excellence for Studies in Classical Telugu published Dr. Emani Sivanagireddy’s “Mana Telugu Vari Sasanalu” and translated “Kreedabhiramamu”.\nReason (R): The publication was titled “Mana Telugu Vari Sahityam”.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P30.F7"
+   ],
+   "explanation": "Assertion A is true: the Centre published “Mana Telugu Vari Sasanalu” by Dr. Emani Sivanagireddy and translated “Kreedabhiramamu”. Reason R is false because the stated title is “Mana Telugu Vari Sasanalu”, not “Mana Telugu Vari Sahityam”."
+  }
+ ]
+}

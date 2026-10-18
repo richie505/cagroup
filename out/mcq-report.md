@@ -1,33 +1,33 @@
 # CA MCQ report
 
-- MCQs kept: **9827**
-- News pages with at least one question: **2618 / 2629**
-- Facts tested: **17439 / 20515** (85.0%)
-- Answer positions: A 2455, B 2554, C 2592, D 2226
+- MCQs kept: **10247**
+- News pages with at least one question: **2623 / 2629**
+- Facts tested: **18090 / 20515** (88.2%)
+- Answer positions: A 2565, B 2653, C 2696, D 2333
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 1051 | 1082 | 1143 | 1011 |
-| Negative / Incorrect Statement | 175 | 168 | 177 | 159 |
-| Assertion-Reason | 165 | 194 | 256 | 208 |
-| Statement-Based (A/B) | 321 | 197 | 284 | 241 |
-| Multi-Statement Correctness | 372 | 371 | 329 | 338 |
+| Direct Recall | 1106 | 1128 | 1188 | 1063 |
+| Negative / Incorrect Statement | 176 | 170 | 181 | 162 |
+| Assertion-Reason | 169 | 198 | 263 | 212 |
+| Statement-Based (A/B) | 334 | 205 | 292 | 257 |
+| Multi-Statement Correctness | 386 | 387 | 351 | 358 |
 | Chronological Ordering | 6 | 5 | 3 | 5 |
-| List-Matching | 268 | 249 | 235 | 258 |
-| Count-Based | 97 | 288 | 165 | 6 |
+| List-Matching | 284 | 263 | 248 | 270 |
+| Count-Based | 104 | 297 | 170 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 1177 |
-| verify:explanation_contradicts | 201 |
-| verify:not_in_facts | 135 |
-| duplicate | 67 |
-| verify:two_correct | 39 |
-| verify:none_correct | 32 |
+| code | 1243 |
+| verify:explanation_contradicts | 204 |
+| verify:not_in_facts | 143 |
+| duplicate | 71 |
+| verify:two_correct | 41 |
+| verify:none_correct | 33 |
 | verify:second reader picked option 2, key 1 | 22 |
-| verify:garbled | 11 |
+| verify:garbled | 13 |
 | verify:ambiguous_stem | 9 |
 | verify:second reader picked option 1, key 0 | 5 |
 | verify:second reader picked option 3, key 0 | 2 |
@@ -171,17 +171,17 @@
 | 2025-11/08 | Reports, Indices & Rankings | 7 | 10/10 |
 | 2025-11/09 | Awards, Persons & Appointments | 9 | 13/13 |
 | 2025-11/11 | Important Days & Events | 11 | 20/21 |
-| 2025-10/01 | Andhra Pradesh | 56 | 127/294 |
-| 2025-10/02 | Polity & Governance | 25 | 51/137 |
-| 2025-10/03 | Schemes & Social Sector | 18 | 44/97 |
-| 2025-10/04 | Economy, Banking & Budget | 21 | 50/101 |
-| 2025-10/05 | International Relations | 33 | 64/185 |
-| 2025-10/06 | Science, Tech, Space & Defence | 18 | 43/92 |
-| 2025-10/07 | Environment & Geography | 33 | 75/158 |
-| 2025-10/08 | Reports, Indices & Rankings | 10 | 19/54 |
-| 2025-10/09 | Awards, Persons & Appointments | 10 | 24/47 |
-| 2025-10/11 | Important Days & Events | 4 | 7/18 |
-| 2025-09/01 | Andhra Pradesh | 51 | 115/262 |
+| 2025-10/01 | Andhra Pradesh | 158 | 288/294 |
+| 2025-10/02 | Polity & Governance | 76 | 132/137 |
+| 2025-10/03 | Schemes & Social Sector | 50 | 95/97 |
+| 2025-10/04 | Economy, Banking & Budget | 53 | 99/101 |
+| 2025-10/05 | International Relations | 110 | 181/185 |
+| 2025-10/06 | Science, Tech, Space & Defence | 50 | 92/92 |
+| 2025-10/07 | Environment & Geography | 84 | 152/158 |
+| 2025-10/08 | Reports, Indices & Rankings | 33 | 54/54 |
+| 2025-10/09 | Awards, Persons & Appointments | 24 | 47/47 |
+| 2025-10/11 | Important Days & Events | 11 | 18/18 |
+| 2025-09/01 | Andhra Pradesh | 50 | 112/262 |
 | 2025-09/02 | Polity & Governance | 28 | 64/138 |
 | 2025-09/03 | Schemes & Social Sector | 17 | 46/91 |
 | 2025-09/04 | Economy, Banking & Budget | 27 | 64/130 |
@@ -1545,27 +1545,75 @@
 - `2025-10/01/c007#1` verify: not_in_facts — The facts contradict statement 3 but do not establish the claimed ₹1.50 per-unit power subsidy in statement 2.
   - Q: Which of the following statements about the ‘Super GST – Super Savings’ programme and support for Andhra Pradesh’s fisheries sector is incorrect?
   - Key: The Union Budget 2025-26 increased customs duty on shrimp feed and fish feed.
+- `2025-10/01/d004#9` verify: garbled — The question lists three statements, but one option says “All four.”
+  - Q: How many of the following statements regarding the new AYUSH projects in Andhra Pradesh are correct? / 1. The project to upgrade 276 AYUSH dispensaries includes reconstruction of 90 and construction of 
+  - Key: Only two
+- `2025-10/01/d004r2#0` verify: not_in_facts — The facts establish five colleges were functional by 2024, but do not determine how many were functional by 2025.
+  - Q: With reference to Andhra Pradesh’s plan for new medical colleges announced in 2020, consider the following statements: / 1. The YSRCP announced 17 new medical colleges. / 2. The estimated cost of the plan
+  - Key: 1 and 2 only
+- `2025-10/01/d008#9` verify: none_correct — Statements 1 and 3 are correct, but no option represents that combination.
+  - Q: With reference to the Science Exposure Tour of East Godavari girls to Delhi, consider the following statements: / 1. The visits included the Russian Centre of Science and Culture, the National Science M
+  - Key: 1 only
 - `2025-10/05/c000#5` verify: explanation_contradicts — The facts establish that statements 1 and 3 are correct, so the count is two rather than one.
   - Q: With reference to important cultural sites in Gaza, how many of the following statements are correct? / 1. The Great Omari Mosque dates to the 7th century and is the second-oldest mosque in Palestine. / 2
   - Key: Only one
 - `2025-10/05/c001#1` verify: not_in_facts — The facts do not explicitly state that the Terms of Reference for Joint Staff Talks were signed, though they identify the maritime-information wording as incorrect.
   - Q: Which of the following statements regarding the agreements and outcomes of the inaugural Australia–India Defence Ministers' Dialogue is incorrect?
   - Key: An Agreement on Maritime Information Sharing was signed.
+- `2025-10/05/d001#1` verify: not_in_facts — The facts identify the Terms of Reference but do not establish whether the roadmap was or was not signed as those terms.
+  - Q: Which of the following statements regarding agreements signed at the inaugural Australia–India Defence Ministers' Dialogue is/are correct? / 1. An Agreement on Information Sharing was signed. / 2. An MoU 
+  - Key: 1 and 2 only
+- `2025-10/05/d001#2` verify: not_in_facts — The facts do not state that India was invited to participate in Talisman Sabre or explicitly define the roadmap as the listed framework.
+  - Q: Match the Australia–India defence cooperation outcomes with the corresponding details. /  / List-I / (a) Joint Maritime Security Collaboration Roadmap / (b) Black Carillon / (c) Talisman Sabre / (d) Air-to-Air Re
+  - Key: a-i, b-iv, c-ii, d-iii
+- `2025-10/05/d001#5` verify: two_correct — The first three List-II entries are identical, so the matching cannot uniquely distinguish their assignments.
+  - Q: Match the defence cooperation entries with the correct details. /  / List-I / (a) AUSTRAHIND / (b) AUSINDEX / (c) Pitch Black / (d) Mutual Logistics Support Agreement /  / List-II / (i) Defence exercise associated with
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2025-10/05/d001r2#1` verify: not_in_facts — The facts do not establish that the Terms of Reference were among the three agreements signed.
+  - Q: Consider the following statements: / Statement A: The Terms of Reference for Joint Staff Talks was an MoU on Submarine Search and Rescue Cooperation. / Statement B: Terms of Reference for Joint Staff Talk
+  - Key: Statement A is false, Statement B is true
+- `2025-10/05/d002#7` verify: not_in_facts — The facts establish Busan and the APEC summit but do not provide the date needed for the stated matching option.
+  - Q: Match List-I with List-II regarding the Trump–Xi engagement: /  / List-I / (a) Meeting planned before the summit / (b) Meeting held on the sidelines of APEC /  / List-II / (i) Busan, South Korea / (ii) 30 October 202
+  - Key: a-iii, b-i and ii
+- `2025-10/05/d002#8` verify: explanation_contradicts — Statements 1, 2, and 4 are correct, so the count is three, contrary to the explanation’s claim of exactly two.
+  - Q: With reference to the Busan Trump–Xi summit, consider the following statements: / 1. US tariffs on Chinese imports were cut to 47%. / 2. A one-year truce was reached on tariffs and rare-earth export curbs
+  - Key: Only two
+- `2025-10/05/d004#8` verify: explanation_contradicts — Statement 3 is supported by the facts, so all four statements are correct despite the explanation calling statement 3 incorrect.
+  - Q: With reference to Timor-Leste’s ASEAN membership context, how many of the following statements are correct? / 1. Singapore and Myanmar expressed reservations, and Timor-Leste had a Comprehensive Strateg
+  - Key: Only three
 - `2025-10/05/g005r2#0` verify: two_correct — The facts associate the discussion with both the 80th UN anniversary and the 80th UNGA, so the singular stem does not establish one unique answer.
   - Q: The October 2025 discussion titled “UN at 80 — reviving multilateralism” was held in the context of which milestone?
   - Key: The 80th anniversary of the United Nations
 - `2025-10/06/c000#2` verify: explanation_contradicts — The reason establishes participation by both carriers but does not explain the historical claim that this was the first-ever such exercise.
   - Q: Assertion (A): Konkan-25 was the first-ever bilateral carrier strike group exercise involving both Indian and UK carrier groups. / Reason (R): India operated INS Vikrant and the UK operated HMS Prince o
   - Key: Both A and R are true, and R is the correct explanation of A
+- `2025-10/06/d001#9` verify: not_in_facts — The facts identify MeghRaj as GI Cloud and CERT-In as a cybersecurity reference but do not explicitly establish that the other two descriptions are false.
+  - Q: How many of the following are correctly identified as Indian cloud or cybersecurity references? / 1. MeghRaj — GI Cloud / 2. CERT-In — an Indian cybersecurity reference / 3. MeghRaj — a lunar mission / 4. CER
+  - Key: Only two
 - `2025-10/07/c003#1` verify: explanation_contradicts — The facts explicitly support Statement 2, so the correct count is two statements, not one.
   - Q: Consider the following statements about the All-India Synchronous Elephant Estimation (SAIEE) 2025: / 1. The M-Stripes app was used in the exercise. / 2. The exercise collected 21,056 dung samples that id
   - Key: 1 only
 - `2025-10/07/c004#4` verify: explanation_contradicts — The facts support statements 1 and 3, so statement 3 is not incorrect as the explanation claims.
   - Q: With reference to the CSE reports released at the National Conclave on Sustainable Food Systems, consider the following statements: / 1. 90% of rural districts face climate risk. / 2. Rain-fed rice yields
   - Key: 1 only
+- `2025-10/07/d000r2#3` verify: not_in_facts — The facts establish Assertion A but do not establish whether the Reason about winter snowfall is true or false.
+  - Q: In relation to the 2025 monsoon, consider the following: /  / Assertion (A): The Indian Ocean Dipole can influence the impact of El Niño on the monsoon. / Reason (R): The Indian Ocean Dipole can influence t
+  - Key: A is true, but R is false
+- `2025-10/07/d001#2` verify: two_correct — The facts establish that all three states published an FRA Atlas, so multiple permutations of the identical List-II entries are defensible.
+  - Q: Match the following with the associated initiative or detail: /  / List-I / (a) Madhya Pradesh / (b) Tamil Nadu / (c) Chhattisgarh / (d) Adi Karmayogi Abhiyan /  / List-II / (i) Published an FRA Atlas / (ii) Published an
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2025-10/07/d004#2` verify: not_in_facts — The facts establish the year, ministry, and headquarters but do not explicitly state that GSI stands for Geological Survey of India.
+  - Q: Match the following aspects of the Geological Survey of India with the correct particulars: /  / List-I /  a. Year of establishment /  b. Administrative ministry /  c. Headquarters /  d. Organisation referred to 
+  - Key: a-i, b-ii, c-iii, d-iv
 - `2025-10/08/c000#2` verify: not_in_facts — The facts establish that climate change replaced hunting as the top threat but do not establish that this applied specifically to Asia.
   - Q: With reference to the IUCN World Heritage Outlook 4 (2025), consider the following: / Assertion (A): Climate change was identified as the top threat to natural World Heritage sites in Asia. / Reason (R): 
   - Key: Both A and R are true, and R is the correct explanation of A
+- `2025-10/08/d000#12` verify: explanation_contradicts — The explanation first calls Statement B false, then acknowledges the facts make it true and concludes that both statements are true.
+  - Q: Consider the following statements: / Statement A: Seventy-five per cent of Indians were exposed to air pollution above the WHO interim target of 35 µg/m³. / Statement B: India recorded 54,000 dementia dea
+  - Key: Statement A is true, Statement B is false
+- `2025-10/08/d000#13` verify: garbled — Both statements are true, but the diabetes-death statistic does not explain the SDG target; the explanation is incoherent about the resulting option.
+  - Q: Assertion (A): SDG 3.4 seeks to cut premature deaths from non-communicable diseases by one-third by 2030. / Reason (R): The State of Global Air (SoGA) 2025 report states that air pollution contributed t
+  - Key: A is true, but R is false
 - `2025-09/01/c001#3` verify: not_in_facts — The facts establish that 13 new Bills were approved, but do not state that the first three listed Bills were withdrawn.
   - Q: Which one of the following statements about the Andhra Pradesh Assembly Monsoon Session 2025 is incorrect?
   - Key: The Cabinet approved 12 new Bills for tabling.

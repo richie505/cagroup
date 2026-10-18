@@ -1,0 +1,251 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P1.F2",
+  "P1.F4",
+  "P1.F5",
+  "P2.F1",
+  "P2.F2",
+  "P2.F3",
+  "P2.F4",
+  "P2.F6",
+  "P2.F7",
+  "P3.F14",
+  "P3.F15",
+  "P3.F16",
+  "P3.F17",
+  "P3.F18",
+  "P3.F19",
+  "P3.F4",
+  "P3.F8",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme limitation",
+   "question": "Which statement correctly describes SARAL, the AI tool launched by the Anusandhan National Research Foundation (ANRF)?",
+   "options": [
+    "It is a funding tool for private firms",
+    "It is not a funding tool",
+    "It is a low-interest loan scheme",
+    "It is a carrier strike group exercise"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "SARAL is not a funding tool. The low-interest, long-tenure loan facility belongs to the Research Development and Innovation Scheme, not SARAL."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Funding agency and RDI Scheme",
+   "question": "Consider the following statements about ANRF and the Research Development and Innovation Scheme:\n1. Around 70% of ANRF's budget comes from private sources.\n2. The Research Development and Innovation Scheme was approved by the Cabinet in July 2025.\n3. SARAL is a funding tool under the Research Development and Innovation Scheme.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: around 70% of ANRF's budget comes from private sources, and the Research Development and Innovation Scheme was approved in July 2025. Statement 3 is incorrect because SARAL is not a funding tool."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Technology-sector collaboration",
+   "question": "Which development involving artificial intelligence and the technology sector was reported in the context of AI in Indian classrooms?",
+   "options": [
+    "OpenAI announced its first office in India, and NVIDIA collaborated with Reliance",
+    "ANRF launched SARAL, and C-DOT provided the Core Network",
+    "The UK launched its first office in India, and TCS collaborated with Reliance",
+    "CBSE launched IndiaAI Compute Capacity, and NVIDIA provided the Core Network"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "OpenAI announced its first office in India, while NVIDIA and Reliance had a collaboration dating to 2023. The other combinations bring in organisations or initiatives not associated with this reported development."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "AI education policy",
+   "question": "Consider the following statements:\nStatement A: The CBSE issued an advisory against ChatGPT in board examinations.\nStatement B: The IndiaAI Mission includes AI Centres of Excellence, IndiaAI Compute Capacity, IndiaAI FutureSkills and the Application Development Initiative.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "Both statements are true. CBSE issued an advisory against ChatGPT in board examinations, and the four listed components are IndiaAI Mission pillars."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Date and location",
+   "question": "When and where did the Konkan-25 India–UK carrier strike group exercise begin?",
+   "options": [
+    "5 October 2025, off India's western coast",
+    "July 2025, in New Delhi",
+    "Since 2004, off the Konkan Coast",
+    "2030 onwards, in the United Kingdom"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Konkan-25 began on 5 October 2025, off India's western coast. Its beginning coincided with the visit of UK Prime Minister Keir Starmer; the other options mix unrelated dates, places or background details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First/only",
+   "question": "What was the distinguishing feature of the Konkan-25 exercise conducted by India and the United Kingdom?",
+   "options": [
+    "It was the first-ever bilateral carrier strike group exercise involving both carrier groups",
+    "It was the first exercise involving only harbour phases",
+    "It was the first biennial exercise conducted since 2004",
+    "It was the first 6G technology exercise involving both countries"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Konkan-25 was the first-ever bilateral carrier strike group exercise involving both the Indian and UK carrier groups. The exercise was not a 6G exercise, and its biennial history is background information rather than its distinguishing first."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Carrier aircraft and helicopters",
+   "question": "Match the carrier assets with the respective side in Konkan-25.\n\nList-I\n a. INS Vikrant\n b. MiG-29K\n c. HMS Prince of Wales\n d. F-35B\n\nList-II\n i. India\n ii. India\n iii. United Kingdom\n iv. United Kingdom",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "INS Vikrant and the MiG-29K were Indian assets, while HMS Prince of Wales and the F-35B were UK assets. Therefore, the correct pairs are a-i, b-ii, c-iii and d-iv."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Exercise background and strategic framework",
+   "question": "Assertion (A): The Konkan exercise is associated with India-UK Vision 2035, the Regional Maritime Security Centre of Excellence and the IPOI.\nReason (R): The exercise was named after the Coromandel Coast.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "The assertion is true because these three initiatives are associated with the exercise. The reason is false: the Konkan exercise was named after the Konkan Coast, not the Coromandel Coast."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indigenous 4G stack",
+   "question": "Which combination was highlighted at India Mobile Congress 2025 in connection with India's indigenous 4G stack?",
+   "options": [
+    "One lakh Made-in-India 4G towers, 400+ exhibitors and Startup World Cup 2025",
+    "One lakh 5G towers, 400+ exhibitors and Startup World Cup 2030",
+    "One lakh Made-in-India 4G towers, 70% private funding and four whitepapers",
+    "One lakh Made-in-India 4G towers, 10% of global 6G patents and Startup World Cup 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "The highlighted details were one lakh Made-in-India 4G towers, more than 400 exhibitors and Startup World Cup 2025. The other options replace one or more of these details with figures or initiatives from other facts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Satcom market outlook",
+   "question": "What was the expected trend for the satcom market in the 6G vision discussed at India Mobile Congress 2025?",
+   "options": [
+    "It was expected to triple by 2033",
+    "It was expected to double by 2035",
+    "It was expected to decline by 2033",
+    "It was expected to reach 1 Tbps by 2033"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9"
+   ],
+   "explanation": "The satcom market was expected to triple by 2033. The alternatives substitute the 6G speed figure, the GDP horizon or an unsupported decline."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Indigenous 4G equipment and export potential",
+   "question": "Consider the following statements:\nStatement A: India joined Denmark, Sweden, South Korea and China as a maker of its own 4G equipment.\nStatement B: India's indigenous 4G stack was described as 5G-ready and having export potential in comparison with China's Digital Silk Road.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F14",
+    "P3.F15"
+   ],
+   "explanation": "Both statements are true. India was listed alongside Denmark, Sweden, South Korea and China as a maker of its own 4G equipment, and the stack was described as 5G-ready with export potential."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Generation-wise launch and peak speed",
+   "question": "Match the listed features of mobile generations with the corresponding details.\n\nList-I\n a. 4G launch\n b. 5G launch\n c. 6G launch\n d. 4G peak speed\n\nList-II\n i. 2009–2012\n ii. 2019 onwards\n iii. 2030+\n iv. 100 Mbps mobile / 1 Gbps\n\nOptions",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F16",
+    "P3.F17"
+   ],
+   "explanation": "The correct matching is 4G with 2009–2012, 5G with 2019 onwards, 6G with 2030+, and 4G peak speed with 100 Mbps mobile / 1 Gbps. The alternatives interchange the launch periods or substitute peak-speed values of other generations."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Latency and key technology",
+   "question": "Match the mobile-generation feature with the corresponding detail.\n\nList-I\n a. 4G latency\n b. 5G latency\n c. 6G latency\n d. 6G key technology\n\nList-II\n i. ~50 ms\n ii. ~1–10 ms\n iii. ~0.1 ms\n iv. Terahertz, AI-native\n\nOptions",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F18",
+    "P3.F19"
+   ],
+   "explanation": "The correct pairs are 4G–~50 ms, 5G–~1–10 ms, 6G–~0.1 ms, and 6G key technology–Terahertz, AI-native. The other codes interchange latency values or assign a latency figure to the key-technology entry."
+  }
+ ]
+}

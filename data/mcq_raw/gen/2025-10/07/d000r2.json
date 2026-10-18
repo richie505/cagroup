@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F2",
+  "P1.F10",
+  "P1.F5",
+  "P1.F7",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Area of conservation reserve",
+   "question": "The Palk Bay Dugong Conservation Reserve in Tamil Nadu encompasses approximately which area of seagrass meadows?",
+   "options": [
+    "Over 12,000 hectares",
+    "Over 12,000 square kilometres",
+    "Over 12,000 acres",
+    "Under 12,000 hectares"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The reserve encompasses over 12,000 hectares of seagrass meadows. The tempting alternative of over 12,000 square kilometres is incorrect because the reported area is expressed in hectares."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Kharif cultivation and flood-affected regions",
+   "question": "With reference to the 2025 monsoon and its agricultural and disaster-related consequences, consider the following statements:\n\n1. Kharif sown area increased by 15 lakh hectares to 1,110 lakh hectares.\n2. Rice cultivation area increased by 8.45 lakh hectares to 438 lakh hectares.\n3. Floods and landslides affected Himachal Pradesh, Jammu and Kashmir, and Punjab.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F7"
+   ],
+   "explanation": "All three statements are correct. Kharif sown area rose to 1,110 lakh hectares, rice area rose to 438 lakh hectares, and floods and landslides affected Himachal Pradesh, Jammu and Kashmir, and Punjab; therefore, the correct choice is 1, 2 and 3."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Monsoon management initiatives",
+   "question": "In the context of initiatives associated with monsoon preparedness and disaster management, how many of the following statements are correct?\n\n1. The National Monsoon Mission is an associated initiative.\n2. Flash Flood Guidance Services cover more than 30,000 watersheds.\n3. The National Disaster Management Plan, 2019, is identified as the dam-safety initiative.\n4. The Dam Rehabilitation and Improvement Project is identified as the 2019 disaster-management plan.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F9"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: the National Monsoon Mission is listed, and Flash Flood Guidance Services cover more than 30,000 watersheds. The trap is the interchange of the two descriptions: the National Disaster Management Plan is associated with 2019, while the Dam Rehabilitation and Improvement Project concerns dam safety."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Indian Ocean Dipole and El Niño",
+   "question": "In relation to the 2025 monsoon, consider the following:\n\nAssertion (A): The Indian Ocean Dipole can influence the impact of El Niño on the monsoon.\nReason (R): The Indian Ocean Dipole can influence the impact of El Niño on winter snowfall.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F10"
+   ],
+   "explanation": "Assertion A is true because the Indian Ocean Dipole can influence El Niño's impact on the monsoon. Reason R is false because the stated relationship concerns the monsoon, not winter snowfall."
+  }
+ ]
+}

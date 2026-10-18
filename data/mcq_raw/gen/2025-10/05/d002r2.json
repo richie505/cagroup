@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": [
+  "P8.F4",
+  "P8.F6",
+  "P8.F7",
+  "P8.F8",
+  "P8.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of entities",
+   "question": "How many foreign entities, mostly from the United States, were added to China’s Unreliable Entity List during the US–China rare-earth and tariff dispute?",
+   "options": [
+    "14",
+    "47",
+    "50",
+    "60–70"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F9"
+   ],
+   "explanation": "China added 14 foreign entities, mostly from the United States, to its Unreliable Entity List. The figures 47% and 50% relate to tariff developments, while 60–70% refers to China’s share of rare-earth production, not the number of entities."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "At which event was the Trump–Xi meeting planned before the Busan summit of 30 October 2025?",
+   "options": [
+    "APEC summit in South Korea",
+    "Quad Summit in India",
+    "A meeting in Brazil",
+    "A diplomatic meeting in Afghanistan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F6"
+   ],
+   "explanation": "The Trump–Xi meeting was planned at the APEC summit in South Korea. The Quad Summit was planned in India, while Brazil and Afghanistan were not identified as the venue for this planned meeting."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Where did the Trump–Xi meeting take place on the sidelines of the APEC summit on 30 October 2025?",
+   "options": [
+    "Busan, South Korea",
+    "India",
+    "Brazil",
+    "Afghanistan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "Trump and Xi met in Busan, South Korea, on the sidelines of the APEC summit. India, Brazil and Afghanistan were not the location of this meeting."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Tariff and truce terms",
+   "question": "Match List-I with List-II regarding the outcomes of the Trump–Xi Busan summit.\n\nList-I\n(a) US tariffs on Chinese imports\n(b) Truce on tariffs and rare-earth export curbs\n(c) Tariffs faced by India\n(d) India’s tariff components\n\nList-II\n(i) One year\n(ii) 47%\n(iii) 50%\n(iv) 25% retaliatory + 25% Russia-oil levy\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8",
+    "P8.F9"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv: US tariffs on Chinese imports were cut to 47%, the truce lasted one year, India faced 50% tariffs, and India’s tariff consisted of 25% retaliatory plus 25% Russia-oil levy. The other codes interchange these tariff and duration details."
+  }
+ ]
+}

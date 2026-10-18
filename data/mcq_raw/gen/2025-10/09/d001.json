@@ -1,0 +1,120 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": [
+  "P5.F4",
+  "P5.F5",
+  "P5.F6",
+  "P6.F10",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Origin of concept",
+   "question": "Who coined the term “creative destruction,” and in which work was it used in 1942?",
+   "options": [
+    "Joseph Schumpeter in “Capitalism, Socialism and Democracy”",
+    "Philippe Aghion in the 1992 creative-destruction model",
+    "Peter Howitt in “Capitalism, Socialism and Democracy”",
+    "Acemoglu, Johnson and Robinson in their 2024 economics research"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "Joseph Schumpeter coined the term “creative destruction” in his 1942 work “Capitalism, Socialism and Democracy.” Philippe Aghion and Peter Howitt are associated with the creative-destruction growth model, not with coining the term."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Institution and year of establishment",
+   "question": "Consider the following statements:\nStatement A: The Economics prize was set up in 1968 by Sweden’s central bank.\nStatement B: The Economics prize is not included in Alfred Nobel’s will.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "Both statements are true: the Economics prize was established in 1968 by Sweden’s central bank and was not included in Nobel’s will. The tempting alternative that Statement B is false is incorrect because the prize is distinct from the prizes specified in Nobel’s will."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Prize components and amount",
+   "question": "Which of the following correctly describes the components and monetary amount of the 2025 Nobel Prize in Economic Sciences?",
+   "options": [
+    "A gold medal, a diploma and $1.2 million",
+    "A gold medal, a diploma and €50,000",
+    "A certificate and $1.2 million",
+    "A gold medal and $1.2 million, without a diploma"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "The prize consists of a gold medal, a diploma and $1.2 million. €50,000 is associated with the Sakharov Prize, while the other options omit or alter one of the Economics prize components."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Past laureates and years",
+   "question": "Match the past Sakharov Prize laureates in List-I with the corresponding years in List-II.\n\nList-I\n(a) Nelson Mandela\n(b) Malala Yousafzai\n(c) Denis Mukwege\n(d) Nadia Murad\n\nList-II\n(i) 2013\n(ii) 1988\n(iii) 2016\n(iv) 2014",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5",
+    "P6.F6",
+    "P6.F7",
+    "P6.F8"
+   ],
+   "explanation": "The correct pairs are Nelson Mandela–1988, Malala Yousafzai–2013, Denis Mukwege–2014 and Nadia Murad–2016. The other codes interchange the years among these four laureates."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Past laureate and year",
+   "question": "In which year was Sviatlana Tsikhanouskaya and the Belarus opposition awarded the Sakharov Prize?",
+   "options": [
+    "2020",
+    "2016",
+    "2014",
+    "2024"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F9"
+   ],
+   "explanation": "Sviatlana Tsikhanouskaya and the Belarus opposition received the Sakharov Prize in 2020. The years 2016, 2014 and 2024 correspond to other Sakharov laureate entries."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Laureate and dual recognition",
+   "question": "Which Sakharov Prize laureate of 2024 was also a winner of the 2025 Nobel Peace Prize?",
+   "options": [
+    "María Corina Machado",
+    "Nadia Murad",
+    "Denis Mukwege",
+    "Sviatlana Tsikhanouskaya"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F10"
+   ],
+   "explanation": "María Corina Machado was the 2024 Sakharov Prize laureate and also the 2025 Nobel Peace Prize winner. Nadia Murad, Denis Mukwege and Sviatlana Tsikhanouskaya are associated with other Sakharov Prize years listed in the question set."
+  }
+ ]
+}

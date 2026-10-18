@@ -1,0 +1,266 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F3",
+  "P1.F5",
+  "P2.F1",
+  "P2.F2",
+  "P2.F4",
+  "P2.F5",
+  "P3.F1",
+  "P3.F10",
+  "P3.F11",
+  "P3.F12",
+  "P3.F3",
+  "P3.F8",
+  "P3.F9",
+  "P4.F1",
+  "P4.F2"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Constitutional status and year",
+   "question": "In which year did the Public Service Commission become the Union Public Service Commission under Articles 315–323?",
+   "options": [
+    "1935",
+    "1950",
+    "1926",
+    "1919"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F6"
+   ],
+   "explanation": "The Public Service Commission became the UPSC in 1950 under Articles 315–323. The year 1935 is associated with the Federal Public Service Commission, not the UPSC."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Civil Services Examination scale and structure",
+   "question": "With reference to the Civil Services Examination, consider the following statements:\n1. It is described as the world's largest competitive examination.\n2. It attracts 10–12 lakh applicants and is conducted at more than 2,500 centres.\n3. Its Main Examination has 48 optional subjects, and answers may be written in English or any of the 22 constitutionally recognised languages.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "All three statements are correct: the examination is described as the world's largest competitive examination, with 10–12 lakh applicants and more than 2,500 centres; its Main Examination has 48 optional subjects and permits English or any of the 22 constitutionally recognised languages. No statement incorrectly substitutes another examination or language count."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Recruitment reform",
+   "question": "Which UPSC reform helps candidates who reach the interview stage but are not finally selected to find employment?",
+   "options": [
+    "Face-recognition technology",
+    "PRATIBHA Setu",
+    "Online portals",
+    "Encrypted paper transmission"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "PRATIBHA Setu helps interview-stage candidates who are not finally selected to find jobs. Face-recognition technology and online portals are also UPSC reforms, but they do not perform this stated employment-linkage function."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Range of services recruited",
+   "question": "Which one of the following statements about UPSC recruitment is incorrect?",
+   "options": [
+    "UPSC recruits for civil services.",
+    "UPSC recruits for technical and medical services.",
+    "UPSC recruits for forest, engineering and statistical services.",
+    "UPSC recruits only for civil services and not for technical or medical services."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "The incorrect statement is that UPSC recruits only for civil services. UPSC also recruits for technical, medical, forest, engineering and statistical services; therefore, the trap is the changed detail that recruitment is limited to civil services."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Criticism of curriculum framework",
+   "question": "Which criticism was made of the UGC draft Learning Outcome-based Curriculum Framework embedding Bharatiya philosophy across disciplines?",
+   "options": [
+    "It prioritises single-major pathways and marginalises non-Hindu, tribal and heterodox traditions.",
+    "It abolishes all discipline-based courses in favour of vocational education.",
+    "It gives equal weight to every tradition through a multidiscipline-only pathway.",
+    "It removes Indian knowledge systems from commerce and chemistry curricula."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The criticism was that the framework prioritises single-major pathways, contrary to NEP 2020 multidisciplinarity, and marginalises non-Hindu, tribal and heterodox traditions. The other options reverse or add claims not associated with the criticism."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Historical intellectual context",
+   "question": "In the debate surrounding the UGC draft framework on Indian Knowledge Systems, consider the following statements:\nStatement A: Swami Vivekananda's 1893 Chicago address linked science to Hindu tradition.\nStatement B: Scholar Meera Nanda was associated with this historical reference.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "Both statements are true. The 1893 Chicago address by Swami Vivekananda was linked to the connection between science and Hindu tradition, and scholar Meera Nanda was associated with this reference."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Role of journalism in democracy",
+   "question": "Journalism is commonly described in the context of democratic governance as which of the following?",
+   "options": [
+    "The first pillar of democracy",
+    "The second pillar of democracy",
+    "The fourth pillar of democracy",
+    "The fifth pillar of democracy"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Journalism is called the fourth pillar of democracy. The other numerical descriptions are incorrect substitutions of the established phrase."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Crisis of media institutions",
+   "question": "Regarding the crisis of journalism, consider the following statements:\n1. The BBC's income fell by £1 billion in inflation-adjusted terms since 2010.\n2. NPR in the USA faced funding threats.\n3. Prasar Bharati never achieved autonomy.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "All three statements are correct. The reported concerns included the BBC's inflation-adjusted income decline of £1 billion since 2010, funding threats to NPR in the USA, and the fact that Prasar Bharati never achieved autonomy."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Legal protection and non-profit journalism",
+   "question": "Match List-I with List-II in the context of institutional responses to the crisis of journalism.\n\nList-I\n a. Whistle Blowers Protection Act\n b. Implementation of the Whistle Blowers Protection Act\n c. ProPublica\n d. ProPublica's organisational model\n\nList-II\n i. USA\n ii. Non-profit model\n iii. 2014\n iv. Poorly implemented",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii: the Act is from 2014, its implementation was poor, ProPublica is associated with the USA, and it represents a non-profit model. The other codes interchange the Act's year, implementation status, country and model."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Constitution Bench and date",
+   "question": "On 9 October 2025, which bench delivered the Supreme Court ruling in Rejanish KV v. K Deepa concerning direct recruitment of serving judicial officers as district judges?",
+   "options": [
+    "A three-judge bench led by the Chief Justice of India",
+    "A five-judge Constitution Bench led by CJI B.R. Gavai",
+    "A seven-judge Constitution Bench led by Justice Sundresh",
+    "A five-judge bench led by the Governor"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "The ruling was delivered on 9 October 2025 by a five-judge Constitution Bench led by CJI B.R. Gavai. Justice Sundresh was a concurring judge, not the leader of the bench, and the Governor does not lead a Supreme Court bench."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Overruled precedents and implementation",
+   "question": "With reference to the Supreme Court ruling on direct recruitment of serving judicial officers as district judges, consider the following statements:\n1. Satya Narain Singh (1984) was overruled.\n2. Dheeraj Mor v. High Court of Delhi (2020) was overruled.\n3. States and High Courts were directed to amend their rules within three months, with the change operating prospectively.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F3",
+    "P3.F8"
+   ],
+   "explanation": "All three statements are correct. The judgment overruled Satya Narain Singh (1984) and Dheeraj Mor (2020), and directed States and High Courts to amend their rules within three months on a prospective basis."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Constitutional provisions and judicial powers",
+   "question": "Match List-I with List-II regarding subordinate courts and the powers of judicial officers.\n\nList-I\n a. Articles 233–237\n b. Article 233\n c. Appointment of other judicial officers\n d. Criminal jurisdiction and sentencing powers\n\nList-II\n i. Governor after consulting the State PSC and High Court\n ii. District judges appointed by Governor in consultation with the High Court\n iii. CJM up to 7 years; Judicial Magistrate up to 3 years; death sentence by Sessions Judge requires High Court confirmation\n iv. Provisions concerning subordinate courts\n\nOptions:",
+   "options": [
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-iii, b-ii, c-iv, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F9",
+    "P3.F10",
+    "P3.F11",
+    "P3.F12"
+   ],
+   "explanation": "The correct pairs are a-iv, b-ii, c-i and d-iii. Articles 233–237 concern subordinate courts; Article 233 deals with district judges; other judicial officers are appointed by the Governor after consultation with the State PSC and High Court; and the stated criminal powers are those of the CJM, Judicial Magistrate and Sessions Judge."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Examination scandals and anti-cheating response",
+   "question": "How many of the following statements are correct?\n1. The Bihar police examination leaks and proxy candidates were associated with 2023.\n2. The Punjab PSC scandal occurred in 2022.\n3. Uttarakhand SSC leaks did not lead to a CBI inquiry.\n4. Uttarakhand's anti-cheating law was enacted in 2021.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2"
+   ],
+   "explanation": "Only one statement is correct: the Bihar police examination leaks and proxy candidates were associated with 2023. The Punjab PSC scandal was in 2021, Uttarakhand SSC leaks led to a CBI inquiry, and Uttarakhand's anti-cheating law was enacted in 2022."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Anti-cheating legislation",
+   "question": "In which year was the Uttarakhand anti-cheating law enacted in response to concerns over examination malpractice?",
+   "options": [
+    "2021",
+    "2022",
+    "2023",
+    "2014"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "Uttarakhand enacted its anti-cheating law in 2022. The years 2021 and 2023 are associated with other examination-related developments in the facts, while 2014 refers to the Whistle Blowers Protection Act."
+  }
+ ]
+}

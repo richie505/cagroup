@@ -1,0 +1,70 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37
+ ],
+ "only": [
+  "P31.F2",
+  "P32.F4",
+  "P37.F4",
+  "P37.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Discoverer",
+   "question": "Who discovered the 17th-century Telugu inscription found in Prakasam district and referred it to the Archaeological Survey of India, Mysuru?",
+   "options": [
+    "Historian Jyothi Chandramouli",
+    "Tourism consultant Nishitha Goyal",
+    "Challa Chandrasekhar Reddy",
+    "G. Srinivasa Nehru"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P31.F2"
+   ],
+   "explanation": "Historian Jyothi Chandramouli, a retired headmaster from Addanki, discovered the inscription and referred it to the Archaeological Survey of India, Mysuru. Nishitha Goyal was associated with receiving the Global Tourism Award, while the other two names relate to separate Andhra Pradesh news items."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tourism policy objective",
+   "question": "Which model is included in the new tourism policy associated with Andhra Pradesh receiving the Global Tourism Award 2025?",
+   "options": [
+    "Public-Private Partnership model",
+    "National Sanskrit University model",
+    "Mission Karmayogi model",
+    "Samagra Shiksha model"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P32.F4"
+   ],
+   "explanation": "The new tourism policy includes a Public-Private Partnership model, along with a roadmap for investors and emphasis on eco-friendly, sustainable development. Mission Karmayogi and Samagra Shiksha are associated with other initiatives, while the National Sanskrit University is an institution."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Science tour visits and officer",
+   "question": "With reference to the Science Exposure Tour of East Godavari girls to Delhi, consider the following statements:\n1. The tour included visits to the Russian Centre of Science and Culture and the National Science Museum.\n2. The tour also included a visit to the Nehru Planetarium.\n3. G. Srinivasa Nehru was the District Science Officer.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P37.F4",
+    "P37.F5"
+   ],
+   "explanation": "All three statements are correct. The tour itinerary included the Russian Centre of Science and Culture, the National Science Museum and the Nehru Planetarium, and G. Srinivasa Nehru was the District Science Officer. Therefore, the option containing statements 1, 2 and 3 is correct."
+  }
+ ]
+}

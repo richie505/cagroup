@@ -1,0 +1,90 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F4",
+  "P1.F7",
+  "P2.F6",
+  "P2.F7",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Deaths by year",
+   "question": "According to the CRS Report 2023 — Vital Statistics of India, how many deaths were recorded in India in 2020?",
+   "options": [
+    "81.2 lakh",
+    "102.2 lakh",
+    "86.5 lakh",
+    "86.6 lakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "India recorded 81.2 lakh deaths in 2020. The tempting figure of 102.2 lakh refers to 2021, not 2020."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Environmental decline",
+   "question": "According to the IUCN World Heritage Outlook 4 (2025), what decline was reported in the evergreen forest of the Western Ghats?",
+   "options": [
+    "5%",
+    "17%",
+    "30%",
+    "51%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F4"
+   ],
+   "explanation": "The Western Ghats recorded a 5% decline in evergreen forest. The figures 17%, 30% and 51% refer to the shares of Asian natural sites in different assessment categories, not forest decline."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Exposure and dementia deaths",
+   "question": "With reference to the State of Global Air (SoGA) 2025 report, consider the following statements:\nStatement A: 75% of Indians were exposed to air pollution above the WHO interim target of 35 µg/m³.\nStatement B: India recorded 54,000 dementia deaths, compared with 626,000 globally.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "Both statements are true. The report placed 75% of Indians above the WHO interim target of 35 µg/m³ and recorded 54,000 dementia deaths in India against 626,000 globally; therefore, neither statement is the false trap."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "SDG 3.4 target",
+   "question": "What is the target of Sustainable Development Goal 3.4 referred to in the State of Global Air (SoGA) 2025 report?",
+   "options": [
+    "Cut premature non-communicable disease deaths by one-third by 2030",
+    "Reduce the air-pollution death rate to 17 per 100,000 by 2030",
+    "Ensure that only 35% of Indians exceed the WHO interim target",
+    "Reduce global dementia deaths to 54,000 by 2030"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F3",
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "SDG 3.4 seeks to cut premature non-communicable disease deaths by one-third by 2030. The other options improperly use the report’s figures on death rates, exposure, or dementia deaths as if they were the SDG target."
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P6.F1",
+  "P6.F2",
+  "P6.F3",
+  "P6.F4",
+  "P8.F1",
+  "P8.F4",
+  "P8.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Gender representation in higher judiciary",
+   "question": "According to the India Justice Report 2025, consider the following statements:\n1. Women constituted 14% of judges in the High Courts and 3.1% of judges in the Supreme Court, with 1 of 34 Supreme Court judges being a woman.\n2. There were two women Chief Justices among the 25 High Courts.\n3. Women constituted 12% of judges in the High Courts.",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "Only statement 1 is correct: women constituted 14% of High Court judges and 3.1% of Supreme Court judges, including 1 of 34 Supreme Court judges. Statement 2 is incorrect because there was only one woman Chief Justice among the 25 High Courts, while statement 3 changes the High Court figure from 14% to 12%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Women in lower judiciary",
+   "question": "According to the India Justice Report 2025, approximately what proportion of the lower judiciary comprised women recruited through open competitive examinations?",
+   "options": [
+    "28%",
+    "38%",
+    "48%",
+    "18%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "Women constituted approximately 38% of the lower judiciary through open competitive examinations. The figures 28%, 48% and 18% do not correspond to the reported proportion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Judicial infrastructure for women",
+   "question": "According to the Supreme Court Centre for Research and Planning study cited in the India Justice Report 2025, what proportion of district court complexes lacked separate women's toilets in 2023?",
+   "options": [
+    "20%",
+    "25%",
+    "15%",
+    "30%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "In 2023, 20% of district court complexes lacked separate women's toilets. The alternatives change the reported proportion to 25%, 15% or 30%."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "RTI Act anniversary and Supreme Court order",
+   "question": "Consider the following statements:\nStatement A: 12 October 2025 marked 20 years since the Right to Information Act, 2005 came into full effect.\nStatement B: On 7 January 2025, the Supreme Court criticised vacancies in the Central and State Information Commissions.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F4"
+   ],
+   "explanation": "Both statements are true. The RTI Act, 2005 came into full effect on 12 October 2005, and the Supreme Court criticised vacancies in the Central and State Information Commissions in its order of 7 January 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "RTI Act exemptions",
+   "question": "Which section of the Right to Information Act deals with exemptions from disclosure of information?",
+   "options": [
+    "Section 3",
+    "Section 4",
+    "Section 8",
+    "Section 20"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F9",
+    "P8.F6",
+    "P8.F7",
+    "P8.F11"
+   ],
+   "explanation": "Section 8 of the Right to Information Act deals with exemptions from disclosure. Section 3 concerns the right to information, Section 4 concerns suo motu disclosure, and Section 20 concerns penalties."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P4.F2",
+  "P4.F6",
+  "P8.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "First flight and Rafale procurement",
+   "question": "With reference to the LCA Tejas Mk1A first flight and India’s fighter-aircraft procurement plans, consider the following statements:\n1. The first flight was witnessed by Rajnath Singh at Nashik on 17 October 2025.\n2. Eighteen Rafale aircraft were expected off the shelf, while Dassault had 233 aircraft in production at a rate of four per month under the MRFA proposal.\n3. Two hundred and thirty-three Rafale aircraft were expected off the shelf, while Dassault had 18 aircraft in production.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2",
+    "P4.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Rajnath Singh witnessed the first flight at Nashik on 17 October 2025, and 18 Rafale aircraft were expected off the shelf while Dassault had 233 in production at four per month. Statement 3 incorrectly swaps the figures 18 and 233."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s cloud ecosystem",
+   "question": "Which pair correctly names the two entities identified in the context of India’s cloud ecosystem?",
+   "options": [
+    "MeghRaj (GI Cloud) and CERT-In",
+    "AWS and CERT-In",
+    "MeghRaj (GI Cloud) and CHACE-2",
+    "MeghRaj (GI Cloud) and OpenAI"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F6"
+   ],
+   "explanation": "MeghRaj, or GI Cloud, and CERT-In are the two entities identified in the context of India’s cloud ecosystem. AWS, CHACE-2 and OpenAI are not the pair specified for this context."
+  }
+ ]
+}

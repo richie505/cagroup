@@ -1,0 +1,140 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P1.F2",
+  "P1.F3",
+  "P1.F4",
+  "P2.F2",
+  "P2.F4",
+  "P2.F7",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Heritage management organisation",
+   "question": "In the context of heritage conservation in India, which organisation is central to heritage management along with the Archaeological Survey of India (ASI)?",
+   "options": [
+    "INTACH",
+    "FAO",
+    "NFSA",
+    "AMASR Act"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "INTACH, along with the ASI, is central to heritage management. FAO and NFSA are associated with food and agriculture, while the AMASR Act is a law rather than an organisation."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "ASI legal framework and mandate",
+   "question": "Which of the following statements regarding the Archaeological Survey of India is incorrect?",
+   "options": [
+    "The ASI functions under the Ministry of Culture.",
+    "The ASI is governed by the AMASR Act, 1958.",
+    "The ASI manages more than 3,650 monuments of national importance.",
+    "The ASI is governed by the AMASR Act, 1960."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "The incorrect statement gives 1960 as the year of the AMASR Act; the correct year is 1958. The ASI functions under the Ministry of Culture and manages more than 3,650 monuments of national importance."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Foundation and first Director-General of ASI",
+   "question": "Consider the following statements about the Archaeological Survey of India:\n\n1. It was founded in 1861.\n2. Alexander Cunningham was its second Director-General.\n3. It was empowered by Lord Ripon.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "Only statement 1 is correct: the ASI was founded in 1861. Alexander Cunningham was its first Director-General, and it was empowered by Lord Curzon, not Lord Ripon."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Book launch",
+   "question": "Which book was launched during the observance of World Food Day 2025 in the context of India–FAO cooperation?",
+   "options": [
+    "Sowing Hope, Harvesting Success",
+    "Anandamath",
+    "Vande Mataram",
+    "Mann Ki Baat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "The book launched was titled “Sowing Hope, Harvesting Success.” Anandamath is a novel, Vande Mataram is a national song, and Mann Ki Baat is a programme."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Officials and agricultural facts",
+   "question": "Match List-I with List-II in the context of World Food Day 2025 and India–FAO cooperation.\n\nList-I\n a. Takayuki Hagiwara\n b. Shombi Sharp\n c. NFSA coverage\n d. India’s share of the world’s agricultural land and freshwater\n\nList-II\n i. UN Resident Coordinator\n ii. Less than 4%\n iii. 800 million+\n iv. FAO Representative",
+   "options": [
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "The correct pairs are a-iv, b-i, c-iii and d-ii: Takayuki Hagiwara was the FAO Representative, Shombi Sharp was the UN Resident Coordinator, NFSA covered 800 million+, and India had less than 4% of the world’s agricultural land and freshwater. The other codes interchange these roles and figures."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Authorship and language",
+   "question": "Consider the following statements about ‘Vande Mataram’:\nStatement A: It was written by Bankim Chandra Chattopadhyay in 1875.\nStatement B: It was written in Sanskritised Hindi.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F4"
+   ],
+   "explanation": "Statement A is true because Bankim Chandra Chattopadhyay wrote ‘Vande Mataram’ in 1875. Statement B is false because its language was Sanskritised Bengali, not Sanskritised Hindi."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Swadeshi Movement and meaning",
+   "question": "Assertion (A): ‘Vande Mataram’ served as a rallying cry during the Swadeshi Movement of 1905–1911.\nReason (R): The phrase ‘Vande Mataram’ means “I bow to thee, Mother”.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F9"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: ‘Vande Mataram’ was a rallying cry during the Swadeshi Movement of 1905–1911, and its meaning is “I bow to thee, Mother”. The meaning does not explain the historical fact that it functioned as a rallying cry during that movement."
+  }
+ ]
+}

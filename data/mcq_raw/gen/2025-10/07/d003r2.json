@@ -1,0 +1,105 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F5",
+  "P11.F2",
+  "P11.F3",
+  "P11.F5",
+  "P9.F13",
+  "P9.F3",
+  "P9.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Survey and report timeline",
+   "question": "For the All-India Synchronous Elephant Estimation (SAIEE) 2025, which combination correctly states the beginning of the survey and the release period of the report?",
+   "options": [
+    "Survey began in 2021; report released in October 2025",
+    "Survey began in 2021; report released in October 2024",
+    "Survey began in 2022; report released in October 2025",
+    "Survey began in 2020; report released in October 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "The SAIEE 2025 survey began in 2021, and its report was released in October 2025. The tempting alternative of October 2024 changes the report year."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State-wise elephant population",
+   "question": "What elephant population was recorded for Uttarakhand in the All-India Synchronous Elephant Estimation (SAIEE) 2025?",
+   "options": [
+    "1,792",
+    "912",
+    "6,013",
+    "4,159"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F13",
+    "P9.F14",
+    "P9.F9",
+    "P9.F10"
+   ],
+   "explanation": "Uttarakhand recorded 1,792 elephants in SAIEE 2025. The figure 912 belonged to Odisha, while 6,013 and 4,159 were associated with Karnataka and Assam respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Profit increase",
+   "question": "Under the Sustainable Aquaculture in Mangrove Ecosystems (SAIME) model, by how much did profit increase?",
+   "options": [
+    "Over 100%",
+    "Exactly 100%",
+    "There was no increase",
+    "Profit declined"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "The SAIME model increased profit by over 100%. The statement that profit rose by exactly 100% is incorrect because the reported increase was greater than 100%."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Rainfall share and forecast",
+   "question": "Consider the following statements about the Northeast monsoon of 2025:\n\n1. It contributes 48% of Tamil Nadu's annual rainfall.\n2. It contributes over 30% of Andhra Pradesh's annual rainfall.\n3. The IMD forecast rainfall at exactly 112% of the Long Period Average (LPA).",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2",
+    "P11.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Northeast monsoon contributes 48% of Tamil Nadu's annual rainfall and over 30% of Andhra Pradesh's. Statement 3 is incorrect because the IMD forecast was for above-normal rainfall, over 112% of LPA, not exactly 112%."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Alternative name and cyclonic disturbances",
+   "question": "Consider the following statements about the Northeast monsoon:\n\nStatement A: It is also called the advancing monsoon.\nStatement B: Around three cyclonic disturbances occur per season in the Bay of Bengal.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F5"
+   ],
+   "explanation": "Statement A is false because the Northeast monsoon is also called the retreating monsoon. Statement B is true, as around three cyclonic disturbances occur per season in the Bay of Bengal."
+  }
+ ]
+}

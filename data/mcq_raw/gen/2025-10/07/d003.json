@@ -1,0 +1,264 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F3",
+  "P10.F4",
+  "P10.F5",
+  "P11.F2",
+  "P11.F3",
+  "P11.F4",
+  "P11.F5",
+  "P12.F7",
+  "P9.F13",
+  "P9.F14",
+  "P9.F15",
+  "P9.F16",
+  "P9.F17",
+  "P9.F18",
+  "P9.F2",
+  "P9.F3",
+  "P9.F4",
+  "P9.F5",
+  "P9.F6",
+  "P9.F7",
+  "P9.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Population decline",
+   "question": "According to the All-India Synchronous Elephant Estimation (SAIEE) 2025, what was India's estimated elephant population and how did it compare with 2017?",
+   "options": [
+    "22,446, compared with 27,312 in 2017",
+    "27,312, compared with 22,446 in 2017",
+    "18,255, compared with 26,645 in 2017",
+    "26,645, compared with 18,255 in 2017"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The estimated elephant population was 22,446, compared with 27,312 in 2017, representing an approximately 18% decline. The figures 18,255 and 26,645 are the lower and upper limits of the reported range, not the central estimate."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Survey and report timeline",
+   "question": "Which statement correctly describes the timeline of the All-India Synchronous Elephant Estimation (SAIEE) 2025?",
+   "options": [
+    "The survey began in 2021 and the report was released in October 2025",
+    "The survey began in 2017 and the report was released in October 2025",
+    "The survey began in 2021 and the report was released in 2017",
+    "The survey began in October 2025 and the report was released in 2021"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3"
+   ],
+   "explanation": "The SAIEE 2025 survey began in 2021, while its report was issued in October 2025. The years 2017 and 2021 do not represent the survey and report sequence stated for this exercise."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Landscape-wise elephant population",
+   "question": "Match the landscapes with the elephant populations reported in SAIEE 2025.\n\nList-I\n a. Western Ghats\n b. North-East Hills & Brahmaputra\n c. Shivalik & Gangetic Plains\n d. Central India & Eastern Ghats\n\nList-II\n i. 11,934\n ii. 6,559\n iii. 2,062\n iv. 1,891",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4",
+    "P9.F5",
+    "P9.F6",
+    "P9.F7"
+   ],
+   "explanation": "The correct pairs are Western Ghats—11,934; North-East Hills & Brahmaputra—6,559; Shivalik & Gangetic Plains—2,062; and Central India & Eastern Ghats—1,891. The other codes interchange these landscape-wise figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State-wise elephant population",
+   "question": "What elephant population was recorded for Uttarakhand in SAIEE 2025?",
+   "options": [
+    "1,792",
+    "912",
+    "97",
+    "63"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F13"
+   ],
+   "explanation": "Uttarakhand recorded 1,792 elephants. The figures 912, 97 and 63 refer to Odisha, Madhya Pradesh and Maharashtra respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State-wise elephant population",
+   "question": "Which elephant population was recorded for Odisha in SAIEE 2025?",
+   "options": [
+    "912",
+    "1,792",
+    "2,062",
+    "1,891"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F14"
+   ],
+   "explanation": "Odisha recorded 912 elephants. The other figures belong to Uttarakhand or to the landscape-wise estimates for Shivalik & Gangetic Plains and Central India & Eastern Ghats."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Madhya Pradesh and Maharashtra figures",
+   "question": "Consider the following statements:\nStatement A: Madhya Pradesh recorded 63 elephants in SAIEE 2025.\nStatement B: Maharashtra recorded 63 elephants in SAIEE 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F15"
+   ],
+   "explanation": "Statement A is false because Madhya Pradesh recorded 97 elephants, while Statement B is true because Maharashtra recorded 63. The two figures were reported together as 97 for Madhya Pradesh and 63 for Maharashtra."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Census methodology",
+   "question": "Which combination correctly describes the methodology used in SAIEE 2025?",
+   "options": [
+    "M-Stripes app, 6.7 lakh km of trails, 21,056 dung samples and 4,065 unique elephants",
+    "M-Stripes app, 4,065 km of trails, 6.7 lakh dung samples and 21,056 unique elephants",
+    "Mark-recapture model, 21,056 km of trails, 6.7 lakh dung samples and 4,065 unique elephants",
+    "M-Stripes app, 6.7 lakh km of trails, 4,065 dung samples and 21,056 unique elephants"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F16"
+   ],
+   "explanation": "The exercise used the M-Stripes app, covered 6.7 lakh km of trails, analysed 21,056 dung samples, identified 4,065 unique elephants and applied a mark-recapture model. The other options exchange or alter these reported figures."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Project Elephant and legal status",
+   "question": "Consider the following statements about elephants and elephant conservation in India:\n1. India has more than 60% of the world's Asian elephants.\n2. Project Elephant was launched in 1992.\n3. The Asian elephant is classified as Vulnerable by the IUCN and placed in Schedule II.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F17",
+    "P9.F18"
+   ],
+   "explanation": "Statements 1 and 2 are correct: India has more than 60% of the world's Asian elephants, and Project Elephant dates to 1992. Statement 3 is incorrect because the Asian elephant is Endangered according to the IUCN and is placed in Schedule I."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "SAIME design and coverage",
+   "question": "Match the features of the Sustainable Aquaculture in Mangrove Ecosystems (SAIME) model with the relevant details.\n\nList-I\n a. Mangrove cover retained in ponds\n b. Shrimp species\n c. Area covered\n d. Farmers involved\n\nList-II\n i. 5–30%\n ii. Black Tiger Shrimp\n iii. 29.84 ha\n iv. 42",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4"
+   ],
+   "explanation": "The SAIME model retains 5–30% mangrove cover, uses chemical-free Black Tiger Shrimp, covers 29.84 ha and involves 42 farmers. The correct code is therefore a-i, b-ii, c-iii, d-iv."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Livelihood impact",
+   "question": "What increase in profit was reported under the SAIME aquaculture model?",
+   "options": [
+    "Over 100%",
+    "Over 112%",
+    "Over 30%",
+    "Over 60%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "The SAIME model increased profit by over 100%. The figures 112%, 30% and 60% do not describe the model's reported profit increase."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rainfall share",
+   "question": "What share of annual rainfall does the Northeast monsoon contribute to Tamil Nadu and Andhra Pradesh?",
+   "options": [
+    "48% of Tamil Nadu's annual rain and over 30% of Andhra Pradesh's",
+    "Over 30% of Tamil Nadu's annual rain and 48% of Andhra Pradesh's",
+    "48% of both Tamil Nadu's and Andhra Pradesh's annual rain",
+    "Over 112% of Tamil Nadu's annual rain and 48% of Andhra Pradesh's"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "The Northeast monsoon contributes 48% of Tamil Nadu's annual rainfall and over 30% of Andhra Pradesh's. The 112% figure relates to the IMD forecast as a percentage of LPA, not to the rainfall share of these states."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IMD rainfall forecast",
+   "question": "What was the IMD forecast for the 2025 Northeast monsoon?",
+   "options": [
+    "Above normal, at over 112% of LPA",
+    "Above normal, at over 48% of LPA",
+    "Normal, at over 112% of LPA",
+    "Below normal, at over 30% of LPA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "The IMD forecast the 2025 Northeast monsoon to be above normal, with rainfall exceeding 112% of LPA. The 48% and over 30% figures refer to the monsoon's share of annual rainfall in Tamil Nadu and Andhra Pradesh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Urea allocation",
+   "question": "To what level was the urea allocation raised in October 2025 after the shortage was raised by the Tamil Nadu Chief Minister?",
+   "options": [
+    "36.65 lakh tonnes",
+    "29.84 lakh tonnes",
+    "6.7 lakh tonnes",
+    "22,446 lakh tonnes"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4"
+   ],
+   "explanation": "The urea allocation was raised to 36.65 lakh tonnes in October 2025. The other figures are associated with the SAIME coverage or the SAIEE survey and are not the revised urea allocation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Causes of record CO₂ growth",
+   "question": "Which set of factors was identified in connection with the record rise in atmospheric CO₂ reported for 2024?",
+   "options": [
+    "Fossil fuels, wildfires, weaker carbon sinks and El Niño",
+    "Fossil fuels, mangrove cover, stronger carbon sinks and El Niño",
+    "Wildfires, urea allocation, weaker carbon sinks and the Northeast monsoon",
+    "Fossil fuels, Black Tiger Shrimp, weaker carbon sinks and El Niño"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F7"
+   ],
+   "explanation": "The reported causes were fossil-fuel use, wildfires in the Amazon and southern Africa, weaker carbon sinks and El Niño. Mangrove cover, urea allocation, the Northeast monsoon and Black Tiger Shrimp belong to other news items."
+  }
+ ]
+}

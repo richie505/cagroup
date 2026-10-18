@@ -1,0 +1,46 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": [
+  "P5.F6",
+  "P6.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Prize components and amount",
+   "question": "With reference to the Nobel Prize in Economic Sciences 2025, consider the following statements:\n1. The prize includes a gold medal.\n2. The prize includes a diploma.\n3. The monetary award is $1 million.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "The 2025 Economics prize consists of a gold medal, a diploma and $1.2 million, so statements 1 and 2 are correct. Statement 3 is incorrect because the amount is $1.2 million, not $1 million."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Past Sakharov Prize laureate and year",
+   "question": "In which year were Sviatlana Tsikhanouskaya and the Belarus opposition named laureates of the Sakharov Prize?",
+   "options": [
+    "1988",
+    "2013",
+    "2020",
+    "2024"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F9"
+   ],
+   "explanation": "Sviatlana Tsikhanouskaya and the Belarus opposition were Sakharov Prize laureates in 2020. The other years listed correspond to different past laureates and are not the year associated with this laureate group."
+  }
+ ]
+}

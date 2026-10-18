@@ -1,0 +1,119 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  17
+ ],
+ "only": [
+  "P17.F10",
+  "P17.F11",
+  "P17.F3",
+  "P17.F4",
+  "P17.F5",
+  "P17.F6",
+  "P17.F7",
+  "P17.F8",
+  "P17.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "High Court data",
+   "question": "Match the High Courts with the corresponding data on seniority in the Higher Judicial Services:\n\nList-I\n(a) Bihar\n(b) Uttar Pradesh\n(c) Bombay\n(d) Rajasthan\n\nList-II\n(i) 12 of 13 elevated were promotees\n(ii) 91 Principal District Judges — 86 direct recruits and 5 promotees\n(iii) 19 elevated since 2020 — 16 direct recruits\n(iv) 70 judges — 58 direct recruits and 12 promotees\n\nSelect the correct answer using the code below:",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F3",
+    "P17.F4",
+    "P17.F5",
+    "P17.F6"
+   ],
+   "explanation": "The correct pairs are Bihar–(ii), Uttar Pradesh–(iv), Bombay–(iii) and Rajasthan–(i). The tempting alternative swaps the Bihar and Uttar Pradesh data, but Bihar had 91 Principal District Judges while Uttar Pradesh had 70."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Recommendation by Andhra Pradesh High Court",
+   "question": "In the context of seniority in the Higher Judicial Services, what proportion of High Court appointments from the service did the Andhra Pradesh High Court recommend should be drawn from persons who began as Civil Judges?",
+   "options": [
+    "25%",
+    "40%",
+    "50%",
+    "75%"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P17.F7"
+   ],
+   "explanation": "The Andhra Pradesh High Court recommended that 50% of High Court appointments from the service should be persons who began as Civil Judges. The other percentages relate to different quota or roster details in the judicial-services framework."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Promotion and direct recruitment framework",
+   "question": "Consider the following statements regarding the framework associated with the All India Judges Association case:\n\n1. The framework provided 75% promotion, comprising 50% merit-cum-seniority and 25% LDCE, and 25% direct recruitment.\n2. The 40-point roster was derived from R.K. Sabarwal's 1995 framework.\n3. The framework provided 25% promotion and 75% direct recruitment.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the framework prescribed 75% promotion, 25% direct recruitment and a 40-point roster from R.K. Sabarwal's 1995 framework. Statement 3 reverses the promotion and direct-recruitment proportions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "May 2025 Supreme Court framework",
+   "question": "Which one of the following was part of the Supreme Court's May 2025 framework concerning recruitment and service conditions in the district judiciary?",
+   "options": [
+    "LDCE was reduced from 25% to 3 years",
+    "Qualifying service was reduced from 5 years to 3 years",
+    "Civil Judge entry required 5 years' practice instead of 3 years",
+    "Quotas were fixed on vacancies rather than sanctioned strength"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P17.F9"
+   ],
+   "explanation": "The May 2025 Supreme Court framework reduced the qualifying service from 5 years to 3 years. It also restored LDCE at 25%, required 3 years' practice for Civil Judge entry and fixed quotas on sanctioned strength; these details make the other options incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Share of litigation handled",
+   "question": "Approximately what share of litigation is handled by the district judiciary?",
+   "options": [
+    "25%",
+    "50%",
+    "75%",
+    "90%"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F10"
+   ],
+   "explanation": "The district judiciary handles approximately 90% of litigation. The lower percentages are not the share attributed to the district judiciary in this context."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "NALSA legal framework and leadership",
+   "question": "How many of the following statements regarding the legal-services framework associated with NALSA are correct?\n\n1. The Legal Services Authorities Act was enacted in 1987.\n2. Article 39A is associated with the legal-services framework.\n3. The Chief Justice of India is the Patron-in-Chief.\n4. The Executive Chairman is the Chief Justice of India.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P17.F11"
+   ],
+   "explanation": "Exactly three statements are correct: the Legal Services Authorities Act dates to 1987, Article 39A is associated with the framework, and the Chief Justice of India is the Patron-in-Chief. Statement 4 is incorrect because the Executive Chairman is the second senior-most Supreme Court judge."
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F3",
+  "P10.F5",
+  "P10.F6",
+  "P11.F10",
+  "P11.F11",
+  "P11.F12",
+  "P11.F4",
+  "P11.F5",
+  "P11.F6",
+  "P11.F7",
+  "P11.F8",
+  "P11.F9",
+  "P12.F10",
+  "P12.F11",
+  "P12.F12",
+  "P12.F2",
+  "P12.F5",
+  "P12.F7",
+  "P12.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Stroke mortality",
+   "question": "According to the data highlighted in the mainstreaming stroke rehabilitation discussion, how many stroke deaths were recorded in 2019, and what share of all deaths did they represent?",
+   "options": [
+    "6.99 lakh and 7.4%",
+    "1.8 million and 7.4%",
+    "6.99 lakh and 10%",
+    "3.00 lakh and 7.4%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F3"
+   ],
+   "explanation": "The correct answer is 6.99 lakh deaths, accounting for 7.4% of all deaths in 2019. The tempting option mentioning 1.8 million refers to new stroke cases per year, not deaths."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Stroke awareness campaign and programme",
+   "question": "With reference to stroke rehabilitation and awareness measures, consider the following statements:\n1. More than 60% of caregivers face depression or anxiety within six months.\n2. FAST stands for Face, Arms, Speech and Time.\n3. NPCDCS is the name of the FAST campaign.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5",
+    "P10.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: more than 60% of caregivers face depression or anxiety within six months, and FAST means Face, Arms, Speech and Time. Statement 3 is incorrect because NPCDCS is the programme, while FAST is the campaign."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Community-centred conservation framework",
+   "question": "What framework was proposed under the Ministry of Tribal Affairs’ new policy on community-centred conservation in tiger reserves?",
+   "options": [
+    "National Framework for Community-Centred Conservation and Relocation",
+    "National Framework for Tiger Protection and Relocation",
+    "National Framework for Tribal Welfare and Rehabilitation",
+    "National Framework for Community-Centred Forest Development"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4"
+   ],
+   "explanation": "The proposed framework is the National Framework for Community-Centred Conservation and Relocation. The other options alter the stated title and do not refer to the proposed framework."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tiger population growth",
+   "question": "The tiger population cited in the Ministry of Tribal Affairs’ community-centred conservation policy increased from approximately what level in 2006 to over what level in 2023?",
+   "options": [
+    "About 1,411 to over 3,000",
+    "About 3,000 to over 1,411",
+    "About 1,411 to over 2,000",
+    "About 2,000 to over 3,000"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F5"
+   ],
+   "explanation": "The cited increase was from approximately 1,411 tigers in 2006 to over 3,000 in 2023. The reverse sequence and the alternative population figures do not match the stated trend."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Constitutional safeguards for Scheduled Tribes",
+   "question": "Match the constitutional provisions with their respective safeguards for Scheduled Tribes.\n\nList-I\n a. Article 342\n b. Article 366(25)\n c. Articles 330 and 332\n d. Article 244(1) / 244(2)\n\nList-II\n i. Reservation in the Lok Sabha and Assemblies\n ii. Defines Scheduled Tribes\n iii. Fifth Schedule and Sixth Schedule\n iv. President specifies Scheduled Tribes",
+   "options": [
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-iii, b-ii, c-i, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F6",
+    "P11.F7",
+    "P11.F8",
+    "P11.F9"
+   ],
+   "explanation": "The correct matching is a-iv, b-ii, c-i and d-iii: Article 342 concerns specification by the President, Article 366(25) defines Scheduled Tribes, Articles 330 and 332 provide reservation, and Article 244 concerns the Fifth and Sixth Schedules. The other codes interchange these constitutional safeguards."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "ST welfare safeguards and institutions",
+   "question": "Consider the following statements regarding safeguards and welfare measures for Scheduled Tribes:\n1. Article 275(1) provides grants for Scheduled Tribe welfare.\n2. Article 338A concerns the National Commission for Scheduled Tribes, set up in 2004 through the 89th Amendment.\n3. The Ministry of Tribal Affairs was established in 2004, and its listed schemes include only EMRS.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F10",
+    "P11.F11",
+    "P11.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Article 275(1) provides grants for ST welfare, and Article 338A concerns the NCST established in 2004 through the 89th Amendment. Statement 3 is incorrect because the Ministry of Tribal Affairs dates to 1999 and the listed schemes also include Van Dhan Vikas Kendras, PMAAGY and the Sickle Cell Anaemia Elimination Mission."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ministry of Tribal Affairs schemes",
+   "question": "Which of the following is included among the schemes and missions associated with the Ministry of Tribal Affairs in the policy background?",
+   "options": [
+    "Sickle Cell Anaemia Elimination Mission (2023–32)",
+    "Sickle Cell Anaemia Elimination Mission (2004–14)",
+    "National Framework for Community-Centred Conservation and Relocation",
+    "Pension scheme with 60% family pension"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F12"
+   ],
+   "explanation": "The Sickle Cell Anaemia Elimination Mission for 2023–32 is among the listed Ministry of Tribal Affairs schemes and missions. The National Framework is a proposed conservation framework, while the pension-related option belongs to a different subject."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "8th Central Pay Commission ToR",
+   "question": "Which issue in the Terms of Reference of the 8th Central Pay Commission signals concern about returning to the Old Pension Scheme?",
+   "options": [
+    "The unfunded cost of non-contributory pension schemes",
+    "The funded cost of contributory pension schemes",
+    "The unfunded cost of market annuity schemes",
+    "The cost of reservation in Lok Sabha and Assemblies"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2"
+   ],
+   "explanation": "The Terms of Reference include the unfunded cost of non-contributory pension schemes, signalling concern about a return to OPS and its effect on state finances. The other options change the pension type or refer to an unrelated constitutional provision."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Pension scheme features",
+   "question": "Match the pension-scheme feature with the correct provision.\n\nList-I\n a. OPS pension\n b. NPS pension\n c. UPS pension\n\nList-II\n i. Market annuity\n ii. 50% of average basic of the last 12 months for 25 years’ service\n iii. 50% of last basic plus DA",
+   "options": [
+    "a-iii, b-i, c-ii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-iii, c-i",
+    "a-iii, b-ii, c-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F5"
+   ],
+   "explanation": "The correct pairs are OPS–50% of last basic plus DA, NPS–market annuity, and UPS–50% of average basic of the last 12 months for 25 years’ service. The other options interchange the pension provisions among the three schemes."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Government contribution and family pension",
+   "question": "Match each pension scheme with its government share and family-pension provision.\n\nList-I\n a. OPS\n b. NPS\n c. UPS\n\nList-II\n i. 14% government share; annuity-based family pension\n ii. 18.5% government share; 60% family pension\n iii. 100% government share; 50–60% family pension",
+   "options": [
+    "a-iii, b-i, c-ii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-iii, c-i",
+    "a-iii, b-ii, c-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F7",
+    "P12.F9"
+   ],
+   "explanation": "The correct matching is OPS–100% and 50–60%, NPS–14% and annuity-based, and UPS–18.5% and 60%. The other codes assign the government shares or family-pension provisions to the wrong schemes."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NPS withdrawal and UPS choice",
+   "question": "Consider the following statements:\nStatement A: Under the NPS, 40% of the amount is withdrawn tax-free and 60% is used for annuity.\nStatement B: The choice of the UPS is reversible.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F10",
+    "P12.F11"
+   ],
+   "explanation": "Both statements are false. Under the NPS, 60% is withdrawn tax-free and 40% is used for annuity, while the choice of the UPS is irreversible."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "States returning to OPS",
+   "question": "Which group of States was identified as having returned to the Old Pension Scheme?",
+   "options": [
+    "Rajasthan, Chhattisgarh, Punjab and Himachal Pradesh",
+    "Rajasthan, Punjab, Assam and Mizoram",
+    "Chhattisgarh, Haryana, Punjab and Tripura",
+    "Himachal Pradesh, Meghalaya, Kerala and Rajasthan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F12"
+   ],
+   "explanation": "The identified States are Rajasthan, Chhattisgarh, Punjab and Himachal Pradesh. The other options replace one or more of these States with States not included in the stated group."
+  }
+ ]
+}

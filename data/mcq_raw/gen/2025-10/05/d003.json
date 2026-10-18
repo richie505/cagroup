@@ -1,0 +1,285 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P10.F4",
+  "P10.F5",
+  "P10.F6",
+  "P10.F7",
+  "P11.F2",
+  "P11.F3",
+  "P11.F4",
+  "P11.F5",
+  "P12.F3",
+  "P12.F4",
+  "P12.F5",
+  "P13.F2",
+  "P13.F3",
+  "P13.F4",
+  "P13.F5",
+  "P9.F1",
+  "P9.F2",
+  "P9.F3",
+  "P9.F4",
+  "P9.F6",
+  "P9.F7",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Border clashes",
+   "question": "What was reported during Muttaqi’s visit to India in the Afghanistan–Pakistan border clashes along the Durand Line?",
+   "options": [
+    "Pakistan carried out airstrikes in Afghanistan, while Afghan forces captured Pakistani posts",
+    "Afghanistan carried out airstrikes in Pakistan, while Pakistani forces captured Afghan posts",
+    "Both countries agreed to withdraw from the Durand Line",
+    "India deployed forces on both sides of the Durand Line"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "Pakistan carried out airstrikes in Afghanistan, and Afghan forces captured posts during the clashes. The other options reverse the actions or introduce developments not associated with this episode."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Durand Line",
+   "question": "The Durand Line, which divides Pashtun-populated areas, was demarcated in which year?",
+   "options": [
+    "1893",
+    "1903",
+    "1947",
+    "2021"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The Durand Line was demarcated in 1893 by the British. Afghanistan has never recognised it, making the other years incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "TTP, PTM and US withdrawal",
+   "question": "Consider the following statements:\nStatement A: The United States withdrew from Afghanistan in August 2020.\nStatement B: TTP stands for Tehreek-e-Taliban Pakistan, while PTM stands for Pashtun Tahafuz Movement.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "Statement A is false because the US withdrawal occurred in August 2021, not August 2020. Statement B is true: TTP means Tehreek-e-Taliban Pakistan and PTM means Pashtun Tahafuz Movement."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Doha ceasefire trigger and monitoring",
+   "question": "With reference to the Doha ceasefire of 19 October 2025, consider the following statements:\n1. Pakistani airstrikes in Paktika targeted the Hafiz Gul Bahadur group after a suicide bombing in Khyber Pakhtunkhwa.\n2. Afghanistan announced a boycott of the cricket series.\n3. Follow-up talks were scheduled in Kabul.\n4. The threat groups identified were al-Qaida affiliates alone.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only",
+    "3 and 4 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F6",
+    "P9.F7",
+    "P9.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the trigger involved Pakistani airstrikes in Paktika after a Khyber Pakhtunkhwa suicide bombing, and Afghanistan’s cricket-series boycott. Follow-up talks were to take place in Doha, and the threat groups included IS-K as well as al-Qaida affiliates."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Border length",
+   "question": "What is the length of the Durand Line referred to in the Afghanistan–Pakistan ceasefire context?",
+   "options": [
+    "2,611 km",
+    "1,800 km",
+    "2,000 km",
+    "3,500 km"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F8"
+   ],
+   "explanation": "The Durand Line is 2,611 km long. The other figures are not the stated length of the border."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Diplomatic engagement",
+   "question": "During the Sharm el-Sheikh ceasefire diplomacy, whom did Donald Trump praise and with whom did he meet?",
+   "options": [
+    "He praised Abdel Fattah El-Sisi and met Mahmoud Abbas",
+    "He praised Mahmoud Abbas and met Abdel Fattah El-Sisi",
+    "He praised the Emir of Qatar and met the Turkish President",
+    "He praised Benjamin Netanyahu and met the Egyptian Defence Minister"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "Donald Trump praised Abdel Fattah El-Sisi and met Mahmoud Abbas. The other combinations change the individuals involved in these two engagements."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "7 October 2023 attack",
+   "question": "According to the background to the Gaza conflict, what were the reported figures associated with the Hamas attack of 7 October 2023?",
+   "options": [
+    "251 hostages and 1,219 people killed",
+    "20 hostages and 27 bodies to be returned",
+    "1,968 prisoners released and 250 security detainees",
+    "50% of crude imports and 251 detainees"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "The 7 October 2023 Hamas attack involved 251 hostages and 1,219 people killed. The other options mix figures from the ceasefire’s hostage, prisoner or energy-related details."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ceasefire challenges",
+   "question": "Consider the following statements:\nStatement A: Hamas agreed to disarm as part of the ceasefire arrangements.\nStatement B: The Israeli withdrawal remained incomplete.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F6"
+   ],
+   "explanation": "Statement A is false because Hamas refused to disarm. Statement B is true because the Israeli withdrawal was incomplete, one of the challenges facing the ceasefire."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Indus Waters Treaty suspension and Chenab projects",
+   "question": "Consider the following statements regarding the Sawalkote project and other Chenab-related developments:\n1. Momentum for the Sawalkote project increased after India suspended the Indus Waters Treaty following the Pahalgam attack.\n2. The Wullar Barrage was unrelated to this renewed momentum.\n3. Dulhasti, Baglihar and Salal are other Chenab projects.\n4. The momentum began after India signed the Indus Waters Treaty.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 4 only",
+    "3 and 4 only"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F2",
+    "P11.F5"
+   ],
+   "explanation": "Statements 1 and 3 are correct: momentum followed India’s suspension of the Indus Waters Treaty after the Pahalgam attack, and Dulhasti, Baglihar and Salal are other Chenab projects. The Wullar Barrage was also associated with the momentum, while the treaty was suspended rather than newly signed."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Reservoir character",
+   "question": "How was the reservoir of the Sawalkote hydroelectric project described in relation to its official classification?",
+   "options": [
+    "It exceeds 50,000 crore litres and, although termed run-of-river, is closer to storage",
+    "It is below 5,000 crore litres and is classified as a storage project",
+    "It exceeds 50,000 crore litres and is exclusively a diversion canal",
+    "It is below 500 crore litres and is classified as a non-hydroelectric reservoir"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "The reservoir exceeds 50,000 crore litres and is termed run-of-river but considered closer to storage. The other options alter its size, classification or purpose."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Environmental and rehabilitation figures",
+   "question": "How many of the following statements about the Sawalkote project are correct?\n1. Forest diversion is 847 ha.\n2. Around 1,200 families are expected to be displaced.\n3. Rehabilitation accounts for 0.6% of the project cost.\n4. The project cost increased by ₹8,000 crore.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct: forest diversion is 847 ha and rehabilitation accounts for about 0.6% of the cost. The correct displacement figure is around 1,500 families, and the cost increase is ₹9,000 crore."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s non-fossil target",
+   "question": "Which target and milestone describe India’s renewable-energy position in the India–Australia Renewable Energy Partnership context?",
+   "options": [
+    "500 GW of non-fossil capacity by 2030, including 280 GW of solar; 50% non-fossil installed capacity was reached in July 2025",
+    "500 GW of solar capacity by 2035, including 280 GW of wind; 50% was reached in July 2021",
+    "280 GW of non-fossil capacity by 2030, including 500 GW of solar; 50% was reached in October 2025",
+    "50% of non-fossil capacity by 2030, with 500 GW of solar achieved in July 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "India targets 500 GW of non-fossil capacity by 2030, including 280 GW of solar, and reached 50% non-fossil installed capacity in July 2025. The other options interchange or alter the capacity, technology and dates."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Australia and China clean-energy facts",
+   "question": "Consider the following statements:\n1. Australia’s 2035 emissions-reduction target is 60–70% below 2005 levels.\n2. Australia has a net-zero target for 2050.\n3. China refines more than 90% of rare earths.\n4. China produces about 90% of solar modules.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only",
+    "3 and 4 only"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F4",
+    "P12.F5"
+   ],
+   "explanation": "Statements 2 and 3 are correct: Australia targets net zero by 2050, and China refines more than 90% of rare earths. Australia’s stated emissions cut is 62–70%, not 60–70%, and China accounts for about 80% of solar modules, not 90%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Trigger of Madagascar protests",
+   "question": "What were the main triggers behind the youth-led protests that preceded the Madagascar political crisis?",
+   "options": [
+    "Power and water shortages",
+    "A disputed maritime boundary and a currency collapse",
+    "Food exports and a parliamentary boycott",
+    "A military pay dispute and a drought emergency"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "Power and water shortages triggered the youth-led protests. The other alternatives introduce causes not identified in the crisis facts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Madagascar constitutional and regional context",
+   "question": "Consider the following statements regarding the Madagascar crisis:\n1. The High Constitutional Court must validate the impeachment.\n2. CAPSAT was also central to the 2009 coup that brought Rajoelina to power.\n3. Madagascar’s capital is Antananarivo and its regional bloc is the African Union.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F4",
+    "P13.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the High Constitutional Court must validate the impeachment, and CAPSAT was central to the 2009 coup that brought Rajoelina to power. Madagascar’s capital is Antananarivo, but its regional bloc is SADC; the African Union was likely to suspend it."
+  }
+ ]
+}

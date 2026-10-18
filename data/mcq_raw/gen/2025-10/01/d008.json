@@ -1,0 +1,199 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37
+ ],
+ "only": [
+  "P31.F2",
+  "P31.F3",
+  "P31.F4",
+  "P31.F5",
+  "P32.F4",
+  "P32.F5",
+  "P32.F6",
+  "P32.F7",
+  "P33.F3",
+  "P34.F4",
+  "P35.F4",
+  "P36.F1",
+  "P36.F2",
+  "P36.F3",
+  "P37.F4",
+  "P37.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Finder of inscription",
+   "question": "Who found the 17th-century Telugu inscription at Anantararayunipalli in Komarolu mandal of Prakasam district?",
+   "options": [
+    "Jyothi Chandramouli",
+    "Kondappa Nayani",
+    "Rangappati Raju",
+    "G.S.R. Krishnamurthy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P31.F2"
+   ],
+   "explanation": "Historian Jyothi Chandramouli, a retired headmaster from Addanki, found the inscription and referred it to the ASI, Mysuru. Kondappa Nayani was identified as the donor mentioned in the inscription, not its finder."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inscriptional date",
+   "question": "The 17th-century Telugu inscription found in Prakasam district is dated to which combination?",
+   "options": [
+    "Yuva Samvatsara and Ashadha Sudha Ekadasi",
+    "Yuva Samvatsara and Lord Hanumanta Seva",
+    "Amara-nayamkara and Ashadha Sudha Ekadasi",
+    "Velugoti Samvatsara and Ashadha Sudha Ekadasi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P31.F3"
+   ],
+   "explanation": "The inscription is dated to Yuva Samvatsara, Ashadha Sudha Ekadasi. Lord Hanumanta is connected with the purpose of the land grant, while amara-nayamkara describes the tenure associated with Komaravoli."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Inscription content and donor",
+   "question": "With reference to the 17th-century Telugu inscription found in Prakasam district, consider the following statements:\n1. It records a land grant of Ganupulapalli village and lands in Bomggaraputi for services to Lord Hanumanta.\n2. The donor was Tirupati Nayani, the son of Kondappa Nayani.\n3. Kondappa Nayani received Komaravoli as amara-nayamkara from Tirupati Nayani.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P31.F4",
+    "P31.F5"
+   ],
+   "explanation": "Only statement 1 is correct: the inscription records the specified land grant for services to Lord Hanumanta. The donor was Kondappa Nayani, son of Tirupati Nayani, and he received Komaravoli from Rangappati Raju, making statements 2 and 3 incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tourism policy objective",
+   "question": "What was a key reason for Andhra Pradesh receiving the Global Tourism Award 2025?",
+   "options": [
+    "Its new tourism policy provided a roadmap for investors and promoted eco-friendly, sustainable development through the PPP model",
+    "Its 103 MoUs were signed exclusively for central government initiatives",
+    "Its tourism policy focused only on conventional tourism in Gandikota",
+    "Its award was restricted to projects implemented by the Union government"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P32.F4"
+   ],
+   "explanation": "The new tourism policy offered a roadmap for investors and emphasised eco-friendly, sustainable development through the public-private partnership model. The award was not restricted to central government initiatives, and the 103 MoUs were not the stated description of the policy itself."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Tourism investment and Gandikota",
+   "question": "With reference to Andhra Pradesh Tourism’s Global Tourism Award 2025, consider the following statements:\n1. Andhra Pradesh signed 103 MoUs during the past 15 months.\n2. Gandikota was developed as a leading eco-tourism and adventure tourism destination.\n3. The award recognised only central government initiatives and excluded states.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P32.F5",
+    "P32.F6",
+    "P32.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 103 MoUs were signed in the preceding 15 months, and Gandikota was developed as a leading eco-tourism and adventure tourism destination. Statement 3 is incorrect because states are also recognised under the award."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Platform and objective",
+   "question": "What is the iGOT platform under Mission Karmayogi primarily associated with?",
+   "options": [
+    "Capacity building of Central and State officials through the Integrated Government Online Training platform",
+    "Vocational training of about 2,000 youth in Kakinada city",
+    "Selection of one lead farmer in every gram panchayat",
+    "Promotion of eco-tourism and adventure tourism in Gandikota"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P33.F3"
+   ],
+   "explanation": "iGOT means Integrated Government Online Training and functions under Mission Karmayogi for capacity building of Central and State officials. The other options relate to the Kakinada vocational centre, the Farmer Champions initiative, and Gandikota tourism development respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Farmer Champions support",
+   "question": "Which of the following was included as support under the ‘Farmer Champions’ initiative in SPSR Nellore district?",
+   "options": [
+    "Training, modern machinery, post-harvest techniques and CSR support",
+    "Only selection of lead farmers without any training or machinery",
+    "A roadmap for tourism investors and PPP-based development",
+    "Visits to the National Science Museum and Nehru Planetarium"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P34.F4"
+   ],
+   "explanation": "The Farmer Champions initiative provided training, modern machinery, post-harvest techniques and CSR support. Tourism investment and science exposure visits belong to other initiatives and were not the support package described here."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Vice-Chancellor",
+   "question": "Who was the Vice-Chancellor of the National Sanskrit University, Tirupati, in the context of the Advaita Vedanta Ratna title?",
+   "options": [
+    "G.S.R. Krishnamurthy",
+    "Jyothi Chandramouli",
+    "G. Srinivasa Nehru",
+    "Subba Rao Prabhala"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P35.F4"
+   ],
+   "explanation": "G.S.R. Krishnamurthy was the Vice-Chancellor of the National Sanskrit University, Tirupati. G. Srinivasa Nehru was the District Science Officer associated with East Godavari, while Subba Rao Prabhala inaugurated the Kakinada centre."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Inauguration and beneficiaries",
+   "question": "With reference to the vocational training centre inaugurated in Kakinada, consider the following statements:\n1. It was inaugurated by retired Captain Subba Rao Prabhala.\n2. It was established by the Unnati Foundation with the AP State Skill Development Corporation.\n3. It was intended to benefit about 2,000 youth in Kakinada city.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P36.F1",
+    "P36.F2",
+    "P36.F3"
+   ],
+   "explanation": "All three statements are correct. Retired Captain Subba Rao Prabhala inaugurated the centre; it was established by the Unnati Foundation with APSSDC; and about 2,000 youth in Kakinada city were its intended beneficiaries."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Science tour destinations and official",
+   "question": "With reference to the Science Exposure Tour of East Godavari girls to Delhi, consider the following statements:\n1. The visits included the Russian Centre of Science and Culture, the National Science Museum and Nehru Planetarium.\n2. The District Science Officer was G. Srinivasa Nair.\n3. The District Science Officer was G. Srinivasa Nehru.",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Both statements are incorrect"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P37.F4",
+    "P37.F5"
+   ],
+   "explanation": "Statement 1 is correct: the tour included the Russian Centre of Science and Culture, National Science Museum and Nehru Planetarium. Statement 2 is incorrect because the District Science Officer was G. Srinivasa Nehru, not G. Srinivasa Nair."
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F5",
+  "P0.F6",
+  "P0.F8",
+  "P0.F9",
+  "P1.F1",
+  "P1.F10",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F7",
+  "P2.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Area of conservation reserve",
+   "question": "The Palk Bay Dugong Conservation Reserve in Tamil Nadu covers over how much area of seagrass meadows?",
+   "options": [
+    "Over 12,000 hectares",
+    "Over 200 hectares",
+    "Over 2,022 hectares",
+    "Over 1,972 hectares"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The reserve covers over 12,000 hectares of seagrass meadows. The figures 200, 2022 and 1972 refer to other details associated with the reserve and its legal framework, not its area."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Conservation technology and legal status",
+   "question": "With reference to the Palk Bay Dugong Conservation Reserve, consider the following statements:\n1. Drones, acoustic sensors and satellite mapping of seagrass are used, with funding from CAMPA.\n2. The reserve has been hailed by the IUCN as an exemplar for marine conservation.\n3. The dugong is listed under Schedule II of the Wildlife (Protection) Act and is found along the entire Indian coast.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6",
+    "P0.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the reserve uses the stated technologies with CAMPA funding and has been hailed by the IUCN as an exemplar for marine conservation. Statement 3 is incorrect because the dugong is under Schedule I and is not found along the entire Indian coast."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Population protection in India",
+   "question": "Which pair of regions has smaller and less protected dugong populations in comparison with the Palk Bay conservation landscape?",
+   "options": [
+    "Gujarat and Andaman",
+    "Palk Bay and Gulf of Mannar",
+    "Himachal Pradesh and Punjab",
+    "Seelampur and Moradabad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "Gujarat and the Andaman region have smaller and less protected dugong populations. Palk Bay and the Gulf of Mannar are listed as dugong habitats, while Himachal Pradesh, Punjab, Seelampur and Moradabad relate to other issues."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Overall monsoon performance",
+   "question": "Consider the following statements:\nStatement A: The 2025 monsoon was 8% above normal, against a long-period average of 87 cm.\nStatement B: Reservoir storage declined from 163 BCM to 157.8 BCM during the 2025 monsoon.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F6"
+   ],
+   "explanation": "Statement A is true: the 2025 monsoon was 8% above normal, with an LPA of 87 cm. Statement B is false because reservoir storage increased from 157.8 BCM to 163 BCM, rather than declining."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Monsoon impacts and initiatives",
+   "question": "How many of the following statements regarding the 2025 monsoon are correct?\n1. Kharif sown area rose by 15 lakh hectares to 1,110 lakh hectares.\n2. Floods and landslides affected Himachal Pradesh, Jammu and Kashmir, and Punjab.\n3. Flash Flood Guidance Services cover more than 30,000 watersheds.\n4. The Indian Ocean Dipole cannot influence the impact of El Niño on the monsoon.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F7",
+    "P1.F9",
+    "P1.F10"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: the Kharif area rose as stated, the three regions faced floods and landslides, and Flash Flood Guidance Services cover more than 30,000 watersheds. Statement 4 is incorrect because the Indian Ocean Dipole can influence El Niño’s impact on the monsoon."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "IMD cloudburst definition",
+   "question": "Assertion (A): Under the IMD definition, a cloudburst involves at least 100 mm of rainfall in one hour over a small area.\nReason (R): The IMD definition specifies at least 100 mm of rainfall in one hour over approximately 20–30 square kilometres.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. The Reason directly explains the Assertion by providing the IMD’s rainfall threshold and the approximate small area used in the definition."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global health burden of informal e-waste",
+   "question": "According to the WHO-linked background on informal waste zones globally, which group-size combination is reported?",
+   "options": [
+    "18 million children and 13 million women",
+    "13 million children and 18 million women",
+    "65 million children and 60 million women",
+    "322 million children and 43 million women"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7"
+   ],
+   "explanation": "The reported figures are 18 million children and 13 million women living in informal waste zones globally. The other combinations rearrange or substitute figures associated with different aspects of the e-waste issue."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Toxic substances in e-waste",
+   "question": "Which of the following statements regarding toxins released from e-waste is incorrect?",
+   "options": [
+    "Released toxins include beryllium and cadmium.",
+    "Released toxins include chromium, mercury and lead.",
+    "The identified toxic substances include beryllium, cadmium, chromium, mercury and lead.",
+    "The identified toxic substances include beryllium, cadmium, chromium, mercury and PM2.5."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "The fourth statement is incorrect because PM2.5 is not included in the listed group of released toxins. The identified toxins are beryllium, cadmium, chromium, mercury and lead."
+  }
+ ]
+}

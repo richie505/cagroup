@@ -1,0 +1,177 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": [
+  "P3.F11",
+  "P3.F5",
+  "P3.F6",
+  "P3.F8",
+  "P4.F1",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8",
+  "P5.F3",
+  "P5.F5",
+  "P6.F5",
+  "P7.F3",
+  "P7.F4",
+  "P7.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Project section and State",
+   "question": "Consider the following statements regarding the railway multi-tracking projects approved by the Union Cabinet:\n1. The Itarsi–Bhopal–Bina section is located in Madhya Pradesh.\n2. The Gondia–Dongargarh section covers Maharashtra and Chhattisgarh.\n3. The Gondia–Dongargarh section covers Maharashtra and Gujarat.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Itarsi–Bhopal–Bina is in Madhya Pradesh, while Gondia–Dongargarh covers Maharashtra and Chhattisgarh. Statement 3 is incorrect because Gujarat is not listed for the Gondia–Dongargarh section."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Tourism and logistics cost",
+   "question": "How many of the following statements are correct regarding the approved railway projects and the PM Gati Shakti background?\n1. Sanchi is among the tourism destinations associated with the projects.\n2. Satpura Tiger Reserve is not among the tourism destinations associated with the projects.\n3. India’s logistics cost is approximately 13% of GDP.\n4. India’s logistics cost is approximately 11% of GDP.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F8",
+    "P3.F11"
+   ],
+   "explanation": "Statements 1 and 3 are correct, so the answer is Only two. Satpura Tiger Reserve is also among the associated tourism destinations, and the logistics cost is approximately 13% of GDP, not 11%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Engagement with stablecoins",
+   "question": "What position did Finance Minister Nirmala Sitharaman express regarding crypto assets such as stablecoins?",
+   "options": [
+    "India must be ready to engage with them",
+    "India must use them only for domestic retail payments",
+    "India must replace all bank deposits with them",
+    "India must restrict engagement to Bitcoin alone"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "Nirmala Sitharaman said that India must be ready to engage with crypto assets such as stablecoins. The statement did not limit engagement to Bitcoin or propose replacing bank deposits with stablecoins."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Stablecoin regulation and settlement",
+   "question": "Consider the following statements about stablecoin regulation and settlement:\n1. The EU has the MiCA framework for regulation.\n2. The US has the GENIUS Act.\n3. Visa and Mastercard are integrating stablecoin settlement on Ethereum and Bitcoin.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F6",
+    "P4.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the EU MiCA framework and the US GENIUS Act are associated with stablecoin regulation. Statement 3 is incorrect because Visa and Mastercard are integrating settlement on Ethereum and Solana, not Bitcoin."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India Semiconductor Mission",
+   "question": "In which year was the India Semiconductor Mission established?",
+   "options": [
+    "2015",
+    "2021",
+    "2025",
+    "2030"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The India Semiconductor Mission was established in 2021. The other years do not correspond to the establishment of the Mission."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Semiconductor materials and doping",
+   "question": "Which one of the following correctly describes semiconductor materials and the charge carriers produced by doping?",
+   "options": [
+    "Silicon, germanium and gallium arsenide are semiconductor materials; N-type has electrons and P-type has holes",
+    "Silicon, germanium and gallium arsenide are semiconductor materials; N-type has holes and P-type has electrons",
+    "Only silicon is a semiconductor material; N-type has electrons and P-type has holes",
+    "Silicon, germanium and gallium arsenide are semiconductor materials; both N-type and P-type have electrons"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "Silicon, germanium and gallium arsenide are semiconductor materials. Doping produces N-type material with electrons and P-type material with holes; the other options reverse or omit these classifications."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Hyperinflation threshold",
+   "question": "What monthly inflation rate is generally associated with hyperinflation in the background discussion of inflation?",
+   "options": [
+    "More than 50% per month",
+    "Less than 50% per month",
+    "Exactly 50% per month",
+    "4% ± 2% per month"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "Hyperinflation is defined here as inflation exceeding 50% per month. The 4% ± 2% figure refers to the flexible inflation target, not the hyperinflation threshold."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Installed and effective solar capacity; parity",
+   "question": "Consider the following statements:\nStatement A: India had 117 GW of installed solar capacity in September 2025, with effective capacity of approximately 85 GW.\nStatement B: Solar power achieved parity with coal around 2018.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "Statement A is true: installed solar capacity was 117 GW and effective capacity was approximately 85 GW in September 2025. Statement B is false because solar parity with coal was achieved around 2017, not 2018."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "International Solar Alliance launch and HQ",
+   "question": "Which of the following correctly describes the International Solar Alliance?",
+   "options": [
+    "It was launched by India and France in 2015 at COP21, with headquarters at Gurugram",
+    "It was launched by India alone in 2015 at COP21, with headquarters at Gurugram",
+    "It was launched by India and France in 2021, with headquarters at Gurugram",
+    "It was launched by India and France in 2015 at COP21, with headquarters outside Gurugram"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F7"
+   ],
+   "explanation": "The International Solar Alliance was launched by India and France in 2015 at COP21, and its headquarters is at Gurugram. The other options alter either the launching countries, the year or the headquarters location."
+  }
+ ]
+}

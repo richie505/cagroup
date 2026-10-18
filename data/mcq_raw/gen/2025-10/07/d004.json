@@ -1,0 +1,196 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": [
+  "P13.F2",
+  "P13.F3",
+  "P13.F5",
+  "P13.F6",
+  "P13.F7",
+  "P14.F1",
+  "P14.F2",
+  "P14.F5",
+  "P14.F6",
+  "P14.F7",
+  "P15.F3",
+  "P15.F4",
+  "P16.F2",
+  "P17.F2",
+  "P17.F6",
+  "P17.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Date of fresh eruption",
+   "question": "The fresh eruption of the Baratang mud volcano in the Andaman and Nicobar Islands occurred on which date in October 2025?",
+   "options": [
+    "2 October 2025",
+    "8–9 October 2025",
+    "27–29 October 2025",
+    "2 October 2015"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "The fresh eruption occurred on 2 October 2025. The GSI team visited Baratang later, on 8–9 October 2025, making that the most tempting incorrect option."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Geological age and cause",
+   "question": "Consider the following statements about the Baratang mud volcano:\n1. Its rocks are sandstone and shale of the Mithakari Group.\n2. These rocks belong to the Oligocene, dated to 33.9–23 million years ago.\n3. Its activity is linked to subduction of the Indian Plate beneath the Burma Microplate and shale diapirism.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F5"
+   ],
+   "explanation": "All three statements are correct. Baratang’s rocks are sandstone and shale of the Mithakari Group and are Oligocene in age, while its activity is associated with Indian Plate subduction beneath the Burma Microplate and shale diapirism."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "GSI institutional profile",
+   "question": "Match the following aspects of the Geological Survey of India with the correct particulars:\n\nList-I\n a. Year of establishment\n b. Administrative ministry\n c. Headquarters\n d. Organisation referred to by the abbreviation GSI\n\nList-II\n i. 1851\n ii. Ministry of Mines\n iii. Kolkata\n iv. Geological Survey of India",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F6"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: GSI was founded in 1851, functions under the Ministry of Mines, is headquartered in Kolkata, and stands for Geological Survey of India. The other codes interchange these institutional particulars."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Burnt area and 2025 fires",
+   "question": "How many of the following statements about Punjab’s stubble-burning data are correct?\n1. The burnt area in 2021 was approximately 15.60 lakh hectares.\n2. The burnt area in 2022 was approximately 15.40 lakh hectares.\n3. Fewer incidents in 2025 were partly attributed to droughts.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2",
+    "P14.F5"
+   ],
+   "explanation": "Only statements 1 and 2 are correct. The 2021 and 2022 burnt areas were approximately 15.60 lakh hectares and 15.40 lakh hectares respectively; the 2025 decline in incidents was partly due to floods, not droughts."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Satellite detection and mitigation",
+   "question": "Consider the following statements:\nStatement A: MODIS and VIIRS detect burn scars, while Sentinel-2 detects evening fires.\nStatement B: Pusa Decomposer is among the listed solutions to stubble burning.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F6",
+    "P14.F7"
+   ],
+   "explanation": "Statement A is false because MODIS and VIIRS are thermal satellites that can miss evening fires, whereas Sentinel-2 detects burn scars. Statement B is true, as Pusa Decomposer is one of the listed solutions."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Climate risk in agriculture and schemes",
+   "question": "Consider the following statements:\nStatement A: Rain-fed areas account for 50% of India’s net sown area.\nStatement B: NMSA, PKVY and PMFBY are among the schemes associated with the climate-resilient agriculture discussion.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P15.F3",
+    "P15.F4"
+   ],
+   "explanation": "Statement A is false: rain-fed areas account for 60% of the net sown area. Statement B is true because NMSA, PKVY and PMFBY were listed among the relevant schemes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "By-products and health-risk debate",
+   "question": "Which pair of by-products was cited in the European Union’s proposed de-facto ban on ethanol-based products?",
+   "options": [
+    "Acetaldehyde and formaldehyde",
+    "Methane and ethane",
+    "Sandstone and shale",
+    "NMSA and PKVY"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F2"
+   ],
+   "explanation": "The by-products cited were acetaldehyde and formaldehyde. Methane and ethane were identified only as traces in the Baratang mud volcano context, not as the by-products at issue in the EU debate."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global fossil-fuel output increase",
+   "question": "According to Oil Change International’s “Planet Wreckers” report, by how much did global oil and gas output increase between 2015 and 2024?",
+   "options": [
+    "14 million boe/day, or 40%",
+    "11 million boe/day, or 90%",
+    "77 million boe/day, or 14%",
+    "465 million boe/day, or 280%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F2"
+   ],
+   "explanation": "Global oil and gas output increased by 14 million barrels of oil equivalent per day, representing a 40% rise between 2015 and 2024. The figures 11 million boe/day and over 90% refer to the USA’s share of the net global increase, not the total global increase."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "COP28 fossil-fuel commitment",
+   "question": "Assertion (A): COP28 in Dubai in 2023 called for a “transition away” from fossil fuels.\nReason (R): The 1.5°C carbon budget was expected to be exhausted in five years.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P17.F6"
+   ],
+   "explanation": "Assertion A is true: COP28 in Dubai in 2023 called for a “transition away” from fossil fuels. Reason R is false because the 1.5°C budget was stated to possibly be exhausted in two years, not five years."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "OCI personnel",
+   "question": "Who was identified as the policy lead of Oil Change International in the “Planet Wreckers” report context?",
+   "options": [
+    "Romain Ioualalen",
+    "ExxonMobil",
+    "Chevron",
+    "Shell"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F7"
+   ],
+   "explanation": "Romain Ioualalen was identified as OCI’s policy lead. ExxonMobil, Chevron and Shell were listed among the six major companies discussed in the report, not as OCI personnel."
+  }
+ ]
+}

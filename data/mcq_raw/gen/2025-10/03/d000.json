@@ -1,0 +1,213 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F2",
+  "P0.F3",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F3",
+  "P1.F4",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P3.F4",
+  "P3.F5",
+  "P3.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number and change",
+   "question": "According to NCRB data, how many suicides due to illness were recorded in 2023?",
+   "options": [
+    "31,484",
+    "32,503",
+    "63,643",
+    "35,715"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "There were 32,503 suicides due to illness in 2023, rising from 31,484 in 2022. The figures 63,643 and 35,715 relate to sudden deaths and heart attacks, respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Age group most affected",
+   "question": "Which age group recorded the highest number of suicides due to illness in the NCRB 2023 data?",
+   "options": [
+    "45–60 years",
+    "30–45 years",
+    "Pregnancy age group",
+    "Abortion-related age group"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The 30–45 years age group was the most affected, accounting for 8,964 suicides due to illness. The 45–60 years group is associated with sudden deaths, not suicides due to illness."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Sudden and maternal death figures",
+   "question": "Match the items with their 2023 figures in the NCRB data.\n\nList-I\n(a) Sudden deaths\n(b) Heart attacks\n(c) Other sudden causes\n(d) Maternal deaths in pregnancy\n\nList-II\n(i) 35,715\n(ii) 1,131\n(iii) 63,643\n(iv) 27,928",
+   "options": [
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F7",
+    "P0.F8",
+    "P0.F9",
+    "P0.F10"
+   ],
+   "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii: sudden deaths—63,643; heart attacks—35,715; other sudden causes—27,928; and maternal deaths in pregnancy—1,131. The other codes interchange these 2023 figures."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Abortion deaths, age group and institutional background",
+   "question": "How many of the following statements are correct regarding the NCRB data on sudden and maternal deaths?\n\n1. Abortion-related deaths increased to 127 in 2023.\n2. The 45–60 years age group accounted for 38% of sudden deaths and 34% of heart-attack deaths.\n3. NCRB stands for National Crime Records Bureau, while abortions are governed by the MTP Act.\n4. Maternal deaths in pregnancy stood at 1,073 in 2023.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11",
+    "P0.F12",
+    "P0.F13"
+   ],
+   "explanation": "Only one statement is correct: abortion-related deaths increased to 127 in 2023. The 45–60 years group accounted for 34% of sudden deaths and 38% of heart-attack deaths, and maternal deaths in pregnancy were 1,131 in 2023; the institutional statement in item 3 is also reversed."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Minimum Wages Act protection",
+   "question": "What did the Nagpur labour court state in 2023 regarding Anshakalin Stri Parichars in Maharashtra?",
+   "options": [
+    "They deserve protection under the Minimum Wages Act, with implementation left to the State.",
+    "They must immediately receive parity with MPWs.",
+    "They are classified as volunteers paid only by incentives.",
+    "They were introduced under the National Rural Health Mission."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "The Nagpur labour court held that Anshakalin Stri Parichars deserve protection under the Minimum Wages Act, while leaving implementation to the State. It did not mandate parity with MPWs, which is the key trap in the second option."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "ASHA classification and launch",
+   "question": "Consider the following statements:\nStatement A: ASHA was introduced under the National Rural Health Mission in 2006.\nStatement B: ASHAs were classified as volunteers and paid by incentives.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "Statement A is false because ASHA was introduced under the National Rural Health Mission in 2005. Statement B is true: ASHAs were classified as volunteers and paid by incentives."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Diabetes prevalence",
+   "question": "According to the ICMR findings cited in the 2025 nutrition discussion, how many adults were affected by diabetes?",
+   "options": [
+    "Over 100 million",
+    "Over 12 million",
+    "0.4 million",
+    "1,21,077"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "The ICMR 2023 finding placed the number of adults with diabetes at over 100 million. Over 12 million and 0.4 million refer to child obesity figures for 2022 and 1990, respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Child obesity trend",
+   "question": "According to the Lancet finding cited in the ICMR-INDIAB 2025 discussion, what was the number of grossly overweight children in 2022?",
+   "options": [
+    "0.4 million",
+    "Over 12 million",
+    "Over 100 million",
+    "62%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "More than 12 million children were grossly overweight in 2022, compared with 0.4 million in 1990. Over 100 million refers to adults with diabetes, while 62% refers to the share of daily calories from carbohydrates."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nutrition and food-policy measures",
+   "question": "Which set of measures was associated with addressing the nutrition concerns highlighted in the ICMR-INDIAB 2025 discussion?",
+   "options": [
+    "International Year of Millets 2023, CBSE sugar boards, and FSSAI Front-of-Pack Labelling proposals",
+    "National Rural Health Mission, Minimum Wages Act protection, and MTP Act",
+    "Revised Schedule M, Drugs and Cosmetics Act, and Article 21",
+    "White rice, milled grains, and added sugars"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "The relevant measures were the International Year of Millets 2023, CBSE sugar boards in schools, and FSSAI Front-of-Pack Labelling proposals. The other options combine unrelated legal, health-worker or dietary references."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Pharmaceutical industry profile",
+   "question": "Assertion (A): India is the second-largest pharmaceutical producer by volume.\nReason (R): India supplies pharmaceuticals to 200+ countries.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Assertion A is false because India ranks third by pharmaceutical volume, not second. Reason R is true because India supplies pharmaceuticals to 200+ countries, but that fact does not establish the volume ranking."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Earlier DEG incidents",
+   "question": "Match the year with the country associated with the earlier diethylene glycol incident.\n\nList-I\n(a) 2022\n(b) 2023\n\nList-II\n(i) Uzbekistan\n(ii) Gambia",
+   "options": [
+    "a-i, b-ii",
+    "a-ii, b-i",
+    "a-i, b-i",
+    "a-ii, b-ii"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F6"
+   ],
+   "explanation": "The 2022 diethylene glycol incident occurred in Gambia, where over 60 children died, while the 2023 incident occurred in Uzbekistan, where at least 18 deaths were reported. Therefore, the correct matching is a-ii, b-i."
+  }
+ ]
+}

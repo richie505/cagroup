@@ -1,0 +1,198 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P10.F10",
+  "P10.F5",
+  "P10.F6",
+  "P10.F8",
+  "P10.F9",
+  "P11.F3",
+  "P11.F4",
+  "P11.F5",
+  "P12.F2",
+  "P12.F3",
+  "P12.F4",
+  "P8.F2",
+  "P8.F3",
+  "P8.F4",
+  "P9.F4",
+  "P9.F6"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment",
+   "question": "Who is the Secretary of the Ministry of Statistics and Programme Implementation (MoSPI) associated with India's first National Household Income Survey?",
+   "options": [
+    "Saurabh Garg",
+    "Indian Rice Exporters' Federation",
+    "Department of Commerce",
+    "Ministry of Coal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "Saurabh Garg is the Secretary of MoSPI. The Indian Rice Exporters' Federation is the organiser of the Bharat International Rice Conference, while the Department of Commerce and Ministry of Coal relate to other news items."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Survey methodology and respondent response",
+   "question": "Consider the following statements about the pre-test and background of India's first National Household Income Survey:\n1. About 95% of respondents were uncomfortable sharing income and tax details.\n2. India has so far relied on consumption expenditure surveys.\n3. About 95% of respondents were comfortable sharing income and tax details.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the pre-test found about 95% of respondents uncomfortable sharing income and tax details, and India had relied on consumption expenditure surveys. Statement 3 reverses the pre-test finding by saying respondents were comfortable."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Export value and rank",
+   "question": "What was the value of India's rice exports in FY 2024–25, described as the country's largest agricultural export?",
+   "options": [
+    "US$12.95 billion",
+    "$3 billion",
+    "$1.6 billion",
+    "6.8%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "India's rice exports in FY 2024–25 were valued at US$12.95 billion, making rice the country's largest agricultural export. The other figures refer to separate banking or economic facts."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Agriculture Export Policy and ODOP",
+   "question": "Consider the following statements:\nStatement A: The Agriculture Export Policy was introduced in 2018.\nStatement B: One District One Product (ODOP) is associated with the Agriculture Export Policy context.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F6"
+   ],
+   "explanation": "Both statements are true. The Agriculture Export Policy dates to 2018, and ODOP is identified in the same policy context; therefore, neither statement is the incorrect alternative."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Investor and deal",
+   "question": "Match the investors and entities involved in the reported Indian financial-sector deals:\n\nList-I\n a. IHC\n b. Bain Capital\n c. Sammaan Capital\n d. Manappuram Finance\n\nList-II\n i. Approximately $1 billion\n ii. 18%\n iii. Entity associated with IHC's deal\n iv. Entity associated with Bain Capital's deal\n\nSelect the correct code.",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5",
+    "P10.F6"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii: IHC was linked with Sammaan Capital in a deal of approximately $1 billion, while Bain Capital dealt for 18% of Manappuram Finance. The other codes interchange the investors, entities or deal figures."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "FDI caps",
+   "question": "What are the FDI caps identified for insurance and private banks, respectively, in the context of global capital in Indian financial institutions?",
+   "options": [
+    "100% and 74%",
+    "74% and 100%",
+    "70% and 60%",
+    "60% and 70%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F8"
+   ],
+   "explanation": "The stated FDI caps are 100% for insurance and 74% for private banks. The reversed pair incorrectly assigns the banking cap to insurance and the insurance cap to private banks."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Banking income and growth projection",
+   "question": "Assertion (A): India's growth projection by the RBI was 6.5%.\nReason (R): McKinsey reported that Indian banks' net income was $46 billion, representing a 31% increase.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F9",
+    "P10.F10"
+   ],
+   "explanation": "Assertion A is false because the RBI growth projection was 6.8%, not 6.5%. Reason R is true: McKinsey reported Indian banks' net income at $46 billion, up 31%, but that banking-income figure does not explain the RBI's growth projection."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Location and environmental standards",
+   "question": "Consider the following statements about the Vizhinjam LNG bunkering facility:\n1. Vizhinjam is just 10 nautical miles from the East-West shipping corridor.\n2. Compared with conventional fuel, LNG can reduce CO₂ by up to 25%, NOx by 90% and SOx to near-zero levels.\n3. The IMO's 2050 target is a 50% reduction in GHG emissions compared with 2020.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F4",
+    "P11.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Vizhinjam is just 10 nautical miles from the East-West shipping corridor, and LNG offers the stated reductions in CO₂, NOx and SOx. Statement 3 is incorrect because the IMO's 2050 comparison baseline is 2008, not 2020."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Dashboard integration and earlier tools",
+   "question": "Match the coal-sector platform or tool with its stated role:\n\nList-I\n a. Koyla Shakti—Smart Coal Analytics Dashboard\n b. Uttam App\n c. Mines Surveillance System\n d. Coal Allocation Monitoring System (CAMS)\n\nList-II\n i. Coal quality\n ii. Integration of coal, transport, power and state-platform data\n iii. Coal allocation monitoring\n iv. Mine surveillance\n\nSelect the correct code.",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "The correct matching is a-ii, b-i, c-iv and d-iii. Koyla Shakti integrates data from the listed coal, railway, power, port and state platforms; Uttam concerns quality, the Mines Surveillance System concerns surveillance, and CAMS concerns coal allocation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Energy and electricity share",
+   "question": "Coal contributes approximately what shares of India's energy supply and electricity generation, respectively?",
+   "options": [
+    "55–60% and about 70%",
+    "About 70% and 55–60%",
+    "42.6% and 12 million+",
+    "6.8% and $46 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "Coal accounts for approximately 55–60% of energy supply and about 70% of electricity. The second option reverses the two shares, while the remaining options combine unrelated employability and economic figures."
+  }
+ ]
+}

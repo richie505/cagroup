@@ -1,0 +1,197 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P3.F12",
+  "P3.F13",
+  "P3.F14",
+  "P3.F15",
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P3.F8",
+  "P4.F4",
+  "P4.F5",
+  "P4.F7",
+  "P4.F8",
+  "P5.F1",
+  "P5.F4",
+  "P5.F5",
+  "P5.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Red alert districts",
+   "question": "With reference to the red alert issued in Andhra Pradesh for Cyclone Montha, which of the following statements is incorrect?",
+   "options": [
+    "Srikakulam was included among the red alert districts.",
+    "Vizianagaram was included among the red alert districts.",
+    "Krishna was included among the red alert districts.",
+    "Konaseema was excluded from the red alert districts."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "Konaseema was included among the red alert districts for Cyclone Montha. The incorrect statement changes its status from included to excluded; the listed districts also included Srikakulam, Vizianagaram and Krishna."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "IMD cyclone categories and wind speeds",
+   "question": "Consider the following statements about the IMD classification of cyclonic systems:\n1. An Extremely Severe Cyclonic Storm has wind speeds of 166–220 kmph.\n2. A Super Cyclone has wind speeds exceeding 221 kmph.\n3. A Depression has wind speeds of 50–61 kmph.\n4. A Deep Depression has wind speeds of 31–49 kmph.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F7",
+    "P3.F8",
+    "P3.F12",
+    "P3.F13"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Extremely Severe Cyclonic Storms have wind speeds of 166–220 kmph, while Super Cyclones exceed 221 kmph. Statements 3 and 4 interchange the wind-speed ranges of Depression and Deep Depression; therefore, only two statements are correct."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Cyclone formation conditions",
+   "question": "Assertion (A): A sea-surface temperature above 26.5°C is one of the conditions for cyclone formation.\nReason (R): A Coriolis force beyond 5° latitude is also associated with cyclone formation.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F14"
+   ],
+   "explanation": "Both the sea-surface temperature above 26.5°C and the Coriolis force beyond 5° latitude are listed conditions for cyclone formation. The Coriolis condition does not explain why the sea-surface temperature threshold is required, so R is not the correct explanation of A."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cyclone naming mechanism",
+   "question": "Who maintains the list of names proposed by the WMO/ESCAP Panel on Tropical Cyclones?",
+   "options": [
+    "India Meteorological Department",
+    "WMO/ESCAP Panel on Tropical Cyclones",
+    "NITI Aayog",
+    "APSDMA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F15"
+   ],
+   "explanation": "The India Meteorological Department maintains the list of cyclone names. The WMO/ESCAP Panel on Tropical Cyclones is the 13-member panel that proposes the names, but it does not maintain the list."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tourism project proposal",
+   "question": "Under the tourism proposals cleared by the Andhra Pradesh Cabinet, what was proposed for Araku?",
+   "options": [
+    "A luxury resort",
+    "Four-star hotels",
+    "A three-star hotel",
+    "A convention centre"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "A luxury resort was proposed for Araku. Four-star hotels were proposed in Amaravati, a three-star facility at Srisailam and a convention centre at Kakinada."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Renewable-energy project locations",
+   "question": "Consider the following statements:\nStatement A: Solar and pumped-storage projects were proposed in Anantapur, Vizianagaram, Kurnool and Eluru.\nStatement B: The tourism proposals included four-star hotels in Amaravati and a luxury resort in Araku.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F5"
+   ],
+   "explanation": "Statement A is false because the renewable-energy locations were Anantapur, Vizianagaram, Kurnool and Nandyal, not Eluru. Statement B is true because the tourism package included four-star hotels in Amaravati and a luxury resort in Araku."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Gram panchayat reclassification",
+   "question": "With reference to the reclassification of gram panchayats in Andhra Pradesh, consider the following statements:\n1. 7,244 clusters were abolished.\n2. 13,351 independent clusters were created.\n3. The grades comprised Special Grade, Grade I and Grade II only.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7",
+    "P4.F8"
+   ],
+   "explanation": "Only statement 1 is correct: 7,244 clusters were abolished. The reclassification created 13,351 independent panchayats, not clusters, and included four grades—Special Grade, Grade I, Grade II and Grade III."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Government order",
+   "question": "Which government order issued by the Energy Department constituted the advisory committee for Green Hydrogen Valley–Amaravati?",
+   "options": [
+    "G.O. Ms. No. 82, Energy Department",
+    "G.O. Ms. No. 82, Revenue Department",
+    "G.O. Ms. No. 82, Industries Department",
+    "G.O. Ms. No. 82, Finance Department"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "The advisory committee was constituted through G.O. Ms. No. 82 of the Energy Department. The department associated with the order was Energy, not Revenue, Industries or Finance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Member-Convener",
+   "question": "Who was appointed Member-Convener of the Green Hydrogen Valley–Amaravati advisory committee?",
+   "options": [
+    "Dr. M. Kamalakar Babu",
+    "Dr. V.K. Saraswat",
+    "K. Vijayanand",
+    "CSIR-NCL, Pune"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "Dr. M. Kamalakar Babu, Managing Director of NREDCAP, was appointed Member-Convener. Dr. V.K. Saraswat was the Chairman, while K. Vijayanand was the Co-Chairman."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Annual reviews and summits",
+   "question": "Which institution was included as a member of the Green Hydrogen Valley–Amaravati advisory committee and entrusted with hosting its annual reviews and summits?",
+   "options": [
+    "SRM University",
+    "CSIR-NCL, Pune",
+    "Ministry of Railways",
+    "Fraunhofer Institute, Germany"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5",
+    "P5.F7"
+   ],
+   "explanation": "SRM University was included among the committee members and was to host the annual reviews and summits. CSIR-NCL, the Ministry of Railways and the Fraunhofer Institute were also listed as members, but they were not assigned the hosting role."
+  }
+ ]
+}

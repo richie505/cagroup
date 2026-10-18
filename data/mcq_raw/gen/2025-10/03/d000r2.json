@@ -1,0 +1,105 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": [
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F2",
+  "P0.F3",
+  "P2.F4",
+  "P2.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Year-wise change and abortion-related deaths",
+   "question": "With reference to the NCRB data on suicides and maternal deaths in 2023, consider the following statements:\n1. Suicides due to illness increased from 31,484 in 2022 to 32,503 in 2023.\n2. The 45–60 years age group was the most affected by suicides due to illness.\n3. Abortion-related deaths increased from 80 in 2022 to 127 in 2023, a rise of 5.4%.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 3 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F11"
+   ],
+   "explanation": "Only statement 1 is correct: suicides due to illness rose from 31,484 in 2022 to 32,503 in 2023. Statement 2 incorrectly gives the most affected age group as 45–60 years, while statement 3 incorrectly gives the rise in abortion-related deaths as 5.4%; the correct rise was 59%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Age group affected",
+   "question": "In the NCRB data on sudden deaths and heart-attack deaths in 2023, which age group was reported as the most affected?",
+   "options": [
+    "30–45 years",
+    "45–60 years",
+    "Men",
+    "Women"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "The 45–60 years age group was the most affected, accounting for 34% of sudden deaths and 38% of heart-attack deaths. The 30–45 years group was associated with suicides due to illness, not this finding."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NCRB expansion and abortion law",
+   "question": "Consider the following statements:\nStatement A: NCRB stands for National Crime Records Bureau.\nStatement B: Abortions in India are governed by Article 21.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Statement A is true because NCRB stands for National Crime Records Bureau. Statement B is false: abortions are governed by the MTP Act, while Article 21 concerns the right to health."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Diabetes prevalence",
+   "question": "According to the ICMR 2023 finding cited in the ICMR-INDIAB 2025 discussion, diabetes affected which population?",
+   "options": [
+    "Over 100 million adults",
+    "More than 12 million children",
+    "0.4 million children",
+    "1,21,077 adults"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F5",
+    "P2.F1"
+   ],
+   "explanation": "The ICMR 2023 finding reported diabetes in over 100 million adults. The figures of more than 12 million and 0.4 million relate to child obesity, while 1,21,077 was the number of adults surveyed in ICMR-INDIAB."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Child obesity trend",
+   "question": "What change in child obesity was highlighted by the Lancet finding cited in the ICMR-INDIAB 2025 discussion?",
+   "options": [
+    "More than 12 million children were grossly overweight in 2022, compared with 0.4 million in 1990",
+    "0.4 million children were grossly overweight in 2022, compared with more than 12 million in 1990",
+    "Over 100 million adults were grossly overweight in 2022, compared with 0.4 million in 1990",
+    "More than 12 million children were grossly overweight in 1990, compared with 0.4 million in 2022"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The finding reported more than 12 million grossly overweight children in 2022, compared with 0.4 million in 1990. The reverse comparison in the second option is the most direct trap."
+  }
+ ]
+}

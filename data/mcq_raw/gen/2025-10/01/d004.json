@@ -1,0 +1,247 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": [
+  "P11.F2",
+  "P11.F3",
+  "P11.F4",
+  "P11.F5",
+  "P11.F7",
+  "P11.F8",
+  "P12.F1",
+  "P12.F5",
+  "P12.F6",
+  "P12.F7",
+  "P12.F8",
+  "P12.F9",
+  "P13.F3",
+  "P13.F5",
+  "P13.F6",
+  "P13.F7",
+  "P14.F6",
+  "P14.F7",
+  "P14.F8"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Operational date",
+   "question": "The Andhra Pradesh Excise Suraksha App became operational through the Google Play Store on which date?",
+   "options": [
+    "15 October 2025",
+    "16 October 2025",
+    "9 September 2025",
+    "2020"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F8",
+    "P12.F2",
+    "P14.F2"
+   ],
+   "explanation": "The Excise Suraksha App became operational on 16 October 2025 through the Google Play Store. 15 October 2025 was the date of the DLGVS order, not the app’s operational date."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Toll-free helpline",
+   "question": "Which toll-free number was provided for complaints through the Andhra Pradesh Excise Suraksha App?",
+   "options": [
+    "14405",
+    "23",
+    "16",
+    "4"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F4",
+    "P11.F5"
+   ],
+   "explanation": "The toll-free complaint number associated with the Excise Suraksha App is 14405. The numbers 23, 16 and 4 refer to figures in the Mulakalacheruvu SIT case, not the complaint helpline."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "SIT case and DLGVS order",
+   "question": "With reference to the Mulakalacheruvu spurious liquor case and the DLGVS order in Andhra Pradesh, consider the following statements:\n1. The case involved 23 accused, of whom 16 were arrested and 4 were abroad.\n2. The reported supply chain ran from Ibrahimpatnam to Rayalaseema region.\n3. The DLGVS order was issued on 16 October 2025.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F5",
+    "P11.F7",
+    "P11.F8"
+   ],
+   "explanation": "Only statement 1 is correct: the SIT case involved 23 accused, 16 arrests and 4 persons abroad. The reported supply chain extended from Ibrahimpatnam in Vijayawada to African countries, while the DLGVS order was issued on 15 October 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "App feature",
+   "question": "Which feature of the Andhra Pradesh Excise Suraksha App helps prevent the sale of liquor through unauthorised belt shops?",
+   "options": [
+    "Geo-tagging bottles to authorised shops",
+    "A 24×7 Excise Control Room",
+    "A 100-bed naturopathy college",
+    "A one-crore signature campaign"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2",
+    "P11.F11",
+    "P12.F6",
+    "P12.F9"
+   ],
+   "explanation": "The app geo-tags bottles to authorised shops, thereby helping stop belt shops. The Excise Control Room belongs to the DLGVS monitoring mechanism, while the other options concern unrelated news items."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Bed allocation",
+   "question": "Under the public-private partnership plan for new medical colleges in Andhra Pradesh, what proportion of beds is reserved for Dr. NTR Vaidya Seva?",
+   "options": [
+    "30%",
+    "50%",
+    "70%",
+    "100%"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P12.F5",
+    "P12.F4"
+   ],
+   "explanation": "Seventy per cent of the beds are reserved for Dr. NTR Vaidya Seva, while 30% are offered at market pricing. The 50% figure relates to the government quota of seats, not bed reservation."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Medical sector profile and health budget",
+   "question": "Consider the following statements about Andhra Pradesh’s medical and health-sector profile:\n1. Andhra Pradesh has 38 medical colleges, 6,785 MBBS seats, ranks fourth in practicing doctors and has 1,05,805 allopathic doctors.\n2. The health budget for 2025–26 is ₹19,264.63 crore, with a commitment of 2% of GSDP.\n3. Andhra Pradesh has 38 medical colleges, 6,785 MBBS seats, ranks fifth in practicing doctors and has 1,05,805 allopathic doctors.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F6",
+    "P12.F7"
+   ],
+   "explanation": "Only statement 1 is correct. The health budget is ₹19,264.63 crore with a commitment of 2.5% of GSDP, and Andhra Pradesh ranks fourth—not fifth—in practicing doctors."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Minister’s statement",
+   "question": "Who stated that the public-private partnership model for the new medical colleges in Andhra Pradesh is not privatisation?",
+   "options": [
+    "Satya Kumar Yadav",
+    "Y.S. Jagan Mohan Reddy",
+    "Y.S. Sharmila",
+    "B. Srinivasa Rao"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F8",
+    "P12.F9",
+    "P14.F6"
+   ],
+   "explanation": "Health Minister Satya Kumar Yadav stated that the PPP model is not privatisation. Y.S. Jagan Mohan Reddy and Y.S. Sharmila were associated with the opposition response, while B. Srinivasa Rao is linked to Samagra Shiksha."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Opposition figures and campaign",
+   "question": "Match the following political figures and developments associated with the debate over new medical colleges in Andhra Pradesh.\n\nList-I\n a. Statement that PPP is not privatisation\n b. Opposition leader associated with the one-crore signature campaign\n c. State Congress chief\n d. Health Minister\n\nList-II\n i. Y.S. Sharmila\n ii. Satya Kumar Yadav\n iii. Y.S. Jagan Mohan Reddy\n iv. PPP model is not privatisation",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F8",
+    "P12.F9"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-i and d-ii. Satya Kumar Yadav was the Health Minister; Y.S. Jagan Mohan Reddy was associated with the one-crore signature campaign, and Y.S. Sharmila was the State Congress chief."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AYUSH project location",
+   "question": "In which region is the new Unani medical college proposed under the Andhra Pradesh AYUSH projects?",
+   "options": [
+    "Rayalaseema region",
+    "Visakhapatnam",
+    "Kakinada",
+    "Dharmavaram"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F2",
+    "P13.F6"
+   ],
+   "explanation": "The proposed Unani college is planned for the Rayalaseema region. Kakinada and Dharmavaram are locations of Ayurvedic college projects, while Visakhapatnam is the location of the Government Naturopathy and Yoga College."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "AYUSH projects and scheme link",
+   "question": "How many of the following statements regarding the new AYUSH projects in Andhra Pradesh are correct?\n1. The project to upgrade 276 AYUSH dispensaries includes reconstruction of 90 and construction of 60 new dispensaries.\n2. A 100-bed Government Naturopathy and Yoga College is proposed at Visakhapatnam at a cost of ₹23 crore, with admissions from 2026–27.\n3. These projects are linked to the Samagra Shiksha scheme.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F5",
+    "P13.F6",
+    "P13.F7"
+   ],
+   "explanation": "Only two statements are correct: the dispensary project covers 276 dispensaries, including reconstruction of 90 and construction of 60 new ones, and the Visakhapatnam college has the stated capacity, cost and admission schedule. The AYUSH projects are linked to the National AYUSH Mission, not Samagra Shiksha."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State Project Director",
+   "question": "Who is the State Project Director of Samagra Shiksha in Andhra Pradesh associated with the Personalised Adaptive Learning programme?",
+   "options": [
+    "B. Srinivasa Rao",
+    "Satya Kumar Yadav",
+    "N. Chandrababu Naidu",
+    "Y.S. Sharmila"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F6",
+    "P12.F8",
+    "P12.F9",
+    "P11.F1"
+   ],
+   "explanation": "B. Srinivasa Rao is the State Project Director of Samagra Shiksha associated with the programme. Satya Kumar Yadav is the Health Minister, Y.S. Sharmila is the State Congress chief, and N. Chandrababu Naidu launched the Excise Suraksha App."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Samagra Shiksha and PM SHRI",
+   "question": "Consider the following statements:\nStatement A: Samagra Shiksha, launched in 2018, merged SSA, RMSA and Teacher Education.\nStatement B: PM SHRI means Pradhan Mantri Schools for Rising India and was launched in 2022 as models of NEP 2020.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F7",
+    "P14.F8"
+   ],
+   "explanation": "Both statements are true. Samagra Shiksha merged SSA, RMSA and Teacher Education in 2018, while PM SHRI was launched in 2022 as models of NEP 2020 and expands to Pradhan Mantri Schools for Rising India."
+  }
+ ]
+}

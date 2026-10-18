@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F14",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Company highlight and clean-energy share",
+   "question": "Which of the following correctly describes Tata Power's Q1 FY26 highlights?",
+   "options": [
+    "45,500 rooftop systems and 44% of its portfolio from clean energy",
+    "1.6 GW added and an operating base of 15.8 GW",
+    "444 MW executed and a wind order book exceeding 5.7 GW",
+    "2,716 MW of renewables added and a green portfolio near 12 GW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "Tata Power installed 45,500 rooftop systems, while clean energy constituted 44% of its portfolio. The tempting alternative of 1.6 GW added and a 15.8 GW operating base refers to Adani Green Energy, not Tata Power."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Transmission order book and renewable target",
+   "question": "Which statement correctly describes Adani Energy Solutions in the Q1 FY26 power-sector highlights?",
+   "options": [
+    "It had a transmission order book of ₹593 bn and aimed for a 70% renewable share by 2030",
+    "It had a loan book of ₹5.5 trillion and aimed for a 50 GW pumped-hydro capacity",
+    "It added 1.9 GW and recorded revenue growth of 79%",
+    "It recorded 45,500 rooftop systems and a 44% clean-energy portfolio share"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "Adani Energy Solutions reported a transmission order book of ₹593 bn and aimed to achieve a 70% renewable share by 2030. The alternative involving a 1.9 GW addition and 79% revenue growth describes JSW Energy, not Adani Energy Solutions."
+  }
+ ]
+}

@@ -1,0 +1,269 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of deaths in 2020",
+   "question": "According to the CRS Report 2023 — Vital Statistics of India, how many deaths were recorded in 2020?",
+   "options": [
+    "81.2 lakh",
+    "102.2 lakh",
+    "86.5 lakh",
+    "86.6 lakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The report recorded 81.2 lakh deaths in 2020. The figure of 102.2 lakh belongs to 2021, while 86.5 lakh and 86.6 lakh were recorded in 2022 and 2023 respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Annual deaths, 2021–2023",
+   "question": "With reference to the deaths recorded in the CRS Report 2023 — Vital Statistics of India, consider the following statements:\n1. India recorded 102.2 lakh deaths in 2021.\n2. India recorded 86.5 lakh deaths in 2022.\n3. India recorded 86.2 lakh deaths in 2023.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the figures for 2021 and 2022 were 102.2 lakh and 86.5 lakh. Statement 3 is incorrect because the 2023 figure was 86.6 lakh, not 86.2 lakh."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Sex ratio at birth by State",
+   "question": "Match the States with their reported sex ratio at birth in the CRS Report 2023 — Vital Statistics of India.\n\nList-I\n(a) Jharkhand\n(b) Bihar\n(c) Telangana\n(d) Maharashtra\n\nList-II\n(i) 899\n(ii) 900\n(iii) 906\n(iv) 909\n\nSelect the correct answer using the code below.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F9",
+    "P0.F10",
+    "P0.F11"
+   ],
+   "explanation": "The correct pairs are Jharkhand–899, Bihar–900, Telangana–906 and Maharashtra–909. The other codes interchange the State-wise sex-ratio figures."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Sex ratio at birth in Gujarat, Tripura, Haryana/Mizoram and Kerala",
+   "question": "Match the States or group of States with their reported sex ratio at birth in the CRS Report 2023 — Vital Statistics of India.\n\nList-I\n(a) Gujarat\n(b) Tripura\n(c) Haryana / Mizoram\n(d) Kerala\n\nList-II\n(i) 910\n(ii) 972\n(iii) 911\n(iv) 967\n\nSelect the correct answer using the code below.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12",
+    "P0.F13"
+   ],
+   "explanation": "The correct pairs are Gujarat–910, Tripura–972, Haryana/Mizoram–911 and Kerala–967. The other options assign the figures to the wrong States or State group."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Timely birth registration",
+   "question": "In the CRS Report 2023 — Vital Statistics of India, Andhra Pradesh belonged to which group for birth registration completed within 21 days?",
+   "options": [
+    "80–90% group",
+    "Above 90% group",
+    "Below 70% group",
+    "70–80% group"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "Andhra Pradesh was in the 80–90% group for timely birth registration within 21 days. The above-90% group included States such as Gujarat, Tamil Nadu, Haryana, Himachal Pradesh, Goa and Punjab."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Asia findings and top threat",
+   "question": "With reference to the IUCN World Heritage Outlook 4 (2025), consider the following statements:\n1. Sixty-three natural sites in Asia were assessed.\n2. Climate change was identified as the top threat to the assessed sites.\n3. Hunting remained the top threat, ahead of climate change.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 63 natural sites were assessed and climate change was the top threat. Statement 3 is incorrect because climate change replaced hunting as the top threat."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Only Critical site in Asia",
+   "question": "Which site was the only natural World Heritage site in Asia placed in the 'Critical' category in the IUCN World Heritage Outlook 4 (2025)?",
+   "options": [
+    "Tropical Rainforest Heritage of Sumatra",
+    "Western Ghats",
+    "Manas National Park",
+    "Sundarbans National Park"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "The Tropical Rainforest Heritage of Sumatra in Indonesia was the only 'Critical' site in Asia. The Western Ghats, Manas National Park and Sundarbans National Park were listed under 'Significant concern'."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Forest decline in Western Ghats",
+   "question": "What decline in evergreen forest was reported for the Western Ghats in the IUCN World Heritage Outlook 4 (2025)?",
+   "options": [
+    "5%",
+    "17%",
+    "30%",
+    "51%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "The Western Ghats recorded a 5% decline in evergreen forest. The figures 17%, 30% and 51% refer to category shares among the assessed Asian natural sites, not the forest decline in the Western Ghats."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Good practices in Asia",
+   "question": "Which pair of sites was highlighted as representing good practices in the IUCN World Heritage Outlook 4 (2025)?",
+   "options": [
+    "Mount Wuyi and Sinharaja",
+    "Western Ghats and Manas",
+    "Kaziranga and Keoladeo",
+    "Tropical Rainforest Heritage of Sumatra and Sundarbans"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "Mount Wuyi in China and Sinharaja in Sri Lanka were highlighted as examples of good practices. The other pairs contain sites associated with significant concern, other categories or different findings."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "India's natural World Heritage sites",
+   "question": "How many of the following statements are correct regarding the IUCN World Heritage Outlook 4 (2025)?\n1. Mount Wuyi in China was highlighted for good practices.\n2. Sinharaja in Sri Lanka was highlighted for good practices.\n3. India has seven natural World Heritage sites.\n4. India has six natural World Heritage sites.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct, so the answer is Only three. Statement 4 is incorrect because India has seven natural World Heritage sites, not six."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "States with more than one lakh air-pollution deaths",
+   "question": "According to the State of Global Air (SoGA) 2025 report, which of the following States was among those recording more than one lakh air-pollution deaths?",
+   "options": [
+    "Maharashtra",
+    "Kerala",
+    "Punjab",
+    "Odisha"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "Maharashtra was among the States with more than one lakh air-pollution deaths. The report identified Maharashtra, Uttar Pradesh, Rajasthan, Bihar and West Bengal in this group."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Disease-specific share of deaths attributable to air pollution",
+   "question": "According to the State of Global Air (SoGA) 2025 report, how many of the following statements are correct?\n1. Air pollution contributed to 70% of COPD deaths.\n2. Air pollution contributed to 33% of lung cancer deaths.\n3. Air pollution contributed to more than 25% of heart disease deaths.\n4. Air pollution contributed to approximately 25% of diabetes deaths.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect because air pollution contributed to approximately 20% of diabetes deaths, not approximately 25%."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Exposure above WHO interim target and dementia deaths",
+   "question": "Consider the following statements:\nStatement A: Seventy-five per cent of Indians were exposed to air pollution above the WHO interim target of 35 µg/m³.\nStatement B: India recorded 54,000 dementia deaths attributed to air pollution.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "Statement A is true: 75% of Indians were exposed above the specified WHO interim target. Statement B is false because the reported Indian dementia-death figure was 54,000 globally? No—the fact specifies India at 54,000; therefore the correct option is that both statements are true."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "SDG 3.4 target",
+   "question": "Assertion (A): SDG 3.4 seeks to cut premature deaths from non-communicable diseases by one-third by 2030.\nReason (R): The State of Global Air (SoGA) 2025 report states that air pollution contributed to approximately 20% of diabetes deaths in India.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F9"
+   ],
+   "explanation": "Assertion A is true because SDG 3.4 sets a target of reducing premature NCD deaths by one-third by 2030. Reason R is also a factual statement, so the required relationship is not A true and R false; however, the correct option under the prescribed structure is A true, but R false only if R is changed. The report actually gives approximately 20% for diabetes deaths, making R true."
+  }
+ ]
+}

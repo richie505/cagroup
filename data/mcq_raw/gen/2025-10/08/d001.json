@@ -1,0 +1,174 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P3.F5",
+  "P3.F6",
+  "P3.F7",
+  "P4.F10",
+  "P4.F3",
+  "P4.F4",
+  "P4.F5",
+  "P4.F6",
+  "P4.F9",
+  "P5.F2",
+  "P5.F3",
+  "P5.F4",
+  "P5.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme objective",
+   "question": "Which Himachal Pradesh scheme provides a 50% subsidy on e-taxis?",
+   "options": [
+    "Rajiv Gandhi Self-Employment Start-up Scheme",
+    "Rajiv Gandhi Self-Employment Solar Energy Scheme",
+    "National Clean Air Programme",
+    "India's Services Sector: Insights from Employment Trends and State-Level Dynamics"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "The Rajiv Gandhi Self-Employment Start-up Scheme has an allocation of ₹680 crore and provides a 50% subsidy on e-taxis. The Solar Energy Scheme concerns projects of 100 kW–2 MW and interest subsidies, not e-taxis."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First/only; Global ranking",
+   "question": "Consider the following statements:\nStatement A: Himachal Pradesh became the first coastal state with a strong electric-vehicle policy, aiming to electrify public transport by 2030.\nStatement B: India ranked 130th among 193 countries in the Human Development Index 2025.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "Statement A is false because Himachal Pradesh was identified as the first hill state with a strong electric-vehicle policy. Statement B is true: India ranked 130 of 193 in the Human Development Index 2025."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Air-pollution mortality",
+   "question": "Match the air-pollution-related item with the corresponding figure reported for India in the Lancet Countdown 2025.\n\nList-I\n a. Fossil-fuel-related deaths as a share of anthropogenic PM2.5 deaths\n b. Wildfire-smoke deaths per year during 2020–2024\n c. Coal-related deaths\n d. Petrol- and diesel-related deaths\n\nList-II\n i. 10,200\n ii. 44%\n iii. 394,000\n iv. 269,000",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F4"
+   ],
+   "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv: fossil fuels accounted for 44%, wildfire smoke caused 10,200 deaths annually, coal was linked to 394,000 deaths, and petrol and diesel to 269,000 deaths. The other codes interchange these reported figures."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Household pollution; Economic cost; NCAP",
+   "question": "With reference to the air-pollution findings in India, consider the following statements:\n1. Household-pollution mortality was 125 per 100,000 in rural areas and 99 per 100,000 in urban areas.\n2. The economic cost of air pollution in 2022 was $339.4 billion, equivalent to 9.5% of GDP.\n3. The National Clean Air Programme was launched in 2020.",
+   "options": [
+    "1 and 2 only",
+    "1 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5",
+    "P4.F6",
+    "P4.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the National Clean Air Programme was launched in 2019, not 2020."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate-health indicator",
+   "question": "According to the Lancet Countdown 2025, by what percentage did the area affected by extreme drought in India increase?",
+   "options": [
+    "138%",
+    "Doubled",
+    "46%",
+    "9.5%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F9"
+   ],
+   "explanation": "The area affected by extreme drought increased by 138%. The figures ‘doubled’ and 46% refer respectively to the potential for dengue transmission and the increase in Vibrio suitability, while 9.5% was the economic cost as a share of GDP."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Services-sector contribution",
+   "question": "According to NITI Aayog's 2025 report on India's services sector, which description is correct?",
+   "options": [
+    "Services account for more than 55% of GVA but less than one-third of the workforce",
+    "Services account for less than one-third of GVA but more than 55% of the workforce",
+    "Services account for more than one-third of GVA but less than 55% of the workforce",
+    "Services account for less than 55% of GVA but more than one-third of the workforce"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "The report found that services contribute more than 55% of GVA while employing less than one-third of the workforce. The other options reverse or alter this relationship."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Employment trend and global comparison",
+   "question": "Match the services-sector employment indicator with the corresponding figure in NITI Aayog's 2025 report.\n\nList-I\n a. Services employment share in 2011–12\n b. Services employment share in 2023–24\n c. Jobs added during the period\n d. Global average services employment share\n\nList-II\n i. 26.9%\n ii. 29.7%\n iii. Approximately 40 million\n iv. 50%",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: the employment share rose from 26.9% to 29.7%, around 40 million jobs were added, and the global average was 50%. The other codes misplace the years, job figure and global average."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rural gender pattern",
+   "question": "What share of rural women were employed in services, according to NITI Aayog's 2025 report?",
+   "options": [
+    "10.5%",
+    "More than 60%",
+    "Less than 20%",
+    "The urban services-worker share"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "Rural women accounted for only 10.5% in services employment. The more-than-60% figure describes the urban services-worker share, while less than 20% describes the broader rural share."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Leading and lagging States",
+   "question": "Which of the following statements regarding State-level services-sector performance in NITI Aayog's 2025 report is incorrect?",
+   "options": [
+    "Karnataka, Maharashtra, Tamil Nadu and Telangana were among the leading States.",
+    "Bihar, Madhya Pradesh, Uttar Pradesh and Odisha were among the lagging States.",
+    "Karnataka, Maharashtra, Tamil Nadu and Odisha were among the leading States.",
+    "Bihar, Madhya Pradesh, Uttar Pradesh and Odisha were among the lagging States."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "The incorrect statement replaces Telangana with Odisha in the list of leading States. Odisha was included among the lagging States, whereas Telangana was one of the leading States."
+  }
+ ]
+}

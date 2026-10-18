@@ -1,0 +1,163 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P0.F2",
+  "P0.F3",
+  "P0.F4",
+  "P0.F5",
+  "P1.F2",
+  "P1.F4",
+  "P1.F5",
+  "P1.F6",
+  "P2.F3",
+  "P3.F1",
+  "P3.F2",
+  "P3.F3",
+  "P4.F7",
+  "P4.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Discovery and distinction between central and peripheral tolerance",
+   "question": "Consider the following statements about the 2025 Nobel Prize in Physiology or Medicine:\n1. Shimon Sakaguchi’s discovery concerned regulatory T cells, the CD4⁺CD25⁺ subset in mice.\n2. Brunkow and Ramsdell’s discovery of the FOXP3 gene was made in 1995.\n3. Peripheral tolerance is the deletion of self-reactive T-cells in the thymus.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "Only statement 1 is correct: Sakaguchi’s discovery concerned regulatory T cells, specifically the CD4⁺CD25⁺ subset in mice. Statement 2 changes the year associated with Brunkow and Ramsdell’s FOXP3 discovery from 2001 to 1995, while statement 3 describes central tolerance rather than peripheral tolerance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Applications of peripheral immune tolerance",
+   "question": "The work on peripheral immune tolerance recognised by the 2025 Nobel Prize in Physiology or Medicine has applications in which of the following areas?",
+   "options": [
+    "Autoimmune diseases, transplants and cancer immunotherapy",
+    "Infectious diseases, transplants and cancer immunotherapy",
+    "Autoimmune diseases, radiation shielding and cancer immunotherapy",
+    "Type-1 diabetes, nuclear fusion and transplants"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The recognised applications include autoimmune diseases, transplants and cancer immunotherapy. Type-1 diabetes, rheumatoid arthritis and lupus are examples of autoimmune diseases; nuclear fusion and radiation shielding are not listed applications."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "UNESCO nomination and profile",
+   "question": "Match List-I with List-II in the context of Khaled El-Enany’s nomination for UNESCO Director-General.\n\nList-I\n(a) Candidate defeated in the UNESCO Executive Board vote\n(b) Khaled El-Enany’s professional profile\n(c) Significance of his possible appointment\n(d) United States development concerning UNESCO\n\nList-II\n(i) Withdrew from UNESCO in July 2025\n(ii) Would be the first Arab Director-General\n(iii) Egyptologist and Egypt’s Minister of Antiquities from 2016–2019\n(iv) Édouard Firmin Matoko of the Republic of Congo",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F4",
+    "P1.F5",
+    "P1.F6"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-ii and d-i. Édouard Firmin Matoko was defeated; El-Enany was an Egyptologist and former Minister of Antiquities; his appointment would have made him the first Arab Director-General; and the United States withdrew from UNESCO in July 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Applications of macroscopic quantum tunnelling",
+   "question": "Which of the following is a set of applications associated with the macroscopic quantum tunnelling research recognised by the 2025 Nobel Prize in Physics?",
+   "options": [
+    "Superconducting qubits, circuit QED, quantum amplifiers and sensors",
+    "Regulatory T cells, circuit QED, quantum amplifiers and sensors",
+    "Superconducting qubits, water harvesting, carbon capture and sensors",
+    "Nuclear fusion, superconducting qubits, quantum amplifiers and drug delivery"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "The listed applications are superconducting qubits, circuit QED, quantum amplifiers and sensors. Water harvesting and carbon capture belong to applications associated with highly stable, designable MOFs, while nuclear fusion is an example of tunnelling in nature."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Contribution of Susumu Kitagawa",
+   "question": "What was the contribution of Susumu Kitagawa, a 2025 Nobel Chemistry laureate, to the development of Metal-Organic Frameworks?",
+   "options": [
+    "He developed flexible or “soft” MOFs that let gases flow in and out",
+    "He proposed the first concept using copper ions with four-armed organic molecules",
+    "He developed highly stable, designable MOFs for water harvesting from desert air and CO₂ capture",
+    "He identified the FOXP3 gene responsible for IPEX syndrome"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "Susumu Kitagawa was recognised for flexible or “soft” MOFs that allow gases to flow in and out. The copper-ion concept was associated with Richard Robson, while highly stable and designable MOFs were associated with Omar M. Yaghi."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First concept of MOFs",
+   "question": "Which contribution to Metal-Organic Frameworks was associated with Richard Robson, a 2025 Nobel Chemistry laureate?",
+   "options": [
+    "The first concept using copper ions with four-armed organic molecules",
+    "Flexible or “soft” MOFs that let gases flow in and out",
+    "Highly stable, designable MOFs for water harvesting from desert air and CO₂ capture",
+    "The CD4⁺CD25⁺ regulatory T-cell subset in mice"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F2"
+   ],
+   "explanation": "Richard Robson was associated with the first concept involving copper ions and four-armed organic molecules. Flexible or “soft” MOFs were associated with Susumu Kitagawa, while highly stable and designable MOFs were associated with Omar M. Yaghi."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Contribution and applications of Omar M. Yaghi",
+   "question": "Assertion (A): Omar M. Yaghi was recognised for highly stable, designable Metal-Organic Frameworks.\nReason (R): These MOFs enabled applications such as water harvesting from desert air and CO₂ capture.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F3"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the reason correctly identifies the important applications linked with Yaghi’s highly stable, designable MOFs. Water harvesting from desert air and CO₂ capture are the specified applications."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Work and publication year",
+   "question": "Consider the following statements about the works of László Krasznahorkai:\nStatement A: Destruction and Sorrow Beneath the Heavens was published in 2008.\nStatement B: The Nobel Prizes were established according to the will of Alfred Nobel, while the Literature prize is awarded by the Swedish Academy.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F7",
+    "P4.F9"
+   ],
+   "explanation": "Statement A is false because Destruction and Sorrow Beneath the Heavens was published in 2004. Statement B is true: the Nobel Prizes originated in Alfred Nobel’s 1895 will, and the Literature prize is awarded by the Swedish Academy."
+  }
+ ]
+}
