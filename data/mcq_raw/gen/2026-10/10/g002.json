@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10
+ ],
+ "only": [
+  "P10.F2",
+  "P8.F3",
+  "P8.F5",
+  "P8.F6"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "President",
+   "question": "Who is the President of the All India Football Federation (AIFF)?",
+   "options": [
+    "Kalyan Chaubey",
+    "Manipur Yoga Society",
+    "All India Yoga Culture Federation",
+    "Ministry of AYUSH"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "Kalyan Chaubey is the President of the AIFF. The other options are organisation names, not the person identified as AIFF President."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Organisers",
+   "question": "Which organisations jointly organised the 38th National Yogasana Championship 2026 in Imphal?",
+   "options": [
+    "Manipur Yoga Society and All India Yoga Culture Federation",
+    "AIFF and Logic Masters India",
+    "Ministry of AYUSH and World Puzzle Federation",
+    "All India Yoga Culture Federation and Logic Masters India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "The championship was jointly organised by the Manipur Yoga Society and the All India Yoga Culture Federation. Logic Masters India and the World Puzzle Federation are associated with the World Sudoku and World Puzzle Championships, not this Yogasana championship."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Selection trials",
+   "question": "The 38th National Yogasana Championship 2026 also served as trials for which event?",
+   "options": [
+    "The 12th World Yogasana Championship, Thailand 2027",
+    "The 38th National Yogasana Championship, Imphal",
+    "The 19th World Sudoku Championship, Kolkata",
+    "The inaugural AIFF U15 Women’s Youth League"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5"
+   ],
+   "explanation": "The championship served as trials for the 12th World Yogasana Championship to be held in Thailand in 2027. The other options refer either to the national event itself or to unrelated competitions."
+  }
+ ]
+}

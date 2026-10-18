@@ -1,0 +1,161 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "only": [
+  "P12.F1",
+  "P12.F4",
+  "P13.F1",
+  "P13.F2",
+  "P13.F3",
+  "P14.F1",
+  "P15.F3",
+  "P15.F4",
+  "P16.F1",
+  "P16.F2",
+  "P16.F3",
+  "P17.F1"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch date and five-year milestone",
+   "question": "[Direct Recall] The PM Gati Shakti National Master Plan completed five years on 13 October 2026. On which date was it launched?",
+   "options": [
+    "13 October 2021",
+    "17 September 2022",
+    "1 October 2026",
+    "13 October 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "The PM Gati Shakti National Master Plan was launched on 13 October 2021 by PM Modi. 13 October 2026 marked five years since its launch; 17 September 2022 is the date associated with the National Logistics Policy."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Steel policy targets",
+   "question": "[Multi-Statement Correctness] With reference to the targets in the Draft National Steel Policy 2047, consider the following statements:\n1. Crude steel capacity is targeted at 604 MT by 2047.\n2. Finished steel demand is targeted at 505 MT.\n3. Steel exports are targeted at 45 MT.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "All three statements are correct: the targets are 604 MT for crude steel capacity, 505 MT for finished steel demand and 45 MT for exports. The alternatives excluding one statement incorrectly omit one of these Draft National Steel Policy 2047 targets."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Secondary steel sector",
+   "question": "[Negative / Incorrect Statement] Which one of the following statements regarding the Draft National Steel Policy 2047 is incorrect?",
+   "options": [
+    "The policy proposes support to the secondary steel sector.",
+    "The secondary steel sector covers approximately 2,550 units and 45% of capacity.",
+    "The units include those using electric arc furnaces and induction furnaces.",
+    "The secondary steel sector accounts for approximately 47% of capacity."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F1"
+   ],
+   "explanation": "The incorrect statement changes the capacity share from approximately 47% to 45%. The Draft National Steel Policy 2047 refers to approximately 2,550 secondary steel units accounting for 47% of capacity, including electric arc and induction furnaces."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Announced by",
+   "question": "[Direct Recall] Who announced India’s foodgrain target of 373.93 million tonnes for 2026–27?",
+   "options": [
+    "Agriculture Minister Shivraj Singh Chouhan",
+    "PM Modi",
+    "Sarbananda Sonowal",
+    "Department of Commerce through DGFT"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "The 2026–27 foodgrain target was announced by Agriculture Minister Shivraj Singh Chouhan on 29 September 2026. PM Modi, Sarbananda Sonowal and the Department of Commerce through DGFT are associated with other developments, not this announcement."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Net importer of pulses",
+   "question": "[Assertion-Reason] Assertion (A): India remains a net importer of pulses.\nReason (R): India imports approximately 60 lakh tonnes of pulses annually.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F3"
+   ],
+   "explanation": "Both the assertion and the reason are true, and annual imports of approximately 60 lakh tonnes explain why India remains a net importer. India is also first in production, consumption and import of pulses, but that does not alter its net-importer status."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme launch year",
+   "question": "[Direct Recall] The Mission for Aatmanirbharta in Pulses was launched in which year?",
+   "options": [
+    "2025",
+    "2021",
+    "2022",
+    "2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F4",
+    "P16.F2"
+   ],
+   "explanation": "The Mission for Aatmanirbharta in Pulses was launched in 2025. The other years are associated with the effective date of RoDTEP, the National Logistics Policy and the extension period of RoDTEP."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "RoDTEP administration and implementation",
+   "question": "[List-Matching] Match List-I with List-II regarding the RoDTEP scheme.\n\nList-I\n a. RoDTEP\n b. Effective from and scheme replaced\n c. Notified by\n d. Implemented by\n\nList-II\n i. Remission of Duties and Taxes on Exported Products\n ii. 1 January 2021; replaced MEIS\n iii. Department of Commerce through DGFT\n iv. Department of Revenue through CBIC\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2",
+    "P16.F3"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. RoDTEP expands to Remission of Duties and Taxes on Exported Products, became effective on 1 January 2021 after replacing MEIS, was notified through DGFT and was implemented through CBIC."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Commencement and replacement of legislation",
+   "question": "[Statement-Based (A/B)] Consider the following statements:\nStatement A: The Bankers’ Books Evidence Act–2026 came into force on 1 October 2026.\nStatement B: It replaced the Bankers’ Books Evidence Act, 1891.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1"
+   ],
+   "explanation": "Both statements are true. The Bankers’ Books Evidence Act–2026 came into force on 1 October 2026 and replaced the Bankers’ Books Evidence Act, 1891."
+  }
+ ]
+}

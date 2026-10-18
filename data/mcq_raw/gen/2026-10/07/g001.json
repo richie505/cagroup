@@ -1,0 +1,155 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "only": [
+  "P1.F1",
+  "P1.F17",
+  "P1.F19",
+  "P1.F2",
+  "P1.F3",
+  "P1.F6",
+  "P1.F7",
+  "P1.F8",
+  "P1.F9",
+  "P2.F2",
+  "P3.F5",
+  "P3.F6"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Climate impact of SLCPs",
+   "question": "Direct Recall: According to the IPCC, rapid cuts in Short-Lived Climate Pollutants (SLCPs) can avoid up to how much warming by 2050?",
+   "options": [
+    "0.6°C",
+    "0.45°C",
+    "6°C",
+    "0.06°C"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The correct answer is 0.6°C; rapid SLCP reductions can avoid up to 0.6°C of warming by 2050. The 0.45°C option is a trap based on the separate fact that SLCPs cause up to 45% of present warming, not the projected avoided warming."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Methane warming potential",
+   "question": "Negative / Incorrect Statement: Which statement about methane is incorrect?",
+   "options": [
+    "Methane has about 80 times the warming effect of CO₂ over 20 years.",
+    "Methane is the second-largest contributor to warming after CO₂.",
+    "Methane has about 20 times the warming effect of CO₂ over 20 years.",
+    "Methane’s stated comparison with CO₂ is based on a 20-year period."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F6"
+   ],
+   "explanation": "The incorrect statement is that methane has about 20 times the warming effect of CO₂ over 20 years; the correct value is about 80 times. The other statements correctly reflect methane’s warming comparison and its position after CO₂."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Vertical distribution of ozone",
+   "question": "Statement-Based (A/B): Consider the following statements:\nStatement A: Stratospheric ozone is found at approximately 10–50 km.\nStatement B: Tropospheric ozone extends from the surface to approximately 10 km.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "Both Statement A and Statement B are true. Stratospheric ozone is placed at approximately 10–50 km, while tropospheric ozone occurs from the surface to approximately 10 km."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Global and Indian air-pollution impacts",
+   "question": "Multi-Statement Correctness: Consider the following statements:\n1. Ozone causes the loss of approximately 110 million tonnes of staple crops each year.\n2. Air pollution causes approximately 7 million premature deaths globally each year.\n3. India recorded 1.67 million air-pollution deaths globally in 2019.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8",
+    "P1.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because 1.67 million refers to air-pollution deaths in India in 2019, not deaths recorded globally."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "National air-quality measures",
+   "question": "Direct Recall: Which Indian air-quality measure was introduced in 2015?",
+   "options": [
+    "National AQI",
+    "Air Act",
+    "NAAQS",
+    "GRAP"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F17"
+   ],
+   "explanation": "The correct answer is National AQI, introduced in 2015. The Air Act dates to 1981, NAAQS to 2009, and GRAP to 2017."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PMUY coverage",
+   "question": "Direct Recall: Which Indian initiative is associated with more than 10.5 crore LPG connections?",
+   "options": [
+    "PMUY",
+    "GOBARdhan",
+    "SRI",
+    "DSR"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F19"
+   ],
+   "explanation": "PMUY is associated with more than 10.5 crore LPG connections. GOBARdhan, SRI and DSR are separately listed measures and are not linked to this LPG-connection figure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme period and outlay",
+   "question": "Direct Recall: What are the implementation period and financial outlay of National Coastal Mission 2.0?",
+   "options": [
+    "2025–26 to 2030–31 and ₹767 crore",
+    "2021–22 to 2025–26 and ₹767 crore",
+    "2025–26 to 2030–31 and ₹767 lakh",
+    "2025–26 to 2031–32 and ₹767 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "National Coastal Mission 2.0 covers 2025–26 to 2030–31 with an outlay of ₹767 crore. The 2021–22 to 2025–26 period belongs to the earlier NCM 1.0 framework."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Snow leopard conservation facts",
+   "question": "List-Matching: Match List-I with List-II regarding the snow leopard and its conservation:\n\nList-I\na. State animal of Himachal Pradesh\nb. Union Territory animal of Ladakh\nc. International Snow Leopard Day\nd. Project Snow Leopard\n\nList-II\ni. 23 October\nii. 2009\niii. Himachal Pradesh\niv. Ladakh",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii: the snow leopard is the state animal of Himachal Pradesh, the Union Territory animal of Ladakh, International Snow Leopard Day is 23 October, and Project Snow Leopard dates to 2009. The closest wrong code reverses the two animal jurisdictions while retaining the date and project year."
+  }
+ ]
+}

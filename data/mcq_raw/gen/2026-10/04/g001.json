@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": [
+  "P5.F1",
+  "P6.F1",
+  "P6.F5",
+  "P8.F11",
+  "P8.F12",
+  "P8.F13",
+  "P8.F14"
+ ],
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Growth forecast and quarterly growth",
+   "question": "With reference to the World Bank’s assessment of India’s economic growth, consider the following statements:\nStatement A: India’s FY 2026–27 growth forecast was 7.1%.\nStatement B: India recorded 7.8% growth in the first quarter.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "Both statements are true: the World Bank forecast India’s FY 2026–27 growth at 7.1%, while first-quarter growth was 7.8%. The other options incorrectly treat one or both of these figures as incorrect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "CPI inflation and tolerance band",
+   "question": "With reference to India’s CPI inflation in September 2026, which of the following statements is incorrect?",
+   "options": [
+    "CPI inflation was 5.54%, the highest since 6.25% in October 2024.",
+    "CPI inflation was above the 4% target.",
+    "CPI inflation remained within the 2–6% tolerance band.",
+    "CPI inflation remained within the 2–5% tolerance band."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "The incorrect statement is that inflation remained within the 2–5% band. The cited tolerance band was 2–6%; September 2026 CPI inflation was 5.54%, above the 4% target but within that band."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Power restriction and curtailment",
+   "question": "With reference to renewable-energy transmission and power curtailment, consider the following statements:\n1. Approximately 6,900 GWh of clean power was restricted in FY 2025–26.\n2. Peak demand reached a record 270 GW during April–June 2026.\n3. Approximately 8,133 GWh of solar power was curtailed during April–June 2026.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F12",
+    "P8.F13"
+   ],
+   "explanation": "All three statements are correct. Clean-power restriction was approximately 6,900 GWh in FY 2025–26, while April–June 2026 saw record peak demand of 270 GW and solar curtailment of approximately 8,133 GWh."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GEC Phase-II coverage",
+   "question": "Green Energy Corridor Phase-II was implemented across how many States?",
+   "options": [
+    "7 States",
+    "6 States",
+    "8 States",
+    "9 States"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F11"
+   ],
+   "explanation": "Green Energy Corridor Phase-II covered 7 States. The same phase involved 7,863 ckm of lines and 24,388 MVA of capacity; the other choices do not match its stated coverage."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Renewable and non-fossil capacity targets",
+   "question": "With reference to India’s energy-transition targets, how many of the following statements are correct?\n1. Renewable-energy capacity is targeted to increase from 295 GW to 500 GW by 2030.\n2. Non-fossil capacity is targeted to reach 900 GW by 2035.\n3. Renewable-energy capacity is targeted to reach 500 GW by 2035.\n4. Non-fossil capacity is targeted to reach 900 GW by 2030.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F14"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: the targets are 500 GW of renewable energy by 2030 and 900 GW of non-fossil capacity by 2035. Statements 3 and 4 interchange the specified target years."
+  }
+ ]
+}

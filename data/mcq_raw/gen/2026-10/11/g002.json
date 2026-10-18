@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13
+ ],
+ "only": [
+  "P11.F1",
+  "P11.F3",
+  "P12.F4",
+  "P13.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Inauguration date and venue",
+   "question": "The BRICS Theatre Festival 2026 was inaugurated at the National School of Drama on which date?",
+   "options": [
+    "12 October 2026",
+    "13 October 2026",
+    "14 October 2026",
+    "12–14 October 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The BRICS Theatre Festival 2026 was inaugurated at the National School of Drama on 12 October 2026. The period 12–14 October refers to the festival duration, not the specific inauguration date."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Statehood and capital",
+   "question": "Consider the following statements about Himachal Pradesh:\n\nStatement A: Shimla is the capital of Himachal Pradesh, while Dharamshala is its winter capital.\nStatement B: Himachal Pradesh attained statehood on 25 January 1971.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "Both statements are correct: Shimla is the capital, Dharamshala is the winter capital, and Himachal Pradesh attained statehood on 25 January 1971. Therefore, neither statement contains an incorrect detail."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Temple design and dimensions",
+   "question": "Match the features of the Omkareshwara Swamy Temple at Manchirevula with their corresponding details.\n\nList-I\n a. Number of prakaras\n b. Number of rajagopurams\n c. Height of the main gopuram\n d. Storeys in the main gopuram\n\nList-II\n i. 91 ft\n ii. 2\n iii. 9\n iv. 8",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii: the temple has 2 prakaras, 8 rajagopurams, a 91 ft main gopuram and 9 storeys. The other codes interchange one or more of these temple features and measurements."
+  }
+ ]
+}

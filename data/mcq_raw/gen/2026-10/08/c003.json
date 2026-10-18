@@ -1,0 +1,178 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in power-demand ranking",
+   "question": "According to the CEA peak power-demand ranking for August 2026, which position did Telangana occupy?",
+   "options": [
+    "5th",
+    "4th",
+    "8th",
+    "9th"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "Telangana occupied 5th position with a peak demand of 17,263 MW, its first time in that position after rising from 8th. The tempting 8th option is wrong because it was Telangana’s earlier position."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State-wise peak power demand rank",
+   "question": "Match the CEA August 2026 peak power-demand ranks with the States:\n\nList-I\n a. Rank 1\n b. Rank 2\n c. Rank 3\n d. Rank 4\n\nList-II\n i. Uttar Pradesh\n ii. Maharashtra\n iii. Gujarat\n iv. Tamil Nadu",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2",
+    "P10.F3",
+    "P10.F4"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: Uttar Pradesh, Maharashtra, Gujarat and Tamil Nadu ranked 1st, 2nd, 3rd and 4th respectively. The other codes interchange these States and ranks."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Statutory basis and ministry",
+   "question": "With reference to the Central Electricity Authority (CEA), identify the incorrect statement.",
+   "options": [
+    "The CEA functions under the Electricity (Supply) Act, 1948, now the Electricity Act, 2003.",
+    "The CEA is associated with the Ministry of Power.",
+    "The CEA functions under the Electricity (Supply) Act, 1948, now the Electricity Act, 2003, and is associated with the Ministry of Power.",
+    "The CEA functions under the Electricity (Supply) Act, 1948, now the Electricity Act, 2003, and is associated with the Ministry of Coal."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F9"
+   ],
+   "explanation": "The incorrect statement associates the CEA with the Ministry of Coal; the correct ministry is the Ministry of Power. The statutory references in that option are otherwise correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Survey period and first-of-its-kind",
+   "question": "India’s first National Household Travel Survey, conducted by the NSO under MoSPI, covered which period?",
+   "options": [
+    "July 2025–June 2026",
+    "July 2024–June 2025",
+    "January 2025–December 2025",
+    "April 2026–March 2027"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "India’s first National Household Travel Survey was conducted from July 2025 to June 2026 by the NSO under MoSPI. The other periods do not correspond to the survey period."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Average and urban-rural commute expenditure",
+   "question": "How many of the following statements regarding monthly commuting expenditure in the National Household Travel Survey are correct?\n\n1. The average monthly commute expenditure was ₹785.\n2. The urban average was ₹1,044.\n3. The rural average was ₹612.\n4. Two-wheelers accounted for 42.6% of travel to fixed workplaces.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F3",
+    "P11.F4"
+   ],
+   "explanation": "All four statements are correct: the overall average was ₹785, with urban and rural averages of ₹1,044 and ₹612, while two-wheelers accounted for 42.6% of travel to fixed workplaces. Therefore, the correct choice is All four."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Most-used mode of travel",
+   "question": "According to India’s first National Household Travel Survey, which mode was most used for travel to fixed workplaces?",
+   "options": [
+    "Two-wheelers",
+    "Buses",
+    "Trains",
+    "Four-wheelers"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "Two-wheelers were the most used mode for travel to fixed workplaces, accounting for 42.6%. The other modes were not identified as the most used in the survey fact."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Environmental accounting priorities and SDGs",
+   "question": "Consider the following statements about MoSPI’s Strategy for Environmental Economic Accounts 2026–2030:\n\n1. Forests, water and land are among its priority areas.\n2. Carbon stocks, biodiversity and pollination services are among its priority areas.\n3. It is aligned with the UN SEEA and supports about 40 indicators of 9 SDGs.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "All three statements are correct. The strategy covers the listed environmental resources and services, and its alignment with the UN SEEA supports about 40 indicators of 9 SDGs."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Alignment with UN SEEA",
+   "question": "Assertion (A): MoSPI’s Strategy for Environmental Economic Accounts 2026–2030 is aligned with the UN SEEA.\nReason (R): The strategy supports about 40 indicators of 9 SDGs.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "Both the assertion and the reason are true: the strategy is aligned with the UN SEEA and supports about 40 indicators of 9 SDGs. However, the SDG-support statement does not explain the fact of alignment with the UN SEEA."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MoU signatories",
+   "question": "The MoU on official statistics between NSO (MoSPI) and the Pahle India Foundation was signed by whom?",
+   "options": [
+    "ADG Sunita Bhaskar and PIF ED Ravi Pokharna",
+    "ADG Ravi Pokharna and PIF ED Sunita Bhaskar",
+    "ADG Sunita Bhaskar and PIF ED P.C. Mahalanobis",
+    "ADG P.C. Mahalanobis and PIF ED Ravi Pokharna"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "The MoU was signed by ADG Sunita Bhaskar and PIF Executive Director Ravi Pokharna. The other options incorrectly interchange or substitute the named officials."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Institutional history of NSO and MoSPI",
+   "question": "Consider the following statements:\nStatement A: The NSO was formed in 2019 by merging the CSO and NSSO.\nStatement B: MoSPI became an independent ministry on 15 October 1999.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F5",
+    "P13.F2"
+   ],
+   "explanation": "Both statements are true. The NSO was formed in 2019 through the merger of CSO and NSSO, while MoSPI became an independent ministry on 15 October 1999."
+  }
+ ]
+}

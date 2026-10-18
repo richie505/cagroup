@@ -1,0 +1,226 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Location and river",
+   "question": "Nameri Tiger Reserve, which received CA|TS approval, is located in which district and is associated with which river?",
+   "options": [
+    "Sonitpur district and Jia Bhoroli river",
+    "West Kameng district and Manas river",
+    "Kokrajhar district and Orang river",
+    "Darrang district and Kaziranga river"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Nameri Tiger Reserve is in Sonitpur district of Assam and is associated with the Jia Bhoroli river. The other district–river combinations do not describe Nameri Tiger Reserve."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch venue and year",
+   "question": "Where and when was Conservation Assured | Tiger Standards (CA|TS) launched?",
+   "options": [
+    "At the 1st Asian Parks Congress in Japan in 2013",
+    "At the World Parks Congress in India in 2006",
+    "At the 1st Asian Parks Congress in China in 2012",
+    "At the Global Tiger Forum in Nepal in 2014"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "CA|TS was launched at the 1st Asian Parks Congress in Japan in 2013. The alternatives change the venue, country or year."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian partner organisations",
+   "question": "Which organisations partnered with the National Tiger Conservation Authority (NTCA) in implementing CA|TS in India?",
+   "options": [
+    "Global Tiger Forum and WWF-India",
+    "UNESCO and the Zoological Survey of India",
+    "Project Tiger and the Forest Survey of India",
+    "IUCN and the Wildlife Institute of India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The Indian partners were the Global Tiger Forum and WWF-India, working with NTCA. UNESCO, IUCN, Project Tiger and the other organisations listed were not identified as the CA|TS partners in this context."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme objective",
+   "question": "What is the primary purpose of the Nameri Wild Classroom launched at Nameri Tiger Reserve?",
+   "options": [
+    "Experiential conservation education for students from Class 8 onwards",
+    "Tiger census training exclusively for forest officers",
+    "Tourism promotion for visitors to Nameri Tiger Reserve",
+    "River-restoration training for fishing communities"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F25"
+   ],
+   "explanation": "Nameri Wild Classroom provides experiential conservation education for students from Class 8 onwards. It is not described as an officer-training, tourism-promotion or fishing-community programme."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IUCN status",
+   "question": "What is the IUCN status of the tiger mentioned in the context of Nameri Wild Classroom?",
+   "options": [
+    "Endangered",
+    "Vulnerable",
+    "Critically Endangered",
+    "Near Threatened"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F26"
+   ],
+   "explanation": "The tiger is classified as Endangered in the stated context. The other three are different conservation-status categories and do not match the stated classification."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "CA|TS structure",
+   "question": "With reference to CA|TS, identify the INCORRECT statement.",
+   "options": [
+    "CA|TS has 7 pillars and 17 elements.",
+    "The first 5 pillars are associated with Conservation Assured.",
+    "The last 2 pillars are associated with Tiger Standards.",
+    "CA|TS has 6 pillars and 17 elements."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The incorrect statement is that CA|TS has 6 pillars; the correct number is 7, while it has 17 elements. The other statements correctly describe the division between the first 5 CA pillars and the last 2 TS pillars."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "State–reserve association",
+   "question": "Which of the following state–tiger reserve associations is INCORRECT?",
+   "options": [
+    "Valmiki — Bihar",
+    "Pilibhit — Bihar",
+    "Periyar — Kerala",
+    "Kali — Karnataka"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F19",
+    "P0.F20",
+    "P0.F21",
+    "P0.F22"
+   ],
+   "explanation": "Pilibhit is in Uttar Pradesh, not Bihar. Valmiki is associated with Bihar, while Periyar and Kali are associated with Kerala and Karnataka respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State-wise accredited reserves",
+   "question": "With reference to the full list of CA|TS-accredited tiger reserves, consider the following statements:\n1. Assam has Manas, Kaziranga, Orang and Nameri.\n2. Madhya Pradesh has Satpura, Pench, Kanha, Panna and Bandhavgarh.\n3. Maharashtra has Pench, Melghat, Tadoba–Andhari and Navegaon–Nagzira.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F16",
+    "P0.F17",
+    "P0.F18"
+   ],
+   "explanation": "All three statements correctly reproduce the listed CA|TS-accredited reserves in Assam, Madhya Pradesh and Maharashtra. Therefore, the correct choice is 1, 2 and 3."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Tiger population assessment",
+   "question": "With reference to the All India Tiger Estimation (AITE) 2022 figures, consider the following statements:\n1. The estimated tiger population was 3,682.\n2. The minimum estimated population was 3,167.\n3. Karnataka had 785 tigers.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "AITE 2022 recorded 3,682 tigers, with a minimum estimate of 3,167, so statements 1 and 2 are correct. The figure of 785 tigers was for Madhya Pradesh, not Karnataka."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Reserve–State matching",
+   "question": "Match List-I with List-II regarding CA|TS-accredited tiger reserves.\n\nList-I\n(a) Nameri\n(b) Valmiki\n(c) Periyar\n(d) Kali\n\nList-II\ni. Assam\nii. Bihar\niii. Kerala\niv. Karnataka\n\nSelect the correct code:",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F16",
+    "P0.F19",
+    "P0.F21",
+    "P0.F22"
+   ],
+   "explanation": "The correct pairs are Nameri–Assam, Valmiki–Bihar, Periyar–Kerala and Kali–Karnataka. Hence the correct code is a-i, b-ii, c-iii, d-iv."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Project Tiger and NTCA timeline",
+   "question": "Assertion (A): Project Tiger began on 1 April 1973.\nReason (R): The National Tiger Conservation Authority was established in 2006.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Both statements are true: Project Tiger began on 1 April 1973 and NTCA was established in 2006. However, the later establishment of NTCA does not explain the beginning of Project Tiger."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Conservation status and UNESCO sites",
+   "question": "Consider the following statements:\nStatement A: The tiger has the IUCN status of Endangered.\nStatement B: Kaziranga and Manas are UNESCO sites.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F26"
+   ],
+   "explanation": "Both statements are true. The tiger is identified as Endangered, and Kaziranga and Manas are identified as UNESCO sites."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Number of reserves in a State",
+   "question": "How many of the following are listed as CA|TS-accredited tiger reserves in Tamil Nadu?\n1. Mudumalai\n2. Anamalai\n3. Sathyamangalam\n4. Bandipur",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F21",
+    "P0.F23"
+   ],
+   "explanation": "Mudumalai, Anamalai and Sathyamangalam are listed under Tamil Nadu, while Bandipur is listed under Karnataka. Thus, only three of the four reserves belong to the Tamil Nadu list."
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Species and place",
+   "question": "Which newly identified gecko species was recorded from Nalgonda district and named after stone cairns?",
+   "options": [
+    "Hemidactylus cairnicola",
+    "Hemidactylus koyaorum",
+    "Didymocarpus nautiyalii",
+    "Kanlaon"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "Hemidactylus cairnicola was recorded from Nalgonda district and its name refers to stone cairns. Hemidactylus koyaorum is associated with Pakhal Wildlife Sanctuary, while Didymocarpus nautiyalii is a plant species."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Species-place association",
+   "question": "Match the following species and geographical associations:\n\nList-I\n(a) Hemidactylus cairnicola\n(b) Hemidactylus koyaorum\n(c) Didymocarpus nautiyalii\n(d) Aletsch Glacier\n\nList-II\ni. Switzerland\nii. Shi-Yomi district\niii. Nalgonda district\niv. Pakhal Wildlife Sanctuary\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P7.F1",
+    "P11.F1"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i. Hemidactylus cairnicola is from Nalgonda, Hemidactylus koyaorum from Pakhal Wildlife Sanctuary, Didymocarpus nautiyalii from Shi-Yomi, and Aletsch Glacier is in Switzerland."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Institution and discovery outcome",
+   "question": "Which of the following statements about the Telangana gecko study is incorrect?",
+   "options": [
+    "The study was conducted by the Zoological Survey of India.",
+    "The Zoological Survey of India was established in 1916.",
+    "The headquarters of the Zoological Survey of India is in Kolkata.",
+    "Telangana's endemic reptiles now number 5."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "The incorrect statement is that Telangana's endemic reptiles now number 5; the correct number is 6. The study was by the Zoological Survey of India, established in 1916 with headquarters in Kolkata."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place of botanical discovery",
+   "question": "In which district was the new plant species Didymocarpus nautiyalii found?",
+   "options": [
+    "Shi-Yomi district",
+    "Nalgonda district",
+    "Chamoli district",
+    "Warangal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "Didymocarpus nautiyalii was found in Shi-Yomi district of Arunachal Pradesh. Nalgonda and Warangal are associated with the newly identified Telangana geckos, while Chamoli is associated with Vasundhara Lake."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Species naming and institutional association",
+   "question": "Consider the following statements:\nStatement A: Didymocarpus nautiyalii was named after Prof. Sunil Nautiyal.\nStatement B: Prof. Sunil Nautiyal was a former Director of the G.B. Pant National Institute of Himalayan Environment in Almora, Uttarakhand.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "Both statements are true. The plant was named after Prof. Sunil Nautiyal, who was a former Director of the G.B. Pant National Institute of Himalayan Environment in Almora, Uttarakhand."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Early-warning system features",
+   "question": "Regarding Uttarakhand's first real-time glacial lake outburst flood early-warning system at Vasundhara Lake, consider the following statements:\n\n1. It monitors water level, weather and snow depth.\n2. It uses satellite communication because there is no mobile network.\n3. It is powered by a conventional grid-based electricity supply.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the system monitors water level, weather and snow depth and uses satellite communication because there is no mobile network. Statement 3 is incorrect because the system is solar-powered."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "GLOF meaning and cause",
+   "question": "Assertion (A): A glacial lake outburst flood is a sudden release from a glacial lake.\nReason (R): Such a release may result from moraine or ice dam failure, avalanches or landslides.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "Both A and R are true, and the reason explains the process. A GLOF is a sudden release from a glacial lake, which can occur through moraine or ice dam failure, avalanches or landslides."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "E-methanol plant partnership",
+   "question": "The first port-based e-methanol plant at Deendayal Port was established through a partnership between which two organisations?",
+   "options": [
+    "Deendayal Port Authority and Assam Petro-Chemicals Ltd",
+    "Mumbai Port Authority and Assam Petro-Chemicals Ltd",
+    "Deendayal Port Authority and the Zoological Survey of India",
+    "Mumbai Port Authority and the G.B. Pant National Institute of Himalayan Environment"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2"
+   ],
+   "explanation": "The partnership is between Deendayal Port Authority and Assam Petro-Chemicals Ltd, Namrup, Assam. Mumbai Port Authority is associated with Jawahar Dweep's plastic-free oil terminal, not this e-methanol plant."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Environmental initiative and location",
+   "question": "Match the environmental initiative or geographical feature with its location:\n\nList-I\n(a) Vasundhara Lake early-warning system\n(b) Port-based e-methanol plant\n(c) Plastic-free oil terminal\n(d) Aletsch Glacier\n\nList-II\ni. Jawahar Dweep\n ii. Switzerland\n iii. Deendayal Port, Kandla\n iv. Chamoli district\n\nSelect the correct code:",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P9.F1",
+    "P10.F1",
+    "P11.F1"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-i and d-ii. Vasundhara Lake is in Chamoli district, the e-methanol plant is at Deendayal Port, Jawahar Dweep is the plastic-free oil terminal, and Aletsch Glacier is in Switzerland."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Glacier ice loss",
+   "question": "According to GLAMOS and SCNAT, what percentage of Switzerland's remaining glacier ice was lost in 2026?",
+   "options": [
+    "5.5%",
+    "6.5%",
+    "4.5%",
+    "2.5%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "Swiss glaciers lost 5.5% of their remaining ice in 2026. This was the second-highest loss after 2022, making the other percentages incorrect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Volcano location and eruption detail",
+   "question": "Which of the following statements about Mount Kanlaon is incorrect?",
+   "options": [
+    "Ash from the eruption rose up to 6 km.",
+    "Kanlaon is an active stratovolcano on Negros Island in the Visayas.",
+    "Kanlaon lies within the Pacific Ring of Fire.",
+    "Ash from the eruption rose up to 5 km."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "The incorrect statement changes the ash height to 5 km; the reported height was up to 6 km. Kanlaon is an active stratovolcano on Negros Island in the Visayas and is part of the Pacific Ring of Fire."
+  }
+ ]
+}

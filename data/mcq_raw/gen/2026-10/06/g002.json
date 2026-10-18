@@ -1,0 +1,162 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "only": [
+  "P10.F2",
+  "P10.F5",
+  "P12.F3",
+  "P13.F2",
+  "P13.F3",
+  "P14.F2",
+  "P16.F4",
+  "P16.F5",
+  "P9.F5",
+  "P9.F6",
+  "P9.F7"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Participating ships",
+   "question": "Which pair of Indian naval ships participated in AIME-2026, the 2nd ASEAN–India Maritime Exercise?",
+   "options": [
+    "INS Sahyadri and INS Kulish",
+    "INS Tarkash and INS Trishul",
+    "INS Sahyadri and INS Tarkash",
+    "INS Kulish and INS Trishul"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "INS Sahyadri and INS Kulish represented India in AIME-2026. INS Tarkash and INS Trishul were associated with other naval exercises, making that pair the tempting incorrect option."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "ASEAN profile",
+   "question": "Which of the following statements about ASEAN is incorrect?",
+   "options": [
+    "ASEAN was established on 8 August 1967 and has its headquarters in Jakarta.",
+    "ASEAN has 11 members and India is its Comprehensive Strategic Partner.",
+    "ASEAN was established on 8 August 1967 and India is its Comprehensive Strategic Partner.",
+    "ASEAN has its headquarters in Manila and has 11 members."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F5"
+   ],
+   "explanation": "The incorrect statement places ASEAN headquarters in Manila; its headquarters is in Jakarta. The other details—establishment on 8 August 1967, 11 members and India’s Comprehensive Strategic Partner status—are correct."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "SAMARTH vision components",
+   "question": "With reference to the Indian Army Chief’s “SAMARTH” vision, consider the following statements:\n\n1. The letter A stands for Acceleration.\n2. The letter R stands for Resilience.\n3. The letter T stands for Technology.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F5",
+    "P9.F6",
+    "P9.F7"
+   ],
+   "explanation": "All three statements are correct: A denotes Acceleration, R denotes Resilience and T denotes Technology. The options omitting one of these letters are therefore incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Currency",
+   "question": "What is the currency of Kazakhstan, in the context of KAZIND-2026?",
+   "options": [
+    "Tenge",
+    "Rand",
+    "Rupee",
+    "Pound"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "The currency of Kazakhstan is the Tenge. Rand is associated with South Africa, while Rupee and Pound are not the currency identified for Kazakhstan here."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Naval platforms",
+   "question": "In INDRA-2026, which pairing correctly identifies the Indian and Russian naval platforms?",
+   "options": [
+    "INS Sahyadri — Shivalik-class stealth frigate; Hero of the Russian Federation Aldar Tsydenzhapov — corvette",
+    "INS Sahyadri — corvette; Hero of the Russian Federation Aldar Tsydenzhapov — Shivalik-class stealth frigate",
+    "INS Tarkash — Shivalik-class stealth frigate; Hero of the Russian Federation Aldar Tsydenzhapov — corvette",
+    "INS Sahyadri — Shivalik-class stealth frigate; INS Kulish — corvette"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "India participated with INS Sahyadri, a Shivalik-class stealth frigate, while Russia deployed the corvette Hero of the Russian Federation Aldar Tsydenzhapov. The other options either interchange vessel types or name a vessel from another exercise."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Exercise series",
+   "question": "Since which year has the INDRA series of India–Russia exercises been conducted?",
+   "options": [
+    "2003",
+    "2004",
+    "2008",
+    "1977"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3",
+    "P15.F2",
+    "P14.F2",
+    "P16.F5"
+   ],
+   "explanation": "The INDRA series has been conducted since 2003. The years 2004, 2008 and 1977 refer to other defence-exercise or institutional facts, not the beginning of the INDRA series."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Institutional framework and frequency",
+   "question": "Assertion (A): IBSAMAR has been conducted biennially since 2008.\nReason (R): IBSAMAR is conducted under the IBSA Dialogue Forum.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F2"
+   ],
+   "explanation": "Both the assertion and the reason are true: IBSAMAR has been biennial since 2008 and is held under the IBSA Dialogue Forum. However, the institutional framework does not by itself explain the stated biennial frequency."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "NMSARB meeting and ICG motto",
+   "question": "Consider the following statements:\nStatement A: The 24th NMSARB meeting was held in Bhubaneswar and chaired by ICG DG Paramesh Sivamani.\nStatement B: The motto of the Indian Coast Guard is “Vayam Rakshamah”.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F4",
+    "P16.F5"
+   ],
+   "explanation": "Both statements are true. The 24th NMSARB meeting took place in Bhubaneswar under the chairmanship of ICG DG Paramesh Sivamani, and the Indian Coast Guard motto is “Vayam Rakshamah”."
+  }
+ ]
+}

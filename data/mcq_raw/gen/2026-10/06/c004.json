@@ -1,0 +1,301 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Released by",
+   "question": "Who released the National Strategy for Additive Manufacturing (NSAM)?",
+   "options": [
+    "Ministry of Electronics and Information Technology (MeitY)",
+    "Ministry of Heavy Industries",
+    "Department of Space",
+    "IN-SPACe"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F1"
+   ],
+   "explanation": "The National Strategy for Additive Manufacturing was released by MeitY in February 2022. The Ministry of Heavy Industries is the incorrect alternative; it was not the releasing ministry identified for NSAM."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "NSAM targets",
+   "question": "With reference to the targets of the National Strategy for Additive Manufacturing, consider the following statements:\n1. It targets 5% of the global additive-manufacturing market.\n2. It aims to train 1 lakh workers.\n3. It envisages 7 Development and Deployment Centres.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F2",
+    "P26.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct NSAM targets. The strategy specifies 7 Development and Deployment Centres as a separate provision, not as the worker-training target."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Progress under strategy",
+   "question": "Which one of the following correctly represents the progress reported under the National Strategy for Additive Manufacturing?",
+   "options": [
+    "More than 1.54 lakh trained, 56 start-ups and 65 India-specific technologies",
+    "1 lakh trained, 100 start-ups and 50 India-specific technologies",
+    "More than 1.54 lakh trained, 100 start-ups and 50 India-specific technologies",
+    "56 trained, 65 start-ups and more than 1.54 lakh India-specific technologies"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F4"
+   ],
+   "explanation": "The reported progress was more than 1.54 lakh persons trained, 56 start-ups and 65 India-specific technologies. The other options interchange or substitute the strategy’s targets and progress figures."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "NSAM 2.0 priorities",
+   "question": "Which one of the following statements about NSAM 2.0 is incorrect?",
+   "options": [
+    "It emphasises commercialisation and intellectual property rights.",
+    "It includes digital integration and affordable machines and materials.",
+    "It covers defence and additive-manufacturing electronics.",
+    "It focuses exclusively on training workers and excludes defence applications."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P26.F5"
+   ],
+   "explanation": "The incorrect statement is that NSAM 2.0 excludes defence applications. Its priorities include commercialisation, IPR, digital integration, affordable machines and materials, defence and additive-manufacturing electronics."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Additive-manufacturing applications",
+   "question": "Match List-I with List-II in the context of additive-manufacturing applications.\n\nList-I\n(a) Agnikul Cosmos\n(b) Indian Army\n(c) OsteoForge\n(d) Kelvin 6K Pro\n\nList-II\n(i) Silk-based implants\n(ii) Two-storey dwelling\n(iii) Single-piece 3D-printed semi-cryogenic engine\n(iv) Geopolymer house",
+   "options": [
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F10",
+    "P26.F11",
+    "P26.F12",
+    "P26.F13"
+   ],
+   "explanation": "The correct pairs are Agnikul Cosmos—single-piece 3D-printed semi-cryogenic engine; Indian Army—two-storey dwelling; OsteoForge—silk-based implants; and Kelvin 6K Pro—geopolymer house. The other codes interchange these applications."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AM process",
+   "question": "In additive manufacturing, which description correctly explains the role of an STL file and slicing software?",
+   "options": [
+    "The STL file represents a surface as triangles, and slicing software converts it into layers.",
+    "The STL file stores water-soluble supports, and slicing software converts them into metals.",
+    "The STL file represents a surface as layers, and slicing software converts it into triangles.",
+    "The STL file is a semi-cryogenic engine design, and slicing software converts it into a dwelling."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F7",
+    "P26.F8"
+   ],
+   "explanation": "Additive manufacturing builds objects layer by layer, and an STL file represents the surface as triangles. Slicing software uses that representation to make the layers."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Partners in QKD link",
+   "question": "Which group of organisations partnered to establish India's first 5.56-km free-space Quantum Key Distribution link?",
+   "options": [
+    "QNu Labs, BISAG-N and IIT Gandhinagar",
+    "Satleo Labs, IIT Delhi and RIDE! Space",
+    "QNu Labs, IN-SPACe and Skyroot Aerospace",
+    "BISAG-N, Space Zone India and IIT Madras"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F1"
+   ],
+   "explanation": "The link was established by QNu Labs, BISAG-N in Gandhinagar and IIT Gandhinagar. The other combinations include organisations associated with different space or quantum developments."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "QKD performance",
+   "question": "Assertion (A): The free-space QKD link used a two-layer security arrangement.\nReason (R): Its keys were integrated with BISAG-N's post-quantum “Vedic Kavach” platform.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F2",
+    "P27.F3"
+   ],
+   "explanation": "Both statements are true, and the integration of the keys with the post-quantum Vedic Kavach platform explains the two-layer security arrangement. The link also recorded QBER below 5% and keys at 230–260 bps."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Quantum and classical data",
+   "question": "Consider the following statements:\nStatement A: IIT Delhi transmitted conventional data with entangled photons through the same 50-km optical fibre.\nStatement B: The work was led by Prof Bhaskar Kanseri of the Department of Physics.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F1",
+    "P28.F2"
+   ],
+   "explanation": "Both statements are true. IIT Delhi demonstrated transmission of conventional data with entangled photons through the same 50-km optical fibre, under the leadership of Prof Bhaskar Kanseri of the Department of Physics."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Payload expansion",
+   "question": "What does TAPAS-1 stand for in the context of India's first private commercial thermal-imaging payload?",
+   "options": [
+    "Thermal Access Platform for Analytics & Solutions",
+    "Transportable Atmospheric Platform for Advanced Satellites",
+    "Thermal Analysis Payload for Aerospace Systems",
+    "Technology Access Platform for Orbital Science"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F1"
+   ],
+   "explanation": "TAPAS stands for Thermal Access Platform for Analytics & Solutions. TAPAS-1 is described as an orbital thermometer and is a 1.5 kg CubeSat payload."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "TAPAS-1 profile",
+   "question": "Match the following aspects of TAPAS-1 with the correct details.\n\nList-I\n(a) Developer\n(b) Launch vehicle\n(c) Orbit\n(d) Planned constellation\n\nList-II\n(i) 500-km SSO\n(ii) SpaceX Falcon 9\n(iii) PYRO, with 10–15 microsatellites by 2029\n(iv) Satleo Labs\n\nOptions:",
+   "options": [
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F2",
+    "P29.F3",
+    "P29.F4"
+   ],
+   "explanation": "The correct pairs are Satleo Labs—developer, SpaceX Falcon 9—launch vehicle, 500-km SSO—orbit, and PYRO with 10–15 microsatellites by 2029—planned constellation. The other codes mismatch these TAPAS-1 details."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "TAPAS-1 mission profile",
+   "question": "Which one of the following statements about TAPAS-1 is incorrect?",
+   "options": [
+    "It has a life of 3 years.",
+    "It was developed by Satleo Labs of Ahmedabad.",
+    "It was launched on a Falcon 9 Transporter-18 rideshare from California.",
+    "It has a mass of 15 kg as a CubeSat payload."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P29.F1",
+    "P29.F2",
+    "P29.F3",
+    "P29.F4"
+   ],
+   "explanation": "The incorrect statement changes the payload mass from 1.5 kg to 15 kg. TAPAS-1 is a 1.5 kg CubeSat payload; its life is 3 years, it was developed by Satleo Labs, and it used the Falcon 9 Transporter-18 rideshare."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Orbital data centre mission",
+   "question": "Which company announced India's first networked orbital data centre mission by the end of 2028?",
+   "options": [
+    "TakeMe2Space",
+    "Satleo Labs",
+    "Space Zone India",
+    "Skyroot Aerospace"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P30.F1"
+   ],
+   "explanation": "Indian spacetech company TakeMe2Space announced the mission. Satleo Labs, Space Zone India and Skyroot Aerospace are associated with other space developments in the period."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "TakeMe2Space mission plan",
+   "question": "How many of the following statements about TakeMe2Space's orbital data-centre mission are correct?\n1. It is planned as a constellation of 6 satellites.\n2. Its launch-services pact is with the French firm RIDE! Space.\n3. It is planned to process sensor data in orbit.\n4. The Falcon 9 has a reusable first stage.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P30.F2",
+    "P30.F3",
+    "P30.F4"
+   ],
+   "explanation": "All four statements are correct. The mission plans 6 satellites, uses a launch-services pact with RIDE! Space, processes sensor data in orbit, and uses Falcon 9, whose first stage is reusable."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch venue and date",
+   "question": "Where and when did Space Zone India's Rumi-1 and Rumi-2 hybrid rockets launch?",
+   "options": [
+    "Near Mamallapuram, Tamil Nadu, on 10 October 2026",
+    "From Ahmedabad on 22 October 2008",
+    "From California on 10 October 2026",
+    "Near Kelambakkam–Thaiyur on 15 August 1969"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P31.F1"
+   ],
+   "explanation": "Space Zone India launched Rumi-1 and Rumi-2 near Mamallapuram in Tamil Nadu on 10 October 2026. The other options combine the event with dates or places associated with different facts."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "Institutional chronology",
+   "question": "Arrange the following organisations in chronological order of establishment:\n1. ISRO\n2. NSIL\n3. IN-SPACe",
+   "options": [
+    "1-2-3",
+    "2-1-3",
+    "3-2-1",
+    "1-3-2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P31.F4"
+   ],
+   "explanation": "The correct order is ISRO, NSIL and IN-SPACe: ISRO was established in 1969, NSIL in 2019 and IN-SPACe in 2020. The other sequences reverse or rearrange this chronology."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "TIME100 Next appointment",
+   "question": "Who among the following was named in TIME100 Next–2026?",
+   "options": [
+    "Pawan Kumar Chandana",
+    "Mayilsamy Annadurai",
+    "Anand Megalingam",
+    "Shravan Singh Bhati"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P32.F1"
+   ],
+   "explanation": "Pawan Kumar Chandana, co-founder and CEO of Skyroot Aerospace, was named in TIME100 Next–2026. Mayilsamy Annadurai, Anand Megalingam and Shravan Singh Bhati are associated with other space initiatives."
+  }
+ ]
+}

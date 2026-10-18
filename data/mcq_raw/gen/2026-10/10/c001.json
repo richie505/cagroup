@@ -1,0 +1,297 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Host and venue",
+   "question": "The 46th Chess Olympiad 2026 was hosted in which city and country?",
+   "options": [
+    "Samarkand, Uzbekistan",
+    "Dakar, Senegal",
+    "Hanoi, Vietnam",
+    "Ahmedabad, India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The 46th Chess Olympiad was held in Samarkand, Uzbekistan. Dakar hosted the Youth Olympic Games, while Hanoi hosted IOAA 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Open section winner",
+   "question": "Which country won the gold medal in the Open section of the 46th Chess Olympiad 2026?",
+   "options": [
+    "India",
+    "Uzbekistan",
+    "Germany",
+    "China"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F2"
+   ],
+   "explanation": "Uzbekistan won gold in the Open section. India won silver and Germany won bronze; China won gold in the Women’s section."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Women’s section winner",
+   "question": "Which country won gold in the Women’s section of the 46th Chess Olympiad 2026?",
+   "options": [
+    "Kazakhstan",
+    "India",
+    "China",
+    "Germany"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "China won gold in the Women’s section, followed by Kazakhstan with silver and India with bronze. Germany was the Open-section bronze medallist."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Captaincy resignation",
+   "question": "On which date did Harmanpreet Kaur step down as India women’s captain across all formats?",
+   "options": [
+    "6 October 2026",
+    "5 October 2026",
+    "27 September 2026",
+    "13 November 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Harmanpreet Kaur stepped down on 6 October 2026 after a BCCI review in Guwahati. The other dates relate to the Chess Olympiad or the Dakar Youth Olympic Games."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IOAA medal tally",
+   "question": "What was India’s medal tally at the 19th International Olympiad on Astronomy and Astrophysics 2026?",
+   "options": [
+    "4 gold and 1 silver",
+    "3 gold and 2 silver",
+    "5 gold and 1 silver",
+    "4 gold and 1 bronze"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "India won 4 gold medals and 1 silver medal at IOAA 2026, with all 5 Indian participants winning medals. The other combinations alter either the medal colours or the tally."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First Olympic event in Africa",
+   "question": "The Dakar 2026 Youth Olympic Games are significant because they are the first what?",
+   "options": [
+    "Youth Olympic Games held in Asia",
+    "Olympic multi-sport event held in Africa",
+    "Commonwealth Games held in Africa",
+    "Winter Youth Olympic Games held in Africa"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "Dakar 2026 is the first Olympic multi-sport event in Africa. It is the 4th Summer Youth Olympic Games, not a Commonwealth or Winter Youth Olympic event."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Slogan and mascot",
+   "question": "Which pair is correctly associated with the Dakar 2026 Youth Olympic Games?",
+   "options": [
+    "“Africa welcomes, Dakar celebrates” and Ayo",
+    "“One World, One Dream” and a young elephant",
+    "“Stronger Together” and Ayo",
+    "“Africa welcomes, Dakar celebrates” and a young lion named Kofi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "The slogan is “Africa welcomes, Dakar celebrates” and the mascot is Ayo, a young lion. The other options change either the slogan, mascot, or mascot’s name."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Cue sports championship",
+   "question": "Which of the following statements about the Commonwealth Cue Sports Championship 2026 is incorrect?",
+   "options": [
+    "It was held at the Veer Savarkar Sports Complex in Ahmedabad.",
+    "It featured 144 athletes from 42 countries.",
+    "India topped the total medal table with 13 medals.",
+    "Great Britain won the most total medals with 13 medals."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F3"
+   ],
+   "explanation": "The incorrect statement is that Great Britain won the most total medals with 13 medals. India topped the total medal table with 13 medals, while Great Britain won the most gold medals with 4."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Putul Sonowal achievement",
+   "question": "Which of the following statements about Putul Sonowal’s 2026 achievement is incorrect?",
+   "options": [
+    "She is from Assam.",
+    "She won a bronze medal at the World Bowls Champion of Champions 2026.",
+    "The event was held in Barham, New South Wales, Australia.",
+    "She became the first Indian man to medal at this event."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "The incorrect statement changes “woman” to “man.” Putul Sonowal became the first Indian woman to medal at the World Bowls Champion of Champions."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Dakar YOG participation",
+   "question": "Consider the following statements about the Dakar 2026 Youth Olympic Games:\n1. The Games were postponed from 2022 because of COVID.\n2. They introduced the first Youth Refugee Olympic Team.\n3. Mixed-NOC events were added to the programme.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the Games were postponed from 2022 because of COVID and featured the first Youth Refugee Olympic Team. Statement 3 is incorrect because mixed-NOC events were dropped."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "BRICS sports demonstration games",
+   "question": "Consider the following statements about the BRICS Traditional and Indigenous Sports Demonstration Games 2026:\n1. They were part of India’s BRICS Chairship 2026.\n2. They were organised by the Ministry of Youth Affairs and Sports along with the Gujarat Government.\n3. They were competitive medal-based games.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct. The event was a demonstration and therefore non-competitive, making statement 3 incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "IOAA medal winners",
+   "question": "Match the IOAA 2026 medal category with the associated participant or participants:\nList-I\n a. Gold medal\n b. Silver medal\n c. Host city\n d. Coordinating institution in India\n\nList-II\n i. HBCSE\n ii. Hanoi\n iii. Pranjal Dixit, Sumant Gupta, Akshat Srivastava and Arnav Sehrawat\n iv. Harshil Amitkumar Patel",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2",
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i. The four named students won gold, Harshil Amitkumar Patel won silver, Hanoi was the host city, and HBCSE coordinated India’s participation."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Dakar YOG features",
+   "question": "Match the Dakar 2026 Youth Olympic Games feature with the correct detail:\nList-I\n a. Slogan\n b. Mascot\n c. Athletes\n d. New sport\n\nList-II\n i. Ayo\n ii. 2,700\n iii. Africa welcomes, Dakar celebrates\n iv. Baseball5",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2",
+    "P4.F4"
+   ],
+   "explanation": "The correct matching is slogan–Africa welcomes, Dakar celebrates; mascot–Ayo; athletes–2,700; and new sport–Baseball5. The other codes interchange these event features."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Nona Gaprindashvili Trophy",
+   "question": "Assertion (A): India won the Nona Gaprindashvili Trophy at the 46th Chess Olympiad 2026 for the third consecutive time.\nReason (R): The trophy is named after Georgian chess legend Nona Gaprindashvili.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F5"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the trophy’s namesake does not explain India’s third consecutive win; it only identifies the person after whom the trophy is named."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Harmanpreet Kaur captaincy record",
+   "question": "Consider the following statements:\nStatement A: Harmanpreet Kaur led India in 211 matches across 51 ODIs, 155 T20Is and 5 Tests.\nStatement B: She won 30 ODIs, 92 T20Is and 4 Tests as captain.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "Both statements are true. Her captaincy record comprised 211 matches, including 51 ODIs, 155 T20Is and 5 Tests, with 30 ODI, 92 T20I and 4 Test wins."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "BRICS institutional milestones",
+   "question": "Arrange the following BRICS-related milestones in chronological order:\n1. South Africa joined BRICS.\n2. BRIC was formed.\n3. The first BRICS Summit was held at Yekaterinburg.\n4. The New Development Bank was established in Shanghai.\n5. The first BRICS Games were held in Guangzhou.",
+   "options": [
+    "2-3-1-4-5",
+    "3-2-1-5-4",
+    "2-1-3-4-5",
+    "1-2-3-4-5"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "The correct order is BRIC in 2006, the first summit in 2009, South Africa’s entry in 2010, the NDB in 2014, and the first BRICS Games in 2017. Therefore, the sequence is 2-3-1-4-5."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Dakar YOG programme",
+   "question": "How many of the following statements about the Dakar 2026 Youth Olympic Games are correct?\n1. They involved 2,700 athletes.\n2. They had 25 sports.\n3. Baseball5, Skateboarding and Wushu were new sports.\n4. Each gender had 1,350 athletes.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "All four statements are correct. The Games featured 2,700 athletes, 25 sports, the three listed new sports, and 1,350 athletes of each gender."
+  }
+ ]
+}

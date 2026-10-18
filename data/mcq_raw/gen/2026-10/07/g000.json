@@ -1,0 +1,164 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F15",
+  "P0.F24",
+  "P0.F4",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Total number",
+   "question": "According to the full list of CA|TS-accredited tiger reserves, how many reserves are accredited in India?",
+   "options": [
+    "15",
+    "18",
+    "21",
+    "24"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "The full list contains 24 CA|TS-accredited tiger reserves. The figure 15 belongs to an earlier listing, whereas the full list gives 24."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State–reserve association",
+   "question": "Which tiger reserve is listed under West Bengal among the CA|TS-accredited reserves?",
+   "options": [
+    "Sundarbans",
+    "Valmiki",
+    "Dudhwa",
+    "Bandipur"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6",
+    "P0.F7",
+    "P0.F12",
+    "P0.F24"
+   ],
+   "explanation": "Sundarbans is the CA|TS-accredited tiger reserve listed under West Bengal. Valmiki, Dudhwa and Bandipur are listed under Bihar, Uttar Pradesh and Karnataka respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Incorrect state–reserve pair",
+   "question": "Which one of the following state–tiger reserve pairs is INCORRECT?",
+   "options": [
+    "Assam — Kaziranga, Manas, Orang and Nameri",
+    "Bihar — Valmiki",
+    "Uttar Pradesh — Dudhwa",
+    "Maharashtra — Panna"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F6",
+    "P0.F7",
+    "P0.F8",
+    "P0.F9"
+   ],
+   "explanation": "Maharashtra—Panna is incorrect. Panna is listed under Madhya Pradesh, while Pench is the reserve listed under Maharashtra in this set."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Number of reserves by State",
+   "question": "Consider the following statements regarding the 15-reserve CA|TS list:\n\n1. Assam has four listed reserves.\n2. Madhya Pradesh has three listed reserves.\n3. Tamil Nadu has two listed reserves.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F8",
+    "P0.F10"
+   ],
+   "explanation": "All three statements are correct: Assam has Kaziranga, Manas, Orang and Nameri; Madhya Pradesh has Kanha, Panna and Satpura; and Tamil Nadu has Anamalai and Mudumalai. Therefore, the correct choice is 1, 2 and 3."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "State–reserve matching",
+   "question": "Match List-I with List-II regarding CA|TS-accredited tiger reserves.\n\nList-I\n(a) West Bengal\n(b) Bihar\n(c) Kerala\n(d) Karnataka\n\nList-II\ni. Sundarbans\nii. Valmiki\niii. Parambikulam\niv. Bandipur",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6",
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "The correct pairs are West Bengal–Sundarbans, Bihar–Valmiki, Kerala–Parambikulam and Karnataka–Bandipur. Hence, the correct code is a-i, b-ii, c-iii, d-iv."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "State–reserve association",
+   "question": "Consider the following statements:\nStatement A: Valmiki is listed under Bihar among the CA|TS-accredited tiger reserves.\nStatement B: Dudhwa is listed under Uttar Pradesh among the CA|TS-accredited tiger reserves.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Both statements are true. Valmiki is the listed reserve for Bihar, while Dudhwa is listed under Uttar Pradesh."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Number of reserves in Madhya Pradesh",
+   "question": "How many of the following are listed under Madhya Pradesh among the CA|TS-accredited tiger reserves?\n\n1. Kanha\n2. Panna\n3. Satpura\n4. Bandipur",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F8",
+    "P0.F12"
+   ],
+   "explanation": "Kanha, Panna and Satpura are listed under Madhya Pradesh, while Bandipur is listed under Karnataka. Thus, only three of the reserves are associated with Madhya Pradesh."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Number in the full list",
+   "question": "Assertion (A): The full list of CA|TS-accredited tiger reserves contains 24 reserves.\nReason (R): The 12 October listing gave 24 reserves, whereas the 10 October listing mentioned 15 reserves.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F15"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the later listing explains why the full-list figure is 24 rather than 15. The tempting alternative is to use 15, but that was the figure in the earlier listing."
+  }
+ ]
+}

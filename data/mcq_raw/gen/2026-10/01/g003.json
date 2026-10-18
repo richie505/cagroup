@@ -1,0 +1,160 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": [
+  "P11.F1",
+  "P11.F6",
+  "P11.F7",
+  "P14.F2",
+  "P14.F3",
+  "P15.F7",
+  "P15.F8",
+  "P16.F2",
+  "P16.F3",
+  "P17.F1",
+  "P17.F2",
+  "P17.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of water bodies",
+   "question": "According to the Second Census of Water Bodies, how many water bodies were recorded in Andhra Pradesh in 2023–24?",
+   "options": [
+    "1,90,777",
+    "2,23,314",
+    "1,76,890",
+    "2,05,314"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The Second Census recorded 2,23,314 water bodies in Andhra Pradesh in 2023–24, compared with 1,90,777 in 2017–18. The tempting figure 1,90,777 belongs to the First Census."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Minor irrigation census figures",
+   "question": "Consider the following statements regarding Andhra Pradesh’s Seventh Minor Irrigation Census:\n\n1. The irrigated area increased from 35,06,154.1 hectares to 38,82,497.31 hectares.\n2. The total number of schemes was 18,40,578, of which 17,46,208 were groundwater schemes.\n3. There were 40,085 government-owned schemes and 18,07,556 schemes were in use.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F6",
+    "P11.F7"
+   ],
+   "explanation": "All three statements are correct according to the Seventh Minor Irrigation Census figures. The total schemes, groundwater schemes, government-owned schemes and schemes in use are distinct figures, so none of the three statements is incorrect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Judicial officers’ retirement age",
+   "question": "With reference to Andhra Pradesh’s decision concerning the retirement age of judicial officers, identify the incorrect statement.",
+   "options": [
+    "The Andhra Pradesh High Court Full Court made its recommendation on 24 August 2026.",
+    "The Supreme Court had directed 7 States to raise the retirement age to 62 years.",
+    "The earlier retirement age had been raised from 60 to 61 years with effect from 1 November 2024.",
+    "The Andhra Pradesh High Court Full Court made its recommendation on 1 October 2026."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F2",
+    "P14.F3"
+   ],
+   "explanation": "The incorrect statement is the fourth one. The Full Court recommendation was made on 24 August 2026; the statement changes the date of that recommendation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Order-issuing authority",
+   "question": "Who issued the orders relating to the reservation of mayoral posts in Andhra Pradesh’s Municipal Corporations?",
+   "options": [
+    "Suresh Kumar, Principal Secretary, MA&UD",
+    "N.M.D. Farooq, Law Minister",
+    "Pawan Kalyan, Deputy Chief Minister",
+    "Vangalapudi Anitha, Home Minister"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F7"
+   ],
+   "explanation": "The orders were issued by Suresh Kumar, Principal Secretary, MA&UD. N.M.D. Farooq, Pawan Kalyan and Vangalapudi Anitha are associated with other matters in the period, not with issuing these mayoral reservation orders."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Municipal chairperson reservations",
+   "question": "Match the category of chairperson posts in 106 municipalities with the corresponding number of posts.\n\nList-I\n(a) ST General\n(b) ST Women\n(c) SC General\n(d) SC Women\n\nList-II\ni. 1\nii. 2\niii. 7\niv. 18",
+   "options": [
+    "a-ii, b-i, c-iii, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F8"
+   ],
+   "explanation": "The correct pairs are ST General–2, ST Women–1, SC General–7 and SC Women–7, represented by a-ii, b-i, c-iii, d-iii. The other codes assign at least one category an incorrect number of posts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "APSHRC recommendations and biography",
+   "question": "Consider the following statements about the recommendations concerning the Andhra Pradesh State Human Rights Commission:\n\n1. Narella Srinivasa Rao and J.V. Manohar Reddy were recommended as members.\n2. Justice Mallavolu Satyanarayana Murthy was born on 14 June 1960 at Machilipatnam.\n3. Justice Mallavolu Satyanarayana Murthy retired on 13 June 2022.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P16.F2",
+    "P16.F3"
+   ],
+   "explanation": "All three statements are correct. The recommended members were Narella Srinivasa Rao and J.V. Manohar Reddy, while Justice Mallavolu Satyanarayana Murthy was born at Machilipatnam on 14 June 1960 and retired on 13 June 2022."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Apprenticeship council leadership",
+   "question": "Assertion (A): The NAPS 2.0 State-Level Committee is chaired by the Director of Employment and Training.\nReason (R): The State Apprenticeship Council is chaired by the Principal Secretary of the Skill Development & Training Department.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the chairperson of the State Apprenticeship Council does not explain the separate chairperson designated for the NAPS 2.0 State-Level Committee."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ministry and legal basis",
+   "question": "NAPS 2.0 operates under which ministry and legal basis?",
+   "options": [
+    "Ministry of Skill Development and Entrepreneurship; Apprentices Act, 1961",
+    "Ministry of Jal Shakti; Water Bodies Act, 1961",
+    "Ministry of Housing and Urban Affairs; Municipalities Act, 1961",
+    "Ministry of Law and Justice; Human Rights Act, 1961"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F3"
+   ],
+   "explanation": "NAPS 2.0 is associated with the Ministry of Skill Development and Entrepreneurship and has the Apprentices Act, 1961 as its legal basis. The other combinations pair unrelated ministries and legal frameworks with the apprenticeship programme."
+  }
+ ]
+}

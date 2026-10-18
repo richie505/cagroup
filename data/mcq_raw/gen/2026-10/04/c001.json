@@ -1,0 +1,286 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Growth forecast",
+   "question": "What real GDP growth rate did the World Bank forecast for India in FY 2026–27?",
+   "options": [
+    "6.6%",
+    "7.1%",
+    "7.8%",
+    "5.54%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "The World Bank forecast India’s FY 2026–27 growth at 7.1%, revising it upward from 6.6% in April 2026. The 7.8% figure refers to Q1 growth, while 5.54% is the September 2026 CPI inflation rate."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "HQ and President",
+   "question": "Which combination correctly identifies the headquarters and President of the World Bank?",
+   "options": [
+    "Washington DC and Ajay Banga",
+    "Mumbai and Sanjay Malhotra",
+    "Washington DC and Sanjay Malhotra",
+    "Mumbai and Ajay Banga"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P7.F5"
+   ],
+   "explanation": "The World Bank is headquartered in Washington DC and its President is Ajay Banga. Mumbai and Sanjay Malhotra are associated with the RBI, not the World Bank."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP estimates",
+   "question": "GDP estimates in the cited economic data are prepared by which organisation, using which base year?",
+   "options": [
+    "NSO; 2022–23",
+    "MoSPI; 2016–17",
+    "RBI; 2022–23",
+    "Office of the Economic Adviser; 2022–23"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3",
+    "P6.F4"
+   ],
+   "explanation": "GDP estimates are prepared by the NSO, with 2022–23 as the base year. The Office of the Economic Adviser prepares WPI data, while CPI is issued by the NSO under MoSPI."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inflation target and band",
+   "question": "What was India’s CPI inflation rate in September 2026, and how did it compare with the inflation framework?",
+   "options": [
+    "5.54%; above the 4% target but within the 2–6% band",
+    "6.81%; below the 4% target but within the 2–6% band",
+    "5.54%; above the 6% upper limit",
+    "4.00%; exactly at the target"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "CPI inflation in September 2026 was 5.54%, above the 4% target but within the 2–6% band. The 6.81% figure was Uttar Pradesh’s state-level inflation rate."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "FDI high",
+   "question": "Net FDI in July 2026 reached what amount, according to the RBI Monthly Bulletin of September 2026?",
+   "options": [
+    "USD 6.25 billion",
+    "USD 7.35 billion",
+    "USD 8.80 billion",
+    "USD 7.10 billion"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2"
+   ],
+   "explanation": "Net FDI in July 2026 was USD 7.35 billion, the highest since USD 8.80 billion in May 2021. USD 8.80 billion was the earlier high, not the July 2026 figure."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "CPI and WPI agencies",
+   "question": "Which of the following statements regarding India’s price indices is incorrect?",
+   "options": [
+    "CPI is prepared by the NSO under MoSPI.",
+    "WPI is prepared by the Office of the Economic Adviser, DPIIT.",
+    "The MPC was introduced through an amendment to the RBI Act in 2016.",
+    "WPI is prepared by the NSO under MoSPI."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "The incorrect statement is that WPI is prepared by the NSO under MoSPI. WPI is prepared by the Office of the Economic Adviser, DPIIT; CPI is prepared by the NSO under MoSPI."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "GEC implementation model",
+   "question": "Which statement about the implementation of Green Energy Corridor Phase-III is incorrect?",
+   "options": [
+    "Greenfield projects use Tariff-Based Competitive Bidding.",
+    "Greenfield projects follow the BOOM model through Transmission Service Providers.",
+    "Brownfield projects are implemented on a Cost Plus Basis.",
+    "Brownfield projects use Tariff-Based Competitive Bidding through Transmission Service Providers."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F8",
+    "P8.F9"
+   ],
+   "explanation": "The incorrect statement is that brownfield projects use Tariff-Based Competitive Bidding through Transmission Service Providers. Greenfield projects use TBCB and the BOOM model, whereas brownfield projects follow the Cost Plus Basis."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State-wise inflation ranking",
+   "question": "With reference to state-wise CPI inflation in September 2026, consider the following statements:\n1. Uttar Pradesh recorded the highest inflation among the cited States.\n2. Andhra Pradesh recorded a higher rate than Telangana.\n3. Telangana slipped to fourth place after being highest during January–August 2026.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct: Uttar Pradesh was highest at 6.81%, and Telangana slipped to fourth after being highest during January–August 2026. Statement 2 is incorrect because Telangana’s 6.64% was higher than Andhra Pradesh’s 6.29%."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "FDI calculation and policy routes",
+   "question": "Consider the following statements about foreign direct investment in India:\n1. Net FDI equals gross inward FDI minus outward FDI and repatriation/disinvestment.\n2. DPIIT is responsible for FDI policy.\n3. FDI can come through Automatic and Government routes.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "All three statements are correct. Net FDI is calculated after subtracting outward FDI and repatriation/disinvestment from gross inward FDI, while DPIIT handles FDI policy through Automatic and Government routes."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "GEC-III outlay",
+   "question": "Match the components of the PM-DHARA scheme with their cited amounts.\n\nList-I\n(a) Total outlay\n(b) Intra-State transmission\n(c) 50 GWh BESS\n(d) Central Financial Support\n\nList-II\n(i) ₹50,000 crore\n(ii) ₹1,86,405 crore\n(iii) ₹54,082 crore\n(iv) ₹1,36,378 crore",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4",
+    "P8.F5",
+    "P8.F6"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. Thus, the total outlay is ₹1,86,405 crore, intra-State transmission is ₹1,36,378 crore, the 50 GWh BESS component is ₹50,000 crore, and Central Financial Support is ₹54,082 crore."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "GEC-III implementation",
+   "question": "Match the Green Energy Corridor Phase-III feature with its corresponding description.\n\nList-I\n(a) Greenfield projects\n(b) Brownfield projects\n(c) Overall implementing agencies\n(d) Intra-State transmission component\n\nList-II\n(i) State Transmission Utilities\n(ii) GEC-III\n(iii) Cost Plus Basis\n(iv) TBCB and BOOM model through Transmission Service Providers",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-ii, b-iii, c-i, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F8",
+    "P8.F9",
+    "P8.F10",
+    "P8.F16"
+   ],
+   "explanation": "The correct matching is a-iv, b-iii, c-i and d-ii. Greenfield projects use TBCB and the BOOM model, brownfield projects use the Cost Plus Basis, State Transmission Utilities implement the scheme, and the Intra-State transmission component is GEC-III."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Dedicated battery storage",
+   "question": "Assertion (A): PM-DHARA marks the first time that Green Energy Corridor has included a dedicated battery-storage component.\nReason (R): The scheme contains a 50 GWh BESS component.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F5",
+    "P8.F7"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the reason explains the assertion. PM-DHARA includes a 50 GWh BESS component, and this is identified as the first dedicated battery-storage component in the Green Energy Corridor."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "FDI definition and policy",
+   "question": "Consider the following statements:\nStatement A: Net FDI is calculated by subtracting outward FDI and repatriation/disinvestment from gross inward FDI.\nStatement B: FDI policy is handled by DPIIT through Automatic and Government routes.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F4"
+   ],
+   "explanation": "Both statements are true. Net FDI uses the stated subtraction formula, and DPIIT handles FDI policy through the Automatic and Government routes."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "Chronology of economic events",
+   "question": "Arrange the following events in chronological order:\n1. The World Bank’s earlier India growth forecast of 6.6% was made in April 2026.\n2. Net FDI reached USD 7.35 billion in July 2026.\n3. India’s CPI inflation was recorded at 5.54% in September 2026.\n4. The Union Cabinet approved PM-DHARA on 30 September 2026.",
+   "options": [
+    "1-2-3-4",
+    "2-1-3-4",
+    "1-3-2-4",
+    "4-3-2-1"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P7.F2",
+    "P6.F1",
+    "P8.F1"
+   ],
+   "explanation": "The correct chronological order is April 2026, July 2026, September 2026, and 30 September 2026. Therefore, the sequence is 1-2-3-4."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Energy-storage technologies",
+   "question": "How many of the following are identified as energy-storage types in the Green Energy Corridor context?\n1. Pumped hydro\n2. BESS using lithium iron phosphate\n3. CSP molten salt\n4. Compressed air",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F15"
+   ],
+   "explanation": "All four listed items are identified as storage types: pumped hydro, BESS using lithium iron phosphate, CSP molten salt and compressed air. Therefore, the correct answer is All four."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme approval and capacity",
+   "question": "Which statement correctly describes the Cabinet-approved PM-DHARA scheme?",
+   "options": [
+    "It was approved on 30 September 2026 and enables evacuation of up to 135 GW of renewable energy by FY 2032–33.",
+    "It was approved in April 2026 and enables evacuation of up to 900 GW by FY 2030–31.",
+    "It was approved on 30 September 2026 and enables evacuation of up to 50 GWh by FY 2032–33.",
+    "It was approved in July 2026 and enables evacuation of up to 135 GW by FY 2025–26."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "PM-DHARA was approved by the Union Cabinet on 30 September 2026 and provides for evacuation of up to 135 GW of renewable energy, with completion by FY 2032–33. The other options mix the scheme’s capacity, storage figure, targets or unrelated dates."
+  }
+ ]
+}

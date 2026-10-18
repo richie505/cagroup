@@ -1,0 +1,340 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Swearing-in venue and term",
+   "question": "Where and for what term was Bimal N. Patel sworn in as a judge of the International Tribunal for the Law of the Sea (ITLOS)?",
+   "options": [
+    "Hamburg; 2026–2035",
+    "New York; 2026–2035",
+    "Hamburg; 2025–2034",
+    "New York; 2025–2034"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "Bimal N. Patel was sworn in at Hamburg for the 2026–2035 term. New York was the venue of his election, not his swearing-in."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Election votes",
+   "question": "How many valid votes did Bimal N. Patel receive when he was elected to the ITLOS on 18 June 2026?",
+   "options": [
+    "115 of 168",
+    "116 of 168",
+    "115 of 160",
+    "105 of 168"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "Patel received 115 of 168 valid votes at the 36th Meeting of States Parties to UNCLOS. The other figures alter either the votes received or the total valid votes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "HQ and composition",
+   "question": "Which combination correctly describes the International Tribunal for the Law of the Sea?",
+   "options": [
+    "Headquarters in Hamburg and 21 judges with 9-year terms",
+    "Headquarters in New York and 21 judges with 9-year terms",
+    "Headquarters in Hamburg and 15 judges with 6-year terms",
+    "Headquarters in Trieste and 21 judges with 9-year terms"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F3"
+   ],
+   "explanation": "ITLOS is headquartered in Hamburg and has 21 judges, each serving a 9-year term. New York, Trieste, 15 judges and 6-year terms do not match these particulars."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "UNCLOS timeline and description",
+   "question": "Which of the following statements about UNCLOS is incorrect?",
+   "options": [
+    "It was adopted in 1982.",
+    "It entered into force in 1994.",
+    "It is known as the “Constitution for the Oceans”.",
+    "It was adopted in 1994."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F4"
+   ],
+   "explanation": "The incorrect statement is that UNCLOS was adopted in 1994; it was adopted in 1982 and entered into force in 1994. The description “Constitution for the Oceans” is also correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award winner and affiliation",
+   "question": "Who was selected for the SASTRA–Ramanujan Award 2026?",
+   "options": [
+    "Sarah Peluse, Associate Professor at Stanford University",
+    "Mahesh Kakde, Professor at IISc Bengaluru",
+    "Bimal N. Patel, judge at ITLOS",
+    "Dr Lokeswara Rao Sajja, surgeon at STAR Hospitals"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P9.F1",
+    "P13.F1"
+   ],
+   "explanation": "Sarah Peluse of Stanford University was selected for the SASTRA–Ramanujan Award 2026. Mahesh Kakde won the Ramanujan Prize for Young Mathematicians, while Sajja was recognised with FESC."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award presentation venue and date",
+   "question": "When and where is the SASTRA–Ramanujan Award 2026 to be presented?",
+   "options": [
+    "22 December 2026 at the SASTRA campus, Kumbakonam",
+    "25 September 2026 at Stanford University",
+    "22 December 2026 at IISc Bengaluru",
+    "28 October 2026 at the French Embassy, New Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F3",
+    "P10.F2"
+   ],
+   "explanation": "The award is to be presented on 22 December 2026 at the SASTRA campus in Kumbakonam, Tamil Nadu. Stanford University is associated with Peluse, while 28 October at the French Embassy concerns Sunil Bharti Mittal’s insignia."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Award fields",
+   "question": "With reference to Sarah Peluse and the SASTRA–Ramanujan Award 2026, consider the following statements:\n1. The award recognises work including analytic number theory and additive combinatorics.\n2. Combinatorial geometry and group theory are among the fields associated with her work.\n3. The award is restricted to work in cardiac surgery.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2",
+    "P13.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct because Peluse’s fields include analytic number theory, additive combinatorics, combinatorial geometry and group theory. Statement 3 is incorrect; cardiac surgery and arterial revascularisation are associated with Dr Lokeswara Rao Sajja’s research."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Award institution, age and prize",
+   "question": "Match the following features with the SASTRA–Ramanujan Award particulars:\nList-I\n(a) Institution associated with the award\n(b) Year instituted\n(c) Age limit\n(d) Prize\n\nList-II\ni. USD 10,000 plus citation\nii. 2005\niii. SASTRA Deemed University, Thanjavur\niv. 32 years or below",
+   "options": [
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F5",
+    "P8.F6",
+    "P8.F7"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-iv and d-i. The award was instituted in 2005 by SASTRA Deemed University, has an age limit of 32 years or below, and carries USD 10,000 plus a citation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Young mathematicians prize",
+   "question": "Who received the 2026 Ramanujan Prize for Young Mathematicians from Developing Countries?",
+   "options": [
+    "Mahesh Kakde",
+    "Sarah Peluse",
+    "Rajeshwari Kumari",
+    "Bimal N. Patel"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "Mahesh Kakde, Professor at IISc Bengaluru, received the 2026 Ramanujan Prize for Young Mathematicians from Developing Countries. Sarah Peluse was selected for the SASTRA–Ramanujan Award, while Kumari and Patel were recognised in sports administration and international law respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Distinguishing mathematics awards",
+   "question": "Which statement regarding the 2026 mathematics awards is incorrect?",
+   "options": [
+    "Mahesh Kakde was the fifth Indian to win the Ramanujan Prize for Young Mathematicians.",
+    "The age limit for the Ramanujan Prize for Young Mathematicians is below 45.",
+    "The SASTRA–Ramanujan Award has an age limit of 32 years or below.",
+    "The SASTRA–Ramanujan Award has an age limit below 45."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F2",
+    "P9.F4",
+    "P8.F6"
+   ],
+   "explanation": "The incorrect statement is that the SASTRA–Ramanujan Award has an age limit below 45; its age limit is 32 years or below. Below 45 applies to the Ramanujan Prize for Young Mathematicians, which Kakde won as the fifth Indian."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Ramanujan Prize collaborators",
+   "question": "Match the institutions associated with the Ramanujan Prize for Young Mathematicians with their particulars:\nList-I\n(a) ICTP\n(b) IMU\n(c) DST\n(d) IISc Bengaluru\n\nList-II\ni. Institution where Mahesh Kakde is a Professor\nii. Collaborating organisation for the prize\niii. Collaborating organisation for the prize\niv. Collaborating organisation for the prize",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F3"
+   ],
+   "explanation": "The fully correct code is a-ii, b-iii, c-iv, d-i: ICTP, IMU and DST are associated with the prize, while Kakde is a Professor at IISc Bengaluru. The other codes arbitrarily interchange the collaborating organisations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "French honour rank",
+   "question": "Which rank of France’s Legion of Honour was selected for Sunil Bharti Mittal?",
+   "options": [
+    "Chevalier",
+    "Officier",
+    "Commandeur",
+    "Grand-Croix"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "Sunil Bharti Mittal was selected for the rank of Chevalier. Officier, Commandeur and Grand-Croix are other ranks in the Legion of Honour hierarchy."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Legion of Honour hierarchy",
+   "question": "Which of the following correctly matches the ascending order of ranks in France’s Legion of Honour?\nList-I\n(a) First rank\n(b) Second rank\n(c) Third rank\n(d) Fifth rank\n\nList-II\ni. Grand-Croix\nii. Commandeur\niii. Chevalier\niv. Commandeur",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4"
+   ],
+   "explanation": "The ascending order begins Chevalier, Officier, Commandeur, Grand Officier and Grand-Croix; among the listed ranks, the first is Chevalier, the third is Commandeur and the fifth is Grand-Croix. The code uses the supplied rank sequence, with the second listed position represented by Officier in the hierarchy."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Civilian bravery honour",
+   "question": "Which honour did Israel announce for Captain Smith Machhar after the flydubai incident?",
+   "options": [
+    "Presidential Award for Civilian Heroism",
+    "Vishisht Gujarat Garima Award",
+    "Presidential Medal of Distinction",
+    "Special postal cover"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F4",
+    "P11.F5",
+    "P11.F6"
+   ],
+   "explanation": "Israel announced the Presidential Award for Civilian Heroism for Captain Smith Machhar. The Vishisht Gujarat Garima Award was announced by Gujarat, while India Post issued a special postal cover; the Presidential Medal of Distinction is described separately as Israel’s highest civilian honour."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Machhar recognition details",
+   "question": "Which statement about Captain Smith Machhar’s recognitions is incorrect?",
+   "options": [
+    "The Vishisht Gujarat Garima Award was announced by Gujarat Chief Minister Bhupendra Patel.",
+    "India Post issued a special postal cover through the Kerala Postal Circle on 9 October 2026.",
+    "The flydubai airline is headquartered in Dubai.",
+    "The special postal cover was issued by the Gujarat Postal Circle."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F2",
+    "P11.F3",
+    "P11.F5"
+   ],
+   "explanation": "The incorrect statement changes Kerala Postal Circle to Gujarat Postal Circle. The cover was issued by the Kerala Postal Circle, Thiruvananthapuram, on 9 October 2026; the other statements correctly identify the Gujarat announcement and flydubai’s headquarters."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Athletes’ Commission representation",
+   "question": "For which region and term was former trap shooter Rajeshwari Kumari elected to the OCA Athletes’ Commission?",
+   "options": [
+    "South Asia, 2026–2030",
+    "South Asia, 2025–2029",
+    "East Asia, 2026–2030",
+    "West Asia, 2026–2030"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "Rajeshwari Kumari was elected to represent South Asia for 2026–2030. The alternatives alter either the region or the term."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "FESC first and research",
+   "question": "Assertion (A): Dr Lokeswara Rao Sajja became the first cardiac surgeon from India to receive FESC.\nReason (R): His research includes coronary artery bypass grafting and arterial revascularisation.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "Both the assertion and reason are true: Sajja was the first Indian cardiac surgeon to receive FESC, and his research includes CABG and arterial revascularisation. However, those research areas do not explain or establish the distinction of being the first Indian cardiac surgeon to receive FESC."
+  },
+  {
+   "format": "Chronological Ordering",
+   "keyword": "October 2026 event sequence",
+   "question": "Arrange the following events in chronological order in October 2026:\n1. Bimal N. Patel was sworn in as an ITLOS judge.\n2. Rajeshwari Kumari was elected to the OCA Athletes’ Commission.\n3. India Post issued a special postal cover for Captain Smith Machhar.\n4. Sunil Bharti Mittal’s selection for the Legion of Honour was announced.",
+   "options": [
+    "1–2–3–4",
+    "2–1–3–4",
+    "1–2–4–3",
+    "3–1–2–4"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P12.F1",
+    "P11.F5",
+    "P10.F1"
+   ],
+   "explanation": "The correct order is 1–2–3–4: Patel was sworn in on 1 October, Kumari was elected on 3 October, the postal cover was issued on 9 October, and Mittal’s selection was announced on 12 October. The alternatives place one or more events out of date order."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Top 2% scientists list particulars",
+   "question": "How many of the following statements about the Stanford–Elsevier Top 2% Scientists list are correct?\n1. It included 3,898 Indian scientists.\n2. The Indian scientists came from 1,185 institutions.\n3. The list had been published for 8 years.\n4. The list uses the c-score.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "All four statements are correct: the list covered 3,898 Indian scientists from 1,185 institutions, had been published for 8 years, and used the c-score. Therefore, the correct option is “All four”."
+  }
+ ]
+}

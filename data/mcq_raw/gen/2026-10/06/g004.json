@@ -1,0 +1,141 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "only": [
+  "P26.F1",
+  "P26.F14",
+  "P26.F15",
+  "P26.F2",
+  "P26.F3",
+  "P26.F6",
+  "P26.F9",
+  "P31.F2",
+  "P31.F3",
+  "P32.F2"
+ ],
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Released by, venue and grant",
+   "question": "Match List-I with List-II regarding the National Strategy for Additive Manufacturing and its related initiatives.\n\nList-I\n(a) NSAM released by\n(b) Development and Deployment Centres\n(c) 2nd National Additive Manufacturing Symposium\n(d) Atal Tinkering Labs grant\n\nList-II\n(i) MeitY, February 2022\n(ii) 7\n(iii) MeitY, 13 March 2026, New Delhi\n(iv) ₹20 lakh",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F1",
+    "P26.F3",
+    "P26.F6",
+    "P26.F15"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: NSAM was released by MeitY in February 2022, the strategy envisages 7 Development and Deployment Centres, the 2nd Symposium was held by MeitY on 13 March 2026 in New Delhi, and Atal Tinkering Labs receive a ₹20 lakh grant. The tempting second code is incorrect because it assigns 7 to the release detail and MeitY to the number of centres."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "NSAM targets",
+   "question": "Which of the following targets are associated with the National Strategy for Additive Manufacturing?\n\n1. Capturing 5% of the global additive-manufacturing market\n2. Training 1 lakh workers\n3. Developing 50 India-specific technologies",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P26.F2"
+   ],
+   "explanation": "All three statements are correct targets of the National Strategy for Additive Manufacturing: 5% of the global market, training 1 lakh workers and developing 50 India-specific technologies. Therefore, the correct answer is 1, 2 and 3."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Material property",
+   "question": "Which one of the following statements about materials used in additive manufacturing is incorrect?",
+   "options": [
+    "ABS is among the materials used in additive manufacturing.",
+    "PVA is used for water-soluble supports.",
+    "PLA is among the materials used in additive manufacturing.",
+    "PVA is used for non-water-soluble supports."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P26.F9"
+   ],
+   "explanation": "The incorrect statement is that PVA is used for non-water-soluble supports. PVA is specifically identified as a material for water-soluble supports; ABS and PLA are also listed materials."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Market projection",
+   "question": "Assertion (A): The additive-manufacturing electronics market is projected to increase from USD 18 billion to USD 112 billion.\nReason (R): The global additive-manufacturing machines market is projected to reach USD 149 billion by 2035.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P26.F14"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the additive-manufacturing electronics market is projected to rise from USD 18 billion to USD 112 billion, while the global machines market is projected at USD 149 billion by 2035. However, the machines-market projection does not explain the specific electronics-market projection."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch initiated by",
+   "question": "Who initiated the launch of Space Zone India's Rumi-1 and Rumi-2 hybrid rockets near Mamallapuram in Tamil Nadu?",
+   "options": [
+    "R.V. Arlekar",
+    "Anand Megalingam",
+    "Mayilsamy Annadurai",
+    "Pawan Kumar Chandana"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P31.F2"
+   ],
+   "explanation": "The launch was initiated by Tamil Nadu Governor R.V. Arlekar. Anand Megalingam was the founder of Space Zone India, while Mayilsamy Annadurai provided guidance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Technical guidance",
+   "question": "Who provided guidance for Space Zone India's Rumi Twin Mission?",
+   "options": [
+    "R.V. Arlekar",
+    "Anand Megalingam",
+    "Mayilsamy Annadurai",
+    "Shravan Singh Bhati"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P31.F3"
+   ],
+   "explanation": "Mayilsamy Annadurai provided guidance for the Rumi Twin Mission. R.V. Arlekar initiated the launch, whereas Anand Megalingam was the founder of Space Zone India."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Orbit achievement and date",
+   "question": "When did Skyroot Aerospace's Vikram-1 reach orbit?",
+   "options": [
+    "2018",
+    "July 2026",
+    "2028",
+    "2029"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P32.F2"
+   ],
+   "explanation": "Skyroot Aerospace's Vikram-1 reached orbit in July 2026. The year 2018 refers to Skyroot's founding, while 2028 and 2029 relate to other space missions and plans."
+  }
+ ]
+}

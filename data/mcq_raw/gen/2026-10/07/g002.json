@@ -1,0 +1,105 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": [
+  "P10.F2",
+  "P11.F3",
+  "P12.F2",
+  "P7.F2",
+  "P8.F4",
+  "P9.F3",
+  "P9.F4"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Taxonomic family",
+   "question": "The newly identified plant species Didymocarpus nautiyalii belongs to which family?",
+   "options": [
+    "Gesneriaceae",
+    "Pacific Ring of Fire",
+    "Swiss Alps Jungfrau–Aletsch",
+    "Gulf of Kutch"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2"
+   ],
+   "explanation": "Didymocarpus nautiyalii belongs to the family Gesneriaceae. The other options refer to a volcanic zone, a UNESCO site and a geographical feature, respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Capacity and fuel type",
+   "question": "With reference to India's first port-based e-methanol plant at Deendayal Port, consider the following statements:\n\n1. Its capacity is 150 tonnes per day.\n2. It produces green marine fuel.\n3. E-methanol is made using renewable electricity, water and biogenic carbon dioxide.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "All three statements are correct: the plant has a capacity of 150 tonnes per day, produces green marine fuel, and uses renewable electricity, water and biogenic carbon dioxide to make e-methanol. Therefore, the correct option is 1, 2 and 3."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Event leadership",
+   "question": "Who led the event at Indira Dock and Grey Gate during which Jawahar Dweep was declared India's first plastic-free oil terminal?",
+   "options": [
+    "Sarbananda Sonowal",
+    "Dr M. Angamuthu",
+    "Assam Petro-Chemicals Ltd",
+    "Prof. Sunil Nautiyal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "The event was led by Ports Minister Sarbananda Sonowal. Dr M. Angamuthu was the Chair of the Mumbai Port Authority, while Assam Petro-Chemicals Ltd and Prof. Sunil Nautiyal were unrelated to this event."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Causes of glacier melting",
+   "question": "Regarding the causes of Aletsch Glacier's record melting in 2026, identify the incorrect statement.",
+   "options": [
+    "The causes included low winter snowfall.",
+    "The causes included record summer heatwaves.",
+    "The reported causes were low winter snowfall and record summer heatwaves.",
+    "The causes included high winter snowfall and record summer heatwaves."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F3"
+   ],
+   "explanation": "The incorrect statement is that high winter snowfall contributed to the melting. The reported causes were low winter snowfall and record summer heatwaves; the changed detail is “high” instead of “low” winter snowfall."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Capitals and currency",
+   "question": "Match List-I with List-II:\n\nList-I\n(a) Dehradun\n(b) Gairsain\n(c) Manila\n(d) Peso\n\nList-II\n(i) Capital of Uttarakhand\n(ii) Summer capital of Uttarakhand\n(iii) Capital of the Philippines\n(iv) Currency of the Philippines",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F4",
+    "P12.F2"
+   ],
+   "explanation": "The correct pairs are Dehradun—capital of Uttarakhand, Gairsain—summer capital of Uttarakhand, Manila—capital of the Philippines, and Peso—currency of the Philippines. Hence, a-i, b-ii, c-iii and d-iv is correct."
+  }
+ ]
+}

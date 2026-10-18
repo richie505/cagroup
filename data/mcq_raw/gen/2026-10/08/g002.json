@@ -1,0 +1,119 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": [
+  "P6.F10",
+  "P6.F11",
+  "P6.F8",
+  "P6.F9",
+  "P8.F2",
+  "P9.F3",
+  "P9.F4",
+  "P9.F5",
+  "P9.F6"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Report subtitle",
+   "question": "What was the subtitle of the report associated with the 28th session of the FAO Committee on Forestry?",
+   "options": [
+    "Restoring Forests and Landscapes – The Way Forward for a Sustainable Future",
+    "Forests for Food, Resilience and Prosperity",
+    "State of the World's Forests 2026",
+    "India Forward: Reimagining Growth"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F8"
+   ],
+   "explanation": "The report subtitle was “Restoring Forests and Landscapes – The Way Forward for a Sustainable Future.” “Forests for Food, Resilience and Prosperity” was the theme of the 10th World Forest Week, not the report subtitle."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Forest policy and NDC targets",
+   "question": "With reference to India's forest-cover policy and climate commitment, identify the incorrect statement.",
+   "options": [
+    "The National Forest Policy dates from 1988 and set a target of 33% under forest/tree cover.",
+    "The NDC includes an additional sink of 2.5–3 billion tonnes of CO2e by 2030.",
+    "The 1988 policy and the NDC respectively concern forest/tree cover and an additional carbon sink.",
+    "The NDC includes an additional sink of 2.5–3 billion tonnes of CO2e by 2031."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F10"
+   ],
+   "explanation": "The incorrect statement changes the NDC target year from 2030 to 2031. The stated NDC commitment is an additional sink of 2.5–3 billion tonnes of CO2e by 2030."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Institutional periodicity and establishment date",
+   "question": "Assertion (A): The FAO Committee on Forestry meets every two years.\nReason (R): The FAO was established on 16 October 1945.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F11"
+   ],
+   "explanation": "Both statements are true: the Committee on Forestry meets every two years, and the FAO was established on 16 October 1945. The establishment date does not explain the Committee's two-year meeting cycle."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Tier and score classification",
+   "question": "Match the categories related to the Data Centre Policy Attractiveness India Index with the correct descriptions.\n\nList-I\n(a) Second-tier states\n(b) Third-tier states\n(c) Score of the second tier\n(d) Score of the third tier\n\nList-II\n(i) 42–45\n(ii) 30–40\n(iii) Odisha, Haryana, Andhra Pradesh and Karnataka\n(iv) Rajasthan, Tamil Nadu and West Bengal",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii. The second tier comprises Odisha, Haryana, Andhra Pradesh and Karnataka with scores of 42–45, while the third tier comprises Rajasthan, Tamil Nadu and West Bengal with scores of 30–40."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Index parameters",
+   "question": "Consider the following statements:\nStatement A: The Data Centre Policy Attractiveness India Index considers power, land and capital among its parameters.\nStatement B: Regulatory environment and ease of doing business are also parameters of the index.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F5"
+   ],
+   "explanation": "Both statements are true. The index parameters include power, land, capital, operational or technical support, and regulatory environment or ease of doing business."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Capacity and demand projections",
+   "question": "With reference to India's data-centre sector, consider the following statements:\n1. Current data-centre capacity is approximately 1.5 GW.\n2. Capacity is projected to reach 26.3 GW by 2031–32.\n3. Data-centre power demand is projected to grow at a CAGR of 18% during 2025–35.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F6"
+   ],
+   "explanation": "Statements 1, 2 and 3 are all correct. The sector has approximately 1.5 GW of current capacity, a projected 26.3 GW by 2031–32, and an 18% power-demand CAGR during 2025–35."
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": [
+  "P10.F1",
+  "P11.F2",
+  "P12.F3",
+  "P15.F3",
+  "P15.F4",
+  "P7.F2",
+  "P7.F3",
+  "P8.F3",
+  "P9.F2",
+  "P9.F3",
+  "P9.F4"
+ ],
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Occasion and focus",
+   "question": "Statement-Based (A/B): In the context of India’s first national Women Farmers–Workers Conference, consider the following statements:\nStatement A: The conference was held on the occasion of the UN International Year of the Woman Farmer 2026.\nStatement B: It focused on recognising women as farmers rather than unpaid helpers, along with land rights and credit.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "Both statements are true. The conference was connected with the UN International Year of the Woman Farmer 2026 and focused on recognition of women as farmers, land rights and credit."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Altitude illnesses",
+   "question": "Which of the following is a group of altitude illnesses associated with the ICMR Centre for High Altitude Medicine and Public Health Research?",
+   "options": [
+    "AMS, HAPE and HACE",
+    "PWDVA, NCW and ERSS",
+    "BHOG, MICE and SMILE",
+    "NFSA, FCI and UGC"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3"
+   ],
+   "explanation": "AMS, HAPE and HACE are the altitude illnesses associated with the Centre’s area of research. The other options combine legal provisions, schemes, organisations or regulatory terms rather than altitude illnesses."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Army–FCI agreement",
+   "question": "Negative / Incorrect Statement: Which of the following statements about the Army–FCI agreement is incorrect?",
+   "options": [
+    "It provides for the use of FCI warehouses during emergency operations.",
+    "It provides for the use of FCI staff during emergency operations.",
+    "It provides for the use of FCI transport during emergency operations.",
+    "It provides for the use of FCI warehouses, staff and transport during routine operations."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F2"
+   ],
+   "explanation": "The incorrect statement is the one referring to routine operations. The agreement concerns the use of FCI warehouses, staff and transport during emergency operations."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "FCI and NFSA facts",
+   "question": "Count-Based: How many of the following statements are correct?\n1. FCI was established on 14 January 1965.\n2. FCI was established under the Food Corporations Act 1964.\n3. Bharat Rice for consumers was launched in February 2024.\n4. Under the NFSA 2013, coverage may extend up to 75% of the rural population and 50% of the urban population.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "All four statements are correct. FCI dates to 14 January 1965 under the Food Corporations Act 1964, Bharat Rice for consumers was launched in February 2024, and the NFSA 2013 provides the stated rural and urban coverage ceilings."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Certification validity",
+   "question": "The Eat Right Place of Worship certification granted to Shri Ram Janmabhoomi Teerth Kshetra, Ayodhya, is valid until which date?",
+   "options": [
+    "10 October 2028",
+    "12 October 2026",
+    "14 October 2026",
+    "22 January 2024"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "The certification is valid for 2 years, until 10 October 2028. The other dates relate to separate events or programmes and are not the certification’s validity date."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Guests and official",
+   "question": "Statement-Based (A/B): Consider the following statements about the Bhiksha Vritti Mukt Bharat programme in Delhi:\nStatement A: Dr Virendra Kumar was the Chief Guest.\nStatement B: Delhi Chief Minister Rekha Gupta was the Special Guest.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "Both statements are true. Dr Virendra Kumar attended as Chief Guest, while Delhi Chief Minister Rekha Gupta was the Special Guest."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "PWDVA scope",
+   "question": "Assertion-Reason:\nAssertion (A): The Protection of Women from Domestic Violence Act, 2005 covers physical, sexual, verbal, emotional and economic abuse.\nReason (R): These forms of abuse are included within the scope of the PWDVA 2005.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F3"
+   ],
+   "explanation": "Both A and R are true, and the Reason correctly explains the Assertion. The PWDVA 2005 covers physical, sexual, verbal, emotional and economic abuse."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "UGC regulatory framework",
+   "question": "List-Matching: Match List-I with List-II in the context of the regulatory framework for foreign higher-education institution campuses in India.\n\nList-I\n(a) UGC\n(b) UGC Act\n(c) UGC (Foreign HEI Campuses) Regulations\n(d) General benchmark for eligible universities\n\nList-II\n(i) 2023\n(ii) Statutory body\n(iii) 1956\n(iv) Top 500 global universities",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F3",
+    "P15.F4"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv. The UGC is a statutory body; the UGC Act dates to 1956; the Foreign HEI Campuses Regulations are from 2023; and the general benchmark is the top 500 global universities."
+  }
+ ]
+}

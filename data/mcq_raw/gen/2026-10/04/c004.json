@@ -1,0 +1,167 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  19,
+  20,
+  21,
+  22
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and dates",
+   "question": "The 3rd Sagarmanthan — The Great Oceans Dialogue 2026 was held at which place and on which dates?",
+   "options": [
+    "New Delhi, 7–9 October 2026",
+    "New Delhi, 3–5 October 2026",
+    "New Delhi, 10 October 2026",
+    "New Delhi, 15 June 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F1"
+   ],
+   "explanation": "The 3rd Sagarmanthan — The Great Oceans Dialogue 2026 was held in New Delhi from 7–9 October 2026. The dates 3–5 October 2026 relate to the Kautilya Economic Conclave, not Sagarmanthan."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of the 3rd Sagarmanthan — The Great Oceans Dialogue 2026?",
+   "options": [
+    "Blue Geographies, New Aspirations: Trade, Technology, and Trust at Sea",
+    "Resilience in an Age of Flux",
+    "Life Below Water",
+    "Trade, Technology, and Trust at Sea"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F3",
+    "P20.F2",
+    "P19.F4"
+   ],
+   "explanation": "The theme was “Blue Geographies, New Aspirations: Trade, Technology, and Trust at Sea.” “Resilience in an Age of Flux” was the theme of the Kautilya Economic Conclave, while “Life Below Water” is SDG 14."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Inaugurated by",
+   "question": "Who inaugurated the 5th Kautilya Economic Conclave on 3 October 2026?",
+   "options": [
+    "Vice President C.P. Radhakrishnan",
+    "Narendra Modi",
+    "The Ministry of Finance",
+    "The Institute of Economic Growth"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F1"
+   ],
+   "explanation": "Vice President C.P. Radhakrishnan inaugurated the 5th Kautilya Economic Conclave on 3 October 2026 in New Delhi. The Ministry of Finance and the Institute of Economic Growth were associated with organising the conclave, while Narendra Modi is mentioned in connection with the proposed airport name."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Use-of-Proceeds model",
+   "question": "With reference to NABKISAN Finance Ltd’s WASH Social Bond, which of the following statements is incorrect?",
+   "options": [
+    "It is India’s first WASH Social Bond listed on NSE.",
+    "NABKISAN Finance Ltd is a subsidiary of NABARD.",
+    "Its proceeds can be used only for eligible WASH projects.",
+    "Its proceeds can be used only for eligible green shipping projects."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P21.F1",
+    "P21.F2"
+   ],
+   "explanation": "The incorrect statement is that the proceeds can be used only for eligible green shipping projects. The Use-of-Proceeds model restricts the funds to eligible Water, Sanitation and Hygiene projects."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Airport renaming and operations",
+   "question": "Consider the following statements about the proposed Narendra Modi International Airport, Noida–Jewar:\n1. The proposed name was approved by the Uttar Pradesh Cabinet on 9 October 2026.\n2. The airport is located in Gautam Buddha Nagar.\n3. Commercial flights began from 15 June 2026.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P22.F1",
+    "P22.F3"
+   ],
+   "explanation": "All three statements are correct: the Uttar Pradesh Cabinet approved the proposed renaming on 9 October 2026, the airport is in Gautam Buddha Nagar, and commercial flights began from 15 June 2026. The final decision still requires Union Cabinet approval and a Gazette notification."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Organiser and institutional role",
+   "question": "Match List-I with List-II:\n\nList-I\n a. Sagarmanthan — The Great Oceans Dialogue\n b. Kautilya Economic Conclave\n c. WASH Social Bond\n d. International Maritime Organization\n\nList-II\n i. NABKISAN Finance Ltd\n ii. Ministry of Ports, Shipping and Waterways with ORF\n iii. Established in 1948 with headquarters in London\n iv. Institute of Economic Growth with Ministry of Finance",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F2",
+    "P19.F6",
+    "P20.F3",
+    "P21.F1"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. Sagarmanthan is organised by the Ministry of Ports, Shipping and Waterways with ORF; the Kautilya conclave is organised by IEG with the Ministry of Finance; NABKISAN issued the bond; and IMO was established in 1948 with headquarters in London."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Green Shipping Corridor",
+   "question": "Assertion (A): The India–EU Green Shipping Corridor industry coalition was launched to export Indian green ammonia and green methanol to Europe.\nReason (R): The initiative was based on a 2025 pre-feasibility study.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P19.F5"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. The coalition was launched for exporting Indian green ammonia and green methanol to Europe, and it was based on a 2025 pre-feasibility study; however, the study’s existence does not itself explain the stated export purpose."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Final approval and notification",
+   "question": "Consider the following statements:\nStatement A: The Uttar Pradesh Cabinet decided to rename the Noida–Jewar airport as Narendra Modi International Airport, Noida–Jewar.\nStatement B: The final decision requires Union Cabinet approval and a Gazette notification.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P22.F1",
+    "P22.F2"
+   ],
+   "explanation": "Both statements are true. The Uttar Pradesh Cabinet made the renaming decision on 9 October 2026, but the final decision requires approval by the Union Cabinet followed by a Gazette notification."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Institutional establishment dates",
+   "question": "How many of the following institutions or entities were established before 1950?\n1. Observer Research Foundation\n2. International Maritime Organization\n3. European Union\n4. Airports Authority of India",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F2",
+    "P19.F6",
+    "P19.F7",
+    "P22.F4"
+   ],
+   "explanation": "Only one entity was established before 1950: the International Maritime Organization, established in 1948. ORF was established in 1990, the European Union is associated with the Maastricht Treaty of 1993, and AAI was established in 1995."
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  12,
+  13
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Theme",
+   "question": "What was the theme of the BRICS Theatre Festival 2026 held at the National School of Drama?",
+   "options": [
+    "Shared Stories, Shared Futures",
+    "Bharat Rang Mahotsav",
+    "India’s BRICS Chairship 2026",
+    "National School of Drama"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F2"
+   ],
+   "explanation": "The theme of the BRICS Theatre Festival 2026 was “Shared Stories, Shared Futures.” Bharat Rang Mahotsav is organised by the National School of Drama, but it was not the theme of this festival."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Inauguration and venue",
+   "question": "Which of the following statements about the BRICS Theatre Festival 2026 is incorrect?",
+   "options": [
+    "It was inaugurated by Culture Minister Gajendra Singh Shekhawat.",
+    "It was held from 12–14 October 2026.",
+    "It featured 10 groups and 11 plays.",
+    "It was inaugurated at Bharat Rang Mahotsav."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The incorrect statement is that the festival was inaugurated at Bharat Rang Mahotsav. It was inaugurated at the National School of Drama by Culture Minister Gajendra Singh Shekhawat on 12 October 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Builder and date",
+   "question": "Who built the Hidimba Devi Temple at Dhungri in Manali, and in which year?",
+   "options": [
+    "Kullu ruler Bahadur Singh in 1553",
+    "Bhima in 1553",
+    "Ghatotkacha in 1971",
+    "Gajendra Singh Shekhawat in 2014"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "The Hidimba Devi Temple was built in 1553 by Kullu ruler Bahadur Singh. Bhima and Ghatotkacha are associated with Hidimba in the epic tradition, but they were not the temple’s builder."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Temple association and local event",
+   "question": "Consider the following statements about Himachal Pradesh:\n\n1. Hidimba was the wife of Bhima.\n2. Ghatotkacha was the son of Hidimba.\n3. Kullu Dussehra is held at Dhalpur Maidan.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "All three statements are correct: Hidimba was Bhima’s wife, Ghatotkacha was her son, and Kullu Dussehra is held at Dhalpur Maidan. Therefore, the correct choice is 1, 2 and 3."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Project cost components",
+   "question": "Match the components of the Omkareshwara Swamy Temple project with their amounts.\n\nList-I\n a. Temple\n b. Infrastructure\n c. Road\n d. Total project\n\nList-II\n i. ₹1,108.27 crore\n ii. ₹598.98 crore\n iii. ₹349.67 crore\n iv. ₹159.62 crore\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F2"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i: the temple component is ₹598.98 crore, infrastructure is ₹349.67 crore, the road is ₹159.62 crore, and the total is ₹1,108.27 crore. The other codes interchange these project components and amounts."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "River geography and project context",
+   "question": "With reference to the Musi River and the Omkareshwara Swamy Temple project, consider the following:\n\nAssertion (A): The Omkareshwara Swamy Temple project is part of the Musi River rejuvenation initiative.\nReason (R): The Musi is a tributary of the Krishna.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F4"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the temple project is part of Musi River rejuvenation, and the Musi is a tributary of the Krishna. However, the tributary relationship does not explain why the temple project is part of the rejuvenation initiative."
+  }
+ ]
+}

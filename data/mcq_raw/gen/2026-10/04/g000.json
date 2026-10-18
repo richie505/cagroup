@@ -1,0 +1,84 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": [
+  "P0.F3",
+  "P0.F8",
+  "P2.F3",
+  "P2.F5",
+  "P2.F8",
+  "P3.F7"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First rate hike since",
+   "question": "The Reserve Bank of India’s repo-rate decision of 7 October 2026 marked the first hike since which month and year?",
+   "options": [
+    "February 2022",
+    "February 2023",
+    "February 2025",
+    "October 2026"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "The 7 October 2026 decision was the first repo-rate hike since February 2023. February 2025 is incorrect because the fact specifies that the hike followed cuts in 2025."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Inflation target and authority",
+   "question": "Which of the following statements regarding India’s inflation target is incorrect?",
+   "options": [
+    "The CPI inflation target is 4% with a tolerance of 2% on either side.",
+    "The target is set by the Centre in consultation with the RBI.",
+    "The target framework is expressed around 4% CPI inflation with a 2% tolerance band.",
+    "The CPI inflation target is 4% with a tolerance of 3% on either side."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "The incorrect statement changes the tolerance band from 2% to 3%. India’s CPI inflation target is 4% with a tolerance of 2% on either side, set by the Centre in consultation with the RBI."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GST reform for e-commerce",
+   "question": "Which recommendation of the 57th GST Council meeting specifically concerned small e-commerce sellers?",
+   "options": [
+    "Simpler registration for small e-commerce sellers",
+    "Simpler registration for large e-commerce platforms",
+    "Simpler registration for small manufacturing units",
+    "Simpler registration for export-oriented sellers"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The recommendation was to provide simpler registration for small e-commerce sellers. The alternatives change the category of businesses covered and therefore do not match the recommendation."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Type of GDP estimates",
+   "question": "With reference to the National Accounts Statistics 2026, consider the following statements:\nStatement A: Final estimates were provided for 2022–23 and 2023–24.\nStatement B: The estimate for 2024–25 was the first revised estimate.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Both statements are true: the estimates for 2022–23 and 2023–24 were final estimates, while 2024–25 received its first revised estimate. Hence, the options treating either statement as false are incorrect."
+  }
+ ]
+}

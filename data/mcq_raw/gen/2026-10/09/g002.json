@@ -1,0 +1,122 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22
+ ],
+ "only": [
+  "P15.F2",
+  "P16.F2",
+  "P18.F4",
+  "P19.F1",
+  "P19.F2",
+  "P19.F3",
+  "P20.F2",
+  "P20.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Appointment/designation",
+   "question": "Sachin Tendulkar is associated with UNICEF in which capacity?",
+   "options": [
+    "UNICEF South Asia Regional Ambassador",
+    "UNICEF India Celebrity Advocate",
+    "Principal Director General of the Press Information Bureau",
+    "Chairman of the Telangana State Endowments Tribunal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2"
+   ],
+   "explanation": "Sachin Tendulkar is the UNICEF South Asia Regional Ambassador. UNICEF India Celebrity Advocate refers to Smriti Mandhana, while the other two designations belong to different appointments."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Establishment year of organisation",
+   "question": "In which year was the Press Information Bureau established?",
+   "options": [
+    "1919",
+    "1934",
+    "1972",
+    "2016"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F2"
+   ],
+   "explanation": "The Press Information Bureau was established in 1919 and is headquartered in New Delhi under the Ministry of Information and Broadcasting. The other years relate to Jayaprakash Narayan's CSP, the establishment of ICHR, and Margaret Hamilton's Presidential Medal of Freedom, respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Work and institutional history",
+   "question": "Which of the following statements about M.G.S. Narayanan and the Indian Council of Historical Research is incorrect?",
+   "options": [
+    "M.G.S. Narayanan wrote Perumals of Kerala.",
+    "The Indian Council of Historical Research was established in 1972.",
+    "Perumals of Kerala is associated with M.G.S. Narayanan.",
+    "The Indian Council of Historical Research was established in 1974."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P18.F4"
+   ],
+   "explanation": "The incorrect statement is that the Indian Council of Historical Research was established in 1974; its establishment year was 1972. The other statements correctly connect M.G.S. Narayanan with Perumals of Kerala."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Place, age and inspiration",
+   "question": "With reference to freedom fighter and socialist P. Vasu, consider the following statements:\n\n1. P. Vasu died on 8 October 2026 at Cheruvannur, Kozhikode, aged 103.\n2. He was inspired by Mahatma Gandhi's speech in Kozhikode in 1934.\n3. His party membership came from Mahatma Gandhi.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: P. Vasu died at Cheruvannur, Kozhikode, aged 103, and was inspired by Gandhi's 1934 speech there. Statement 3 is incorrect because his party membership came from Jayaprakash Narayan."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Jayaprakash Narayan: events and years",
+   "question": "Match List-I with List-II in relation to Jayaprakash Narayan:\n\nList-I\n a. Congress Socialist Party\n b. Total Revolution\n c. Bharat Ratna\n d. Inclusion of “Socialist” in the Preamble\n\nList-II\n i. 1976\n ii. 1999\n iii. 1934\n iv. 1974\n\nSelect the correct code.",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F3"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i: the Congress Socialist Party dates to 1934, Total Revolution to 1974, Bharat Ratna to 1999, and the inclusion of “Socialist” in the Preamble to 1976. The tempting alternative swaps the years of the Congress Socialist Party and Total Revolution."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Award and year",
+   "question": "Assertion (A): Margaret Hamilton received the Presidential Medal of Freedom in 2016.\nReason (R): The recognition is associated with Obama.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F2"
+   ],
+   "explanation": "Both the assertion and reason are true: Margaret Hamilton received the Presidential Medal of Freedom in 2016, and the award is associated with Obama. The reference to Obama identifies the presidential association of the award and explains the recognition."
+  }
+ ]
+}
