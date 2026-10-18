@@ -1,0 +1,48 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  36,
+  38
+ ],
+ "only": [
+  "P36.F1",
+  "P36.F2",
+  "P38.F1",
+  "P38.F2",
+  "P38.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue and dates",
+   "question": "The 3rd World AI Summit 2026 was held on which dates and at which city, in collaboration with Karnataka's Department of Electronics, IT, BT and S&T?",
+   "options": [
+    "14–15 October 2026, Bengaluru",
+    "17–18 March 2027, Mumbai",
+    "14–15 October 2026, Mumbai",
+    "17–18 March 2027, Bengaluru"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P36.F1"
+   ],
+   "explanation": "The 3rd World AI Summit 2026 was held on 14–15 October 2026 in Bengaluru, with Karnataka's Department of Electronics, IT, BT and S&T. The tempting alternative of 17–18 March 2027 in Mumbai refers to Cybertech Asia 2027."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First in India and venue",
+   "question": "Cybertech Asia 2027, described as the first such event in India, is scheduled to be held where?",
+   "options": [
+    "Jio World Convention Centre, BKC, Mumbai",
+    "Bengaluru, with Karnataka's Department of Electronics, IT, BT and S&T",
+    "Jio World Convention Centre, BKC, Bengaluru",
+    "Mumbai, with Karnataka's Department of Electronics, IT, BT and S&T"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P38.F1"
+   ],
+   "explanation": "Cybertech Asia 2027 is scheduled for the Jio World Convention Centre, BKC, Mumbai, on 17–18 March 2027. Bengaluru is associated with the 3rd World AI Summit 2026, while the venue is specifically in Mumbai."
+  }
+ ]
+}

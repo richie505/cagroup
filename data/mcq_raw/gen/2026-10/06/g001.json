@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  7
+ ],
+ "only": [
+  "P5.F1",
+  "P5.F2",
+  "P5.F3",
+  "P7.F1",
+  "P7.F2",
+  "P7.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Export destination",
+   "question": "The Akash air defence system was exported to which two countries by 1 October 2026?",
+   "options": [
+    "Tajikistan and Turkmenistan",
+    "Tajikistan and Armenia",
+    "Armenia and Turkmenistan",
+    "Armenia and India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "Akash was exported to Tajikistan and Turkmenistan by 1 October 2026. Armenia is a tempting trap because it was the first foreign user of Akash, but it is not one of the two countries named for this export."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "WHO prequalification",
+   "question": "Which Indian vaccine received WHO prequalification in October 2026?",
+   "options": [
+    "CERVAVAC",
+    "Akash",
+    "Serum Institute of India",
+    "WHO 90–70–90"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "CERVAVAC received WHO prequalification; it is India’s first indigenous quadrivalent HPV vaccine. Serum Institute of India is the manufacturer, while WHO 90–70–90 is a global cervical-cancer elimination strategy rather than the vaccine’s name."
+  }
+ ]
+}

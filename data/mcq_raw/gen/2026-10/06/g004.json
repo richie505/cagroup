@@ -1,0 +1,49 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  28,
+  30
+ ],
+ "only": [
+  "P28.F1",
+  "P28.F2",
+  "P30.F1",
+  "P30.F2",
+  "P30.F3",
+  "P30.F4"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Quantum communication demonstration",
+   "question": "Which institution transmitted conventional data with entangled photons through the same 50-km optical fibre?",
+   "options": [
+    "IIT Delhi",
+    "RIDE! Space",
+    "SpaceX",
+    "Department of Physics"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F1"
+   ],
+   "explanation": "IIT Delhi transmitted conventional data with entangled photons through the same 50-km optical fibre. SpaceX and RIDE! Space are associated with the TakeMe2Space launch arrangement, while the Department of Physics was the department led by Prof Bhaskar Kanseri."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First orbital data centre mission",
+   "question": "Which Indian spacetech company announced India’s first networked orbital data centre mission by the end of 2028?",
+   "options": [
+    "TakeMe2Space",
+    "SpaceX",
+    "RIDE! Space",
+    "IIT Delhi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P30.F1"
+   ],
+   "explanation": "Indian spacetech company TakeMe2Space announced India’s first networked orbital data centre mission by the end of 2028. SpaceX is the Falcon 9 launch provider and RIDE! Space is the French firm involved in the launch-services pact, not the company announcing the mission."
+  }
+ ]
+}

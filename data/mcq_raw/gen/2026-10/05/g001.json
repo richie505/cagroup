@@ -1,0 +1,50 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  11,
+  14
+ ],
+ "only": [
+  "P11.F1",
+  "P11.F2",
+  "P11.F3",
+  "P11.F4",
+  "P14.F1",
+  "P14.F2",
+  "P14.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place captured",
+   "question": "Which place in Yemen was captured by the Houthis (Ansar Allah) in October 2026?",
+   "options": [
+    "Turbah",
+    "Mocha port",
+    "Dhubab",
+    "Bab el-Mandeb"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The Houthis, also known as Ansar Allah, captured Turbah in Yemen. Mocha port and areas near Bab el-Mandeb had been captured earlier, while Dhubab was recaptured by the government operation “Dawn of Yemen.”"
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Legislative measure",
+   "question": "What measure was approved by the Algerian Parliament in relation to deliberately setting destructive forest fires?",
+   "options": [
+    "The death penalty",
+    "A de facto moratorium on executions",
+    "The use of the Algerian Dinar as a penalty",
+    "Recognition of Tamazight as an official language"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "The Algerian Parliament approved a bill providing for the death penalty for deliberately setting destructive forest fires. The de facto moratorium on executions since 1993 is a separate fact, while the Algerian Dinar and Tamazight concern Algeria’s currency and language, respectively."
+  }
+ ]
+}
