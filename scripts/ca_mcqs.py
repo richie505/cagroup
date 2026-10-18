@@ -611,12 +611,16 @@ def write_report(per, log, total, covered, nfacts):
     from collections import Counter
     reasons = Counter(r.split(" — ")[0].split(":")[0] + (":" + r.split(":")[1].split("—")[0].strip() if r.startswith("verify") else "")
                       for _, r in log)
-    pos = Counter()
+    pos, fpos = Counter(), Counter()
     for folder, nn, *_ in per:
         for q in json.loads((MCQS / folder / f"{nn}.json").read_text())["mcqs"]:
             pos["ABCD"[q["answer"]]] += 1
+            fpos[(q["format"], "ABCD"[q["answer"]])] += 1
     lines = [f"# CA MCQ report", "", f"- MCQs kept: **{total}**", f"- Facts tested: **{covered} / {nfacts}** ({covered / max(1, nfacts):.1%})",
-             f"- Answer positions: " + ", ".join(f"{k} {pos[k]}" for k in "ABCD"), "", "## Dropped items by reason", "",
+             f"- Answer positions: " + ", ".join(f"{k} {pos[k]}" for k in "ABCD"), "",
+             "| Format | A | B | C | D |", "|---|---|---|---|---|"] + [
+             f"| {f} | " + " | ".join(str(fpos[(f, k)]) for k in "ABCD") + " |" for f in FORMATS] + [
+             "", "## Dropped items by reason", "",
              "| Reason | Items |", "|---|---|"] + [f"| {r} | {n} |" for r, n in reasons.most_common()] + [
              "", "## Per file", "", "| File | Category | MCQs | Facts tested |", "|---|---|---|---|"] + [
              f"| {f}/{n} | {t} | {q} | {c}/{a} |" for f, n, t, q, c, a in per] + [
