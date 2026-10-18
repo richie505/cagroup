@@ -1,0 +1,42 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Allocation of e-buses",
+   "question": "How many fully air-conditioned electric buses were allocated to Andhra Pradesh under PM-eBus Sewa?",
+   "options": [
+    "750",
+    "589",
+    "367",
+    "3.5 lakh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Andhra Pradesh was allocated 750 fully air-conditioned electric buses under PM-eBus Sewa. The figure 589 relates to the amount released under AMRUT and AMRUT 2.0, not to the e-bus allocation."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Scheme objective and implementation model",
+   "question": "With reference to PM-eBus Sewa, consider the following statements:\nStatement A: PM-eBus Sewa promotes green mobility in Tier-2 and Tier-3 cities through a non-PPP model.\nStatement B: Andhra Pradesh received an allocation of 750 fully air-conditioned electric buses under the scheme.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "Statement A is false because PM-eBus Sewa promotes green mobility in Tier-2 and Tier-3 cities through PPP. Statement B is true: Andhra Pradesh was allocated 750 fully air-conditioned electric buses under the scheme."
+  }
+ ]
+}

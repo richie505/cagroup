@@ -1,33 +1,33 @@
 # CA MCQ report
 
-- MCQs kept: **3583**
-- News pages with at least one question: **2451 / 2629**
-- Facts tested: **7553 / 20515** (36.8%)
-- Answer positions: A 935, B 920, C 955, D 773
+- MCQs kept: **3640**
+- News pages with at least one question: **2492 / 2629**
+- Facts tested: **7673 / 20515** (37.4%)
+- Answer positions: A 952, B 931, C 970, D 787
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 364 | 381 | 373 | 312 |
-| Negative / Incorrect Statement | 102 | 104 | 108 | 109 |
-| Assertion-Reason | 108 | 111 | 141 | 116 |
-| Statement-Based (A/B) | 137 | 82 | 120 | 101 |
-| Multi-Statement Correctness | 146 | 119 | 122 | 113 |
+| Direct Recall | 368 | 388 | 379 | 320 |
+| Negative / Incorrect Statement | 102 | 105 | 111 | 110 |
+| Assertion-Reason | 114 | 111 | 144 | 116 |
+| Statement-Based (A/B) | 139 | 83 | 122 | 104 |
+| Multi-Statement Correctness | 148 | 120 | 123 | 114 |
 | Chronological Ordering | 2 | 0 | 0 | 0 |
-| List-Matching | 30 | 26 | 28 | 20 |
-| Count-Based | 46 | 97 | 63 | 2 |
+| List-Matching | 30 | 26 | 28 | 21 |
+| Count-Based | 49 | 98 | 63 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 357 |
-| verify:explanation_contradicts | 51 |
-| verify:not_in_facts | 45 |
+| code | 362 |
+| verify:explanation_contradicts | 52 |
+| verify:not_in_facts | 47 |
 | over the page's quota | 23 |
+| duplicate | 15 |
 | verify:none_correct | 14 |
-| duplicate | 14 |
 | verify:two_correct | 8 |
-| verify:second reader picked option 2, key 1 | 7 |
+| verify:second reader picked option 2, key 1 | 8 |
 | verify:garbled | 3 |
 | verify:second reader picked option 1, key 0 | 2 |
 | verify:ambiguous_stem | 2 |
@@ -212,17 +212,17 @@
 | 2025-06/09 | Awards, Persons & Appointments | 0 | 0/0 |
 | 2025-06/10 | Sports | 0 | 0/0 |
 | 2025-06/11 | Important Days & Events | 1 | 3/3 |
-| 2025-05/01 | Andhra Pradesh | 0 | 0/155 |
-| 2025-05/02 | Polity & Governance | 0 | 0/7 |
-| 2025-05/03 | Schemes & Social Sector | 0 | 0/9 |
-| 2025-05/04 | Economy, Banking & Budget | 0 | 0/7 |
-| 2025-05/05 | International Relations | 0 | 0/11 |
-| 2025-05/06 | Science, Tech, Space & Defence | 0 | 0/9 |
-| 2025-05/07 | Environment & Geography | 0 | 0/36 |
-| 2025-05/08 | Reports, Indices & Rankings | 0 | 0/22 |
-| 2025-05/09 | Awards, Persons & Appointments | 0 | 0/27 |
-| 2025-05/10 | Sports | 0 | 0/5 |
-| 2025-05/11 | Important Days & Events | 0 | 0/14 |
+| 2025-05/01 | Andhra Pradesh | 28 | 55/155 |
+| 2025-05/02 | Polity & Governance | 2 | 3/7 |
+| 2025-05/03 | Schemes & Social Sector | 1 | 3/9 |
+| 2025-05/04 | Economy, Banking & Budget | 1 | 2/7 |
+| 2025-05/05 | International Relations | 3 | 7/11 |
+| 2025-05/06 | Science, Tech, Space & Defence | 1 | 1/9 |
+| 2025-05/07 | Environment & Geography | 8 | 18/36 |
+| 2025-05/08 | Reports, Indices & Rankings | 4 | 12/22 |
+| 2025-05/09 | Awards, Persons & Appointments | 6 | 15/27 |
+| 2025-05/10 | Sports | 1 | 1/5 |
+| 2025-05/11 | Important Days & Events | 2 | 3/14 |
 | 2025-04/01 | Andhra Pradesh | 0 | 0/152 |
 | 2025-04/02 | Polity & Governance | 0 | 0/9 |
 | 2025-04/03 | Schemes & Social Sector | 0 | 0/36 |
@@ -652,3 +652,15 @@
 - `2025-06/04/c000#6` verify: explanation_contradicts — Statements 1, 2, and 3 are correct, so the count is three rather than two.
   - Q: With reference to the Production-Linked Incentive schemes, how many of the following statements are correct? / 1. Pharma exports in FY25 under the scheme amounted to ₹0.67 lakh crore. / 2. India became a 
   - Key: Only two
+- `2025-05/01/c000#5` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements about the Andhra Pradesh MSME park initiative are correct? / 1. Eleven MSME parks were inaugurated at a cost of ₹216 crore. / 2. The Flatted Factory Complex is located
+  - Key: Only two
+- `2025-05/01/c003#6` verify: explanation_contradicts — The red range of 45°C and above includes 45–50°C, so three combinations are correct, not two.
+  - Q: How many of the following colour-level-temperature combinations of the APSDMA Smart Heat Alert Card are correct? / 1. Blue — Safe — below 35°C / 2. Yellow — Be Alert — 35–40°C / 3. Orange — Extreme Danger —
+  - Key: Only two
+- `2025-05/01/c004#4` verify: not_in_facts — The facts do not state whether establishing a new Chennai–Bangalore Industrial Corridor was recommended.
+  - Q: With reference to the CAG delegation’s visit to Tirupati Urban Development Authority (TUDA) on 28 May 2025, consider the following statements: / 1. The delegation recommended completing the digitisation
+  - Key: 1 and 2 only
+- `2025-05/11/c000#2` verify: not_in_facts — The facts identify B. Revanth and his school but do not establish that he was among the students associated with the championship.
+  - Q: Consider the following statements: / Statement A: The AP students were felicitated on 6 May 2025 by B. Srinivasa Rao, State Project Director, Samagra Shiksha AP. / Statement B: B. Revanth, a Class 4 stude
+  - Key: Both Statement A and Statement B are true

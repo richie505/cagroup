@@ -1,0 +1,128 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Module expansion",
+   "question": "What does MLCC, the module launched by MEPMA for urban SHG loans, stand for?",
+   "options": [
+    "MEPMA Loan Charge Creation",
+    "Mission Loan Credit Channel",
+    "Municipal Livelihood Credit Card",
+    "MEPMA Livelihood Connectivity Centre"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "MLCC stands for MEPMA Loan Charge Creation. It is the module introduced by MEPMA for urban SHG loan processing, while the other expansions are incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Statue and venue",
+   "question": "At which place was tentative approval given for a 58-ft statue of Amarajeevi Potti Sriramulu?",
+   "options": [
+    "Amaravati",
+    "Nellore",
+    "Ongole",
+    "Tadepalli"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "The tentative approval was given for a 58-ft statue of Potti Sriramulu at Amaravati. Nellore was associated with the announcement and the proposed naming of a new market, not the statue site."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Potti Sriramulu and Andhra State",
+   "question": "With reference to the proposed statue of Potti Sriramulu in Amaravati, identify the incorrect statement.",
+   "options": [
+    "The proposed statue will be 58 ft tall.",
+    "The statue is connected with Potti Sriramulu's 125th birth anniversary.",
+    "Potti Sriramulu fasted unto death for a separate Andhra State.",
+    "Andhra State was formed in 1956 after Potti Sriramulu's death."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F3"
+   ],
+   "explanation": "The incorrect statement changes the year of Andhra State's formation: it was formed in 1953, not 1956. The other statements correctly describe the proposed 58-ft statue, its connection with his 125th birth anniversary, and his fast for a separate Andhra State."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Death anniversary and venue",
+   "question": "The 68th death anniversary of Tanguturi Prakasam Pantulu was observed by which administration at Ongole?",
+   "options": [
+    "Prakasam district administration",
+    "Nellore district administration",
+    "Andhra Pradesh State Legislative Secretariat",
+    "APSDMA administration"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "The event was conducted by the Prakasam district administration at Ongole. Nellore district administration and the other organisations were not identified as organisers of this observance."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First Chief Minister distinction",
+   "question": "Consider the following statements:\nStatement A: Tanguturi Prakasam was the first Chief Minister of Andhra State in 1953.\nStatement B: He was not the first Chief Minister of Andhra Pradesh, which was formed in 1956.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F6"
+   ],
+   "explanation": "Both statements are true. Prakasam was the first Chief Minister of Andhra State in 1953, whereas Andhra Pradesh was formed in 1956; therefore, describing him as the first Chief Minister of Andhra Pradesh is incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launched by",
+   "question": "Who launched the APSDMA Smart Heat Alert Card on 17 May at the APSDMA office in Tadepalli?",
+   "options": [
+    "G. Jayalakshmi",
+    "N. Tej Bharat",
+    "Ponguru Narayana",
+    "Tanguturi Prakasam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1"
+   ],
+   "explanation": "G. Jayalakshmi, Special Chief Secretary, Revenue and Disaster Management, launched the Smart Heat Alert Card. N. Tej Bharat was associated with MEPMA, while Ponguru Narayana and Tanguturi Prakasam were associated with other Andhra Pradesh-related facts."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Heat-alert colour levels",
+   "question": "How many of the following colour-level-temperature combinations of the APSDMA Smart Heat Alert Card are correct?\n1. Blue — Safe — below 35°C\n2. Yellow — Be Alert — 35–40°C\n3. Orange — Extreme Danger — 41–44°C\n4. Red — Extreme Danger — 45–50°C",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F3",
+    "P15.F4",
+    "P15.F5",
+    "P15.F6"
+   ],
+   "explanation": "Only two combinations are correct: Blue corresponds to Safe and below 35°C, while Yellow corresponds to Be Alert and 35–40°C. Orange is Be Prepared at 41–44°C, and Red means Extreme Danger at 45°C and above, not 45–50°C."
+  }
+ ]
+}

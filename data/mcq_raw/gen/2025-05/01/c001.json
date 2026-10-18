@@ -1,0 +1,134 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Location and area",
+   "question": "The Bharat Sindoor MSME Park in Nellore is being established at which location and over what area?",
+   "options": [
+    "Amancherla village, Nellore Rural constituency — 60 acres",
+    "Atmakur Bus Stand Centre — 60 acres",
+    "Amancherla village, Nellore Rural constituency — 100 acres",
+    "Araku Valley — 60 acres"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "The Bharat Sindoor MSME Park is being established at Amancherla village in the Nellore Rural constituency over 60 acres. Atmakur Bus Stand Centre and Araku Valley are associated with other initiatives, while 100 acres is not the stated area."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Aim and name significance",
+   "question": "Which of the following statements about the Bharat Sindoor MSME Park is incorrect?",
+   "options": [
+    "It aims to promote rural industrialisation and create jobs for rural youth.",
+    "Its name honours Indian womanhood, national pride and soldiers after Operation Sindoor.",
+    "MSMEs are the second-largest employer after agriculture, engaging over 11 crore people.",
+    "Its name honours Indian womanhood, national pride and soldiers after Operation Vijay."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "The incorrect statement replaces Operation Sindoor with Operation Vijay. The park’s name honours Indian womanhood, national pride and soldiers after Operation Sindoor; its aim is rural industrialisation and jobs for rural youth."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Programme objective and eligibility",
+   "question": "The Andhra Pradesh government and UNICEF MoU introduced youth programmes including Youth for Social Impact and Passport to Earning. Consider the following statements:\nStatement A: Youth for Social Impact uses UNICEF’s UPSHIFT framework for over 2 lakh polytechnic, degree and engineering students, aiming to develop job creators.\nStatement B: Passport to Earning provides free digital and professional training to youth aged 18–25.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F5"
+   ],
+   "explanation": "Statement A is true because Youth for Social Impact uses UNICEF’s UPSHIFT framework for over 2 lakh students and aims to create job creators. Statement B is false because Passport to Earning is meant for youth aged 15–29."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scale and beneficiaries",
+   "question": "Under the Trupti Canteens initiative, what scale of operation and monthly earning opportunity has been announced for SHG women?",
+   "options": [
+    "About 3,000 SHG women running 700 canteens, with about ₹30,000 monthly earnings each",
+    "About 700 SHG women running 3,000 canteens, with about ₹30,000 monthly earnings each",
+    "About 3,000 SHG women running 700 canteens, with about ₹60,000 monthly earnings each",
+    "About 3,000 SHG women running 700 canteens, with about ₹15,000 monthly earnings each"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3"
+   ],
+   "explanation": "The initiative is planned to involve about 3,000 SHG women across 700 canteens, with each woman earning about ₹30,000 per month. The alternatives interchange the figures or alter the stated monthly earning."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Coverage and expansion",
+   "question": "The Annadanam programme is being extended to all 23 major temples in Andhra Pradesh.\n\nAssertion (A): The extension covers all 23 major temples.\nReason (R): Sixteen more temples are being added to the seven temples where Annadanam is already available.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. Annadanam is already available in 7 temples, and the addition of 16 more brings coverage to all 23 major temples, so the Reason correctly explains the Assertion."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Endowments measures and numbers",
+   "question": "With reference to the endowments measures associated with the Annadanam extension, consider the following statements:\n1. Direct recruitment covers 137 posts.\n2. There are 200 posts for Vedic staff.\n3. Master plans in Phase 1 cover 24 temples as per Agama Shastra.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5",
+    "P6.F6",
+    "P6.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: direct recruitment covers 137 posts and 200 posts are provided for Vedic staff. Statement 3 is incorrect because Phase 1 master plans cover 23 temples, not 24."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Homestay locations and deadline",
+   "question": "How many of the following statements about the sustainable tourism homestay initiative are correct?\n1. Vantamuru, Magada, Kuridi and Tajangi are identified tribal homestay locations in Araku Valley.\n2. Pasarlapudi, Malkipuram and Turupupalem are heritage homestay locations near Dindi in Konaseema.\n3. Kurnool is included among the identified urban homestay locations.\n4. The upgradation deadline for the homestays is September 2025.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3",
+    "P7.F4",
+    "P7.F5"
+   ],
+   "explanation": "Exactly two statements are correct: the listed Araku Valley locations are tribal homestay sites, and the listed Konaseema locations are heritage sites near Dindi. The identified urban locations include Tirupati, Visakhapatnam and Vijayawada, and the upgradation deadline is August 2025, not September 2025."
+  }
+ ]
+}
