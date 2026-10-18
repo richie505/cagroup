@@ -1,0 +1,162 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Fiscal deficit amount",
+   "question": "What was India's actual fiscal deficit in 2025–26?",
+   "options": [
+    "₹15.19 lakh crore",
+    "₹15.58 lakh crore",
+    "₹33.02 lakh crore",
+    "₹49.05 lakh crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "The actual fiscal deficit in 2025–26 was ₹15.19 lakh crore, equivalent to 97.5% of the revised estimate of ₹15.58 lakh crore. ₹15.58 lakh crore was the revised estimate, not the actual deficit."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UPI transaction volume",
+   "question": "How many transactions did UPI process in May 2026, according to the record monthly performance?",
+   "options": [
+    "2,320 crore",
+    "2,235 crore",
+    "₹29.90 lakh crore",
+    "₹29.03 lakh crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F6"
+   ],
+   "explanation": "UPI recorded 2,320 crore transactions in May 2026. The figure of 2,235 crore refers to April 2026, while ₹29.90 lakh crore was the May transaction value."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Fiscal and monetary indicators",
+   "question": "Consider the following statements about the fiscal and monetary indicators reported for June 2026:\n1. The fiscal deficit in 2025–26 was 95.7% of the revised estimate.\n2. The RBI kept the repo rate unchanged at 5.25% for the third consecutive pause.\n3. UPI processed 2,320 crore transactions in April 2026.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F3",
+    "P9.F6"
+   ],
+   "explanation": "Only statement 2 is correct: the repo rate remained unchanged at 5.25% for the third consecutive pause. The fiscal deficit was 97.5% of the revised estimate, and 2,320 crore UPI transactions were recorded in May 2026, not April 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GDP growth",
+   "question": "What was India's GDP growth in FY 2025–26 according to the official data?",
+   "options": [
+    "7.7%",
+    "7.1%",
+    "7.9%",
+    "9.9%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "India's GDP growth in FY 2025–26 was 7.7%. The 7.1% figure relates to FY 2024–25, while 7.9% was the GVA growth rate."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "SBI Ecowrap estimates",
+   "question": "Assertion (A): SBI Ecowrap reported GDP growth of 7.1% for FY 2025–26.\nReason (R): SBI Ecowrap reported Q4 GVA growth of 7.9% and Core GVA growth of 9.7%.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F5"
+   ],
+   "explanation": "The correct answer is that A is false, but R is true. SBI Ecowrap reported FY26 GDP growth of 7.7%, whereas its Q4 figures were 7.9% for GVA and 9.7% for Core GVA."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fund amount and objective",
+   "question": "What amount did the Union Cabinet approve for the Aviation Turbine Fuel Price Stabilisation Fund?",
+   "options": [
+    "₹10,000 crore",
+    "₹898 crore",
+    "USD 42.2 million",
+    "USD 1.5 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The Union Cabinet approved an ATF Price Stabilisation Fund of ₹10,000 crore. The fund is intended to shield airlines from rises in global fuel prices; ₹898 crore relates to leather, footwear and accessories clusters."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Approved States and ministry",
+   "question": "In which group of States were the Mega Leather, Footwear and Accessories Clusters approved?",
+   "options": [
+    "Bihar, Madhya Pradesh, Maharashtra and Tamil Nadu",
+    "Assam, Manipur, Meghalaya and Mizoram",
+    "Bihar, Assam, Maharashtra and Tamil Nadu",
+    "Madhya Pradesh, Nagaland, Tripura and Tamil Nadu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "The clusters were approved in Bihar, Madhya Pradesh, Maharashtra and Tamil Nadu, with an outlay of ₹898 crore. The other options replace one or more of these States with States associated with the bamboo industry project."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "ADB bamboo loan",
+   "question": "Match List-I with List-II in the context of the ADB-supported bamboo industry project.\n\nList-I\n a. Loan amount\n b. Number of North-Eastern States\n c. ADB headquarters\n d. ADB President\n\nList-II\n i. Manila\n ii. USD 42.2 million\n iii. Masato Kanda\n iv. 6",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii: the loan was USD 42.2 million, covered 6 North-Eastern States, ADB is headquartered in Manila, and its President is Masato Kanda. The other codes interchange the loan amount, number of States, headquarters and President."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Blue Valley Cluster Programme",
+   "question": "The Blue Valley Cluster Programme is a collaboration between Assam and which organisation?",
+   "options": [
+    "European Union",
+    "Asian Development Bank",
+    "Ministry of AYUSH",
+    "Ministry of Commerce and Industry"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "The Blue Valley Cluster Programme is a collaboration between Assam and the European Union, focusing on bioeconomy industries such as natural fragrances, spices and AYUSH. The Asian Development Bank and the Ministry of AYUSH are associated with other facts, not this collaboration."
+  }
+ ]
+}

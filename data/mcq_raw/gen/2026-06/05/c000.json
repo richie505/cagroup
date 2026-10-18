@@ -1,0 +1,95 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Date of entry into force",
+   "question": "When did the India–Oman Comprehensive Economic Partnership Agreement (CEPA) come into force?",
+   "options": [
+    "1 June 2026",
+    "30 May 2026",
+    "3 June 2026",
+    "1 May 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The India–Oman CEPA came into force on 1 June 2026. The dates 30 May 2026 and 3 June 2026 relate to the duration of the Myanmar President’s visit to India, while 1 May 2026 is incorrect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Tariff coverage and concessions",
+   "question": "Which of the following statements about the India–Oman CEPA is incorrect?",
+   "options": [
+    "The agreement provides duty-free access for 99.38% of India’s exports by value.",
+    "Oman’s commitments cover services in 127 sub-sectors.",
+    "India offered tariff concessions on 77.79% of its tariff lines.",
+    "The agreement covers 98.08% of India’s tariff lines on the Omani side."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "The incorrect statement is that 98.08% of India’s tariff lines are covered. The correct position is that the agreement covers 98.08% of Oman’s tariff lines; India’s offer covers 77.79% of its tariff lines."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First official visit",
+   "question": "Who made Myanmar’s first official presidential visit to India during 30 May–3 June 2026?",
+   "options": [
+    "U Min Aung Hlaing",
+    "Sultan Haitham bin Tarik",
+    "Narendra Modi",
+    "The President of Oman"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "Myanmar President U Min Aung Hlaing made the first official presidential visit to India during 30 May–3 June 2026. Sultan Haitham bin Tarik is associated with Oman, while Narendra Modi held talks with the visiting President."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Outcomes of the visit",
+   "question": "With reference to Myanmar President U Min Aung Hlaing’s first official visit to India, consider the following statements:\n1. Mekong-Ganga ICCR scholarships for Myanmar were increased from 36 to 100 from 2026.\n2. The Rupee-Kyat settlement has been operational since May 2024 through Special Rupee Vostro Accounts.\n3. Cooperation included critical minerals and rare earths.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6",
+    "P1.F8"
+   ],
+   "explanation": "All three statements are correct. The visit outcomes included the increase in scholarships from 36 to 100, the Rupee-Kyat settlement operational since May 2024, and cooperation in critical minerals and rare earths. The option ‘1 and 2 only’ is incomplete because statement 3 is also correct."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Visit dates and scholarship increase",
+   "question": "Consider the following statements:\nStatement A: Myanmar President U Min Aung Hlaing’s first official visit to India took place from 29 May to 3 June 2026.\nStatement B: Mekong-Ganga ICCR scholarships for Myanmar were increased from 36 to 120 from 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F5"
+   ],
+   "explanation": "Both statements are false. The visit took place from 30 May to 3 June 2026, not from 29 May, and the scholarships increased from 36 to 100, not 120."
+  }
+ ]
+}

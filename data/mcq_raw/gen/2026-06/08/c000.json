@@ -1,0 +1,129 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Publisher",
+   "question": "Who published the SIPRI Yearbook 2026?",
+   "options": [
+    "Stockholm International Peace Research Institute",
+    "Institute for Economics and Peace",
+    "World Economic Forum",
+    "ICRIER–Prosus Centre for Internet and Digital Economy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The SIPRI Yearbook 2026 was published by the Stockholm International Peace Research Institute, based in Stockholm, Sweden. The Institute for Economics and Peace publishes the Global Peace Index, not the SIPRI Yearbook."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "India’s rankings in defence indicators",
+   "question": "Which of the following statements regarding the SIPRI Yearbook 2026 is incorrect?",
+   "options": [
+    "India was the 5th-largest country in military spending in 2025, with spending of USD 92.1 billion.",
+    "India was the 2nd-largest arms importer during 2021–25, accounting for 8.2% of global arms imports.",
+    "The United States was the largest arms exporter during 2021–25, with its share rising from 36% to 42%.",
+    "Russia’s arms-export share during 2021–25 was 5.8%, after its exports fell by 64%."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7",
+    "P0.F11",
+    "P0.F12"
+   ],
+   "explanation": "The incorrect statement is the one assigning Russia a 5.8% share; its share was 6.8%, the lowest since 1950. India’s 5th-place military-spending position, 2nd-place arms-import position, and the United States’ 36% to 42% export-share rise are correct."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Global nuclear warhead inventory",
+   "question": "With reference to the global nuclear-warhead estimates presented in the SIPRI Yearbook 2026, consider the following statements:\n1. The total number of nuclear warheads at the start of 2026 was estimated at 12,187.\n2. More than 4,000 warheads were in military stockpiles.\n3. India had 178 deployed warheads and 12 warheads in storage.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F5"
+   ],
+   "explanation": "Only statement 1 is correct: the estimated global total at the start of 2026 was 12,187 warheads. More than 4,000 were deployed, while India had 12 deployed and 178 in storage, making statements 2 and 3 incorrect."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "India’s rank in the Global Peace Index",
+   "question": "Assertion (A): India ranked 127th among 163 countries in the Global Peace Index 2026.\nReason (R): Iceland was ranked the most peaceful country in the Global Peace Index 2026.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Both statements are true: India ranked 127th among 163 countries, while Iceland ranked first. Iceland’s position as the most peaceful country does not explain India’s separate rank, so the second option is correct."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Publisher and history of the index",
+   "question": "Consider the following statements:\nStatement A: The Global Peace Index is published by the Institute for Economics and Peace, based in Sydney.\nStatement B: The Global Peace Index has been published since 2007.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7"
+   ],
+   "explanation": "Both statements are true. The Institute for Economics and Peace in Sydney publishes the Global Peace Index, which has been available since 2007."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India’s rank in the Energy Transition Index",
+   "question": "What was India’s rank in the WEF Energy Transition Index 2026?",
+   "options": [
+    "70th",
+    "2nd",
+    "3rd",
+    "5th"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "India ranked 70th in the WEF Energy Transition Index 2026, improving by 2 places and recording a score of 54.9. The 2nd and 3rd positions in the options refer to neither India’s rank nor the stated Indian score."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in digitalisation",
+   "question": "According to the State of India’s Digital Economy 2026 report, what was India’s position among the world’s most digitalised economies?",
+   "options": [
+    "5th",
+    "4th",
+    "2nd",
+    "8th"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "India was ranked the world’s 5th most digitalised economy in the State of India’s Digital Economy 2026 report, improving from 8th in 2025. The 4th position referred to India’s rank in the AI-related CHIPS Index, while 2nd was its position as an AI talent hub."
+  }
+ ]
+}

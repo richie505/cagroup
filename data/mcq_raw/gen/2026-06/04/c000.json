@@ -1,0 +1,94 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Nodal ministry and launch year",
+   "question": "Which ministry is the nodal ministry for the National Green Hydrogen Mission (NGHM), launched in 2023?",
+   "options": [
+    "Ministry of New and Renewable Energy",
+    "Department for Promotion of Industry and Internal Trade",
+    "Ministry of Steel",
+    "Ministry of Commerce and Industry"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Ministry of New and Renewable Energy is the nodal ministry for the National Green Hydrogen Mission, which was launched in 2023. The Ministry of Steel is associated with green hydrogen pilots in the steel sector, but it is not the nodal ministry for NGHM."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "2030 targets",
+   "question": "Consider the following statements about the 2030 targets of the National Green Hydrogen Mission:\n1. The mission targets production of 5 MMT of green hydrogen per year.\n2. It targets ₹1 lakh crore in import savings.\n3. It aims to avoid 50 MMT of carbon dioxide emissions per year.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3"
+   ],
+   "explanation": "All three statements are correct: the 2030 targets include 5 MMT of annual green hydrogen production, ₹1 lakh crore in import savings and avoidance of 50 MMT of carbon dioxide emissions annually. Therefore, the correct choice is 1, 2 and 3."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Types and production methods of hydrogen",
+   "question": "Which one of the following statements regarding types of hydrogen is incorrect?",
+   "options": [
+    "Green hydrogen is produced through electrolysis using renewable energy.",
+    "Grey hydrogen is produced through steam methane reforming using natural gas.",
+    "Blue hydrogen is produced through gasification using coal.",
+    "Brown hydrogen is produced through gasification using coal."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F4",
+    "P0.F5",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "The incorrect statement is that blue hydrogen is produced through gasification using coal. Blue hydrogen is produced through steam methane reforming with carbon capture, using natural gas; gasification using coal is the method for brown hydrogen."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Outlay and coverage",
+   "question": "Consider the following statements about the BHAVYA scheme:\nStatement A: BHAVYA aims to develop 100 investment-ready industrial parks in six years.\nStatement B: The Union Cabinet approved an outlay of ₹33,660 crore for the scheme.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Both statements are true. BHAVYA, or Bharat Audyogik Vikas Yojana, targets 100 investment-ready industrial parks over six years and has a Union Cabinet-approved outlay of ₹33,660 crore."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Portal launch and development",
+   "question": "Assertion (A): The BHAVYA portal was launched by Commerce Minister Piyush Goyal in New Delhi.\nReason (R): The BHAVYA portal was developed by the Department for Promotion of Industry and Internal Trade.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P1.F3"
+   ],
+   "explanation": "Assertion A is true: Commerce Minister Piyush Goyal launched the BHAVYA portal in New Delhi. Reason R is false because the portal was developed by NICDC, not by the Department for Promotion of Industry and Internal Trade."
+  }
+ ]
+}

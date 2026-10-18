@@ -1,0 +1,59 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "100th Ramsar site",
+   "question": "Which site is identified as India's 100th Ramsar site?",
+   "options": [
+    "Jai Prakash Narayan Bird Sanctuary (Ballia)",
+    "Sakkarakottai Bird Sanctuary",
+    "Khecheopalri Wetland",
+    "Patna Bird Sanctuary (Etah)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F23"
+   ],
+   "explanation": "Jai Prakash Narayan Bird Sanctuary in Ballia, Uttar Pradesh, is India's 100th Ramsar site. Sakkarakottai Bird Sanctuary, Khecheopalri Wetland and Patna Bird Sanctuary are separate entries among the recent additions."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ecological features",
+   "question": "With reference to Jai Prakash Narayan Bird Sanctuary (Surha Tal), consider the following statements:\n1. It is a natural oxbow lake of the Ganga.\n2. It is fed by 3 channels.\n3. It lies on the Central Asian Flyway.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F4"
+   ],
+   "explanation": "All three statements are correct: Surha Tal is a natural oxbow lake of the Ganga, is fed by 3 channels and lies on the Central Asian Flyway. The tempting option '1 and 2 only' is incorrect because the site also lies on the Central Asian Flyway."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Numbered Ramsar addition",
+   "question": "Assertion (A): Jai Prakash Narayan Bird Sanctuary was India's 100th Ramsar site.\nReason (R): Jai Prakash Narayan Bird Sanctuary was listed as No. 100 among the 2025–2026 additions.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F23"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. Being listed as No. 100 among the 2025–2026 additions directly establishes its status as India's 100th Ramsar site; therefore, the second option is incorrect."
+  }
+ ]
+}

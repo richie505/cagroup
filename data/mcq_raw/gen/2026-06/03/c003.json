@@ -1,0 +1,57 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme benefit and ownership condition",
+   "question": "Under PMAY-U 2.0, what is the maximum assistance available under the Beneficiary-Led Construction component, along with the ownership condition for a female member?",
+   "options": [
+    "Up to ₹2.5 lakh, with the female member required to be the owner or co-owner",
+    "₹1.20 lakh, with the female member required to be the sole owner",
+    "₹1.30 lakh, with ownership restricted to the male head of the household",
+    "Up to ₹78,000, with the female member required to be the sole owner"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The correct answer is up to ₹2.5 lakh, and a female member must be the owner or co-owner. ₹1.20 lakh and ₹1.30 lakh are assistance amounts associated with PMAY-G in plains and hilly areas, while ₹78,000 is linked to PM Surya Ghar."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Scheme extension",
+   "question": "Consider the following statements:\nStatement A: JJM 2.0 was extended in March 2026 until December 2027.\nStatement B: Under the Jal Jeevan Mission, 1.81 lakh villages were certified as Har Ghar Jal.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F5"
+   ],
+   "explanation": "Statement A is false because JJM 2.0 was extended in March 2026 until December 2028. Statement B is true: 1.81 lakh villages were certified as Har Ghar Jal. The changed year in Statement A is the trap."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coverage of AMRUT and AMRUT 2.0",
+   "question": "With reference to AMRUT and AMRUT 2.0, consider the following statements:\n1. AMRUT covered 500 cities.\n2. AMRUT 2.0 covers all 4,800 statutory towns.\n3. AMRUT 2.0 was launched in October 2022.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: AMRUT covered 500 cities, while AMRUT 2.0 covers all 4,800 statutory towns. Statement 3 is incorrect because AMRUT 2.0 was launched in October 2021, not October 2022."
+  }
+ ]
+}

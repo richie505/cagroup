@@ -1,0 +1,103 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  25,
+  26,
+  27,
+  30,
+  35
+ ],
+ "only": [
+  "P25.F1",
+  "P26.F1",
+  "P27.F1",
+  "P30.F1",
+  "P35.F1",
+  "P35.F2",
+  "P35.F3"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Device associated with AI initiative",
+   "question": "Which device is associated with Bhashini’s offline multilingual voice AI initiative developed with Current AI and Kalpa Impact?",
+   "options": [
+    "Current AI",
+    "Kalpa Impact",
+    "Bhashini",
+    "Sunno Sutra"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P25.F1"
+   ],
+   "explanation": "Sunno Sutra is the device associated with Bhashini’s offline multilingual voice AI initiative, developed with Current AI and Kalpa Impact. Current AI and Kalpa Impact are collaborating organisations, while Bhashini is the AI initiative."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launched by",
+   "question": "Who launched Vinimay, the Land Port Management System integrated with ICEGATE?",
+   "options": [
+    "Amit Shah",
+    "Land Ports Authority of India",
+    "ICEGATE",
+    "Bhashini"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P26.F1"
+   ],
+   "explanation": "Vinimay, the Land Port Management System, was launched by Amit Shah. The Land Ports Authority of India manages the system, and ICEGATE is the platform with which it is integrated."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Languages and implementing organisations",
+   "question": "Consider the following statements:\nStatement A: Samadhan Didi is the first AI voice chatbot for CPGRAMS in 20 Eighth Schedule languages.\nStatement B: Samadhan Didi was developed by DARPG in collaboration with Bhashini.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P27.F1"
+   ],
+   "explanation": "Statement A is false because Samadhan Didi supports all 22 Eighth Schedule languages, not 20. Statement B is true: the chatbot was developed by DARPG and Bhashini."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "AI grievance portal and language access",
+   "question": "Assertion (A): Pension Sahayak is an AI grievance portal developed by DARPG.\nReason (R): Pension Sahayak provides access in 22 languages through Bhashini.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P30.F1"
+   ],
+   "explanation": "Assertion A is false because Pension Sahayak is the PFRDA AI grievance portal, not a DARPG portal. Reason R is true: it provides grievance access in 22 languages through Bhashini."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Observatory functions and institutional details",
+   "question": "With reference to the Himalayan Climate Observatory at Devasthal, consider the following statements:\n1. It monitors greenhouse gases, atmospheric chemistry, air pollutants and soil moisture.\n2. It is being established by IITM and ARIES under a 50-year MoU for a permanent station at Devasthal, Uttarakhand.\n3. IITM was established in 1962 at Pune, while ARIES has its headquarters at Nainital under DST.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P35.F1",
+    "P35.F2",
+    "P35.F3"
+   ],
+   "explanation": "All three statements are correct. The observatory monitors the four listed atmospheric and soil parameters, and the IITM–ARIES 50-year MoU provides for a permanent station at Devasthal under the Bharat Climate Observation Network; IITM is based at Pune and ARIES at Nainital."
+  }
+ ]
+}

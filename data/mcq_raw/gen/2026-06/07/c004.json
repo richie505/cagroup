@@ -1,0 +1,92 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Species and wildlife reserve",
+   "question": "The forester moth Mimeusemia kali was discovered in which protected area?",
+   "options": [
+    "Kali Tiger Reserve, Karnataka",
+    "Chapramari Wildlife Sanctuary, West Bengal",
+    "Periyar Tiger Reserve, Kerala",
+    "Mayodia Pass, Arunachal Pradesh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F2"
+   ],
+   "explanation": "Mimeusemia kali is a forester moth discovered in Kali Tiger Reserve, Karnataka. Chapramari is associated with Pseudocapritermes novus, while Periyar and Mayodia Pass are associated with other newly recorded species."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "First record in India",
+   "question": "Which of the following statements about Mesalina bishnoi is incorrect?",
+   "options": [
+    "Mesalina bishnoi is a lizard.",
+    "It was recorded at Gajner in Bikaner, Rajasthan.",
+    "It was the first record of the species in India.",
+    "It was first recorded in India at Mayodia Pass, Lower Dibang Valley."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F10"
+   ],
+   "explanation": "The incorrect statement is that Mesalina bishnoi was first recorded at Mayodia Pass, Lower Dibang Valley. Its first record in India was at Gajner, Bikaner, Rajasthan; Mayodia Pass is associated with Chonala albistricta."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Species discovery details",
+   "question": "Consider the following statements about species discoveries reported in June 2026:\n1. Chonala albistricta was the 10th species of its genus worldwide and the 2nd in India.\n2. Pseudocapritermes novus was India's 5th species of its genus.\n3. Indocolea devendrae was the first record of its genus in Nepal.\nWhich of the statements given above is correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F4",
+    "P8.F5",
+    "P8.F12"
+   ],
+   "explanation": "Only statement 2 is correct: Pseudocapritermes novus was India's 5th species of its genus. Chonala albistricta was the 10th of its genus worldwide and 2nd in India, but statement 1 omits the required distinction; Indocolea devendrae was the first record of its genus in India, not Nepal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "GI-tagged product and State",
+   "question": "Sarinda, a traditional tribal string instrument that received a Geographical Indication, belongs to which State?",
+   "options": [
+    "Tripura",
+    "Bihar",
+    "Jharkhand",
+    "Assam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "Sarinda is a traditional tribal string instrument associated with Tripura. Bihar is associated with Bawan Buti sarees, Patharkatti stone craft and Pidiya painting, while Jharkhand and Assam have separate GI-listed products."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "GI registration framework",
+   "question": "Consider the following statements:\nStatement A: Registration of a Geographical Indication is valid for 10 years and is renewable every 10 years.\nStatement B: The GI Registry is located in Mumbai.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F7"
+   ],
+   "explanation": "Statement A is true: GI registration is valid for 10 years and may be renewed every 10 years. Statement B is false because the GI Registry is located in Chennai, not Mumbai."
+  }
+ ]
+}

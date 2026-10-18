@@ -1,0 +1,153 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Segment-wise top port",
+   "question": "Under the Logistics Port Performance Index for 2024–25, which port topped the Container Cargo segment?",
+   "options": [
+    "Paradip",
+    "Sikka",
+    "Mundra",
+    "Jupiter Booster"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F4"
+   ],
+   "explanation": "Mundra topped the Container Cargo segment under the Logistics Port Performance Index. Paradip was the top port in Dry Bulk, while Sikka led the Liquid Bulk segment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "World ranking and target",
+   "question": "According to the 2025 UNCTAD report, what significant position did India achieve in ship recycling?",
+   "options": [
+    "World's largest ship recycler, meeting the Maritime India Vision 2030 target five years early",
+    "World's second-largest ship recycler, meeting the target two years early",
+    "World's largest solar market, meeting the target five years early",
+    "World's largest ship recycler, meeting the target ten years early"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "India became the world's largest ship recycler in 2025 and met the Maritime India Vision 2030 target five years early. The other options alter either India's position or the period by which the target was achieved."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Global market ranking",
+   "question": "Which development occurred in India's solar sector in 2025?",
+   "options": [
+    "India overtook the USA to become the world's second-largest solar market in annual capacity additions",
+    "India overtook the USA to become the world's largest solar market in annual capacity additions",
+    "India overtook France to become the world's second-largest solar market in annual capacity additions",
+    "India became the world's second-largest ship-recycling market"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "In 2025, India overtook the USA to become the world's second-largest solar market by annual capacity additions. The statement does not place India first, replace the USA with France, or refer to ship recycling."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Children's climate risk indicators",
+   "question": "According to UNICEF's Children's Climate Risk Report 2026, consider the following statements:\n1. India's overall climate-risk score was 9.21 out of 10.\n2. India's extreme-heat score was 10 out of 10.\n3. India's air-pollution score was 9.94 out of 10.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F3",
+    "P12.F4"
+   ],
+   "explanation": "All three statements are correct: India's scores were 9.21 for overall climate risk, 10 for extreme heat, and 9.94 for air pollution. The options omitting one statement are therefore incomplete."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Children exposed to climate hazards",
+   "question": "With reference to UNICEF's Children's Climate Risk Report 2026, identify the incorrect statement.",
+   "options": [
+    "392 million children in India, or 92%, were exposed to extreme heat.",
+    "89 million children in India faced recurring heatwaves.",
+    "India's drought score was 8.84 out of 10.",
+    "India's air-pollution score was 8.84 out of 10."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F4",
+    "P12.F5"
+   ],
+   "explanation": "The incorrect statement is that India's air-pollution score was 8.84; the correct score was 9.94 out of 10. The score of 8.84 applied to the drought indicator, while the child-exposure figures are 392 million and 89 million."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "TOP500 ranking",
+   "question": "Match the systems with their positions in the 67th TOP500 list released at ISC 2026:\n\nList-I\n(a) Lineshine\n(b) El Capitan\n(c) Frontier\n(d) Aurora\n\nList-II\ni. Rank 4\nii. Rank 3\niii. Rank 1\niv. Rank 2\n\nSelect the correct code.",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F4",
+    "P13.F5",
+    "P13.F6"
+   ],
+   "explanation": "The correct pairs are Lineshine–Rank 1, El Capitan–Rank 2, Frontier–Rank 3, and Aurora–Rank 4. Therefore, the correct code is a-iii, b-iv, c-ii, d-i."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fastest supercomputer",
+   "question": "Which system was ranked first in the 67th TOP500 list released at ISC 2026?",
+   "options": [
+    "El Capitan of the USA",
+    "Lineshine of China",
+    "Frontier of the USA",
+    "Jupiter Booster of Germany"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2",
+    "P13.F3"
+   ],
+   "explanation": "China's Lineshine ranked first in the 67th TOP500 list, with 2.198 exaflops. El Capitan ranked second, Frontier third, and Jupiter Booster fifth."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "GDP growth forecast",
+   "question": "With reference to the OECD Economic Outlook “Under Pressure” released in June 2026, consider the following:\n\nAssertion (A): The OECD raised India's FY27 growth forecast from 6.1% to 6.3%.\nReason (R): The OECD forecast India's FY28 growth at 7.2%.\n\nSelect the correct answer.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2"
+   ],
+   "explanation": "Assertion A is true: the OECD raised India's FY27 forecast from 6.1% to 6.3%. Reason R is false because 7.2% was the World Bank's FY28 forecast, whereas the OECD's FY28 forecast was 6.4%."
+  }
+ ]
+}

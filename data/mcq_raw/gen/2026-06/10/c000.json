@@ -1,0 +1,150 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First/only; Venue",
+   "question": "Where was Andhra Pradesh's first international-standard boxing ring inaugurated on 29 June 2026?",
+   "options": [
+    "Srinivasa Sports Complex, Tirupati",
+    "Fatorda Stadium, Margao, Goa",
+    "Estadio Azteca, Mexico City",
+    "MetLife Stadium, USA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "The first international-standard boxing ring in Andhra Pradesh was inaugurated at the Srinivasa Sports Complex in Tirupati. Fatorda Stadium, Estadio Azteca and MetLife Stadium were associated with football events, not this boxing facility."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Hosts; First/only",
+   "question": "Which group of countries jointly hosted the FIFA World Cup 2026, the first edition with three hosts?",
+   "options": [
+    "USA, Canada and Mexico",
+    "India, Bangladesh and Nepal",
+    "Mexico, Brazil and Argentina",
+    "USA, England and Canada"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The FIFA World Cup 2026 was hosted by the USA, Canada and Mexico, marking the first World Cup with three host countries. The other combinations do not represent the 2026 host group."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Tournament format; Number of teams and groups",
+   "question": "With reference to the FIFA World Cup 2026, consider the following statements:\n1. It was the 23rd edition and the first World Cup with three host countries.\n2. It featured 48 teams divided into 12 groups of four.\n3. It introduced the Round of 16 for the first time.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the tournament was the 23rd edition, had three hosts, and featured 48 teams in 12 groups of four. Statement 3 is incorrect because the Round of 32, not the Round of 16, was introduced for the first time."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Winner; Tournament characteristic",
+   "question": "Which of the following statements about the French Open 2026 is incorrect?",
+   "options": [
+    "Alexander Zverev won the men's singles title.",
+    "Mirra Andreeva won the women's singles title.",
+    "The men's doubles title was won by Marcel Granollers and Horacio Zeballos.",
+    "The French Open is the only Grand Slam tournament played on grass."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F3",
+    "P2.F6"
+   ],
+   "explanation": "The incorrect statement is that the French Open is played on grass; it is the only Grand Slam tournament played on clay. Alexander Zverev, Mirra Andreeva, and Marcel Granollers with Horacio Zeballos were the stated singles and men's doubles winners."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First/only; Winner",
+   "question": "Assertion (A): India secured its first-ever gold medal at the World Rowing Cup in June 2026.\nReason (R): Havildar Lakshya and Havildar Ujwal Kumar Singh won the Lightweight Men's Double Sculls event at World Rowing Cup III.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "Both the assertion and reason are true, and the reason explains the assertion. The Indian Army pair won the Lightweight Men's Double Sculls at World Rowing Cup III, giving India its first-ever gold at the World Rowing Cup."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in championship; Medal tally",
+   "question": "Which country topped the medal table at the ISSF Junior World Championship held in Suhl, Germany, in June 2026?",
+   "options": [
+    "India",
+    "Individual Neutral Athletes",
+    "Italy",
+    "Japan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5"
+   ],
+   "explanation": "India topped the ISSF Junior World Championship medal table with 25 medals, including 7 gold, 8 silver and 10 bronze. Individual Neutral Athletes finished second with 14 medals and Italy third with 10."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Tournament win; Organisation headquarters",
+   "question": "Consider the following statements:\nStatement A: R. Praggnanandhaa won Norway Chess 2026 with 17 points.\nStatement B: FIDE was established in 1924 in Zurich.\n\nWhich one of the following is correct?",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F4"
+   ],
+   "explanation": "Both statements are false. Praggnanandhaa won Norway Chess with 18 points, while FIDE was established in 1924 in Lausanne, not Zurich."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award; Person in news",
+   "question": "Who was the only Indian included in the inaugural TIME100 Most Influential People in Sports list in the Titans category?",
+   "options": [
+    "Smriti Mandhana",
+    "Jaspal Rana",
+    "Lionel Messi",
+    "Viswanathan Anand"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "Smriti Mandhana was the only Indian included in the inaugural TIME100 Most Influential People in Sports list, in the Titans category. Jaspal Rana, Lionel Messi and Viswanathan Anand were separately mentioned in the sports news facts."
+  }
+ ]
+}

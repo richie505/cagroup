@@ -1,0 +1,136 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "India's rank",
+   "question": "In the QS World Future Skills Index 2027, what was India's rank and score?",
+   "options": [
+    "13th with a score of 89.4",
+    "14th with a score of 89.4",
+    "13th with a score of 89.0",
+    "15th with a score of 89.4"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "India ranked 13th with a score of 89.4 in the QS World Future Skills Index 2027. The score and rank distinguish it from the neighbouring rank of 14th and the altered score options."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Country-wise unicorn ranking",
+   "question": "Which country ranked first in the Hurun Global Unicorn Index 2026, with 806 unicorns?",
+   "options": [
+    "The USA",
+    "China",
+    "The UK",
+    "India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "The USA ranked first with 806 unicorns. China ranked second with 381, the UK third with 70, and India fourth with 61."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Cities in unicorn ranking",
+   "question": "Which of the following statements about the Hurun Global Unicorn Index 2026 is incorrect?",
+   "options": [
+    "Bengaluru ranked 9th with 25 unicorns.",
+    "Mumbai ranked 23rd with 13 unicorns.",
+    "Zepto was India's most valuable unicorn and the only Indian start-up in the global Top 100.",
+    "A unicorn is a private start-up valued at USD 10 billion or more."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F7",
+    "P5.F8"
+   ],
+   "explanation": "The incorrect statement is that a unicorn is valued at USD 10 billion or more. The correct threshold is USD 1 billion or more; the other statements correctly describe Bengaluru, Mumbai and Zepto."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Fiscal deficit limit and highest deficit",
+   "question": "With reference to the CAG reports on State finances for 2024–25, consider the following statements:\n1. 18 of 28 States exceeded the 3% of GSDP fiscal-deficit limit.\n2. Meghalaya recorded the highest fiscal deficit at 8.69%.\n3. Revenue-surplus States increased from 13 to 16.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P6.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: 18 of 28 States exceeded the 3% limit, and Meghalaya had the highest deficit at 8.69%. Statement 3 is incorrect because revenue-surplus States declined from 16 to 13."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Rise in fiscal deficit",
+   "question": "Assertion (A): The fiscal deficit of 14 States rose by 25% or more in 2024–25 compared with 2023–24.\nReason (R): The number of revenue-surplus States increased from 13 to 16.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "Assertion A is true: 14 States recorded a fiscal-deficit rise of 25% or more. Reason R is false because revenue-surplus States declined from 16 to 13, rather than increasing from 13 to 16."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "First-time inclusion",
+   "question": "With reference to the 6th Economic Census, consider the following statements:\nStatement A: Handloom and handicrafts were included for the first time.\nStatement B: The included handloom and handicraft establishments provided 10.87 lakh jobs.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F5"
+   ],
+   "explanation": "Statement A is true because handloom and handicrafts were included for the first time. Statement B is false: the figure of 10.87 lakh refers to establishments, while the number of jobs was 40.20 lakh."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Rank and project monitoring",
+   "question": "With reference to Central projects in Andhra Pradesh and across India, how many of the following statements are correct?\n1. Andhra Pradesh ranked third with 142 Central projects.\n2. Maharashtra, Uttar Pradesh and Andhra Pradesh were the top three States by number of projects.\n3. There were 1,981 projects under 17 ministries across India.\n4. MoSPI monitors projects costing above ₹100 crore.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "Three statements are correct: Andhra Pradesh ranked third with 142 projects, the top three States were Maharashtra, Uttar Pradesh and Andhra Pradesh, and 1,981 projects were under 17 ministries. Statement 4 is incorrect because MoSPI monitors projects above ₹150 crore, not ₹100 crore."
+  }
+ ]
+}

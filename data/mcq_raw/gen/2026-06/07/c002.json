@@ -1,0 +1,112 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Phased notification",
+   "question": "Under the proposed phased notification for the Western Ghats Ecologically Sensitive Area, which group of States is proposed to be covered first?",
+   "options": [
+    "Gujarat, Maharashtra and Goa",
+    "Karnataka, Kerala and Tamil Nadu",
+    "Gujarat, Karnataka and Kerala",
+    "Maharashtra, Goa and Tamil Nadu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "The Centre is considering notifying the Western Ghats ESA in phases, with Gujarat, Maharashtra and Goa covered first. The other options contain States included in the broader draft area but not in the first phase."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Draft area and validity",
+   "question": "Which one of the following statements regarding the draft notification for the Western Ghats ESA is incorrect?",
+   "options": [
+    "The draft area covers 56,825.7 sq km.",
+    "The draft area extends across six States.",
+    "The latest draft was issued on 31 July 2024.",
+    "The latest draft remains valid until late July 2027."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "The incorrect statement is that the latest draft remains valid until late July 2027. Its validity extends until late July 2026; the draft covers 56,825.7 sq km across six States and the latest version was issued on 31 July 2024."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Gadgil–Kasturirangan comparison",
+   "question": "Consider the following statements about the recommendations on the Western Ghats ESA:\n1. The Kasturirangan Committee proposed around 60,000 sq km of natural landscape.\n2. The Gadgil Committee proposed an extent of 1,64,280 sq km.\n3. The Kasturirangan Committee divided the area into 40% cultural landscape and 60% natural landscape.\n\nWhich of the statements given above is correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F6",
+    "P3.F7",
+    "P3.F8"
+   ],
+   "explanation": "Only statement 1 is correct: the Kasturirangan Committee proposed around 60,000 sq km of natural landscape. The extent of 1,64,280 sq km belongs to the Kasturirangan assessment, while its division was 60% cultural and 40% natural landscape."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Biochar production and carbon storage",
+   "question": "Assertion (A): Biochar is produced by pyrolysis using oxygen-rich heating at 300–700°C.\nReason (R): Biochar stores carbon for centuries because it decomposes very slowly.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2"
+   ],
+   "explanation": "Assertion A is false because pyrolysis for biochar uses oxygen-depleted heating at 300–700°C, not oxygen-rich heating. Reason R is true: biochar decomposes very slowly and therefore stores carbon for centuries."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Biochar benefits and carbon credits",
+   "question": "With reference to biochar, consider the following statements:\n1. Biochar can increase water-holding capacity by 10–25%.\n2. One tonne of biochar sequesters 3–4 t CO2e.\n3. One tonne of biochar sequesters 2.5–3 t CO2e.\n4. The VM0042 methodology provides 3–3.8 t CO2e credits per tonne of biochar.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F4"
+   ],
+   "explanation": "Statements 1 and 3 are correct, so the answer is Only two. Biochar raises water-holding capacity by 10–25% and sequesters 2.5–3 t CO2e per tonne; the VM0042 credit range is 2–2.8 t CO2e, not 3–3.8 t CO2e."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Omega Block mechanism",
+   "question": "What atmospheric circulation pattern caused the 2026 European heatwave by stalling the west-to-east jet stream?",
+   "options": [
+    "Omega Block",
+    "Heat dome",
+    "Climate whiplash",
+    "Urban heat island"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "The heatwave was associated with an Omega Block, in which high pressure lies between two lows in the shape of the Greek letter Ω and stalls the west-to-east jet stream. A heat dome is the sinking, compressed air beneath the high, while climate whiplash and urban heat island are separate concepts."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Approved by and outlay",
+   "question": "The Mission for Cotton Productivity, covering the period 2026–27 to 2030–31, was approved by which authority with an outlay of ₹5,659 crore?",
+   "options": [
+    "Union Cabinet",
+    "GEAC",
+    "Andhra Pradesh Government",
+    "Cotton Seed Price Control Order"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The Mission for Cotton Productivity was approved by the Union Cabinet with an outlay of ₹5,659 crore for 2026–27 to 2030–31. GEAC is associated with the approval of commercial Bt cotton in 2002, not this mission."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Productivity target and Bt cotton approval",
+   "question": "Consider the following statements:\nStatement A: The Mission for Cotton Productivity targets an increase in lint productivity from 441 kg/ha in TE 2025–26 to 755 kg/ha by 2031.\nStatement B: Commercial Bt cotton was approved by GEAC in 2002, with the Cry1Ac gene targeting bollworm.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "Both statements are true. The mission sets the lint productivity target at 755 kg/ha by 2031, while GEAC approved commercial Bt cotton in 2002 with the Cry1Ac gene against bollworm. The target year and the Bt cotton approval year are different facts, so neither statement should be interchanged."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Cotton seed price controls",
+   "question": "Consider the following statements regarding price-control measures for Bt cotton:\n1. In 2006, Andhra Pradesh capped the seed price at ₹750 per packet.\n2. In 2015, the Cotton Seed Price Control Order cut the trait fee by 74%.\n3. In 2020, the trait fee was reduced by 74% but not eliminated.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8",
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Andhra Pradesh capped the seed price at ₹750 per packet in 2006, and the 2015 order cut the trait fee by 74%. Statement 3 is incorrect because the trait fee was eliminated in 2020, rather than merely reduced by 74%."
+  }
+ ]
+}

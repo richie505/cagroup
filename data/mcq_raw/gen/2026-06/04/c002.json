@@ -1,0 +1,60 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Public capex",
+   "question": "What was the level of India's public capital expenditure projected for FY27?",
+   "options": [
+    "₹2 lakh crore",
+    "₹12.2 lakh crore",
+    "₹2.78 lakh crore",
+    "₹32,000 crore"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2"
+   ],
+   "explanation": "India's public capital expenditure was projected at ₹12.2 lakh crore for FY27, rising from ₹2 lakh crore in FY15. The tempting figure of ₹2.78 lakh crore refers to rail budget support in FY27, not total public capex."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Railway bridge distinctions",
+   "question": "Consider the following statements about major railway bridges:\n1. Chenab Bridge is the world's highest railway arch bridge, at 359 m.\n2. Anji Khad Bridge is India's first cable-stayed railway bridge.\n3. Pamban Bridge is India's first cable-stayed railway bridge.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F7",
+    "P3.F8",
+    "P3.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Chenab Bridge is the world's highest railway arch bridge at 359 m, while Anji Khad is India's first cable-stayed railway bridge. Statement 3 is incorrect because Pamban Bridge is India's first vertical-lift railway sea bridge."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "UDAN and Modified UDAN",
+   "question": "With reference to the UDAN regional connectivity scheme and its 2026 modification, consider the following statements:\nStatement A: UDAN had covered 665 routes and 95 airports, heliports and water aerodromes.\nStatement B: Modified UDAN in 2026 provided ₹28,840 crore and targeted 120 new destinations.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F20"
+   ],
+   "explanation": "Both statements are true. UDAN covered 665 routes and 95 airports, heliports and water aerodromes, while Modified UDAN in 2026 involved ₹28,840 crore and 120 new destinations. Therefore, the options treating either statement as false are incorrect."
+  }
+ ]
+}

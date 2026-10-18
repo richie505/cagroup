@@ -1,0 +1,102 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank and global share",
+   "question": "According to FAO SOFIA 2026, what was India's position in global aquatic animal production in 2024, and what share of global production did it account for?",
+   "options": [
+    "First, accounting for 9%",
+    "Second, accounting for 9%",
+    "Second, accounting for 12%",
+    "Third, accounting for 9%"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F2"
+   ],
+   "explanation": "India ranked second after China in aquatic animal production in 2024 and accounted for 9% of global production. The first-place position applies to India's inland capture fisheries, not its overall aquatic animal production ranking."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Trend in forced displacement",
+   "question": "Which of the following statements about the UNHCR Global Trends figures for 2025 is incorrect?",
+   "options": [
+    "Global forced displacement declined from 123.2 million to 117.8 million, marking the first decline in a decade.",
+    "At the end of 2025, there were 41.6 million refugees and 68.6 million internally displaced persons.",
+    "A total of 14.7 million people returned home in 2025, including 4.4 million refugees and 10.3 million internally displaced persons.",
+    "Global forced displacement increased from 117.8 million to 123.2 million in 2025, marking the first decline in a decade."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2",
+    "P16.F3"
+   ],
+   "explanation": "The incorrect statement reverses the direction of change. Forced displacement declined from 123.2 million to 117.8 million in 2025, whereas 41.6 million refugees and 68.6 million internally displaced persons were recorded at year-end."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Consecutive-year rank",
+   "question": "Which university was ranked No. 1 in the QS World University Rankings 2027 for the 15th consecutive year?",
+   "options": [
+    "Imperial College London",
+    "Stanford University",
+    "Massachusetts Institute of Technology (MIT)",
+    "University of Oxford"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F2",
+    "P17.F3",
+    "P17.F4"
+   ],
+   "explanation": "MIT secured the No. 1 position in the QS World University Rankings 2027 for the 15th consecutive year. Imperial College London and Stanford were joint second, while Oxford ranked fourth."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Shortlist and award mechanism",
+   "question": "Consider the following statements about the World's Best School Prizes 2026:\nStatement A: India had seven schools shortlisted, the highest number by any country in the history of the prizes.\nStatement B: The Community Choice Award is decided by the Judging Academy.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F3"
+   ],
+   "explanation": "Statement A is true: seven Indian schools were shortlisted, the highest by any country in the prize's history. Statement B is false because the Community Choice Award is decided through a public vote; the Judging Academy selects the winners."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Study findings and indicators",
+   "question": "How many of the following statements about the studies on global rice production and child mortality are correct?\n1. Global rice production doubled between the 1960s and the 2010s.\n2. Global rice production reached 713 million tonnes during 2010–2015.\n3. In 2024, there were 4.9 million deaths among children under five.\n4. The annual decline in child mortality was 1.5% during 2000–2015.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F4",
+    "P19.F5"
+   ],
+   "explanation": "Exactly two statements are correct: global rice production doubled between the 1960s and the 2010s, and 4.9 million under-five deaths were recorded in 2024. The 713 million tonnes figure covers 2006–2015, while the 1.5% annual decline applies to 2015–2024; the 2000–2015 decline was 3.9%."
+  }
+ ]
+}

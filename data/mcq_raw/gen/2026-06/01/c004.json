@@ -1,0 +1,133 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  17,
+  18,
+  19
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Discovery and location",
+   "question": "The Vijayanagara-era inscriptions discovered in June 2026 were found at which location?",
+   "options": [
+    "Sadasivakona in the Seshachalam forest, Tirupati district",
+    "Kondaveedu in Palnadu district",
+    "Papavinasam in Tirupati district",
+    "Gudimallam in Anakapalli district"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2"
+   ],
+   "explanation": "The inscriptions were discovered by the ASI epigraphy team led by K. Muniratnam Reddy at Sadasivakona in the Seshachalam forest of Tirupati district. Kondaveedu is associated with a separate 14th-century Reddy-period inscription."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Date and languages",
+   "question": "Consider the following statements about the Vijayanagara-era inscriptions found in the Seshachalam forest:\n1. Three rare inscriptions were dated to 1554, during the reign of Sadasiva Deva Raya.\n2. The inscriptions are in Telugu, Tamil and Kannada.\n3. The inscriptions belong to the 2nd century BCE.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F3",
+    "P16.F4",
+    "P16.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: three rare inscriptions dated 1554 were found from the reign of Sadasiva Deva Raya, and they use Telugu, Tamil and Kannada. Statement 3 is incorrect because the 2nd century BCE date relates to the Gudimallam Siva shrine, not these inscriptions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of crest gates",
+   "question": "Following the 2024 monsoon damage, how many crest gates of the Tungabhadra dam were replaced and dedicated on 25 June 2026?",
+   "options": [
+    "33",
+    "19",
+    "16",
+    "32"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F2"
+   ],
+   "explanation": "All 33 crest gates of the Tungabhadra dam were replaced and dedicated on 25 June 2026. Gate No. 19 was the gate washed out during the 2024 monsoon, while 16 lakh-plus acres is the irrigation area associated with the dam."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Cause of gate replacement",
+   "question": "Assertion (A): The Tungabhadra dam's crest gates were replaced after Gate No. 19 was washed out during the 2024 monsoon.\nReason (R): The old gates were nearly 70 years old, in addition to the washout of Gate No. 19.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the ageing of the gates along with the 2024 washout explains the replacement. The project involved replacing all 33 crest gates, not only Gate No. 19."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cause of fish deaths",
+   "question": "According to the preliminary ICAR–CMFRI report on the mass fish deaths at Boyapadu coast in Anakapalli district, what was the likely cause?",
+   "options": [
+    "Hypoxia from a Trichodesmium bloom",
+    "Industrial bulk-drug effluent confirmed by APPCB",
+    "A washout of Gate No. 19",
+    "A shortage of 5–6 tmcft of water"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F3",
+    "P18.F4"
+   ],
+   "explanation": "The preliminary ICAR–CMFRI report indicated likely hypoxia caused by a Trichodesmium cyanobacterium bloom, recorded at about 380 cells/ml. Industrial bulk-drug effluent was only suspected and had not been confirmed."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "CER funding pattern",
+   "question": "Consider the following statements:\nStatement A: Under the City Economic Region scheme, each selected city receives ₹5,000 crore, comprising ₹3,500 crore from the Centre and ₹1,500 crore in State loans.\nStatement B: Visakhapatnam was not selected under the City Economic Region scheme.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F2"
+   ],
+   "explanation": "Statement A is true: the scheme provides ₹5,000 crore per city, with ₹3,500 crore from the Centre and ₹1,500 crore through State loans. Statement B is false because Visakhapatnam was selected from Andhra Pradesh under the scheme."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First semiconductor OSAT unit",
+   "question": "Where is Andhra Pradesh's first OSAT unit under the India Semiconductor Mission being established?",
+   "options": [
+    "Tarluvada, Anandapuram mandal, Visakhapatnam district",
+    "Sadasivakona, Seshachalam forest, Tirupati district",
+    "Boyapadu, Nakkapalli mandal, Anakapalli district",
+    "Kondaveedu, Palnadu district"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P19.F4",
+    "P19.F5"
+   ],
+   "explanation": "Andhra Pradesh's first OSAT unit is being established at Tarluvada in Anandapuram mandal of Visakhapatnam district under the India Semiconductor Mission. The other locations are associated with the Seshachalam inscriptions, the fish deaths and the Reddy-period inscription respectively."
+  }
+ ]
+}

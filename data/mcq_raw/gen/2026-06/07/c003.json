@@ -1,0 +1,80 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First India–China trading point",
+   "question": "Which pass was the first India–China trading point opened in 1992 and is associated with the Kailash–Manasarovar route?",
+   "options": [
+    "Lipulekh Pass",
+    "Photu La",
+    "Shipki La",
+    "Nathu La"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F3"
+   ],
+   "explanation": "Lipulekh Pass was the first India–China trading point opened in 1992 and lies on the Kailash–Manasarovar route. Shipki La and Nathu La are other India–China passes, while Photu La is associated with the Srinagar–Leh highway."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Tunnel purpose and river origin",
+   "question": "Assertion (A): The Chenab–Beas Link Tunnel was approved to divert surplus Chenab water to the Beas.\nReason (R): The Chenab is formed by the Chandra and Bhaga rivers in Himachal Pradesh.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F8",
+    "P6.F11"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the tunnel will divert surplus Chenab water to the Beas, and the Chenab is formed by the Chandra and Bhaga rivers. However, the origin of the Chenab does not explain the approval or purpose of the link tunnel, so the second option is correct."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Volcano type and ash emission",
+   "question": "Consider the following statements about recent volcanic and seismic events:\n1. Kīlauea is a shield volcano of the Hawaiian hotspot and is monitored by the USGS.\n2. Mount Merapi is a stratovolcano in Java near Yogyakarta, Indonesia.\n3. Shiveluch in Kamchatka emitted ash up to 33,000 ft.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F4",
+    "P7.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Kīlauea is a USGS-monitored shield volcano, and Mount Merapi is a stratovolcano near Yogyakarta. Statement 3 is incorrect because Shiveluch’s ash reached 10 km; ash up to 33,000 ft was reported for Volcán de Fuego."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Global conservation initiatives",
+   "question": "How many of the following statements about conservation initiatives are correct?\n1. Bangladesh became the 27th member of the International Big Cat Alliance.\n2. Agasthyamalai Biosphere Reserve was recognised under UNESCO’s MAB programme in 2016.\n3. Niokolo-Koba National Park is both a World Heritage Site and a Biosphere Reserve.\n4. The SHAN Conservation Foundation’s snow-leopard work is associated with Project Snow Leopard, launched in 2016.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P7.F7",
+    "P7.F8",
+    "P7.F10",
+    "P7.F11"
+   ],
+   "explanation": "Exactly three statements are correct: Bangladesh became the 27th IBCA member, Agasthyamalai was recognised under UNESCO MAB in 2016, and Niokolo-Koba has both World Heritage Site and Biosphere Reserve status. Statement 4 is incorrect because Project Snow Leopard dates to 2009, not 2016."
+  }
+ ]
+}

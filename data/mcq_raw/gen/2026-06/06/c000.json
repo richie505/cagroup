@@ -1,0 +1,44 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "In the June 2026 Nipah resurgence in Kerala, the 43-year-old case was reported from which place?",
+   "options": [
+    "Kozhikode",
+    "Ernakulam",
+    "Malappuram",
+    "Palakkad"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F4",
+    "P0.F5",
+    "P0.F8"
+   ],
+   "explanation": "The 43-year-old Nipah case was reported in Kozhikode at the Government Medical College Hospital. Ernakulam is associated with the single Nipah case reported in 2019, making it the tempting incorrect option."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Reservoir and risk window",
+   "question": "Assertion (A): The Indian flying fox bat Pteropus medius is not a reservoir associated with Nipah infection in Kerala.\nReason (R): The risk window for Nipah infection is April–September.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2"
+   ],
+   "explanation": "The assertion is false because the Indian flying fox bat Pteropus medius is identified as the reservoir. The reason is true because the risk window is April–September; however, this seasonal window does not establish that the bat is not a reservoir."
+  }
+ ]
+}

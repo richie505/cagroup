@@ -1,35 +1,37 @@
 # CA MCQ report
 
-- MCQs kept: **1075**
-- News pages with at least one question: **733 / 2629**
-- Facts tested: **2286 / 20515** (11.1%)
-- Answer positions: A 272, B 273, C 306, D 224
+- MCQs kept: **1389**
+- News pages with at least one question: **966 / 2629**
+- Facts tested: **2838 / 20515** (13.8%)
+- Answer positions: A 355, B 357, C 386, D 291
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 104 | 111 | 122 | 82 |
-| Negative / Incorrect Statement | 29 | 30 | 29 | 33 |
-| Assertion-Reason | 34 | 38 | 45 | 38 |
-| Statement-Based (A/B) | 34 | 23 | 39 | 34 |
-| Multi-Statement Correctness | 47 | 39 | 42 | 32 |
+| Direct Recall | 148 | 159 | 153 | 114 |
+| Negative / Incorrect Statement | 38 | 38 | 36 | 45 |
+| Assertion-Reason | 43 | 43 | 56 | 46 |
+| Statement-Based (A/B) | 47 | 31 | 49 | 39 |
+| Multi-Statement Correctness | 54 | 49 | 56 | 39 |
 | Chronological Ordering | 0 | 0 | 0 | 0 |
-| List-Matching | 10 | 5 | 9 | 4 |
-| Count-Based | 14 | 27 | 20 | 1 |
+| List-Matching | 11 | 7 | 10 | 7 |
+| Count-Based | 14 | 30 | 26 | 1 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 121 |
-| verify:not_in_facts | 15 |
-| verify:explanation_contradicts | 12 |
-| over the page's quota | 7 |
-| verify:none_correct | 4 |
-| verify:two_correct | 4 |
-| verify:second reader picked option 2, key 1 | 4 |
-| duplicate | 2 |
+| code | 145 |
+| verify:not_in_facts | 23 |
+| verify:explanation_contradicts | 18 |
+| over the page's quota | 9 |
+| verify:two_correct | 6 |
+| verify:none_correct | 5 |
+| verify:second reader picked option 2, key 1 | 5 |
+| duplicate | 4 |
 | verify:second reader picked option 3, key 0 | 1 |
 | verify:second reader picked option 1, key 0 | 1 |
+| verify:second reader picked option 2, key 0 | 1 |
+| verify:ambiguous_stem | 1 |
 
 ## Per file
 
@@ -79,17 +81,17 @@
 | 2026-07/09 | Awards, Persons & Appointments | 13 | 26/158 |
 | 2026-07/10 | Sports | 9 | 16/64 |
 | 2026-07/11 | Important Days & Events | 18 | 29/175 |
-| 2026-06/01 | Andhra Pradesh | 0 | 0/208 |
-| 2026-06/02 | Polity & Governance | 0 | 0/83 |
-| 2026-06/03 | Schemes & Social Sector | 0 | 0/157 |
-| 2026-06/04 | Economy, Banking & Budget | 0 | 0/207 |
-| 2026-06/05 | International Relations | 0 | 0/132 |
-| 2026-06/06 | Science, Tech, Space & Defence | 0 | 0/140 |
-| 2026-06/07 | Environment & Geography | 0 | 0/125 |
-| 2026-06/08 | Reports, Indices & Rankings | 0 | 0/124 |
-| 2026-06/09 | Awards, Persons & Appointments | 0 | 0/63 |
-| 2026-06/10 | Sports | 0 | 0/31 |
-| 2026-06/11 | Important Days & Events | 0 | 0/97 |
+| 2026-06/01 | Andhra Pradesh | 46 | 90/208 |
+| 2026-06/02 | Polity & Governance | 12 | 31/83 |
+| 2026-06/03 | Schemes & Social Sector | 47 | 73/157 |
+| 2026-06/04 | Economy, Banking & Budget | 36 | 61/207 |
+| 2026-06/05 | International Relations | 33 | 57/132 |
+| 2026-06/06 | Science, Tech, Space & Defence | 33 | 51/140 |
+| 2026-06/07 | Environment & Geography | 20 | 37/125 |
+| 2026-06/08 | Reports, Indices & Rankings | 25 | 57/124 |
+| 2026-06/09 | Awards, Persons & Appointments | 14 | 31/63 |
+| 2026-06/10 | Sports | 8 | 15/31 |
+| 2026-06/11 | Important Days & Events | 40 | 49/97 |
 | 2026-05/01 | Andhra Pradesh | 0 | 0/262 |
 | 2026-05/02 | Polity & Governance | 0 | 0/172 |
 | 2026-05/03 | Schemes & Social Sector | 0 | 0/110 |
@@ -358,3 +360,63 @@
 - `2026-07/07/c003#1` verify: not_in_facts — The facts do not establish that Kinnauri Topi is a GI product of Himachal Pradesh.
   - Q: Which one of the following statements regarding the new GI products of July 2026 is incorrect?
   - Key: Sirsa Kinnow was the first fruit from Punjab to receive a GI tag.
+- `2026-06/01/c000#1` verify: second reader picked option 2, key 1 — 
+  - Q: With reference to Phase-I of the EESL sustainability programme for Andhra Pradesh MSMEs, how many of the following statements are correct? / 1. Cluster mapping and diagnostic studies cover 15 industrial
+  - Key: Only two
+- `2026-06/01/c006#2` verify: explanation_contradicts — Statement 1 matches the supplied fact, but the explanation incorrectly says it omits Andhra Pradesh.
+  - Q: Consider the following statements regarding headlines in the CARE monthly index: / 1. Andhra Pradesh is emerging as a major centre for beach sand mineral exploration. / 2. Ponna Kaluva Utsavam was held at
+  - Key: 2 only
+- `2026-06/03/c004#4` verify: not_in_facts — The facts describe the ICAR WhatsApp advisory but do not identify it as Oilseeds Kisan Mitra.
+  - Q: Which description correctly identifies Oilseeds Kisan Mitra?
+  - Key: An ICAR WhatsApp AI advisory available 24×7 in multiple languages without a separate app
+- `2026-06/03/c004#12` verify: two_correct — All four descriptions in List-II are identical, so every listed matching can be defended.
+  - Q: Match the components of DISHA 2.0 in List-I with their descriptions in List-II. /  / List-I / (a) Tele-Law / (b) Nyaya Bandhu / (c) Legal Literacy & Awareness / (d) Vidhi-Sanjeevani /  / List-II / (i) A component of DI
+  - Key: a-i, b-ii, c-iii, d-iv
+- `2026-06/03/c005#4` verify: two_correct — Current AI and Kalpa Impact are both collaborators, so options 0 and 2 are equally supported.
+  - Q: Match the components associated with the Vyomaa Innovation Challenge with their descriptions. /  / List-I / (a) Bhashini / (b) Current AI / (c) Kalpa Impact / (d) Sunno Sutra /  / List-II / (i) Device / (ii) Collaborator
+  - Key: a-iii, b-iv, c-ii, d-i
+- `2026-06/03/c005#5` verify: not_in_facts — The facts do not establish that Vinimay was not integrated with the Bharat-WIN portal.
+  - Q: Which of the following statements about Vinimay, the Land Port Management System, is incorrect?
+  - Key: It was integrated with the Bharat-WIN portal.
+- `2026-06/03/c005#6` verify: second reader picked option 2, key 0 — 
+  - Q: How many of the following statements about Samadhan Didi are correct? / 1. It is the first AI voice chatbot for CPGRAMS. / 2. It supports all 22 Eighth Schedule languages. / 3. It was developed by DARPG and
+  - Key: Only one
+- `2026-06/03/c005#14` verify: not_in_facts — The facts give Devasthal as the permanent station location but do not explicitly identify that station as the Himalayan Climate Observatory.
+  - Q: The Himalayan Climate Observatory is being established under a 50-year MoU at which location?
+  - Key: Devasthal, Uttarakhand
+- `2026-06/04/c007#2` verify: explanation_contradicts — Both statements are true, but the definition of green ammonia does not explain why this specific port is being developed as a bunkering hub.
+  - Q: Assertion (A): The V.O. Chidambaranar Port at Thoothukudi is being developed as a green ammonia bunkering hub with AM Green. / Reason (R): Green ammonia is a marine fuel made with green hydrogen from re
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-06/04/c007#5` verify: not_in_facts — The facts give NCAER's establishment year but do not establish that it was founded in New Delhi.
+  - Q: With reference to the Centre for Transport, Mobility and Logistics Economics established through the NHAI–NCAER initiative, how many of the following statements are correct? / 1. It is located in New De
+  - Key: Only three
+- `2026-06/05/c001#2` verify: ambiguous_stem — The facts provide two different formulations as themes, making the direct-recall answer ambiguous.
+  - Q: What was the theme of the 52nd G7 Summit Outreach Session held at Évian-les-Bains, France?
+  - Key: Forging New Partnerships and Rebuilding International Solidarity
+- `2026-06/05/c004#2` verify: not_in_facts — The facts identify an AI geospatial-intelligence MoU but do not name Safran and SatSure, so Assertion A is not established.
+  - Q: Assertion (A): Safran and SatSure signed an MoU on AI geospatial intelligence. / Reason (R): The MoU was signed with the National Museum of Denmark to explore the wreck of the ship Øresund.
+  - Key: A is true, but R is false
+- `2026-06/06/c001#2` verify: explanation_contradicts — Statements 1 and 2 are correct from the facts, so exactly two statements—not exactly one—are correct.
+  - Q: Consider the following statements about India's space missions: /  / 1. Mangalyaan was the first mission to reach Mars orbit in its maiden attempt. / 2. Aditya-L1 is India's first solar observatory and oper
+  - Key: Exactly one statement is correct
+- `2026-06/06/c003#1` verify: explanation_contradicts — Statement 3 is supported because UMANG has more than 2,500 services, while the '+' in MY Bharat's figure does not establish whether statement 4 is false.
+  - Q: With reference to the major platforms associated with Digital India, consider the following statements: / 1. DigiLocker has more than 70 crore users and more than 850 crore documents. / 2. CoWIN has recor
+  - Key: Only one
+- `2026-06/06/c003#5` verify: not_in_facts — The facts identify the MoU and its subjects but do not explicitly establish that BSNL and IIT Kanpur signed it.
+  - Q: Assertion (A): BSNL and IIT Kanpur signed an MoU covering next-generation telecom technologies. / Reason (R): The MoU includes Direct-to-Mobile broadcasting, indigenous 4G and spectrum research.
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-06/06/c004#8` verify: not_in_facts — The facts identify the satellite only as ex-SWFO-L1 and do not establish the option name SOLAR-1.
+  - Q: What is the name of the USA's first dedicated space-weather satellite launched on 24 September 2025?
+  - Key: SOLAR-1
+- `2026-06/07/c003#2` verify: explanation_contradicts — The stated 10 km ash height is approximately 33,000 ft, so statement 3 is consistent with the facts.
+  - Q: Consider the following statements about recent volcanic and seismic events: / 1. Kīlauea is a shield volcano of the Hawaiian hotspot and is monitored by the USGS. / 2. Mount Merapi is a stratovolcano in J
+  - Key: 1 and 2 only
+- `2026-06/07/c004#2` verify: explanation_contradicts — Statement 1 directly matches the facts, while statement 3 is contradicted because Indocolea devendrae was first recorded in India, not Nepal.
+  - Q: Consider the following statements about species discoveries reported in June 2026: / 1. Chonala albistricta was the 10th species of its genus worldwide and the 2nd in India. / 2. Pseudocapritermes novus w
+  - Key: 2 only
+- `2026-06/08/c000#2` verify: none_correct — Statements 1 and 2 are true, but no option represents “1 and 2 only”; the explanation also incorrectly treats military stockpiles as deployed warheads.
+  - Q: With reference to the global nuclear-warhead estimates presented in the SIPRI Yearbook 2026, consider the following statements: / 1. The total number of nuclear warheads at the start of 2026 was estimat
+  - Key: 1 only
+- `2026-06/11/c000#16` verify: not_in_facts — The facts establish the facility and its FBTR heat source but do not establish that it is the world’s first.
+  - Q: Assertion (A): The world’s first Cu–Cl nuclear hydrogen facility was established at IGCAR, Kalpakkam. / Reason (R): The facility uses heat from the FBTR.
+  - Key: Both A and R are true, but R is NOT the correct explanation of A

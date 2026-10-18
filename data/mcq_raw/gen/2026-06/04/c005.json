@@ -1,0 +1,78 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme benefit",
+   "question": "Which scheme provides financial assistance of ₹4,000 per acre per year for two years to promote natural farming?",
+   "options": [
+    "National Mission on Natural Farming",
+    "Pradhan Mantri Krishi Sinchayee Yojana",
+    "Paramparagat Krishi Vikas Yojana",
+    "Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The National Mission on Natural Farming provides ₹4,000 per acre per year for two years. The Pradhan Mantri Krishi Sinchayee Yojana is associated with “Per Drop More Crop,” not this assistance."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Grant and coverage",
+   "question": "With reference to the National Adaptation Fund for Climate Change (NAFCC), which of the following statements is incorrect?",
+   "options": [
+    "The NAFCC was established in 2015 by NABARD.",
+    "The NAFCC provides a 100% central grant.",
+    "The NAFCC covers 30 projects across 27 States/UTs.",
+    "The NAFCC provides a 55% central grant."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F5",
+    "P7.F2"
+   ],
+   "explanation": "The incorrect statement is that the NAFCC provides a 55% central grant; its grant is 100% central. The 55% figure relates to the subsidy under PMKSY for small and marginal farmers."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Platform and language model",
+   "question": "Assertion (A): Bharat-VISTAAR is an AI-enabled multilingual farm advisory platform.\nReason (R): Bharat-VISTAAR is an agriculture-specific language model.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F4"
+   ],
+   "explanation": "Assertion A is true because Bharat-VISTAAR is an AI-enabled multilingual farm advisory platform. Reason R is false: the agriculture-specific language model is Agri Param, not Bharat-VISTAAR."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "AgriStack and seed traceability",
+   "question": "Consider the following statements about digital agriculture initiatives:\n1. AgriStack includes the Farmers' Registry, geo-referenced village maps and the Crop Sown Registry.\n2. SATHI uses QR-based seed tracing.\n3. Kisan e-Mitra is an agriculture-specific language model.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F5",
+    "P8.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: AgriStack has the listed registries and SATHI enables QR seed tracing. Statement 3 is incorrect because Kisan e-Mitra is a voice chatbot, while Agri Param is the agriculture-specific language model."
+  }
+ ]
+}

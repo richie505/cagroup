@@ -1,0 +1,99 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  10,
+  11,
+  13,
+  16
+ ],
+ "only": [
+  "P10.F1",
+  "P11.F1",
+  "P13.F1",
+  "P16.F1",
+  "P7.F1"
+ ],
+ "mcqs": [
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Organising ministries and duration",
+   "question": "Which of the following statements about the Khet Bachao Abhiyan is incorrect?",
+   "options": [
+    "It was conducted by the Agriculture and Rural Development ministries.",
+    "It was implemented with Gram Panchayats, KVKs and ICAR.",
+    "It included awareness on KCC and PM-Kisan.",
+    "It was conducted from 1 to 30 July 2026."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The incorrect statement is that the campaign was conducted from 1 to 30 July 2026; it was held from 1 to 30 June 2026. The other statements correctly identify its organising ministries, institutional partners and awareness components."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Export target",
+   "question": "What agri-export target is associated with Bharati, after completion of its first phase by APEDA?",
+   "options": [
+    "USD 50 billion by 2030",
+    "Agri-food start-ups to exporters",
+    "APEDA established in 1986",
+    "First phase completed"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "Bharati is associated with the target of achieving USD 50 billion in agri exports by 2030. The other options refer to its beneficiary-to-exporter linkage, APEDA’s establishment year and the completion of its first phase, not the export target."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Platform and commodities",
+   "question": "Which of the following statements about NAFEX.in is incorrect?",
+   "options": [
+    "NAFEX.in is an e-auction platform of NAFED.",
+    "It deals with oilseeds and pulses.",
+    "It is operated by APEDA for agri-food start-ups.",
+    "It is associated with NAFED, established on 2 October 1958."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The incorrect statement is that NAFEX.in is operated by APEDA; it is NAFED’s e-auction platform. The platform deals with oilseeds and pulses, and NAFED was established on 2 October 1958."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Incentives distributed",
+   "question": "Approximately how much incentives had been distributed under the PM Viksit Bharat Rozgar Yojana?",
+   "options": [
+    "₹2,400 crore",
+    "₹99,446 crore",
+    "3.5 crore+ jobs",
+    "2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "Approximately ₹2,400 crore in incentives had been distributed under the PM Viksit Bharat Rozgar Yojana. The ₹99,446 crore figure is its outlay, while 3.5 crore+ jobs is the employment target and 2025 is the approval year."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Approval and implementation period",
+   "question": "Consider the following statements about DISHA 2.0:\nStatement A: The Cabinet approved DISHA 2.0 with an allocation of ₹200 crore.\nStatement B: The scheme will operate from 1 April 2026 to 31 March 2030.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P16.F1"
+   ],
+   "explanation": "Both statements are false. DISHA 2.0 was approved with an allocation of ₹255 crore and is scheduled for 1 April 2026 to 31 March 2031; ₹200 crore and 31 March 2030 are the changed details."
+  }
+ ]
+}

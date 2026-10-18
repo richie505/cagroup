@@ -1,0 +1,96 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Agricultural GVA",
+   "question": "What was the gross value added of India’s agriculture sector in 2023–24, according to the agriculture transformation figures?",
+   "options": [
+    "₹20.9 lakh crore",
+    "₹48.7 lakh crore",
+    "₹27,663 crore",
+    "₹1.41 lakh crore"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2"
+   ],
+   "explanation": "Agricultural GVA increased to ₹48.7 lakh crore in 2023–24 from ₹20.9 lakh crore in 2014–15. ₹27,663 crore was the DA&FW budget in 2013–14, while ₹1.41 lakh crore refers to the approximate DA&FW budget for 2026–27."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Farmer welfare schemes",
+   "question": "Which one of the following statements about the major farmer welfare schemes is incorrect?",
+   "options": [
+    "PM-KISAN provides ₹6,000 per year and covers 9.44 crore families.",
+    "PMFBY insures more than 4 crore farmers every year.",
+    "PM-KMY provides a pension of ₹2,000 per month after the age of 60.",
+    "Under PM-KISAN, women constitute more than 25% of the beneficiaries."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F10",
+    "P5.F11",
+    "P5.F12"
+   ],
+   "explanation": "The incorrect statement is that PM-KMY provides ₹2,000 per month. Its pension is ₹3,000 per month after the age of 60; the other statements correctly describe PM-KISAN and PMFBY."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Foodgrain production",
+   "question": "Consider the following statements about India’s agricultural production:\n1. Foodgrain production increased from 265.05 MT in 2013–14 to 357.73 MT in 2024–25.\n2. India is the world’s largest producer of rice, whose production increased by 42.38% since 2014–15.\n3. Wheat production reached a record 117.94 MT in 2024–25.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4",
+    "P5.F5"
+   ],
+   "explanation": "All three statements are correct. Foodgrain production reached 357.73 MT, rice production rose by 42.38% and India remained the world’s largest rice producer, while wheat production recorded 117.94 MT in 2024–25."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "E20 target and roadmap",
+   "question": "With reference to India’s ethanol blending programme, consider the following:\nAssertion (A): India achieved its E20 target.\nReason (R): The Roadmap 2020–25 advanced the target year for E20 from 2030 to 2025.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the Reason explains the achievement of the E20 target. The Roadmap 2020–25 advanced the E20 target from 2030 to 2025."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Water requirement of ethanol feedstocks",
+   "question": "Consider the following statements about the water requirements of ethanol feedstocks:\nStatement A: Ethanol made from sugarcane requires approximately 2,860 litres of water per litre of ethanol.\nStatement B: Ethanol made from maize requires approximately 4,093 litres of water per litre of ethanol.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F5",
+    "P6.F6"
+   ],
+   "explanation": "Both statements are true. The water requirement is approximately 2,860 litres per litre of ethanol for sugarcane and approximately 4,093 litres for maize; the higher figure of up to 10,790 litres applies to rice."
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Agency implementing programme",
+   "question": "Which agency received the work order for the energy- and water-efficiency programme for Andhra Pradesh MSMEs at the AP MSME Growth Summit?",
+   "options": [
+    "Energy Efficiency Services Limited (EESL)",
+    "Raising and Accelerating MSME Performance (RAMP)",
+    "Ministry of MSME",
+    "AP MSME & Entrepreneur Development Policy 4.0"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F4"
+   ],
+   "explanation": "Energy Efficiency Services Limited (EESL), a PSU under the Union Ministry of Power, received the work order at the AP MSME Growth Summit. RAMP is the programme under which the work is implemented, not the agency receiving the work order."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Phase-I components and numbers",
+   "question": "With reference to Phase-I of the EESL sustainability programme for Andhra Pradesh MSMEs, how many of the following statements are correct?\n1. Cluster mapping and diagnostic studies cover 15 industrial clusters.\n2. Investment-grade energy audits cover 15 MSMEs.\n3. Water audits cover 300 MSMEs.\n4. The programme is implemented under the Centre's RAMP Programme and AP MSME & Entrepreneur Development Policy 4.0.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F5",
+    "P0.F6",
+    "P0.F7"
+   ],
+   "explanation": "Only statements 1 and 3 are correct: cluster mapping covers 15 industrial clusters and water audits cover 300 MSMEs. Investment-grade energy audits cover 452 MSMEs, while the implementation framework includes the Centre's RAMP Programme and AP MSME & Entrepreneur Development Policy 4.0."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Subsea connectivity feature",
+   "question": "Assertion (A): The Google Cloud India AI Hub in Visakhapatnam includes an international subsea cable landing.\nReason (R): Google's America-India Connect provides a direct fibre path between Vizag and Chennai on the east coast.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F4"
+   ],
+   "explanation": "Both statements are true, and the direct Vizag–Chennai fibre path under America-India Connect explains the hub's subsea connectivity feature. The hub was announced as including an international subsea cable landing, while America-India Connect is Google's related subsea connectivity initiative."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Water requirement of AI data centre",
+   "question": "Which of the following statements regarding the Google Cloud India AI Hub in Visakhapatnam is incorrect?",
+   "options": [
+    "The estimated water requirement is 2 million litres per day for every 100 MW.",
+    "The estimated water requirement for 1 GW is about 20 million litres per day.",
+    "AdaniConneX and Airtel Nxtra are partners in the project.",
+    "The hub includes a 1 GW hyperscale AI data centre but does not include an international subsea cable landing."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3",
+    "P1.F6"
+   ],
+   "explanation": "The incorrect statement is the fourth one: the hub includes an international subsea cable landing along with the 1 GW hyperscale AI data centre. The water estimate is 2 million litres per day per 100 MW, or about 20 million litres per day for 1 GW."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "At which place were tributes organised on the 137th birth anniversary of Duggirala Gopalakrishnayya?",
+   "options": [
+    "Bapatla",
+    "Chirala",
+    "Vadlamudi",
+    "Visakhapatnam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Tributes to Duggirala Gopalakrishnayya on his 137th birth anniversary were organised at Bapatla by the Forum for Better Bapatla. Chirala is associated with his Chirala-Perala movement and his founding of Madandhra Vidyapeeth Goshti, making it a tempting alternative."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Historical distinction and title",
+   "question": "Consider the following statements:\nStatement A: Duggirala Gopalakrishnayya was the first leader from Andhra elected General Secretary of the AICC.\nStatement B: Tanguturi Prakasam was known as Andhra Gandhi.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "Statement A is true: Duggirala Gopalakrishnayya was the first leader from Andhra elected General Secretary of the AICC. Statement B is false because Tanguturi Prakasam was known as Andhra Kesari, while Duggirala Gopalakrishnayya was associated with the titles Andhra Gandhi and Andhra Ratna."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "First AI laboratory and institutional setup",
+   "question": "With reference to the first Google AI Lab in Andhra Pradesh, consider the following statements:\n1. It was established at Vignan's University, Vadlamudi campus, in Guntur district.\n2. It was inaugurated by Navisha Prabhakar, Google Cloud Regional Head (Education).\n3. It was set up by the Department of Advanced Computer Science and Engineering with Gemini Enterprise for Education.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2",
+    "P3.F3",
+    "P3.F4"
+   ],
+   "explanation": "All three statements are correct. The first Google AI Lab in Andhra Pradesh is at Vignan's University, Vadlamudi campus, was inaugurated by Navisha Prabhakar, and was set up by the Department of Advanced Computer Science and Engineering with Gemini Enterprise for Education."
+  }
+ ]
+}
