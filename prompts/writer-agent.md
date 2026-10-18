@@ -19,3 +19,6 @@ METHOD (notes live on disk, so you never depend on remembering earlier sources):
 Coverage matters more than polish: an APPSC MCQ can ask about any name, number, rank, date, place or "first" in these sources. Expect roughly 150–400 pages for a full month across the 11 files.
 
 When done, reply with a short report: pages per category file, sources processed, anything skipped and why. Do not commit to git.
+
+Helper scripts: keep any scripts/temp files ONLY in your own folder /tmp/claude-0/-home-user/d5f64eb2-7d6a-55ee-935e-4f32f48ae647/scratchpad/w-{MONTH}/ — other writers run in parallel and share the scratchpad. Never write into another month's folder.
+If a PDF-text passage is garbled by the watermark "sri prakash - 9191…" and a file with the same name ending in `.full.txt` exists next to it, read the `.full.txt` version (complete, watermark removed) instead.
