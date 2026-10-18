@@ -1,0 +1,282 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F11",
+  "P2.F19",
+  "P2.F2",
+  "P2.F20",
+  "P2.F21",
+  "P2.F22",
+  "P2.F23",
+  "P2.F24",
+  "P2.F25",
+  "P2.F26",
+  "P2.F27",
+  "P2.F28",
+  "P2.F29",
+  "P2.F3",
+  "P2.F30",
+  "P2.F31",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Tax exemption and TDS",
+   "question": "Under the Union Budget 2026–27 tax proposals, what is the treatment of interest awarded by a Motor Accident Claims Tribunal to a natural person?",
+   "options": [
+    "It is exempt, and TDS on it is removed",
+    "It is taxable, and TDS is increased",
+    "It is exempt only for non-residents, and TDS is retained",
+    "It is taxed as capital gains, and TDS is removed"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Interest awarded by a Motor Accident Claims Tribunal to a natural person is exempt, and TDS on it is removed. The tempting capital-gains option is incorrect because the proposal specifically concerns exemption and removal of TDS."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Return filing timelines",
+   "question": "With reference to the Union Budget 2026–27 direct-tax proposals, consider the following statements:\n1. The deadline for revising a return is extended from 31 December to 31 March with a nominal fee.\n2. Staggered timelines are proposed for filing returns.",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "Both statements are correct. The revision deadline moves from 31 December to 31 March with a nominal fee, and filing timelines are to be staggered."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "NRI property transactions",
+   "question": "For a property transaction involving an NRI, what will the resident buyer use under the Union Budget 2026–27 tax proposals?",
+   "options": [
+    "A PAN-based challan instead of TAN",
+    "A TAN instead of a PAN-based challan",
+    "Form 15G/15H through depositories",
+    "A lower/nil TDS certificate"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "The resident buyer will use a PAN-based challan instead of TAN for an NRI property deal. Form 15G/15H and lower/nil TDS certificates concern other compliance measures."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Foreign Asset Disclosure Scheme",
+   "question": "Consider the following statements:\nStatement A: The Foreign Asset Disclosure Scheme is a one-time, 3-month scheme for small taxpayers.\nStatement B: Updated returns are allowed only before reassessment begins, with an additional 10% tax.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F6",
+    "P2.F7"
+   ],
+   "explanation": "Both statements are false. The Foreign Asset Disclosure Scheme is a one-time 6-month scheme, while updated returns are allowed even after reassessment begins with an additional 10% tax."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Prosecution immunity",
+   "question": "The Union Budget 2026–27 proposes retrospective prosecution immunity for which undisclosed foreign assets?",
+   "options": [
+    "Non-immovable foreign assets below ₹20 lakh, retrospectively from 1 October 2024",
+    "Immovable foreign assets below ₹20 lakh, retrospectively from 1 October 2024",
+    "Non-immovable foreign assets below ₹20 lakh, prospectively from April 2026",
+    "Non-immovable foreign assets above ₹20 lakh, retrospectively from 1 October 2024"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F8"
+   ],
+   "explanation": "The immunity is retrospective from 1 October 2024 and covers undisclosed non-immovable foreign assets below ₹20 lakh. Immovable assets, a prospective date, and a higher threshold are incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "TDS compliance reforms",
+   "question": "Match the following tax-compliance measures with their corresponding proposals:\n\nList-I\n(a) Form 15G/15H\n(b) Lower/nil TDS certificate\n(c) Decriminalised provisions\n\nList-II\n(i) Single-window filing through depositories\n(ii) Rules-based automated process for small taxpayers\n(iii) Non-submission of books/documents and TDS where payment is in kind\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-ii, c-iii",
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii",
+    "a-i, b-iii, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10",
+    "P2.F11"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii and c-iii. Form 15G/15H gets a single-window route through depositories, lower/nil TDS certificates use an automated rules-based process, and the specified non-submission and in-kind TDS matters are decriminalised."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MAT credit set-off",
+   "question": "Under the Union Budget 2026–27 proposal on MAT credit, which companies can use the old credit for set-off?",
+   "options": [
+    "Companies moving to the new regime, with set-off capped at one-fourth",
+    "All companies, with set-off capped at one-half",
+    "Companies remaining in the old regime, with set-off capped at one-fourth",
+    "Companies moving to the new regime, with unlimited set-off"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F19"
+   ],
+   "explanation": "The old MAT credit can be set off only by companies moving to the new regime, and the set-off is capped at one-fourth. The alternatives incorrectly change the eligible companies or the cap."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Definition of IT services",
+   "question": "Which category is proposed to merge software development, ITeS, KPO and contract R&D under the Union Budget 2026–27 transfer-pricing measures?",
+   "options": [
+    "Information Technology Services",
+    "Component warehousing",
+    "Toll manufacturing in bonded zones",
+    "Foreign Asset Disclosure Scheme"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F20"
+   ],
+   "explanation": "“Information Technology Services” is the single category merging software development, ITeS, KPO and contract R&D. The other options relate to bonded warehousing, manufacturing or foreign-asset compliance."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Safe harbour threshold",
+   "question": "Under the proposed safe harbour rules for IT services, what threshold is specified for the raised limit?",
+   "options": [
+    "₹2,000 crore",
+    "₹300 crore",
+    "15.5%",
+    "5 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F21"
+   ],
+   "explanation": "The threshold for IT-services safe harbour is raised to ₹2,000 crore from ₹300 crore. The figures 15.5% and 5 years refer to the margin and validity period, not the threshold."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Unilateral APA timeline",
+   "question": "What is the proposed target for concluding unilateral APAs for IT services?",
+   "options": [
+    "Within 2 years, extendable by 6 months",
+    "Within 6 months, extendable by 2 years",
+    "Within 5 years, extendable by 6 months",
+    "Within 2 years, with no extension"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F22"
+   ],
+   "explanation": "The target is to conclude unilateral APAs within 2 years, with an extension of 6 months. The 5-year period belongs to another IT-services measure, while the other options reverse or remove the stated timeline."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tax holiday for data centres",
+   "question": "What tax concession is proposed for foreign companies providing cloud services to global customers through Indian data centres?",
+   "options": [
+    "Tax holiday up to 2047",
+    "A 5-year income-tax exemption only for capital-goods suppliers",
+    "A 15% safe harbour on costs",
+    "A 2% safe harbour margin on invoice value"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F23"
+   ],
+   "explanation": "Foreign companies providing cloud services to global customers through Indian data centres are proposed to receive a tax holiday up to 2047. The other options describe separate safe-harbour or bonded-zone measures."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Bonded-zone and non-resident concessions",
+   "question": "Match the following proposals under the Union Budget 2026–27 with their details:\n\nList-I\n(a) Related-entity data centre services from India\n(b) Component warehousing in bonded warehouses\n(c) Toll manufacturing in bonded zones\n(d) Non-resident experts\n\nList-II\n(i) 15% safe harbour on costs\n(ii) 2% of invoice value as safe harbour margin\n(iii) 5-year income-tax exemption for specified suppliers\n(iv) Global income exempt for a 5-year stay under notified schemes\n\nSelect the correct code.",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F24",
+    "P2.F25",
+    "P2.F26",
+    "P2.F27"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Related-entity data-centre services receive a 15% cost safe harbour, component warehousing uses 2% of invoice value, toll manufacturing gets a 5-year exemption, and notified non-resident experts receive the stated 5-year global-income exemption."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "MAT and ICDS reforms",
+   "question": "Assertion (A): Non-residents paying tax on a presumptive basis are proposed to receive MAT exemption.\nReason (R): A joint committee of the Ministry of Corporate Affairs and CBDT is to merge ICDS into Ind AS.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F28",
+    "P2.F29"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the ICDS–Ind AS merger is a separate accounting reform and does not explain the MAT exemption for non-residents paying tax on a presumptive basis."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Safe harbour definition",
+   "question": "What simplification is proposed in the safe harbour rules under the Union Budget 2026–27?",
+   "options": [
+    "The definition of “accountant” is simplified",
+    "The definition of “accountant” is removed",
+    "The definition of “accountant” is extended to all non-residents",
+    "The definition of “accountant” is replaced by “promoter”"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F30"
+   ],
+   "explanation": "The proposal simplifies the definition of “accountant” in the safe harbour rules. It does not remove or replace that definition, nor extend it in the manner stated by the other options."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Cooperative society benefits",
+   "question": "Which combination correctly describes the Union Budget 2026–27 proposal for cooperatives?",
+   "options": [
+    "Deduction for societies supplying cattle feed and cotton seeds, and a 3-year dividend exemption for notified National Cooperative Federations on investments up to 31 January 2026",
+    "Deduction only for societies supplying liquor and minerals, and a 5-year dividend exemption for all cooperatives",
+    "Deduction for societies supplying cattle feed and cotton seeds, and a 6-month dividend exemption for notified National Cooperative Federations",
+    "Deduction for societies supplying cattle feed and cotton seeds, and a 3-year dividend exemption for notified National Cooperative Federations on investments up to 31 December 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F31"
+   ],
+   "explanation": "The proposal extends the deduction to societies supplying cattle feed and cotton seeds and provides a 3-year dividend exemption for notified National Cooperative Federations on investments up to 31 January 2026. The other options alter the eligible activities, exemption period or investment cut-off."
+  }
+ ]
+}

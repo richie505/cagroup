@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": [
+  "P2.F22",
+  "P2.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "PAN-based challan",
+   "question": "Under the Union Budget 2026–27 tax proposals, what must a resident buyer use for an NRI property deal?",
+   "options": [
+    "A PAN-based challan instead of TAN",
+    "A TAN-based challan instead of PAN",
+    "A single-window Form 15G/15H filing",
+    "An automated lower/nil TDS certificate"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "For an NRI property deal, the resident buyer is proposed to use a PAN-based challan instead of TAN. The tempting alternative is a TAN-based challan, but the proposal specifically replaces TAN with PAN."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Unilateral APAs",
+   "question": "With reference to the Union Budget 2026–27 transfer-pricing proposals, consider the following statements:\nStatement A: Unilateral APAs for IT services are targeted for conclusion within 2 years, extendable by 6 months.\nStatement B: The modified return facility is extended to associated enterprises.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F22"
+   ],
+   "explanation": "Both statements correctly describe the proposals for unilateral APAs in IT services: conclusion is targeted within 2 years with a possible 6-month extension, and the modified return facility is extended to associated enterprises. The tempting alternatives incorrectly treat one of these two measures as absent or incorrect."
+  }
+ ]
+}

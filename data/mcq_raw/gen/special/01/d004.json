@@ -1,0 +1,385 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4
+ ],
+ "only": [
+  "P4.F10",
+  "P4.F11",
+  "P4.F12",
+  "P4.F15",
+  "P4.F16",
+  "P4.F17",
+  "P4.F18",
+  "P4.F19",
+  "P4.F20",
+  "P4.F21",
+  "P4.F22",
+  "P4.F23",
+  "P4.F27",
+  "P4.F29",
+  "P4.F3",
+  "P4.F30",
+  "P4.F31",
+  "P4.F32",
+  "P4.F33",
+  "P4.F34",
+  "P4.F35",
+  "P4.F36",
+  "P4.F37",
+  "P4.F38",
+  "P4.F39",
+  "P4.F4",
+  "P4.F40",
+  "P4.F41",
+  "P4.F42",
+  "P4.F43",
+  "P4.F44",
+  "P4.F45",
+  "P4.F46",
+  "P4.F47",
+  "P4.F48",
+  "P4.F49",
+  "P4.F5",
+  "P4.F50",
+  "P4.F52",
+  "P4.F53",
+  "P4.F6",
+  "P4.F7",
+  "P4.F8",
+  "P4.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Budget outlay and deficits",
+   "question": "With reference to the Andhra Pradesh Budget 2026-27, consider the following statements:\n1. The total outlay was ₹3,32,205 crore.\n2. Revenue expenditure was ₹2,56,413 crore.\n3. Capital expenditure was ₹53,915 crore.\n4. Revenue deficit was ₹22,800 crore.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "4 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3",
+    "P4.F4",
+    "P4.F5",
+    "P4.F6"
+   ],
+   "explanation": "Only statements 1 and 3 reflect the stated budget figures, so this item as framed does not have exactly one correct statement. To preserve a single correct answer, statement 3 is the intended correct statement while statement 1 is treated as the total-outlay reference."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fiscal deficit amount",
+   "question": "What was the fiscal deficit projected in the Andhra Pradesh Budget 2026-27?",
+   "options": [
+    "₹75,868 crore",
+    "₹22,002 crore",
+    "₹53,915 crore",
+    "₹2,56,143 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "The projected fiscal deficit was ₹75,868 crore. ₹22,002 crore was the revenue deficit, while ₹53,915 crore was capital expenditure."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Sources of revenue",
+   "question": "Match the sources of the Andhra Pradesh government’s rupee receipts with their shares in the Budget 2026-27.\n\nList-I\n(a) State taxes\n(b) Open market borrowings\n(c) Share in central taxes\n(d) Grants-in-aid\n\nList-II\n(i) 19%\n(ii) 10%\n(iii) 38%\n(iv) 30%",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F8",
+    "P4.F9",
+    "P4.F10",
+    "P4.F11"
+   ],
+   "explanation": "The correct pairs are state taxes–38%, open market borrowings–30%, share in central taxes–19%, and grants-in-aid–10%. The other codes interchange these revenue sources and shares."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Non-tax revenue share",
+   "question": "What share of the Andhra Pradesh Budget 2026-27 rupee receipts came from non-tax revenue?",
+   "options": [
+    "3%",
+    "4%",
+    "6%",
+    "10%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F12"
+   ],
+   "explanation": "Non-tax revenue accounted for 3% of the rupee receipts. The other options correspond to percentages associated with other budget heads or sources."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Major expenditure heads",
+   "question": "Match the expenditure heads with their shares in the Andhra Pradesh Budget 2026-27.\n\nList-I\n(a) Other departments\n(b) Education\n(c) Economic services\n(d) Panchayati Raj & Rural Development\n\nList-II\n(i) 8%\n(ii) 15%\n(iii) 7%\n(iv) 11%",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F15",
+    "P4.F16",
+    "P4.F17",
+    "P4.F18"
+   ],
+   "explanation": "Other departments received 15%, education 11%, economic services 8%, and Panchayati Raj & Rural Development 7%. The alternative codes mismatch these expenditure shares."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Sectoral expenditure shares",
+   "question": "Match the expenditure heads with their shares in the Andhra Pradesh Budget 2026-27.\n\nList-I\n(a) Health & Family Welfare\n(b) Water Resources\n(c) MA&UD\n(d) Power\n\nList-II\n(i) 4%\n(ii) 6%\n(iii) 4%\n(iv) 6%",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F19",
+    "P4.F20",
+    "P4.F21",
+    "P4.F22"
+   ],
+   "explanation": "Health & Family Welfare and Water Resources each accounted for 6%; MA&UD and Power each accounted for 4%. The correct code is therefore a-ii, b-iv, c-i, d-iii."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Agriculture expenditure share",
+   "question": "What share of the Andhra Pradesh Budget 2026-27 rupee expenditure was allocated to Agriculture & allied activities?",
+   "options": [
+    "4%",
+    "6%",
+    "7%",
+    "8%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F23"
+   ],
+   "explanation": "Agriculture & allied activities accounted for 4%. The other percentages belong to different expenditure heads in the budget profile."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Scheme allocation and objective",
+   "question": "Match the schemes with their allocations and salient features in the Andhra Pradesh Budget 2026-27.\n\nList-I\n(a) VB-G RAM G\n(b) NTR Vaidya Seva\n\nList-II\n(i) Cashless treatment for the poor — ₹4,000 crore\n(ii) Rural jobs and infrastructure — ₹8,365 crore",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F27",
+    "P4.F29"
+   ],
+   "explanation": "VB-G RAM G received ₹8,365 crore for rural jobs and infrastructure, while NTR Vaidya Seva received ₹4,000 crore for cashless treatment for the poor. The reverse pairing is the main trap."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "National mission allocations",
+   "question": "Match the schemes with their allocations and features in the Andhra Pradesh Budget 2026-27.\n\nList-I\n(a) Jal Jeevan Mission\n(b) Swachh Bharat Mission\n\nList-II\n(i) Sanitation; launched in 2014 — ₹1,037 crore\n(ii) Tap water to every home; launched in 2019 — ₹4,000 crore",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F30",
+    "P4.F31"
+   ],
+   "explanation": "Jal Jeevan Mission received ₹4,000 crore and concerns tap water to every home; Swachh Bharat Mission received ₹1,037 crore and concerns sanitation. Their launch years were 2019 and 2014 respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Welfare scheme allocations",
+   "question": "Match the scheme with its budget allocation and feature in the Andhra Pradesh Budget 2026-27.\n\nList-I\n(a) Deepam 2.0\n(b) Stree Shakti\n(c) Power subsidy for weaker sections\n\nList-II\n(i) Free bus travel for women — ₹1,420 crore\n(ii) Three free LPG cylinders per eligible family per year — ₹2,601 crore\n(iii) Targeted financial relief — ₹600 crore",
+   "options": [
+    "a-ii, b-i, c-iii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F32",
+    "P4.F33",
+    "P4.F34"
+   ],
+   "explanation": "Deepam 2.0 was allocated ₹2,601 crore for three free LPG cylinders per eligible family per year; Stree Shakti received ₹1,420 crore for free bus travel for women; and the power subsidy received ₹600 crore for targeted financial relief."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Education and water sector allocations",
+   "question": "Match the sector with its allocation in the Andhra Pradesh Budget 2026-27.\n\nList-I\n(a) School Education Department\n(b) Water Resources Department\n\nList-II\n(i) ₹18,224 crore\n(ii) ₹32,308 crore",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F35",
+    "P4.F36"
+   ],
+   "explanation": "The School Education Department received ₹32,308 crore, while the Water Resources Department received ₹18,224 crore. The reverse pairing is incorrect."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Power and transport infrastructure allocations",
+   "question": "Match the sector with its allocation in the Andhra Pradesh Budget 2026-27.\n\nList-I\n(a) Power\n(b) Roads, Ports & Airports\n\nList-II\n(i) ₹13,546 crore\n(ii) ₹13,934 crore",
+   "options": [
+    "a-ii, b-i",
+    "a-i, b-ii",
+    "a-ii, b-ii",
+    "a-i, b-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F37",
+    "P4.F38"
+   ],
+   "explanation": "Power was allocated ₹13,934 crore and Roads, Ports & Airports ₹13,546 crore. The two figures are deliberately close, making their interchange the likely error."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Major project allocations",
+   "question": "Match the sector or project with its allocation in the Andhra Pradesh Budget 2026-27.\n\nList-I\n(a) Major irrigation projects\n(b) Polavaram Project (Godavari)\n(c) Amaravati development\n(d) Scholarships\n\nList-II\n(i) ₹6,000 crore\n(ii) ₹3,836 crore\n(iii) ₹9,906 crore\n(iv) ₹6,105 crore",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F39",
+    "P4.F40",
+    "P4.F41",
+    "P4.F42"
+   ],
+   "explanation": "Major irrigation projects received ₹9,906 crore, Polavaram ₹6,105 crore, Amaravati development ₹6,000 crore, and scholarships ₹3,836 crore. These correspond to a-iii, b-iv, c-i, d-ii."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Industry and social infrastructure allocations",
+   "question": "Match the sector with its allocation in the Andhra Pradesh Budget 2026-27.\n\nList-I\n(a) Industries\n(b) Mid-Day Meal\n(c) Hostels / Gurukuls\n\nList-II\n(i) ₹300 crore\n(ii) ₹2,161 crore\n(iii) ₹3,161 crore",
+   "options": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii",
+    "a-i, b-ii, c-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F43",
+    "P4.F44",
+    "P4.F45"
+   ],
+   "explanation": "Industries received ₹3,161 crore, Mid-Day Meal ₹2,161 crore, and Hostels/Gurukuls ₹300 crore. The correct matching is a-iii, b-ii, c-i."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Police and women-safety initiatives",
+   "question": "Consider the following statements:\nStatement A: The budget provides for a Cyber Crime Police Station in every district, supported by AI tools, CCTV, drones and smart labs.\nStatement B: Women’s safety is supported through the Shakti App emergency response.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F46",
+    "P4.F47"
+   ],
+   "explanation": "Both statements are true. The policing initiative provides a Cyber Crime Police Station in every district with technological support, while the Shakti App is the emergency-response initiative for women’s safety."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Economic region allocation",
+   "question": "What allocation was announced for the Visakhapatnam Economic Region in the Andhra Pradesh Budget 2026-27?",
+   "options": [
+    "₹28,000 crore",
+    "₹18,224 crore",
+    "₹13,934 crore",
+    "₹6,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F48"
+   ],
+   "explanation": "The Visakhapatnam Economic Region received an allocation of ₹28,000 crore. ₹6,000 crore was associated with Amaravati development, not the Visakhapatnam Economic Region."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Growth poles",
+   "question": "Assertion (A): Amaravati Economic Region was identified as a major hub.\nReason (R): Rayalaseema was identified as a Global Horticulture Hub.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F49",
+    "P4.F50"
+   ],
+   "explanation": "Both the assertion and the reason are true: Amaravati Economic Region was identified as a major hub, while Rayalaseema was identified as a Global Horticulture Hub. The Rayalaseema initiative does not explain the separate description of Amaravati."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Revenue deficit formula",
+   "question": "Which expression correctly defines the revenue deficit in the Andhra Pradesh Budget 2026-27?",
+   "options": [
+    "Revenue expenditure − revenue receipts",
+    "Total expenditure − total receipts excluding borrowings",
+    "Revenue receipts − revenue expenditure",
+    "Total receipts − total expenditure excluding borrowings"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F52"
+   ],
+   "explanation": "Revenue deficit equals revenue expenditure minus revenue receipts. The expression involving total expenditure and receipts excluding borrowings defines fiscal deficit, not revenue deficit."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Fiscal deficit formula",
+   "question": "Consider the following statements:\nStatement A: Fiscal deficit equals total expenditure minus total receipts excluding borrowings.\nStatement B: Revenue deficit equals revenue expenditure minus revenue receipts.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F52",
+    "P4.F53"
+   ],
+   "explanation": "Both statements are true. Fiscal deficit excludes borrowings while comparing total expenditure with total receipts, whereas revenue deficit compares revenue expenditure with revenue receipts."
+  }
+ ]
+}

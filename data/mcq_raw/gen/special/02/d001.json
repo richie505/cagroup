@@ -1,0 +1,136 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1
+ ],
+ "only": [
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F14",
+  "P1.F15",
+  "P1.F17",
+  "P1.F18",
+  "P1.F5",
+  "P1.F8",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Awardee and field",
+   "question": "Who among the following Padma Vibhushan awardees of 2026 was honoured in Public Affairs and associated with Kerala?",
+   "options": [
+    "V.S. Achyuthanandan",
+    "K.T. Thomas",
+    "P. Narayanan",
+    "N. Rajam"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "V.S. Achyuthanandan was honoured posthumously with the Padma Vibhushan in Public Affairs and was associated with Kerala. K.T. Thomas was also associated with Kerala, but the stated field for him was Public Affairs; the other alternatives have different award details."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Awardee and State",
+   "question": "Bhagat Singh Koshyari received the Padma Bhushan 2026 in which field and from which State association?",
+   "options": [
+    "Public Affairs — Uttarakhand",
+    "Public Affairs — Jharkhand",
+    "Trade and Industry — Maharashtra",
+    "Medicine — Tamil Nadu"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F8"
+   ],
+   "explanation": "Bhagat Singh Koshyari was honoured in Public Affairs and associated with Uttarakhand. Jharkhand is associated with Shibu Soren, while Tamil Nadu is associated with awardees in Medicine and Social Work."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Field and State",
+   "question": "Kallipatti Ramaswamy Palaniswami was awarded the Padma Bhushan 2026 for which field, with association to which State?",
+   "options": [
+    "Medicine — Tamil Nadu",
+    "Medicine — USA",
+    "Arts — Maharashtra",
+    "Public Affairs — Kerala"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F9"
+   ],
+   "explanation": "Kallipatti Ramaswamy Palaniswami was honoured in Medicine and associated with Tamil Nadu. Medicine with association to the USA applies to Dr. Nori Dattatreya, not Kallipatti Ramaswamy Palaniswami."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Awardee, field and State",
+   "question": "Match the Padma Bhushan 2026 awardees and their details:\n\nList-I\n a. Dr. Nori Dattatreya — Field\n b. Dr. Nori Dattatreya — State\n c. Piyush Pandey — Field\n d. Piyush Pandey — State\n\nList-II\n i. Maharashtra\n ii. Arts\n iii. USA\n iv. Medicine",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11",
+    "P1.F12"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-ii and d-i: Dr. Nori Dattatreya was associated with Medicine and the USA, while Piyush Pandey was associated with Arts and Maharashtra. The other codes interchange the fields or State associations."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Awardee, field and State",
+   "question": "With reference to the Padma Bhushan 2026, consider the following statements:\n\n1. S.K.M. Mylananthan was honoured in Social Work and associated with Tamil Nadu.\n2. Shatavadhani R. Ganesh was honoured in Arts and associated with Karnataka.\n3. S.K.M. Mylananthan was honoured in Medicine and associated with Tamil Nadu.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F13",
+    "P1.F14"
+   ],
+   "explanation": "Statements 1 and 2 are correct: S.K.M. Mylananthan was honoured in Social Work and Shatavadhani R. Ganesh in Arts, with associations to Tamil Nadu and Karnataka respectively. Statement 3 is incorrect because S.K.M. Mylananthan was honoured in Social Work, not Medicine."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Awardee and State association",
+   "question": "Assertion (A): Shibu Soren, a Padma Bhushan 2026 awardee, was associated with Delhi.\nReason (R): V.K. Malhotra, a Padma Bhushan 2026 awardee, was honoured in Public Affairs and associated with Delhi.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F15",
+    "P1.F17"
+   ],
+   "explanation": "Assertion A is false because Shibu Soren was associated with Jharkhand. Reason R is true because V.K. Malhotra was honoured in Public Affairs and associated with Delhi."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Awardee, field and State",
+   "question": "Consider the following statements about the Padma Bhushan 2026:\n\nStatement A: Vellappally Natesan was a Padma Bhushan awardee.\nStatement B: Vellappally Natesan was honoured in Public Affairs and associated with Kerala.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F18"
+   ],
+   "explanation": "Both statements are true. Vellappally Natesan received the Padma Bhushan and was honoured in Public Affairs with association to Kerala."
+  }
+ ]
+}

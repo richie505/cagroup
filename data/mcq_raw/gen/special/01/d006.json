@@ -1,0 +1,194 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6
+ ],
+ "only": [
+  "P6.F10",
+  "P6.F12",
+  "P6.F13",
+  "P6.F14",
+  "P6.F17",
+  "P6.F18",
+  "P6.F19",
+  "P6.F20",
+  "P6.F21",
+  "P6.F22",
+  "P6.F23",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in index",
+   "question": "In the NITI Aayog Fiscal Health Index 2023-24, which State secured the second rank?",
+   "options": [
+    "Jharkhand",
+    "Goa",
+    "Gujarat",
+    "Maharashtra"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "Goa secured the second rank in the NITI Aayog Fiscal Health Index 2023-24. Jharkhand, Gujarat and Maharashtra occupied the third, fourth and fifth ranks, respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "State rankings",
+   "question": "With reference to the rankings in the NITI Aayog Fiscal Health Index 2023-24, consider the following statements:\n1. Jharkhand secured the third rank.\n2. Gujarat secured the fourth rank.\n3. Maharashtra secured the fifth rank.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F6",
+    "P6.F7",
+    "P6.F8"
+   ],
+   "explanation": "All three statements are correct: Jharkhand ranked third, Gujarat fourth and Maharashtra fifth. The combinations excluding any one of these States are therefore incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Comparative ranking",
+   "question": "Consider the following statements:\nStatement A: Telangana secured the seventh rank in the NITI Aayog Fiscal Health Index 2023-24.\nStatement B: Andhra Pradesh secured the sixteenth rank in the index.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F9",
+    "P6.F10"
+   ],
+   "explanation": "Statement A is true because Telangana secured the seventh rank. Statement B is false; Andhra Pradesh secured the seventeenth rank, not the sixteenth."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Sub-index scores",
+   "question": "Match the Andhra Pradesh sub-indices and Telangana revenue indicator with their respective values in the NITI Aayog Fiscal Health Index 2023-24.\n\nList-I\n a. Debt Index\n b. Revenue Mobilisation\n c. Fiscal Prudence\n d. Telangana's own tax revenue as a share of total revenue\n\nList-II\n i. 36.6\n ii. 21.7\n iii. 9.9\n iv. 80%",
+   "options": [
+    "a-ii, b-i, c-iii, d-iv",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iii, b-ii, c-i, d-iv"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F12",
+    "P6.F13",
+    "P6.F14",
+    "P6.F17"
+   ],
+   "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv: Andhra Pradesh scored 36.6 in Debt Index, 21.7 in Revenue Mobilisation and 9.9 in Fiscal Prudence, while Telangana's own tax revenue formed 80% of total revenue. The other codes interchange the Andhra Pradesh sub-index scores."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Revenue composition",
+   "question": "Which of the following statements about Telangana's revenue position is incorrect?",
+   "options": [
+    "Telangana's non-tax revenue grew by about 33% a year since 2019-20.",
+    "Grants-in-aid increased to about 6% of revenue.",
+    "Telangana's own tax revenue accounted for 80% of total revenue in 2023-24.",
+    "Telangana's tax revenue increased by 13.4%."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F18",
+    "P6.F17"
+   ],
+   "explanation": "The incorrect statement is that grants-in-aid increased to about 6%. Grants-in-aid declined to about 6%, while the other statements correctly describe Telangana's revenue indicators."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Revenue position",
+   "question": "According to the NITI Aayog Fiscal Health Index 2023-24 findings, how did Telangana's revenue position change between 2019-20 and 2022-23?",
+   "options": [
+    "From a deficit of ₹6,254 crore to a surplus of ₹5,943 crore",
+    "From a surplus of ₹6,254 crore to a deficit of ₹5,943 crore",
+    "From a deficit of ₹5,943 crore to a surplus of ₹6,254 crore",
+    "From a surplus of ₹5,943 crore to a deficit of ₹6,254 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F19"
+   ],
+   "explanation": "Telangana's revenue position improved from a deficit of ₹6,254 crore in 2019-20 to a surplus of ₹5,943 crore in 2022-23. The other options reverse the direction or interchange the two amounts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Fiscal deficit",
+   "question": "What was the change in Telangana's fiscal deficit between 2019-20 and 2023-24, as reported in the NITI Aayog Fiscal Health Index 2023-24?",
+   "options": [
+    "It declined from 3.33% to 3.29%.",
+    "It increased from 3.29% to 3.33%.",
+    "It increased from 3.33% to 3.29%.",
+    "It remained unchanged at 3.29%."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F20"
+   ],
+   "explanation": "Telangana's fiscal deficit increased from 3.29% to 3.33%. The alternatives either reverse the movement or incorrectly describe the deficit as unchanged."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Debt burden",
+   "question": "What was Telangana's debt in 2023-24 according to the NITI Aayog Fiscal Health Index 2023-24?",
+   "options": [
+    "₹5.17 lakh crore, equal to 34.47% of GSDP",
+    "₹5.17 lakh crore, equal to 43.47% of GSDP",
+    "₹34.47 lakh crore, equal to 5.17% of GSDP",
+    "₹3.33 lakh crore, equal to 34.47% of GSDP"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F21"
+   ],
+   "explanation": "Telangana's debt was ₹5.17 lakh crore, equivalent to 34.47% of GSDP in 2023-24. The other options alter either the amount, the percentage or both."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Institutional profile",
+   "question": "How many of the following statements about NITI Aayog are correct?\n1. NITI Aayog was set up in 2015.\n2. Its headquarters is in New Delhi.\n3. Its Vice-Chairman is Suman Bery.\n4. NITI Aayog was set up in 2014.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F22"
+   ],
+   "explanation": "Only three statements are correct: NITI Aayog was set up in 2015, its headquarters is in New Delhi and its Vice-Chairman is Suman Bery. The incorrect statement changes the establishment year to 2014."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Act and objective",
+   "question": "The FRBM Act, associated with fiscal deficit and debt management, stands for which of the following?",
+   "options": [
+    "Fiscal Responsibility and Budget Management Act, 2003",
+    "Fiscal Responsibility and Budget Management Act, 2004",
+    "Financial Responsibility and Budget Management Act, 2003",
+    "Fiscal Regulation and Budget Management Act, 2003"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F23"
+   ],
+   "explanation": "FRBM stands for the Fiscal Responsibility and Budget Management Act, 2003, which controls fiscal deficit and debt. The other options change either the year or the expansion of the acronym."
+  }
+ ]
+}

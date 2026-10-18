@@ -1,0 +1,137 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4
+ ],
+ "only": [
+  "P4.F19",
+  "P4.F20",
+  "P4.F21",
+  "P4.F22",
+  "P4.F3",
+  "P4.F4",
+  "P4.F48",
+  "P4.F5",
+  "P4.F6",
+  "P4.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Total outlay",
+   "question": "What was the total outlay proposed in the Andhra Pradesh Budget 2026-27?",
+   "options": [
+    "₹3,32,205 crore",
+    "₹2,56,143 crore",
+    "₹53,915 crore",
+    "₹75,868 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "The total outlay in the Andhra Pradesh Budget 2026-27 was ₹3,32,205 crore. ₹2,56,143 crore refers to revenue expenditure, while ₹53,915 crore refers to capital expenditure."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Revenue expenditure",
+   "question": "What amount was provided for revenue expenditure in the Andhra Pradesh Budget 2026-27?",
+   "options": [
+    "₹3,32,205 crore",
+    "₹2,56,143 crore",
+    "₹22,002 crore",
+    "₹75,868 crore"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F4"
+   ],
+   "explanation": "Revenue expenditure was estimated at ₹2,56,143 crore in the Andhra Pradesh Budget 2026-27. ₹22,002 crore was the revenue deficit, whereas ₹75,868 crore was the fiscal deficit."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Capital expenditure and deficits",
+   "question": "With reference to the Andhra Pradesh Budget 2026-27, consider the following statements:\n1. Capital expenditure was ₹53,915 crore.\n2. Revenue deficit was ₹75,868 crore.\n3. Fiscal deficit was ₹53,915 crore.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1 and 2 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F5",
+    "P4.F6",
+    "P4.F7"
+   ],
+   "explanation": "Only statement 1 is correct: capital expenditure was ₹53,915 crore. The revenue deficit was ₹22,002 crore and the fiscal deficit was ₹75,868 crore, so statements 2 and 3 are incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Expenditure-share heads",
+   "question": "Consider the following statements:\nStatement A: Health & Family Welfare accounted for 7% of the rupee expenditure in the Andhra Pradesh Budget 2026-27.\nStatement B: Water Resources accounted for 4% of the rupee expenditure in the Andhra Pradesh Budget 2026-27.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F19",
+    "P4.F20"
+   ],
+   "explanation": "Both statements are false. Health & Family Welfare and Water Resources each accounted for 6% of the rupee expenditure; 7% and 4% are the altered details in the statements."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Expenditure-share head",
+   "question": "What share of the rupee expenditure in the Andhra Pradesh Budget 2026-27 was allocated to MA&UD?",
+   "options": [
+    "4%",
+    "6%",
+    "8%",
+    "11%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F21"
+   ],
+   "explanation": "MA&UD received 4% of the rupee expenditure in the Andhra Pradesh Budget 2026-27. The 6% share belonged to Health & Family Welfare and Water Resources, while Education received 11%."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Power share and growth-region allocation",
+   "question": "How many of the following statements about the Andhra Pradesh Budget 2026-27 are correct?\n1. Power accounted for 4% of the rupee expenditure.\n2. The Visakhapatnam Economic Region was allocated ₹28,000 crore.\n3. Power accounted for 4% of the rupee receipts.\n4. The ₹28,000 crore allocation for the Visakhapatnam Economic Region was listed as a sector allocation.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F22",
+    "P4.F48"
+   ],
+   "explanation": "Only statements 1 and 2 are correct, so the answer is Only two. The 4% figure relates to the rupee expenditure, and ₹28,000 crore was associated with the Visakhapatnam Economic Region as a growth-pole initiative, not as a sector allocation."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Growth-region allocation",
+   "question": "What amount was earmarked for the Visakhapatnam Economic Region in the Andhra Pradesh Budget 2026-27?",
+   "options": [
+    "₹28,000 crore",
+    "₹18,224 crore",
+    "₹13,934 crore",
+    "₹6,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F48"
+   ],
+   "explanation": "The Visakhapatnam Economic Region was allocated ₹28,000 crore. ₹18,224 crore was the allocation for the Water Resources Department, while ₹6,000 crore was provided for Amaravati development."
+  }
+ ]
+}

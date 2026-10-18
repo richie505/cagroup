@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3
+ ],
+ "only": [
+  "P3.F10",
+  "P3.F4",
+  "P3.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Most Budgets presented",
+   "question": "Who holds the record for presenting the most Union Budgets in India, and how many Budgets did he present?",
+   "options": [
+    "Morarji Desai — 10",
+    "Nirmala Sitharaman — 9",
+    "Pranab Mukherjee — 8",
+    "Manmohan Singh — 6"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4"
+   ],
+   "explanation": "Morarji Desai presented the most Budgets, with a total of 10. Nirmala Sitharaman’s figure is 9, while Pranab Mukherjee presented 8 and Manmohan Singh 6."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Shortest Budget and first paperless Budget",
+   "question": "Consider the following statements:\n\n1. The shortest Budget was presented by H.M. Patel in 1977.\n2. The shortest Budget contained about 800 words.\n3. The first paperless Budget was presented on 1 February 2021 for FY 2021-22 by Nirmala Sitharaman.",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F9",
+    "P3.F10"
+   ],
+   "explanation": "All three statements are correct: H.M. Patel presented the shortest Budget in 1977, comprising about 800 words, and Nirmala Sitharaman presented the first paperless Budget on 1 February 2021 for FY 2021-22. The tempting partial choices omit at least one of these correct details."
+  }
+ ]
+}

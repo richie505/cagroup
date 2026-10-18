@@ -1,0 +1,261 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F11",
+  "P0.F12",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F20",
+  "P0.F21",
+  "P0.F22",
+  "P0.F23",
+  "P0.F24",
+  "P0.F25",
+  "P0.F26",
+  "P0.F27",
+  "P0.F5",
+  "P0.F6",
+  "P0.F7",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of women awardees",
+   "question": "How many women were among the Padma Awardees 2026?",
+   "options": [
+    "16",
+    "19",
+    "6",
+    "2"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "The number of women among the Padma Awardees 2026 was 19. The figures 16, 6 and 2 refer respectively to posthumous awardees, foreigners and duos."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Overall Padma Awards statistics",
+   "question": "With reference to the Padma Awards 2026, consider the following statements:\n1. There were 16 posthumous awardees.\n2. There were 6 foreign awardees.\n3. There were 3 duos among the awardees.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: there were 16 posthumous awardees and 6 foreign awardees. Statement 3 is incorrect because the number of duos was 2, not 3."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Telugu awardees distribution",
+   "question": "The 2026 Padma Awards recognised how many Telugu awardees, with what distribution between Andhra Pradesh and Telangana?",
+   "options": [
+    "11: Andhra Pradesh 4 and Telangana 7",
+    "11: Andhra Pradesh 7 and Telangana 4",
+    "13: Andhra Pradesh 4 and Telangana 9",
+    "11: Andhra Pradesh 6 and Telangana 5"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "There were 11 Telugu awardees: 4 from Andhra Pradesh and 7 from Telangana. The other options alter either the total or the State-wise distribution."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Posthumous Telugu awardee",
+   "question": "Which of the following statements about Garimella Balakrishna Prasad, a 2026 Padma Shri awardee from Andhra Pradesh, is incorrect?",
+   "options": [
+    "He was awarded the Padma Shri.",
+    "He was recognised in the field of Arts.",
+    "His award was posthumous.",
+    "His award was for Literature and Education."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "The incorrect statement is that Garimella Balakrishna Prasad was awarded for Literature and Education. He received the Padma Shri in Arts, posthumously."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Telugu awardee and field",
+   "question": "In which field was Maganti Murali Mohan awarded the Padma Shri in 2026?",
+   "options": [
+    "Arts",
+    "Medicine",
+    "Science and Engineering",
+    "Others (Animal Husbandry)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "Maganti Murali Mohan received the Padma Shri in Arts. Medicine, Science and Engineering, and Others (Animal Husbandry) were fields associated with other Telugu awardees."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Telangana Padma Shri awardees and fields",
+   "question": "Consider the following statements about Telangana-based Padma Shri awardees in 2026:\n1. Chandra Mouli Gaddamanugu was awarded in Science and Engineering.\n2. Guduru Venkata Rao was awarded in Medicine.\n3. Krishnamurthy Balasubrahmanyan was awarded in Medicine.\n4. Kumaraswamy Thangaraj was awarded in Arts.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 4 only",
+    "3 and 4 only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14",
+    "P0.F15",
+    "P0.F16",
+    "P0.F17"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Chandra Mouli Gaddamanugu was recognised in Science and Engineering, while Guduru Venkata Rao was recognised in Medicine. Statement 3 is false because Krishnamurthy Balasubrahmanyan was in Science and Engineering, and statement 4 is false because Kumaraswamy Thangaraj was also in Science and Engineering."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Telangana awardee and field",
+   "question": "Palakonda Vijaya Anand Reddy received the 2026 Padma Shri in which field?",
+   "options": [
+    "Medicine",
+    "Arts",
+    "Science and Engineering",
+    "Literature and Education"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F18"
+   ],
+   "explanation": "Palakonda Vijaya Anand Reddy was awarded the Padma Shri in Medicine. Arts, Science and Engineering, and Literature and Education were other fields represented among the awardees."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Posthumous awardee and field",
+   "question": "Rama Reddy Mamidi was awarded the 2026 Padma Shri in which category?",
+   "options": [
+    "Others (Animal Husbandry)",
+    "Arts",
+    "Medicine",
+    "Science and Engineering"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F20"
+   ],
+   "explanation": "Rama Reddy Mamidi, posthumously, received the Padma Shri in Others (Animal Husbandry). The other options refer to different fields of Telugu awardees."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Awardee listed under foreign country",
+   "question": "Which statement regarding Dr. Nori Dattatreya in the Padma Awards 2026 is incorrect?",
+   "options": [
+    "He received the Padma Bhushan.",
+    "He was recognised in Medicine.",
+    "He was listed under the United States of America.",
+    "He was listed as a Telugu State awardee."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F21"
+   ],
+   "explanation": "The incorrect statement is that Dr. Nori Dattatreya was listed as a Telugu State awardee. He received the Padma Bhushan in Medicine and was listed under the United States of America."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Institution and announcement",
+   "question": "When and by which authority was the Padma Awards institutionally announced in the background of the 2026 awards?",
+   "options": [
+    "Instituted in 1954 and announced on Republic Day through a Ministry of Home Affairs notification",
+    "Instituted in 1978 and announced on Republic Day through a Ministry of Home Affairs notification",
+    "Instituted in 1954 and announced on Independence Day through a Ministry of Home Affairs notification",
+    "Instituted in 1954 and announced on Republic Day through a Ministry of Culture notification"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F22"
+   ],
+   "explanation": "The Padma Awards were instituted in 1954 and are announced on Republic Day through a Ministry of Home Affairs notification. The other options change either the year, the occasion or the notifying ministry."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Suspension periods",
+   "question": "Consider the following statements:\nStatement A: The Padma Awards were suspended during 1978–1979 and 1993–1997.\nStatement B: The Padma Awards were suspended during 1979–1980 and 1993–1997.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F23"
+   ],
+   "explanation": "Statement A is true: the Padma Awards were suspended during 1978–1979 and 1993–1997. Statement B is false because the first suspension period was 1978–1979, not 1979–1980."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Annual limit",
+   "question": "What is the annual limit on Padma Awards, excluding posthumous awards and foreigners?",
+   "options": [
+    "120",
+    "131",
+    "113",
+    "19"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F24"
+   ],
+   "explanation": "The Padma Awards are limited to not more than 120 in a year, excluding posthumous awards and foreigners. The other numbers are associated with overall or category-specific statistics."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Posthumous award rule",
+   "question": "Assertion (A): A posthumous Padma Award may be given when the person's death occurred within one year.\nReason (R): Posthumous Padma Awards are normally given without any restriction.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F25"
+   ],
+   "explanation": "Assertion A is true: posthumous awards are normally not given, but may be allowed if the death occurred within one year. Reason R is false because it removes this restriction and incorrectly states that posthumous awards are normally given without restriction."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Award order and fields",
+   "question": "Consider the following statements about the Padma Awards:\n1. The order of precedence is Padma Vibhushan, followed by Padma Bhushan and Padma Shri.\n2. The awards carry no cash prize.\n3. Astronomy is one of the listed Padma Award fields.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F26",
+    "P0.F27"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the order is Padma Vibhushan, Padma Bhushan and Padma Shri, and there is no cash prize. Statement 3 is incorrect because the listed fields include Arts, Science and Engineering, Medicine and other specified areas, but not Astronomy."
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F12",
+  "P0.F13"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "List-Matching",
+   "keyword": "Puducherry election result",
+   "question": "Match List-I with List-II regarding the 2026 Puducherry Assembly election result.\n\nList-I\n(a) Chief Minister\n(b) Number of seats\n(c) Lieutenant Governor\n(d) Capital\n\nList-II\n(i) N. Rangasamy\n(ii) 30\n(iii) K. Kailashnathan\n(iv) Puducherry",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F12"
+   ],
+   "explanation": "The correct matching is a-i, b-ii, c-iii, d-iv: N. Rangasamy was identified as Chief Minister, Puducherry has 30 seats, K. Kailashnathan is the Lieutenant Governor, and Puducherry is the capital. The tempting second code is incorrect because it interchanges the Chief Minister and seat count."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Governor of Kerala and Tamil Nadu",
+   "question": "According to the 2026 Assembly-election results, who was named as the Governor of both Kerala and Tamil Nadu?",
+   "options": [
+    "Rajendra Arlekar",
+    "Lakshman Prasad Acharya",
+    "R.N. Ravi",
+    "K. Kailashnathan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Rajendra Arlekar was named as the Governor of both Kerala and Tamil Nadu. K. Kailashnathan is associated with Puducherry as its Lieutenant Governor, not with both Kerala and Tamil Nadu."
+  }
+ ]
+}

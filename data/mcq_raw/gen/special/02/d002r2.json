@@ -1,0 +1,343 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": [
+  "P2.F1",
+  "P2.F10",
+  "P2.F12",
+  "P2.F13",
+  "P2.F16",
+  "P2.F2",
+  "P2.F25",
+  "P2.F26",
+  "P2.F27",
+  "P2.F28",
+  "P2.F29",
+  "P2.F3",
+  "P2.F30",
+  "P2.F31",
+  "P2.F32",
+  "P2.F33",
+  "P2.F34",
+  "P2.F35",
+  "P2.F41",
+  "P2.F44",
+  "P2.F5",
+  "P2.F6",
+  "P2.F67",
+  "P2.F68",
+  "P2.F69",
+  "P2.F7",
+  "P2.F70",
+  "P2.F71",
+  "P2.F73",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Awardee and field",
+   "question": "In the Padma Shri 2026 state-wise list, Haricharan Saikia of Assam was honoured in which field?",
+   "options": [
+    "Arts",
+    "Sports",
+    "Medicine",
+    "Social Work"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Haricharan Saikia of Assam received the Padma Shri 2026 in Arts. Sports, Medicine and Social Work are not the field associated with this awardee in the list."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Awardee and field",
+   "question": "Jogesh Deori of Assam received the Padma Shri 2026 under which category?",
+   "options": [
+    "Others (Agriculture)",
+    "Science and Engineering",
+    "Literature and Education",
+    "Civil Service"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2"
+   ],
+   "explanation": "Jogesh Deori was honoured under Others (Agriculture). Science and Engineering, Literature and Education, and Civil Service are incorrect categories for him."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Awardee and field",
+   "question": "Nooruddin Ahmed of Assam was a Padma Shri 2026 awardee in which field?",
+   "options": [
+    "Arts",
+    "Medicine",
+    "Social Work",
+    "Sports"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "Nooruddin Ahmed received the Padma Shri 2026 in Arts. The other three options do not match his listed field."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Awardee-field matching",
+   "question": "Match the Padma Shri 2026 awardees with their fields.\n\nList-I\n(a) Gopal Ji Trivedi\n(b) Inderjeet Singh Sidhu\n(c) Ramamurthy Sridhar\n(d) R.V.S. Mani\n\nList-II\ni. Civil Service\nii. Science and Engineering\niii. Social Work\niv. Others (Radio Broadcasting)",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6",
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "The correct pairs are Gopal Ji Trivedi—Science and Engineering, Inderjeet Singh Sidhu—Social Work, Ramamurthy Sridhar—Others (Radio Broadcasting), and R.V.S. Mani—Civil Service. The other codes interchange these fields."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Field-wise identification",
+   "question": "How many of the following Padma Shri 2026 awardee-field pairs are correctly matched?\n\n1. Mamidala Jagadish Kumar — Literature and Education\n2. Khem Raj Sundariyal — Arts\n3. Prem Lal Gautam — Medicine",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "None"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F9",
+    "P2.F10",
+    "P2.F12"
+   ],
+   "explanation": "Exactly two pairs are correct: Mamidala Jagadish Kumar—Literature and Education and Khem Raj Sundariyal—Arts. Prem Lal Gautam was honoured in Science and Engineering, not Medicine, so “Only three” is incorrect."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Awardee-field identification",
+   "question": "Consider the following statements:\nStatement A: Brij Lal Bhatt of Jammu & Kashmir received the Padma Shri 2026 in Arts.\nStatement B: Yumnam Jatra Singh of Manipur received the Padma Shri 2026 in Sports.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F13",
+    "P2.F16"
+   ],
+   "explanation": "Both statements are false. Brij Lal Bhatt was honoured in Social Work, while Yumnam Jatra Singh was honoured posthumously in Arts."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Awardee-field matching",
+   "question": "With reference to the Padma Shri 2026 awardees from Uttar Pradesh, consider the following statements:\n\n1. Keval Krishan Thakral was honoured in Medicine.\n2. Praveen Kumar was honoured in Sports.\n3. Rajendra Prasad was honoured in Science and Engineering.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F25",
+    "P2.F26",
+    "P2.F27"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Keval Krishan Thakral was honoured in Medicine and Praveen Kumar in Sports. Rajendra Prasad was honoured in Medicine, not Science and Engineering."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Posthumous awardee and field",
+   "question": "Raghupat Singh of Uttar Pradesh, honoured posthumously with the Padma Shri 2026, belonged to which field?",
+   "options": [
+    "Others (Agriculture)",
+    "Medicine",
+    "Arts",
+    "Sports"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F28"
+   ],
+   "explanation": "Raghupat Singh was honoured posthumously in Others (Agriculture). Medicine, Arts and Sports are incorrect fields for this awardee."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Awardee and field",
+   "question": "Which of the following statements about the Padma Shri 2026 awardee Shyam Sundar is incorrect?",
+   "options": [
+    "Shyam Sundar was from Uttar Pradesh.",
+    "Shyam Sundar received the Padma Shri 2026.",
+    "Shyam Sundar was honoured in Medicine.",
+    "Shyam Sundar was honoured in Science and Engineering."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F29"
+   ],
+   "explanation": "The incorrect statement is that Shyam Sundar was honoured in Science and Engineering. Shyam Sundar of Uttar Pradesh received the Padma Shri 2026 in Medicine."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Source-list discrepancy",
+   "question": "Sangyusang S. Pongenor is listed under which two States in the Padma Shri 2026 source list?",
+   "options": [
+    "Assam and Nagaland",
+    "Assam and Manipur",
+    "Nagaland and Tripura",
+    "Manipur and Meghalaya"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F30"
+   ],
+   "explanation": "The source list places Sangyusang S. Pongenor under both Assam and Nagaland. The other State combinations do not represent the stated dual listing."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Awardee-field matching",
+   "question": "Match the Padma Shri 2026 awardees with their fields.\n\nList-I\n(a) Ramchandra Godbole & Sunita Godbole\n(b) Arvind Vaidya\n(c) Dharmiklal Chunilal Pandya\n(d) Mir Hajibhai Kasambhai\n\nList-II\ni. Arts\nii. Medicine\niii. Social Work\niv. Trade and Industry",
+   "options": [
+    "a-ii, b-i, c-i, d-i",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-iii, c-i, d-i",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F31",
+    "P2.F32",
+    "P2.F33",
+    "P2.F34"
+   ],
+   "explanation": "Ramchandra Godbole and Sunita Godbole were honoured in Medicine, while Arvind Vaidya, Dharmiklal Chunilal Pandya and Mir Hajibhai Kasambhai were honoured in Arts. Therefore, the correct code is a-ii, b-i, c-i, d-i."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Awardee and field",
+   "question": "Nilesh Vinodchandra Mandalewala of Gujarat received the Padma Shri 2026 in which field?",
+   "options": [
+    "Social Work",
+    "Arts",
+    "Medicine",
+    "Literature and Education"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F35"
+   ],
+   "explanation": "Nilesh Vinodchandra Mandalewala was honoured in Social Work. The other options are not his listed field."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Awardee and field",
+   "question": "Bhiklya Ladakya Dhinda of Maharashtra was honoured with the Padma Shri 2026 in which field?",
+   "options": [
+    "Arts",
+    "Social Work",
+    "Science and Engineering",
+    "Trade and Industry"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F41"
+   ],
+   "explanation": "Bhiklya Ladakya Dhinda received the Padma Shri 2026 in Arts. Social Work, Science and Engineering, and Trade and Industry are incorrect fields for him."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "State and field",
+   "question": "Assertion (A): Madhavan Ranganathan was a Padma Shri 2026 awardee from Maharashtra.\nReason (R): The Padma Shri 2026 state-wise list places Madhavan Ranganathan under Maharashtra and records his field as Arts.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F44"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the Reason correctly explains the Assertion. Madhavan Ranganathan is listed under Maharashtra and was honoured in Arts."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Awardee-field identification",
+   "question": "Consider the following statements:\nStatement A: Charan Hembram of Odisha received the Padma Shri 2026 in Literature and Education.\nStatement B: Mahendra Kumar Mishra of Odisha received the Padma Shri 2026 in Literature and Education.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F67",
+    "P2.F68"
+   ],
+   "explanation": "Both statements are true. Charan Hembram and Mahendra Kumar Mishra, both from Odisha, were honoured in Literature and Education."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Awardee-field identification",
+   "question": "Consider the following statements:\nStatement A: Sarat Kumar Patra of Odisha received the Padma Shri 2026 in Arts.\nStatement B: Simanchal Patro of Odisha received the Padma Shri 2026 in Arts.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F69",
+    "P2.F70"
+   ],
+   "explanation": "Both statements are true. Sarat Kumar Patra and Simanchal Patro were Odisha awardees in the field of Arts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Awardee and field",
+   "question": "Ashok Kumar Haldar of West Bengal received the Padma Shri 2026 in which field?",
+   "options": [
+    "Literature and Education",
+    "Arts",
+    "Medicine",
+    "Social Work"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F71"
+   ],
+   "explanation": "Ashok Kumar Haldar was honoured in Literature and Education. Arts, Medicine and Social Work are not his listed fields."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Awardee and field",
+   "question": "Gambhir Singh Yonzon of West Bengal was honoured with the Padma Shri 2026 in which field?",
+   "options": [
+    "Literature and Education",
+    "Arts",
+    "Sports",
+    "Science and Engineering"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F73"
+   ],
+   "explanation": "Gambhir Singh Yonzon received the Padma Shri 2026 in Literature and Education. The other three options do not match his listed field."
+  }
+ ]
+}

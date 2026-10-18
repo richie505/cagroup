@@ -36,6 +36,94 @@
     "P0.F2",
     "P0.F5"
    ]
+  },
+  {
+   "id": "special/06/d000#0",
+   "format": "Multi-Statement Correctness",
+   "keyword": "Top and bottom rankings",
+   "question": "With reference to the World Press Freedom Index 2026, consider the following statements:\n1. Norway ranked first among the top five countries.\n2. Iran was among the top five countries.\n3. Sweden was among the bottom five countries.",
+   "options": [
+    "2 only",
+    "1 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statement 1 is correct: Norway ranked first among the top five. Statements 2 and 3 are incorrect because Iran was in the bottom five and Sweden was in the top five.",
+   "facts": [
+    "P0.F3",
+    "P0.F4"
+   ]
+  },
+  {
+   "id": "special/06/d000#1",
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Indicators used in the index",
+   "question": "Which of the following is NOT one of the five indicators used in the World Press Freedom Index 2026?",
+   "options": [
+    "Freedom of speech and expression",
+    "Legal framework",
+    "Safety of journalists",
+    "Political context"
+   ],
+   "answer": 0,
+   "explanation": "Freedom of speech and expression is not listed among the five indicators. The specified indicators are political context, legal framework, economic context, socio-cultural context and safety of journalists.",
+   "facts": [
+    "P0.F6"
+   ]
+  },
+  {
+   "id": "special/06/d000#2",
+   "format": "Count-Based",
+   "keyword": "Global trends in press freedom",
+   "question": "How many of the following statements correctly describe the global trends highlighted in the World Press Freedom Index 2026?\n1. Press freedom was at its lowest level in decades.\n2. More than 50% of countries were in the “Difficult” or “Very Serious” categories.\n3. About 100 countries improved their press-freedom position.\n4. Press freedom was at its highest level in decades.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer": 1,
+   "explanation": "Only statements 1 and 2 are correct, so the answer is Only two. The report highlighted the lowest level of press freedom in decades and stated that more than 50% of countries were in the “Difficult” or “Very Serious” categories; about 100 countries declined, not improved.",
+   "facts": [
+    "P0.F7",
+    "P0.F8"
+   ]
+  },
+  {
+   "id": "special/06/d000#3",
+   "format": "Direct Recall",
+   "keyword": "Reasons for India’s position",
+   "question": "Which of the following combinations was identified as contributing to India’s position in the World Press Freedom Index 2026?",
+   "options": [
+    "Violence against journalists, arrests and legal pressure, media ownership concentration, political influence, and online harassment",
+    "Violence against journalists, arrests and legal pressure, media ownership concentration, judicial independence, and online harassment",
+    "Violence against journalists, arrests and legal pressure, media ownership concentration, political influence, and improved journalist safety",
+    "Violence against journalists, reduced legal pressure, media ownership concentration, political influence, and online harassment"
+   ],
+   "answer": 0,
+   "explanation": "The correct combination includes violence against journalists, arrests and legal pressure, media ownership concentration, political influence and online harassment. The other options alter one of these reported reasons by replacing political influence, online harassment or legal pressure.",
+   "facts": [
+    "P0.F9"
+   ]
+  },
+  {
+   "id": "special/06/d000#4",
+   "format": "Statement-Based (A/B)",
+   "keyword": "RSF background and constitutional protection",
+   "question": "Consider the following statements:\nStatement A: Reporters Without Borders was established in 1985 and has its headquarters in Paris, France.\nStatement B: Article 19(1)(a) provides for freedom of speech and expression, with press freedom implicitly protected.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer": 0,
+   "explanation": "Both statements are true. Reporters Without Borders was established in 1985 and is headquartered in Paris, while Article 19(1)(a) protects freedom of speech and expression, including press freedom implicitly.",
+   "facts": [
+    "P0.F10",
+    "P0.F11"
+   ]
   }
  ]
 }

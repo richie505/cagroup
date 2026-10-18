@@ -1,0 +1,171 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": [
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F14",
+  "P0.F15",
+  "P0.F16",
+  "P0.F17",
+  "P0.F18",
+  "P0.F19",
+  "P0.F20",
+  "P0.F8",
+  "P0.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Chief Minister",
+   "question": "Who was identified as the Chief Minister of Assam after the 2026 Assembly elections?",
+   "options": [
+    "Himanta Biswa Sarma",
+    "V.D. Satheesan",
+    "Suvendu Adhikari",
+    "N. Rangasamy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "Himanta Biswa Sarma was identified as the Chief Minister of Assam. V.D. Satheesan, Suvendu Adhikari and N. Rangasamy were associated with Kerala, West Bengal and Puducherry respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Chief Minister",
+   "question": "Who was identified as the Chief Minister of Kerala after the 2026 Assembly elections?",
+   "options": [
+    "C. Joseph Vijay",
+    "V.D. Satheesan",
+    "Himanta Biswa Sarma",
+    "Suvendu Adhikari"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F9"
+   ],
+   "explanation": "V.D. Satheesan was identified as the Chief Minister of Kerala. C. Joseph Vijay, Himanta Biswa Sarma and Suvendu Adhikari were associated with Tamil Nadu, Assam and West Bengal respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Chief Minister",
+   "question": "Who was identified as the Chief Minister of Tamil Nadu after the 2026 Assembly elections?",
+   "options": [
+    "N. Rangasamy",
+    "Suvendu Adhikari",
+    "C. Joseph Vijay",
+    "V.D. Satheesan"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F10"
+   ],
+   "explanation": "C. Joseph Vijay was identified as the Chief Minister of Tamil Nadu. N. Rangasamy, Suvendu Adhikari and V.D. Satheesan were associated with Puducherry, West Bengal and Kerala respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Chief Minister",
+   "question": "Who was identified as the Chief Minister of West Bengal after the 2026 Assembly elections?",
+   "options": [
+    "Suvendu Adhikari",
+    "Himanta Biswa Sarma",
+    "C. Joseph Vijay",
+    "N. Rangasamy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "Suvendu Adhikari was identified as the Chief Minister of West Bengal. Himanta Biswa Sarma, C. Joseph Vijay and N. Rangasamy were associated with Assam, Tamil Nadu and Puducherry respectively."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Governor of two States",
+   "question": "Consider the following statements:\nStatement A: Rajendra Arlekar was named as the Governor of both Kerala and Tamil Nadu.\nStatement B: R.N. Ravi was named as the Governor of both Kerala and Tamil Nadu.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F13"
+   ],
+   "explanation": "Statement A is true: Rajendra Arlekar was named as the Governor of both Kerala and Tamil Nadu. Statement B is false because R.N. Ravi was listed as the Governor of West Bengal, not both Kerala and Tamil Nadu."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Seat strength",
+   "question": "Which pair correctly identifies the State/UT with the most seats and the State/UT with the fewest seats among the five Assembly-election jurisdictions?",
+   "options": [
+    "West Bengal and Puducherry",
+    "Tamil Nadu and Assam",
+    "Kerala and Puducherry",
+    "Assam and Kerala"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F14"
+   ],
+   "explanation": "West Bengal had the most seats, with 294, while Puducherry had the fewest, with 30. Tamil Nadu, Kerala and Assam do not form the stated most-to-fewest pair."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "New poll measures",
+   "question": "With reference to the new poll measures announced for the 2026 Assembly elections, consider the following statements:\n1. The measures were announced by CEC Gyanesh Kumar.\n2. EVMs would carry colour photographs of all candidates.\n3. A polling station could have a maximum of 1,200 voters.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F15",
+    "P0.F16",
+    "P0.F17"
+   ],
+   "explanation": "All three statements are correct. The measures were announced by CEC Gyanesh Kumar, included colour photographs of all candidates on EVMs, and set the polling-station cap at 1,200 voters."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Election information and institutional details",
+   "question": "Match List-I with List-II regarding election-related information:\n\nList-I\n(a) Voter Information Slip\n(b) Election Commission of India\n(c) Establishment of the Election Commission of India\n(d) Headquarters of the Election Commission of India\n\nList-II\n(i) New Delhi\n(ii) Clear polling station details\n(iii) Constitutional body\n(iv) 25 January 1950",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F18",
+    "P0.F19"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i. The Voter Information Slip provides clear polling station details; the Election Commission of India is a constitutional body, established on 25 January 1950, with its headquarters in New Delhi."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Election Commission mandate",
+   "question": "Which set of elections is conducted by the Election Commission of India?",
+   "options": [
+    "Parliament, State Legislatures, and the offices of President and Vice President",
+    "Only Parliament and State Legislatures",
+    "Only the offices of President and Vice President",
+    "State Legislatures and local bodies only"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F20"
+   ],
+   "explanation": "The Election Commission of India conducts elections to Parliament, State Legislatures, and the offices of President and Vice President. The narrower alternatives omit parts of this stated mandate, while local bodies are not included in it."
+  }
+ ]
+}

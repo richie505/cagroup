@@ -1,0 +1,119 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4
+ ],
+ "only": [
+  "P4.F17",
+  "P4.F33",
+  "P4.F34",
+  "P4.F35",
+  "P4.F36",
+  "P4.F39",
+  "P4.F40",
+  "P4.F42",
+  "P4.F7"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Year of designation",
+   "question": "Bhitarkanika Mangroves, a Ramsar site in Odisha, was designated in which year?",
+   "options": [
+    "2002",
+    "1990",
+    "2020",
+    "2022"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F7"
+   ],
+   "explanation": "Bhitarkanika Mangroves was designated as a Ramsar site in 2002. The tempting alternative 2022 is associated with several other Ramsar sites in Odisha, not Bhitarkanika Mangroves."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Year of designation",
+   "question": "Nangal Wildlife Sanctuary, a Ramsar site in Punjab, was designated in which year?",
+   "options": [
+    "2020",
+    "2002",
+    "1990",
+    "2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F17"
+   ],
+   "explanation": "Nangal Wildlife Sanctuary was designated as a Ramsar site in 2020. The year 2002 relates to Kanjli Lake and Ropar Lake, not Nangal Wildlife Sanctuary."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ramsar sites and designation years",
+   "question": "Consider the following statements regarding Ramsar sites in Uttar Pradesh:\n1. Haiderpur Wetland was designated in 2021.\n2. Bakhira Wildlife Sanctuary was designated in 2020.\n3. Patna Bird Sanctuary (Etah) was designated in 2025.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F33",
+    "P4.F34",
+    "P4.F35"
+   ],
+   "explanation": "Only statement 1 is correct: Haiderpur Wetland was designated in 2021. Bakhira Wildlife Sanctuary was designated in 2022 and Patna Bird Sanctuary (Etah) in 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Recent Ramsar designation",
+   "question": "Shekha Jheel Bird Sanctuary (Aligarh), a Ramsar site in Uttar Pradesh, was designated in which year?",
+   "options": [
+    "2026",
+    "2022",
+    "2021",
+    "2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F36"
+   ],
+   "explanation": "Shekha Jheel Bird Sanctuary (Aligarh) was designated as a Ramsar site in 2026. The year 2022 belongs to Bakhira Wildlife Sanctuary, while 2021 belongs to Haiderpur Wetland."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Ramsar sites of West Bengal",
+   "question": "Consider the following statements:\nStatement A: East Calcutta Wetlands was designated as a Ramsar site in 2019.\nStatement B: Sundarbans Wetland was designated as a Ramsar site in 2002.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F39",
+    "P4.F40"
+   ],
+   "explanation": "Both statements are false. East Calcutta Wetlands was designated in 2002, whereas Sundarbans Wetland was designated in 2019."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "1990 Ramsar batch",
+   "question": "How many of the following correctly identify a Ramsar site and its inclusion in the 1990 batch?\n1. Loktak Lake — 1990\n2. Harike Lake — 2002\n3. Sambhar Lake — 2025\n4. Wular — 2020",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F42"
+   ],
+   "explanation": "Only one entry is correct: Loktak Lake is included in the 1990 batch. Harike Lake, Sambhar Lake and Wular are also in the 1990 batch, so the years shown for them are incorrect."
+  }
+ ]
+}

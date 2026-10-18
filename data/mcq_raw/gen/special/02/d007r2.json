@@ -1,0 +1,173 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8
+ ],
+ "only": [
+  "P8.F10",
+  "P8.F11",
+  "P8.F12",
+  "P8.F24",
+  "P8.F25",
+  "P8.F26",
+  "P8.F35",
+  "P8.F36",
+  "P8.F37",
+  "P8.F46",
+  "P8.F47",
+  "P8.F48"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Special award winner",
+   "question": "Who received the Akkineni Nageswara Rao Award at the Gaddar Telangana Film Awards 2025?",
+   "options": [
+    "Jayasudha",
+    "Shivaji",
+    "Bhumika Chawla",
+    "Mark K. Robin"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F10",
+    "P8.F24",
+    "P8.F25",
+    "P8.F26"
+   ],
+   "explanation": "Jayasudha received the Akkineni Nageswara Rao Award. Shivaji was recognised in the Supporting Actor category, not with this special award."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Best Film",
+   "question": "Which film won the Best Film award at the Gaddar Telangana Film Awards 2025?",
+   "options": [
+    "Raju Weds Rambayi",
+    "Thandel",
+    "Igwa",
+    "Little Hearts"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F11",
+    "P8.F14",
+    "P8.F15",
+    "P8.F16"
+   ],
+   "explanation": "Raju Weds Rambayi won the Best Film award. Thandel won in the National Integration category, making it the tempting but incorrect option."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Best Second Film",
+   "question": "Which film won the Best Second Film award at the Gaddar Telangana Film Awards 2025?",
+   "options": [
+    "Dandora",
+    "The Great Pre-Wedding Show",
+    "Thandel",
+    "Court"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F12",
+    "P8.F13",
+    "P8.F14",
+    "P8.F18"
+   ],
+   "explanation": "Dandora was named Best Second Film. The Great Pre-Wedding Show was associated with the Best Third Film category, not Best Second Film."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Supporting Actor",
+   "question": "Who won the Supporting Actor award at the Gaddar Telangana Film Awards 2025?",
+   "options": [
+    "Shivaji",
+    "Naga Chaitanya",
+    "Rashmika Mandanna",
+    "Anurag Kulkarni"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F24",
+    "P8.F22",
+    "P8.F23",
+    "P8.F27"
+   ],
+   "explanation": "Shivaji won the Supporting Actor award for Dandora. Naga Chaitanya won the Actor award, so he is the closest category-based distractor."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Supporting Actress",
+   "question": "Who won the Supporting Actress award at the Gaddar Telangana Film Awards 2025?",
+   "options": [
+    "Bhumika Chawla",
+    "Sahiti",
+    "Krishna Teja Reddy",
+    "Master Rohan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F25",
+    "P8.F28",
+    "P8.F29",
+    "P8.F30"
+   ],
+   "explanation": "Bhumika Chawla won the Supporting Actress award for Euphoria. Sahiti was the Female Singer award winner, not the Supporting Actress winner."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Music Director",
+   "question": "Who won the Music Director award at the Gaddar Telangana Film Awards 2025?",
+   "options": [
+    "Mark K. Robin",
+    "Gunasekhar",
+    "Anil Ravipudi",
+    "Nandakishore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F26",
+    "P8.F31",
+    "P8.F32",
+    "P8.F33"
+   ],
+   "explanation": "Mark K. Robin won the Music Director award for Dandora. Gunasekhar won the Story Writer award, making that option a category-based trap."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Individual award categories and winners",
+   "question": "Match List-I with List-II in the context of the individual awards at the Gaddar Telangana Film Awards 2025.\n\nList-I\n(a) Editor\n(b) Audiographer\n(c) Choreographer\n\nList-II\ni. Sandeep\n ii. Sreekar Prasad\n iii. M.R. Radhakrishnan",
+   "options": [
+    "a-ii, b-iii, c-i",
+    "a-iii, b-i, c-ii",
+    "a-i, b-ii, c-iii",
+    "a-ii, b-i, c-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F35",
+    "P8.F36",
+    "P8.F37"
+   ],
+   "explanation": "The correct pairs are Editor—Sreekar Prasad, Audiographer—M.R. Radhakrishnan, and Choreographer—Sandeep. Therefore, a-ii, b-iii, c-i is correct."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Best Documentary winners",
+   "question": "How many of the following award-winner pairings from the Best Documentary category at the Gaddar Telangana Film Awards 2025 are correct?\n\n1. Unity (Man of Social Justice) — Chirandas Srikant\n2. The First Action Hero – Paidi Jayaraj — Prasthanam Ponnam Ravichandra\n3. Mahamanishi Dr. A. S. Rao — Balabrahmachari Pusapati\n4. Unity (Man of Social Justice) — Balabrahmachari Pusapati",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F46",
+    "P8.F47",
+    "P8.F48"
+   ],
+   "explanation": "The first three pairings are correct, so the answer is Only three. The fourth pairing is incorrect because Balabrahmachari Pusapati was associated with Mahamanishi Dr. A. S. Rao, not Unity (Man of Social Justice)."
+  }
+ ]
+}

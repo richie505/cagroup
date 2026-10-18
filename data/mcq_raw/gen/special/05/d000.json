@@ -1,0 +1,194 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1
+ ],
+ "only": [
+  "P0.F1",
+  "P0.F10",
+  "P0.F11",
+  "P0.F12",
+  "P0.F13",
+  "P0.F5",
+  "P0.F8",
+  "P0.F9",
+  "P1.F10",
+  "P1.F11",
+  "P1.F12",
+  "P1.F13",
+  "P1.F4",
+  "P1.F7",
+  "P1.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Edition, dates and format history",
+   "question": "With reference to the ICC Men's T20 World Cup 2026, consider the following statements:\n1. It was the 10th edition.\n2. It was held from 7 February to 8 March 2026.\n3. The 20-team format began in 2026.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F5",
+    "P0.F12"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the tournament was the 10th edition and was held from 7 February to 8 March 2026. Statement 3 is incorrect because the 20-team format began in 2024, not 2026."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Number of teams and organiser",
+   "question": "How many of the following statements about the ICC Men's T20 World Cup 2026 are correct?\n1. The tournament featured 20 teams.\n2. It was organised by the International Cricket Council.\n3. The tournament featured 16 teams.\n4. It was organised by the BCCI.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F9",
+    "P0.F13"
+   ],
+   "explanation": "Only two statements are correct: the tournament featured 20 teams and was organised by the International Cricket Council. The incorrect alternatives change the number of teams to 16 and the organiser to the BCCI."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Player of the Match in final",
+   "question": "Who was named Player of the Match in the final of the ICC Men's T20 World Cup 2026?",
+   "options": [
+    "Jasprit Bumrah",
+    "Sanju Samson",
+    "Vaibhav Suryavanshi",
+    "Kagiso Rabada"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F8"
+   ],
+   "explanation": "Jasprit Bumrah was the Player of the Match in the final of the ICC Men's T20 World Cup 2026. Sanju Samson was associated with the Player of the Series award, while Vaibhav Suryavanshi and Kagiso Rabada were IPL awardees."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Indian and Sri Lankan venues",
+   "question": "Match List-I with List-II regarding venues of the ICC Men's T20 World Cup 2026.\n\nList-I\n a. Ahmedabad\n b. Colombo\n c. Kandy\n d. Kolkata\n\nList-II\n i. Indian venue\n ii. Sri Lankan venue\n iii. Bangladesh venue\n iv. Australian venue",
+   "options": [
+    "a-i, b-ii, c-ii, d-i",
+    "a-ii, b-i, c-i, d-ii",
+    "a-i, b-ii, c-i, d-iv",
+    "a-iii, b-ii, c-ii, d-i"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F11"
+   ],
+   "explanation": "The correct pairing is Ahmedabad–Indian venue, Colombo–Sri Lankan venue, Kandy–Sri Lankan venue and Kolkata–Indian venue. The other codes wrongly classify one or more venues or assign them to places not identified for this tournament."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Debut and format history",
+   "question": "Consider the following statements:\nStatement A: Italy qualified for the ICC Men's T20 World Cup 2026 for the first time.\nStatement B: The 20-team format began in 2024.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F10",
+    "P0.F12"
+   ],
+   "explanation": "Both statements are true. Italy qualified for the first time, and the 20-team format had begun in 2024 rather than in 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Final venue",
+   "question": "Where was the final of IPL 2026 played?",
+   "options": [
+    "Narendra Modi Stadium",
+    "Wankhede Stadium",
+    "Eden Gardens",
+    "M. A. Chidambaram Stadium"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4"
+   ],
+   "explanation": "The IPL 2026 final was played at Narendra Modi Stadium. The other options are prominent cricket venues but were not identified as the final venue of IPL 2026."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Teams, matches and milestone of finalist",
+   "question": "Consider the following statements regarding IPL 2026:\nStatement A: The tournament featured 10 teams and 74 matches.\nStatement B: Gujarat Titans reached their third final since joining the IPL in 2022.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F7",
+    "P1.F9"
+   ],
+   "explanation": "Both statements are true. IPL 2026 had 10 teams and 74 matches, while Gujarat Titans reached their third final since joining the competition in 2022."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Organiser, sponsor and format",
+   "question": "Match List-I with List-II in the context of IPL 2026.\n\nList-I\n a. BCCI\n b. Tata\n c. T20\n d. Royal Challengers Bengaluru\n\nList-II\n i. Title sponsor\n ii. Format\n iii. Organiser\n iv. Champions",
+   "options": [
+    "a-iii, b-i, c-ii, d-iv",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F10"
+   ],
+   "explanation": "BCCI was the organiser, Tata was the title sponsor, T20 was the format and Royal Challengers Bengaluru were the champions. The other codes interchange these roles."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "IPL origin and first champion",
+   "question": "Consider the following statements about the Indian Premier League:\nStatement A: The IPL started in 2008.\nStatement B: Rajasthan Royals were the first champions.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F11"
+   ],
+   "explanation": "Both statements are true: the IPL started in 2008 and Rajasthan Royals were its first champions. The other options incorrectly reject one or both of these historical facts."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Records and most titles",
+   "question": "Match List-I with List-II regarding IPL records.\n\nList-I\n a. Mumbai Indians\n b. Chennai Super Kings\n c. Virat Kohli\n d. David Warner\n\nList-II\n i. 973 runs in a season\n ii. 3 Orange Caps\n iii. 5 titles\n iv. 5 titles",
+   "options": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F12",
+    "P1.F13"
+   ],
+   "explanation": "Mumbai Indians and Chennai Super Kings have 5 titles each; Virat Kohli holds the record of 973 runs in a season, and David Warner has 3 Orange Caps. The other options mismatch at least one team or individual record."
+  }
+ ]
+}

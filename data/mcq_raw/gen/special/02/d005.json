@@ -1,0 +1,228 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": [
+  "P5.F10",
+  "P5.F11",
+  "P5.F15",
+  "P5.F16",
+  "P5.F17",
+  "P5.F19",
+  "P5.F20",
+  "P5.F5",
+  "P5.F6",
+  "P5.F7",
+  "P5.F9",
+  "P6.F10",
+  "P6.F4",
+  "P6.F5",
+  "P6.F6",
+  "P6.F7",
+  "P6.F8",
+  "P6.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Award winner",
+   "question": "At the 98th Academy Awards, who won Best Supporting Actor?",
+   "options": [
+    "Sean Penn",
+    "Amy Madigan",
+    "Ryan Coogler",
+    "Paul Thomas Anderson"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "Sean Penn won Best Supporting Actor at the 98th Academy Awards. Amy Madigan won Best Supporting Actress, while Ryan Coogler and Paul Thomas Anderson were associated with screenplay categories."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award winner",
+   "question": "Who won the Best Supporting Actress award at the 98th Academy Awards?",
+   "options": [
+    "Jessie Buckley",
+    "Amy Madigan",
+    "Sean Penn",
+    "Michael B. Jordan"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P5.F6"
+   ],
+   "explanation": "Amy Madigan won Best Supporting Actress at the 98th Academy Awards. Jessie Buckley won Best Actress, Sean Penn won Best Supporting Actor, and Michael B. Jordan won Best Actor."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Category-wise winners",
+   "question": "Match the following categories with their winners at the 98th Academy Awards.\n\nList-I\n a. Best Animated Film\n b. Best Documentary Feature\n c. Best Original Screenplay\n d. Best Adapted Screenplay\n\nList-II\n i. Ryan Coogler\n ii. Mr. Nobody Against Putin\n iii. K-Pop Demon Hunters\n iv. Paul Thomas Anderson",
+   "options": [
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iv, b-i, c-ii, d-iii",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F7",
+    "P5.F9",
+    "P5.F10",
+    "P5.F11"
+   ],
+   "explanation": "The correct pairs are a-iii, b-ii, c-i and d-iv: K-Pop Demon Hunters won Best Animated Film, Mr. Nobody Against Putin won Best Documentary Feature, Ryan Coogler won Best Original Screenplay, and Paul Thomas Anderson won Best Adapted Screenplay. The other codes interchange these category-winner pairs."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Indian personalities in news",
+   "question": "Consider the following statements:\nStatement A: Dharmendra died in November 2025 at the age of 89 and was a Padma Vibhushan awardee.\nStatement B: Kota Srinivasa Rao was a Telugu actor with a career spanning over 40 years and died on 13 July.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F15",
+    "P5.F16"
+   ],
+   "explanation": "Both statements are true. Dharmendra died in November 2025 aged 89 and was a Padma Vibhushan awardee, while Kota Srinivasa Rao was a Telugu actor with a career of over 40 years and died on 13 July."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Awarding organisation and trophy",
+   "question": "Assertion (A): The Academy Awards are presented by the Academy of Motion Picture Arts and Sciences.\nReason (R): The name “Oscar” was adopted in 1949.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F17",
+    "P5.F19"
+   ],
+   "explanation": "Assertion A is true because the Academy of Motion Picture Arts and Sciences presents the Academy Awards. Reason R is false: the name “Oscar” was adopted in 1939, not 1949."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India and the Oscars",
+   "question": "Which combination correctly describes India’s early milestones at the Academy Awards?",
+   "options": [
+    "Mother India was the first nominated Indian film in 1958; Bhanu Athaiya was the first Indian winner for Gandhi in 1983 in Costume Design; Satyajit Ray received an honorary Oscar in 1992",
+    "Gandhi was the first nominated Indian film in 1958; Bhanu Athaiya won for Mother India in 1983; Satyajit Ray received an honorary Oscar in 1992",
+    "Mother India was the first nominated Indian film in 1983; Bhanu Athaiya won for Gandhi in 1958; Satyajit Ray received an honorary Oscar in 1992",
+    "Mother India was the first nominated Indian film in 1958; Satyajit Ray was the first Indian winner for Gandhi in 1983; Bhanu Athaiya received an honorary Oscar in 1992"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F20"
+   ],
+   "explanation": "Mother India was India’s first nominated film in 1958. Bhanu Athaiya became the first Indian winner for Gandhi in 1983 in Costume Design, while Satyajit Ray received an honorary Oscar in 1992."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Top film and awards",
+   "question": "Which film was the top film at the 83rd Golden Globe Awards, winning four awards, including Best Director and Best Screenplay for Paul Thomas Anderson?",
+   "options": [
+    "One Battle After Another",
+    "Adolescence",
+    "The Secret Agent",
+    "Good Hang with Amy Poehler"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F4"
+   ],
+   "explanation": "One Battle After Another was the top film at the 83rd Golden Globe Awards with four awards. Paul Thomas Anderson won Best Director and Best Screenplay, not for Adolescence, The Secret Agent or Good Hang with Amy Poehler."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Top TV series",
+   "question": "Which television series emerged as the top TV series at the 83rd Golden Globe Awards with four awards?",
+   "options": [
+    "One Battle After Another",
+    "Adolescence",
+    "The Secret Agent",
+    "Sinners"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "Adolescence was the top TV series at the 83rd Golden Globe Awards, winning four awards. One Battle After Another was the top film, while The Secret Agent is associated with an acting award."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First Brazilian winner",
+   "question": "Who became the first Brazilian to win the Golden Globe for Best Actor in a Drama for The Secret Agent?",
+   "options": [
+    "Wagner Moura",
+    "Paul Thomas Anderson",
+    "Nikki Glaser",
+    "Priyanka Chopra Jonas"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F6"
+   ],
+   "explanation": "Wagner Moura became the first Brazilian to win Best Actor in a Drama for The Secret Agent. Paul Thomas Anderson won Best Director and Best Screenplay, while Nikki Glaser hosted and Priyanka Chopra Jonas presented an award."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "India at the Golden Globes",
+   "question": "Consider the following statements:\nStatement A: India received no nomination at the 83rd Golden Globe Awards.\nStatement B: Priyanka Chopra Jonas presented an award at the ceremony.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F7"
+   ],
+   "explanation": "Both statements are true. India had no nomination at the 83rd Golden Globe Awards, while Priyanka Chopra Jonas presented an award."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "History and organisation",
+   "question": "Match the following features with the correct details of the Golden Globe Awards.\n\nList-I\n a. First presented\n b. Original description\n c. Organisation\n d. Year of establishment of the organisation\n\nList-II\n i. Hollywood Foreign Press Association\n ii. 1944\n iii. “Hollywood Party of the Year”\n iv. 1943",
+   "options": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-i, b-iv, c-ii, d-iii",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F8",
+    "P6.F9"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-i and d-iv: the awards were first presented in 1944 as the “Hollywood Party of the Year”; the Hollywood Foreign Press Association organised them and was established in 1943. The other codes mismatch the historical details."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Current organisational structure",
+   "question": "Which of the following statements about the organisational structure of the Golden Globe Awards is incorrect?",
+   "options": [
+    "Since 2023, the Golden Globe Awards have run under the Golden Globe Foundation.",
+    "From 2023 onward, the awards have operated under the Golden Globe Foundation.",
+    "The post-2023 arrangement places the Golden Globe Awards under the Golden Globe Foundation.",
+    "Since 2023, the Golden Globe Awards have run under the Hollywood Foreign Press Association."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F10"
+   ],
+   "explanation": "The incorrect statement is that the awards have run under the Hollywood Foreign Press Association since 2023. Since 2023, they have run under the Golden Globe Foundation; the first three statements express that fact in different ways."
+  }
+ ]
+}

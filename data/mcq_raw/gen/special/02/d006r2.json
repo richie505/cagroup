@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7
+ ],
+ "only": [
+  "P7.F12",
+  "P7.F16",
+  "P7.F26",
+  "P7.F27"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Category-wise winners",
+   "question": "Consider the following statements about the 79th BAFTA Film Awards 2026:\n\n1. Boong won the Children's & Family Film award.\n2. Robert Aramayo won the Leading Actress award.\n\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F12",
+    "P7.F16"
+   ],
+   "explanation": "Statement 1 is correct because Boong won the Children's & Family Film award. Statement 2 is incorrect; Robert Aramayo won Leading Actor, not Leading Actress."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Category-wise winner",
+   "question": "Which film won the Production Design award at the 79th BAFTA Film Awards 2026?",
+   "options": [
+    "Frankenstein",
+    "Hamnet",
+    "Sinners",
+    "F1"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F26"
+   ],
+   "explanation": "Frankenstein won the Production Design award at the 79th BAFTA Film Awards 2026. F1 was the winner in the Sound category, not Production Design."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Category-wise winner",
+   "question": "Which film won the Sound award at the 79th BAFTA Film Awards 2026?",
+   "options": [
+    "F1",
+    "Frankenstein",
+    "Boong",
+    "I Swear"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F27"
+   ],
+   "explanation": "F1 won the Sound award at the 79th BAFTA Film Awards 2026. Frankenstein won Production Design, while Boong won Children's & Family Film."
+  }
+ ]
+}

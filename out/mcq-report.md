@@ -1,41 +1,41 @@
 # CA MCQ report
 
-- MCQs kept: **11158**
+- MCQs kept: **11456**
 - News pages with at least one question: **2627 / 2629**
-- Facts tested: **19504 / 20515** (95.1%)
-- Answer positions: A 2782, B 2893, C 2942, D 2541
+- Facts tested: **20063 / 20515** (97.8%)
+- Answer positions: A 2863, B 2983, C 3003, D 2607
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 1215 | 1246 | 1296 | 1164 |
-| Negative / Incorrect Statement | 185 | 179 | 190 | 176 |
-| Assertion-Reason | 180 | 212 | 275 | 226 |
-| Statement-Based (A/B) | 361 | 223 | 320 | 272 |
-| Multi-Statement Correctness | 417 | 422 | 402 | 387 |
+| Direct Recall | 1245 | 1280 | 1322 | 1196 |
+| Negative / Incorrect Statement | 186 | 182 | 192 | 179 |
+| Assertion-Reason | 184 | 219 | 281 | 227 |
+| Statement-Based (A/B) | 381 | 235 | 323 | 277 |
+| Multi-Statement Correctness | 425 | 432 | 406 | 392 |
 | Chronological Ordering | 6 | 6 | 4 | 5 |
-| List-Matching | 310 | 287 | 276 | 305 |
-| Count-Based | 108 | 318 | 179 | 6 |
+| List-Matching | 326 | 302 | 293 | 325 |
+| Count-Based | 110 | 327 | 182 | 6 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 1381 |
-| verify:explanation_contradicts | 217 |
-| verify:not_in_facts | 153 |
-| duplicate | 76 |
-| verify:two_correct | 48 |
-| verify:none_correct | 34 |
+| code | 1426 |
+| verify:explanation_contradicts | 223 |
+| verify:not_in_facts | 156 |
+| duplicate | 96 |
+| verify:two_correct | 53 |
+| verify:none_correct | 36 |
 | verify:second reader picked option 2, key 1 | 27 |
-| verify:garbled | 14 |
+| verify:garbled | 15 |
 | verify:ambiguous_stem | 9 |
 | verify:second reader picked option 0, key 1 | 6 |
 | verify:second reader picked option 1, key 0 | 6 |
+| verify:second reader picked option 3, key 1 | 3 |
 | verify:second reader picked option 3, key 0 | 2 |
 | verify:second reader picked option 2, key 0 | 2 |
 | verify:trivial | 2 |
 | verify:second reader picked option 3, key 2 | 2 |
-| verify:second reader picked option 3, key 1 | 2 |
 | verify:second reader picked option 1, key 2 | 2 |
 | verify:second reader picked option 1, key 3 | 1 |
 | verify:second reader picked option 0, key 3 | 1 |
@@ -236,12 +236,12 @@
 | 2025-04/09 | Awards, Persons & Appointments | 8 | 20/20 |
 | 2025-04/10 | Sports | 16 | 29/30 |
 | 2025-04/11 | Important Days & Events | 9 | 15/15 |
-| special/01 | Budgets, Finance Commission & NITI Aayog | 19 | 47/233 |
-| special/02 | Awards & Honours | 25 | 60/319 |
-| special/03 | Environment | 12 | 29/142 |
-| special/04 | Polity, Elections & Society | 8 | 16/50 |
-| special/05 | Sports | 4 | 11/26 |
-| special/06 | Reports & Indices | 2 | 3/11 |
+| special/01 | Budgets, Finance Commission & NITI Aayog | 106 | 210/233 |
+| special/02 | Awards & Honours | 148 | 298/319 |
+| special/03 | Environment | 62 | 131/142 |
+| special/04 | Polity, Elections & Society | 32 | 50/50 |
+| special/05 | Sports | 13 | 25/26 |
+| special/06 | Reports & Indices | 7 | 11/11 |
 
 ## Dropped by the second reader (for human review)
 
@@ -1832,3 +1832,57 @@
 - `special/01/c001#2` verify: explanation_contradicts — The facts state that seven high-speed rail corridors were proposed, so Statement 3 is true and all three statements are correct.
   - Q: With reference to the sectoral announcements in Union Budget 2026–27, consider the following statements: / 1. Andhra Pradesh is one of the four states covered by the Rare Earth corridors. / 2. The allocat
   - Key: 1 and 2 only
+- `special/01/d001#7` verify: garbled — The question lists three statements, but one option refers to all four.
+  - Q: How many of the following statements regarding MSME-related announcements in Union Budget 2026–27 are correct? /  / 1. The SME Growth Fund has an allocation of ₹10,000 crore to create “champion SMEs”. / 2. 
+  - Key: Only two
+- `special/01/d004#0` verify: none_correct — Statements 1 and 3 are both true, but no option represents that combination.
+  - Q: With reference to the Andhra Pradesh Budget 2026-27, consider the following statements: / 1. The total outlay was ₹3,32,205 crore. / 2. Revenue expenditure was ₹2,56,413 crore. / 3. Capital expenditure was 
+  - Key: 1 only
+- `special/01/d004#5` verify: two_correct — Because 6% is duplicated as (ii) and (iv), and 4% as (i) and (iii), option 3 is also a valid matching.
+  - Q: Match the expenditure heads with their shares in the Andhra Pradesh Budget 2026-27. /  / List-I / (a) Health & Family Welfare / (b) Water Resources / (c) MA&UD / (d) Power /  / List-II / (i) 4% / (ii) 6% / (iii) 4% / (iv) 6%
+  - Key: a-ii, b-iv, c-i, d-iii
+- `special/02/d002#0` verify: two_correct — Because Arts appears twice in List-II, option 3 also gives valid field matches.
+  - Q: With reference to the Padma Shri 2026 state-wise list, match List-I with List-II. /  / List-I / (a) Haricharan Saikia / (b) Jogesh Deori / (c) Nooruddin Ahmed / (d) Gopal Ji Trivedi /  / List-II / (i) Science and Engin
+  - Key: a-ii, b-iii, c-iv, d-i
+- `special/02/d002#1` verify: explanation_contradicts — Mamidala Jagadish Kumar is from Delhi, but the explanation assigns him the Assam entry and no option matches all four states.
+  - Q: Match the Padma Shri 2026 awardees in List-I with their States in List-II. /  / List-I / (a) Inderjeet Singh Sidhu / (b) Ramamurthy Sridhar / (c) R.V.S. Mani / (d) Mamidala Jagadish Kumar /  / List-II / (i) Delhi / (ii) 
+  - Key: a-ii, b-i, c-iv, d-iii
+- `special/02/d002#2` verify: two_correct — Because Arts appears twice in List-II, option 3 is also a valid matching.
+  - Q: Match the Padma Shri 2026 awardees with their fields. /  / List-I / (a) Khem Raj Sundariyal / (b) Prem Lal Gautam / (c) Brij Lal Bhatt / (d) Yumnam Jatra Singh /  / List-II / (i) Social Work / (ii) Arts / (iii) Science and
+  - Key: a-ii, b-iii, c-i, d-iv
+- `special/02/d002#5` verify: two_correct — Medicine appears twice in List-II, so options 0 and 3 both represent the stated fields.
+  - Q: Match the Padma Shri 2026 awardees with their fields. /  / List-I / (a) Keval Krishan Thakral / (b) Praveen Kumar / (c) Rajendra Prasad / (d) Raghupat Singh /  / List-II / (i) Sports / (ii) Medicine / (iii) Others (Agricul
+  - Key: a-ii, b-i, c-iv, d-iii
+- `special/02/d002#6` verify: two_correct — Medicine appears twice in List-II, so options 0 and 1 are both defensible.
+  - Q: Match the Padma Shri 2026 awardees with their fields. /  / List-I / (a) Shyam Sundar / (b) Ramchandra Godbole & Sunita Godbole / (c) Arvind Vaidya / (d) Nilesh Vinodchandra Mandalewala /  / List-II / (i) Arts / (ii) Soci
+  - Key: a-iii, b-iv, c-i, d-ii
+- `special/02/d002#14` verify: not_in_facts — Statement A names Sarat Kumar Patra, who is absent from the facts, and Statement B contradicts Ashok Kumar Haldar's stated field.
+  - Q: Consider the following statements: / Statement A: Charan Hembram and Mahendra Kumar Mishra were honoured in Literature and Education, while Sarat Kumar Patra was honoured in Arts. / Statement B: Simanchal
+  - Key: Both Statement A and Statement B are true
+- `special/02/d006#6` verify: not_in_facts — The facts do not establish whether Paul Thomas Anderson won Best Film, so statement 2 is undecidable.
+  - Q: With reference to the 79th BAFTA Film Awards 2026, consider the following statements: / 1. Boong won the Children's & Family Film award. / 2. Paul Thomas Anderson won the Best Film award. / 3. Boong won the
+  - Key: 1 only
+- `special/02/d007#2` verify: second reader picked option 3, key 1 — 
+  - Q: Consider the following statements about the Gaddar Telangana Film Awards 2025: /  / 1. Jayasudha received the Akkineni Nageswara Rao Award. / 2. Raju Weds Rambayi won Best Film. / 3. Dandora won Best Third Fi
+  - Key: 2 only
+- `special/02/d007#7` verify: explanation_contradicts — The facts establish that statements 1 and 2 are true, contrary to the explanation.
+  - Q: Consider the following statements about individual awards at the Gaddar Telangana Film Awards 2025: /  / 1. Shivaji won Supporting Actor for Dandora. / 2. Bhumika Chawla won Supporting Actress for Euphoria.
+  - Key: 1 only
+- `special/02/d007#12` verify: none_correct — The facts make all three statements true, but no option represents all three.
+  - Q: Consider the following statements about technical awards at the Gaddar Telangana Film Awards 2025: /  / 1. Sreekar Prasad won the Editor award for Mirai. / 2. M.R. Radhakrishnan won the Audiographer award f
+  - Key: 1 only
+- `special/02/d007#15` verify: explanation_contradicts — The facts establish that statements 1 and 2 are true, contrary to the explanation.
+  - Q: Consider the following statements about the Best Documentary awards at the Gaddar Telangana Film Awards 2025: /  / 1. Unity (Man of Social Justice) was associated with Chirandas Srikant. / 2. The First Acti
+  - Key: 1 only
+- `special/03/d003#12` verify: explanation_contradicts — The facts state that Patna Bird Sanctuary was designated in 2026, so statement 2 is false and the explanation is incorrect.
+  - Q: With reference to Ramsar sites in Uttar Pradesh, consider the following statements: / 1. Bakhira Wildlife Sanctuary was designated in 2022. / 2. Patna Bird Sanctuary (Etah) was designated in 2025. / 3. Shek
+  - Key: 1, 2 and 3
+- `special/03/d003#17` verify: explanation_contradicts — The facts state that all four sites were included in the 1990 batch, contradicting the explanation's claim that only Wular and Loktak qualify.
+  - Q: How many of the following Ramsar sites were included in the 1990 batch? / 1. Wular / 2. Loktak / 3. Harike / 4. Sambhar
+  - Key: Only two
+- `special/04/d000#4` verify: not_in_facts — The facts establish Statement A but do not state whether R.N. Ravi was named Governor of Kerala and Tamil Nadu.
+  - Q: Consider the following statements: / Statement A: Rajendra Arlekar was named as the Governor of both Kerala and Tamil Nadu. / Statement B: R.N. Ravi was named as the Governor of both Kerala and Tamil Nadu
+  - Key: Statement A is true, Statement B is false
+- `special/04/d001#13` verify: explanation_contradicts — Statements 1 and 4 are correct, so the count is two, contrary to the explanation's claim of only one.
+  - Q: How many of the following statements about the Women and Men in India 2025 report and MoSPI are correct? / 1. Infant mortality declined for both sexes during 2008–2023. / 2. MoSPI was established in 2001.
+  - Key: Only one

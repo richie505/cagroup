@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5
+ ],
+ "only": [
+  "P5.F1",
+  "P5.F3",
+  "P5.F4",
+  "P5.F5"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Ramsar designation year",
+   "question": "In which year was Point Calimere Wildlife & Bird Sanctuary designated as a Ramsar site?",
+   "options": [
+    "2002",
+    "2022",
+    "2024",
+    "2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "Point Calimere Wildlife & Bird Sanctuary was designated as a Ramsar site in 2002. The tempting alternative 2022 is associated with several other Tamil Nadu Ramsar sites, but not Point Calimere."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Ramsar designation years",
+   "question": "Consider the following statements about Tamil Nadu Ramsar sites:\n1. Chitrangudi Bird Sanctuary was designated as a Ramsar site in 2022.\n2. Karikili Bird Sanctuary was designated as a Ramsar site in 2022.\n3. Chitrangudi Bird Sanctuary was designated as a Ramsar site in 2024.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: both Chitrangudi Bird Sanctuary and Karikili Bird Sanctuary were designated in 2022. Statement 3 is incorrect because Chitrangudi Bird Sanctuary was designated in 2022, not 2024."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ramsar designation year",
+   "question": "Pichavaram Mangroves was designated as a Ramsar site in which year?",
+   "options": [
+    "2022",
+    "2002",
+    "2024",
+    "2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F5"
+   ],
+   "explanation": "Pichavaram Mangroves was designated as a Ramsar site in 2022. The other years listed correspond to different Ramsar-site entries, not Pichavaram Mangroves."
+  }
+ ]
+}

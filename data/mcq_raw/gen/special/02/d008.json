@@ -1,0 +1,156 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9
+ ],
+ "only": [
+  "P9.F10",
+  "P9.F11",
+  "P9.F12",
+  "P9.F13",
+  "P9.F14",
+  "P9.F15",
+  "P9.F16",
+  "P9.F17",
+  "P9.F6",
+  "P9.F7",
+  "P9.F8",
+  "P9.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in history",
+   "question": "Netaji Subhas Chandra Bose died on 18 August 1945 in an air crash near which place?",
+   "options": [
+    "Taihoku, Taiwan",
+    "Singapore",
+    "Port Blair, Andaman and Nicobar Islands",
+    "Calcutta"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F6"
+   ],
+   "explanation": "Netaji Subhas Chandra Bose died on 18 August 1945 in an air crash near Taihoku in Taiwan. Singapore is associated with the Azad Hind Government and Port Blair with the hoisting of the Tricolour, not his death."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "125th birth anniversary",
+   "question": "Consider the following statements:\nStatement A: Netaji Subhas Chandra Bose’s 125th birth anniversary was observed on 23 January 2022.\nStatement B: A statue of Netaji was installed near India Gate, sculpted by Arun Yogiraj.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F7"
+   ],
+   "explanation": "Both statements are true: the 125th birth anniversary was observed on 23 January 2022, and a statue sculpted by Arun Yogiraj was installed near India Gate. The anniversary year was 2022, not 2021."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Slogans and organisations",
+   "question": "With reference to Netaji Subhas Chandra Bose, consider the following statements:\n1. “Give me blood, and I will give you freedom”, “Chalo Dilli” and “Jai Hind” are associated with him.\n2. The Forward Bloc was founded on 3 May 1939.\n3. The Indian National Army existed during 1942–45.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F8",
+    "P9.F9"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the three listed slogans are associated with Bose, and he founded the Forward Bloc on 3 May 1939. Statement 3 is incorrect because the Indian National Army is given as existing during 1943–45, not 1942–45."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Political career",
+   "question": "Match the following aspects of Netaji Subhas Chandra Bose’s political career with the related detail.\n\nList-I\n a. Haripura session\n b. Tripuri session\n c. Mayor\n d. Calcutta\n\nList-II\n i. 1930\n ii. 1938\n iii. 1939\n iv. Office held by Bose\n\nSelect the correct code:",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F11"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i: Haripura was 1938, Tripuri was 1939, Bose was Mayor of Calcutta, and that mayoralty was in 1930. The other codes interchange the session years or mismatch the mayoralty details."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Azad Hind Government",
+   "question": "Assertion (A): The Azad Hind Government was established on 21 October 1943 at Singapore.\nReason (R): On 30 December 1943, the Tricolour was hoisted at Port Blair in the Andaman and Nicobar Islands.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F12",
+    "P9.F13"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: the Azad Hind Government was established at Singapore on 21 October 1943, and the Tricolour was hoisted at Port Blair on 30 December 1943. The hoisting occurred later and does not explain the establishment of the government."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Parakram Diwas and place renaming",
+   "question": "Which of the following statements regarding Netaji Subhas Chandra Bose is incorrect?",
+   "options": [
+    "He was the first to call Gandhi “Father of the Nation” on 6 July 1944 during a radio broadcast from Singapore.",
+    "Ross Island was renamed Netaji Subhas Chandra Bose Island in 2018.",
+    "His birthday was declared Parakram Diwas in 2022.",
+    "The Tricolour was hoisted at Port Blair on 30 December 1943."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F14",
+    "P9.F15",
+    "P9.F13"
+   ],
+   "explanation": "The incorrect statement is that his birthday was declared Parakram Diwas in 2022; the correct year was 2021. The other statements correctly refer to the 6 July 1944 radio broadcast, the 2018 renaming of Ross Island and the 30 December 1943 hoisting at Port Blair."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Bharat Ratna and INA history",
+   "question": "How many of the following statements regarding Netaji Subhas Chandra Bose and the Azad Hind Fauj are correct?\n1. Bharat Ratna was conferred on Bose posthumously in 1992 and withdrawn in 1997; this was the only such case.\n2. The Azad Hind Fauj was originally formed on 29 October 1915 by Raja Mahendra Pratap Singh, Rash Behari Bose and Niranjan Singh Gill.\n3. The Indian National Army was handed over to Bose by Rash Behari Bose on 4 July 1944.\n4. Bharat Ratna was conferred on Bose posthumously in 1997 and withdrawn in 1992.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P9.F16",
+    "P9.F17"
+   ],
+   "explanation": "Only two statements are correct: statements 1 and 2. Statement 3 changes the year of the handover from 4 July 1943 to 4 July 1944, while statement 4 reverses the years of conferment and withdrawal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Newspapers and book",
+   "question": "Which combination correctly identifies Netaji Subhas Chandra Bose’s newspapers and book?",
+   "options": [
+    "Swaraj—as founder; Forward—as editor; The Indian Struggle—as book",
+    "Forward—as founder; Swaraj—as editor; The Indian Struggle—as book",
+    "Swaraj—as founder; Forward—as editor; Chalo Dilli—as book",
+    "The Indian Struggle—as founder; Swaraj—as editor; Forward—as book"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F10"
+   ],
+   "explanation": "Bose was the founder of Swaraj, editor of Forward and author of The Indian Struggle. Chalo Dilli is listed as a slogan, not as his book."
+  }
+ ]
+}

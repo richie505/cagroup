@@ -1,0 +1,126 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": [
+  "P2.F10",
+  "P2.F11",
+  "P2.F12",
+  "P2.F13",
+  "P2.F3",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Number and rank",
+   "question": "With reference to India’s Ramsar sites as of June 2026, consider the following statements:\n1. India has 100 Ramsar sites covering about 14 lakh hectares.\n2. India ranks first in Asia and third in the world.\n3. The number of sites rose from 26 in 2012 to 98 in January 2026 and 100 in June 2026, with 55 sites added after 2020.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: India had 100 Ramsar sites covering about 14 lakh hectares and ranked first in Asia and third globally. Statement 3 is incorrect because 56, not 55, sites were added after 2020."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Ramsar site records",
+   "question": "Match List-I with List-II regarding records associated with India’s Ramsar sites.\n\nList-I\n a. First Ramsar sites in India\n b. Largest Ramsar site\n c. Smallest Ramsar site\n d. State with the most Ramsar sites\n\nList-II\n i. Tamil Nadu — 20 sites\n ii. Renuka Wetland, Himachal Pradesh\n iii. Chilika Lake, Odisha and Keoladeo National Park, Rajasthan\n iv. Sundarbans, West Bengal",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F7",
+    "P2.F8",
+    "P2.F9",
+    "P2.F10"
+   ],
+   "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i. Chilika Lake and Keoladeo National Park were the first sites, Sundarbans is the largest, Renuka Wetland is the smallest, and Tamil Nadu has the most sites with 20."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Only Ramsar site in Andhra Pradesh",
+   "question": "Which is the only Ramsar site in Andhra Pradesh, designated in 2002?",
+   "options": [
+    "Kolleru Lake",
+    "Chilika Lake",
+    "Renuka Wetland",
+    "Sundarbans"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F12"
+   ],
+   "explanation": "Kolleru Lake is the only Ramsar site in Andhra Pradesh and was designated in 2002. Chilika Lake is in Odisha, Renuka Wetland is in Himachal Pradesh, and Sundarbans is in West Bengal."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Conflicting growth baseline",
+   "question": "With reference to the reported growth in India’s Ramsar sites, consider the following statements:\nStatement A: One source gives 26 sites in 2014, with growth of over 276% to 98 sites.\nStatement B: The other source gives 26 sites in 2013.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F6"
+   ],
+   "explanation": "Statement A is correct: one source gives 26 sites in 2014 and growth of over 276% to 98 sites. Statement B is incorrect because the other source gives the starting figure as 26 sites in 2012, not 2013."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "State with most Ramsar sites",
+   "question": "Assertion (A): Tamil Nadu has the highest number of Ramsar sites among Indian States.\nReason (R): Tamil Nadu has 20 Ramsar sites.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "Both the assertion and the reason are true, and the reason explains the assertion: Tamil Nadu holds the record for the most Ramsar sites, with 20. The record is not held by another State in the listed facts."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "State-wise records and additions",
+   "question": "How many of the following statements regarding India’s Ramsar-site records are correct?\n1. Uttar Pradesh ranks second with 13 sites, after the addition of Surha Tal.\n2. Kolleru Lake is the only Ramsar site in Andhra Pradesh and was designated in 2002.\n3. The older list of 98 sites showed Uttar Pradesh with 11 sites; the number became 13 with Shekha Jheel and Surha Tal.\n4. Uttar Pradesh has the highest number of Ramsar sites, with 20 sites.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F11",
+    "P2.F12",
+    "P2.F13",
+    "P2.F10"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect because Tamil Nadu, not Uttar Pradesh, has the highest number of sites with 20."
+  }
+ ]
+}

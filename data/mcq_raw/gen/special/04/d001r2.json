@@ -1,0 +1,65 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  1,
+  2
+ ],
+ "only": [
+  "P1.F14",
+  "P1.F5",
+  "P2.F10",
+  "P2.F9"
+ ],
+ "deep": true,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coverage and legal basis",
+   "question": "Consider the following statements about Census 2027:\n1. It covers 36 States/UTs, more than 7,000 sub-districts and about 6.4 lakh villages.\n2. The recording of the caste of every individual is legally based on Section 3 of the Census Act, 1948.\n3. The recording of the caste of every individual is legally based on Section 3 of the Census Rules, 1990.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F14"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Census 2027 covers 36 States/UTs, more than 7,000 sub-districts and about 6.4 lakh villages, while its caste enumeration has the legal basis of Section 3 of the Census Act, 1948. Statement 3 is incorrect because it substitutes the Census Rules, 1990 for the Census Act, 1948."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Infant mortality trend",
+   "question": "According to the Women and Men in India 2025 report, what was the trend in infant mortality during 2008–2023?",
+   "options": [
+    "It declined for both sexes",
+    "It increased for both sexes",
+    "It declined only for men",
+    "It declined only for women"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F9"
+   ],
+   "explanation": "Infant mortality declined for both sexes during 2008–2023. The options suggesting an increase or a decline limited to only one sex incorrectly alter the reported trend."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "MoSPI establishment, headquarters and minister",
+   "question": "Which of the following correctly describes the Ministry of Statistics and Programme Implementation (MoSPI) in the context of the Women and Men in India 2025 report?",
+   "options": [
+    "Established in 1999, headquartered in New Delhi, and headed by Rao Inderjit Singh",
+    "Established in 1995, headquartered in Bhubaneswar, and headed by Rao Inderjit Singh",
+    "Established in 1999, headquartered in Bhubaneswar, and headed by Rao Inderjit Singh",
+    "Established in 1999, headquartered in New Delhi, and headed by the Ministry of Home Affairs"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F10"
+   ],
+   "explanation": "MoSPI was established in 1999, has its headquarters in New Delhi, and its minister is Rao Inderjit Singh. The most tempting alternatives change either the headquarters, the establishment year, or the ministerial identity."
+  }
+ ]
+}
