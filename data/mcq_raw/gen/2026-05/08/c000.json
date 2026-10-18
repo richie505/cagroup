@@ -1,0 +1,136 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Publisher and venue",
+   "question": "Which organisation released the 27th edition of *Women and Men in India 2025* in Bhubaneswar?",
+   "options": [
+    "MoSPI",
+    "Reporters Without Borders",
+    "MoHFW",
+    "IIPS, Mumbai"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P1.F1",
+    "P2.F1"
+   ],
+   "explanation": "MoSPI released the 27th edition of *Women and Men in India 2025* in Bhubaneswar. Reporters Without Borders publishes the World Press Freedom Index, while MoHFW and IIPS are associated with NFHS-6."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Key gender indicator",
+   "question": "According to *Women and Men in India 2025*, what was the female Gross Enrolment Ratio in higher education in 2022–23?",
+   "options": [
+    "28.5",
+    "30.2",
+    "28.9",
+    "37.5"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "The female Gross Enrolment Ratio in higher education rose to 30.2 in 2022–23. The figures 28.5 and 28.9 refer to the earlier female value and the male GER, respectively, while 37.5% is the earlier rural female LFPR."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Rank in index",
+   "question": "What was India’s rank in the World Press Freedom Index 2026 published by Reporters Without Borders?",
+   "options": [
+    "151st",
+    "157th",
+    "180th",
+    "5th"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "India was ranked 157th in the World Press Freedom Index 2026, down from 151st in 2025. The figure 180 refers to the number of countries covered, while 5 is associated with the number of top-ranked countries listed."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nodal organisation",
+   "question": "Which institution was the nodal agency for NFHS-6 (2023–24)?",
+   "options": [
+    "IIPS, Mumbai",
+    "MoSPI",
+    "Reporters Without Borders",
+    "MoHFW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "IIPS, Mumbai, was the nodal institution for NFHS-6. MoHFW conducted the survey, whereas MoSPI and Reporters Without Borders are associated with other reports."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "NFHS-6 indicators",
+   "question": "Which of the following statements about the changes reported in NFHS-6 is incorrect?",
+   "options": [
+    "Institutional deliveries increased from 88.6% to 90.6%.",
+    "Total Fertility Rate remained stable at 2.0.",
+    "Stunting declined from 35.5% to 29.3%.",
+    "Severe wasting increased from 7.7% to 5.2%."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3",
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "The incorrect statement is that severe wasting increased from 7.7% to 5.2%; it declined to 5.2%. Institutional deliveries increased to 90.6%, TFR remained at 2.0, and stunting declined to 29.3%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Highest prevalence",
+   "question": "Which State recorded the highest prevalence of child marriage in the central survey covering 2019–21?",
+   "options": [
+    "West Bengal",
+    "Bihar",
+    "Andhra Pradesh",
+    "Jammu & Kashmir"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2",
+    "P3.F3",
+    "P3.F6"
+   ],
+   "explanation": "West Bengal recorded the highest prevalence, at 41.6%, among the States listed in the survey. Bihar recorded 40.8%, while Jammu & Kashmir had the lowest prevalence at 4.5%."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Legal age and legislation",
+   "question": "Consider the following statements:\nStatement A: Under the Prohibition of Child Marriage Act, 2006, the legal age of marriage for women is 21 years.\nStatement B: The legal age of marriage for men is 21 years.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F7"
+   ],
+   "explanation": "Statement A is false because the legal age of marriage for women is 18 years, while the legal age for men is 21 years. Therefore, Statement B is true under the Prohibition of Child Marriage Act, 2006."
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Mission partners",
+   "question": "The SMILE mission, launched in May 2026, is a joint mission of which two organisations?",
+   "options": [
+    "European Space Agency and Chinese Academy of Sciences",
+    "European Space Agency and Serum Institute of India",
+    "Chinese Academy of Sciences and CSIR–IGIB",
+    "European Space Agency and Indian Space Research Organisation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "SMILE is a joint mission of the European Space Agency and the Chinese Academy of Sciences. The Serum Institute of India is associated with the transfer of BIRSA 101, while CSIR–IGIB developed that therapy; neither is a SMILE partner."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "First mission and instruments",
+   "question": "Consider the following statements about the SMILE mission:\n1. It is the first mission to observe Earth's magnetosphere in X-ray light.\n2. Its instruments include the Soft X-ray Imager and the Magnetometer.\n3. It is ESA and CAS's first full-scale joint space mission.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F4",
+    "P7.F6"
+   ],
+   "explanation": "All three statements are correct. SMILE is the first mission to observe Earth's magnetosphere in X-ray light, carries the Soft X-ray Imager and Magnetometer, and is ESA and CAS's first full-scale joint space mission. The options omitting statement 1 or statement 3 are therefore incorrect."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Sector value and policy numbers",
+   "question": "With reference to India's pharmaceutical sector in May 2026, how many of the following statements are correct?\n1. The sector is valued at approximately $65 billion and has a target of $130 billion by 2030.\n2. Biopharma Shakti provides ₹10,000 crore and envisages 1,000 accredited clinical trial sites.\n3. More than 55,100 biosimilars have been approved.\n4. India's pharmaceutical exports reach 190 countries.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F3",
+    "P8.F4",
+    "P8.F5"
+   ],
+   "explanation": "Only statements 1 and 2 are correct. The approved biosimilars figure is 100+, while 55,100 MT refers to annual capacity for 26 critical APIs; exports are to 191 countries, not 190. Hence, the correct count is only two."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Medical-device classification",
+   "question": "Which of the following statements regarding India's pharmaceutical and medical-device ecosystem is incorrect?",
+   "options": [
+    "CDSCO reclassified 553 medical devices during 2025–26.",
+    "High-risk medical devices are placed in Class D.",
+    "There were more than 18,646 Jan Aushadhi Kendras in March 2026.",
+    "The NPPA implements the Pradhan Mantri Bhartiya Janaushadhi Pariyojana."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F6",
+    "P8.F7",
+    "P8.F9",
+    "P8.F10"
+   ],
+   "explanation": "The incorrect statement is that NPPA implements the Pradhan Mantri Bhartiya Janaushadhi Pariyojana. BPPI implements the programme, whereas NPPA controls essential medicine prices. The other statements correctly state the CDSCO reclassification, Class D status of high-risk devices, and the number of Jan Aushadhi Kendras."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Developer and technology origin",
+   "question": "Assertion (A): BIRSA 101 was developed by the Serum Institute of India and transferred to CSIR–IGIB.\nReason (R): The therapy was named after Bhagwan Birsa Munda.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2"
+   ],
+   "explanation": "Assertion A is false: BIRSA 101 was developed by CSIR–IGIB and transferred to the Serum Institute of India. Reason R is true because the therapy was named after Bhagwan Birsa Munda. Therefore, A is false, but R is true."
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch venue",
+   "question": "India’s first indigenous Super Pressure Balloon was launched from which location?",
+   "options": [
+    "Indira Gandhi Municipal Stadium, Vijayawada",
+    "Indira Gandhi Municipal Stadium, Visakhapatnam",
+    "Sri City, Tirupati district",
+    "Krishnapatnam Port"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F8"
+   ],
+   "explanation": "India’s first indigenous Super Pressure Balloon was launched from Indira Gandhi Municipal Stadium in Vijayawada. Sri City is associated with the Carrier Global manufacturing unit, not this balloon launch."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Developer and technical specifications",
+   "question": "Consider the following statements about Mission SANA and the VISTA platform:\n1. Red Balloon Aerospace developed the mission, whose platform was called VISTA.\n2. The balloon was hydrogen-filled, used GNSS tracking and could carry a payload of up to 50 kg.\n3. It reached 12.2 km over Guntur district by 10:05 a.m.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F3",
+    "P13.F4",
+    "P13.F5"
+   ],
+   "explanation": "All three statements are correct: Red Balloon Aerospace developed Mission SANA, the VISTA platform had the stated specifications, and it reached 12.2 km over Guntur district by 10:05 a.m. The option ‘1 and 2 only’ is incorrect because the altitude and time in statement 3 are also correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Partnership and location",
+   "question": "Which organisation partnered for a carrier-neutral Cable Landing Station in Visakhapatnam, providing Visakhapatnam–Singapore connectivity?",
+   "options": [
+    "Orange Group",
+    "Sify",
+    "Google",
+    "Reliance"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "Orange Group of France partnered for the carrier-neutral Cable Landing Station in Visakhapatnam, connecting it with Singapore. Sify is developing a 500 MW data centre, while Google and Reliance received approvals for 1,000 MW data centres each."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Manufacturing unit and data-centre ecosystem",
+   "question": "Which of the following statements about the Carrier Global unit at Sri City and Andhra Pradesh’s data-centre ecosystem is incorrect?",
+   "options": [
+    "Nara Lokesh laid the foundation for the Carrier Global manufacturing unit at Sri City in Tirupati district.",
+    "The unit will produce high-efficiency chillers, precision cooling and HVAC systems for hyperscale data centres.",
+    "Naipunyam is Andhra Pradesh’s AI-powered conversational skill assessment platform.",
+    "Sri City is located near the Andhra Pradesh–Tamil Nadu border on the Visakhapatnam–Chennai Industrial Corridor."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F2",
+    "P15.F3",
+    "P15.F4"
+   ],
+   "explanation": "The fourth statement is incorrect because Sri City is near the Andhra Pradesh–Tamil Nadu border on the Chennai–Bengaluru Industrial Corridor. The Visakhapatnam–Chennai Industrial Corridor is listed separately among Andhra Pradesh’s industrial corridors."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Regional industrial roles",
+   "question": "Consider the following statements:\nStatement A: Coastal Andhra has been identified with manufacturing as its principal industrial sector.\nStatement B: Rayalaseema has been identified with manufacturing as its principal industrial sector.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P16.F4",
+    "P16.F6"
+   ],
+   "explanation": "Both statements are false. Coastal Andhra is associated with port-based sectors such as steel and data centres, while Rayalaseema is associated with defence, drones and space; manufacturing is assigned to Tirupati/Sri City."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Multi-node industrial model",
+   "question": "Assertion (A): After bifurcation, Andhra Pradesh shifted from Hyderabad’s single-hub agglomeration model towards a multi-node distributed industrial model.\nReason (R): The multi-node model represents a shift from Hyderabad’s single-hub agglomeration model to a distributed model after bifurcation.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the Reason correctly explains the Assertion. The stated industrial approach is specifically a post-bifurcation shift away from Hyderabad’s single-hub model towards a multi-node distributed model."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Digital trade and MICE proposals",
+   "question": "How many of the following statements regarding the AP–Singapore engagement are correct?\n1. The proposed digital trade corridor would use the Singapore Commodities Intelligence Centre blockchain platform.\n2. Revival of the AP–China chilli trade corridor was proposed for Guntur chillies through FPOs.\n3. Amaravati is being modelled on Singapore’s Suntec City district.\n4. The MICE policy involved a study of Singapore’s Punggol district.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P17.F2",
+    "P17.F3",
+    "P17.F5",
+    "P17.F6"
+   ],
+   "explanation": "Only two statements are correct: the digital trade corridor would use the CIC blockchain platform, and the AP–China chilli corridor was proposed for Guntur chillies through FPOs. Amaravati is modelled on Punggol, while the MICE policy involved a study of Suntec City."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Training initiative",
+   "question": "How many Andhra Pradesh Ministers were trained under the Singapore–AP Governance Excellence (SAGE) Initiative?",
+   "options": [
+    "6",
+    "40",
+    "45",
+    "2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F8"
+   ],
+   "explanation": "Six Andhra Pradesh Ministers were trained under the Singapore–AP Governance Excellence Initiative. The figures 40–45 relate to Andhra Pradesh’s share of India’s chilli exports, while 2025 refers to the AP–Singapore MoU."
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  19,
+  20
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Scheme beneficiaries and scale",
+   "question": "Consider the following statements about NHAI Project Saksham:\n\nStatement A: NHAI, in association with Vertis Foundation, is undertaking skill development for rural men.\nStatement B: Project Saksham has 12 training centres and has trained more than 5,000 people.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P19.F1"
+   ],
+   "explanation": "Both Statement A and Statement B are false. Project Saksham provides skill development for rural women, not rural men, and has trained more than 6,000 people, not more than 5,000 people. The reference to 12 training centres in Statement B is correct, but its training figure is incorrect."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Announcement and partnership",
+   "question": "Consider the following statements about Google for Education Schoolers (GES):\n\n1. GES was announced at the Education World Forum 2026 in London, in association with UNICEF and States.\n2. In Phase 1, the participating locations included Maharashtra, Gujarat, Assam, Ladakh and the Punjab School Education Board.\n3. The Google–UNICEF partnership is for three years and covers India, Brazil, Pakistan and Kenya.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P20.F1",
+    "P20.F2",
+    "P20.F3"
+   ],
+   "explanation": "Statements 1 and 3 are correct. GES was announced at the Education World Forum 2026 in London with UNICEF and States, while the three-year Google–UNICEF partnership covers India, Brazil, Pakistan and Kenya. Statement 2 is incorrect because Phase 1 includes Chhattisgarh, not Gujarat."
+  }
+ ]
+}

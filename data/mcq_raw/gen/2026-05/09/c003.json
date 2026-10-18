@@ -1,0 +1,174 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Winner-species pairing",
+   "question": "Which of the following correctly matches an Indian conservationist with the species associated with the Whitley Awards 2026?",
+   "options": [
+    "Barkha Subba — Himalayan Salamander",
+    "Barkha Subba — Indian Skimmer",
+    "Parveen Shaikh — Himalayan Salamander",
+    "Parveen Shaikh — Snow Leopard"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2"
+   ],
+   "explanation": "Barkha Subba won the Whitley Award for work associated with the Himalayan Salamander. Parveen Shaikh was associated with the endangered Indian Skimmer, making the second pairing the most tempting but incorrect alternative."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award winner",
+   "question": "Who received the UNESCO/Guillermo Cano World Press Freedom Prize 2026 for documenting attacks on journalists in the Sudan conflict?",
+   "options": [
+    "Sudanese Journalists Syndicate",
+    "UNESCO",
+    "Whitley Fund for Nature",
+    "World Press Freedom Day Secretariat"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "The Sudanese Journalists Syndicate received the UNESCO/Guillermo Cano World Press Freedom Prize 2026 for documenting attacks on journalists in the Sudan conflict. UNESCO is associated with the prize, but it was not the winning organisation."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Laureate-country pairing",
+   "question": "Match the laureates of the UNESCO–L'Oréal For Women in Science International Awards 2026 with their countries.\n\nList-I\n a. Sarah A. Teichmann\n b. Liesl Zühlke\n c. Raquel Chan\n d. Felice Jacka\n\nList-II\n i. Argentina\n ii. Australia\n iii. South Africa\n iv. United Kingdom",
+   "options": [
+    "a-iv, b-iii, c-i, d-ii",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-ii, b-iii, c-i, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2",
+    "P14.F3",
+    "P14.F4"
+   ],
+   "explanation": "The correct pairs are a-iv, b-iii, c-i and d-ii: Sarah A. Teichmann—United Kingdom, Liesl Zühlke—South Africa, Raquel Chan—Argentina and Felice Jacka—Australia. The closest trap reverses several country associations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Palme d'Or winner",
+   "question": "Who won the Palme d'Or at the 79th Cannes Film Festival 2026?",
+   "options": [
+    "\"Ford\" — Cristian Mungiu",
+    "\"Minotaur\" — Cristian Mungiu",
+    "\"The Dreamed Adventure\" — Cristian Mungiu",
+    "\"Beniman\" — Marie Clémentine Dusabejambo"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F2",
+    "P15.F6",
+    "P15.F7"
+   ],
+   "explanation": "The Palme d'Or went to \"Ford\", directed by Cristian Mungiu. \"Minotaur\" won the Grand Prix, while \"The Dreamed Adventure\" won the Jury Prize and \"Beniman\" won the Caméra d'Or."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Award-winner pairing",
+   "question": "Which of the following statements about the winners at the 79th Cannes Film Festival 2026 is incorrect?",
+   "options": [
+    "\"Ford\" won the Palme d'Or for Cristian Mungiu.",
+    "\"Minotaur\" won the Grand Prix.",
+    "\"Fatherland\" won the Best Director award for Javier Ambrossi and Javier Calvo.",
+    "\"The Dreamed Adventure\" won the Jury Prize."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F2",
+    "P15.F3",
+    "P15.F6"
+   ],
+   "explanation": "The incorrect statement is the third one. Javier Ambrossi and Javier Calvo jointly won Best Director for \"The Black Ball\", whereas Paweł Pawlikowski won it for \"Fatherland\"."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Oscar rule change",
+   "question": "Consider the following statements:\nStatement A: The one-film-per-country restriction for the International Feature category was removed for the 99th Academy Awards.\nStatement B: The Best International Feature award will go to the director rather than the country.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2"
+   ],
+   "explanation": "Both statements are true under the rules for the 99th Academy Awards. The International Feature restriction was removed, and the award will now go to the director instead of the country."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Term in office",
+   "question": "Assertion (A): Yoweri Museveni was sworn in for a sixth term as Uganda's leader in May 2026.\nReason (R): He has been in power since 1986.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P17.F2"
+   ],
+   "explanation": "The Assertion is false because Yoweri Museveni was sworn in for his seventh term, not his sixth. The Reason is true: he has been in power since 1986."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "World leadership developments",
+   "question": "How many of the following statements about the world leaders and appointments reported in May 2026 are correct?\n\n1. Janez Janša became Slovenia's Prime Minister for the fourth time.\n2. Laura Virginia Fernández Delgado was sworn in as Costa Rica's 50th President.\n3. Jeremiah Manele lost a no-confidence vote by 26 votes to 22 in the Solomon Islands' 50-member House.\n4. Ali Falih Khadim Al-Zaidi became Iraq's Prime Minister from 15 May 2026.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F3",
+    "P17.F5",
+    "P17.F6"
+   ],
+   "explanation": "Exactly three statements are correct: the statements about Janez Janša, Laura Virginia Fernández Delgado and Jeremiah Manele. The fourth statement is incorrect because Ali Falih Khadim Al-Zaidi became Iraq's Prime Minister from 16 May 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Ambassadorial appointment",
+   "question": "Who was appointed India's next Ambassador to Oman at Muscat?",
+   "options": [
+    "Prashant Pise",
+    "Sultan Haitham bin Tarik",
+    "Janez Janša",
+    "Abdul Latif Rashid"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F2"
+   ],
+   "explanation": "Prashant Pise, an IFS officer of the 1995 batch, was appointed India's next Ambassador to Oman. Sultan Haitham bin Tarik is identified as Oman's Sultan, while Abdul Latif Rashid is identified as Iraq's President."
+  }
+ ]
+}

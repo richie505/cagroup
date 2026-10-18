@@ -1,0 +1,59 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Supreme Court remark",
+   "question": "What phrase did the Supreme Court use on 7 May 2026 to describe Parliament’s long delay in making a law for the appointment of Election Commissioners?",
+   "options": [
+    "Tyranny of the elected",
+    "Tyranny of the appointed",
+    "Tyranny of the unelected",
+    "Tyranny of the delayed"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Supreme Court described Parliament’s long delay as the “tyranny of the elected.” The phrase was used by Justice Dipankar Datta; the other options alter the key expression."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Composition of selection panel",
+   "question": "Consider the following statements regarding the selection panels for appointing Election Commissioners:\nStatement A: Under the interim arrangement in Anoop Baranwal, the Chief Justice of India was a member of the panel.\nStatement B: Under the 2023 Act, the Chief Justice of India continues to be a member of the panel.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F5"
+   ],
+   "explanation": "Statement A is true because the interim panel included the Chief Justice of India. Statement B is false: under the 2023 Act, the CJI was replaced by a Union Cabinet Minister nominated by the Prime Minister."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Search committee and eligibility",
+   "question": "With reference to the appointment of the Chief Election Commissioner and Election Commissioners, consider the following statements:\n1. The Search Committee is headed by the Law Minister and includes two senior bureaucrats, and it prepares a shortlist of five.\n2. The Selection Committee is required to make an appointment only from the shortlist.\n3. Eligibility requires current or former Secretary-rank status; reappointment is not allowed, and the combined tenure as Election Commissioner and Chief Election Commissioner cannot exceed six years.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F6",
+    "P0.F7",
+    "P0.F8"
+   ],
+   "explanation": "Statements 1 and 3 are correct. Statement 2 is incorrect because Section 8 allows the Selection Committee to go beyond the shortlist; therefore, the correct answer is 1 and 3 only."
+  }
+ ]
+}

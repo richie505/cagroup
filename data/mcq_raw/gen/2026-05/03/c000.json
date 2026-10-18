@@ -1,0 +1,114 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme replacing MGNREGA",
+   "question": "Which scheme replaces the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005?",
+   "options": [
+    "Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "Pradhan Mantri Gram Sadak Yojana",
+    "Pradhan Mantri Schools for Rising India",
+    "MGNREGA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025 replaces MGNREGA. Pradhan Mantri Gram Sadak Yojana and Pradhan Mantri Schools for Rising India are separate schemes, while MGNREGA is the earlier law being replaced."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Mandatory worksite facility",
+   "question": "Consider the following statements:\nStatement A: VB-G RAM G provides 125 days of work.\nStatement B: Childcare facilities at worksites under VB-G RAM G are optional.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F12"
+   ],
+   "explanation": "Statement A is true because VB-G RAM G provides 125 workdays. Statement B is false: childcare facilities at worksites have been made mandatory, not optional."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "PMGSY launch year",
+   "question": "In which year was the Pradhan Mantri Gram Sadak Yojana (PMGSY) launched as a Centrally Sponsored Scheme for all-weather roads?",
+   "options": [
+    "2000",
+    "2013",
+    "2016",
+    "2019"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "PMGSY was launched in 2000 as a Centrally Sponsored Scheme for all-weather roads. The years 2013, 2016 and 2019 refer to later phases or related phases of the programme, not its launch."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "PMGSY phase objectives",
+   "question": "Consider the following statements about the phases of PMGSY:\n1. Phase-I, launched in 2000, focused on upgrading existing routes.\n2. RCPLWEA, launched in 2016, focused on Left Wing Extremism areas.\n3. Phase-III, launched in 2019, focused on upgrading existing routes.",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F5",
+    "P1.F6",
+    "P1.F7",
+    "P1.F8"
+   ],
+   "explanation": "Only statement 2 is correct: RCPLWEA was launched in 2016 with a focus on Left Wing Extremism areas. Phase-I focused on connecting unconnected habitations, while Phase-III focused on through routes to markets, hospitals and schools."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "State-wise PM-SHRI implementation issue",
+   "question": "Assertion (A): West Bengal had not signed the MoU for PM-SHRI implementation.\nReason (R): West Bengal's concern was the three-language formula.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2"
+   ],
+   "explanation": "Assertion A is true: West Bengal had not signed the PM-SHRI MoU. Reason R is false because the three-language formula concern was associated with Tamil Nadu; West Bengal's issue involved the 40% cost and PM-SHRI branding."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "PM-SHRI scheme features",
+   "question": "How many of the following statements about PM-SHRI are correct?\n1. PM-SHRI was launched in 2022.\n2. Its funding pattern is 60:40, 80:20 for the specified special-category regions, and 100% for Union Territories without a legislature.\n3. Under Challenge Mode, a maximum of three schools can be selected per block or ULB.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F5",
+    "P2.F6"
+   ],
+   "explanation": "Only statement 1 is correct: PM-SHRI was launched in 2022. The specified funding pattern is 60:40, 90:10 for the North-Eastern, Himalayan States and Jammu and Kashmir, and 100% for Union Territories without a legislature; the selection limit is two schools per block or ULB, not three."
+  }
+ ]
+}

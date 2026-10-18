@@ -1,0 +1,92 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  32,
+  33,
+  34
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of camps and beneficiaries",
+   "question": "Under the ICAR Khet Bachao Abhiyan, what was the reported scale of soil-health and balanced-fertiliser awareness activities under DARE?",
+   "options": [
+    "12,979+ camps; approximately 7.17 lakh farmers reached",
+    "Approximately 7.17 lakh camps; 12,979+ farmers reached",
+    "12,979+ farmers reached; approximately 7.17 lakh camps",
+    "Approximately 7.17 lakh camps; approximately 7.17 lakh farmers reached"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P32.F1",
+    "P32.F2"
+   ],
+   "explanation": "The ICAR Khet Bachao Abhiyan focused on soil health and balanced fertiliser awareness under DARE, with 12,979+ camps reaching approximately 7.17 lakh farmers. The tempting second option reverses the units and incorrectly treats the farmer figure as the number of camps."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Immigration check post",
+   "question": "From 21 May, where were crew sign-on and sign-off facilities permitted for Mechanised Sailing Vessels of Salaya and Okha?",
+   "options": [
+    "Porbandar Immigration Check Post",
+    "Salaya port",
+    "Okha port",
+    "Mandvi port"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P33.F1"
+   ],
+   "explanation": "Crew sign-on and sign-off for the Mechanised Sailing Vessels of Salaya and Okha were allowed at the Porbandar Immigration Check Post. Salaya and Okha were the vessel locations, not the immigration check post named for this facility."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First under NMEO-Oil Palm",
+   "question": "Assertion (A): Telangana was the first State under the National Mission on Edible Oils–Oil Palm.\nReason (R): The National Mission on Edible Oils–Oil Palm was launched in 2020.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P34.F1"
+   ],
+   "explanation": "Assertion A is correct because Telangana ranked first under NMEO-Oil Palm. Reason R is false: the mission was launched in 2021, not 2020; therefore, the stated launch year cannot explain the assertion."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "First SHG-managed solar plant",
+   "question": "With reference to the women Self-Help Group-managed solar plant in Telangana, consider the following statements:\n1. It was India's first SHG-managed solar plant.\n2. It is a 1 MW plant at Venkatapuram in Khammam.\n3. It was associated with the Indira Mahila Shakti Scheme and involved ₹3 crore.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P34.F6"
+   ],
+   "explanation": "All three statements are correct: the plant was India's first SHG-managed solar plant, has a capacity of 1 MW at Venkatapuram in Khammam, and was linked to the Indira Mahila Shakti Scheme with ₹3 crore. The options excluding statement 1 or statement 3 omit correctly reported features of the project."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "PM MITRA Park",
+   "question": "Which of the following statements about the Kakatiya Mega Textile Park is incorrect?",
+   "options": [
+    "It is the country's first PM MITRA Park at Warangal.",
+    "It covers 1,327 hectares.",
+    "An investment of ₹6,000 crore is expected.",
+    "It is expected to generate 24,400 jobs."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P34.F9"
+   ],
+   "explanation": "The incorrect statement is that the park covers 1,327 hectares; its reported area is 1,327 acres. The other statements correctly identify it as the country's first PM MITRA Park at Warangal, with expected investment of ₹6,000 crore and 24,400 jobs."
+  }
+ ]
+}

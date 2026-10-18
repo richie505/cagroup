@@ -1,0 +1,97 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "District-wise Per Capita Income",
+   "question": "According to the Andhra Pradesh economic indicators for 2025–26, which district recorded the highest Per Capita Income?",
+   "options": [
+    "Visakhapatnam",
+    "Krishna",
+    "NTR",
+    "Tirupati"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Visakhapatnam recorded the highest Per Capita Income at ₹6,58,964. Krishna was listed next, followed by NTR, Eluru and Tirupati, making Krishna the closest incorrect option."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First/only",
+   "question": "The Advanced Medium Combat Aircraft (AMCA) project at Puttaparthi represents which of the following?",
+   "options": [
+    "India’s first fifth-generation stealth multirole fighter",
+    "India’s first fourth-generation stealth multirole fighter",
+    "India’s first fifth-generation non-stealth multirole fighter",
+    "India’s first fifth-generation stealth single-engine fighter"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "AMCA is described as India’s first fifth-generation stealth multirole fighter project at Puttaparthi in Sri Sathya Sai district. The other options alter one key feature: the generation, stealth capability or multirole configuration."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Railway zone HQ and divisions",
+   "question": "Consider the following statements regarding the South Coast Railway zone:\n\n1. Its headquarters is at Visakhapatnam and its operations are scheduled to begin on 1 June 2026.\n2. Its divisions include Guntakal, Guntur, Vijayawada and Visakhapatnam.\n3. It is the 17th railway zone of Indian Railways.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: South Coast Railway has its headquarters at Visakhapatnam, begins operations on 1 June 2026, and includes the listed divisions. Statement 3 is incorrect because South Coast Railway is the 18th railway zone, not the 17th."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Cash and millet incentive",
+   "question": "Consider the following statements regarding the proposed Andhra Pradesh incentives for families:\n\nStatement A: For a third child, the proposal provides ₹30,000 in cash to the mother’s account and 3 kg of millets per month.\nStatement B: For a fourth child, the proposal provides ₹30,000 in cash to the mother’s account and 6 kg of millets per month.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F5"
+   ],
+   "explanation": "Statement A is correct: the proposed benefit for a third child is ₹30,000 and 3 kg of millets per month. Statement B is incorrect because the proposed cash incentive for a fourth child is ₹40,000, although the millet quantity is 6 kg per month."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Likely implementation date",
+   "question": "The proposed Andhra Pradesh cash and millet incentives for the third and fourth child are likely to begin on which date?",
+   "options": [
+    "15 August 2026",
+    "7–8 May 2026",
+    "May, June and July 2026",
+    "2040"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "The proposal is likely to start on 15 August 2026. The dates 7–8 May 2026 refer to the Collectors’ Conference, while May, June and July 2026 refer to the Gram Sabha consultation period."
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  19,
+  20,
+  21
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First/only",
+   "question": "Which person, who died in May 2026, was the first Indian President of the Olympic Council of Asia?",
+   "options": [
+    "Bashir Badr",
+    "Ted Turner",
+    "Raja Randhir Singh",
+    "Shyam Lal Meena"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P19.F1",
+    "P19.F2",
+    "P19.F3",
+    "P19.F4"
+   ],
+   "explanation": "Raja Randhir Singh was the first Indian President of the Olympic Council of Asia. Ted Turner was the founder of CNN, while Bashir Badr was an eminent Urdu poet."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Book release",
+   "question": "Consider the following statements:\nStatement A: “The Bench, the Bar, and the Bizarre” and “The Lawful and the Awful” were released by C.P. Radhakrishnan in New Delhi on 10 May 2026.\nStatement B: “Apnapan” was authored by Shivraj Singh Chouhan and released on 26 May 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P20.F1",
+    "P20.F2"
+   ],
+   "explanation": "Statement A is false because the two books by Tushar Mehta were released by Amit Shah in New Delhi on 10 May 2026. Statement B is true: “Apnapan” was authored by Shivraj Singh Chouhan and released on 26 May 2026."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Book release",
+   "question": "Who released the book “The Constitution is My Home”?",
+   "options": [
+    "Amit Shah",
+    "C.P. Radhakrishnan",
+    "P.T. Usha and Dilip Tirkey",
+    "Surya Kant and B.V. Nagarathna"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P20.F1",
+    "P20.F4",
+    "P20.F5",
+    "P20.F7"
+   ],
+   "explanation": "“The Constitution is My Home”, authored by Indira Jaising and Ritu Menon, was released by Supreme Court Justices Surya Kant and B.V. Nagarathna. C.P. Radhakrishnan released the book on P.N. Panicker, while P.T. Usha and Dilip Tirkey released the book on India’s Olympic hockey triumph."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First Hindi newspaper",
+   "question": "Assertion (A): Udant Martand was India’s first Hindi newspaper.\nReason (R): IIMC released a special edition of “Sanchar Madhyam” on 5 June 2026.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P21.F1",
+    "P21.F2"
+   ],
+   "explanation": "Assertion A is true: Udant Martand was India’s first Hindi newspaper. Reason R is false because IIMC released the special edition of “Sanchar Madhyam” on 5 May 2026, not 5 June 2026."
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Campaign coverage",
+   "question": "Operation Clean Sweep, the urban cleanliness drive launched in Andhra Pradesh in May 2026, covered how many Urban Local Bodies?",
+   "options": [
+    "123",
+    "110",
+    "125",
+    "100"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F1"
+   ],
+   "explanation": "Operation Clean Sweep was a four-week urban cleanliness drive covering all 123 Urban Local Bodies of Andhra Pradesh. The tempting figure of 125 is incorrect because the campaign covered 123 ULBs."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Weekly campaign focus",
+   "question": "Match the weekly focus areas of Operation Clean Sweep with the corresponding weeks.\n\nList-I\n(a) Garbage black spots and roads\n(b) Desilting storm water drains, nallas and backlanes\n(c) Source segregation and bulk waste generators\n(d) Public toilets and garbage vulnerable points\n\nList-II\ni. Week 3\nii. Week 1\niii. Week 4\niv. Week 2",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P27.F4",
+    "P27.F5",
+    "P27.F6",
+    "P27.F7"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii: Week 1 focused on garbage black spots and roads, while Week 2 focused on desilting. The other codes interchange the week-wise priorities."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "E-summons channels",
+   "question": "Under the Andhra Pradesh Electronic Processes (Issuance, Service and Execution) Rules, 2025, which set of digital platforms may be used for serving summons, warrants and notices?",
+   "options": [
+    "WhatsApp, Signal, Telegram and email",
+    "WhatsApp, SMS, postal mail and fax",
+    "Signal, video conference, postal mail and courier",
+    "Telegram, Aadhaar, email and biometric authentication"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P28.F1",
+    "P28.F3"
+   ],
+   "explanation": "The rules introduced by the Andhra Pradesh High Court allow summons, warrants and notices to be served through WhatsApp, Signal, Telegram and email. The other options include channels or mechanisms not listed for this purpose."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Electronic service safeguards",
+   "question": "Which of the following statements regarding the Andhra Pradesh Electronic Processes Rules, 2025, is incorrect?",
+   "options": [
+    "Electronic processes are encrypted and digitally signed by the judicial officer or court superintendent.",
+    "Police submit a screenshot or delivery report as proof of electronic service.",
+    "Physical service continues where electronic service fails.",
+    "Physical service is discontinued once an electronic process is issued."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P28.F4",
+    "P28.F5"
+   ],
+   "explanation": "The incorrect statement is that physical service is discontinued once an electronic process is issued. Physical service continues where e-service fails; the other statements correctly describe the security and proof requirements."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Permitted e-service and fallback",
+   "question": "With reference to the Andhra Pradesh Electronic Processes Rules, 2025, consider the following:\n\n1. Summons may be served through WhatsApp.\n2. Warrants may be served through Signal.\n3. Notices may be served only through postal mail.\n4. Physical service does not continue when electronic service fails.\n\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P28.F3",
+    "P28.F5"
+   ],
+   "explanation": "Only two statements are correct: summons may be served through WhatsApp and warrants through Signal. Notices may also be served through the listed electronic channels, and physical service continues where e-service fails."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Nature of pattadar passbook",
+   "question": "The revised pattadar passbooks distributed by the Andhra Pradesh Government in Nandyal district are best described as which of the following?",
+   "options": [
+    "A part of the Record of Rights and a facilitating document, not conclusive proof of title",
+    "A conclusive title guarantee issued under the repealed AP Land Titling Act",
+    "A political identity document carrying political imagery",
+    "A document that records only the farmer's name and village"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P29.F1",
+    "P29.F2",
+    "P29.F3"
+   ],
+   "explanation": "The revised passbook is part of the Record of Rights and records ownership, extent and survey number, but it is only a facilitating document and not conclusive proof of title. The passbooks carry the State Emblem, and the AP Land Titling Act was repealed."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Skill mobility partner",
+   "question": "APSSDC signed a Letter of Intent with which organisation for skill mobility of Andhra Pradesh youth to Japan?",
+   "options": [
+    "Fourth Valley Concierge Corporation",
+    "ArcelorMittal Nippon Steel India",
+    "Toyota City Municipal Corporation",
+    "Ministry of Skill Development"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P30.F1"
+   ],
+   "explanation": "APSSDC signed the Letter of Intent with Japan's Fourth Valley Concierge Corporation. ArcelorMittal Nippon Steel India is associated with the Visakhapatnam ITI Cluster under PM-SETU, not this Japan skill-mobility agreement."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Target group and partner",
+   "question": "Consider the following statements:\nStatement A: APSSDC signed the Letter of Intent with Toyota City for employment of Andhra Pradesh youth in Japan.\nStatement B: The Skill International Programme targets university students rather than ITI and polytechnic students.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P30.F1",
+    "P30.F3",
+    "P30.F7"
+   ],
+   "explanation": "Both statements are false. The Letter of Intent was signed with Fourth Valley Concierge Corporation, and the programme targets ITI and polytechnic students; Toyota City is identified as an automobile hub, not the APSSDC partner."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First State under PM-SETU",
+   "question": "Which State became the first to implement an Industry Strategic Partnership under PM-SETU through the Visakhapatnam ITI Cluster?",
+   "options": [
+    "Andhra Pradesh",
+    "Telangana",
+    "Tamil Nadu",
+    "Karnataka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P31.F1"
+   ],
+   "explanation": "Andhra Pradesh was the first State to implement an Industry Strategic Partnership under PM-SETU through the Visakhapatnam ITI Cluster with ArcelorMittal Nippon Steel India. The other States were not identified for this distinction."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Women's safety drive",
+   "question": "Assertion (A): Operation Dandayana mandates filing charge sheets within 60 days in rape, sexual assault and POCSO cases.\nReason (R): The drive mandates filing charge sheets within 90 days in these cases.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P32.F1",
+    "P32.F2"
+   ],
+   "explanation": "Assertion A is true because Operation Dandayana requires charge sheets within 60 days in the specified cases. Reason R is false because the prescribed period is 60 days, not 90 days; the drive was announced by DGP Harish Kumar Gupta at police headquarters in Mangalagiri."
+  }
+ ]
+}

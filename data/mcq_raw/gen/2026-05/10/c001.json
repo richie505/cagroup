@@ -1,0 +1,136 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Term and venue",
+   "question": "At which venue was Bharat Singh Chauhan re-elected as Chair of the Commonwealth Chess Association for the 2026–2030 term?",
+   "options": [
+    "Wadduwa, Sri Lanka",
+    "Lausanne, Switzerland",
+    "Bonn, Germany",
+    "Kuwait City, Kuwait"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "Bharat Singh Chauhan was re-elected at the AGM held in Wadduwa, Sri Lanka, for the 2026–2030 term. Lausanne, Bonn and Kuwait City are associated with other sports organisations in the facts, not this AGM."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Chess record",
+   "question": "Faustino Oro became the second-youngest Grandmaster in chess at approximately what age?",
+   "options": [
+    "12 years, 6 months and 26 days",
+    "12 years, 4 months and 25 days",
+    "13 years, 6 months and 26 days",
+    "11 years, 10 months and 25 days"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2"
+   ],
+   "explanation": "Argentine prodigy Faustino Oro became a Grandmaster at approximately 12 years, 6 months and 26 days. The age of 12 years, 4 months and 25 days belongs to Abhimanyu Mishra, who remains the youngest Grandmaster."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Para shooting governance",
+   "question": "Consider the following statements about the proposed transfer of para shooting governance:\n1. Para Shooting is to move from the IPC to the ISSF.\n2. The new system is scheduled to begin from 2027, with a transition during 2027–28.\n3. The ISSF is headquartered in Munich and is headed by Luciano Rossi.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2",
+    "P11.F3"
+   ],
+   "explanation": "All three statements are correct: para shooting is proposed to move from the IPC to the ISSF, the new system is planned from 2027 with a 2027–28 transition, and the ISSF is based in Munich with Luciano Rossi as President. The agreement still requires approval at the 2026 General Assembly."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Everest records",
+   "question": "Which of the following statements regarding Everest summit records is incorrect?",
+   "options": [
+    "Kami Rita Sherpa’s 32nd Everest summit is the men’s record.",
+    "Lhakpa Sherpa’s 10th Everest summit is the women’s record.",
+    "Everest is 8,849 metres high and lies on the Nepal–China border.",
+    "K2 is the second-highest mountain and lies on the Pakistan–China border."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2",
+    "P12.F3"
+   ],
+   "explanation": "The incorrect statement changes Lhakpa Sherpa’s record from the 11th summit to the 10th; her 11th summit is the women’s record. Kami Rita’s 32nd summit is the men’s record, while Everest and K2 have the stated heights and border locations."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Anti-doping bans",
+   "question": "Consider the following statements:\nStatement A: NADA imposed a seven-year ban on discus thrower Banveer Singh after extending his earlier five-year suspension by two years.\nStatement B: Long-distance runner Harendra Kumar received an additional four-year ban.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "Both statements are true. Banveer Singh’s earlier five-year suspension was extended by two years to a seven-year ban, while Harendra Kumar received an additional four-year ban."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First official competition",
+   "question": "Assertion (A): F1 Sim Racing India Open 2026 is India’s first official Formula 1 Sim Racing Championship and the first F1-approved national sim racing competition.\nReason (R): The competition was launched by Formula 1 and Mumbai Falcons Racing Limited, which holds the organising rights.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the launchers and organising-rights holder do not explain why the event is described as India’s first official and first F1-approved national sim racing competition."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Book and Olympic hockey history",
+   "question": "Match List-I with List-II in the context of the book on India’s first Olympic hockey gold.\n\nList-I\n a. Author of “India's Olympic Gold: Hockey Triumph at Amsterdam”\n b. Dignitaries who unveiled the book\n c. Year and venue of India’s first Olympic hockey gold\n d. Publisher of the book\n\nList-II\n i. Stick to Hockey\n ii. K. Arumugam\n iii. 1928 Amsterdam\n iv. P.T. Usha and Dilip Tirkey",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F2",
+    "P15.F3"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i: K. Arumugam authored the book, P.T. Usha and Dilip Tirkey unveiled it, India won its first Olympic hockey gold at Amsterdam in 1928, and Stick to Hockey published it. The other codes interchange the author, dignitaries, year and publisher."
+  }
+ ]
+}

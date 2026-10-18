@@ -1,0 +1,51 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  16,
+  21
+ ],
+ "only": [
+  "P16.F1",
+  "P16.F2",
+  "P16.F3",
+  "P21.F1",
+  "P21.F2"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue/host",
+   "question": "Where was the First India–Algeria Joint Defence Commission held on 5 May 2026?",
+   "options": [
+    "New Delhi",
+    "Algiers",
+    "The headquarters of IAFS",
+    "The venue of the 2024 Defence MoU"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2",
+    "P16.F3"
+   ],
+   "explanation": "The First India–Algeria Joint Defence Commission was held in New Delhi on 5 May 2026. Algiers is the capital of Algeria, while the 2024 Defence MoU concerned implementation and was not the venue of the Commission."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Scheme objective",
+   "question": "What is the primary purpose of ICMR Medical Innovations Patent Mitra?",
+   "options": [
+    "Patenting and technology transfer of indigenous medical innovations",
+    "Implementation of the 2024 Defence MoU",
+    "Launching IAFS",
+    "Renaming IRFA as ICMR"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P21.F1",
+    "P21.F2"
+   ],
+   "explanation": "ICMR Medical Innovations Patent Mitra is an ICMR platform for patenting and technology transfer of indigenous medical innovations. The other options refer to defence cooperation, IAFS, and the historical renaming of IRFA, not the platform’s purpose."
+  }
+ ]
+}

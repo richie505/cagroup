@@ -1,0 +1,117 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Highest CPI inflation",
+   "question": "Which State recorded the highest CPI inflation in April 2026, according to data measured by MoSPI?",
+   "options": [
+    "Telangana",
+    "Andhra Pradesh",
+    "Tamil Nadu",
+    "Karnataka"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F6"
+   ],
+   "explanation": "Telangana ranked first with CPI inflation of 5.81% in April 2026. Andhra Pradesh ranked second, while Tamil Nadu and Karnataka occupied the third and fourth positions respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Kharif MSP increase and infrastructure technology",
+   "question": "Consider the following statements regarding the Cabinet decisions on Kharif MSP and infrastructure:\n1. Sesame had the highest MSP among oilseeds at ₹8,450 per quintal.\n2. Sunflower seed witnessed the largest increase in MSP, at ₹622.\n3. The Ahmedabad–Dholera semi-high-speed railway line is 124 km long and is the first to use indigenous railway technology.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: sesame had the highest oilseed MSP at ₹8,450 per quintal, and sunflower seed received the largest increase of ₹622. Statement 3 is incorrect because the Ahmedabad–Dholera line is 134 km long, not 124 km."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Cabinet approvals",
+   "question": "Which of the following statements regarding the Cabinet approvals is incorrect?",
+   "options": [
+    "The Coal Gasification Incentive Scheme has an allocation of ₹37,500 crore and targets 7.5 crore tonnes of coal gasification.",
+    "Nagpur Airport is to become an international airport under the PPP model with GMR Airports.",
+    "The Ahmedabad–Dholera semi-high-speed railway line is a 134 km double line costing ₹20,667 crore and is the first to use indigenous railway technology.",
+    "The Vadinar ship repair facility is being developed by Deendayal Port Authority and Cochin Shipyard at an estimated cost of about ₹1,750 crore."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F6",
+    "P7.F7",
+    "P7.F8",
+    "P7.F9"
+   ],
+   "explanation": "The fourth statement is incorrect because the estimated cost of the Vadinar ship repair facility is about ₹1,570 crore, not ₹1,750 crore. The other three statements correctly describe the Coal Gasification Incentive Scheme, the Nagpur Airport approval and the Ahmedabad–Dholera railway project."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Sectoral MoUs and satellite-based crop information",
+   "question": "Consider the following statements:\nStatement A: The MoU between AYUSHEXCIL and the Spices Board was signed by Anurag Sharma and M.S. Manivannan before Prataprao Jadhav to promote exports of AYUSH products, medicinal spices and nutraceuticals and to support Codex standards.\nStatement B: The National Jute Board expanded the satellite-based Jute Crop Information System, which was built with ISRO, to provide information on crop condition, area and production forecasts.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "Both statements are true. The AYUSHEXCIL–Spices Board MoU covers exports and Codex standards, while the expanded JCIS uses satellite-based information built with ISRO for jute crop assessment and forecasts."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indian Railways logo",
+   "question": "How many stars are present in the new Indian Railways logo, with one star representing each railway zone?",
+   "options": [
+    "18",
+    "17",
+    "19",
+    "16"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "The new Indian Railways logo has 18 stars, one for each zone after South Coast Railway became the 18th zone. The figures 17, 19 and 16 do not represent the number of stars in the new logo."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "RBI exchange-rate approach and forex reserves",
+   "question": "Assertion (A): The Reserve Bank of India does not pursue a specific exchange-rate target and instead seeks to curb excess volatility.\nReason (R): India’s foreign exchange reserves were approximately $701.4 billion on 16 January 2026, equivalent to about 11 months of goods imports.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. The RBI’s approach is to curb excess volatility without setting a specific exchange-rate target, while the reserve figure describes the level of forex reserves; the reserve level does not explain that policy approach."
+  }
+ ]
+}

@@ -1,30 +1,30 @@
 # CA MCQ report
 
-- MCQs kept: **1389**
-- News pages with at least one question: **966 / 2629**
-- Facts tested: **2838 / 20515** (13.8%)
-- Answer positions: A 355, B 357, C 386, D 291
+- MCQs kept: **1698**
+- News pages with at least one question: **1192 / 2629**
+- Facts tested: **3506 / 20515** (17.1%)
+- Answer positions: A 426, B 434, C 482, D 356
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 148 | 159 | 153 | 114 |
-| Negative / Incorrect Statement | 38 | 38 | 36 | 45 |
-| Assertion-Reason | 43 | 43 | 56 | 46 |
-| Statement-Based (A/B) | 47 | 31 | 49 | 39 |
-| Multi-Statement Correctness | 54 | 49 | 56 | 39 |
+| Direct Recall | 173 | 188 | 200 | 142 |
+| Negative / Incorrect Statement | 50 | 48 | 46 | 50 |
+| Assertion-Reason | 48 | 50 | 66 | 56 |
+| Statement-Based (A/B) | 56 | 41 | 59 | 47 |
+| Multi-Statement Correctness | 62 | 60 | 66 | 49 |
 | Chronological Ordering | 0 | 0 | 0 | 0 |
-| List-Matching | 11 | 7 | 10 | 7 |
-| Count-Based | 14 | 30 | 26 | 1 |
+| List-Matching | 15 | 11 | 15 | 10 |
+| Count-Based | 22 | 36 | 30 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 145 |
-| verify:not_in_facts | 23 |
-| verify:explanation_contradicts | 18 |
-| over the page's quota | 9 |
-| verify:two_correct | 6 |
+| code | 187 |
+| verify:explanation_contradicts | 27 |
+| verify:not_in_facts | 24 |
+| over the page's quota | 12 |
+| verify:two_correct | 7 |
 | verify:none_correct | 5 |
 | verify:second reader picked option 2, key 1 | 5 |
 | duplicate | 4 |
@@ -32,6 +32,8 @@
 | verify:second reader picked option 1, key 0 | 1 |
 | verify:second reader picked option 2, key 0 | 1 |
 | verify:ambiguous_stem | 1 |
+| verify:trivial | 1 |
+| verify:garbled | 1 |
 
 ## Per file
 
@@ -92,17 +94,17 @@
 | 2026-06/09 | Awards, Persons & Appointments | 14 | 31/63 |
 | 2026-06/10 | Sports | 8 | 15/31 |
 | 2026-06/11 | Important Days & Events | 40 | 49/97 |
-| 2026-05/01 | Andhra Pradesh | 0 | 0/262 |
-| 2026-05/02 | Polity & Governance | 0 | 0/172 |
-| 2026-05/03 | Schemes & Social Sector | 0 | 0/110 |
-| 2026-05/04 | Economy, Banking & Budget | 0 | 0/257 |
-| 2026-05/05 | International Relations | 0 | 0/149 |
-| 2026-05/06 | Science, Tech, Space & Defence | 0 | 0/156 |
-| 2026-05/07 | Environment & Geography | 0 | 0/60 |
-| 2026-05/08 | Reports, Indices & Rankings | 0 | 0/110 |
-| 2026-05/09 | Awards, Persons & Appointments | 0 | 0/185 |
-| 2026-05/10 | Sports | 0 | 0/62 |
-| 2026-05/11 | Important Days & Events | 0 | 0/75 |
+| 2026-05/01 | Andhra Pradesh | 58 | 126/262 |
+| 2026-05/02 | Polity & Governance | 33 | 77/172 |
+| 2026-05/03 | Schemes & Social Sector | 22 | 51/110 |
+| 2026-05/04 | Economy, Banking & Budget | 48 | 93/257 |
+| 2026-05/05 | International Relations | 26 | 60/149 |
+| 2026-05/06 | Science, Tech, Space & Defence | 33 | 75/156 |
+| 2026-05/07 | Environment & Geography | 13 | 30/60 |
+| 2026-05/08 | Reports, Indices & Rankings | 18 | 40/110 |
+| 2026-05/09 | Awards, Persons & Appointments | 30 | 60/185 |
+| 2026-05/10 | Sports | 13 | 30/62 |
+| 2026-05/11 | Important Days & Events | 15 | 26/75 |
 | 2026-04/01 | Andhra Pradesh | 0 | 0/306 |
 | 2026-04/02 | Polity & Governance | 0 | 0/211 |
 | 2026-04/03 | Schemes & Social Sector | 0 | 0/71 |
@@ -420,3 +422,42 @@
 - `2026-06/11/c000#16` verify: not_in_facts — The facts establish the facility and its FBTR heat source but do not establish that it is the world’s first.
   - Q: Assertion (A): The world’s first Cu–Cl nuclear hydrogen facility was established at IGCAR, Kalpakkam. / Reason (R): The facility uses heat from the FBTR.
   - Key: Both A and R are true, but R is NOT the correct explanation of A
+- `2026-05/01/c003#5` verify: trivial — The reason almost exactly restates the assertion, giving the item little exam value.
+  - Q: Assertion (A): After bifurcation, Andhra Pradesh shifted from Hyderabad’s single-hub agglomeration model towards a multi-node distributed industrial model. / Reason (R): The multi-node model represents 
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-05/02/c001#1` verify: explanation_contradicts — The facts support the Article 124(1) wording in option 3, while the explanation incorrectly treats that option as false; the bill’s exact title is also not stated in the facts.
+  - Q: Which of the following statements regarding the proposed increase in the strength of the Supreme Court is incorrect?
+  - Key: Article 124(1) provides for the Chief Justice of India and judges as Parliament prescribes by law.
+- `2026-05/03/c000#5` verify: garbled — Only three statements are presented, yet one option refers to all four.
+  - Q: How many of the following statements about PM-SHRI are correct? / 1. PM-SHRI was launched in 2022. / 2. Its funding pattern is 60:40, 80:20 for the specified special-category regions, and 100% for Union T
+  - Key: Only one
+- `2026-05/03/c001#5` verify: explanation_contradicts — The facts support Statement A, while the explanation incorrectly says it is false.
+  - Q: Consider the following statements: /  / Statement A: Kerala will form a separate department for elderly welfare, becoming the first State in India to do so. / Statement B: Under the Kerala State Elderly Com
+  - Key: Both Statement A and Statement B are false
+- `2026-05/03/c001#6` verify: not_in_facts — The facts do not establish that QR code health cards are not part of Nirbhay Drishti.
+  - Q: With reference to the Nirbhay Raho initiative, how many of the following component-coverage pairs are correctly matched? /  / 1. Nirbhay Netri — gender training for 14.5 lakh women elected representatives
+  - Key: Only three
+- `2026-05/03/c003#0` verify: explanation_contradicts — More than 6,000 trained necessarily means more than 5,000, so Statement B is true despite the explanation.
+  - Q: Consider the following statements about NHAI Project Saksham: /  / Statement A: NHAI, in association with Vertis Foundation, is undertaking skill development for rural men. / Statement B: Project Saksham ha
+  - Key: Both Statement A and Statement B are false
+- `2026-05/04/c003#5` verify: explanation_contradicts — Statements 1 and 4 are correct, so the count is two rather than one.
+  - Q: With reference to ECLGS 5.0, how many of the following statements are correct? /  / 1. Coverage for MSMEs is 100%. / 2. Coverage for MSMEs is 90%. / 3. The scheme is valid till 31 March 2026. / 4. Aviation enti
+  - Key: Only one
+- `2026-05/04/c004#1` verify: explanation_contradicts — All four statements are supported by the facts, so none is incorrect; the explanation also acknowledges that the cited production target is correct.
+  - Q: With reference to the Mission for Cotton Productivity, identify the incorrect statement.
+  - Key: The mission has a production target of 498 lakh bales.
+- `2026-05/05/c002#0` verify: two_correct — The facts state both Strategic Partnership and Enhanced Comprehensive Strategic Partnership, making options 0 and 1 defensible.
+  - Q: During President Nikos Christodoulides's visit to India in May 2026, India and Cyprus elevated their bilateral relationship to which status?
+  - Key: Strategic Partnership
+- `2026-05/05/c002#3` verify: explanation_contradicts — The Reason describes PHEIC's status but does not explain why this outbreak was declared a PHEIC; thus both are true but R is not the explanation.
+  - Q: Assertion (A): The WHO declaration concerning the Ebola outbreak was a Public Health Emergency of International Concern. / Reason (R): PHEIC is the highest WHO alert under the International Health Regul
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2026-05/08/c001#3` verify: explanation_contradicts — The facts support both statements as true, but the explanation incorrectly says Statement A is false.
+  - Q: With reference to PLFS 2025, consider the following statements: / Statement A: PLFS 2025 was the first edition to provide monthly coverage of rural and urban areas. / Statement B: PLFS was launched in 201
+  - Key: Statement A is false, Statement B is true
+- `2026-05/08/c001#4` verify: explanation_contradicts — The facts support statements 1, 3, and 4, so the correct count is three, not two.
+  - Q: With reference to PLFS 2025, how many of the following statements are correct? / 1. The all-ages LFPR increased from 44.7% to 44.9%. / 2. Youth unemployment among those aged 15–29 was 8.9%. / 3. The WPR inc
+  - Key: Only two
+- `2026-05/10/c000#8` verify: explanation_contradicts — Statements 1 and 3 are correct, so the answer is Only two, not Only one as stated in the explanation.
+  - Q: With reference to the 2026 Commonwealth Table Tennis Championships in Delhi, how many of the following statements are correct? / 1. The championships will be the 22nd edition. / 2. The event will involve 
+  - Key: Only one

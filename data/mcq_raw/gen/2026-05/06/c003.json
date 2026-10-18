@@ -1,0 +1,148 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Number and investment",
+   "question": "Regarding the semiconductor units approved in Gujarat in May 2026, which statement is correct?",
+   "options": [
+    "Two units with investment of ₹3,900 crore+",
+    "Twelve units with investment of ₹1.64 lakh crore",
+    "One unit with investment of ₹1,943.53 crore",
+    "Twenty-four design projects with investment of ₹76,000 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "The Cabinet approved two semiconductor units in Gujarat with investment of ₹3,900 crore+. The figures of twelve projects and approximately ₹1.64 lakh crore refer to the broader India Semiconductor Mission project portfolio, not the Gujarat approval alone."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Restart approval and reactor history",
+   "question": "Which of the following statements regarding Tarapur Unit-2 (TAPS) is incorrect?",
+   "options": [
+    "AERB approved its restart on 7 May 2026 for another 10 years after NPCIL refurbishment.",
+    "TAPS is located near Boisar in Palghar and is India's first commercial nuclear plant.",
+    "Units 1 and 2 were India's first commercial reactors, commissioned in 1969.",
+    "Tarapur Unit-1 received an extension in December 2025 and has a capacity of 160 MWe."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F2"
+   ],
+   "explanation": "The incorrect statement is that Units 1 and 2 were India's first commercial reactors. They were India's first boiling-water reactors (BWRs), commissioned in 1969; the other statements correctly describe TAPS and its units."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Technology research and collaboration",
+   "question": "Consider the following statements:\n1. Odisha's glass-substrate project was approved under the India Semiconductor Mission in August 2025.\n2. The IndiaAI–Karya MoU is restricted to English-only datasets.\n3. Vitamin B12 obtained from Spirulina contains cobalt.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F3",
+    "P10.F4",
+    "P10.F8"
+   ],
+   "explanation": "Statements 1 and 3 are correct. The IndiaAI–Karya MoU concerns inclusive language and multimodal datasets, so statement 2 is incorrect because it changes the scope to English-only datasets."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "AI command intelligence system",
+   "question": "What is the primary function of the Kautilya AI Platform launched by the Indian Army during 21–25 May 2026?",
+   "options": [
+    "An AI command intelligence system analysing personnel, equipment, logistics and readiness",
+    "A single-window portal for semiconductor investors",
+    "An indigenous cell broadcast system for disaster alerts",
+    "An AI weather application providing regional-language information to farmers"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2"
+   ],
+   "explanation": "Kautilya is an AI command intelligence system of the Indian Army. Its dashboards and NLP interfaces analyse personnel, equipment, logistics and readiness; the other options describe separate initiatives."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launched by and date",
+   "question": "The Semiconductor Investors Support Portal, launched on 26 May 2026, was introduced by which organisation?",
+   "options": [
+    "India Semiconductor Mission under MeitY",
+    "Centre for Development of Telematics under the Ministry of Communications",
+    "Indian Institute of Tropical Meteorology under the Ministry of Earth Sciences",
+    "National Disaster Management Authority"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1"
+   ],
+   "explanation": "The Semiconductor Investors Support Portal was launched by the India Semiconductor Mission (ISM), MeitY, on 26 May 2026. It serves as a single-window platform for investors; the other organisations are associated with different initiatives."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Network congestion and disaster alerts",
+   "question": "Assertion (A): The indigenous Cell Broadcast System can send alerts simultaneously to all phones in an area.\nReason (R): Unlike SMS, the Cell Broadcast System is affected by network congestion.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "The assertion is true: the Cell Broadcast System sends alerts simultaneously to all phones in a specified area. The reason is false because the system is unaffected by network congestion, unlike SMS."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Developer and language service",
+   "question": "Consider the following statements:\nStatement A: Mausam Vani was developed by IITM, Bengaluru.\nStatement B: Mausam Vani provides weather information only in English.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F1",
+    "P14.F2"
+   ],
+   "explanation": "Both statements are false. Mausam Vani was developed by IITM, Pune, and it provides AI-powered weather information in regional languages for farmers."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Theme and venue",
+   "question": "How many of the following statements about the third edition of the Kalam & Kavach defence dialogue are correct?\n1. It was the third edition of the dialogue.\n2. It was held at the Manekshaw Centre, New Delhi, on 14 May 2026.\n3. JAI stands for Jointness, Atmanirbharta and Innovation.\n4. I² stands for Indigenization and International Coordination.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F2"
+   ],
+   "explanation": "Exactly three statements are correct: statements 1, 2 and 3. Statement 4 is incorrect because I² stands for Indigenization and International Collaboration, not International Coordination."
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Exports target",
+   "question": "What export target has been set for India by 2026?",
+   "options": [
+    "US$1 trillion",
+    "US$2 trillion",
+    "US$863 billion",
+    "US$38 billion"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "India has set a target of US$1 trillion in exports by 2026. The US$2 trillion figure is the target for five years, while US$863 billion refers to the approximate exports recorded earlier."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Gold and silver import duty",
+   "question": "Which one of the following statements regarding the revised import duty on gold and silver is incorrect?",
+   "options": [
+    "The import duty was raised from 6% to 15%.",
+    "The revised duty comprises 10% Basic Customs Duty and 5% Agriculture Infrastructure and Development Cess.",
+    "The Agriculture Infrastructure and Development Cess was introduced in 2021.",
+    "The measure aims to increase imports and widen the current account deficit."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F7"
+   ],
+   "explanation": "The incorrect statement is that the measure aims to increase imports and widen the current account deficit. Its stated aims are to curb imports, protect forex, support the rupee and reduce the current account deficit."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Foodgrain production estimate",
+   "question": "With reference to the Third Advance Estimates for 2025–26, consider the following statements:\n1. Total foodgrain production was estimated at a record 376.563 MT.\n2. Rice production was estimated at 154.024 MT.\n3. Wheat production was estimated at 120.657 MT, with an increase of 5.3%.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F4",
+    "P4.F5",
+    "P4.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: total foodgrain production was estimated at 376.563 MT and rice at 154.024 MT. Statement 3 is incorrect because wheat was estimated at 120.657 MT with an increase of 2.29%, not 5.3%."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Marine fish production ranking",
+   "question": "Match the States with their ranks in marine fish production in 2025 according to CMFRI.\n\nList-I\n(a) Tamil Nadu\n(b) Gujarat\n(c) Karnataka\n(d) Maharashtra\n\nList-II\n(i) Rank 1\n(ii) Rank 2\n(iii) Rank 4\n(iv) Rank 5",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F11",
+    "P4.F12",
+    "P4.F13",
+    "P4.F14"
+   ],
+   "explanation": "The correct pairs are Tamil Nadu–Rank 1, Gujarat–Rank 2, Karnataka–Rank 4 and Maharashtra–Rank 5. The tempting alternative placing Gujarat first is incorrect because Tamil Nadu held the first rank."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "IIP base year",
+   "question": "To which year is the NSO revising the base year of the Index of Industrial Production?",
+   "options": [
+    "2022–23",
+    "2011–12",
+    "2025–26",
+    "2017–18"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F17"
+   ],
+   "explanation": "The NSO is revising the IIP base year from 2011–12 to 2022–23. The year 2011–12 is the existing base year, not the revised one."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "GDP growth forecast",
+   "question": "Assertion (A): HSBC forecast India's FY 2026–27 GDP growth at 6.5%.\nReason (R): HSBC's FY 2026–27 GDP growth forecast was 6.0%.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "Assertion A is false because HSBC forecast FY 2026–27 growth at 6.0%, not 6.5%. Reason R is true, as HSBC's forecast was 6.0%."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "GDP growth forecast revision",
+   "question": "Consider the following statements:\nStatement A: S&P Global and CRISIL revised their FY 2026–27 GDP growth forecast from 7.1% to 6.6%.\nStatement B: Their estimate for FY 2025–26 was 7.1%.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F2"
+   ],
+   "explanation": "Statement A is true: S&P Global and CRISIL revised the FY 2026–27 forecast from 7.1% to 6.6%. Statement B is false because their FY 2025–26 estimate was 7.6%, not 7.1%."
+  }
+ ]
+}

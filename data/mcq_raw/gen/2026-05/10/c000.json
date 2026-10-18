@@ -1,0 +1,171 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Winner",
+   "question": "Who won the Thomas Cup at the 2026 Thomas and Uber Cup Finals held at Forum Horsens, Denmark?",
+   "options": [
+    "China",
+    "France",
+    "India",
+    "South Korea"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "China won the 2026 Thomas Cup and secured its 12th title. France was the runner-up, while India and Denmark won the bronze medals; South Korea won the Uber Cup, not the Thomas Cup."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Chef de Mission",
+   "question": "Who was appointed Chef de Mission of India for the 2026 Commonwealth Games in Glasgow?",
+   "options": [
+    "Rohit Rajpal",
+    "Ravi Bengani",
+    "Vandana Rao",
+    "Rahul Swamy"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2"
+   ],
+   "explanation": "Rohit Rajpal was appointed India’s Chef de Mission for the 2026 Commonwealth Games. Ravi Bengani was the Deputy Chef de Mission, while Vandana Rao and Rahul Swamy were team managers."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Host venues",
+   "question": "India was awarded the 2027 Asian Relays and the 2028 Asian Indoor Athletics Championships.\n\nStatement A: The 2027 Asian Relays will be held at the Sector-7 Sports Complex in Chandigarh.\nStatement B: The 2028 Asian Indoor Athletics Championships will be held at Kalinga Stadium in Bhubaneswar.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "Both statements are true. The 2027 Asian Relays were assigned to the Sector-7 Sports Complex, Chandigarh, while the 2028 Asian Indoor Athletics Championships were assigned to Kalinga Stadium, Bhubaneswar."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Medal tally",
+   "question": "With reference to the Asian Weightlifting Championships 2026 held in Gandhinagar, which of the following statements is incorrect?",
+   "options": [
+    "India won 10 medals, comprising 1 silver and 9 bronze medals.",
+    "China topped the medal table with 41 medals.",
+    "Gyaneshwari Yadav won silver in the women’s 53 kg snatch.",
+    "China’s medal tally comprised 21 gold, 12 silver and 9 bronze medals."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "The incorrect statement is that China won 9 bronze medals. China’s 41-medal tally comprised 21 gold, 12 silver and 8 bronze medals; the other statements correctly describe India’s haul and Gyaneshwari Yadav’s silver."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Medal haul",
+   "question": "How many medals did India win at the Asian U15 Boxing Championships held in Tashkent, Uzbekistan?",
+   "options": [
+    "27",
+    "14",
+    "13",
+    "9"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "India won a record 27 medals at the Asian U15 Boxing Championships: 9 gold, 6 silver and 12 bronze. The figures 14 and 13 refer to the girls’ and boys’ medal totals respectively, while 9 is India’s gold-medal count."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "National record",
+   "question": "Assertion (A): Gurindervir Singh set the 100 m national record with a time of 10.09 seconds at the 29th National Senior Athletics Federation Cup in Ranchi.\nReason (R): The record was broken twice in 48 hours.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2"
+   ],
+   "explanation": "Assertion A is true: Gurindervir Singh clocked 10.09 seconds on 23 May 2026 at the Ranchi event. Reason R is false because the record was broken three times in 48 hours, progressing from Gurindervir Singh’s 10.17 seconds to Animesh Kujur’s 10.15 seconds and then 10.09 seconds."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Defending champion",
+   "question": "Whom did Sourabh Kothari defeat in the final to retain the IBSF World Billiards title?",
+   "options": [
+    "Pankaj Advani",
+    "Manoj Kothari",
+    "Gurindervir Singh",
+    "Animesh Kujur"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1"
+   ],
+   "explanation": "Sourabh Kothari defeated Pankaj Advani 1133–477 in the final and defended his 2025 title. Manoj Kothari is Sourabh Kothari’s father and an ex-world champion, while the other two options are associated with athletics."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Sports governance rules",
+   "question": "With reference to the National Sports Board and Tribunal Rules, 2026, consider the following statements:\n1. The Rules were notified under the National Sports Governance Act, 2025.\n2. The National Sports Board recognises National Sports Federations and consists of a Chairperson and two members.\n3. The National Sports Tribunal provides for online filing and virtual hearings.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "All statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F3"
+   ],
+   "explanation": "All three statements are correct. The Rules were notified under the National Sports Governance Act, 2025; the Board recognises National Sports Federations and has a Chairperson with two members; and the Tribunal permits online filing and virtual hearings."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Edition and venue",
+   "question": "With reference to the 2026 Commonwealth Table Tennis Championships in Delhi, how many of the following statements are correct?\n1. The championships will be the 22nd edition.\n2. The event will involve exactly 35 countries.\n3. The venue is the Thyagaraj Stadium, New Delhi.\n4. The headquarters of the ITTF is in New Delhi.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "Only one statement is correct: the championships will be the 22nd edition and will be held at Thyagaraj Stadium, New Delhi. The event is expected to involve 35+ countries, not exactly 35, and the ITTF headquarters is in Lausanne, not New Delhi."
+  }
+ ]
+}

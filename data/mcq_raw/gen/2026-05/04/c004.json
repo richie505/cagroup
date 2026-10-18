@@ -1,0 +1,114 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  14,
+  15
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Announcement and alignment",
+   "question": "The Mission for Cotton Productivity was announced in which Union Budget and aligned with which vision?",
+   "options": [
+    "Union Budget 2025–26 and Textile Vision 2030",
+    "Union Budget 2024–25 and Textile Vision 2030",
+    "Union Budget 2025–26 and the 5F Vision",
+    "Union Budget 2024–25 and the 5F Vision"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F1"
+   ],
+   "explanation": "The Mission for Cotton Productivity was announced in the Union Budget 2025–26 and is aligned with Textile Vision 2030. The 5F Vision is a separate framework associated with the cotton value chain, not the vision with which the mission is aligned."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Cabinet outlay",
+   "question": "With reference to the Mission for Cotton Productivity, identify the incorrect statement.",
+   "options": [
+    "The Union Cabinet approved the mission with an outlay of ₹5,659.22 crore.",
+    "The mission has a production target of 498 lakh bales.",
+    "The mission aims to raise lint productivity from 440 kg/ha to 755 kg/ha by 2031.",
+    "The mission aims to cover 140 districts across 14 States."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P14.F4",
+    "P14.F5",
+    "P14.F7",
+    "P14.F15"
+   ],
+   "explanation": "The incorrect statement is that the mission has a production target of 498 lakh bales; this target is correct, so the statement itself is not incorrect. The changed detail is in the option’s framing: the Union Cabinet approval was associated with the outlay of ₹5,659.22 crore, while the production target is 498 lakh bales. The most relevant distinct Cabinet fact is the outlay of ₹5,659.22 crore."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "5F Vision and implementing ministries",
+   "question": "Consider the following statements about the Mission for Cotton Productivity:\n1. Its 5F Vision runs from Farm to Fibre to Factory to Fashion to Foreign.\n2. It involves the Ministries of Agriculture & Farmers Welfare and Textiles.\n3. Its target is to raise lint productivity from 440 kg/ha to 755 kg/ha by 2030.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F2",
+    "P14.F3",
+    "P14.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the 5F sequence is Farm → Fibre → Factory → Fashion → Foreign, and the mission involves the Ministries of Agriculture & Farmers Welfare and Textiles. Statement 3 is incorrect because the target year for raising lint productivity to 755 kg/ha is 2031, not 2030."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Current storage capacity",
+   "question": "According to the energy-storage data, what are India’s current BESS and pumped-hydro storage capacities, respectively?",
+   "options": [
+    "0.27 GW and 7.2 GW",
+    "7.2 GW and 0.27 GW",
+    "80 GW and 94 GW",
+    "94 GW and 80 GW"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F2"
+   ],
+   "explanation": "India’s current storage comprises 0.27 GW of BESS and 7.2 GW of pumped hydro. The values of 80 GW and 94 GW are the projected BESS and pumped-hydro capacities for 2035–36, respectively."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Battery technology and imports",
+   "question": "Assertion (A): LFP batteries accounted for about 90% of global storage deployments in 2025.\nReason (R): India imports 75–80% of its lithium-ion cells.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P15.F5",
+    "P15.F6"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: LFP batteries represented about 90% of global storage deployments in 2025, and India imports 75–80% of lithium-ion cells. However, India’s import dependence does not explain the global share of LFP batteries, so the Reason is not the correct explanation of the Assertion."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Storage pipeline and VGF",
+   "question": "How many of the following statements regarding energy storage are correct?\n1. The pumped-hydro pipeline includes 13,120 MW under construction.\n2. The pumped-hydro pipeline includes 9,850 MW of projects that have been concurred.\n3. The BESS pipeline includes about 22,743 MW at the tendering stage.\n4. The VGF scheme supports 25 GWh of BESS.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F7",
+    "P15.F10",
+    "P15.F11"
+   ],
+   "explanation": "Only one statement is correct: 13,120 MW of pumped-hydro capacity is under construction. The correct concurred figure is 9,580 MW, the BESS tendering figure is about 22,347 MW, and the VGF scheme supports 30 GWh of BESS rather than 25 GWh."
+  }
+ ]
+}

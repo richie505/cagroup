@@ -1,0 +1,52 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  18,
+  20
+ ],
+ "only": [
+  "P18.F1",
+  "P18.F2",
+  "P18.F3",
+  "P20.F1",
+  "P20.F2",
+  "P20.F3",
+  "P20.F4",
+  "P20.F5"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Pool size",
+   "question": "What is the size of the Bharat Maritime Insurance Pool established to provide insurance cover for Indian vessels on high-risk and war-affected routes in West Asia?",
+   "options": [
+    "US$1.5 billion",
+    "US$1.4 billion",
+    "US$100 million",
+    "₹12,980 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F2"
+   ],
+   "explanation": "The Bharat Maritime Insurance Pool has a size of US$1.5 billion and covers Indian vessels on high-risk or war-affected routes in West Asia. US$1.4 billion refers to the sovereign guarantee, while US$100 million is the claim-settlement limit of GIC Re."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Number of banks integrated",
+   "question": "According to the RBI’s submission to the Supreme Court, how many banks had been integrated with the UDGAM portal?",
+   "options": [
+    "30",
+    "10",
+    "2",
+    "100"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P20.F1"
+   ],
+   "explanation": "The RBI stated that 30 banks were integrated with the UDGAM portal, whose full form is Unclaimed Deposits – Gateway to Access inforMation. The number 10 refers to the period after which deposits become unclaimed, while ReBIT and IFTAS are the two organisations involved in building the portal."
+  }
+ ]
+}

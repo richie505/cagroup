@@ -1,0 +1,64 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Presented by",
+   "question": "Who presented the Padma Awards 2026 at Civil Investiture Ceremony-I held at Rashtrapati Bhavan?",
+   "options": [
+    "President Droupadi Murmu",
+    "K T Thomas",
+    "N Rajam",
+    "V S Achuthanandan"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F5",
+    "P0.F6",
+    "P0.F8"
+   ],
+   "explanation": "The Padma Awards 2026 were presented by President Droupadi Murmu at Civil Investiture Ceremony-I at Rashtrapati Bhavan. K T Thomas, N Rajam and V S Achuthanandan were among the awardees, not the presenter."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Award composition and numbers",
+   "question": "Which of the following statements regarding the Padma Awards 2026 is incorrect?",
+   "options": [
+    "A total of 131 awards comprised 5 Padma Vibhushan, 13 Padma Bhushan and 113 Padma Shri awards.",
+    "The awards included 16 women, 6 foreigners/NRI/PIO/OCI and 19 posthumous awardees.",
+    "A duo was counted as one awardee.",
+    "The awards were presented by President Droupadi Murmu at Civil Investiture Ceremony-I at Rashtrapati Bhavan."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "The incorrect statement is that the awards included 16 women and 19 posthumous awardees. The correct figures were 19 women and 16 posthumous awardees; the figures for foreigners/NRI/PIO/OCI and the other statements are correct."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Total awards and composition",
+   "question": "With reference to the Padma Awards 2026, consider the following statements:\n1. The awards were presented by President Droupadi Murmu at Rashtrapati Bhavan.\n2. The total of 131 awards included 5 Padma Vibhushan, 13 Padma Bhushan and 113 Padma Shri awards.\n3. A duo was counted as two awards.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: President Droupadi Murmu presented the awards at Rashtrapati Bhavan, and the total was 131 with the stated category-wise composition. Statement 3 is incorrect because a duo was counted as one award."
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Induction and basing",
+   "question": "Which ship was inducted on 9 May 2026 at Goa Shipyard Ltd and based at Vadinar, Gujarat?",
+   "options": [
+    "ICGS Achal",
+    "INS Sanghamitra",
+    "INS Mahendragiri",
+    "Kaal Bhairav"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F3",
+    "P4.F9"
+   ],
+   "explanation": "ICGS Achal was inducted on 9 May 2026 at Goa Shipyard Ltd and is based at Vadinar, Gujarat. INS Sanghamitra was launched by GRSE, INS Mahendragiri is a Project 17A frigate, and Kaal Bhairav is an AI combat aircraft."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Ship class and Project 17A",
+   "question": "Which of the following statements about the ships and Project 17A is incorrect?",
+   "options": [
+    "ICGS Achal is a next-generation Adamya-class Fast Patrol Vessel with more than 50% indigenous content.",
+    "INS Sanghamitra was launched on 20 May 2026 by GRSE, Kolkata.",
+    "INS Mahendragiri is the third stealth guided-missile frigate of Project 17A.",
+    "Project 17A is the follow-on to the Shivalik-class and comprises seven frigates built by MDL and GRSE."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F3",
+    "P4.F4"
+   ],
+   "explanation": "The incorrect statement is that INS Mahendragiri is the third Project 17A frigate; it is the fourth stealth guided-missile frigate of Project 17A. The other statements correctly describe ICGS Achal, INS Sanghamitra and Project 17A."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First NGOPV and name origin",
+   "question": "Assertion (A): INS Sanghamitra is the first Next Generation Offshore Patrol Vessel (NGOPV).\nReason (R): The ship was named after Ashoka's daughter Sanghamitra.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F2"
+   ],
+   "explanation": "Both the assertion and the reason are true: INS Sanghamitra is the first NGOPV and is named after Ashoka's daughter Sanghamitra. Its name does not explain why it is the first NGOPV."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Forecast duration and model resolution",
+   "question": "With reference to the IMD's block-level monsoon forecast and the Bharat Forecast System, consider the following statements:\n1. The IMD block-level system provides a four-week probabilistic forecast.\n2. The Bharat Forecast System has a resolution of 6 km and replaced a 12 km model.\n3. The 1-km resolution pilot for Uttar Pradesh is valid for 14 days.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F4",
+    "P5.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the IMD system provides a four-week probabilistic forecast, while BFS operates at 6 km resolution after replacing a 12 km model. Statement 3 is incorrect because the Uttar Pradesh pilot is valid for 10 days, not 14 days."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Launch vehicle and launch schedule",
+   "question": "Consider the following statements:\nStatement A: Mission Drishti was launched on a SpaceX Falcon-9 from Texas.\nStatement B: Pathfinder is a 200-kg satellite scheduled for launch in Q3 2026.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "Both statements are false. Mission Drishti was launched on a SpaceX Falcon-9 from California, while Pathfinder is scheduled for launch in Q4 2026."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Key discoveries and observations",
+   "question": "How many of the following statements about the space and astronomy developments are correct?\n1. The Starship-V3 test involved 20 dummy satellites.\n2. The Zwaan–Wolf effect was first detected in a planetary atmosphere on Mars by NASA MAVEN.\n3. FRB 20240304B was detected on 3 March 2024 by MeerKAT.\n4. The Loktak Protocluster team was led by V. Narayanan.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F8",
+    "P6.F10",
+    "P6.F11",
+    "P6.F12"
+   ],
+   "explanation": "Only two statements are correct: the Starship-V3 test involved 20 dummy satellites, and the Zwaan–Wolf effect was first detected in a planetary atmosphere on Mars by NASA MAVEN. FRB 20240304B was detected on 4 March 2024, and the Loktak Protocluster team was led by Dr. Ronaldo Laishram."
+  }
+ ]
+}

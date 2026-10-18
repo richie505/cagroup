@@ -1,0 +1,146 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "First/only",
+   "question": "With reference to Kuljeet Kaur Marhas being honoured by The Meteoritical Society, consider the following statements:\n1. She became the first Indian woman to be elected a Fellow of The Meteoritical Society.\n2. She became only the third Indian in the Society's 95-year history.\n3. She is the second Indian woman to receive the honour.",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "None of the statements is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "Exactly one statement is correct: Kuljeet Kaur Marhas became the first Indian woman and only the third Indian in The Meteoritical Society's 93-year history. The second statement is incorrect because the Society's history was 93 years, not 95 years; the third is incorrect because she was the first Indian woman, not the second."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Honour/recipient",
+   "question": "Consider the following statements:\nStatement A: Justice Lavu Nageswara Rao became the second Indian to be appointed an Honorary Bencher of the Inner Temple, London.\nStatement B: Justice Lavu Nageswara Rao became the first Indian to receive this honour.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F4"
+   ],
+   "explanation": "Statement A is true, while Statement B is false. Justice Lavu Nageswara Rao was the second Indian to receive the honour, after Justice Prateek Jalan in 2023; therefore, he was not the first Indian."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "State with most awards",
+   "question": "Which State received the highest number of awards in the National Panchayat Awards 2025 selection?",
+   "options": [
+    "Karnataka",
+    "Andhra Pradesh",
+    "Odisha",
+    "All participating States and Union Territories received the same number"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "Karnataka received the highest number of awards, with six. Andhra Pradesh and Odisha received five awards each, so neither matched Karnataka's total."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Awarding organisation",
+   "question": "The Goddard Astronautics Award received for Chandrayaan-3 was conferred by which organisation?",
+   "options": [
+    "American Institute of Aeronautics and Astronautics",
+    "The Royal Society",
+    "Society of Experimental Test Pilots",
+    "The Inner Temple"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The award was conferred by the American Institute of Aeronautics and Astronautics, or AIAA, and was received for ISRO by Ambassador Vinay Kwatra. The Royal Society, Society of Experimental Test Pilots and Inner Temple are associated with other honours in the news."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Prize winner and origin",
+   "question": "Assertion (A): “Taiwan Travelogue” by Yang Shuang-zi, translated by Lin King, won the International Booker Prize 2026.\nReason (R): The prize was launched in 2005 as the Man Booker International Prize.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F3"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, the 2005 launch of the prize as the Man Booker International Prize does not explain why “Taiwan Travelogue” won the 2026 award."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Award category",
+   "question": "In which Pulitzer Prize 2026 category did Anand RK, Suparna Sharma and Natalie Obiko Pearson win for the investigation titled “trAPPed”?",
+   "options": [
+    "Illustrated Reporting and Commentary",
+    "International Booker Prize",
+    "Goddard Astronautics Award",
+    "National Panchayat Awards"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2"
+   ],
+   "explanation": "The three journalists won in the Illustrated Reporting and Commentary category for “trAPPed”, published by Bloomberg. The investigation exposed digital arrest scams in India, while the other options are unrelated awards or award programmes."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "UN award recipient",
+   "question": "Who received the 2025 UN Military Gender Advocate of the Year Award?",
+   "options": [
+    "Major Abhilasha Barak",
+    "Major Suman Gawani",
+    "Major Radhika Sen",
+    "Lance Havildar Harbhajan Singh"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2"
+   ],
+   "explanation": "Major Abhilasha Barak received the 2025 UN Military Gender Advocate of the Year Award. Major Suman Gawani and Major Radhika Sen were earlier Indian recipients, while Lance Havildar Harbhajan Singh received the posthumous Dag Hammarskjöld Medal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "First/qualification",
+   "question": "Who felicitated Squadron Leader Sanya after she became the first woman IAF officer to qualify as a Cat-A Qualified Flying Instructor?",
+   "options": [
+    "ACM A.P. Singh",
+    "President Murmu",
+    "The Ministry of Health and Family Welfare",
+    "O.P. Jindal Global University"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "Squadron Leader Sanya was felicitated by ACM A.P. Singh. President Murmu was associated with the National Florence Nightingale Awards 2026, while the Ministry of Health and Family Welfare and O.P. Jindal Global University relate to other facts in the news."
+  }
+ ]
+}

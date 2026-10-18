@@ -1,0 +1,114 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Release and coverage",
+   "question": "The Panchayat Advancement Index (PAI) 2.0 was released by which ministry for 2023–24 on National Panchayati Raj Day?",
+   "options": [
+    "Ministry of Panchayati Raj",
+    "Ministry of Rural Development",
+    "Ministry of Home Affairs",
+    "Ministry of Panchayati Raj and Ministry of Rural Development jointly"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "PAI 2.0 was released by the Ministry of Panchayati Raj for 2023–24 on National Panchayati Raj Day, 24 April. The Ministry of Rural Development was not identified as the releasing ministry."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "PAI framework indicators",
+   "question": "With reference to the Panchayat Advancement Index (PAI) 2.0, consider the following statements:\n1. It has 150 indicators, 230 data points and 9 themes aligned to LSDGs.\n2. Participation in the assessment was 97.30%, covering 2,59,867 Panchayats across 33 States/UTs.\n3. Performer (B) was the largest category, comprising 1,18,824 Panchayats.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4",
+    "P5.F6"
+   ],
+   "explanation": "All three statements are correct. PAI 2.0 used 150 indicators, 230 data points and 9 themes; participation was 97.30% across 2,59,867 Panchayats in 33 States/UTs; and Performer (B) was the largest category with 1,18,824 Panchayats."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "PAI findings",
+   "question": "Which one of the following statements about the findings of the Panchayat Advancement Index (PAI) 2.0 is incorrect?",
+   "options": [
+    "No Gram Panchayat reached the Achiever (A+) category overall.",
+    "Tripura was the top state, with approximately 80% of its Panchayats in the Front Runner category.",
+    "Uttar Pradesh recorded the highest participation, with all 57,678 Gram Panchayats participating.",
+    "West Bengal participated in PAI 2.0, while Delhi and Chandigarh were excluded because they have no Gram Panchayats."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F7",
+    "P5.F8",
+    "P5.F9",
+    "P5.F11"
+   ],
+   "explanation": "The incorrect statement is that West Bengal participated. West Bengal did not participate, while Delhi and Chandigarh were excluded because they have no Gram Panchayats. The other statements correctly report the absence of any Achiever (A+) Gram Panchayat, Tripura’s position and Uttar Pradesh’s participation."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "UCC and state sequence",
+   "question": "With reference to Assam’s Uniform Civil Code Bill, consider the following:\nAssertion (A): Assam became the second State after Uttarakhand and Gujarat to pass a Uniform Civil Code Bill.\nReason (R): Assam became the first State in the Northeast to pass such a Bill.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F5"
+   ],
+   "explanation": "Assertion (A) is false because Assam became the third State after Uttarakhand and Gujarat, not the second. Reason (R) is true: Assam was the first State in the Northeast to pass a Uniform Civil Code Bill."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Legal protection and National Song",
+   "question": "The Union Cabinet’s decision on Vande Mataram was related to amending which legislation to protect the National Song on a footing equal to the National Anthem?",
+   "options": [
+    "Prevention of Insults to National Honour Act, 1971",
+    "Citizenship Act, 1955",
+    "Official Languages Act, 1963",
+    "Representation of the People Act, 1951"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The Union Cabinet approved amending the Prevention of Insults to National Honour Act, 1971 to protect Vande Mataram like the National Anthem. The Citizenship Act, Official Languages Act and Representation of the People Act were not identified for this amendment."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "e-OCI and passport rule",
+   "question": "With reference to the Citizenship (Amendment) Rules, 2026, consider the following statements:\nStatement A: The Rules, effective from 30 April 2026, amended the Citizenship Rules, 2009.\nStatement B: Minors may hold both Indian and foreign passports under the e-OCI framework.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "Statement A is true: the Rules took effect on 30 April 2026 and amended the Citizenship Rules, 2009. Statement B is false because minors cannot hold both Indian and foreign passports; the rule provides for single citizenship."
+  }
+ ]
+}

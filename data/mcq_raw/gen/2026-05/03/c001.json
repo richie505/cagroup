@@ -1,0 +1,135 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch and target",
+   "question": "When was the PM Surya Ghar Muft Bijli Yojana launched, and what household target was set for 2026–27?",
+   "options": [
+    "February 2024; 1 crore households",
+    "May 2016; 10.33 crore households",
+    "2010; 26.75 lakh households",
+    "2025; 14.5 lakh households"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F1"
+   ],
+   "explanation": "The PM Surya Ghar Muft Bijli Yojana was launched in February 2024 with a target of reaching 1 crore households by 2026–27. May 2016 is associated with the launch of the PM Ujjwala Yojana, not this scheme."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch date and ministry",
+   "question": "The PM Ujjwala Yojana completed 10 years in May 2026. On which date was it launched, and by whom?",
+   "options": [
+    "1 May 2016 by Prime Minister Modi",
+    "February 2024 by Pralhad Joshi",
+    "2010 by J.P. Nadda",
+    "1 May 2015 by Hardeep Singh Puri"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The PM Ujjwala Yojana was launched on 1 May 2016 by Prime Minister Modi. Hardeep Singh Puri is the Minister of Petroleum and Natural Gas, but the fact identifies Prime Minister Modi as the launch authority."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Scheme benefits and regulator",
+   "question": "Match the schemes or institution in List-I with the corresponding feature in List-II.\n\nList-I\n a. PMJJBY\n b. PMSBY\n c. APY\n d. PFRDA\n\nList-II\n i. Pension of ₹1,000–5,000 after 60\n ii. Life cover of ₹2 lakh; age eligibility 18–50; premium ₹436 per year\n iii. Regulator of APY\n iv. Accident cover of ₹2 lakh for death or total disability and ₹1 lakh for partial disability; age eligibility 18–70; premium ₹20 per year",
+   "options": [
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F3",
+    "P5.F5"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-i and d-iii. PMJJBY provides life cover, PMSBY provides accident cover, APY provides a pension after 60, and PFRDA regulates APY; therefore the alternative code a-iv, b-ii, c-iii, d-i reverses these associations."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Digital platform features",
+   "question": "Assertion (A): Janani is a digital platform for tracking maternal and newborn health services.\nReason (R): It creates digital records for mothers and children, provides QR code health cards and sends automatic alerts for high-risk pregnancies.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F3"
+   ],
+   "explanation": "Both the assertion and the reason are true. Janani tracks maternal and newborn health services through digital records, QR code health cards and automatic alerts, so the reason correctly explains its function as a digital platform."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Kerala ageing indicators",
+   "question": "With reference to Kerala's ageing profile, consider the following statements:\n\n1. The population aged 60 and above is projected to reach 20.9% by 2031.\n2. The old age dependency ratio is projected to reach 34.3% by 2031.\n3. Kerala's total fertility rate in 2023 was 1.35.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F3",
+    "P7.F4",
+    "P7.F5"
+   ],
+   "explanation": "All three statements are correct: Kerala's 60+ population is projected at 20.9% by 2031, its old age dependency ratio at 34.3%, and its total fertility rate in 2023 was 1.35. Hence, the correct choice is 1, 2 and 3."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Separate department and elderly commission",
+   "question": "Consider the following statements:\n\nStatement A: Kerala will form a separate department for elderly welfare, becoming the first State in India to do so.\nStatement B: Under the Kerala State Elderly Commission Act, 2025, elderly persons are defined as those aged 65 years and above.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2"
+   ],
+   "explanation": "Both statements are false. Kerala is the first State in India to form a separate elderly-welfare department, but Statement A incorrectly changes the State-specific fact; the Kerala State Elderly Commission Act, 2025 defines elderly persons as those aged 60 and above, not 65 and above."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Nirbhay Raho components and coverage",
+   "question": "With reference to the Nirbhay Raho initiative, how many of the following component-coverage pairs are correctly matched?\n\n1. Nirbhay Netri — gender training for 14.5 lakh women elected representatives\n2. Nirbhay Chetna — gender training for 17.5 lakh male elected representatives\n3. Nirbhay Drishti — CCTV safety infrastructure in Gram Panchayats\n4. Nirbhay Drishti — QR code health cards for women elected representatives",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P8.F2",
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "Three pairs are correct: Nirbhay Netri covers 14.5 lakh women elected representatives, Nirbhay Chetna covers 17.5 lakh male elected representatives, and Nirbhay Drishti concerns CCTV safety infrastructure in Gram Panchayats. QR code health cards are a feature of the Janani platform, not Nirbhay Drishti."
+  }
+ ]
+}
