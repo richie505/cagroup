@@ -21,7 +21,7 @@ def full(p: Path) -> Path:
 
 def sources(month: str) -> list[tuple[str, Path]]:
     out = [(p.stem[:10], p) for p in sorted((TEXT / month / "daily").glob("*.md"))]
-    out += [(f"CARE-{month}" if "CARE" in p.name else f"APCA-{month}", p) for p in sorted((PDF / "monthly").glob(f"{month} - *.txt") if not p.name.endswith(".full.txt"))]
+    out += [(f"CARE-{month}" if "CARE" in p.name else f"APCA-{month}", p) for p in sorted((PDF / "monthly").glob(f"{month} - *.txt")) if not p.name.endswith(".full.txt")]
     y, m = int(month[:4]), int(month[5:])
     for p in sorted((PDF / "praveen").glob("*.txt")):
         if p.name.endswith(".full.txt"):
