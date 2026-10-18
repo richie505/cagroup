@@ -12,11 +12,20 @@ PDF = ROOT / "sources" / "pdf_text"
 MON = {m: i + 1 for i, m in enumerate(["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"])}
 
 
+def full(p: Path) -> Path:
+    """The complete, watermark-free pdfplumber text (sources/pdf_text/*.full.txt) when there is one: Drive's
+    export of the CA-360 magazines stops at PDF page 80."""
+    f = p.with_name(p.stem + ".full.txt")
+    return f if f.exists() else p
+
+
 def sources(month: str) -> list[tuple[str, Path]]:
     out = [(p.stem[:10], p) for p in sorted((TEXT / month / "daily").glob("*.md"))]
-    out += [(f"CARE-{month}" if "CARE" in p.name else f"APCA-{month}", p) for p in sorted((PDF / "monthly").glob(f"{month} - *.txt"))]
+    out += [(f"CARE-{month}" if "CARE" in p.name else f"APCA-{month}", p) for p in sorted((PDF / "monthly").glob(f"{month} - *.txt") if not p.name.endswith(".full.txt"))]
     y, m = int(month[:4]), int(month[5:])
     for p in sorted((PDF / "praveen").glob("*.txt")):
+        if p.name.endswith(".full.txt"):
+            continue
         n = p.name.upper()
         d = re.match(r"CA-(\d\d)-(\d\d)-(\d{4})", n)
         if d:
@@ -28,7 +37,7 @@ def sources(month: str) -> list[tuple[str, Path]]:
         mm = next((v for k, v in MON.items() if re.search(rf"[-\s]{k}", n)), None)
         if mm == m:
             out.append((f"OL-{month}" if "ONELINER" in n or "ONLINER" in n else f"CA360-{month}", p))
-    return out
+    return [(tag, full(p)) for tag, p in out]
 
 
 if __name__ == "__main__":
