@@ -1,0 +1,136 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Expected cyclone intensity",
+   "question": "According to the forecast for Cyclone Montha, what intensity was it expected to attain?",
+   "options": [
+    "Cyclonic Storm",
+    "Severe Cyclonic Storm",
+    "Very Severe Cyclonic Storm",
+    "Extremely Severe Cyclonic Storm"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F9",
+    "P3.F10",
+    "P3.F11"
+   ],
+   "explanation": "Cyclone Montha was expected to become a Severe Cyclonic Storm. Cyclonic Storm described its earlier stage, while Very Severe and Extremely Severe Cyclonic Storm were higher categories than the forecast intensity."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Cyclone forecast details",
+   "question": "With reference to the forecast of Cyclone Montha, which of the following statements is NOT correct?",
+   "options": [
+    "Landfall was expected between Machilipatnam and Kakinada on the evening or night of 28 October 2025.",
+    "The name ‘Montha’ was suggested by India.",
+    "On 26 October, the system was 670 km west of Port Blair.",
+    "The system was expected to become a severe cyclonic storm."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3",
+    "P3.F4",
+    "P3.F1"
+   ],
+   "explanation": "The incorrect statement is that the name ‘Montha’ was suggested by India; it was suggested by Myanmar. The other statements correctly describe the expected landfall, position and intensity of the system."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Disaster preparedness",
+   "question": "How many of the following preparedness measures for Cyclone Montha were correct?\n1. APSDMA sanctioned ₹19 crore.\n2. Six NDRF teams were deployed.\n3. Thirteen SDRF teams were deployed.\n4. Fourteen rescue boats were arranged.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P3.F6"
+   ],
+   "explanation": "All four statements are correct, except the count-based option requires checking the listed measures: ₹19 crore, 6 NDRF teams, 13 SDRF teams and 14 rescue boats were specified. Therefore, all four statements are correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Major investment project",
+   "question": "Which project approved in the Andhra Pradesh investment proposals involves AI data centres with an investment of ₹87,520 crore?",
+   "options": [
+    "Raiden Infotech India",
+    "JSW Industrial Park",
+    "Raj Bhavan",
+    "Food processing project"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P4.F2",
+    "P4.F3",
+    "P4.F6"
+   ],
+   "explanation": "Raiden Infotech India, a Google subsidiary, involves AI data centres with an investment of ₹87,520 crore. JSW Industrial Park, Raj Bhavan and food processing refer to separate projects with different details."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "SIPB and industrial park details",
+   "question": "Consider the following statements:\nStatement A: The JSW Industrial Park covers 1,166 acres in S. Kota mandal of Vizianagaram and is expected to generate about 45,000 jobs.\nStatement B: The State Investment Promotion Board is a single-window clearance body chaired by the Chief Minister.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2",
+    "P4.F9"
+   ],
+   "explanation": "Both statements are true. The JSW Industrial Park has the stated area, location and employment potential, while SIPB functions as a single-window clearance body chaired by the Chief Minister."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Advisory committee leadership",
+   "question": "Assertion (A): Dr. V.K. Saraswat was appointed Chairman of the advisory committee for Green Hydrogen Valley–Amaravati.\nReason (R): K. Vijayanand was appointed Chairman of the same committee.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "The assertion is true: Dr. V.K. Saraswat was appointed Chairman. The reason is false because K. Vijayanand was appointed Co-Chairman, not Chairman."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Green hydrogen targets",
+   "question": "Consider the following statements regarding Green Hydrogen Valley–Amaravati and related national targets:\n1. The National Green Hydrogen Mission targets 5 million metric tonnes of green hydrogen per year by 2030.\n2. India’s net-zero target is 2060.\n3. Andhra Pradesh aims to become India’s largest green hydrogen hub by 2035.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F6",
+    "P5.F8",
+    "P5.F9"
+   ],
+   "explanation": "Only statement 1 is correct: the National Green Hydrogen Mission targets 5 million metric tonnes per year by 2030. India’s net-zero target is 2070, and Andhra Pradesh aims to become India’s largest green hydrogen hub by 2030, not 2035."
+  }
+ ]
+}

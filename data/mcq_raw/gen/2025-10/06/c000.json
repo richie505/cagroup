@@ -1,0 +1,135 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Launched by",
+   "question": "Who launched SARAL, the AI tool for simplifying research communication?",
+   "options": [
+    "Anusandhan National Research Foundation",
+    "Central Board of Secondary Education",
+    "Cellular Operators Association of India",
+    "Bharat Sanchar Nigam Limited"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "SARAL was launched by the Anusandhan National Research Foundation (ANRF). CBSE, COAI and BSNL are associated with other developments mentioned in the October 2025 science and technology news, not with the launch of SARAL."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Use of AI in classrooms",
+   "question": "Consider the following statements:\nStatement A: The Central Square Foundation report found that ~50% of Indian teachers are tech-savvy and use AI tools.\nStatement B: The CENTA survey found that AI was used for dialogue rather than compliance.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F3"
+   ],
+   "explanation": "Both statements are false. The Central Square Foundation report placed the figure at ~70%, while the CENTA survey found that AI was used for compliance rather than dialogue."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First bilateral carrier strike group exercise",
+   "question": "Assertion (A): Konkan-25 was the first-ever bilateral carrier strike group exercise involving both Indian and UK carrier groups.\nReason (R): India operated INS Vikrant and the UK operated HMS Prince of Wales in the exercise.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3",
+    "P2.F4"
+   ],
+   "explanation": "Both the assertion and reason are true, and the reason explains the assertion: the exercise brought together India’s INS Vikrant and the UK’s HMS Prince of Wales. The exercise was therefore the first-ever bilateral carrier strike group exercise involving both carrier groups."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Phases of exercise",
+   "question": "Which two phases constituted the Konkan-25 India–UK carrier strike group exercise?",
+   "options": [
+    "Sea phase and Harbour phase",
+    "Land phase and Air phase",
+    "Research phase and Development phase",
+    "Launch phase and Recovery phase"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F5"
+   ],
+   "explanation": "Konkan-25 consisted of a Sea phase and a Harbour phase. The other combinations do not describe the phases of this exercise."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "India Mobile Congress and 6G features",
+   "question": "With reference to India Mobile Congress 2025 and the 6G vision, consider the following statements:\n1. India Mobile Congress 2025 was the 8th edition held in Mumbai and inaugurated by the Prime Minister.\n2. India Mobile Congress 2025 was organised by the Department of Telecommunications and NASSCOM.\n3. The 6G vision includes a speed of ~1 Tbps and sub-millisecond latency.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "Exactly one statement is correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F2",
+    "P3.F6"
+   ],
+   "explanation": "Exactly one statement is correct: the 6G vision includes ~1 Tbps and sub-millisecond latency. The 2025 Congress was the 9th edition in New Delhi, and its organisers were the Department of Telecommunications and COAI, not NASSCOM."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Key figures and institutional details",
+   "question": "How many of the following statements regarding India Mobile Congress 2025 and the 6G vision are correct?\n1. India Mobile Congress 2025 was the 9th edition held in New Delhi.\n2. Data costs in India had fallen by 98% since 2014.\n3. The 6G vision projected a $1.2 billion GDP contribution by 2035.\n4. The 6G Symposium was inaugurated by Jyotiraditya Scindia and Narendra Modi.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F1",
+    "P3.F3",
+    "P3.F5",
+    "P3.F7"
+   ],
+   "explanation": "Only two statements are correct: statements 1 and 2. The projected 6G GDP contribution was $1.2 trillion, and the 6G Symposium was inaugurated by Jyotiraditya Scindia and Dr. Neeraj Mittal."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Indigenous 4G stack component-provider pairing",
+   "question": "In the indigenous 4G stack highlighted at India Mobile Congress 2025, which organisation provided the Core Network?",
+   "options": [
+    "C-DOT",
+    "Tejas Networks",
+    "TCS",
+    "BSNL"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F10",
+    "P3.F11",
+    "P3.F12",
+    "P3.F13"
+   ],
+   "explanation": "C-DOT provided the Core Network of the indigenous 4G stack. Tejas Networks provided the Radio Access Network, while TCS handled integration and data centres; BSNL was among the organisations that built the stack."
+  }
+ ]
+}

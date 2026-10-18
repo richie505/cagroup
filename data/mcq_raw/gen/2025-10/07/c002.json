@@ -1,0 +1,118 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "New species and location",
+   "question": "Which newly reported plant species was found near Mirjan Fort in Kumta taluk, Karnataka?",
+   "options": [
+    "Utricularia kumtensis",
+    "Zeuxine seetharamii",
+    "Oberonia marnkuliensis",
+    "Parasopubia gorensis"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3",
+    "P6.F4",
+    "P6.F5"
+   ],
+   "explanation": "Utricularia kumtensis was reported from near Mirjan Fort in Kumta taluk. Zeuxine seetharamii was found in Kali Tiger Reserve, while the other two species were associated with Marnkuli Hill and Goregudda respectively."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Species-place matching",
+   "question": "Match the newly reported plant species in the Western Ghats with their locations:\n\nList-I\n(a) Oberonia marnkuliensis\n(b) Zeuxine seetharamii\n(c) Parasopubia gorensis\n(d) Utricularia kumtensis\n\nList-II\n(i) Near Mirjan Fort\n(ii) Goregudda\n(iii) Marnkuli Hill\n(iv) Kali Tiger Reserve\n\nSelect the correct code:",
+   "options": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F3",
+    "P6.F4",
+    "P6.F5"
+   ],
+   "explanation": "The correct pairs are Oberonia marnkuliensis–Marnkuli Hill, Zeuxine seetharamii–Kali Tiger Reserve, Parasopubia gorensis–Goregudda and Utricularia kumtensis–near Mirjan Fort. The other codes interchange the reported locations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Report publisher and title",
+   "question": "Which organisation released the report titled “Guardians of the Wild: Supporting India's Frontline Forest Staff”?",
+   "options": [
+    "Wildlife Trust of India",
+    "International Union for Conservation of Nature",
+    "International Fund for Animal Welfare",
+    "Wildlife Crime Control Bureau"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F1"
+   ],
+   "explanation": "The report was released by the Wildlife Trust of India (WTI). The title specifically concerns support for India’s frontline forest staff; the other organisations are not identified as its publisher."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Van Rakshak Project support",
+   "question": "With reference to the Van Rakshak Project, how many of the following statements are correct?\n\n1. It was started in 2000 by WTI with IFAW.\n2. It has supported more than 21,000 personnel.\n3. Its COVID fund assisted 367 families.\n4. The Supplementary Accident Assurance Scheme aided 173 families.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F5",
+    "P7.F6",
+    "P7.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the project began in 2000 through WTI with IFAW and supported more than 21,000 personnel. Statements 3 and 4 are interchanged—the COVID fund assisted 173 families, while the Supplementary Accident Assurance Scheme aided 367 staff or families."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Award ceremony venue",
+   "question": "Assertion (A): The Kenton R. Miller Award ceremony involving Dr. Sonali Ghosh was held in Abu Dhabi.\nReason (R): The ceremony was held in Abu Dhabi on 10 October 2025.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F3"
+   ],
+   "explanation": "Both the assertion and the reason are correct: Dr. Sonali Ghosh was associated with the award ceremony held in Abu Dhabi on 10 October 2025. The reason directly specifies the venue and date of the ceremony referred to in the assertion."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Kaziranga timeline",
+   "question": "Which one of the following statements regarding Kaziranga is incorrect?",
+   "options": [
+    "Kaziranga was declared a National Park in 1974.",
+    "Kaziranga was listed as a UNESCO World Heritage Site in 1985.",
+    "Kaziranga was designated a Reserve Forest in 1905.",
+    "Kaziranga was listed as a UNESCO World Heritage Site in 1974."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P8.F6",
+    "P8.F7",
+    "P8.F8"
+   ],
+   "explanation": "The incorrect statement is that Kaziranga was listed as a UNESCO World Heritage Site in 1974; the correct year is 1985. The year 1974 refers to its designation as a National Park, while 1905 refers to its Reserve Forest status."
+  }
+ ]
+}

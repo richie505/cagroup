@@ -1,0 +1,114 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Report and publisher",
+   "question": "Which organisation published the PowerPulse Q1 FY26 report on India's power sector for April–June 2025?",
+   "options": [
+    "Institute for Energy Economics and Financial Analysis (IEEFA)",
+    "International Energy Agency (IEA)",
+    "Power Finance Corporation (PFC)",
+    "Indian Renewable Energy Development Agency (IREDA)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The PowerPulse Q1 FY26 report was published by the Institute for Energy Economics and Financial Analysis (IEEFA). PFC and IREDA are organisations associated with power-sector finance, but they were not identified as the publisher of this report."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Thermal capacity target",
+   "question": "With reference to India's power sector outlook reported in PowerPulse Q1 FY26, which of the following statements is incorrect?",
+   "options": [
+    "Peak demand reached 242 GW in June 2025.",
+    "Renewable additions by listed power companies stood at 4.6 GW during April–June 2025.",
+    "Thermal additions stood at 1.9 GW during April–June 2025.",
+    "The 2032 thermal capacity target was revised to 80 GW from 95 GW."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "The incorrect statement reverses the revised thermal target: it was raised to 95 GW from 80 GW for 2032. The other statements correctly report peak demand of 242 GW, renewable additions of 4.6 GW and thermal additions of 1.9 GW."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Company highlights",
+   "question": "Consider the following statements regarding company highlights in Q1 FY26:\n1. NTPC recorded 2,716 MW of renewable additions.\n2. Adani Green Energy added 1.6 GW, taking its operating base to 15.8 GW.\n3. Suzlon recorded its highest Q1 execution in 30 years at 444 MW.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "all statements are correct"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F5",
+    "P0.F6",
+    "P0.F8"
+   ],
+   "explanation": "All three statements are correct: NTPC reported 2,716 MW of renewables, Adani Green Energy added 1.6 GW to reach a 15.8 GW operating base, and Suzlon executed 444 MW, its highest Q1 execution in 30 years. Therefore, the correct choice is all statements are correct."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Recovery window",
+   "question": "In the context of cyber frauds affecting India's digital economy, what does the 24-hour window refer to?",
+   "options": [
+    "A statutory RBI mandate to freeze every suspicious account",
+    "The recovery window for attempting to recover fraudulent funds",
+    "The time limit for completing KYC of mule accounts",
+    "The deadline for reporting every UPI transaction to RBI"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P1.F5"
+   ],
+   "explanation": "The 24-hour window refers to the recovery window in cyber-fraud cases. There was no statutory RBI mandate requiring a 24-hour freeze at the time described."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Campaign launch",
+   "question": "Who launched the “Your Capital, Your Right” campaign on 4 October 2025?",
+   "options": [
+    "Nirmala Sitharaman",
+    "The Governor of RBI",
+    "The Chairperson of SEBI",
+    "The Chairperson of PFRDA"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "Finance Minister Nirmala Sitharaman launched the “Your Capital, Your Right” campaign on 4 October 2025 in Gandhinagar, Gujarat. RBI, SEBI and PFRDA were among the institutional partners associated with the campaign, not its launching authority."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Unclaimed asset amounts",
+   "question": "With reference to the unclaimed financial assets identified by the Department of Financial Services in August 2025, consider the following statements:\n1. Unclaimed deposits exceeded ₹75,000 crore.\n2. Unclaimed insurance amounted to ₹13,800 crore.\n3. Unpaid dividends amounted to ₹3,000 crore.\n4. Unclaimed mutual funds exceeded ₹9,000 crore.\nHow many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F5",
+    "P2.F6",
+    "P2.F7",
+    "P2.F8"
+   ],
+   "explanation": "Only statements 1 and 2 are correct: unclaimed deposits exceeded ₹75,000 crore and unclaimed insurance amounted to ₹13,800 crore. Unpaid dividends exceeded ₹9,000 crore, while unclaimed mutual funds amounted to ₹3,000 crore, so statements 3 and 4 are incorrect."
+  }
+ ]
+}

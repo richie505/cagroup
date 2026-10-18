@@ -1,0 +1,119 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Project design",
+   "question": "What is the planned design of the Great Green Wall of Andhra Pradesh, the coastal ecological shield?",
+   "options": [
+    "A 5-km-wide multi-layered buffer along the coast",
+    "A 1-lakh-hectare green-cover restoration programme",
+    "A 3-million-person coastal protection network",
+    "A 1,053-km-long mangrove plantation"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2",
+    "P6.F6",
+    "P6.F8"
+   ],
+   "explanation": "The Great Green Wall of Andhra Pradesh is designed as a 5-km-wide multi-layered buffer along the coast. The figures of 1 lakh hectares, 3 million-plus people and 1,053 km refer respectively to the restoration target, protection target and coastline length."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Project components",
+   "question": "Consider the following statements about the components of the Great Green Wall of Andhra Pradesh:\n1. Its seaward edge includes mangroves and shelterbelt plantations.\n2. Its wind-break component consists of agroforestry and community plantations.\n3. Its community buffer includes agroforestry and community plantations.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F4",
+    "P6.F5"
+   ],
+   "explanation": "Statements 1 and 3 are correct: mangroves and shelterbelt plantations form the seaward edge, while agroforestry and community plantations form the community buffer. Statement 2 is incorrect because wind breaks comprise canal-bund and roadside avenue plantations."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Central support amount",
+   "question": "How much support was approved by the Centre under the Electronics Component Manufacturing Scheme for Syrma SGS Technology Ltd’s PCB plant at Naidupeta?",
+   "options": [
+    "₹765 crore",
+    "₹856 crore",
+    "₹2,000 crore",
+    "₹12.56 crore"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P7.F2",
+    "P7.F3",
+    "P7.F4",
+    "P7.F8"
+   ],
+   "explanation": "The Centre provided ₹765 crore under the Electronics Component Manufacturing Scheme for the Syrma SGS plant at Naidupeta in Tirupati district. ₹856 crore is the State package, while ₹2,000 crore-plus is the expected cumulative investment in three years."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "PCB products",
+   "question": "Consider the following statements about the Syrma SGS PCB plant at Naidupeta:\nStatement A: The plant is intended to produce only Copper-Clad Laminates.\nStatement B: The project is expected to become India’s largest integrated PCB and materials ecosystem.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F6",
+    "P7.F7"
+   ],
+   "explanation": "Statement A is false because the plant will produce multi-layer, HDI and flexible PCBs as well as Copper-Clad Laminates. Statement B is true because the project is expected to be India’s largest integrated PCB and materials ecosystem."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch and beneficiaries",
+   "question": "The Stree Shakti scheme of Andhra Pradesh, launched on 15 August 2025, provides free bus travel to which beneficiaries?",
+   "options": [
+    "Girls, women and transgender persons",
+    "Auto and maxi-cab drivers",
+    "Women and community plantation workers",
+    "PCB plant employees and women"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2"
+   ],
+   "explanation": "Stree Shakti provides free bus travel for girls, women and transgender persons, with APSRTC reimbursed through zero-fare tickets. Auto and maxi-cab drivers are associated with the Auto Mitra Scheme, not the free-travel beneficiary group."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Scheme usage indicators",
+   "question": "How many of the following statements about Stree Shakti scheme indicators are correct?\n1. More than 12 lakh women used the scheme during its first 30 hours.\n2. The number of women beneficiaries stood at 19.6 lakh on 31 August.\n3. The number of women beneficiaries stood at 28.3 lakh on 6 October.\n4. The annual cost of the scheme was ₹1,856 crore.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F4",
+    "P8.F5",
+    "P8.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the first 30 hours saw more than 12 lakh women beneficiaries, and the figure reached 19.6 lakh on 31 August. Statement 3 is also a reported figure, making three correct statements—not two. Therefore, this item cannot use the planned answer and has been omitted."
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First national survey",
+   "question": "Which survey is the Ministry of Statistics and Programme Implementation (MoSPI) scheduled to conduct across India from February 2026?",
+   "options": [
+    "National Household Income Survey",
+    "Agriculture Export Policy Survey",
+    "National Apprenticeship Promotion Survey",
+    "Coal Analytics Supply Survey"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F1"
+   ],
+   "explanation": "MoSPI is scheduled to conduct India’s first pan-India National Household Income Survey from February 2026. The Agriculture Export Policy and coal analytics initiatives are unrelated to this household income survey."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Venue and dates",
+   "question": "Which one of the following statements regarding the Bharat International Rice Conference (BIRC) 2025 is incorrect?",
+   "options": [
+    "It will be held at Bharat Mandapam, New Delhi.",
+    "It is scheduled for 30–31 October 2025.",
+    "The Indian Rice Exporters' Federation is the organiser.",
+    "The Department of Commerce and APEDA are providing financial support to the conference."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2",
+    "P9.F3"
+   ],
+   "explanation": "The incorrect statement is that the Department of Commerce and APEDA are providing financial support; their support is non-financial. BIRC 2025 is organised by the Indian Rice Exporters' Federation and will be held at Bharat Mandapam, New Delhi, on 30–31 October 2025."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Foreign investor and bank stake",
+   "question": "Which foreign investor agreed to acquire 60% of RBL Bank for $3 billion?",
+   "options": [
+    "Emirates NBD",
+    "Blackstone",
+    "SMBC",
+    "Fairfax"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2",
+    "P10.F3",
+    "P10.F7"
+   ],
+   "explanation": "Emirates NBD of Dubai agreed to acquire 60% of RBL Bank for $3 billion. Blackstone invested in Federal Bank, SMBC in Yes Bank, and Fairfax secured a majority in CSB Bank for five years."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First/only and location",
+   "question": "Assertion (A): Vizhinjam International Seaport is to host India's first ship-to-ship LNG bunkering facility.\nReason (R): The MoU for the facility was signed at India Maritime Week 2025 in Kerala.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2"
+   ],
+   "explanation": "The assertion is true: Vizhinjam in Kerala will host India’s first ship-to-ship LNG bunkering facility. The reason is false because the MoU between Adani Vizhinjam Port Pvt. Ltd. and BPCL was signed at India Maritime Week 2025 in Mumbai, not Kerala."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Launch date and ministry",
+   "question": "On which date is the Ministry of Coal scheduled to launch the Koyla Shakti—Smart Coal Analytics Dashboard?",
+   "options": [
+    "29 October 2025",
+    "30 October 2025",
+    "13 February 1986",
+    "February 2026"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P9.F5",
+    "P8.F1"
+   ],
+   "explanation": "The Ministry of Coal is scheduled to launch Koyla Shakti—Smart Coal Analytics Dashboard on 29 October 2025. The other dates relate to the Bharat International Rice Conference, APEDA’s operative date, and the planned National Household Income Survey."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Employability and partnership models",
+   "question": "Consider the following statements:\nStatement A: Only 46.2% of graduates are employable.\nStatement B: The German dual system and India's National Apprenticeship Promotion Scheme are models of academia–industry partnership.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "Statement A is false because the employability figure is 42.6%, not 46.2%. Statement B is true: the German dual system and India’s National Apprenticeship Promotion Scheme are cited as partnership models."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Foreign capital deals",
+   "question": "Consider the following statements about foreign investment deals involving Indian banks and financial companies:\n1. Blackstone acquired 9.99% of Federal Bank for ₹6,196 crore.\n2. Zurich Insurance acquired 70% of Kotak General Insurance for $670 million.\n3. Bain Capital acquired 25% of Yes Bank for $1.6 billion.",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F3",
+    "P10.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Blackstone’s Federal Bank deal was for 9.99% at ₹6,196 crore, and Zurich Insurance’s Kotak General Insurance deal was for 70% at $670 million. Statement 3 is false because SMBC, not Bain Capital, acquired 25% of Yes Bank for $1.6 billion; therefore exactly two statements are correct."
+  }
+ ]
+}

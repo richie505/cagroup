@@ -1,0 +1,132 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  15,
+  16,
+  17,
+  18
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Largest procurement",
+   "question": "The CESL tender under the PM e-Drive for 10,900 e-buses across five metro clusters was described as India's largest what?",
+   "options": [
+    "E-bus procurement",
+    "Solar power procurement",
+    "Metro rail procurement",
+    "Electricity transmission procurement"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F1",
+    "P15.F5"
+   ],
+   "explanation": "The tender for 10,900 e-buses was described as India’s largest e-bus procurement and is under the PM e-Drive. It was not a solar, metro rail, or electricity transmission procurement."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Project location and inputs",
+   "question": "With reference to the proposed Chelam Hill thermal power project in Srikakulam, which of the following statements is incorrect?",
+   "options": [
+    "The project is being developed by APGENCO as a 3,200 MW supercritical coal plant.",
+    "The project is located in the Burja and Sarubujjili mandals of Srikakulam.",
+    "Water for the project is proposed to come from the Vamsadhara River through the Vennelavalasa reservoir.",
+    "Coal for the project is proposed to be sourced from the Vamsadhara River through the Vennelavalasa reservoir."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F2",
+    "P16.F4"
+   ],
+   "explanation": "The incorrect statement wrongly identifies the Vamsadhara River and Vennelavalasa reservoir as the coal source; they are associated with the project’s water supply. Coal is proposed to come from Talcher in Odisha."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Earlier Srikakulam movements",
+   "question": "Match the earlier Srikakulam movements with the year or location associated with them.\n\nList-I\n a. Sompeta movement\n b. Kakarapalli movement\n c. Sompeta plant site\n d. Kakarapalli plant site\n\nList-II\n i. 2010\n ii. 2011\n iii. Beela wetland\n iv. Nowpada swamp",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iv, d-iii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F8",
+    "P16.F9"
+   ],
+   "explanation": "The correct pairs are Sompeta–2010, Kakarapalli–2011, Sompeta–Beela wetland, and Kakarapalli–Nowpada swamp. The other codes interchange the years or the two plant locations."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Powers of the GoM",
+   "question": "Assertion (A): The Andhra Pradesh Group of Ministers formed to oversee social media has no direct enforcement powers.\nReason (R): The Group of Ministers is authorised only to make recommendations, while its terms include suggesting nodal agencies or independent oversight bodies.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F8",
+    "P17.F9"
+   ],
+   "explanation": "Both statements are correct. The GoM’s role is recommendatory, including suggesting nodal agencies or independent oversight bodies, and it has no direct enforcement powers."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Date and legal basis",
+   "question": "With reference to the Andhra Pradesh Group of Ministers formed to oversee and regulate social media platforms, consider the following statements:\n\nStatement A: The Group of Ministers was formed on 3 October 2025.\nStatement B: The central law identified in its terms of reference is the Information Technology Act, 2010.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P17.F1",
+    "P17.F10"
+   ],
+   "explanation": "Both statements are false. The Group of Ministers was formed on 2 October 2025, and the central law identified is the Information Technology Act, 2000."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Swachha Andhra award details",
+   "question": "With reference to the Swachha Andhra Awards 2025, consider the following statements:\n\n1. Anantapur won the Best Swachha District 2025 award.\n2. Tadipatri Municipality won in the Swachha Municipality category for areas with 1–3 lakh population.\n3. MEPMA received three honours at the awards.",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F2",
+    "P18.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Anantapur was named Best Swachha District and Tadipatri Municipality won its specified category. Statement 3 is incorrect because MEPMA received four honours, not three."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "MEPMA SLF honours",
+   "question": "How many of the following statements about the three Slum Level Federations honoured through MEPMA at the Swachha Andhra Awards 2025 are correct?\n\n1. The Prakasam federation was recognised for a Terrace Garden.\n2. The Srikakulam federation was recognised for Home Compost.\n3. The Visakhapatnam federation was recognised for a Terrace Garden.\n4. The Kurnool federation was recognised for Home Compost.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P18.F7"
+   ],
+   "explanation": "Exactly two statements are correct: Prakasam was recognised for a Terrace Garden, while Srikakulam was recognised for Home Compost. Visakhapatnam was also recognised for Home Compost, and Kurnool was not among the three listed federations."
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Released by",
+   "question": "Who released the Draft National Labour and Employment Policy — Shram Shakti Niti 2025 for public consultation?",
+   "options": [
+    "Union Labour Ministry",
+    "World Health Organization",
+    "National Crime Records Bureau",
+    "Supreme Court of India"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The Draft National Labour and Employment Policy — Shram Shakti Niti 2025 was released by the Union Labour Ministry for public consultation. The World Health Organization is associated with the Maldives validation, not this policy."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Policy features and phase",
+   "question": "Consider the following statements about Shram Shakti Niti 2025:\n1. It proposes universal, portable social security accounts integrating EPFO, ESIC, PMJAY, e-SHRAM and state welfare boards.\n2. It targets a female labour force participation rate of 35% by 2035.\n3. Phase I covers 2027–30 and focuses on nationwide social security accounts.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F2",
+    "P4.F3",
+    "P4.F6",
+    "P4.F7"
+   ],
+   "explanation": "Only statement 1 is correct: the policy proposes universal, portable social security accounts integrating the listed systems and boards. The female LFPR target is 35% by 2030, while Phase I covers 2025–27; therefore statements 2 and 3 are incorrect."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "First triple elimination",
+   "question": "Assertion (A): WHO validated Maldives as the first country to eliminate mother-to-child transmission of HIV, syphilis and hepatitis B.\nReason (R): Maldives spends below 10% of its GDP on health.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F4"
+   ],
+   "explanation": "Assertion A is true: WHO validated Maldives as the first country to achieve the triple elimination of mother-to-child transmission of HIV, syphilis and hepatitis B. Reason R is false because Maldives spends more than 10% of its GDP on health."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "NCRB data on atrocities",
+   "question": "With reference to the NCRB 2023 data on atrocities against Scheduled Castes and Scheduled Tribes, which of the following statements is incorrect?",
+   "options": [
+    "Cases against Scheduled Castes numbered 57,789, an increase of 0.4%.",
+    "Cases against Scheduled Tribes numbered 12,960, an increase of 18.8%.",
+    "Over 60% of Prevention of Atrocities cases were pending, according to the National Campaign on Dalit Human Rights.",
+    "The Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act was enacted in 1989."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "The incorrect statement is the one citing an 18.8% increase in cases against Scheduled Tribes. The correct increase was 28.8%, while the number of cases was 12,960; the other statements reflect the reported data and legal background."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Need for a comprehensive law",
+   "question": "Consider the following statements regarding legal protection for domestic workers:\nStatement A: In January 2025, the Supreme Court directed the State to frame a comprehensive law and constitute an expert committee within six months.\nStatement B: The Domestic Workers (Regulation of Work and Social Security) Bill, 2017, was enacted into law.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F3"
+   ],
+   "explanation": "Both statements are false. The Supreme Court directed the Centre, not the State, to frame a comprehensive law and constitute an expert committee within six months; the Domestic Workers Bill, 2017, was never enacted."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "EPFO withdrawal reforms",
+   "question": "How many of the following statements about EPFO premature withdrawals and proposed reforms are correct?\n1. 95% of final settlements in 2024–25 were premature.\n2. Withdrawal categories are proposed to be reduced from 13 to 3.\n3. The waiting period for premature final settlement was raised from 2 months to 6 months.\n4. EPS pension eligibility requires 5 years of pensionable service.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F3",
+    "P8.F6",
+    "P8.F8",
+    "P8.F9"
+   ],
+   "explanation": "Exactly two statements are correct: 95% of final settlements were premature, and withdrawal categories are proposed to fall from 13 to 3. The waiting period was raised from 2 months to 12 months, and EPS pension eligibility requires 10 years of pensionable service."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Minimum balance requirement",
+   "question": "Under the proposed new EPFO withdrawal norms, what minimum balance must be maintained in the account?",
+   "options": [
+    "25%",
+    "10%",
+    "50%",
+    "75%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P8.F7"
+   ],
+   "explanation": "The proposed EPFO norms require a minimum balance of 25% to be maintained in the account. The 75% figure relates to the amount withdrawable immediately after job loss, not the minimum balance."
+  }
+ ]
+}

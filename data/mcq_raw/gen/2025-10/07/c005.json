@@ -1,0 +1,45 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  18
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Facilitating organisation",
+   "question": "Which organisation facilitated the Kunming Biodiversity Fund grants of $5.8 million to seven countries?",
+   "options": [
+    "Food and Agriculture Organization (FAO)",
+    "United Nations Environment Programme (UNEP)",
+    "China’s Ministry of Ecology and Environment",
+    "Convention on Biological Diversity (CBD)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F1",
+    "P18.F7"
+   ],
+   "explanation": "The $5.8 million Kunming Biodiversity Fund grants to seven countries were facilitated by the Food and Agriculture Organization (FAO), under Director-General Qu Dongyu. UNEP was associated with setting up the Fund in 2021, but it did not facilitate these grants."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Grant focus and beneficiary countries",
+   "question": "Consider the following statements about the Kunming Biodiversity Fund grants:\n1. Grants focusing on biodiversity in agrifood systems involve Madagascar, Uganda and Mexico.\n2. The grant to the Cook Islands focuses on community empowerment.\n3. The grant to Nepal focuses on border biosecurity.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P18.F2",
+    "P18.F3",
+    "P18.F4",
+    "P18.F5"
+   ],
+   "explanation": "Statements 1 and 2 are correct: biodiversity in agrifood systems is the focus in Madagascar, Uganda and Mexico, while community empowerment is the focus in the Cook Islands. Statement 3 is incorrect because Nepal’s grant focuses on invasive species management; border biosecurity is the focus in Sri Lanka."
+  }
+ ]
+}

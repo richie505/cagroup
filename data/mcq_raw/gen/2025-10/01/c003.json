@@ -1,0 +1,93 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Proposals submitted by",
+   "question": "Who submitted the proposals for reforms in APPSC recruitment examinations to the State government?",
+   "options": [
+    "A.R. Anuradha",
+    "The Municipal Commissioner of Visakhapatnam",
+    "The District Collector",
+    "The Governor"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "The proposals were submitted to the State government by outgoing APPSC Chairperson A.R. Anuradha. The Municipal Commissioner of Visakhapatnam was associated with the proposed UDMA, not these APPSC reforms."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Recruitment reform details",
+   "question": "Consider the following statements:\nStatement A: The proposed Group-I reforms include a simplified syllabus and a mandatory Computer Proficiency Test.\nStatement B: The validity of the Computer Proficiency Test is proposed to be extended to one year.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F2",
+    "P9.F4"
+   ],
+   "explanation": "Statement A is true because the Group-I proposal includes a simplified syllabus and a mandatory Computer Proficiency Test. Statement B is false: the proposed validity of the Computer Proficiency Test is two years, not one year."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Computer Proficiency Test administration",
+   "question": "Assertion (A): The validity of the Computer Proficiency Test is proposed to be extended to two years.\nReason (R): The Computer Proficiency Test will be conducted through external agencies.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F4"
+   ],
+   "explanation": "The assertion is true: the proposed validity of the Computer Proficiency Test is two years. The reason is false because the test is proposed to be conducted internally by APPSC, with no external agencies."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Programme allocation",
+   "question": "Under Phase-II of the Urban Flood Risk Management Programme of the National Disaster Management Authority, what amount was allocated for Visakhapatnam?",
+   "options": [
+    "₹60 crore",
+    "₹140 crore",
+    "₹200 crore",
+    "₹244.42 crore"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "₹200 crore was allocated for Visakhapatnam under UFRMP Phase-II of the National Disaster Management Authority. ₹140 crore refers to the structural interventions component, while ₹60 crore is for non-structural interventions."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Visakhapatnam intervention components",
+   "question": "With reference to the Visakhapatnam interventions under UFRMP Phase-II, consider the following statements:\n1. Structural interventions have an allocation of ₹140 crore.\n2. Non-structural interventions have an allocation of ₹60 crore.\n3. The proposal to establish the Urban Disaster Management Authority in Visakhapatnam has received State approval.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F4",
+    "P10.F5",
+    "P10.F6"
+   ],
+   "explanation": "Statements 1 and 2 are correct: structural interventions are allocated ₹140 crore and non-structural interventions ₹60 crore. Statement 3 is incorrect because the proposal for the Urban Disaster Management Authority was awaiting State approval."
+  }
+ ]
+}

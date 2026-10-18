@@ -1,0 +1,168 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First delivery and manufacturer",
+   "question": "Who is scheduled to receive the first LCA Tejas Mk1A in October 2025, and which organisation built it?",
+   "options": [
+    "Indian Air Force; Hindustan Aeronautics Limited",
+    "Indian Air Force; Dassault Aviation",
+    "Indian Navy; Hindustan Aeronautics Limited",
+    "Indian Air Force; GE Aerospace"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1"
+   ],
+   "explanation": "The Indian Air Force is scheduled to receive the first LCA Tejas Mk1A in October 2025, and it has been built by Hindustan Aeronautics Limited. Dassault Aviation and GE Aerospace are not identified as the builder of this aircraft, while the news concerns the Indian Air Force rather than the Indian Navy."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Delivery delay and cause",
+   "question": "Which of the following statements regarding the 83-aircraft LCA Tejas Mk1A contract is incorrect?",
+   "options": [
+    "Deliveries under the contract were due to begin in February 2024.",
+    "The delay was linked to the supply of GE Aerospace engines.",
+    "The contract covers 83 Mk1A aircraft.",
+    "Deliveries were delayed because of a shortage of AESA radars."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "The incorrect statement attributes the delay to a shortage of AESA radars. The delay was linked to GE Aerospace engine supply; the contract covers 83 Mk1A aircraft, with deliveries due in February 2024 and planned at 1–2 per month."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "H-1B fee",
+   "question": "What fee was announced for H-1B visas under the Trump administration in the context of concerns over STEM brain drain?",
+   "options": [
+    "$100,000",
+    "$10,000",
+    "$1,000",
+    "$100"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "The announced H-1B fee was $100,000 under the Trump administration. The lower amounts of $10,000, $1,000 and $100 do not match the reported fee."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Women in STEM schemes and beneficiaries",
+   "question": "Match the Indian women-in-STEM schemes in List-I with their distinguishing details in List-II.\n\nList-I\n a. Women in STEMM (WiS)\n b. Vigyan Jyoti\n c. WISE-KIRAN\n d. STEM\n\nList-II\n i. Term coined in 2001 by the US National Science Foundation\n ii. Scholarships and fellowships\n iii. Girls in classes 9–12\n iv. Career-break re-entry for women scientists aged 27–57",
+   "options": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F5",
+    "P5.F6",
+    "P5.F7"
+   ],
+   "explanation": "The correct pairs are WiS—scholarships and fellowships, Vigyan Jyoti—girls in classes 9–12, WISE-KIRAN—career-break re-entry for women scientists aged 27–57, and STEM—the term coined in 2001 by the US National Science Foundation. The other codes interchange these scheme details and the STEM terminology fact."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Algorithms and polarisation",
+   "question": "Assertion (A): Engagement-driven algorithms can contribute to affective polarisation, echo chambers and misinformation.\nReason (R): Such algorithms amplify outrage in pursuit of user engagement.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F2"
+   ],
+   "explanation": "Both the assertion and the reason are true. Engagement-driven algorithms amplify outrage, which contributes to affective polarisation, echo chambers and misinformation; therefore, the reason correctly explains the assertion."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "First CME impact observation",
+   "question": "With reference to Chandrayaan-2's CHACE-2 payload, consider the following statements:\n1. CHACE-2 was carried on the Chandrayaan-2 orbiter.\n2. It recorded the first-ever direct observation of a Coronal Mass Ejection impact on the lunar exosphere.\n3. The payload was developed by ISRO's Space Physics Laboratory.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P7.F1",
+    "P7.F2",
+    "P7.F4"
+   ],
+   "explanation": "All three statements are correct. CHACE-2 was a payload on the Chandrayaan-2 orbiter, recorded the first-ever direct observation of a CME impact on the lunar exosphere, and was developed by ISRO's Space Physics Laboratory."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "AWS outage impact and origin",
+   "question": "How many of the following statements about the October 2025 AWS outage are correct?\n1. The outage affected more than 1,000 services.\n2. Its origin was traced to the North Virginia region and a DNS resolution issue for DynamoDB endpoints.\n3. India experienced a major disruption in about 10 banks and NBFCs.\n4. AWS contributes about 60% of Amazon's sales.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P8.F1",
+    "P8.F2",
+    "P8.F3",
+    "P8.F4"
+   ],
+   "explanation": "Only two statements are correct: the outage affected more than 1,000 services, and its origin was in the North Virginia region with a DNS resolution issue for DynamoDB endpoints. The disruption reported in about 10 banks and NBFCs was minor, not major, and AWS contributes about 60% of Amazon's operating profit, not sales."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "AI-content labelling requirement",
+   "question": "Consider the following statements:\nStatement A: The proposed MeitY rules require visual AI-generated content to carry a label covering at least 10% of the surface area.\nStatement B: For audio AI-generated content, the proposed label must cover the initial 20% of the duration.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P9.F1",
+    "P9.F2"
+   ],
+   "explanation": "Statement A is true: the proposed visual-content label must cover at least 10% of the surface area. Statement B is false because the proposed audio label applies to the initial 10% of the duration, not 20%."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Feedback deadline",
+   "question": "By what date was feedback invited on MeitY's 22 October 2025 draft rules for labelling AI-generated content?",
+   "options": [
+    "6 November 2025",
+    "22 October 2025",
+    "17 October 2025",
+    "February 2024"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F3",
+    "P9.F4"
+   ],
+   "explanation": "Feedback on the draft rules was invited by 6 November 2025. 22 October 2025 was the date of the proposal, while 17 October 2025 and February 2024 relate to other events in the current-affairs material."
+  }
+ ]
+}

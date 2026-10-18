@@ -1,0 +1,99 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  10,
+  11,
+  12,
+  13
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "AI application in healthcare",
+   "question": "In the context of AI applications in healthcare, what can AI forecast in Kenya up to six months ahead?",
+   "options": [
+    "Child malnutrition",
+    "Oncology drug resistance",
+    "Hospital-acquired infections",
+    "Drought-related crop failure"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1"
+   ],
+   "explanation": "AI can forecast child malnutrition in Kenya up to six months ahead. Oncology drug discovery is associated with IBM Watson and Exscientia, not the stated forecasting application."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Commissioning and role",
+   "question": "Which of the following statements regarding INS Ikshak is incorrect?",
+   "options": [
+    "It was commissioned at Kochi by CNS Admiral Dinesh K. Tripathi on 6 November 2025.",
+    "It was built by GRSE, Kolkata, with more than 80% indigenous content.",
+    "It was the first SVL-class ship with dedicated accommodation for women.",
+    "Its name means “The Navigator.”"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P11.F1",
+    "P11.F2",
+    "P11.F3",
+    "P11.F5"
+   ],
+   "explanation": "The incorrect statement is that INS Ikshak means “The Navigator”; its name means “The Guide.” The other statements correctly describe its commissioning, indigenous content and dedicated accommodation for women."
+  },
+  {
+   "format": "List-Matching",
+   "keyword": "Variety, developer and technology",
+   "question": "Match the items in List-I with the corresponding descriptions in List-II.\n\nList-I\n(a) DRR Rice 100 (Kamala)\n(b) Pusa DST Rice 1\n(c) CRISPR-Cas9\n(d) Bt Cotton\n\nList-II\n(i) GM example\n(ii) Developed by ICAR-IIRR, Hyderabad\n(iii) Gene-editing technology\n(iv) Developed by ICAR-IARI, New Delhi",
+   "options": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F2",
+    "P12.F3",
+    "P12.F7"
+   ],
+   "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i. DRR Rice 100 (Kamala) was developed by ICAR-IIRR, Pusa DST Rice 1 by ICAR-IARI, CRISPR-Cas9 is the gene-editing technology, and Bt Cotton is a GM example."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Field-trial scrutiny",
+   "question": "With reference to the scrutiny of gene-edited rice varieties, consider the following statements:\n\n1. Pusa DST Rice 1 had equal or lower yield in 12 of 20 sites.\n2. Kamala underperformed in 8 of 19 sites.\n3. Kamala flowered in 104 days, compared with 101 days for the comparison variety.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Pusa DST Rice 1 had equal or lower yield in 12 of 20 sites, while Kamala underperformed in 8 of 19 sites. Statement 3 reverses the flowering figures; Kamala flowered in 101 days compared with 104 days for the comparison variety."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Class and academic year",
+   "question": "Consider the following statements:\n\nStatement A: The Ministry of Education will introduce AI in the curriculum from Class 3 in the academic year 2026–27.\nStatement B: This follows the July 2025 ‘Skilling for AI Readiness’ initiative, under which CBSE schools offer AI as a skill subject from Class 6.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F2"
+   ],
+   "explanation": "Both statements are true. AI is to enter the curriculum from Class 3 in 2026–27, while the earlier ‘Skilling for AI Readiness’ initiative enabled CBSE schools to offer AI as a skill subject from Class 6."
+  }
+ ]
+}

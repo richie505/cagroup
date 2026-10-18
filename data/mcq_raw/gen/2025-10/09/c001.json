@@ -1,0 +1,80 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Nobel Economics laureates",
+   "question": "Which combination correctly identifies the laureates of the 2025 Nobel Prize in Economic Sciences and their countries?",
+   "options": [
+    "Joel Mokyr — US-Israel; Philippe Aghion — France; Peter Howitt — Canada",
+    "Joel Mokyr — France; Philippe Aghion — Canada; Peter Howitt — US-Israel",
+    "Acemoglu — US-Israel; Johnson — France; Robinson — Canada",
+    "Philippe Aghion — US-Israel; Peter Howitt — France; Joel Mokyr — Canada"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1",
+    "P5.F2",
+    "P5.F3",
+    "P5.F7"
+   ],
+   "explanation": "The 2025 laureates were Joel Mokyr of US-Israel, Philippe Aghion of France and Peter Howitt of Canada. The combination involving Acemoglu, Johnson and Robinson refers to the 2024 winners, not the 2025 laureates."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Creative destruction model",
+   "question": "Assertion (A): The 2025 Nobel Prize in Economic Sciences recognised the theory of sustained growth through creative destruction.\nReason (R): Philippe Aghion and Peter Howitt co-developed the creative-destruction model in 1992.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F2",
+    "P5.F3"
+   ],
+   "explanation": "Both statements are true: the prize recognised sustained growth through creative destruction, and Aghion and Howitt co-developed its 1992 model. Their model provides the basis for the theory identified in the Assertion."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Sakharov Prize laureates",
+   "question": "Consider the following statements:\nStatement A: Andrzej Poczobut, a laureate of the 2025 Sakharov Prize, is from Belarus.\nStatement B: Mzia Amaghlobeli, a laureate of the 2025 Sakharov Prize, is from Georgia.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2"
+   ],
+   "explanation": "Both statements are true. Andrzej Poczobut is identified with Belarus, while Mzia Amaghlobeli is identified with Georgia; therefore, the options stating that either one is false are incorrect."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Sakharov Prize details",
+   "question": "Which of the following statements about the Sakharov Prize for Freedom of Thought is incorrect?",
+   "options": [
+    "It is awarded by the European Parliament and was established in 1988.",
+    "It is named after Andrei Sakharov and carries a prize of €50,000.",
+    "Its ceremony is held in Brussels.",
+    "The President of the European Parliament is Roberta Metsola."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F3",
+    "P6.F4"
+   ],
+   "explanation": "The incorrect statement is that the ceremony is held in Brussels; the ceremony is held in Strasbourg. The other statements correctly identify the European Parliament, the 1988 establishment, the €50,000 prize, its namesake and Roberta Metsola."
+  }
+ ]
+}

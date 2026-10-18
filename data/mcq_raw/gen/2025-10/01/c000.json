@@ -1,0 +1,114 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Investment and location",
+   "question": "Google’s announced AI hub project in Andhra Pradesh involves an investment of how much over five years, and where will it be located?",
+   "options": [
+    "$15 billion in Visakhapatnam",
+    "$10 billion in Amaravati",
+    "$15 billion in Bengaluru",
+    "$20 billion in Anakapalli"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "Google’s project involves a $15 billion investment over five years for an AI data centre or AI hub in Visakhapatnam. The project is not located in Amaravati or Bengaluru; Anakapalli is one of the two sites within Visakhapatnam district mentioned for land allocation."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Project significance",
+   "question": "Assertion (A): Google’s Visakhapatnam AI hub is its largest investment in India.\nReason (R): The project is an AI data centre in Visakhapatnam.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F2"
+   ],
+   "explanation": "Both statements are true: the investment is described as Google’s largest investment in India, and the project is an AI data centre or AI hub in Visakhapatnam. However, its location and nature do not explain why it is the largest investment."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Implementing entity",
+   "question": "Which of the following statements regarding Google’s Visakhapatnam AI hub project is incorrect?",
+   "options": [
+    "The implementing entity is Raiden Infotech India, a Google subsidiary.",
+    "The project was cleared by the SIPB and the Andhra Pradesh Cabinet.",
+    "Adani Group and Airtel are partners in the project, including a new international subsea gateway.",
+    "The implementing entity is Airtel, in partnership with the Andhra Pradesh Cabinet."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F3",
+    "P0.F4"
+   ],
+   "explanation": "The incorrect statement identifies Airtel as the implementing entity. The implementing entity is Raiden Infotech India, a Google subsidiary; Adani Group and Airtel are project partners."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Capacity target and anchor projects",
+   "question": "With reference to the Apex Data Centre Advisory Council and Andhra Pradesh’s data-centre plans, consider the following statements:\n1. Andhra Pradesh is targeting 6,000 MW of data-centre capacity by 2030.\n2. Sify Infinity has a 550 MW expansion listed as an anchor project.\n3. The technical coordinator of the Council is NASSCOM.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3",
+    "P1.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the target is 6,000 MW by 2030, and Sify Infinity’s 550 MW expansion is an anchor project. Statement 3 is incorrect because Primus Partners is the technical coordinator; NASSCOM is included among the policy bodies."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Order date",
+   "question": "The Apex Data Centre Advisory Council in Andhra Pradesh was constituted under which Government Order and on what date?",
+   "options": [
+    "G.O. 46, 27 October 2025",
+    "G.O. 40, 27 October 2025",
+    "G.O. 46, 17 October 2025",
+    "G.O. 64, 27 September 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "The Council was constituted under G.O. 46 dated 27 October 2025. The other options alter either the Government Order number or the date."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "District reorganisation plan",
+   "question": "With reference to the proposed reorganisation of Andhra Pradesh districts, how many of the following statements are correct?\n1. The plan proposes expanding Andhra Pradesh from 26 to 32 districts.\n2. Final Cabinet approval and notification are expected in December 2026.\n3. The proposal identifies five new districts.\n4. Ongole is proposed to cease to be the headquarters of Prakasam district.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F4"
+   ],
+   "explanation": "Only statement 1 is correct: the proposal is to expand Andhra Pradesh from 26 to 32 districts. Final approval and notification are expected in January 2026, six new districts are identified, and Ongole is to remain the headquarters of Prakasam district."
+  }
+ ]
+}

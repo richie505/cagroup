@@ -1,0 +1,133 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Centenary milestone",
+   "question": "On which date did the Union Public Service Commission enter its centenary year?",
+   "options": [
+    "1 October 2025",
+    "1 October 1919",
+    "1 October 1926",
+    "1 October 1950"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "The Union Public Service Commission entered its centenary year on 1 October 2025. The other dates relate to earlier milestones in the evolution of public service recruitment and the Commission."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Historical evolution of UPSC",
+   "question": "Which one of the following statements regarding the evolution of the Union Public Service Commission is incorrect?",
+   "options": [
+    "The Government of India Act, 1919 first envisaged an independent recruitment body.",
+    "The Lee Commission recommended such a body in 1924.",
+    "The Public Service Commission was set up in October 1924 with Sir Ross Barker as its first chairman.",
+    "The Government of India Act, 1935 provided for a Federal Public Service Commission."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3",
+    "P0.F4",
+    "P0.F5"
+   ],
+   "explanation": "The incorrect statement is that the Public Service Commission was set up in October 1924. It was set up in October 1926, with Sir Ross Barker as its first chairman; the other three statements correctly state the relevant milestones."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Indian Knowledge Systems and constitutional duty",
+   "question": "Consider the following statements:\nStatement A: Article 51A(h) refers to the duty to develop scientific temper, humanism and spirit of enquiry, but not reform.\nStatement B: The draft Learning Outcome-based Curriculum Framework proposed examples such as Kautilya's Arthashastra in commerce and the concept of paramanu in chemistry.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F4"
+   ],
+   "explanation": "Statement A is false because Article 51A(h) includes the spirit of enquiry and reform along with scientific temper and humanism. Statement B is true: the draft framework cited Kautilya's Arthashastra in commerce and paramanu in chemistry."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Open-source journalism example",
+   "question": "The Hindu's open-source journalism probe into voter-list manipulation was associated with which place?",
+   "options": [
+    "Aland, Karnataka",
+    "Chicago, USA",
+    "New Delhi",
+    "Prasar Bharati"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F3"
+   ],
+   "explanation": "The probe by The Hindu concerned voter-list manipulation in Aland, Karnataka. ProPublica is a non-profit journalism model in the United States, while BBC and Prasar Bharati are mentioned in relation to broader institutional concerns."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "District judge recruitment",
+   "question": "Assertion (A): The Supreme Court held that judicial officers in the subordinate judiciary can compete for district judge posts through direct recruitment.\nReason (R): Justice Sundresh observed that an absolute bar on such recruitment violates Article 14.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F4"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. However, Justice Sundresh's observation concerning Article 14 was a concurring observation, not the stated explanation for the Court's holding on direct recruitment."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Eligibility conditions for district judge recruitment",
+   "question": "With reference to the Supreme Court's directions on direct recruitment of serving judicial officers as district judges, consider the following statements:\n1. Seven years of continuous experience may be counted by combining advocacy and judicial service.\n2. The uniform minimum age is 35 years.\n3. Eligibility is assessed at the time of judgment.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F5",
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the required seven years may combine advocacy and judicial service, and the uniform minimum age is 35 years. Statement 3 is incorrect because eligibility is assessed at the time of application, not at the time of judgment."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Recruitment integrity reforms",
+   "question": "How many of the following were among the reforms suggested for rebuilding trust in public service recruitment?\n1. Biometric verification\n2. Encrypted paper transmission\n3. AI-based facial recognition\n4. A national ombudsman",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P4.F3"
+   ],
+   "explanation": "Only two listed measures—biometric verification and encrypted paper transmission—were among the suggested reforms. The stated suggestions referred to AI analytics and a national regulator, not AI-based facial recognition or a national ombudsman."
+  }
+ ]
+}

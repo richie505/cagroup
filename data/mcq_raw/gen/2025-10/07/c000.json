@@ -1,0 +1,115 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First dedicated conservation area",
+   "question": "The Palk Bay Dugong Conservation Reserve is significant because it is India's first dedicated conservation area for which species?",
+   "options": [
+    "Dugong",
+    "Sea turtle",
+    "Olive ridley turtle",
+    "Gharial"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P0.F3",
+    "P0.F7"
+   ],
+   "explanation": "The Palk Bay Dugong Conservation Reserve is India's first dedicated dugong conservation area. The dugong, also called the ‘sea cow’, is a herbivorous marine mammal; the reserve is not a sea-turtle or gharial conservation area."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Population status",
+   "question": "Assertion (A): The dugong population in the Palk Bay Dugong Conservation Reserve has risen to over 200 individuals.\nReason (R): The population in the reserve has fallen to 200 or fewer individuals.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "Assertion A is true because WII surveys recorded the population as having risen to over 200 individuals. Reason R is false because the reported population is over 200, not 200 or fewer."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Overall monsoon deviation",
+   "question": "How much above the Long Period Average was India's overall monsoon rainfall in 2025?",
+   "options": [
+    "8%",
+    "27%",
+    "15%",
+    "10%"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "India's overall monsoon rainfall in 2025 was 8% above the Long Period Average of 87 cm. The figures 27%, 15% and 10% refer to excess rainfall in Northwest India, Central India and the South Peninsula respectively."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Regional excess rainfall",
+   "question": "With reference to the regional rainfall excess during the 2025 monsoon, consider the following statements:\n1. Northwest India recorded 27% excess rainfall.\n2. Central India recorded 15% excess rainfall.\n3. The South Peninsula recorded 12% excess rainfall.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3",
+    "P1.F4"
+   ],
+   "explanation": "Statements 1 and 2 are correct: Northwest India recorded 27% excess rainfall and Central India recorded 15% excess rainfall. Statement 3 is incorrect because the South Peninsula recorded 10% excess rainfall, not 12%."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Global e-waste ranking",
+   "question": "With reference to India's e-waste burden in 2025, identify the incorrect statement.",
+   "options": [
+    "India generated 2.2 million MT of e-waste.",
+    "India was the second-largest generator of e-waste after China and the USA.",
+    "India's e-waste generation had risen by 150% from 0.71 million MT in 2017–18.",
+    "The E-Waste (Management) Rules, 2022 provide for Extended Producer Responsibility and mandatory registration of recyclers and dismantlers."
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F2",
+    "P2.F6"
+   ],
+   "explanation": "The incorrect statement is that India was the second-largest generator. India generated 2.2 million MT in 2025 and ranked third-largest, after China and the USA; the other statements correctly reflect the reported growth and the 2022 Rules."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "E-waste burden indicators",
+   "question": "With reference to e-waste and public health in India, how many of the following statements are correct?\n1. Sixty-five cities produce more than 60% of India's e-waste.\n2. India has 232 registered formal e-waste recyclers.\n3. Only 43% of e-waste was processed formally in 2023–24.\n4. PM2.5 in Seelampur exceeded 300 μg/m³, which was 10 times the WHO 24-hour limit.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F4",
+    "P2.F5"
+   ],
+   "explanation": "Only statements 1 and 3 are correct. India had 322 registered formal recyclers, not 232, and Seelampur's PM2.5 level was 12 times the WHO 24-hour limit, not 10 times."
+  }
+ ]
+}

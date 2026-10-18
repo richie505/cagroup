@@ -1,0 +1,97 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  5,
+  6
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Co-chairs and venue",
+   "question": "Who co-chaired the inaugural Australia–India Defence Ministers' Dialogue held in Canberra?",
+   "options": [
+    "Rajnath Singh and Richard Marles",
+    "Rajnath Singh and Keir Starmer",
+    "Richard Marles and Narendra Modi",
+    "Keir Starmer and Narendra Modi"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P5.F1"
+   ],
+   "explanation": "Rajnath Singh and Australian Deputy Prime Minister and Defence Minister Richard Marles co-chaired the dialogue in Canberra. Keir Starmer and Narendra Modi were associated with the India–UK engagement, not this Australia–India dialogue."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Agreements signed",
+   "question": "Which of the following statements regarding the agreements and outcomes of the inaugural Australia–India Defence Ministers' Dialogue is incorrect?",
+   "options": [
+    "An Agreement on Information Sharing was signed.",
+    "An MoU on Submarine Search and Rescue Cooperation was signed.",
+    "Terms of Reference for Joint Staff Talks were signed.",
+    "An Agreement on Maritime Information Sharing was signed."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P5.F3",
+    "P5.F4",
+    "P5.F5",
+    "P5.F6"
+   ],
+   "explanation": "The incorrect statement is that an Agreement on Maritime Information Sharing was signed. The agreement was an Agreement on Information Sharing; the other listed agreements and the Joint Maritime Security Collaboration Roadmap were outcomes of the dialogue."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Missile deal and beneficiary",
+   "question": "During UK Prime Minister Keir Starmer's India visit, the £350 million missile deal was for which missile system and service?",
+   "options": [
+    "Lightweight Multirole Missiles for the Indian Army",
+    "STARStreak high velocity missiles for the Indian Navy",
+    "ASRAAM for the Indian Air Force",
+    "Naval electric engines for India's Landing Platform Dock fleet"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P6.F1",
+    "P6.F2",
+    "P6.F5"
+   ],
+   "explanation": "The £350 million deal concerned Lightweight Multirole Missiles made in Belfast for the Indian Army. STARStreak, ASRAAM and naval electric engines were separate defence-related developments."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Indian investment in the UK",
+   "question": "Consider the following statements:\nStatement A: Sixty-four Indian firms announced £1.3 billion of investment in the UK, associated with around 7,000 jobs.\nStatement B: TVS Motor announced an investment of £100 million in Solihull for Norton Motorcycles.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P6.F6",
+    "P6.F7"
+   ],
+   "explanation": "Statement A is true: 64 Indian firms accounted for £1.3 billion and around 7,000 jobs. Statement B is false because TVS Motor's investment in Solihull for Norton Motorcycles was £250 million, not £100 million."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Education partnership",
+   "question": "Assertion (A): Imperial College London partnered with the University of Surrey for its India engagement.\nReason (R): The University of Lancaster and the University of Surrey were approved to open campuses in India.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P6.F11",
+    "P6.F12"
+   ],
+   "explanation": "The Assertion is false: Imperial College London partnered with Science Gallery Bengaluru, not the University of Surrey. The Reason is true because the University of Lancaster and the University of Surrey were approved to open campuses in India."
+  }
+ ]
+}

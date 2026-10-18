@@ -1,0 +1,131 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Signatory to executive order",
+   "question": "Who signed the US executive order titled “Assuring the Security of the State of Qatar” in September 2025?",
+   "options": [
+    "Donald Trump",
+    "Benjamin Netanyahu",
+    "S. Jaishankar",
+    "Jawaharlal Nehru"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1"
+   ],
+   "explanation": "Donald Trump signed the executive order titled “Assuring the Security of the State of Qatar.” Benjamin Netanyahu apologised to Qatar after the Israeli airstrikes, but he did not sign the order."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Legal status of executive order",
+   "question": "Which of the following statements regarding the US executive order “Assuring the Security of the State of Qatar” is incorrect?",
+   "options": [
+    "It is not legally binding like a treaty.",
+    "It did not require Senate approval.",
+    "It can be repealed by a future president.",
+    "It is legally binding like a treaty and cannot be repealed by a future president."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P0.F4"
+   ],
+   "explanation": "The incorrect statement is that the executive order is legally binding like a treaty and cannot be repealed. It is not legally binding like a treaty, did not require Senate approval, and can be repealed by a future president."
+  },
+  {
+   "format": "Statement-Based (A/B)",
+   "keyword": "Strategic autonomy and multi-alignment",
+   "question": "With reference to S. Jaishankar’s remarks at the Aravalli Summit at JNU, consider the following statements:\nStatement A: He stated that national interest is best secured by strategic autonomy and multi-alignment rather than bloc alignment.\nStatement B: He cited the 1971 Indo-Soviet Treaty of Peace, Friendship and Cooperation as a precedent during the Bangladesh Liberation War.",
+   "options": [
+    "Both Statement A and Statement B are true",
+    "Both Statement A and Statement B are false",
+    "Statement A is true, Statement B is false",
+    "Statement A is false, Statement B is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "Both statements are true. Jaishankar linked national interest with strategic autonomy and multi-alignment, and referred to the 1971 Indo-Soviet Treaty during the Bangladesh Liberation War; the treaty was not described as a basis for bloc alignment."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Tariffs on Russian oil route via India",
+   "question": "What action did the United States take concerning products refined from Russian oil, including products re-exported by India?",
+   "options": [
+    "It imposed tariffs on them.",
+    "It included them in the India–Middle East–Europe Economic Corridor.",
+    "It classified them as part of China’s Belt and Road Initiative.",
+    "It exempted them from all trade measures."
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1"
+   ],
+   "explanation": "The United States imposed tariffs on products refined from Russian oil, including those re-exported by India. The India–Middle East–Europe Economic Corridor is presented as India’s alternative to the Belt and Road Initiative, not as a tariff measure."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "UNESCO assessment and cultural-property protection",
+   "question": "With reference to the destruction of cultural heritage in Gaza, consider the following statements:\n1. A UNESCO assessment in August 2025 recorded damage to 110 cultural sites.\n2. The 1954 Hague Convention concerns the protection of cultural property in armed conflict.\n3. UNESCO uses the term ‘urbicide’ in connection with the destruction of the urban environment.",
+   "options": [
+    "1 and 2 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P3.F2",
+    "P3.F3"
+   ],
+   "explanation": "All three statements are correct. UNESCO recorded damage to 110 cultural sites, the 1954 Hague Convention protects cultural property in armed conflict, and ‘urbicide’ is the term associated with the destruction of the urban environment."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Historic sites and architectural details",
+   "question": "With reference to important cultural sites in Gaza, how many of the following statements are correct?\n1. The Great Omari Mosque dates to the 7th century and is the second-oldest mosque in Palestine.\n2. Al-Qissariya, or the Gold Market, is a Mamluk site dating to the 17th century.\n3. The Church of Saint Porphyrius is Greek Orthodox and dates to the 5th century.\n4. Pasha’s Palace is a 16th-century Radwan Dynasty Castle.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P3.F4",
+    "P3.F5",
+    "P3.F6",
+    "P3.F7"
+   ],
+   "explanation": "Only one statement is correct: the Great Omari Mosque dates to the 7th century and is the second-oldest mosque in Palestine. Al-Qissariya dates to the 14th century, the Church of Saint Porphyrius is correctly dated to the 5th century, and Pasha’s Palace dates to the 17th century, not the 16th."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "International Solar Alliance",
+   "question": "Through which organisation will India showcase PM-KUSUM and PM Surya Ghar in Africa and island nations?",
+   "options": [
+    "International Solar Alliance",
+    "Belt and Road Initiative",
+    "Organisation for the Prohibition of Chemical Weapons",
+    "North Atlantic Treaty Organization"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P4.F1",
+    "P0.F7"
+   ],
+   "explanation": "India will showcase PM-KUSUM and PM Surya Ghar through the International Solar Alliance in Africa and island nations. The Organisation for the Prohibition of Chemical Weapons monitors the chemical industry and assists states against chemical weapons; it is not the platform for this solar-energy initiative."
+  }
+ ]
+}

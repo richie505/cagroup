@@ -1,33 +1,33 @@
 # CA MCQ report
 
-- MCQs kept: **2976**
-- News pages with at least one question: **2048 / 2629**
-- Facts tested: **6204 / 20515** (30.2%)
-- Answer positions: A 767, B 753, C 800, D 656
+- MCQs kept: **3204**
+- News pages with at least one question: **2199 / 2629**
+- Facts tested: **6706 / 20515** (32.7%)
+- Answer positions: A 831, B 811, C 861, D 701
 
 | Format | A | B | C | D |
 |---|---|---|---|---|
-| Direct Recall | 305 | 321 | 313 | 272 |
-| Negative / Incorrect Statement | 81 | 82 | 91 | 86 |
-| Assertion-Reason | 88 | 90 | 114 | 100 |
-| Statement-Based (A/B) | 109 | 66 | 103 | 84 |
-| Multi-Statement Correctness | 120 | 98 | 104 | 95 |
-| Chronological Ordering | 1 | 0 | 0 | 0 |
-| List-Matching | 26 | 25 | 25 | 17 |
-| Count-Based | 37 | 71 | 50 | 2 |
+| Direct Recall | 330 | 345 | 339 | 285 |
+| Negative / Incorrect Statement | 86 | 91 | 97 | 95 |
+| Assertion-Reason | 97 | 95 | 124 | 106 |
+| Statement-Based (A/B) | 117 | 71 | 110 | 91 |
+| Multi-Statement Correctness | 130 | 101 | 109 | 105 |
+| Chronological Ordering | 2 | 0 | 0 | 0 |
+| List-Matching | 27 | 26 | 28 | 17 |
+| Count-Based | 42 | 82 | 54 | 2 |
 
 ## Dropped items by reason
 
 | Reason | Items |
 |---|---|
-| code | 304 |
-| verify:explanation_contradicts | 41 |
-| verify:not_in_facts | 38 |
-| over the page's quota | 20 |
-| duplicate | 11 |
+| code | 324 |
+| verify:explanation_contradicts | 45 |
+| verify:not_in_facts | 42 |
+| over the page's quota | 22 |
+| duplicate | 12 |
 | verify:none_correct | 9 |
 | verify:two_correct | 8 |
-| verify:second reader picked option 2, key 1 | 5 |
+| verify:second reader picked option 2, key 1 | 6 |
 | verify:garbled | 3 |
 | verify:ambiguous_stem | 2 |
 | verify:second reader picked option 3, key 0 | 1 |
@@ -35,6 +35,7 @@
 | verify:second reader picked option 2, key 0 | 1 |
 | verify:trivial | 1 |
 | verify:second reader picked option 3, key 1 | 1 |
+| verify:second reader picked option 3, key 2 | 1 |
 
 ## Per file
 
@@ -168,16 +169,16 @@
 | 2025-11/08 | Reports, Indices & Rankings | 2 | 3/10 |
 | 2025-11/09 | Awards, Persons & Appointments | 2 | 2/13 |
 | 2025-11/11 | Important Days & Events | 3 | 6/21 |
-| 2025-10/01 | Andhra Pradesh | 0 | 0/294 |
-| 2025-10/02 | Polity & Governance | 0 | 0/137 |
-| 2025-10/03 | Schemes & Social Sector | 0 | 0/97 |
-| 2025-10/04 | Economy, Banking & Budget | 0 | 0/101 |
-| 2025-10/05 | International Relations | 0 | 0/185 |
-| 2025-10/06 | Science, Tech, Space & Defence | 0 | 0/92 |
-| 2025-10/07 | Environment & Geography | 0 | 0/158 |
-| 2025-10/08 | Reports, Indices & Rankings | 0 | 0/54 |
-| 2025-10/09 | Awards, Persons & Appointments | 0 | 0/47 |
-| 2025-10/11 | Important Days & Events | 0 | 0/18 |
+| 2025-10/01 | Andhra Pradesh | 56 | 127/294 |
+| 2025-10/02 | Polity & Governance | 25 | 51/137 |
+| 2025-10/03 | Schemes & Social Sector | 18 | 44/97 |
+| 2025-10/04 | Economy, Banking & Budget | 21 | 49/101 |
+| 2025-10/05 | International Relations | 33 | 63/185 |
+| 2025-10/06 | Science, Tech, Space & Defence | 18 | 43/92 |
+| 2025-10/07 | Environment & Geography | 33 | 75/158 |
+| 2025-10/08 | Reports, Indices & Rankings | 10 | 19/54 |
+| 2025-10/09 | Awards, Persons & Appointments | 10 | 24/47 |
+| 2025-10/11 | Important Days & Events | 4 | 7/18 |
 | 2025-09/01 | Andhra Pradesh | 0 | 0/262 |
 | 2025-09/02 | Polity & Governance | 0 | 0/138 |
 | 2025-09/03 | Schemes & Social Sector | 0 | 0/91 |
@@ -573,3 +574,33 @@
 - `2025-11/04/c000#2` verify: explanation_contradicts — Statement B is supported by the facts, so the explanation incorrectly says both statements are false.
   - Q: Consider the following statements: / Statement A: The Draft Seeds Bill, 2025, was introduced by the Ministry of Finance. / Statement B: It proposes to replace the Seeds Act, 1966 and the Seeds (Control) O
   - Key: Both Statement A and Statement B are false
+- `2025-10/01/c001#2` verify: second reader picked option 3, key 2 — 
+  - Q: How many of the following preparedness measures for Cyclone Montha were correct? / 1. APSDMA sanctioned ₹19 crore. / 2. Six NDRF teams were deployed. / 3. Thirteen SDRF teams were deployed. / 4. Fourteen resc
+  - Key: Only three
+- `2025-10/01/c002#5` verify: second reader picked option 2, key 1 — 
+  - Q: How many of the following statements about Stree Shakti scheme indicators are correct? / 1. More than 12 lakh women used the scheme during its first 30 hours. / 2. The number of women beneficiaries stood 
+  - Key: Only two
+- `2025-10/01/c005#5` verify: not_in_facts — The facts establish statements 1 and 2 but do not establish whether MEPMA received three or four honours.
+  - Q: With reference to the Swachha Andhra Awards 2025, consider the following statements: /  / 1. Anantapur won the Best Swachha District 2025 award. / 2. Tadipatri Municipality won in the Swachha Municipality c
+  - Key: 1 and 2 only
+- `2025-10/01/c007#1` verify: not_in_facts — The facts contradict statement 3 but do not establish the claimed ₹1.50 per-unit power subsidy in statement 2.
+  - Q: Which of the following statements about the ‘Super GST – Super Savings’ programme and support for Andhra Pradesh’s fisheries sector is incorrect?
+  - Key: The Union Budget 2025-26 increased customs duty on shrimp feed and fish feed.
+- `2025-10/05/c000#5` verify: explanation_contradicts — The facts establish that statements 1 and 3 are correct, so the count is two rather than one.
+  - Q: With reference to important cultural sites in Gaza, how many of the following statements are correct? / 1. The Great Omari Mosque dates to the 7th century and is the second-oldest mosque in Palestine. / 2
+  - Key: Only one
+- `2025-10/05/c001#1` verify: not_in_facts — The facts do not explicitly state that the Terms of Reference for Joint Staff Talks were signed, though they identify the maritime-information wording as incorrect.
+  - Q: Which of the following statements regarding the agreements and outcomes of the inaugural Australia–India Defence Ministers' Dialogue is incorrect?
+  - Key: An Agreement on Maritime Information Sharing was signed.
+- `2025-10/06/c000#2` verify: explanation_contradicts — The reason establishes participation by both carriers but does not explain the historical claim that this was the first-ever such exercise.
+  - Q: Assertion (A): Konkan-25 was the first-ever bilateral carrier strike group exercise involving both Indian and UK carrier groups. / Reason (R): India operated INS Vikrant and the UK operated HMS Prince o
+  - Key: Both A and R are true, and R is the correct explanation of A
+- `2025-10/07/c003#1` verify: explanation_contradicts — The facts explicitly support Statement 2, so the correct count is two statements, not one.
+  - Q: Consider the following statements about the All-India Synchronous Elephant Estimation (SAIEE) 2025: / 1. The M-Stripes app was used in the exercise. / 2. The exercise collected 21,056 dung samples that id
+  - Key: 1 only
+- `2025-10/07/c004#4` verify: explanation_contradicts — The facts support statements 1 and 3, so statement 3 is not incorrect as the explanation claims.
+  - Q: With reference to the CSE reports released at the National Conclave on Sustainable Food Systems, consider the following statements: / 1. 90% of rural districts face climate risk. / 2. Rain-fed rice yields
+  - Key: 1 only
+- `2025-10/08/c000#2` verify: not_in_facts — The facts establish that climate change replaced hunting as the top threat but do not establish that this applied specifically to Asia.
+  - Q: With reference to the IUCN World Heritage Outlook 4 (2025), consider the following: / Assertion (A): Climate change was identified as the top threat to natural World Heritage sites in Asia. / Reason (R): 
+  - Key: Both A and R are true, and R is the correct explanation of A

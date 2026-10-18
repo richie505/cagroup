@@ -1,0 +1,53 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  2
+ ],
+ "only": [
+  "P2.F1",
+  "P2.F2",
+  "P2.F3",
+  "P2.F4",
+  "P2.F5",
+  "P2.F6",
+  "P2.F7",
+  "P2.F8",
+  "P2.F9"
+ ],
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Report finding: air-pollution deaths",
+   "question": "According to the State of Global Air (SoGA) 2025 report, approximately how many deaths were attributed to air pollution in India in 2023?",
+   "options": [
+    "Approximately 1.4 million",
+    "Approximately 2 million",
+    "Approximately 4.9 million",
+    "Approximately 8 million"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F8"
+   ],
+   "explanation": "The State of Global Air (SoGA) 2025 report estimated approximately 2 million air-pollution deaths in India in 2023. The figure of 1.4 million refers to India in 2000, while 4.9 million and 8 million are global figures associated with outdoor air pollution and total air-pollution deaths, respectively."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Air-pollution death rate",
+   "question": "With reference to the State of Global Air (SoGA) 2025 report, which of the following statements is incorrect?",
+   "options": [
+    "India recorded approximately 2 million air-pollution deaths in 2023.",
+    "India's air-pollution deaths increased by 43% from 1.4 million in 2000.",
+    "About 89% of India's air-pollution deaths were from non-communicable diseases.",
+    "India's air-pollution death rate was 17 per 100,000, compared with 186 per 100,000 in high-income countries."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3"
+   ],
+   "explanation": "The incorrect statement is the fourth one. The report placed India's death rate at 186 per 100,000, compared with 17 per 100,000 in high-income countries; the statement reverses these figures. The other statements correctly reflect India's 2023 deaths, the 43% increase, and the 89% share from non-communicable diseases."
+  }
+ ]
+}

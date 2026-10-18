@@ -1,0 +1,117 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Released by",
+   "question": "Who released the CRS Report 2023 — Vital Statistics of India on 13 October 2025?",
+   "options": [
+    "Registrar General of India (RGI)",
+    "Health Effects Institute (HEI)",
+    "International Union for Conservation of Nature (IUCN)",
+    "Institute for Health Metrics and Evaluation (IHME)"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P0.F1",
+    "P2.F1",
+    "P1.F3"
+   ],
+   "explanation": "The CRS Report 2023 — Vital Statistics of India was released by the Registrar General of India on 13 October 2025. HEI and IHME were associated with the State of Global Air 2025 report, while IUCN assessed the World Heritage sites."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Birth registration data",
+   "question": "Which of the following statements regarding the CRS Report 2023 — Vital Statistics of India is incorrect?",
+   "options": [
+    "Birth registration stood at 98.4%.",
+    "Institutional births accounted for 74.7%.",
+    "Sikkim's data were included in the report.",
+    "The report recorded 2.52 crore births in 2023."
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F3"
+   ],
+   "explanation": "The incorrect statement is that Sikkim's data were included; Sikkim data were not included in the report. The report recorded 2.52 crore births, with 98.4% birth registration and 74.7% institutional births."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Top threat in Asia",
+   "question": "With reference to the IUCN World Heritage Outlook 4 (2025), consider the following:\nAssertion (A): Climate change was identified as the top threat to natural World Heritage sites in Asia.\nReason (R): Climate change replaced hunting as the top threat.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F4",
+    "P1.F6"
+   ],
+   "explanation": "Both the Assertion and the Reason are true. Climate change was the top threat in Asia, having replaced hunting, so the Reason correctly explains the Assertion."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Only Indian site in Good category",
+   "question": "Which Indian natural World Heritage site was the only one placed in the 'Good' category in the IUCN World Heritage Outlook 4 (2025)?",
+   "options": [
+    "Khangchendzonga National Park",
+    "Great Himalayan National Park",
+    "Western Ghats",
+    "Sundarbans National Park"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1",
+    "P1.F2",
+    "P1.F3"
+   ],
+   "explanation": "Khangchendzonga National Park in Sikkim was the only Indian site placed in the 'Good' category. Great Himalayan National Park was in 'Good with some concerns', while the Western Ghats and Sundarbans were in 'Significant concern'."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "India air-pollution findings",
+   "question": "Consider the following statements about the State of Global Air 2025 report:\n1. India recorded approximately 2 million air-pollution deaths in 2023, with 89% attributed to non-communicable diseases.\n2. India's air-pollution death rate was 168 per 100,000.\n3. Seventy per cent of Indians were exposed above the WHO interim target of 35 µg/m³.\nWhich of the statements given above is correct?",
+   "options": [
+    "Exactly one statement is correct",
+    "Exactly two statements are correct",
+    "All three statements are correct",
+    "No statement is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F2",
+    "P2.F3",
+    "P2.F6"
+   ],
+   "explanation": "Exactly one statement is correct: India recorded approximately 2 million air-pollution deaths in 2023, and 89% were from non-communicable diseases. The death rate was 186 per 100,000, and 75%—not 70%—were exposed above the WHO interim target."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Global and India air-pollution statistics",
+   "question": "How many of the following statements are correct according to the State of Global Air 2025 report?\n1. Maharashtra, Uttar Pradesh, Rajasthan, Bihar and West Bengal each recorded more than one lakh air-pollution deaths.\n2. Globally, air pollution caused 8 million deaths annually, including 4.9 million from outdoor pollution and 2.8 million from household pollution.\n3. Air pollution contributed to 30% of lung-cancer deaths.\n4. Seventy per cent of Indians were exposed above the WHO interim target of 35 µg/m³.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F4",
+    "P2.F6",
+    "P2.F8"
+   ],
+   "explanation": "Only two statements are correct: the five named States each recorded more than one lakh deaths, and the global total was 8 million, including 4.9 million outdoor and 2.8 million household-pollution deaths. The report gave 33% for lung-cancer deaths and 75% for Indians exposed above the WHO interim target, not 30% and 70%."
+  }
+ ]
+}

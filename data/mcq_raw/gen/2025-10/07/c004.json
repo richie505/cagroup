@@ -1,0 +1,147 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news; First/only",
+   "question": "Baratang in the Andaman and Nicobar Islands was in the news in October 2025 for which distinctive geological feature?",
+   "options": [
+    "India's only active mud volcano",
+    "India's only active lava volcano",
+    "India's only active geyser",
+    "India's only active sandstone volcano"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P13.F1"
+   ],
+   "explanation": "Baratang is the site of India’s only active mud volcano. The volcanic material is mud rather than lava, so the option describing an active lava volcano is incorrect."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Nature of eruption; Geological cause",
+   "question": "Assertion (A): The Baratang geological feature produces lava during its eruptions.\nReason (R): Its eruptions involve cold mud and gases rather than lava.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P13.F1",
+    "P13.F4"
+   ],
+   "explanation": "The assertion is false because Baratang is a mud volcano and its eruptions involve cold mud and gases, not lava. The reason is true and correctly describes the nature of the eruption."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Stubble burning data; Burnt area",
+   "question": "According to the 2024 data on Punjab stubble burning, which combination is correct?",
+   "options": [
+    "10,909 farm fires and 19.17 lakh hectares burnt",
+    "36,663 farm fires and 19.14 lakh hectares burnt",
+    "10,909 farm fires and 15.60 lakh hectares burnt",
+    "36,663 farm fires and 15.40 lakh hectares burnt"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P14.F3",
+    "P14.F4"
+   ],
+   "explanation": "Punjab recorded 10,909 farm fires and a burnt area of 19.17 lakh hectares in 2024. The figure of 36,663 farm fires belongs to 2023, not 2024."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Stubble burning trend",
+   "question": "Which of the following statements regarding Punjab’s farm fires and burnt area is incorrect?",
+   "options": [
+    "Farm fires fell by 70% in 2024.",
+    "The burnt area in 2024 was 19.17 lakh hectares.",
+    "The burnt area in 2023 was 19.14 lakh hectares.",
+    "Farm fires in 2024 numbered 36,663."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P14.F3",
+    "P14.F4"
+   ],
+   "explanation": "The incorrect statement is that 2024 recorded 36,663 farm fires. The correct 2024 figure was 10,909; 36,663 farm fires were recorded in 2023."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Climate-risk agriculture data",
+   "question": "With reference to the CSE reports released at the National Conclave on Sustainable Food Systems, consider the following statements:\n1. 90% of rural districts face climate risk.\n2. Rain-fed rice yields may fall 20% by 2080.\n3. Rain-fed areas account for 60% of the net sown area.",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P15.F3"
+   ],
+   "explanation": "Only statement 1 is correct: 90% of rural districts face climate risk. Rain-fed rice yields may fall 20% by 2050 and 47% by 2080, while rain-fed areas account for 60% of net sown area; therefore statements 2 and 3 are incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Policy implication; Ethanol blending",
+   "question": "The EU’s proposed de-facto ban on ethanol-based products was reported alongside which Indian programme and target?",
+   "options": [
+    "Ethanol Blended Petrol Programme—E20 by 2025",
+    "Ethanol Blended Petrol Programme—E10 by 2025",
+    "Ethanol Blended Petrol Programme—E20 by 2030",
+    "Ethanol Blended Petrol Programme—E30 by 2025"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P16.F1",
+    "P16.F3"
+   ],
+   "explanation": "India’s Ethanol Blended Petrol Programme targets E20, or 20% ethanol blending, by 2025. The EU issue arose after ECHA flagged carcinogenic risk in connection with ethanol-based products."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Report publisher",
+   "question": "Which organisation released the report “Planet Wreckers” on fossil-fuel expansion by the Global North?",
+   "options": [
+    "Oil Change International",
+    "Geological Survey of India",
+    "European Chemical Agency",
+    "Anil Agarwal Environment Training Institute"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F1"
+   ],
+   "explanation": "“Planet Wreckers” was released by Oil Change International. The report examined fossil-fuel expansion involving Australia, Canada, Norway and the USA."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Global fossil expansion findings",
+   "question": "How many of the following statements about the findings in OCI’s “Planet Wreckers” report are correct?\n1. The USA accounted for over 90% of the net global increase in oil and gas output.\n2. Climate finance paid since 2015 amounted to $465 billion.\n3. Fossil-fuel subsidies amounted to $280 billion.\n4. The six major companies together recorded profits of $1–5 trillion.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P17.F3",
+    "P17.F4",
+    "P17.F5"
+   ],
+   "explanation": "Only one statement is correct: the USA accounted for over 90% of the net global increase, adding 11 million boe/day. Climate finance paid since 2015 was $280 billion, fossil-fuel subsidies were $465 billion, and the six majors recorded profits of more than $580 billion."
+  }
+ ]
+}

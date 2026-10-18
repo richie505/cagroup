@@ -1,0 +1,79 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  0,
+  1,
+  2
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "ASI-managed monuments",
+   "question": "The Archaeological Survey of India (ASI), central to heritage management, manages more than how many monuments of national importance?",
+   "options": [
+    "800 million",
+    "3,650",
+    "150",
+    "1945"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P0.F2",
+    "P0.F4"
+   ],
+   "explanation": "The ASI manages more than 3,650 monuments of national importance and is central to heritage management. The figures 800 million and 150 refer to other facts, while 1945 is associated with India’s founding membership of FAO."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "India–FAO partnership",
+   "question": "World Food Day 2025 marked how many years of partnership between India and the Food and Agriculture Organization (FAO)?",
+   "options": [
+    "80 years",
+    "150 years",
+    "14 years",
+    "65 years"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P1.F1"
+   ],
+   "explanation": "World Food Day 2025 marked 80 years of India–FAO partnership. India was also a founding member of FAO in 1945, but that is not the duration of the partnership being marked."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Vande Mataram anniversary and history",
+   "question": "With reference to the 150th anniversary observance of ‘Vande Mataram’, consider the following statements:\n1. The 150th-year celebration began on 7 November 2025.\n2. Rabindranath Tagore first sang it at the 1896 Indian National Congress session in Calcutta.\n3. It was declared the National Song on 26 January 1950.\nWhich of the statements given above are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P2.F1",
+    "P2.F6",
+    "P2.F8"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the celebration began on 7 November 2025, and Tagore first sang the song at the 1896 INC session in Calcutta. Statement 3 is incorrect because it was declared the National Song on 24 January 1950, not 26 January 1950."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Authorship and musical setting",
+   "question": "Assertion (A): ‘Vande Mataram’ appears in the novel ‘Anandamath’, published in 1882.\nReason (R): Its music was composed by Jadunath Bhattacharya.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P2.F3",
+    "P2.F5"
+   ],
+   "explanation": "Both the Assertion and the Reason are true: ‘Vande Mataram’ appears in ‘Anandamath’ (1882), and its music was composed by Jadunath Bhattacharya. The musical composition does not explain why the song appears in the novel, so the Reason is not the correct explanation of the Assertion."
+  }
+ ]
+}

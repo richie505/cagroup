@@ -1,0 +1,133 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  9,
+  10,
+  11,
+  12
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "First/only",
+   "question": "What was the major distinction of the All-India Synchronous Elephant Estimation (SAIEE) 2025?",
+   "options": [
+    "India's first DNA-based elephant count",
+    "India's first satellite-based tiger count",
+    "India's first mangrove-based elephant count",
+    "India's first census using only dung samples"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F1"
+   ],
+   "explanation": "SAIEE 2025 was India's first DNA-based elephant count. The exercise was not a satellite-based tiger count or an estimation using only dung samples."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Census methodology",
+   "question": "Consider the following statements about the All-India Synchronous Elephant Estimation (SAIEE) 2025:\n1. The M-Stripes app was used in the exercise.\n2. The exercise collected 21,056 dung samples that identified 4,065 unique elephants.\n3. The exercise did not use a mark-recapture model.\n\nHow many of the statements given above are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "1, 2 and 3"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F16"
+   ],
+   "explanation": "Only Statement 1 is correct: the M-Stripes app was used. The 21,056 dung samples yielded 4,065 unique elephants, and a mark-recapture model was used; therefore, Statements 2 and 3 are incorrect."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Largest elephant population by State",
+   "question": "Which State recorded the largest elephant population in the All-India Synchronous Elephant Estimation (SAIEE) 2025?",
+   "options": [
+    "Karnataka — 6,013",
+    "Assam — 4,159",
+    "Tamil Nadu — 3,136",
+    "Kerala — 2,785"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P9.F9",
+    "P9.F10",
+    "P9.F11",
+    "P9.F12"
+   ],
+   "explanation": "Karnataka recorded the largest elephant population, with 6,013 elephants. Assam, Tamil Nadu and Kerala recorded 4,159, 3,136 and 2,785 elephants respectively."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Recognition/award",
+   "question": "Which recognition did the Sustainable Aquaculture in Mangrove Ecosystems (SAIME) model receive in October 2025?",
+   "options": [
+    "FAO Global Technical Recognition",
+    "FAO Blue Transformation",
+    "MISHTI",
+    "World Food Forum recognition"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P10.F1",
+    "P10.F2",
+    "P10.F6"
+   ],
+   "explanation": "The SAIME model received the FAO Global Technical Recognition on 15 October 2025. FAO Blue Transformation is a linked initiative, while MISHTI is another associated programme and the World Food Forum was the event context."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Onset of Northeast monsoon",
+   "question": "On which date did the Northeast monsoon 2025 set in?",
+   "options": [
+    "16 October 2025",
+    "20 October ± 7 days",
+    "Above normal—over 112% of LPA",
+    "48% of Tamil Nadu's annual rain"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P11.F1"
+   ],
+   "explanation": "The Northeast monsoon set in on 16 October 2025. 20 October ± 7 days was the normal onset window, while the other options describe the forecast and rainfall share."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "Record annual rise in CO₂",
+   "question": "Assertion (A): The rise in atmospheric CO₂ from 2023 to 2024 was the largest since measurements began in 1957.\nReason (R): The CO₂ concentration increased by 3.5 ppm from 2023 to 2024.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P12.F1",
+    "P12.F4"
+   ],
+   "explanation": "Both the Assertion and the Reason are true, and the 3.5 ppm rise explains why the bulletin identified it as the largest rise since measurements began in 1957. The alternative choices incorrectly treat either the record rise or the 3.5 ppm increase as false or unrelated."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Greenhouse-gas concentrations and warming contribution",
+   "question": "How many of the following statements are correct according to the WMO Greenhouse Gas Bulletin?\n1. The CO₂ level in 2024 was 423.9 ppm.\n2. The N₂O level in 2024 was 338 ppm.\n3. Methane accounted for about 16% of the warming effect.\n4. The CO₂ growth rate was 2.4 ppm per year in the 1960s.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 1,
+   "fact_ids": [
+    "P12.F2",
+    "P12.F3",
+    "P12.F5",
+    "P12.F6"
+   ],
+   "explanation": "Only Statements 1 and 3 are correct: CO₂ was 423.9 ppm in 2024, and methane contributed about 16% of the warming effect. N₂O was 338 ppb, not ppm, and the CO₂ growth rate of 2.4 ppm per year applied to 2011–2020, not the 1960s."
+  }
+ ]
+}

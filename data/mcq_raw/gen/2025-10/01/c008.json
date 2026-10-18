@@ -1,0 +1,153 @@
+{
+ "model": "gpt-5.6-luna",
+ "pages": [
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37
+ ],
+ "only": null,
+ "mcqs": [
+  {
+   "format": "Direct Recall",
+   "keyword": "Place in news",
+   "question": "Where was the 17th-century Telugu inscription discovered in Prakasam district?",
+   "options": [
+    "Anantararayunipalli village, Komarolu Mandal",
+    "Ganupulapalli village, Ananthasagaram Mandal",
+    "Chilakalamarri village, Kovvur Mandal",
+    "Dowleswaram village, Komaravoli Mandal"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P31.F1"
+   ],
+   "explanation": "The inscription was discovered at Anantararayunipalli village in Komarolu Mandal of Prakasam district. Ganupulapalli was mentioned in the inscription as a land grant, not as the place of discovery."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Venue of award ceremony",
+   "question": "Where was the Global Tourism Award 2025 presented to the Andhra Pradesh Tourism Department?",
+   "options": [
+    "New Delhi",
+    "Tirupati",
+    "Kakinada",
+    "Gandikota"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P32.F1"
+   ],
+   "explanation": "The award ceremony was held in New Delhi. Gandikota was recognised for its eco-tourism and adventure-tourism development, but it was not the venue of the ceremony."
+  },
+  {
+   "format": "Negative / Incorrect Statement",
+   "keyword": "Award institution",
+   "question": "Which of the following statements about the Global Tourism Award 2025 received by the Andhra Pradesh Tourism Department is incorrect?",
+   "options": [
+    "The award was received by tourism consultant Nishitha Goyal on behalf of the department.",
+    "The award was instituted by the Global News Network.",
+    "The award was presented at a ceremony in New Delhi.",
+    "The award was instituted by the Andhra Pradesh Tourism Department."
+   ],
+   "answer_index": 3,
+   "fact_ids": [
+    "P32.F1",
+    "P32.F2",
+    "P32.F3"
+   ],
+   "explanation": "The incorrect statement is that the award was instituted by the Andhra Pradesh Tourism Department. It was instituted by the Global News Network; Nishitha Goyal received it on behalf of the department at the New Delhi ceremony."
+  },
+  {
+   "format": "Assertion-Reason",
+   "keyword": "National rank and score",
+   "question": "Assertion (A): Challa Chandrasekhar Reddy secured the first national position in the iGOT Karmayogi test with 5,001 karma points.\nReason (R): His score was boosted by bonus points for late completion.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is NOT the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P33.F1",
+    "P33.F2"
+   ],
+   "explanation": "Assertion A is true: Challa Chandrasekhar Reddy ranked first nationally with 5,001 karma points. Reason R is false because the bonus points were awarded for early completion, not late completion."
+  },
+  {
+   "format": "Multi-Statement Correctness",
+   "keyword": "Coverage and structure of initiative",
+   "question": "With reference to the ‘Farmer Champions’ initiative in SPSR Nellore district, consider the following statements:\n1. The initiative is being implemented by the SPSR Nellore district administration.\n2. It covers 722 gram panchayats in 37 mandals.\n3. One lead farmer is selected per mandal, resulting in 37 Farmer Champions.\n\nWhich of the statements given above are correct?",
+   "options": [
+    "Exactly two statements are correct",
+    "Exactly one statement is correct",
+    "All three statements are correct",
+    "No statement is correct"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P34.F1",
+    "P34.F2",
+    "P34.F3"
+   ],
+   "explanation": "Statements 1 and 2 are correct: the district administration is implementing the initiative across 722 gram panchayats in 37 mandals. Statement 3 is incorrect because one lead farmer is selected per panchayat, resulting in 722 Farmer Champions."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Title and recipient",
+   "question": "Who received the title ‘Advaita Vedanta Ratna’ in connection with the Tenali Examination in Advaita Vedanta?",
+   "options": [
+    "Varadarajan Sharma",
+    "G.S.R. Krishnamurthy",
+    "Sri Sankara Vijayendra Saraswati",
+    "Jyothi Chandramouli"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P35.F1",
+    "P35.F2",
+    "P35.F3"
+   ],
+   "explanation": "Varadarajan Sharma received the title ‘Advaita Vedanta Ratna’ after his performance in the Tenali Examination in Advaita Vedanta. Sri Sankara Vijayendra Saraswati conferred the title, while G.S.R. Krishnamurthy was the Vice-Chancellor of NSU."
+  },
+  {
+   "format": "Direct Recall",
+   "keyword": "Beneficiary number",
+   "question": "About how many youth in Kakinada city are expected to benefit from the vocational training centre established by Unnati Foundation with APSSDC?",
+   "options": [
+    "About 2,000",
+    "About 722",
+    "About 52",
+    "About 103"
+   ],
+   "answer_index": 0,
+   "fact_ids": [
+    "P36.F2",
+    "P36.F3"
+   ],
+   "explanation": "The vocational training centre is intended to benefit about 2,000 youth in Kakinada city. The figures 722 and 52 relate to other Andhra Pradesh initiatives, while 103 refers to MoUs signed under the tourism policy."
+  },
+  {
+   "format": "Count-Based",
+   "keyword": "Science Exposure Tour details",
+   "question": "With reference to the Science Exposure Tour of East Godavari girls to Delhi, how many of the following statements are correct?\n1. Ganta Yashaswini and Kandula Jessie were selected for the tour.\n2. A total of 52 students were selected, with two students from each district.\n3. The tour was scheduled from 6 to 8 November 2025 under Samagra Shiksha with AP Science City.\n4. The tour was scheduled from 7 to 9 November 2025.",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answer_index": 2,
+   "fact_ids": [
+    "P37.F1",
+    "P37.F2",
+    "P37.F3"
+   ],
+   "explanation": "Statements 1, 2 and 3 are correct: the two named students were selected, 52 students were included with two from each district, and the tour was scheduled for 6–8 November 2025. Statement 4 is incorrect because the correct dates were 6–8 November 2025, not 7–9 November 2025."
+  }
+ ]
+}
