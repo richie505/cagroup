@@ -60,6 +60,9 @@ Indices & Rankings, 09 Awards, Persons & Appointments, 10 Sports and 11 Importan
   the facts it tests ("From your notes"); a second, independent API call must reach the same key with exactly
   one correct option, or the item is dropped. Safeguards, per-format answer spread and the dropped items:
   `out/mcq-report.md`, `out/mcq-run-status.md`.
+- **MCQ practice (1.4):** topic and day cards add a **Practise** set (wrong on the latest try, or answered after
+  seeing the answer). Progress shows **MCQ results** (right first time, right on a retry, still wrong, answer seen)
+  with one "MCQs to practise" set drawn from all books.
 
 ## Build
 

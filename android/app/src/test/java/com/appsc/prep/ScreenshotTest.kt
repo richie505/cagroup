@@ -193,6 +193,54 @@ class ScreenshotTest {
         rule.onRoot().captureRoboImage("screenshots/10_quiz_answered.png")
     }
 
+    /** A plan day's MCQ card with its four sets: Unattempted, Incorrect, Practise (wrong or answer seen) and All. */
+    @Test fun dayPracticeSets() {
+        val day = repo.plan.days.first { d -> d.rows.sumOf { repo.rowInfo(it.book, it.row)?.questionCount ?: 0 } >= 20 }
+        val ids = runBlocking { day.rows.flatMap { r -> repo.mcq(r.book).rows[r.row].orEmpty() }.map { it.id }.distinct() }
+        val store = ProgressStore(PrefsStorage(ctx))
+        ids.take(10).forEachIndexed { i, id -> store.recordAnswer(id, i % 3 != 0) } // 4 wrong, 6 right
+        store.markSeen(ids[10]) // answer seen first
+        val sets = com.appsc.prep.ui.components.practiceSets(ids, store.answers, store.seen)
+        assertEquals(com.appsc.prep.ui.components.PracticeSets(ids.size - 11, 4, ids.size, practice = 5), sets)
+        // the card alone: the whole day screen does not always settle in the full Robolectric run
+        rule.setContent {
+            PrepTheme {
+                com.appsc.prep.ui.components.PracticeCard("Today's MCQs", "${ids.size} questions", null, onStart = {}, sets = sets)
+            }
+        }
+        rule.waitForIdle()
+        rule.onAllNodesWithText("${ids.size - 11}")[0].assertExists()
+        rule.onNodeWithText("Practise").assertExists()
+        rule.onNodeWithText("5").assertExists()
+        rule.onRoot().captureRoboImage("screenshots/27_day_practice_sets.png")
+    }
+
+    /** "MCQs to practise" reads each book in turn without keeping it, and finds the ones that need practice. */
+    @Test fun practisePoolAcrossBooks() {
+        val book = repo.index.last { it.rows.any { r -> r.questionCount > 0 } }.id
+        val (a, b) = runBlocking { repo.mcqWhere(book) { true }.map { it.id }.let { it[0] to it[5] } }
+        val store = ProgressStore(PrefsStorage(ctx))
+        store.recordAnswer(a, false)
+        store.markSeen(b)
+        val need = runBlocking { repo.index.flatMap { bk -> repo.mcqWhere(bk.id) { store.needsPractice(it.id) } } }
+        assertEquals(setOf(a, b), need.map { it.id }.toSet())
+        assertEquals(null, repo.cachedMcq(book)) // nothing kept in memory
+    }
+
+    /** Progress → MCQ results: right first time, right on a retry, still wrong, answer seen; and the set to practise. */
+    @Test fun mcqResults() {
+        val ids = runBlocking { repo.mcqWhere(firstBook) { true }.map { it.id } }
+        val store = ProgressStore(PrefsStorage(ctx))
+        repeat(20) { store.recordAnswer(ids[it], it % 4 != 0) } // 15 right, 5 wrong
+        store.recordAnswer(ids[0], true) // a wrong one put right
+        repeat(3) { store.markSeen(ids[20 + it]) }
+        shot("33_mcq_results") { ProgressScreen(nav) }
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("MCQs to practise"))
+        rule.waitForIdle()
+        rule.onNodeWithText("7 questions · still wrong or answer seen").assertExists() // 4 wrong + 3 seen
+        rule.onRoot().captureRoboImage("screenshots/33_mcq_results.png")
+    }
+
     @Test fun progress() {
         shot("8_progress") { ProgressScreen(nav) }
         rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("Back up now"))

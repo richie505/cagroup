@@ -14,8 +14,8 @@ android {
         applicationId = "com.cagroup.caprep"
         minSdk = 26
         targetSdk = 35
-        versionCode = 4
-        versionName = "1.3"
+        versionCode = 5
+        versionName = "1.4"
         resValue("string", "app_name", "CA Prep")
     }
 
